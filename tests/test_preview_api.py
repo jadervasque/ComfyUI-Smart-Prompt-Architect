@@ -5,6 +5,7 @@ import unittest
 from concurrent.futures import ThreadPoolExecutor
 from typing import Any, cast
 
+from prompt_architect.application.compose_service import ComposeService
 from prompt_architect.application.preview_api import (
     MAX_PREVIEW_PAYLOAD_BYTES,
     decode_preview_payload,
@@ -13,7 +14,9 @@ from prompt_architect.application.preview_api import (
     preview,
     validate,
 )
+from prompt_architect.comfy.schemas import build_node_configuration
 from prompt_architect.domain.exceptions import ConfigurationError
+from prompt_architect.infrastructure.repository import bundled_repository
 
 
 def _configuration(seed: int = 7) -> dict[str, object]:
@@ -52,6 +55,24 @@ class PreviewApiTests(unittest.TestCase):
         self.assertTrue(validation["valid"])
         manifest = cast(dict[str, Any], result["manifest"])
         self.assertEqual(validation["configuration_hash"], manifest["configuration_hash"])
+
+    def test_preview_matches_visible_node_identity_lock_precedence(self) -> None:
+        data = _configuration()
+        cast(dict[str, Any], cast(dict[str, Any], data["groups"])["identity"]).pop("seed")
+        expected_configuration = build_node_configuration(
+            profile="portrait",
+            seed=7,
+            generation_mode="balanced",
+            identity_lock=True,
+            configuration_json=json.dumps(data),
+            positive_prefix="",
+            positive_suffix="",
+            negative_prefix="",
+            negative_suffix="",
+        )
+        expected = ComposeService(bundled_repository()).compose(expected_configuration)
+        actual = preview(data)
+        self.assertEqual(actual["positive_prompt"], expected.rendered.positive)
 
     def test_invalid_id_and_oversized_payload_fail(self) -> None:
         with self.assertRaises(ConfigurationError):

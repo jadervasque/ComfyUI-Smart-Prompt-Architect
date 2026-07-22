@@ -8,6 +8,7 @@ from collections.abc import Mapping
 from prompt_architect.application.compose_service import ComposeService
 from prompt_architect.domain.models import CompositionResult
 from prompt_architect.domain.parser import parse_configuration
+from prompt_architect.domain.seeds import derive_seed
 from prompt_architect.infrastructure.json_loader import decode_json_object
 from prompt_architect.infrastructure.repository import PromptDataRepository, bundled_repository
 
@@ -87,7 +88,7 @@ def preview(
         isinstance(key, str) for key in configuration_data
     ):
         raise ValueError("configuration must be a JSON object")
-    configuration = parse_configuration(configuration_data)
+    configuration = parse_configuration(_materialize_identity_seed(configuration_data))
     result = ComposeService(repository or bundled_repository()).compose(configuration)
     return _result_payload(result)
 
@@ -125,3 +126,26 @@ def _result_payload(result: CompositionResult) -> dict[str, object]:
             for issue in result.issues
         ],
     }
+
+
+def _materialize_identity_seed(configuration: Mapping[str, object]) -> dict[str, object]:
+    """Mirror the node's visible identity-lock precedence for exact preview parity."""
+    data = dict(configuration)
+    groups_value = data.get("groups", {})
+    if not isinstance(groups_value, Mapping):
+        return data
+    groups = dict(groups_value)
+    identity_value = groups.get("identity", {})
+    if not isinstance(identity_value, Mapping):
+        return data
+    identity = dict(identity_value)
+    master_seed = data.get("master_seed")
+    if (
+        identity.get("locked") is True
+        and identity.get("seed") is None
+        and isinstance(master_seed, int)
+    ):
+        identity["seed"] = derive_seed(master_seed, "identity-lock")
+        groups["identity"] = identity
+        data["groups"] = groups
+    return data
