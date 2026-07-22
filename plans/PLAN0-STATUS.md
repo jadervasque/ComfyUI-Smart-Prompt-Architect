@@ -11,9 +11,9 @@
 | Versão do plano | 1.0 |
 | Status geral | `IN_PROGRESS` |
 | Etapa atual | ETAPA 4 |
-| Última atualização | 2026-07-22 18:54 -04:00 |
+| Última atualização | 2026-07-22 18:55 -04:00 |
 | Responsável atual | Agente IA no VS Code |
-| Branch atual | `feat/deterministic-selection` |
+| Branch atual | `feat/rules-engine` |
 | Próximo marco | Motor de regras de compatibilidade |
 | Bloqueadores | Nenhum identificado |
 
@@ -35,7 +35,7 @@
 | 1 | Contratos e modelos | DONE | 0 | 2026-07-22 18:41 -04:00 | 2026-07-22 18:47 -04:00 | `288bc66` | Aceite validado com 12 testes |
 | 2 | Loader e cache | DONE | 1 | 2026-07-22 18:48 -04:00 | 2026-07-22 18:51 -04:00 | `778cc94` | Aceite validado com 22 testes acumulados |
 | 3 | Seeds e seleção | DONE | 1 | 2026-07-22 18:52 -04:00 | 2026-07-22 18:54 -04:00 | `72d277e` | Golden tests e independência de grupos aprovados |
-| 4 | Motor de regras | PENDING | 1, 3 | — | — | — | — |
+| 4 | Motor de regras | IN_PROGRESS | 1, 3 | 2026-07-22 18:55 -04:00 | — | — | Regras seguras em implementação |
 | 5 | Compositor e fallbacks | PENDING | 2, 3, 4 | — | — | — | — |
 | 6 | Renderer e normalização | PENDING | 1, 5 | — | — | — | — |
 | 7 | Validação e manifesto | PENDING | 5, 6 | — | — | — | — |
@@ -276,6 +276,22 @@ Adicionar uma entrada por sessão relevante. Não apagar entradas antigas.
 - Decisões: `random.Random` é deliberadamente não criptográfico e usado somente para conteúdo determinístico; S311 foi documentado/limitado.
 - Commit/PR: `72d277e` (`feat: implement deterministic weighted selection`).
 - Próxima ação: executar a ETAPA 4 — Motor de regras.
+
+### 2026-07-22 18:55 -04:00 — ETAPA 4
+
+- Status anterior: `PENDING`.
+- Status novo: `IN_PROGRESS`.
+- Branch: `feat/rules-engine`.
+- Objetivo: avaliar regras declarativas, aplicar preferências/implicações e falhar claramente em conflitos fixos ou ciclos.
+- Arquivos alterados: inicialmente apenas `plans/PLAN0-STATUS.md`.
+- Implementação: iniciada.
+- Testes executados: pendentes.
+- Resultado dos testes: pendente.
+- Pendências: rules engine, testes, exemplos, documentação e commit.
+- Bloqueadores: nenhum.
+- Decisões: operadores consultarão somente seleção resolvida, tags, metadado seguro e modo de geração.
+- Commit/PR: pendente.
+- Próxima ação: implementar o menor conjunto completo da ETAPA 4.
 
 ## 6. Testes executados
 
