@@ -11,9 +11,9 @@
 | Versão do plano | 1.0 |
 | Status geral | `IN_PROGRESS` |
 | Etapa atual | ETAPA 2 |
-| Última atualização | 2026-07-22 18:47 -04:00 |
+| Última atualização | 2026-07-22 18:48 -04:00 |
 | Responsável atual | Agente IA no VS Code |
-| Branch atual | `feat/contracts` |
+| Branch atual | `feat/repository` |
 | Próximo marco | Loader, paths e cache seguros |
 | Bloqueadores | Nenhum identificado |
 
@@ -33,7 +33,7 @@
 |---:|---|---|---|---|---|---|---|
 | 0 | Bootstrap e decisões | DONE | — | 2026-07-22 18:32 -04:00 | 2026-07-22 18:38 -04:00 | `02a3977` | Aceite validado; registro final em commit separado |
 | 1 | Contratos e modelos | DONE | 0 | 2026-07-22 18:41 -04:00 | 2026-07-22 18:47 -04:00 | `288bc66` | Aceite validado com 12 testes |
-| 2 | Loader e cache | PENDING | 1 | — | — | — | — |
+| 2 | Loader e cache | IN_PROGRESS | 1 | 2026-07-22 18:48 -04:00 | — | — | Loader seguro e cache em implementação |
 | 3 | Seeds e seleção | PENDING | 1 | — | — | — | — |
 | 4 | Motor de regras | PENDING | 1, 3 | — | — | — | — |
 | 5 | Compositor e fallbacks | PENDING | 2, 3, 4 | — | — | — | — |
@@ -187,6 +187,22 @@ Adicionar uma entrada por sessão relevante. Não apagar entradas antigas.
 - Decisões: schemas documentam interoperabilidade; parser stdlib é a validação executável para não adicionar dependência de runtime.
 - Commit/PR: `288bc66` (`feat: define prompt data contracts`).
 - Próxima ação: executar a ETAPA 2 — Loader, paths e cache.
+
+### 2026-07-22 18:48 -04:00 — ETAPA 2
+
+- Status anterior: `PENDING`.
+- Status novo: `IN_PROGRESS`.
+- Branch: `feat/repository`.
+- Objetivo: carregar dados JSON somente de raízes autorizadas, com precedência, limite, cache e invalidação determinística.
+- Arquivos alterados: inicialmente apenas `plans/PLAN0-STATUS.md`.
+- Implementação: iniciada.
+- Testes executados: pendentes.
+- Resultado dos testes: pendente.
+- Pendências: paths, loader, cache, repository, testes, documentação e commit.
+- Bloqueadores: nenhum.
+- Decisões: IDs serão convertidos apenas em nomes de arquivo validados, nunca em caminhos fornecidos pelo usuário.
+- Commit/PR: pendente.
+- Próxima ação: implementar o menor conjunto completo da ETAPA 2.
 
 ## 6. Testes executados
 
