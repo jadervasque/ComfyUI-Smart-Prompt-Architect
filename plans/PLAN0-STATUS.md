@@ -10,11 +10,11 @@
 | Plano | `PLAN0.md` |
 | Versão do plano | 1.0 |
 | Status geral | `IN_PROGRESS` |
-| Etapa atual | ETAPA 12 |
-| Última atualização | 2026-07-22 19:43 -04:00 |
+| Etapa atual | ETAPA 13 |
+| Última atualização | 2026-07-22 19:50 -04:00 |
 | Responsável atual | Agente IA no VS Code |
-| Branch atual | `feat/advanced-editor` |
-| Próximo marco | Editor visual completo |
+| Branch atual | `ci/quality-matrix` |
+| Próximo marco | Qualidade e CI multiplataforma |
 | Bloqueadores | Nenhum identificado |
 
 ## 2. Legenda
@@ -43,8 +43,8 @@
 | 9 | Nó ComfyUI V3 | DONE | 7, 8 | 2026-07-22 19:20 -04:00 | 2026-07-22 19:30 -04:00 | `e35b73f` | Nó validado dentro do ComfyUI 0.27.0 local |
 | 10 | Frontend mínimo | DONE | 9 | 2026-07-22 19:31 -04:00 | 2026-07-22 19:38 -04:00 | `5a2d503` | Estado serializado e assets servidos no ComfyUI local |
 | 11 | Preview e validação API | DONE | 7, 9, 10 | 2026-07-22 19:38 -04:00 | 2026-07-22 19:43 -04:00 | `dac65e1` | Rotas e limites validados no ComfyUI local |
-| 12 | Interface avançada | IN_PROGRESS | 10, 11 | 2026-07-22 19:43 -04:00 | — | — | Controles por seção em implementação |
-| 13 | Qualidade e CI | PENDING | 0–12 | — | — | — | Pode começar parcialmente antes |
+| 12 | Interface avançada | DONE | 10, 11 | 2026-07-22 19:43 -04:00 | 2026-07-22 19:50 -04:00 | `3c98b5e` | Editor completo e estado avançado testado |
+| 13 | Qualidade e CI | IN_PROGRESS | 0–12 | 2026-07-22 19:50 -04:00 | — | — | Matriz e gates em implementação |
 | 14 | Documentação e exemplos | PENDING | 8–13 | — | — | — | Documentação incremental obrigatória |
 | 15 | Beta público 0.9.0 | PENDING | 0–14 | — | — | — | Requer autorização para publicar |
 | 16 | Release 1.0.0 | PENDING | 15 | — | — | — | Requer autorização para publicar |
@@ -214,15 +214,27 @@
 
 ### ETAPA 12 — Interface avançada
 
-- [ ] Abas implementadas.
-- [ ] Modos, valores e tags por campo implementados.
-- [ ] Locks e seeds por grupo implementados.
-- [ ] Preview do manifesto implementado.
-- [ ] Advanced JSON sincronizado.
-- [ ] Reset, import e export implementados.
-- [ ] Acessibilidade, loading e erros implementados.
-- [ ] Configuração completa sem JSON manual validada.
-- [ ] Lint, testes e documentação aprovados.
+- [x] Abas implementadas.
+- [x] Modos, valores e tags por campo implementados.
+- [x] Locks e seeds por grupo implementados.
+- [x] Preview do manifesto implementado.
+- [x] Advanced JSON sincronizado.
+- [x] Reset, import e export implementados.
+- [x] Acessibilidade, loading e erros implementados.
+- [x] Configuração completa sem JSON manual validada.
+- [x] Lint, testes e documentação aprovados.
+- [x] Commit realizado.
+
+### ETAPA 13 — Qualidade, CI e integração
+
+- [ ] Ruff, mypy, pytest e coverage configurados.
+- [ ] CI Linux/Windows implementada.
+- [ ] Property e smoke tests integrados.
+- [ ] Validação de dados integrada.
+- [ ] Pre-commit opcional configurado.
+- [ ] Performance medida.
+- [ ] Matriz suportada documentada.
+- [ ] Cobertura alvo e 10.000 seeds aprovadas.
 - [ ] Commit realizado.
 
 ## 5. Registro de trabalho
@@ -649,6 +661,38 @@ Adicionar uma entrada por sessão relevante. Não apagar entradas antigas.
 - Commit/PR: pendente.
 - Próxima ação: implementar o menor conjunto completo da ETAPA 12.
 
+### 2026-07-22 19:50 -04:00 — CONCLUSÃO DA ETAPA 12
+
+- Status anterior: `IN_PROGRESS`.
+- Status novo: `DONE`.
+- Branch: `feat/advanced-editor`.
+- Objetivo: concluir configuração visual completa sem edição manual de JSON.
+- Arquivos alterados: editor, estado frontend, CSS, API de preview, testes JS/Python e documentação frontend.
+- Implementação: abas Basic/Fields/Groups/Preview, tags, locks/seeds, manifesto, JSON, reset, import/export, foco, loading e erros.
+- Testes executados: `node --check`, cinco testes Node, Ruff, mypy, 81 unittests e requests reais no ComfyUI 0.27.0.
+- Resultado dos testes: PASS; assets 200, profile 200 e preview de campo fixo 200 com seleção preservada.
+- Pendências: screenshot documental na ETAPA 14.
+- Bloqueadores: automação visual in-app permaneceu indisponível por falha do runtime da ferramenta; integração de estado, assets e API foi validada automaticamente.
+- Decisões: exigir confirmação antes de trocar perfil ou resetar quando isso puder descartar overrides; limitar import a 256 KiB.
+- Commit/PR: `3c98b5e` (`feat: complete Prompt Architect visual editor`); paridade de preview corrigida em `e21991c`.
+- Próxima ação: executar a ETAPA 13 — Qualidade, CI e integração.
+
+### 2026-07-22 19:50 -04:00 — ETAPA 13
+
+- Status anterior: `PENDING`.
+- Status novo: `IN_PROGRESS`.
+- Branch: `ci/quality-matrix`.
+- Objetivo: criar gates reproduzíveis de qualidade, cobertura, dados, frontend e plataformas.
+- Arquivos alterados: inicialmente apenas `plans/PLAN0-STATUS.md`.
+- Implementação: iniciada sobre a suíte acumulada e property runner existentes.
+- Testes executados: pendentes.
+- Resultado dos testes: pendente.
+- Pendências: workflow CI, coverage, smoke, data validator, pre-commit, performance e matriz.
+- Bloqueadores: `pytest-cov`/`coverage` não estão instalados no Python de desenvolvimento; CI instalará extras de dev e a validação local usará ferramentas disponíveis sem instalação em runtime.
+- Decisões: separar job caro de 10.000 seeds da matriz rápida e manter frontend sem dependências npm.
+- Commit/PR: pendente.
+- Próxima ação: implementar o menor conjunto completo da ETAPA 13.
+
 ## 6. Testes executados
 
 | Data | Etapa | Comando | Resultado | Evidência/observação |
@@ -713,6 +757,9 @@ Adicionar uma entrada por sessão relevante. Não apagar entradas antigas.
 | 2026-07-22 | 11 | Ruff, format e mypy | PASS | Zero erros em 43 arquivos tipados. |
 | 2026-07-22 | 11 | GET/POST reais no ComfyUI 0.27.0 | PASS | 200 para perfil/preview/validate, 400 para ID inválido e 413 para excesso. |
 | 2026-07-22 | 11 | Compileall, scan de APIs proibidas e wheel | PASS | Pacote compilado e wheel construído sem dependência nova. |
+| 2026-07-22 | 12 | `node --test tests/frontend/state.test.mjs` | PASS | Cinco testes de estado, campos, tags, grupos e proteção de fixed. |
+| 2026-07-22 | 12 | Ruff, mypy e 81 unittests | PASS | Zero erros; preview e nó têm paridade de identity lock. |
+| 2026-07-22 | 12 | Assets e preview reais no ComfyUI 0.27.0 | PASS | Três assets 200 e seleção fixed preservada no manifesto. |
 
 Nunca registrar `PASS` sem executar o comando.
 
@@ -822,4 +869,4 @@ Nunca registrar `PASS` sem executar o comando.
 
 ## 14. Próxima ação obrigatória
 
-Executar a **ETAPA 12 — Interface avançada**, seguindo integralmente `PLAN0.md`.
+Executar a **ETAPA 13 — Qualidade, CI e integração**, seguindo integralmente `PLAN0.md`.
