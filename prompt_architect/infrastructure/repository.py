@@ -207,7 +207,17 @@ class JsonPromptDataRepository:
                 )
 
 
-def bundled_repository(*, user_roots: Sequence[Path] = ()) -> JsonPromptDataRepository:
+def bundled_repository(
+    *,
+    user_roots: Sequence[Path] = (),
+    profile_overrides: Mapping[str, ProfileDefinition] | None = None,
+    library_overrides: Mapping[str, LibraryDefinition] | None = None,
+) -> JsonPromptDataRepository:
     """Create a repository rooted at packaged official data."""
     data_root = Path(__file__).resolve().parents[1] / "data"
-    return JsonPromptDataRepository(data_root, user_roots=user_roots)
+    return JsonPromptDataRepository(
+        data_root,
+        user_roots=user_roots,
+        profile_overrides=profile_overrides,
+        library_overrides=library_overrides,
+    )

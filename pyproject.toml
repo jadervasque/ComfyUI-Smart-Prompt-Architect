@@ -52,11 +52,21 @@ select = ["E", "F", "I", "N", "S", "UP", "W"]
 
 [tool.ruff.lint.per-file-ignores]
 "tests/**/*.py" = ["S101", "S311"]
+"**/__init__.py" = ["N999"]
 
 [tool.mypy]
 python_version = "3.10"
 strict = true
 files = ["prompt_architect", "tests"]
+explicit_package_bases = true
+
+[[tool.mypy.overrides]]
+module = ["comfy_api", "comfy_api.*"]
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = ["prompt_architect.comfy.nodes", "prompt_architect.extension"]
+disallow_subclassing_any = false
 
 [tool.pytest.ini_options]
 addopts = "--strict-config --strict-markers"

@@ -11,9 +11,9 @@
 | Versão do plano | 1.0 |
 | Status geral | `IN_PROGRESS` |
 | Etapa atual | ETAPA 9 |
-| Última atualização | 2026-07-22 19:19 -04:00 |
+| Última atualização | 2026-07-22 19:20 -04:00 |
 | Responsável atual | Agente IA no VS Code |
-| Branch atual | `feat/official-profiles` |
+| Branch atual | `feat/comfy-v3-node` |
 | Próximo marco | Nó ComfyUI API V3 |
 | Bloqueadores | Nenhum identificado |
 
@@ -40,7 +40,7 @@
 | 6 | Renderer e normalização | DONE | 1, 5 | 2026-07-22 19:02 -04:00 | 2026-07-22 19:04 -04:00 | `5ae12ce` | Snapshots e template seguro aprovados |
 | 7 | Validação e manifesto | DONE | 5, 6 | 2026-07-22 19:05 -04:00 | 2026-07-22 19:09 -04:00 | `96f28d8` | Pipeline pública e manifesto aprovados |
 | 8 | Perfis e bibliotecas | DONE | 2–7 | 2026-07-22 19:09:54 -04:00 | 2026-07-22 19:19 -04:00 | `0bc0575` | 30.000 seeds e determinismo aprovados |
-| 9 | Nó ComfyUI V3 | PENDING | 7, 8 | — | — | — | — |
+| 9 | Nó ComfyUI V3 | IN_PROGRESS | 7, 8 | 2026-07-22 19:20 -04:00 | — | — | Adapter V3 em implementação |
 | 10 | Frontend mínimo | PENDING | 9 | — | — | — | — |
 | 11 | Preview e validação API | PENDING | 7, 9, 10 | — | — | — | — |
 | 12 | Interface avançada | PENDING | 10, 11 | — | — | — | — |
@@ -499,6 +499,22 @@ Adicionar uma entrada por sessão relevante. Não apagar entradas antigas.
 - Decisões: runner de propriedade pré-carrega dados imutáveis para medir o core, mantendo teste separado do repository real.
 - Commit/PR: `0bc0575` (`feat: add official prompt profiles and libraries`).
 - Próxima ação: executar a ETAPA 9 — Nó ComfyUI API V3.
+
+### 2026-07-22 19:20 -04:00 — ETAPA 9
+
+- Status anterior: `PENDING`.
+- Status novo: `IN_PROGRESS`.
+- Branch: `feat/comfy-v3-node`.
+- Objetivo: expor a pipeline como nó ComfyUI V3 versionado, sem GPU e com cinco outputs.
+- Arquivos alterados: inicialmente apenas `plans/PLAN0-STATUS.md`.
+- Implementação: iniciada após consulta à documentação oficial e ao código local do ComfyUI 0.27.0.
+- Testes executados: pendentes.
+- Resultado dos testes: pendente.
+- Pendências: extension, schema, parsing do nó, fingerprint, smoke test, help e commit.
+- Bloqueadores: nenhum.
+- Decisões: importar `comfy_api.v0_0_2` explicitamente, evitando `latest` mutável.
+- Commit/PR: pendente.
+- Próxima ação: implementar o menor conjunto completo da ETAPA 9.
 
 ## 6. Testes executados
 
