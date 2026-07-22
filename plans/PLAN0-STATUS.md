@@ -10,11 +10,11 @@
 | Plano | `PLAN0.md` |
 | Versão do plano | 1.0 |
 | Status geral | `IN_PROGRESS` |
-| Etapa atual | ETAPA 4 |
-| Última atualização | 2026-07-22 18:55 -04:00 |
+| Etapa atual | ETAPA 5 |
+| Última atualização | 2026-07-22 18:57 -04:00 |
 | Responsável atual | Agente IA no VS Code |
 | Branch atual | `feat/rules-engine` |
-| Próximo marco | Motor de regras de compatibilidade |
+| Próximo marco | Compositor estruturado e fallbacks |
 | Bloqueadores | Nenhum identificado |
 
 ## 2. Legenda
@@ -35,7 +35,7 @@
 | 1 | Contratos e modelos | DONE | 0 | 2026-07-22 18:41 -04:00 | 2026-07-22 18:47 -04:00 | `288bc66` | Aceite validado com 12 testes |
 | 2 | Loader e cache | DONE | 1 | 2026-07-22 18:48 -04:00 | 2026-07-22 18:51 -04:00 | `778cc94` | Aceite validado com 22 testes acumulados |
 | 3 | Seeds e seleção | DONE | 1 | 2026-07-22 18:52 -04:00 | 2026-07-22 18:54 -04:00 | `72d277e` | Golden tests e independência de grupos aprovados |
-| 4 | Motor de regras | IN_PROGRESS | 1, 3 | 2026-07-22 18:55 -04:00 | — | — | Regras seguras em implementação |
+| 4 | Motor de regras | DONE | 1, 3 | 2026-07-22 18:55 -04:00 | 2026-07-22 18:57 -04:00 | `783be55` | Operadores, conflitos e ciclos validados |
 | 5 | Compositor e fallbacks | PENDING | 2, 3, 4 | — | — | — | — |
 | 6 | Renderer e normalização | PENDING | 1, 5 | — | — | — | — |
 | 7 | Validação e manifesto | PENDING | 5, 6 | — | — | — | — |
@@ -115,12 +115,25 @@
 
 ### ETAPA 4 — Motor de regras
 
-- [ ] Operadores seguros implementados.
-- [ ] `requires`, `excludes`, `prefer` e `implies` implementados.
-- [ ] Prioridades e conflitos fixos implementados.
-- [ ] Ciclos detectados e limitados.
-- [ ] Eventos registráveis no manifesto produzidos.
-- [ ] Exemplos e testes reais criados.
+- [x] Operadores seguros implementados.
+- [x] `requires`, `excludes`, `prefer` e `implies` implementados.
+- [x] Prioridades e conflitos fixos implementados.
+- [x] Ciclos detectados e limitados.
+- [x] Eventos registráveis no manifesto produzidos.
+- [x] Exemplos e testes reais criados.
+- [x] Lint, tipagem e testes aprovados.
+- [x] Documentação atualizada.
+- [x] Commit realizado.
+
+### ETAPA 5 — Compositor e fallbacks
+
+- [ ] Ordem de seções e contexto incremental implementados.
+- [ ] Limite de tentativas implementado.
+- [ ] Relaxamento por modo implementado.
+- [ ] Fallback local/global implementado.
+- [ ] Tentativas, conflitos e fallbacks registrados.
+- [ ] Retorno estruturado implementado.
+- [ ] Seções obrigatórias resolvem ou falham explicitamente.
 - [ ] Lint, tipagem e testes aprovados.
 - [ ] Documentação atualizada.
 - [ ] Commit realizado.
@@ -293,6 +306,22 @@ Adicionar uma entrada por sessão relevante. Não apagar entradas antigas.
 - Commit/PR: pendente.
 - Próxima ação: implementar o menor conjunto completo da ETAPA 4.
 
+### 2026-07-22 18:57 -04:00 — CONCLUSÃO DA ETAPA 4
+
+- Status anterior: `IN_PROGRESS`.
+- Status novo: `DONE`.
+- Branch: `feat/rules-engine`.
+- Objetivo: concluir regras declarativas seguras e determinísticas.
+- Arquivos alterados: `rules.py`, testes e `docs/rules.md`.
+- Implementação: sete operadores, quatro tipos de regra, prioridades de fixed, eventos, substituições e ciclos limitados.
+- Testes executados: Ruff, mypy, 40 unittests acumulados, compileall, format e wheel.
+- Resultado dos testes: PASS; zero erros.
+- Pendências: integração incremental das regras ao compositor na ETAPA 5.
+- Bloqueadores: nenhum.
+- Decisões: creative reduz influência de preferências por raiz quadrada sem relaxar regras absolutas.
+- Commit/PR: `783be55` (`feat: add compatibility rules engine`).
+- Próxima ação: executar a ETAPA 5 — Compositor e fallbacks.
+
 ## 6. Testes executados
 
 | Data | Etapa | Comando | Resultado | Evidência/observação |
@@ -324,6 +353,10 @@ Adicionar uma entrada por sessão relevante. Não apagar entradas antigas.
 | 2026-07-22 | 3 | `python -m unittest discover -s tests -v` | PASS | 33 testes executados. |
 | 2026-07-22 | 3 | `python -m compileall -q prompt_architect` | PASS | Pacote compilado. |
 | 2026-07-22 | 3 | `python -m pip wheel . --no-deps --no-build-isolation --wheel-dir dist` | PASS | Wheel construído. |
+| 2026-07-22 | 4 | `python -m ruff check .` / `python -m ruff format --check .` | PASS | Zero erros; 23 arquivos formatados. |
+| 2026-07-22 | 4 | `python -m mypy` | PASS | Zero issues em 23 arquivos. |
+| 2026-07-22 | 4 | `python -m unittest discover -s tests -v` | PASS | 40 testes executados. |
+| 2026-07-22 | 4 | `python -m compileall -q prompt_architect` e wheel | PASS | Compilação e empacotamento aprovados. |
 
 Nunca registrar `PASS` sem executar o comando.
 
@@ -433,4 +466,4 @@ Nunca registrar `PASS` sem executar o comando.
 
 ## 14. Próxima ação obrigatória
 
-Executar a **ETAPA 4 — Motor de regras**, seguindo integralmente `PLAN0.md`.
+Executar a **ETAPA 5 — Compositor e fallbacks**, seguindo integralmente `PLAN0.md`.
