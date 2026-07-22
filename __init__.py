@@ -10,6 +10,7 @@ from . import prompt_architect as _prompt_architect
 sys.modules.setdefault("prompt_architect", _prompt_architect)
 
 comfy_entrypoint = import_module(".prompt_architect.extension", __package__).comfy_entrypoint
+import_module(".prompt_architect.comfy.routes", __package__).register_routes()
 
 WEB_DIRECTORY = "./prompt_architect/web"
 

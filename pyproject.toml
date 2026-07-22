@@ -61,7 +61,7 @@ files = ["prompt_architect", "tests"]
 explicit_package_bases = true
 
 [[tool.mypy.overrides]]
-module = ["comfy_api", "comfy_api.*"]
+module = ["aiohttp", "aiohttp.*", "comfy_api", "comfy_api.*", "server"]
 ignore_missing_imports = true
 
 [[tool.mypy.overrides]]
