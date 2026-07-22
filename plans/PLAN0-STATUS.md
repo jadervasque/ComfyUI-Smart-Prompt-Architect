@@ -10,11 +10,11 @@
 | Plano | `PLAN0.md` |
 | Versão do plano | 1.0 |
 | Status geral | `IN_PROGRESS` |
-| Etapa atual | ETAPA 9 |
-| Última atualização | 2026-07-22 19:20 -04:00 |
+| Etapa atual | ETAPA 10 |
+| Última atualização | 2026-07-22 19:31 -04:00 |
 | Responsável atual | Agente IA no VS Code |
 | Branch atual | `feat/comfy-v3-node` |
-| Próximo marco | Nó ComfyUI API V3 |
+| Próximo marco | Frontend mínimo persistente |
 | Bloqueadores | Nenhum identificado |
 
 ## 2. Legenda
@@ -40,8 +40,8 @@
 | 6 | Renderer e normalização | DONE | 1, 5 | 2026-07-22 19:02 -04:00 | 2026-07-22 19:04 -04:00 | `5ae12ce` | Snapshots e template seguro aprovados |
 | 7 | Validação e manifesto | DONE | 5, 6 | 2026-07-22 19:05 -04:00 | 2026-07-22 19:09 -04:00 | `96f28d8` | Pipeline pública e manifesto aprovados |
 | 8 | Perfis e bibliotecas | DONE | 2–7 | 2026-07-22 19:09:54 -04:00 | 2026-07-22 19:19 -04:00 | `0bc0575` | 30.000 seeds e determinismo aprovados |
-| 9 | Nó ComfyUI V3 | IN_PROGRESS | 7, 8 | 2026-07-22 19:20 -04:00 | — | — | Adapter V3 em implementação |
-| 10 | Frontend mínimo | PENDING | 9 | — | — | — | — |
+| 9 | Nó ComfyUI V3 | DONE | 7, 8 | 2026-07-22 19:20 -04:00 | 2026-07-22 19:30 -04:00 | `e35b73f` | Nó validado dentro do ComfyUI 0.27.0 local |
+| 10 | Frontend mínimo | IN_PROGRESS | 9 | 2026-07-22 19:31 -04:00 | — | — | Editor centralizado em implementação |
 | 11 | Preview e validação API | PENDING | 7, 9, 10 | — | — | — | — |
 | 12 | Interface avançada | PENDING | 10, 11 | — | — | — | — |
 | 13 | Qualidade e CI | PENDING | 0–12 | — | — | — | Pode começar parcialmente antes |
@@ -178,14 +178,27 @@
 
 ### ETAPA 9 — Nó ComfyUI API V3
 
-- [ ] Extensão V3 versionada implementada.
-- [ ] Schema, inputs, outputs e tooltips implementados.
-- [ ] Conversão clara de erros implementada.
-- [ ] Frontend exportado via `WEB_DIRECTORY`.
-- [ ] Fingerprint/cache estável implementado.
-- [ ] Adapter testado sem GPU dentro do ComfyUI local.
-- [ ] Help page criada.
-- [ ] Lint, tipagem e testes aprovados.
+- [x] Extensão V3 versionada implementada.
+- [x] Schema, inputs, outputs e tooltips implementados.
+- [x] Conversão clara de erros implementada.
+- [x] Frontend exportado via `WEB_DIRECTORY`.
+- [x] Fingerprint/cache estável implementado.
+- [x] Adapter testado sem GPU dentro do ComfyUI local.
+- [x] Help page criada.
+- [x] Lint, tipagem e testes aprovados.
+- [x] Commit realizado.
+
+### ETAPA 10 — Frontend mínimo
+
+- [ ] Extensão JavaScript registrada.
+- [ ] Botão `Open Architect` implementado.
+- [ ] Modal e formulário básico implementados.
+- [ ] Persistência em `configuration_json` implementada.
+- [ ] Dirty state do workflow implementado.
+- [ ] Erros e preview implementados.
+- [ ] CSS compatível com tema implementado.
+- [ ] Persistência ao salvar e reabrir workflow validada.
+- [ ] Lint, testes e documentação aprovados.
 - [ ] Commit realizado.
 
 ## 5. Registro de trabalho
@@ -516,6 +529,38 @@ Adicionar uma entrada por sessão relevante. Não apagar entradas antigas.
 - Commit/PR: pendente.
 - Próxima ação: implementar o menor conjunto completo da ETAPA 9.
 
+### 2026-07-22 19:30 -04:00 — CONCLUSÃO DA ETAPA 9
+
+- Status anterior: `IN_PROGRESS`.
+- Status novo: `DONE`.
+- Branch: `feat/comfy-v3-node`.
+- Objetivo: concluir o adapter público V3 e validá-lo no ComfyUI local sem GPU.
+- Arquivos alterados: adapter ComfyUI, extensão V3, schema do nó, help page, export do frontend e testes.
+- Implementação: nó `PromptArchitect_PromptArchitect` com 13 inputs, cinco outputs, erros de domínio traduzidos e fingerprint canônico.
+- Testes executados: Ruff, mypy, 75 unittests, compileall, wheel e smoke test com `comfy_api.v0_0_2` do ComfyUI 0.27.0 local.
+- Resultado dos testes: PASS; nó registrado, schema 13/5 confirmado e execução real retornou cinco outputs válidos.
+- Pendências: nenhuma da ETAPA 9.
+- Bloqueadores: nenhum.
+- Decisões: manter import versionado `comfy_api.v0_0_2` e carregar o adapter apenas no entrypoint do ComfyUI para preservar o core independente.
+- Commit/PR: `e35b73f` (`feat: expose Prompt Architect ComfyUI node`).
+- Próxima ação: executar a ETAPA 10 — Frontend mínimo.
+
+### 2026-07-22 19:31 -04:00 — ETAPA 10
+
+- Status anterior: `PENDING`.
+- Status novo: `IN_PROGRESS`.
+- Branch: `feat/frontend-editor`.
+- Objetivo: criar editor centralizado com estado serializado no próprio nó.
+- Arquivos alterados: inicialmente apenas `plans/PLAN0-STATUS.md`.
+- Implementação: iniciada após revisão da API JavaScript oficial e do frontend local.
+- Testes executados: pendentes.
+- Resultado dos testes: pendente.
+- Pendências: extensão, modal, formulário, persistência, dirty state, preview, CSS e teste no navegador.
+- Bloqueadores: nenhum.
+- Decisões: `configuration_json` será a única fonte persistente de verdade do editor.
+- Commit/PR: pendente.
+- Próxima ação: implementar o menor conjunto completo da ETAPA 10.
+
 ## 6. Testes executados
 
 | Data | Etapa | Comando | Resultado | Evidência/observação |
@@ -568,6 +613,11 @@ Adicionar uma entrada por sessão relevante. Não apagar entradas antigas.
 | 2026-07-22 | 8 | `python -m unittest discover -s tests -v` | PASS | 69 testes executados em 1,027 s. |
 | 2026-07-22 | 8 | `python -m tests.property_profiles` | PASS | 10.000 seeds por perfil; 60.000 composições determinísticas. |
 | 2026-07-22 | 8 | Compileall, parse de dados JSON e wheel | PASS | Compilação, dados e empacotamento aprovados. |
+| 2026-07-22 | 9 | `python -m ruff check .` / `python -m ruff format --check .` | PASS | Zero erros. |
+| 2026-07-22 | 9 | `python -m mypy` | PASS | Zero issues. |
+| 2026-07-22 | 9 | `python -m unittest discover -s tests -v` | PASS | 75 testes executados. |
+| 2026-07-22 | 9 | Smoke test no ComfyUI 0.27.0 local | PASS | Extensão V3 carregada; schema 13/5 e cinco outputs confirmados sem GPU. |
+| 2026-07-22 | 9 | Compileall e wheel | PASS | Compilação e empacotamento aprovados. |
 
 Nunca registrar `PASS` sem executar o comando.
 
@@ -677,4 +727,4 @@ Nunca registrar `PASS` sem executar o comando.
 
 ## 14. Próxima ação obrigatória
 
-Executar a **ETAPA 9 — Nó ComfyUI API V3**, seguindo integralmente `PLAN0.md`.
+Executar a **ETAPA 10 — Frontend mínimo**, seguindo integralmente `PLAN0.md`.
