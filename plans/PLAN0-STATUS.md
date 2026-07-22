@@ -11,9 +11,9 @@
 | Versão do plano | 1.0 |
 | Status geral | `IN_PROGRESS` |
 | Etapa atual | ETAPA 8 |
-| Última atualização | 2026-07-22 19:09 -04:00 |
+| Última atualização | 2026-07-22 19:09:54 -04:00 |
 | Responsável atual | Agente IA no VS Code |
-| Branch atual | `feat/manifest` |
+| Branch atual | `feat/official-profiles` |
 | Próximo marco | Perfis e bibliotecas oficiais |
 | Bloqueadores | Nenhum identificado |
 
@@ -39,7 +39,7 @@
 | 5 | Compositor e fallbacks | DONE | 2, 3, 4 | 2026-07-22 18:58 -04:00 | 2026-07-22 19:01 -04:00 | `e0b2cb3` | Seções obrigatórias e fallbacks validados |
 | 6 | Renderer e normalização | DONE | 1, 5 | 2026-07-22 19:02 -04:00 | 2026-07-22 19:04 -04:00 | `5ae12ce` | Snapshots e template seguro aprovados |
 | 7 | Validação e manifesto | DONE | 5, 6 | 2026-07-22 19:05 -04:00 | 2026-07-22 19:09 -04:00 | `96f28d8` | Pipeline pública e manifesto aprovados |
-| 8 | Perfis e bibliotecas | PENDING | 2–7 | — | — | — | — |
+| 8 | Perfis e bibliotecas | IN_PROGRESS | 2–7 | 2026-07-22 19:09:54 -04:00 | — | — | Conteúdo oficial em implementação |
 | 9 | Nó ComfyUI V3 | PENDING | 7, 8 | — | — | — | — |
 | 10 | Frontend mínimo | PENDING | 9 | — | — | — | — |
 | 11 | Preview e validação API | PENDING | 7, 9, 10 | — | — | — | — |
@@ -455,6 +455,22 @@ Adicionar uma entrada por sessão relevante. Não apagar entradas antigas.
 - Decisões: manifesto inclui versões de bibliotecas e configuração efetiva além do exemplo mínimo do plano, conforme RF-007.
 - Commit/PR: `96f28d8` (`feat: validate outputs and build prompt manifest`).
 - Próxima ação: executar a ETAPA 8 — Perfis e bibliotecas oficiais.
+
+### 2026-07-22 19:09:54 -04:00 — ETAPA 8
+
+- Status anterior: `PENDING`.
+- Status novo: `IN_PROGRESS`.
+- Branch: `feat/official-profiles`.
+- Objetivo: entregar três perfis e bibliotecas oficiais seguras com 10.000 seeds validadas por perfil.
+- Arquivos alterados: inicialmente apenas `plans/PLAN0-STATUS.md`.
+- Implementação: iniciada.
+- Testes executados: pendentes.
+- Resultado dos testes: pendente.
+- Pendências: dados, regras, property runner, documentação e commit.
+- Bloqueadores: nenhum.
+- Decisões: IDs de campos do plano serão normalizados para kebab-case no JSON oficial.
+- Commit/PR: pendente.
+- Próxima ação: implementar o menor conjunto completo da ETAPA 8.
 
 ## 6. Testes executados
 
