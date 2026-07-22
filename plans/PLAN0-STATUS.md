@@ -11,9 +11,9 @@
 | Versão do plano | 1.0 |
 | Status geral | `IN_PROGRESS` |
 | Etapa atual | ETAPA 6 |
-| Última atualização | 2026-07-22 19:01 -04:00 |
+| Última atualização | 2026-07-22 19:02 -04:00 |
 | Responsável atual | Agente IA no VS Code |
-| Branch atual | `feat/compositor` |
+| Branch atual | `feat/renderer` |
 | Próximo marco | Renderer seguro e normalização |
 | Bloqueadores | Nenhum identificado |
 
@@ -37,7 +37,7 @@
 | 3 | Seeds e seleção | DONE | 1 | 2026-07-22 18:52 -04:00 | 2026-07-22 18:54 -04:00 | `72d277e` | Golden tests e independência de grupos aprovados |
 | 4 | Motor de regras | DONE | 1, 3 | 2026-07-22 18:55 -04:00 | 2026-07-22 18:57 -04:00 | `783be55` | Operadores, conflitos e ciclos validados |
 | 5 | Compositor e fallbacks | DONE | 2, 3, 4 | 2026-07-22 18:58 -04:00 | 2026-07-22 19:01 -04:00 | `e0b2cb3` | Seções obrigatórias e fallbacks validados |
-| 6 | Renderer e normalização | PENDING | 1, 5 | — | — | — | — |
+| 6 | Renderer e normalização | IN_PROGRESS | 1, 5 | 2026-07-22 19:02 -04:00 | — | — | Renderer seguro em implementação |
 | 7 | Validação e manifesto | PENDING | 5, 6 | — | — | — | — |
 | 8 | Perfis e bibliotecas | PENDING | 2–7 | — | — | — | — |
 | 9 | Nó ComfyUI V3 | PENDING | 7, 8 | — | — | — | — |
@@ -365,6 +365,22 @@ Adicionar uma entrada por sessão relevante. Não apagar entradas antigas.
 - Decisões: implicações incompatíveis de candidatos random são rejeitadas; conflitos entre valores fixed falham imediatamente.
 - Commit/PR: `e0b2cb3` (`feat: compose structured prompt contexts`).
 - Próxima ação: executar a ETAPA 6 — Renderer e normalização.
+
+### 2026-07-22 19:02 -04:00 — ETAPA 6
+
+- Status anterior: `PENDING`.
+- Status novo: `IN_PROGRESS`.
+- Branch: `feat/renderer`.
+- Objetivo: renderizar templates permitidos e normalizar texto sem placeholders ou pontuação quebrada.
+- Arquivos alterados: inicialmente apenas `plans/PLAN0-STATUS.md`.
+- Implementação: iniciada.
+- Testes executados: pendentes.
+- Resultado dos testes: pendente.
+- Pendências: renderer, normalizer, snapshots, documentação e commit.
+- Bloqueadores: nenhum.
+- Decisões: deduplicação ocorrerá por texto normalizado e `semantic_key`, preservando a primeira seção na ordem do perfil.
+- Commit/PR: pendente.
+- Próxima ação: implementar o menor conjunto completo da ETAPA 6.
 
 ## 6. Testes executados
 
