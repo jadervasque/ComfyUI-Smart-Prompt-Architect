@@ -11,9 +11,9 @@
 | Versão do plano | 1.0 |
 | Status geral | `IN_PROGRESS` |
 | Etapa atual | ETAPA 1 |
-| Última atualização | 2026-07-22 18:38 -04:00 |
+| Última atualização | 2026-07-22 18:41 -04:00 |
 | Responsável atual | Agente IA no VS Code |
-| Branch atual | `chore/bootstrap` |
+| Branch atual | `feat/contracts` |
 | Próximo marco | Contratos, schemas e modelos |
 | Bloqueadores | Nenhum identificado |
 
@@ -32,7 +32,7 @@
 | Etapa | Nome | Status | Dependências | Início | Conclusão | Commit/PR | Observações |
 |---:|---|---|---|---|---|---|---|
 | 0 | Bootstrap e decisões | DONE | — | 2026-07-22 18:32 -04:00 | 2026-07-22 18:38 -04:00 | `02a3977` | Aceite validado; registro final em commit separado |
-| 1 | Contratos e modelos | PENDING | 0 | — | — | — | — |
+| 1 | Contratos e modelos | IN_PROGRESS | 0 | 2026-07-22 18:41 -04:00 | — | — | Contratos tipados e schemas em implementação |
 | 2 | Loader e cache | PENDING | 1 | — | — | — | — |
 | 3 | Seeds e seleção | PENDING | 1 | — | — | — | — |
 | 4 | Motor de regras | PENDING | 1, 3 | — | — | — | — |
@@ -142,6 +142,22 @@ Adicionar uma entrada por sessão relevante. Não apagar entradas antigas.
 - Decisões: etapa marcada `DONE` porque os testes explícitos, lint, tipagem, teste unitário e wheel foram validados sem dependência de runtime.
 - Commit/PR: `02a3977` (`chore: bootstrap Prompt Architect project`).
 - Próxima ação: executar a ETAPA 1 — Contratos, schemas e modelos.
+
+### 2026-07-22 18:41 -04:00 — ETAPA 1
+
+- Status anterior: `PENDING`.
+- Status novo: `IN_PROGRESS`.
+- Branch: `feat/contracts`.
+- Objetivo: definir modelos imutáveis, enums, exceções, schemas JSON e parser tipado estrito antes dos algoritmos.
+- Arquivos alterados: inicialmente apenas `plans/PLAN0-STATUS.md`.
+- Implementação: iniciada.
+- Testes executados: pendentes.
+- Resultado dos testes: pendente.
+- Pendências: contratos, schemas, fixtures, parser, testes, documentação e commit.
+- Bloqueadores: nenhum.
+- Decisões: política inicial de campos desconhecidos será rejeição estrita para evitar mudanças silenciosas de semântica.
+- Commit/PR: pendente.
+- Próxima ação: implementar o menor conjunto completo da ETAPA 1.
 
 ## 6. Testes executados
 

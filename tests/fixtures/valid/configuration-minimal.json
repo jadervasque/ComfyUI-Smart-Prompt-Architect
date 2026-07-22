@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "profile_id": "portrait",
+  "profile_version": "1.0.0",
+  "mode": "balanced",
+  "master_seed": 123456,
+  "groups": {
+    "identity": { "locked": true, "seed": 42 }
+  },
+  "fields": {
+    "subject": { "mode": "fixed", "value": "adult-person" }
+  },
+  "overrides": {
+    "positive_prefix": "",
+    "positive_suffix": ""
+  }
+}

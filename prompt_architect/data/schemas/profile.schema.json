@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://prompt-architect.invalid/schemas/1.0/profile.schema.json",
+  "title": "Prompt Architect Profile 1.0",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "id",
+    "version",
+    "display_name",
+    "language",
+    "minimum_sections",
+    "minimum_prompt_characters",
+    "max_selection_attempts",
+    "section_order",
+    "sections",
+    "templates"
+  ],
+  "properties": {
+    "schema_version": { "const": "1.0" },
+    "id": { "$ref": "#/$defs/id" },
+    "version": { "$ref": "#/$defs/version" },
+    "display_name": { "type": "string", "minLength": 1 },
+    "language": { "type": "string", "minLength": 1 },
+    "minimum_sections": { "type": "integer", "minimum": 1 },
+    "minimum_prompt_characters": { "type": "integer", "minimum": 1 },
+    "max_selection_attempts": { "type": "integer", "minimum": 1 },
+    "section_order": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": { "$ref": "#/$defs/id" }
+    },
+    "sections": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": { "$ref": "#/$defs/section" }
+    },
+    "templates": {
+      "type": "object",
+      "additionalProperties": { "type": "string" },
+      "required": ["positive"],
+      "properties": {
+        "positive": { "type": "string", "minLength": 1 },
+        "negative": { "type": "string" }
+      }
+    },
+    "profile_fallbacks": {
+      "type": "object",
+      "additionalProperties": { "type": "string", "minLength": 1 }
+    },
+    "allow_empty_negative": { "type": "boolean", "default": true },
+    "metadata": { "type": "object" }
+  },
+  "$defs": {
+    "id": { "type": "string", "pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$" },
+    "version": { "type": "string", "pattern": "^\\d+\\.\\d+\\.\\d+(?:[.-][0-9A-Za-z.-]+)?$" },
+    "section": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["required", "library", "mode", "group"],
+      "properties": {
+        "required": { "type": "boolean" },
+        "library": { "$ref": "#/$defs/id" },
+        "mode": { "enum": ["disabled", "fixed", "random", "inherit"] },
+        "group": { "$ref": "#/$defs/id" },
+        "default": { "type": "string", "minLength": 1 },
+        "fallback": { "type": "string", "minLength": 1 }
+      }
+    }
+  }
+}

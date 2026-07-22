@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "id": "portrait",
+  "version": "1.0.0",
+  "display_name": "Portrait",
+  "language": "en",
+  "minimum_sections": 1,
+  "minimum_prompt_characters": 10,
+  "max_selection_attempts": 10,
+  "section_order": ["subject"],
+  "sections": {
+    "subject": {
+      "required": true,
+      "library": "subjects",
+      "mode": "fixed",
+      "default": "adult-person",
+      "group": "identity",
+      "fallback": "adult-person"
+    }
+  },
+  "templates": {
+    "positive": "{subject}.",
+    "negative": "{negative_global}"
+  }
+}

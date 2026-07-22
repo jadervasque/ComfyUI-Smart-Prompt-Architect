@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://prompt-architect.invalid/schemas/1.0/manifest.schema.json",
+  "title": "Prompt Architect Manifest 1.0",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "engine_version",
+    "profile",
+    "configuration_hash",
+    "master_seed",
+    "group_seeds",
+    "selections",
+    "applied_rules",
+    "resolved_conflicts",
+    "fallbacks",
+    "attempts",
+    "warnings",
+    "positive_prompt",
+    "negative_prompt"
+  ],
+  "properties": {
+    "schema_version": { "const": "1.0" },
+    "engine_version": { "type": "string", "minLength": 1 },
+    "profile": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "version"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "version": { "type": "string", "minLength": 1 }
+      }
+    },
+    "configuration_hash": { "type": "string", "pattern": "^sha256:[0-9a-f]{64}$" },
+    "master_seed": { "type": "integer", "minimum": 0 },
+    "group_seeds": { "type": "object", "additionalProperties": { "type": "integer", "minimum": 0 } },
+    "selections": { "type": "object" },
+    "applied_rules": { "type": "array", "items": { "type": "string" } },
+    "resolved_conflicts": { "type": "array", "items": { "type": "string" } },
+    "fallbacks": { "type": "array", "items": { "type": "string" } },
+    "attempts": { "type": "object", "additionalProperties": { "type": "integer", "minimum": 0 } },
+    "warnings": { "type": "array", "items": { "type": "string" } },
+    "positive_prompt": { "type": "string" },
+    "negative_prompt": { "type": "string" }
+  }
+}
