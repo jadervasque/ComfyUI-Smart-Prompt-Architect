@@ -10,11 +10,11 @@
 | Plano | `PLAN0.md` |
 | Versão do plano | 1.0 |
 | Status geral | `IN_PROGRESS` |
-| Etapa atual | ETAPA 8 |
-| Última atualização | 2026-07-22 19:09:54 -04:00 |
+| Etapa atual | ETAPA 9 |
+| Última atualização | 2026-07-22 19:19 -04:00 |
 | Responsável atual | Agente IA no VS Code |
 | Branch atual | `feat/official-profiles` |
-| Próximo marco | Perfis e bibliotecas oficiais |
+| Próximo marco | Nó ComfyUI API V3 |
 | Bloqueadores | Nenhum identificado |
 
 ## 2. Legenda
@@ -39,7 +39,7 @@
 | 5 | Compositor e fallbacks | DONE | 2, 3, 4 | 2026-07-22 18:58 -04:00 | 2026-07-22 19:01 -04:00 | `e0b2cb3` | Seções obrigatórias e fallbacks validados |
 | 6 | Renderer e normalização | DONE | 1, 5 | 2026-07-22 19:02 -04:00 | 2026-07-22 19:04 -04:00 | `5ae12ce` | Snapshots e template seguro aprovados |
 | 7 | Validação e manifesto | DONE | 5, 6 | 2026-07-22 19:05 -04:00 | 2026-07-22 19:09 -04:00 | `96f28d8` | Pipeline pública e manifesto aprovados |
-| 8 | Perfis e bibliotecas | IN_PROGRESS | 2–7 | 2026-07-22 19:09:54 -04:00 | — | — | Conteúdo oficial em implementação |
+| 8 | Perfis e bibliotecas | DONE | 2–7 | 2026-07-22 19:09:54 -04:00 | 2026-07-22 19:19 -04:00 | `0bc0575` | 30.000 seeds e determinismo aprovados |
 | 9 | Nó ComfyUI V3 | PENDING | 7, 8 | — | — | — | — |
 | 10 | Frontend mínimo | PENDING | 9 | — | — | — | — |
 | 11 | Preview e validação API | PENDING | 7, 9, 10 | — | — | — | — |
@@ -166,14 +166,26 @@
 
 ### ETAPA 8 — Perfis e bibliotecas oficiais
 
-- [ ] Perfis `portrait`, `virtual-model` e `dataset` criados.
-- [ ] Vinte bibliotecas mínimas criadas.
-- [ ] Regras de cabelo, roupa e cenário incluídas.
-- [ ] Pesos e fallbacks revisados.
-- [ ] Conteúdo e licença revisados.
-- [ ] 10.000 seeds por perfil aprovadas.
+- [x] Perfis `portrait`, `virtual-model` e `dataset` criados.
+- [x] Vinte bibliotecas mínimas criadas.
+- [x] Regras de cabelo, roupa e cenário incluídas.
+- [x] Pesos e fallbacks revisados.
+- [x] Conteúdo e licença revisados.
+- [x] 10.000 seeds por perfil aprovadas.
+- [x] Lint, tipagem e testes aprovados.
+- [x] Documentação atualizada.
+- [x] Commit realizado.
+
+### ETAPA 9 — Nó ComfyUI API V3
+
+- [ ] Extensão V3 versionada implementada.
+- [ ] Schema, inputs, outputs e tooltips implementados.
+- [ ] Conversão clara de erros implementada.
+- [ ] Frontend exportado via `WEB_DIRECTORY`.
+- [ ] Fingerprint/cache estável implementado.
+- [ ] Adapter testado sem GPU dentro do ComfyUI local.
+- [ ] Help page criada.
 - [ ] Lint, tipagem e testes aprovados.
-- [ ] Documentação atualizada.
 - [ ] Commit realizado.
 
 ## 5. Registro de trabalho
@@ -472,6 +484,22 @@ Adicionar uma entrada por sessão relevante. Não apagar entradas antigas.
 - Commit/PR: pendente.
 - Próxima ação: implementar o menor conjunto completo da ETAPA 8.
 
+### 2026-07-22 19:19 -04:00 — CONCLUSÃO DA ETAPA 8
+
+- Status anterior: `IN_PROGRESS`.
+- Status novo: `DONE`.
+- Branch: `feat/official-profiles`.
+- Objetivo: concluir conteúdo oficial e validar 10.000 seeds por perfil.
+- Arquivos alterados: 20 bibliotecas, 3 perfis, testes, runner de propriedade e documentação.
+- Implementação: conteúdo original Apache-2.0 para adultos, fallbacks, pesos e regras de cabelo/roupa/cenário.
+- Testes executados: Ruff, mypy, 69 unittests, compileall, parse JSON, wheel e `python -m tests.property_profiles`.
+- Resultado dos testes: PASS; 10.000 seeds em cada perfil, compostas duas vezes para determinismo (60.000 composições).
+- Pendências: nenhuma da ETAPA 8.
+- Bloqueadores: nenhum.
+- Decisões: runner de propriedade pré-carrega dados imutáveis para medir o core, mantendo teste separado do repository real.
+- Commit/PR: `0bc0575` (`feat: add official prompt profiles and libraries`).
+- Próxima ação: executar a ETAPA 9 — Nó ComfyUI API V3.
+
 ## 6. Testes executados
 
 | Data | Etapa | Comando | Resultado | Evidência/observação |
@@ -519,6 +547,11 @@ Adicionar uma entrada por sessão relevante. Não apagar entradas antigas.
 | 2026-07-22 | 7 | `python -m mypy` | PASS | Zero issues em 32 arquivos. |
 | 2026-07-22 | 7 | `python -m unittest discover -s tests -v` | PASS | 65 testes executados. |
 | 2026-07-22 | 7 | Compileall, parse dos schemas e wheel | PASS | Compilação, JSON e empacotamento aprovados. |
+| 2026-07-22 | 8 | `python -m ruff check .` / `python -m ruff format --check .` | PASS | Zero erros; 35 arquivos formatados. |
+| 2026-07-22 | 8 | `python -m mypy` | PASS | Zero issues em 35 arquivos. |
+| 2026-07-22 | 8 | `python -m unittest discover -s tests -v` | PASS | 69 testes executados em 1,027 s. |
+| 2026-07-22 | 8 | `python -m tests.property_profiles` | PASS | 10.000 seeds por perfil; 60.000 composições determinísticas. |
+| 2026-07-22 | 8 | Compileall, parse de dados JSON e wheel | PASS | Compilação, dados e empacotamento aprovados. |
 
 Nunca registrar `PASS` sem executar o comando.
 
@@ -628,4 +661,4 @@ Nunca registrar `PASS` sem executar o comando.
 
 ## 14. Próxima ação obrigatória
 
-Executar a **ETAPA 8 — Perfis e bibliotecas oficiais**, seguindo integralmente `PLAN0.md`.
+Executar a **ETAPA 9 — Nó ComfyUI API V3**, seguindo integralmente `PLAN0.md`.
