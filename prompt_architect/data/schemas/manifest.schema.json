@@ -8,7 +8,9 @@
     "schema_version",
     "engine_version",
     "profile",
+    "libraries",
     "configuration_hash",
+    "effective_configuration",
     "master_seed",
     "group_seeds",
     "selections",
@@ -32,7 +34,9 @@
         "version": { "type": "string", "minLength": 1 }
       }
     },
+    "libraries": { "type": "object", "additionalProperties": { "type": "string" } },
     "configuration_hash": { "type": "string", "pattern": "^sha256:[0-9a-f]{64}$" },
+    "effective_configuration": { "type": "object" },
     "master_seed": { "type": "integer", "minimum": 0 },
     "group_seeds": { "type": "object", "additionalProperties": { "type": "integer", "minimum": 0 } },
     "selections": { "type": "object" },

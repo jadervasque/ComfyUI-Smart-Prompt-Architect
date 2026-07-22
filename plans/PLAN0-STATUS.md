@@ -11,9 +11,9 @@
 | Versão do plano | 1.0 |
 | Status geral | `IN_PROGRESS` |
 | Etapa atual | ETAPA 7 |
-| Última atualização | 2026-07-22 19:04 -04:00 |
+| Última atualização | 2026-07-22 19:05 -04:00 |
 | Responsável atual | Agente IA no VS Code |
-| Branch atual | `feat/renderer` |
+| Branch atual | `feat/manifest` |
 | Próximo marco | Validação final e manifesto |
 | Bloqueadores | Nenhum identificado |
 
@@ -38,7 +38,7 @@
 | 4 | Motor de regras | DONE | 1, 3 | 2026-07-22 18:55 -04:00 | 2026-07-22 18:57 -04:00 | `783be55` | Operadores, conflitos e ciclos validados |
 | 5 | Compositor e fallbacks | DONE | 2, 3, 4 | 2026-07-22 18:58 -04:00 | 2026-07-22 19:01 -04:00 | `e0b2cb3` | Seções obrigatórias e fallbacks validados |
 | 6 | Renderer e normalização | DONE | 1, 5 | 2026-07-22 19:02 -04:00 | 2026-07-22 19:04 -04:00 | `5ae12ce` | Snapshots e template seguro aprovados |
-| 7 | Validação e manifesto | PENDING | 5, 6 | — | — | — | — |
+| 7 | Validação e manifesto | IN_PROGRESS | 5, 6 | 2026-07-22 19:05 -04:00 | — | — | Pipeline final em implementação |
 | 8 | Perfis e bibliotecas | PENDING | 2–7 | — | — | — | — |
 | 9 | Nó ComfyUI V3 | PENDING | 7, 8 | — | — | — | — |
 | 10 | Frontend mínimo | PENDING | 9 | — | — | — | — |
@@ -411,6 +411,22 @@ Adicionar uma entrada por sessão relevante. Não apagar entradas antigas.
 - Decisões: underscores são permitidos em placeholders oficiais, sem permitir acesso a atributos ou índices.
 - Commit/PR: `5ae12ce` (`feat: render and normalize natural prompts`).
 - Próxima ação: executar a ETAPA 7 — Validação final e manifesto.
+
+### 2026-07-22 19:05 -04:00 — ETAPA 7
+
+- Status anterior: `PENDING`.
+- Status novo: `IN_PROGRESS`.
+- Branch: `feat/manifest`.
+- Objetivo: validar contexto/texto, preservar overrides e gerar manifesto/summary canônicos.
+- Arquivos alterados: inicialmente apenas `plans/PLAN0-STATUS.md`.
+- Implementação: iniciada.
+- Testes executados: pendentes.
+- Resultado dos testes: pendente.
+- Pendências: validator, manifest, compose service, testes, documentação e commit.
+- Bloqueadores: nenhum.
+- Decisões: configuration hash usará JSON canônico da configuração efetiva, nunca `repr` ou ordem de dict.
+- Commit/PR: pendente.
+- Próxima ação: implementar o menor conjunto completo da ETAPA 7.
 
 ## 6. Testes executados
 

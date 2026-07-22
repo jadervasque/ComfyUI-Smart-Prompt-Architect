@@ -201,7 +201,9 @@ class PromptManifest:
     engine_version: str
     profile_id: str
     profile_version: str
+    library_versions: Mapping[str, str]
     configuration_hash: str
+    effective_configuration: Mapping[str, object]
     master_seed: int
     group_seeds: Mapping[str, int]
     selections: Mapping[str, Mapping[str, object]]
