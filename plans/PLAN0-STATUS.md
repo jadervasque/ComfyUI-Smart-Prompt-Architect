@@ -10,11 +10,11 @@
 | Plano | `PLAN0.md` |
 | Versão do plano | 1.0 |
 | Status geral | `IN_PROGRESS` |
-| Etapa atual | ETAPA 1 |
-| Última atualização | 2026-07-22 18:41 -04:00 |
+| Etapa atual | ETAPA 2 |
+| Última atualização | 2026-07-22 18:47 -04:00 |
 | Responsável atual | Agente IA no VS Code |
 | Branch atual | `feat/contracts` |
-| Próximo marco | Contratos, schemas e modelos |
+| Próximo marco | Loader, paths e cache seguros |
 | Bloqueadores | Nenhum identificado |
 
 ## 2. Legenda
@@ -32,7 +32,7 @@
 | Etapa | Nome | Status | Dependências | Início | Conclusão | Commit/PR | Observações |
 |---:|---|---|---|---|---|---|---|
 | 0 | Bootstrap e decisões | DONE | — | 2026-07-22 18:32 -04:00 | 2026-07-22 18:38 -04:00 | `02a3977` | Aceite validado; registro final em commit separado |
-| 1 | Contratos e modelos | IN_PROGRESS | 0 | 2026-07-22 18:41 -04:00 | — | — | Contratos tipados e schemas em implementação |
+| 1 | Contratos e modelos | DONE | 0 | 2026-07-22 18:41 -04:00 | 2026-07-22 18:47 -04:00 | `288bc66` | Aceite validado com 12 testes |
 | 2 | Loader e cache | PENDING | 1 | — | — | — | — |
 | 3 | Seeds e seleção | PENDING | 1 | — | — | — | — |
 | 4 | Motor de regras | PENDING | 1, 3 | — | — | — | — |
@@ -71,18 +71,31 @@
 
 ### ETAPA 1 — Contratos, schemas e modelos
 
-- [ ] Enums, dataclasses e exceções criados.
-- [ ] Schemas JSON criados.
-- [ ] Fixtures válidas e inválidas criadas.
-- [ ] Parser tipado implementado.
-- [ ] Campos essenciais ausentes rejeitados.
-- [ ] Política de campos desconhecidos definida.
-- [ ] Perfil mínimo válido testado.
-- [ ] Biblioteca válida testada.
-- [ ] ID duplicado testado.
-- [ ] Peso negativo testado.
-- [ ] Fallback inexistente testado.
-- [ ] Schema desconhecido testado.
+- [x] Enums, dataclasses e exceções criados.
+- [x] Schemas JSON criados.
+- [x] Fixtures válidas e inválidas criadas.
+- [x] Parser tipado implementado.
+- [x] Campos essenciais ausentes rejeitados.
+- [x] Política de campos desconhecidos definida.
+- [x] Perfil mínimo válido testado.
+- [x] Biblioteca válida testada.
+- [x] ID duplicado testado.
+- [x] Peso negativo testado.
+- [x] Fallback inexistente testado.
+- [x] Schema desconhecido testado.
+- [x] Lint, tipagem e testes aprovados.
+- [x] Documentação atualizada.
+- [x] Commit realizado.
+
+### ETAPA 2 — Loader, paths e cache
+
+- [ ] Raízes permitidas implementadas.
+- [ ] IDs normalizados e traversal rejeitado.
+- [ ] Loader JSON com limite de tamanho implementado.
+- [ ] Repository tipado implementado.
+- [ ] Cache por metadados e hash implementado.
+- [ ] Listagem determinística de perfis implementada.
+- [ ] Reload após mudança testado.
 - [ ] Lint, tipagem e testes aprovados.
 - [ ] Documentação atualizada.
 - [ ] Commit realizado.
@@ -159,6 +172,22 @@ Adicionar uma entrada por sessão relevante. Não apagar entradas antigas.
 - Commit/PR: pendente.
 - Próxima ação: implementar o menor conjunto completo da ETAPA 1.
 
+### 2026-07-22 18:47 -04:00 — CONCLUSÃO DA ETAPA 1
+
+- Status anterior: `IN_PROGRESS`.
+- Status novo: `DONE`.
+- Branch: `feat/contracts`.
+- Objetivo: concluir e validar contratos versionados antes dos algoritmos.
+- Arquivos alterados: modelos, enums, exceções, parser, quatro schemas JSON, fixtures, testes e `docs/configuration.md`.
+- Implementação: parser estrito stdlib, objetos tipados imutáveis, pesos finitos, IDs/versionamento, referências locais de fallback e política de campos desconhecidos.
+- Testes executados: compileall, parse de todos os JSON, Ruff check/format, mypy, unittest e wheel sem isolamento.
+- Resultado dos testes: PASS; 12 testes, zero erros de lint e tipagem.
+- Pendências: referências entre perfil e bibliotecas serão validadas pelo repository na ETAPA 2.
+- Bloqueadores: nenhum.
+- Decisões: schemas documentam interoperabilidade; parser stdlib é a validação executável para não adicionar dependência de runtime.
+- Commit/PR: `288bc66` (`feat: define prompt data contracts`).
+- Próxima ação: executar a ETAPA 2 — Loader, paths e cache.
+
 ## 6. Testes executados
 
 | Data | Etapa | Comando | Resultado | Evidência/observação |
@@ -173,6 +202,12 @@ Adicionar uma entrada por sessão relevante. Não apagar entradas antigas.
 | 2026-07-22 | 0 | `python -m unittest discover -s tests -v` | PASS | 1 teste executado. |
 | 2026-07-22 | 0 | `python -m build --no-isolation` | UNAVAILABLE | Módulo opcional `build` não instalado no Python local. |
 | 2026-07-22 | 0 | `python -m pip wheel . --no-deps --no-build-isolation --wheel-dir dist` | FAIL/PASS | Primeira execução revelou classificador de licença incompatível com PEP 639; após remoção do classificador redundante, wheel `0.1.0.dev0` construído. |
+| 2026-07-22 | 1 | `python -m compileall -q prompt_architect` | PASS | Contratos compilados. |
+| 2026-07-22 | 1 | Parse JSON com `json.loads` | PASS | Todos os schemas e fixtures JSON válidos sintaticamente. |
+| 2026-07-22 | 1 | `python -m ruff check .` / `python -m ruff format --check .` | PASS | Zero erros; 12 arquivos formatados. |
+| 2026-07-22 | 1 | `python -m mypy` | PASS | Zero issues em 12 arquivos. |
+| 2026-07-22 | 1 | `python -m unittest discover -s tests -v` | PASS | 12 testes executados. |
+| 2026-07-22 | 1 | `python -m pip wheel . --no-deps --no-build-isolation --wheel-dir dist` | PASS | Wheel `0.1.0.dev0` construído. |
 
 Nunca registrar `PASS` sem executar o comando.
 
@@ -282,4 +317,4 @@ Nunca registrar `PASS` sem executar o comando.
 
 ## 14. Próxima ação obrigatória
 
-Executar a **ETAPA 1 — Contratos, schemas e modelos**, seguindo integralmente `PLAN0.md`.
+Executar a **ETAPA 2 — Loader, paths e cache**, seguindo integralmente `PLAN0.md`.
