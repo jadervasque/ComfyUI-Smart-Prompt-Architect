@@ -10,11 +10,11 @@
 | Plano | `PLAN0.md` |
 | Versão do plano | 1.0 |
 | Status geral | `IN_PROGRESS` |
-| Etapa atual | ETAPA 2 |
-| Última atualização | 2026-07-22 18:48 -04:00 |
+| Etapa atual | ETAPA 3 |
+| Última atualização | 2026-07-22 18:51 -04:00 |
 | Responsável atual | Agente IA no VS Code |
 | Branch atual | `feat/repository` |
-| Próximo marco | Loader, paths e cache seguros |
+| Próximo marco | Seeds e seleção ponderada determinística |
 | Bloqueadores | Nenhum identificado |
 
 ## 2. Legenda
@@ -33,7 +33,7 @@
 |---:|---|---|---|---|---|---|---|
 | 0 | Bootstrap e decisões | DONE | — | 2026-07-22 18:32 -04:00 | 2026-07-22 18:38 -04:00 | `02a3977` | Aceite validado; registro final em commit separado |
 | 1 | Contratos e modelos | DONE | 0 | 2026-07-22 18:41 -04:00 | 2026-07-22 18:47 -04:00 | `288bc66` | Aceite validado com 12 testes |
-| 2 | Loader e cache | IN_PROGRESS | 1 | 2026-07-22 18:48 -04:00 | — | — | Loader seguro e cache em implementação |
+| 2 | Loader e cache | DONE | 1 | 2026-07-22 18:48 -04:00 | 2026-07-22 18:51 -04:00 | `778cc94` | Aceite validado com 22 testes acumulados |
 | 3 | Seeds e seleção | PENDING | 1 | — | — | — | — |
 | 4 | Motor de regras | PENDING | 1, 3 | — | — | — | — |
 | 5 | Compositor e fallbacks | PENDING | 2, 3, 4 | — | — | — | — |
@@ -89,13 +89,26 @@
 
 ### ETAPA 2 — Loader, paths e cache
 
-- [ ] Raízes permitidas implementadas.
-- [ ] IDs normalizados e traversal rejeitado.
-- [ ] Loader JSON com limite de tamanho implementado.
-- [ ] Repository tipado implementado.
-- [ ] Cache por metadados e hash implementado.
-- [ ] Listagem determinística de perfis implementada.
-- [ ] Reload após mudança testado.
+- [x] Raízes permitidas implementadas.
+- [x] IDs normalizados e traversal rejeitado.
+- [x] Loader JSON com limite de tamanho implementado.
+- [x] Repository tipado implementado.
+- [x] Cache por metadados e hash implementado.
+- [x] Listagem determinística de perfis implementada.
+- [x] Reload após mudança testado.
+- [x] Lint, tipagem e testes aprovados.
+- [x] Documentação atualizada.
+- [x] Commit realizado.
+
+### ETAPA 3 — Seeds e seleção ponderada
+
+- [ ] `derive_seed` implementado.
+- [ ] Seeds por grupo e locks implementados.
+- [ ] `weighted_choice` implementado.
+- [ ] Ordem determinística garantida.
+- [ ] Modos básicos de campo implementados.
+- [ ] Golden tests criados.
+- [ ] Independência de grupos testada.
 - [ ] Lint, tipagem e testes aprovados.
 - [ ] Documentação atualizada.
 - [ ] Commit realizado.
@@ -204,6 +217,22 @@ Adicionar uma entrada por sessão relevante. Não apagar entradas antigas.
 - Commit/PR: pendente.
 - Próxima ação: implementar o menor conjunto completo da ETAPA 2.
 
+### 2026-07-22 18:51 -04:00 — CONCLUSÃO DA ETAPA 2
+
+- Status anterior: `IN_PROGRESS`.
+- Status novo: `DONE`.
+- Branch: `feat/repository`.
+- Objetivo: concluir carregamento seguro, precedência, referências e cache invalidável.
+- Arquivos alterados: infrastructure paths, loader, hashing, cache, repository, testes e documentação.
+- Implementação: raízes autorizadas, IDs allowlist, JSON limitado a 1 MiB, precedência override/usuário/interno, hash SHA-256 e mensagens sem caminho absoluto.
+- Testes executados: Ruff, mypy, 22 unittests acumulados, compileall, format, wheel e scan de APIs proibidas.
+- Resultado dos testes: PASS; zero erros e nenhum uso proibido no Python.
+- Pendências: nenhuma da ETAPA 2.
+- Bloqueadores: nenhum.
+- Decisões: conteúdo sempre é hasheado para detectar alteração mesmo quando metadados do arquivo são preservados.
+- Commit/PR: `778cc94` (`feat: add secure prompt data repository`).
+- Próxima ação: executar a ETAPA 3 — Seeds e seleção ponderada.
+
 ## 6. Testes executados
 
 | Data | Etapa | Comando | Resultado | Evidência/observação |
@@ -224,6 +253,12 @@ Adicionar uma entrada por sessão relevante. Não apagar entradas antigas.
 | 2026-07-22 | 1 | `python -m mypy` | PASS | Zero issues em 12 arquivos. |
 | 2026-07-22 | 1 | `python -m unittest discover -s tests -v` | PASS | 12 testes executados. |
 | 2026-07-22 | 1 | `python -m pip wheel . --no-deps --no-build-isolation --wheel-dir dist` | PASS | Wheel `0.1.0.dev0` construído. |
+| 2026-07-22 | 2 | `python -m ruff check .` / `python -m ruff format --check .` | PASS | Zero erros; 18 arquivos formatados. |
+| 2026-07-22 | 2 | `python -m mypy` | PASS | Zero issues em 18 arquivos. |
+| 2026-07-22 | 2 | `python -m unittest discover -s tests -v` | PASS | 22 testes executados. |
+| 2026-07-22 | 2 | `python -m compileall -q prompt_architect` | PASS | Pacote compilado. |
+| 2026-07-22 | 2 | `python -m pip wheel . --no-deps --no-build-isolation --wheel-dir dist` | PASS | Wheel construído. |
+| 2026-07-22 | 2 | Scan `rg` de `eval`, `exec`, `pickle`, `subprocess` em Python | PASS | Nenhuma ocorrência. |
 
 Nunca registrar `PASS` sem executar o comando.
 
@@ -333,4 +368,4 @@ Nunca registrar `PASS` sem executar o comando.
 
 ## 14. Próxima ação obrigatória
 
-Executar a **ETAPA 2 — Loader, paths e cache**, seguindo integralmente `PLAN0.md`.
+Executar a **ETAPA 3 — Seeds e seleção ponderada**, seguindo integralmente `PLAN0.md`.
