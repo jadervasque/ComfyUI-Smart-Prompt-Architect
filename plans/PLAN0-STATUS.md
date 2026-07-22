@@ -11,9 +11,9 @@
 | Versão do plano | 1.0 |
 | Status geral | `IN_PROGRESS` |
 | Etapa atual | ETAPA 5 |
-| Última atualização | 2026-07-22 18:57 -04:00 |
+| Última atualização | 2026-07-22 18:58 -04:00 |
 | Responsável atual | Agente IA no VS Code |
-| Branch atual | `feat/rules-engine` |
+| Branch atual | `feat/compositor` |
 | Próximo marco | Compositor estruturado e fallbacks |
 | Bloqueadores | Nenhum identificado |
 
@@ -36,7 +36,7 @@
 | 2 | Loader e cache | DONE | 1 | 2026-07-22 18:48 -04:00 | 2026-07-22 18:51 -04:00 | `778cc94` | Aceite validado com 22 testes acumulados |
 | 3 | Seeds e seleção | DONE | 1 | 2026-07-22 18:52 -04:00 | 2026-07-22 18:54 -04:00 | `72d277e` | Golden tests e independência de grupos aprovados |
 | 4 | Motor de regras | DONE | 1, 3 | 2026-07-22 18:55 -04:00 | 2026-07-22 18:57 -04:00 | `783be55` | Operadores, conflitos e ciclos validados |
-| 5 | Compositor e fallbacks | PENDING | 2, 3, 4 | — | — | — | — |
+| 5 | Compositor e fallbacks | IN_PROGRESS | 2, 3, 4 | 2026-07-22 18:58 -04:00 | — | — | Compositor em implementação |
 | 6 | Renderer e normalização | PENDING | 1, 5 | — | — | — | — |
 | 7 | Validação e manifesto | PENDING | 5, 6 | — | — | — | — |
 | 8 | Perfis e bibliotecas | PENDING | 2–7 | — | — | — | — |
@@ -321,6 +321,22 @@ Adicionar uma entrada por sessão relevante. Não apagar entradas antigas.
 - Decisões: creative reduz influência de preferências por raiz quadrada sem relaxar regras absolutas.
 - Commit/PR: `783be55` (`feat: add compatibility rules engine`).
 - Próxima ação: executar a ETAPA 5 — Compositor e fallbacks.
+
+### 2026-07-22 18:58 -04:00 — ETAPA 5
+
+- Status anterior: `PENDING`.
+- Status novo: `IN_PROGRESS`.
+- Branch: `feat/compositor`.
+- Objetivo: selecionar seções incrementalmente, aplicar regras/fallbacks e produzir contexto estruturado completo.
+- Arquivos alterados: inicialmente apenas `plans/PLAN0-STATUS.md`.
+- Implementação: iniciada.
+- Testes executados: pendentes.
+- Resultado dos testes: pendente.
+- Pendências: engine de seleção, fallbacks, tentativas, testes, documentação e commit.
+- Bloqueadores: nenhum.
+- Decisões: fallbacks serão validados pelas mesmas regras absolutas; nenhum fallback poderá encobrir conflito fixed.
+- Commit/PR: pendente.
+- Próxima ação: implementar o menor conjunto completo da ETAPA 5.
 
 ## 6. Testes executados
 

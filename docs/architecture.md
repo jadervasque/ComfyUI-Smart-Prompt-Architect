@@ -12,4 +12,9 @@ apply rules, validate structured context, render text, normalize it, validate fi
 build a manifest. Selection must happen before rendering. Node execution must not access the
 network, execute user code, invoke subprocesses, install packages, or accept arbitrary paths.
 
+The structured compositor resolves all fixed fields first so future implications cannot silently
+replace them. It then walks `section_order`, filters candidates, retries deterministic alternatives,
+applies implications, and uses the declared section/profile/library fallback cascade. Balanced and
+creative modes may relax optional tag filters; they never relax requirements or exclusions.
+
 Detailed contracts and algorithms are introduced stage by stage in `plans/PLAN0.md`.
