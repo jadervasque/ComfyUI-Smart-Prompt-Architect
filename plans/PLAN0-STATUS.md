@@ -10,11 +10,11 @@
 | Plano | `PLAN0.md` |
 | Versão do plano | 1.0 |
 | Status geral | `IN_PROGRESS` |
-| Etapa atual | ETAPA 0 |
-| Última atualização | 2026-07-22 18:32 -04:00 |
+| Etapa atual | ETAPA 1 |
+| Última atualização | 2026-07-22 18:38 -04:00 |
 | Responsável atual | Agente IA no VS Code |
 | Branch atual | `chore/bootstrap` |
-| Próximo marco | Bootstrap do repositório |
+| Próximo marco | Contratos, schemas e modelos |
 | Bloqueadores | Nenhum identificado |
 
 ## 2. Legenda
@@ -31,7 +31,7 @@
 
 | Etapa | Nome | Status | Dependências | Início | Conclusão | Commit/PR | Observações |
 |---:|---|---|---|---|---|---|---|
-| 0 | Bootstrap e decisões | IN_PROGRESS | — | 2026-07-22 18:32 -04:00 | — | — | Bootstrap iniciado na branch `chore/bootstrap` |
+| 0 | Bootstrap e decisões | DONE | — | 2026-07-22 18:32 -04:00 | 2026-07-22 18:38 -04:00 | `02a3977` | Aceite validado; registro final em commit separado |
 | 1 | Contratos e modelos | PENDING | 0 | — | — | — | — |
 | 2 | Loader e cache | PENDING | 1 | — | — | — | — |
 | 3 | Seeds e seleção | PENDING | 1 | — | — | — | — |
@@ -67,6 +67,24 @@
 - [x] Pacote importa.
 - [x] `compileall` aprovado.
 - [x] Versões do ambiente registradas.
+- [x] Commit realizado.
+
+### ETAPA 1 — Contratos, schemas e modelos
+
+- [ ] Enums, dataclasses e exceções criados.
+- [ ] Schemas JSON criados.
+- [ ] Fixtures válidas e inválidas criadas.
+- [ ] Parser tipado implementado.
+- [ ] Campos essenciais ausentes rejeitados.
+- [ ] Política de campos desconhecidos definida.
+- [ ] Perfil mínimo válido testado.
+- [ ] Biblioteca válida testada.
+- [ ] ID duplicado testado.
+- [ ] Peso negativo testado.
+- [ ] Fallback inexistente testado.
+- [ ] Schema desconhecido testado.
+- [ ] Lint, tipagem e testes aprovados.
+- [ ] Documentação atualizada.
 - [ ] Commit realizado.
 
 ## 5. Registro de trabalho
@@ -108,6 +126,22 @@ Adicionar uma entrada por sessão relevante. Não apagar entradas antigas.
 - Decisões: preservar Git existente; usar `0.1.0.dev0`; adiar scaffold específico do ComfyUI para a ETAPA 9.
 - Commit/PR: preparado com mensagem `chore: bootstrap Prompt Architect project`.
 - Próxima ação: revisar e realizar o commit da ETAPA 0.
+
+### 2026-07-22 18:38 -04:00 — CONCLUSÃO DA ETAPA 0
+
+- Status anterior: `IN_PROGRESS`.
+- Status novo: `DONE`.
+- Branch: `chore/bootstrap`.
+- Objetivo: confirmar o aceite e registrar o commit real da etapa.
+- Arquivos alterados: `plans/PLAN0-STATUS.md`.
+- Implementação: checklist integral da ETAPA 0 conferido; ETAPA 1 selecionada como próxima elegível.
+- Testes executados: usados os resultados finais registrados na seção 6; nenhum teste adicional após o commit de código.
+- Resultado dos testes: todos os checks disponíveis e o build alternativo aprovados.
+- Pendências: `pytest`, `pytest-cov` e `build` continuam declarados como dependências opcionais e não estavam instalados no interpretador global; cobertura ainda não medida.
+- Bloqueadores: nenhum para o aceite da ETAPA 0.
+- Decisões: etapa marcada `DONE` porque os testes explícitos, lint, tipagem, teste unitário e wheel foram validados sem dependência de runtime.
+- Commit/PR: `02a3977` (`chore: bootstrap Prompt Architect project`).
+- Próxima ação: executar a ETAPA 1 — Contratos, schemas e modelos.
 
 ## 6. Testes executados
 
@@ -232,4 +266,4 @@ Nunca registrar `PASS` sem executar o comando.
 
 ## 14. Próxima ação obrigatória
 
-Executar a **ETAPA 0 — Bootstrap e decisões de projeto**, seguindo integralmente `PLAN0.md`.
+Executar a **ETAPA 1 — Contratos, schemas e modelos**, seguindo integralmente `PLAN0.md`.
