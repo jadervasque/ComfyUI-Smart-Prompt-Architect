@@ -11,9 +11,9 @@
 | Versão do plano | 1.0 |
 | Status geral | `IN_PROGRESS` |
 | Etapa atual | ETAPA 3 |
-| Última atualização | 2026-07-22 18:51 -04:00 |
+| Última atualização | 2026-07-22 18:52 -04:00 |
 | Responsável atual | Agente IA no VS Code |
-| Branch atual | `feat/repository` |
+| Branch atual | `feat/deterministic-selection` |
 | Próximo marco | Seeds e seleção ponderada determinística |
 | Bloqueadores | Nenhum identificado |
 
@@ -34,7 +34,7 @@
 | 0 | Bootstrap e decisões | DONE | — | 2026-07-22 18:32 -04:00 | 2026-07-22 18:38 -04:00 | `02a3977` | Aceite validado; registro final em commit separado |
 | 1 | Contratos e modelos | DONE | 0 | 2026-07-22 18:41 -04:00 | 2026-07-22 18:47 -04:00 | `288bc66` | Aceite validado com 12 testes |
 | 2 | Loader e cache | DONE | 1 | 2026-07-22 18:48 -04:00 | 2026-07-22 18:51 -04:00 | `778cc94` | Aceite validado com 22 testes acumulados |
-| 3 | Seeds e seleção | PENDING | 1 | — | — | — | — |
+| 3 | Seeds e seleção | IN_PROGRESS | 1 | 2026-07-22 18:52 -04:00 | — | — | Seeds e seleção ponderada em implementação |
 | 4 | Motor de regras | PENDING | 1, 3 | — | — | — | — |
 | 5 | Compositor e fallbacks | PENDING | 2, 3, 4 | — | — | — | — |
 | 6 | Renderer e normalização | PENDING | 1, 5 | — | — | — | — |
@@ -232,6 +232,22 @@ Adicionar uma entrada por sessão relevante. Não apagar entradas antigas.
 - Decisões: conteúdo sempre é hasheado para detectar alteração mesmo quando metadados do arquivo são preservados.
 - Commit/PR: `778cc94` (`feat: add secure prompt data repository`).
 - Próxima ação: executar a ETAPA 3 — Seeds e seleção ponderada.
+
+### 2026-07-22 18:52 -04:00 — ETAPA 3
+
+- Status anterior: `PENDING`.
+- Status novo: `IN_PROGRESS`.
+- Branch: `feat/deterministic-selection`.
+- Objetivo: implementar subseeds SHA-256, locks, ordem estável e escolha ponderada reproduzível sem RNG global.
+- Arquivos alterados: inicialmente apenas `plans/PLAN0-STATUS.md`.
+- Implementação: iniciada.
+- Testes executados: pendentes.
+- Resultado dos testes: pendente.
+- Pendências: seeds, selector, modos básicos, golden tests, documentação e commit.
+- Bloqueadores: nenhum.
+- Decisões: cada seção derivará uma seed própria a partir da seed do grupo para evitar correlação por ordem de execução.
+- Commit/PR: pendente.
+- Próxima ação: implementar o menor conjunto completo da ETAPA 3.
 
 ## 6. Testes executados
 
