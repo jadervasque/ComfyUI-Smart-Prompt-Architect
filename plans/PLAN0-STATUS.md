@@ -10,11 +10,11 @@
 | Plano | `PLAN0.md` |
 | Versão do plano | 1.0 |
 | Status geral | `IN_PROGRESS` |
-| Etapa atual | ETAPA 11 |
-| Última atualização | 2026-07-22 19:38 -04:00 |
+| Etapa atual | ETAPA 12 |
+| Última atualização | 2026-07-22 19:43 -04:00 |
 | Responsável atual | Agente IA no VS Code |
-| Branch atual | `feat/preview-api` |
-| Próximo marco | Preview e validação locais sem fila |
+| Branch atual | `feat/advanced-editor` |
+| Próximo marco | Editor visual completo |
 | Bloqueadores | Nenhum identificado |
 
 ## 2. Legenda
@@ -42,8 +42,8 @@
 | 8 | Perfis e bibliotecas | DONE | 2–7 | 2026-07-22 19:09:54 -04:00 | 2026-07-22 19:19 -04:00 | `0bc0575` | 30.000 seeds e determinismo aprovados |
 | 9 | Nó ComfyUI V3 | DONE | 7, 8 | 2026-07-22 19:20 -04:00 | 2026-07-22 19:30 -04:00 | `e35b73f` | Nó validado dentro do ComfyUI 0.27.0 local |
 | 10 | Frontend mínimo | DONE | 9 | 2026-07-22 19:31 -04:00 | 2026-07-22 19:38 -04:00 | `5a2d503` | Estado serializado e assets servidos no ComfyUI local |
-| 11 | Preview e validação API | IN_PROGRESS | 7, 9, 10 | 2026-07-22 19:38 -04:00 | — | — | Rotas locais em implementação |
-| 12 | Interface avançada | PENDING | 10, 11 | — | — | — | — |
+| 11 | Preview e validação API | DONE | 7, 9, 10 | 2026-07-22 19:38 -04:00 | 2026-07-22 19:43 -04:00 | `dac65e1` | Rotas e limites validados no ComfyUI local |
+| 12 | Interface avançada | IN_PROGRESS | 10, 11 | 2026-07-22 19:43 -04:00 | — | — | Controles por seção em implementação |
 | 13 | Qualidade e CI | PENDING | 0–12 | — | — | — | Pode começar parcialmente antes |
 | 14 | Documentação e exemplos | PENDING | 8–13 | — | — | — | Documentação incremental obrigatória |
 | 15 | Beta público 0.9.0 | PENDING | 0–14 | — | — | — | Requer autorização para publicar |
@@ -203,13 +203,26 @@
 
 ### ETAPA 11 — Rotas de preview e validação
 
-- [ ] Rotas GET seguras implementadas.
-- [ ] Rotas POST de preview e validação implementadas.
-- [ ] Limite de payload implementado.
-- [ ] Respostas e erros HTTP padronizados.
-- [ ] ID inválido, payload excessivo e concorrência testados.
-- [ ] Nenhuma escrita persistente realizada.
-- [ ] Lint, tipagem, testes e documentação aprovados.
+- [x] Rotas GET seguras implementadas.
+- [x] Rotas POST de preview e validação implementadas.
+- [x] Limite de payload implementado.
+- [x] Respostas e erros HTTP padronizados.
+- [x] ID inválido, payload excessivo e concorrência testados.
+- [x] Nenhuma escrita persistente realizada.
+- [x] Lint, tipagem, testes e documentação aprovados.
+- [x] Commit realizado.
+
+### ETAPA 12 — Interface avançada
+
+- [ ] Abas implementadas.
+- [ ] Modos, valores e tags por campo implementados.
+- [ ] Locks e seeds por grupo implementados.
+- [ ] Preview do manifesto implementado.
+- [ ] Advanced JSON sincronizado.
+- [ ] Reset, import e export implementados.
+- [ ] Acessibilidade, loading e erros implementados.
+- [ ] Configuração completa sem JSON manual validada.
+- [ ] Lint, testes e documentação aprovados.
 - [ ] Commit realizado.
 
 ## 5. Registro de trabalho
@@ -604,6 +617,38 @@ Adicionar uma entrada por sessão relevante. Não apagar entradas antigas.
 - Commit/PR: pendente.
 - Próxima ação: implementar o menor conjunto completo da ETAPA 11.
 
+### 2026-07-22 19:43 -04:00 — CONCLUSÃO DA ETAPA 11
+
+- Status anterior: `IN_PROGRESS`.
+- Status novo: `DONE`.
+- Branch: `feat/preview-api`.
+- Objetivo: concluir feedback imediato sem fila e sem persistência no servidor.
+- Arquivos alterados: service puro de API, adapter aiohttp, bootstrap, testes, tipagem e documentação.
+- Implementação: dois GETs seguros, POST preview/validate, payload de 256 KiB, respostas versionadas e erros padronizados.
+- Testes executados: Ruff, format, mypy, 80 unittests, compileall, wheel, scan de APIs proibidas e requests HTTP reais.
+- Resultado dos testes: PASS; preview/validate 200, ID inválido 400, excesso 413 e 32 previews concorrentes idênticos.
+- Pendências: nenhuma da ETAPA 11.
+- Bloqueadores: nenhum.
+- Decisões: validar por composição autoritativa para que o preview não divirja da execução do nó.
+- Commit/PR: `dac65e1` (`feat: add prompt preview and validation API`).
+- Próxima ação: executar a ETAPA 12 — Interface avançada.
+
+### 2026-07-22 19:43 -04:00 — ETAPA 12
+
+- Status anterior: `PENDING`.
+- Status novo: `IN_PROGRESS`.
+- Branch: `feat/advanced-editor`.
+- Objetivo: permitir configuração completa por controles visuais sincronizados.
+- Arquivos alterados: inicialmente apenas `plans/PLAN0-STATUS.md`.
+- Implementação: iniciada sobre o editor mínimo e as rotas versionadas.
+- Testes executados: pendentes.
+- Resultado dos testes: pendente.
+- Pendências: abas, campos, grupos, manifesto, JSON, import/export, acessibilidade e testes.
+- Bloqueadores: nenhum.
+- Decisões: obter opções somente da rota local read-only e manter JSON do widget como fonte de verdade.
+- Commit/PR: pendente.
+- Próxima ação: implementar o menor conjunto completo da ETAPA 12.
+
 ## 6. Testes executados
 
 | Data | Etapa | Comando | Resultado | Evidência/observação |
@@ -664,6 +709,10 @@ Adicionar uma entrada por sessão relevante. Não apagar entradas antigas.
 | 2026-07-22 | 10 | `node --test tests/frontend/state.test.mjs` | PASS | Três testes de parsing, validação e round-trip persistente. |
 | 2026-07-22 | 10 | `node --check` nos módulos frontend | PASS | JavaScript sintaticamente válido. |
 | 2026-07-22 | 10 | Inicialização completa e verificação HTTP no ComfyUI 0.27.0 | PASS | Nó registrado e três assets frontend retornaram HTTP 200. |
+| 2026-07-22 | 11 | `python -m unittest discover -s tests -v` | PASS | 80 testes; inclui 32 previews concorrentes idênticos. |
+| 2026-07-22 | 11 | Ruff, format e mypy | PASS | Zero erros em 43 arquivos tipados. |
+| 2026-07-22 | 11 | GET/POST reais no ComfyUI 0.27.0 | PASS | 200 para perfil/preview/validate, 400 para ID inválido e 413 para excesso. |
+| 2026-07-22 | 11 | Compileall, scan de APIs proibidas e wheel | PASS | Pacote compilado e wheel construído sem dependência nova. |
 
 Nunca registrar `PASS` sem executar o comando.
 
@@ -773,4 +822,4 @@ Nunca registrar `PASS` sem executar o comando.
 
 ## 14. Próxima ação obrigatória
 
-Executar a **ETAPA 11 — Rotas de preview e validação**, seguindo integralmente `PLAN0.md`.
+Executar a **ETAPA 12 — Interface avançada**, seguindo integralmente `PLAN0.md`.
