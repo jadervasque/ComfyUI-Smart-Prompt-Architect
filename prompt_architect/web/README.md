@@ -1,4 +1,13 @@
 # Frontend assets
 
-The ComfyUI frontend extension will be implemented after the public API V3 node adapter. No
-composition logic belongs in this directory.
+`prompt_architect.js` registers the visual editor for the
+`PromptArchitect_PromptArchitect` node. The editor keeps `configuration_json` as its portable
+source of truth, mirrors the basic values to visible node widgets, and marks the graph dirty when
+the user saves changes.
+
+`prompt_architect_state.js` contains the pure, independently tested state parser and serializer.
+Composition and authoritative validation remain in the Python core; no prompt selection logic is
+implemented in the browser.
+
+The stylesheet uses ComfyUI theme variables with accessible fallbacks, keyboard focus states,
+reduced-motion handling, and a responsive single-column layout.
