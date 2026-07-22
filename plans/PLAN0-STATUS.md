@@ -10,11 +10,11 @@
 | Plano | `PLAN0.md` |
 | Versão do plano | 1.0 |
 | Status geral | `IN_PROGRESS` |
-| Etapa atual | ETAPA 10 |
-| Última atualização | 2026-07-22 19:31 -04:00 |
+| Etapa atual | ETAPA 11 |
+| Última atualização | 2026-07-22 19:38 -04:00 |
 | Responsável atual | Agente IA no VS Code |
-| Branch atual | `feat/comfy-v3-node` |
-| Próximo marco | Frontend mínimo persistente |
+| Branch atual | `feat/preview-api` |
+| Próximo marco | Preview e validação locais sem fila |
 | Bloqueadores | Nenhum identificado |
 
 ## 2. Legenda
@@ -41,8 +41,8 @@
 | 7 | Validação e manifesto | DONE | 5, 6 | 2026-07-22 19:05 -04:00 | 2026-07-22 19:09 -04:00 | `96f28d8` | Pipeline pública e manifesto aprovados |
 | 8 | Perfis e bibliotecas | DONE | 2–7 | 2026-07-22 19:09:54 -04:00 | 2026-07-22 19:19 -04:00 | `0bc0575` | 30.000 seeds e determinismo aprovados |
 | 9 | Nó ComfyUI V3 | DONE | 7, 8 | 2026-07-22 19:20 -04:00 | 2026-07-22 19:30 -04:00 | `e35b73f` | Nó validado dentro do ComfyUI 0.27.0 local |
-| 10 | Frontend mínimo | IN_PROGRESS | 9 | 2026-07-22 19:31 -04:00 | — | — | Editor centralizado em implementação |
-| 11 | Preview e validação API | PENDING | 7, 9, 10 | — | — | — | — |
+| 10 | Frontend mínimo | DONE | 9 | 2026-07-22 19:31 -04:00 | 2026-07-22 19:38 -04:00 | `5a2d503` | Estado serializado e assets servidos no ComfyUI local |
+| 11 | Preview e validação API | IN_PROGRESS | 7, 9, 10 | 2026-07-22 19:38 -04:00 | — | — | Rotas locais em implementação |
 | 12 | Interface avançada | PENDING | 10, 11 | — | — | — | — |
 | 13 | Qualidade e CI | PENDING | 0–12 | — | — | — | Pode começar parcialmente antes |
 | 14 | Documentação e exemplos | PENDING | 8–13 | — | — | — | Documentação incremental obrigatória |
@@ -190,15 +190,26 @@
 
 ### ETAPA 10 — Frontend mínimo
 
-- [ ] Extensão JavaScript registrada.
-- [ ] Botão `Open Architect` implementado.
-- [ ] Modal e formulário básico implementados.
-- [ ] Persistência em `configuration_json` implementada.
-- [ ] Dirty state do workflow implementado.
-- [ ] Erros e preview implementados.
-- [ ] CSS compatível com tema implementado.
-- [ ] Persistência ao salvar e reabrir workflow validada.
-- [ ] Lint, testes e documentação aprovados.
+- [x] Extensão JavaScript registrada.
+- [x] Botão `Open Architect` implementado.
+- [x] Modal e formulário básico implementados.
+- [x] Persistência em `configuration_json` implementada.
+- [x] Dirty state do workflow implementado.
+- [x] Erros e preview implementados.
+- [x] CSS compatível com tema implementado.
+- [x] Persistência ao salvar e reabrir workflow validada.
+- [x] Lint, testes e documentação aprovados.
+- [x] Commit realizado.
+
+### ETAPA 11 — Rotas de preview e validação
+
+- [ ] Rotas GET seguras implementadas.
+- [ ] Rotas POST de preview e validação implementadas.
+- [ ] Limite de payload implementado.
+- [ ] Respostas e erros HTTP padronizados.
+- [ ] ID inválido, payload excessivo e concorrência testados.
+- [ ] Nenhuma escrita persistente realizada.
+- [ ] Lint, tipagem, testes e documentação aprovados.
 - [ ] Commit realizado.
 
 ## 5. Registro de trabalho
@@ -561,6 +572,38 @@ Adicionar uma entrada por sessão relevante. Não apagar entradas antigas.
 - Commit/PR: pendente.
 - Próxima ação: implementar o menor conjunto completo da ETAPA 10.
 
+### 2026-07-22 19:38 -04:00 — CONCLUSÃO DA ETAPA 10
+
+- Status anterior: `IN_PROGRESS`.
+- Status novo: `DONE`.
+- Branch: `feat/frontend-editor`.
+- Objetivo: concluir o editor centralizado persistente no workflow.
+- Arquivos alterados: extensão JavaScript, módulo puro de estado, CSS, documentação frontend e testes Node.
+- Implementação: modal acessível, formulário básico, preview local de estado, sincronização de widgets, JSON canônico e dirty state.
+- Testes executados: `node --test`, `node --check`, Ruff, mypy, 75 unittests e verificação HTTP no ComfyUI 0.27.0.
+- Resultado dos testes: PASS; três testes frontend, assets e definição do nó servidos em uma inicialização completa do ComfyUI.
+- Pendências: preview autoritativo do servidor pertence à ETAPA 11; screenshot final pertence à ETAPA 14.
+- Bloqueadores: automação visual in-app indisponível por falha de metadados no runtime da ferramenta; round-trip persistente coberto por teste automatizado de estado.
+- Decisões: usar JavaScript sem dependências e CSS carregado programaticamente conforme API oficial.
+- Commit/PR: `5a2d503` (`feat: add centralized prompt editor UI`); correção de bootstrap `b8eae98`.
+- Próxima ação: executar a ETAPA 11 — Rotas de preview e validação.
+
+### 2026-07-22 19:38 -04:00 — ETAPA 11
+
+- Status anterior: `PENDING`.
+- Status novo: `IN_PROGRESS`.
+- Branch: `feat/preview-api`.
+- Objetivo: fornecer preview e validação imediatos, locais e sem enfileirar workflow.
+- Arquivos alterados: inicialmente apenas `plans/PLAN0-STATUS.md`.
+- Implementação: iniciada após consulta à documentação oficial de rotas do ComfyUI.
+- Testes executados: pendentes.
+- Resultado dos testes: pendente.
+- Pendências: GETs, POSTs, limites, erros, concorrência, documentação e commit.
+- Bloqueadores: nenhum.
+- Decisões: manter operações no application service puro e limitar o adapter aiohttp ao transporte.
+- Commit/PR: pendente.
+- Próxima ação: implementar o menor conjunto completo da ETAPA 11.
+
 ## 6. Testes executados
 
 | Data | Etapa | Comando | Resultado | Evidência/observação |
@@ -618,6 +661,9 @@ Adicionar uma entrada por sessão relevante. Não apagar entradas antigas.
 | 2026-07-22 | 9 | `python -m unittest discover -s tests -v` | PASS | 75 testes executados. |
 | 2026-07-22 | 9 | Smoke test no ComfyUI 0.27.0 local | PASS | Extensão V3 carregada; schema 13/5 e cinco outputs confirmados sem GPU. |
 | 2026-07-22 | 9 | Compileall e wheel | PASS | Compilação e empacotamento aprovados. |
+| 2026-07-22 | 10 | `node --test tests/frontend/state.test.mjs` | PASS | Três testes de parsing, validação e round-trip persistente. |
+| 2026-07-22 | 10 | `node --check` nos módulos frontend | PASS | JavaScript sintaticamente válido. |
+| 2026-07-22 | 10 | Inicialização completa e verificação HTTP no ComfyUI 0.27.0 | PASS | Nó registrado e três assets frontend retornaram HTTP 200. |
 
 Nunca registrar `PASS` sem executar o comando.
 
@@ -727,4 +773,4 @@ Nunca registrar `PASS` sem executar o comando.
 
 ## 14. Próxima ação obrigatória
 
-Executar a **ETAPA 10 — Frontend mínimo**, seguindo integralmente `PLAN0.md`.
+Executar a **ETAPA 11 — Rotas de preview e validação**, seguindo integralmente `PLAN0.md`.
