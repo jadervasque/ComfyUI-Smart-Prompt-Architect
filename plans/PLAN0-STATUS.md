@@ -9,13 +9,13 @@
 | Projeto | Prompt Architect |
 | Plano | `PLAN0.md` |
 | Versão do plano | 1.0 |
-| Status geral | `IN_PROGRESS` |
+| Status geral | `PARTIAL` |
 | Etapa atual | ETAPA 13 |
-| Última atualização | 2026-07-22 19:50 -04:00 |
+| Última atualização | 2026-07-22 19:58 -04:00 |
 | Responsável atual | Agente IA no VS Code |
 | Branch atual | `ci/quality-matrix` |
-| Próximo marco | Qualidade e CI multiplataforma |
-| Bloqueadores | Nenhum identificado |
+| Próximo marco | Executar CI remota Linux/Windows |
+| Bloqueadores | Repositório sem remote; WSL local indisponível |
 
 ## 2. Legenda
 
@@ -44,7 +44,7 @@
 | 10 | Frontend mínimo | DONE | 9 | 2026-07-22 19:31 -04:00 | 2026-07-22 19:38 -04:00 | `5a2d503` | Estado serializado e assets servidos no ComfyUI local |
 | 11 | Preview e validação API | DONE | 7, 9, 10 | 2026-07-22 19:38 -04:00 | 2026-07-22 19:43 -04:00 | `dac65e1` | Rotas e limites validados no ComfyUI local |
 | 12 | Interface avançada | DONE | 10, 11 | 2026-07-22 19:43 -04:00 | 2026-07-22 19:50 -04:00 | `3c98b5e` | Editor completo e estado avançado testado |
-| 13 | Qualidade e CI | IN_PROGRESS | 0–12 | 2026-07-22 19:50 -04:00 | — | — | Matriz e gates em implementação |
+| 13 | Qualidade e CI | PARTIAL | 0–12 | 2026-07-22 19:50 -04:00 | — | `c7a3f87` | Gates Windows aprovados; CI remota/Linux ainda não executadas |
 | 14 | Documentação e exemplos | PENDING | 8–13 | — | — | — | Documentação incremental obrigatória |
 | 15 | Beta público 0.9.0 | PENDING | 0–14 | — | — | — | Requer autorização para publicar |
 | 16 | Release 1.0.0 | PENDING | 15 | — | — | — | Requer autorização para publicar |
@@ -227,15 +227,17 @@
 
 ### ETAPA 13 — Qualidade, CI e integração
 
-- [ ] Ruff, mypy, pytest e coverage configurados.
-- [ ] CI Linux/Windows implementada.
-- [ ] Property e smoke tests integrados.
-- [ ] Validação de dados integrada.
-- [ ] Pre-commit opcional configurado.
-- [ ] Performance medida.
-- [ ] Matriz suportada documentada.
+- [x] Ruff, mypy, pytest e coverage configurados.
+- [x] CI Linux/Windows implementada.
+- [x] Property e smoke tests integrados.
+- [x] Validação de dados integrada.
+- [x] Pre-commit opcional configurado.
+- [x] Performance medida.
+- [x] Matriz suportada documentada.
 - [ ] Cobertura alvo e 10.000 seeds aprovadas.
-- [ ] Commit realizado.
+- [x] Cobertura alvo e 10.000 seeds aprovadas.
+- [ ] Workflow remoto verde em Linux e Windows.
+- [x] Commit realizado.
 
 ## 5. Registro de trabalho
 
@@ -693,6 +695,22 @@ Adicionar uma entrada por sessão relevante. Não apagar entradas antigas.
 - Commit/PR: pendente.
 - Próxima ação: implementar o menor conjunto completo da ETAPA 13.
 
+### 2026-07-22 19:58 -04:00 — PAUSA DA ETAPA 13
+
+- Status anterior: `IN_PROGRESS`.
+- Status novo: `PARTIAL`.
+- Branch: `ci/quality-matrix`.
+- Objetivo: validar todos os gates locais e preparar execução multiplataforma reproduzível.
+- Arquivos alterados: workflow CI, configuração de coverage/pre-commit, scripts de dados/performance, bootstrap testável e guia de desenvolvimento.
+- Implementação: matriz Python 3.10/3.12/3.13 em Ubuntu/Windows, job property, cobertura 80%/90%, Node sem npm e build.
+- Testes executados: Ruff, format, mypy, unittest, pytest, trace coverage, cinco testes Node, data validator, benchmark, property 10.000 seeds, wheel e smoke ComfyUI.
+- Resultado dos testes: PASS no Windows; 81 testes/316 subtests, core acima de 90% por line trace, 60.000 composições property e 3.000 composições em 4,235 s.
+- Pendências: executar o workflow hospedado e obter resultado Linux/Windows verde; ETAPA 14 permanece inelegível até fechar esta dependência.
+- Bloqueadores: não existe Git remote; WSL Ubuntu local falha ao montar o VHDX e Docker daemon não está disponível.
+- Decisões: não inventar compatibilidade Linux nem marcar a etapa `DONE` sem uma execução real; dependências Hypothesis e pre-commit são somente do extra `dev`.
+- Commit/PR: `c7a3f87` (`ci: enforce cross-platform quality checks`).
+- Próxima ação: configurar um remote autorizado, publicar a branch e executar a CI ou fornecer um ambiente Linux funcional.
+
 ## 6. Testes executados
 
 | Data | Etapa | Comando | Resultado | Evidência/observação |
@@ -760,6 +778,16 @@ Adicionar uma entrada por sessão relevante. Não apagar entradas antigas.
 | 2026-07-22 | 12 | `node --test tests/frontend/state.test.mjs` | PASS | Cinco testes de estado, campos, tags, grupos e proteção de fixed. |
 | 2026-07-22 | 12 | Ruff, mypy e 81 unittests | PASS | Zero erros; preview e nó têm paridade de identity lock. |
 | 2026-07-22 | 12 | Assets e preview reais no ComfyUI 0.27.0 | PASS | Três assets 200 e seleção fixed preservada no manifesto. |
+| 2026-07-22 | 13 | Ruff, format e mypy | PASS | Zero erros em 47 arquivos formatados. |
+| 2026-07-22 | 13 | `python -m unittest discover -s tests -q` | PASS | 81 testes no Python 3.12 Windows. |
+| 2026-07-22 | 13 | `python_embeded -m pytest -q` | PASS | 81 testes e 316 subtests em 1,92 s. |
+| 2026-07-22 | 13 | `python -m trace --count --missing --summary ...` | PASS | Core com cobertura de linhas agregada acima de 90%; adapter Comfy excluído do gate. |
+| 2026-07-22 | 13 | `node --test tests/frontend/state.test.mjs` | PASS | Cinco testes frontend sem dependências npm. |
+| 2026-07-22 | 13 | `python -m scripts.validate_data` | PASS | 3 perfis, 20 bibliotecas e 27 JSON válidos. |
+| 2026-07-22 | 13 | `python -m scripts.benchmark --iterations 1000` | PASS | 3.000 composições em 4,235 s (708,3/s). |
+| 2026-07-22 | 13 | `python -m tests.property_profiles` | PASS | 10.000 seeds por perfil; 60.000 composições determinísticas. |
+| 2026-07-22 | 13 | Inicialização completa ComfyUI 0.27.0 | PASS | Nó 200 (schema 3.321 bytes) e API de perfis 200 após bootstrap lazy. |
+| 2026-07-22 | 13 | WSL Ubuntu / Docker | BLOCKED | VHDX da distro ausente; Docker daemon não disponível. |
 
 Nunca registrar `PASS` sem executar o comando.
 
@@ -767,22 +795,23 @@ Nunca registrar `PASS` sem executar o comando.
 
 | Métrica | Meta | Atual | Status |
 |---|---:|---:|---|
-| Cobertura do core | >= 90% | Não medida | PENDING |
-| Cobertura total | >= 80% | Não medida | PENDING |
+| Cobertura do core | >= 90% | > 90% por line trace; coverage.py configurado na CI | PASS LOCAL |
+| Cobertura total | >= 80% | > 90% nos módulos medidos; coverage.py configurado na CI | PASS LOCAL |
 | Ruff | 0 erros | 0 erros | PASS |
 | Mypy | 0 erros relevantes | 0 erros | PASS |
-| Perfis oficiais | 3 | 0 | PENDING |
-| Seeds testadas por perfil | 10.000 | 0 | PENDING |
-| Prompts vazios | 0 | Não medido | PENDING |
-| Placeholders residuais | 0 | Não medido | PENDING |
-| Windows | Suportado | Bootstrap validado em Windows | PARTIAL |
+| Perfis oficiais | 3 | 3 | PASS |
+| Seeds testadas por perfil | 10.000 | 10.000 | PASS |
+| Prompts vazios | 0 | 0 em 30.000 seeds | PASS |
+| Placeholders residuais | 0 | 0 em 30.000 seeds | PASS |
+| Windows | Suportado | Core, frontend state e ComfyUI 0.27.0 validados | PASS |
 | Linux | Suportado | Não testado | PENDING |
 
 ## 8. Bloqueadores
 
 | ID | Data | Etapa | Descrição | Impacto | Responsável | Estado | Resolução |
 |---|---|---:|---|---|---|---|---|
-| — | — | — | Nenhum | — | — | — | — |
+| B-001 | 2026-07-22 | 13 | Sem Git remote para executar GitHub Actions | Impede validar CI hospedada e Linux | Usuário | ABERTO | Configurar remote e autorizar push |
+| B-002 | 2026-07-22 | 13 | WSL Ubuntu não monta VHDX; Docker daemon ausente | Alternativa Linux local indisponível | Ambiente | ABERTO | Reparar WSL ou disponibilizar runner Linux |
 
 ## 9. Riscos
 
@@ -807,6 +836,7 @@ Nunca registrar `PASS` sem executar o comando.
 | D-005 | 2026-07-22 | Preservar o repositório Git e o commit inicial existentes | O projeto já estava inicializado corretamente | Reinicializar ou apagar histórico | Bootstrap parte do commit `548e757` |
 | D-006 | 2026-07-22 | Representar `0.1.0-dev` como `0.1.0.dev0` | Forma canônica e interoperável do PEP 440 | Manter grafia não canônica nos metadados | Versão de pacote normalizada |
 | D-007 | 2026-07-22 | Não aplicar scaffold específico do ComfyUI na ETAPA 0 | Adapter público V3 pertence à ETAPA 9 e o core precisa importar sem ComfyUI | Criar adapter provisório ou legado | Bootstrap contém somente limites de pacote vazios |
+| D-008 | 2026-07-22 | Manter ETAPA 13 `PARTIAL` até uma execução Linux/Windows real da CI | O plano proíbe inventar compatibilidade ou marcar aceite não executado | Marcar `DONE` apenas com equivalentes Windows locais | ETAPA 14 permanece inelegível |
 
 ## 11. Dívida técnica
 
@@ -869,4 +899,4 @@ Nunca registrar `PASS` sem executar o comando.
 
 ## 14. Próxima ação obrigatória
 
-Executar a **ETAPA 13 — Qualidade, CI e integração**, seguindo integralmente `PLAN0.md`.
+Configurar um **Git remote autorizado e executar a CI Linux/Windows** para concluir a ETAPA 13; somente então iniciar a ETAPA 14.
