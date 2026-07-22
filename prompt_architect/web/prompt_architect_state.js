@@ -1,7 +1,8 @@
 const SCHEMA_VERSION = "1.0";
 const PROFILE_VERSION = "1.0.0";
 const PROFILES = ["portrait", "virtual-model", "dataset"];
-const MODES = ["strict", "balanced", "creative"];
+const MODES = ["strict", "balanced", "creative", "dataset", "sequential"];
+const FIELD_MODES = ["inherit", "random", "fixed", "disabled"];
 
 export function defaultConfiguration(profile = "portrait") {
   return {
@@ -90,6 +91,43 @@ export function updateConfiguration(configuration, values) {
   }), values.profile);
 }
 
+export function setFieldConfiguration(configuration, fieldId, values) {
+  if (!fieldId || typeof fieldId !== "string") throw new Error("Field ID is required.");
+  if (!FIELD_MODES.includes(values.mode)) throw new Error(`Unknown field mode: ${values.mode}`);
+  const field = {
+    mode: values.mode,
+    include_tags: normalizeTags(values.includeTags),
+    exclude_tags: normalizeTags(values.excludeTags),
+  };
+  if (values.mode === "fixed") {
+    if (!values.value) throw new Error(`${fieldId}: fixed mode requires a value.`);
+    field.value = values.value;
+  }
+  return parseConfiguration(JSON.stringify({
+    ...configuration,
+    fields: { ...configuration.fields, [fieldId]: field },
+  }), configuration.profile_id);
+}
+
+export function setGroupConfiguration(configuration, groupId, values) {
+  if (!groupId || typeof groupId !== "string") throw new Error("Group ID is required.");
+  const seed = values.seed === "" || values.seed === null ? undefined : Number(values.seed);
+  if (seed !== undefined && (!Number.isSafeInteger(seed) || seed < 0)) {
+    throw new Error(`${groupId}: group seed must be a non-negative safe integer.`);
+  }
+  const group = { locked: Boolean(values.locked) };
+  if (seed !== undefined) group.seed = seed;
+  return parseConfiguration(JSON.stringify({
+    ...configuration,
+    groups: { ...configuration.groups, [groupId]: group },
+  }), configuration.profile_id);
+}
+
+export function normalizeTags(value) {
+  const items = Array.isArray(value) ? value : String(value ?? "").split(",");
+  return [...new Set(items.map((item) => String(item).trim().toLowerCase()).filter(Boolean))].sort();
+}
+
 function objectValue(value, path) {
   if (value === undefined) return {};
   if (!value || Array.isArray(value) || typeof value !== "object") {
@@ -106,3 +144,4 @@ function sortDeep(value) {
 
 export const promptArchitectProfiles = Object.freeze([...PROFILES]);
 export const promptArchitectModes = Object.freeze([...MODES]);
+export const promptArchitectFieldModes = Object.freeze([...FIELD_MODES]);

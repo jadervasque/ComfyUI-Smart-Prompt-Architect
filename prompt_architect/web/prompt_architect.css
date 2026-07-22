@@ -5,6 +5,10 @@
 .pa-eyebrow { margin: 0; color: #75d8ff; font-size: 11px; font-weight: 750; letter-spacing: .16em; }
 .pa-icon { width: 36px; height: 36px; border: 0; border-radius: 9px; color: inherit; background: #ffffff0d; font-size: 26px; cursor: pointer; }
 .pa-dialog form { padding: 24px 28px 28px; }
+.pa-tabs { display: flex; gap: 4px; margin: -8px 0 22px; padding: 4px; overflow-x: auto; background: #0002; border-radius: 10px; }
+.pa-tabs button { flex: 1 0 auto; padding: 9px 12px; color: var(--descrip-text, #aab2c0); background: transparent; border: 0; border-radius: 7px; font: inherit; font-weight: 700; cursor: pointer; }
+.pa-tabs button[aria-selected="true"] { color: var(--fg-color, #e9edf3); background: #ffffff12; box-shadow: inset 0 0 0 1px #ffffff12; }
+.pa-pane[hidden] { display: none; }
 .pa-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
 .pa-dialog label { display: grid; gap: 7px; color: var(--fg-color, #e9edf3); font-weight: 650; }
 .pa-dialog input, .pa-dialog select, .pa-dialog textarea { width: 100%; box-sizing: border-box; padding: 10px 12px; color: inherit; background: var(--comfy-input-bg, #0e1117); border: 1px solid var(--border-color, #394150); border-radius: 8px; font: inherit; font-weight: 400; }
@@ -12,12 +16,25 @@
 .pa-check { grid-template-columns: auto 1fr !important; align-items: center; justify-content: start; margin: 20px 0; }
 .pa-check input { width: 18px; height: 18px; margin: 0; }
 .pa-overrides textarea { resize: vertical; }
+.pa-field, .pa-group { display: grid; grid-template-columns: minmax(130px, 1fr) repeat(2, minmax(140px, 1fr)); gap: 12px; align-items: end; padding: 14px 0; border-bottom: 1px solid var(--border-color, #394150); }
+.pa-field > div, .pa-group > div { display: grid; gap: 2px; align-self: center; }
+.pa-field small, .pa-group small { color: var(--descrip-text, #aab2c0); font-weight: 400; }
+.pa-field label:nth-last-child(-n+2) { grid-column: span 1; }
+.pa-group { grid-template-columns: minmax(160px, 1fr) minmax(140px, .7fr) minmax(180px, 1fr); }
+.pa-loading { padding: 30px; color: var(--descrip-text, #aab2c0); text-align: center; }
+.pa-busy { cursor: progress; }
+.pa-busy .pa-dialog { opacity: .88; }
 .pa-preview { display: grid; gap: 3px; margin-top: 20px; padding: 13px 15px; background: #45bceb12; border: 1px solid #45bceb55; border-radius: 9px; }
 .pa-preview span { color: var(--descrip-text, #aab2c0); }
+.pa-preview strong:not(:first-child) { margin-top: 9px; }
+.pa-dialog details { margin: 16px 0; }
+.pa-dialog summary { padding: 8px 0; font-weight: 700; cursor: pointer; }
+.pa-dialog pre { max-height: 280px; overflow: auto; padding: 14px; color: #cfe8f3; background: #090c11; border-radius: 8px; font: 12px/1.5 ui-monospace, monospace; white-space: pre-wrap; }
 .pa-error { padding: 10px 12px; color: #ffd9dc; background: #e052601e; border: 1px solid #e0526066; border-radius: 8px; }
 .pa-actions { display: flex; justify-content: flex-end; gap: 10px; margin-top: 22px; }
+.pa-actions-top { margin: 0; }
 .pa-actions button { padding: 10px 16px; border-radius: 8px; font: inherit; font-weight: 700; cursor: pointer; }
 .pa-secondary { color: inherit; background: transparent; border: 1px solid var(--border-color, #394150); }
 .pa-primary { color: #061017; background: #67cff5; border: 1px solid #67cff5; }
-@media (max-width: 640px) { .pa-overlay { padding: 0; } .pa-dialog { max-height: 100vh; border-radius: 0; } .pa-grid { grid-template-columns: 1fr; } }
+@media (max-width: 760px) { .pa-overlay { padding: 0; } .pa-dialog { max-height: 100vh; border-radius: 0; } .pa-grid, .pa-field, .pa-group { grid-template-columns: 1fr; } .pa-field label:nth-last-child(-n+2) { grid-column: auto; } }
 @media (prefers-reduced-motion: reduce) { .pa-overlay { backdrop-filter: none; } }
