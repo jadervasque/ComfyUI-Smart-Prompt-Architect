@@ -10,11 +10,11 @@
 | Plano | `PLAN0.md` |
 | Versão do plano | 1.0 |
 | Status geral | `IN_PROGRESS` |
-| Etapa atual | ETAPA 7 |
-| Última atualização | 2026-07-22 19:05 -04:00 |
+| Etapa atual | ETAPA 8 |
+| Última atualização | 2026-07-22 19:09 -04:00 |
 | Responsável atual | Agente IA no VS Code |
 | Branch atual | `feat/manifest` |
-| Próximo marco | Validação final e manifesto |
+| Próximo marco | Perfis e bibliotecas oficiais |
 | Bloqueadores | Nenhum identificado |
 
 ## 2. Legenda
@@ -38,7 +38,7 @@
 | 4 | Motor de regras | DONE | 1, 3 | 2026-07-22 18:55 -04:00 | 2026-07-22 18:57 -04:00 | `783be55` | Operadores, conflitos e ciclos validados |
 | 5 | Compositor e fallbacks | DONE | 2, 3, 4 | 2026-07-22 18:58 -04:00 | 2026-07-22 19:01 -04:00 | `e0b2cb3` | Seções obrigatórias e fallbacks validados |
 | 6 | Renderer e normalização | DONE | 1, 5 | 2026-07-22 19:02 -04:00 | 2026-07-22 19:04 -04:00 | `5ae12ce` | Snapshots e template seguro aprovados |
-| 7 | Validação e manifesto | IN_PROGRESS | 5, 6 | 2026-07-22 19:05 -04:00 | — | — | Pipeline final em implementação |
+| 7 | Validação e manifesto | DONE | 5, 6 | 2026-07-22 19:05 -04:00 | 2026-07-22 19:09 -04:00 | `96f28d8` | Pipeline pública e manifesto aprovados |
 | 8 | Perfis e bibliotecas | PENDING | 2–7 | — | — | — | — |
 | 9 | Nó ComfyUI V3 | PENDING | 7, 8 | — | — | — | — |
 | 10 | Frontend mínimo | PENDING | 9 | — | — | — | — |
@@ -152,14 +152,26 @@
 
 ### ETAPA 7 — Validação final e manifesto
 
-- [ ] Issues estruturadas e severidades implementadas.
-- [ ] Contexto e resultado final validados.
-- [ ] Manifesto e hash canônicos implementados.
-- [ ] Summary implementado.
-- [ ] Prompt negativo implementado.
-- [ ] Prefixos e sufixos preservados.
-- [ ] Prompt positivo vazio impossível silenciosamente.
-- [ ] Snapshots e integração criados.
+- [x] Issues estruturadas e severidades implementadas.
+- [x] Contexto e resultado final validados.
+- [x] Manifesto e hash canônicos implementados.
+- [x] Summary implementado.
+- [x] Prompt negativo implementado.
+- [x] Prefixos e sufixos preservados.
+- [x] Prompt positivo vazio impossível silenciosamente.
+- [x] Snapshots e integração criados.
+- [x] Lint, tipagem e testes aprovados.
+- [x] Documentação atualizada.
+- [x] Commit realizado.
+
+### ETAPA 8 — Perfis e bibliotecas oficiais
+
+- [ ] Perfis `portrait`, `virtual-model` e `dataset` criados.
+- [ ] Vinte bibliotecas mínimas criadas.
+- [ ] Regras de cabelo, roupa e cenário incluídas.
+- [ ] Pesos e fallbacks revisados.
+- [ ] Conteúdo e licença revisados.
+- [ ] 10.000 seeds por perfil aprovadas.
 - [ ] Lint, tipagem e testes aprovados.
 - [ ] Documentação atualizada.
 - [ ] Commit realizado.
@@ -428,6 +440,22 @@ Adicionar uma entrada por sessão relevante. Não apagar entradas antigas.
 - Commit/PR: pendente.
 - Próxima ação: implementar o menor conjunto completo da ETAPA 7.
 
+### 2026-07-22 19:09 -04:00 — CONCLUSÃO DA ETAPA 7
+
+- Status anterior: `IN_PROGRESS`.
+- Status novo: `DONE`.
+- Branch: `feat/manifest`.
+- Objetivo: concluir validação final, overrides, manifesto e diagnóstico.
+- Arquivos alterados: validator, manifest, compose service, schema, modelos, testes e documentação.
+- Implementação: pipeline pública, issues, prompt negativo, overrides, JSON canônico e hash da configuração efetiva.
+- Testes executados: Ruff, mypy, 65 unittests acumulados, compileall, schemas JSON, format e wheel.
+- Resultado dos testes: PASS; zero erros.
+- Pendências: nenhuma da ETAPA 7.
+- Bloqueadores: nenhum.
+- Decisões: manifesto inclui versões de bibliotecas e configuração efetiva além do exemplo mínimo do plano, conforme RF-007.
+- Commit/PR: `96f28d8` (`feat: validate outputs and build prompt manifest`).
+- Próxima ação: executar a ETAPA 8 — Perfis e bibliotecas oficiais.
+
 ## 6. Testes executados
 
 | Data | Etapa | Comando | Resultado | Evidência/observação |
@@ -471,6 +499,10 @@ Adicionar uma entrada por sessão relevante. Não apagar entradas antigas.
 | 2026-07-22 | 6 | `python -m mypy` | PASS | Zero issues em 28 arquivos. |
 | 2026-07-22 | 6 | `python -m unittest discover -s tests -v` | PASS | 57 testes executados. |
 | 2026-07-22 | 6 | `python -m compileall -q prompt_architect` e wheel | PASS | Compilação e empacotamento aprovados. |
+| 2026-07-22 | 7 | `python -m ruff check .` / `python -m ruff format .` | PASS | Zero erros; 32 arquivos formatados. |
+| 2026-07-22 | 7 | `python -m mypy` | PASS | Zero issues em 32 arquivos. |
+| 2026-07-22 | 7 | `python -m unittest discover -s tests -v` | PASS | 65 testes executados. |
+| 2026-07-22 | 7 | Compileall, parse dos schemas e wheel | PASS | Compilação, JSON e empacotamento aprovados. |
 
 Nunca registrar `PASS` sem executar o comando.
 
@@ -580,4 +612,4 @@ Nunca registrar `PASS` sem executar o comando.
 
 ## 14. Próxima ação obrigatória
 
-Executar a **ETAPA 7 — Validação final e manifesto**, seguindo integralmente `PLAN0.md`.
+Executar a **ETAPA 8 — Perfis e bibliotecas oficiais**, seguindo integralmente `PLAN0.md`.
