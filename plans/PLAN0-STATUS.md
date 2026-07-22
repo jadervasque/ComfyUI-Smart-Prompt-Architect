@@ -10,11 +10,11 @@
 | Plano | `PLAN0.md` |
 | Versão do plano | 1.0 |
 | Status geral | `IN_PROGRESS` |
-| Etapa atual | ETAPA 5 |
-| Última atualização | 2026-07-22 18:58 -04:00 |
+| Etapa atual | ETAPA 6 |
+| Última atualização | 2026-07-22 19:01 -04:00 |
 | Responsável atual | Agente IA no VS Code |
 | Branch atual | `feat/compositor` |
-| Próximo marco | Compositor estruturado e fallbacks |
+| Próximo marco | Renderer seguro e normalização |
 | Bloqueadores | Nenhum identificado |
 
 ## 2. Legenda
@@ -36,7 +36,7 @@
 | 2 | Loader e cache | DONE | 1 | 2026-07-22 18:48 -04:00 | 2026-07-22 18:51 -04:00 | `778cc94` | Aceite validado com 22 testes acumulados |
 | 3 | Seeds e seleção | DONE | 1 | 2026-07-22 18:52 -04:00 | 2026-07-22 18:54 -04:00 | `72d277e` | Golden tests e independência de grupos aprovados |
 | 4 | Motor de regras | DONE | 1, 3 | 2026-07-22 18:55 -04:00 | 2026-07-22 18:57 -04:00 | `783be55` | Operadores, conflitos e ciclos validados |
-| 5 | Compositor e fallbacks | IN_PROGRESS | 2, 3, 4 | 2026-07-22 18:58 -04:00 | — | — | Compositor em implementação |
+| 5 | Compositor e fallbacks | DONE | 2, 3, 4 | 2026-07-22 18:58 -04:00 | 2026-07-22 19:01 -04:00 | `e0b2cb3` | Seções obrigatórias e fallbacks validados |
 | 6 | Renderer e normalização | PENDING | 1, 5 | — | — | — | — |
 | 7 | Validação e manifesto | PENDING | 5, 6 | — | — | — | — |
 | 8 | Perfis e bibliotecas | PENDING | 2–7 | — | — | — | — |
@@ -127,13 +127,25 @@
 
 ### ETAPA 5 — Compositor e fallbacks
 
-- [ ] Ordem de seções e contexto incremental implementados.
-- [ ] Limite de tentativas implementado.
-- [ ] Relaxamento por modo implementado.
-- [ ] Fallback local/global implementado.
-- [ ] Tentativas, conflitos e fallbacks registrados.
-- [ ] Retorno estruturado implementado.
-- [ ] Seções obrigatórias resolvem ou falham explicitamente.
+- [x] Ordem de seções e contexto incremental implementados.
+- [x] Limite de tentativas implementado.
+- [x] Relaxamento por modo implementado.
+- [x] Fallback local/global implementado.
+- [x] Tentativas, conflitos e fallbacks registrados.
+- [x] Retorno estruturado implementado.
+- [x] Seções obrigatórias resolvem ou falham explicitamente.
+- [x] Lint, tipagem e testes aprovados.
+- [x] Documentação atualizada.
+- [x] Commit realizado.
+
+### ETAPA 6 — Renderer e normalização
+
+- [ ] Template seguro implementado.
+- [ ] Frases, variantes e placeholders opcionais implementados.
+- [ ] Espaços, pontuação e capitalização normalizados.
+- [ ] Artigos básicos `a`/`an` implementados.
+- [ ] Deduplicação exata e semântica implementada.
+- [ ] Snapshots criados.
 - [ ] Lint, tipagem e testes aprovados.
 - [ ] Documentação atualizada.
 - [ ] Commit realizado.
@@ -338,6 +350,22 @@ Adicionar uma entrada por sessão relevante. Não apagar entradas antigas.
 - Commit/PR: pendente.
 - Próxima ação: implementar o menor conjunto completo da ETAPA 5.
 
+### 2026-07-22 19:01 -04:00 — CONCLUSÃO DA ETAPA 5
+
+- Status anterior: `IN_PROGRESS`.
+- Status novo: `DONE`.
+- Branch: `feat/compositor`.
+- Objetivo: concluir seleção incremental, retries e fallbacks.
+- Arquivos alterados: `engine.py`, testes e arquitetura.
+- Implementação: preflight fixed, contexto incremental, tentativas sem reposição, relaxamento controlado e cascata de fallback validada.
+- Testes executados: Ruff, mypy, 48 unittests acumulados, compileall, format e wheel.
+- Resultado dos testes: PASS; zero erros.
+- Pendências: renderização textual começa na ETAPA 6.
+- Bloqueadores: nenhum.
+- Decisões: implicações incompatíveis de candidatos random são rejeitadas; conflitos entre valores fixed falham imediatamente.
+- Commit/PR: `e0b2cb3` (`feat: compose structured prompt contexts`).
+- Próxima ação: executar a ETAPA 6 — Renderer e normalização.
+
 ## 6. Testes executados
 
 | Data | Etapa | Comando | Resultado | Evidência/observação |
@@ -373,6 +401,10 @@ Adicionar uma entrada por sessão relevante. Não apagar entradas antigas.
 | 2026-07-22 | 4 | `python -m mypy` | PASS | Zero issues em 23 arquivos. |
 | 2026-07-22 | 4 | `python -m unittest discover -s tests -v` | PASS | 40 testes executados. |
 | 2026-07-22 | 4 | `python -m compileall -q prompt_architect` e wheel | PASS | Compilação e empacotamento aprovados. |
+| 2026-07-22 | 5 | `python -m ruff check .` / `python -m ruff format --check .` | PASS | Zero erros; 25 arquivos formatados. |
+| 2026-07-22 | 5 | `python -m mypy` | PASS | Zero issues em 25 arquivos. |
+| 2026-07-22 | 5 | `python -m unittest discover -s tests -v` | PASS | 48 testes executados. |
+| 2026-07-22 | 5 | `python -m compileall -q prompt_architect` e wheel | PASS | Compilação e empacotamento aprovados. |
 
 Nunca registrar `PASS` sem executar o comando.
 
@@ -482,4 +514,4 @@ Nunca registrar `PASS` sem executar o comando.
 
 ## 14. Próxima ação obrigatória
 
-Executar a **ETAPA 5 — Compositor e fallbacks**, seguindo integralmente `PLAN0.md`.
+Executar a **ETAPA 6 — Renderer e normalização**, seguindo integralmente `PLAN0.md`.
