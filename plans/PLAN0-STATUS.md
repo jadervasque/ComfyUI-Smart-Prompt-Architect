@@ -10,11 +10,11 @@
 | Plano | `PLAN0.md` |
 | Versão do plano | 1.0 |
 | Status geral | `IN_PROGRESS` |
-| Etapa atual | ETAPA 6 |
-| Última atualização | 2026-07-22 19:02 -04:00 |
+| Etapa atual | ETAPA 7 |
+| Última atualização | 2026-07-22 19:04 -04:00 |
 | Responsável atual | Agente IA no VS Code |
 | Branch atual | `feat/renderer` |
-| Próximo marco | Renderer seguro e normalização |
+| Próximo marco | Validação final e manifesto |
 | Bloqueadores | Nenhum identificado |
 
 ## 2. Legenda
@@ -37,7 +37,7 @@
 | 3 | Seeds e seleção | DONE | 1 | 2026-07-22 18:52 -04:00 | 2026-07-22 18:54 -04:00 | `72d277e` | Golden tests e independência de grupos aprovados |
 | 4 | Motor de regras | DONE | 1, 3 | 2026-07-22 18:55 -04:00 | 2026-07-22 18:57 -04:00 | `783be55` | Operadores, conflitos e ciclos validados |
 | 5 | Compositor e fallbacks | DONE | 2, 3, 4 | 2026-07-22 18:58 -04:00 | 2026-07-22 19:01 -04:00 | `e0b2cb3` | Seções obrigatórias e fallbacks validados |
-| 6 | Renderer e normalização | IN_PROGRESS | 1, 5 | 2026-07-22 19:02 -04:00 | — | — | Renderer seguro em implementação |
+| 6 | Renderer e normalização | DONE | 1, 5 | 2026-07-22 19:02 -04:00 | 2026-07-22 19:04 -04:00 | `5ae12ce` | Snapshots e template seguro aprovados |
 | 7 | Validação e manifesto | PENDING | 5, 6 | — | — | — | — |
 | 8 | Perfis e bibliotecas | PENDING | 2–7 | — | — | — | — |
 | 9 | Nó ComfyUI V3 | PENDING | 7, 8 | — | — | — | — |
@@ -140,12 +140,26 @@
 
 ### ETAPA 6 — Renderer e normalização
 
-- [ ] Template seguro implementado.
-- [ ] Frases, variantes e placeholders opcionais implementados.
-- [ ] Espaços, pontuação e capitalização normalizados.
-- [ ] Artigos básicos `a`/`an` implementados.
-- [ ] Deduplicação exata e semântica implementada.
-- [ ] Snapshots criados.
+- [x] Template seguro implementado.
+- [x] Frases, variantes e placeholders opcionais implementados.
+- [x] Espaços, pontuação e capitalização normalizados.
+- [x] Artigos básicos `a`/`an` implementados.
+- [x] Deduplicação exata e semântica implementada.
+- [x] Snapshots criados.
+- [x] Lint, tipagem e testes aprovados.
+- [x] Documentação atualizada.
+- [x] Commit realizado.
+
+### ETAPA 7 — Validação final e manifesto
+
+- [ ] Issues estruturadas e severidades implementadas.
+- [ ] Contexto e resultado final validados.
+- [ ] Manifesto e hash canônicos implementados.
+- [ ] Summary implementado.
+- [ ] Prompt negativo implementado.
+- [ ] Prefixos e sufixos preservados.
+- [ ] Prompt positivo vazio impossível silenciosamente.
+- [ ] Snapshots e integração criados.
 - [ ] Lint, tipagem e testes aprovados.
 - [ ] Documentação atualizada.
 - [ ] Commit realizado.
@@ -382,6 +396,22 @@ Adicionar uma entrada por sessão relevante. Não apagar entradas antigas.
 - Commit/PR: pendente.
 - Próxima ação: implementar o menor conjunto completo da ETAPA 6.
 
+### 2026-07-22 19:04 -04:00 — CONCLUSÃO DA ETAPA 6
+
+- Status anterior: `IN_PROGRESS`.
+- Status novo: `DONE`.
+- Branch: `feat/renderer`.
+- Objetivo: concluir renderização segura e normalização conservadora.
+- Arquivos alterados: renderer, normalizer, testes e documentação.
+- Implementação: substituição segura, variantes ponderadas, deduplicação exata/semântica e gramática básica.
+- Testes executados: Ruff, mypy, 57 unittests acumulados, compileall, format e wheel.
+- Resultado dos testes: PASS; zero erros.
+- Pendências: validação final, overrides e manifesto na ETAPA 7.
+- Bloqueadores: nenhum.
+- Decisões: underscores são permitidos em placeholders oficiais, sem permitir acesso a atributos ou índices.
+- Commit/PR: `5ae12ce` (`feat: render and normalize natural prompts`).
+- Próxima ação: executar a ETAPA 7 — Validação final e manifesto.
+
 ## 6. Testes executados
 
 | Data | Etapa | Comando | Resultado | Evidência/observação |
@@ -421,6 +451,10 @@ Adicionar uma entrada por sessão relevante. Não apagar entradas antigas.
 | 2026-07-22 | 5 | `python -m mypy` | PASS | Zero issues em 25 arquivos. |
 | 2026-07-22 | 5 | `python -m unittest discover -s tests -v` | PASS | 48 testes executados. |
 | 2026-07-22 | 5 | `python -m compileall -q prompt_architect` e wheel | PASS | Compilação e empacotamento aprovados. |
+| 2026-07-22 | 6 | `python -m ruff check .` / `python -m ruff format .` | PASS | Zero erros; 28 arquivos formatados. |
+| 2026-07-22 | 6 | `python -m mypy` | PASS | Zero issues em 28 arquivos. |
+| 2026-07-22 | 6 | `python -m unittest discover -s tests -v` | PASS | 57 testes executados. |
+| 2026-07-22 | 6 | `python -m compileall -q prompt_architect` e wheel | PASS | Compilação e empacotamento aprovados. |
 
 Nunca registrar `PASS` sem executar o comando.
 
@@ -530,4 +564,4 @@ Nunca registrar `PASS` sem executar o comando.
 
 ## 14. Próxima ação obrigatória
 
-Executar a **ETAPA 6 — Renderer e normalização**, seguindo integralmente `PLAN0.md`.
+Executar a **ETAPA 7 — Validação final e manifesto**, seguindo integralmente `PLAN0.md`.
