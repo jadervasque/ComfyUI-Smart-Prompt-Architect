@@ -10,11 +10,11 @@
 | Plano | `PLAN0.md` |
 | Versão do plano | 1.0 |
 | Status geral | `IN_PROGRESS` |
-| Etapa atual | ETAPA 3 |
-| Última atualização | 2026-07-22 18:52 -04:00 |
+| Etapa atual | ETAPA 4 |
+| Última atualização | 2026-07-22 18:54 -04:00 |
 | Responsável atual | Agente IA no VS Code |
 | Branch atual | `feat/deterministic-selection` |
-| Próximo marco | Seeds e seleção ponderada determinística |
+| Próximo marco | Motor de regras de compatibilidade |
 | Bloqueadores | Nenhum identificado |
 
 ## 2. Legenda
@@ -34,7 +34,7 @@
 | 0 | Bootstrap e decisões | DONE | — | 2026-07-22 18:32 -04:00 | 2026-07-22 18:38 -04:00 | `02a3977` | Aceite validado; registro final em commit separado |
 | 1 | Contratos e modelos | DONE | 0 | 2026-07-22 18:41 -04:00 | 2026-07-22 18:47 -04:00 | `288bc66` | Aceite validado com 12 testes |
 | 2 | Loader e cache | DONE | 1 | 2026-07-22 18:48 -04:00 | 2026-07-22 18:51 -04:00 | `778cc94` | Aceite validado com 22 testes acumulados |
-| 3 | Seeds e seleção | IN_PROGRESS | 1 | 2026-07-22 18:52 -04:00 | — | — | Seeds e seleção ponderada em implementação |
+| 3 | Seeds e seleção | DONE | 1 | 2026-07-22 18:52 -04:00 | 2026-07-22 18:54 -04:00 | `72d277e` | Golden tests e independência de grupos aprovados |
 | 4 | Motor de regras | PENDING | 1, 3 | — | — | — | — |
 | 5 | Compositor e fallbacks | PENDING | 2, 3, 4 | — | — | — | — |
 | 6 | Renderer e normalização | PENDING | 1, 5 | — | — | — | — |
@@ -102,13 +102,25 @@
 
 ### ETAPA 3 — Seeds e seleção ponderada
 
-- [ ] `derive_seed` implementado.
-- [ ] Seeds por grupo e locks implementados.
-- [ ] `weighted_choice` implementado.
-- [ ] Ordem determinística garantida.
-- [ ] Modos básicos de campo implementados.
-- [ ] Golden tests criados.
-- [ ] Independência de grupos testada.
+- [x] `derive_seed` implementado.
+- [x] Seeds por grupo e locks implementados.
+- [x] `weighted_choice` implementado.
+- [x] Ordem determinística garantida.
+- [x] Modos básicos de campo implementados.
+- [x] Golden tests criados.
+- [x] Independência de grupos testada.
+- [x] Lint, tipagem e testes aprovados.
+- [x] Documentação atualizada.
+- [x] Commit realizado.
+
+### ETAPA 4 — Motor de regras
+
+- [ ] Operadores seguros implementados.
+- [ ] `requires`, `excludes`, `prefer` e `implies` implementados.
+- [ ] Prioridades e conflitos fixos implementados.
+- [ ] Ciclos detectados e limitados.
+- [ ] Eventos registráveis no manifesto produzidos.
+- [ ] Exemplos e testes reais criados.
 - [ ] Lint, tipagem e testes aprovados.
 - [ ] Documentação atualizada.
 - [ ] Commit realizado.
@@ -249,6 +261,22 @@ Adicionar uma entrada por sessão relevante. Não apagar entradas antigas.
 - Commit/PR: pendente.
 - Próxima ação: implementar o menor conjunto completo da ETAPA 3.
 
+### 2026-07-22 18:54 -04:00 — CONCLUSÃO DA ETAPA 3
+
+- Status anterior: `IN_PROGRESS`.
+- Status novo: `DONE`.
+- Branch: `feat/deterministic-selection`.
+- Objetivo: concluir seeds isoladas e seleção ponderada reproduzível.
+- Arquivos alterados: `seeds.py`, `selector.py`, testes, documentação e configuração Ruff.
+- Implementação: SHA-256 de 64 bits, RNG por seção, locks, modos básicos, filtros de tags, ordenação estável e pesos validados.
+- Testes executados: Ruff, mypy, 33 unittests acumulados, compileall e wheel.
+- Resultado dos testes: PASS; zero erros.
+- Pendências: nenhuma da ETAPA 3.
+- Bloqueadores: nenhum.
+- Decisões: `random.Random` é deliberadamente não criptográfico e usado somente para conteúdo determinístico; S311 foi documentado/limitado.
+- Commit/PR: `72d277e` (`feat: implement deterministic weighted selection`).
+- Próxima ação: executar a ETAPA 4 — Motor de regras.
+
 ## 6. Testes executados
 
 | Data | Etapa | Comando | Resultado | Evidência/observação |
@@ -275,6 +303,11 @@ Adicionar uma entrada por sessão relevante. Não apagar entradas antigas.
 | 2026-07-22 | 2 | `python -m compileall -q prompt_architect` | PASS | Pacote compilado. |
 | 2026-07-22 | 2 | `python -m pip wheel . --no-deps --no-build-isolation --wheel-dir dist` | PASS | Wheel construído. |
 | 2026-07-22 | 2 | Scan `rg` de `eval`, `exec`, `pickle`, `subprocess` em Python | PASS | Nenhuma ocorrência. |
+| 2026-07-22 | 3 | `python -m ruff check .` / `python -m ruff format .` | PASS | Zero erros; 21 arquivos estáveis. |
+| 2026-07-22 | 3 | `python -m mypy` | PASS | Zero issues em 21 arquivos. |
+| 2026-07-22 | 3 | `python -m unittest discover -s tests -v` | PASS | 33 testes executados. |
+| 2026-07-22 | 3 | `python -m compileall -q prompt_architect` | PASS | Pacote compilado. |
+| 2026-07-22 | 3 | `python -m pip wheel . --no-deps --no-build-isolation --wheel-dir dist` | PASS | Wheel construído. |
 
 Nunca registrar `PASS` sem executar o comando.
 
@@ -384,4 +417,4 @@ Nunca registrar `PASS` sem executar o comando.
 
 ## 14. Próxima ação obrigatória
 
-Executar a **ETAPA 3 — Seeds e seleção ponderada**, seguindo integralmente `PLAN0.md`.
+Executar a **ETAPA 4 — Motor de regras**, seguindo integralmente `PLAN0.md`.
