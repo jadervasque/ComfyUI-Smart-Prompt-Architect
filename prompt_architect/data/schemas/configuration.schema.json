@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://prompt-architect.invalid/schemas/1.0/configuration.schema.json",
+  "title": "Prompt Architect Node Configuration 1.0",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "profile_id", "mode", "master_seed"],
+  "properties": {
+    "schema_version": { "const": "1.0" },
+    "profile_id": { "$ref": "#/$defs/id" },
+    "profile_version": { "$ref": "#/$defs/version" },
+    "mode": { "enum": ["strict", "balanced", "creative", "dataset", "sequential"] },
+    "master_seed": { "type": "integer", "minimum": 0, "maximum": 18446744073709551615 },
+    "batch_index": { "type": "integer", "minimum": 0 },
+    "groups": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "locked": { "type": "boolean" },
+          "seed": { "type": "integer", "minimum": 0, "maximum": 18446744073709551615 }
+        }
+      }
+    },
+    "fields": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["mode"],
+        "properties": {
+          "mode": { "enum": ["disabled", "fixed", "random", "inherit"] },
+          "value": { "type": "string", "minLength": 1 },
+          "include_tags": { "type": "array", "uniqueItems": true, "items": { "type": "string", "minLength": 1 } },
+          "exclude_tags": { "type": "array", "uniqueItems": true, "items": { "type": "string", "minLength": 1 } }
+        }
+      }
+    },
+    "overrides": {
+      "type": "object",
+      "additionalProperties": { "type": "string" }
+    }
+  },
+  "$defs": {
+    "id": { "type": "string", "pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$" },
+    "version": { "type": "string", "pattern": "^\\d+\\.\\d+\\.\\d+(?:[.-][0-9A-Za-z.-]+)?$" }
+  }
+}

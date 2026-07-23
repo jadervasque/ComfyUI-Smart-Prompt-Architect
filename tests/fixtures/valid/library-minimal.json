@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "id": "subjects",
+  "version": "1.0.0",
+  "display_name": "Subjects",
+  "options": [
+    {
+      "id": "adult-person",
+      "text": "A photographed adult person",
+      "weight": 1.0,
+      "tags": ["adult", "person"],
+      "status": "active",
+      "requires": [],
+      "excludes": [],
+      "implies": [],
+      "prefer": []
+    }
+  ],
+  "fallback_option_id": "adult-person"
+}
