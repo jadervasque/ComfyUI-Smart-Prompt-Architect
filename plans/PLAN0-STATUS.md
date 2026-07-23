@@ -11,7 +11,7 @@
 | Versão do plano | 1.0 |
 | Status geral | `PARTIAL` |
 | Etapa atual | ETAPA 14 |
-| Última atualização | 2026-07-22 21:50 -04:00 |
+| Última atualização | 2026-07-22 21:52 -04:00 |
 | Responsável atual | Agente IA no VS Code |
 | Branch atual | `docs/user-manual` |
 | Próximo marco | Completar screenshots e workflows de exemplo da ETAPA 14 |
@@ -749,10 +749,10 @@ Adicionar uma entrada por sessão relevante. Não apagar entradas antigas.
 - Implementação: manual em português com primeiro uso, ligações no workflow, perfis, 13 entradas, precedência, 5 modos, editor visual, campos/grupos, 5 saídas, receitas, determinismo, erros e segurança; README obsoleto corrigido e ligado ao manual.
 - Testes executados: verificador de links Markdown e cobertura dos nomes do schema; Ruff check/format, mypy, pytest, testes Node, validação dos dados e `git diff --check`.
 - Resultado dos testes: PASS; links locais válidos, 13 entradas e 5 saídas documentadas, 87 testes/337 subtests Python, 5 testes frontend e 27 JSONs oficiais aprovados.
-- Pendências: commit/push deste incremento; screenshots, workflows, exemplo de perfil e revisão documental restante continuam pendentes na ETAPA 14.
+- Pendências: screenshots, workflows, exemplo de perfil e revisão documental restante continuam pendentes na ETAPA 14.
 - Bloqueadores: nenhum.
 - Decisões: manual em português, orientado a tarefas, com distinção explícita entre controles visíveis, estado do editor e entradas avançadas.
-- Commit/PR: preparado com mensagem `docs: add complete Prompt Architect user manual`.
+- Commit/PR: `168d0cb` (`docs: add complete Prompt Architect user manual`), seguido por `6edc562` (normalização de EOF); branch publicada em `origin/docs/user-manual`.
 - Próxima ação: publicar a branch e continuar as demais entregas da ETAPA 14.
 
 ## 6. Testes executados
