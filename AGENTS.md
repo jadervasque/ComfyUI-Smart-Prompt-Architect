@@ -6,9 +6,10 @@ Implementar e manter o Prompt Architect como custom node público, seguro, deter
 
 ## Fonte de verdade
 
-1. Leia `PLAN0-STATUS.md`.
-2. Execute a próxima etapa elegível de `PLAN0.md`.
-3. Atualize `PLAN0-STATUS.md` antes e depois do trabalho.
+1. Use o código, os testes e os schemas versionados como contrato executável.
+2. Use `README.md`, `MANUAL.md` e `docs/` como documentação pública do comportamento.
+3. Trate a solicitação atual do usuário como escopo da implementação.
+4. Mantenha código, testes e documentação sincronizados na mesma entrega.
 
 ## Regras obrigatórias
 
@@ -30,7 +31,6 @@ Implementar e manter o Prompt Architect como custom node público, seguro, deter
 - Testes para toda regra e correção.
 - Core com cobertura alvo de 90%.
 - Execute lint, tipagem e testes antes de concluir uma etapa.
-- Registre comandos e resultados reais em `PLAN0-STATUS.md`.
 - Mantenha funções pequenas e responsabilidades separadas.
 - Atualize documentação junto com o código.
 
@@ -39,8 +39,11 @@ Implementar e manter o Prompt Architect como custom node público, seguro, deter
 - Use branches curtas.
 - Use Conventional Commits.
 - Não misture refatoração ampla com nova funcionalidade.
-- Não marque etapa `DONE` sem cumprir seus critérios de aceite.
+- Nunca implemente diretamente na `master`.
+- Após cada implementação validada, faça commit, publique a branch e abra um pull request para a `master`.
+- Faça merge somente após os checks obrigatórios passarem e confirme que a `master` local e remota estão sincronizadas.
+- Não considere a implementação concluída enquanto o pull request não estiver mesclado, salvo bloqueio explícito de revisão, permissão ou CI.
 
 ## Ao encontrar ambiguidade
 
-Escolha a opção mais simples, segura e compatível com `PLAN0.md`; registre a decisão no Decision Log. Não invente resultado de teste nem compatibilidade.
+Escolha a opção mais simples, segura e compatível com a arquitetura e os contratos públicos. Registre decisões relevantes na documentação ou no pull request. Não invente resultado de teste nem compatibilidade.

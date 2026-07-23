@@ -1,6 +1,8 @@
 __pycache__/
 *.py[cod]
 *.egg-info/
+
+# Local environments and generated artifacts
 .coverage
 .mypy_cache/
 .pytest_cache/
@@ -10,6 +12,10 @@ build/
 dist/
 htmlcov/
 node_modules/
+
+# Internal planning files are not part of the public package
+/plans/
+
+# Operating system metadata
 .DS_Store
 Thumbs.db
-/plans/
