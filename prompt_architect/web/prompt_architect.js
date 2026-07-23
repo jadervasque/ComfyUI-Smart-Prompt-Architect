@@ -143,6 +143,7 @@ async function openArchitect(node) {
   document.body.append(overlay);
   const form = overlay.querySelector("[data-pa-form]");
   const errorBox = overlay.querySelector("[data-pa-error]");
+  let backdropPointerDown = false;
   const showError = (error) => { errorBox.textContent = error.message ?? String(error); errorBox.hidden = false; };
   const clearError = () => { errorBox.hidden = true; errorBox.textContent = ""; };
   const close = () => overlay.remove();
@@ -173,7 +174,12 @@ async function openArchitect(node) {
   setOverrides(); syncJson(); await loadProfile(state.profile_id);
   overlay.querySelector("[data-pa-close]").addEventListener("click", close);
   overlay.querySelector("[data-pa-cancel]").addEventListener("click", close);
-  overlay.addEventListener("click", (event) => { if (event.target === overlay) close(); });
+  overlay.addEventListener("pointerdown", (event) => { backdropPointerDown = event.target === overlay; });
+  overlay.addEventListener("click", (event) => {
+    const shouldClose = event.target === overlay && backdropPointerDown;
+    backdropPointerDown = false;
+    if (shouldClose) close();
+  });
   overlay.addEventListener("keydown", (event) => {
     if (event.key === "Escape") close();
     if (event.key !== "Tab") return;
