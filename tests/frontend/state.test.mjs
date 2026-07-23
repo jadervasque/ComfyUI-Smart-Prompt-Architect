@@ -12,6 +12,12 @@ import {
   updateConfiguration,
 } from "../../prompt_architect/web/prompt_architect_state.js";
 
+import {
+  createSetupEntry,
+  parseSetupLibrary as parseSetupLibraryState,
+  serializeSetupLibrary as serializeSetupLibraryState,
+} from "../../prompt_architect/web/setup_library_state.js";
+
 test("configuration round-trips deterministically", () => {
   const original = defaultConfiguration("portrait-core");
   assert.deepEqual(parseConfiguration(serializeConfiguration(original)), original);
@@ -91,4 +97,35 @@ test("legacy schema cannot smuggle in custom mode", () => {
     fields: { outfit: { mode: "custom", value: "custom coat" } },
   })), /requires configuration schema 1.1/);
   assert.throws(() => parseConfiguration('{"schema_version":"2.0"}'), /Unknown configuration schema/);
+});
+
+test("setup library entries round-trip with deterministic normalization", () => {
+  const entries = [
+    {
+      id: "setup-a",
+      title: "  Portrait baseline  ",
+      description: " Studio balanced run ",
+      setup_json: '{"schema_version":"1.1","profile_id":"portrait-core"}',
+    },
+  ];
+  const serialized = serializeSetupLibraryState(entries);
+  const restored = parseSetupLibraryState(serialized);
+  assert.equal(restored.length, 1);
+  assert.equal(restored[0].id, "setup-a");
+  assert.equal(restored[0].title, "Portrait baseline");
+  assert.equal(restored[0].description, "Studio balanced run");
+  assert.equal(restored[0].setup_json, '{"schema_version":"1.1","profile_id":"portrait-core"}');
+});
+
+test("setup library rejects invalid shape and invalid setup JSON", () => {
+  assert.throws(() => parseSetupLibraryState('{"id":"x"}'), /must be an array/);
+  assert.throws(() => serializeSetupLibraryState([{ title: "Broken", setup_json: "{" }]), /Invalid setup JSON/);
+  assert.throws(() => serializeSetupLibraryState(["invalid-entry"]), /must be an object/);
+});
+
+test("setup entry factory creates valid defaults", () => {
+  const entry = createSetupEntry(2);
+  assert.equal(entry.title, "Setup 3");
+  const restored = parseSetupLibraryState(serializeSetupLibraryState([entry]));
+  assert.equal(restored[0].title, "Setup 3");
 });

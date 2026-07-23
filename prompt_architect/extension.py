@@ -2,7 +2,10 @@
 
 from comfy_api.v0_0_2 import ComfyExtension, io
 
-from prompt_architect.comfy.nodes import PromptArchitectNode
+from prompt_architect.comfy.nodes import (
+    PromptArchitectNode,
+    PromptArchitectSetupLibraryNode,
+)
 
 
 class PromptArchitectExtension(ComfyExtension):
@@ -10,7 +13,7 @@ class PromptArchitectExtension(ComfyExtension):
 
     async def get_node_list(self) -> list[type[io.ComfyNode]]:
         """Return public node classes in stable order."""
-        return [PromptArchitectNode]
+        return [PromptArchitectNode, PromptArchitectSetupLibraryNode]
 
 
 async def comfy_entrypoint() -> PromptArchitectExtension:

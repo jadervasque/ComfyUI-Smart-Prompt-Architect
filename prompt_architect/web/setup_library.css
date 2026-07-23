@@ -1,0 +1,32 @@
+.pas-overlay { position: fixed; inset: 0; z-index: 100001; display: grid; place-items: center; padding: 24px; background: color-mix(in srgb, #03050a 78%, transparent); backdrop-filter: blur(8px); }
+.pas-dialog { width: min(1120px, calc(100vw - 48px)); min-width: min(900px, calc(100vw - 48px)); max-width: calc(100vw - 48px); max-height: calc(100vh - 48px); overflow: auto; resize: both; color: var(--fg-color, #e9edf3); background: var(--comfy-menu-bg, #171a20); border: 1px solid var(--border-color, #394150); border-radius: 16px; box-shadow: 0 24px 80px #0009; font: 14px/1.45 system-ui, sans-serif; }
+.pas-header { display: flex; justify-content: space-between; align-items: flex-start; gap: 24px; padding: 24px 28px 18px; border-bottom: 1px solid var(--border-color, #394150); }
+.pas-header h2 { margin: 2px 0 0; font-size: 24px; line-height: 1.2; }
+.pas-eyebrow { margin: 0; color: #83e7bc; font-size: 11px; font-weight: 750; letter-spacing: 0.16em; }
+.pas-close { width: 36px; height: 36px; border: 0; border-radius: 9px; color: inherit; background: #ffffff0d; font-size: 26px; cursor: pointer; }
+.pas-body { padding: 24px 28px 28px; }
+.pas-toolbar { display: flex; justify-content: space-between; align-items: center; gap: 14px; margin-bottom: 16px; }
+.pas-toolbar p { margin: 0; color: var(--descrip-text, #aab2c0); }
+.pas-button { padding: 10px 14px; border-radius: 9px; border: 1px solid var(--border-color, #394150); color: var(--fg-color, #e9edf3); background: transparent; font: inherit; font-weight: 700; cursor: pointer; }
+.pas-button-primary { color: #061017; background: #67cff5; border-color: #67cff5; }
+.pas-list { display: grid; gap: 14px; }
+.pas-empty { padding: 28px 18px; border: 1px dashed var(--border-color, #394150); border-radius: 12px; text-align: center; color: var(--descrip-text, #aab2c0); background: #ffffff08; }
+.pas-card { padding: 16px; border: 1px solid var(--border-color, #394150); border-radius: 12px; background: #ffffff05; display: grid; gap: 14px; }
+.pas-card-header { display: flex; justify-content: space-between; align-items: center; gap: 10px; }
+.pas-card-title { margin: 0; font-size: 16px; }
+.pas-card-actions { display: flex; gap: 8px; }
+.pas-grid { display: grid; gap: 12px; grid-template-columns: minmax(260px, 1fr) minmax(260px, 1fr); }
+.pas-field { display: grid; gap: 6px; }
+.pas-field label { font-weight: 650; }
+.pas-input, .pas-textarea { width: 100%; box-sizing: border-box; padding: 10px 12px; color: inherit; background: var(--comfy-input-bg, #0e1117); border: 1px solid var(--border-color, #394150); border-radius: 8px; font: inherit; }
+.pas-textarea { min-height: 200px; resize: vertical; font: 12px/1.5 ui-monospace, monospace; }
+.pas-error { margin: 14px 0 0; padding: 10px 12px; color: #ffd9dc; background: #e052601e; border: 1px solid #e0526066; border-radius: 8px; }
+.pas-footer { margin-top: 18px; display: flex; justify-content: flex-end; gap: 10px; }
+@media (max-width: 960px) {
+  .pas-overlay { padding: 0; }
+  .pas-dialog { width: 100vw; min-width: 0; max-width: 100vw; max-height: 100vh; border-radius: 0; resize: none; }
+  .pas-grid { grid-template-columns: 1fr; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .pas-overlay { backdrop-filter: none; }
+}

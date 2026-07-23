@@ -190,6 +190,28 @@ class PromptArchitectNode(io.ComfyNode):
         return node_input_fingerprint(kwargs, _bundled_data_fingerprint())
 
 
+class PromptArchitectSetupLibraryNode(io.ComfyNode):
+    """Workflow-local setup library without input or output ports."""
+
+    @classmethod
+    def define_schema(cls) -> io.Schema:
+        """Define a utility node that stores setup JSON in workflow metadata."""
+        return io.Schema(
+            node_id="PromptArchitect_SetupLibrary",
+            display_name="Prompt Architect Setup Library",
+            category="Prompt Architect/Utilities",
+            description="Store and manage reusable setup JSON snippets inside the workflow.",
+            search_aliases=["setup library", "json presets", "workflow notes"],
+            inputs=[],
+            outputs=[],
+        )
+
+    @classmethod
+    def execute(cls) -> io.NodeOutput:
+        """No-op execution; this node only stores serialized workflow metadata."""
+        return io.NodeOutput()
+
+
 def _bundled_data_fingerprint() -> str:
     digest = hashlib.sha256()
     for path in sorted(_DATA_ROOT.rglob("*.json"), key=lambda item: item.as_posix()):
