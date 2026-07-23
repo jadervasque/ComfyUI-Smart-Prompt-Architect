@@ -15,6 +15,7 @@ class FieldMode(StringEnum):
 
     DISABLED = "disabled"
     FIXED = "fixed"
+    CUSTOM = "custom"
     RANDOM = "random"
     INHERIT = "inherit"
 
@@ -62,6 +63,7 @@ class SelectionSource(StringEnum):
     """Origin of a selected option."""
 
     FIXED = "fixed"
+    CUSTOM = "custom"
     RANDOM = "random"
     INHERITED = "inherited"
     IMPLIED = "implied"

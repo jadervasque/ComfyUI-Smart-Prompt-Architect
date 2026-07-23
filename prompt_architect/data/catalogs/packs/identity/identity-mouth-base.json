@@ -1,0 +1,2577 @@
+{
+  "schema_version": "2.0",
+  "id": "identity-mouth-base",
+  "version": "2.0.0",
+  "library": "mouth",
+  "domain": "identity",
+  "category": "mouth",
+  "language": "en",
+  "status": "active",
+  "safety": "general",
+  "tags": [
+    "base"
+  ],
+  "fallback_option_id": "identity-mouth-base-full-upper-lip-softly-defined",
+  "options": [
+    {
+      "id": "identity-mouth-base-full-upper-lip-softly-defined",
+      "semantic_key": "identity-mouth-base-full-upper-lip-softly-defined",
+      "text": "a softly defined mouth with full upper lip",
+      "sentence": "A softly defined mouth with full upper lip.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a softly defined mouth with full upper lip",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a softly defined mouth with full upper lip",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a softly defined mouth with full upper lip",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-mouth-base-full-upper-lip",
+      "tags": [
+        "base",
+        "identity",
+        "mouth",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "full-upper-lip",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "full-upper-lip",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-mouth-base-full-upper-lip-cleanly-outlined",
+      "semantic_key": "identity-mouth-base-full-upper-lip-cleanly-outlined",
+      "text": "a cleanly outlined mouth with full upper lip",
+      "sentence": "A cleanly outlined mouth with full upper lip.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a cleanly outlined mouth with full upper lip",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a cleanly outlined mouth with full upper lip",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a cleanly outlined mouth with full upper lip",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-mouth-base-full-upper-lip",
+      "tags": [
+        "base",
+        "identity",
+        "mouth",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "full-upper-lip",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "full-upper-lip",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-mouth-base-full-upper-lip-gently-tapered",
+      "semantic_key": "identity-mouth-base-full-upper-lip-gently-tapered",
+      "text": "a gently tapered mouth with full upper lip",
+      "sentence": "A gently tapered mouth with full upper lip.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a gently tapered mouth with full upper lip",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a gently tapered mouth with full upper lip",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a gently tapered mouth with full upper lip",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-mouth-base-full-upper-lip",
+      "tags": [
+        "base",
+        "identity",
+        "mouth",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "full-upper-lip",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "full-upper-lip",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-mouth-base-full-upper-lip-evenly-proportioned",
+      "semantic_key": "identity-mouth-base-full-upper-lip-evenly-proportioned",
+      "text": "a evenly proportioned mouth with full upper lip",
+      "sentence": "A evenly proportioned mouth with full upper lip.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a evenly proportioned mouth with full upper lip",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a evenly proportioned mouth with full upper lip",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a evenly proportioned mouth with full upper lip",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-mouth-base-full-upper-lip",
+      "tags": [
+        "base",
+        "identity",
+        "mouth",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "full-upper-lip",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "full-upper-lip",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-mouth-base-full-upper-lip-subtly-angular",
+      "semantic_key": "identity-mouth-base-full-upper-lip-subtly-angular",
+      "text": "a subtly angular mouth with full upper lip",
+      "sentence": "A subtly angular mouth with full upper lip.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a subtly angular mouth with full upper lip",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a subtly angular mouth with full upper lip",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a subtly angular mouth with full upper lip",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-mouth-base-full-upper-lip",
+      "tags": [
+        "base",
+        "identity",
+        "mouth",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "structure": "full-upper-lip",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "full-upper-lip",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-mouth-base-full-upper-lip-smoothly-contoured",
+      "semantic_key": "identity-mouth-base-full-upper-lip-smoothly-contoured",
+      "text": "a smoothly contoured mouth with full upper lip",
+      "sentence": "A smoothly contoured mouth with full upper lip.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a smoothly contoured mouth with full upper lip",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a smoothly contoured mouth with full upper lip",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a smoothly contoured mouth with full upper lip",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-mouth-base-full-upper-lip",
+      "tags": [
+        "base",
+        "identity",
+        "mouth",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "structure": "full-upper-lip",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "full-upper-lip",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-mouth-base-full-upper-lip-distinctly-structured",
+      "semantic_key": "identity-mouth-base-full-upper-lip-distinctly-structured",
+      "text": "a distinctly structured mouth with full upper lip",
+      "sentence": "A distinctly structured mouth with full upper lip.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a distinctly structured mouth with full upper lip",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a distinctly structured mouth with full upper lip",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a distinctly structured mouth with full upper lip",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-mouth-base-full-upper-lip",
+      "tags": [
+        "base",
+        "identity",
+        "mouth",
+        "rarity-rare"
+      ],
+      "facets": {
+        "structure": "full-upper-lip",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "full-upper-lip",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-mouth-base-full-upper-lip-naturally-asymmetric",
+      "semantic_key": "identity-mouth-base-full-upper-lip-naturally-asymmetric",
+      "text": "a naturally asymmetric mouth with full upper lip",
+      "sentence": "A naturally asymmetric mouth with full upper lip.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a naturally asymmetric mouth with full upper lip",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a naturally asymmetric mouth with full upper lip",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a naturally asymmetric mouth with full upper lip",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-mouth-base-full-upper-lip",
+      "tags": [
+        "base",
+        "identity",
+        "mouth",
+        "rarity-rare"
+      ],
+      "facets": {
+        "structure": "full-upper-lip",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "full-upper-lip",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-mouth-base-full-lower-lip-softly-defined",
+      "semantic_key": "identity-mouth-base-full-lower-lip-softly-defined",
+      "text": "a softly defined mouth with full lower lip",
+      "sentence": "A softly defined mouth with full lower lip.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a softly defined mouth with full lower lip",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a softly defined mouth with full lower lip",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a softly defined mouth with full lower lip",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-mouth-base-full-lower-lip",
+      "tags": [
+        "base",
+        "identity",
+        "mouth",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "full-lower-lip",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "full-lower-lip",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-mouth-base-full-lower-lip-cleanly-outlined",
+      "semantic_key": "identity-mouth-base-full-lower-lip-cleanly-outlined",
+      "text": "a cleanly outlined mouth with full lower lip",
+      "sentence": "A cleanly outlined mouth with full lower lip.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a cleanly outlined mouth with full lower lip",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a cleanly outlined mouth with full lower lip",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a cleanly outlined mouth with full lower lip",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-mouth-base-full-lower-lip",
+      "tags": [
+        "base",
+        "identity",
+        "mouth",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "full-lower-lip",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "full-lower-lip",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-mouth-base-full-lower-lip-gently-tapered",
+      "semantic_key": "identity-mouth-base-full-lower-lip-gently-tapered",
+      "text": "a gently tapered mouth with full lower lip",
+      "sentence": "A gently tapered mouth with full lower lip.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a gently tapered mouth with full lower lip",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a gently tapered mouth with full lower lip",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a gently tapered mouth with full lower lip",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-mouth-base-full-lower-lip",
+      "tags": [
+        "base",
+        "identity",
+        "mouth",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "full-lower-lip",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "full-lower-lip",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-mouth-base-full-lower-lip-evenly-proportioned",
+      "semantic_key": "identity-mouth-base-full-lower-lip-evenly-proportioned",
+      "text": "a evenly proportioned mouth with full lower lip",
+      "sentence": "A evenly proportioned mouth with full lower lip.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a evenly proportioned mouth with full lower lip",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a evenly proportioned mouth with full lower lip",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a evenly proportioned mouth with full lower lip",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-mouth-base-full-lower-lip",
+      "tags": [
+        "base",
+        "identity",
+        "mouth",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "full-lower-lip",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "full-lower-lip",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-mouth-base-full-lower-lip-subtly-angular",
+      "semantic_key": "identity-mouth-base-full-lower-lip-subtly-angular",
+      "text": "a subtly angular mouth with full lower lip",
+      "sentence": "A subtly angular mouth with full lower lip.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a subtly angular mouth with full lower lip",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a subtly angular mouth with full lower lip",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a subtly angular mouth with full lower lip",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-mouth-base-full-lower-lip",
+      "tags": [
+        "base",
+        "identity",
+        "mouth",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "structure": "full-lower-lip",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "full-lower-lip",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-mouth-base-full-lower-lip-smoothly-contoured",
+      "semantic_key": "identity-mouth-base-full-lower-lip-smoothly-contoured",
+      "text": "a smoothly contoured mouth with full lower lip",
+      "sentence": "A smoothly contoured mouth with full lower lip.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a smoothly contoured mouth with full lower lip",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a smoothly contoured mouth with full lower lip",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a smoothly contoured mouth with full lower lip",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-mouth-base-full-lower-lip",
+      "tags": [
+        "base",
+        "identity",
+        "mouth",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "structure": "full-lower-lip",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "full-lower-lip",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-mouth-base-full-lower-lip-distinctly-structured",
+      "semantic_key": "identity-mouth-base-full-lower-lip-distinctly-structured",
+      "text": "a distinctly structured mouth with full lower lip",
+      "sentence": "A distinctly structured mouth with full lower lip.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a distinctly structured mouth with full lower lip",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a distinctly structured mouth with full lower lip",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a distinctly structured mouth with full lower lip",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-mouth-base-full-lower-lip",
+      "tags": [
+        "base",
+        "identity",
+        "mouth",
+        "rarity-rare"
+      ],
+      "facets": {
+        "structure": "full-lower-lip",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "full-lower-lip",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-mouth-base-full-lower-lip-naturally-asymmetric",
+      "semantic_key": "identity-mouth-base-full-lower-lip-naturally-asymmetric",
+      "text": "a naturally asymmetric mouth with full lower lip",
+      "sentence": "A naturally asymmetric mouth with full lower lip.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a naturally asymmetric mouth with full lower lip",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a naturally asymmetric mouth with full lower lip",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a naturally asymmetric mouth with full lower lip",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-mouth-base-full-lower-lip",
+      "tags": [
+        "base",
+        "identity",
+        "mouth",
+        "rarity-rare"
+      ],
+      "facets": {
+        "structure": "full-lower-lip",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "full-lower-lip",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-mouth-base-balanced-lips-softly-defined",
+      "semantic_key": "identity-mouth-base-balanced-lips-softly-defined",
+      "text": "a softly defined mouth with balanced lips",
+      "sentence": "A softly defined mouth with balanced lips.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a softly defined mouth with balanced lips",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a softly defined mouth with balanced lips",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a softly defined mouth with balanced lips",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-mouth-base-balanced-lips",
+      "tags": [
+        "base",
+        "identity",
+        "mouth",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "balanced-lips",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "balanced-lips",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-mouth-base-balanced-lips-cleanly-outlined",
+      "semantic_key": "identity-mouth-base-balanced-lips-cleanly-outlined",
+      "text": "a cleanly outlined mouth with balanced lips",
+      "sentence": "A cleanly outlined mouth with balanced lips.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a cleanly outlined mouth with balanced lips",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a cleanly outlined mouth with balanced lips",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a cleanly outlined mouth with balanced lips",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-mouth-base-balanced-lips",
+      "tags": [
+        "base",
+        "identity",
+        "mouth",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "balanced-lips",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "balanced-lips",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-mouth-base-balanced-lips-gently-tapered",
+      "semantic_key": "identity-mouth-base-balanced-lips-gently-tapered",
+      "text": "a gently tapered mouth with balanced lips",
+      "sentence": "A gently tapered mouth with balanced lips.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a gently tapered mouth with balanced lips",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a gently tapered mouth with balanced lips",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a gently tapered mouth with balanced lips",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-mouth-base-balanced-lips",
+      "tags": [
+        "base",
+        "identity",
+        "mouth",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "balanced-lips",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "balanced-lips",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-mouth-base-balanced-lips-evenly-proportioned",
+      "semantic_key": "identity-mouth-base-balanced-lips-evenly-proportioned",
+      "text": "a evenly proportioned mouth with balanced lips",
+      "sentence": "A evenly proportioned mouth with balanced lips.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a evenly proportioned mouth with balanced lips",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a evenly proportioned mouth with balanced lips",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a evenly proportioned mouth with balanced lips",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-mouth-base-balanced-lips",
+      "tags": [
+        "base",
+        "identity",
+        "mouth",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "balanced-lips",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "balanced-lips",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-mouth-base-balanced-lips-subtly-angular",
+      "semantic_key": "identity-mouth-base-balanced-lips-subtly-angular",
+      "text": "a subtly angular mouth with balanced lips",
+      "sentence": "A subtly angular mouth with balanced lips.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a subtly angular mouth with balanced lips",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a subtly angular mouth with balanced lips",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a subtly angular mouth with balanced lips",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-mouth-base-balanced-lips",
+      "tags": [
+        "base",
+        "identity",
+        "mouth",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "structure": "balanced-lips",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "balanced-lips",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-mouth-base-balanced-lips-smoothly-contoured",
+      "semantic_key": "identity-mouth-base-balanced-lips-smoothly-contoured",
+      "text": "a smoothly contoured mouth with balanced lips",
+      "sentence": "A smoothly contoured mouth with balanced lips.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a smoothly contoured mouth with balanced lips",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a smoothly contoured mouth with balanced lips",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a smoothly contoured mouth with balanced lips",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-mouth-base-balanced-lips",
+      "tags": [
+        "base",
+        "identity",
+        "mouth",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "structure": "balanced-lips",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "balanced-lips",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-mouth-base-balanced-lips-distinctly-structured",
+      "semantic_key": "identity-mouth-base-balanced-lips-distinctly-structured",
+      "text": "a distinctly structured mouth with balanced lips",
+      "sentence": "A distinctly structured mouth with balanced lips.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a distinctly structured mouth with balanced lips",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a distinctly structured mouth with balanced lips",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a distinctly structured mouth with balanced lips",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-mouth-base-balanced-lips",
+      "tags": [
+        "base",
+        "identity",
+        "mouth",
+        "rarity-rare"
+      ],
+      "facets": {
+        "structure": "balanced-lips",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "balanced-lips",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-mouth-base-balanced-lips-naturally-asymmetric",
+      "semantic_key": "identity-mouth-base-balanced-lips-naturally-asymmetric",
+      "text": "a naturally asymmetric mouth with balanced lips",
+      "sentence": "A naturally asymmetric mouth with balanced lips.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a naturally asymmetric mouth with balanced lips",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a naturally asymmetric mouth with balanced lips",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a naturally asymmetric mouth with balanced lips",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-mouth-base-balanced-lips",
+      "tags": [
+        "base",
+        "identity",
+        "mouth",
+        "rarity-rare"
+      ],
+      "facets": {
+        "structure": "balanced-lips",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "balanced-lips",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-mouth-base-bow-shaped-upper-lip-softly-defined",
+      "semantic_key": "identity-mouth-base-bow-shaped-upper-lip-softly-defined",
+      "text": "a softly defined mouth with bow-shaped upper lip",
+      "sentence": "A softly defined mouth with bow-shaped upper lip.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a softly defined mouth with bow-shaped upper lip",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a softly defined mouth with bow-shaped upper lip",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a softly defined mouth with bow-shaped upper lip",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-mouth-base-bow-shaped-upper-lip",
+      "tags": [
+        "base",
+        "identity",
+        "mouth",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "bow-shaped-upper-lip",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "bow-shaped-upper-lip",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-mouth-base-bow-shaped-upper-lip-cleanly-outlined",
+      "semantic_key": "identity-mouth-base-bow-shaped-upper-lip-cleanly-outlined",
+      "text": "a cleanly outlined mouth with bow-shaped upper lip",
+      "sentence": "A cleanly outlined mouth with bow-shaped upper lip.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a cleanly outlined mouth with bow-shaped upper lip",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a cleanly outlined mouth with bow-shaped upper lip",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a cleanly outlined mouth with bow-shaped upper lip",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-mouth-base-bow-shaped-upper-lip",
+      "tags": [
+        "base",
+        "identity",
+        "mouth",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "bow-shaped-upper-lip",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "bow-shaped-upper-lip",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-mouth-base-bow-shaped-upper-lip-gently-tapered",
+      "semantic_key": "identity-mouth-base-bow-shaped-upper-lip-gently-tapered",
+      "text": "a gently tapered mouth with bow-shaped upper lip",
+      "sentence": "A gently tapered mouth with bow-shaped upper lip.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a gently tapered mouth with bow-shaped upper lip",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a gently tapered mouth with bow-shaped upper lip",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a gently tapered mouth with bow-shaped upper lip",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-mouth-base-bow-shaped-upper-lip",
+      "tags": [
+        "base",
+        "identity",
+        "mouth",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "bow-shaped-upper-lip",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "bow-shaped-upper-lip",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-mouth-base-bow-shaped-upper-lip-evenly-proportioned",
+      "semantic_key": "identity-mouth-base-bow-shaped-upper-lip-evenly-proportioned",
+      "text": "a evenly proportioned mouth with bow-shaped upper lip",
+      "sentence": "A evenly proportioned mouth with bow-shaped upper lip.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a evenly proportioned mouth with bow-shaped upper lip",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a evenly proportioned mouth with bow-shaped upper lip",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a evenly proportioned mouth with bow-shaped upper lip",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-mouth-base-bow-shaped-upper-lip",
+      "tags": [
+        "base",
+        "identity",
+        "mouth",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "bow-shaped-upper-lip",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "bow-shaped-upper-lip",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-mouth-base-bow-shaped-upper-lip-subtly-angular",
+      "semantic_key": "identity-mouth-base-bow-shaped-upper-lip-subtly-angular",
+      "text": "a subtly angular mouth with bow-shaped upper lip",
+      "sentence": "A subtly angular mouth with bow-shaped upper lip.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a subtly angular mouth with bow-shaped upper lip",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a subtly angular mouth with bow-shaped upper lip",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a subtly angular mouth with bow-shaped upper lip",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-mouth-base-bow-shaped-upper-lip",
+      "tags": [
+        "base",
+        "identity",
+        "mouth",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "structure": "bow-shaped-upper-lip",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "bow-shaped-upper-lip",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-mouth-base-bow-shaped-upper-lip-smoothly-contoured",
+      "semantic_key": "identity-mouth-base-bow-shaped-upper-lip-smoothly-contoured",
+      "text": "a smoothly contoured mouth with bow-shaped upper lip",
+      "sentence": "A smoothly contoured mouth with bow-shaped upper lip.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a smoothly contoured mouth with bow-shaped upper lip",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a smoothly contoured mouth with bow-shaped upper lip",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a smoothly contoured mouth with bow-shaped upper lip",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-mouth-base-bow-shaped-upper-lip",
+      "tags": [
+        "base",
+        "identity",
+        "mouth",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "structure": "bow-shaped-upper-lip",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "bow-shaped-upper-lip",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-mouth-base-bow-shaped-upper-lip-distinctly-structured",
+      "semantic_key": "identity-mouth-base-bow-shaped-upper-lip-distinctly-structured",
+      "text": "a distinctly structured mouth with bow-shaped upper lip",
+      "sentence": "A distinctly structured mouth with bow-shaped upper lip.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a distinctly structured mouth with bow-shaped upper lip",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a distinctly structured mouth with bow-shaped upper lip",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a distinctly structured mouth with bow-shaped upper lip",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-mouth-base-bow-shaped-upper-lip",
+      "tags": [
+        "base",
+        "identity",
+        "mouth",
+        "rarity-rare"
+      ],
+      "facets": {
+        "structure": "bow-shaped-upper-lip",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "bow-shaped-upper-lip",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-mouth-base-bow-shaped-upper-lip-naturally-asymmetric",
+      "semantic_key": "identity-mouth-base-bow-shaped-upper-lip-naturally-asymmetric",
+      "text": "a naturally asymmetric mouth with bow-shaped upper lip",
+      "sentence": "A naturally asymmetric mouth with bow-shaped upper lip.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a naturally asymmetric mouth with bow-shaped upper lip",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a naturally asymmetric mouth with bow-shaped upper lip",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a naturally asymmetric mouth with bow-shaped upper lip",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-mouth-base-bow-shaped-upper-lip",
+      "tags": [
+        "base",
+        "identity",
+        "mouth",
+        "rarity-rare"
+      ],
+      "facets": {
+        "structure": "bow-shaped-upper-lip",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "bow-shaped-upper-lip",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-mouth-base-wide-mouth-softly-defined",
+      "semantic_key": "identity-mouth-base-wide-mouth-softly-defined",
+      "text": "a softly defined mouth with wide mouth",
+      "sentence": "A softly defined mouth with wide mouth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a softly defined mouth with wide mouth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a softly defined mouth with wide mouth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a softly defined mouth with wide mouth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-mouth-base-wide-mouth",
+      "tags": [
+        "base",
+        "identity",
+        "mouth",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "wide-mouth",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "wide-mouth",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-mouth-base-wide-mouth-cleanly-outlined",
+      "semantic_key": "identity-mouth-base-wide-mouth-cleanly-outlined",
+      "text": "a cleanly outlined mouth with wide mouth",
+      "sentence": "A cleanly outlined mouth with wide mouth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a cleanly outlined mouth with wide mouth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a cleanly outlined mouth with wide mouth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a cleanly outlined mouth with wide mouth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-mouth-base-wide-mouth",
+      "tags": [
+        "base",
+        "identity",
+        "mouth",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "wide-mouth",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "wide-mouth",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-mouth-base-wide-mouth-gently-tapered",
+      "semantic_key": "identity-mouth-base-wide-mouth-gently-tapered",
+      "text": "a gently tapered mouth with wide mouth",
+      "sentence": "A gently tapered mouth with wide mouth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a gently tapered mouth with wide mouth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a gently tapered mouth with wide mouth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a gently tapered mouth with wide mouth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-mouth-base-wide-mouth",
+      "tags": [
+        "base",
+        "identity",
+        "mouth",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "wide-mouth",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "wide-mouth",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-mouth-base-wide-mouth-evenly-proportioned",
+      "semantic_key": "identity-mouth-base-wide-mouth-evenly-proportioned",
+      "text": "a evenly proportioned mouth with wide mouth",
+      "sentence": "A evenly proportioned mouth with wide mouth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a evenly proportioned mouth with wide mouth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a evenly proportioned mouth with wide mouth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a evenly proportioned mouth with wide mouth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-mouth-base-wide-mouth",
+      "tags": [
+        "base",
+        "identity",
+        "mouth",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "wide-mouth",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "wide-mouth",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-mouth-base-wide-mouth-subtly-angular",
+      "semantic_key": "identity-mouth-base-wide-mouth-subtly-angular",
+      "text": "a subtly angular mouth with wide mouth",
+      "sentence": "A subtly angular mouth with wide mouth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a subtly angular mouth with wide mouth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a subtly angular mouth with wide mouth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a subtly angular mouth with wide mouth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-mouth-base-wide-mouth",
+      "tags": [
+        "base",
+        "identity",
+        "mouth",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "structure": "wide-mouth",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "wide-mouth",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-mouth-base-wide-mouth-smoothly-contoured",
+      "semantic_key": "identity-mouth-base-wide-mouth-smoothly-contoured",
+      "text": "a smoothly contoured mouth with wide mouth",
+      "sentence": "A smoothly contoured mouth with wide mouth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a smoothly contoured mouth with wide mouth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a smoothly contoured mouth with wide mouth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a smoothly contoured mouth with wide mouth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-mouth-base-wide-mouth",
+      "tags": [
+        "base",
+        "identity",
+        "mouth",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "structure": "wide-mouth",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "wide-mouth",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-mouth-base-wide-mouth-distinctly-structured",
+      "semantic_key": "identity-mouth-base-wide-mouth-distinctly-structured",
+      "text": "a distinctly structured mouth with wide mouth",
+      "sentence": "A distinctly structured mouth with wide mouth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a distinctly structured mouth with wide mouth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a distinctly structured mouth with wide mouth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a distinctly structured mouth with wide mouth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-mouth-base-wide-mouth",
+      "tags": [
+        "base",
+        "identity",
+        "mouth",
+        "rarity-rare"
+      ],
+      "facets": {
+        "structure": "wide-mouth",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "wide-mouth",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-mouth-base-wide-mouth-naturally-asymmetric",
+      "semantic_key": "identity-mouth-base-wide-mouth-naturally-asymmetric",
+      "text": "a naturally asymmetric mouth with wide mouth",
+      "sentence": "A naturally asymmetric mouth with wide mouth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a naturally asymmetric mouth with wide mouth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a naturally asymmetric mouth with wide mouth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a naturally asymmetric mouth with wide mouth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-mouth-base-wide-mouth",
+      "tags": [
+        "base",
+        "identity",
+        "mouth",
+        "rarity-rare"
+      ],
+      "facets": {
+        "structure": "wide-mouth",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "wide-mouth",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-mouth-base-compact-mouth-softly-defined",
+      "semantic_key": "identity-mouth-base-compact-mouth-softly-defined",
+      "text": "a softly defined mouth with compact mouth",
+      "sentence": "A softly defined mouth with compact mouth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a softly defined mouth with compact mouth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a softly defined mouth with compact mouth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a softly defined mouth with compact mouth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-mouth-base-compact-mouth",
+      "tags": [
+        "base",
+        "identity",
+        "mouth",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "compact-mouth",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "compact-mouth",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-mouth-base-compact-mouth-cleanly-outlined",
+      "semantic_key": "identity-mouth-base-compact-mouth-cleanly-outlined",
+      "text": "a cleanly outlined mouth with compact mouth",
+      "sentence": "A cleanly outlined mouth with compact mouth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a cleanly outlined mouth with compact mouth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a cleanly outlined mouth with compact mouth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a cleanly outlined mouth with compact mouth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-mouth-base-compact-mouth",
+      "tags": [
+        "base",
+        "identity",
+        "mouth",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "compact-mouth",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "compact-mouth",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-mouth-base-compact-mouth-gently-tapered",
+      "semantic_key": "identity-mouth-base-compact-mouth-gently-tapered",
+      "text": "a gently tapered mouth with compact mouth",
+      "sentence": "A gently tapered mouth with compact mouth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a gently tapered mouth with compact mouth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a gently tapered mouth with compact mouth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a gently tapered mouth with compact mouth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-mouth-base-compact-mouth",
+      "tags": [
+        "base",
+        "identity",
+        "mouth",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "compact-mouth",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "compact-mouth",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-mouth-base-compact-mouth-evenly-proportioned",
+      "semantic_key": "identity-mouth-base-compact-mouth-evenly-proportioned",
+      "text": "a evenly proportioned mouth with compact mouth",
+      "sentence": "A evenly proportioned mouth with compact mouth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a evenly proportioned mouth with compact mouth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a evenly proportioned mouth with compact mouth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a evenly proportioned mouth with compact mouth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-mouth-base-compact-mouth",
+      "tags": [
+        "base",
+        "identity",
+        "mouth",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "compact-mouth",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "compact-mouth",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-mouth-base-compact-mouth-subtly-angular",
+      "semantic_key": "identity-mouth-base-compact-mouth-subtly-angular",
+      "text": "a subtly angular mouth with compact mouth",
+      "sentence": "A subtly angular mouth with compact mouth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a subtly angular mouth with compact mouth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a subtly angular mouth with compact mouth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a subtly angular mouth with compact mouth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-mouth-base-compact-mouth",
+      "tags": [
+        "base",
+        "identity",
+        "mouth",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "structure": "compact-mouth",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "compact-mouth",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-mouth-base-compact-mouth-smoothly-contoured",
+      "semantic_key": "identity-mouth-base-compact-mouth-smoothly-contoured",
+      "text": "a smoothly contoured mouth with compact mouth",
+      "sentence": "A smoothly contoured mouth with compact mouth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a smoothly contoured mouth with compact mouth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a smoothly contoured mouth with compact mouth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a smoothly contoured mouth with compact mouth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-mouth-base-compact-mouth",
+      "tags": [
+        "base",
+        "identity",
+        "mouth",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "structure": "compact-mouth",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "compact-mouth",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-mouth-base-compact-mouth-distinctly-structured",
+      "semantic_key": "identity-mouth-base-compact-mouth-distinctly-structured",
+      "text": "a distinctly structured mouth with compact mouth",
+      "sentence": "A distinctly structured mouth with compact mouth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a distinctly structured mouth with compact mouth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a distinctly structured mouth with compact mouth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a distinctly structured mouth with compact mouth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-mouth-base-compact-mouth",
+      "tags": [
+        "base",
+        "identity",
+        "mouth",
+        "rarity-rare"
+      ],
+      "facets": {
+        "structure": "compact-mouth",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "compact-mouth",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-mouth-base-compact-mouth-naturally-asymmetric",
+      "semantic_key": "identity-mouth-base-compact-mouth-naturally-asymmetric",
+      "text": "a naturally asymmetric mouth with compact mouth",
+      "sentence": "A naturally asymmetric mouth with compact mouth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a naturally asymmetric mouth with compact mouth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a naturally asymmetric mouth with compact mouth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a naturally asymmetric mouth with compact mouth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-mouth-base-compact-mouth",
+      "tags": [
+        "base",
+        "identity",
+        "mouth",
+        "rarity-rare"
+      ],
+      "facets": {
+        "structure": "compact-mouth",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "compact-mouth",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-mouth-base-soft-lip-contour-softly-defined",
+      "semantic_key": "identity-mouth-base-soft-lip-contour-softly-defined",
+      "text": "a softly defined mouth with soft lip contour",
+      "sentence": "A softly defined mouth with soft lip contour.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a softly defined mouth with soft lip contour",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a softly defined mouth with soft lip contour",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a softly defined mouth with soft lip contour",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-mouth-base-soft-lip-contour",
+      "tags": [
+        "base",
+        "identity",
+        "mouth",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "soft-lip-contour",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "soft-lip-contour",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-mouth-base-soft-lip-contour-cleanly-outlined",
+      "semantic_key": "identity-mouth-base-soft-lip-contour-cleanly-outlined",
+      "text": "a cleanly outlined mouth with soft lip contour",
+      "sentence": "A cleanly outlined mouth with soft lip contour.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a cleanly outlined mouth with soft lip contour",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a cleanly outlined mouth with soft lip contour",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a cleanly outlined mouth with soft lip contour",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-mouth-base-soft-lip-contour",
+      "tags": [
+        "base",
+        "identity",
+        "mouth",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "soft-lip-contour",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "soft-lip-contour",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-mouth-base-soft-lip-contour-gently-tapered",
+      "semantic_key": "identity-mouth-base-soft-lip-contour-gently-tapered",
+      "text": "a gently tapered mouth with soft lip contour",
+      "sentence": "A gently tapered mouth with soft lip contour.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a gently tapered mouth with soft lip contour",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a gently tapered mouth with soft lip contour",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a gently tapered mouth with soft lip contour",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-mouth-base-soft-lip-contour",
+      "tags": [
+        "base",
+        "identity",
+        "mouth",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "soft-lip-contour",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "soft-lip-contour",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-mouth-base-soft-lip-contour-evenly-proportioned",
+      "semantic_key": "identity-mouth-base-soft-lip-contour-evenly-proportioned",
+      "text": "a evenly proportioned mouth with soft lip contour",
+      "sentence": "A evenly proportioned mouth with soft lip contour.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a evenly proportioned mouth with soft lip contour",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a evenly proportioned mouth with soft lip contour",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a evenly proportioned mouth with soft lip contour",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-mouth-base-soft-lip-contour",
+      "tags": [
+        "base",
+        "identity",
+        "mouth",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "soft-lip-contour",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "soft-lip-contour",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-mouth-base-soft-lip-contour-subtly-angular",
+      "semantic_key": "identity-mouth-base-soft-lip-contour-subtly-angular",
+      "text": "a subtly angular mouth with soft lip contour",
+      "sentence": "A subtly angular mouth with soft lip contour.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a subtly angular mouth with soft lip contour",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a subtly angular mouth with soft lip contour",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a subtly angular mouth with soft lip contour",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-mouth-base-soft-lip-contour",
+      "tags": [
+        "base",
+        "identity",
+        "mouth",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "structure": "soft-lip-contour",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "soft-lip-contour",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-mouth-base-soft-lip-contour-smoothly-contoured",
+      "semantic_key": "identity-mouth-base-soft-lip-contour-smoothly-contoured",
+      "text": "a smoothly contoured mouth with soft lip contour",
+      "sentence": "A smoothly contoured mouth with soft lip contour.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a smoothly contoured mouth with soft lip contour",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a smoothly contoured mouth with soft lip contour",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a smoothly contoured mouth with soft lip contour",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-mouth-base-soft-lip-contour",
+      "tags": [
+        "base",
+        "identity",
+        "mouth",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "structure": "soft-lip-contour",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "soft-lip-contour",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-mouth-base-soft-lip-contour-distinctly-structured",
+      "semantic_key": "identity-mouth-base-soft-lip-contour-distinctly-structured",
+      "text": "a distinctly structured mouth with soft lip contour",
+      "sentence": "A distinctly structured mouth with soft lip contour.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a distinctly structured mouth with soft lip contour",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a distinctly structured mouth with soft lip contour",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a distinctly structured mouth with soft lip contour",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-mouth-base-soft-lip-contour",
+      "tags": [
+        "base",
+        "identity",
+        "mouth",
+        "rarity-rare"
+      ],
+      "facets": {
+        "structure": "soft-lip-contour",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "soft-lip-contour",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-mouth-base-soft-lip-contour-naturally-asymmetric",
+      "semantic_key": "identity-mouth-base-soft-lip-contour-naturally-asymmetric",
+      "text": "a naturally asymmetric mouth with soft lip contour",
+      "sentence": "A naturally asymmetric mouth with soft lip contour.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a naturally asymmetric mouth with soft lip contour",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a naturally asymmetric mouth with soft lip contour",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a naturally asymmetric mouth with soft lip contour",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-mouth-base-soft-lip-contour",
+      "tags": [
+        "base",
+        "identity",
+        "mouth",
+        "rarity-rare"
+      ],
+      "facets": {
+        "structure": "soft-lip-contour",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "soft-lip-contour",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-mouth-base-defined-lip-contour-softly-defined",
+      "semantic_key": "identity-mouth-base-defined-lip-contour-softly-defined",
+      "text": "a softly defined mouth with defined lip contour",
+      "sentence": "A softly defined mouth with defined lip contour.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a softly defined mouth with defined lip contour",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a softly defined mouth with defined lip contour",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a softly defined mouth with defined lip contour",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-mouth-base-defined-lip-contour",
+      "tags": [
+        "base",
+        "identity",
+        "mouth",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "defined-lip-contour",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "defined-lip-contour",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-mouth-base-defined-lip-contour-cleanly-outlined",
+      "semantic_key": "identity-mouth-base-defined-lip-contour-cleanly-outlined",
+      "text": "a cleanly outlined mouth with defined lip contour",
+      "sentence": "A cleanly outlined mouth with defined lip contour.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a cleanly outlined mouth with defined lip contour",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a cleanly outlined mouth with defined lip contour",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a cleanly outlined mouth with defined lip contour",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-mouth-base-defined-lip-contour",
+      "tags": [
+        "base",
+        "identity",
+        "mouth",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "defined-lip-contour",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "defined-lip-contour",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-mouth-base-defined-lip-contour-gently-tapered",
+      "semantic_key": "identity-mouth-base-defined-lip-contour-gently-tapered",
+      "text": "a gently tapered mouth with defined lip contour",
+      "sentence": "A gently tapered mouth with defined lip contour.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a gently tapered mouth with defined lip contour",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a gently tapered mouth with defined lip contour",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a gently tapered mouth with defined lip contour",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-mouth-base-defined-lip-contour",
+      "tags": [
+        "base",
+        "identity",
+        "mouth",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "defined-lip-contour",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "defined-lip-contour",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-mouth-base-defined-lip-contour-evenly-proportioned",
+      "semantic_key": "identity-mouth-base-defined-lip-contour-evenly-proportioned",
+      "text": "a evenly proportioned mouth with defined lip contour",
+      "sentence": "A evenly proportioned mouth with defined lip contour.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a evenly proportioned mouth with defined lip contour",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a evenly proportioned mouth with defined lip contour",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a evenly proportioned mouth with defined lip contour",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-mouth-base-defined-lip-contour",
+      "tags": [
+        "base",
+        "identity",
+        "mouth",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "defined-lip-contour",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "defined-lip-contour",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-mouth-base-defined-lip-contour-subtly-angular",
+      "semantic_key": "identity-mouth-base-defined-lip-contour-subtly-angular",
+      "text": "a subtly angular mouth with defined lip contour",
+      "sentence": "A subtly angular mouth with defined lip contour.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a subtly angular mouth with defined lip contour",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a subtly angular mouth with defined lip contour",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a subtly angular mouth with defined lip contour",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-mouth-base-defined-lip-contour",
+      "tags": [
+        "base",
+        "identity",
+        "mouth",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "structure": "defined-lip-contour",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "defined-lip-contour",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-mouth-base-defined-lip-contour-smoothly-contoured",
+      "semantic_key": "identity-mouth-base-defined-lip-contour-smoothly-contoured",
+      "text": "a smoothly contoured mouth with defined lip contour",
+      "sentence": "A smoothly contoured mouth with defined lip contour.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a smoothly contoured mouth with defined lip contour",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a smoothly contoured mouth with defined lip contour",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a smoothly contoured mouth with defined lip contour",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-mouth-base-defined-lip-contour",
+      "tags": [
+        "base",
+        "identity",
+        "mouth",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "structure": "defined-lip-contour",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "defined-lip-contour",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-mouth-base-defined-lip-contour-distinctly-structured",
+      "semantic_key": "identity-mouth-base-defined-lip-contour-distinctly-structured",
+      "text": "a distinctly structured mouth with defined lip contour",
+      "sentence": "A distinctly structured mouth with defined lip contour.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a distinctly structured mouth with defined lip contour",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a distinctly structured mouth with defined lip contour",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a distinctly structured mouth with defined lip contour",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-mouth-base-defined-lip-contour",
+      "tags": [
+        "base",
+        "identity",
+        "mouth",
+        "rarity-rare"
+      ],
+      "facets": {
+        "structure": "defined-lip-contour",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "defined-lip-contour",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-mouth-base-defined-lip-contour-naturally-asymmetric",
+      "semantic_key": "identity-mouth-base-defined-lip-contour-naturally-asymmetric",
+      "text": "a naturally asymmetric mouth with defined lip contour",
+      "sentence": "A naturally asymmetric mouth with defined lip contour.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a naturally asymmetric mouth with defined lip contour",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a naturally asymmetric mouth with defined lip contour",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a naturally asymmetric mouth with defined lip contour",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-mouth-base-defined-lip-contour",
+      "tags": [
+        "base",
+        "identity",
+        "mouth",
+        "rarity-rare"
+      ],
+      "facets": {
+        "structure": "defined-lip-contour",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "defined-lip-contour",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    }
+  ]
+}

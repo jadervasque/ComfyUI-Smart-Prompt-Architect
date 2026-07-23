@@ -1,0 +1,544 @@
+{
+  "schema_version": "2.0",
+  "id": "conceptual-portrait",
+  "version": "2.0.0",
+  "display_name": "Conceptual Portrait",
+  "language": "en",
+  "catalog_version": "2.0.0",
+  "enabled_packs": [
+    "body-build-base",
+    "cinematography-aperture-base",
+    "cinematography-camera-angle-base",
+    "cinematography-camera-motion-base",
+    "cinematography-composition-base",
+    "cinematography-exposure-film-look-base",
+    "cinematography-focus-base",
+    "cinematography-lens-focal-base",
+    "cinematography-light-direction-base",
+    "cinematography-light-quality-base",
+    "cinematography-light-source-base",
+    "cinematography-light-temperature-base",
+    "cinematography-lighting-setup-base",
+    "cinematography-shot-size-base",
+    "hair-color-base",
+    "hair-length-base",
+    "hair-style-base",
+    "hair-texture-base",
+    "identity-adult-age-base",
+    "identity-archetype-base",
+    "identity-eye-color-base",
+    "identity-face-shape-base",
+    "identity-facial-structure-base",
+    "identity-skin-texture-base",
+    "identity-skin-tone-base",
+    "identity-subject-type-base",
+    "negative-anatomy",
+    "negative-base",
+    "negative-camera",
+    "performance-action-base",
+    "performance-expression-base",
+    "performance-gaze-base",
+    "performance-pose-base",
+    "scene-architecture-base",
+    "scene-atmosphere-base",
+    "scene-background-base",
+    "scene-location-fantasy",
+    "scene-location-studio",
+    "scene-season-base",
+    "scene-set-dressing-base",
+    "scene-time-of-day-base",
+    "scene-weather-base",
+    "style-color-grading-base",
+    "style-finish-base",
+    "style-photo-genre-art",
+    "style-photo-genre-base",
+    "style-quality-base",
+    "style-visual-era-base",
+    "style-visual-medium-base",
+    "wardrobe-accessories-base",
+    "wardrobe-materials-base",
+    "wardrobe-outerwear-base",
+    "wardrobe-palette-base",
+    "wardrobe-theme-contemporary",
+    "wardrobe-theme-fantasy",
+    "wardrobe-tops-base"
+  ],
+  "allowed_safety_classes": [
+    "general"
+  ],
+  "verbosity": "detailed",
+  "negative_level": "standard",
+  "minimum_sections": 16,
+  "minimum_prompt_characters": 180,
+  "max_selection_attempts": 32,
+  "section_order": [
+    "subject-type",
+    "adult-age",
+    "face-shape",
+    "eye-color",
+    "skin-tone",
+    "skin-texture",
+    "hair-color",
+    "hair-length",
+    "hair-texture",
+    "hair-style",
+    "identity-archetype",
+    "facial-structure",
+    "body-build",
+    "wardrobe-theme",
+    "tops",
+    "outerwear",
+    "palette",
+    "materials",
+    "accessories",
+    "expression",
+    "gaze",
+    "pose",
+    "action",
+    "location",
+    "time-of-day",
+    "weather",
+    "atmosphere",
+    "background",
+    "architecture",
+    "set-dressing",
+    "season",
+    "lighting-setup",
+    "light-source",
+    "light-quality",
+    "shot-size",
+    "camera-angle",
+    "lens-focal",
+    "focus",
+    "composition",
+    "light-direction",
+    "light-temperature",
+    "aperture",
+    "camera-motion",
+    "exposure-film-look",
+    "photo-genre",
+    "visual-medium",
+    "color-grading",
+    "quality",
+    "visual-era",
+    "finish",
+    "negative-base",
+    "negative-anatomy",
+    "negative-camera"
+  ],
+  "sections": {
+    "subject-type": {
+      "required": true,
+      "library": "subject-type",
+      "mode": "random",
+      "group": "identity",
+      "fallback": "identity-subject-type-base-adult-person-subtle-intensity"
+    },
+    "adult-age": {
+      "required": true,
+      "library": "adult-age",
+      "mode": "random",
+      "group": "identity",
+      "fallback": "identity-adult-age-base-adult-in-their-twenties-softly-defined"
+    },
+    "face-shape": {
+      "required": true,
+      "library": "face-shape",
+      "mode": "random",
+      "group": "identity",
+      "fallback": "identity-face-shape-base-oval-softly-defined"
+    },
+    "eye-color": {
+      "required": true,
+      "library": "eye-color",
+      "mode": "random",
+      "group": "identity",
+      "fallback": "identity-eye-color-base-brown-neutral-undertone"
+    },
+    "skin-tone": {
+      "required": true,
+      "library": "skin-tone",
+      "mode": "random",
+      "group": "appearance",
+      "fallback": "identity-skin-tone-base-very-deep-neutral-undertone"
+    },
+    "skin-texture": {
+      "required": true,
+      "library": "skin-texture",
+      "mode": "random",
+      "group": "appearance",
+      "fallback": "identity-skin-texture-base-smooth-matte-finish"
+    },
+    "hair-color": {
+      "required": true,
+      "library": "hair-color",
+      "mode": "random",
+      "group": "appearance",
+      "fallback": "hair-color-base-black-neutral-undertone"
+    },
+    "hair-length": {
+      "required": true,
+      "library": "hair-length",
+      "mode": "random",
+      "group": "appearance",
+      "fallback": "hair-length-base-closely-cropped-softly-defined"
+    },
+    "hair-texture": {
+      "required": true,
+      "library": "hair-texture",
+      "mode": "random",
+      "group": "appearance",
+      "fallback": "hair-texture-base-pin-straight-softly-defined"
+    },
+    "hair-style": {
+      "required": true,
+      "library": "hair-style",
+      "mode": "random",
+      "group": "appearance",
+      "fallback": "hair-style-base-loose-natural-style-precise-tailoring"
+    },
+    "identity-archetype": {
+      "required": true,
+      "library": "identity-archetype",
+      "mode": "random",
+      "group": "identity",
+      "fallback": "identity-archetype-base-thoughtful-researcher-subtle-intensity"
+    },
+    "facial-structure": {
+      "required": true,
+      "library": "facial-structure",
+      "mode": "random",
+      "group": "identity",
+      "fallback": "identity-facial-structure-base-high-cheekbone-softly-defined"
+    },
+    "body-build": {
+      "required": true,
+      "library": "body-build",
+      "mode": "random",
+      "group": "appearance",
+      "fallback": "body-build-base-slender-build-softly-defined"
+    },
+    "wardrobe-theme": {
+      "required": true,
+      "library": "wardrobe-theme",
+      "mode": "random",
+      "group": "wardrobe",
+      "fallback": "wardrobe-theme-contemporary-contemporary-casual-precise-tailoring"
+    },
+    "tops": {
+      "required": true,
+      "library": "tops",
+      "mode": "random",
+      "group": "wardrobe",
+      "fallback": "wardrobe-tops-base-button-front-shirt-precise-tailoring"
+    },
+    "outerwear": {
+      "required": true,
+      "library": "outerwear",
+      "mode": "random",
+      "group": "wardrobe",
+      "fallback": "wardrobe-outerwear-base-single-breasted-coat-precise-tailoring"
+    },
+    "palette": {
+      "required": true,
+      "library": "palette",
+      "mode": "random",
+      "group": "wardrobe",
+      "fallback": "wardrobe-palette-base-earth-neutral-muted-saturation"
+    },
+    "materials": {
+      "required": true,
+      "library": "materials",
+      "mode": "random",
+      "group": "wardrobe",
+      "fallback": "wardrobe-materials-base-cotton-matte-finish"
+    },
+    "accessories": {
+      "required": true,
+      "library": "accessories",
+      "mode": "random",
+      "group": "wardrobe",
+      "fallback": "wardrobe-accessories-base-structured-handbag-matte-finish"
+    },
+    "expression": {
+      "required": true,
+      "library": "expression",
+      "mode": "random",
+      "group": "performance",
+      "fallback": "performance-expression-base-calm-expression-subtle-intensity"
+    },
+    "gaze": {
+      "required": true,
+      "library": "gaze",
+      "mode": "random",
+      "group": "performance",
+      "fallback": "performance-gaze-base-direct-gaze-subtle-intensity"
+    },
+    "pose": {
+      "required": true,
+      "library": "pose",
+      "mode": "random",
+      "group": "performance",
+      "fallback": "performance-pose-base-relaxed-standing-pose-resting-movement"
+    },
+    "action": {
+      "required": true,
+      "library": "action",
+      "mode": "random",
+      "group": "performance",
+      "fallback": "performance-action-base-standing-still-resting-movement"
+    },
+    "location": {
+      "required": true,
+      "library": "location",
+      "mode": "random",
+      "group": "scene",
+      "fallback": "scene-location-studio-neutral-portrait-studio-open-spatial-layout"
+    },
+    "time-of-day": {
+      "required": true,
+      "library": "time-of-day",
+      "mode": "random",
+      "group": "scene",
+      "fallback": "scene-time-of-day-base-pre-dawn-low-contrast"
+    },
+    "weather": {
+      "required": true,
+      "library": "weather",
+      "mode": "random",
+      "group": "scene",
+      "fallback": "scene-weather-base-clear-weather-clear-atmosphere"
+    },
+    "atmosphere": {
+      "required": true,
+      "library": "atmosphere",
+      "mode": "random",
+      "group": "scene",
+      "fallback": "scene-atmosphere-base-quiet-atmosphere-clear-atmosphere"
+    },
+    "background": {
+      "required": true,
+      "library": "background",
+      "mode": "random",
+      "group": "scene",
+      "fallback": "scene-background-base-plain-tonal-background-open-spatial-layout"
+    },
+    "architecture": {
+      "required": true,
+      "library": "architecture",
+      "mode": "random",
+      "group": "scene",
+      "fallback": "scene-architecture-base-modernist-concrete-open-spatial-layout"
+    },
+    "set-dressing": {
+      "required": true,
+      "library": "set-dressing",
+      "mode": "random",
+      "group": "scene",
+      "fallback": "scene-set-dressing-base-minimal-furniture-open-spatial-layout"
+    },
+    "season": {
+      "required": true,
+      "library": "season",
+      "mode": "random",
+      "group": "scene",
+      "fallback": "scene-season-base-early-spring-clear-atmosphere"
+    },
+    "lighting-setup": {
+      "required": true,
+      "library": "lighting-setup",
+      "mode": "random",
+      "group": "lighting",
+      "fallback": "cinematography-lighting-setup-base-single-key-setup-low-contrast"
+    },
+    "light-source": {
+      "required": true,
+      "library": "light-source",
+      "mode": "random",
+      "group": "lighting",
+      "fallback": "cinematography-light-source-base-large-softbox-low-contrast"
+    },
+    "light-quality": {
+      "required": true,
+      "library": "light-quality",
+      "mode": "random",
+      "group": "lighting",
+      "fallback": "cinematography-light-quality-base-very-soft-light-low-contrast"
+    },
+    "shot-size": {
+      "required": true,
+      "library": "shot-size",
+      "mode": "random",
+      "group": "camera",
+      "fallback": "cinematography-shot-size-base-extreme-close-up-documentary-restraint"
+    },
+    "camera-angle": {
+      "required": true,
+      "library": "camera-angle",
+      "mode": "random",
+      "group": "camera",
+      "fallback": "cinematography-camera-angle-base-eye-level-angle-documentary-restraint"
+    },
+    "lens-focal": {
+      "required": true,
+      "library": "lens-focal",
+      "mode": "random",
+      "group": "camera",
+      "fallback": "cinematography-lens-focal-base-24mm-wide-lens-documentary-restraint"
+    },
+    "focus": {
+      "required": true,
+      "library": "focus",
+      "mode": "random",
+      "group": "camera",
+      "fallback": "cinematography-focus-base-eye-priority-focus-documentary-restraint"
+    },
+    "composition": {
+      "required": true,
+      "library": "composition",
+      "mode": "random",
+      "group": "camera",
+      "fallback": "cinematography-composition-base-centered-composition-documentary-restraint"
+    },
+    "light-direction": {
+      "required": true,
+      "library": "light-direction",
+      "mode": "random",
+      "group": "lighting",
+      "fallback": "cinematography-light-direction-base-front-light-low-contrast"
+    },
+    "light-temperature": {
+      "required": true,
+      "library": "light-temperature",
+      "mode": "random",
+      "group": "lighting",
+      "fallback": "cinematography-light-temperature-base-cool-blue-light-muted-saturation"
+    },
+    "aperture": {
+      "required": true,
+      "library": "aperture",
+      "mode": "random",
+      "group": "camera",
+      "fallback": "cinematography-aperture-base-f-1-4-aperture-documentary-restraint"
+    },
+    "camera-motion": {
+      "required": true,
+      "library": "camera-motion",
+      "mode": "random",
+      "group": "camera",
+      "fallback": "cinematography-camera-motion-base-locked-camera-resting-movement"
+    },
+    "exposure-film-look": {
+      "required": true,
+      "library": "exposure-film-look",
+      "mode": "random",
+      "group": "camera",
+      "fallback": "cinematography-exposure-film-look-base-clean-digital-exposure-matte-finish"
+    },
+    "photo-genre": {
+      "required": true,
+      "library": "photo-genre",
+      "mode": "random",
+      "group": "style",
+      "fallback": "style-photo-genre-base-contemporary-portrait-documentary-restraint"
+    },
+    "visual-medium": {
+      "required": true,
+      "library": "visual-medium",
+      "mode": "random",
+      "group": "style",
+      "fallback": "style-visual-medium-base-natural-digital-photograph-matte-finish"
+    },
+    "color-grading": {
+      "required": true,
+      "library": "color-grading",
+      "mode": "random",
+      "group": "style",
+      "fallback": "style-color-grading-base-neutral-grade-muted-saturation"
+    },
+    "quality": {
+      "required": true,
+      "library": "quality",
+      "mode": "random",
+      "group": "style",
+      "fallback": "style-quality-base-clear-subject-detail-matte-finish"
+    },
+    "visual-era": {
+      "required": true,
+      "library": "visual-era",
+      "mode": "random",
+      "group": "style",
+      "fallback": "style-visual-era-base-contemporary-visual-language-faithful-period-detail"
+    },
+    "finish": {
+      "required": true,
+      "library": "finish",
+      "mode": "random",
+      "group": "style",
+      "fallback": "style-finish-base-natural-finish-matte-finish"
+    },
+    "negative-base": {
+      "required": false,
+      "library": "negative-base",
+      "mode": "random",
+      "group": "negative",
+      "fallback": "negative-base-low-resolution-artifacts-minor-occurrence"
+    },
+    "negative-anatomy": {
+      "required": false,
+      "library": "negative-anatomy",
+      "mode": "random",
+      "group": "negative",
+      "fallback": "negative-anatomy-malformed-hands-minor-occurrence"
+    },
+    "negative-camera": {
+      "required": false,
+      "library": "negative-camera",
+      "mode": "random",
+      "group": "negative",
+      "fallback": "negative-camera-accidental-motion-blur-minor-occurrence"
+    }
+  },
+  "templates": {
+    "positive": "{subject-type}. {adult-age}. {face-shape}. {eye-color}. {skin-tone}. {skin-texture}. {hair-color}. {hair-length}. {hair-texture}. {hair-style}. {identity-archetype}. {facial-structure}. {body-build}. {wardrobe-theme}. {tops}. {outerwear}. {palette}. {materials}. {accessories}. {expression}. {gaze}. {pose}. {action}. {location}. {time-of-day}. {weather}. {atmosphere}. {background}. {architecture}. {set-dressing}. {season}. {lighting-setup}. {light-source}. {light-quality}. {shot-size}. {camera-angle}. {lens-focal}. {focus}. {composition}. {light-direction}. {light-temperature}. {aperture}. {camera-motion}. {exposure-film-look}. {photo-genre}. {visual-medium}. {color-grading}. {quality}. {visual-era}. {finish}.",
+    "negative": "{negative-base}, {negative-anatomy}, {negative-camera}."
+  },
+  "allow_empty_negative": false,
+  "metadata": {
+    "purpose": "conceptual portrait",
+    "content_policy": "adults-only",
+    "recommended_mode": "creative",
+    "seed_groups": [
+      "appearance",
+      "camera",
+      "identity",
+      "lighting",
+      "negative",
+      "performance",
+      "scene",
+      "style",
+      "wardrobe"
+    ],
+    "expected_prompt_size": "detailed",
+    "density": "adaptive",
+    "verbosity_omit": {
+      "compact": [
+        "skin-details",
+        "distinguishing-features",
+        "patterns",
+        "set-dressing",
+        "camera-motion",
+        "exposure-film-look"
+      ]
+    },
+    "adaptive_omissions": {
+      "framing-close": [
+        "body-build",
+        "bottoms",
+        "footwear",
+        "pose",
+        "hand-pose"
+      ]
+    }
+  }
+}

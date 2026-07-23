@@ -102,6 +102,16 @@ class CompositorTests(unittest.TestCase):
         self.assertNotIn("background", result.context.selections)
         self.assertIn("section background disabled", result.warnings)
 
+    def test_custom_value_is_preserved_as_a_user_locked_selection(self) -> None:
+        custom = "They wear a hand-painted cobalt flight jacket"
+        configuration = _configuration(outfit=FieldConfiguration(FieldMode.CUSTOM, custom))
+        result = compose_selection(_profile(), _libraries(), configuration)
+        selected = result.context.selections["outfit"]
+        self.assertEqual(selected.option.id, "custom")
+        self.assertEqual(selected.option.text, custom)
+        self.assertEqual(selected.source.value, "custom")
+        self.assertEqual(result.attempts["outfit"], 0)
+
     def test_required_disabled_fails(self) -> None:
         configuration = _configuration(outfit=FieldConfiguration(FieldMode.DISABLED))
         with self.assertRaises(ConfigurationError):
@@ -155,7 +165,22 @@ class CompositorTests(unittest.TestCase):
             outfit=FieldConfiguration(FieldMode.FIXED, "formal"),
             background=FieldConfiguration(FieldMode.FIXED, "rain"),
         )
-        with self.assertRaisesRegex(RuleConflictError, "conflicts with fixed value"):
+        with self.assertRaisesRegex(RuleConflictError, "conflicts with user-locked value"):
+            compose_selection(_profile(), libraries, configuration)
+
+    def test_custom_value_conflicting_with_implication_fails(self) -> None:
+        libraries = _libraries()
+        rain = PromptOption(
+            "rain",
+            "Rain",
+            rules=(Rule(RuleType.IMPLIES, target_field="outfit", target_value="plain"),),
+        )
+        libraries["backgrounds"] = replace(libraries["backgrounds"], options=(rain,))
+        configuration = _configuration(
+            outfit=FieldConfiguration(FieldMode.CUSTOM, "A custom protective coat"),
+            background=FieldConfiguration(FieldMode.FIXED, "rain"),
+        )
+        with self.assertRaisesRegex(RuleConflictError, "conflicts with user-locked value"):
             compose_selection(_profile(), libraries, configuration)
 
     def test_fallback_that_violates_absolute_rule_fails(self) -> None:

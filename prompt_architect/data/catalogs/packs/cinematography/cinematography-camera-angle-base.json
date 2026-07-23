@@ -1,0 +1,2577 @@
+{
+  "schema_version": "2.0",
+  "id": "cinematography-camera-angle-base",
+  "version": "2.0.0",
+  "library": "camera-angle",
+  "domain": "cinematography",
+  "category": "camera-angle",
+  "language": "en",
+  "status": "active",
+  "safety": "general",
+  "tags": [
+    "base"
+  ],
+  "fallback_option_id": "cinematography-camera-angle-base-eye-level-angle-documentary-restraint",
+  "options": [
+    {
+      "id": "cinematography-camera-angle-base-eye-level-angle-documentary-restraint",
+      "semantic_key": "cinematography-camera-angle-base-eye-level-angle-documentary-restraint",
+      "text": "eye-level angle carrying documentary restraint",
+      "sentence": "Eye-level angle carrying documentary restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "eye-level angle carrying documentary restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing eye-level angle carrying documentary restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with eye-level angle carrying documentary restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-camera-angle-base-eye-level-angle",
+      "tags": [
+        "base",
+        "camera-angle",
+        "cinematography",
+        "rarity-common"
+      ],
+      "facets": {
+        "angle": "eye-level-angle",
+        "treatment": "documentary-restraint"
+      },
+      "subcategory": "eye-level-angle",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-camera-angle-base-eye-level-angle-formal-precision",
+      "semantic_key": "cinematography-camera-angle-base-eye-level-angle-formal-precision",
+      "text": "eye-level angle carrying formal precision",
+      "sentence": "Eye-level angle carrying formal precision.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "eye-level angle carrying formal precision",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing eye-level angle carrying formal precision",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with eye-level angle carrying formal precision",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-camera-angle-base-eye-level-angle",
+      "tags": [
+        "base",
+        "camera-angle",
+        "cinematography",
+        "rarity-common"
+      ],
+      "facets": {
+        "angle": "eye-level-angle",
+        "treatment": "formal-precision"
+      },
+      "subcategory": "eye-level-angle",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-camera-angle-base-eye-level-angle-intimate-emphasis",
+      "semantic_key": "cinematography-camera-angle-base-eye-level-angle-intimate-emphasis",
+      "text": "eye-level angle carrying intimate emphasis",
+      "sentence": "Eye-level angle carrying intimate emphasis.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "eye-level angle carrying intimate emphasis",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing eye-level angle carrying intimate emphasis",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with eye-level angle carrying intimate emphasis",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-camera-angle-base-eye-level-angle",
+      "tags": [
+        "base",
+        "camera-angle",
+        "cinematography",
+        "rarity-common"
+      ],
+      "facets": {
+        "angle": "eye-level-angle",
+        "treatment": "intimate-emphasis"
+      },
+      "subcategory": "eye-level-angle",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-camera-angle-base-eye-level-angle-spatial-context",
+      "semantic_key": "cinematography-camera-angle-base-eye-level-angle-spatial-context",
+      "text": "eye-level angle carrying spatial context",
+      "sentence": "Eye-level angle carrying spatial context.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "eye-level angle carrying spatial context",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing eye-level angle carrying spatial context",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with eye-level angle carrying spatial context",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-camera-angle-base-eye-level-angle",
+      "tags": [
+        "base",
+        "camera-angle",
+        "cinematography",
+        "rarity-common"
+      ],
+      "facets": {
+        "angle": "eye-level-angle",
+        "treatment": "spatial-context"
+      },
+      "subcategory": "eye-level-angle",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-camera-angle-base-eye-level-angle-graphic-geometry",
+      "semantic_key": "cinematography-camera-angle-base-eye-level-angle-graphic-geometry",
+      "text": "eye-level angle carrying graphic geometry",
+      "sentence": "Eye-level angle carrying graphic geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "eye-level angle carrying graphic geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing eye-level angle carrying graphic geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with eye-level angle carrying graphic geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-camera-angle-base-eye-level-angle",
+      "tags": [
+        "base",
+        "camera-angle",
+        "cinematography",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "angle": "eye-level-angle",
+        "treatment": "graphic-geometry"
+      },
+      "subcategory": "eye-level-angle",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-camera-angle-base-eye-level-angle-dynamic-energy",
+      "semantic_key": "cinematography-camera-angle-base-eye-level-angle-dynamic-energy",
+      "text": "eye-level angle carrying dynamic energy",
+      "sentence": "Eye-level angle carrying dynamic energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "eye-level angle carrying dynamic energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing eye-level angle carrying dynamic energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with eye-level angle carrying dynamic energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-camera-angle-base-eye-level-angle",
+      "tags": [
+        "base",
+        "camera-angle",
+        "cinematography",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "angle": "eye-level-angle",
+        "treatment": "dynamic-energy"
+      },
+      "subcategory": "eye-level-angle",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-camera-angle-base-eye-level-angle-quiet-observation",
+      "semantic_key": "cinematography-camera-angle-base-eye-level-angle-quiet-observation",
+      "text": "eye-level angle carrying quiet observation",
+      "sentence": "Eye-level angle carrying quiet observation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "eye-level angle carrying quiet observation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing eye-level angle carrying quiet observation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with eye-level angle carrying quiet observation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-camera-angle-base-eye-level-angle",
+      "tags": [
+        "base",
+        "camera-angle",
+        "cinematography",
+        "rarity-rare"
+      ],
+      "facets": {
+        "angle": "eye-level-angle",
+        "treatment": "quiet-observation"
+      },
+      "subcategory": "eye-level-angle",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-camera-angle-base-eye-level-angle-editorial-polish",
+      "semantic_key": "cinematography-camera-angle-base-eye-level-angle-editorial-polish",
+      "text": "eye-level angle carrying editorial polish",
+      "sentence": "Eye-level angle carrying editorial polish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "eye-level angle carrying editorial polish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing eye-level angle carrying editorial polish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with eye-level angle carrying editorial polish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-camera-angle-base-eye-level-angle",
+      "tags": [
+        "base",
+        "camera-angle",
+        "cinematography",
+        "rarity-rare"
+      ],
+      "facets": {
+        "angle": "eye-level-angle",
+        "treatment": "editorial-polish"
+      },
+      "subcategory": "eye-level-angle",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-camera-angle-base-slightly-high-angle-documentary-restraint",
+      "semantic_key": "cinematography-camera-angle-base-slightly-high-angle-documentary-restraint",
+      "text": "slightly high angle carrying documentary restraint",
+      "sentence": "Slightly high angle carrying documentary restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "slightly high angle carrying documentary restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing slightly high angle carrying documentary restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with slightly high angle carrying documentary restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-camera-angle-base-slightly-high-angle",
+      "tags": [
+        "base",
+        "camera-angle",
+        "cinematography",
+        "rarity-common"
+      ],
+      "facets": {
+        "angle": "slightly-high-angle",
+        "treatment": "documentary-restraint"
+      },
+      "subcategory": "slightly-high-angle",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-camera-angle-base-slightly-high-angle-formal-precision",
+      "semantic_key": "cinematography-camera-angle-base-slightly-high-angle-formal-precision",
+      "text": "slightly high angle carrying formal precision",
+      "sentence": "Slightly high angle carrying formal precision.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "slightly high angle carrying formal precision",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing slightly high angle carrying formal precision",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with slightly high angle carrying formal precision",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-camera-angle-base-slightly-high-angle",
+      "tags": [
+        "base",
+        "camera-angle",
+        "cinematography",
+        "rarity-common"
+      ],
+      "facets": {
+        "angle": "slightly-high-angle",
+        "treatment": "formal-precision"
+      },
+      "subcategory": "slightly-high-angle",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-camera-angle-base-slightly-high-angle-intimate-emphasis",
+      "semantic_key": "cinematography-camera-angle-base-slightly-high-angle-intimate-emphasis",
+      "text": "slightly high angle carrying intimate emphasis",
+      "sentence": "Slightly high angle carrying intimate emphasis.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "slightly high angle carrying intimate emphasis",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing slightly high angle carrying intimate emphasis",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with slightly high angle carrying intimate emphasis",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-camera-angle-base-slightly-high-angle",
+      "tags": [
+        "base",
+        "camera-angle",
+        "cinematography",
+        "rarity-common"
+      ],
+      "facets": {
+        "angle": "slightly-high-angle",
+        "treatment": "intimate-emphasis"
+      },
+      "subcategory": "slightly-high-angle",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-camera-angle-base-slightly-high-angle-spatial-context",
+      "semantic_key": "cinematography-camera-angle-base-slightly-high-angle-spatial-context",
+      "text": "slightly high angle carrying spatial context",
+      "sentence": "Slightly high angle carrying spatial context.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "slightly high angle carrying spatial context",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing slightly high angle carrying spatial context",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with slightly high angle carrying spatial context",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-camera-angle-base-slightly-high-angle",
+      "tags": [
+        "base",
+        "camera-angle",
+        "cinematography",
+        "rarity-common"
+      ],
+      "facets": {
+        "angle": "slightly-high-angle",
+        "treatment": "spatial-context"
+      },
+      "subcategory": "slightly-high-angle",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-camera-angle-base-slightly-high-angle-graphic-geometry",
+      "semantic_key": "cinematography-camera-angle-base-slightly-high-angle-graphic-geometry",
+      "text": "slightly high angle carrying graphic geometry",
+      "sentence": "Slightly high angle carrying graphic geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "slightly high angle carrying graphic geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing slightly high angle carrying graphic geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with slightly high angle carrying graphic geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-camera-angle-base-slightly-high-angle",
+      "tags": [
+        "base",
+        "camera-angle",
+        "cinematography",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "angle": "slightly-high-angle",
+        "treatment": "graphic-geometry"
+      },
+      "subcategory": "slightly-high-angle",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-camera-angle-base-slightly-high-angle-dynamic-energy",
+      "semantic_key": "cinematography-camera-angle-base-slightly-high-angle-dynamic-energy",
+      "text": "slightly high angle carrying dynamic energy",
+      "sentence": "Slightly high angle carrying dynamic energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "slightly high angle carrying dynamic energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing slightly high angle carrying dynamic energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with slightly high angle carrying dynamic energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-camera-angle-base-slightly-high-angle",
+      "tags": [
+        "base",
+        "camera-angle",
+        "cinematography",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "angle": "slightly-high-angle",
+        "treatment": "dynamic-energy"
+      },
+      "subcategory": "slightly-high-angle",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-camera-angle-base-slightly-high-angle-quiet-observation",
+      "semantic_key": "cinematography-camera-angle-base-slightly-high-angle-quiet-observation",
+      "text": "slightly high angle carrying quiet observation",
+      "sentence": "Slightly high angle carrying quiet observation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "slightly high angle carrying quiet observation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing slightly high angle carrying quiet observation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with slightly high angle carrying quiet observation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-camera-angle-base-slightly-high-angle",
+      "tags": [
+        "base",
+        "camera-angle",
+        "cinematography",
+        "rarity-rare"
+      ],
+      "facets": {
+        "angle": "slightly-high-angle",
+        "treatment": "quiet-observation"
+      },
+      "subcategory": "slightly-high-angle",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-camera-angle-base-slightly-high-angle-editorial-polish",
+      "semantic_key": "cinematography-camera-angle-base-slightly-high-angle-editorial-polish",
+      "text": "slightly high angle carrying editorial polish",
+      "sentence": "Slightly high angle carrying editorial polish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "slightly high angle carrying editorial polish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing slightly high angle carrying editorial polish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with slightly high angle carrying editorial polish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-camera-angle-base-slightly-high-angle",
+      "tags": [
+        "base",
+        "camera-angle",
+        "cinematography",
+        "rarity-rare"
+      ],
+      "facets": {
+        "angle": "slightly-high-angle",
+        "treatment": "editorial-polish"
+      },
+      "subcategory": "slightly-high-angle",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-camera-angle-base-high-angle-documentary-restraint",
+      "semantic_key": "cinematography-camera-angle-base-high-angle-documentary-restraint",
+      "text": "high angle carrying documentary restraint",
+      "sentence": "High angle carrying documentary restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "high angle carrying documentary restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing high angle carrying documentary restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with high angle carrying documentary restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-camera-angle-base-high-angle",
+      "tags": [
+        "base",
+        "camera-angle",
+        "cinematography",
+        "rarity-common"
+      ],
+      "facets": {
+        "angle": "high-angle",
+        "treatment": "documentary-restraint"
+      },
+      "subcategory": "high-angle",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-camera-angle-base-high-angle-formal-precision",
+      "semantic_key": "cinematography-camera-angle-base-high-angle-formal-precision",
+      "text": "high angle carrying formal precision",
+      "sentence": "High angle carrying formal precision.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "high angle carrying formal precision",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing high angle carrying formal precision",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with high angle carrying formal precision",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-camera-angle-base-high-angle",
+      "tags": [
+        "base",
+        "camera-angle",
+        "cinematography",
+        "rarity-common"
+      ],
+      "facets": {
+        "angle": "high-angle",
+        "treatment": "formal-precision"
+      },
+      "subcategory": "high-angle",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-camera-angle-base-high-angle-intimate-emphasis",
+      "semantic_key": "cinematography-camera-angle-base-high-angle-intimate-emphasis",
+      "text": "high angle carrying intimate emphasis",
+      "sentence": "High angle carrying intimate emphasis.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "high angle carrying intimate emphasis",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing high angle carrying intimate emphasis",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with high angle carrying intimate emphasis",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-camera-angle-base-high-angle",
+      "tags": [
+        "base",
+        "camera-angle",
+        "cinematography",
+        "rarity-common"
+      ],
+      "facets": {
+        "angle": "high-angle",
+        "treatment": "intimate-emphasis"
+      },
+      "subcategory": "high-angle",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-camera-angle-base-high-angle-spatial-context",
+      "semantic_key": "cinematography-camera-angle-base-high-angle-spatial-context",
+      "text": "high angle carrying spatial context",
+      "sentence": "High angle carrying spatial context.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "high angle carrying spatial context",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing high angle carrying spatial context",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with high angle carrying spatial context",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-camera-angle-base-high-angle",
+      "tags": [
+        "base",
+        "camera-angle",
+        "cinematography",
+        "rarity-common"
+      ],
+      "facets": {
+        "angle": "high-angle",
+        "treatment": "spatial-context"
+      },
+      "subcategory": "high-angle",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-camera-angle-base-high-angle-graphic-geometry",
+      "semantic_key": "cinematography-camera-angle-base-high-angle-graphic-geometry",
+      "text": "high angle carrying graphic geometry",
+      "sentence": "High angle carrying graphic geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "high angle carrying graphic geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing high angle carrying graphic geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with high angle carrying graphic geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-camera-angle-base-high-angle",
+      "tags": [
+        "base",
+        "camera-angle",
+        "cinematography",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "angle": "high-angle",
+        "treatment": "graphic-geometry"
+      },
+      "subcategory": "high-angle",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-camera-angle-base-high-angle-dynamic-energy",
+      "semantic_key": "cinematography-camera-angle-base-high-angle-dynamic-energy",
+      "text": "high angle carrying dynamic energy",
+      "sentence": "High angle carrying dynamic energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "high angle carrying dynamic energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing high angle carrying dynamic energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with high angle carrying dynamic energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-camera-angle-base-high-angle",
+      "tags": [
+        "base",
+        "camera-angle",
+        "cinematography",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "angle": "high-angle",
+        "treatment": "dynamic-energy"
+      },
+      "subcategory": "high-angle",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-camera-angle-base-high-angle-quiet-observation",
+      "semantic_key": "cinematography-camera-angle-base-high-angle-quiet-observation",
+      "text": "high angle carrying quiet observation",
+      "sentence": "High angle carrying quiet observation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "high angle carrying quiet observation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing high angle carrying quiet observation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with high angle carrying quiet observation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-camera-angle-base-high-angle",
+      "tags": [
+        "base",
+        "camera-angle",
+        "cinematography",
+        "rarity-rare"
+      ],
+      "facets": {
+        "angle": "high-angle",
+        "treatment": "quiet-observation"
+      },
+      "subcategory": "high-angle",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-camera-angle-base-high-angle-editorial-polish",
+      "semantic_key": "cinematography-camera-angle-base-high-angle-editorial-polish",
+      "text": "high angle carrying editorial polish",
+      "sentence": "High angle carrying editorial polish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "high angle carrying editorial polish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing high angle carrying editorial polish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with high angle carrying editorial polish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-camera-angle-base-high-angle",
+      "tags": [
+        "base",
+        "camera-angle",
+        "cinematography",
+        "rarity-rare"
+      ],
+      "facets": {
+        "angle": "high-angle",
+        "treatment": "editorial-polish"
+      },
+      "subcategory": "high-angle",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-camera-angle-base-slightly-low-angle-documentary-restraint",
+      "semantic_key": "cinematography-camera-angle-base-slightly-low-angle-documentary-restraint",
+      "text": "slightly low angle carrying documentary restraint",
+      "sentence": "Slightly low angle carrying documentary restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "slightly low angle carrying documentary restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing slightly low angle carrying documentary restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with slightly low angle carrying documentary restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-camera-angle-base-slightly-low-angle",
+      "tags": [
+        "base",
+        "camera-angle",
+        "cinematography",
+        "rarity-common"
+      ],
+      "facets": {
+        "angle": "slightly-low-angle",
+        "treatment": "documentary-restraint"
+      },
+      "subcategory": "slightly-low-angle",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-camera-angle-base-slightly-low-angle-formal-precision",
+      "semantic_key": "cinematography-camera-angle-base-slightly-low-angle-formal-precision",
+      "text": "slightly low angle carrying formal precision",
+      "sentence": "Slightly low angle carrying formal precision.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "slightly low angle carrying formal precision",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing slightly low angle carrying formal precision",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with slightly low angle carrying formal precision",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-camera-angle-base-slightly-low-angle",
+      "tags": [
+        "base",
+        "camera-angle",
+        "cinematography",
+        "rarity-common"
+      ],
+      "facets": {
+        "angle": "slightly-low-angle",
+        "treatment": "formal-precision"
+      },
+      "subcategory": "slightly-low-angle",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-camera-angle-base-slightly-low-angle-intimate-emphasis",
+      "semantic_key": "cinematography-camera-angle-base-slightly-low-angle-intimate-emphasis",
+      "text": "slightly low angle carrying intimate emphasis",
+      "sentence": "Slightly low angle carrying intimate emphasis.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "slightly low angle carrying intimate emphasis",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing slightly low angle carrying intimate emphasis",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with slightly low angle carrying intimate emphasis",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-camera-angle-base-slightly-low-angle",
+      "tags": [
+        "base",
+        "camera-angle",
+        "cinematography",
+        "rarity-common"
+      ],
+      "facets": {
+        "angle": "slightly-low-angle",
+        "treatment": "intimate-emphasis"
+      },
+      "subcategory": "slightly-low-angle",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-camera-angle-base-slightly-low-angle-spatial-context",
+      "semantic_key": "cinematography-camera-angle-base-slightly-low-angle-spatial-context",
+      "text": "slightly low angle carrying spatial context",
+      "sentence": "Slightly low angle carrying spatial context.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "slightly low angle carrying spatial context",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing slightly low angle carrying spatial context",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with slightly low angle carrying spatial context",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-camera-angle-base-slightly-low-angle",
+      "tags": [
+        "base",
+        "camera-angle",
+        "cinematography",
+        "rarity-common"
+      ],
+      "facets": {
+        "angle": "slightly-low-angle",
+        "treatment": "spatial-context"
+      },
+      "subcategory": "slightly-low-angle",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-camera-angle-base-slightly-low-angle-graphic-geometry",
+      "semantic_key": "cinematography-camera-angle-base-slightly-low-angle-graphic-geometry",
+      "text": "slightly low angle carrying graphic geometry",
+      "sentence": "Slightly low angle carrying graphic geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "slightly low angle carrying graphic geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing slightly low angle carrying graphic geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with slightly low angle carrying graphic geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-camera-angle-base-slightly-low-angle",
+      "tags": [
+        "base",
+        "camera-angle",
+        "cinematography",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "angle": "slightly-low-angle",
+        "treatment": "graphic-geometry"
+      },
+      "subcategory": "slightly-low-angle",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-camera-angle-base-slightly-low-angle-dynamic-energy",
+      "semantic_key": "cinematography-camera-angle-base-slightly-low-angle-dynamic-energy",
+      "text": "slightly low angle carrying dynamic energy",
+      "sentence": "Slightly low angle carrying dynamic energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "slightly low angle carrying dynamic energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing slightly low angle carrying dynamic energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with slightly low angle carrying dynamic energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-camera-angle-base-slightly-low-angle",
+      "tags": [
+        "base",
+        "camera-angle",
+        "cinematography",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "angle": "slightly-low-angle",
+        "treatment": "dynamic-energy"
+      },
+      "subcategory": "slightly-low-angle",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-camera-angle-base-slightly-low-angle-quiet-observation",
+      "semantic_key": "cinematography-camera-angle-base-slightly-low-angle-quiet-observation",
+      "text": "slightly low angle carrying quiet observation",
+      "sentence": "Slightly low angle carrying quiet observation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "slightly low angle carrying quiet observation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing slightly low angle carrying quiet observation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with slightly low angle carrying quiet observation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-camera-angle-base-slightly-low-angle",
+      "tags": [
+        "base",
+        "camera-angle",
+        "cinematography",
+        "rarity-rare"
+      ],
+      "facets": {
+        "angle": "slightly-low-angle",
+        "treatment": "quiet-observation"
+      },
+      "subcategory": "slightly-low-angle",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-camera-angle-base-slightly-low-angle-editorial-polish",
+      "semantic_key": "cinematography-camera-angle-base-slightly-low-angle-editorial-polish",
+      "text": "slightly low angle carrying editorial polish",
+      "sentence": "Slightly low angle carrying editorial polish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "slightly low angle carrying editorial polish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing slightly low angle carrying editorial polish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with slightly low angle carrying editorial polish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-camera-angle-base-slightly-low-angle",
+      "tags": [
+        "base",
+        "camera-angle",
+        "cinematography",
+        "rarity-rare"
+      ],
+      "facets": {
+        "angle": "slightly-low-angle",
+        "treatment": "editorial-polish"
+      },
+      "subcategory": "slightly-low-angle",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-camera-angle-base-low-angle-documentary-restraint",
+      "semantic_key": "cinematography-camera-angle-base-low-angle-documentary-restraint",
+      "text": "low angle carrying documentary restraint",
+      "sentence": "Low angle carrying documentary restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "low angle carrying documentary restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing low angle carrying documentary restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with low angle carrying documentary restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-camera-angle-base-low-angle",
+      "tags": [
+        "base",
+        "camera-angle",
+        "cinematography",
+        "rarity-common"
+      ],
+      "facets": {
+        "angle": "low-angle",
+        "treatment": "documentary-restraint"
+      },
+      "subcategory": "low-angle",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-camera-angle-base-low-angle-formal-precision",
+      "semantic_key": "cinematography-camera-angle-base-low-angle-formal-precision",
+      "text": "low angle carrying formal precision",
+      "sentence": "Low angle carrying formal precision.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "low angle carrying formal precision",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing low angle carrying formal precision",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with low angle carrying formal precision",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-camera-angle-base-low-angle",
+      "tags": [
+        "base",
+        "camera-angle",
+        "cinematography",
+        "rarity-common"
+      ],
+      "facets": {
+        "angle": "low-angle",
+        "treatment": "formal-precision"
+      },
+      "subcategory": "low-angle",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-camera-angle-base-low-angle-intimate-emphasis",
+      "semantic_key": "cinematography-camera-angle-base-low-angle-intimate-emphasis",
+      "text": "low angle carrying intimate emphasis",
+      "sentence": "Low angle carrying intimate emphasis.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "low angle carrying intimate emphasis",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing low angle carrying intimate emphasis",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with low angle carrying intimate emphasis",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-camera-angle-base-low-angle",
+      "tags": [
+        "base",
+        "camera-angle",
+        "cinematography",
+        "rarity-common"
+      ],
+      "facets": {
+        "angle": "low-angle",
+        "treatment": "intimate-emphasis"
+      },
+      "subcategory": "low-angle",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-camera-angle-base-low-angle-spatial-context",
+      "semantic_key": "cinematography-camera-angle-base-low-angle-spatial-context",
+      "text": "low angle carrying spatial context",
+      "sentence": "Low angle carrying spatial context.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "low angle carrying spatial context",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing low angle carrying spatial context",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with low angle carrying spatial context",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-camera-angle-base-low-angle",
+      "tags": [
+        "base",
+        "camera-angle",
+        "cinematography",
+        "rarity-common"
+      ],
+      "facets": {
+        "angle": "low-angle",
+        "treatment": "spatial-context"
+      },
+      "subcategory": "low-angle",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-camera-angle-base-low-angle-graphic-geometry",
+      "semantic_key": "cinematography-camera-angle-base-low-angle-graphic-geometry",
+      "text": "low angle carrying graphic geometry",
+      "sentence": "Low angle carrying graphic geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "low angle carrying graphic geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing low angle carrying graphic geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with low angle carrying graphic geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-camera-angle-base-low-angle",
+      "tags": [
+        "base",
+        "camera-angle",
+        "cinematography",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "angle": "low-angle",
+        "treatment": "graphic-geometry"
+      },
+      "subcategory": "low-angle",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-camera-angle-base-low-angle-dynamic-energy",
+      "semantic_key": "cinematography-camera-angle-base-low-angle-dynamic-energy",
+      "text": "low angle carrying dynamic energy",
+      "sentence": "Low angle carrying dynamic energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "low angle carrying dynamic energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing low angle carrying dynamic energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with low angle carrying dynamic energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-camera-angle-base-low-angle",
+      "tags": [
+        "base",
+        "camera-angle",
+        "cinematography",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "angle": "low-angle",
+        "treatment": "dynamic-energy"
+      },
+      "subcategory": "low-angle",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-camera-angle-base-low-angle-quiet-observation",
+      "semantic_key": "cinematography-camera-angle-base-low-angle-quiet-observation",
+      "text": "low angle carrying quiet observation",
+      "sentence": "Low angle carrying quiet observation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "low angle carrying quiet observation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing low angle carrying quiet observation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with low angle carrying quiet observation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-camera-angle-base-low-angle",
+      "tags": [
+        "base",
+        "camera-angle",
+        "cinematography",
+        "rarity-rare"
+      ],
+      "facets": {
+        "angle": "low-angle",
+        "treatment": "quiet-observation"
+      },
+      "subcategory": "low-angle",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-camera-angle-base-low-angle-editorial-polish",
+      "semantic_key": "cinematography-camera-angle-base-low-angle-editorial-polish",
+      "text": "low angle carrying editorial polish",
+      "sentence": "Low angle carrying editorial polish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "low angle carrying editorial polish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing low angle carrying editorial polish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with low angle carrying editorial polish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-camera-angle-base-low-angle",
+      "tags": [
+        "base",
+        "camera-angle",
+        "cinematography",
+        "rarity-rare"
+      ],
+      "facets": {
+        "angle": "low-angle",
+        "treatment": "editorial-polish"
+      },
+      "subcategory": "low-angle",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-camera-angle-base-profile-angle-documentary-restraint",
+      "semantic_key": "cinematography-camera-angle-base-profile-angle-documentary-restraint",
+      "text": "profile angle carrying documentary restraint",
+      "sentence": "Profile angle carrying documentary restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "profile angle carrying documentary restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing profile angle carrying documentary restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with profile angle carrying documentary restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-camera-angle-base-profile-angle",
+      "tags": [
+        "base",
+        "camera-angle",
+        "cinematography",
+        "rarity-common"
+      ],
+      "facets": {
+        "angle": "profile-angle",
+        "treatment": "documentary-restraint"
+      },
+      "subcategory": "profile-angle",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-camera-angle-base-profile-angle-formal-precision",
+      "semantic_key": "cinematography-camera-angle-base-profile-angle-formal-precision",
+      "text": "profile angle carrying formal precision",
+      "sentence": "Profile angle carrying formal precision.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "profile angle carrying formal precision",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing profile angle carrying formal precision",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with profile angle carrying formal precision",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-camera-angle-base-profile-angle",
+      "tags": [
+        "base",
+        "camera-angle",
+        "cinematography",
+        "rarity-common"
+      ],
+      "facets": {
+        "angle": "profile-angle",
+        "treatment": "formal-precision"
+      },
+      "subcategory": "profile-angle",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-camera-angle-base-profile-angle-intimate-emphasis",
+      "semantic_key": "cinematography-camera-angle-base-profile-angle-intimate-emphasis",
+      "text": "profile angle carrying intimate emphasis",
+      "sentence": "Profile angle carrying intimate emphasis.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "profile angle carrying intimate emphasis",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing profile angle carrying intimate emphasis",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with profile angle carrying intimate emphasis",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-camera-angle-base-profile-angle",
+      "tags": [
+        "base",
+        "camera-angle",
+        "cinematography",
+        "rarity-common"
+      ],
+      "facets": {
+        "angle": "profile-angle",
+        "treatment": "intimate-emphasis"
+      },
+      "subcategory": "profile-angle",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-camera-angle-base-profile-angle-spatial-context",
+      "semantic_key": "cinematography-camera-angle-base-profile-angle-spatial-context",
+      "text": "profile angle carrying spatial context",
+      "sentence": "Profile angle carrying spatial context.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "profile angle carrying spatial context",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing profile angle carrying spatial context",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with profile angle carrying spatial context",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-camera-angle-base-profile-angle",
+      "tags": [
+        "base",
+        "camera-angle",
+        "cinematography",
+        "rarity-common"
+      ],
+      "facets": {
+        "angle": "profile-angle",
+        "treatment": "spatial-context"
+      },
+      "subcategory": "profile-angle",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-camera-angle-base-profile-angle-graphic-geometry",
+      "semantic_key": "cinematography-camera-angle-base-profile-angle-graphic-geometry",
+      "text": "profile angle carrying graphic geometry",
+      "sentence": "Profile angle carrying graphic geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "profile angle carrying graphic geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing profile angle carrying graphic geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with profile angle carrying graphic geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-camera-angle-base-profile-angle",
+      "tags": [
+        "base",
+        "camera-angle",
+        "cinematography",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "angle": "profile-angle",
+        "treatment": "graphic-geometry"
+      },
+      "subcategory": "profile-angle",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-camera-angle-base-profile-angle-dynamic-energy",
+      "semantic_key": "cinematography-camera-angle-base-profile-angle-dynamic-energy",
+      "text": "profile angle carrying dynamic energy",
+      "sentence": "Profile angle carrying dynamic energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "profile angle carrying dynamic energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing profile angle carrying dynamic energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with profile angle carrying dynamic energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-camera-angle-base-profile-angle",
+      "tags": [
+        "base",
+        "camera-angle",
+        "cinematography",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "angle": "profile-angle",
+        "treatment": "dynamic-energy"
+      },
+      "subcategory": "profile-angle",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-camera-angle-base-profile-angle-quiet-observation",
+      "semantic_key": "cinematography-camera-angle-base-profile-angle-quiet-observation",
+      "text": "profile angle carrying quiet observation",
+      "sentence": "Profile angle carrying quiet observation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "profile angle carrying quiet observation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing profile angle carrying quiet observation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with profile angle carrying quiet observation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-camera-angle-base-profile-angle",
+      "tags": [
+        "base",
+        "camera-angle",
+        "cinematography",
+        "rarity-rare"
+      ],
+      "facets": {
+        "angle": "profile-angle",
+        "treatment": "quiet-observation"
+      },
+      "subcategory": "profile-angle",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-camera-angle-base-profile-angle-editorial-polish",
+      "semantic_key": "cinematography-camera-angle-base-profile-angle-editorial-polish",
+      "text": "profile angle carrying editorial polish",
+      "sentence": "Profile angle carrying editorial polish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "profile angle carrying editorial polish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing profile angle carrying editorial polish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with profile angle carrying editorial polish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-camera-angle-base-profile-angle",
+      "tags": [
+        "base",
+        "camera-angle",
+        "cinematography",
+        "rarity-rare"
+      ],
+      "facets": {
+        "angle": "profile-angle",
+        "treatment": "editorial-polish"
+      },
+      "subcategory": "profile-angle",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-camera-angle-base-over-shoulder-angle-documentary-restraint",
+      "semantic_key": "cinematography-camera-angle-base-over-shoulder-angle-documentary-restraint",
+      "text": "over-shoulder angle carrying documentary restraint",
+      "sentence": "Over-shoulder angle carrying documentary restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "over-shoulder angle carrying documentary restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing over-shoulder angle carrying documentary restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with over-shoulder angle carrying documentary restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-camera-angle-base-over-shoulder-angle",
+      "tags": [
+        "base",
+        "camera-angle",
+        "cinematography",
+        "rarity-common"
+      ],
+      "facets": {
+        "angle": "over-shoulder-angle",
+        "treatment": "documentary-restraint"
+      },
+      "subcategory": "over-shoulder-angle",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-camera-angle-base-over-shoulder-angle-formal-precision",
+      "semantic_key": "cinematography-camera-angle-base-over-shoulder-angle-formal-precision",
+      "text": "over-shoulder angle carrying formal precision",
+      "sentence": "Over-shoulder angle carrying formal precision.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "over-shoulder angle carrying formal precision",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing over-shoulder angle carrying formal precision",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with over-shoulder angle carrying formal precision",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-camera-angle-base-over-shoulder-angle",
+      "tags": [
+        "base",
+        "camera-angle",
+        "cinematography",
+        "rarity-common"
+      ],
+      "facets": {
+        "angle": "over-shoulder-angle",
+        "treatment": "formal-precision"
+      },
+      "subcategory": "over-shoulder-angle",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-camera-angle-base-over-shoulder-angle-intimate-emphasis",
+      "semantic_key": "cinematography-camera-angle-base-over-shoulder-angle-intimate-emphasis",
+      "text": "over-shoulder angle carrying intimate emphasis",
+      "sentence": "Over-shoulder angle carrying intimate emphasis.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "over-shoulder angle carrying intimate emphasis",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing over-shoulder angle carrying intimate emphasis",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with over-shoulder angle carrying intimate emphasis",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-camera-angle-base-over-shoulder-angle",
+      "tags": [
+        "base",
+        "camera-angle",
+        "cinematography",
+        "rarity-common"
+      ],
+      "facets": {
+        "angle": "over-shoulder-angle",
+        "treatment": "intimate-emphasis"
+      },
+      "subcategory": "over-shoulder-angle",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-camera-angle-base-over-shoulder-angle-spatial-context",
+      "semantic_key": "cinematography-camera-angle-base-over-shoulder-angle-spatial-context",
+      "text": "over-shoulder angle carrying spatial context",
+      "sentence": "Over-shoulder angle carrying spatial context.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "over-shoulder angle carrying spatial context",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing over-shoulder angle carrying spatial context",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with over-shoulder angle carrying spatial context",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-camera-angle-base-over-shoulder-angle",
+      "tags": [
+        "base",
+        "camera-angle",
+        "cinematography",
+        "rarity-common"
+      ],
+      "facets": {
+        "angle": "over-shoulder-angle",
+        "treatment": "spatial-context"
+      },
+      "subcategory": "over-shoulder-angle",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-camera-angle-base-over-shoulder-angle-graphic-geometry",
+      "semantic_key": "cinematography-camera-angle-base-over-shoulder-angle-graphic-geometry",
+      "text": "over-shoulder angle carrying graphic geometry",
+      "sentence": "Over-shoulder angle carrying graphic geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "over-shoulder angle carrying graphic geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing over-shoulder angle carrying graphic geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with over-shoulder angle carrying graphic geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-camera-angle-base-over-shoulder-angle",
+      "tags": [
+        "base",
+        "camera-angle",
+        "cinematography",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "angle": "over-shoulder-angle",
+        "treatment": "graphic-geometry"
+      },
+      "subcategory": "over-shoulder-angle",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-camera-angle-base-over-shoulder-angle-dynamic-energy",
+      "semantic_key": "cinematography-camera-angle-base-over-shoulder-angle-dynamic-energy",
+      "text": "over-shoulder angle carrying dynamic energy",
+      "sentence": "Over-shoulder angle carrying dynamic energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "over-shoulder angle carrying dynamic energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing over-shoulder angle carrying dynamic energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with over-shoulder angle carrying dynamic energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-camera-angle-base-over-shoulder-angle",
+      "tags": [
+        "base",
+        "camera-angle",
+        "cinematography",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "angle": "over-shoulder-angle",
+        "treatment": "dynamic-energy"
+      },
+      "subcategory": "over-shoulder-angle",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-camera-angle-base-over-shoulder-angle-quiet-observation",
+      "semantic_key": "cinematography-camera-angle-base-over-shoulder-angle-quiet-observation",
+      "text": "over-shoulder angle carrying quiet observation",
+      "sentence": "Over-shoulder angle carrying quiet observation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "over-shoulder angle carrying quiet observation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing over-shoulder angle carrying quiet observation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with over-shoulder angle carrying quiet observation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-camera-angle-base-over-shoulder-angle",
+      "tags": [
+        "base",
+        "camera-angle",
+        "cinematography",
+        "rarity-rare"
+      ],
+      "facets": {
+        "angle": "over-shoulder-angle",
+        "treatment": "quiet-observation"
+      },
+      "subcategory": "over-shoulder-angle",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-camera-angle-base-over-shoulder-angle-editorial-polish",
+      "semantic_key": "cinematography-camera-angle-base-over-shoulder-angle-editorial-polish",
+      "text": "over-shoulder angle carrying editorial polish",
+      "sentence": "Over-shoulder angle carrying editorial polish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "over-shoulder angle carrying editorial polish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing over-shoulder angle carrying editorial polish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with over-shoulder angle carrying editorial polish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-camera-angle-base-over-shoulder-angle",
+      "tags": [
+        "base",
+        "camera-angle",
+        "cinematography",
+        "rarity-rare"
+      ],
+      "facets": {
+        "angle": "over-shoulder-angle",
+        "treatment": "editorial-polish"
+      },
+      "subcategory": "over-shoulder-angle",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-camera-angle-base-overhead-angle-documentary-restraint",
+      "semantic_key": "cinematography-camera-angle-base-overhead-angle-documentary-restraint",
+      "text": "overhead angle carrying documentary restraint",
+      "sentence": "Overhead angle carrying documentary restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "overhead angle carrying documentary restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing overhead angle carrying documentary restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with overhead angle carrying documentary restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-camera-angle-base-overhead-angle",
+      "tags": [
+        "base",
+        "camera-angle",
+        "cinematography",
+        "rarity-common"
+      ],
+      "facets": {
+        "angle": "overhead-angle",
+        "treatment": "documentary-restraint"
+      },
+      "subcategory": "overhead-angle",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-camera-angle-base-overhead-angle-formal-precision",
+      "semantic_key": "cinematography-camera-angle-base-overhead-angle-formal-precision",
+      "text": "overhead angle carrying formal precision",
+      "sentence": "Overhead angle carrying formal precision.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "overhead angle carrying formal precision",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing overhead angle carrying formal precision",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with overhead angle carrying formal precision",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-camera-angle-base-overhead-angle",
+      "tags": [
+        "base",
+        "camera-angle",
+        "cinematography",
+        "rarity-common"
+      ],
+      "facets": {
+        "angle": "overhead-angle",
+        "treatment": "formal-precision"
+      },
+      "subcategory": "overhead-angle",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-camera-angle-base-overhead-angle-intimate-emphasis",
+      "semantic_key": "cinematography-camera-angle-base-overhead-angle-intimate-emphasis",
+      "text": "overhead angle carrying intimate emphasis",
+      "sentence": "Overhead angle carrying intimate emphasis.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "overhead angle carrying intimate emphasis",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing overhead angle carrying intimate emphasis",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with overhead angle carrying intimate emphasis",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-camera-angle-base-overhead-angle",
+      "tags": [
+        "base",
+        "camera-angle",
+        "cinematography",
+        "rarity-common"
+      ],
+      "facets": {
+        "angle": "overhead-angle",
+        "treatment": "intimate-emphasis"
+      },
+      "subcategory": "overhead-angle",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-camera-angle-base-overhead-angle-spatial-context",
+      "semantic_key": "cinematography-camera-angle-base-overhead-angle-spatial-context",
+      "text": "overhead angle carrying spatial context",
+      "sentence": "Overhead angle carrying spatial context.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "overhead angle carrying spatial context",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing overhead angle carrying spatial context",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with overhead angle carrying spatial context",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-camera-angle-base-overhead-angle",
+      "tags": [
+        "base",
+        "camera-angle",
+        "cinematography",
+        "rarity-common"
+      ],
+      "facets": {
+        "angle": "overhead-angle",
+        "treatment": "spatial-context"
+      },
+      "subcategory": "overhead-angle",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-camera-angle-base-overhead-angle-graphic-geometry",
+      "semantic_key": "cinematography-camera-angle-base-overhead-angle-graphic-geometry",
+      "text": "overhead angle carrying graphic geometry",
+      "sentence": "Overhead angle carrying graphic geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "overhead angle carrying graphic geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing overhead angle carrying graphic geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with overhead angle carrying graphic geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-camera-angle-base-overhead-angle",
+      "tags": [
+        "base",
+        "camera-angle",
+        "cinematography",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "angle": "overhead-angle",
+        "treatment": "graphic-geometry"
+      },
+      "subcategory": "overhead-angle",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-camera-angle-base-overhead-angle-dynamic-energy",
+      "semantic_key": "cinematography-camera-angle-base-overhead-angle-dynamic-energy",
+      "text": "overhead angle carrying dynamic energy",
+      "sentence": "Overhead angle carrying dynamic energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "overhead angle carrying dynamic energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing overhead angle carrying dynamic energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with overhead angle carrying dynamic energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-camera-angle-base-overhead-angle",
+      "tags": [
+        "base",
+        "camera-angle",
+        "cinematography",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "angle": "overhead-angle",
+        "treatment": "dynamic-energy"
+      },
+      "subcategory": "overhead-angle",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-camera-angle-base-overhead-angle-quiet-observation",
+      "semantic_key": "cinematography-camera-angle-base-overhead-angle-quiet-observation",
+      "text": "overhead angle carrying quiet observation",
+      "sentence": "Overhead angle carrying quiet observation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "overhead angle carrying quiet observation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing overhead angle carrying quiet observation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with overhead angle carrying quiet observation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-camera-angle-base-overhead-angle",
+      "tags": [
+        "base",
+        "camera-angle",
+        "cinematography",
+        "rarity-rare"
+      ],
+      "facets": {
+        "angle": "overhead-angle",
+        "treatment": "quiet-observation"
+      },
+      "subcategory": "overhead-angle",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-camera-angle-base-overhead-angle-editorial-polish",
+      "semantic_key": "cinematography-camera-angle-base-overhead-angle-editorial-polish",
+      "text": "overhead angle carrying editorial polish",
+      "sentence": "Overhead angle carrying editorial polish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "overhead angle carrying editorial polish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing overhead angle carrying editorial polish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with overhead angle carrying editorial polish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-camera-angle-base-overhead-angle",
+      "tags": [
+        "base",
+        "camera-angle",
+        "cinematography",
+        "rarity-rare"
+      ],
+      "facets": {
+        "angle": "overhead-angle",
+        "treatment": "editorial-polish"
+      },
+      "subcategory": "overhead-angle",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    }
+  ]
+}

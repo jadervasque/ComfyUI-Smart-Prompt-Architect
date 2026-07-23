@@ -1,0 +1,2577 @@
+{
+  "schema_version": "2.0",
+  "id": "wardrobe-tops-base",
+  "version": "2.0.0",
+  "library": "tops",
+  "domain": "wardrobe",
+  "category": "tops",
+  "language": "en",
+  "status": "active",
+  "safety": "general",
+  "tags": [
+    "base"
+  ],
+  "fallback_option_id": "wardrobe-tops-base-button-front-shirt-precise-tailoring",
+  "options": [
+    {
+      "id": "wardrobe-tops-base-button-front-shirt-precise-tailoring",
+      "semantic_key": "wardrobe-tops-base-button-front-shirt-precise-tailoring",
+      "text": "a button-front shirt with precise tailoring",
+      "sentence": "A button-front shirt with precise tailoring.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a button-front shirt with precise tailoring",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a button-front shirt with precise tailoring",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a button-front shirt with precise tailoring",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-tops-base-button-front-shirt",
+      "tags": [
+        "base",
+        "rarity-common",
+        "tops",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "button-front-shirt",
+        "treatment": "precise-tailoring"
+      },
+      "subcategory": "button-front-shirt",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-tops-base-button-front-shirt-relaxed-drape",
+      "semantic_key": "wardrobe-tops-base-button-front-shirt-relaxed-drape",
+      "text": "a button-front shirt with relaxed drape",
+      "sentence": "A button-front shirt with relaxed drape.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a button-front shirt with relaxed drape",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a button-front shirt with relaxed drape",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a button-front shirt with relaxed drape",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-tops-base-button-front-shirt",
+      "tags": [
+        "base",
+        "rarity-common",
+        "tops",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "button-front-shirt",
+        "treatment": "relaxed-drape"
+      },
+      "subcategory": "button-front-shirt",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-tops-base-button-front-shirt-layered-construction",
+      "semantic_key": "wardrobe-tops-base-button-front-shirt-layered-construction",
+      "text": "a button-front shirt with layered construction",
+      "sentence": "A button-front shirt with layered construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a button-front shirt with layered construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a button-front shirt with layered construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a button-front shirt with layered construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-tops-base-button-front-shirt",
+      "tags": [
+        "base",
+        "rarity-common",
+        "tops",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "button-front-shirt",
+        "treatment": "layered-construction"
+      },
+      "subcategory": "button-front-shirt",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-tops-base-button-front-shirt-clean-seaming",
+      "semantic_key": "wardrobe-tops-base-button-front-shirt-clean-seaming",
+      "text": "a button-front shirt with clean seaming",
+      "sentence": "A button-front shirt with clean seaming.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a button-front shirt with clean seaming",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a button-front shirt with clean seaming",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a button-front shirt with clean seaming",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-tops-base-button-front-shirt",
+      "tags": [
+        "base",
+        "rarity-common",
+        "tops",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "button-front-shirt",
+        "treatment": "clean-seaming"
+      },
+      "subcategory": "button-front-shirt",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-tops-base-button-front-shirt-structured-volume",
+      "semantic_key": "wardrobe-tops-base-button-front-shirt-structured-volume",
+      "text": "a button-front shirt with structured volume",
+      "sentence": "A button-front shirt with structured volume.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a button-front shirt with structured volume",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a button-front shirt with structured volume",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a button-front shirt with structured volume",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-tops-base-button-front-shirt",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "tops",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "button-front-shirt",
+        "treatment": "structured-volume"
+      },
+      "subcategory": "button-front-shirt",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-tops-base-button-front-shirt-fluid-movement",
+      "semantic_key": "wardrobe-tops-base-button-front-shirt-fluid-movement",
+      "text": "a button-front shirt with fluid movement",
+      "sentence": "A button-front shirt with fluid movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a button-front shirt with fluid movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a button-front shirt with fluid movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a button-front shirt with fluid movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-tops-base-button-front-shirt",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "tops",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "button-front-shirt",
+        "treatment": "fluid-movement"
+      },
+      "subcategory": "button-front-shirt",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-tops-base-button-front-shirt-practical-detailing",
+      "semantic_key": "wardrobe-tops-base-button-front-shirt-practical-detailing",
+      "text": "a button-front shirt with practical detailing",
+      "sentence": "A button-front shirt with practical detailing.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a button-front shirt with practical detailing",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a button-front shirt with practical detailing",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a button-front shirt with practical detailing",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-tops-base-button-front-shirt",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "tops",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "button-front-shirt",
+        "treatment": "practical-detailing"
+      },
+      "subcategory": "button-front-shirt",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-tops-base-button-front-shirt-minimal-construction",
+      "semantic_key": "wardrobe-tops-base-button-front-shirt-minimal-construction",
+      "text": "a button-front shirt with minimal construction",
+      "sentence": "A button-front shirt with minimal construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a button-front shirt with minimal construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a button-front shirt with minimal construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a button-front shirt with minimal construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-tops-base-button-front-shirt",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "tops",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "button-front-shirt",
+        "treatment": "minimal-construction"
+      },
+      "subcategory": "button-front-shirt",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-tops-base-fine-knit-sweater-precise-tailoring",
+      "semantic_key": "wardrobe-tops-base-fine-knit-sweater-precise-tailoring",
+      "text": "a fine-knit sweater with precise tailoring",
+      "sentence": "A fine-knit sweater with precise tailoring.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a fine-knit sweater with precise tailoring",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a fine-knit sweater with precise tailoring",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a fine-knit sweater with precise tailoring",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-tops-base-fine-knit-sweater",
+      "tags": [
+        "base",
+        "rarity-common",
+        "tops",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "fine-knit-sweater",
+        "treatment": "precise-tailoring"
+      },
+      "subcategory": "fine-knit-sweater",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-tops-base-fine-knit-sweater-relaxed-drape",
+      "semantic_key": "wardrobe-tops-base-fine-knit-sweater-relaxed-drape",
+      "text": "a fine-knit sweater with relaxed drape",
+      "sentence": "A fine-knit sweater with relaxed drape.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a fine-knit sweater with relaxed drape",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a fine-knit sweater with relaxed drape",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a fine-knit sweater with relaxed drape",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-tops-base-fine-knit-sweater",
+      "tags": [
+        "base",
+        "rarity-common",
+        "tops",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "fine-knit-sweater",
+        "treatment": "relaxed-drape"
+      },
+      "subcategory": "fine-knit-sweater",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-tops-base-fine-knit-sweater-layered-construction",
+      "semantic_key": "wardrobe-tops-base-fine-knit-sweater-layered-construction",
+      "text": "a fine-knit sweater with layered construction",
+      "sentence": "A fine-knit sweater with layered construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a fine-knit sweater with layered construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a fine-knit sweater with layered construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a fine-knit sweater with layered construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-tops-base-fine-knit-sweater",
+      "tags": [
+        "base",
+        "rarity-common",
+        "tops",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "fine-knit-sweater",
+        "treatment": "layered-construction"
+      },
+      "subcategory": "fine-knit-sweater",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-tops-base-fine-knit-sweater-clean-seaming",
+      "semantic_key": "wardrobe-tops-base-fine-knit-sweater-clean-seaming",
+      "text": "a fine-knit sweater with clean seaming",
+      "sentence": "A fine-knit sweater with clean seaming.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a fine-knit sweater with clean seaming",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a fine-knit sweater with clean seaming",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a fine-knit sweater with clean seaming",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-tops-base-fine-knit-sweater",
+      "tags": [
+        "base",
+        "rarity-common",
+        "tops",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "fine-knit-sweater",
+        "treatment": "clean-seaming"
+      },
+      "subcategory": "fine-knit-sweater",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-tops-base-fine-knit-sweater-structured-volume",
+      "semantic_key": "wardrobe-tops-base-fine-knit-sweater-structured-volume",
+      "text": "a fine-knit sweater with structured volume",
+      "sentence": "A fine-knit sweater with structured volume.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a fine-knit sweater with structured volume",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a fine-knit sweater with structured volume",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a fine-knit sweater with structured volume",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-tops-base-fine-knit-sweater",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "tops",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "fine-knit-sweater",
+        "treatment": "structured-volume"
+      },
+      "subcategory": "fine-knit-sweater",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-tops-base-fine-knit-sweater-fluid-movement",
+      "semantic_key": "wardrobe-tops-base-fine-knit-sweater-fluid-movement",
+      "text": "a fine-knit sweater with fluid movement",
+      "sentence": "A fine-knit sweater with fluid movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a fine-knit sweater with fluid movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a fine-knit sweater with fluid movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a fine-knit sweater with fluid movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-tops-base-fine-knit-sweater",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "tops",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "fine-knit-sweater",
+        "treatment": "fluid-movement"
+      },
+      "subcategory": "fine-knit-sweater",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-tops-base-fine-knit-sweater-practical-detailing",
+      "semantic_key": "wardrobe-tops-base-fine-knit-sweater-practical-detailing",
+      "text": "a fine-knit sweater with practical detailing",
+      "sentence": "A fine-knit sweater with practical detailing.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a fine-knit sweater with practical detailing",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a fine-knit sweater with practical detailing",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a fine-knit sweater with practical detailing",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-tops-base-fine-knit-sweater",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "tops",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "fine-knit-sweater",
+        "treatment": "practical-detailing"
+      },
+      "subcategory": "fine-knit-sweater",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-tops-base-fine-knit-sweater-minimal-construction",
+      "semantic_key": "wardrobe-tops-base-fine-knit-sweater-minimal-construction",
+      "text": "a fine-knit sweater with minimal construction",
+      "sentence": "A fine-knit sweater with minimal construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a fine-knit sweater with minimal construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a fine-knit sweater with minimal construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a fine-knit sweater with minimal construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-tops-base-fine-knit-sweater",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "tops",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "fine-knit-sweater",
+        "treatment": "minimal-construction"
+      },
+      "subcategory": "fine-knit-sweater",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-tops-base-structured-blouse-precise-tailoring",
+      "semantic_key": "wardrobe-tops-base-structured-blouse-precise-tailoring",
+      "text": "a structured blouse with precise tailoring",
+      "sentence": "A structured blouse with precise tailoring.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a structured blouse with precise tailoring",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a structured blouse with precise tailoring",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a structured blouse with precise tailoring",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-tops-base-structured-blouse",
+      "tags": [
+        "base",
+        "rarity-common",
+        "tops",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "structured-blouse",
+        "treatment": "precise-tailoring"
+      },
+      "subcategory": "structured-blouse",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-tops-base-structured-blouse-relaxed-drape",
+      "semantic_key": "wardrobe-tops-base-structured-blouse-relaxed-drape",
+      "text": "a structured blouse with relaxed drape",
+      "sentence": "A structured blouse with relaxed drape.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a structured blouse with relaxed drape",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a structured blouse with relaxed drape",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a structured blouse with relaxed drape",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-tops-base-structured-blouse",
+      "tags": [
+        "base",
+        "rarity-common",
+        "tops",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "structured-blouse",
+        "treatment": "relaxed-drape"
+      },
+      "subcategory": "structured-blouse",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-tops-base-structured-blouse-layered-construction",
+      "semantic_key": "wardrobe-tops-base-structured-blouse-layered-construction",
+      "text": "a structured blouse with layered construction",
+      "sentence": "A structured blouse with layered construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a structured blouse with layered construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a structured blouse with layered construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a structured blouse with layered construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-tops-base-structured-blouse",
+      "tags": [
+        "base",
+        "rarity-common",
+        "tops",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "structured-blouse",
+        "treatment": "layered-construction"
+      },
+      "subcategory": "structured-blouse",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-tops-base-structured-blouse-clean-seaming",
+      "semantic_key": "wardrobe-tops-base-structured-blouse-clean-seaming",
+      "text": "a structured blouse with clean seaming",
+      "sentence": "A structured blouse with clean seaming.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a structured blouse with clean seaming",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a structured blouse with clean seaming",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a structured blouse with clean seaming",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-tops-base-structured-blouse",
+      "tags": [
+        "base",
+        "rarity-common",
+        "tops",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "structured-blouse",
+        "treatment": "clean-seaming"
+      },
+      "subcategory": "structured-blouse",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-tops-base-structured-blouse-structured-volume",
+      "semantic_key": "wardrobe-tops-base-structured-blouse-structured-volume",
+      "text": "a structured blouse with structured volume",
+      "sentence": "A structured blouse with structured volume.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a structured blouse with structured volume",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a structured blouse with structured volume",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a structured blouse with structured volume",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-tops-base-structured-blouse",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "tops",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "structured-blouse",
+        "treatment": "structured-volume"
+      },
+      "subcategory": "structured-blouse",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-tops-base-structured-blouse-fluid-movement",
+      "semantic_key": "wardrobe-tops-base-structured-blouse-fluid-movement",
+      "text": "a structured blouse with fluid movement",
+      "sentence": "A structured blouse with fluid movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a structured blouse with fluid movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a structured blouse with fluid movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a structured blouse with fluid movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-tops-base-structured-blouse",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "tops",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "structured-blouse",
+        "treatment": "fluid-movement"
+      },
+      "subcategory": "structured-blouse",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-tops-base-structured-blouse-practical-detailing",
+      "semantic_key": "wardrobe-tops-base-structured-blouse-practical-detailing",
+      "text": "a structured blouse with practical detailing",
+      "sentence": "A structured blouse with practical detailing.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a structured blouse with practical detailing",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a structured blouse with practical detailing",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a structured blouse with practical detailing",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-tops-base-structured-blouse",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "tops",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "structured-blouse",
+        "treatment": "practical-detailing"
+      },
+      "subcategory": "structured-blouse",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-tops-base-structured-blouse-minimal-construction",
+      "semantic_key": "wardrobe-tops-base-structured-blouse-minimal-construction",
+      "text": "a structured blouse with minimal construction",
+      "sentence": "A structured blouse with minimal construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a structured blouse with minimal construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a structured blouse with minimal construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a structured blouse with minimal construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-tops-base-structured-blouse",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "tops",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "structured-blouse",
+        "treatment": "minimal-construction"
+      },
+      "subcategory": "structured-blouse",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-tops-base-relaxed-t-shirt-precise-tailoring",
+      "semantic_key": "wardrobe-tops-base-relaxed-t-shirt-precise-tailoring",
+      "text": "a relaxed t-shirt with precise tailoring",
+      "sentence": "A relaxed t-shirt with precise tailoring.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a relaxed t-shirt with precise tailoring",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a relaxed t-shirt with precise tailoring",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a relaxed t-shirt with precise tailoring",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-tops-base-relaxed-t-shirt",
+      "tags": [
+        "base",
+        "rarity-common",
+        "tops",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "relaxed-t-shirt",
+        "treatment": "precise-tailoring"
+      },
+      "subcategory": "relaxed-t-shirt",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-tops-base-relaxed-t-shirt-relaxed-drape",
+      "semantic_key": "wardrobe-tops-base-relaxed-t-shirt-relaxed-drape",
+      "text": "a relaxed t-shirt with relaxed drape",
+      "sentence": "A relaxed t-shirt with relaxed drape.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a relaxed t-shirt with relaxed drape",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a relaxed t-shirt with relaxed drape",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a relaxed t-shirt with relaxed drape",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-tops-base-relaxed-t-shirt",
+      "tags": [
+        "base",
+        "rarity-common",
+        "tops",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "relaxed-t-shirt",
+        "treatment": "relaxed-drape"
+      },
+      "subcategory": "relaxed-t-shirt",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-tops-base-relaxed-t-shirt-layered-construction",
+      "semantic_key": "wardrobe-tops-base-relaxed-t-shirt-layered-construction",
+      "text": "a relaxed t-shirt with layered construction",
+      "sentence": "A relaxed t-shirt with layered construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a relaxed t-shirt with layered construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a relaxed t-shirt with layered construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a relaxed t-shirt with layered construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-tops-base-relaxed-t-shirt",
+      "tags": [
+        "base",
+        "rarity-common",
+        "tops",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "relaxed-t-shirt",
+        "treatment": "layered-construction"
+      },
+      "subcategory": "relaxed-t-shirt",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-tops-base-relaxed-t-shirt-clean-seaming",
+      "semantic_key": "wardrobe-tops-base-relaxed-t-shirt-clean-seaming",
+      "text": "a relaxed t-shirt with clean seaming",
+      "sentence": "A relaxed t-shirt with clean seaming.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a relaxed t-shirt with clean seaming",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a relaxed t-shirt with clean seaming",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a relaxed t-shirt with clean seaming",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-tops-base-relaxed-t-shirt",
+      "tags": [
+        "base",
+        "rarity-common",
+        "tops",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "relaxed-t-shirt",
+        "treatment": "clean-seaming"
+      },
+      "subcategory": "relaxed-t-shirt",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-tops-base-relaxed-t-shirt-structured-volume",
+      "semantic_key": "wardrobe-tops-base-relaxed-t-shirt-structured-volume",
+      "text": "a relaxed t-shirt with structured volume",
+      "sentence": "A relaxed t-shirt with structured volume.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a relaxed t-shirt with structured volume",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a relaxed t-shirt with structured volume",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a relaxed t-shirt with structured volume",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-tops-base-relaxed-t-shirt",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "tops",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "relaxed-t-shirt",
+        "treatment": "structured-volume"
+      },
+      "subcategory": "relaxed-t-shirt",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-tops-base-relaxed-t-shirt-fluid-movement",
+      "semantic_key": "wardrobe-tops-base-relaxed-t-shirt-fluid-movement",
+      "text": "a relaxed t-shirt with fluid movement",
+      "sentence": "A relaxed t-shirt with fluid movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a relaxed t-shirt with fluid movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a relaxed t-shirt with fluid movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a relaxed t-shirt with fluid movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-tops-base-relaxed-t-shirt",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "tops",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "relaxed-t-shirt",
+        "treatment": "fluid-movement"
+      },
+      "subcategory": "relaxed-t-shirt",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-tops-base-relaxed-t-shirt-practical-detailing",
+      "semantic_key": "wardrobe-tops-base-relaxed-t-shirt-practical-detailing",
+      "text": "a relaxed t-shirt with practical detailing",
+      "sentence": "A relaxed t-shirt with practical detailing.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a relaxed t-shirt with practical detailing",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a relaxed t-shirt with practical detailing",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a relaxed t-shirt with practical detailing",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-tops-base-relaxed-t-shirt",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "tops",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "relaxed-t-shirt",
+        "treatment": "practical-detailing"
+      },
+      "subcategory": "relaxed-t-shirt",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-tops-base-relaxed-t-shirt-minimal-construction",
+      "semantic_key": "wardrobe-tops-base-relaxed-t-shirt-minimal-construction",
+      "text": "a relaxed t-shirt with minimal construction",
+      "sentence": "A relaxed t-shirt with minimal construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a relaxed t-shirt with minimal construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a relaxed t-shirt with minimal construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a relaxed t-shirt with minimal construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-tops-base-relaxed-t-shirt",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "tops",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "relaxed-t-shirt",
+        "treatment": "minimal-construction"
+      },
+      "subcategory": "relaxed-t-shirt",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-tops-base-high-neck-top-precise-tailoring",
+      "semantic_key": "wardrobe-tops-base-high-neck-top-precise-tailoring",
+      "text": "a high-neck top with precise tailoring",
+      "sentence": "A high-neck top with precise tailoring.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a high-neck top with precise tailoring",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a high-neck top with precise tailoring",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a high-neck top with precise tailoring",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-tops-base-high-neck-top",
+      "tags": [
+        "base",
+        "rarity-common",
+        "tops",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "high-neck-top",
+        "treatment": "precise-tailoring"
+      },
+      "subcategory": "high-neck-top",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-tops-base-high-neck-top-relaxed-drape",
+      "semantic_key": "wardrobe-tops-base-high-neck-top-relaxed-drape",
+      "text": "a high-neck top with relaxed drape",
+      "sentence": "A high-neck top with relaxed drape.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a high-neck top with relaxed drape",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a high-neck top with relaxed drape",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a high-neck top with relaxed drape",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-tops-base-high-neck-top",
+      "tags": [
+        "base",
+        "rarity-common",
+        "tops",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "high-neck-top",
+        "treatment": "relaxed-drape"
+      },
+      "subcategory": "high-neck-top",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-tops-base-high-neck-top-layered-construction",
+      "semantic_key": "wardrobe-tops-base-high-neck-top-layered-construction",
+      "text": "a high-neck top with layered construction",
+      "sentence": "A high-neck top with layered construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a high-neck top with layered construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a high-neck top with layered construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a high-neck top with layered construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-tops-base-high-neck-top",
+      "tags": [
+        "base",
+        "rarity-common",
+        "tops",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "high-neck-top",
+        "treatment": "layered-construction"
+      },
+      "subcategory": "high-neck-top",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-tops-base-high-neck-top-clean-seaming",
+      "semantic_key": "wardrobe-tops-base-high-neck-top-clean-seaming",
+      "text": "a high-neck top with clean seaming",
+      "sentence": "A high-neck top with clean seaming.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a high-neck top with clean seaming",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a high-neck top with clean seaming",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a high-neck top with clean seaming",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-tops-base-high-neck-top",
+      "tags": [
+        "base",
+        "rarity-common",
+        "tops",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "high-neck-top",
+        "treatment": "clean-seaming"
+      },
+      "subcategory": "high-neck-top",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-tops-base-high-neck-top-structured-volume",
+      "semantic_key": "wardrobe-tops-base-high-neck-top-structured-volume",
+      "text": "a high-neck top with structured volume",
+      "sentence": "A high-neck top with structured volume.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a high-neck top with structured volume",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a high-neck top with structured volume",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a high-neck top with structured volume",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-tops-base-high-neck-top",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "tops",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "high-neck-top",
+        "treatment": "structured-volume"
+      },
+      "subcategory": "high-neck-top",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-tops-base-high-neck-top-fluid-movement",
+      "semantic_key": "wardrobe-tops-base-high-neck-top-fluid-movement",
+      "text": "a high-neck top with fluid movement",
+      "sentence": "A high-neck top with fluid movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a high-neck top with fluid movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a high-neck top with fluid movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a high-neck top with fluid movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-tops-base-high-neck-top",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "tops",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "high-neck-top",
+        "treatment": "fluid-movement"
+      },
+      "subcategory": "high-neck-top",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-tops-base-high-neck-top-practical-detailing",
+      "semantic_key": "wardrobe-tops-base-high-neck-top-practical-detailing",
+      "text": "a high-neck top with practical detailing",
+      "sentence": "A high-neck top with practical detailing.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a high-neck top with practical detailing",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a high-neck top with practical detailing",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a high-neck top with practical detailing",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-tops-base-high-neck-top",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "tops",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "high-neck-top",
+        "treatment": "practical-detailing"
+      },
+      "subcategory": "high-neck-top",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-tops-base-high-neck-top-minimal-construction",
+      "semantic_key": "wardrobe-tops-base-high-neck-top-minimal-construction",
+      "text": "a high-neck top with minimal construction",
+      "sentence": "A high-neck top with minimal construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a high-neck top with minimal construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a high-neck top with minimal construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a high-neck top with minimal construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-tops-base-high-neck-top",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "tops",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "high-neck-top",
+        "treatment": "minimal-construction"
+      },
+      "subcategory": "high-neck-top",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-tops-base-wrap-top-precise-tailoring",
+      "semantic_key": "wardrobe-tops-base-wrap-top-precise-tailoring",
+      "text": "a wrap top with precise tailoring",
+      "sentence": "A wrap top with precise tailoring.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a wrap top with precise tailoring",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a wrap top with precise tailoring",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a wrap top with precise tailoring",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-tops-base-wrap-top",
+      "tags": [
+        "base",
+        "rarity-common",
+        "tops",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "wrap-top",
+        "treatment": "precise-tailoring"
+      },
+      "subcategory": "wrap-top",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-tops-base-wrap-top-relaxed-drape",
+      "semantic_key": "wardrobe-tops-base-wrap-top-relaxed-drape",
+      "text": "a wrap top with relaxed drape",
+      "sentence": "A wrap top with relaxed drape.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a wrap top with relaxed drape",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a wrap top with relaxed drape",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a wrap top with relaxed drape",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-tops-base-wrap-top",
+      "tags": [
+        "base",
+        "rarity-common",
+        "tops",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "wrap-top",
+        "treatment": "relaxed-drape"
+      },
+      "subcategory": "wrap-top",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-tops-base-wrap-top-layered-construction",
+      "semantic_key": "wardrobe-tops-base-wrap-top-layered-construction",
+      "text": "a wrap top with layered construction",
+      "sentence": "A wrap top with layered construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a wrap top with layered construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a wrap top with layered construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a wrap top with layered construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-tops-base-wrap-top",
+      "tags": [
+        "base",
+        "rarity-common",
+        "tops",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "wrap-top",
+        "treatment": "layered-construction"
+      },
+      "subcategory": "wrap-top",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-tops-base-wrap-top-clean-seaming",
+      "semantic_key": "wardrobe-tops-base-wrap-top-clean-seaming",
+      "text": "a wrap top with clean seaming",
+      "sentence": "A wrap top with clean seaming.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a wrap top with clean seaming",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a wrap top with clean seaming",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a wrap top with clean seaming",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-tops-base-wrap-top",
+      "tags": [
+        "base",
+        "rarity-common",
+        "tops",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "wrap-top",
+        "treatment": "clean-seaming"
+      },
+      "subcategory": "wrap-top",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-tops-base-wrap-top-structured-volume",
+      "semantic_key": "wardrobe-tops-base-wrap-top-structured-volume",
+      "text": "a wrap top with structured volume",
+      "sentence": "A wrap top with structured volume.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a wrap top with structured volume",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a wrap top with structured volume",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a wrap top with structured volume",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-tops-base-wrap-top",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "tops",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "wrap-top",
+        "treatment": "structured-volume"
+      },
+      "subcategory": "wrap-top",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-tops-base-wrap-top-fluid-movement",
+      "semantic_key": "wardrobe-tops-base-wrap-top-fluid-movement",
+      "text": "a wrap top with fluid movement",
+      "sentence": "A wrap top with fluid movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a wrap top with fluid movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a wrap top with fluid movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a wrap top with fluid movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-tops-base-wrap-top",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "tops",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "wrap-top",
+        "treatment": "fluid-movement"
+      },
+      "subcategory": "wrap-top",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-tops-base-wrap-top-practical-detailing",
+      "semantic_key": "wardrobe-tops-base-wrap-top-practical-detailing",
+      "text": "a wrap top with practical detailing",
+      "sentence": "A wrap top with practical detailing.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a wrap top with practical detailing",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a wrap top with practical detailing",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a wrap top with practical detailing",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-tops-base-wrap-top",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "tops",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "wrap-top",
+        "treatment": "practical-detailing"
+      },
+      "subcategory": "wrap-top",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-tops-base-wrap-top-minimal-construction",
+      "semantic_key": "wardrobe-tops-base-wrap-top-minimal-construction",
+      "text": "a wrap top with minimal construction",
+      "sentence": "A wrap top with minimal construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a wrap top with minimal construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a wrap top with minimal construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a wrap top with minimal construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-tops-base-wrap-top",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "tops",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "wrap-top",
+        "treatment": "minimal-construction"
+      },
+      "subcategory": "wrap-top",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-tops-base-tunic-precise-tailoring",
+      "semantic_key": "wardrobe-tops-base-tunic-precise-tailoring",
+      "text": "a tunic with precise tailoring",
+      "sentence": "A tunic with precise tailoring.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a tunic with precise tailoring",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a tunic with precise tailoring",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a tunic with precise tailoring",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-tops-base-tunic",
+      "tags": [
+        "base",
+        "rarity-common",
+        "tops",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "tunic",
+        "treatment": "precise-tailoring"
+      },
+      "subcategory": "tunic",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-tops-base-tunic-relaxed-drape",
+      "semantic_key": "wardrobe-tops-base-tunic-relaxed-drape",
+      "text": "a tunic with relaxed drape",
+      "sentence": "A tunic with relaxed drape.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a tunic with relaxed drape",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a tunic with relaxed drape",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a tunic with relaxed drape",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-tops-base-tunic",
+      "tags": [
+        "base",
+        "rarity-common",
+        "tops",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "tunic",
+        "treatment": "relaxed-drape"
+      },
+      "subcategory": "tunic",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-tops-base-tunic-layered-construction",
+      "semantic_key": "wardrobe-tops-base-tunic-layered-construction",
+      "text": "a tunic with layered construction",
+      "sentence": "A tunic with layered construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a tunic with layered construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a tunic with layered construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a tunic with layered construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-tops-base-tunic",
+      "tags": [
+        "base",
+        "rarity-common",
+        "tops",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "tunic",
+        "treatment": "layered-construction"
+      },
+      "subcategory": "tunic",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-tops-base-tunic-clean-seaming",
+      "semantic_key": "wardrobe-tops-base-tunic-clean-seaming",
+      "text": "a tunic with clean seaming",
+      "sentence": "A tunic with clean seaming.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a tunic with clean seaming",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a tunic with clean seaming",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a tunic with clean seaming",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-tops-base-tunic",
+      "tags": [
+        "base",
+        "rarity-common",
+        "tops",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "tunic",
+        "treatment": "clean-seaming"
+      },
+      "subcategory": "tunic",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-tops-base-tunic-structured-volume",
+      "semantic_key": "wardrobe-tops-base-tunic-structured-volume",
+      "text": "a tunic with structured volume",
+      "sentence": "A tunic with structured volume.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a tunic with structured volume",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a tunic with structured volume",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a tunic with structured volume",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-tops-base-tunic",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "tops",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "tunic",
+        "treatment": "structured-volume"
+      },
+      "subcategory": "tunic",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-tops-base-tunic-fluid-movement",
+      "semantic_key": "wardrobe-tops-base-tunic-fluid-movement",
+      "text": "a tunic with fluid movement",
+      "sentence": "A tunic with fluid movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a tunic with fluid movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a tunic with fluid movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a tunic with fluid movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-tops-base-tunic",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "tops",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "tunic",
+        "treatment": "fluid-movement"
+      },
+      "subcategory": "tunic",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-tops-base-tunic-practical-detailing",
+      "semantic_key": "wardrobe-tops-base-tunic-practical-detailing",
+      "text": "a tunic with practical detailing",
+      "sentence": "A tunic with practical detailing.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a tunic with practical detailing",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a tunic with practical detailing",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a tunic with practical detailing",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-tops-base-tunic",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "tops",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "tunic",
+        "treatment": "practical-detailing"
+      },
+      "subcategory": "tunic",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-tops-base-tunic-minimal-construction",
+      "semantic_key": "wardrobe-tops-base-tunic-minimal-construction",
+      "text": "a tunic with minimal construction",
+      "sentence": "A tunic with minimal construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a tunic with minimal construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a tunic with minimal construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a tunic with minimal construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-tops-base-tunic",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "tops",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "tunic",
+        "treatment": "minimal-construction"
+      },
+      "subcategory": "tunic",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-tops-base-sleeveless-shell-precise-tailoring",
+      "semantic_key": "wardrobe-tops-base-sleeveless-shell-precise-tailoring",
+      "text": "a sleeveless shell with precise tailoring",
+      "sentence": "A sleeveless shell with precise tailoring.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a sleeveless shell with precise tailoring",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a sleeveless shell with precise tailoring",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a sleeveless shell with precise tailoring",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-tops-base-sleeveless-shell",
+      "tags": [
+        "base",
+        "rarity-common",
+        "tops",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "sleeveless-shell",
+        "treatment": "precise-tailoring"
+      },
+      "subcategory": "sleeveless-shell",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-tops-base-sleeveless-shell-relaxed-drape",
+      "semantic_key": "wardrobe-tops-base-sleeveless-shell-relaxed-drape",
+      "text": "a sleeveless shell with relaxed drape",
+      "sentence": "A sleeveless shell with relaxed drape.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a sleeveless shell with relaxed drape",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a sleeveless shell with relaxed drape",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a sleeveless shell with relaxed drape",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-tops-base-sleeveless-shell",
+      "tags": [
+        "base",
+        "rarity-common",
+        "tops",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "sleeveless-shell",
+        "treatment": "relaxed-drape"
+      },
+      "subcategory": "sleeveless-shell",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-tops-base-sleeveless-shell-layered-construction",
+      "semantic_key": "wardrobe-tops-base-sleeveless-shell-layered-construction",
+      "text": "a sleeveless shell with layered construction",
+      "sentence": "A sleeveless shell with layered construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a sleeveless shell with layered construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a sleeveless shell with layered construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a sleeveless shell with layered construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-tops-base-sleeveless-shell",
+      "tags": [
+        "base",
+        "rarity-common",
+        "tops",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "sleeveless-shell",
+        "treatment": "layered-construction"
+      },
+      "subcategory": "sleeveless-shell",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-tops-base-sleeveless-shell-clean-seaming",
+      "semantic_key": "wardrobe-tops-base-sleeveless-shell-clean-seaming",
+      "text": "a sleeveless shell with clean seaming",
+      "sentence": "A sleeveless shell with clean seaming.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a sleeveless shell with clean seaming",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a sleeveless shell with clean seaming",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a sleeveless shell with clean seaming",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-tops-base-sleeveless-shell",
+      "tags": [
+        "base",
+        "rarity-common",
+        "tops",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "sleeveless-shell",
+        "treatment": "clean-seaming"
+      },
+      "subcategory": "sleeveless-shell",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-tops-base-sleeveless-shell-structured-volume",
+      "semantic_key": "wardrobe-tops-base-sleeveless-shell-structured-volume",
+      "text": "a sleeveless shell with structured volume",
+      "sentence": "A sleeveless shell with structured volume.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a sleeveless shell with structured volume",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a sleeveless shell with structured volume",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a sleeveless shell with structured volume",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-tops-base-sleeveless-shell",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "tops",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "sleeveless-shell",
+        "treatment": "structured-volume"
+      },
+      "subcategory": "sleeveless-shell",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-tops-base-sleeveless-shell-fluid-movement",
+      "semantic_key": "wardrobe-tops-base-sleeveless-shell-fluid-movement",
+      "text": "a sleeveless shell with fluid movement",
+      "sentence": "A sleeveless shell with fluid movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a sleeveless shell with fluid movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a sleeveless shell with fluid movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a sleeveless shell with fluid movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-tops-base-sleeveless-shell",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "tops",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "sleeveless-shell",
+        "treatment": "fluid-movement"
+      },
+      "subcategory": "sleeveless-shell",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-tops-base-sleeveless-shell-practical-detailing",
+      "semantic_key": "wardrobe-tops-base-sleeveless-shell-practical-detailing",
+      "text": "a sleeveless shell with practical detailing",
+      "sentence": "A sleeveless shell with practical detailing.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a sleeveless shell with practical detailing",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a sleeveless shell with practical detailing",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a sleeveless shell with practical detailing",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-tops-base-sleeveless-shell",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "tops",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "sleeveless-shell",
+        "treatment": "practical-detailing"
+      },
+      "subcategory": "sleeveless-shell",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-tops-base-sleeveless-shell-minimal-construction",
+      "semantic_key": "wardrobe-tops-base-sleeveless-shell-minimal-construction",
+      "text": "a sleeveless shell with minimal construction",
+      "sentence": "A sleeveless shell with minimal construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a sleeveless shell with minimal construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a sleeveless shell with minimal construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a sleeveless shell with minimal construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-tops-base-sleeveless-shell",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "tops",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "sleeveless-shell",
+        "treatment": "minimal-construction"
+      },
+      "subcategory": "sleeveless-shell",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    }
+  ]
+}

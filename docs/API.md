@@ -22,9 +22,9 @@ Example:
 ```json
 {
   "configuration": {
-    "schema_version": "1.0",
-    "profile_id": "portrait",
-    "profile_version": "1.0.0",
+    "schema_version": "1.1",
+    "profile_id": "portrait-core",
+    "profile_version": "2.0.0",
     "mode": "balanced",
     "master_seed": 7,
     "groups": {"identity": {"locked": true, "seed": 123}},

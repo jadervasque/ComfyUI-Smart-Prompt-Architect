@@ -1,0 +1,2642 @@
+{
+  "schema_version": "2.0",
+  "id": "scene-location-urban",
+  "version": "2.0.0",
+  "library": "location",
+  "domain": "scene",
+  "category": "location",
+  "language": "en",
+  "status": "active",
+  "safety": "general",
+  "tags": [
+    "outdoor",
+    "urban"
+  ],
+  "fallback_option_id": "scene-location-urban-quiet-city-street-open-spatial-layout",
+  "options": [
+    {
+      "id": "scene-location-urban-quiet-city-street-open-spatial-layout",
+      "semantic_key": "scene-location-urban-quiet-city-street-open-spatial-layout",
+      "text": "a quiet city street with open spatial layout",
+      "sentence": "A quiet city street with open spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a quiet city street with open spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a quiet city street with open spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a quiet city street with open spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-urban-quiet-city-street",
+      "tags": [
+        "location",
+        "outdoor",
+        "rarity-common",
+        "scene",
+        "urban"
+      ],
+      "facets": {
+        "setting": "quiet-city-street",
+        "treatment": "open-spatial-layout"
+      },
+      "subcategory": "quiet-city-street",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-urban-quiet-city-street-intimate-spatial-layout",
+      "semantic_key": "scene-location-urban-quiet-city-street-intimate-spatial-layout",
+      "text": "a quiet city street with intimate spatial layout",
+      "sentence": "A quiet city street with intimate spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a quiet city street with intimate spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a quiet city street with intimate spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a quiet city street with intimate spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-urban-quiet-city-street",
+      "tags": [
+        "location",
+        "outdoor",
+        "rarity-common",
+        "scene",
+        "urban"
+      ],
+      "facets": {
+        "setting": "quiet-city-street",
+        "treatment": "intimate-spatial-layout"
+      },
+      "subcategory": "quiet-city-street",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-urban-quiet-city-street-layered-depth",
+      "semantic_key": "scene-location-urban-quiet-city-street-layered-depth",
+      "text": "a quiet city street with layered depth",
+      "sentence": "A quiet city street with layered depth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a quiet city street with layered depth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a quiet city street with layered depth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a quiet city street with layered depth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-urban-quiet-city-street",
+      "tags": [
+        "location",
+        "outdoor",
+        "rarity-common",
+        "scene",
+        "urban"
+      ],
+      "facets": {
+        "setting": "quiet-city-street",
+        "treatment": "layered-depth"
+      },
+      "subcategory": "quiet-city-street",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-urban-quiet-city-street-clear-sightlines",
+      "semantic_key": "scene-location-urban-quiet-city-street-clear-sightlines",
+      "text": "a quiet city street with clear sightlines",
+      "sentence": "A quiet city street with clear sightlines.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a quiet city street with clear sightlines",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a quiet city street with clear sightlines",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a quiet city street with clear sightlines",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-urban-quiet-city-street",
+      "tags": [
+        "location",
+        "outdoor",
+        "rarity-common",
+        "scene",
+        "urban"
+      ],
+      "facets": {
+        "setting": "quiet-city-street",
+        "treatment": "clear-sightlines"
+      },
+      "subcategory": "quiet-city-street",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-urban-quiet-city-street-enclosed-geometry",
+      "semantic_key": "scene-location-urban-quiet-city-street-enclosed-geometry",
+      "text": "a quiet city street with enclosed geometry",
+      "sentence": "A quiet city street with enclosed geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a quiet city street with enclosed geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a quiet city street with enclosed geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a quiet city street with enclosed geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-urban-quiet-city-street",
+      "tags": [
+        "location",
+        "outdoor",
+        "rarity-uncommon",
+        "scene",
+        "urban"
+      ],
+      "facets": {
+        "setting": "quiet-city-street",
+        "treatment": "enclosed-geometry"
+      },
+      "subcategory": "quiet-city-street",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-urban-quiet-city-street-expansive-geometry",
+      "semantic_key": "scene-location-urban-quiet-city-street-expansive-geometry",
+      "text": "a quiet city street with expansive geometry",
+      "sentence": "A quiet city street with expansive geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a quiet city street with expansive geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a quiet city street with expansive geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a quiet city street with expansive geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-urban-quiet-city-street",
+      "tags": [
+        "location",
+        "outdoor",
+        "rarity-uncommon",
+        "scene",
+        "urban"
+      ],
+      "facets": {
+        "setting": "quiet-city-street",
+        "treatment": "expansive-geometry"
+      },
+      "subcategory": "quiet-city-street",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-urban-quiet-city-street-asymmetric-layout",
+      "semantic_key": "scene-location-urban-quiet-city-street-asymmetric-layout",
+      "text": "a quiet city street with asymmetric layout",
+      "sentence": "A quiet city street with asymmetric layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a quiet city street with asymmetric layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a quiet city street with asymmetric layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a quiet city street with asymmetric layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-urban-quiet-city-street",
+      "tags": [
+        "location",
+        "outdoor",
+        "rarity-rare",
+        "scene",
+        "urban"
+      ],
+      "facets": {
+        "setting": "quiet-city-street",
+        "treatment": "asymmetric-layout"
+      },
+      "subcategory": "quiet-city-street",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-urban-quiet-city-street-central-organization",
+      "semantic_key": "scene-location-urban-quiet-city-street-central-organization",
+      "text": "a quiet city street with central organization",
+      "sentence": "A quiet city street with central organization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a quiet city street with central organization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a quiet city street with central organization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a quiet city street with central organization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-urban-quiet-city-street",
+      "tags": [
+        "location",
+        "outdoor",
+        "rarity-rare",
+        "scene",
+        "urban"
+      ],
+      "facets": {
+        "setting": "quiet-city-street",
+        "treatment": "central-organization"
+      },
+      "subcategory": "quiet-city-street",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-urban-busy-pedestrian-crossing-open-spatial-layout",
+      "semantic_key": "scene-location-urban-busy-pedestrian-crossing-open-spatial-layout",
+      "text": "a busy pedestrian crossing with open spatial layout",
+      "sentence": "A busy pedestrian crossing with open spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a busy pedestrian crossing with open spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a busy pedestrian crossing with open spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a busy pedestrian crossing with open spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-urban-busy-pedestrian-crossing",
+      "tags": [
+        "location",
+        "outdoor",
+        "rarity-common",
+        "scene",
+        "urban"
+      ],
+      "facets": {
+        "setting": "busy-pedestrian-crossing",
+        "treatment": "open-spatial-layout"
+      },
+      "subcategory": "busy-pedestrian-crossing",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-urban-busy-pedestrian-crossing-intimate-spatial-layout",
+      "semantic_key": "scene-location-urban-busy-pedestrian-crossing-intimate-spatial-layout",
+      "text": "a busy pedestrian crossing with intimate spatial layout",
+      "sentence": "A busy pedestrian crossing with intimate spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a busy pedestrian crossing with intimate spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a busy pedestrian crossing with intimate spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a busy pedestrian crossing with intimate spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-urban-busy-pedestrian-crossing",
+      "tags": [
+        "location",
+        "outdoor",
+        "rarity-common",
+        "scene",
+        "urban"
+      ],
+      "facets": {
+        "setting": "busy-pedestrian-crossing",
+        "treatment": "intimate-spatial-layout"
+      },
+      "subcategory": "busy-pedestrian-crossing",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-urban-busy-pedestrian-crossing-layered-depth",
+      "semantic_key": "scene-location-urban-busy-pedestrian-crossing-layered-depth",
+      "text": "a busy pedestrian crossing with layered depth",
+      "sentence": "A busy pedestrian crossing with layered depth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a busy pedestrian crossing with layered depth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a busy pedestrian crossing with layered depth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a busy pedestrian crossing with layered depth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-urban-busy-pedestrian-crossing",
+      "tags": [
+        "location",
+        "outdoor",
+        "rarity-common",
+        "scene",
+        "urban"
+      ],
+      "facets": {
+        "setting": "busy-pedestrian-crossing",
+        "treatment": "layered-depth"
+      },
+      "subcategory": "busy-pedestrian-crossing",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-urban-busy-pedestrian-crossing-clear-sightlines",
+      "semantic_key": "scene-location-urban-busy-pedestrian-crossing-clear-sightlines",
+      "text": "a busy pedestrian crossing with clear sightlines",
+      "sentence": "A busy pedestrian crossing with clear sightlines.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a busy pedestrian crossing with clear sightlines",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a busy pedestrian crossing with clear sightlines",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a busy pedestrian crossing with clear sightlines",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-urban-busy-pedestrian-crossing",
+      "tags": [
+        "location",
+        "outdoor",
+        "rarity-common",
+        "scene",
+        "urban"
+      ],
+      "facets": {
+        "setting": "busy-pedestrian-crossing",
+        "treatment": "clear-sightlines"
+      },
+      "subcategory": "busy-pedestrian-crossing",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-urban-busy-pedestrian-crossing-enclosed-geometry",
+      "semantic_key": "scene-location-urban-busy-pedestrian-crossing-enclosed-geometry",
+      "text": "a busy pedestrian crossing with enclosed geometry",
+      "sentence": "A busy pedestrian crossing with enclosed geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a busy pedestrian crossing with enclosed geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a busy pedestrian crossing with enclosed geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a busy pedestrian crossing with enclosed geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-urban-busy-pedestrian-crossing",
+      "tags": [
+        "location",
+        "outdoor",
+        "rarity-uncommon",
+        "scene",
+        "urban"
+      ],
+      "facets": {
+        "setting": "busy-pedestrian-crossing",
+        "treatment": "enclosed-geometry"
+      },
+      "subcategory": "busy-pedestrian-crossing",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-urban-busy-pedestrian-crossing-expansive-geometry",
+      "semantic_key": "scene-location-urban-busy-pedestrian-crossing-expansive-geometry",
+      "text": "a busy pedestrian crossing with expansive geometry",
+      "sentence": "A busy pedestrian crossing with expansive geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a busy pedestrian crossing with expansive geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a busy pedestrian crossing with expansive geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a busy pedestrian crossing with expansive geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-urban-busy-pedestrian-crossing",
+      "tags": [
+        "location",
+        "outdoor",
+        "rarity-uncommon",
+        "scene",
+        "urban"
+      ],
+      "facets": {
+        "setting": "busy-pedestrian-crossing",
+        "treatment": "expansive-geometry"
+      },
+      "subcategory": "busy-pedestrian-crossing",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-urban-busy-pedestrian-crossing-asymmetric-layout",
+      "semantic_key": "scene-location-urban-busy-pedestrian-crossing-asymmetric-layout",
+      "text": "a busy pedestrian crossing with asymmetric layout",
+      "sentence": "A busy pedestrian crossing with asymmetric layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a busy pedestrian crossing with asymmetric layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a busy pedestrian crossing with asymmetric layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a busy pedestrian crossing with asymmetric layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-urban-busy-pedestrian-crossing",
+      "tags": [
+        "location",
+        "outdoor",
+        "rarity-rare",
+        "scene",
+        "urban"
+      ],
+      "facets": {
+        "setting": "busy-pedestrian-crossing",
+        "treatment": "asymmetric-layout"
+      },
+      "subcategory": "busy-pedestrian-crossing",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-urban-busy-pedestrian-crossing-central-organization",
+      "semantic_key": "scene-location-urban-busy-pedestrian-crossing-central-organization",
+      "text": "a busy pedestrian crossing with central organization",
+      "sentence": "A busy pedestrian crossing with central organization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a busy pedestrian crossing with central organization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a busy pedestrian crossing with central organization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a busy pedestrian crossing with central organization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-urban-busy-pedestrian-crossing",
+      "tags": [
+        "location",
+        "outdoor",
+        "rarity-rare",
+        "scene",
+        "urban"
+      ],
+      "facets": {
+        "setting": "busy-pedestrian-crossing",
+        "treatment": "central-organization"
+      },
+      "subcategory": "busy-pedestrian-crossing",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-urban-modern-transit-platform-open-spatial-layout",
+      "semantic_key": "scene-location-urban-modern-transit-platform-open-spatial-layout",
+      "text": "a modern transit platform with open spatial layout",
+      "sentence": "A modern transit platform with open spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a modern transit platform with open spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a modern transit platform with open spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a modern transit platform with open spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-urban-modern-transit-platform",
+      "tags": [
+        "location",
+        "outdoor",
+        "rarity-common",
+        "scene",
+        "urban"
+      ],
+      "facets": {
+        "setting": "modern-transit-platform",
+        "treatment": "open-spatial-layout"
+      },
+      "subcategory": "modern-transit-platform",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-urban-modern-transit-platform-intimate-spatial-layout",
+      "semantic_key": "scene-location-urban-modern-transit-platform-intimate-spatial-layout",
+      "text": "a modern transit platform with intimate spatial layout",
+      "sentence": "A modern transit platform with intimate spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a modern transit platform with intimate spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a modern transit platform with intimate spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a modern transit platform with intimate spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-urban-modern-transit-platform",
+      "tags": [
+        "location",
+        "outdoor",
+        "rarity-common",
+        "scene",
+        "urban"
+      ],
+      "facets": {
+        "setting": "modern-transit-platform",
+        "treatment": "intimate-spatial-layout"
+      },
+      "subcategory": "modern-transit-platform",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-urban-modern-transit-platform-layered-depth",
+      "semantic_key": "scene-location-urban-modern-transit-platform-layered-depth",
+      "text": "a modern transit platform with layered depth",
+      "sentence": "A modern transit platform with layered depth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a modern transit platform with layered depth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a modern transit platform with layered depth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a modern transit platform with layered depth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-urban-modern-transit-platform",
+      "tags": [
+        "location",
+        "outdoor",
+        "rarity-common",
+        "scene",
+        "urban"
+      ],
+      "facets": {
+        "setting": "modern-transit-platform",
+        "treatment": "layered-depth"
+      },
+      "subcategory": "modern-transit-platform",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-urban-modern-transit-platform-clear-sightlines",
+      "semantic_key": "scene-location-urban-modern-transit-platform-clear-sightlines",
+      "text": "a modern transit platform with clear sightlines",
+      "sentence": "A modern transit platform with clear sightlines.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a modern transit platform with clear sightlines",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a modern transit platform with clear sightlines",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a modern transit platform with clear sightlines",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-urban-modern-transit-platform",
+      "tags": [
+        "location",
+        "outdoor",
+        "rarity-common",
+        "scene",
+        "urban"
+      ],
+      "facets": {
+        "setting": "modern-transit-platform",
+        "treatment": "clear-sightlines"
+      },
+      "subcategory": "modern-transit-platform",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-urban-modern-transit-platform-enclosed-geometry",
+      "semantic_key": "scene-location-urban-modern-transit-platform-enclosed-geometry",
+      "text": "a modern transit platform with enclosed geometry",
+      "sentence": "A modern transit platform with enclosed geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a modern transit platform with enclosed geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a modern transit platform with enclosed geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a modern transit platform with enclosed geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-urban-modern-transit-platform",
+      "tags": [
+        "location",
+        "outdoor",
+        "rarity-uncommon",
+        "scene",
+        "urban"
+      ],
+      "facets": {
+        "setting": "modern-transit-platform",
+        "treatment": "enclosed-geometry"
+      },
+      "subcategory": "modern-transit-platform",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-urban-modern-transit-platform-expansive-geometry",
+      "semantic_key": "scene-location-urban-modern-transit-platform-expansive-geometry",
+      "text": "a modern transit platform with expansive geometry",
+      "sentence": "A modern transit platform with expansive geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a modern transit platform with expansive geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a modern transit platform with expansive geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a modern transit platform with expansive geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-urban-modern-transit-platform",
+      "tags": [
+        "location",
+        "outdoor",
+        "rarity-uncommon",
+        "scene",
+        "urban"
+      ],
+      "facets": {
+        "setting": "modern-transit-platform",
+        "treatment": "expansive-geometry"
+      },
+      "subcategory": "modern-transit-platform",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-urban-modern-transit-platform-asymmetric-layout",
+      "semantic_key": "scene-location-urban-modern-transit-platform-asymmetric-layout",
+      "text": "a modern transit platform with asymmetric layout",
+      "sentence": "A modern transit platform with asymmetric layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a modern transit platform with asymmetric layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a modern transit platform with asymmetric layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a modern transit platform with asymmetric layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-urban-modern-transit-platform",
+      "tags": [
+        "location",
+        "outdoor",
+        "rarity-rare",
+        "scene",
+        "urban"
+      ],
+      "facets": {
+        "setting": "modern-transit-platform",
+        "treatment": "asymmetric-layout"
+      },
+      "subcategory": "modern-transit-platform",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-urban-modern-transit-platform-central-organization",
+      "semantic_key": "scene-location-urban-modern-transit-platform-central-organization",
+      "text": "a modern transit platform with central organization",
+      "sentence": "A modern transit platform with central organization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a modern transit platform with central organization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a modern transit platform with central organization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a modern transit platform with central organization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-urban-modern-transit-platform",
+      "tags": [
+        "location",
+        "outdoor",
+        "rarity-rare",
+        "scene",
+        "urban"
+      ],
+      "facets": {
+        "setting": "modern-transit-platform",
+        "treatment": "central-organization"
+      },
+      "subcategory": "modern-transit-platform",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-urban-brick-lined-side-street-open-spatial-layout",
+      "semantic_key": "scene-location-urban-brick-lined-side-street-open-spatial-layout",
+      "text": "a brick-lined side street with open spatial layout",
+      "sentence": "A brick-lined side street with open spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a brick-lined side street with open spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a brick-lined side street with open spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a brick-lined side street with open spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-urban-brick-lined-side-street",
+      "tags": [
+        "location",
+        "outdoor",
+        "rarity-common",
+        "scene",
+        "urban"
+      ],
+      "facets": {
+        "setting": "brick-lined-side-street",
+        "treatment": "open-spatial-layout"
+      },
+      "subcategory": "brick-lined-side-street",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-urban-brick-lined-side-street-intimate-spatial-layout",
+      "semantic_key": "scene-location-urban-brick-lined-side-street-intimate-spatial-layout",
+      "text": "a brick-lined side street with intimate spatial layout",
+      "sentence": "A brick-lined side street with intimate spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a brick-lined side street with intimate spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a brick-lined side street with intimate spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a brick-lined side street with intimate spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-urban-brick-lined-side-street",
+      "tags": [
+        "location",
+        "outdoor",
+        "rarity-common",
+        "scene",
+        "urban"
+      ],
+      "facets": {
+        "setting": "brick-lined-side-street",
+        "treatment": "intimate-spatial-layout"
+      },
+      "subcategory": "brick-lined-side-street",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-urban-brick-lined-side-street-layered-depth",
+      "semantic_key": "scene-location-urban-brick-lined-side-street-layered-depth",
+      "text": "a brick-lined side street with layered depth",
+      "sentence": "A brick-lined side street with layered depth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a brick-lined side street with layered depth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a brick-lined side street with layered depth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a brick-lined side street with layered depth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-urban-brick-lined-side-street",
+      "tags": [
+        "location",
+        "outdoor",
+        "rarity-common",
+        "scene",
+        "urban"
+      ],
+      "facets": {
+        "setting": "brick-lined-side-street",
+        "treatment": "layered-depth"
+      },
+      "subcategory": "brick-lined-side-street",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-urban-brick-lined-side-street-clear-sightlines",
+      "semantic_key": "scene-location-urban-brick-lined-side-street-clear-sightlines",
+      "text": "a brick-lined side street with clear sightlines",
+      "sentence": "A brick-lined side street with clear sightlines.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a brick-lined side street with clear sightlines",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a brick-lined side street with clear sightlines",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a brick-lined side street with clear sightlines",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-urban-brick-lined-side-street",
+      "tags": [
+        "location",
+        "outdoor",
+        "rarity-common",
+        "scene",
+        "urban"
+      ],
+      "facets": {
+        "setting": "brick-lined-side-street",
+        "treatment": "clear-sightlines"
+      },
+      "subcategory": "brick-lined-side-street",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-urban-brick-lined-side-street-enclosed-geometry",
+      "semantic_key": "scene-location-urban-brick-lined-side-street-enclosed-geometry",
+      "text": "a brick-lined side street with enclosed geometry",
+      "sentence": "A brick-lined side street with enclosed geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a brick-lined side street with enclosed geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a brick-lined side street with enclosed geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a brick-lined side street with enclosed geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-urban-brick-lined-side-street",
+      "tags": [
+        "location",
+        "outdoor",
+        "rarity-uncommon",
+        "scene",
+        "urban"
+      ],
+      "facets": {
+        "setting": "brick-lined-side-street",
+        "treatment": "enclosed-geometry"
+      },
+      "subcategory": "brick-lined-side-street",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-urban-brick-lined-side-street-expansive-geometry",
+      "semantic_key": "scene-location-urban-brick-lined-side-street-expansive-geometry",
+      "text": "a brick-lined side street with expansive geometry",
+      "sentence": "A brick-lined side street with expansive geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a brick-lined side street with expansive geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a brick-lined side street with expansive geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a brick-lined side street with expansive geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-urban-brick-lined-side-street",
+      "tags": [
+        "location",
+        "outdoor",
+        "rarity-uncommon",
+        "scene",
+        "urban"
+      ],
+      "facets": {
+        "setting": "brick-lined-side-street",
+        "treatment": "expansive-geometry"
+      },
+      "subcategory": "brick-lined-side-street",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-urban-brick-lined-side-street-asymmetric-layout",
+      "semantic_key": "scene-location-urban-brick-lined-side-street-asymmetric-layout",
+      "text": "a brick-lined side street with asymmetric layout",
+      "sentence": "A brick-lined side street with asymmetric layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a brick-lined side street with asymmetric layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a brick-lined side street with asymmetric layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a brick-lined side street with asymmetric layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-urban-brick-lined-side-street",
+      "tags": [
+        "location",
+        "outdoor",
+        "rarity-rare",
+        "scene",
+        "urban"
+      ],
+      "facets": {
+        "setting": "brick-lined-side-street",
+        "treatment": "asymmetric-layout"
+      },
+      "subcategory": "brick-lined-side-street",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-urban-brick-lined-side-street-central-organization",
+      "semantic_key": "scene-location-urban-brick-lined-side-street-central-organization",
+      "text": "a brick-lined side street with central organization",
+      "sentence": "A brick-lined side street with central organization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a brick-lined side street with central organization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a brick-lined side street with central organization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a brick-lined side street with central organization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-urban-brick-lined-side-street",
+      "tags": [
+        "location",
+        "outdoor",
+        "rarity-rare",
+        "scene",
+        "urban"
+      ],
+      "facets": {
+        "setting": "brick-lined-side-street",
+        "treatment": "central-organization"
+      },
+      "subcategory": "brick-lined-side-street",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-urban-rooftop-terrace-open-spatial-layout",
+      "semantic_key": "scene-location-urban-rooftop-terrace-open-spatial-layout",
+      "text": "a rooftop terrace with open spatial layout",
+      "sentence": "A rooftop terrace with open spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a rooftop terrace with open spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a rooftop terrace with open spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a rooftop terrace with open spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-urban-rooftop-terrace",
+      "tags": [
+        "location",
+        "outdoor",
+        "rarity-common",
+        "scene",
+        "urban"
+      ],
+      "facets": {
+        "setting": "rooftop-terrace",
+        "treatment": "open-spatial-layout"
+      },
+      "subcategory": "rooftop-terrace",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-urban-rooftop-terrace-intimate-spatial-layout",
+      "semantic_key": "scene-location-urban-rooftop-terrace-intimate-spatial-layout",
+      "text": "a rooftop terrace with intimate spatial layout",
+      "sentence": "A rooftop terrace with intimate spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a rooftop terrace with intimate spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a rooftop terrace with intimate spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a rooftop terrace with intimate spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-urban-rooftop-terrace",
+      "tags": [
+        "location",
+        "outdoor",
+        "rarity-common",
+        "scene",
+        "urban"
+      ],
+      "facets": {
+        "setting": "rooftop-terrace",
+        "treatment": "intimate-spatial-layout"
+      },
+      "subcategory": "rooftop-terrace",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-urban-rooftop-terrace-layered-depth",
+      "semantic_key": "scene-location-urban-rooftop-terrace-layered-depth",
+      "text": "a rooftop terrace with layered depth",
+      "sentence": "A rooftop terrace with layered depth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a rooftop terrace with layered depth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a rooftop terrace with layered depth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a rooftop terrace with layered depth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-urban-rooftop-terrace",
+      "tags": [
+        "location",
+        "outdoor",
+        "rarity-common",
+        "scene",
+        "urban"
+      ],
+      "facets": {
+        "setting": "rooftop-terrace",
+        "treatment": "layered-depth"
+      },
+      "subcategory": "rooftop-terrace",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-urban-rooftop-terrace-clear-sightlines",
+      "semantic_key": "scene-location-urban-rooftop-terrace-clear-sightlines",
+      "text": "a rooftop terrace with clear sightlines",
+      "sentence": "A rooftop terrace with clear sightlines.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a rooftop terrace with clear sightlines",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a rooftop terrace with clear sightlines",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a rooftop terrace with clear sightlines",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-urban-rooftop-terrace",
+      "tags": [
+        "location",
+        "outdoor",
+        "rarity-common",
+        "scene",
+        "urban"
+      ],
+      "facets": {
+        "setting": "rooftop-terrace",
+        "treatment": "clear-sightlines"
+      },
+      "subcategory": "rooftop-terrace",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-urban-rooftop-terrace-enclosed-geometry",
+      "semantic_key": "scene-location-urban-rooftop-terrace-enclosed-geometry",
+      "text": "a rooftop terrace with enclosed geometry",
+      "sentence": "A rooftop terrace with enclosed geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a rooftop terrace with enclosed geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a rooftop terrace with enclosed geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a rooftop terrace with enclosed geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-urban-rooftop-terrace",
+      "tags": [
+        "location",
+        "outdoor",
+        "rarity-uncommon",
+        "scene",
+        "urban"
+      ],
+      "facets": {
+        "setting": "rooftop-terrace",
+        "treatment": "enclosed-geometry"
+      },
+      "subcategory": "rooftop-terrace",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-urban-rooftop-terrace-expansive-geometry",
+      "semantic_key": "scene-location-urban-rooftop-terrace-expansive-geometry",
+      "text": "a rooftop terrace with expansive geometry",
+      "sentence": "A rooftop terrace with expansive geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a rooftop terrace with expansive geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a rooftop terrace with expansive geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a rooftop terrace with expansive geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-urban-rooftop-terrace",
+      "tags": [
+        "location",
+        "outdoor",
+        "rarity-uncommon",
+        "scene",
+        "urban"
+      ],
+      "facets": {
+        "setting": "rooftop-terrace",
+        "treatment": "expansive-geometry"
+      },
+      "subcategory": "rooftop-terrace",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-urban-rooftop-terrace-asymmetric-layout",
+      "semantic_key": "scene-location-urban-rooftop-terrace-asymmetric-layout",
+      "text": "a rooftop terrace with asymmetric layout",
+      "sentence": "A rooftop terrace with asymmetric layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a rooftop terrace with asymmetric layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a rooftop terrace with asymmetric layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a rooftop terrace with asymmetric layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-urban-rooftop-terrace",
+      "tags": [
+        "location",
+        "outdoor",
+        "rarity-rare",
+        "scene",
+        "urban"
+      ],
+      "facets": {
+        "setting": "rooftop-terrace",
+        "treatment": "asymmetric-layout"
+      },
+      "subcategory": "rooftop-terrace",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-urban-rooftop-terrace-central-organization",
+      "semantic_key": "scene-location-urban-rooftop-terrace-central-organization",
+      "text": "a rooftop terrace with central organization",
+      "sentence": "A rooftop terrace with central organization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a rooftop terrace with central organization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a rooftop terrace with central organization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a rooftop terrace with central organization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-urban-rooftop-terrace",
+      "tags": [
+        "location",
+        "outdoor",
+        "rarity-rare",
+        "scene",
+        "urban"
+      ],
+      "facets": {
+        "setting": "rooftop-terrace",
+        "treatment": "central-organization"
+      },
+      "subcategory": "rooftop-terrace",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-urban-public-plaza-open-spatial-layout",
+      "semantic_key": "scene-location-urban-public-plaza-open-spatial-layout",
+      "text": "a public plaza with open spatial layout",
+      "sentence": "A public plaza with open spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a public plaza with open spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a public plaza with open spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a public plaza with open spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-urban-public-plaza",
+      "tags": [
+        "location",
+        "outdoor",
+        "rarity-common",
+        "scene",
+        "urban"
+      ],
+      "facets": {
+        "setting": "public-plaza",
+        "treatment": "open-spatial-layout"
+      },
+      "subcategory": "public-plaza",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-urban-public-plaza-intimate-spatial-layout",
+      "semantic_key": "scene-location-urban-public-plaza-intimate-spatial-layout",
+      "text": "a public plaza with intimate spatial layout",
+      "sentence": "A public plaza with intimate spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a public plaza with intimate spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a public plaza with intimate spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a public plaza with intimate spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-urban-public-plaza",
+      "tags": [
+        "location",
+        "outdoor",
+        "rarity-common",
+        "scene",
+        "urban"
+      ],
+      "facets": {
+        "setting": "public-plaza",
+        "treatment": "intimate-spatial-layout"
+      },
+      "subcategory": "public-plaza",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-urban-public-plaza-layered-depth",
+      "semantic_key": "scene-location-urban-public-plaza-layered-depth",
+      "text": "a public plaza with layered depth",
+      "sentence": "A public plaza with layered depth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a public plaza with layered depth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a public plaza with layered depth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a public plaza with layered depth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-urban-public-plaza",
+      "tags": [
+        "location",
+        "outdoor",
+        "rarity-common",
+        "scene",
+        "urban"
+      ],
+      "facets": {
+        "setting": "public-plaza",
+        "treatment": "layered-depth"
+      },
+      "subcategory": "public-plaza",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-urban-public-plaza-clear-sightlines",
+      "semantic_key": "scene-location-urban-public-plaza-clear-sightlines",
+      "text": "a public plaza with clear sightlines",
+      "sentence": "A public plaza with clear sightlines.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a public plaza with clear sightlines",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a public plaza with clear sightlines",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a public plaza with clear sightlines",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-urban-public-plaza",
+      "tags": [
+        "location",
+        "outdoor",
+        "rarity-common",
+        "scene",
+        "urban"
+      ],
+      "facets": {
+        "setting": "public-plaza",
+        "treatment": "clear-sightlines"
+      },
+      "subcategory": "public-plaza",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-urban-public-plaza-enclosed-geometry",
+      "semantic_key": "scene-location-urban-public-plaza-enclosed-geometry",
+      "text": "a public plaza with enclosed geometry",
+      "sentence": "A public plaza with enclosed geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a public plaza with enclosed geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a public plaza with enclosed geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a public plaza with enclosed geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-urban-public-plaza",
+      "tags": [
+        "location",
+        "outdoor",
+        "rarity-uncommon",
+        "scene",
+        "urban"
+      ],
+      "facets": {
+        "setting": "public-plaza",
+        "treatment": "enclosed-geometry"
+      },
+      "subcategory": "public-plaza",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-urban-public-plaza-expansive-geometry",
+      "semantic_key": "scene-location-urban-public-plaza-expansive-geometry",
+      "text": "a public plaza with expansive geometry",
+      "sentence": "A public plaza with expansive geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a public plaza with expansive geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a public plaza with expansive geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a public plaza with expansive geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-urban-public-plaza",
+      "tags": [
+        "location",
+        "outdoor",
+        "rarity-uncommon",
+        "scene",
+        "urban"
+      ],
+      "facets": {
+        "setting": "public-plaza",
+        "treatment": "expansive-geometry"
+      },
+      "subcategory": "public-plaza",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-urban-public-plaza-asymmetric-layout",
+      "semantic_key": "scene-location-urban-public-plaza-asymmetric-layout",
+      "text": "a public plaza with asymmetric layout",
+      "sentence": "A public plaza with asymmetric layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a public plaza with asymmetric layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a public plaza with asymmetric layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a public plaza with asymmetric layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-urban-public-plaza",
+      "tags": [
+        "location",
+        "outdoor",
+        "rarity-rare",
+        "scene",
+        "urban"
+      ],
+      "facets": {
+        "setting": "public-plaza",
+        "treatment": "asymmetric-layout"
+      },
+      "subcategory": "public-plaza",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-urban-public-plaza-central-organization",
+      "semantic_key": "scene-location-urban-public-plaza-central-organization",
+      "text": "a public plaza with central organization",
+      "sentence": "A public plaza with central organization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a public plaza with central organization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a public plaza with central organization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a public plaza with central organization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-urban-public-plaza",
+      "tags": [
+        "location",
+        "outdoor",
+        "rarity-rare",
+        "scene",
+        "urban"
+      ],
+      "facets": {
+        "setting": "public-plaza",
+        "treatment": "central-organization"
+      },
+      "subcategory": "public-plaza",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-urban-covered-arcade-open-spatial-layout",
+      "semantic_key": "scene-location-urban-covered-arcade-open-spatial-layout",
+      "text": "a covered arcade with open spatial layout",
+      "sentence": "A covered arcade with open spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a covered arcade with open spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a covered arcade with open spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a covered arcade with open spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-urban-covered-arcade",
+      "tags": [
+        "location",
+        "outdoor",
+        "rarity-common",
+        "scene",
+        "urban"
+      ],
+      "facets": {
+        "setting": "covered-arcade",
+        "treatment": "open-spatial-layout"
+      },
+      "subcategory": "covered-arcade",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-urban-covered-arcade-intimate-spatial-layout",
+      "semantic_key": "scene-location-urban-covered-arcade-intimate-spatial-layout",
+      "text": "a covered arcade with intimate spatial layout",
+      "sentence": "A covered arcade with intimate spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a covered arcade with intimate spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a covered arcade with intimate spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a covered arcade with intimate spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-urban-covered-arcade",
+      "tags": [
+        "location",
+        "outdoor",
+        "rarity-common",
+        "scene",
+        "urban"
+      ],
+      "facets": {
+        "setting": "covered-arcade",
+        "treatment": "intimate-spatial-layout"
+      },
+      "subcategory": "covered-arcade",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-urban-covered-arcade-layered-depth",
+      "semantic_key": "scene-location-urban-covered-arcade-layered-depth",
+      "text": "a covered arcade with layered depth",
+      "sentence": "A covered arcade with layered depth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a covered arcade with layered depth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a covered arcade with layered depth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a covered arcade with layered depth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-urban-covered-arcade",
+      "tags": [
+        "location",
+        "outdoor",
+        "rarity-common",
+        "scene",
+        "urban"
+      ],
+      "facets": {
+        "setting": "covered-arcade",
+        "treatment": "layered-depth"
+      },
+      "subcategory": "covered-arcade",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-urban-covered-arcade-clear-sightlines",
+      "semantic_key": "scene-location-urban-covered-arcade-clear-sightlines",
+      "text": "a covered arcade with clear sightlines",
+      "sentence": "A covered arcade with clear sightlines.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a covered arcade with clear sightlines",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a covered arcade with clear sightlines",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a covered arcade with clear sightlines",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-urban-covered-arcade",
+      "tags": [
+        "location",
+        "outdoor",
+        "rarity-common",
+        "scene",
+        "urban"
+      ],
+      "facets": {
+        "setting": "covered-arcade",
+        "treatment": "clear-sightlines"
+      },
+      "subcategory": "covered-arcade",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-urban-covered-arcade-enclosed-geometry",
+      "semantic_key": "scene-location-urban-covered-arcade-enclosed-geometry",
+      "text": "a covered arcade with enclosed geometry",
+      "sentence": "A covered arcade with enclosed geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a covered arcade with enclosed geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a covered arcade with enclosed geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a covered arcade with enclosed geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-urban-covered-arcade",
+      "tags": [
+        "location",
+        "outdoor",
+        "rarity-uncommon",
+        "scene",
+        "urban"
+      ],
+      "facets": {
+        "setting": "covered-arcade",
+        "treatment": "enclosed-geometry"
+      },
+      "subcategory": "covered-arcade",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-urban-covered-arcade-expansive-geometry",
+      "semantic_key": "scene-location-urban-covered-arcade-expansive-geometry",
+      "text": "a covered arcade with expansive geometry",
+      "sentence": "A covered arcade with expansive geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a covered arcade with expansive geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a covered arcade with expansive geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a covered arcade with expansive geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-urban-covered-arcade",
+      "tags": [
+        "location",
+        "outdoor",
+        "rarity-uncommon",
+        "scene",
+        "urban"
+      ],
+      "facets": {
+        "setting": "covered-arcade",
+        "treatment": "expansive-geometry"
+      },
+      "subcategory": "covered-arcade",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-urban-covered-arcade-asymmetric-layout",
+      "semantic_key": "scene-location-urban-covered-arcade-asymmetric-layout",
+      "text": "a covered arcade with asymmetric layout",
+      "sentence": "A covered arcade with asymmetric layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a covered arcade with asymmetric layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a covered arcade with asymmetric layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a covered arcade with asymmetric layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-urban-covered-arcade",
+      "tags": [
+        "location",
+        "outdoor",
+        "rarity-rare",
+        "scene",
+        "urban"
+      ],
+      "facets": {
+        "setting": "covered-arcade",
+        "treatment": "asymmetric-layout"
+      },
+      "subcategory": "covered-arcade",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-urban-covered-arcade-central-organization",
+      "semantic_key": "scene-location-urban-covered-arcade-central-organization",
+      "text": "a covered arcade with central organization",
+      "sentence": "A covered arcade with central organization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a covered arcade with central organization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a covered arcade with central organization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a covered arcade with central organization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-urban-covered-arcade",
+      "tags": [
+        "location",
+        "outdoor",
+        "rarity-rare",
+        "scene",
+        "urban"
+      ],
+      "facets": {
+        "setting": "covered-arcade",
+        "treatment": "central-organization"
+      },
+      "subcategory": "covered-arcade",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-urban-contemporary-office-district-open-spatial-layout",
+      "semantic_key": "scene-location-urban-contemporary-office-district-open-spatial-layout",
+      "text": "a contemporary office district with open spatial layout",
+      "sentence": "A contemporary office district with open spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a contemporary office district with open spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a contemporary office district with open spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a contemporary office district with open spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-urban-contemporary-office-district",
+      "tags": [
+        "location",
+        "outdoor",
+        "rarity-common",
+        "scene",
+        "urban"
+      ],
+      "facets": {
+        "setting": "contemporary-office-district",
+        "treatment": "open-spatial-layout"
+      },
+      "subcategory": "contemporary-office-district",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-urban-contemporary-office-district-intimate-spatial-layout",
+      "semantic_key": "scene-location-urban-contemporary-office-district-intimate-spatial-layout",
+      "text": "a contemporary office district with intimate spatial layout",
+      "sentence": "A contemporary office district with intimate spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a contemporary office district with intimate spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a contemporary office district with intimate spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a contemporary office district with intimate spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-urban-contemporary-office-district",
+      "tags": [
+        "location",
+        "outdoor",
+        "rarity-common",
+        "scene",
+        "urban"
+      ],
+      "facets": {
+        "setting": "contemporary-office-district",
+        "treatment": "intimate-spatial-layout"
+      },
+      "subcategory": "contemporary-office-district",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-urban-contemporary-office-district-layered-depth",
+      "semantic_key": "scene-location-urban-contemporary-office-district-layered-depth",
+      "text": "a contemporary office district with layered depth",
+      "sentence": "A contemporary office district with layered depth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a contemporary office district with layered depth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a contemporary office district with layered depth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a contemporary office district with layered depth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-urban-contemporary-office-district",
+      "tags": [
+        "location",
+        "outdoor",
+        "rarity-common",
+        "scene",
+        "urban"
+      ],
+      "facets": {
+        "setting": "contemporary-office-district",
+        "treatment": "layered-depth"
+      },
+      "subcategory": "contemporary-office-district",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-urban-contemporary-office-district-clear-sightlines",
+      "semantic_key": "scene-location-urban-contemporary-office-district-clear-sightlines",
+      "text": "a contemporary office district with clear sightlines",
+      "sentence": "A contemporary office district with clear sightlines.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a contemporary office district with clear sightlines",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a contemporary office district with clear sightlines",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a contemporary office district with clear sightlines",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-urban-contemporary-office-district",
+      "tags": [
+        "location",
+        "outdoor",
+        "rarity-common",
+        "scene",
+        "urban"
+      ],
+      "facets": {
+        "setting": "contemporary-office-district",
+        "treatment": "clear-sightlines"
+      },
+      "subcategory": "contemporary-office-district",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-urban-contemporary-office-district-enclosed-geometry",
+      "semantic_key": "scene-location-urban-contemporary-office-district-enclosed-geometry",
+      "text": "a contemporary office district with enclosed geometry",
+      "sentence": "A contemporary office district with enclosed geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a contemporary office district with enclosed geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a contemporary office district with enclosed geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a contemporary office district with enclosed geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-urban-contemporary-office-district",
+      "tags": [
+        "location",
+        "outdoor",
+        "rarity-uncommon",
+        "scene",
+        "urban"
+      ],
+      "facets": {
+        "setting": "contemporary-office-district",
+        "treatment": "enclosed-geometry"
+      },
+      "subcategory": "contemporary-office-district",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-urban-contemporary-office-district-expansive-geometry",
+      "semantic_key": "scene-location-urban-contemporary-office-district-expansive-geometry",
+      "text": "a contemporary office district with expansive geometry",
+      "sentence": "A contemporary office district with expansive geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a contemporary office district with expansive geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a contemporary office district with expansive geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a contemporary office district with expansive geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-urban-contemporary-office-district",
+      "tags": [
+        "location",
+        "outdoor",
+        "rarity-uncommon",
+        "scene",
+        "urban"
+      ],
+      "facets": {
+        "setting": "contemporary-office-district",
+        "treatment": "expansive-geometry"
+      },
+      "subcategory": "contemporary-office-district",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-urban-contemporary-office-district-asymmetric-layout",
+      "semantic_key": "scene-location-urban-contemporary-office-district-asymmetric-layout",
+      "text": "a contemporary office district with asymmetric layout",
+      "sentence": "A contemporary office district with asymmetric layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a contemporary office district with asymmetric layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a contemporary office district with asymmetric layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a contemporary office district with asymmetric layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-urban-contemporary-office-district",
+      "tags": [
+        "location",
+        "outdoor",
+        "rarity-rare",
+        "scene",
+        "urban"
+      ],
+      "facets": {
+        "setting": "contemporary-office-district",
+        "treatment": "asymmetric-layout"
+      },
+      "subcategory": "contemporary-office-district",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-urban-contemporary-office-district-central-organization",
+      "semantic_key": "scene-location-urban-contemporary-office-district-central-organization",
+      "text": "a contemporary office district with central organization",
+      "sentence": "A contemporary office district with central organization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a contemporary office district with central organization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a contemporary office district with central organization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a contemporary office district with central organization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-urban-contemporary-office-district",
+      "tags": [
+        "location",
+        "outdoor",
+        "rarity-rare",
+        "scene",
+        "urban"
+      ],
+      "facets": {
+        "setting": "contemporary-office-district",
+        "treatment": "central-organization"
+      },
+      "subcategory": "contemporary-office-district",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    }
+  ]
+}

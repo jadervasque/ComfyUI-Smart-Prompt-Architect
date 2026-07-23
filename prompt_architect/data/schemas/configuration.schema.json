@@ -1,12 +1,12 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://prompt-architect.invalid/schemas/1.0/configuration.schema.json",
-  "title": "Prompt Architect Node Configuration 1.0",
+  "$id": "https://prompt-architect.invalid/schemas/1.1/configuration.schema.json",
+  "title": "Prompt Architect Node Configuration 1.1",
   "type": "object",
   "additionalProperties": false,
   "required": ["schema_version", "profile_id", "mode", "master_seed"],
   "properties": {
-    "schema_version": { "const": "1.0" },
+    "schema_version": { "const": "1.1" },
     "profile_id": { "$ref": "#/$defs/id" },
     "profile_version": { "$ref": "#/$defs/version" },
     "mode": { "enum": ["strict", "balanced", "creative", "dataset", "sequential"] },
@@ -30,11 +30,17 @@
         "additionalProperties": false,
         "required": ["mode"],
         "properties": {
-          "mode": { "enum": ["disabled", "fixed", "random", "inherit"] },
-          "value": { "type": "string", "minLength": 1 },
+          "mode": { "enum": ["disabled", "fixed", "custom", "random", "inherit"] },
+          "value": { "type": "string", "minLength": 1, "maxLength": 4096 },
           "include_tags": { "type": "array", "uniqueItems": true, "items": { "type": "string", "minLength": 1 } },
           "exclude_tags": { "type": "array", "uniqueItems": true, "items": { "type": "string", "minLength": 1 } }
-        }
+        },
+        "allOf": [
+          {
+            "if": { "properties": { "mode": { "enum": ["fixed", "custom"] } } },
+            "then": { "required": ["value"] }
+          }
+        ]
       }
     },
     "overrides": {

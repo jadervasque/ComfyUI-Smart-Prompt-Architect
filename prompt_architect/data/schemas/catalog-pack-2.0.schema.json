@@ -1,0 +1,135 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://prompt-architect.invalid/schemas/2.0/catalog-pack.schema.json",
+  "title": "Prompt Architect Catalog Pack 2.0",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "id",
+    "version",
+    "library",
+    "domain",
+    "category",
+    "language",
+    "status",
+    "safety",
+    "tags",
+    "options"
+  ],
+  "properties": {
+    "schema_version": { "const": "2.0" },
+    "id": { "$ref": "#/$defs/id" },
+    "version": { "$ref": "#/$defs/version" },
+    "library": { "$ref": "#/$defs/id" },
+    "domain": { "$ref": "#/$defs/id" },
+    "category": { "$ref": "#/$defs/id" },
+    "language": { "type": "string", "minLength": 1 },
+    "status": { "enum": ["active", "experimental", "deprecated"] },
+    "safety": {
+      "enum": ["general", "fashion-mature", "dark-atmospheric", "experimental"]
+    },
+    "tags": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "$ref": "#/$defs/id" }
+    },
+    "fallback_option_id": { "$ref": "#/$defs/id" },
+    "options": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/option" }
+    }
+  },
+  "$defs": {
+    "id": { "type": "string", "pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$" },
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+(?:[.-][0-9A-Za-z.-]+)?$"
+    },
+    "weight": { "type": "number", "minimum": 0 },
+    "condition": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["field", "operator"],
+      "properties": {
+        "field": { "$ref": "#/$defs/id" },
+        "operator": {
+          "enum": [
+            "equals",
+            "not_equals",
+            "in",
+            "not_in",
+            "contains_tag",
+            "missing",
+            "present"
+          ]
+        },
+        "value": {}
+      }
+    },
+    "variant": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "text"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "text": { "type": "string", "minLength": 1 },
+        "weight": { "$ref": "#/$defs/weight" }
+      }
+    },
+    "option": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "semantic_key",
+        "text",
+        "variants",
+        "weight",
+        "status",
+        "family",
+        "tags",
+        "facets",
+        "subcategory",
+        "intensity",
+        "safety"
+      ],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "semantic_key": { "$ref": "#/$defs/id" },
+        "text": { "type": "string", "minLength": 1 },
+        "sentence": { "type": "string", "minLength": 1 },
+        "variants": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 5,
+          "items": { "$ref": "#/$defs/variant" }
+        },
+        "weight": { "$ref": "#/$defs/weight" },
+        "status": { "enum": ["active", "experimental", "deprecated"] },
+        "family": { "$ref": "#/$defs/id" },
+        "tags": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "$ref": "#/$defs/id" }
+        },
+        "facets": {
+          "type": "object",
+          "minProperties": 1,
+          "additionalProperties": { "$ref": "#/$defs/id" }
+        },
+        "subcategory": { "$ref": "#/$defs/id" },
+        "intensity": { "enum": ["subtle", "moderate", "strong"] },
+        "safety": {
+          "enum": ["general", "fashion-mature", "dark-atmospheric", "experimental"]
+        },
+        "join_hint": { "enum": ["fragment", "sentence", "replace"] },
+        "requires": { "type": "array", "items": { "$ref": "#/$defs/condition" } },
+        "excludes": { "type": "array", "items": { "$ref": "#/$defs/condition" } },
+        "prefer": { "type": "array", "items": { "$ref": "#/$defs/condition" } },
+        "implies": { "type": "array" }
+      }
+    }
+  }
+}

@@ -1,0 +1,2809 @@
+{
+  "schema_version": "2.0",
+  "id": "cinematography-light-source-base",
+  "version": "2.0.0",
+  "library": "light-source",
+  "domain": "cinematography",
+  "category": "light-source",
+  "language": "en",
+  "status": "active",
+  "safety": "general",
+  "tags": [
+    "base"
+  ],
+  "fallback_option_id": "cinematography-light-source-base-large-softbox-low-contrast",
+  "options": [
+    {
+      "id": "cinematography-light-source-base-north-facing-window-light-low-contrast",
+      "semantic_key": "cinematography-light-source-base-north-facing-window-light-low-contrast",
+      "text": "north-facing window light shaped with low contrast",
+      "sentence": "North-facing window light shaped with low contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "north-facing window light shaped with low contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing north-facing window light shaped with low contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with north-facing window light shaped with low contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-source-base-north-facing-window-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-source",
+        "rarity-common",
+        "source-daylight"
+      ],
+      "facets": {
+        "source": "north-facing-window-light",
+        "treatment": "low-contrast"
+      },
+      "subcategory": "north-facing-window-light",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "time-of-day",
+          "operator": "contains_tag",
+          "value": "time-night"
+        }
+      ]
+    },
+    {
+      "id": "cinematography-light-source-base-north-facing-window-light-moderate-contrast",
+      "semantic_key": "cinematography-light-source-base-north-facing-window-light-moderate-contrast",
+      "text": "north-facing window light shaped with moderate contrast",
+      "sentence": "North-facing window light shaped with moderate contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "north-facing window light shaped with moderate contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing north-facing window light shaped with moderate contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with north-facing window light shaped with moderate contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-source-base-north-facing-window-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-source",
+        "rarity-common",
+        "source-daylight"
+      ],
+      "facets": {
+        "source": "north-facing-window-light",
+        "treatment": "moderate-contrast"
+      },
+      "subcategory": "north-facing-window-light",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "time-of-day",
+          "operator": "contains_tag",
+          "value": "time-night"
+        }
+      ]
+    },
+    {
+      "id": "cinematography-light-source-base-north-facing-window-light-high-contrast",
+      "semantic_key": "cinematography-light-source-base-north-facing-window-light-high-contrast",
+      "text": "north-facing window light shaped with high contrast",
+      "sentence": "North-facing window light shaped with high contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "north-facing window light shaped with high contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing north-facing window light shaped with high contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with north-facing window light shaped with high contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-source-base-north-facing-window-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-source",
+        "rarity-common",
+        "source-daylight"
+      ],
+      "facets": {
+        "source": "north-facing-window-light",
+        "treatment": "high-contrast"
+      },
+      "subcategory": "north-facing-window-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "time-of-day",
+          "operator": "contains_tag",
+          "value": "time-night"
+        }
+      ]
+    },
+    {
+      "id": "cinematography-light-source-base-north-facing-window-light-soft-transitions",
+      "semantic_key": "cinematography-light-source-base-north-facing-window-light-soft-transitions",
+      "text": "north-facing window light shaped with soft transitions",
+      "sentence": "North-facing window light shaped with soft transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "north-facing window light shaped with soft transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing north-facing window light shaped with soft transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with north-facing window light shaped with soft transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-source-base-north-facing-window-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-source",
+        "rarity-common",
+        "source-daylight"
+      ],
+      "facets": {
+        "source": "north-facing-window-light",
+        "treatment": "soft-transitions"
+      },
+      "subcategory": "north-facing-window-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "time-of-day",
+          "operator": "contains_tag",
+          "value": "time-night"
+        }
+      ]
+    },
+    {
+      "id": "cinematography-light-source-base-north-facing-window-light-crisp-transitions",
+      "semantic_key": "cinematography-light-source-base-north-facing-window-light-crisp-transitions",
+      "text": "north-facing window light shaped with crisp transitions",
+      "sentence": "North-facing window light shaped with crisp transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "north-facing window light shaped with crisp transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing north-facing window light shaped with crisp transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with north-facing window light shaped with crisp transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-light-source-base-north-facing-window-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-source",
+        "rarity-uncommon",
+        "source-daylight"
+      ],
+      "facets": {
+        "source": "north-facing-window-light",
+        "treatment": "crisp-transitions"
+      },
+      "subcategory": "north-facing-window-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "time-of-day",
+          "operator": "contains_tag",
+          "value": "time-night"
+        }
+      ]
+    },
+    {
+      "id": "cinematography-light-source-base-north-facing-window-light-broad-falloff",
+      "semantic_key": "cinematography-light-source-base-north-facing-window-light-broad-falloff",
+      "text": "north-facing window light shaped with broad falloff",
+      "sentence": "North-facing window light shaped with broad falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "north-facing window light shaped with broad falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing north-facing window light shaped with broad falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with north-facing window light shaped with broad falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-light-source-base-north-facing-window-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-source",
+        "rarity-uncommon",
+        "source-daylight"
+      ],
+      "facets": {
+        "source": "north-facing-window-light",
+        "treatment": "broad-falloff"
+      },
+      "subcategory": "north-facing-window-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "time-of-day",
+          "operator": "contains_tag",
+          "value": "time-night"
+        }
+      ]
+    },
+    {
+      "id": "cinematography-light-source-base-north-facing-window-light-rapid-falloff",
+      "semantic_key": "cinematography-light-source-base-north-facing-window-light-rapid-falloff",
+      "text": "north-facing window light shaped with rapid falloff",
+      "sentence": "North-facing window light shaped with rapid falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "north-facing window light shaped with rapid falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing north-facing window light shaped with rapid falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with north-facing window light shaped with rapid falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-light-source-base-north-facing-window-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-source",
+        "rarity-rare",
+        "source-daylight"
+      ],
+      "facets": {
+        "source": "north-facing-window-light",
+        "treatment": "rapid-falloff"
+      },
+      "subcategory": "north-facing-window-light",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "time-of-day",
+          "operator": "contains_tag",
+          "value": "time-night"
+        }
+      ]
+    },
+    {
+      "id": "cinematography-light-source-base-north-facing-window-light-layered-illumination",
+      "semantic_key": "cinematography-light-source-base-north-facing-window-light-layered-illumination",
+      "text": "north-facing window light shaped with layered illumination",
+      "sentence": "North-facing window light shaped with layered illumination.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "north-facing window light shaped with layered illumination",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing north-facing window light shaped with layered illumination",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with north-facing window light shaped with layered illumination",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-light-source-base-north-facing-window-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-source",
+        "rarity-rare",
+        "source-daylight"
+      ],
+      "facets": {
+        "source": "north-facing-window-light",
+        "treatment": "layered-illumination"
+      },
+      "subcategory": "north-facing-window-light",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "time-of-day",
+          "operator": "contains_tag",
+          "value": "time-night"
+        }
+      ]
+    },
+    {
+      "id": "cinematography-light-source-base-direct-sunlight-low-contrast",
+      "semantic_key": "cinematography-light-source-base-direct-sunlight-low-contrast",
+      "text": "direct sunlight shaped with low contrast",
+      "sentence": "Direct sunlight shaped with low contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "direct sunlight shaped with low contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing direct sunlight shaped with low contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with direct sunlight shaped with low contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-source-base-direct-sunlight",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-source",
+        "rarity-common",
+        "source-daylight"
+      ],
+      "facets": {
+        "source": "direct-sunlight",
+        "treatment": "low-contrast"
+      },
+      "subcategory": "direct-sunlight",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "time-of-day",
+          "operator": "contains_tag",
+          "value": "time-night"
+        }
+      ]
+    },
+    {
+      "id": "cinematography-light-source-base-direct-sunlight-moderate-contrast",
+      "semantic_key": "cinematography-light-source-base-direct-sunlight-moderate-contrast",
+      "text": "direct sunlight shaped with moderate contrast",
+      "sentence": "Direct sunlight shaped with moderate contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "direct sunlight shaped with moderate contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing direct sunlight shaped with moderate contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with direct sunlight shaped with moderate contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-source-base-direct-sunlight",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-source",
+        "rarity-common",
+        "source-daylight"
+      ],
+      "facets": {
+        "source": "direct-sunlight",
+        "treatment": "moderate-contrast"
+      },
+      "subcategory": "direct-sunlight",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "time-of-day",
+          "operator": "contains_tag",
+          "value": "time-night"
+        }
+      ]
+    },
+    {
+      "id": "cinematography-light-source-base-direct-sunlight-high-contrast",
+      "semantic_key": "cinematography-light-source-base-direct-sunlight-high-contrast",
+      "text": "direct sunlight shaped with high contrast",
+      "sentence": "Direct sunlight shaped with high contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "direct sunlight shaped with high contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing direct sunlight shaped with high contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with direct sunlight shaped with high contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-source-base-direct-sunlight",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-source",
+        "rarity-common",
+        "source-daylight"
+      ],
+      "facets": {
+        "source": "direct-sunlight",
+        "treatment": "high-contrast"
+      },
+      "subcategory": "direct-sunlight",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "time-of-day",
+          "operator": "contains_tag",
+          "value": "time-night"
+        }
+      ]
+    },
+    {
+      "id": "cinematography-light-source-base-direct-sunlight-soft-transitions",
+      "semantic_key": "cinematography-light-source-base-direct-sunlight-soft-transitions",
+      "text": "direct sunlight shaped with soft transitions",
+      "sentence": "Direct sunlight shaped with soft transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "direct sunlight shaped with soft transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing direct sunlight shaped with soft transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with direct sunlight shaped with soft transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-source-base-direct-sunlight",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-source",
+        "rarity-common",
+        "source-daylight"
+      ],
+      "facets": {
+        "source": "direct-sunlight",
+        "treatment": "soft-transitions"
+      },
+      "subcategory": "direct-sunlight",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "time-of-day",
+          "operator": "contains_tag",
+          "value": "time-night"
+        }
+      ]
+    },
+    {
+      "id": "cinematography-light-source-base-direct-sunlight-crisp-transitions",
+      "semantic_key": "cinematography-light-source-base-direct-sunlight-crisp-transitions",
+      "text": "direct sunlight shaped with crisp transitions",
+      "sentence": "Direct sunlight shaped with crisp transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "direct sunlight shaped with crisp transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing direct sunlight shaped with crisp transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with direct sunlight shaped with crisp transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-light-source-base-direct-sunlight",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-source",
+        "rarity-uncommon",
+        "source-daylight"
+      ],
+      "facets": {
+        "source": "direct-sunlight",
+        "treatment": "crisp-transitions"
+      },
+      "subcategory": "direct-sunlight",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "time-of-day",
+          "operator": "contains_tag",
+          "value": "time-night"
+        }
+      ]
+    },
+    {
+      "id": "cinematography-light-source-base-direct-sunlight-broad-falloff",
+      "semantic_key": "cinematography-light-source-base-direct-sunlight-broad-falloff",
+      "text": "direct sunlight shaped with broad falloff",
+      "sentence": "Direct sunlight shaped with broad falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "direct sunlight shaped with broad falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing direct sunlight shaped with broad falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with direct sunlight shaped with broad falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-light-source-base-direct-sunlight",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-source",
+        "rarity-uncommon",
+        "source-daylight"
+      ],
+      "facets": {
+        "source": "direct-sunlight",
+        "treatment": "broad-falloff"
+      },
+      "subcategory": "direct-sunlight",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "time-of-day",
+          "operator": "contains_tag",
+          "value": "time-night"
+        }
+      ]
+    },
+    {
+      "id": "cinematography-light-source-base-direct-sunlight-rapid-falloff",
+      "semantic_key": "cinematography-light-source-base-direct-sunlight-rapid-falloff",
+      "text": "direct sunlight shaped with rapid falloff",
+      "sentence": "Direct sunlight shaped with rapid falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "direct sunlight shaped with rapid falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing direct sunlight shaped with rapid falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with direct sunlight shaped with rapid falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-light-source-base-direct-sunlight",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-source",
+        "rarity-rare",
+        "source-daylight"
+      ],
+      "facets": {
+        "source": "direct-sunlight",
+        "treatment": "rapid-falloff"
+      },
+      "subcategory": "direct-sunlight",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "time-of-day",
+          "operator": "contains_tag",
+          "value": "time-night"
+        }
+      ]
+    },
+    {
+      "id": "cinematography-light-source-base-direct-sunlight-layered-illumination",
+      "semantic_key": "cinematography-light-source-base-direct-sunlight-layered-illumination",
+      "text": "direct sunlight shaped with layered illumination",
+      "sentence": "Direct sunlight shaped with layered illumination.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "direct sunlight shaped with layered illumination",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing direct sunlight shaped with layered illumination",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with direct sunlight shaped with layered illumination",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-light-source-base-direct-sunlight",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-source",
+        "rarity-rare",
+        "source-daylight"
+      ],
+      "facets": {
+        "source": "direct-sunlight",
+        "treatment": "layered-illumination"
+      },
+      "subcategory": "direct-sunlight",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "time-of-day",
+          "operator": "contains_tag",
+          "value": "time-night"
+        }
+      ]
+    },
+    {
+      "id": "cinematography-light-source-base-open-shade-daylight-low-contrast",
+      "semantic_key": "cinematography-light-source-base-open-shade-daylight-low-contrast",
+      "text": "open-shade daylight shaped with low contrast",
+      "sentence": "Open-shade daylight shaped with low contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "open-shade daylight shaped with low contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing open-shade daylight shaped with low contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with open-shade daylight shaped with low contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-source-base-open-shade-daylight",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-source",
+        "rarity-common",
+        "source-daylight"
+      ],
+      "facets": {
+        "source": "open-shade-daylight",
+        "treatment": "low-contrast"
+      },
+      "subcategory": "open-shade-daylight",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "time-of-day",
+          "operator": "contains_tag",
+          "value": "time-night"
+        }
+      ]
+    },
+    {
+      "id": "cinematography-light-source-base-open-shade-daylight-moderate-contrast",
+      "semantic_key": "cinematography-light-source-base-open-shade-daylight-moderate-contrast",
+      "text": "open-shade daylight shaped with moderate contrast",
+      "sentence": "Open-shade daylight shaped with moderate contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "open-shade daylight shaped with moderate contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing open-shade daylight shaped with moderate contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with open-shade daylight shaped with moderate contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-source-base-open-shade-daylight",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-source",
+        "rarity-common",
+        "source-daylight"
+      ],
+      "facets": {
+        "source": "open-shade-daylight",
+        "treatment": "moderate-contrast"
+      },
+      "subcategory": "open-shade-daylight",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "time-of-day",
+          "operator": "contains_tag",
+          "value": "time-night"
+        }
+      ]
+    },
+    {
+      "id": "cinematography-light-source-base-open-shade-daylight-high-contrast",
+      "semantic_key": "cinematography-light-source-base-open-shade-daylight-high-contrast",
+      "text": "open-shade daylight shaped with high contrast",
+      "sentence": "Open-shade daylight shaped with high contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "open-shade daylight shaped with high contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing open-shade daylight shaped with high contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with open-shade daylight shaped with high contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-source-base-open-shade-daylight",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-source",
+        "rarity-common",
+        "source-daylight"
+      ],
+      "facets": {
+        "source": "open-shade-daylight",
+        "treatment": "high-contrast"
+      },
+      "subcategory": "open-shade-daylight",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "time-of-day",
+          "operator": "contains_tag",
+          "value": "time-night"
+        }
+      ]
+    },
+    {
+      "id": "cinematography-light-source-base-open-shade-daylight-soft-transitions",
+      "semantic_key": "cinematography-light-source-base-open-shade-daylight-soft-transitions",
+      "text": "open-shade daylight shaped with soft transitions",
+      "sentence": "Open-shade daylight shaped with soft transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "open-shade daylight shaped with soft transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing open-shade daylight shaped with soft transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with open-shade daylight shaped with soft transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-source-base-open-shade-daylight",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-source",
+        "rarity-common",
+        "source-daylight"
+      ],
+      "facets": {
+        "source": "open-shade-daylight",
+        "treatment": "soft-transitions"
+      },
+      "subcategory": "open-shade-daylight",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "time-of-day",
+          "operator": "contains_tag",
+          "value": "time-night"
+        }
+      ]
+    },
+    {
+      "id": "cinematography-light-source-base-open-shade-daylight-crisp-transitions",
+      "semantic_key": "cinematography-light-source-base-open-shade-daylight-crisp-transitions",
+      "text": "open-shade daylight shaped with crisp transitions",
+      "sentence": "Open-shade daylight shaped with crisp transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "open-shade daylight shaped with crisp transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing open-shade daylight shaped with crisp transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with open-shade daylight shaped with crisp transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-light-source-base-open-shade-daylight",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-source",
+        "rarity-uncommon",
+        "source-daylight"
+      ],
+      "facets": {
+        "source": "open-shade-daylight",
+        "treatment": "crisp-transitions"
+      },
+      "subcategory": "open-shade-daylight",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "time-of-day",
+          "operator": "contains_tag",
+          "value": "time-night"
+        }
+      ]
+    },
+    {
+      "id": "cinematography-light-source-base-open-shade-daylight-broad-falloff",
+      "semantic_key": "cinematography-light-source-base-open-shade-daylight-broad-falloff",
+      "text": "open-shade daylight shaped with broad falloff",
+      "sentence": "Open-shade daylight shaped with broad falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "open-shade daylight shaped with broad falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing open-shade daylight shaped with broad falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with open-shade daylight shaped with broad falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-light-source-base-open-shade-daylight",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-source",
+        "rarity-uncommon",
+        "source-daylight"
+      ],
+      "facets": {
+        "source": "open-shade-daylight",
+        "treatment": "broad-falloff"
+      },
+      "subcategory": "open-shade-daylight",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "time-of-day",
+          "operator": "contains_tag",
+          "value": "time-night"
+        }
+      ]
+    },
+    {
+      "id": "cinematography-light-source-base-open-shade-daylight-rapid-falloff",
+      "semantic_key": "cinematography-light-source-base-open-shade-daylight-rapid-falloff",
+      "text": "open-shade daylight shaped with rapid falloff",
+      "sentence": "Open-shade daylight shaped with rapid falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "open-shade daylight shaped with rapid falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing open-shade daylight shaped with rapid falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with open-shade daylight shaped with rapid falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-light-source-base-open-shade-daylight",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-source",
+        "rarity-rare",
+        "source-daylight"
+      ],
+      "facets": {
+        "source": "open-shade-daylight",
+        "treatment": "rapid-falloff"
+      },
+      "subcategory": "open-shade-daylight",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "time-of-day",
+          "operator": "contains_tag",
+          "value": "time-night"
+        }
+      ]
+    },
+    {
+      "id": "cinematography-light-source-base-open-shade-daylight-layered-illumination",
+      "semantic_key": "cinematography-light-source-base-open-shade-daylight-layered-illumination",
+      "text": "open-shade daylight shaped with layered illumination",
+      "sentence": "Open-shade daylight shaped with layered illumination.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "open-shade daylight shaped with layered illumination",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing open-shade daylight shaped with layered illumination",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with open-shade daylight shaped with layered illumination",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-light-source-base-open-shade-daylight",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-source",
+        "rarity-rare",
+        "source-daylight"
+      ],
+      "facets": {
+        "source": "open-shade-daylight",
+        "treatment": "layered-illumination"
+      },
+      "subcategory": "open-shade-daylight",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "time-of-day",
+          "operator": "contains_tag",
+          "value": "time-night"
+        }
+      ]
+    },
+    {
+      "id": "cinematography-light-source-base-large-softbox-low-contrast",
+      "semantic_key": "cinematography-light-source-base-large-softbox-low-contrast",
+      "text": "large softbox shaped with low contrast",
+      "sentence": "Large softbox shaped with low contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "large softbox shaped with low contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing large softbox shaped with low contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with large softbox shaped with low contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-source-base-large-softbox",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-source",
+        "rarity-common",
+        "source-artificial"
+      ],
+      "facets": {
+        "source": "large-softbox",
+        "treatment": "low-contrast"
+      },
+      "subcategory": "large-softbox",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-source-base-large-softbox-moderate-contrast",
+      "semantic_key": "cinematography-light-source-base-large-softbox-moderate-contrast",
+      "text": "large softbox shaped with moderate contrast",
+      "sentence": "Large softbox shaped with moderate contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "large softbox shaped with moderate contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing large softbox shaped with moderate contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with large softbox shaped with moderate contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-source-base-large-softbox",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-source",
+        "rarity-common",
+        "source-artificial"
+      ],
+      "facets": {
+        "source": "large-softbox",
+        "treatment": "moderate-contrast"
+      },
+      "subcategory": "large-softbox",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-source-base-large-softbox-high-contrast",
+      "semantic_key": "cinematography-light-source-base-large-softbox-high-contrast",
+      "text": "large softbox shaped with high contrast",
+      "sentence": "Large softbox shaped with high contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "large softbox shaped with high contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing large softbox shaped with high contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with large softbox shaped with high contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-source-base-large-softbox",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-source",
+        "rarity-common",
+        "source-artificial"
+      ],
+      "facets": {
+        "source": "large-softbox",
+        "treatment": "high-contrast"
+      },
+      "subcategory": "large-softbox",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-source-base-large-softbox-soft-transitions",
+      "semantic_key": "cinematography-light-source-base-large-softbox-soft-transitions",
+      "text": "large softbox shaped with soft transitions",
+      "sentence": "Large softbox shaped with soft transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "large softbox shaped with soft transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing large softbox shaped with soft transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with large softbox shaped with soft transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-source-base-large-softbox",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-source",
+        "rarity-common",
+        "source-artificial"
+      ],
+      "facets": {
+        "source": "large-softbox",
+        "treatment": "soft-transitions"
+      },
+      "subcategory": "large-softbox",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-source-base-large-softbox-crisp-transitions",
+      "semantic_key": "cinematography-light-source-base-large-softbox-crisp-transitions",
+      "text": "large softbox shaped with crisp transitions",
+      "sentence": "Large softbox shaped with crisp transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "large softbox shaped with crisp transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing large softbox shaped with crisp transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with large softbox shaped with crisp transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-light-source-base-large-softbox",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-source",
+        "rarity-uncommon",
+        "source-artificial"
+      ],
+      "facets": {
+        "source": "large-softbox",
+        "treatment": "crisp-transitions"
+      },
+      "subcategory": "large-softbox",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-source-base-large-softbox-broad-falloff",
+      "semantic_key": "cinematography-light-source-base-large-softbox-broad-falloff",
+      "text": "large softbox shaped with broad falloff",
+      "sentence": "Large softbox shaped with broad falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "large softbox shaped with broad falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing large softbox shaped with broad falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with large softbox shaped with broad falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-light-source-base-large-softbox",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-source",
+        "rarity-uncommon",
+        "source-artificial"
+      ],
+      "facets": {
+        "source": "large-softbox",
+        "treatment": "broad-falloff"
+      },
+      "subcategory": "large-softbox",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-source-base-large-softbox-rapid-falloff",
+      "semantic_key": "cinematography-light-source-base-large-softbox-rapid-falloff",
+      "text": "large softbox shaped with rapid falloff",
+      "sentence": "Large softbox shaped with rapid falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "large softbox shaped with rapid falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing large softbox shaped with rapid falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with large softbox shaped with rapid falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-light-source-base-large-softbox",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-source",
+        "rarity-rare",
+        "source-artificial"
+      ],
+      "facets": {
+        "source": "large-softbox",
+        "treatment": "rapid-falloff"
+      },
+      "subcategory": "large-softbox",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-source-base-large-softbox-layered-illumination",
+      "semantic_key": "cinematography-light-source-base-large-softbox-layered-illumination",
+      "text": "large softbox shaped with layered illumination",
+      "sentence": "Large softbox shaped with layered illumination.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "large softbox shaped with layered illumination",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing large softbox shaped with layered illumination",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with large softbox shaped with layered illumination",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-light-source-base-large-softbox",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-source",
+        "rarity-rare",
+        "source-artificial"
+      ],
+      "facets": {
+        "source": "large-softbox",
+        "treatment": "layered-illumination"
+      },
+      "subcategory": "large-softbox",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-source-base-beauty-dish-low-contrast",
+      "semantic_key": "cinematography-light-source-base-beauty-dish-low-contrast",
+      "text": "beauty dish shaped with low contrast",
+      "sentence": "Beauty dish shaped with low contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "beauty dish shaped with low contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing beauty dish shaped with low contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with beauty dish shaped with low contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-source-base-beauty-dish",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-source",
+        "rarity-common",
+        "source-artificial"
+      ],
+      "facets": {
+        "source": "beauty-dish",
+        "treatment": "low-contrast"
+      },
+      "subcategory": "beauty-dish",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-source-base-beauty-dish-moderate-contrast",
+      "semantic_key": "cinematography-light-source-base-beauty-dish-moderate-contrast",
+      "text": "beauty dish shaped with moderate contrast",
+      "sentence": "Beauty dish shaped with moderate contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "beauty dish shaped with moderate contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing beauty dish shaped with moderate contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with beauty dish shaped with moderate contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-source-base-beauty-dish",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-source",
+        "rarity-common",
+        "source-artificial"
+      ],
+      "facets": {
+        "source": "beauty-dish",
+        "treatment": "moderate-contrast"
+      },
+      "subcategory": "beauty-dish",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-source-base-beauty-dish-high-contrast",
+      "semantic_key": "cinematography-light-source-base-beauty-dish-high-contrast",
+      "text": "beauty dish shaped with high contrast",
+      "sentence": "Beauty dish shaped with high contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "beauty dish shaped with high contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing beauty dish shaped with high contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with beauty dish shaped with high contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-source-base-beauty-dish",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-source",
+        "rarity-common",
+        "source-artificial"
+      ],
+      "facets": {
+        "source": "beauty-dish",
+        "treatment": "high-contrast"
+      },
+      "subcategory": "beauty-dish",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-source-base-beauty-dish-soft-transitions",
+      "semantic_key": "cinematography-light-source-base-beauty-dish-soft-transitions",
+      "text": "beauty dish shaped with soft transitions",
+      "sentence": "Beauty dish shaped with soft transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "beauty dish shaped with soft transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing beauty dish shaped with soft transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with beauty dish shaped with soft transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-source-base-beauty-dish",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-source",
+        "rarity-common",
+        "source-artificial"
+      ],
+      "facets": {
+        "source": "beauty-dish",
+        "treatment": "soft-transitions"
+      },
+      "subcategory": "beauty-dish",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-source-base-beauty-dish-crisp-transitions",
+      "semantic_key": "cinematography-light-source-base-beauty-dish-crisp-transitions",
+      "text": "beauty dish shaped with crisp transitions",
+      "sentence": "Beauty dish shaped with crisp transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "beauty dish shaped with crisp transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing beauty dish shaped with crisp transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with beauty dish shaped with crisp transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-light-source-base-beauty-dish",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-source",
+        "rarity-uncommon",
+        "source-artificial"
+      ],
+      "facets": {
+        "source": "beauty-dish",
+        "treatment": "crisp-transitions"
+      },
+      "subcategory": "beauty-dish",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-source-base-beauty-dish-broad-falloff",
+      "semantic_key": "cinematography-light-source-base-beauty-dish-broad-falloff",
+      "text": "beauty dish shaped with broad falloff",
+      "sentence": "Beauty dish shaped with broad falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "beauty dish shaped with broad falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing beauty dish shaped with broad falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with beauty dish shaped with broad falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-light-source-base-beauty-dish",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-source",
+        "rarity-uncommon",
+        "source-artificial"
+      ],
+      "facets": {
+        "source": "beauty-dish",
+        "treatment": "broad-falloff"
+      },
+      "subcategory": "beauty-dish",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-source-base-beauty-dish-rapid-falloff",
+      "semantic_key": "cinematography-light-source-base-beauty-dish-rapid-falloff",
+      "text": "beauty dish shaped with rapid falloff",
+      "sentence": "Beauty dish shaped with rapid falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "beauty dish shaped with rapid falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing beauty dish shaped with rapid falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with beauty dish shaped with rapid falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-light-source-base-beauty-dish",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-source",
+        "rarity-rare",
+        "source-artificial"
+      ],
+      "facets": {
+        "source": "beauty-dish",
+        "treatment": "rapid-falloff"
+      },
+      "subcategory": "beauty-dish",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-source-base-beauty-dish-layered-illumination",
+      "semantic_key": "cinematography-light-source-base-beauty-dish-layered-illumination",
+      "text": "beauty dish shaped with layered illumination",
+      "sentence": "Beauty dish shaped with layered illumination.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "beauty dish shaped with layered illumination",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing beauty dish shaped with layered illumination",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with beauty dish shaped with layered illumination",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-light-source-base-beauty-dish",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-source",
+        "rarity-rare",
+        "source-artificial"
+      ],
+      "facets": {
+        "source": "beauty-dish",
+        "treatment": "layered-illumination"
+      },
+      "subcategory": "beauty-dish",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-source-base-fresnel-lamp-low-contrast",
+      "semantic_key": "cinematography-light-source-base-fresnel-lamp-low-contrast",
+      "text": "fresnel lamp shaped with low contrast",
+      "sentence": "Fresnel lamp shaped with low contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "fresnel lamp shaped with low contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing fresnel lamp shaped with low contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with fresnel lamp shaped with low contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-source-base-fresnel-lamp",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-source",
+        "rarity-common",
+        "source-artificial"
+      ],
+      "facets": {
+        "source": "fresnel-lamp",
+        "treatment": "low-contrast"
+      },
+      "subcategory": "fresnel-lamp",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-source-base-fresnel-lamp-moderate-contrast",
+      "semantic_key": "cinematography-light-source-base-fresnel-lamp-moderate-contrast",
+      "text": "fresnel lamp shaped with moderate contrast",
+      "sentence": "Fresnel lamp shaped with moderate contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "fresnel lamp shaped with moderate contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing fresnel lamp shaped with moderate contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with fresnel lamp shaped with moderate contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-source-base-fresnel-lamp",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-source",
+        "rarity-common",
+        "source-artificial"
+      ],
+      "facets": {
+        "source": "fresnel-lamp",
+        "treatment": "moderate-contrast"
+      },
+      "subcategory": "fresnel-lamp",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-source-base-fresnel-lamp-high-contrast",
+      "semantic_key": "cinematography-light-source-base-fresnel-lamp-high-contrast",
+      "text": "fresnel lamp shaped with high contrast",
+      "sentence": "Fresnel lamp shaped with high contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "fresnel lamp shaped with high contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing fresnel lamp shaped with high contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with fresnel lamp shaped with high contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-source-base-fresnel-lamp",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-source",
+        "rarity-common",
+        "source-artificial"
+      ],
+      "facets": {
+        "source": "fresnel-lamp",
+        "treatment": "high-contrast"
+      },
+      "subcategory": "fresnel-lamp",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-source-base-fresnel-lamp-soft-transitions",
+      "semantic_key": "cinematography-light-source-base-fresnel-lamp-soft-transitions",
+      "text": "fresnel lamp shaped with soft transitions",
+      "sentence": "Fresnel lamp shaped with soft transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "fresnel lamp shaped with soft transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing fresnel lamp shaped with soft transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with fresnel lamp shaped with soft transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-source-base-fresnel-lamp",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-source",
+        "rarity-common",
+        "source-artificial"
+      ],
+      "facets": {
+        "source": "fresnel-lamp",
+        "treatment": "soft-transitions"
+      },
+      "subcategory": "fresnel-lamp",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-source-base-fresnel-lamp-crisp-transitions",
+      "semantic_key": "cinematography-light-source-base-fresnel-lamp-crisp-transitions",
+      "text": "fresnel lamp shaped with crisp transitions",
+      "sentence": "Fresnel lamp shaped with crisp transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "fresnel lamp shaped with crisp transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing fresnel lamp shaped with crisp transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with fresnel lamp shaped with crisp transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-light-source-base-fresnel-lamp",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-source",
+        "rarity-uncommon",
+        "source-artificial"
+      ],
+      "facets": {
+        "source": "fresnel-lamp",
+        "treatment": "crisp-transitions"
+      },
+      "subcategory": "fresnel-lamp",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-source-base-fresnel-lamp-broad-falloff",
+      "semantic_key": "cinematography-light-source-base-fresnel-lamp-broad-falloff",
+      "text": "fresnel lamp shaped with broad falloff",
+      "sentence": "Fresnel lamp shaped with broad falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "fresnel lamp shaped with broad falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing fresnel lamp shaped with broad falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with fresnel lamp shaped with broad falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-light-source-base-fresnel-lamp",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-source",
+        "rarity-uncommon",
+        "source-artificial"
+      ],
+      "facets": {
+        "source": "fresnel-lamp",
+        "treatment": "broad-falloff"
+      },
+      "subcategory": "fresnel-lamp",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-source-base-fresnel-lamp-rapid-falloff",
+      "semantic_key": "cinematography-light-source-base-fresnel-lamp-rapid-falloff",
+      "text": "fresnel lamp shaped with rapid falloff",
+      "sentence": "Fresnel lamp shaped with rapid falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "fresnel lamp shaped with rapid falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing fresnel lamp shaped with rapid falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with fresnel lamp shaped with rapid falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-light-source-base-fresnel-lamp",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-source",
+        "rarity-rare",
+        "source-artificial"
+      ],
+      "facets": {
+        "source": "fresnel-lamp",
+        "treatment": "rapid-falloff"
+      },
+      "subcategory": "fresnel-lamp",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-source-base-fresnel-lamp-layered-illumination",
+      "semantic_key": "cinematography-light-source-base-fresnel-lamp-layered-illumination",
+      "text": "fresnel lamp shaped with layered illumination",
+      "sentence": "Fresnel lamp shaped with layered illumination.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "fresnel lamp shaped with layered illumination",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing fresnel lamp shaped with layered illumination",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with fresnel lamp shaped with layered illumination",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-light-source-base-fresnel-lamp",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-source",
+        "rarity-rare",
+        "source-artificial"
+      ],
+      "facets": {
+        "source": "fresnel-lamp",
+        "treatment": "layered-illumination"
+      },
+      "subcategory": "fresnel-lamp",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-source-base-practical-room-light-low-contrast",
+      "semantic_key": "cinematography-light-source-base-practical-room-light-low-contrast",
+      "text": "practical room light shaped with low contrast",
+      "sentence": "Practical room light shaped with low contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "practical room light shaped with low contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing practical room light shaped with low contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with practical room light shaped with low contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-source-base-practical-room-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-source",
+        "rarity-common",
+        "source-artificial"
+      ],
+      "facets": {
+        "source": "practical-room-light",
+        "treatment": "low-contrast"
+      },
+      "subcategory": "practical-room-light",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-source-base-practical-room-light-moderate-contrast",
+      "semantic_key": "cinematography-light-source-base-practical-room-light-moderate-contrast",
+      "text": "practical room light shaped with moderate contrast",
+      "sentence": "Practical room light shaped with moderate contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "practical room light shaped with moderate contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing practical room light shaped with moderate contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with practical room light shaped with moderate contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-source-base-practical-room-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-source",
+        "rarity-common",
+        "source-artificial"
+      ],
+      "facets": {
+        "source": "practical-room-light",
+        "treatment": "moderate-contrast"
+      },
+      "subcategory": "practical-room-light",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-source-base-practical-room-light-high-contrast",
+      "semantic_key": "cinematography-light-source-base-practical-room-light-high-contrast",
+      "text": "practical room light shaped with high contrast",
+      "sentence": "Practical room light shaped with high contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "practical room light shaped with high contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing practical room light shaped with high contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with practical room light shaped with high contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-source-base-practical-room-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-source",
+        "rarity-common",
+        "source-artificial"
+      ],
+      "facets": {
+        "source": "practical-room-light",
+        "treatment": "high-contrast"
+      },
+      "subcategory": "practical-room-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-source-base-practical-room-light-soft-transitions",
+      "semantic_key": "cinematography-light-source-base-practical-room-light-soft-transitions",
+      "text": "practical room light shaped with soft transitions",
+      "sentence": "Practical room light shaped with soft transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "practical room light shaped with soft transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing practical room light shaped with soft transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with practical room light shaped with soft transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-source-base-practical-room-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-source",
+        "rarity-common",
+        "source-artificial"
+      ],
+      "facets": {
+        "source": "practical-room-light",
+        "treatment": "soft-transitions"
+      },
+      "subcategory": "practical-room-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-source-base-practical-room-light-crisp-transitions",
+      "semantic_key": "cinematography-light-source-base-practical-room-light-crisp-transitions",
+      "text": "practical room light shaped with crisp transitions",
+      "sentence": "Practical room light shaped with crisp transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "practical room light shaped with crisp transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing practical room light shaped with crisp transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with practical room light shaped with crisp transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-light-source-base-practical-room-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-source",
+        "rarity-uncommon",
+        "source-artificial"
+      ],
+      "facets": {
+        "source": "practical-room-light",
+        "treatment": "crisp-transitions"
+      },
+      "subcategory": "practical-room-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-source-base-practical-room-light-broad-falloff",
+      "semantic_key": "cinematography-light-source-base-practical-room-light-broad-falloff",
+      "text": "practical room light shaped with broad falloff",
+      "sentence": "Practical room light shaped with broad falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "practical room light shaped with broad falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing practical room light shaped with broad falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with practical room light shaped with broad falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-light-source-base-practical-room-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-source",
+        "rarity-uncommon",
+        "source-artificial"
+      ],
+      "facets": {
+        "source": "practical-room-light",
+        "treatment": "broad-falloff"
+      },
+      "subcategory": "practical-room-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-source-base-practical-room-light-rapid-falloff",
+      "semantic_key": "cinematography-light-source-base-practical-room-light-rapid-falloff",
+      "text": "practical room light shaped with rapid falloff",
+      "sentence": "Practical room light shaped with rapid falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "practical room light shaped with rapid falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing practical room light shaped with rapid falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with practical room light shaped with rapid falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-light-source-base-practical-room-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-source",
+        "rarity-rare",
+        "source-artificial"
+      ],
+      "facets": {
+        "source": "practical-room-light",
+        "treatment": "rapid-falloff"
+      },
+      "subcategory": "practical-room-light",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-source-base-practical-room-light-layered-illumination",
+      "semantic_key": "cinematography-light-source-base-practical-room-light-layered-illumination",
+      "text": "practical room light shaped with layered illumination",
+      "sentence": "Practical room light shaped with layered illumination.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "practical room light shaped with layered illumination",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing practical room light shaped with layered illumination",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with practical room light shaped with layered illumination",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-light-source-base-practical-room-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-source",
+        "rarity-rare",
+        "source-artificial"
+      ],
+      "facets": {
+        "source": "practical-room-light",
+        "treatment": "layered-illumination"
+      },
+      "subcategory": "practical-room-light",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-source-base-reflected-bounce-light-low-contrast",
+      "semantic_key": "cinematography-light-source-base-reflected-bounce-light-low-contrast",
+      "text": "reflected bounce light shaped with low contrast",
+      "sentence": "Reflected bounce light shaped with low contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "reflected bounce light shaped with low contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing reflected bounce light shaped with low contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with reflected bounce light shaped with low contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-source-base-reflected-bounce-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-source",
+        "rarity-common",
+        "source-artificial"
+      ],
+      "facets": {
+        "source": "reflected-bounce-light",
+        "treatment": "low-contrast"
+      },
+      "subcategory": "reflected-bounce-light",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-source-base-reflected-bounce-light-moderate-contrast",
+      "semantic_key": "cinematography-light-source-base-reflected-bounce-light-moderate-contrast",
+      "text": "reflected bounce light shaped with moderate contrast",
+      "sentence": "Reflected bounce light shaped with moderate contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "reflected bounce light shaped with moderate contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing reflected bounce light shaped with moderate contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with reflected bounce light shaped with moderate contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-source-base-reflected-bounce-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-source",
+        "rarity-common",
+        "source-artificial"
+      ],
+      "facets": {
+        "source": "reflected-bounce-light",
+        "treatment": "moderate-contrast"
+      },
+      "subcategory": "reflected-bounce-light",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-source-base-reflected-bounce-light-high-contrast",
+      "semantic_key": "cinematography-light-source-base-reflected-bounce-light-high-contrast",
+      "text": "reflected bounce light shaped with high contrast",
+      "sentence": "Reflected bounce light shaped with high contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "reflected bounce light shaped with high contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing reflected bounce light shaped with high contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with reflected bounce light shaped with high contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-source-base-reflected-bounce-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-source",
+        "rarity-common",
+        "source-artificial"
+      ],
+      "facets": {
+        "source": "reflected-bounce-light",
+        "treatment": "high-contrast"
+      },
+      "subcategory": "reflected-bounce-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-source-base-reflected-bounce-light-soft-transitions",
+      "semantic_key": "cinematography-light-source-base-reflected-bounce-light-soft-transitions",
+      "text": "reflected bounce light shaped with soft transitions",
+      "sentence": "Reflected bounce light shaped with soft transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "reflected bounce light shaped with soft transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing reflected bounce light shaped with soft transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with reflected bounce light shaped with soft transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-source-base-reflected-bounce-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-source",
+        "rarity-common",
+        "source-artificial"
+      ],
+      "facets": {
+        "source": "reflected-bounce-light",
+        "treatment": "soft-transitions"
+      },
+      "subcategory": "reflected-bounce-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-source-base-reflected-bounce-light-crisp-transitions",
+      "semantic_key": "cinematography-light-source-base-reflected-bounce-light-crisp-transitions",
+      "text": "reflected bounce light shaped with crisp transitions",
+      "sentence": "Reflected bounce light shaped with crisp transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "reflected bounce light shaped with crisp transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing reflected bounce light shaped with crisp transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with reflected bounce light shaped with crisp transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-light-source-base-reflected-bounce-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-source",
+        "rarity-uncommon",
+        "source-artificial"
+      ],
+      "facets": {
+        "source": "reflected-bounce-light",
+        "treatment": "crisp-transitions"
+      },
+      "subcategory": "reflected-bounce-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-source-base-reflected-bounce-light-broad-falloff",
+      "semantic_key": "cinematography-light-source-base-reflected-bounce-light-broad-falloff",
+      "text": "reflected bounce light shaped with broad falloff",
+      "sentence": "Reflected bounce light shaped with broad falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "reflected bounce light shaped with broad falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing reflected bounce light shaped with broad falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with reflected bounce light shaped with broad falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-light-source-base-reflected-bounce-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-source",
+        "rarity-uncommon",
+        "source-artificial"
+      ],
+      "facets": {
+        "source": "reflected-bounce-light",
+        "treatment": "broad-falloff"
+      },
+      "subcategory": "reflected-bounce-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-source-base-reflected-bounce-light-rapid-falloff",
+      "semantic_key": "cinematography-light-source-base-reflected-bounce-light-rapid-falloff",
+      "text": "reflected bounce light shaped with rapid falloff",
+      "sentence": "Reflected bounce light shaped with rapid falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "reflected bounce light shaped with rapid falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing reflected bounce light shaped with rapid falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with reflected bounce light shaped with rapid falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-light-source-base-reflected-bounce-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-source",
+        "rarity-rare",
+        "source-artificial"
+      ],
+      "facets": {
+        "source": "reflected-bounce-light",
+        "treatment": "rapid-falloff"
+      },
+      "subcategory": "reflected-bounce-light",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-source-base-reflected-bounce-light-layered-illumination",
+      "semantic_key": "cinematography-light-source-base-reflected-bounce-light-layered-illumination",
+      "text": "reflected bounce light shaped with layered illumination",
+      "sentence": "Reflected bounce light shaped with layered illumination.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "reflected bounce light shaped with layered illumination",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing reflected bounce light shaped with layered illumination",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with reflected bounce light shaped with layered illumination",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-light-source-base-reflected-bounce-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-source",
+        "rarity-rare",
+        "source-artificial"
+      ],
+      "facets": {
+        "source": "reflected-bounce-light",
+        "treatment": "layered-illumination"
+      },
+      "subcategory": "reflected-bounce-light",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    }
+  ]
+}

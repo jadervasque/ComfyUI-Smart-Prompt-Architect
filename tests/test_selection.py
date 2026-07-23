@@ -140,6 +140,45 @@ class BasicModeTests(unittest.TestCase):
                 profile.sections["identity"], _library("identity"), profile, configuration
             )
 
+    def test_custom_text_bypasses_library_options_without_losing_provenance(self) -> None:
+        profile = _profile()
+        configuration = replace(
+            _configuration(),
+            schema_version="1.1",
+            fields={
+                "identity": FieldConfiguration(
+                    FieldMode.CUSTOM, "A specific adult explorer with a silver braid"
+                )
+            },
+        )
+        selected = select_basic_option(
+            profile.sections["identity"], _library("identity"), profile, configuration
+        )
+        if selected is None:
+            self.fail("custom selection unexpectedly returned None")
+        self.assertEqual(selected.option.id, "custom")
+        self.assertEqual(
+            selected.option.text,
+            "A specific adult explorer with a silver braid",
+        )
+        self.assertEqual(selected.source, SelectionSource.CUSTOM)
+
+    def test_custom_text_cannot_be_empty_or_oversized(self) -> None:
+        profile = _profile()
+        for value in ("   ", "x" * 4097):
+            with self.subTest(size=len(value)):
+                configuration = replace(
+                    _configuration(),
+                    fields={"identity": FieldConfiguration(FieldMode.CUSTOM, value)},
+                )
+                with self.assertRaises(ConfigurationError):
+                    select_basic_option(
+                        profile.sections["identity"],
+                        _library("identity"),
+                        profile,
+                        configuration,
+                    )
+
     def test_disabled_optional_returns_none_but_required_fails(self) -> None:
         profile = _profile()
         configuration = replace(

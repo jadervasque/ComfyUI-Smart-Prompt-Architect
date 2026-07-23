@@ -1,0 +1,2642 @@
+{
+  "schema_version": "2.0",
+  "id": "negative-base",
+  "version": "2.0.0",
+  "library": "negative-base",
+  "domain": "negative",
+  "category": "negative-base",
+  "language": "en",
+  "status": "active",
+  "safety": "general",
+  "tags": [
+    "base",
+    "level-minimal"
+  ],
+  "fallback_option_id": "negative-base-low-resolution-artifacts-minor-occurrence",
+  "options": [
+    {
+      "id": "negative-base-low-resolution-artifacts-minor-occurrence",
+      "semantic_key": "negative-base-low-resolution-artifacts-minor-occurrence",
+      "text": "low-resolution artifacts at minor occurrence",
+      "sentence": "Low-resolution artifacts at minor occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "low-resolution artifacts at minor occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid low-resolution artifacts at minor occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude low-resolution artifacts at minor occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-base-low-resolution-artifacts",
+      "tags": [
+        "base",
+        "level-minimal",
+        "negative",
+        "negative-base",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "low-resolution-artifacts",
+        "treatment": "minor-occurrence"
+      },
+      "subcategory": "low-resolution-artifacts",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-base-low-resolution-artifacts-repeated-occurrence",
+      "semantic_key": "negative-base-low-resolution-artifacts-repeated-occurrence",
+      "text": "low-resolution artifacts at repeated occurrence",
+      "sentence": "Low-resolution artifacts at repeated occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "low-resolution artifacts at repeated occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid low-resolution artifacts at repeated occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude low-resolution artifacts at repeated occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-base-low-resolution-artifacts",
+      "tags": [
+        "base",
+        "level-minimal",
+        "negative",
+        "negative-base",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "low-resolution-artifacts",
+        "treatment": "repeated-occurrence"
+      },
+      "subcategory": "low-resolution-artifacts",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-base-low-resolution-artifacts-prominent-occurrence",
+      "semantic_key": "negative-base-low-resolution-artifacts-prominent-occurrence",
+      "text": "low-resolution artifacts at prominent occurrence",
+      "sentence": "Low-resolution artifacts at prominent occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "low-resolution artifacts at prominent occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid low-resolution artifacts at prominent occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude low-resolution artifacts at prominent occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-base-low-resolution-artifacts",
+      "tags": [
+        "base",
+        "level-minimal",
+        "negative",
+        "negative-base",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "low-resolution-artifacts",
+        "treatment": "prominent-occurrence"
+      },
+      "subcategory": "low-resolution-artifacts",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-base-low-resolution-artifacts-edge-occurrence",
+      "semantic_key": "negative-base-low-resolution-artifacts-edge-occurrence",
+      "text": "low-resolution artifacts at edge occurrence",
+      "sentence": "Low-resolution artifacts at edge occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "low-resolution artifacts at edge occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid low-resolution artifacts at edge occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude low-resolution artifacts at edge occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-base-low-resolution-artifacts",
+      "tags": [
+        "base",
+        "level-minimal",
+        "negative",
+        "negative-base",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "low-resolution-artifacts",
+        "treatment": "edge-occurrence"
+      },
+      "subcategory": "low-resolution-artifacts",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-base-low-resolution-artifacts-background-occurrence",
+      "semantic_key": "negative-base-low-resolution-artifacts-background-occurrence",
+      "text": "low-resolution artifacts at background occurrence",
+      "sentence": "Low-resolution artifacts at background occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "low-resolution artifacts at background occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid low-resolution artifacts at background occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude low-resolution artifacts at background occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "negative-base-low-resolution-artifacts",
+      "tags": [
+        "base",
+        "level-minimal",
+        "negative",
+        "negative-base",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "artifact-family": "low-resolution-artifacts",
+        "treatment": "background-occurrence"
+      },
+      "subcategory": "low-resolution-artifacts",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-base-low-resolution-artifacts-subject-occurrence",
+      "semantic_key": "negative-base-low-resolution-artifacts-subject-occurrence",
+      "text": "low-resolution artifacts at subject occurrence",
+      "sentence": "Low-resolution artifacts at subject occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "low-resolution artifacts at subject occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid low-resolution artifacts at subject occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude low-resolution artifacts at subject occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "negative-base-low-resolution-artifacts",
+      "tags": [
+        "base",
+        "level-minimal",
+        "negative",
+        "negative-base",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "artifact-family": "low-resolution-artifacts",
+        "treatment": "subject-occurrence"
+      },
+      "subcategory": "low-resolution-artifacts",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-base-low-resolution-artifacts-high-frequency-occurrence",
+      "semantic_key": "negative-base-low-resolution-artifacts-high-frequency-occurrence",
+      "text": "low-resolution artifacts at high-frequency occurrence",
+      "sentence": "Low-resolution artifacts at high-frequency occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "low-resolution artifacts at high-frequency occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid low-resolution artifacts at high-frequency occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude low-resolution artifacts at high-frequency occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "negative-base-low-resolution-artifacts",
+      "tags": [
+        "base",
+        "level-minimal",
+        "negative",
+        "negative-base",
+        "rarity-rare"
+      ],
+      "facets": {
+        "artifact-family": "low-resolution-artifacts",
+        "treatment": "high-frequency-occurrence"
+      },
+      "subcategory": "low-resolution-artifacts",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-base-low-resolution-artifacts-composition-wide-occurrence",
+      "semantic_key": "negative-base-low-resolution-artifacts-composition-wide-occurrence",
+      "text": "low-resolution artifacts at composition-wide occurrence",
+      "sentence": "Low-resolution artifacts at composition-wide occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "low-resolution artifacts at composition-wide occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid low-resolution artifacts at composition-wide occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude low-resolution artifacts at composition-wide occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "negative-base-low-resolution-artifacts",
+      "tags": [
+        "base",
+        "level-minimal",
+        "negative",
+        "negative-base",
+        "rarity-rare"
+      ],
+      "facets": {
+        "artifact-family": "low-resolution-artifacts",
+        "treatment": "composition-wide-occurrence"
+      },
+      "subcategory": "low-resolution-artifacts",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-base-compression-artifacts-minor-occurrence",
+      "semantic_key": "negative-base-compression-artifacts-minor-occurrence",
+      "text": "compression artifacts at minor occurrence",
+      "sentence": "Compression artifacts at minor occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "compression artifacts at minor occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid compression artifacts at minor occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude compression artifacts at minor occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-base-compression-artifacts",
+      "tags": [
+        "base",
+        "level-minimal",
+        "negative",
+        "negative-base",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "compression-artifacts",
+        "treatment": "minor-occurrence"
+      },
+      "subcategory": "compression-artifacts",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-base-compression-artifacts-repeated-occurrence",
+      "semantic_key": "negative-base-compression-artifacts-repeated-occurrence",
+      "text": "compression artifacts at repeated occurrence",
+      "sentence": "Compression artifacts at repeated occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "compression artifacts at repeated occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid compression artifacts at repeated occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude compression artifacts at repeated occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-base-compression-artifacts",
+      "tags": [
+        "base",
+        "level-minimal",
+        "negative",
+        "negative-base",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "compression-artifacts",
+        "treatment": "repeated-occurrence"
+      },
+      "subcategory": "compression-artifacts",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-base-compression-artifacts-prominent-occurrence",
+      "semantic_key": "negative-base-compression-artifacts-prominent-occurrence",
+      "text": "compression artifacts at prominent occurrence",
+      "sentence": "Compression artifacts at prominent occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "compression artifacts at prominent occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid compression artifacts at prominent occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude compression artifacts at prominent occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-base-compression-artifacts",
+      "tags": [
+        "base",
+        "level-minimal",
+        "negative",
+        "negative-base",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "compression-artifacts",
+        "treatment": "prominent-occurrence"
+      },
+      "subcategory": "compression-artifacts",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-base-compression-artifacts-edge-occurrence",
+      "semantic_key": "negative-base-compression-artifacts-edge-occurrence",
+      "text": "compression artifacts at edge occurrence",
+      "sentence": "Compression artifacts at edge occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "compression artifacts at edge occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid compression artifacts at edge occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude compression artifacts at edge occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-base-compression-artifacts",
+      "tags": [
+        "base",
+        "level-minimal",
+        "negative",
+        "negative-base",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "compression-artifacts",
+        "treatment": "edge-occurrence"
+      },
+      "subcategory": "compression-artifacts",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-base-compression-artifacts-background-occurrence",
+      "semantic_key": "negative-base-compression-artifacts-background-occurrence",
+      "text": "compression artifacts at background occurrence",
+      "sentence": "Compression artifacts at background occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "compression artifacts at background occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid compression artifacts at background occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude compression artifacts at background occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "negative-base-compression-artifacts",
+      "tags": [
+        "base",
+        "level-minimal",
+        "negative",
+        "negative-base",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "artifact-family": "compression-artifacts",
+        "treatment": "background-occurrence"
+      },
+      "subcategory": "compression-artifacts",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-base-compression-artifacts-subject-occurrence",
+      "semantic_key": "negative-base-compression-artifacts-subject-occurrence",
+      "text": "compression artifacts at subject occurrence",
+      "sentence": "Compression artifacts at subject occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "compression artifacts at subject occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid compression artifacts at subject occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude compression artifacts at subject occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "negative-base-compression-artifacts",
+      "tags": [
+        "base",
+        "level-minimal",
+        "negative",
+        "negative-base",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "artifact-family": "compression-artifacts",
+        "treatment": "subject-occurrence"
+      },
+      "subcategory": "compression-artifacts",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-base-compression-artifacts-high-frequency-occurrence",
+      "semantic_key": "negative-base-compression-artifacts-high-frequency-occurrence",
+      "text": "compression artifacts at high-frequency occurrence",
+      "sentence": "Compression artifacts at high-frequency occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "compression artifacts at high-frequency occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid compression artifacts at high-frequency occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude compression artifacts at high-frequency occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "negative-base-compression-artifacts",
+      "tags": [
+        "base",
+        "level-minimal",
+        "negative",
+        "negative-base",
+        "rarity-rare"
+      ],
+      "facets": {
+        "artifact-family": "compression-artifacts",
+        "treatment": "high-frequency-occurrence"
+      },
+      "subcategory": "compression-artifacts",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-base-compression-artifacts-composition-wide-occurrence",
+      "semantic_key": "negative-base-compression-artifacts-composition-wide-occurrence",
+      "text": "compression artifacts at composition-wide occurrence",
+      "sentence": "Compression artifacts at composition-wide occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "compression artifacts at composition-wide occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid compression artifacts at composition-wide occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude compression artifacts at composition-wide occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "negative-base-compression-artifacts",
+      "tags": [
+        "base",
+        "level-minimal",
+        "negative",
+        "negative-base",
+        "rarity-rare"
+      ],
+      "facets": {
+        "artifact-family": "compression-artifacts",
+        "treatment": "composition-wide-occurrence"
+      },
+      "subcategory": "compression-artifacts",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-base-unintended-text-minor-occurrence",
+      "semantic_key": "negative-base-unintended-text-minor-occurrence",
+      "text": "unintended text at minor occurrence",
+      "sentence": "Unintended text at minor occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "unintended text at minor occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid unintended text at minor occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude unintended text at minor occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-base-unintended-text",
+      "tags": [
+        "base",
+        "level-minimal",
+        "negative",
+        "negative-base",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "unintended-text",
+        "treatment": "minor-occurrence"
+      },
+      "subcategory": "unintended-text",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-base-unintended-text-repeated-occurrence",
+      "semantic_key": "negative-base-unintended-text-repeated-occurrence",
+      "text": "unintended text at repeated occurrence",
+      "sentence": "Unintended text at repeated occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "unintended text at repeated occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid unintended text at repeated occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude unintended text at repeated occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-base-unintended-text",
+      "tags": [
+        "base",
+        "level-minimal",
+        "negative",
+        "negative-base",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "unintended-text",
+        "treatment": "repeated-occurrence"
+      },
+      "subcategory": "unintended-text",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-base-unintended-text-prominent-occurrence",
+      "semantic_key": "negative-base-unintended-text-prominent-occurrence",
+      "text": "unintended text at prominent occurrence",
+      "sentence": "Unintended text at prominent occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "unintended text at prominent occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid unintended text at prominent occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude unintended text at prominent occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-base-unintended-text",
+      "tags": [
+        "base",
+        "level-minimal",
+        "negative",
+        "negative-base",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "unintended-text",
+        "treatment": "prominent-occurrence"
+      },
+      "subcategory": "unintended-text",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-base-unintended-text-edge-occurrence",
+      "semantic_key": "negative-base-unintended-text-edge-occurrence",
+      "text": "unintended text at edge occurrence",
+      "sentence": "Unintended text at edge occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "unintended text at edge occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid unintended text at edge occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude unintended text at edge occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-base-unintended-text",
+      "tags": [
+        "base",
+        "level-minimal",
+        "negative",
+        "negative-base",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "unintended-text",
+        "treatment": "edge-occurrence"
+      },
+      "subcategory": "unintended-text",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-base-unintended-text-background-occurrence",
+      "semantic_key": "negative-base-unintended-text-background-occurrence",
+      "text": "unintended text at background occurrence",
+      "sentence": "Unintended text at background occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "unintended text at background occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid unintended text at background occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude unintended text at background occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "negative-base-unintended-text",
+      "tags": [
+        "base",
+        "level-minimal",
+        "negative",
+        "negative-base",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "artifact-family": "unintended-text",
+        "treatment": "background-occurrence"
+      },
+      "subcategory": "unintended-text",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-base-unintended-text-subject-occurrence",
+      "semantic_key": "negative-base-unintended-text-subject-occurrence",
+      "text": "unintended text at subject occurrence",
+      "sentence": "Unintended text at subject occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "unintended text at subject occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid unintended text at subject occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude unintended text at subject occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "negative-base-unintended-text",
+      "tags": [
+        "base",
+        "level-minimal",
+        "negative",
+        "negative-base",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "artifact-family": "unintended-text",
+        "treatment": "subject-occurrence"
+      },
+      "subcategory": "unintended-text",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-base-unintended-text-high-frequency-occurrence",
+      "semantic_key": "negative-base-unintended-text-high-frequency-occurrence",
+      "text": "unintended text at high-frequency occurrence",
+      "sentence": "Unintended text at high-frequency occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "unintended text at high-frequency occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid unintended text at high-frequency occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude unintended text at high-frequency occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "negative-base-unintended-text",
+      "tags": [
+        "base",
+        "level-minimal",
+        "negative",
+        "negative-base",
+        "rarity-rare"
+      ],
+      "facets": {
+        "artifact-family": "unintended-text",
+        "treatment": "high-frequency-occurrence"
+      },
+      "subcategory": "unintended-text",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-base-unintended-text-composition-wide-occurrence",
+      "semantic_key": "negative-base-unintended-text-composition-wide-occurrence",
+      "text": "unintended text at composition-wide occurrence",
+      "sentence": "Unintended text at composition-wide occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "unintended text at composition-wide occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid unintended text at composition-wide occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude unintended text at composition-wide occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "negative-base-unintended-text",
+      "tags": [
+        "base",
+        "level-minimal",
+        "negative",
+        "negative-base",
+        "rarity-rare"
+      ],
+      "facets": {
+        "artifact-family": "unintended-text",
+        "treatment": "composition-wide-occurrence"
+      },
+      "subcategory": "unintended-text",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-base-unintended-watermark-minor-occurrence",
+      "semantic_key": "negative-base-unintended-watermark-minor-occurrence",
+      "text": "unintended watermark at minor occurrence",
+      "sentence": "Unintended watermark at minor occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "unintended watermark at minor occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid unintended watermark at minor occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude unintended watermark at minor occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-base-unintended-watermark",
+      "tags": [
+        "base",
+        "level-minimal",
+        "negative",
+        "negative-base",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "unintended-watermark",
+        "treatment": "minor-occurrence"
+      },
+      "subcategory": "unintended-watermark",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-base-unintended-watermark-repeated-occurrence",
+      "semantic_key": "negative-base-unintended-watermark-repeated-occurrence",
+      "text": "unintended watermark at repeated occurrence",
+      "sentence": "Unintended watermark at repeated occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "unintended watermark at repeated occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid unintended watermark at repeated occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude unintended watermark at repeated occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-base-unintended-watermark",
+      "tags": [
+        "base",
+        "level-minimal",
+        "negative",
+        "negative-base",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "unintended-watermark",
+        "treatment": "repeated-occurrence"
+      },
+      "subcategory": "unintended-watermark",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-base-unintended-watermark-prominent-occurrence",
+      "semantic_key": "negative-base-unintended-watermark-prominent-occurrence",
+      "text": "unintended watermark at prominent occurrence",
+      "sentence": "Unintended watermark at prominent occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "unintended watermark at prominent occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid unintended watermark at prominent occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude unintended watermark at prominent occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-base-unintended-watermark",
+      "tags": [
+        "base",
+        "level-minimal",
+        "negative",
+        "negative-base",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "unintended-watermark",
+        "treatment": "prominent-occurrence"
+      },
+      "subcategory": "unintended-watermark",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-base-unintended-watermark-edge-occurrence",
+      "semantic_key": "negative-base-unintended-watermark-edge-occurrence",
+      "text": "unintended watermark at edge occurrence",
+      "sentence": "Unintended watermark at edge occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "unintended watermark at edge occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid unintended watermark at edge occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude unintended watermark at edge occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-base-unintended-watermark",
+      "tags": [
+        "base",
+        "level-minimal",
+        "negative",
+        "negative-base",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "unintended-watermark",
+        "treatment": "edge-occurrence"
+      },
+      "subcategory": "unintended-watermark",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-base-unintended-watermark-background-occurrence",
+      "semantic_key": "negative-base-unintended-watermark-background-occurrence",
+      "text": "unintended watermark at background occurrence",
+      "sentence": "Unintended watermark at background occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "unintended watermark at background occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid unintended watermark at background occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude unintended watermark at background occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "negative-base-unintended-watermark",
+      "tags": [
+        "base",
+        "level-minimal",
+        "negative",
+        "negative-base",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "artifact-family": "unintended-watermark",
+        "treatment": "background-occurrence"
+      },
+      "subcategory": "unintended-watermark",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-base-unintended-watermark-subject-occurrence",
+      "semantic_key": "negative-base-unintended-watermark-subject-occurrence",
+      "text": "unintended watermark at subject occurrence",
+      "sentence": "Unintended watermark at subject occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "unintended watermark at subject occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid unintended watermark at subject occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude unintended watermark at subject occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "negative-base-unintended-watermark",
+      "tags": [
+        "base",
+        "level-minimal",
+        "negative",
+        "negative-base",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "artifact-family": "unintended-watermark",
+        "treatment": "subject-occurrence"
+      },
+      "subcategory": "unintended-watermark",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-base-unintended-watermark-high-frequency-occurrence",
+      "semantic_key": "negative-base-unintended-watermark-high-frequency-occurrence",
+      "text": "unintended watermark at high-frequency occurrence",
+      "sentence": "Unintended watermark at high-frequency occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "unintended watermark at high-frequency occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid unintended watermark at high-frequency occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude unintended watermark at high-frequency occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "negative-base-unintended-watermark",
+      "tags": [
+        "base",
+        "level-minimal",
+        "negative",
+        "negative-base",
+        "rarity-rare"
+      ],
+      "facets": {
+        "artifact-family": "unintended-watermark",
+        "treatment": "high-frequency-occurrence"
+      },
+      "subcategory": "unintended-watermark",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-base-unintended-watermark-composition-wide-occurrence",
+      "semantic_key": "negative-base-unintended-watermark-composition-wide-occurrence",
+      "text": "unintended watermark at composition-wide occurrence",
+      "sentence": "Unintended watermark at composition-wide occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "unintended watermark at composition-wide occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid unintended watermark at composition-wide occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude unintended watermark at composition-wide occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "negative-base-unintended-watermark",
+      "tags": [
+        "base",
+        "level-minimal",
+        "negative",
+        "negative-base",
+        "rarity-rare"
+      ],
+      "facets": {
+        "artifact-family": "unintended-watermark",
+        "treatment": "composition-wide-occurrence"
+      },
+      "subcategory": "unintended-watermark",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-base-duplicate-subject-minor-occurrence",
+      "semantic_key": "negative-base-duplicate-subject-minor-occurrence",
+      "text": "duplicate subject at minor occurrence",
+      "sentence": "Duplicate subject at minor occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "duplicate subject at minor occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid duplicate subject at minor occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude duplicate subject at minor occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-base-duplicate-subject",
+      "tags": [
+        "base",
+        "level-minimal",
+        "negative",
+        "negative-base",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "duplicate-subject",
+        "treatment": "minor-occurrence"
+      },
+      "subcategory": "duplicate-subject",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-base-duplicate-subject-repeated-occurrence",
+      "semantic_key": "negative-base-duplicate-subject-repeated-occurrence",
+      "text": "duplicate subject at repeated occurrence",
+      "sentence": "Duplicate subject at repeated occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "duplicate subject at repeated occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid duplicate subject at repeated occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude duplicate subject at repeated occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-base-duplicate-subject",
+      "tags": [
+        "base",
+        "level-minimal",
+        "negative",
+        "negative-base",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "duplicate-subject",
+        "treatment": "repeated-occurrence"
+      },
+      "subcategory": "duplicate-subject",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-base-duplicate-subject-prominent-occurrence",
+      "semantic_key": "negative-base-duplicate-subject-prominent-occurrence",
+      "text": "duplicate subject at prominent occurrence",
+      "sentence": "Duplicate subject at prominent occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "duplicate subject at prominent occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid duplicate subject at prominent occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude duplicate subject at prominent occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-base-duplicate-subject",
+      "tags": [
+        "base",
+        "level-minimal",
+        "negative",
+        "negative-base",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "duplicate-subject",
+        "treatment": "prominent-occurrence"
+      },
+      "subcategory": "duplicate-subject",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-base-duplicate-subject-edge-occurrence",
+      "semantic_key": "negative-base-duplicate-subject-edge-occurrence",
+      "text": "duplicate subject at edge occurrence",
+      "sentence": "Duplicate subject at edge occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "duplicate subject at edge occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid duplicate subject at edge occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude duplicate subject at edge occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-base-duplicate-subject",
+      "tags": [
+        "base",
+        "level-minimal",
+        "negative",
+        "negative-base",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "duplicate-subject",
+        "treatment": "edge-occurrence"
+      },
+      "subcategory": "duplicate-subject",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-base-duplicate-subject-background-occurrence",
+      "semantic_key": "negative-base-duplicate-subject-background-occurrence",
+      "text": "duplicate subject at background occurrence",
+      "sentence": "Duplicate subject at background occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "duplicate subject at background occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid duplicate subject at background occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude duplicate subject at background occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "negative-base-duplicate-subject",
+      "tags": [
+        "base",
+        "level-minimal",
+        "negative",
+        "negative-base",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "artifact-family": "duplicate-subject",
+        "treatment": "background-occurrence"
+      },
+      "subcategory": "duplicate-subject",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-base-duplicate-subject-subject-occurrence",
+      "semantic_key": "negative-base-duplicate-subject-subject-occurrence",
+      "text": "duplicate subject at subject occurrence",
+      "sentence": "Duplicate subject at subject occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "duplicate subject at subject occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid duplicate subject at subject occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude duplicate subject at subject occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "negative-base-duplicate-subject",
+      "tags": [
+        "base",
+        "level-minimal",
+        "negative",
+        "negative-base",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "artifact-family": "duplicate-subject",
+        "treatment": "subject-occurrence"
+      },
+      "subcategory": "duplicate-subject",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-base-duplicate-subject-high-frequency-occurrence",
+      "semantic_key": "negative-base-duplicate-subject-high-frequency-occurrence",
+      "text": "duplicate subject at high-frequency occurrence",
+      "sentence": "Duplicate subject at high-frequency occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "duplicate subject at high-frequency occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid duplicate subject at high-frequency occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude duplicate subject at high-frequency occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "negative-base-duplicate-subject",
+      "tags": [
+        "base",
+        "level-minimal",
+        "negative",
+        "negative-base",
+        "rarity-rare"
+      ],
+      "facets": {
+        "artifact-family": "duplicate-subject",
+        "treatment": "high-frequency-occurrence"
+      },
+      "subcategory": "duplicate-subject",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-base-duplicate-subject-composition-wide-occurrence",
+      "semantic_key": "negative-base-duplicate-subject-composition-wide-occurrence",
+      "text": "duplicate subject at composition-wide occurrence",
+      "sentence": "Duplicate subject at composition-wide occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "duplicate subject at composition-wide occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid duplicate subject at composition-wide occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude duplicate subject at composition-wide occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "negative-base-duplicate-subject",
+      "tags": [
+        "base",
+        "level-minimal",
+        "negative",
+        "negative-base",
+        "rarity-rare"
+      ],
+      "facets": {
+        "artifact-family": "duplicate-subject",
+        "treatment": "composition-wide-occurrence"
+      },
+      "subcategory": "duplicate-subject",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-base-cropped-subject-error-minor-occurrence",
+      "semantic_key": "negative-base-cropped-subject-error-minor-occurrence",
+      "text": "cropped subject error at minor occurrence",
+      "sentence": "Cropped subject error at minor occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "cropped subject error at minor occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid cropped subject error at minor occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude cropped subject error at minor occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-base-cropped-subject-error",
+      "tags": [
+        "base",
+        "level-minimal",
+        "negative",
+        "negative-base",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "cropped-subject-error",
+        "treatment": "minor-occurrence"
+      },
+      "subcategory": "cropped-subject-error",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-base-cropped-subject-error-repeated-occurrence",
+      "semantic_key": "negative-base-cropped-subject-error-repeated-occurrence",
+      "text": "cropped subject error at repeated occurrence",
+      "sentence": "Cropped subject error at repeated occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "cropped subject error at repeated occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid cropped subject error at repeated occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude cropped subject error at repeated occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-base-cropped-subject-error",
+      "tags": [
+        "base",
+        "level-minimal",
+        "negative",
+        "negative-base",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "cropped-subject-error",
+        "treatment": "repeated-occurrence"
+      },
+      "subcategory": "cropped-subject-error",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-base-cropped-subject-error-prominent-occurrence",
+      "semantic_key": "negative-base-cropped-subject-error-prominent-occurrence",
+      "text": "cropped subject error at prominent occurrence",
+      "sentence": "Cropped subject error at prominent occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "cropped subject error at prominent occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid cropped subject error at prominent occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude cropped subject error at prominent occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-base-cropped-subject-error",
+      "tags": [
+        "base",
+        "level-minimal",
+        "negative",
+        "negative-base",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "cropped-subject-error",
+        "treatment": "prominent-occurrence"
+      },
+      "subcategory": "cropped-subject-error",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-base-cropped-subject-error-edge-occurrence",
+      "semantic_key": "negative-base-cropped-subject-error-edge-occurrence",
+      "text": "cropped subject error at edge occurrence",
+      "sentence": "Cropped subject error at edge occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "cropped subject error at edge occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid cropped subject error at edge occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude cropped subject error at edge occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-base-cropped-subject-error",
+      "tags": [
+        "base",
+        "level-minimal",
+        "negative",
+        "negative-base",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "cropped-subject-error",
+        "treatment": "edge-occurrence"
+      },
+      "subcategory": "cropped-subject-error",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-base-cropped-subject-error-background-occurrence",
+      "semantic_key": "negative-base-cropped-subject-error-background-occurrence",
+      "text": "cropped subject error at background occurrence",
+      "sentence": "Cropped subject error at background occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "cropped subject error at background occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid cropped subject error at background occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude cropped subject error at background occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "negative-base-cropped-subject-error",
+      "tags": [
+        "base",
+        "level-minimal",
+        "negative",
+        "negative-base",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "artifact-family": "cropped-subject-error",
+        "treatment": "background-occurrence"
+      },
+      "subcategory": "cropped-subject-error",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-base-cropped-subject-error-subject-occurrence",
+      "semantic_key": "negative-base-cropped-subject-error-subject-occurrence",
+      "text": "cropped subject error at subject occurrence",
+      "sentence": "Cropped subject error at subject occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "cropped subject error at subject occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid cropped subject error at subject occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude cropped subject error at subject occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "negative-base-cropped-subject-error",
+      "tags": [
+        "base",
+        "level-minimal",
+        "negative",
+        "negative-base",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "artifact-family": "cropped-subject-error",
+        "treatment": "subject-occurrence"
+      },
+      "subcategory": "cropped-subject-error",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-base-cropped-subject-error-high-frequency-occurrence",
+      "semantic_key": "negative-base-cropped-subject-error-high-frequency-occurrence",
+      "text": "cropped subject error at high-frequency occurrence",
+      "sentence": "Cropped subject error at high-frequency occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "cropped subject error at high-frequency occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid cropped subject error at high-frequency occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude cropped subject error at high-frequency occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "negative-base-cropped-subject-error",
+      "tags": [
+        "base",
+        "level-minimal",
+        "negative",
+        "negative-base",
+        "rarity-rare"
+      ],
+      "facets": {
+        "artifact-family": "cropped-subject-error",
+        "treatment": "high-frequency-occurrence"
+      },
+      "subcategory": "cropped-subject-error",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-base-cropped-subject-error-composition-wide-occurrence",
+      "semantic_key": "negative-base-cropped-subject-error-composition-wide-occurrence",
+      "text": "cropped subject error at composition-wide occurrence",
+      "sentence": "Cropped subject error at composition-wide occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "cropped subject error at composition-wide occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid cropped subject error at composition-wide occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude cropped subject error at composition-wide occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "negative-base-cropped-subject-error",
+      "tags": [
+        "base",
+        "level-minimal",
+        "negative",
+        "negative-base",
+        "rarity-rare"
+      ],
+      "facets": {
+        "artifact-family": "cropped-subject-error",
+        "treatment": "composition-wide-occurrence"
+      },
+      "subcategory": "cropped-subject-error",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-base-background-tiling-minor-occurrence",
+      "semantic_key": "negative-base-background-tiling-minor-occurrence",
+      "text": "background tiling at minor occurrence",
+      "sentence": "Background tiling at minor occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "background tiling at minor occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid background tiling at minor occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude background tiling at minor occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-base-background-tiling",
+      "tags": [
+        "base",
+        "level-minimal",
+        "negative",
+        "negative-base",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "background-tiling",
+        "treatment": "minor-occurrence"
+      },
+      "subcategory": "background-tiling",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-base-background-tiling-repeated-occurrence",
+      "semantic_key": "negative-base-background-tiling-repeated-occurrence",
+      "text": "background tiling at repeated occurrence",
+      "sentence": "Background tiling at repeated occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "background tiling at repeated occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid background tiling at repeated occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude background tiling at repeated occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-base-background-tiling",
+      "tags": [
+        "base",
+        "level-minimal",
+        "negative",
+        "negative-base",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "background-tiling",
+        "treatment": "repeated-occurrence"
+      },
+      "subcategory": "background-tiling",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-base-background-tiling-prominent-occurrence",
+      "semantic_key": "negative-base-background-tiling-prominent-occurrence",
+      "text": "background tiling at prominent occurrence",
+      "sentence": "Background tiling at prominent occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "background tiling at prominent occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid background tiling at prominent occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude background tiling at prominent occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-base-background-tiling",
+      "tags": [
+        "base",
+        "level-minimal",
+        "negative",
+        "negative-base",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "background-tiling",
+        "treatment": "prominent-occurrence"
+      },
+      "subcategory": "background-tiling",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-base-background-tiling-edge-occurrence",
+      "semantic_key": "negative-base-background-tiling-edge-occurrence",
+      "text": "background tiling at edge occurrence",
+      "sentence": "Background tiling at edge occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "background tiling at edge occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid background tiling at edge occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude background tiling at edge occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-base-background-tiling",
+      "tags": [
+        "base",
+        "level-minimal",
+        "negative",
+        "negative-base",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "background-tiling",
+        "treatment": "edge-occurrence"
+      },
+      "subcategory": "background-tiling",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-base-background-tiling-background-occurrence",
+      "semantic_key": "negative-base-background-tiling-background-occurrence",
+      "text": "background tiling at background occurrence",
+      "sentence": "Background tiling at background occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "background tiling at background occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid background tiling at background occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude background tiling at background occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "negative-base-background-tiling",
+      "tags": [
+        "base",
+        "level-minimal",
+        "negative",
+        "negative-base",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "artifact-family": "background-tiling",
+        "treatment": "background-occurrence"
+      },
+      "subcategory": "background-tiling",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-base-background-tiling-subject-occurrence",
+      "semantic_key": "negative-base-background-tiling-subject-occurrence",
+      "text": "background tiling at subject occurrence",
+      "sentence": "Background tiling at subject occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "background tiling at subject occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid background tiling at subject occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude background tiling at subject occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "negative-base-background-tiling",
+      "tags": [
+        "base",
+        "level-minimal",
+        "negative",
+        "negative-base",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "artifact-family": "background-tiling",
+        "treatment": "subject-occurrence"
+      },
+      "subcategory": "background-tiling",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-base-background-tiling-high-frequency-occurrence",
+      "semantic_key": "negative-base-background-tiling-high-frequency-occurrence",
+      "text": "background tiling at high-frequency occurrence",
+      "sentence": "Background tiling at high-frequency occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "background tiling at high-frequency occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid background tiling at high-frequency occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude background tiling at high-frequency occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "negative-base-background-tiling",
+      "tags": [
+        "base",
+        "level-minimal",
+        "negative",
+        "negative-base",
+        "rarity-rare"
+      ],
+      "facets": {
+        "artifact-family": "background-tiling",
+        "treatment": "high-frequency-occurrence"
+      },
+      "subcategory": "background-tiling",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-base-background-tiling-composition-wide-occurrence",
+      "semantic_key": "negative-base-background-tiling-composition-wide-occurrence",
+      "text": "background tiling at composition-wide occurrence",
+      "sentence": "Background tiling at composition-wide occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "background tiling at composition-wide occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid background tiling at composition-wide occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude background tiling at composition-wide occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "negative-base-background-tiling",
+      "tags": [
+        "base",
+        "level-minimal",
+        "negative",
+        "negative-base",
+        "rarity-rare"
+      ],
+      "facets": {
+        "artifact-family": "background-tiling",
+        "treatment": "composition-wide-occurrence"
+      },
+      "subcategory": "background-tiling",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-base-random-border-artifacts-minor-occurrence",
+      "semantic_key": "negative-base-random-border-artifacts-minor-occurrence",
+      "text": "random border artifacts at minor occurrence",
+      "sentence": "Random border artifacts at minor occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "random border artifacts at minor occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid random border artifacts at minor occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude random border artifacts at minor occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-base-random-border-artifacts",
+      "tags": [
+        "base",
+        "level-minimal",
+        "negative",
+        "negative-base",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "random-border-artifacts",
+        "treatment": "minor-occurrence"
+      },
+      "subcategory": "random-border-artifacts",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-base-random-border-artifacts-repeated-occurrence",
+      "semantic_key": "negative-base-random-border-artifacts-repeated-occurrence",
+      "text": "random border artifacts at repeated occurrence",
+      "sentence": "Random border artifacts at repeated occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "random border artifacts at repeated occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid random border artifacts at repeated occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude random border artifacts at repeated occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-base-random-border-artifacts",
+      "tags": [
+        "base",
+        "level-minimal",
+        "negative",
+        "negative-base",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "random-border-artifacts",
+        "treatment": "repeated-occurrence"
+      },
+      "subcategory": "random-border-artifacts",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-base-random-border-artifacts-prominent-occurrence",
+      "semantic_key": "negative-base-random-border-artifacts-prominent-occurrence",
+      "text": "random border artifacts at prominent occurrence",
+      "sentence": "Random border artifacts at prominent occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "random border artifacts at prominent occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid random border artifacts at prominent occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude random border artifacts at prominent occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-base-random-border-artifacts",
+      "tags": [
+        "base",
+        "level-minimal",
+        "negative",
+        "negative-base",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "random-border-artifacts",
+        "treatment": "prominent-occurrence"
+      },
+      "subcategory": "random-border-artifacts",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-base-random-border-artifacts-edge-occurrence",
+      "semantic_key": "negative-base-random-border-artifacts-edge-occurrence",
+      "text": "random border artifacts at edge occurrence",
+      "sentence": "Random border artifacts at edge occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "random border artifacts at edge occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid random border artifacts at edge occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude random border artifacts at edge occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-base-random-border-artifacts",
+      "tags": [
+        "base",
+        "level-minimal",
+        "negative",
+        "negative-base",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "random-border-artifacts",
+        "treatment": "edge-occurrence"
+      },
+      "subcategory": "random-border-artifacts",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-base-random-border-artifacts-background-occurrence",
+      "semantic_key": "negative-base-random-border-artifacts-background-occurrence",
+      "text": "random border artifacts at background occurrence",
+      "sentence": "Random border artifacts at background occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "random border artifacts at background occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid random border artifacts at background occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude random border artifacts at background occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "negative-base-random-border-artifacts",
+      "tags": [
+        "base",
+        "level-minimal",
+        "negative",
+        "negative-base",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "artifact-family": "random-border-artifacts",
+        "treatment": "background-occurrence"
+      },
+      "subcategory": "random-border-artifacts",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-base-random-border-artifacts-subject-occurrence",
+      "semantic_key": "negative-base-random-border-artifacts-subject-occurrence",
+      "text": "random border artifacts at subject occurrence",
+      "sentence": "Random border artifacts at subject occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "random border artifacts at subject occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid random border artifacts at subject occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude random border artifacts at subject occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "negative-base-random-border-artifacts",
+      "tags": [
+        "base",
+        "level-minimal",
+        "negative",
+        "negative-base",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "artifact-family": "random-border-artifacts",
+        "treatment": "subject-occurrence"
+      },
+      "subcategory": "random-border-artifacts",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-base-random-border-artifacts-high-frequency-occurrence",
+      "semantic_key": "negative-base-random-border-artifacts-high-frequency-occurrence",
+      "text": "random border artifacts at high-frequency occurrence",
+      "sentence": "Random border artifacts at high-frequency occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "random border artifacts at high-frequency occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid random border artifacts at high-frequency occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude random border artifacts at high-frequency occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "negative-base-random-border-artifacts",
+      "tags": [
+        "base",
+        "level-minimal",
+        "negative",
+        "negative-base",
+        "rarity-rare"
+      ],
+      "facets": {
+        "artifact-family": "random-border-artifacts",
+        "treatment": "high-frequency-occurrence"
+      },
+      "subcategory": "random-border-artifacts",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-base-random-border-artifacts-composition-wide-occurrence",
+      "semantic_key": "negative-base-random-border-artifacts-composition-wide-occurrence",
+      "text": "random border artifacts at composition-wide occurrence",
+      "sentence": "Random border artifacts at composition-wide occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "random border artifacts at composition-wide occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid random border artifacts at composition-wide occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude random border artifacts at composition-wide occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "negative-base-random-border-artifacts",
+      "tags": [
+        "base",
+        "level-minimal",
+        "negative",
+        "negative-base",
+        "rarity-rare"
+      ],
+      "facets": {
+        "artifact-family": "random-border-artifacts",
+        "treatment": "composition-wide-occurrence"
+      },
+      "subcategory": "random-border-artifacts",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    }
+  ]
+}

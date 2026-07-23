@@ -1,0 +1,2577 @@
+{
+  "schema_version": "2.0",
+  "id": "performance-expression-base",
+  "version": "2.0.0",
+  "library": "expression",
+  "domain": "performance",
+  "category": "expression",
+  "language": "en",
+  "status": "active",
+  "safety": "general",
+  "tags": [
+    "base"
+  ],
+  "fallback_option_id": "performance-expression-base-calm-expression-subtle-intensity",
+  "options": [
+    {
+      "id": "performance-expression-base-calm-expression-subtle-intensity",
+      "semantic_key": "performance-expression-base-calm-expression-subtle-intensity",
+      "text": "calm expression carrying subtle intensity",
+      "sentence": "Calm expression carrying subtle intensity.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "calm expression carrying subtle intensity",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing calm expression carrying subtle intensity",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with calm expression carrying subtle intensity",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-expression-base-calm-expression",
+      "tags": [
+        "base",
+        "expression",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "expression": "calm-expression",
+        "treatment": "subtle-intensity"
+      },
+      "subcategory": "calm-expression",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-expression-base-calm-expression-open-warmth",
+      "semantic_key": "performance-expression-base-calm-expression-open-warmth",
+      "text": "calm expression carrying open warmth",
+      "sentence": "Calm expression carrying open warmth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "calm expression carrying open warmth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing calm expression carrying open warmth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with calm expression carrying open warmth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-expression-base-calm-expression",
+      "tags": [
+        "base",
+        "expression",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "expression": "calm-expression",
+        "treatment": "open-warmth"
+      },
+      "subcategory": "calm-expression",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-expression-base-calm-expression-quiet-restraint",
+      "semantic_key": "performance-expression-base-calm-expression-quiet-restraint",
+      "text": "calm expression carrying quiet restraint",
+      "sentence": "Calm expression carrying quiet restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "calm expression carrying quiet restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing calm expression carrying quiet restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with calm expression carrying quiet restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-expression-base-calm-expression",
+      "tags": [
+        "base",
+        "expression",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "expression": "calm-expression",
+        "treatment": "quiet-restraint"
+      },
+      "subcategory": "calm-expression",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-expression-base-calm-expression-focused-attention",
+      "semantic_key": "performance-expression-base-calm-expression-focused-attention",
+      "text": "calm expression carrying focused attention",
+      "sentence": "Calm expression carrying focused attention.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "calm expression carrying focused attention",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing calm expression carrying focused attention",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with calm expression carrying focused attention",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-expression-base-calm-expression",
+      "tags": [
+        "base",
+        "expression",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "expression": "calm-expression",
+        "treatment": "focused-attention"
+      },
+      "subcategory": "calm-expression",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-expression-base-calm-expression-gentle-tension",
+      "semantic_key": "performance-expression-base-calm-expression-gentle-tension",
+      "text": "calm expression carrying gentle tension",
+      "sentence": "Calm expression carrying gentle tension.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "calm expression carrying gentle tension",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing calm expression carrying gentle tension",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with calm expression carrying gentle tension",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-expression-base-calm-expression",
+      "tags": [
+        "base",
+        "expression",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "expression": "calm-expression",
+        "treatment": "gentle-tension"
+      },
+      "subcategory": "calm-expression",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-expression-base-calm-expression-confident-ease",
+      "semantic_key": "performance-expression-base-calm-expression-confident-ease",
+      "text": "calm expression carrying confident ease",
+      "sentence": "Calm expression carrying confident ease.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "calm expression carrying confident ease",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing calm expression carrying confident ease",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with calm expression carrying confident ease",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-expression-base-calm-expression",
+      "tags": [
+        "base",
+        "expression",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "expression": "calm-expression",
+        "treatment": "confident-ease"
+      },
+      "subcategory": "calm-expression",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-expression-base-calm-expression-reflective-distance",
+      "semantic_key": "performance-expression-base-calm-expression-reflective-distance",
+      "text": "calm expression carrying reflective distance",
+      "sentence": "Calm expression carrying reflective distance.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "calm expression carrying reflective distance",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing calm expression carrying reflective distance",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with calm expression carrying reflective distance",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-expression-base-calm-expression",
+      "tags": [
+        "base",
+        "expression",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "expression": "calm-expression",
+        "treatment": "reflective-distance"
+      },
+      "subcategory": "calm-expression",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-expression-base-calm-expression-animated-energy",
+      "semantic_key": "performance-expression-base-calm-expression-animated-energy",
+      "text": "calm expression carrying animated energy",
+      "sentence": "Calm expression carrying animated energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "calm expression carrying animated energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing calm expression carrying animated energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with calm expression carrying animated energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-expression-base-calm-expression",
+      "tags": [
+        "base",
+        "expression",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "expression": "calm-expression",
+        "treatment": "animated-energy"
+      },
+      "subcategory": "calm-expression",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-expression-base-gentle-smile-subtle-intensity",
+      "semantic_key": "performance-expression-base-gentle-smile-subtle-intensity",
+      "text": "gentle smile carrying subtle intensity",
+      "sentence": "Gentle smile carrying subtle intensity.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gentle smile carrying subtle intensity",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gentle smile carrying subtle intensity",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gentle smile carrying subtle intensity",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-expression-base-gentle-smile",
+      "tags": [
+        "base",
+        "expression",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "expression": "gentle-smile",
+        "treatment": "subtle-intensity"
+      },
+      "subcategory": "gentle-smile",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-expression-base-gentle-smile-open-warmth",
+      "semantic_key": "performance-expression-base-gentle-smile-open-warmth",
+      "text": "gentle smile carrying open warmth",
+      "sentence": "Gentle smile carrying open warmth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gentle smile carrying open warmth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gentle smile carrying open warmth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gentle smile carrying open warmth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-expression-base-gentle-smile",
+      "tags": [
+        "base",
+        "expression",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "expression": "gentle-smile",
+        "treatment": "open-warmth"
+      },
+      "subcategory": "gentle-smile",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-expression-base-gentle-smile-quiet-restraint",
+      "semantic_key": "performance-expression-base-gentle-smile-quiet-restraint",
+      "text": "gentle smile carrying quiet restraint",
+      "sentence": "Gentle smile carrying quiet restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gentle smile carrying quiet restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gentle smile carrying quiet restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gentle smile carrying quiet restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-expression-base-gentle-smile",
+      "tags": [
+        "base",
+        "expression",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "expression": "gentle-smile",
+        "treatment": "quiet-restraint"
+      },
+      "subcategory": "gentle-smile",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-expression-base-gentle-smile-focused-attention",
+      "semantic_key": "performance-expression-base-gentle-smile-focused-attention",
+      "text": "gentle smile carrying focused attention",
+      "sentence": "Gentle smile carrying focused attention.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gentle smile carrying focused attention",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gentle smile carrying focused attention",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gentle smile carrying focused attention",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-expression-base-gentle-smile",
+      "tags": [
+        "base",
+        "expression",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "expression": "gentle-smile",
+        "treatment": "focused-attention"
+      },
+      "subcategory": "gentle-smile",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-expression-base-gentle-smile-gentle-tension",
+      "semantic_key": "performance-expression-base-gentle-smile-gentle-tension",
+      "text": "gentle smile carrying gentle tension",
+      "sentence": "Gentle smile carrying gentle tension.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gentle smile carrying gentle tension",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gentle smile carrying gentle tension",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gentle smile carrying gentle tension",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-expression-base-gentle-smile",
+      "tags": [
+        "base",
+        "expression",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "expression": "gentle-smile",
+        "treatment": "gentle-tension"
+      },
+      "subcategory": "gentle-smile",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-expression-base-gentle-smile-confident-ease",
+      "semantic_key": "performance-expression-base-gentle-smile-confident-ease",
+      "text": "gentle smile carrying confident ease",
+      "sentence": "Gentle smile carrying confident ease.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gentle smile carrying confident ease",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gentle smile carrying confident ease",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gentle smile carrying confident ease",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-expression-base-gentle-smile",
+      "tags": [
+        "base",
+        "expression",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "expression": "gentle-smile",
+        "treatment": "confident-ease"
+      },
+      "subcategory": "gentle-smile",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-expression-base-gentle-smile-reflective-distance",
+      "semantic_key": "performance-expression-base-gentle-smile-reflective-distance",
+      "text": "gentle smile carrying reflective distance",
+      "sentence": "Gentle smile carrying reflective distance.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gentle smile carrying reflective distance",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gentle smile carrying reflective distance",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gentle smile carrying reflective distance",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-expression-base-gentle-smile",
+      "tags": [
+        "base",
+        "expression",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "expression": "gentle-smile",
+        "treatment": "reflective-distance"
+      },
+      "subcategory": "gentle-smile",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-expression-base-gentle-smile-animated-energy",
+      "semantic_key": "performance-expression-base-gentle-smile-animated-energy",
+      "text": "gentle smile carrying animated energy",
+      "sentence": "Gentle smile carrying animated energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gentle smile carrying animated energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gentle smile carrying animated energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gentle smile carrying animated energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-expression-base-gentle-smile",
+      "tags": [
+        "base",
+        "expression",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "expression": "gentle-smile",
+        "treatment": "animated-energy"
+      },
+      "subcategory": "gentle-smile",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-expression-base-broad-smile-subtle-intensity",
+      "semantic_key": "performance-expression-base-broad-smile-subtle-intensity",
+      "text": "broad smile carrying subtle intensity",
+      "sentence": "Broad smile carrying subtle intensity.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "broad smile carrying subtle intensity",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing broad smile carrying subtle intensity",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with broad smile carrying subtle intensity",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-expression-base-broad-smile",
+      "tags": [
+        "base",
+        "expression",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "expression": "broad-smile",
+        "treatment": "subtle-intensity"
+      },
+      "subcategory": "broad-smile",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-expression-base-broad-smile-open-warmth",
+      "semantic_key": "performance-expression-base-broad-smile-open-warmth",
+      "text": "broad smile carrying open warmth",
+      "sentence": "Broad smile carrying open warmth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "broad smile carrying open warmth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing broad smile carrying open warmth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with broad smile carrying open warmth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-expression-base-broad-smile",
+      "tags": [
+        "base",
+        "expression",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "expression": "broad-smile",
+        "treatment": "open-warmth"
+      },
+      "subcategory": "broad-smile",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-expression-base-broad-smile-quiet-restraint",
+      "semantic_key": "performance-expression-base-broad-smile-quiet-restraint",
+      "text": "broad smile carrying quiet restraint",
+      "sentence": "Broad smile carrying quiet restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "broad smile carrying quiet restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing broad smile carrying quiet restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with broad smile carrying quiet restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-expression-base-broad-smile",
+      "tags": [
+        "base",
+        "expression",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "expression": "broad-smile",
+        "treatment": "quiet-restraint"
+      },
+      "subcategory": "broad-smile",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-expression-base-broad-smile-focused-attention",
+      "semantic_key": "performance-expression-base-broad-smile-focused-attention",
+      "text": "broad smile carrying focused attention",
+      "sentence": "Broad smile carrying focused attention.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "broad smile carrying focused attention",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing broad smile carrying focused attention",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with broad smile carrying focused attention",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-expression-base-broad-smile",
+      "tags": [
+        "base",
+        "expression",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "expression": "broad-smile",
+        "treatment": "focused-attention"
+      },
+      "subcategory": "broad-smile",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-expression-base-broad-smile-gentle-tension",
+      "semantic_key": "performance-expression-base-broad-smile-gentle-tension",
+      "text": "broad smile carrying gentle tension",
+      "sentence": "Broad smile carrying gentle tension.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "broad smile carrying gentle tension",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing broad smile carrying gentle tension",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with broad smile carrying gentle tension",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-expression-base-broad-smile",
+      "tags": [
+        "base",
+        "expression",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "expression": "broad-smile",
+        "treatment": "gentle-tension"
+      },
+      "subcategory": "broad-smile",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-expression-base-broad-smile-confident-ease",
+      "semantic_key": "performance-expression-base-broad-smile-confident-ease",
+      "text": "broad smile carrying confident ease",
+      "sentence": "Broad smile carrying confident ease.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "broad smile carrying confident ease",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing broad smile carrying confident ease",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with broad smile carrying confident ease",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-expression-base-broad-smile",
+      "tags": [
+        "base",
+        "expression",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "expression": "broad-smile",
+        "treatment": "confident-ease"
+      },
+      "subcategory": "broad-smile",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-expression-base-broad-smile-reflective-distance",
+      "semantic_key": "performance-expression-base-broad-smile-reflective-distance",
+      "text": "broad smile carrying reflective distance",
+      "sentence": "Broad smile carrying reflective distance.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "broad smile carrying reflective distance",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing broad smile carrying reflective distance",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with broad smile carrying reflective distance",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-expression-base-broad-smile",
+      "tags": [
+        "base",
+        "expression",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "expression": "broad-smile",
+        "treatment": "reflective-distance"
+      },
+      "subcategory": "broad-smile",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-expression-base-broad-smile-animated-energy",
+      "semantic_key": "performance-expression-base-broad-smile-animated-energy",
+      "text": "broad smile carrying animated energy",
+      "sentence": "Broad smile carrying animated energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "broad smile carrying animated energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing broad smile carrying animated energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with broad smile carrying animated energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-expression-base-broad-smile",
+      "tags": [
+        "base",
+        "expression",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "expression": "broad-smile",
+        "treatment": "animated-energy"
+      },
+      "subcategory": "broad-smile",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-expression-base-thoughtful-expression-subtle-intensity",
+      "semantic_key": "performance-expression-base-thoughtful-expression-subtle-intensity",
+      "text": "thoughtful expression carrying subtle intensity",
+      "sentence": "Thoughtful expression carrying subtle intensity.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "thoughtful expression carrying subtle intensity",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing thoughtful expression carrying subtle intensity",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with thoughtful expression carrying subtle intensity",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-expression-base-thoughtful-expression",
+      "tags": [
+        "base",
+        "expression",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "expression": "thoughtful-expression",
+        "treatment": "subtle-intensity"
+      },
+      "subcategory": "thoughtful-expression",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-expression-base-thoughtful-expression-open-warmth",
+      "semantic_key": "performance-expression-base-thoughtful-expression-open-warmth",
+      "text": "thoughtful expression carrying open warmth",
+      "sentence": "Thoughtful expression carrying open warmth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "thoughtful expression carrying open warmth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing thoughtful expression carrying open warmth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with thoughtful expression carrying open warmth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-expression-base-thoughtful-expression",
+      "tags": [
+        "base",
+        "expression",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "expression": "thoughtful-expression",
+        "treatment": "open-warmth"
+      },
+      "subcategory": "thoughtful-expression",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-expression-base-thoughtful-expression-quiet-restraint",
+      "semantic_key": "performance-expression-base-thoughtful-expression-quiet-restraint",
+      "text": "thoughtful expression carrying quiet restraint",
+      "sentence": "Thoughtful expression carrying quiet restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "thoughtful expression carrying quiet restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing thoughtful expression carrying quiet restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with thoughtful expression carrying quiet restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-expression-base-thoughtful-expression",
+      "tags": [
+        "base",
+        "expression",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "expression": "thoughtful-expression",
+        "treatment": "quiet-restraint"
+      },
+      "subcategory": "thoughtful-expression",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-expression-base-thoughtful-expression-focused-attention",
+      "semantic_key": "performance-expression-base-thoughtful-expression-focused-attention",
+      "text": "thoughtful expression carrying focused attention",
+      "sentence": "Thoughtful expression carrying focused attention.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "thoughtful expression carrying focused attention",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing thoughtful expression carrying focused attention",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with thoughtful expression carrying focused attention",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-expression-base-thoughtful-expression",
+      "tags": [
+        "base",
+        "expression",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "expression": "thoughtful-expression",
+        "treatment": "focused-attention"
+      },
+      "subcategory": "thoughtful-expression",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-expression-base-thoughtful-expression-gentle-tension",
+      "semantic_key": "performance-expression-base-thoughtful-expression-gentle-tension",
+      "text": "thoughtful expression carrying gentle tension",
+      "sentence": "Thoughtful expression carrying gentle tension.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "thoughtful expression carrying gentle tension",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing thoughtful expression carrying gentle tension",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with thoughtful expression carrying gentle tension",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-expression-base-thoughtful-expression",
+      "tags": [
+        "base",
+        "expression",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "expression": "thoughtful-expression",
+        "treatment": "gentle-tension"
+      },
+      "subcategory": "thoughtful-expression",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-expression-base-thoughtful-expression-confident-ease",
+      "semantic_key": "performance-expression-base-thoughtful-expression-confident-ease",
+      "text": "thoughtful expression carrying confident ease",
+      "sentence": "Thoughtful expression carrying confident ease.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "thoughtful expression carrying confident ease",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing thoughtful expression carrying confident ease",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with thoughtful expression carrying confident ease",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-expression-base-thoughtful-expression",
+      "tags": [
+        "base",
+        "expression",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "expression": "thoughtful-expression",
+        "treatment": "confident-ease"
+      },
+      "subcategory": "thoughtful-expression",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-expression-base-thoughtful-expression-reflective-distance",
+      "semantic_key": "performance-expression-base-thoughtful-expression-reflective-distance",
+      "text": "thoughtful expression carrying reflective distance",
+      "sentence": "Thoughtful expression carrying reflective distance.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "thoughtful expression carrying reflective distance",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing thoughtful expression carrying reflective distance",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with thoughtful expression carrying reflective distance",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-expression-base-thoughtful-expression",
+      "tags": [
+        "base",
+        "expression",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "expression": "thoughtful-expression",
+        "treatment": "reflective-distance"
+      },
+      "subcategory": "thoughtful-expression",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-expression-base-thoughtful-expression-animated-energy",
+      "semantic_key": "performance-expression-base-thoughtful-expression-animated-energy",
+      "text": "thoughtful expression carrying animated energy",
+      "sentence": "Thoughtful expression carrying animated energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "thoughtful expression carrying animated energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing thoughtful expression carrying animated energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with thoughtful expression carrying animated energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-expression-base-thoughtful-expression",
+      "tags": [
+        "base",
+        "expression",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "expression": "thoughtful-expression",
+        "treatment": "animated-energy"
+      },
+      "subcategory": "thoughtful-expression",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-expression-base-focused-expression-subtle-intensity",
+      "semantic_key": "performance-expression-base-focused-expression-subtle-intensity",
+      "text": "focused expression carrying subtle intensity",
+      "sentence": "Focused expression carrying subtle intensity.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "focused expression carrying subtle intensity",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing focused expression carrying subtle intensity",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with focused expression carrying subtle intensity",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-expression-base-focused-expression",
+      "tags": [
+        "base",
+        "expression",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "expression": "focused-expression",
+        "treatment": "subtle-intensity"
+      },
+      "subcategory": "focused-expression",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-expression-base-focused-expression-open-warmth",
+      "semantic_key": "performance-expression-base-focused-expression-open-warmth",
+      "text": "focused expression carrying open warmth",
+      "sentence": "Focused expression carrying open warmth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "focused expression carrying open warmth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing focused expression carrying open warmth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with focused expression carrying open warmth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-expression-base-focused-expression",
+      "tags": [
+        "base",
+        "expression",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "expression": "focused-expression",
+        "treatment": "open-warmth"
+      },
+      "subcategory": "focused-expression",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-expression-base-focused-expression-quiet-restraint",
+      "semantic_key": "performance-expression-base-focused-expression-quiet-restraint",
+      "text": "focused expression carrying quiet restraint",
+      "sentence": "Focused expression carrying quiet restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "focused expression carrying quiet restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing focused expression carrying quiet restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with focused expression carrying quiet restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-expression-base-focused-expression",
+      "tags": [
+        "base",
+        "expression",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "expression": "focused-expression",
+        "treatment": "quiet-restraint"
+      },
+      "subcategory": "focused-expression",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-expression-base-focused-expression-focused-attention",
+      "semantic_key": "performance-expression-base-focused-expression-focused-attention",
+      "text": "focused expression carrying focused attention",
+      "sentence": "Focused expression carrying focused attention.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "focused expression carrying focused attention",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing focused expression carrying focused attention",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with focused expression carrying focused attention",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-expression-base-focused-expression",
+      "tags": [
+        "base",
+        "expression",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "expression": "focused-expression",
+        "treatment": "focused-attention"
+      },
+      "subcategory": "focused-expression",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-expression-base-focused-expression-gentle-tension",
+      "semantic_key": "performance-expression-base-focused-expression-gentle-tension",
+      "text": "focused expression carrying gentle tension",
+      "sentence": "Focused expression carrying gentle tension.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "focused expression carrying gentle tension",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing focused expression carrying gentle tension",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with focused expression carrying gentle tension",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-expression-base-focused-expression",
+      "tags": [
+        "base",
+        "expression",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "expression": "focused-expression",
+        "treatment": "gentle-tension"
+      },
+      "subcategory": "focused-expression",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-expression-base-focused-expression-confident-ease",
+      "semantic_key": "performance-expression-base-focused-expression-confident-ease",
+      "text": "focused expression carrying confident ease",
+      "sentence": "Focused expression carrying confident ease.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "focused expression carrying confident ease",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing focused expression carrying confident ease",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with focused expression carrying confident ease",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-expression-base-focused-expression",
+      "tags": [
+        "base",
+        "expression",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "expression": "focused-expression",
+        "treatment": "confident-ease"
+      },
+      "subcategory": "focused-expression",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-expression-base-focused-expression-reflective-distance",
+      "semantic_key": "performance-expression-base-focused-expression-reflective-distance",
+      "text": "focused expression carrying reflective distance",
+      "sentence": "Focused expression carrying reflective distance.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "focused expression carrying reflective distance",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing focused expression carrying reflective distance",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with focused expression carrying reflective distance",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-expression-base-focused-expression",
+      "tags": [
+        "base",
+        "expression",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "expression": "focused-expression",
+        "treatment": "reflective-distance"
+      },
+      "subcategory": "focused-expression",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-expression-base-focused-expression-animated-energy",
+      "semantic_key": "performance-expression-base-focused-expression-animated-energy",
+      "text": "focused expression carrying animated energy",
+      "sentence": "Focused expression carrying animated energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "focused expression carrying animated energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing focused expression carrying animated energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with focused expression carrying animated energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-expression-base-focused-expression",
+      "tags": [
+        "base",
+        "expression",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "expression": "focused-expression",
+        "treatment": "animated-energy"
+      },
+      "subcategory": "focused-expression",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-expression-base-quietly-confident-expression-subtle-intensity",
+      "semantic_key": "performance-expression-base-quietly-confident-expression-subtle-intensity",
+      "text": "quietly confident expression carrying subtle intensity",
+      "sentence": "Quietly confident expression carrying subtle intensity.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "quietly confident expression carrying subtle intensity",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing quietly confident expression carrying subtle intensity",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with quietly confident expression carrying subtle intensity",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-expression-base-quietly-confident-expression",
+      "tags": [
+        "base",
+        "expression",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "expression": "quietly-confident-expression",
+        "treatment": "subtle-intensity"
+      },
+      "subcategory": "quietly-confident-expression",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-expression-base-quietly-confident-expression-open-warmth",
+      "semantic_key": "performance-expression-base-quietly-confident-expression-open-warmth",
+      "text": "quietly confident expression carrying open warmth",
+      "sentence": "Quietly confident expression carrying open warmth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "quietly confident expression carrying open warmth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing quietly confident expression carrying open warmth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with quietly confident expression carrying open warmth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-expression-base-quietly-confident-expression",
+      "tags": [
+        "base",
+        "expression",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "expression": "quietly-confident-expression",
+        "treatment": "open-warmth"
+      },
+      "subcategory": "quietly-confident-expression",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-expression-base-quietly-confident-expression-quiet-restraint",
+      "semantic_key": "performance-expression-base-quietly-confident-expression-quiet-restraint",
+      "text": "quietly confident expression carrying quiet restraint",
+      "sentence": "Quietly confident expression carrying quiet restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "quietly confident expression carrying quiet restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing quietly confident expression carrying quiet restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with quietly confident expression carrying quiet restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-expression-base-quietly-confident-expression",
+      "tags": [
+        "base",
+        "expression",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "expression": "quietly-confident-expression",
+        "treatment": "quiet-restraint"
+      },
+      "subcategory": "quietly-confident-expression",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-expression-base-quietly-confident-expression-focused-attention",
+      "semantic_key": "performance-expression-base-quietly-confident-expression-focused-attention",
+      "text": "quietly confident expression carrying focused attention",
+      "sentence": "Quietly confident expression carrying focused attention.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "quietly confident expression carrying focused attention",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing quietly confident expression carrying focused attention",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with quietly confident expression carrying focused attention",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-expression-base-quietly-confident-expression",
+      "tags": [
+        "base",
+        "expression",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "expression": "quietly-confident-expression",
+        "treatment": "focused-attention"
+      },
+      "subcategory": "quietly-confident-expression",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-expression-base-quietly-confident-expression-gentle-tension",
+      "semantic_key": "performance-expression-base-quietly-confident-expression-gentle-tension",
+      "text": "quietly confident expression carrying gentle tension",
+      "sentence": "Quietly confident expression carrying gentle tension.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "quietly confident expression carrying gentle tension",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing quietly confident expression carrying gentle tension",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with quietly confident expression carrying gentle tension",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-expression-base-quietly-confident-expression",
+      "tags": [
+        "base",
+        "expression",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "expression": "quietly-confident-expression",
+        "treatment": "gentle-tension"
+      },
+      "subcategory": "quietly-confident-expression",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-expression-base-quietly-confident-expression-confident-ease",
+      "semantic_key": "performance-expression-base-quietly-confident-expression-confident-ease",
+      "text": "quietly confident expression carrying confident ease",
+      "sentence": "Quietly confident expression carrying confident ease.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "quietly confident expression carrying confident ease",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing quietly confident expression carrying confident ease",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with quietly confident expression carrying confident ease",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-expression-base-quietly-confident-expression",
+      "tags": [
+        "base",
+        "expression",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "expression": "quietly-confident-expression",
+        "treatment": "confident-ease"
+      },
+      "subcategory": "quietly-confident-expression",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-expression-base-quietly-confident-expression-reflective-distance",
+      "semantic_key": "performance-expression-base-quietly-confident-expression-reflective-distance",
+      "text": "quietly confident expression carrying reflective distance",
+      "sentence": "Quietly confident expression carrying reflective distance.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "quietly confident expression carrying reflective distance",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing quietly confident expression carrying reflective distance",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with quietly confident expression carrying reflective distance",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-expression-base-quietly-confident-expression",
+      "tags": [
+        "base",
+        "expression",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "expression": "quietly-confident-expression",
+        "treatment": "reflective-distance"
+      },
+      "subcategory": "quietly-confident-expression",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-expression-base-quietly-confident-expression-animated-energy",
+      "semantic_key": "performance-expression-base-quietly-confident-expression-animated-energy",
+      "text": "quietly confident expression carrying animated energy",
+      "sentence": "Quietly confident expression carrying animated energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "quietly confident expression carrying animated energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing quietly confident expression carrying animated energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with quietly confident expression carrying animated energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-expression-base-quietly-confident-expression",
+      "tags": [
+        "base",
+        "expression",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "expression": "quietly-confident-expression",
+        "treatment": "animated-energy"
+      },
+      "subcategory": "quietly-confident-expression",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-expression-base-curious-expression-subtle-intensity",
+      "semantic_key": "performance-expression-base-curious-expression-subtle-intensity",
+      "text": "curious expression carrying subtle intensity",
+      "sentence": "Curious expression carrying subtle intensity.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "curious expression carrying subtle intensity",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing curious expression carrying subtle intensity",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with curious expression carrying subtle intensity",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-expression-base-curious-expression",
+      "tags": [
+        "base",
+        "expression",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "expression": "curious-expression",
+        "treatment": "subtle-intensity"
+      },
+      "subcategory": "curious-expression",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-expression-base-curious-expression-open-warmth",
+      "semantic_key": "performance-expression-base-curious-expression-open-warmth",
+      "text": "curious expression carrying open warmth",
+      "sentence": "Curious expression carrying open warmth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "curious expression carrying open warmth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing curious expression carrying open warmth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with curious expression carrying open warmth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-expression-base-curious-expression",
+      "tags": [
+        "base",
+        "expression",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "expression": "curious-expression",
+        "treatment": "open-warmth"
+      },
+      "subcategory": "curious-expression",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-expression-base-curious-expression-quiet-restraint",
+      "semantic_key": "performance-expression-base-curious-expression-quiet-restraint",
+      "text": "curious expression carrying quiet restraint",
+      "sentence": "Curious expression carrying quiet restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "curious expression carrying quiet restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing curious expression carrying quiet restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with curious expression carrying quiet restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-expression-base-curious-expression",
+      "tags": [
+        "base",
+        "expression",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "expression": "curious-expression",
+        "treatment": "quiet-restraint"
+      },
+      "subcategory": "curious-expression",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-expression-base-curious-expression-focused-attention",
+      "semantic_key": "performance-expression-base-curious-expression-focused-attention",
+      "text": "curious expression carrying focused attention",
+      "sentence": "Curious expression carrying focused attention.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "curious expression carrying focused attention",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing curious expression carrying focused attention",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with curious expression carrying focused attention",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-expression-base-curious-expression",
+      "tags": [
+        "base",
+        "expression",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "expression": "curious-expression",
+        "treatment": "focused-attention"
+      },
+      "subcategory": "curious-expression",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-expression-base-curious-expression-gentle-tension",
+      "semantic_key": "performance-expression-base-curious-expression-gentle-tension",
+      "text": "curious expression carrying gentle tension",
+      "sentence": "Curious expression carrying gentle tension.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "curious expression carrying gentle tension",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing curious expression carrying gentle tension",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with curious expression carrying gentle tension",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-expression-base-curious-expression",
+      "tags": [
+        "base",
+        "expression",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "expression": "curious-expression",
+        "treatment": "gentle-tension"
+      },
+      "subcategory": "curious-expression",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-expression-base-curious-expression-confident-ease",
+      "semantic_key": "performance-expression-base-curious-expression-confident-ease",
+      "text": "curious expression carrying confident ease",
+      "sentence": "Curious expression carrying confident ease.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "curious expression carrying confident ease",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing curious expression carrying confident ease",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with curious expression carrying confident ease",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-expression-base-curious-expression",
+      "tags": [
+        "base",
+        "expression",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "expression": "curious-expression",
+        "treatment": "confident-ease"
+      },
+      "subcategory": "curious-expression",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-expression-base-curious-expression-reflective-distance",
+      "semantic_key": "performance-expression-base-curious-expression-reflective-distance",
+      "text": "curious expression carrying reflective distance",
+      "sentence": "Curious expression carrying reflective distance.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "curious expression carrying reflective distance",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing curious expression carrying reflective distance",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with curious expression carrying reflective distance",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-expression-base-curious-expression",
+      "tags": [
+        "base",
+        "expression",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "expression": "curious-expression",
+        "treatment": "reflective-distance"
+      },
+      "subcategory": "curious-expression",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-expression-base-curious-expression-animated-energy",
+      "semantic_key": "performance-expression-base-curious-expression-animated-energy",
+      "text": "curious expression carrying animated energy",
+      "sentence": "Curious expression carrying animated energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "curious expression carrying animated energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing curious expression carrying animated energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with curious expression carrying animated energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-expression-base-curious-expression",
+      "tags": [
+        "base",
+        "expression",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "expression": "curious-expression",
+        "treatment": "animated-energy"
+      },
+      "subcategory": "curious-expression",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-expression-base-serene-expression-subtle-intensity",
+      "semantic_key": "performance-expression-base-serene-expression-subtle-intensity",
+      "text": "serene expression carrying subtle intensity",
+      "sentence": "Serene expression carrying subtle intensity.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "serene expression carrying subtle intensity",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing serene expression carrying subtle intensity",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with serene expression carrying subtle intensity",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-expression-base-serene-expression",
+      "tags": [
+        "base",
+        "expression",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "expression": "serene-expression",
+        "treatment": "subtle-intensity"
+      },
+      "subcategory": "serene-expression",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-expression-base-serene-expression-open-warmth",
+      "semantic_key": "performance-expression-base-serene-expression-open-warmth",
+      "text": "serene expression carrying open warmth",
+      "sentence": "Serene expression carrying open warmth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "serene expression carrying open warmth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing serene expression carrying open warmth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with serene expression carrying open warmth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-expression-base-serene-expression",
+      "tags": [
+        "base",
+        "expression",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "expression": "serene-expression",
+        "treatment": "open-warmth"
+      },
+      "subcategory": "serene-expression",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-expression-base-serene-expression-quiet-restraint",
+      "semantic_key": "performance-expression-base-serene-expression-quiet-restraint",
+      "text": "serene expression carrying quiet restraint",
+      "sentence": "Serene expression carrying quiet restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "serene expression carrying quiet restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing serene expression carrying quiet restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with serene expression carrying quiet restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-expression-base-serene-expression",
+      "tags": [
+        "base",
+        "expression",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "expression": "serene-expression",
+        "treatment": "quiet-restraint"
+      },
+      "subcategory": "serene-expression",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-expression-base-serene-expression-focused-attention",
+      "semantic_key": "performance-expression-base-serene-expression-focused-attention",
+      "text": "serene expression carrying focused attention",
+      "sentence": "Serene expression carrying focused attention.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "serene expression carrying focused attention",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing serene expression carrying focused attention",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with serene expression carrying focused attention",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-expression-base-serene-expression",
+      "tags": [
+        "base",
+        "expression",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "expression": "serene-expression",
+        "treatment": "focused-attention"
+      },
+      "subcategory": "serene-expression",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-expression-base-serene-expression-gentle-tension",
+      "semantic_key": "performance-expression-base-serene-expression-gentle-tension",
+      "text": "serene expression carrying gentle tension",
+      "sentence": "Serene expression carrying gentle tension.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "serene expression carrying gentle tension",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing serene expression carrying gentle tension",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with serene expression carrying gentle tension",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-expression-base-serene-expression",
+      "tags": [
+        "base",
+        "expression",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "expression": "serene-expression",
+        "treatment": "gentle-tension"
+      },
+      "subcategory": "serene-expression",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-expression-base-serene-expression-confident-ease",
+      "semantic_key": "performance-expression-base-serene-expression-confident-ease",
+      "text": "serene expression carrying confident ease",
+      "sentence": "Serene expression carrying confident ease.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "serene expression carrying confident ease",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing serene expression carrying confident ease",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with serene expression carrying confident ease",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-expression-base-serene-expression",
+      "tags": [
+        "base",
+        "expression",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "expression": "serene-expression",
+        "treatment": "confident-ease"
+      },
+      "subcategory": "serene-expression",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-expression-base-serene-expression-reflective-distance",
+      "semantic_key": "performance-expression-base-serene-expression-reflective-distance",
+      "text": "serene expression carrying reflective distance",
+      "sentence": "Serene expression carrying reflective distance.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "serene expression carrying reflective distance",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing serene expression carrying reflective distance",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with serene expression carrying reflective distance",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-expression-base-serene-expression",
+      "tags": [
+        "base",
+        "expression",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "expression": "serene-expression",
+        "treatment": "reflective-distance"
+      },
+      "subcategory": "serene-expression",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-expression-base-serene-expression-animated-energy",
+      "semantic_key": "performance-expression-base-serene-expression-animated-energy",
+      "text": "serene expression carrying animated energy",
+      "sentence": "Serene expression carrying animated energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "serene expression carrying animated energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing serene expression carrying animated energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with serene expression carrying animated energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-expression-base-serene-expression",
+      "tags": [
+        "base",
+        "expression",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "expression": "serene-expression",
+        "treatment": "animated-energy"
+      },
+      "subcategory": "serene-expression",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    }
+  ]
+}

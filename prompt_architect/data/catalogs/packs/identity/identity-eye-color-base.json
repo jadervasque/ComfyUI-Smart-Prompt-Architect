@@ -1,0 +1,2577 @@
+{
+  "schema_version": "2.0",
+  "id": "identity-eye-color-base",
+  "version": "2.0.0",
+  "library": "eye-color",
+  "domain": "identity",
+  "category": "eye-color",
+  "language": "en",
+  "status": "active",
+  "safety": "general",
+  "tags": [
+    "base"
+  ],
+  "fallback_option_id": "identity-eye-color-base-brown-neutral-undertone",
+  "options": [
+    {
+      "id": "identity-eye-color-base-brown-neutral-undertone",
+      "semantic_key": "identity-eye-color-base-brown-neutral-undertone",
+      "text": "brown eyes with a neutral undertone",
+      "sentence": "Brown eyes with a neutral undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "brown eyes with a neutral undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing brown eyes with a neutral undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with brown eyes with a neutral undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-eye-color-base-brown",
+      "tags": [
+        "base",
+        "eye-color",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "hue": "brown",
+        "treatment": "neutral-undertone"
+      },
+      "subcategory": "brown",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eye-color-base-brown-warm-undertone",
+      "semantic_key": "identity-eye-color-base-brown-warm-undertone",
+      "text": "brown eyes with a warm undertone",
+      "sentence": "Brown eyes with a warm undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "brown eyes with a warm undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing brown eyes with a warm undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with brown eyes with a warm undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-eye-color-base-brown",
+      "tags": [
+        "base",
+        "eye-color",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "hue": "brown",
+        "treatment": "warm-undertone"
+      },
+      "subcategory": "brown",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eye-color-base-brown-cool-undertone",
+      "semantic_key": "identity-eye-color-base-brown-cool-undertone",
+      "text": "brown eyes with a cool undertone",
+      "sentence": "Brown eyes with a cool undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "brown eyes with a cool undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing brown eyes with a cool undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with brown eyes with a cool undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-eye-color-base-brown",
+      "tags": [
+        "base",
+        "eye-color",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "hue": "brown",
+        "treatment": "cool-undertone"
+      },
+      "subcategory": "brown",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eye-color-base-brown-golden-undertone",
+      "semantic_key": "identity-eye-color-base-brown-golden-undertone",
+      "text": "brown eyes with a golden undertone",
+      "sentence": "Brown eyes with a golden undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "brown eyes with a golden undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing brown eyes with a golden undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with brown eyes with a golden undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-eye-color-base-brown",
+      "tags": [
+        "base",
+        "eye-color",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "hue": "brown",
+        "treatment": "golden-undertone"
+      },
+      "subcategory": "brown",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eye-color-base-brown-olive-undertone",
+      "semantic_key": "identity-eye-color-base-brown-olive-undertone",
+      "text": "brown eyes with a olive undertone",
+      "sentence": "Brown eyes with a olive undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "brown eyes with a olive undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing brown eyes with a olive undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with brown eyes with a olive undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-eye-color-base-brown",
+      "tags": [
+        "base",
+        "eye-color",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "hue": "brown",
+        "treatment": "olive-undertone"
+      },
+      "subcategory": "brown",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eye-color-base-brown-rose-undertone",
+      "semantic_key": "identity-eye-color-base-brown-rose-undertone",
+      "text": "brown eyes with a rose undertone",
+      "sentence": "Brown eyes with a rose undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "brown eyes with a rose undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing brown eyes with a rose undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with brown eyes with a rose undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-eye-color-base-brown",
+      "tags": [
+        "base",
+        "eye-color",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "hue": "brown",
+        "treatment": "rose-undertone"
+      },
+      "subcategory": "brown",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eye-color-base-brown-muted-undertone",
+      "semantic_key": "identity-eye-color-base-brown-muted-undertone",
+      "text": "brown eyes with a muted undertone",
+      "sentence": "Brown eyes with a muted undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "brown eyes with a muted undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing brown eyes with a muted undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with brown eyes with a muted undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-eye-color-base-brown",
+      "tags": [
+        "base",
+        "eye-color",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "hue": "brown",
+        "treatment": "muted-undertone"
+      },
+      "subcategory": "brown",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eye-color-base-brown-luminous-undertone",
+      "semantic_key": "identity-eye-color-base-brown-luminous-undertone",
+      "text": "brown eyes with a luminous undertone",
+      "sentence": "Brown eyes with a luminous undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "brown eyes with a luminous undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing brown eyes with a luminous undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with brown eyes with a luminous undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-eye-color-base-brown",
+      "tags": [
+        "base",
+        "eye-color",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "hue": "brown",
+        "treatment": "luminous-undertone"
+      },
+      "subcategory": "brown",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eye-color-base-amber-neutral-undertone",
+      "semantic_key": "identity-eye-color-base-amber-neutral-undertone",
+      "text": "amber eyes with a neutral undertone",
+      "sentence": "Amber eyes with a neutral undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "amber eyes with a neutral undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing amber eyes with a neutral undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with amber eyes with a neutral undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-eye-color-base-amber",
+      "tags": [
+        "base",
+        "eye-color",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "hue": "amber",
+        "treatment": "neutral-undertone"
+      },
+      "subcategory": "amber",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eye-color-base-amber-warm-undertone",
+      "semantic_key": "identity-eye-color-base-amber-warm-undertone",
+      "text": "amber eyes with a warm undertone",
+      "sentence": "Amber eyes with a warm undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "amber eyes with a warm undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing amber eyes with a warm undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with amber eyes with a warm undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-eye-color-base-amber",
+      "tags": [
+        "base",
+        "eye-color",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "hue": "amber",
+        "treatment": "warm-undertone"
+      },
+      "subcategory": "amber",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eye-color-base-amber-cool-undertone",
+      "semantic_key": "identity-eye-color-base-amber-cool-undertone",
+      "text": "amber eyes with a cool undertone",
+      "sentence": "Amber eyes with a cool undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "amber eyes with a cool undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing amber eyes with a cool undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with amber eyes with a cool undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-eye-color-base-amber",
+      "tags": [
+        "base",
+        "eye-color",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "hue": "amber",
+        "treatment": "cool-undertone"
+      },
+      "subcategory": "amber",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eye-color-base-amber-golden-undertone",
+      "semantic_key": "identity-eye-color-base-amber-golden-undertone",
+      "text": "amber eyes with a golden undertone",
+      "sentence": "Amber eyes with a golden undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "amber eyes with a golden undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing amber eyes with a golden undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with amber eyes with a golden undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-eye-color-base-amber",
+      "tags": [
+        "base",
+        "eye-color",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "hue": "amber",
+        "treatment": "golden-undertone"
+      },
+      "subcategory": "amber",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eye-color-base-amber-olive-undertone",
+      "semantic_key": "identity-eye-color-base-amber-olive-undertone",
+      "text": "amber eyes with a olive undertone",
+      "sentence": "Amber eyes with a olive undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "amber eyes with a olive undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing amber eyes with a olive undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with amber eyes with a olive undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-eye-color-base-amber",
+      "tags": [
+        "base",
+        "eye-color",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "hue": "amber",
+        "treatment": "olive-undertone"
+      },
+      "subcategory": "amber",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eye-color-base-amber-rose-undertone",
+      "semantic_key": "identity-eye-color-base-amber-rose-undertone",
+      "text": "amber eyes with a rose undertone",
+      "sentence": "Amber eyes with a rose undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "amber eyes with a rose undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing amber eyes with a rose undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with amber eyes with a rose undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-eye-color-base-amber",
+      "tags": [
+        "base",
+        "eye-color",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "hue": "amber",
+        "treatment": "rose-undertone"
+      },
+      "subcategory": "amber",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eye-color-base-amber-muted-undertone",
+      "semantic_key": "identity-eye-color-base-amber-muted-undertone",
+      "text": "amber eyes with a muted undertone",
+      "sentence": "Amber eyes with a muted undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "amber eyes with a muted undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing amber eyes with a muted undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with amber eyes with a muted undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-eye-color-base-amber",
+      "tags": [
+        "base",
+        "eye-color",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "hue": "amber",
+        "treatment": "muted-undertone"
+      },
+      "subcategory": "amber",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eye-color-base-amber-luminous-undertone",
+      "semantic_key": "identity-eye-color-base-amber-luminous-undertone",
+      "text": "amber eyes with a luminous undertone",
+      "sentence": "Amber eyes with a luminous undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "amber eyes with a luminous undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing amber eyes with a luminous undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with amber eyes with a luminous undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-eye-color-base-amber",
+      "tags": [
+        "base",
+        "eye-color",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "hue": "amber",
+        "treatment": "luminous-undertone"
+      },
+      "subcategory": "amber",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eye-color-base-hazel-neutral-undertone",
+      "semantic_key": "identity-eye-color-base-hazel-neutral-undertone",
+      "text": "hazel eyes with a neutral undertone",
+      "sentence": "Hazel eyes with a neutral undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "hazel eyes with a neutral undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing hazel eyes with a neutral undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with hazel eyes with a neutral undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-eye-color-base-hazel",
+      "tags": [
+        "base",
+        "eye-color",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "hue": "hazel",
+        "treatment": "neutral-undertone"
+      },
+      "subcategory": "hazel",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eye-color-base-hazel-warm-undertone",
+      "semantic_key": "identity-eye-color-base-hazel-warm-undertone",
+      "text": "hazel eyes with a warm undertone",
+      "sentence": "Hazel eyes with a warm undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "hazel eyes with a warm undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing hazel eyes with a warm undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with hazel eyes with a warm undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-eye-color-base-hazel",
+      "tags": [
+        "base",
+        "eye-color",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "hue": "hazel",
+        "treatment": "warm-undertone"
+      },
+      "subcategory": "hazel",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eye-color-base-hazel-cool-undertone",
+      "semantic_key": "identity-eye-color-base-hazel-cool-undertone",
+      "text": "hazel eyes with a cool undertone",
+      "sentence": "Hazel eyes with a cool undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "hazel eyes with a cool undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing hazel eyes with a cool undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with hazel eyes with a cool undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-eye-color-base-hazel",
+      "tags": [
+        "base",
+        "eye-color",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "hue": "hazel",
+        "treatment": "cool-undertone"
+      },
+      "subcategory": "hazel",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eye-color-base-hazel-golden-undertone",
+      "semantic_key": "identity-eye-color-base-hazel-golden-undertone",
+      "text": "hazel eyes with a golden undertone",
+      "sentence": "Hazel eyes with a golden undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "hazel eyes with a golden undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing hazel eyes with a golden undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with hazel eyes with a golden undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-eye-color-base-hazel",
+      "tags": [
+        "base",
+        "eye-color",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "hue": "hazel",
+        "treatment": "golden-undertone"
+      },
+      "subcategory": "hazel",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eye-color-base-hazel-olive-undertone",
+      "semantic_key": "identity-eye-color-base-hazel-olive-undertone",
+      "text": "hazel eyes with a olive undertone",
+      "sentence": "Hazel eyes with a olive undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "hazel eyes with a olive undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing hazel eyes with a olive undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with hazel eyes with a olive undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-eye-color-base-hazel",
+      "tags": [
+        "base",
+        "eye-color",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "hue": "hazel",
+        "treatment": "olive-undertone"
+      },
+      "subcategory": "hazel",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eye-color-base-hazel-rose-undertone",
+      "semantic_key": "identity-eye-color-base-hazel-rose-undertone",
+      "text": "hazel eyes with a rose undertone",
+      "sentence": "Hazel eyes with a rose undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "hazel eyes with a rose undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing hazel eyes with a rose undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with hazel eyes with a rose undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-eye-color-base-hazel",
+      "tags": [
+        "base",
+        "eye-color",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "hue": "hazel",
+        "treatment": "rose-undertone"
+      },
+      "subcategory": "hazel",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eye-color-base-hazel-muted-undertone",
+      "semantic_key": "identity-eye-color-base-hazel-muted-undertone",
+      "text": "hazel eyes with a muted undertone",
+      "sentence": "Hazel eyes with a muted undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "hazel eyes with a muted undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing hazel eyes with a muted undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with hazel eyes with a muted undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-eye-color-base-hazel",
+      "tags": [
+        "base",
+        "eye-color",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "hue": "hazel",
+        "treatment": "muted-undertone"
+      },
+      "subcategory": "hazel",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eye-color-base-hazel-luminous-undertone",
+      "semantic_key": "identity-eye-color-base-hazel-luminous-undertone",
+      "text": "hazel eyes with a luminous undertone",
+      "sentence": "Hazel eyes with a luminous undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "hazel eyes with a luminous undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing hazel eyes with a luminous undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with hazel eyes with a luminous undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-eye-color-base-hazel",
+      "tags": [
+        "base",
+        "eye-color",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "hue": "hazel",
+        "treatment": "luminous-undertone"
+      },
+      "subcategory": "hazel",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eye-color-base-green-neutral-undertone",
+      "semantic_key": "identity-eye-color-base-green-neutral-undertone",
+      "text": "green eyes with a neutral undertone",
+      "sentence": "Green eyes with a neutral undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "green eyes with a neutral undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing green eyes with a neutral undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with green eyes with a neutral undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-eye-color-base-green",
+      "tags": [
+        "base",
+        "eye-color",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "hue": "green",
+        "treatment": "neutral-undertone"
+      },
+      "subcategory": "green",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eye-color-base-green-warm-undertone",
+      "semantic_key": "identity-eye-color-base-green-warm-undertone",
+      "text": "green eyes with a warm undertone",
+      "sentence": "Green eyes with a warm undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "green eyes with a warm undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing green eyes with a warm undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with green eyes with a warm undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-eye-color-base-green",
+      "tags": [
+        "base",
+        "eye-color",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "hue": "green",
+        "treatment": "warm-undertone"
+      },
+      "subcategory": "green",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eye-color-base-green-cool-undertone",
+      "semantic_key": "identity-eye-color-base-green-cool-undertone",
+      "text": "green eyes with a cool undertone",
+      "sentence": "Green eyes with a cool undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "green eyes with a cool undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing green eyes with a cool undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with green eyes with a cool undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-eye-color-base-green",
+      "tags": [
+        "base",
+        "eye-color",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "hue": "green",
+        "treatment": "cool-undertone"
+      },
+      "subcategory": "green",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eye-color-base-green-golden-undertone",
+      "semantic_key": "identity-eye-color-base-green-golden-undertone",
+      "text": "green eyes with a golden undertone",
+      "sentence": "Green eyes with a golden undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "green eyes with a golden undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing green eyes with a golden undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with green eyes with a golden undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-eye-color-base-green",
+      "tags": [
+        "base",
+        "eye-color",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "hue": "green",
+        "treatment": "golden-undertone"
+      },
+      "subcategory": "green",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eye-color-base-green-olive-undertone",
+      "semantic_key": "identity-eye-color-base-green-olive-undertone",
+      "text": "green eyes with a olive undertone",
+      "sentence": "Green eyes with a olive undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "green eyes with a olive undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing green eyes with a olive undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with green eyes with a olive undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-eye-color-base-green",
+      "tags": [
+        "base",
+        "eye-color",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "hue": "green",
+        "treatment": "olive-undertone"
+      },
+      "subcategory": "green",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eye-color-base-green-rose-undertone",
+      "semantic_key": "identity-eye-color-base-green-rose-undertone",
+      "text": "green eyes with a rose undertone",
+      "sentence": "Green eyes with a rose undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "green eyes with a rose undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing green eyes with a rose undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with green eyes with a rose undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-eye-color-base-green",
+      "tags": [
+        "base",
+        "eye-color",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "hue": "green",
+        "treatment": "rose-undertone"
+      },
+      "subcategory": "green",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eye-color-base-green-muted-undertone",
+      "semantic_key": "identity-eye-color-base-green-muted-undertone",
+      "text": "green eyes with a muted undertone",
+      "sentence": "Green eyes with a muted undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "green eyes with a muted undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing green eyes with a muted undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with green eyes with a muted undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-eye-color-base-green",
+      "tags": [
+        "base",
+        "eye-color",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "hue": "green",
+        "treatment": "muted-undertone"
+      },
+      "subcategory": "green",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eye-color-base-green-luminous-undertone",
+      "semantic_key": "identity-eye-color-base-green-luminous-undertone",
+      "text": "green eyes with a luminous undertone",
+      "sentence": "Green eyes with a luminous undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "green eyes with a luminous undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing green eyes with a luminous undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with green eyes with a luminous undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-eye-color-base-green",
+      "tags": [
+        "base",
+        "eye-color",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "hue": "green",
+        "treatment": "luminous-undertone"
+      },
+      "subcategory": "green",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eye-color-base-blue-neutral-undertone",
+      "semantic_key": "identity-eye-color-base-blue-neutral-undertone",
+      "text": "blue eyes with a neutral undertone",
+      "sentence": "Blue eyes with a neutral undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "blue eyes with a neutral undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing blue eyes with a neutral undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with blue eyes with a neutral undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-eye-color-base-blue",
+      "tags": [
+        "base",
+        "eye-color",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "hue": "blue",
+        "treatment": "neutral-undertone"
+      },
+      "subcategory": "blue",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eye-color-base-blue-warm-undertone",
+      "semantic_key": "identity-eye-color-base-blue-warm-undertone",
+      "text": "blue eyes with a warm undertone",
+      "sentence": "Blue eyes with a warm undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "blue eyes with a warm undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing blue eyes with a warm undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with blue eyes with a warm undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-eye-color-base-blue",
+      "tags": [
+        "base",
+        "eye-color",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "hue": "blue",
+        "treatment": "warm-undertone"
+      },
+      "subcategory": "blue",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eye-color-base-blue-cool-undertone",
+      "semantic_key": "identity-eye-color-base-blue-cool-undertone",
+      "text": "blue eyes with a cool undertone",
+      "sentence": "Blue eyes with a cool undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "blue eyes with a cool undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing blue eyes with a cool undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with blue eyes with a cool undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-eye-color-base-blue",
+      "tags": [
+        "base",
+        "eye-color",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "hue": "blue",
+        "treatment": "cool-undertone"
+      },
+      "subcategory": "blue",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eye-color-base-blue-golden-undertone",
+      "semantic_key": "identity-eye-color-base-blue-golden-undertone",
+      "text": "blue eyes with a golden undertone",
+      "sentence": "Blue eyes with a golden undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "blue eyes with a golden undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing blue eyes with a golden undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with blue eyes with a golden undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-eye-color-base-blue",
+      "tags": [
+        "base",
+        "eye-color",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "hue": "blue",
+        "treatment": "golden-undertone"
+      },
+      "subcategory": "blue",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eye-color-base-blue-olive-undertone",
+      "semantic_key": "identity-eye-color-base-blue-olive-undertone",
+      "text": "blue eyes with a olive undertone",
+      "sentence": "Blue eyes with a olive undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "blue eyes with a olive undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing blue eyes with a olive undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with blue eyes with a olive undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-eye-color-base-blue",
+      "tags": [
+        "base",
+        "eye-color",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "hue": "blue",
+        "treatment": "olive-undertone"
+      },
+      "subcategory": "blue",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eye-color-base-blue-rose-undertone",
+      "semantic_key": "identity-eye-color-base-blue-rose-undertone",
+      "text": "blue eyes with a rose undertone",
+      "sentence": "Blue eyes with a rose undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "blue eyes with a rose undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing blue eyes with a rose undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with blue eyes with a rose undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-eye-color-base-blue",
+      "tags": [
+        "base",
+        "eye-color",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "hue": "blue",
+        "treatment": "rose-undertone"
+      },
+      "subcategory": "blue",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eye-color-base-blue-muted-undertone",
+      "semantic_key": "identity-eye-color-base-blue-muted-undertone",
+      "text": "blue eyes with a muted undertone",
+      "sentence": "Blue eyes with a muted undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "blue eyes with a muted undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing blue eyes with a muted undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with blue eyes with a muted undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-eye-color-base-blue",
+      "tags": [
+        "base",
+        "eye-color",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "hue": "blue",
+        "treatment": "muted-undertone"
+      },
+      "subcategory": "blue",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eye-color-base-blue-luminous-undertone",
+      "semantic_key": "identity-eye-color-base-blue-luminous-undertone",
+      "text": "blue eyes with a luminous undertone",
+      "sentence": "Blue eyes with a luminous undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "blue eyes with a luminous undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing blue eyes with a luminous undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with blue eyes with a luminous undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-eye-color-base-blue",
+      "tags": [
+        "base",
+        "eye-color",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "hue": "blue",
+        "treatment": "luminous-undertone"
+      },
+      "subcategory": "blue",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eye-color-base-gray-neutral-undertone",
+      "semantic_key": "identity-eye-color-base-gray-neutral-undertone",
+      "text": "gray eyes with a neutral undertone",
+      "sentence": "Gray eyes with a neutral undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gray eyes with a neutral undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gray eyes with a neutral undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gray eyes with a neutral undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-eye-color-base-gray",
+      "tags": [
+        "base",
+        "eye-color",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "hue": "gray",
+        "treatment": "neutral-undertone"
+      },
+      "subcategory": "gray",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eye-color-base-gray-warm-undertone",
+      "semantic_key": "identity-eye-color-base-gray-warm-undertone",
+      "text": "gray eyes with a warm undertone",
+      "sentence": "Gray eyes with a warm undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gray eyes with a warm undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gray eyes with a warm undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gray eyes with a warm undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-eye-color-base-gray",
+      "tags": [
+        "base",
+        "eye-color",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "hue": "gray",
+        "treatment": "warm-undertone"
+      },
+      "subcategory": "gray",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eye-color-base-gray-cool-undertone",
+      "semantic_key": "identity-eye-color-base-gray-cool-undertone",
+      "text": "gray eyes with a cool undertone",
+      "sentence": "Gray eyes with a cool undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gray eyes with a cool undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gray eyes with a cool undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gray eyes with a cool undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-eye-color-base-gray",
+      "tags": [
+        "base",
+        "eye-color",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "hue": "gray",
+        "treatment": "cool-undertone"
+      },
+      "subcategory": "gray",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eye-color-base-gray-golden-undertone",
+      "semantic_key": "identity-eye-color-base-gray-golden-undertone",
+      "text": "gray eyes with a golden undertone",
+      "sentence": "Gray eyes with a golden undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gray eyes with a golden undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gray eyes with a golden undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gray eyes with a golden undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-eye-color-base-gray",
+      "tags": [
+        "base",
+        "eye-color",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "hue": "gray",
+        "treatment": "golden-undertone"
+      },
+      "subcategory": "gray",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eye-color-base-gray-olive-undertone",
+      "semantic_key": "identity-eye-color-base-gray-olive-undertone",
+      "text": "gray eyes with a olive undertone",
+      "sentence": "Gray eyes with a olive undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gray eyes with a olive undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gray eyes with a olive undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gray eyes with a olive undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-eye-color-base-gray",
+      "tags": [
+        "base",
+        "eye-color",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "hue": "gray",
+        "treatment": "olive-undertone"
+      },
+      "subcategory": "gray",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eye-color-base-gray-rose-undertone",
+      "semantic_key": "identity-eye-color-base-gray-rose-undertone",
+      "text": "gray eyes with a rose undertone",
+      "sentence": "Gray eyes with a rose undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gray eyes with a rose undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gray eyes with a rose undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gray eyes with a rose undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-eye-color-base-gray",
+      "tags": [
+        "base",
+        "eye-color",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "hue": "gray",
+        "treatment": "rose-undertone"
+      },
+      "subcategory": "gray",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eye-color-base-gray-muted-undertone",
+      "semantic_key": "identity-eye-color-base-gray-muted-undertone",
+      "text": "gray eyes with a muted undertone",
+      "sentence": "Gray eyes with a muted undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gray eyes with a muted undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gray eyes with a muted undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gray eyes with a muted undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-eye-color-base-gray",
+      "tags": [
+        "base",
+        "eye-color",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "hue": "gray",
+        "treatment": "muted-undertone"
+      },
+      "subcategory": "gray",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eye-color-base-gray-luminous-undertone",
+      "semantic_key": "identity-eye-color-base-gray-luminous-undertone",
+      "text": "gray eyes with a luminous undertone",
+      "sentence": "Gray eyes with a luminous undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gray eyes with a luminous undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gray eyes with a luminous undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gray eyes with a luminous undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-eye-color-base-gray",
+      "tags": [
+        "base",
+        "eye-color",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "hue": "gray",
+        "treatment": "luminous-undertone"
+      },
+      "subcategory": "gray",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eye-color-base-dark-brown-neutral-undertone",
+      "semantic_key": "identity-eye-color-base-dark-brown-neutral-undertone",
+      "text": "dark brown eyes with a neutral undertone",
+      "sentence": "Dark brown eyes with a neutral undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "dark brown eyes with a neutral undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing dark brown eyes with a neutral undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with dark brown eyes with a neutral undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-eye-color-base-dark-brown",
+      "tags": [
+        "base",
+        "eye-color",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "hue": "dark-brown",
+        "treatment": "neutral-undertone"
+      },
+      "subcategory": "dark-brown",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eye-color-base-dark-brown-warm-undertone",
+      "semantic_key": "identity-eye-color-base-dark-brown-warm-undertone",
+      "text": "dark brown eyes with a warm undertone",
+      "sentence": "Dark brown eyes with a warm undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "dark brown eyes with a warm undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing dark brown eyes with a warm undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with dark brown eyes with a warm undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-eye-color-base-dark-brown",
+      "tags": [
+        "base",
+        "eye-color",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "hue": "dark-brown",
+        "treatment": "warm-undertone"
+      },
+      "subcategory": "dark-brown",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eye-color-base-dark-brown-cool-undertone",
+      "semantic_key": "identity-eye-color-base-dark-brown-cool-undertone",
+      "text": "dark brown eyes with a cool undertone",
+      "sentence": "Dark brown eyes with a cool undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "dark brown eyes with a cool undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing dark brown eyes with a cool undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with dark brown eyes with a cool undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-eye-color-base-dark-brown",
+      "tags": [
+        "base",
+        "eye-color",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "hue": "dark-brown",
+        "treatment": "cool-undertone"
+      },
+      "subcategory": "dark-brown",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eye-color-base-dark-brown-golden-undertone",
+      "semantic_key": "identity-eye-color-base-dark-brown-golden-undertone",
+      "text": "dark brown eyes with a golden undertone",
+      "sentence": "Dark brown eyes with a golden undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "dark brown eyes with a golden undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing dark brown eyes with a golden undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with dark brown eyes with a golden undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-eye-color-base-dark-brown",
+      "tags": [
+        "base",
+        "eye-color",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "hue": "dark-brown",
+        "treatment": "golden-undertone"
+      },
+      "subcategory": "dark-brown",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eye-color-base-dark-brown-olive-undertone",
+      "semantic_key": "identity-eye-color-base-dark-brown-olive-undertone",
+      "text": "dark brown eyes with a olive undertone",
+      "sentence": "Dark brown eyes with a olive undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "dark brown eyes with a olive undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing dark brown eyes with a olive undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with dark brown eyes with a olive undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-eye-color-base-dark-brown",
+      "tags": [
+        "base",
+        "eye-color",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "hue": "dark-brown",
+        "treatment": "olive-undertone"
+      },
+      "subcategory": "dark-brown",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eye-color-base-dark-brown-rose-undertone",
+      "semantic_key": "identity-eye-color-base-dark-brown-rose-undertone",
+      "text": "dark brown eyes with a rose undertone",
+      "sentence": "Dark brown eyes with a rose undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "dark brown eyes with a rose undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing dark brown eyes with a rose undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with dark brown eyes with a rose undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-eye-color-base-dark-brown",
+      "tags": [
+        "base",
+        "eye-color",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "hue": "dark-brown",
+        "treatment": "rose-undertone"
+      },
+      "subcategory": "dark-brown",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eye-color-base-dark-brown-muted-undertone",
+      "semantic_key": "identity-eye-color-base-dark-brown-muted-undertone",
+      "text": "dark brown eyes with a muted undertone",
+      "sentence": "Dark brown eyes with a muted undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "dark brown eyes with a muted undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing dark brown eyes with a muted undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with dark brown eyes with a muted undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-eye-color-base-dark-brown",
+      "tags": [
+        "base",
+        "eye-color",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "hue": "dark-brown",
+        "treatment": "muted-undertone"
+      },
+      "subcategory": "dark-brown",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eye-color-base-dark-brown-luminous-undertone",
+      "semantic_key": "identity-eye-color-base-dark-brown-luminous-undertone",
+      "text": "dark brown eyes with a luminous undertone",
+      "sentence": "Dark brown eyes with a luminous undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "dark brown eyes with a luminous undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing dark brown eyes with a luminous undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with dark brown eyes with a luminous undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-eye-color-base-dark-brown",
+      "tags": [
+        "base",
+        "eye-color",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "hue": "dark-brown",
+        "treatment": "luminous-undertone"
+      },
+      "subcategory": "dark-brown",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eye-color-base-blue-green-neutral-undertone",
+      "semantic_key": "identity-eye-color-base-blue-green-neutral-undertone",
+      "text": "blue-green eyes with a neutral undertone",
+      "sentence": "Blue-green eyes with a neutral undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "blue-green eyes with a neutral undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing blue-green eyes with a neutral undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with blue-green eyes with a neutral undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-eye-color-base-blue-green",
+      "tags": [
+        "base",
+        "eye-color",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "hue": "blue-green",
+        "treatment": "neutral-undertone"
+      },
+      "subcategory": "blue-green",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eye-color-base-blue-green-warm-undertone",
+      "semantic_key": "identity-eye-color-base-blue-green-warm-undertone",
+      "text": "blue-green eyes with a warm undertone",
+      "sentence": "Blue-green eyes with a warm undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "blue-green eyes with a warm undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing blue-green eyes with a warm undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with blue-green eyes with a warm undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-eye-color-base-blue-green",
+      "tags": [
+        "base",
+        "eye-color",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "hue": "blue-green",
+        "treatment": "warm-undertone"
+      },
+      "subcategory": "blue-green",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eye-color-base-blue-green-cool-undertone",
+      "semantic_key": "identity-eye-color-base-blue-green-cool-undertone",
+      "text": "blue-green eyes with a cool undertone",
+      "sentence": "Blue-green eyes with a cool undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "blue-green eyes with a cool undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing blue-green eyes with a cool undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with blue-green eyes with a cool undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-eye-color-base-blue-green",
+      "tags": [
+        "base",
+        "eye-color",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "hue": "blue-green",
+        "treatment": "cool-undertone"
+      },
+      "subcategory": "blue-green",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eye-color-base-blue-green-golden-undertone",
+      "semantic_key": "identity-eye-color-base-blue-green-golden-undertone",
+      "text": "blue-green eyes with a golden undertone",
+      "sentence": "Blue-green eyes with a golden undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "blue-green eyes with a golden undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing blue-green eyes with a golden undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with blue-green eyes with a golden undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-eye-color-base-blue-green",
+      "tags": [
+        "base",
+        "eye-color",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "hue": "blue-green",
+        "treatment": "golden-undertone"
+      },
+      "subcategory": "blue-green",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eye-color-base-blue-green-olive-undertone",
+      "semantic_key": "identity-eye-color-base-blue-green-olive-undertone",
+      "text": "blue-green eyes with a olive undertone",
+      "sentence": "Blue-green eyes with a olive undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "blue-green eyes with a olive undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing blue-green eyes with a olive undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with blue-green eyes with a olive undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-eye-color-base-blue-green",
+      "tags": [
+        "base",
+        "eye-color",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "hue": "blue-green",
+        "treatment": "olive-undertone"
+      },
+      "subcategory": "blue-green",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eye-color-base-blue-green-rose-undertone",
+      "semantic_key": "identity-eye-color-base-blue-green-rose-undertone",
+      "text": "blue-green eyes with a rose undertone",
+      "sentence": "Blue-green eyes with a rose undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "blue-green eyes with a rose undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing blue-green eyes with a rose undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with blue-green eyes with a rose undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-eye-color-base-blue-green",
+      "tags": [
+        "base",
+        "eye-color",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "hue": "blue-green",
+        "treatment": "rose-undertone"
+      },
+      "subcategory": "blue-green",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eye-color-base-blue-green-muted-undertone",
+      "semantic_key": "identity-eye-color-base-blue-green-muted-undertone",
+      "text": "blue-green eyes with a muted undertone",
+      "sentence": "Blue-green eyes with a muted undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "blue-green eyes with a muted undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing blue-green eyes with a muted undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with blue-green eyes with a muted undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-eye-color-base-blue-green",
+      "tags": [
+        "base",
+        "eye-color",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "hue": "blue-green",
+        "treatment": "muted-undertone"
+      },
+      "subcategory": "blue-green",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eye-color-base-blue-green-luminous-undertone",
+      "semantic_key": "identity-eye-color-base-blue-green-luminous-undertone",
+      "text": "blue-green eyes with a luminous undertone",
+      "sentence": "Blue-green eyes with a luminous undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "blue-green eyes with a luminous undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing blue-green eyes with a luminous undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with blue-green eyes with a luminous undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-eye-color-base-blue-green",
+      "tags": [
+        "base",
+        "eye-color",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "hue": "blue-green",
+        "treatment": "luminous-undertone"
+      },
+      "subcategory": "blue-green",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    }
+  ]
+}

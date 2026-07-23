@@ -154,7 +154,7 @@ class ImplicationTests(unittest.TestCase):
         self.assertEqual(result.context.selections["lighting"].option.id, "overcast")
         self.assertEqual(len(result.resolved_conflicts), 1)
         fixed = SelectionContext(selections=selections, fixed_fields=frozenset({"lighting"}))
-        with self.assertRaisesRegex(RuleConflictError, "conflicts with fixed value"):
+        with self.assertRaisesRegex(RuleConflictError, "conflicts with user-locked value"):
             apply_implications(fixed, {"lighting": _library("lighting", sunny, overcast)})
 
     def test_implication_cycle_is_rejected(self) -> None:

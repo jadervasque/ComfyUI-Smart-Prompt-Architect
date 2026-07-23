@@ -1,0 +1,2641 @@
+{
+  "schema_version": "2.0",
+  "id": "scene-time-of-day-base",
+  "version": "2.0.0",
+  "library": "time-of-day",
+  "domain": "scene",
+  "category": "time-of-day",
+  "language": "en",
+  "status": "active",
+  "safety": "general",
+  "tags": [
+    "base"
+  ],
+  "fallback_option_id": "scene-time-of-day-base-pre-dawn-low-contrast",
+  "options": [
+    {
+      "id": "scene-time-of-day-base-pre-dawn-low-contrast",
+      "semantic_key": "scene-time-of-day-base-pre-dawn-low-contrast",
+      "text": "pre-dawn timing with low contrast",
+      "sentence": "Pre-dawn timing with low contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "pre-dawn timing with low contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing pre-dawn timing with low contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with pre-dawn timing with low contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-time-of-day-base-pre-dawn",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "time-night",
+        "time-of-day"
+      ],
+      "facets": {
+        "period": "pre-dawn",
+        "treatment": "low-contrast"
+      },
+      "subcategory": "pre-dawn",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-time-of-day-base-pre-dawn-moderate-contrast",
+      "semantic_key": "scene-time-of-day-base-pre-dawn-moderate-contrast",
+      "text": "pre-dawn timing with moderate contrast",
+      "sentence": "Pre-dawn timing with moderate contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "pre-dawn timing with moderate contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing pre-dawn timing with moderate contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with pre-dawn timing with moderate contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-time-of-day-base-pre-dawn",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "time-night",
+        "time-of-day"
+      ],
+      "facets": {
+        "period": "pre-dawn",
+        "treatment": "moderate-contrast"
+      },
+      "subcategory": "pre-dawn",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-time-of-day-base-pre-dawn-high-contrast",
+      "semantic_key": "scene-time-of-day-base-pre-dawn-high-contrast",
+      "text": "pre-dawn timing with high contrast",
+      "sentence": "Pre-dawn timing with high contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "pre-dawn timing with high contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing pre-dawn timing with high contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with pre-dawn timing with high contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-time-of-day-base-pre-dawn",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "time-night",
+        "time-of-day"
+      ],
+      "facets": {
+        "period": "pre-dawn",
+        "treatment": "high-contrast"
+      },
+      "subcategory": "pre-dawn",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-time-of-day-base-pre-dawn-soft-transitions",
+      "semantic_key": "scene-time-of-day-base-pre-dawn-soft-transitions",
+      "text": "pre-dawn timing with soft transitions",
+      "sentence": "Pre-dawn timing with soft transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "pre-dawn timing with soft transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing pre-dawn timing with soft transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with pre-dawn timing with soft transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-time-of-day-base-pre-dawn",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "time-night",
+        "time-of-day"
+      ],
+      "facets": {
+        "period": "pre-dawn",
+        "treatment": "soft-transitions"
+      },
+      "subcategory": "pre-dawn",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-time-of-day-base-pre-dawn-crisp-transitions",
+      "semantic_key": "scene-time-of-day-base-pre-dawn-crisp-transitions",
+      "text": "pre-dawn timing with crisp transitions",
+      "sentence": "Pre-dawn timing with crisp transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "pre-dawn timing with crisp transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing pre-dawn timing with crisp transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with pre-dawn timing with crisp transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-time-of-day-base-pre-dawn",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "scene",
+        "time-night",
+        "time-of-day"
+      ],
+      "facets": {
+        "period": "pre-dawn",
+        "treatment": "crisp-transitions"
+      },
+      "subcategory": "pre-dawn",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-time-of-day-base-pre-dawn-broad-falloff",
+      "semantic_key": "scene-time-of-day-base-pre-dawn-broad-falloff",
+      "text": "pre-dawn timing with broad falloff",
+      "sentence": "Pre-dawn timing with broad falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "pre-dawn timing with broad falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing pre-dawn timing with broad falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with pre-dawn timing with broad falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-time-of-day-base-pre-dawn",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "scene",
+        "time-night",
+        "time-of-day"
+      ],
+      "facets": {
+        "period": "pre-dawn",
+        "treatment": "broad-falloff"
+      },
+      "subcategory": "pre-dawn",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-time-of-day-base-pre-dawn-rapid-falloff",
+      "semantic_key": "scene-time-of-day-base-pre-dawn-rapid-falloff",
+      "text": "pre-dawn timing with rapid falloff",
+      "sentence": "Pre-dawn timing with rapid falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "pre-dawn timing with rapid falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing pre-dawn timing with rapid falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with pre-dawn timing with rapid falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-time-of-day-base-pre-dawn",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "scene",
+        "time-night",
+        "time-of-day"
+      ],
+      "facets": {
+        "period": "pre-dawn",
+        "treatment": "rapid-falloff"
+      },
+      "subcategory": "pre-dawn",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-time-of-day-base-pre-dawn-layered-illumination",
+      "semantic_key": "scene-time-of-day-base-pre-dawn-layered-illumination",
+      "text": "pre-dawn timing with layered illumination",
+      "sentence": "Pre-dawn timing with layered illumination.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "pre-dawn timing with layered illumination",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing pre-dawn timing with layered illumination",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with pre-dawn timing with layered illumination",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-time-of-day-base-pre-dawn",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "scene",
+        "time-night",
+        "time-of-day"
+      ],
+      "facets": {
+        "period": "pre-dawn",
+        "treatment": "layered-illumination"
+      },
+      "subcategory": "pre-dawn",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-time-of-day-base-sunrise-low-contrast",
+      "semantic_key": "scene-time-of-day-base-sunrise-low-contrast",
+      "text": "sunrise timing with low contrast",
+      "sentence": "Sunrise timing with low contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "sunrise timing with low contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing sunrise timing with low contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with sunrise timing with low contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-time-of-day-base-sunrise",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "time-daylight",
+        "time-of-day"
+      ],
+      "facets": {
+        "period": "sunrise",
+        "treatment": "low-contrast"
+      },
+      "subcategory": "sunrise",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-time-of-day-base-sunrise-moderate-contrast",
+      "semantic_key": "scene-time-of-day-base-sunrise-moderate-contrast",
+      "text": "sunrise timing with moderate contrast",
+      "sentence": "Sunrise timing with moderate contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "sunrise timing with moderate contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing sunrise timing with moderate contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with sunrise timing with moderate contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-time-of-day-base-sunrise",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "time-daylight",
+        "time-of-day"
+      ],
+      "facets": {
+        "period": "sunrise",
+        "treatment": "moderate-contrast"
+      },
+      "subcategory": "sunrise",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-time-of-day-base-sunrise-high-contrast",
+      "semantic_key": "scene-time-of-day-base-sunrise-high-contrast",
+      "text": "sunrise timing with high contrast",
+      "sentence": "Sunrise timing with high contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "sunrise timing with high contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing sunrise timing with high contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with sunrise timing with high contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-time-of-day-base-sunrise",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "time-daylight",
+        "time-of-day"
+      ],
+      "facets": {
+        "period": "sunrise",
+        "treatment": "high-contrast"
+      },
+      "subcategory": "sunrise",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-time-of-day-base-sunrise-soft-transitions",
+      "semantic_key": "scene-time-of-day-base-sunrise-soft-transitions",
+      "text": "sunrise timing with soft transitions",
+      "sentence": "Sunrise timing with soft transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "sunrise timing with soft transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing sunrise timing with soft transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with sunrise timing with soft transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-time-of-day-base-sunrise",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "time-daylight",
+        "time-of-day"
+      ],
+      "facets": {
+        "period": "sunrise",
+        "treatment": "soft-transitions"
+      },
+      "subcategory": "sunrise",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-time-of-day-base-sunrise-crisp-transitions",
+      "semantic_key": "scene-time-of-day-base-sunrise-crisp-transitions",
+      "text": "sunrise timing with crisp transitions",
+      "sentence": "Sunrise timing with crisp transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "sunrise timing with crisp transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing sunrise timing with crisp transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with sunrise timing with crisp transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-time-of-day-base-sunrise",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "scene",
+        "time-daylight",
+        "time-of-day"
+      ],
+      "facets": {
+        "period": "sunrise",
+        "treatment": "crisp-transitions"
+      },
+      "subcategory": "sunrise",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-time-of-day-base-sunrise-broad-falloff",
+      "semantic_key": "scene-time-of-day-base-sunrise-broad-falloff",
+      "text": "sunrise timing with broad falloff",
+      "sentence": "Sunrise timing with broad falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "sunrise timing with broad falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing sunrise timing with broad falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with sunrise timing with broad falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-time-of-day-base-sunrise",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "scene",
+        "time-daylight",
+        "time-of-day"
+      ],
+      "facets": {
+        "period": "sunrise",
+        "treatment": "broad-falloff"
+      },
+      "subcategory": "sunrise",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-time-of-day-base-sunrise-rapid-falloff",
+      "semantic_key": "scene-time-of-day-base-sunrise-rapid-falloff",
+      "text": "sunrise timing with rapid falloff",
+      "sentence": "Sunrise timing with rapid falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "sunrise timing with rapid falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing sunrise timing with rapid falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with sunrise timing with rapid falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-time-of-day-base-sunrise",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "scene",
+        "time-daylight",
+        "time-of-day"
+      ],
+      "facets": {
+        "period": "sunrise",
+        "treatment": "rapid-falloff"
+      },
+      "subcategory": "sunrise",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-time-of-day-base-sunrise-layered-illumination",
+      "semantic_key": "scene-time-of-day-base-sunrise-layered-illumination",
+      "text": "sunrise timing with layered illumination",
+      "sentence": "Sunrise timing with layered illumination.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "sunrise timing with layered illumination",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing sunrise timing with layered illumination",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with sunrise timing with layered illumination",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-time-of-day-base-sunrise",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "scene",
+        "time-daylight",
+        "time-of-day"
+      ],
+      "facets": {
+        "period": "sunrise",
+        "treatment": "layered-illumination"
+      },
+      "subcategory": "sunrise",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-time-of-day-base-early-morning-low-contrast",
+      "semantic_key": "scene-time-of-day-base-early-morning-low-contrast",
+      "text": "early morning timing with low contrast",
+      "sentence": "Early morning timing with low contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "early morning timing with low contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing early morning timing with low contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with early morning timing with low contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-time-of-day-base-early-morning",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "time-daylight",
+        "time-of-day"
+      ],
+      "facets": {
+        "period": "early-morning",
+        "treatment": "low-contrast"
+      },
+      "subcategory": "early-morning",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-time-of-day-base-early-morning-moderate-contrast",
+      "semantic_key": "scene-time-of-day-base-early-morning-moderate-contrast",
+      "text": "early morning timing with moderate contrast",
+      "sentence": "Early morning timing with moderate contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "early morning timing with moderate contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing early morning timing with moderate contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with early morning timing with moderate contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-time-of-day-base-early-morning",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "time-daylight",
+        "time-of-day"
+      ],
+      "facets": {
+        "period": "early-morning",
+        "treatment": "moderate-contrast"
+      },
+      "subcategory": "early-morning",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-time-of-day-base-early-morning-high-contrast",
+      "semantic_key": "scene-time-of-day-base-early-morning-high-contrast",
+      "text": "early morning timing with high contrast",
+      "sentence": "Early morning timing with high contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "early morning timing with high contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing early morning timing with high contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with early morning timing with high contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-time-of-day-base-early-morning",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "time-daylight",
+        "time-of-day"
+      ],
+      "facets": {
+        "period": "early-morning",
+        "treatment": "high-contrast"
+      },
+      "subcategory": "early-morning",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-time-of-day-base-early-morning-soft-transitions",
+      "semantic_key": "scene-time-of-day-base-early-morning-soft-transitions",
+      "text": "early morning timing with soft transitions",
+      "sentence": "Early morning timing with soft transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "early morning timing with soft transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing early morning timing with soft transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with early morning timing with soft transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-time-of-day-base-early-morning",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "time-daylight",
+        "time-of-day"
+      ],
+      "facets": {
+        "period": "early-morning",
+        "treatment": "soft-transitions"
+      },
+      "subcategory": "early-morning",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-time-of-day-base-early-morning-crisp-transitions",
+      "semantic_key": "scene-time-of-day-base-early-morning-crisp-transitions",
+      "text": "early morning timing with crisp transitions",
+      "sentence": "Early morning timing with crisp transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "early morning timing with crisp transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing early morning timing with crisp transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with early morning timing with crisp transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-time-of-day-base-early-morning",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "scene",
+        "time-daylight",
+        "time-of-day"
+      ],
+      "facets": {
+        "period": "early-morning",
+        "treatment": "crisp-transitions"
+      },
+      "subcategory": "early-morning",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-time-of-day-base-early-morning-broad-falloff",
+      "semantic_key": "scene-time-of-day-base-early-morning-broad-falloff",
+      "text": "early morning timing with broad falloff",
+      "sentence": "Early morning timing with broad falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "early morning timing with broad falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing early morning timing with broad falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with early morning timing with broad falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-time-of-day-base-early-morning",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "scene",
+        "time-daylight",
+        "time-of-day"
+      ],
+      "facets": {
+        "period": "early-morning",
+        "treatment": "broad-falloff"
+      },
+      "subcategory": "early-morning",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-time-of-day-base-early-morning-rapid-falloff",
+      "semantic_key": "scene-time-of-day-base-early-morning-rapid-falloff",
+      "text": "early morning timing with rapid falloff",
+      "sentence": "Early morning timing with rapid falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "early morning timing with rapid falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing early morning timing with rapid falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with early morning timing with rapid falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-time-of-day-base-early-morning",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "scene",
+        "time-daylight",
+        "time-of-day"
+      ],
+      "facets": {
+        "period": "early-morning",
+        "treatment": "rapid-falloff"
+      },
+      "subcategory": "early-morning",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-time-of-day-base-early-morning-layered-illumination",
+      "semantic_key": "scene-time-of-day-base-early-morning-layered-illumination",
+      "text": "early morning timing with layered illumination",
+      "sentence": "Early morning timing with layered illumination.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "early morning timing with layered illumination",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing early morning timing with layered illumination",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with early morning timing with layered illumination",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-time-of-day-base-early-morning",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "scene",
+        "time-daylight",
+        "time-of-day"
+      ],
+      "facets": {
+        "period": "early-morning",
+        "treatment": "layered-illumination"
+      },
+      "subcategory": "early-morning",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-time-of-day-base-late-morning-low-contrast",
+      "semantic_key": "scene-time-of-day-base-late-morning-low-contrast",
+      "text": "late morning timing with low contrast",
+      "sentence": "Late morning timing with low contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "late morning timing with low contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing late morning timing with low contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with late morning timing with low contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-time-of-day-base-late-morning",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "time-daylight",
+        "time-of-day"
+      ],
+      "facets": {
+        "period": "late-morning",
+        "treatment": "low-contrast"
+      },
+      "subcategory": "late-morning",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-time-of-day-base-late-morning-moderate-contrast",
+      "semantic_key": "scene-time-of-day-base-late-morning-moderate-contrast",
+      "text": "late morning timing with moderate contrast",
+      "sentence": "Late morning timing with moderate contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "late morning timing with moderate contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing late morning timing with moderate contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with late morning timing with moderate contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-time-of-day-base-late-morning",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "time-daylight",
+        "time-of-day"
+      ],
+      "facets": {
+        "period": "late-morning",
+        "treatment": "moderate-contrast"
+      },
+      "subcategory": "late-morning",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-time-of-day-base-late-morning-high-contrast",
+      "semantic_key": "scene-time-of-day-base-late-morning-high-contrast",
+      "text": "late morning timing with high contrast",
+      "sentence": "Late morning timing with high contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "late morning timing with high contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing late morning timing with high contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with late morning timing with high contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-time-of-day-base-late-morning",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "time-daylight",
+        "time-of-day"
+      ],
+      "facets": {
+        "period": "late-morning",
+        "treatment": "high-contrast"
+      },
+      "subcategory": "late-morning",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-time-of-day-base-late-morning-soft-transitions",
+      "semantic_key": "scene-time-of-day-base-late-morning-soft-transitions",
+      "text": "late morning timing with soft transitions",
+      "sentence": "Late morning timing with soft transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "late morning timing with soft transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing late morning timing with soft transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with late morning timing with soft transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-time-of-day-base-late-morning",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "time-daylight",
+        "time-of-day"
+      ],
+      "facets": {
+        "period": "late-morning",
+        "treatment": "soft-transitions"
+      },
+      "subcategory": "late-morning",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-time-of-day-base-late-morning-crisp-transitions",
+      "semantic_key": "scene-time-of-day-base-late-morning-crisp-transitions",
+      "text": "late morning timing with crisp transitions",
+      "sentence": "Late morning timing with crisp transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "late morning timing with crisp transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing late morning timing with crisp transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with late morning timing with crisp transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-time-of-day-base-late-morning",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "scene",
+        "time-daylight",
+        "time-of-day"
+      ],
+      "facets": {
+        "period": "late-morning",
+        "treatment": "crisp-transitions"
+      },
+      "subcategory": "late-morning",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-time-of-day-base-late-morning-broad-falloff",
+      "semantic_key": "scene-time-of-day-base-late-morning-broad-falloff",
+      "text": "late morning timing with broad falloff",
+      "sentence": "Late morning timing with broad falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "late morning timing with broad falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing late morning timing with broad falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with late morning timing with broad falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-time-of-day-base-late-morning",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "scene",
+        "time-daylight",
+        "time-of-day"
+      ],
+      "facets": {
+        "period": "late-morning",
+        "treatment": "broad-falloff"
+      },
+      "subcategory": "late-morning",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-time-of-day-base-late-morning-rapid-falloff",
+      "semantic_key": "scene-time-of-day-base-late-morning-rapid-falloff",
+      "text": "late morning timing with rapid falloff",
+      "sentence": "Late morning timing with rapid falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "late morning timing with rapid falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing late morning timing with rapid falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with late morning timing with rapid falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-time-of-day-base-late-morning",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "scene",
+        "time-daylight",
+        "time-of-day"
+      ],
+      "facets": {
+        "period": "late-morning",
+        "treatment": "rapid-falloff"
+      },
+      "subcategory": "late-morning",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-time-of-day-base-late-morning-layered-illumination",
+      "semantic_key": "scene-time-of-day-base-late-morning-layered-illumination",
+      "text": "late morning timing with layered illumination",
+      "sentence": "Late morning timing with layered illumination.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "late morning timing with layered illumination",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing late morning timing with layered illumination",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with late morning timing with layered illumination",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-time-of-day-base-late-morning",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "scene",
+        "time-daylight",
+        "time-of-day"
+      ],
+      "facets": {
+        "period": "late-morning",
+        "treatment": "layered-illumination"
+      },
+      "subcategory": "late-morning",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-time-of-day-base-midday-low-contrast",
+      "semantic_key": "scene-time-of-day-base-midday-low-contrast",
+      "text": "midday timing with low contrast",
+      "sentence": "Midday timing with low contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "midday timing with low contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing midday timing with low contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with midday timing with low contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-time-of-day-base-midday",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "time-daylight",
+        "time-of-day"
+      ],
+      "facets": {
+        "period": "midday",
+        "treatment": "low-contrast"
+      },
+      "subcategory": "midday",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-time-of-day-base-midday-moderate-contrast",
+      "semantic_key": "scene-time-of-day-base-midday-moderate-contrast",
+      "text": "midday timing with moderate contrast",
+      "sentence": "Midday timing with moderate contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "midday timing with moderate contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing midday timing with moderate contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with midday timing with moderate contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-time-of-day-base-midday",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "time-daylight",
+        "time-of-day"
+      ],
+      "facets": {
+        "period": "midday",
+        "treatment": "moderate-contrast"
+      },
+      "subcategory": "midday",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-time-of-day-base-midday-high-contrast",
+      "semantic_key": "scene-time-of-day-base-midday-high-contrast",
+      "text": "midday timing with high contrast",
+      "sentence": "Midday timing with high contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "midday timing with high contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing midday timing with high contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with midday timing with high contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-time-of-day-base-midday",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "time-daylight",
+        "time-of-day"
+      ],
+      "facets": {
+        "period": "midday",
+        "treatment": "high-contrast"
+      },
+      "subcategory": "midday",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-time-of-day-base-midday-soft-transitions",
+      "semantic_key": "scene-time-of-day-base-midday-soft-transitions",
+      "text": "midday timing with soft transitions",
+      "sentence": "Midday timing with soft transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "midday timing with soft transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing midday timing with soft transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with midday timing with soft transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-time-of-day-base-midday",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "time-daylight",
+        "time-of-day"
+      ],
+      "facets": {
+        "period": "midday",
+        "treatment": "soft-transitions"
+      },
+      "subcategory": "midday",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-time-of-day-base-midday-crisp-transitions",
+      "semantic_key": "scene-time-of-day-base-midday-crisp-transitions",
+      "text": "midday timing with crisp transitions",
+      "sentence": "Midday timing with crisp transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "midday timing with crisp transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing midday timing with crisp transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with midday timing with crisp transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-time-of-day-base-midday",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "scene",
+        "time-daylight",
+        "time-of-day"
+      ],
+      "facets": {
+        "period": "midday",
+        "treatment": "crisp-transitions"
+      },
+      "subcategory": "midday",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-time-of-day-base-midday-broad-falloff",
+      "semantic_key": "scene-time-of-day-base-midday-broad-falloff",
+      "text": "midday timing with broad falloff",
+      "sentence": "Midday timing with broad falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "midday timing with broad falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing midday timing with broad falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with midday timing with broad falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-time-of-day-base-midday",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "scene",
+        "time-daylight",
+        "time-of-day"
+      ],
+      "facets": {
+        "period": "midday",
+        "treatment": "broad-falloff"
+      },
+      "subcategory": "midday",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-time-of-day-base-midday-rapid-falloff",
+      "semantic_key": "scene-time-of-day-base-midday-rapid-falloff",
+      "text": "midday timing with rapid falloff",
+      "sentence": "Midday timing with rapid falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "midday timing with rapid falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing midday timing with rapid falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with midday timing with rapid falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-time-of-day-base-midday",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "scene",
+        "time-daylight",
+        "time-of-day"
+      ],
+      "facets": {
+        "period": "midday",
+        "treatment": "rapid-falloff"
+      },
+      "subcategory": "midday",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-time-of-day-base-midday-layered-illumination",
+      "semantic_key": "scene-time-of-day-base-midday-layered-illumination",
+      "text": "midday timing with layered illumination",
+      "sentence": "Midday timing with layered illumination.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "midday timing with layered illumination",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing midday timing with layered illumination",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with midday timing with layered illumination",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-time-of-day-base-midday",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "scene",
+        "time-daylight",
+        "time-of-day"
+      ],
+      "facets": {
+        "period": "midday",
+        "treatment": "layered-illumination"
+      },
+      "subcategory": "midday",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-time-of-day-base-late-afternoon-low-contrast",
+      "semantic_key": "scene-time-of-day-base-late-afternoon-low-contrast",
+      "text": "late afternoon timing with low contrast",
+      "sentence": "Late afternoon timing with low contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "late afternoon timing with low contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing late afternoon timing with low contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with late afternoon timing with low contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-time-of-day-base-late-afternoon",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "time-daylight",
+        "time-of-day"
+      ],
+      "facets": {
+        "period": "late-afternoon",
+        "treatment": "low-contrast"
+      },
+      "subcategory": "late-afternoon",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-time-of-day-base-late-afternoon-moderate-contrast",
+      "semantic_key": "scene-time-of-day-base-late-afternoon-moderate-contrast",
+      "text": "late afternoon timing with moderate contrast",
+      "sentence": "Late afternoon timing with moderate contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "late afternoon timing with moderate contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing late afternoon timing with moderate contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with late afternoon timing with moderate contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-time-of-day-base-late-afternoon",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "time-daylight",
+        "time-of-day"
+      ],
+      "facets": {
+        "period": "late-afternoon",
+        "treatment": "moderate-contrast"
+      },
+      "subcategory": "late-afternoon",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-time-of-day-base-late-afternoon-high-contrast",
+      "semantic_key": "scene-time-of-day-base-late-afternoon-high-contrast",
+      "text": "late afternoon timing with high contrast",
+      "sentence": "Late afternoon timing with high contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "late afternoon timing with high contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing late afternoon timing with high contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with late afternoon timing with high contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-time-of-day-base-late-afternoon",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "time-daylight",
+        "time-of-day"
+      ],
+      "facets": {
+        "period": "late-afternoon",
+        "treatment": "high-contrast"
+      },
+      "subcategory": "late-afternoon",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-time-of-day-base-late-afternoon-soft-transitions",
+      "semantic_key": "scene-time-of-day-base-late-afternoon-soft-transitions",
+      "text": "late afternoon timing with soft transitions",
+      "sentence": "Late afternoon timing with soft transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "late afternoon timing with soft transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing late afternoon timing with soft transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with late afternoon timing with soft transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-time-of-day-base-late-afternoon",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "time-daylight",
+        "time-of-day"
+      ],
+      "facets": {
+        "period": "late-afternoon",
+        "treatment": "soft-transitions"
+      },
+      "subcategory": "late-afternoon",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-time-of-day-base-late-afternoon-crisp-transitions",
+      "semantic_key": "scene-time-of-day-base-late-afternoon-crisp-transitions",
+      "text": "late afternoon timing with crisp transitions",
+      "sentence": "Late afternoon timing with crisp transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "late afternoon timing with crisp transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing late afternoon timing with crisp transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with late afternoon timing with crisp transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-time-of-day-base-late-afternoon",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "scene",
+        "time-daylight",
+        "time-of-day"
+      ],
+      "facets": {
+        "period": "late-afternoon",
+        "treatment": "crisp-transitions"
+      },
+      "subcategory": "late-afternoon",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-time-of-day-base-late-afternoon-broad-falloff",
+      "semantic_key": "scene-time-of-day-base-late-afternoon-broad-falloff",
+      "text": "late afternoon timing with broad falloff",
+      "sentence": "Late afternoon timing with broad falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "late afternoon timing with broad falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing late afternoon timing with broad falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with late afternoon timing with broad falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-time-of-day-base-late-afternoon",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "scene",
+        "time-daylight",
+        "time-of-day"
+      ],
+      "facets": {
+        "period": "late-afternoon",
+        "treatment": "broad-falloff"
+      },
+      "subcategory": "late-afternoon",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-time-of-day-base-late-afternoon-rapid-falloff",
+      "semantic_key": "scene-time-of-day-base-late-afternoon-rapid-falloff",
+      "text": "late afternoon timing with rapid falloff",
+      "sentence": "Late afternoon timing with rapid falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "late afternoon timing with rapid falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing late afternoon timing with rapid falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with late afternoon timing with rapid falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-time-of-day-base-late-afternoon",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "scene",
+        "time-daylight",
+        "time-of-day"
+      ],
+      "facets": {
+        "period": "late-afternoon",
+        "treatment": "rapid-falloff"
+      },
+      "subcategory": "late-afternoon",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-time-of-day-base-late-afternoon-layered-illumination",
+      "semantic_key": "scene-time-of-day-base-late-afternoon-layered-illumination",
+      "text": "late afternoon timing with layered illumination",
+      "sentence": "Late afternoon timing with layered illumination.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "late afternoon timing with layered illumination",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing late afternoon timing with layered illumination",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with late afternoon timing with layered illumination",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-time-of-day-base-late-afternoon",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "scene",
+        "time-daylight",
+        "time-of-day"
+      ],
+      "facets": {
+        "period": "late-afternoon",
+        "treatment": "layered-illumination"
+      },
+      "subcategory": "late-afternoon",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-time-of-day-base-sunset-low-contrast",
+      "semantic_key": "scene-time-of-day-base-sunset-low-contrast",
+      "text": "sunset timing with low contrast",
+      "sentence": "Sunset timing with low contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "sunset timing with low contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing sunset timing with low contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with sunset timing with low contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-time-of-day-base-sunset",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "time-daylight",
+        "time-of-day"
+      ],
+      "facets": {
+        "period": "sunset",
+        "treatment": "low-contrast"
+      },
+      "subcategory": "sunset",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-time-of-day-base-sunset-moderate-contrast",
+      "semantic_key": "scene-time-of-day-base-sunset-moderate-contrast",
+      "text": "sunset timing with moderate contrast",
+      "sentence": "Sunset timing with moderate contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "sunset timing with moderate contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing sunset timing with moderate contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with sunset timing with moderate contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-time-of-day-base-sunset",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "time-daylight",
+        "time-of-day"
+      ],
+      "facets": {
+        "period": "sunset",
+        "treatment": "moderate-contrast"
+      },
+      "subcategory": "sunset",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-time-of-day-base-sunset-high-contrast",
+      "semantic_key": "scene-time-of-day-base-sunset-high-contrast",
+      "text": "sunset timing with high contrast",
+      "sentence": "Sunset timing with high contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "sunset timing with high contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing sunset timing with high contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with sunset timing with high contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-time-of-day-base-sunset",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "time-daylight",
+        "time-of-day"
+      ],
+      "facets": {
+        "period": "sunset",
+        "treatment": "high-contrast"
+      },
+      "subcategory": "sunset",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-time-of-day-base-sunset-soft-transitions",
+      "semantic_key": "scene-time-of-day-base-sunset-soft-transitions",
+      "text": "sunset timing with soft transitions",
+      "sentence": "Sunset timing with soft transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "sunset timing with soft transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing sunset timing with soft transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with sunset timing with soft transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-time-of-day-base-sunset",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "time-daylight",
+        "time-of-day"
+      ],
+      "facets": {
+        "period": "sunset",
+        "treatment": "soft-transitions"
+      },
+      "subcategory": "sunset",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-time-of-day-base-sunset-crisp-transitions",
+      "semantic_key": "scene-time-of-day-base-sunset-crisp-transitions",
+      "text": "sunset timing with crisp transitions",
+      "sentence": "Sunset timing with crisp transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "sunset timing with crisp transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing sunset timing with crisp transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with sunset timing with crisp transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-time-of-day-base-sunset",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "scene",
+        "time-daylight",
+        "time-of-day"
+      ],
+      "facets": {
+        "period": "sunset",
+        "treatment": "crisp-transitions"
+      },
+      "subcategory": "sunset",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-time-of-day-base-sunset-broad-falloff",
+      "semantic_key": "scene-time-of-day-base-sunset-broad-falloff",
+      "text": "sunset timing with broad falloff",
+      "sentence": "Sunset timing with broad falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "sunset timing with broad falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing sunset timing with broad falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with sunset timing with broad falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-time-of-day-base-sunset",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "scene",
+        "time-daylight",
+        "time-of-day"
+      ],
+      "facets": {
+        "period": "sunset",
+        "treatment": "broad-falloff"
+      },
+      "subcategory": "sunset",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-time-of-day-base-sunset-rapid-falloff",
+      "semantic_key": "scene-time-of-day-base-sunset-rapid-falloff",
+      "text": "sunset timing with rapid falloff",
+      "sentence": "Sunset timing with rapid falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "sunset timing with rapid falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing sunset timing with rapid falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with sunset timing with rapid falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-time-of-day-base-sunset",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "scene",
+        "time-daylight",
+        "time-of-day"
+      ],
+      "facets": {
+        "period": "sunset",
+        "treatment": "rapid-falloff"
+      },
+      "subcategory": "sunset",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-time-of-day-base-sunset-layered-illumination",
+      "semantic_key": "scene-time-of-day-base-sunset-layered-illumination",
+      "text": "sunset timing with layered illumination",
+      "sentence": "Sunset timing with layered illumination.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "sunset timing with layered illumination",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing sunset timing with layered illumination",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with sunset timing with layered illumination",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-time-of-day-base-sunset",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "scene",
+        "time-daylight",
+        "time-of-day"
+      ],
+      "facets": {
+        "period": "sunset",
+        "treatment": "layered-illumination"
+      },
+      "subcategory": "sunset",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-time-of-day-base-night-low-contrast",
+      "semantic_key": "scene-time-of-day-base-night-low-contrast",
+      "text": "night timing with low contrast",
+      "sentence": "Night timing with low contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "night timing with low contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing night timing with low contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with night timing with low contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-time-of-day-base-night",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "time-night",
+        "time-of-day"
+      ],
+      "facets": {
+        "period": "night",
+        "treatment": "low-contrast"
+      },
+      "subcategory": "night",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-time-of-day-base-night-moderate-contrast",
+      "semantic_key": "scene-time-of-day-base-night-moderate-contrast",
+      "text": "night timing with moderate contrast",
+      "sentence": "Night timing with moderate contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "night timing with moderate contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing night timing with moderate contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with night timing with moderate contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-time-of-day-base-night",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "time-night",
+        "time-of-day"
+      ],
+      "facets": {
+        "period": "night",
+        "treatment": "moderate-contrast"
+      },
+      "subcategory": "night",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-time-of-day-base-night-high-contrast",
+      "semantic_key": "scene-time-of-day-base-night-high-contrast",
+      "text": "night timing with high contrast",
+      "sentence": "Night timing with high contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "night timing with high contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing night timing with high contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with night timing with high contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-time-of-day-base-night",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "time-night",
+        "time-of-day"
+      ],
+      "facets": {
+        "period": "night",
+        "treatment": "high-contrast"
+      },
+      "subcategory": "night",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-time-of-day-base-night-soft-transitions",
+      "semantic_key": "scene-time-of-day-base-night-soft-transitions",
+      "text": "night timing with soft transitions",
+      "sentence": "Night timing with soft transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "night timing with soft transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing night timing with soft transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with night timing with soft transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-time-of-day-base-night",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "time-night",
+        "time-of-day"
+      ],
+      "facets": {
+        "period": "night",
+        "treatment": "soft-transitions"
+      },
+      "subcategory": "night",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-time-of-day-base-night-crisp-transitions",
+      "semantic_key": "scene-time-of-day-base-night-crisp-transitions",
+      "text": "night timing with crisp transitions",
+      "sentence": "Night timing with crisp transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "night timing with crisp transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing night timing with crisp transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with night timing with crisp transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-time-of-day-base-night",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "scene",
+        "time-night",
+        "time-of-day"
+      ],
+      "facets": {
+        "period": "night",
+        "treatment": "crisp-transitions"
+      },
+      "subcategory": "night",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-time-of-day-base-night-broad-falloff",
+      "semantic_key": "scene-time-of-day-base-night-broad-falloff",
+      "text": "night timing with broad falloff",
+      "sentence": "Night timing with broad falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "night timing with broad falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing night timing with broad falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with night timing with broad falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-time-of-day-base-night",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "scene",
+        "time-night",
+        "time-of-day"
+      ],
+      "facets": {
+        "period": "night",
+        "treatment": "broad-falloff"
+      },
+      "subcategory": "night",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-time-of-day-base-night-rapid-falloff",
+      "semantic_key": "scene-time-of-day-base-night-rapid-falloff",
+      "text": "night timing with rapid falloff",
+      "sentence": "Night timing with rapid falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "night timing with rapid falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing night timing with rapid falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with night timing with rapid falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-time-of-day-base-night",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "scene",
+        "time-night",
+        "time-of-day"
+      ],
+      "facets": {
+        "period": "night",
+        "treatment": "rapid-falloff"
+      },
+      "subcategory": "night",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-time-of-day-base-night-layered-illumination",
+      "semantic_key": "scene-time-of-day-base-night-layered-illumination",
+      "text": "night timing with layered illumination",
+      "sentence": "Night timing with layered illumination.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "night timing with layered illumination",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing night timing with layered illumination",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with night timing with layered illumination",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-time-of-day-base-night",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "scene",
+        "time-night",
+        "time-of-day"
+      ],
+      "facets": {
+        "period": "night",
+        "treatment": "layered-illumination"
+      },
+      "subcategory": "night",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    }
+  ]
+}

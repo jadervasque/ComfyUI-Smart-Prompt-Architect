@@ -1,0 +1,2577 @@
+{
+  "schema_version": "2.0",
+  "id": "cinematography-light-quality-base",
+  "version": "2.0.0",
+  "library": "light-quality",
+  "domain": "cinematography",
+  "category": "light-quality",
+  "language": "en",
+  "status": "active",
+  "safety": "general",
+  "tags": [
+    "base"
+  ],
+  "fallback_option_id": "cinematography-light-quality-base-very-soft-light-low-contrast",
+  "options": [
+    {
+      "id": "cinematography-light-quality-base-very-soft-light-low-contrast",
+      "semantic_key": "cinematography-light-quality-base-very-soft-light-low-contrast",
+      "text": "very soft light producing low contrast",
+      "sentence": "Very soft light producing low contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "very soft light producing low contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing very soft light producing low contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with very soft light producing low contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-quality-base-very-soft-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-quality",
+        "rarity-common"
+      ],
+      "facets": {
+        "quality": "very-soft-light",
+        "treatment": "low-contrast"
+      },
+      "subcategory": "very-soft-light",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-quality-base-very-soft-light-moderate-contrast",
+      "semantic_key": "cinematography-light-quality-base-very-soft-light-moderate-contrast",
+      "text": "very soft light producing moderate contrast",
+      "sentence": "Very soft light producing moderate contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "very soft light producing moderate contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing very soft light producing moderate contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with very soft light producing moderate contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-quality-base-very-soft-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-quality",
+        "rarity-common"
+      ],
+      "facets": {
+        "quality": "very-soft-light",
+        "treatment": "moderate-contrast"
+      },
+      "subcategory": "very-soft-light",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-quality-base-very-soft-light-high-contrast",
+      "semantic_key": "cinematography-light-quality-base-very-soft-light-high-contrast",
+      "text": "very soft light producing high contrast",
+      "sentence": "Very soft light producing high contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "very soft light producing high contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing very soft light producing high contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with very soft light producing high contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-quality-base-very-soft-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-quality",
+        "rarity-common"
+      ],
+      "facets": {
+        "quality": "very-soft-light",
+        "treatment": "high-contrast"
+      },
+      "subcategory": "very-soft-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-quality-base-very-soft-light-soft-transitions",
+      "semantic_key": "cinematography-light-quality-base-very-soft-light-soft-transitions",
+      "text": "very soft light producing soft transitions",
+      "sentence": "Very soft light producing soft transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "very soft light producing soft transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing very soft light producing soft transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with very soft light producing soft transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-quality-base-very-soft-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-quality",
+        "rarity-common"
+      ],
+      "facets": {
+        "quality": "very-soft-light",
+        "treatment": "soft-transitions"
+      },
+      "subcategory": "very-soft-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-quality-base-very-soft-light-crisp-transitions",
+      "semantic_key": "cinematography-light-quality-base-very-soft-light-crisp-transitions",
+      "text": "very soft light producing crisp transitions",
+      "sentence": "Very soft light producing crisp transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "very soft light producing crisp transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing very soft light producing crisp transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with very soft light producing crisp transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-light-quality-base-very-soft-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-quality",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "quality": "very-soft-light",
+        "treatment": "crisp-transitions"
+      },
+      "subcategory": "very-soft-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-quality-base-very-soft-light-broad-falloff",
+      "semantic_key": "cinematography-light-quality-base-very-soft-light-broad-falloff",
+      "text": "very soft light producing broad falloff",
+      "sentence": "Very soft light producing broad falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "very soft light producing broad falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing very soft light producing broad falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with very soft light producing broad falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-light-quality-base-very-soft-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-quality",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "quality": "very-soft-light",
+        "treatment": "broad-falloff"
+      },
+      "subcategory": "very-soft-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-quality-base-very-soft-light-rapid-falloff",
+      "semantic_key": "cinematography-light-quality-base-very-soft-light-rapid-falloff",
+      "text": "very soft light producing rapid falloff",
+      "sentence": "Very soft light producing rapid falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "very soft light producing rapid falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing very soft light producing rapid falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with very soft light producing rapid falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-light-quality-base-very-soft-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-quality",
+        "rarity-rare"
+      ],
+      "facets": {
+        "quality": "very-soft-light",
+        "treatment": "rapid-falloff"
+      },
+      "subcategory": "very-soft-light",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-quality-base-very-soft-light-layered-illumination",
+      "semantic_key": "cinematography-light-quality-base-very-soft-light-layered-illumination",
+      "text": "very soft light producing layered illumination",
+      "sentence": "Very soft light producing layered illumination.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "very soft light producing layered illumination",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing very soft light producing layered illumination",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with very soft light producing layered illumination",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-light-quality-base-very-soft-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-quality",
+        "rarity-rare"
+      ],
+      "facets": {
+        "quality": "very-soft-light",
+        "treatment": "layered-illumination"
+      },
+      "subcategory": "very-soft-light",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-quality-base-soft-light-low-contrast",
+      "semantic_key": "cinematography-light-quality-base-soft-light-low-contrast",
+      "text": "soft light producing low contrast",
+      "sentence": "Soft light producing low contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "soft light producing low contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing soft light producing low contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with soft light producing low contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-quality-base-soft-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-quality",
+        "rarity-common"
+      ],
+      "facets": {
+        "quality": "soft-light",
+        "treatment": "low-contrast"
+      },
+      "subcategory": "soft-light",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-quality-base-soft-light-moderate-contrast",
+      "semantic_key": "cinematography-light-quality-base-soft-light-moderate-contrast",
+      "text": "soft light producing moderate contrast",
+      "sentence": "Soft light producing moderate contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "soft light producing moderate contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing soft light producing moderate contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with soft light producing moderate contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-quality-base-soft-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-quality",
+        "rarity-common"
+      ],
+      "facets": {
+        "quality": "soft-light",
+        "treatment": "moderate-contrast"
+      },
+      "subcategory": "soft-light",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-quality-base-soft-light-high-contrast",
+      "semantic_key": "cinematography-light-quality-base-soft-light-high-contrast",
+      "text": "soft light producing high contrast",
+      "sentence": "Soft light producing high contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "soft light producing high contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing soft light producing high contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with soft light producing high contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-quality-base-soft-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-quality",
+        "rarity-common"
+      ],
+      "facets": {
+        "quality": "soft-light",
+        "treatment": "high-contrast"
+      },
+      "subcategory": "soft-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-quality-base-soft-light-soft-transitions",
+      "semantic_key": "cinematography-light-quality-base-soft-light-soft-transitions",
+      "text": "soft light producing soft transitions",
+      "sentence": "Soft light producing soft transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "soft light producing soft transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing soft light producing soft transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with soft light producing soft transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-quality-base-soft-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-quality",
+        "rarity-common"
+      ],
+      "facets": {
+        "quality": "soft-light",
+        "treatment": "soft-transitions"
+      },
+      "subcategory": "soft-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-quality-base-soft-light-crisp-transitions",
+      "semantic_key": "cinematography-light-quality-base-soft-light-crisp-transitions",
+      "text": "soft light producing crisp transitions",
+      "sentence": "Soft light producing crisp transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "soft light producing crisp transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing soft light producing crisp transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with soft light producing crisp transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-light-quality-base-soft-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-quality",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "quality": "soft-light",
+        "treatment": "crisp-transitions"
+      },
+      "subcategory": "soft-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-quality-base-soft-light-broad-falloff",
+      "semantic_key": "cinematography-light-quality-base-soft-light-broad-falloff",
+      "text": "soft light producing broad falloff",
+      "sentence": "Soft light producing broad falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "soft light producing broad falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing soft light producing broad falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with soft light producing broad falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-light-quality-base-soft-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-quality",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "quality": "soft-light",
+        "treatment": "broad-falloff"
+      },
+      "subcategory": "soft-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-quality-base-soft-light-rapid-falloff",
+      "semantic_key": "cinematography-light-quality-base-soft-light-rapid-falloff",
+      "text": "soft light producing rapid falloff",
+      "sentence": "Soft light producing rapid falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "soft light producing rapid falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing soft light producing rapid falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with soft light producing rapid falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-light-quality-base-soft-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-quality",
+        "rarity-rare"
+      ],
+      "facets": {
+        "quality": "soft-light",
+        "treatment": "rapid-falloff"
+      },
+      "subcategory": "soft-light",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-quality-base-soft-light-layered-illumination",
+      "semantic_key": "cinematography-light-quality-base-soft-light-layered-illumination",
+      "text": "soft light producing layered illumination",
+      "sentence": "Soft light producing layered illumination.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "soft light producing layered illumination",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing soft light producing layered illumination",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with soft light producing layered illumination",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-light-quality-base-soft-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-quality",
+        "rarity-rare"
+      ],
+      "facets": {
+        "quality": "soft-light",
+        "treatment": "layered-illumination"
+      },
+      "subcategory": "soft-light",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-quality-base-moderately-soft-light-low-contrast",
+      "semantic_key": "cinematography-light-quality-base-moderately-soft-light-low-contrast",
+      "text": "moderately soft light producing low contrast",
+      "sentence": "Moderately soft light producing low contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "moderately soft light producing low contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing moderately soft light producing low contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with moderately soft light producing low contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-quality-base-moderately-soft-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-quality",
+        "rarity-common"
+      ],
+      "facets": {
+        "quality": "moderately-soft-light",
+        "treatment": "low-contrast"
+      },
+      "subcategory": "moderately-soft-light",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-quality-base-moderately-soft-light-moderate-contrast",
+      "semantic_key": "cinematography-light-quality-base-moderately-soft-light-moderate-contrast",
+      "text": "moderately soft light producing moderate contrast",
+      "sentence": "Moderately soft light producing moderate contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "moderately soft light producing moderate contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing moderately soft light producing moderate contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with moderately soft light producing moderate contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-quality-base-moderately-soft-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-quality",
+        "rarity-common"
+      ],
+      "facets": {
+        "quality": "moderately-soft-light",
+        "treatment": "moderate-contrast"
+      },
+      "subcategory": "moderately-soft-light",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-quality-base-moderately-soft-light-high-contrast",
+      "semantic_key": "cinematography-light-quality-base-moderately-soft-light-high-contrast",
+      "text": "moderately soft light producing high contrast",
+      "sentence": "Moderately soft light producing high contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "moderately soft light producing high contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing moderately soft light producing high contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with moderately soft light producing high contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-quality-base-moderately-soft-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-quality",
+        "rarity-common"
+      ],
+      "facets": {
+        "quality": "moderately-soft-light",
+        "treatment": "high-contrast"
+      },
+      "subcategory": "moderately-soft-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-quality-base-moderately-soft-light-soft-transitions",
+      "semantic_key": "cinematography-light-quality-base-moderately-soft-light-soft-transitions",
+      "text": "moderately soft light producing soft transitions",
+      "sentence": "Moderately soft light producing soft transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "moderately soft light producing soft transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing moderately soft light producing soft transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with moderately soft light producing soft transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-quality-base-moderately-soft-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-quality",
+        "rarity-common"
+      ],
+      "facets": {
+        "quality": "moderately-soft-light",
+        "treatment": "soft-transitions"
+      },
+      "subcategory": "moderately-soft-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-quality-base-moderately-soft-light-crisp-transitions",
+      "semantic_key": "cinematography-light-quality-base-moderately-soft-light-crisp-transitions",
+      "text": "moderately soft light producing crisp transitions",
+      "sentence": "Moderately soft light producing crisp transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "moderately soft light producing crisp transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing moderately soft light producing crisp transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with moderately soft light producing crisp transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-light-quality-base-moderately-soft-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-quality",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "quality": "moderately-soft-light",
+        "treatment": "crisp-transitions"
+      },
+      "subcategory": "moderately-soft-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-quality-base-moderately-soft-light-broad-falloff",
+      "semantic_key": "cinematography-light-quality-base-moderately-soft-light-broad-falloff",
+      "text": "moderately soft light producing broad falloff",
+      "sentence": "Moderately soft light producing broad falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "moderately soft light producing broad falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing moderately soft light producing broad falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with moderately soft light producing broad falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-light-quality-base-moderately-soft-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-quality",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "quality": "moderately-soft-light",
+        "treatment": "broad-falloff"
+      },
+      "subcategory": "moderately-soft-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-quality-base-moderately-soft-light-rapid-falloff",
+      "semantic_key": "cinematography-light-quality-base-moderately-soft-light-rapid-falloff",
+      "text": "moderately soft light producing rapid falloff",
+      "sentence": "Moderately soft light producing rapid falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "moderately soft light producing rapid falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing moderately soft light producing rapid falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with moderately soft light producing rapid falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-light-quality-base-moderately-soft-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-quality",
+        "rarity-rare"
+      ],
+      "facets": {
+        "quality": "moderately-soft-light",
+        "treatment": "rapid-falloff"
+      },
+      "subcategory": "moderately-soft-light",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-quality-base-moderately-soft-light-layered-illumination",
+      "semantic_key": "cinematography-light-quality-base-moderately-soft-light-layered-illumination",
+      "text": "moderately soft light producing layered illumination",
+      "sentence": "Moderately soft light producing layered illumination.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "moderately soft light producing layered illumination",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing moderately soft light producing layered illumination",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with moderately soft light producing layered illumination",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-light-quality-base-moderately-soft-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-quality",
+        "rarity-rare"
+      ],
+      "facets": {
+        "quality": "moderately-soft-light",
+        "treatment": "layered-illumination"
+      },
+      "subcategory": "moderately-soft-light",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-quality-base-neutral-light-low-contrast",
+      "semantic_key": "cinematography-light-quality-base-neutral-light-low-contrast",
+      "text": "neutral light producing low contrast",
+      "sentence": "Neutral light producing low contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "neutral light producing low contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing neutral light producing low contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with neutral light producing low contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-quality-base-neutral-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-quality",
+        "rarity-common"
+      ],
+      "facets": {
+        "quality": "neutral-light",
+        "treatment": "low-contrast"
+      },
+      "subcategory": "neutral-light",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-quality-base-neutral-light-moderate-contrast",
+      "semantic_key": "cinematography-light-quality-base-neutral-light-moderate-contrast",
+      "text": "neutral light producing moderate contrast",
+      "sentence": "Neutral light producing moderate contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "neutral light producing moderate contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing neutral light producing moderate contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with neutral light producing moderate contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-quality-base-neutral-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-quality",
+        "rarity-common"
+      ],
+      "facets": {
+        "quality": "neutral-light",
+        "treatment": "moderate-contrast"
+      },
+      "subcategory": "neutral-light",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-quality-base-neutral-light-high-contrast",
+      "semantic_key": "cinematography-light-quality-base-neutral-light-high-contrast",
+      "text": "neutral light producing high contrast",
+      "sentence": "Neutral light producing high contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "neutral light producing high contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing neutral light producing high contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with neutral light producing high contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-quality-base-neutral-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-quality",
+        "rarity-common"
+      ],
+      "facets": {
+        "quality": "neutral-light",
+        "treatment": "high-contrast"
+      },
+      "subcategory": "neutral-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-quality-base-neutral-light-soft-transitions",
+      "semantic_key": "cinematography-light-quality-base-neutral-light-soft-transitions",
+      "text": "neutral light producing soft transitions",
+      "sentence": "Neutral light producing soft transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "neutral light producing soft transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing neutral light producing soft transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with neutral light producing soft transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-quality-base-neutral-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-quality",
+        "rarity-common"
+      ],
+      "facets": {
+        "quality": "neutral-light",
+        "treatment": "soft-transitions"
+      },
+      "subcategory": "neutral-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-quality-base-neutral-light-crisp-transitions",
+      "semantic_key": "cinematography-light-quality-base-neutral-light-crisp-transitions",
+      "text": "neutral light producing crisp transitions",
+      "sentence": "Neutral light producing crisp transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "neutral light producing crisp transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing neutral light producing crisp transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with neutral light producing crisp transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-light-quality-base-neutral-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-quality",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "quality": "neutral-light",
+        "treatment": "crisp-transitions"
+      },
+      "subcategory": "neutral-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-quality-base-neutral-light-broad-falloff",
+      "semantic_key": "cinematography-light-quality-base-neutral-light-broad-falloff",
+      "text": "neutral light producing broad falloff",
+      "sentence": "Neutral light producing broad falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "neutral light producing broad falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing neutral light producing broad falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with neutral light producing broad falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-light-quality-base-neutral-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-quality",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "quality": "neutral-light",
+        "treatment": "broad-falloff"
+      },
+      "subcategory": "neutral-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-quality-base-neutral-light-rapid-falloff",
+      "semantic_key": "cinematography-light-quality-base-neutral-light-rapid-falloff",
+      "text": "neutral light producing rapid falloff",
+      "sentence": "Neutral light producing rapid falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "neutral light producing rapid falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing neutral light producing rapid falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with neutral light producing rapid falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-light-quality-base-neutral-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-quality",
+        "rarity-rare"
+      ],
+      "facets": {
+        "quality": "neutral-light",
+        "treatment": "rapid-falloff"
+      },
+      "subcategory": "neutral-light",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-quality-base-neutral-light-layered-illumination",
+      "semantic_key": "cinematography-light-quality-base-neutral-light-layered-illumination",
+      "text": "neutral light producing layered illumination",
+      "sentence": "Neutral light producing layered illumination.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "neutral light producing layered illumination",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing neutral light producing layered illumination",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with neutral light producing layered illumination",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-light-quality-base-neutral-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-quality",
+        "rarity-rare"
+      ],
+      "facets": {
+        "quality": "neutral-light",
+        "treatment": "layered-illumination"
+      },
+      "subcategory": "neutral-light",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-quality-base-moderately-hard-light-low-contrast",
+      "semantic_key": "cinematography-light-quality-base-moderately-hard-light-low-contrast",
+      "text": "moderately hard light producing low contrast",
+      "sentence": "Moderately hard light producing low contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "moderately hard light producing low contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing moderately hard light producing low contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with moderately hard light producing low contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-quality-base-moderately-hard-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-quality",
+        "rarity-common"
+      ],
+      "facets": {
+        "quality": "moderately-hard-light",
+        "treatment": "low-contrast"
+      },
+      "subcategory": "moderately-hard-light",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-quality-base-moderately-hard-light-moderate-contrast",
+      "semantic_key": "cinematography-light-quality-base-moderately-hard-light-moderate-contrast",
+      "text": "moderately hard light producing moderate contrast",
+      "sentence": "Moderately hard light producing moderate contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "moderately hard light producing moderate contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing moderately hard light producing moderate contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with moderately hard light producing moderate contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-quality-base-moderately-hard-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-quality",
+        "rarity-common"
+      ],
+      "facets": {
+        "quality": "moderately-hard-light",
+        "treatment": "moderate-contrast"
+      },
+      "subcategory": "moderately-hard-light",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-quality-base-moderately-hard-light-high-contrast",
+      "semantic_key": "cinematography-light-quality-base-moderately-hard-light-high-contrast",
+      "text": "moderately hard light producing high contrast",
+      "sentence": "Moderately hard light producing high contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "moderately hard light producing high contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing moderately hard light producing high contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with moderately hard light producing high contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-quality-base-moderately-hard-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-quality",
+        "rarity-common"
+      ],
+      "facets": {
+        "quality": "moderately-hard-light",
+        "treatment": "high-contrast"
+      },
+      "subcategory": "moderately-hard-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-quality-base-moderately-hard-light-soft-transitions",
+      "semantic_key": "cinematography-light-quality-base-moderately-hard-light-soft-transitions",
+      "text": "moderately hard light producing soft transitions",
+      "sentence": "Moderately hard light producing soft transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "moderately hard light producing soft transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing moderately hard light producing soft transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with moderately hard light producing soft transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-quality-base-moderately-hard-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-quality",
+        "rarity-common"
+      ],
+      "facets": {
+        "quality": "moderately-hard-light",
+        "treatment": "soft-transitions"
+      },
+      "subcategory": "moderately-hard-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-quality-base-moderately-hard-light-crisp-transitions",
+      "semantic_key": "cinematography-light-quality-base-moderately-hard-light-crisp-transitions",
+      "text": "moderately hard light producing crisp transitions",
+      "sentence": "Moderately hard light producing crisp transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "moderately hard light producing crisp transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing moderately hard light producing crisp transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with moderately hard light producing crisp transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-light-quality-base-moderately-hard-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-quality",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "quality": "moderately-hard-light",
+        "treatment": "crisp-transitions"
+      },
+      "subcategory": "moderately-hard-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-quality-base-moderately-hard-light-broad-falloff",
+      "semantic_key": "cinematography-light-quality-base-moderately-hard-light-broad-falloff",
+      "text": "moderately hard light producing broad falloff",
+      "sentence": "Moderately hard light producing broad falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "moderately hard light producing broad falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing moderately hard light producing broad falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with moderately hard light producing broad falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-light-quality-base-moderately-hard-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-quality",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "quality": "moderately-hard-light",
+        "treatment": "broad-falloff"
+      },
+      "subcategory": "moderately-hard-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-quality-base-moderately-hard-light-rapid-falloff",
+      "semantic_key": "cinematography-light-quality-base-moderately-hard-light-rapid-falloff",
+      "text": "moderately hard light producing rapid falloff",
+      "sentence": "Moderately hard light producing rapid falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "moderately hard light producing rapid falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing moderately hard light producing rapid falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with moderately hard light producing rapid falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-light-quality-base-moderately-hard-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-quality",
+        "rarity-rare"
+      ],
+      "facets": {
+        "quality": "moderately-hard-light",
+        "treatment": "rapid-falloff"
+      },
+      "subcategory": "moderately-hard-light",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-quality-base-moderately-hard-light-layered-illumination",
+      "semantic_key": "cinematography-light-quality-base-moderately-hard-light-layered-illumination",
+      "text": "moderately hard light producing layered illumination",
+      "sentence": "Moderately hard light producing layered illumination.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "moderately hard light producing layered illumination",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing moderately hard light producing layered illumination",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with moderately hard light producing layered illumination",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-light-quality-base-moderately-hard-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-quality",
+        "rarity-rare"
+      ],
+      "facets": {
+        "quality": "moderately-hard-light",
+        "treatment": "layered-illumination"
+      },
+      "subcategory": "moderately-hard-light",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-quality-base-hard-light-low-contrast",
+      "semantic_key": "cinematography-light-quality-base-hard-light-low-contrast",
+      "text": "hard light producing low contrast",
+      "sentence": "Hard light producing low contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "hard light producing low contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing hard light producing low contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with hard light producing low contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-quality-base-hard-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-quality",
+        "rarity-common"
+      ],
+      "facets": {
+        "quality": "hard-light",
+        "treatment": "low-contrast"
+      },
+      "subcategory": "hard-light",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-quality-base-hard-light-moderate-contrast",
+      "semantic_key": "cinematography-light-quality-base-hard-light-moderate-contrast",
+      "text": "hard light producing moderate contrast",
+      "sentence": "Hard light producing moderate contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "hard light producing moderate contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing hard light producing moderate contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with hard light producing moderate contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-quality-base-hard-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-quality",
+        "rarity-common"
+      ],
+      "facets": {
+        "quality": "hard-light",
+        "treatment": "moderate-contrast"
+      },
+      "subcategory": "hard-light",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-quality-base-hard-light-high-contrast",
+      "semantic_key": "cinematography-light-quality-base-hard-light-high-contrast",
+      "text": "hard light producing high contrast",
+      "sentence": "Hard light producing high contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "hard light producing high contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing hard light producing high contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with hard light producing high contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-quality-base-hard-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-quality",
+        "rarity-common"
+      ],
+      "facets": {
+        "quality": "hard-light",
+        "treatment": "high-contrast"
+      },
+      "subcategory": "hard-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-quality-base-hard-light-soft-transitions",
+      "semantic_key": "cinematography-light-quality-base-hard-light-soft-transitions",
+      "text": "hard light producing soft transitions",
+      "sentence": "Hard light producing soft transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "hard light producing soft transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing hard light producing soft transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with hard light producing soft transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-quality-base-hard-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-quality",
+        "rarity-common"
+      ],
+      "facets": {
+        "quality": "hard-light",
+        "treatment": "soft-transitions"
+      },
+      "subcategory": "hard-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-quality-base-hard-light-crisp-transitions",
+      "semantic_key": "cinematography-light-quality-base-hard-light-crisp-transitions",
+      "text": "hard light producing crisp transitions",
+      "sentence": "Hard light producing crisp transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "hard light producing crisp transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing hard light producing crisp transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with hard light producing crisp transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-light-quality-base-hard-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-quality",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "quality": "hard-light",
+        "treatment": "crisp-transitions"
+      },
+      "subcategory": "hard-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-quality-base-hard-light-broad-falloff",
+      "semantic_key": "cinematography-light-quality-base-hard-light-broad-falloff",
+      "text": "hard light producing broad falloff",
+      "sentence": "Hard light producing broad falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "hard light producing broad falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing hard light producing broad falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with hard light producing broad falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-light-quality-base-hard-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-quality",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "quality": "hard-light",
+        "treatment": "broad-falloff"
+      },
+      "subcategory": "hard-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-quality-base-hard-light-rapid-falloff",
+      "semantic_key": "cinematography-light-quality-base-hard-light-rapid-falloff",
+      "text": "hard light producing rapid falloff",
+      "sentence": "Hard light producing rapid falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "hard light producing rapid falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing hard light producing rapid falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with hard light producing rapid falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-light-quality-base-hard-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-quality",
+        "rarity-rare"
+      ],
+      "facets": {
+        "quality": "hard-light",
+        "treatment": "rapid-falloff"
+      },
+      "subcategory": "hard-light",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-quality-base-hard-light-layered-illumination",
+      "semantic_key": "cinematography-light-quality-base-hard-light-layered-illumination",
+      "text": "hard light producing layered illumination",
+      "sentence": "Hard light producing layered illumination.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "hard light producing layered illumination",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing hard light producing layered illumination",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with hard light producing layered illumination",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-light-quality-base-hard-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-quality",
+        "rarity-rare"
+      ],
+      "facets": {
+        "quality": "hard-light",
+        "treatment": "layered-illumination"
+      },
+      "subcategory": "hard-light",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-quality-base-diffused-light-low-contrast",
+      "semantic_key": "cinematography-light-quality-base-diffused-light-low-contrast",
+      "text": "diffused light producing low contrast",
+      "sentence": "Diffused light producing low contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "diffused light producing low contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing diffused light producing low contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with diffused light producing low contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-quality-base-diffused-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-quality",
+        "rarity-common"
+      ],
+      "facets": {
+        "quality": "diffused-light",
+        "treatment": "low-contrast"
+      },
+      "subcategory": "diffused-light",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-quality-base-diffused-light-moderate-contrast",
+      "semantic_key": "cinematography-light-quality-base-diffused-light-moderate-contrast",
+      "text": "diffused light producing moderate contrast",
+      "sentence": "Diffused light producing moderate contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "diffused light producing moderate contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing diffused light producing moderate contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with diffused light producing moderate contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-quality-base-diffused-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-quality",
+        "rarity-common"
+      ],
+      "facets": {
+        "quality": "diffused-light",
+        "treatment": "moderate-contrast"
+      },
+      "subcategory": "diffused-light",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-quality-base-diffused-light-high-contrast",
+      "semantic_key": "cinematography-light-quality-base-diffused-light-high-contrast",
+      "text": "diffused light producing high contrast",
+      "sentence": "Diffused light producing high contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "diffused light producing high contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing diffused light producing high contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with diffused light producing high contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-quality-base-diffused-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-quality",
+        "rarity-common"
+      ],
+      "facets": {
+        "quality": "diffused-light",
+        "treatment": "high-contrast"
+      },
+      "subcategory": "diffused-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-quality-base-diffused-light-soft-transitions",
+      "semantic_key": "cinematography-light-quality-base-diffused-light-soft-transitions",
+      "text": "diffused light producing soft transitions",
+      "sentence": "Diffused light producing soft transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "diffused light producing soft transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing diffused light producing soft transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with diffused light producing soft transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-quality-base-diffused-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-quality",
+        "rarity-common"
+      ],
+      "facets": {
+        "quality": "diffused-light",
+        "treatment": "soft-transitions"
+      },
+      "subcategory": "diffused-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-quality-base-diffused-light-crisp-transitions",
+      "semantic_key": "cinematography-light-quality-base-diffused-light-crisp-transitions",
+      "text": "diffused light producing crisp transitions",
+      "sentence": "Diffused light producing crisp transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "diffused light producing crisp transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing diffused light producing crisp transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with diffused light producing crisp transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-light-quality-base-diffused-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-quality",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "quality": "diffused-light",
+        "treatment": "crisp-transitions"
+      },
+      "subcategory": "diffused-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-quality-base-diffused-light-broad-falloff",
+      "semantic_key": "cinematography-light-quality-base-diffused-light-broad-falloff",
+      "text": "diffused light producing broad falloff",
+      "sentence": "Diffused light producing broad falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "diffused light producing broad falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing diffused light producing broad falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with diffused light producing broad falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-light-quality-base-diffused-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-quality",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "quality": "diffused-light",
+        "treatment": "broad-falloff"
+      },
+      "subcategory": "diffused-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-quality-base-diffused-light-rapid-falloff",
+      "semantic_key": "cinematography-light-quality-base-diffused-light-rapid-falloff",
+      "text": "diffused light producing rapid falloff",
+      "sentence": "Diffused light producing rapid falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "diffused light producing rapid falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing diffused light producing rapid falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with diffused light producing rapid falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-light-quality-base-diffused-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-quality",
+        "rarity-rare"
+      ],
+      "facets": {
+        "quality": "diffused-light",
+        "treatment": "rapid-falloff"
+      },
+      "subcategory": "diffused-light",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-quality-base-diffused-light-layered-illumination",
+      "semantic_key": "cinematography-light-quality-base-diffused-light-layered-illumination",
+      "text": "diffused light producing layered illumination",
+      "sentence": "Diffused light producing layered illumination.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "diffused light producing layered illumination",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing diffused light producing layered illumination",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with diffused light producing layered illumination",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-light-quality-base-diffused-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-quality",
+        "rarity-rare"
+      ],
+      "facets": {
+        "quality": "diffused-light",
+        "treatment": "layered-illumination"
+      },
+      "subcategory": "diffused-light",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-quality-base-specular-light-low-contrast",
+      "semantic_key": "cinematography-light-quality-base-specular-light-low-contrast",
+      "text": "specular light producing low contrast",
+      "sentence": "Specular light producing low contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "specular light producing low contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing specular light producing low contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with specular light producing low contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-quality-base-specular-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-quality",
+        "rarity-common"
+      ],
+      "facets": {
+        "quality": "specular-light",
+        "treatment": "low-contrast"
+      },
+      "subcategory": "specular-light",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-quality-base-specular-light-moderate-contrast",
+      "semantic_key": "cinematography-light-quality-base-specular-light-moderate-contrast",
+      "text": "specular light producing moderate contrast",
+      "sentence": "Specular light producing moderate contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "specular light producing moderate contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing specular light producing moderate contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with specular light producing moderate contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-quality-base-specular-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-quality",
+        "rarity-common"
+      ],
+      "facets": {
+        "quality": "specular-light",
+        "treatment": "moderate-contrast"
+      },
+      "subcategory": "specular-light",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-quality-base-specular-light-high-contrast",
+      "semantic_key": "cinematography-light-quality-base-specular-light-high-contrast",
+      "text": "specular light producing high contrast",
+      "sentence": "Specular light producing high contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "specular light producing high contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing specular light producing high contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with specular light producing high contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-quality-base-specular-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-quality",
+        "rarity-common"
+      ],
+      "facets": {
+        "quality": "specular-light",
+        "treatment": "high-contrast"
+      },
+      "subcategory": "specular-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-quality-base-specular-light-soft-transitions",
+      "semantic_key": "cinematography-light-quality-base-specular-light-soft-transitions",
+      "text": "specular light producing soft transitions",
+      "sentence": "Specular light producing soft transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "specular light producing soft transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing specular light producing soft transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with specular light producing soft transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-quality-base-specular-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-quality",
+        "rarity-common"
+      ],
+      "facets": {
+        "quality": "specular-light",
+        "treatment": "soft-transitions"
+      },
+      "subcategory": "specular-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-quality-base-specular-light-crisp-transitions",
+      "semantic_key": "cinematography-light-quality-base-specular-light-crisp-transitions",
+      "text": "specular light producing crisp transitions",
+      "sentence": "Specular light producing crisp transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "specular light producing crisp transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing specular light producing crisp transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with specular light producing crisp transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-light-quality-base-specular-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-quality",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "quality": "specular-light",
+        "treatment": "crisp-transitions"
+      },
+      "subcategory": "specular-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-quality-base-specular-light-broad-falloff",
+      "semantic_key": "cinematography-light-quality-base-specular-light-broad-falloff",
+      "text": "specular light producing broad falloff",
+      "sentence": "Specular light producing broad falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "specular light producing broad falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing specular light producing broad falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with specular light producing broad falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-light-quality-base-specular-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-quality",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "quality": "specular-light",
+        "treatment": "broad-falloff"
+      },
+      "subcategory": "specular-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-quality-base-specular-light-rapid-falloff",
+      "semantic_key": "cinematography-light-quality-base-specular-light-rapid-falloff",
+      "text": "specular light producing rapid falloff",
+      "sentence": "Specular light producing rapid falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "specular light producing rapid falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing specular light producing rapid falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with specular light producing rapid falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-light-quality-base-specular-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-quality",
+        "rarity-rare"
+      ],
+      "facets": {
+        "quality": "specular-light",
+        "treatment": "rapid-falloff"
+      },
+      "subcategory": "specular-light",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-quality-base-specular-light-layered-illumination",
+      "semantic_key": "cinematography-light-quality-base-specular-light-layered-illumination",
+      "text": "specular light producing layered illumination",
+      "sentence": "Specular light producing layered illumination.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "specular light producing layered illumination",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing specular light producing layered illumination",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with specular light producing layered illumination",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-light-quality-base-specular-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-quality",
+        "rarity-rare"
+      ],
+      "facets": {
+        "quality": "specular-light",
+        "treatment": "layered-illumination"
+      },
+      "subcategory": "specular-light",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    }
+  ]
+}

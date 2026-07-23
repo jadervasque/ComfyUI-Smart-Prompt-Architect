@@ -1,0 +1,2642 @@
+{
+  "schema_version": "2.0",
+  "id": "scene-location-interior",
+  "version": "2.0.0",
+  "library": "location",
+  "domain": "scene",
+  "category": "location",
+  "language": "en",
+  "status": "active",
+  "safety": "general",
+  "tags": [
+    "indoor",
+    "interior"
+  ],
+  "fallback_option_id": "scene-location-interior-modern-apartment-open-spatial-layout",
+  "options": [
+    {
+      "id": "scene-location-interior-modern-apartment-open-spatial-layout",
+      "semantic_key": "scene-location-interior-modern-apartment-open-spatial-layout",
+      "text": "a modern apartment with open spatial layout",
+      "sentence": "A modern apartment with open spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a modern apartment with open spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a modern apartment with open spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a modern apartment with open spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-interior-modern-apartment",
+      "tags": [
+        "indoor",
+        "interior",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "modern-apartment",
+        "treatment": "open-spatial-layout"
+      },
+      "subcategory": "modern-apartment",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-interior-modern-apartment-intimate-spatial-layout",
+      "semantic_key": "scene-location-interior-modern-apartment-intimate-spatial-layout",
+      "text": "a modern apartment with intimate spatial layout",
+      "sentence": "A modern apartment with intimate spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a modern apartment with intimate spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a modern apartment with intimate spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a modern apartment with intimate spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-interior-modern-apartment",
+      "tags": [
+        "indoor",
+        "interior",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "modern-apartment",
+        "treatment": "intimate-spatial-layout"
+      },
+      "subcategory": "modern-apartment",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-interior-modern-apartment-layered-depth",
+      "semantic_key": "scene-location-interior-modern-apartment-layered-depth",
+      "text": "a modern apartment with layered depth",
+      "sentence": "A modern apartment with layered depth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a modern apartment with layered depth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a modern apartment with layered depth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a modern apartment with layered depth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-interior-modern-apartment",
+      "tags": [
+        "indoor",
+        "interior",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "modern-apartment",
+        "treatment": "layered-depth"
+      },
+      "subcategory": "modern-apartment",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-interior-modern-apartment-clear-sightlines",
+      "semantic_key": "scene-location-interior-modern-apartment-clear-sightlines",
+      "text": "a modern apartment with clear sightlines",
+      "sentence": "A modern apartment with clear sightlines.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a modern apartment with clear sightlines",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a modern apartment with clear sightlines",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a modern apartment with clear sightlines",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-interior-modern-apartment",
+      "tags": [
+        "indoor",
+        "interior",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "modern-apartment",
+        "treatment": "clear-sightlines"
+      },
+      "subcategory": "modern-apartment",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-interior-modern-apartment-enclosed-geometry",
+      "semantic_key": "scene-location-interior-modern-apartment-enclosed-geometry",
+      "text": "a modern apartment with enclosed geometry",
+      "sentence": "A modern apartment with enclosed geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a modern apartment with enclosed geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a modern apartment with enclosed geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a modern apartment with enclosed geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-interior-modern-apartment",
+      "tags": [
+        "indoor",
+        "interior",
+        "location",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "modern-apartment",
+        "treatment": "enclosed-geometry"
+      },
+      "subcategory": "modern-apartment",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-interior-modern-apartment-expansive-geometry",
+      "semantic_key": "scene-location-interior-modern-apartment-expansive-geometry",
+      "text": "a modern apartment with expansive geometry",
+      "sentence": "A modern apartment with expansive geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a modern apartment with expansive geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a modern apartment with expansive geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a modern apartment with expansive geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-interior-modern-apartment",
+      "tags": [
+        "indoor",
+        "interior",
+        "location",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "modern-apartment",
+        "treatment": "expansive-geometry"
+      },
+      "subcategory": "modern-apartment",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-interior-modern-apartment-asymmetric-layout",
+      "semantic_key": "scene-location-interior-modern-apartment-asymmetric-layout",
+      "text": "a modern apartment with asymmetric layout",
+      "sentence": "A modern apartment with asymmetric layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a modern apartment with asymmetric layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a modern apartment with asymmetric layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a modern apartment with asymmetric layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-interior-modern-apartment",
+      "tags": [
+        "indoor",
+        "interior",
+        "location",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "modern-apartment",
+        "treatment": "asymmetric-layout"
+      },
+      "subcategory": "modern-apartment",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-interior-modern-apartment-central-organization",
+      "semantic_key": "scene-location-interior-modern-apartment-central-organization",
+      "text": "a modern apartment with central organization",
+      "sentence": "A modern apartment with central organization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a modern apartment with central organization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a modern apartment with central organization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a modern apartment with central organization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-interior-modern-apartment",
+      "tags": [
+        "indoor",
+        "interior",
+        "location",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "modern-apartment",
+        "treatment": "central-organization"
+      },
+      "subcategory": "modern-apartment",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-interior-quiet-library-open-spatial-layout",
+      "semantic_key": "scene-location-interior-quiet-library-open-spatial-layout",
+      "text": "a quiet library with open spatial layout",
+      "sentence": "A quiet library with open spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a quiet library with open spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a quiet library with open spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a quiet library with open spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-interior-quiet-library",
+      "tags": [
+        "indoor",
+        "interior",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "quiet-library",
+        "treatment": "open-spatial-layout"
+      },
+      "subcategory": "quiet-library",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-interior-quiet-library-intimate-spatial-layout",
+      "semantic_key": "scene-location-interior-quiet-library-intimate-spatial-layout",
+      "text": "a quiet library with intimate spatial layout",
+      "sentence": "A quiet library with intimate spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a quiet library with intimate spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a quiet library with intimate spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a quiet library with intimate spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-interior-quiet-library",
+      "tags": [
+        "indoor",
+        "interior",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "quiet-library",
+        "treatment": "intimate-spatial-layout"
+      },
+      "subcategory": "quiet-library",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-interior-quiet-library-layered-depth",
+      "semantic_key": "scene-location-interior-quiet-library-layered-depth",
+      "text": "a quiet library with layered depth",
+      "sentence": "A quiet library with layered depth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a quiet library with layered depth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a quiet library with layered depth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a quiet library with layered depth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-interior-quiet-library",
+      "tags": [
+        "indoor",
+        "interior",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "quiet-library",
+        "treatment": "layered-depth"
+      },
+      "subcategory": "quiet-library",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-interior-quiet-library-clear-sightlines",
+      "semantic_key": "scene-location-interior-quiet-library-clear-sightlines",
+      "text": "a quiet library with clear sightlines",
+      "sentence": "A quiet library with clear sightlines.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a quiet library with clear sightlines",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a quiet library with clear sightlines",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a quiet library with clear sightlines",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-interior-quiet-library",
+      "tags": [
+        "indoor",
+        "interior",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "quiet-library",
+        "treatment": "clear-sightlines"
+      },
+      "subcategory": "quiet-library",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-interior-quiet-library-enclosed-geometry",
+      "semantic_key": "scene-location-interior-quiet-library-enclosed-geometry",
+      "text": "a quiet library with enclosed geometry",
+      "sentence": "A quiet library with enclosed geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a quiet library with enclosed geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a quiet library with enclosed geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a quiet library with enclosed geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-interior-quiet-library",
+      "tags": [
+        "indoor",
+        "interior",
+        "location",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "quiet-library",
+        "treatment": "enclosed-geometry"
+      },
+      "subcategory": "quiet-library",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-interior-quiet-library-expansive-geometry",
+      "semantic_key": "scene-location-interior-quiet-library-expansive-geometry",
+      "text": "a quiet library with expansive geometry",
+      "sentence": "A quiet library with expansive geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a quiet library with expansive geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a quiet library with expansive geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a quiet library with expansive geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-interior-quiet-library",
+      "tags": [
+        "indoor",
+        "interior",
+        "location",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "quiet-library",
+        "treatment": "expansive-geometry"
+      },
+      "subcategory": "quiet-library",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-interior-quiet-library-asymmetric-layout",
+      "semantic_key": "scene-location-interior-quiet-library-asymmetric-layout",
+      "text": "a quiet library with asymmetric layout",
+      "sentence": "A quiet library with asymmetric layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a quiet library with asymmetric layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a quiet library with asymmetric layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a quiet library with asymmetric layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-interior-quiet-library",
+      "tags": [
+        "indoor",
+        "interior",
+        "location",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "quiet-library",
+        "treatment": "asymmetric-layout"
+      },
+      "subcategory": "quiet-library",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-interior-quiet-library-central-organization",
+      "semantic_key": "scene-location-interior-quiet-library-central-organization",
+      "text": "a quiet library with central organization",
+      "sentence": "A quiet library with central organization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a quiet library with central organization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a quiet library with central organization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a quiet library with central organization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-interior-quiet-library",
+      "tags": [
+        "indoor",
+        "interior",
+        "location",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "quiet-library",
+        "treatment": "central-organization"
+      },
+      "subcategory": "quiet-library",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-interior-independent-cafe-open-spatial-layout",
+      "semantic_key": "scene-location-interior-independent-cafe-open-spatial-layout",
+      "text": "a independent cafe with open spatial layout",
+      "sentence": "A independent cafe with open spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a independent cafe with open spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a independent cafe with open spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a independent cafe with open spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-interior-independent-cafe",
+      "tags": [
+        "indoor",
+        "interior",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "independent-cafe",
+        "treatment": "open-spatial-layout"
+      },
+      "subcategory": "independent-cafe",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-interior-independent-cafe-intimate-spatial-layout",
+      "semantic_key": "scene-location-interior-independent-cafe-intimate-spatial-layout",
+      "text": "a independent cafe with intimate spatial layout",
+      "sentence": "A independent cafe with intimate spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a independent cafe with intimate spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a independent cafe with intimate spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a independent cafe with intimate spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-interior-independent-cafe",
+      "tags": [
+        "indoor",
+        "interior",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "independent-cafe",
+        "treatment": "intimate-spatial-layout"
+      },
+      "subcategory": "independent-cafe",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-interior-independent-cafe-layered-depth",
+      "semantic_key": "scene-location-interior-independent-cafe-layered-depth",
+      "text": "a independent cafe with layered depth",
+      "sentence": "A independent cafe with layered depth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a independent cafe with layered depth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a independent cafe with layered depth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a independent cafe with layered depth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-interior-independent-cafe",
+      "tags": [
+        "indoor",
+        "interior",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "independent-cafe",
+        "treatment": "layered-depth"
+      },
+      "subcategory": "independent-cafe",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-interior-independent-cafe-clear-sightlines",
+      "semantic_key": "scene-location-interior-independent-cafe-clear-sightlines",
+      "text": "a independent cafe with clear sightlines",
+      "sentence": "A independent cafe with clear sightlines.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a independent cafe with clear sightlines",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a independent cafe with clear sightlines",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a independent cafe with clear sightlines",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-interior-independent-cafe",
+      "tags": [
+        "indoor",
+        "interior",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "independent-cafe",
+        "treatment": "clear-sightlines"
+      },
+      "subcategory": "independent-cafe",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-interior-independent-cafe-enclosed-geometry",
+      "semantic_key": "scene-location-interior-independent-cafe-enclosed-geometry",
+      "text": "a independent cafe with enclosed geometry",
+      "sentence": "A independent cafe with enclosed geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a independent cafe with enclosed geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a independent cafe with enclosed geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a independent cafe with enclosed geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-interior-independent-cafe",
+      "tags": [
+        "indoor",
+        "interior",
+        "location",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "independent-cafe",
+        "treatment": "enclosed-geometry"
+      },
+      "subcategory": "independent-cafe",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-interior-independent-cafe-expansive-geometry",
+      "semantic_key": "scene-location-interior-independent-cafe-expansive-geometry",
+      "text": "a independent cafe with expansive geometry",
+      "sentence": "A independent cafe with expansive geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a independent cafe with expansive geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a independent cafe with expansive geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a independent cafe with expansive geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-interior-independent-cafe",
+      "tags": [
+        "indoor",
+        "interior",
+        "location",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "independent-cafe",
+        "treatment": "expansive-geometry"
+      },
+      "subcategory": "independent-cafe",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-interior-independent-cafe-asymmetric-layout",
+      "semantic_key": "scene-location-interior-independent-cafe-asymmetric-layout",
+      "text": "a independent cafe with asymmetric layout",
+      "sentence": "A independent cafe with asymmetric layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a independent cafe with asymmetric layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a independent cafe with asymmetric layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a independent cafe with asymmetric layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-interior-independent-cafe",
+      "tags": [
+        "indoor",
+        "interior",
+        "location",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "independent-cafe",
+        "treatment": "asymmetric-layout"
+      },
+      "subcategory": "independent-cafe",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-interior-independent-cafe-central-organization",
+      "semantic_key": "scene-location-interior-independent-cafe-central-organization",
+      "text": "a independent cafe with central organization",
+      "sentence": "A independent cafe with central organization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a independent cafe with central organization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a independent cafe with central organization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a independent cafe with central organization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-interior-independent-cafe",
+      "tags": [
+        "indoor",
+        "interior",
+        "location",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "independent-cafe",
+        "treatment": "central-organization"
+      },
+      "subcategory": "independent-cafe",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-interior-art-gallery-open-spatial-layout",
+      "semantic_key": "scene-location-interior-art-gallery-open-spatial-layout",
+      "text": "a art gallery with open spatial layout",
+      "sentence": "A art gallery with open spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a art gallery with open spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a art gallery with open spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a art gallery with open spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-interior-art-gallery",
+      "tags": [
+        "indoor",
+        "interior",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "art-gallery",
+        "treatment": "open-spatial-layout"
+      },
+      "subcategory": "art-gallery",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-interior-art-gallery-intimate-spatial-layout",
+      "semantic_key": "scene-location-interior-art-gallery-intimate-spatial-layout",
+      "text": "a art gallery with intimate spatial layout",
+      "sentence": "A art gallery with intimate spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a art gallery with intimate spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a art gallery with intimate spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a art gallery with intimate spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-interior-art-gallery",
+      "tags": [
+        "indoor",
+        "interior",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "art-gallery",
+        "treatment": "intimate-spatial-layout"
+      },
+      "subcategory": "art-gallery",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-interior-art-gallery-layered-depth",
+      "semantic_key": "scene-location-interior-art-gallery-layered-depth",
+      "text": "a art gallery with layered depth",
+      "sentence": "A art gallery with layered depth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a art gallery with layered depth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a art gallery with layered depth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a art gallery with layered depth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-interior-art-gallery",
+      "tags": [
+        "indoor",
+        "interior",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "art-gallery",
+        "treatment": "layered-depth"
+      },
+      "subcategory": "art-gallery",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-interior-art-gallery-clear-sightlines",
+      "semantic_key": "scene-location-interior-art-gallery-clear-sightlines",
+      "text": "a art gallery with clear sightlines",
+      "sentence": "A art gallery with clear sightlines.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a art gallery with clear sightlines",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a art gallery with clear sightlines",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a art gallery with clear sightlines",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-interior-art-gallery",
+      "tags": [
+        "indoor",
+        "interior",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "art-gallery",
+        "treatment": "clear-sightlines"
+      },
+      "subcategory": "art-gallery",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-interior-art-gallery-enclosed-geometry",
+      "semantic_key": "scene-location-interior-art-gallery-enclosed-geometry",
+      "text": "a art gallery with enclosed geometry",
+      "sentence": "A art gallery with enclosed geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a art gallery with enclosed geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a art gallery with enclosed geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a art gallery with enclosed geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-interior-art-gallery",
+      "tags": [
+        "indoor",
+        "interior",
+        "location",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "art-gallery",
+        "treatment": "enclosed-geometry"
+      },
+      "subcategory": "art-gallery",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-interior-art-gallery-expansive-geometry",
+      "semantic_key": "scene-location-interior-art-gallery-expansive-geometry",
+      "text": "a art gallery with expansive geometry",
+      "sentence": "A art gallery with expansive geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a art gallery with expansive geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a art gallery with expansive geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a art gallery with expansive geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-interior-art-gallery",
+      "tags": [
+        "indoor",
+        "interior",
+        "location",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "art-gallery",
+        "treatment": "expansive-geometry"
+      },
+      "subcategory": "art-gallery",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-interior-art-gallery-asymmetric-layout",
+      "semantic_key": "scene-location-interior-art-gallery-asymmetric-layout",
+      "text": "a art gallery with asymmetric layout",
+      "sentence": "A art gallery with asymmetric layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a art gallery with asymmetric layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a art gallery with asymmetric layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a art gallery with asymmetric layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-interior-art-gallery",
+      "tags": [
+        "indoor",
+        "interior",
+        "location",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "art-gallery",
+        "treatment": "asymmetric-layout"
+      },
+      "subcategory": "art-gallery",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-interior-art-gallery-central-organization",
+      "semantic_key": "scene-location-interior-art-gallery-central-organization",
+      "text": "a art gallery with central organization",
+      "sentence": "A art gallery with central organization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a art gallery with central organization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a art gallery with central organization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a art gallery with central organization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-interior-art-gallery",
+      "tags": [
+        "indoor",
+        "interior",
+        "location",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "art-gallery",
+        "treatment": "central-organization"
+      },
+      "subcategory": "art-gallery",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-interior-workshop-interior-open-spatial-layout",
+      "semantic_key": "scene-location-interior-workshop-interior-open-spatial-layout",
+      "text": "a workshop interior with open spatial layout",
+      "sentence": "A workshop interior with open spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a workshop interior with open spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a workshop interior with open spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a workshop interior with open spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-interior-workshop-interior",
+      "tags": [
+        "indoor",
+        "interior",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "workshop-interior",
+        "treatment": "open-spatial-layout"
+      },
+      "subcategory": "workshop-interior",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-interior-workshop-interior-intimate-spatial-layout",
+      "semantic_key": "scene-location-interior-workshop-interior-intimate-spatial-layout",
+      "text": "a workshop interior with intimate spatial layout",
+      "sentence": "A workshop interior with intimate spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a workshop interior with intimate spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a workshop interior with intimate spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a workshop interior with intimate spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-interior-workshop-interior",
+      "tags": [
+        "indoor",
+        "interior",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "workshop-interior",
+        "treatment": "intimate-spatial-layout"
+      },
+      "subcategory": "workshop-interior",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-interior-workshop-interior-layered-depth",
+      "semantic_key": "scene-location-interior-workshop-interior-layered-depth",
+      "text": "a workshop interior with layered depth",
+      "sentence": "A workshop interior with layered depth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a workshop interior with layered depth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a workshop interior with layered depth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a workshop interior with layered depth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-interior-workshop-interior",
+      "tags": [
+        "indoor",
+        "interior",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "workshop-interior",
+        "treatment": "layered-depth"
+      },
+      "subcategory": "workshop-interior",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-interior-workshop-interior-clear-sightlines",
+      "semantic_key": "scene-location-interior-workshop-interior-clear-sightlines",
+      "text": "a workshop interior with clear sightlines",
+      "sentence": "A workshop interior with clear sightlines.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a workshop interior with clear sightlines",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a workshop interior with clear sightlines",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a workshop interior with clear sightlines",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-interior-workshop-interior",
+      "tags": [
+        "indoor",
+        "interior",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "workshop-interior",
+        "treatment": "clear-sightlines"
+      },
+      "subcategory": "workshop-interior",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-interior-workshop-interior-enclosed-geometry",
+      "semantic_key": "scene-location-interior-workshop-interior-enclosed-geometry",
+      "text": "a workshop interior with enclosed geometry",
+      "sentence": "A workshop interior with enclosed geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a workshop interior with enclosed geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a workshop interior with enclosed geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a workshop interior with enclosed geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-interior-workshop-interior",
+      "tags": [
+        "indoor",
+        "interior",
+        "location",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "workshop-interior",
+        "treatment": "enclosed-geometry"
+      },
+      "subcategory": "workshop-interior",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-interior-workshop-interior-expansive-geometry",
+      "semantic_key": "scene-location-interior-workshop-interior-expansive-geometry",
+      "text": "a workshop interior with expansive geometry",
+      "sentence": "A workshop interior with expansive geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a workshop interior with expansive geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a workshop interior with expansive geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a workshop interior with expansive geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-interior-workshop-interior",
+      "tags": [
+        "indoor",
+        "interior",
+        "location",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "workshop-interior",
+        "treatment": "expansive-geometry"
+      },
+      "subcategory": "workshop-interior",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-interior-workshop-interior-asymmetric-layout",
+      "semantic_key": "scene-location-interior-workshop-interior-asymmetric-layout",
+      "text": "a workshop interior with asymmetric layout",
+      "sentence": "A workshop interior with asymmetric layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a workshop interior with asymmetric layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a workshop interior with asymmetric layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a workshop interior with asymmetric layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-interior-workshop-interior",
+      "tags": [
+        "indoor",
+        "interior",
+        "location",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "workshop-interior",
+        "treatment": "asymmetric-layout"
+      },
+      "subcategory": "workshop-interior",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-interior-workshop-interior-central-organization",
+      "semantic_key": "scene-location-interior-workshop-interior-central-organization",
+      "text": "a workshop interior with central organization",
+      "sentence": "A workshop interior with central organization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a workshop interior with central organization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a workshop interior with central organization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a workshop interior with central organization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-interior-workshop-interior",
+      "tags": [
+        "indoor",
+        "interior",
+        "location",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "workshop-interior",
+        "treatment": "central-organization"
+      },
+      "subcategory": "workshop-interior",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-interior-hotel-lobby-open-spatial-layout",
+      "semantic_key": "scene-location-interior-hotel-lobby-open-spatial-layout",
+      "text": "a hotel lobby with open spatial layout",
+      "sentence": "A hotel lobby with open spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a hotel lobby with open spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a hotel lobby with open spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a hotel lobby with open spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-interior-hotel-lobby",
+      "tags": [
+        "indoor",
+        "interior",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "hotel-lobby",
+        "treatment": "open-spatial-layout"
+      },
+      "subcategory": "hotel-lobby",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-interior-hotel-lobby-intimate-spatial-layout",
+      "semantic_key": "scene-location-interior-hotel-lobby-intimate-spatial-layout",
+      "text": "a hotel lobby with intimate spatial layout",
+      "sentence": "A hotel lobby with intimate spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a hotel lobby with intimate spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a hotel lobby with intimate spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a hotel lobby with intimate spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-interior-hotel-lobby",
+      "tags": [
+        "indoor",
+        "interior",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "hotel-lobby",
+        "treatment": "intimate-spatial-layout"
+      },
+      "subcategory": "hotel-lobby",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-interior-hotel-lobby-layered-depth",
+      "semantic_key": "scene-location-interior-hotel-lobby-layered-depth",
+      "text": "a hotel lobby with layered depth",
+      "sentence": "A hotel lobby with layered depth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a hotel lobby with layered depth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a hotel lobby with layered depth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a hotel lobby with layered depth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-interior-hotel-lobby",
+      "tags": [
+        "indoor",
+        "interior",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "hotel-lobby",
+        "treatment": "layered-depth"
+      },
+      "subcategory": "hotel-lobby",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-interior-hotel-lobby-clear-sightlines",
+      "semantic_key": "scene-location-interior-hotel-lobby-clear-sightlines",
+      "text": "a hotel lobby with clear sightlines",
+      "sentence": "A hotel lobby with clear sightlines.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a hotel lobby with clear sightlines",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a hotel lobby with clear sightlines",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a hotel lobby with clear sightlines",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-interior-hotel-lobby",
+      "tags": [
+        "indoor",
+        "interior",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "hotel-lobby",
+        "treatment": "clear-sightlines"
+      },
+      "subcategory": "hotel-lobby",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-interior-hotel-lobby-enclosed-geometry",
+      "semantic_key": "scene-location-interior-hotel-lobby-enclosed-geometry",
+      "text": "a hotel lobby with enclosed geometry",
+      "sentence": "A hotel lobby with enclosed geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a hotel lobby with enclosed geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a hotel lobby with enclosed geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a hotel lobby with enclosed geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-interior-hotel-lobby",
+      "tags": [
+        "indoor",
+        "interior",
+        "location",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "hotel-lobby",
+        "treatment": "enclosed-geometry"
+      },
+      "subcategory": "hotel-lobby",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-interior-hotel-lobby-expansive-geometry",
+      "semantic_key": "scene-location-interior-hotel-lobby-expansive-geometry",
+      "text": "a hotel lobby with expansive geometry",
+      "sentence": "A hotel lobby with expansive geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a hotel lobby with expansive geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a hotel lobby with expansive geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a hotel lobby with expansive geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-interior-hotel-lobby",
+      "tags": [
+        "indoor",
+        "interior",
+        "location",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "hotel-lobby",
+        "treatment": "expansive-geometry"
+      },
+      "subcategory": "hotel-lobby",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-interior-hotel-lobby-asymmetric-layout",
+      "semantic_key": "scene-location-interior-hotel-lobby-asymmetric-layout",
+      "text": "a hotel lobby with asymmetric layout",
+      "sentence": "A hotel lobby with asymmetric layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a hotel lobby with asymmetric layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a hotel lobby with asymmetric layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a hotel lobby with asymmetric layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-interior-hotel-lobby",
+      "tags": [
+        "indoor",
+        "interior",
+        "location",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "hotel-lobby",
+        "treatment": "asymmetric-layout"
+      },
+      "subcategory": "hotel-lobby",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-interior-hotel-lobby-central-organization",
+      "semantic_key": "scene-location-interior-hotel-lobby-central-organization",
+      "text": "a hotel lobby with central organization",
+      "sentence": "A hotel lobby with central organization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a hotel lobby with central organization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a hotel lobby with central organization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a hotel lobby with central organization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-interior-hotel-lobby",
+      "tags": [
+        "indoor",
+        "interior",
+        "location",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "hotel-lobby",
+        "treatment": "central-organization"
+      },
+      "subcategory": "hotel-lobby",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-interior-conservatory-open-spatial-layout",
+      "semantic_key": "scene-location-interior-conservatory-open-spatial-layout",
+      "text": "a conservatory with open spatial layout",
+      "sentence": "A conservatory with open spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a conservatory with open spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a conservatory with open spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a conservatory with open spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-interior-conservatory",
+      "tags": [
+        "indoor",
+        "interior",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "conservatory",
+        "treatment": "open-spatial-layout"
+      },
+      "subcategory": "conservatory",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-interior-conservatory-intimate-spatial-layout",
+      "semantic_key": "scene-location-interior-conservatory-intimate-spatial-layout",
+      "text": "a conservatory with intimate spatial layout",
+      "sentence": "A conservatory with intimate spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a conservatory with intimate spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a conservatory with intimate spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a conservatory with intimate spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-interior-conservatory",
+      "tags": [
+        "indoor",
+        "interior",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "conservatory",
+        "treatment": "intimate-spatial-layout"
+      },
+      "subcategory": "conservatory",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-interior-conservatory-layered-depth",
+      "semantic_key": "scene-location-interior-conservatory-layered-depth",
+      "text": "a conservatory with layered depth",
+      "sentence": "A conservatory with layered depth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a conservatory with layered depth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a conservatory with layered depth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a conservatory with layered depth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-interior-conservatory",
+      "tags": [
+        "indoor",
+        "interior",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "conservatory",
+        "treatment": "layered-depth"
+      },
+      "subcategory": "conservatory",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-interior-conservatory-clear-sightlines",
+      "semantic_key": "scene-location-interior-conservatory-clear-sightlines",
+      "text": "a conservatory with clear sightlines",
+      "sentence": "A conservatory with clear sightlines.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a conservatory with clear sightlines",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a conservatory with clear sightlines",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a conservatory with clear sightlines",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-interior-conservatory",
+      "tags": [
+        "indoor",
+        "interior",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "conservatory",
+        "treatment": "clear-sightlines"
+      },
+      "subcategory": "conservatory",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-interior-conservatory-enclosed-geometry",
+      "semantic_key": "scene-location-interior-conservatory-enclosed-geometry",
+      "text": "a conservatory with enclosed geometry",
+      "sentence": "A conservatory with enclosed geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a conservatory with enclosed geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a conservatory with enclosed geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a conservatory with enclosed geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-interior-conservatory",
+      "tags": [
+        "indoor",
+        "interior",
+        "location",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "conservatory",
+        "treatment": "enclosed-geometry"
+      },
+      "subcategory": "conservatory",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-interior-conservatory-expansive-geometry",
+      "semantic_key": "scene-location-interior-conservatory-expansive-geometry",
+      "text": "a conservatory with expansive geometry",
+      "sentence": "A conservatory with expansive geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a conservatory with expansive geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a conservatory with expansive geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a conservatory with expansive geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-interior-conservatory",
+      "tags": [
+        "indoor",
+        "interior",
+        "location",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "conservatory",
+        "treatment": "expansive-geometry"
+      },
+      "subcategory": "conservatory",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-interior-conservatory-asymmetric-layout",
+      "semantic_key": "scene-location-interior-conservatory-asymmetric-layout",
+      "text": "a conservatory with asymmetric layout",
+      "sentence": "A conservatory with asymmetric layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a conservatory with asymmetric layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a conservatory with asymmetric layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a conservatory with asymmetric layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-interior-conservatory",
+      "tags": [
+        "indoor",
+        "interior",
+        "location",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "conservatory",
+        "treatment": "asymmetric-layout"
+      },
+      "subcategory": "conservatory",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-interior-conservatory-central-organization",
+      "semantic_key": "scene-location-interior-conservatory-central-organization",
+      "text": "a conservatory with central organization",
+      "sentence": "A conservatory with central organization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a conservatory with central organization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a conservatory with central organization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a conservatory with central organization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-interior-conservatory",
+      "tags": [
+        "indoor",
+        "interior",
+        "location",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "conservatory",
+        "treatment": "central-organization"
+      },
+      "subcategory": "conservatory",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-interior-minimal-office-open-spatial-layout",
+      "semantic_key": "scene-location-interior-minimal-office-open-spatial-layout",
+      "text": "a minimal office with open spatial layout",
+      "sentence": "A minimal office with open spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a minimal office with open spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a minimal office with open spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a minimal office with open spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-interior-minimal-office",
+      "tags": [
+        "indoor",
+        "interior",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "minimal-office",
+        "treatment": "open-spatial-layout"
+      },
+      "subcategory": "minimal-office",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-interior-minimal-office-intimate-spatial-layout",
+      "semantic_key": "scene-location-interior-minimal-office-intimate-spatial-layout",
+      "text": "a minimal office with intimate spatial layout",
+      "sentence": "A minimal office with intimate spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a minimal office with intimate spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a minimal office with intimate spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a minimal office with intimate spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-interior-minimal-office",
+      "tags": [
+        "indoor",
+        "interior",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "minimal-office",
+        "treatment": "intimate-spatial-layout"
+      },
+      "subcategory": "minimal-office",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-interior-minimal-office-layered-depth",
+      "semantic_key": "scene-location-interior-minimal-office-layered-depth",
+      "text": "a minimal office with layered depth",
+      "sentence": "A minimal office with layered depth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a minimal office with layered depth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a minimal office with layered depth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a minimal office with layered depth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-interior-minimal-office",
+      "tags": [
+        "indoor",
+        "interior",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "minimal-office",
+        "treatment": "layered-depth"
+      },
+      "subcategory": "minimal-office",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-interior-minimal-office-clear-sightlines",
+      "semantic_key": "scene-location-interior-minimal-office-clear-sightlines",
+      "text": "a minimal office with clear sightlines",
+      "sentence": "A minimal office with clear sightlines.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a minimal office with clear sightlines",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a minimal office with clear sightlines",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a minimal office with clear sightlines",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-interior-minimal-office",
+      "tags": [
+        "indoor",
+        "interior",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "minimal-office",
+        "treatment": "clear-sightlines"
+      },
+      "subcategory": "minimal-office",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-interior-minimal-office-enclosed-geometry",
+      "semantic_key": "scene-location-interior-minimal-office-enclosed-geometry",
+      "text": "a minimal office with enclosed geometry",
+      "sentence": "A minimal office with enclosed geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a minimal office with enclosed geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a minimal office with enclosed geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a minimal office with enclosed geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-interior-minimal-office",
+      "tags": [
+        "indoor",
+        "interior",
+        "location",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "minimal-office",
+        "treatment": "enclosed-geometry"
+      },
+      "subcategory": "minimal-office",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-interior-minimal-office-expansive-geometry",
+      "semantic_key": "scene-location-interior-minimal-office-expansive-geometry",
+      "text": "a minimal office with expansive geometry",
+      "sentence": "A minimal office with expansive geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a minimal office with expansive geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a minimal office with expansive geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a minimal office with expansive geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-interior-minimal-office",
+      "tags": [
+        "indoor",
+        "interior",
+        "location",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "minimal-office",
+        "treatment": "expansive-geometry"
+      },
+      "subcategory": "minimal-office",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-interior-minimal-office-asymmetric-layout",
+      "semantic_key": "scene-location-interior-minimal-office-asymmetric-layout",
+      "text": "a minimal office with asymmetric layout",
+      "sentence": "A minimal office with asymmetric layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a minimal office with asymmetric layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a minimal office with asymmetric layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a minimal office with asymmetric layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-interior-minimal-office",
+      "tags": [
+        "indoor",
+        "interior",
+        "location",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "minimal-office",
+        "treatment": "asymmetric-layout"
+      },
+      "subcategory": "minimal-office",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-interior-minimal-office-central-organization",
+      "semantic_key": "scene-location-interior-minimal-office-central-organization",
+      "text": "a minimal office with central organization",
+      "sentence": "A minimal office with central organization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a minimal office with central organization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a minimal office with central organization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a minimal office with central organization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-interior-minimal-office",
+      "tags": [
+        "indoor",
+        "interior",
+        "location",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "minimal-office",
+        "treatment": "central-organization"
+      },
+      "subcategory": "minimal-office",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    }
+  ]
+}

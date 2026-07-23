@@ -1,0 +1,1739 @@
+{
+  "schema_version": "2.0",
+  "id": "prompt-architect-catalog",
+  "version": "2.0.0",
+  "language": "en",
+  "packs": [
+    {
+      "id": "scene-location-studio",
+      "library": "location",
+      "domain": "scene",
+      "path": "packs/scene/scene-location-studio.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "general",
+      "tags": [
+        "base",
+        "indoor",
+        "studio"
+      ],
+      "dependencies": [],
+      "priority": 10
+    },
+    {
+      "id": "style-photo-genre-base",
+      "library": "photo-genre",
+      "domain": "style",
+      "path": "packs/style/style-photo-genre-base.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "general",
+      "tags": [
+        "base",
+        "photographic"
+      ],
+      "dependencies": [],
+      "priority": 10
+    },
+    {
+      "id": "wardrobe-theme-contemporary",
+      "library": "wardrobe-theme",
+      "domain": "wardrobe",
+      "path": "packs/wardrobe/wardrobe-theme-contemporary.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "general",
+      "tags": [
+        "base",
+        "contemporary"
+      ],
+      "dependencies": [],
+      "priority": 10
+    },
+    {
+      "id": "scene-location-urban",
+      "library": "location",
+      "domain": "scene",
+      "path": "packs/scene/scene-location-urban.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "general",
+      "tags": [
+        "outdoor",
+        "urban"
+      ],
+      "dependencies": [],
+      "priority": 20
+    },
+    {
+      "id": "style-photo-genre-art",
+      "library": "photo-genre",
+      "domain": "style",
+      "path": "packs/style/style-photo-genre-art.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "general",
+      "tags": [
+        "art-direction"
+      ],
+      "dependencies": [],
+      "priority": 20
+    },
+    {
+      "id": "wardrobe-theme-editorial",
+      "library": "wardrobe-theme",
+      "domain": "wardrobe",
+      "path": "packs/wardrobe/wardrobe-theme-editorial.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "general",
+      "tags": [
+        "editorial",
+        "fashion"
+      ],
+      "dependencies": [],
+      "priority": 20
+    },
+    {
+      "id": "scene-location-nature",
+      "library": "location",
+      "domain": "scene",
+      "path": "packs/scene/scene-location-nature.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "general",
+      "tags": [
+        "nature",
+        "outdoor"
+      ],
+      "dependencies": [],
+      "priority": 30
+    },
+    {
+      "id": "wardrobe-one-piece-mature-fashion",
+      "library": "one-piece",
+      "domain": "wardrobe",
+      "path": "packs/wardrobe/wardrobe-one-piece-mature-fashion.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "fashion-mature",
+      "tags": [
+        "fashion",
+        "mature"
+      ],
+      "dependencies": [],
+      "priority": 30
+    },
+    {
+      "id": "wardrobe-theme-historical",
+      "library": "wardrobe-theme",
+      "domain": "wardrobe",
+      "path": "packs/wardrobe/wardrobe-theme-historical.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "general",
+      "tags": [
+        "historical"
+      ],
+      "dependencies": [],
+      "priority": 30
+    },
+    {
+      "id": "scene-location-interior",
+      "library": "location",
+      "domain": "scene",
+      "path": "packs/scene/scene-location-interior.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "general",
+      "tags": [
+        "indoor",
+        "interior"
+      ],
+      "dependencies": [],
+      "priority": 40
+    },
+    {
+      "id": "wardrobe-theme-fantasy",
+      "library": "wardrobe-theme",
+      "domain": "wardrobe",
+      "path": "packs/wardrobe/wardrobe-theme-fantasy.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "general",
+      "tags": [
+        "fantasy"
+      ],
+      "dependencies": [],
+      "priority": 40
+    },
+    {
+      "id": "scene-location-historical",
+      "library": "location",
+      "domain": "scene",
+      "path": "packs/scene/scene-location-historical.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "general",
+      "tags": [
+        "historical"
+      ],
+      "dependencies": [],
+      "priority": 50
+    },
+    {
+      "id": "wardrobe-theme-dark",
+      "library": "wardrobe-theme",
+      "domain": "wardrobe",
+      "path": "packs/wardrobe/wardrobe-theme-dark.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "dark-atmospheric",
+      "tags": [
+        "dark",
+        "gothic"
+      ],
+      "dependencies": [],
+      "priority": 50
+    },
+    {
+      "id": "scene-location-fantasy",
+      "library": "location",
+      "domain": "scene",
+      "path": "packs/scene/scene-location-fantasy.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "general",
+      "tags": [
+        "fantasy"
+      ],
+      "dependencies": [],
+      "priority": 60
+    },
+    {
+      "id": "scene-location-dark",
+      "library": "location",
+      "domain": "scene",
+      "path": "packs/scene/scene-location-dark.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "dark-atmospheric",
+      "tags": [
+        "dark",
+        "gothic"
+      ],
+      "dependencies": [],
+      "priority": 70
+    },
+    {
+      "id": "body-build-base",
+      "library": "body-build",
+      "domain": "body",
+      "path": "packs/body/body-build-base.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "general",
+      "tags": [
+        "adults-only",
+        "base"
+      ],
+      "dependencies": [],
+      "priority": 100
+    },
+    {
+      "id": "cinematography-aperture-base",
+      "library": "aperture",
+      "domain": "cinematography",
+      "path": "packs/cinematography/cinematography-aperture-base.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "general",
+      "tags": [
+        "base"
+      ],
+      "dependencies": [],
+      "priority": 100
+    },
+    {
+      "id": "cinematography-camera-angle-base",
+      "library": "camera-angle",
+      "domain": "cinematography",
+      "path": "packs/cinematography/cinematography-camera-angle-base.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "general",
+      "tags": [
+        "base"
+      ],
+      "dependencies": [],
+      "priority": 100
+    },
+    {
+      "id": "cinematography-camera-motion-base",
+      "library": "camera-motion",
+      "domain": "cinematography",
+      "path": "packs/cinematography/cinematography-camera-motion-base.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "general",
+      "tags": [
+        "base"
+      ],
+      "dependencies": [],
+      "priority": 100
+    },
+    {
+      "id": "cinematography-composition-base",
+      "library": "composition",
+      "domain": "cinematography",
+      "path": "packs/cinematography/cinematography-composition-base.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "general",
+      "tags": [
+        "base"
+      ],
+      "dependencies": [],
+      "priority": 100
+    },
+    {
+      "id": "cinematography-exposure-film-look-base",
+      "library": "exposure-film-look",
+      "domain": "cinematography",
+      "path": "packs/cinematography/cinematography-exposure-film-look-base.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "general",
+      "tags": [
+        "base"
+      ],
+      "dependencies": [],
+      "priority": 100
+    },
+    {
+      "id": "cinematography-focus-base",
+      "library": "focus",
+      "domain": "cinematography",
+      "path": "packs/cinematography/cinematography-focus-base.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "general",
+      "tags": [
+        "base"
+      ],
+      "dependencies": [],
+      "priority": 100
+    },
+    {
+      "id": "cinematography-lens-focal-base",
+      "library": "lens-focal",
+      "domain": "cinematography",
+      "path": "packs/cinematography/cinematography-lens-focal-base.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "general",
+      "tags": [
+        "base"
+      ],
+      "dependencies": [],
+      "priority": 100
+    },
+    {
+      "id": "cinematography-light-direction-base",
+      "library": "light-direction",
+      "domain": "cinematography",
+      "path": "packs/cinematography/cinematography-light-direction-base.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "general",
+      "tags": [
+        "base"
+      ],
+      "dependencies": [],
+      "priority": 100
+    },
+    {
+      "id": "cinematography-light-quality-base",
+      "library": "light-quality",
+      "domain": "cinematography",
+      "path": "packs/cinematography/cinematography-light-quality-base.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "general",
+      "tags": [
+        "base"
+      ],
+      "dependencies": [],
+      "priority": 100
+    },
+    {
+      "id": "cinematography-light-source-base",
+      "library": "light-source",
+      "domain": "cinematography",
+      "path": "packs/cinematography/cinematography-light-source-base.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "general",
+      "tags": [
+        "base"
+      ],
+      "dependencies": [],
+      "priority": 100
+    },
+    {
+      "id": "cinematography-light-temperature-base",
+      "library": "light-temperature",
+      "domain": "cinematography",
+      "path": "packs/cinematography/cinematography-light-temperature-base.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "general",
+      "tags": [
+        "base"
+      ],
+      "dependencies": [],
+      "priority": 100
+    },
+    {
+      "id": "cinematography-lighting-setup-base",
+      "library": "lighting-setup",
+      "domain": "cinematography",
+      "path": "packs/cinematography/cinematography-lighting-setup-base.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "general",
+      "tags": [
+        "base"
+      ],
+      "dependencies": [],
+      "priority": 100
+    },
+    {
+      "id": "cinematography-shot-size-base",
+      "library": "shot-size",
+      "domain": "cinematography",
+      "path": "packs/cinematography/cinematography-shot-size-base.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "general",
+      "tags": [
+        "base"
+      ],
+      "dependencies": [],
+      "priority": 100
+    },
+    {
+      "id": "hair-color-base",
+      "library": "hair-color",
+      "domain": "hair",
+      "path": "packs/hair/hair-color-base.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "general",
+      "tags": [
+        "base"
+      ],
+      "dependencies": [],
+      "priority": 100
+    },
+    {
+      "id": "hair-facial-hair-base",
+      "library": "facial-hair",
+      "domain": "hair",
+      "path": "packs/hair/hair-facial-hair-base.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "general",
+      "tags": [
+        "base"
+      ],
+      "dependencies": [],
+      "priority": 100
+    },
+    {
+      "id": "hair-length-base",
+      "library": "hair-length",
+      "domain": "hair",
+      "path": "packs/hair/hair-length-base.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "general",
+      "tags": [
+        "base"
+      ],
+      "dependencies": [],
+      "priority": 100
+    },
+    {
+      "id": "hair-style-base",
+      "library": "hair-style",
+      "domain": "hair",
+      "path": "packs/hair/hair-style-base.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "general",
+      "tags": [
+        "base"
+      ],
+      "dependencies": [],
+      "priority": 100
+    },
+    {
+      "id": "hair-texture-base",
+      "library": "hair-texture",
+      "domain": "hair",
+      "path": "packs/hair/hair-texture-base.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "general",
+      "tags": [
+        "base"
+      ],
+      "dependencies": [],
+      "priority": 100
+    },
+    {
+      "id": "identity-adult-age-base",
+      "library": "adult-age",
+      "domain": "identity",
+      "path": "packs/identity/identity-adult-age-base.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "general",
+      "tags": [
+        "adults-only",
+        "base"
+      ],
+      "dependencies": [],
+      "priority": 100
+    },
+    {
+      "id": "identity-archetype-base",
+      "library": "identity-archetype",
+      "domain": "identity",
+      "path": "packs/identity/identity-archetype-base.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "general",
+      "tags": [
+        "adults-only",
+        "base"
+      ],
+      "dependencies": [],
+      "priority": 100
+    },
+    {
+      "id": "identity-distinguishing-features-base",
+      "library": "distinguishing-features",
+      "domain": "identity",
+      "path": "packs/identity/identity-distinguishing-features-base.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "general",
+      "tags": [
+        "base"
+      ],
+      "dependencies": [],
+      "priority": 100
+    },
+    {
+      "id": "identity-eye-color-base",
+      "library": "eye-color",
+      "domain": "identity",
+      "path": "packs/identity/identity-eye-color-base.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "general",
+      "tags": [
+        "base"
+      ],
+      "dependencies": [],
+      "priority": 100
+    },
+    {
+      "id": "identity-eye-shape-base",
+      "library": "eye-shape",
+      "domain": "identity",
+      "path": "packs/identity/identity-eye-shape-base.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "general",
+      "tags": [
+        "base"
+      ],
+      "dependencies": [],
+      "priority": 100
+    },
+    {
+      "id": "identity-eyebrows-base",
+      "library": "eyebrows",
+      "domain": "identity",
+      "path": "packs/identity/identity-eyebrows-base.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "general",
+      "tags": [
+        "base"
+      ],
+      "dependencies": [],
+      "priority": 100
+    },
+    {
+      "id": "identity-face-shape-base",
+      "library": "face-shape",
+      "domain": "identity",
+      "path": "packs/identity/identity-face-shape-base.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "general",
+      "tags": [
+        "base"
+      ],
+      "dependencies": [],
+      "priority": 100
+    },
+    {
+      "id": "identity-facial-structure-base",
+      "library": "facial-structure",
+      "domain": "identity",
+      "path": "packs/identity/identity-facial-structure-base.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "general",
+      "tags": [
+        "base"
+      ],
+      "dependencies": [],
+      "priority": 100
+    },
+    {
+      "id": "identity-mouth-base",
+      "library": "mouth",
+      "domain": "identity",
+      "path": "packs/identity/identity-mouth-base.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "general",
+      "tags": [
+        "base"
+      ],
+      "dependencies": [],
+      "priority": 100
+    },
+    {
+      "id": "identity-nose-base",
+      "library": "nose",
+      "domain": "identity",
+      "path": "packs/identity/identity-nose-base.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "general",
+      "tags": [
+        "base"
+      ],
+      "dependencies": [],
+      "priority": 100
+    },
+    {
+      "id": "identity-skin-details-base",
+      "library": "skin-details",
+      "domain": "identity",
+      "path": "packs/identity/identity-skin-details-base.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "general",
+      "tags": [
+        "base"
+      ],
+      "dependencies": [],
+      "priority": 100
+    },
+    {
+      "id": "identity-skin-texture-base",
+      "library": "skin-texture",
+      "domain": "identity",
+      "path": "packs/identity/identity-skin-texture-base.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "general",
+      "tags": [
+        "base"
+      ],
+      "dependencies": [],
+      "priority": 100
+    },
+    {
+      "id": "identity-skin-tone-base",
+      "library": "skin-tone",
+      "domain": "identity",
+      "path": "packs/identity/identity-skin-tone-base.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "general",
+      "tags": [
+        "base"
+      ],
+      "dependencies": [],
+      "priority": 100
+    },
+    {
+      "id": "identity-subject-type-base",
+      "library": "subject-type",
+      "domain": "identity",
+      "path": "packs/identity/identity-subject-type-base.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "general",
+      "tags": [
+        "adults-only",
+        "base"
+      ],
+      "dependencies": [],
+      "priority": 100
+    },
+    {
+      "id": "negative-anatomy",
+      "library": "negative-anatomy",
+      "domain": "negative",
+      "path": "packs/negative/negative-anatomy.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "general",
+      "tags": [
+        "anatomy",
+        "level-standard"
+      ],
+      "dependencies": [],
+      "priority": 100
+    },
+    {
+      "id": "negative-base",
+      "library": "negative-base",
+      "domain": "negative",
+      "path": "packs/negative/negative-base.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "general",
+      "tags": [
+        "base",
+        "level-minimal"
+      ],
+      "dependencies": [],
+      "priority": 100
+    },
+    {
+      "id": "negative-camera",
+      "library": "negative-camera",
+      "domain": "negative",
+      "path": "packs/negative/negative-camera.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "general",
+      "tags": [
+        "camera",
+        "level-standard"
+      ],
+      "dependencies": [],
+      "priority": 100
+    },
+    {
+      "id": "negative-context",
+      "library": "negative-context",
+      "domain": "negative",
+      "path": "packs/negative/negative-context.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "general",
+      "tags": [
+        "context",
+        "level-strict"
+      ],
+      "dependencies": [],
+      "priority": 100
+    },
+    {
+      "id": "performance-action-base",
+      "library": "action",
+      "domain": "performance",
+      "path": "packs/performance/performance-action-base.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "general",
+      "tags": [
+        "base"
+      ],
+      "dependencies": [],
+      "priority": 100
+    },
+    {
+      "id": "performance-expression-base",
+      "library": "expression",
+      "domain": "performance",
+      "path": "packs/performance/performance-expression-base.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "general",
+      "tags": [
+        "base"
+      ],
+      "dependencies": [],
+      "priority": 100
+    },
+    {
+      "id": "performance-gaze-base",
+      "library": "gaze",
+      "domain": "performance",
+      "path": "packs/performance/performance-gaze-base.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "general",
+      "tags": [
+        "base"
+      ],
+      "dependencies": [],
+      "priority": 100
+    },
+    {
+      "id": "performance-hand-pose-base",
+      "library": "hand-pose",
+      "domain": "performance",
+      "path": "packs/performance/performance-hand-pose-base.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "general",
+      "tags": [
+        "base"
+      ],
+      "dependencies": [],
+      "priority": 100
+    },
+    {
+      "id": "performance-head-position-base",
+      "library": "head-position",
+      "domain": "performance",
+      "path": "packs/performance/performance-head-position-base.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "general",
+      "tags": [
+        "base"
+      ],
+      "dependencies": [],
+      "priority": 100
+    },
+    {
+      "id": "performance-pose-base",
+      "library": "pose",
+      "domain": "performance",
+      "path": "packs/performance/performance-pose-base.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "general",
+      "tags": [
+        "base"
+      ],
+      "dependencies": [],
+      "priority": 100
+    },
+    {
+      "id": "scene-architecture-base",
+      "library": "architecture",
+      "domain": "scene",
+      "path": "packs/scene/scene-architecture-base.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "general",
+      "tags": [
+        "base"
+      ],
+      "dependencies": [],
+      "priority": 100
+    },
+    {
+      "id": "scene-atmosphere-base",
+      "library": "atmosphere",
+      "domain": "scene",
+      "path": "packs/scene/scene-atmosphere-base.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "general",
+      "tags": [
+        "base"
+      ],
+      "dependencies": [],
+      "priority": 100
+    },
+    {
+      "id": "scene-background-base",
+      "library": "background",
+      "domain": "scene",
+      "path": "packs/scene/scene-background-base.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "general",
+      "tags": [
+        "base"
+      ],
+      "dependencies": [],
+      "priority": 100
+    },
+    {
+      "id": "scene-season-base",
+      "library": "season",
+      "domain": "scene",
+      "path": "packs/scene/scene-season-base.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "general",
+      "tags": [
+        "base"
+      ],
+      "dependencies": [],
+      "priority": 100
+    },
+    {
+      "id": "scene-set-dressing-base",
+      "library": "set-dressing",
+      "domain": "scene",
+      "path": "packs/scene/scene-set-dressing-base.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "general",
+      "tags": [
+        "base"
+      ],
+      "dependencies": [],
+      "priority": 100
+    },
+    {
+      "id": "scene-time-of-day-base",
+      "library": "time-of-day",
+      "domain": "scene",
+      "path": "packs/scene/scene-time-of-day-base.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "general",
+      "tags": [
+        "base"
+      ],
+      "dependencies": [],
+      "priority": 100
+    },
+    {
+      "id": "scene-weather-base",
+      "library": "weather",
+      "domain": "scene",
+      "path": "packs/scene/scene-weather-base.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "general",
+      "tags": [
+        "base"
+      ],
+      "dependencies": [],
+      "priority": 100
+    },
+    {
+      "id": "style-color-grading-base",
+      "library": "color-grading",
+      "domain": "style",
+      "path": "packs/style/style-color-grading-base.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "general",
+      "tags": [
+        "base"
+      ],
+      "dependencies": [],
+      "priority": 100
+    },
+    {
+      "id": "style-finish-base",
+      "library": "finish",
+      "domain": "style",
+      "path": "packs/style/style-finish-base.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "general",
+      "tags": [
+        "base"
+      ],
+      "dependencies": [],
+      "priority": 100
+    },
+    {
+      "id": "style-quality-base",
+      "library": "quality",
+      "domain": "style",
+      "path": "packs/style/style-quality-base.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "general",
+      "tags": [
+        "base"
+      ],
+      "dependencies": [],
+      "priority": 100
+    },
+    {
+      "id": "style-visual-era-base",
+      "library": "visual-era",
+      "domain": "style",
+      "path": "packs/style/style-visual-era-base.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "general",
+      "tags": [
+        "base"
+      ],
+      "dependencies": [],
+      "priority": 100
+    },
+    {
+      "id": "style-visual-medium-base",
+      "library": "visual-medium",
+      "domain": "style",
+      "path": "packs/style/style-visual-medium-base.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "general",
+      "tags": [
+        "base"
+      ],
+      "dependencies": [],
+      "priority": 100
+    },
+    {
+      "id": "wardrobe-accessories-base",
+      "library": "accessories",
+      "domain": "wardrobe",
+      "path": "packs/wardrobe/wardrobe-accessories-base.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "general",
+      "tags": [
+        "base"
+      ],
+      "dependencies": [],
+      "priority": 100
+    },
+    {
+      "id": "wardrobe-bottoms-base",
+      "library": "bottoms",
+      "domain": "wardrobe",
+      "path": "packs/wardrobe/wardrobe-bottoms-base.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "general",
+      "tags": [
+        "base"
+      ],
+      "dependencies": [],
+      "priority": 100
+    },
+    {
+      "id": "wardrobe-footwear-base",
+      "library": "footwear",
+      "domain": "wardrobe",
+      "path": "packs/wardrobe/wardrobe-footwear-base.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "general",
+      "tags": [
+        "base"
+      ],
+      "dependencies": [],
+      "priority": 100
+    },
+    {
+      "id": "wardrobe-headwear-base",
+      "library": "headwear",
+      "domain": "wardrobe",
+      "path": "packs/wardrobe/wardrobe-headwear-base.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "general",
+      "tags": [
+        "base"
+      ],
+      "dependencies": [],
+      "priority": 100
+    },
+    {
+      "id": "wardrobe-jewelry-base",
+      "library": "jewelry",
+      "domain": "wardrobe",
+      "path": "packs/wardrobe/wardrobe-jewelry-base.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "general",
+      "tags": [
+        "base"
+      ],
+      "dependencies": [],
+      "priority": 100
+    },
+    {
+      "id": "wardrobe-materials-base",
+      "library": "materials",
+      "domain": "wardrobe",
+      "path": "packs/wardrobe/wardrobe-materials-base.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "general",
+      "tags": [
+        "base"
+      ],
+      "dependencies": [],
+      "priority": 100
+    },
+    {
+      "id": "wardrobe-one-piece-base",
+      "library": "one-piece",
+      "domain": "wardrobe",
+      "path": "packs/wardrobe/wardrobe-one-piece-base.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "general",
+      "tags": [
+        "base"
+      ],
+      "dependencies": [],
+      "priority": 100
+    },
+    {
+      "id": "wardrobe-outerwear-base",
+      "library": "outerwear",
+      "domain": "wardrobe",
+      "path": "packs/wardrobe/wardrobe-outerwear-base.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "general",
+      "tags": [
+        "base"
+      ],
+      "dependencies": [],
+      "priority": 100
+    },
+    {
+      "id": "wardrobe-palette-base",
+      "library": "palette",
+      "domain": "wardrobe",
+      "path": "packs/wardrobe/wardrobe-palette-base.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "general",
+      "tags": [
+        "base"
+      ],
+      "dependencies": [],
+      "priority": 100
+    },
+    {
+      "id": "wardrobe-patterns-base",
+      "library": "patterns",
+      "domain": "wardrobe",
+      "path": "packs/wardrobe/wardrobe-patterns-base.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "general",
+      "tags": [
+        "base"
+      ],
+      "dependencies": [],
+      "priority": 100
+    },
+    {
+      "id": "wardrobe-tops-base",
+      "library": "tops",
+      "domain": "wardrobe",
+      "path": "packs/wardrobe/wardrobe-tops-base.json",
+      "version": "2.0.0",
+      "language": "en",
+      "status": "active",
+      "safety": "general",
+      "tags": [
+        "base"
+      ],
+      "dependencies": [],
+      "priority": 100
+    }
+  ],
+  "libraries": {
+    "accessories": {
+      "display_name": "Accessories",
+      "packs": [
+        "wardrobe-accessories-base"
+      ],
+      "fallback_option_id": "wardrobe-accessories-base-structured-handbag-matte-finish"
+    },
+    "action": {
+      "display_name": "Action",
+      "packs": [
+        "performance-action-base"
+      ],
+      "fallback_option_id": "performance-action-base-standing-still-resting-movement"
+    },
+    "adult-age": {
+      "display_name": "Adult Age",
+      "packs": [
+        "identity-adult-age-base"
+      ],
+      "fallback_option_id": "identity-adult-age-base-adult-in-their-twenties-softly-defined"
+    },
+    "aperture": {
+      "display_name": "Aperture",
+      "packs": [
+        "cinematography-aperture-base"
+      ],
+      "fallback_option_id": "cinematography-aperture-base-f-1-4-aperture-documentary-restraint"
+    },
+    "architecture": {
+      "display_name": "Architecture",
+      "packs": [
+        "scene-architecture-base"
+      ],
+      "fallback_option_id": "scene-architecture-base-modernist-concrete-open-spatial-layout"
+    },
+    "atmosphere": {
+      "display_name": "Atmosphere",
+      "packs": [
+        "scene-atmosphere-base"
+      ],
+      "fallback_option_id": "scene-atmosphere-base-quiet-atmosphere-clear-atmosphere"
+    },
+    "background": {
+      "display_name": "Background",
+      "packs": [
+        "scene-background-base"
+      ],
+      "fallback_option_id": "scene-background-base-plain-tonal-background-open-spatial-layout"
+    },
+    "body-build": {
+      "display_name": "Body Build",
+      "packs": [
+        "body-build-base"
+      ],
+      "fallback_option_id": "body-build-base-slender-build-softly-defined"
+    },
+    "bottoms": {
+      "display_name": "Bottoms",
+      "packs": [
+        "wardrobe-bottoms-base"
+      ],
+      "fallback_option_id": "wardrobe-bottoms-base-straight-trousers-precise-tailoring"
+    },
+    "camera-angle": {
+      "display_name": "Camera Angle",
+      "packs": [
+        "cinematography-camera-angle-base"
+      ],
+      "fallback_option_id": "cinematography-camera-angle-base-eye-level-angle-documentary-restraint"
+    },
+    "camera-motion": {
+      "display_name": "Camera Motion",
+      "packs": [
+        "cinematography-camera-motion-base"
+      ],
+      "fallback_option_id": "cinematography-camera-motion-base-locked-camera-resting-movement"
+    },
+    "color-grading": {
+      "display_name": "Color Grading",
+      "packs": [
+        "style-color-grading-base"
+      ],
+      "fallback_option_id": "style-color-grading-base-neutral-grade-muted-saturation"
+    },
+    "composition": {
+      "display_name": "Composition",
+      "packs": [
+        "cinematography-composition-base"
+      ],
+      "fallback_option_id": "cinematography-composition-base-centered-composition-documentary-restraint"
+    },
+    "distinguishing-features": {
+      "display_name": "Distinguishing Features",
+      "packs": [
+        "identity-distinguishing-features-base"
+      ],
+      "fallback_option_id": "identity-distinguishing-features-base-subtle-facial-asymmetry-softly-defined"
+    },
+    "exposure-film-look": {
+      "display_name": "Exposure Film Look",
+      "packs": [
+        "cinematography-exposure-film-look-base"
+      ],
+      "fallback_option_id": "cinematography-exposure-film-look-base-clean-digital-exposure-matte-finish"
+    },
+    "expression": {
+      "display_name": "Expression",
+      "packs": [
+        "performance-expression-base"
+      ],
+      "fallback_option_id": "performance-expression-base-calm-expression-subtle-intensity"
+    },
+    "eye-color": {
+      "display_name": "Eye Color",
+      "packs": [
+        "identity-eye-color-base"
+      ],
+      "fallback_option_id": "identity-eye-color-base-brown-neutral-undertone"
+    },
+    "eye-shape": {
+      "display_name": "Eye Shape",
+      "packs": [
+        "identity-eye-shape-base"
+      ],
+      "fallback_option_id": "identity-eye-shape-base-almond-shaped-softly-defined"
+    },
+    "eyebrows": {
+      "display_name": "Eyebrows",
+      "packs": [
+        "identity-eyebrows-base"
+      ],
+      "fallback_option_id": "identity-eyebrows-base-straight-softly-defined"
+    },
+    "face-shape": {
+      "display_name": "Face Shape",
+      "packs": [
+        "identity-face-shape-base"
+      ],
+      "fallback_option_id": "identity-face-shape-base-oval-softly-defined"
+    },
+    "facial-hair": {
+      "display_name": "Facial Hair",
+      "packs": [
+        "hair-facial-hair-base"
+      ],
+      "fallback_option_id": "hair-facial-hair-base-clean-shaven-finish-softly-defined"
+    },
+    "facial-structure": {
+      "display_name": "Facial Structure",
+      "packs": [
+        "identity-facial-structure-base"
+      ],
+      "fallback_option_id": "identity-facial-structure-base-high-cheekbone-softly-defined"
+    },
+    "finish": {
+      "display_name": "Finish",
+      "packs": [
+        "style-finish-base"
+      ],
+      "fallback_option_id": "style-finish-base-natural-finish-matte-finish"
+    },
+    "focus": {
+      "display_name": "Focus",
+      "packs": [
+        "cinematography-focus-base"
+      ],
+      "fallback_option_id": "cinematography-focus-base-eye-priority-focus-documentary-restraint"
+    },
+    "footwear": {
+      "display_name": "Footwear",
+      "packs": [
+        "wardrobe-footwear-base"
+      ],
+      "fallback_option_id": "wardrobe-footwear-base-low-profile-sneakers-precise-tailoring"
+    },
+    "gaze": {
+      "display_name": "Gaze",
+      "packs": [
+        "performance-gaze-base"
+      ],
+      "fallback_option_id": "performance-gaze-base-direct-gaze-subtle-intensity"
+    },
+    "hair-color": {
+      "display_name": "Hair Color",
+      "packs": [
+        "hair-color-base"
+      ],
+      "fallback_option_id": "hair-color-base-black-neutral-undertone"
+    },
+    "hair-length": {
+      "display_name": "Hair Length",
+      "packs": [
+        "hair-length-base"
+      ],
+      "fallback_option_id": "hair-length-base-closely-cropped-softly-defined"
+    },
+    "hair-style": {
+      "display_name": "Hair Style",
+      "packs": [
+        "hair-style-base"
+      ],
+      "fallback_option_id": "hair-style-base-loose-natural-style-precise-tailoring"
+    },
+    "hair-texture": {
+      "display_name": "Hair Texture",
+      "packs": [
+        "hair-texture-base"
+      ],
+      "fallback_option_id": "hair-texture-base-pin-straight-softly-defined"
+    },
+    "hand-pose": {
+      "display_name": "Hand Pose",
+      "packs": [
+        "performance-hand-pose-base"
+      ],
+      "fallback_option_id": "performance-hand-pose-base-hands-resting-naturally-resting-movement"
+    },
+    "head-position": {
+      "display_name": "Head Position",
+      "packs": [
+        "performance-head-position-base"
+      ],
+      "fallback_option_id": "performance-head-position-base-level-head-position-softly-defined"
+    },
+    "headwear": {
+      "display_name": "Headwear",
+      "packs": [
+        "wardrobe-headwear-base"
+      ],
+      "fallback_option_id": "wardrobe-headwear-base-wide-brim-hat-precise-tailoring"
+    },
+    "identity-archetype": {
+      "display_name": "Identity Archetype",
+      "packs": [
+        "identity-archetype-base"
+      ],
+      "fallback_option_id": "identity-archetype-base-thoughtful-researcher-subtle-intensity"
+    },
+    "jewelry": {
+      "display_name": "Jewelry",
+      "packs": [
+        "wardrobe-jewelry-base"
+      ],
+      "fallback_option_id": "wardrobe-jewelry-base-small-hoop-earrings-matte-finish"
+    },
+    "lens-focal": {
+      "display_name": "Lens Focal",
+      "packs": [
+        "cinematography-lens-focal-base"
+      ],
+      "fallback_option_id": "cinematography-lens-focal-base-24mm-wide-lens-documentary-restraint"
+    },
+    "light-direction": {
+      "display_name": "Light Direction",
+      "packs": [
+        "cinematography-light-direction-base"
+      ],
+      "fallback_option_id": "cinematography-light-direction-base-front-light-low-contrast"
+    },
+    "light-quality": {
+      "display_name": "Light Quality",
+      "packs": [
+        "cinematography-light-quality-base"
+      ],
+      "fallback_option_id": "cinematography-light-quality-base-very-soft-light-low-contrast"
+    },
+    "light-source": {
+      "display_name": "Light Source",
+      "packs": [
+        "cinematography-light-source-base"
+      ],
+      "fallback_option_id": "cinematography-light-source-base-large-softbox-low-contrast"
+    },
+    "light-temperature": {
+      "display_name": "Light Temperature",
+      "packs": [
+        "cinematography-light-temperature-base"
+      ],
+      "fallback_option_id": "cinematography-light-temperature-base-cool-blue-light-muted-saturation"
+    },
+    "lighting-setup": {
+      "display_name": "Lighting Setup",
+      "packs": [
+        "cinematography-lighting-setup-base"
+      ],
+      "fallback_option_id": "cinematography-lighting-setup-base-single-key-setup-low-contrast"
+    },
+    "location": {
+      "display_name": "Location",
+      "packs": [
+        "scene-location-dark",
+        "scene-location-fantasy",
+        "scene-location-historical",
+        "scene-location-interior",
+        "scene-location-nature",
+        "scene-location-studio",
+        "scene-location-urban"
+      ],
+      "fallback_option_id": "scene-location-studio-neutral-portrait-studio-open-spatial-layout"
+    },
+    "materials": {
+      "display_name": "Materials",
+      "packs": [
+        "wardrobe-materials-base"
+      ],
+      "fallback_option_id": "wardrobe-materials-base-cotton-matte-finish"
+    },
+    "mouth": {
+      "display_name": "Mouth",
+      "packs": [
+        "identity-mouth-base"
+      ],
+      "fallback_option_id": "identity-mouth-base-full-upper-lip-softly-defined"
+    },
+    "negative-anatomy": {
+      "display_name": "Negative Anatomy",
+      "packs": [
+        "negative-anatomy"
+      ],
+      "fallback_option_id": "negative-anatomy-malformed-hands-minor-occurrence"
+    },
+    "negative-base": {
+      "display_name": "Negative Base",
+      "packs": [
+        "negative-base"
+      ],
+      "fallback_option_id": "negative-base-low-resolution-artifacts-minor-occurrence"
+    },
+    "negative-camera": {
+      "display_name": "Negative Camera",
+      "packs": [
+        "negative-camera"
+      ],
+      "fallback_option_id": "negative-camera-accidental-motion-blur-minor-occurrence"
+    },
+    "negative-context": {
+      "display_name": "Negative Context",
+      "packs": [
+        "negative-context"
+      ],
+      "fallback_option_id": "negative-context-era-inconsistent-objects-minor-occurrence"
+    },
+    "nose": {
+      "display_name": "Nose",
+      "packs": [
+        "identity-nose-base"
+      ],
+      "fallback_option_id": "identity-nose-base-straight-bridge-softly-defined"
+    },
+    "one-piece": {
+      "display_name": "One Piece",
+      "packs": [
+        "wardrobe-one-piece-base",
+        "wardrobe-one-piece-mature-fashion"
+      ],
+      "fallback_option_id": "wardrobe-one-piece-base-shirt-dress-precise-tailoring"
+    },
+    "outerwear": {
+      "display_name": "Outerwear",
+      "packs": [
+        "wardrobe-outerwear-base"
+      ],
+      "fallback_option_id": "wardrobe-outerwear-base-single-breasted-coat-precise-tailoring"
+    },
+    "palette": {
+      "display_name": "Palette",
+      "packs": [
+        "wardrobe-palette-base"
+      ],
+      "fallback_option_id": "wardrobe-palette-base-earth-neutral-muted-saturation"
+    },
+    "patterns": {
+      "display_name": "Patterns",
+      "packs": [
+        "wardrobe-patterns-base"
+      ],
+      "fallback_option_id": "wardrobe-patterns-base-solid-field-delicate-scale"
+    },
+    "photo-genre": {
+      "display_name": "Photo Genre",
+      "packs": [
+        "style-photo-genre-art",
+        "style-photo-genre-base"
+      ],
+      "fallback_option_id": "style-photo-genre-base-contemporary-portrait-documentary-restraint"
+    },
+    "pose": {
+      "display_name": "Pose",
+      "packs": [
+        "performance-pose-base"
+      ],
+      "fallback_option_id": "performance-pose-base-relaxed-standing-pose-resting-movement"
+    },
+    "quality": {
+      "display_name": "Quality",
+      "packs": [
+        "style-quality-base"
+      ],
+      "fallback_option_id": "style-quality-base-clear-subject-detail-matte-finish"
+    },
+    "season": {
+      "display_name": "Season",
+      "packs": [
+        "scene-season-base"
+      ],
+      "fallback_option_id": "scene-season-base-early-spring-clear-atmosphere"
+    },
+    "set-dressing": {
+      "display_name": "Set Dressing",
+      "packs": [
+        "scene-set-dressing-base"
+      ],
+      "fallback_option_id": "scene-set-dressing-base-minimal-furniture-open-spatial-layout"
+    },
+    "shot-size": {
+      "display_name": "Shot Size",
+      "packs": [
+        "cinematography-shot-size-base"
+      ],
+      "fallback_option_id": "cinematography-shot-size-base-extreme-close-up-documentary-restraint"
+    },
+    "skin-details": {
+      "display_name": "Skin Details",
+      "packs": [
+        "identity-skin-details-base"
+      ],
+      "fallback_option_id": "identity-skin-details-base-light-freckles-delicate-scale"
+    },
+    "skin-texture": {
+      "display_name": "Skin Texture",
+      "packs": [
+        "identity-skin-texture-base"
+      ],
+      "fallback_option_id": "identity-skin-texture-base-smooth-matte-finish"
+    },
+    "skin-tone": {
+      "display_name": "Skin Tone",
+      "packs": [
+        "identity-skin-tone-base"
+      ],
+      "fallback_option_id": "identity-skin-tone-base-very-deep-neutral-undertone"
+    },
+    "subject-type": {
+      "display_name": "Subject Type",
+      "packs": [
+        "identity-subject-type-base"
+      ],
+      "fallback_option_id": "identity-subject-type-base-adult-person-subtle-intensity"
+    },
+    "time-of-day": {
+      "display_name": "Time Of Day",
+      "packs": [
+        "scene-time-of-day-base"
+      ],
+      "fallback_option_id": "scene-time-of-day-base-pre-dawn-low-contrast"
+    },
+    "tops": {
+      "display_name": "Tops",
+      "packs": [
+        "wardrobe-tops-base"
+      ],
+      "fallback_option_id": "wardrobe-tops-base-button-front-shirt-precise-tailoring"
+    },
+    "visual-era": {
+      "display_name": "Visual Era",
+      "packs": [
+        "style-visual-era-base"
+      ],
+      "fallback_option_id": "style-visual-era-base-contemporary-visual-language-faithful-period-detail"
+    },
+    "visual-medium": {
+      "display_name": "Visual Medium",
+      "packs": [
+        "style-visual-medium-base"
+      ],
+      "fallback_option_id": "style-visual-medium-base-natural-digital-photograph-matte-finish"
+    },
+    "wardrobe-theme": {
+      "display_name": "Wardrobe Theme",
+      "packs": [
+        "wardrobe-theme-contemporary",
+        "wardrobe-theme-dark",
+        "wardrobe-theme-editorial",
+        "wardrobe-theme-fantasy",
+        "wardrobe-theme-historical"
+      ],
+      "fallback_option_id": "wardrobe-theme-contemporary-contemporary-casual-precise-tailoring"
+    },
+    "weather": {
+      "display_name": "Weather",
+      "packs": [
+        "scene-weather-base"
+      ],
+      "fallback_option_id": "scene-weather-base-clear-weather-clear-atmosphere"
+    }
+  }
+}

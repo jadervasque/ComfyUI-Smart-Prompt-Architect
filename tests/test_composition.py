@@ -116,6 +116,20 @@ class CompositionTests(unittest.TestCase):
             second.manifest.configuration_hash,
         )
 
+    def test_custom_text_is_rendered_and_recorded_in_manifest(self) -> None:
+        text = "A precise custom adult subject description"
+        configuration = replace(
+            _configuration(),
+            schema_version="1.1",
+            fields={"subject": FieldConfiguration(FieldMode.CUSTOM, text)},
+        )
+        result = compose_prompt(_profile(), _libraries(), configuration)
+        data = json.loads(result.manifest_json)
+        self.assertIn(text, result.rendered.positive)
+        self.assertEqual(data["selections"]["subject"]["option_id"], "custom")
+        self.assertEqual(data["selections"]["subject"]["raw_text"], text)
+        self.assertEqual(data["selections"]["subject"]["source"], "custom")
+
     def test_summary_has_diagnostics_without_prompt_text(self) -> None:
         result = compose_prompt(_profile(), _libraries(), _configuration())
         self.assertIn("Profile portrait@1.0.0", result.summary)

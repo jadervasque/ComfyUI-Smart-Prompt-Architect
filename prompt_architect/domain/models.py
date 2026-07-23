@@ -13,6 +13,8 @@ from prompt_architect.domain.enums import (
     SelectionSource,
 )
 
+MAX_CUSTOM_TEXT_CHARACTERS = 4096
+
 
 @dataclass(frozen=True, slots=True)
 class RuleCondition:
@@ -40,6 +42,7 @@ class TextVariant:
 
     text: str
     weight: float = 1.0
+    id: str | None = None
 
 
 @dataclass(frozen=True, slots=True)
@@ -56,6 +59,14 @@ class PromptOption:
     sentence: str | None = None
     variants: tuple[TextVariant, ...] = ()
     join_hint: str | None = None
+    family: str | None = None
+    facets: Mapping[str, str] = field(default_factory=dict)
+    pack_id: str | None = None
+    domain: str | None = None
+    category: str | None = None
+    subcategory: str | None = None
+    intensity: str | None = None
+    safety: str = "general"
 
 
 @dataclass(frozen=True, slots=True)
@@ -89,6 +100,11 @@ class ProfileDefinition:
     profile_fallbacks: Mapping[str, str] = field(default_factory=dict)
     allow_empty_negative: bool = True
     metadata: Mapping[str, object] = field(default_factory=dict)
+    catalog_version: str | None = None
+    enabled_packs: tuple[str, ...] = ()
+    allowed_safety_classes: tuple[str, ...] = ("general",)
+    verbosity: str = "standard"
+    negative_level: str = "standard"
 
 
 @dataclass(frozen=True, slots=True)
@@ -101,6 +117,8 @@ class LibraryDefinition:
     display_name: str
     options: tuple[PromptOption, ...]
     fallback_option_id: str | None = None
+    catalog_version: str | None = None
+    pack_versions: Mapping[str, str] = field(default_factory=dict)
 
     def option_by_id(self, option_id: str) -> PromptOption | None:
         """Return an option by stable ID without exposing mutable indexes."""
@@ -108,8 +126,65 @@ class LibraryDefinition:
 
 
 @dataclass(frozen=True, slots=True)
+class CatalogPackReference:
+    """Trusted catalog-index metadata for one immutable JSON pack."""
+
+    id: str
+    library: str
+    domain: str
+    path: str
+    version: str
+    language: str
+    status: str
+    safety: str
+    tags: tuple[str, ...] = ()
+    dependencies: tuple[str, ...] = ()
+    priority: int = 100
+
+
+@dataclass(frozen=True, slots=True)
+class LogicalLibraryDefinition:
+    """A logical library composed from one or more ordered catalog packs."""
+
+    id: str
+    display_name: str
+    pack_ids: tuple[str, ...]
+    fallback_option_id: str | None = None
+
+
+@dataclass(frozen=True, slots=True)
+class CatalogIndexDefinition:
+    """Versioned manifest describing every official pack and logical library."""
+
+    schema_version: str
+    id: str
+    version: str
+    language: str
+    packs: tuple[CatalogPackReference, ...]
+    libraries: Mapping[str, LogicalLibraryDefinition]
+
+
+@dataclass(frozen=True, slots=True)
+class CatalogPackDefinition:
+    """Parsed pack with atomic options and controlled metadata."""
+
+    schema_version: str
+    id: str
+    version: str
+    library: str
+    domain: str
+    category: str
+    language: str
+    status: str
+    safety: str
+    tags: tuple[str, ...]
+    options: tuple[PromptOption, ...]
+    fallback_option_id: str | None = None
+
+
+@dataclass(frozen=True, slots=True)
 class FieldConfiguration:
-    """Per-field mode, fixed value, and optional tag filters."""
+    """Per-field mode, fixed option ID or custom text, and optional tag filters."""
 
     mode: FieldMode
     value: str | None = None
@@ -214,6 +289,8 @@ class PromptManifest:
     warnings: tuple[str, ...]
     positive_prompt: str
     negative_prompt: str
+    catalog_version: str | None = None
+    pack_versions: Mapping[str, str] = field(default_factory=dict)
 
 
 @dataclass(frozen=True, slots=True)

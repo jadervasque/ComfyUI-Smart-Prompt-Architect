@@ -1,0 +1,2577 @@
+{
+  "schema_version": "2.0",
+  "id": "style-color-grading-base",
+  "version": "2.0.0",
+  "library": "color-grading",
+  "domain": "style",
+  "category": "color-grading",
+  "language": "en",
+  "status": "active",
+  "safety": "general",
+  "tags": [
+    "base"
+  ],
+  "fallback_option_id": "style-color-grading-base-neutral-grade-muted-saturation",
+  "options": [
+    {
+      "id": "style-color-grading-base-neutral-grade-muted-saturation",
+      "semantic_key": "style-color-grading-base-neutral-grade-muted-saturation",
+      "text": "neutral grade with muted saturation",
+      "sentence": "Neutral grade with muted saturation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "neutral grade with muted saturation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing neutral grade with muted saturation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with neutral grade with muted saturation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-color-grading-base-neutral-grade",
+      "tags": [
+        "base",
+        "color-grading",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "grade": "neutral-grade",
+        "treatment": "muted-saturation"
+      },
+      "subcategory": "neutral-grade",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-color-grading-base-neutral-grade-balanced-saturation",
+      "semantic_key": "style-color-grading-base-neutral-grade-balanced-saturation",
+      "text": "neutral grade with balanced saturation",
+      "sentence": "Neutral grade with balanced saturation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "neutral grade with balanced saturation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing neutral grade with balanced saturation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with neutral grade with balanced saturation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-color-grading-base-neutral-grade",
+      "tags": [
+        "base",
+        "color-grading",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "grade": "neutral-grade",
+        "treatment": "balanced-saturation"
+      },
+      "subcategory": "neutral-grade",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-color-grading-base-neutral-grade-rich-saturation",
+      "semantic_key": "style-color-grading-base-neutral-grade-rich-saturation",
+      "text": "neutral grade with rich saturation",
+      "sentence": "Neutral grade with rich saturation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "neutral grade with rich saturation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing neutral grade with rich saturation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with neutral grade with rich saturation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-color-grading-base-neutral-grade",
+      "tags": [
+        "base",
+        "color-grading",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "grade": "neutral-grade",
+        "treatment": "rich-saturation"
+      },
+      "subcategory": "neutral-grade",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-color-grading-base-neutral-grade-pale-value-range",
+      "semantic_key": "style-color-grading-base-neutral-grade-pale-value-range",
+      "text": "neutral grade with pale value range",
+      "sentence": "Neutral grade with pale value range.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "neutral grade with pale value range",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing neutral grade with pale value range",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with neutral grade with pale value range",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-color-grading-base-neutral-grade",
+      "tags": [
+        "base",
+        "color-grading",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "grade": "neutral-grade",
+        "treatment": "pale-value-range"
+      },
+      "subcategory": "neutral-grade",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-color-grading-base-neutral-grade-deep-value-range",
+      "semantic_key": "style-color-grading-base-neutral-grade-deep-value-range",
+      "text": "neutral grade with deep value range",
+      "sentence": "Neutral grade with deep value range.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "neutral grade with deep value range",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing neutral grade with deep value range",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with neutral grade with deep value range",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "style-color-grading-base-neutral-grade",
+      "tags": [
+        "base",
+        "color-grading",
+        "rarity-uncommon",
+        "style"
+      ],
+      "facets": {
+        "grade": "neutral-grade",
+        "treatment": "deep-value-range"
+      },
+      "subcategory": "neutral-grade",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-color-grading-base-neutral-grade-warm-color-bias",
+      "semantic_key": "style-color-grading-base-neutral-grade-warm-color-bias",
+      "text": "neutral grade with warm color bias",
+      "sentence": "Neutral grade with warm color bias.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "neutral grade with warm color bias",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing neutral grade with warm color bias",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with neutral grade with warm color bias",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "style-color-grading-base-neutral-grade",
+      "tags": [
+        "base",
+        "color-grading",
+        "rarity-uncommon",
+        "style"
+      ],
+      "facets": {
+        "grade": "neutral-grade",
+        "treatment": "warm-color-bias"
+      },
+      "subcategory": "neutral-grade",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-color-grading-base-neutral-grade-cool-color-bias",
+      "semantic_key": "style-color-grading-base-neutral-grade-cool-color-bias",
+      "text": "neutral grade with cool color bias",
+      "sentence": "Neutral grade with cool color bias.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "neutral grade with cool color bias",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing neutral grade with cool color bias",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with neutral grade with cool color bias",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "style-color-grading-base-neutral-grade",
+      "tags": [
+        "base",
+        "color-grading",
+        "rarity-rare",
+        "style"
+      ],
+      "facets": {
+        "grade": "neutral-grade",
+        "treatment": "cool-color-bias"
+      },
+      "subcategory": "neutral-grade",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-color-grading-base-neutral-grade-neutral-color-balance",
+      "semantic_key": "style-color-grading-base-neutral-grade-neutral-color-balance",
+      "text": "neutral grade with neutral color balance",
+      "sentence": "Neutral grade with neutral color balance.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "neutral grade with neutral color balance",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing neutral grade with neutral color balance",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with neutral grade with neutral color balance",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "style-color-grading-base-neutral-grade",
+      "tags": [
+        "base",
+        "color-grading",
+        "rarity-rare",
+        "style"
+      ],
+      "facets": {
+        "grade": "neutral-grade",
+        "treatment": "neutral-color-balance"
+      },
+      "subcategory": "neutral-grade",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-color-grading-base-warm-skin-focused-grade-muted-saturation",
+      "semantic_key": "style-color-grading-base-warm-skin-focused-grade-muted-saturation",
+      "text": "warm skin-focused grade with muted saturation",
+      "sentence": "Warm skin-focused grade with muted saturation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "warm skin-focused grade with muted saturation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing warm skin-focused grade with muted saturation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with warm skin-focused grade with muted saturation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-color-grading-base-warm-skin-focused-grade",
+      "tags": [
+        "base",
+        "color-grading",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "grade": "warm-skin-focused-grade",
+        "treatment": "muted-saturation"
+      },
+      "subcategory": "warm-skin-focused-grade",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-color-grading-base-warm-skin-focused-grade-balanced-saturation",
+      "semantic_key": "style-color-grading-base-warm-skin-focused-grade-balanced-saturation",
+      "text": "warm skin-focused grade with balanced saturation",
+      "sentence": "Warm skin-focused grade with balanced saturation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "warm skin-focused grade with balanced saturation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing warm skin-focused grade with balanced saturation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with warm skin-focused grade with balanced saturation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-color-grading-base-warm-skin-focused-grade",
+      "tags": [
+        "base",
+        "color-grading",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "grade": "warm-skin-focused-grade",
+        "treatment": "balanced-saturation"
+      },
+      "subcategory": "warm-skin-focused-grade",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-color-grading-base-warm-skin-focused-grade-rich-saturation",
+      "semantic_key": "style-color-grading-base-warm-skin-focused-grade-rich-saturation",
+      "text": "warm skin-focused grade with rich saturation",
+      "sentence": "Warm skin-focused grade with rich saturation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "warm skin-focused grade with rich saturation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing warm skin-focused grade with rich saturation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with warm skin-focused grade with rich saturation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-color-grading-base-warm-skin-focused-grade",
+      "tags": [
+        "base",
+        "color-grading",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "grade": "warm-skin-focused-grade",
+        "treatment": "rich-saturation"
+      },
+      "subcategory": "warm-skin-focused-grade",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-color-grading-base-warm-skin-focused-grade-pale-value-range",
+      "semantic_key": "style-color-grading-base-warm-skin-focused-grade-pale-value-range",
+      "text": "warm skin-focused grade with pale value range",
+      "sentence": "Warm skin-focused grade with pale value range.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "warm skin-focused grade with pale value range",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing warm skin-focused grade with pale value range",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with warm skin-focused grade with pale value range",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-color-grading-base-warm-skin-focused-grade",
+      "tags": [
+        "base",
+        "color-grading",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "grade": "warm-skin-focused-grade",
+        "treatment": "pale-value-range"
+      },
+      "subcategory": "warm-skin-focused-grade",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-color-grading-base-warm-skin-focused-grade-deep-value-range",
+      "semantic_key": "style-color-grading-base-warm-skin-focused-grade-deep-value-range",
+      "text": "warm skin-focused grade with deep value range",
+      "sentence": "Warm skin-focused grade with deep value range.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "warm skin-focused grade with deep value range",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing warm skin-focused grade with deep value range",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with warm skin-focused grade with deep value range",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "style-color-grading-base-warm-skin-focused-grade",
+      "tags": [
+        "base",
+        "color-grading",
+        "rarity-uncommon",
+        "style"
+      ],
+      "facets": {
+        "grade": "warm-skin-focused-grade",
+        "treatment": "deep-value-range"
+      },
+      "subcategory": "warm-skin-focused-grade",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-color-grading-base-warm-skin-focused-grade-warm-color-bias",
+      "semantic_key": "style-color-grading-base-warm-skin-focused-grade-warm-color-bias",
+      "text": "warm skin-focused grade with warm color bias",
+      "sentence": "Warm skin-focused grade with warm color bias.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "warm skin-focused grade with warm color bias",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing warm skin-focused grade with warm color bias",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with warm skin-focused grade with warm color bias",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "style-color-grading-base-warm-skin-focused-grade",
+      "tags": [
+        "base",
+        "color-grading",
+        "rarity-uncommon",
+        "style"
+      ],
+      "facets": {
+        "grade": "warm-skin-focused-grade",
+        "treatment": "warm-color-bias"
+      },
+      "subcategory": "warm-skin-focused-grade",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-color-grading-base-warm-skin-focused-grade-cool-color-bias",
+      "semantic_key": "style-color-grading-base-warm-skin-focused-grade-cool-color-bias",
+      "text": "warm skin-focused grade with cool color bias",
+      "sentence": "Warm skin-focused grade with cool color bias.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "warm skin-focused grade with cool color bias",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing warm skin-focused grade with cool color bias",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with warm skin-focused grade with cool color bias",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "style-color-grading-base-warm-skin-focused-grade",
+      "tags": [
+        "base",
+        "color-grading",
+        "rarity-rare",
+        "style"
+      ],
+      "facets": {
+        "grade": "warm-skin-focused-grade",
+        "treatment": "cool-color-bias"
+      },
+      "subcategory": "warm-skin-focused-grade",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-color-grading-base-warm-skin-focused-grade-neutral-color-balance",
+      "semantic_key": "style-color-grading-base-warm-skin-focused-grade-neutral-color-balance",
+      "text": "warm skin-focused grade with neutral color balance",
+      "sentence": "Warm skin-focused grade with neutral color balance.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "warm skin-focused grade with neutral color balance",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing warm skin-focused grade with neutral color balance",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with warm skin-focused grade with neutral color balance",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "style-color-grading-base-warm-skin-focused-grade",
+      "tags": [
+        "base",
+        "color-grading",
+        "rarity-rare",
+        "style"
+      ],
+      "facets": {
+        "grade": "warm-skin-focused-grade",
+        "treatment": "neutral-color-balance"
+      },
+      "subcategory": "warm-skin-focused-grade",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-color-grading-base-cool-architectural-grade-muted-saturation",
+      "semantic_key": "style-color-grading-base-cool-architectural-grade-muted-saturation",
+      "text": "cool architectural grade with muted saturation",
+      "sentence": "Cool architectural grade with muted saturation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "cool architectural grade with muted saturation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing cool architectural grade with muted saturation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with cool architectural grade with muted saturation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-color-grading-base-cool-architectural-grade",
+      "tags": [
+        "base",
+        "color-grading",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "grade": "cool-architectural-grade",
+        "treatment": "muted-saturation"
+      },
+      "subcategory": "cool-architectural-grade",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-color-grading-base-cool-architectural-grade-balanced-saturation",
+      "semantic_key": "style-color-grading-base-cool-architectural-grade-balanced-saturation",
+      "text": "cool architectural grade with balanced saturation",
+      "sentence": "Cool architectural grade with balanced saturation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "cool architectural grade with balanced saturation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing cool architectural grade with balanced saturation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with cool architectural grade with balanced saturation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-color-grading-base-cool-architectural-grade",
+      "tags": [
+        "base",
+        "color-grading",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "grade": "cool-architectural-grade",
+        "treatment": "balanced-saturation"
+      },
+      "subcategory": "cool-architectural-grade",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-color-grading-base-cool-architectural-grade-rich-saturation",
+      "semantic_key": "style-color-grading-base-cool-architectural-grade-rich-saturation",
+      "text": "cool architectural grade with rich saturation",
+      "sentence": "Cool architectural grade with rich saturation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "cool architectural grade with rich saturation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing cool architectural grade with rich saturation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with cool architectural grade with rich saturation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-color-grading-base-cool-architectural-grade",
+      "tags": [
+        "base",
+        "color-grading",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "grade": "cool-architectural-grade",
+        "treatment": "rich-saturation"
+      },
+      "subcategory": "cool-architectural-grade",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-color-grading-base-cool-architectural-grade-pale-value-range",
+      "semantic_key": "style-color-grading-base-cool-architectural-grade-pale-value-range",
+      "text": "cool architectural grade with pale value range",
+      "sentence": "Cool architectural grade with pale value range.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "cool architectural grade with pale value range",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing cool architectural grade with pale value range",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with cool architectural grade with pale value range",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-color-grading-base-cool-architectural-grade",
+      "tags": [
+        "base",
+        "color-grading",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "grade": "cool-architectural-grade",
+        "treatment": "pale-value-range"
+      },
+      "subcategory": "cool-architectural-grade",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-color-grading-base-cool-architectural-grade-deep-value-range",
+      "semantic_key": "style-color-grading-base-cool-architectural-grade-deep-value-range",
+      "text": "cool architectural grade with deep value range",
+      "sentence": "Cool architectural grade with deep value range.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "cool architectural grade with deep value range",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing cool architectural grade with deep value range",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with cool architectural grade with deep value range",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "style-color-grading-base-cool-architectural-grade",
+      "tags": [
+        "base",
+        "color-grading",
+        "rarity-uncommon",
+        "style"
+      ],
+      "facets": {
+        "grade": "cool-architectural-grade",
+        "treatment": "deep-value-range"
+      },
+      "subcategory": "cool-architectural-grade",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-color-grading-base-cool-architectural-grade-warm-color-bias",
+      "semantic_key": "style-color-grading-base-cool-architectural-grade-warm-color-bias",
+      "text": "cool architectural grade with warm color bias",
+      "sentence": "Cool architectural grade with warm color bias.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "cool architectural grade with warm color bias",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing cool architectural grade with warm color bias",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with cool architectural grade with warm color bias",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "style-color-grading-base-cool-architectural-grade",
+      "tags": [
+        "base",
+        "color-grading",
+        "rarity-uncommon",
+        "style"
+      ],
+      "facets": {
+        "grade": "cool-architectural-grade",
+        "treatment": "warm-color-bias"
+      },
+      "subcategory": "cool-architectural-grade",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-color-grading-base-cool-architectural-grade-cool-color-bias",
+      "semantic_key": "style-color-grading-base-cool-architectural-grade-cool-color-bias",
+      "text": "cool architectural grade with cool color bias",
+      "sentence": "Cool architectural grade with cool color bias.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "cool architectural grade with cool color bias",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing cool architectural grade with cool color bias",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with cool architectural grade with cool color bias",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "style-color-grading-base-cool-architectural-grade",
+      "tags": [
+        "base",
+        "color-grading",
+        "rarity-rare",
+        "style"
+      ],
+      "facets": {
+        "grade": "cool-architectural-grade",
+        "treatment": "cool-color-bias"
+      },
+      "subcategory": "cool-architectural-grade",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-color-grading-base-cool-architectural-grade-neutral-color-balance",
+      "semantic_key": "style-color-grading-base-cool-architectural-grade-neutral-color-balance",
+      "text": "cool architectural grade with neutral color balance",
+      "sentence": "Cool architectural grade with neutral color balance.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "cool architectural grade with neutral color balance",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing cool architectural grade with neutral color balance",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with cool architectural grade with neutral color balance",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "style-color-grading-base-cool-architectural-grade",
+      "tags": [
+        "base",
+        "color-grading",
+        "rarity-rare",
+        "style"
+      ],
+      "facets": {
+        "grade": "cool-architectural-grade",
+        "treatment": "neutral-color-balance"
+      },
+      "subcategory": "cool-architectural-grade",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-color-grading-base-muted-editorial-grade-muted-saturation",
+      "semantic_key": "style-color-grading-base-muted-editorial-grade-muted-saturation",
+      "text": "muted editorial grade with muted saturation",
+      "sentence": "Muted editorial grade with muted saturation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "muted editorial grade with muted saturation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing muted editorial grade with muted saturation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with muted editorial grade with muted saturation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-color-grading-base-muted-editorial-grade",
+      "tags": [
+        "base",
+        "color-grading",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "grade": "muted-editorial-grade",
+        "treatment": "muted-saturation"
+      },
+      "subcategory": "muted-editorial-grade",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-color-grading-base-muted-editorial-grade-balanced-saturation",
+      "semantic_key": "style-color-grading-base-muted-editorial-grade-balanced-saturation",
+      "text": "muted editorial grade with balanced saturation",
+      "sentence": "Muted editorial grade with balanced saturation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "muted editorial grade with balanced saturation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing muted editorial grade with balanced saturation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with muted editorial grade with balanced saturation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-color-grading-base-muted-editorial-grade",
+      "tags": [
+        "base",
+        "color-grading",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "grade": "muted-editorial-grade",
+        "treatment": "balanced-saturation"
+      },
+      "subcategory": "muted-editorial-grade",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-color-grading-base-muted-editorial-grade-rich-saturation",
+      "semantic_key": "style-color-grading-base-muted-editorial-grade-rich-saturation",
+      "text": "muted editorial grade with rich saturation",
+      "sentence": "Muted editorial grade with rich saturation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "muted editorial grade with rich saturation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing muted editorial grade with rich saturation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with muted editorial grade with rich saturation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-color-grading-base-muted-editorial-grade",
+      "tags": [
+        "base",
+        "color-grading",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "grade": "muted-editorial-grade",
+        "treatment": "rich-saturation"
+      },
+      "subcategory": "muted-editorial-grade",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-color-grading-base-muted-editorial-grade-pale-value-range",
+      "semantic_key": "style-color-grading-base-muted-editorial-grade-pale-value-range",
+      "text": "muted editorial grade with pale value range",
+      "sentence": "Muted editorial grade with pale value range.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "muted editorial grade with pale value range",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing muted editorial grade with pale value range",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with muted editorial grade with pale value range",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-color-grading-base-muted-editorial-grade",
+      "tags": [
+        "base",
+        "color-grading",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "grade": "muted-editorial-grade",
+        "treatment": "pale-value-range"
+      },
+      "subcategory": "muted-editorial-grade",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-color-grading-base-muted-editorial-grade-deep-value-range",
+      "semantic_key": "style-color-grading-base-muted-editorial-grade-deep-value-range",
+      "text": "muted editorial grade with deep value range",
+      "sentence": "Muted editorial grade with deep value range.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "muted editorial grade with deep value range",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing muted editorial grade with deep value range",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with muted editorial grade with deep value range",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "style-color-grading-base-muted-editorial-grade",
+      "tags": [
+        "base",
+        "color-grading",
+        "rarity-uncommon",
+        "style"
+      ],
+      "facets": {
+        "grade": "muted-editorial-grade",
+        "treatment": "deep-value-range"
+      },
+      "subcategory": "muted-editorial-grade",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-color-grading-base-muted-editorial-grade-warm-color-bias",
+      "semantic_key": "style-color-grading-base-muted-editorial-grade-warm-color-bias",
+      "text": "muted editorial grade with warm color bias",
+      "sentence": "Muted editorial grade with warm color bias.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "muted editorial grade with warm color bias",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing muted editorial grade with warm color bias",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with muted editorial grade with warm color bias",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "style-color-grading-base-muted-editorial-grade",
+      "tags": [
+        "base",
+        "color-grading",
+        "rarity-uncommon",
+        "style"
+      ],
+      "facets": {
+        "grade": "muted-editorial-grade",
+        "treatment": "warm-color-bias"
+      },
+      "subcategory": "muted-editorial-grade",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-color-grading-base-muted-editorial-grade-cool-color-bias",
+      "semantic_key": "style-color-grading-base-muted-editorial-grade-cool-color-bias",
+      "text": "muted editorial grade with cool color bias",
+      "sentence": "Muted editorial grade with cool color bias.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "muted editorial grade with cool color bias",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing muted editorial grade with cool color bias",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with muted editorial grade with cool color bias",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "style-color-grading-base-muted-editorial-grade",
+      "tags": [
+        "base",
+        "color-grading",
+        "rarity-rare",
+        "style"
+      ],
+      "facets": {
+        "grade": "muted-editorial-grade",
+        "treatment": "cool-color-bias"
+      },
+      "subcategory": "muted-editorial-grade",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-color-grading-base-muted-editorial-grade-neutral-color-balance",
+      "semantic_key": "style-color-grading-base-muted-editorial-grade-neutral-color-balance",
+      "text": "muted editorial grade with neutral color balance",
+      "sentence": "Muted editorial grade with neutral color balance.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "muted editorial grade with neutral color balance",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing muted editorial grade with neutral color balance",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with muted editorial grade with neutral color balance",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "style-color-grading-base-muted-editorial-grade",
+      "tags": [
+        "base",
+        "color-grading",
+        "rarity-rare",
+        "style"
+      ],
+      "facets": {
+        "grade": "muted-editorial-grade",
+        "treatment": "neutral-color-balance"
+      },
+      "subcategory": "muted-editorial-grade",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-color-grading-base-rich-cinematic-grade-muted-saturation",
+      "semantic_key": "style-color-grading-base-rich-cinematic-grade-muted-saturation",
+      "text": "rich cinematic grade with muted saturation",
+      "sentence": "Rich cinematic grade with muted saturation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "rich cinematic grade with muted saturation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing rich cinematic grade with muted saturation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with rich cinematic grade with muted saturation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-color-grading-base-rich-cinematic-grade",
+      "tags": [
+        "base",
+        "color-grading",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "grade": "rich-cinematic-grade",
+        "treatment": "muted-saturation"
+      },
+      "subcategory": "rich-cinematic-grade",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-color-grading-base-rich-cinematic-grade-balanced-saturation",
+      "semantic_key": "style-color-grading-base-rich-cinematic-grade-balanced-saturation",
+      "text": "rich cinematic grade with balanced saturation",
+      "sentence": "Rich cinematic grade with balanced saturation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "rich cinematic grade with balanced saturation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing rich cinematic grade with balanced saturation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with rich cinematic grade with balanced saturation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-color-grading-base-rich-cinematic-grade",
+      "tags": [
+        "base",
+        "color-grading",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "grade": "rich-cinematic-grade",
+        "treatment": "balanced-saturation"
+      },
+      "subcategory": "rich-cinematic-grade",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-color-grading-base-rich-cinematic-grade-rich-saturation",
+      "semantic_key": "style-color-grading-base-rich-cinematic-grade-rich-saturation",
+      "text": "rich cinematic grade with rich saturation",
+      "sentence": "Rich cinematic grade with rich saturation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "rich cinematic grade with rich saturation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing rich cinematic grade with rich saturation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with rich cinematic grade with rich saturation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-color-grading-base-rich-cinematic-grade",
+      "tags": [
+        "base",
+        "color-grading",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "grade": "rich-cinematic-grade",
+        "treatment": "rich-saturation"
+      },
+      "subcategory": "rich-cinematic-grade",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-color-grading-base-rich-cinematic-grade-pale-value-range",
+      "semantic_key": "style-color-grading-base-rich-cinematic-grade-pale-value-range",
+      "text": "rich cinematic grade with pale value range",
+      "sentence": "Rich cinematic grade with pale value range.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "rich cinematic grade with pale value range",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing rich cinematic grade with pale value range",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with rich cinematic grade with pale value range",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-color-grading-base-rich-cinematic-grade",
+      "tags": [
+        "base",
+        "color-grading",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "grade": "rich-cinematic-grade",
+        "treatment": "pale-value-range"
+      },
+      "subcategory": "rich-cinematic-grade",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-color-grading-base-rich-cinematic-grade-deep-value-range",
+      "semantic_key": "style-color-grading-base-rich-cinematic-grade-deep-value-range",
+      "text": "rich cinematic grade with deep value range",
+      "sentence": "Rich cinematic grade with deep value range.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "rich cinematic grade with deep value range",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing rich cinematic grade with deep value range",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with rich cinematic grade with deep value range",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "style-color-grading-base-rich-cinematic-grade",
+      "tags": [
+        "base",
+        "color-grading",
+        "rarity-uncommon",
+        "style"
+      ],
+      "facets": {
+        "grade": "rich-cinematic-grade",
+        "treatment": "deep-value-range"
+      },
+      "subcategory": "rich-cinematic-grade",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-color-grading-base-rich-cinematic-grade-warm-color-bias",
+      "semantic_key": "style-color-grading-base-rich-cinematic-grade-warm-color-bias",
+      "text": "rich cinematic grade with warm color bias",
+      "sentence": "Rich cinematic grade with warm color bias.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "rich cinematic grade with warm color bias",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing rich cinematic grade with warm color bias",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with rich cinematic grade with warm color bias",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "style-color-grading-base-rich-cinematic-grade",
+      "tags": [
+        "base",
+        "color-grading",
+        "rarity-uncommon",
+        "style"
+      ],
+      "facets": {
+        "grade": "rich-cinematic-grade",
+        "treatment": "warm-color-bias"
+      },
+      "subcategory": "rich-cinematic-grade",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-color-grading-base-rich-cinematic-grade-cool-color-bias",
+      "semantic_key": "style-color-grading-base-rich-cinematic-grade-cool-color-bias",
+      "text": "rich cinematic grade with cool color bias",
+      "sentence": "Rich cinematic grade with cool color bias.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "rich cinematic grade with cool color bias",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing rich cinematic grade with cool color bias",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with rich cinematic grade with cool color bias",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "style-color-grading-base-rich-cinematic-grade",
+      "tags": [
+        "base",
+        "color-grading",
+        "rarity-rare",
+        "style"
+      ],
+      "facets": {
+        "grade": "rich-cinematic-grade",
+        "treatment": "cool-color-bias"
+      },
+      "subcategory": "rich-cinematic-grade",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-color-grading-base-rich-cinematic-grade-neutral-color-balance",
+      "semantic_key": "style-color-grading-base-rich-cinematic-grade-neutral-color-balance",
+      "text": "rich cinematic grade with neutral color balance",
+      "sentence": "Rich cinematic grade with neutral color balance.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "rich cinematic grade with neutral color balance",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing rich cinematic grade with neutral color balance",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with rich cinematic grade with neutral color balance",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "style-color-grading-base-rich-cinematic-grade",
+      "tags": [
+        "base",
+        "color-grading",
+        "rarity-rare",
+        "style"
+      ],
+      "facets": {
+        "grade": "rich-cinematic-grade",
+        "treatment": "neutral-color-balance"
+      },
+      "subcategory": "rich-cinematic-grade",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-color-grading-base-pastel-fashion-grade-muted-saturation",
+      "semantic_key": "style-color-grading-base-pastel-fashion-grade-muted-saturation",
+      "text": "pastel fashion grade with muted saturation",
+      "sentence": "Pastel fashion grade with muted saturation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "pastel fashion grade with muted saturation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing pastel fashion grade with muted saturation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with pastel fashion grade with muted saturation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-color-grading-base-pastel-fashion-grade",
+      "tags": [
+        "base",
+        "color-grading",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "grade": "pastel-fashion-grade",
+        "treatment": "muted-saturation"
+      },
+      "subcategory": "pastel-fashion-grade",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-color-grading-base-pastel-fashion-grade-balanced-saturation",
+      "semantic_key": "style-color-grading-base-pastel-fashion-grade-balanced-saturation",
+      "text": "pastel fashion grade with balanced saturation",
+      "sentence": "Pastel fashion grade with balanced saturation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "pastel fashion grade with balanced saturation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing pastel fashion grade with balanced saturation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with pastel fashion grade with balanced saturation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-color-grading-base-pastel-fashion-grade",
+      "tags": [
+        "base",
+        "color-grading",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "grade": "pastel-fashion-grade",
+        "treatment": "balanced-saturation"
+      },
+      "subcategory": "pastel-fashion-grade",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-color-grading-base-pastel-fashion-grade-rich-saturation",
+      "semantic_key": "style-color-grading-base-pastel-fashion-grade-rich-saturation",
+      "text": "pastel fashion grade with rich saturation",
+      "sentence": "Pastel fashion grade with rich saturation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "pastel fashion grade with rich saturation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing pastel fashion grade with rich saturation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with pastel fashion grade with rich saturation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-color-grading-base-pastel-fashion-grade",
+      "tags": [
+        "base",
+        "color-grading",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "grade": "pastel-fashion-grade",
+        "treatment": "rich-saturation"
+      },
+      "subcategory": "pastel-fashion-grade",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-color-grading-base-pastel-fashion-grade-pale-value-range",
+      "semantic_key": "style-color-grading-base-pastel-fashion-grade-pale-value-range",
+      "text": "pastel fashion grade with pale value range",
+      "sentence": "Pastel fashion grade with pale value range.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "pastel fashion grade with pale value range",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing pastel fashion grade with pale value range",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with pastel fashion grade with pale value range",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-color-grading-base-pastel-fashion-grade",
+      "tags": [
+        "base",
+        "color-grading",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "grade": "pastel-fashion-grade",
+        "treatment": "pale-value-range"
+      },
+      "subcategory": "pastel-fashion-grade",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-color-grading-base-pastel-fashion-grade-deep-value-range",
+      "semantic_key": "style-color-grading-base-pastel-fashion-grade-deep-value-range",
+      "text": "pastel fashion grade with deep value range",
+      "sentence": "Pastel fashion grade with deep value range.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "pastel fashion grade with deep value range",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing pastel fashion grade with deep value range",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with pastel fashion grade with deep value range",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "style-color-grading-base-pastel-fashion-grade",
+      "tags": [
+        "base",
+        "color-grading",
+        "rarity-uncommon",
+        "style"
+      ],
+      "facets": {
+        "grade": "pastel-fashion-grade",
+        "treatment": "deep-value-range"
+      },
+      "subcategory": "pastel-fashion-grade",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-color-grading-base-pastel-fashion-grade-warm-color-bias",
+      "semantic_key": "style-color-grading-base-pastel-fashion-grade-warm-color-bias",
+      "text": "pastel fashion grade with warm color bias",
+      "sentence": "Pastel fashion grade with warm color bias.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "pastel fashion grade with warm color bias",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing pastel fashion grade with warm color bias",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with pastel fashion grade with warm color bias",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "style-color-grading-base-pastel-fashion-grade",
+      "tags": [
+        "base",
+        "color-grading",
+        "rarity-uncommon",
+        "style"
+      ],
+      "facets": {
+        "grade": "pastel-fashion-grade",
+        "treatment": "warm-color-bias"
+      },
+      "subcategory": "pastel-fashion-grade",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-color-grading-base-pastel-fashion-grade-cool-color-bias",
+      "semantic_key": "style-color-grading-base-pastel-fashion-grade-cool-color-bias",
+      "text": "pastel fashion grade with cool color bias",
+      "sentence": "Pastel fashion grade with cool color bias.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "pastel fashion grade with cool color bias",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing pastel fashion grade with cool color bias",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with pastel fashion grade with cool color bias",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "style-color-grading-base-pastel-fashion-grade",
+      "tags": [
+        "base",
+        "color-grading",
+        "rarity-rare",
+        "style"
+      ],
+      "facets": {
+        "grade": "pastel-fashion-grade",
+        "treatment": "cool-color-bias"
+      },
+      "subcategory": "pastel-fashion-grade",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-color-grading-base-pastel-fashion-grade-neutral-color-balance",
+      "semantic_key": "style-color-grading-base-pastel-fashion-grade-neutral-color-balance",
+      "text": "pastel fashion grade with neutral color balance",
+      "sentence": "Pastel fashion grade with neutral color balance.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "pastel fashion grade with neutral color balance",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing pastel fashion grade with neutral color balance",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with pastel fashion grade with neutral color balance",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "style-color-grading-base-pastel-fashion-grade",
+      "tags": [
+        "base",
+        "color-grading",
+        "rarity-rare",
+        "style"
+      ],
+      "facets": {
+        "grade": "pastel-fashion-grade",
+        "treatment": "neutral-color-balance"
+      },
+      "subcategory": "pastel-fashion-grade",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-color-grading-base-monochrome-tonal-grade-muted-saturation",
+      "semantic_key": "style-color-grading-base-monochrome-tonal-grade-muted-saturation",
+      "text": "monochrome tonal grade with muted saturation",
+      "sentence": "Monochrome tonal grade with muted saturation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "monochrome tonal grade with muted saturation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing monochrome tonal grade with muted saturation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with monochrome tonal grade with muted saturation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-color-grading-base-monochrome-tonal-grade",
+      "tags": [
+        "base",
+        "color-grading",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "grade": "monochrome-tonal-grade",
+        "treatment": "muted-saturation"
+      },
+      "subcategory": "monochrome-tonal-grade",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-color-grading-base-monochrome-tonal-grade-balanced-saturation",
+      "semantic_key": "style-color-grading-base-monochrome-tonal-grade-balanced-saturation",
+      "text": "monochrome tonal grade with balanced saturation",
+      "sentence": "Monochrome tonal grade with balanced saturation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "monochrome tonal grade with balanced saturation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing monochrome tonal grade with balanced saturation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with monochrome tonal grade with balanced saturation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-color-grading-base-monochrome-tonal-grade",
+      "tags": [
+        "base",
+        "color-grading",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "grade": "monochrome-tonal-grade",
+        "treatment": "balanced-saturation"
+      },
+      "subcategory": "monochrome-tonal-grade",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-color-grading-base-monochrome-tonal-grade-rich-saturation",
+      "semantic_key": "style-color-grading-base-monochrome-tonal-grade-rich-saturation",
+      "text": "monochrome tonal grade with rich saturation",
+      "sentence": "Monochrome tonal grade with rich saturation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "monochrome tonal grade with rich saturation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing monochrome tonal grade with rich saturation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with monochrome tonal grade with rich saturation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-color-grading-base-monochrome-tonal-grade",
+      "tags": [
+        "base",
+        "color-grading",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "grade": "monochrome-tonal-grade",
+        "treatment": "rich-saturation"
+      },
+      "subcategory": "monochrome-tonal-grade",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-color-grading-base-monochrome-tonal-grade-pale-value-range",
+      "semantic_key": "style-color-grading-base-monochrome-tonal-grade-pale-value-range",
+      "text": "monochrome tonal grade with pale value range",
+      "sentence": "Monochrome tonal grade with pale value range.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "monochrome tonal grade with pale value range",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing monochrome tonal grade with pale value range",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with monochrome tonal grade with pale value range",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-color-grading-base-monochrome-tonal-grade",
+      "tags": [
+        "base",
+        "color-grading",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "grade": "monochrome-tonal-grade",
+        "treatment": "pale-value-range"
+      },
+      "subcategory": "monochrome-tonal-grade",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-color-grading-base-monochrome-tonal-grade-deep-value-range",
+      "semantic_key": "style-color-grading-base-monochrome-tonal-grade-deep-value-range",
+      "text": "monochrome tonal grade with deep value range",
+      "sentence": "Monochrome tonal grade with deep value range.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "monochrome tonal grade with deep value range",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing monochrome tonal grade with deep value range",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with monochrome tonal grade with deep value range",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "style-color-grading-base-monochrome-tonal-grade",
+      "tags": [
+        "base",
+        "color-grading",
+        "rarity-uncommon",
+        "style"
+      ],
+      "facets": {
+        "grade": "monochrome-tonal-grade",
+        "treatment": "deep-value-range"
+      },
+      "subcategory": "monochrome-tonal-grade",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-color-grading-base-monochrome-tonal-grade-warm-color-bias",
+      "semantic_key": "style-color-grading-base-monochrome-tonal-grade-warm-color-bias",
+      "text": "monochrome tonal grade with warm color bias",
+      "sentence": "Monochrome tonal grade with warm color bias.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "monochrome tonal grade with warm color bias",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing monochrome tonal grade with warm color bias",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with monochrome tonal grade with warm color bias",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "style-color-grading-base-monochrome-tonal-grade",
+      "tags": [
+        "base",
+        "color-grading",
+        "rarity-uncommon",
+        "style"
+      ],
+      "facets": {
+        "grade": "monochrome-tonal-grade",
+        "treatment": "warm-color-bias"
+      },
+      "subcategory": "monochrome-tonal-grade",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-color-grading-base-monochrome-tonal-grade-cool-color-bias",
+      "semantic_key": "style-color-grading-base-monochrome-tonal-grade-cool-color-bias",
+      "text": "monochrome tonal grade with cool color bias",
+      "sentence": "Monochrome tonal grade with cool color bias.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "monochrome tonal grade with cool color bias",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing monochrome tonal grade with cool color bias",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with monochrome tonal grade with cool color bias",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "style-color-grading-base-monochrome-tonal-grade",
+      "tags": [
+        "base",
+        "color-grading",
+        "rarity-rare",
+        "style"
+      ],
+      "facets": {
+        "grade": "monochrome-tonal-grade",
+        "treatment": "cool-color-bias"
+      },
+      "subcategory": "monochrome-tonal-grade",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-color-grading-base-monochrome-tonal-grade-neutral-color-balance",
+      "semantic_key": "style-color-grading-base-monochrome-tonal-grade-neutral-color-balance",
+      "text": "monochrome tonal grade with neutral color balance",
+      "sentence": "Monochrome tonal grade with neutral color balance.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "monochrome tonal grade with neutral color balance",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing monochrome tonal grade with neutral color balance",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with monochrome tonal grade with neutral color balance",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "style-color-grading-base-monochrome-tonal-grade",
+      "tags": [
+        "base",
+        "color-grading",
+        "rarity-rare",
+        "style"
+      ],
+      "facets": {
+        "grade": "monochrome-tonal-grade",
+        "treatment": "neutral-color-balance"
+      },
+      "subcategory": "monochrome-tonal-grade",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-color-grading-base-split-warm-cool-grade-muted-saturation",
+      "semantic_key": "style-color-grading-base-split-warm-cool-grade-muted-saturation",
+      "text": "split warm-cool grade with muted saturation",
+      "sentence": "Split warm-cool grade with muted saturation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "split warm-cool grade with muted saturation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing split warm-cool grade with muted saturation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with split warm-cool grade with muted saturation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-color-grading-base-split-warm-cool-grade",
+      "tags": [
+        "base",
+        "color-grading",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "grade": "split-warm-cool-grade",
+        "treatment": "muted-saturation"
+      },
+      "subcategory": "split-warm-cool-grade",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-color-grading-base-split-warm-cool-grade-balanced-saturation",
+      "semantic_key": "style-color-grading-base-split-warm-cool-grade-balanced-saturation",
+      "text": "split warm-cool grade with balanced saturation",
+      "sentence": "Split warm-cool grade with balanced saturation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "split warm-cool grade with balanced saturation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing split warm-cool grade with balanced saturation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with split warm-cool grade with balanced saturation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-color-grading-base-split-warm-cool-grade",
+      "tags": [
+        "base",
+        "color-grading",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "grade": "split-warm-cool-grade",
+        "treatment": "balanced-saturation"
+      },
+      "subcategory": "split-warm-cool-grade",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-color-grading-base-split-warm-cool-grade-rich-saturation",
+      "semantic_key": "style-color-grading-base-split-warm-cool-grade-rich-saturation",
+      "text": "split warm-cool grade with rich saturation",
+      "sentence": "Split warm-cool grade with rich saturation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "split warm-cool grade with rich saturation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing split warm-cool grade with rich saturation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with split warm-cool grade with rich saturation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-color-grading-base-split-warm-cool-grade",
+      "tags": [
+        "base",
+        "color-grading",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "grade": "split-warm-cool-grade",
+        "treatment": "rich-saturation"
+      },
+      "subcategory": "split-warm-cool-grade",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-color-grading-base-split-warm-cool-grade-pale-value-range",
+      "semantic_key": "style-color-grading-base-split-warm-cool-grade-pale-value-range",
+      "text": "split warm-cool grade with pale value range",
+      "sentence": "Split warm-cool grade with pale value range.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "split warm-cool grade with pale value range",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing split warm-cool grade with pale value range",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with split warm-cool grade with pale value range",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-color-grading-base-split-warm-cool-grade",
+      "tags": [
+        "base",
+        "color-grading",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "grade": "split-warm-cool-grade",
+        "treatment": "pale-value-range"
+      },
+      "subcategory": "split-warm-cool-grade",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-color-grading-base-split-warm-cool-grade-deep-value-range",
+      "semantic_key": "style-color-grading-base-split-warm-cool-grade-deep-value-range",
+      "text": "split warm-cool grade with deep value range",
+      "sentence": "Split warm-cool grade with deep value range.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "split warm-cool grade with deep value range",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing split warm-cool grade with deep value range",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with split warm-cool grade with deep value range",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "style-color-grading-base-split-warm-cool-grade",
+      "tags": [
+        "base",
+        "color-grading",
+        "rarity-uncommon",
+        "style"
+      ],
+      "facets": {
+        "grade": "split-warm-cool-grade",
+        "treatment": "deep-value-range"
+      },
+      "subcategory": "split-warm-cool-grade",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-color-grading-base-split-warm-cool-grade-warm-color-bias",
+      "semantic_key": "style-color-grading-base-split-warm-cool-grade-warm-color-bias",
+      "text": "split warm-cool grade with warm color bias",
+      "sentence": "Split warm-cool grade with warm color bias.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "split warm-cool grade with warm color bias",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing split warm-cool grade with warm color bias",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with split warm-cool grade with warm color bias",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "style-color-grading-base-split-warm-cool-grade",
+      "tags": [
+        "base",
+        "color-grading",
+        "rarity-uncommon",
+        "style"
+      ],
+      "facets": {
+        "grade": "split-warm-cool-grade",
+        "treatment": "warm-color-bias"
+      },
+      "subcategory": "split-warm-cool-grade",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-color-grading-base-split-warm-cool-grade-cool-color-bias",
+      "semantic_key": "style-color-grading-base-split-warm-cool-grade-cool-color-bias",
+      "text": "split warm-cool grade with cool color bias",
+      "sentence": "Split warm-cool grade with cool color bias.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "split warm-cool grade with cool color bias",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing split warm-cool grade with cool color bias",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with split warm-cool grade with cool color bias",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "style-color-grading-base-split-warm-cool-grade",
+      "tags": [
+        "base",
+        "color-grading",
+        "rarity-rare",
+        "style"
+      ],
+      "facets": {
+        "grade": "split-warm-cool-grade",
+        "treatment": "cool-color-bias"
+      },
+      "subcategory": "split-warm-cool-grade",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-color-grading-base-split-warm-cool-grade-neutral-color-balance",
+      "semantic_key": "style-color-grading-base-split-warm-cool-grade-neutral-color-balance",
+      "text": "split warm-cool grade with neutral color balance",
+      "sentence": "Split warm-cool grade with neutral color balance.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "split warm-cool grade with neutral color balance",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing split warm-cool grade with neutral color balance",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with split warm-cool grade with neutral color balance",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "style-color-grading-base-split-warm-cool-grade",
+      "tags": [
+        "base",
+        "color-grading",
+        "rarity-rare",
+        "style"
+      ],
+      "facets": {
+        "grade": "split-warm-cool-grade",
+        "treatment": "neutral-color-balance"
+      },
+      "subcategory": "split-warm-cool-grade",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    }
+  ]
+}

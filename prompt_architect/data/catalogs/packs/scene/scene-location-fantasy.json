@@ -1,0 +1,2577 @@
+{
+  "schema_version": "2.0",
+  "id": "scene-location-fantasy",
+  "version": "2.0.0",
+  "library": "location",
+  "domain": "scene",
+  "category": "location",
+  "language": "en",
+  "status": "active",
+  "safety": "general",
+  "tags": [
+    "fantasy"
+  ],
+  "fallback_option_id": "scene-location-fantasy-moonlit-observatory-open-spatial-layout",
+  "options": [
+    {
+      "id": "scene-location-fantasy-moonlit-observatory-open-spatial-layout",
+      "semantic_key": "scene-location-fantasy-moonlit-observatory-open-spatial-layout",
+      "text": "a moonlit observatory with open spatial layout",
+      "sentence": "A moonlit observatory with open spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a moonlit observatory with open spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a moonlit observatory with open spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a moonlit observatory with open spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-fantasy-moonlit-observatory",
+      "tags": [
+        "fantasy",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "moonlit-observatory",
+        "treatment": "open-spatial-layout"
+      },
+      "subcategory": "moonlit-observatory",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-fantasy-moonlit-observatory-intimate-spatial-layout",
+      "semantic_key": "scene-location-fantasy-moonlit-observatory-intimate-spatial-layout",
+      "text": "a moonlit observatory with intimate spatial layout",
+      "sentence": "A moonlit observatory with intimate spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a moonlit observatory with intimate spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a moonlit observatory with intimate spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a moonlit observatory with intimate spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-fantasy-moonlit-observatory",
+      "tags": [
+        "fantasy",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "moonlit-observatory",
+        "treatment": "intimate-spatial-layout"
+      },
+      "subcategory": "moonlit-observatory",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-fantasy-moonlit-observatory-layered-depth",
+      "semantic_key": "scene-location-fantasy-moonlit-observatory-layered-depth",
+      "text": "a moonlit observatory with layered depth",
+      "sentence": "A moonlit observatory with layered depth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a moonlit observatory with layered depth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a moonlit observatory with layered depth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a moonlit observatory with layered depth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-fantasy-moonlit-observatory",
+      "tags": [
+        "fantasy",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "moonlit-observatory",
+        "treatment": "layered-depth"
+      },
+      "subcategory": "moonlit-observatory",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-fantasy-moonlit-observatory-clear-sightlines",
+      "semantic_key": "scene-location-fantasy-moonlit-observatory-clear-sightlines",
+      "text": "a moonlit observatory with clear sightlines",
+      "sentence": "A moonlit observatory with clear sightlines.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a moonlit observatory with clear sightlines",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a moonlit observatory with clear sightlines",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a moonlit observatory with clear sightlines",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-fantasy-moonlit-observatory",
+      "tags": [
+        "fantasy",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "moonlit-observatory",
+        "treatment": "clear-sightlines"
+      },
+      "subcategory": "moonlit-observatory",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-fantasy-moonlit-observatory-enclosed-geometry",
+      "semantic_key": "scene-location-fantasy-moonlit-observatory-enclosed-geometry",
+      "text": "a moonlit observatory with enclosed geometry",
+      "sentence": "A moonlit observatory with enclosed geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a moonlit observatory with enclosed geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a moonlit observatory with enclosed geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a moonlit observatory with enclosed geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-fantasy-moonlit-observatory",
+      "tags": [
+        "fantasy",
+        "location",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "moonlit-observatory",
+        "treatment": "enclosed-geometry"
+      },
+      "subcategory": "moonlit-observatory",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-fantasy-moonlit-observatory-expansive-geometry",
+      "semantic_key": "scene-location-fantasy-moonlit-observatory-expansive-geometry",
+      "text": "a moonlit observatory with expansive geometry",
+      "sentence": "A moonlit observatory with expansive geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a moonlit observatory with expansive geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a moonlit observatory with expansive geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a moonlit observatory with expansive geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-fantasy-moonlit-observatory",
+      "tags": [
+        "fantasy",
+        "location",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "moonlit-observatory",
+        "treatment": "expansive-geometry"
+      },
+      "subcategory": "moonlit-observatory",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-fantasy-moonlit-observatory-asymmetric-layout",
+      "semantic_key": "scene-location-fantasy-moonlit-observatory-asymmetric-layout",
+      "text": "a moonlit observatory with asymmetric layout",
+      "sentence": "A moonlit observatory with asymmetric layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a moonlit observatory with asymmetric layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a moonlit observatory with asymmetric layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a moonlit observatory with asymmetric layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-fantasy-moonlit-observatory",
+      "tags": [
+        "fantasy",
+        "location",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "moonlit-observatory",
+        "treatment": "asymmetric-layout"
+      },
+      "subcategory": "moonlit-observatory",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-fantasy-moonlit-observatory-central-organization",
+      "semantic_key": "scene-location-fantasy-moonlit-observatory-central-organization",
+      "text": "a moonlit observatory with central organization",
+      "sentence": "A moonlit observatory with central organization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a moonlit observatory with central organization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a moonlit observatory with central organization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a moonlit observatory with central organization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-fantasy-moonlit-observatory",
+      "tags": [
+        "fantasy",
+        "location",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "moonlit-observatory",
+        "treatment": "central-organization"
+      },
+      "subcategory": "moonlit-observatory",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-fantasy-floating-garden-terrace-open-spatial-layout",
+      "semantic_key": "scene-location-fantasy-floating-garden-terrace-open-spatial-layout",
+      "text": "a floating garden terrace with open spatial layout",
+      "sentence": "A floating garden terrace with open spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a floating garden terrace with open spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a floating garden terrace with open spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a floating garden terrace with open spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-fantasy-floating-garden-terrace",
+      "tags": [
+        "fantasy",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "floating-garden-terrace",
+        "treatment": "open-spatial-layout"
+      },
+      "subcategory": "floating-garden-terrace",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-fantasy-floating-garden-terrace-intimate-spatial-layout",
+      "semantic_key": "scene-location-fantasy-floating-garden-terrace-intimate-spatial-layout",
+      "text": "a floating garden terrace with intimate spatial layout",
+      "sentence": "A floating garden terrace with intimate spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a floating garden terrace with intimate spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a floating garden terrace with intimate spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a floating garden terrace with intimate spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-fantasy-floating-garden-terrace",
+      "tags": [
+        "fantasy",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "floating-garden-terrace",
+        "treatment": "intimate-spatial-layout"
+      },
+      "subcategory": "floating-garden-terrace",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-fantasy-floating-garden-terrace-layered-depth",
+      "semantic_key": "scene-location-fantasy-floating-garden-terrace-layered-depth",
+      "text": "a floating garden terrace with layered depth",
+      "sentence": "A floating garden terrace with layered depth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a floating garden terrace with layered depth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a floating garden terrace with layered depth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a floating garden terrace with layered depth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-fantasy-floating-garden-terrace",
+      "tags": [
+        "fantasy",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "floating-garden-terrace",
+        "treatment": "layered-depth"
+      },
+      "subcategory": "floating-garden-terrace",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-fantasy-floating-garden-terrace-clear-sightlines",
+      "semantic_key": "scene-location-fantasy-floating-garden-terrace-clear-sightlines",
+      "text": "a floating garden terrace with clear sightlines",
+      "sentence": "A floating garden terrace with clear sightlines.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a floating garden terrace with clear sightlines",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a floating garden terrace with clear sightlines",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a floating garden terrace with clear sightlines",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-fantasy-floating-garden-terrace",
+      "tags": [
+        "fantasy",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "floating-garden-terrace",
+        "treatment": "clear-sightlines"
+      },
+      "subcategory": "floating-garden-terrace",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-fantasy-floating-garden-terrace-enclosed-geometry",
+      "semantic_key": "scene-location-fantasy-floating-garden-terrace-enclosed-geometry",
+      "text": "a floating garden terrace with enclosed geometry",
+      "sentence": "A floating garden terrace with enclosed geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a floating garden terrace with enclosed geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a floating garden terrace with enclosed geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a floating garden terrace with enclosed geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-fantasy-floating-garden-terrace",
+      "tags": [
+        "fantasy",
+        "location",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "floating-garden-terrace",
+        "treatment": "enclosed-geometry"
+      },
+      "subcategory": "floating-garden-terrace",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-fantasy-floating-garden-terrace-expansive-geometry",
+      "semantic_key": "scene-location-fantasy-floating-garden-terrace-expansive-geometry",
+      "text": "a floating garden terrace with expansive geometry",
+      "sentence": "A floating garden terrace with expansive geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a floating garden terrace with expansive geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a floating garden terrace with expansive geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a floating garden terrace with expansive geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-fantasy-floating-garden-terrace",
+      "tags": [
+        "fantasy",
+        "location",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "floating-garden-terrace",
+        "treatment": "expansive-geometry"
+      },
+      "subcategory": "floating-garden-terrace",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-fantasy-floating-garden-terrace-asymmetric-layout",
+      "semantic_key": "scene-location-fantasy-floating-garden-terrace-asymmetric-layout",
+      "text": "a floating garden terrace with asymmetric layout",
+      "sentence": "A floating garden terrace with asymmetric layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a floating garden terrace with asymmetric layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a floating garden terrace with asymmetric layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a floating garden terrace with asymmetric layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-fantasy-floating-garden-terrace",
+      "tags": [
+        "fantasy",
+        "location",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "floating-garden-terrace",
+        "treatment": "asymmetric-layout"
+      },
+      "subcategory": "floating-garden-terrace",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-fantasy-floating-garden-terrace-central-organization",
+      "semantic_key": "scene-location-fantasy-floating-garden-terrace-central-organization",
+      "text": "a floating garden terrace with central organization",
+      "sentence": "A floating garden terrace with central organization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a floating garden terrace with central organization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a floating garden terrace with central organization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a floating garden terrace with central organization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-fantasy-floating-garden-terrace",
+      "tags": [
+        "fantasy",
+        "location",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "floating-garden-terrace",
+        "treatment": "central-organization"
+      },
+      "subcategory": "floating-garden-terrace",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-fantasy-ancient-woodland-sanctuary-open-spatial-layout",
+      "semantic_key": "scene-location-fantasy-ancient-woodland-sanctuary-open-spatial-layout",
+      "text": "a ancient woodland sanctuary with open spatial layout",
+      "sentence": "A ancient woodland sanctuary with open spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a ancient woodland sanctuary with open spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a ancient woodland sanctuary with open spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a ancient woodland sanctuary with open spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-fantasy-ancient-woodland-sanctuary",
+      "tags": [
+        "fantasy",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "ancient-woodland-sanctuary",
+        "treatment": "open-spatial-layout"
+      },
+      "subcategory": "ancient-woodland-sanctuary",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-fantasy-ancient-woodland-sanctuary-intimate-spatial-layout",
+      "semantic_key": "scene-location-fantasy-ancient-woodland-sanctuary-intimate-spatial-layout",
+      "text": "a ancient woodland sanctuary with intimate spatial layout",
+      "sentence": "A ancient woodland sanctuary with intimate spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a ancient woodland sanctuary with intimate spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a ancient woodland sanctuary with intimate spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a ancient woodland sanctuary with intimate spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-fantasy-ancient-woodland-sanctuary",
+      "tags": [
+        "fantasy",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "ancient-woodland-sanctuary",
+        "treatment": "intimate-spatial-layout"
+      },
+      "subcategory": "ancient-woodland-sanctuary",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-fantasy-ancient-woodland-sanctuary-layered-depth",
+      "semantic_key": "scene-location-fantasy-ancient-woodland-sanctuary-layered-depth",
+      "text": "a ancient woodland sanctuary with layered depth",
+      "sentence": "A ancient woodland sanctuary with layered depth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a ancient woodland sanctuary with layered depth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a ancient woodland sanctuary with layered depth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a ancient woodland sanctuary with layered depth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-fantasy-ancient-woodland-sanctuary",
+      "tags": [
+        "fantasy",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "ancient-woodland-sanctuary",
+        "treatment": "layered-depth"
+      },
+      "subcategory": "ancient-woodland-sanctuary",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-fantasy-ancient-woodland-sanctuary-clear-sightlines",
+      "semantic_key": "scene-location-fantasy-ancient-woodland-sanctuary-clear-sightlines",
+      "text": "a ancient woodland sanctuary with clear sightlines",
+      "sentence": "A ancient woodland sanctuary with clear sightlines.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a ancient woodland sanctuary with clear sightlines",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a ancient woodland sanctuary with clear sightlines",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a ancient woodland sanctuary with clear sightlines",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-fantasy-ancient-woodland-sanctuary",
+      "tags": [
+        "fantasy",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "ancient-woodland-sanctuary",
+        "treatment": "clear-sightlines"
+      },
+      "subcategory": "ancient-woodland-sanctuary",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-fantasy-ancient-woodland-sanctuary-enclosed-geometry",
+      "semantic_key": "scene-location-fantasy-ancient-woodland-sanctuary-enclosed-geometry",
+      "text": "a ancient woodland sanctuary with enclosed geometry",
+      "sentence": "A ancient woodland sanctuary with enclosed geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a ancient woodland sanctuary with enclosed geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a ancient woodland sanctuary with enclosed geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a ancient woodland sanctuary with enclosed geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-fantasy-ancient-woodland-sanctuary",
+      "tags": [
+        "fantasy",
+        "location",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "ancient-woodland-sanctuary",
+        "treatment": "enclosed-geometry"
+      },
+      "subcategory": "ancient-woodland-sanctuary",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-fantasy-ancient-woodland-sanctuary-expansive-geometry",
+      "semantic_key": "scene-location-fantasy-ancient-woodland-sanctuary-expansive-geometry",
+      "text": "a ancient woodland sanctuary with expansive geometry",
+      "sentence": "A ancient woodland sanctuary with expansive geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a ancient woodland sanctuary with expansive geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a ancient woodland sanctuary with expansive geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a ancient woodland sanctuary with expansive geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-fantasy-ancient-woodland-sanctuary",
+      "tags": [
+        "fantasy",
+        "location",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "ancient-woodland-sanctuary",
+        "treatment": "expansive-geometry"
+      },
+      "subcategory": "ancient-woodland-sanctuary",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-fantasy-ancient-woodland-sanctuary-asymmetric-layout",
+      "semantic_key": "scene-location-fantasy-ancient-woodland-sanctuary-asymmetric-layout",
+      "text": "a ancient woodland sanctuary with asymmetric layout",
+      "sentence": "A ancient woodland sanctuary with asymmetric layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a ancient woodland sanctuary with asymmetric layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a ancient woodland sanctuary with asymmetric layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a ancient woodland sanctuary with asymmetric layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-fantasy-ancient-woodland-sanctuary",
+      "tags": [
+        "fantasy",
+        "location",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "ancient-woodland-sanctuary",
+        "treatment": "asymmetric-layout"
+      },
+      "subcategory": "ancient-woodland-sanctuary",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-fantasy-ancient-woodland-sanctuary-central-organization",
+      "semantic_key": "scene-location-fantasy-ancient-woodland-sanctuary-central-organization",
+      "text": "a ancient woodland sanctuary with central organization",
+      "sentence": "A ancient woodland sanctuary with central organization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a ancient woodland sanctuary with central organization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a ancient woodland sanctuary with central organization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a ancient woodland sanctuary with central organization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-fantasy-ancient-woodland-sanctuary",
+      "tags": [
+        "fantasy",
+        "location",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "ancient-woodland-sanctuary",
+        "treatment": "central-organization"
+      },
+      "subcategory": "ancient-woodland-sanctuary",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-fantasy-crystal-archive-open-spatial-layout",
+      "semantic_key": "scene-location-fantasy-crystal-archive-open-spatial-layout",
+      "text": "a crystal archive with open spatial layout",
+      "sentence": "A crystal archive with open spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a crystal archive with open spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a crystal archive with open spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a crystal archive with open spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-fantasy-crystal-archive",
+      "tags": [
+        "fantasy",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "crystal-archive",
+        "treatment": "open-spatial-layout"
+      },
+      "subcategory": "crystal-archive",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-fantasy-crystal-archive-intimate-spatial-layout",
+      "semantic_key": "scene-location-fantasy-crystal-archive-intimate-spatial-layout",
+      "text": "a crystal archive with intimate spatial layout",
+      "sentence": "A crystal archive with intimate spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a crystal archive with intimate spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a crystal archive with intimate spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a crystal archive with intimate spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-fantasy-crystal-archive",
+      "tags": [
+        "fantasy",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "crystal-archive",
+        "treatment": "intimate-spatial-layout"
+      },
+      "subcategory": "crystal-archive",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-fantasy-crystal-archive-layered-depth",
+      "semantic_key": "scene-location-fantasy-crystal-archive-layered-depth",
+      "text": "a crystal archive with layered depth",
+      "sentence": "A crystal archive with layered depth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a crystal archive with layered depth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a crystal archive with layered depth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a crystal archive with layered depth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-fantasy-crystal-archive",
+      "tags": [
+        "fantasy",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "crystal-archive",
+        "treatment": "layered-depth"
+      },
+      "subcategory": "crystal-archive",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-fantasy-crystal-archive-clear-sightlines",
+      "semantic_key": "scene-location-fantasy-crystal-archive-clear-sightlines",
+      "text": "a crystal archive with clear sightlines",
+      "sentence": "A crystal archive with clear sightlines.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a crystal archive with clear sightlines",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a crystal archive with clear sightlines",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a crystal archive with clear sightlines",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-fantasy-crystal-archive",
+      "tags": [
+        "fantasy",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "crystal-archive",
+        "treatment": "clear-sightlines"
+      },
+      "subcategory": "crystal-archive",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-fantasy-crystal-archive-enclosed-geometry",
+      "semantic_key": "scene-location-fantasy-crystal-archive-enclosed-geometry",
+      "text": "a crystal archive with enclosed geometry",
+      "sentence": "A crystal archive with enclosed geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a crystal archive with enclosed geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a crystal archive with enclosed geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a crystal archive with enclosed geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-fantasy-crystal-archive",
+      "tags": [
+        "fantasy",
+        "location",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "crystal-archive",
+        "treatment": "enclosed-geometry"
+      },
+      "subcategory": "crystal-archive",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-fantasy-crystal-archive-expansive-geometry",
+      "semantic_key": "scene-location-fantasy-crystal-archive-expansive-geometry",
+      "text": "a crystal archive with expansive geometry",
+      "sentence": "A crystal archive with expansive geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a crystal archive with expansive geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a crystal archive with expansive geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a crystal archive with expansive geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-fantasy-crystal-archive",
+      "tags": [
+        "fantasy",
+        "location",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "crystal-archive",
+        "treatment": "expansive-geometry"
+      },
+      "subcategory": "crystal-archive",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-fantasy-crystal-archive-asymmetric-layout",
+      "semantic_key": "scene-location-fantasy-crystal-archive-asymmetric-layout",
+      "text": "a crystal archive with asymmetric layout",
+      "sentence": "A crystal archive with asymmetric layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a crystal archive with asymmetric layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a crystal archive with asymmetric layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a crystal archive with asymmetric layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-fantasy-crystal-archive",
+      "tags": [
+        "fantasy",
+        "location",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "crystal-archive",
+        "treatment": "asymmetric-layout"
+      },
+      "subcategory": "crystal-archive",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-fantasy-crystal-archive-central-organization",
+      "semantic_key": "scene-location-fantasy-crystal-archive-central-organization",
+      "text": "a crystal archive with central organization",
+      "sentence": "A crystal archive with central organization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a crystal archive with central organization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a crystal archive with central organization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a crystal archive with central organization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-fantasy-crystal-archive",
+      "tags": [
+        "fantasy",
+        "location",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "crystal-archive",
+        "treatment": "central-organization"
+      },
+      "subcategory": "crystal-archive",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-fantasy-desert-sky-temple-open-spatial-layout",
+      "semantic_key": "scene-location-fantasy-desert-sky-temple-open-spatial-layout",
+      "text": "a desert sky temple with open spatial layout",
+      "sentence": "A desert sky temple with open spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a desert sky temple with open spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a desert sky temple with open spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a desert sky temple with open spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-fantasy-desert-sky-temple",
+      "tags": [
+        "fantasy",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "desert-sky-temple",
+        "treatment": "open-spatial-layout"
+      },
+      "subcategory": "desert-sky-temple",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-fantasy-desert-sky-temple-intimate-spatial-layout",
+      "semantic_key": "scene-location-fantasy-desert-sky-temple-intimate-spatial-layout",
+      "text": "a desert sky temple with intimate spatial layout",
+      "sentence": "A desert sky temple with intimate spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a desert sky temple with intimate spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a desert sky temple with intimate spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a desert sky temple with intimate spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-fantasy-desert-sky-temple",
+      "tags": [
+        "fantasy",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "desert-sky-temple",
+        "treatment": "intimate-spatial-layout"
+      },
+      "subcategory": "desert-sky-temple",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-fantasy-desert-sky-temple-layered-depth",
+      "semantic_key": "scene-location-fantasy-desert-sky-temple-layered-depth",
+      "text": "a desert sky temple with layered depth",
+      "sentence": "A desert sky temple with layered depth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a desert sky temple with layered depth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a desert sky temple with layered depth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a desert sky temple with layered depth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-fantasy-desert-sky-temple",
+      "tags": [
+        "fantasy",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "desert-sky-temple",
+        "treatment": "layered-depth"
+      },
+      "subcategory": "desert-sky-temple",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-fantasy-desert-sky-temple-clear-sightlines",
+      "semantic_key": "scene-location-fantasy-desert-sky-temple-clear-sightlines",
+      "text": "a desert sky temple with clear sightlines",
+      "sentence": "A desert sky temple with clear sightlines.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a desert sky temple with clear sightlines",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a desert sky temple with clear sightlines",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a desert sky temple with clear sightlines",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-fantasy-desert-sky-temple",
+      "tags": [
+        "fantasy",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "desert-sky-temple",
+        "treatment": "clear-sightlines"
+      },
+      "subcategory": "desert-sky-temple",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-fantasy-desert-sky-temple-enclosed-geometry",
+      "semantic_key": "scene-location-fantasy-desert-sky-temple-enclosed-geometry",
+      "text": "a desert sky temple with enclosed geometry",
+      "sentence": "A desert sky temple with enclosed geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a desert sky temple with enclosed geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a desert sky temple with enclosed geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a desert sky temple with enclosed geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-fantasy-desert-sky-temple",
+      "tags": [
+        "fantasy",
+        "location",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "desert-sky-temple",
+        "treatment": "enclosed-geometry"
+      },
+      "subcategory": "desert-sky-temple",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-fantasy-desert-sky-temple-expansive-geometry",
+      "semantic_key": "scene-location-fantasy-desert-sky-temple-expansive-geometry",
+      "text": "a desert sky temple with expansive geometry",
+      "sentence": "A desert sky temple with expansive geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a desert sky temple with expansive geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a desert sky temple with expansive geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a desert sky temple with expansive geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-fantasy-desert-sky-temple",
+      "tags": [
+        "fantasy",
+        "location",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "desert-sky-temple",
+        "treatment": "expansive-geometry"
+      },
+      "subcategory": "desert-sky-temple",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-fantasy-desert-sky-temple-asymmetric-layout",
+      "semantic_key": "scene-location-fantasy-desert-sky-temple-asymmetric-layout",
+      "text": "a desert sky temple with asymmetric layout",
+      "sentence": "A desert sky temple with asymmetric layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a desert sky temple with asymmetric layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a desert sky temple with asymmetric layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a desert sky temple with asymmetric layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-fantasy-desert-sky-temple",
+      "tags": [
+        "fantasy",
+        "location",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "desert-sky-temple",
+        "treatment": "asymmetric-layout"
+      },
+      "subcategory": "desert-sky-temple",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-fantasy-desert-sky-temple-central-organization",
+      "semantic_key": "scene-location-fantasy-desert-sky-temple-central-organization",
+      "text": "a desert sky temple with central organization",
+      "sentence": "A desert sky temple with central organization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a desert sky temple with central organization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a desert sky temple with central organization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a desert sky temple with central organization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-fantasy-desert-sky-temple",
+      "tags": [
+        "fantasy",
+        "location",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "desert-sky-temple",
+        "treatment": "central-organization"
+      },
+      "subcategory": "desert-sky-temple",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-fantasy-mist-covered-citadel-open-spatial-layout",
+      "semantic_key": "scene-location-fantasy-mist-covered-citadel-open-spatial-layout",
+      "text": "a mist-covered citadel with open spatial layout",
+      "sentence": "A mist-covered citadel with open spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a mist-covered citadel with open spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a mist-covered citadel with open spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a mist-covered citadel with open spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-fantasy-mist-covered-citadel",
+      "tags": [
+        "fantasy",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "mist-covered-citadel",
+        "treatment": "open-spatial-layout"
+      },
+      "subcategory": "mist-covered-citadel",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-fantasy-mist-covered-citadel-intimate-spatial-layout",
+      "semantic_key": "scene-location-fantasy-mist-covered-citadel-intimate-spatial-layout",
+      "text": "a mist-covered citadel with intimate spatial layout",
+      "sentence": "A mist-covered citadel with intimate spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a mist-covered citadel with intimate spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a mist-covered citadel with intimate spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a mist-covered citadel with intimate spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-fantasy-mist-covered-citadel",
+      "tags": [
+        "fantasy",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "mist-covered-citadel",
+        "treatment": "intimate-spatial-layout"
+      },
+      "subcategory": "mist-covered-citadel",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-fantasy-mist-covered-citadel-layered-depth",
+      "semantic_key": "scene-location-fantasy-mist-covered-citadel-layered-depth",
+      "text": "a mist-covered citadel with layered depth",
+      "sentence": "A mist-covered citadel with layered depth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a mist-covered citadel with layered depth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a mist-covered citadel with layered depth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a mist-covered citadel with layered depth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-fantasy-mist-covered-citadel",
+      "tags": [
+        "fantasy",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "mist-covered-citadel",
+        "treatment": "layered-depth"
+      },
+      "subcategory": "mist-covered-citadel",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-fantasy-mist-covered-citadel-clear-sightlines",
+      "semantic_key": "scene-location-fantasy-mist-covered-citadel-clear-sightlines",
+      "text": "a mist-covered citadel with clear sightlines",
+      "sentence": "A mist-covered citadel with clear sightlines.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a mist-covered citadel with clear sightlines",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a mist-covered citadel with clear sightlines",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a mist-covered citadel with clear sightlines",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-fantasy-mist-covered-citadel",
+      "tags": [
+        "fantasy",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "mist-covered-citadel",
+        "treatment": "clear-sightlines"
+      },
+      "subcategory": "mist-covered-citadel",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-fantasy-mist-covered-citadel-enclosed-geometry",
+      "semantic_key": "scene-location-fantasy-mist-covered-citadel-enclosed-geometry",
+      "text": "a mist-covered citadel with enclosed geometry",
+      "sentence": "A mist-covered citadel with enclosed geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a mist-covered citadel with enclosed geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a mist-covered citadel with enclosed geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a mist-covered citadel with enclosed geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-fantasy-mist-covered-citadel",
+      "tags": [
+        "fantasy",
+        "location",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "mist-covered-citadel",
+        "treatment": "enclosed-geometry"
+      },
+      "subcategory": "mist-covered-citadel",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-fantasy-mist-covered-citadel-expansive-geometry",
+      "semantic_key": "scene-location-fantasy-mist-covered-citadel-expansive-geometry",
+      "text": "a mist-covered citadel with expansive geometry",
+      "sentence": "A mist-covered citadel with expansive geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a mist-covered citadel with expansive geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a mist-covered citadel with expansive geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a mist-covered citadel with expansive geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-fantasy-mist-covered-citadel",
+      "tags": [
+        "fantasy",
+        "location",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "mist-covered-citadel",
+        "treatment": "expansive-geometry"
+      },
+      "subcategory": "mist-covered-citadel",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-fantasy-mist-covered-citadel-asymmetric-layout",
+      "semantic_key": "scene-location-fantasy-mist-covered-citadel-asymmetric-layout",
+      "text": "a mist-covered citadel with asymmetric layout",
+      "sentence": "A mist-covered citadel with asymmetric layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a mist-covered citadel with asymmetric layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a mist-covered citadel with asymmetric layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a mist-covered citadel with asymmetric layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-fantasy-mist-covered-citadel",
+      "tags": [
+        "fantasy",
+        "location",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "mist-covered-citadel",
+        "treatment": "asymmetric-layout"
+      },
+      "subcategory": "mist-covered-citadel",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-fantasy-mist-covered-citadel-central-organization",
+      "semantic_key": "scene-location-fantasy-mist-covered-citadel-central-organization",
+      "text": "a mist-covered citadel with central organization",
+      "sentence": "A mist-covered citadel with central organization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a mist-covered citadel with central organization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a mist-covered citadel with central organization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a mist-covered citadel with central organization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-fantasy-mist-covered-citadel",
+      "tags": [
+        "fantasy",
+        "location",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "mist-covered-citadel",
+        "treatment": "central-organization"
+      },
+      "subcategory": "mist-covered-citadel",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-fantasy-subterranean-library-open-spatial-layout",
+      "semantic_key": "scene-location-fantasy-subterranean-library-open-spatial-layout",
+      "text": "a subterranean library with open spatial layout",
+      "sentence": "A subterranean library with open spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a subterranean library with open spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a subterranean library with open spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a subterranean library with open spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-fantasy-subterranean-library",
+      "tags": [
+        "fantasy",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "subterranean-library",
+        "treatment": "open-spatial-layout"
+      },
+      "subcategory": "subterranean-library",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-fantasy-subterranean-library-intimate-spatial-layout",
+      "semantic_key": "scene-location-fantasy-subterranean-library-intimate-spatial-layout",
+      "text": "a subterranean library with intimate spatial layout",
+      "sentence": "A subterranean library with intimate spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a subterranean library with intimate spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a subterranean library with intimate spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a subterranean library with intimate spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-fantasy-subterranean-library",
+      "tags": [
+        "fantasy",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "subterranean-library",
+        "treatment": "intimate-spatial-layout"
+      },
+      "subcategory": "subterranean-library",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-fantasy-subterranean-library-layered-depth",
+      "semantic_key": "scene-location-fantasy-subterranean-library-layered-depth",
+      "text": "a subterranean library with layered depth",
+      "sentence": "A subterranean library with layered depth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a subterranean library with layered depth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a subterranean library with layered depth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a subterranean library with layered depth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-fantasy-subterranean-library",
+      "tags": [
+        "fantasy",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "subterranean-library",
+        "treatment": "layered-depth"
+      },
+      "subcategory": "subterranean-library",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-fantasy-subterranean-library-clear-sightlines",
+      "semantic_key": "scene-location-fantasy-subterranean-library-clear-sightlines",
+      "text": "a subterranean library with clear sightlines",
+      "sentence": "A subterranean library with clear sightlines.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a subterranean library with clear sightlines",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a subterranean library with clear sightlines",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a subterranean library with clear sightlines",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-fantasy-subterranean-library",
+      "tags": [
+        "fantasy",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "subterranean-library",
+        "treatment": "clear-sightlines"
+      },
+      "subcategory": "subterranean-library",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-fantasy-subterranean-library-enclosed-geometry",
+      "semantic_key": "scene-location-fantasy-subterranean-library-enclosed-geometry",
+      "text": "a subterranean library with enclosed geometry",
+      "sentence": "A subterranean library with enclosed geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a subterranean library with enclosed geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a subterranean library with enclosed geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a subterranean library with enclosed geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-fantasy-subterranean-library",
+      "tags": [
+        "fantasy",
+        "location",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "subterranean-library",
+        "treatment": "enclosed-geometry"
+      },
+      "subcategory": "subterranean-library",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-fantasy-subterranean-library-expansive-geometry",
+      "semantic_key": "scene-location-fantasy-subterranean-library-expansive-geometry",
+      "text": "a subterranean library with expansive geometry",
+      "sentence": "A subterranean library with expansive geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a subterranean library with expansive geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a subterranean library with expansive geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a subterranean library with expansive geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-fantasy-subterranean-library",
+      "tags": [
+        "fantasy",
+        "location",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "subterranean-library",
+        "treatment": "expansive-geometry"
+      },
+      "subcategory": "subterranean-library",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-fantasy-subterranean-library-asymmetric-layout",
+      "semantic_key": "scene-location-fantasy-subterranean-library-asymmetric-layout",
+      "text": "a subterranean library with asymmetric layout",
+      "sentence": "A subterranean library with asymmetric layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a subterranean library with asymmetric layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a subterranean library with asymmetric layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a subterranean library with asymmetric layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-fantasy-subterranean-library",
+      "tags": [
+        "fantasy",
+        "location",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "subterranean-library",
+        "treatment": "asymmetric-layout"
+      },
+      "subcategory": "subterranean-library",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-fantasy-subterranean-library-central-organization",
+      "semantic_key": "scene-location-fantasy-subterranean-library-central-organization",
+      "text": "a subterranean library with central organization",
+      "sentence": "A subterranean library with central organization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a subterranean library with central organization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a subterranean library with central organization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a subterranean library with central organization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-fantasy-subterranean-library",
+      "tags": [
+        "fantasy",
+        "location",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "subterranean-library",
+        "treatment": "central-organization"
+      },
+      "subcategory": "subterranean-library",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-fantasy-celestial-navigation-chamber-open-spatial-layout",
+      "semantic_key": "scene-location-fantasy-celestial-navigation-chamber-open-spatial-layout",
+      "text": "a celestial navigation chamber with open spatial layout",
+      "sentence": "A celestial navigation chamber with open spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a celestial navigation chamber with open spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a celestial navigation chamber with open spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a celestial navigation chamber with open spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-fantasy-celestial-navigation-chamber",
+      "tags": [
+        "fantasy",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "celestial-navigation-chamber",
+        "treatment": "open-spatial-layout"
+      },
+      "subcategory": "celestial-navigation-chamber",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-fantasy-celestial-navigation-chamber-intimate-spatial-layout",
+      "semantic_key": "scene-location-fantasy-celestial-navigation-chamber-intimate-spatial-layout",
+      "text": "a celestial navigation chamber with intimate spatial layout",
+      "sentence": "A celestial navigation chamber with intimate spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a celestial navigation chamber with intimate spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a celestial navigation chamber with intimate spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a celestial navigation chamber with intimate spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-fantasy-celestial-navigation-chamber",
+      "tags": [
+        "fantasy",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "celestial-navigation-chamber",
+        "treatment": "intimate-spatial-layout"
+      },
+      "subcategory": "celestial-navigation-chamber",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-fantasy-celestial-navigation-chamber-layered-depth",
+      "semantic_key": "scene-location-fantasy-celestial-navigation-chamber-layered-depth",
+      "text": "a celestial navigation chamber with layered depth",
+      "sentence": "A celestial navigation chamber with layered depth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a celestial navigation chamber with layered depth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a celestial navigation chamber with layered depth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a celestial navigation chamber with layered depth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-fantasy-celestial-navigation-chamber",
+      "tags": [
+        "fantasy",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "celestial-navigation-chamber",
+        "treatment": "layered-depth"
+      },
+      "subcategory": "celestial-navigation-chamber",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-fantasy-celestial-navigation-chamber-clear-sightlines",
+      "semantic_key": "scene-location-fantasy-celestial-navigation-chamber-clear-sightlines",
+      "text": "a celestial navigation chamber with clear sightlines",
+      "sentence": "A celestial navigation chamber with clear sightlines.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a celestial navigation chamber with clear sightlines",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a celestial navigation chamber with clear sightlines",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a celestial navigation chamber with clear sightlines",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-fantasy-celestial-navigation-chamber",
+      "tags": [
+        "fantasy",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "celestial-navigation-chamber",
+        "treatment": "clear-sightlines"
+      },
+      "subcategory": "celestial-navigation-chamber",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-fantasy-celestial-navigation-chamber-enclosed-geometry",
+      "semantic_key": "scene-location-fantasy-celestial-navigation-chamber-enclosed-geometry",
+      "text": "a celestial navigation chamber with enclosed geometry",
+      "sentence": "A celestial navigation chamber with enclosed geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a celestial navigation chamber with enclosed geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a celestial navigation chamber with enclosed geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a celestial navigation chamber with enclosed geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-fantasy-celestial-navigation-chamber",
+      "tags": [
+        "fantasy",
+        "location",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "celestial-navigation-chamber",
+        "treatment": "enclosed-geometry"
+      },
+      "subcategory": "celestial-navigation-chamber",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-fantasy-celestial-navigation-chamber-expansive-geometry",
+      "semantic_key": "scene-location-fantasy-celestial-navigation-chamber-expansive-geometry",
+      "text": "a celestial navigation chamber with expansive geometry",
+      "sentence": "A celestial navigation chamber with expansive geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a celestial navigation chamber with expansive geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a celestial navigation chamber with expansive geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a celestial navigation chamber with expansive geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-fantasy-celestial-navigation-chamber",
+      "tags": [
+        "fantasy",
+        "location",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "celestial-navigation-chamber",
+        "treatment": "expansive-geometry"
+      },
+      "subcategory": "celestial-navigation-chamber",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-fantasy-celestial-navigation-chamber-asymmetric-layout",
+      "semantic_key": "scene-location-fantasy-celestial-navigation-chamber-asymmetric-layout",
+      "text": "a celestial navigation chamber with asymmetric layout",
+      "sentence": "A celestial navigation chamber with asymmetric layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a celestial navigation chamber with asymmetric layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a celestial navigation chamber with asymmetric layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a celestial navigation chamber with asymmetric layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-fantasy-celestial-navigation-chamber",
+      "tags": [
+        "fantasy",
+        "location",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "celestial-navigation-chamber",
+        "treatment": "asymmetric-layout"
+      },
+      "subcategory": "celestial-navigation-chamber",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-fantasy-celestial-navigation-chamber-central-organization",
+      "semantic_key": "scene-location-fantasy-celestial-navigation-chamber-central-organization",
+      "text": "a celestial navigation chamber with central organization",
+      "sentence": "A celestial navigation chamber with central organization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a celestial navigation chamber with central organization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a celestial navigation chamber with central organization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a celestial navigation chamber with central organization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-fantasy-celestial-navigation-chamber",
+      "tags": [
+        "fantasy",
+        "location",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "celestial-navigation-chamber",
+        "treatment": "central-organization"
+      },
+      "subcategory": "celestial-navigation-chamber",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    }
+  ]
+}

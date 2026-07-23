@@ -1,0 +1,2577 @@
+{
+  "schema_version": "2.0",
+  "id": "wardrobe-accessories-base",
+  "version": "2.0.0",
+  "library": "accessories",
+  "domain": "wardrobe",
+  "category": "accessories",
+  "language": "en",
+  "status": "active",
+  "safety": "general",
+  "tags": [
+    "base"
+  ],
+  "fallback_option_id": "wardrobe-accessories-base-structured-handbag-matte-finish",
+  "options": [
+    {
+      "id": "wardrobe-accessories-base-structured-handbag-matte-finish",
+      "semantic_key": "wardrobe-accessories-base-structured-handbag-matte-finish",
+      "text": "a structured handbag with a matte finish",
+      "sentence": "A structured handbag with a matte finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a structured handbag with a matte finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a structured handbag with a matte finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a structured handbag with a matte finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-accessories-base-structured-handbag",
+      "tags": [
+        "accessories",
+        "base",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "accessory": "structured-handbag",
+        "treatment": "matte-finish"
+      },
+      "subcategory": "structured-handbag",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-accessories-base-structured-handbag-soft-sheen",
+      "semantic_key": "wardrobe-accessories-base-structured-handbag-soft-sheen",
+      "text": "a structured handbag with a soft sheen",
+      "sentence": "A structured handbag with a soft sheen.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a structured handbag with a soft sheen",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a structured handbag with a soft sheen",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a structured handbag with a soft sheen",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-accessories-base-structured-handbag",
+      "tags": [
+        "accessories",
+        "base",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "accessory": "structured-handbag",
+        "treatment": "soft-sheen"
+      },
+      "subcategory": "structured-handbag",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-accessories-base-structured-handbag-natural-luster",
+      "semantic_key": "wardrobe-accessories-base-structured-handbag-natural-luster",
+      "text": "a structured handbag with a natural luster",
+      "sentence": "A structured handbag with a natural luster.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a structured handbag with a natural luster",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a structured handbag with a natural luster",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a structured handbag with a natural luster",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-accessories-base-structured-handbag",
+      "tags": [
+        "accessories",
+        "base",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "accessory": "structured-handbag",
+        "treatment": "natural-luster"
+      },
+      "subcategory": "structured-handbag",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-accessories-base-structured-handbag-textured-finish",
+      "semantic_key": "wardrobe-accessories-base-structured-handbag-textured-finish",
+      "text": "a structured handbag with a textured finish",
+      "sentence": "A structured handbag with a textured finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a structured handbag with a textured finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a structured handbag with a textured finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a structured handbag with a textured finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-accessories-base-structured-handbag",
+      "tags": [
+        "accessories",
+        "base",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "accessory": "structured-handbag",
+        "treatment": "textured-finish"
+      },
+      "subcategory": "structured-handbag",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-accessories-base-structured-handbag-brushed-finish",
+      "semantic_key": "wardrobe-accessories-base-structured-handbag-brushed-finish",
+      "text": "a structured handbag with a brushed finish",
+      "sentence": "A structured handbag with a brushed finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a structured handbag with a brushed finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a structured handbag with a brushed finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a structured handbag with a brushed finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-accessories-base-structured-handbag",
+      "tags": [
+        "accessories",
+        "base",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "accessory": "structured-handbag",
+        "treatment": "brushed-finish"
+      },
+      "subcategory": "structured-handbag",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-accessories-base-structured-handbag-polished-finish",
+      "semantic_key": "wardrobe-accessories-base-structured-handbag-polished-finish",
+      "text": "a structured handbag with a polished finish",
+      "sentence": "A structured handbag with a polished finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a structured handbag with a polished finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a structured handbag with a polished finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a structured handbag with a polished finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-accessories-base-structured-handbag",
+      "tags": [
+        "accessories",
+        "base",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "accessory": "structured-handbag",
+        "treatment": "polished-finish"
+      },
+      "subcategory": "structured-handbag",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-accessories-base-structured-handbag-weathered-finish",
+      "semantic_key": "wardrobe-accessories-base-structured-handbag-weathered-finish",
+      "text": "a structured handbag with a weathered finish",
+      "sentence": "A structured handbag with a weathered finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a structured handbag with a weathered finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a structured handbag with a weathered finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a structured handbag with a weathered finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-accessories-base-structured-handbag",
+      "tags": [
+        "accessories",
+        "base",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "accessory": "structured-handbag",
+        "treatment": "weathered-finish"
+      },
+      "subcategory": "structured-handbag",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-accessories-base-structured-handbag-satin-finish",
+      "semantic_key": "wardrobe-accessories-base-structured-handbag-satin-finish",
+      "text": "a structured handbag with a satin finish",
+      "sentence": "A structured handbag with a satin finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a structured handbag with a satin finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a structured handbag with a satin finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a structured handbag with a satin finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-accessories-base-structured-handbag",
+      "tags": [
+        "accessories",
+        "base",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "accessory": "structured-handbag",
+        "treatment": "satin-finish"
+      },
+      "subcategory": "structured-handbag",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-accessories-base-crossbody-bag-matte-finish",
+      "semantic_key": "wardrobe-accessories-base-crossbody-bag-matte-finish",
+      "text": "a crossbody bag with a matte finish",
+      "sentence": "A crossbody bag with a matte finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a crossbody bag with a matte finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a crossbody bag with a matte finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a crossbody bag with a matte finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-accessories-base-crossbody-bag",
+      "tags": [
+        "accessories",
+        "base",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "accessory": "crossbody-bag",
+        "treatment": "matte-finish"
+      },
+      "subcategory": "crossbody-bag",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-accessories-base-crossbody-bag-soft-sheen",
+      "semantic_key": "wardrobe-accessories-base-crossbody-bag-soft-sheen",
+      "text": "a crossbody bag with a soft sheen",
+      "sentence": "A crossbody bag with a soft sheen.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a crossbody bag with a soft sheen",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a crossbody bag with a soft sheen",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a crossbody bag with a soft sheen",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-accessories-base-crossbody-bag",
+      "tags": [
+        "accessories",
+        "base",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "accessory": "crossbody-bag",
+        "treatment": "soft-sheen"
+      },
+      "subcategory": "crossbody-bag",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-accessories-base-crossbody-bag-natural-luster",
+      "semantic_key": "wardrobe-accessories-base-crossbody-bag-natural-luster",
+      "text": "a crossbody bag with a natural luster",
+      "sentence": "A crossbody bag with a natural luster.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a crossbody bag with a natural luster",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a crossbody bag with a natural luster",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a crossbody bag with a natural luster",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-accessories-base-crossbody-bag",
+      "tags": [
+        "accessories",
+        "base",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "accessory": "crossbody-bag",
+        "treatment": "natural-luster"
+      },
+      "subcategory": "crossbody-bag",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-accessories-base-crossbody-bag-textured-finish",
+      "semantic_key": "wardrobe-accessories-base-crossbody-bag-textured-finish",
+      "text": "a crossbody bag with a textured finish",
+      "sentence": "A crossbody bag with a textured finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a crossbody bag with a textured finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a crossbody bag with a textured finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a crossbody bag with a textured finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-accessories-base-crossbody-bag",
+      "tags": [
+        "accessories",
+        "base",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "accessory": "crossbody-bag",
+        "treatment": "textured-finish"
+      },
+      "subcategory": "crossbody-bag",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-accessories-base-crossbody-bag-brushed-finish",
+      "semantic_key": "wardrobe-accessories-base-crossbody-bag-brushed-finish",
+      "text": "a crossbody bag with a brushed finish",
+      "sentence": "A crossbody bag with a brushed finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a crossbody bag with a brushed finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a crossbody bag with a brushed finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a crossbody bag with a brushed finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-accessories-base-crossbody-bag",
+      "tags": [
+        "accessories",
+        "base",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "accessory": "crossbody-bag",
+        "treatment": "brushed-finish"
+      },
+      "subcategory": "crossbody-bag",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-accessories-base-crossbody-bag-polished-finish",
+      "semantic_key": "wardrobe-accessories-base-crossbody-bag-polished-finish",
+      "text": "a crossbody bag with a polished finish",
+      "sentence": "A crossbody bag with a polished finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a crossbody bag with a polished finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a crossbody bag with a polished finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a crossbody bag with a polished finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-accessories-base-crossbody-bag",
+      "tags": [
+        "accessories",
+        "base",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "accessory": "crossbody-bag",
+        "treatment": "polished-finish"
+      },
+      "subcategory": "crossbody-bag",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-accessories-base-crossbody-bag-weathered-finish",
+      "semantic_key": "wardrobe-accessories-base-crossbody-bag-weathered-finish",
+      "text": "a crossbody bag with a weathered finish",
+      "sentence": "A crossbody bag with a weathered finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a crossbody bag with a weathered finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a crossbody bag with a weathered finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a crossbody bag with a weathered finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-accessories-base-crossbody-bag",
+      "tags": [
+        "accessories",
+        "base",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "accessory": "crossbody-bag",
+        "treatment": "weathered-finish"
+      },
+      "subcategory": "crossbody-bag",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-accessories-base-crossbody-bag-satin-finish",
+      "semantic_key": "wardrobe-accessories-base-crossbody-bag-satin-finish",
+      "text": "a crossbody bag with a satin finish",
+      "sentence": "A crossbody bag with a satin finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a crossbody bag with a satin finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a crossbody bag with a satin finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a crossbody bag with a satin finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-accessories-base-crossbody-bag",
+      "tags": [
+        "accessories",
+        "base",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "accessory": "crossbody-bag",
+        "treatment": "satin-finish"
+      },
+      "subcategory": "crossbody-bag",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-accessories-base-wide-belt-matte-finish",
+      "semantic_key": "wardrobe-accessories-base-wide-belt-matte-finish",
+      "text": "a wide belt with a matte finish",
+      "sentence": "A wide belt with a matte finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a wide belt with a matte finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a wide belt with a matte finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a wide belt with a matte finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-accessories-base-wide-belt",
+      "tags": [
+        "accessories",
+        "base",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "accessory": "wide-belt",
+        "treatment": "matte-finish"
+      },
+      "subcategory": "wide-belt",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-accessories-base-wide-belt-soft-sheen",
+      "semantic_key": "wardrobe-accessories-base-wide-belt-soft-sheen",
+      "text": "a wide belt with a soft sheen",
+      "sentence": "A wide belt with a soft sheen.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a wide belt with a soft sheen",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a wide belt with a soft sheen",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a wide belt with a soft sheen",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-accessories-base-wide-belt",
+      "tags": [
+        "accessories",
+        "base",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "accessory": "wide-belt",
+        "treatment": "soft-sheen"
+      },
+      "subcategory": "wide-belt",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-accessories-base-wide-belt-natural-luster",
+      "semantic_key": "wardrobe-accessories-base-wide-belt-natural-luster",
+      "text": "a wide belt with a natural luster",
+      "sentence": "A wide belt with a natural luster.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a wide belt with a natural luster",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a wide belt with a natural luster",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a wide belt with a natural luster",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-accessories-base-wide-belt",
+      "tags": [
+        "accessories",
+        "base",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "accessory": "wide-belt",
+        "treatment": "natural-luster"
+      },
+      "subcategory": "wide-belt",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-accessories-base-wide-belt-textured-finish",
+      "semantic_key": "wardrobe-accessories-base-wide-belt-textured-finish",
+      "text": "a wide belt with a textured finish",
+      "sentence": "A wide belt with a textured finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a wide belt with a textured finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a wide belt with a textured finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a wide belt with a textured finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-accessories-base-wide-belt",
+      "tags": [
+        "accessories",
+        "base",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "accessory": "wide-belt",
+        "treatment": "textured-finish"
+      },
+      "subcategory": "wide-belt",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-accessories-base-wide-belt-brushed-finish",
+      "semantic_key": "wardrobe-accessories-base-wide-belt-brushed-finish",
+      "text": "a wide belt with a brushed finish",
+      "sentence": "A wide belt with a brushed finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a wide belt with a brushed finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a wide belt with a brushed finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a wide belt with a brushed finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-accessories-base-wide-belt",
+      "tags": [
+        "accessories",
+        "base",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "accessory": "wide-belt",
+        "treatment": "brushed-finish"
+      },
+      "subcategory": "wide-belt",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-accessories-base-wide-belt-polished-finish",
+      "semantic_key": "wardrobe-accessories-base-wide-belt-polished-finish",
+      "text": "a wide belt with a polished finish",
+      "sentence": "A wide belt with a polished finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a wide belt with a polished finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a wide belt with a polished finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a wide belt with a polished finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-accessories-base-wide-belt",
+      "tags": [
+        "accessories",
+        "base",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "accessory": "wide-belt",
+        "treatment": "polished-finish"
+      },
+      "subcategory": "wide-belt",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-accessories-base-wide-belt-weathered-finish",
+      "semantic_key": "wardrobe-accessories-base-wide-belt-weathered-finish",
+      "text": "a wide belt with a weathered finish",
+      "sentence": "A wide belt with a weathered finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a wide belt with a weathered finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a wide belt with a weathered finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a wide belt with a weathered finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-accessories-base-wide-belt",
+      "tags": [
+        "accessories",
+        "base",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "accessory": "wide-belt",
+        "treatment": "weathered-finish"
+      },
+      "subcategory": "wide-belt",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-accessories-base-wide-belt-satin-finish",
+      "semantic_key": "wardrobe-accessories-base-wide-belt-satin-finish",
+      "text": "a wide belt with a satin finish",
+      "sentence": "A wide belt with a satin finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a wide belt with a satin finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a wide belt with a satin finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a wide belt with a satin finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-accessories-base-wide-belt",
+      "tags": [
+        "accessories",
+        "base",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "accessory": "wide-belt",
+        "treatment": "satin-finish"
+      },
+      "subcategory": "wide-belt",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-accessories-base-narrow-belt-matte-finish",
+      "semantic_key": "wardrobe-accessories-base-narrow-belt-matte-finish",
+      "text": "a narrow belt with a matte finish",
+      "sentence": "A narrow belt with a matte finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a narrow belt with a matte finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a narrow belt with a matte finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a narrow belt with a matte finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-accessories-base-narrow-belt",
+      "tags": [
+        "accessories",
+        "base",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "accessory": "narrow-belt",
+        "treatment": "matte-finish"
+      },
+      "subcategory": "narrow-belt",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-accessories-base-narrow-belt-soft-sheen",
+      "semantic_key": "wardrobe-accessories-base-narrow-belt-soft-sheen",
+      "text": "a narrow belt with a soft sheen",
+      "sentence": "A narrow belt with a soft sheen.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a narrow belt with a soft sheen",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a narrow belt with a soft sheen",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a narrow belt with a soft sheen",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-accessories-base-narrow-belt",
+      "tags": [
+        "accessories",
+        "base",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "accessory": "narrow-belt",
+        "treatment": "soft-sheen"
+      },
+      "subcategory": "narrow-belt",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-accessories-base-narrow-belt-natural-luster",
+      "semantic_key": "wardrobe-accessories-base-narrow-belt-natural-luster",
+      "text": "a narrow belt with a natural luster",
+      "sentence": "A narrow belt with a natural luster.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a narrow belt with a natural luster",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a narrow belt with a natural luster",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a narrow belt with a natural luster",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-accessories-base-narrow-belt",
+      "tags": [
+        "accessories",
+        "base",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "accessory": "narrow-belt",
+        "treatment": "natural-luster"
+      },
+      "subcategory": "narrow-belt",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-accessories-base-narrow-belt-textured-finish",
+      "semantic_key": "wardrobe-accessories-base-narrow-belt-textured-finish",
+      "text": "a narrow belt with a textured finish",
+      "sentence": "A narrow belt with a textured finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a narrow belt with a textured finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a narrow belt with a textured finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a narrow belt with a textured finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-accessories-base-narrow-belt",
+      "tags": [
+        "accessories",
+        "base",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "accessory": "narrow-belt",
+        "treatment": "textured-finish"
+      },
+      "subcategory": "narrow-belt",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-accessories-base-narrow-belt-brushed-finish",
+      "semantic_key": "wardrobe-accessories-base-narrow-belt-brushed-finish",
+      "text": "a narrow belt with a brushed finish",
+      "sentence": "A narrow belt with a brushed finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a narrow belt with a brushed finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a narrow belt with a brushed finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a narrow belt with a brushed finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-accessories-base-narrow-belt",
+      "tags": [
+        "accessories",
+        "base",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "accessory": "narrow-belt",
+        "treatment": "brushed-finish"
+      },
+      "subcategory": "narrow-belt",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-accessories-base-narrow-belt-polished-finish",
+      "semantic_key": "wardrobe-accessories-base-narrow-belt-polished-finish",
+      "text": "a narrow belt with a polished finish",
+      "sentence": "A narrow belt with a polished finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a narrow belt with a polished finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a narrow belt with a polished finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a narrow belt with a polished finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-accessories-base-narrow-belt",
+      "tags": [
+        "accessories",
+        "base",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "accessory": "narrow-belt",
+        "treatment": "polished-finish"
+      },
+      "subcategory": "narrow-belt",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-accessories-base-narrow-belt-weathered-finish",
+      "semantic_key": "wardrobe-accessories-base-narrow-belt-weathered-finish",
+      "text": "a narrow belt with a weathered finish",
+      "sentence": "A narrow belt with a weathered finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a narrow belt with a weathered finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a narrow belt with a weathered finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a narrow belt with a weathered finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-accessories-base-narrow-belt",
+      "tags": [
+        "accessories",
+        "base",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "accessory": "narrow-belt",
+        "treatment": "weathered-finish"
+      },
+      "subcategory": "narrow-belt",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-accessories-base-narrow-belt-satin-finish",
+      "semantic_key": "wardrobe-accessories-base-narrow-belt-satin-finish",
+      "text": "a narrow belt with a satin finish",
+      "sentence": "A narrow belt with a satin finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a narrow belt with a satin finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a narrow belt with a satin finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a narrow belt with a satin finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-accessories-base-narrow-belt",
+      "tags": [
+        "accessories",
+        "base",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "accessory": "narrow-belt",
+        "treatment": "satin-finish"
+      },
+      "subcategory": "narrow-belt",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-accessories-base-silk-scarf-matte-finish",
+      "semantic_key": "wardrobe-accessories-base-silk-scarf-matte-finish",
+      "text": "a silk scarf with a matte finish",
+      "sentence": "A silk scarf with a matte finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a silk scarf with a matte finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a silk scarf with a matte finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a silk scarf with a matte finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-accessories-base-silk-scarf",
+      "tags": [
+        "accessories",
+        "base",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "accessory": "silk-scarf",
+        "treatment": "matte-finish"
+      },
+      "subcategory": "silk-scarf",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-accessories-base-silk-scarf-soft-sheen",
+      "semantic_key": "wardrobe-accessories-base-silk-scarf-soft-sheen",
+      "text": "a silk scarf with a soft sheen",
+      "sentence": "A silk scarf with a soft sheen.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a silk scarf with a soft sheen",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a silk scarf with a soft sheen",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a silk scarf with a soft sheen",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-accessories-base-silk-scarf",
+      "tags": [
+        "accessories",
+        "base",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "accessory": "silk-scarf",
+        "treatment": "soft-sheen"
+      },
+      "subcategory": "silk-scarf",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-accessories-base-silk-scarf-natural-luster",
+      "semantic_key": "wardrobe-accessories-base-silk-scarf-natural-luster",
+      "text": "a silk scarf with a natural luster",
+      "sentence": "A silk scarf with a natural luster.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a silk scarf with a natural luster",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a silk scarf with a natural luster",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a silk scarf with a natural luster",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-accessories-base-silk-scarf",
+      "tags": [
+        "accessories",
+        "base",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "accessory": "silk-scarf",
+        "treatment": "natural-luster"
+      },
+      "subcategory": "silk-scarf",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-accessories-base-silk-scarf-textured-finish",
+      "semantic_key": "wardrobe-accessories-base-silk-scarf-textured-finish",
+      "text": "a silk scarf with a textured finish",
+      "sentence": "A silk scarf with a textured finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a silk scarf with a textured finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a silk scarf with a textured finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a silk scarf with a textured finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-accessories-base-silk-scarf",
+      "tags": [
+        "accessories",
+        "base",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "accessory": "silk-scarf",
+        "treatment": "textured-finish"
+      },
+      "subcategory": "silk-scarf",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-accessories-base-silk-scarf-brushed-finish",
+      "semantic_key": "wardrobe-accessories-base-silk-scarf-brushed-finish",
+      "text": "a silk scarf with a brushed finish",
+      "sentence": "A silk scarf with a brushed finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a silk scarf with a brushed finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a silk scarf with a brushed finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a silk scarf with a brushed finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-accessories-base-silk-scarf",
+      "tags": [
+        "accessories",
+        "base",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "accessory": "silk-scarf",
+        "treatment": "brushed-finish"
+      },
+      "subcategory": "silk-scarf",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-accessories-base-silk-scarf-polished-finish",
+      "semantic_key": "wardrobe-accessories-base-silk-scarf-polished-finish",
+      "text": "a silk scarf with a polished finish",
+      "sentence": "A silk scarf with a polished finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a silk scarf with a polished finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a silk scarf with a polished finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a silk scarf with a polished finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-accessories-base-silk-scarf",
+      "tags": [
+        "accessories",
+        "base",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "accessory": "silk-scarf",
+        "treatment": "polished-finish"
+      },
+      "subcategory": "silk-scarf",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-accessories-base-silk-scarf-weathered-finish",
+      "semantic_key": "wardrobe-accessories-base-silk-scarf-weathered-finish",
+      "text": "a silk scarf with a weathered finish",
+      "sentence": "A silk scarf with a weathered finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a silk scarf with a weathered finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a silk scarf with a weathered finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a silk scarf with a weathered finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-accessories-base-silk-scarf",
+      "tags": [
+        "accessories",
+        "base",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "accessory": "silk-scarf",
+        "treatment": "weathered-finish"
+      },
+      "subcategory": "silk-scarf",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-accessories-base-silk-scarf-satin-finish",
+      "semantic_key": "wardrobe-accessories-base-silk-scarf-satin-finish",
+      "text": "a silk scarf with a satin finish",
+      "sentence": "A silk scarf with a satin finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a silk scarf with a satin finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a silk scarf with a satin finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a silk scarf with a satin finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-accessories-base-silk-scarf",
+      "tags": [
+        "accessories",
+        "base",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "accessory": "silk-scarf",
+        "treatment": "satin-finish"
+      },
+      "subcategory": "silk-scarf",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-accessories-base-leather-gloves-matte-finish",
+      "semantic_key": "wardrobe-accessories-base-leather-gloves-matte-finish",
+      "text": "a leather gloves with a matte finish",
+      "sentence": "A leather gloves with a matte finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a leather gloves with a matte finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a leather gloves with a matte finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a leather gloves with a matte finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-accessories-base-leather-gloves",
+      "tags": [
+        "accessories",
+        "base",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "accessory": "leather-gloves",
+        "treatment": "matte-finish"
+      },
+      "subcategory": "leather-gloves",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-accessories-base-leather-gloves-soft-sheen",
+      "semantic_key": "wardrobe-accessories-base-leather-gloves-soft-sheen",
+      "text": "a leather gloves with a soft sheen",
+      "sentence": "A leather gloves with a soft sheen.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a leather gloves with a soft sheen",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a leather gloves with a soft sheen",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a leather gloves with a soft sheen",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-accessories-base-leather-gloves",
+      "tags": [
+        "accessories",
+        "base",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "accessory": "leather-gloves",
+        "treatment": "soft-sheen"
+      },
+      "subcategory": "leather-gloves",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-accessories-base-leather-gloves-natural-luster",
+      "semantic_key": "wardrobe-accessories-base-leather-gloves-natural-luster",
+      "text": "a leather gloves with a natural luster",
+      "sentence": "A leather gloves with a natural luster.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a leather gloves with a natural luster",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a leather gloves with a natural luster",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a leather gloves with a natural luster",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-accessories-base-leather-gloves",
+      "tags": [
+        "accessories",
+        "base",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "accessory": "leather-gloves",
+        "treatment": "natural-luster"
+      },
+      "subcategory": "leather-gloves",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-accessories-base-leather-gloves-textured-finish",
+      "semantic_key": "wardrobe-accessories-base-leather-gloves-textured-finish",
+      "text": "a leather gloves with a textured finish",
+      "sentence": "A leather gloves with a textured finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a leather gloves with a textured finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a leather gloves with a textured finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a leather gloves with a textured finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-accessories-base-leather-gloves",
+      "tags": [
+        "accessories",
+        "base",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "accessory": "leather-gloves",
+        "treatment": "textured-finish"
+      },
+      "subcategory": "leather-gloves",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-accessories-base-leather-gloves-brushed-finish",
+      "semantic_key": "wardrobe-accessories-base-leather-gloves-brushed-finish",
+      "text": "a leather gloves with a brushed finish",
+      "sentence": "A leather gloves with a brushed finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a leather gloves with a brushed finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a leather gloves with a brushed finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a leather gloves with a brushed finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-accessories-base-leather-gloves",
+      "tags": [
+        "accessories",
+        "base",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "accessory": "leather-gloves",
+        "treatment": "brushed-finish"
+      },
+      "subcategory": "leather-gloves",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-accessories-base-leather-gloves-polished-finish",
+      "semantic_key": "wardrobe-accessories-base-leather-gloves-polished-finish",
+      "text": "a leather gloves with a polished finish",
+      "sentence": "A leather gloves with a polished finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a leather gloves with a polished finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a leather gloves with a polished finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a leather gloves with a polished finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-accessories-base-leather-gloves",
+      "tags": [
+        "accessories",
+        "base",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "accessory": "leather-gloves",
+        "treatment": "polished-finish"
+      },
+      "subcategory": "leather-gloves",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-accessories-base-leather-gloves-weathered-finish",
+      "semantic_key": "wardrobe-accessories-base-leather-gloves-weathered-finish",
+      "text": "a leather gloves with a weathered finish",
+      "sentence": "A leather gloves with a weathered finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a leather gloves with a weathered finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a leather gloves with a weathered finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a leather gloves with a weathered finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-accessories-base-leather-gloves",
+      "tags": [
+        "accessories",
+        "base",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "accessory": "leather-gloves",
+        "treatment": "weathered-finish"
+      },
+      "subcategory": "leather-gloves",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-accessories-base-leather-gloves-satin-finish",
+      "semantic_key": "wardrobe-accessories-base-leather-gloves-satin-finish",
+      "text": "a leather gloves with a satin finish",
+      "sentence": "A leather gloves with a satin finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a leather gloves with a satin finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a leather gloves with a satin finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a leather gloves with a satin finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-accessories-base-leather-gloves",
+      "tags": [
+        "accessories",
+        "base",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "accessory": "leather-gloves",
+        "treatment": "satin-finish"
+      },
+      "subcategory": "leather-gloves",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-accessories-base-compact-umbrella-matte-finish",
+      "semantic_key": "wardrobe-accessories-base-compact-umbrella-matte-finish",
+      "text": "a compact umbrella with a matte finish",
+      "sentence": "A compact umbrella with a matte finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a compact umbrella with a matte finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a compact umbrella with a matte finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a compact umbrella with a matte finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-accessories-base-compact-umbrella",
+      "tags": [
+        "accessories",
+        "base",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "accessory": "compact-umbrella",
+        "treatment": "matte-finish"
+      },
+      "subcategory": "compact-umbrella",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-accessories-base-compact-umbrella-soft-sheen",
+      "semantic_key": "wardrobe-accessories-base-compact-umbrella-soft-sheen",
+      "text": "a compact umbrella with a soft sheen",
+      "sentence": "A compact umbrella with a soft sheen.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a compact umbrella with a soft sheen",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a compact umbrella with a soft sheen",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a compact umbrella with a soft sheen",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-accessories-base-compact-umbrella",
+      "tags": [
+        "accessories",
+        "base",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "accessory": "compact-umbrella",
+        "treatment": "soft-sheen"
+      },
+      "subcategory": "compact-umbrella",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-accessories-base-compact-umbrella-natural-luster",
+      "semantic_key": "wardrobe-accessories-base-compact-umbrella-natural-luster",
+      "text": "a compact umbrella with a natural luster",
+      "sentence": "A compact umbrella with a natural luster.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a compact umbrella with a natural luster",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a compact umbrella with a natural luster",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a compact umbrella with a natural luster",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-accessories-base-compact-umbrella",
+      "tags": [
+        "accessories",
+        "base",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "accessory": "compact-umbrella",
+        "treatment": "natural-luster"
+      },
+      "subcategory": "compact-umbrella",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-accessories-base-compact-umbrella-textured-finish",
+      "semantic_key": "wardrobe-accessories-base-compact-umbrella-textured-finish",
+      "text": "a compact umbrella with a textured finish",
+      "sentence": "A compact umbrella with a textured finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a compact umbrella with a textured finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a compact umbrella with a textured finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a compact umbrella with a textured finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-accessories-base-compact-umbrella",
+      "tags": [
+        "accessories",
+        "base",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "accessory": "compact-umbrella",
+        "treatment": "textured-finish"
+      },
+      "subcategory": "compact-umbrella",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-accessories-base-compact-umbrella-brushed-finish",
+      "semantic_key": "wardrobe-accessories-base-compact-umbrella-brushed-finish",
+      "text": "a compact umbrella with a brushed finish",
+      "sentence": "A compact umbrella with a brushed finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a compact umbrella with a brushed finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a compact umbrella with a brushed finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a compact umbrella with a brushed finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-accessories-base-compact-umbrella",
+      "tags": [
+        "accessories",
+        "base",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "accessory": "compact-umbrella",
+        "treatment": "brushed-finish"
+      },
+      "subcategory": "compact-umbrella",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-accessories-base-compact-umbrella-polished-finish",
+      "semantic_key": "wardrobe-accessories-base-compact-umbrella-polished-finish",
+      "text": "a compact umbrella with a polished finish",
+      "sentence": "A compact umbrella with a polished finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a compact umbrella with a polished finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a compact umbrella with a polished finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a compact umbrella with a polished finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-accessories-base-compact-umbrella",
+      "tags": [
+        "accessories",
+        "base",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "accessory": "compact-umbrella",
+        "treatment": "polished-finish"
+      },
+      "subcategory": "compact-umbrella",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-accessories-base-compact-umbrella-weathered-finish",
+      "semantic_key": "wardrobe-accessories-base-compact-umbrella-weathered-finish",
+      "text": "a compact umbrella with a weathered finish",
+      "sentence": "A compact umbrella with a weathered finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a compact umbrella with a weathered finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a compact umbrella with a weathered finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a compact umbrella with a weathered finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-accessories-base-compact-umbrella",
+      "tags": [
+        "accessories",
+        "base",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "accessory": "compact-umbrella",
+        "treatment": "weathered-finish"
+      },
+      "subcategory": "compact-umbrella",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-accessories-base-compact-umbrella-satin-finish",
+      "semantic_key": "wardrobe-accessories-base-compact-umbrella-satin-finish",
+      "text": "a compact umbrella with a satin finish",
+      "sentence": "A compact umbrella with a satin finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a compact umbrella with a satin finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a compact umbrella with a satin finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a compact umbrella with a satin finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-accessories-base-compact-umbrella",
+      "tags": [
+        "accessories",
+        "base",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "accessory": "compact-umbrella",
+        "treatment": "satin-finish"
+      },
+      "subcategory": "compact-umbrella",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-accessories-base-minimal-watch-matte-finish",
+      "semantic_key": "wardrobe-accessories-base-minimal-watch-matte-finish",
+      "text": "a minimal watch with a matte finish",
+      "sentence": "A minimal watch with a matte finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a minimal watch with a matte finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a minimal watch with a matte finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a minimal watch with a matte finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-accessories-base-minimal-watch",
+      "tags": [
+        "accessories",
+        "base",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "accessory": "minimal-watch",
+        "treatment": "matte-finish"
+      },
+      "subcategory": "minimal-watch",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-accessories-base-minimal-watch-soft-sheen",
+      "semantic_key": "wardrobe-accessories-base-minimal-watch-soft-sheen",
+      "text": "a minimal watch with a soft sheen",
+      "sentence": "A minimal watch with a soft sheen.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a minimal watch with a soft sheen",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a minimal watch with a soft sheen",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a minimal watch with a soft sheen",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-accessories-base-minimal-watch",
+      "tags": [
+        "accessories",
+        "base",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "accessory": "minimal-watch",
+        "treatment": "soft-sheen"
+      },
+      "subcategory": "minimal-watch",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-accessories-base-minimal-watch-natural-luster",
+      "semantic_key": "wardrobe-accessories-base-minimal-watch-natural-luster",
+      "text": "a minimal watch with a natural luster",
+      "sentence": "A minimal watch with a natural luster.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a minimal watch with a natural luster",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a minimal watch with a natural luster",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a minimal watch with a natural luster",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-accessories-base-minimal-watch",
+      "tags": [
+        "accessories",
+        "base",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "accessory": "minimal-watch",
+        "treatment": "natural-luster"
+      },
+      "subcategory": "minimal-watch",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-accessories-base-minimal-watch-textured-finish",
+      "semantic_key": "wardrobe-accessories-base-minimal-watch-textured-finish",
+      "text": "a minimal watch with a textured finish",
+      "sentence": "A minimal watch with a textured finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a minimal watch with a textured finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a minimal watch with a textured finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a minimal watch with a textured finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-accessories-base-minimal-watch",
+      "tags": [
+        "accessories",
+        "base",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "accessory": "minimal-watch",
+        "treatment": "textured-finish"
+      },
+      "subcategory": "minimal-watch",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-accessories-base-minimal-watch-brushed-finish",
+      "semantic_key": "wardrobe-accessories-base-minimal-watch-brushed-finish",
+      "text": "a minimal watch with a brushed finish",
+      "sentence": "A minimal watch with a brushed finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a minimal watch with a brushed finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a minimal watch with a brushed finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a minimal watch with a brushed finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-accessories-base-minimal-watch",
+      "tags": [
+        "accessories",
+        "base",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "accessory": "minimal-watch",
+        "treatment": "brushed-finish"
+      },
+      "subcategory": "minimal-watch",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-accessories-base-minimal-watch-polished-finish",
+      "semantic_key": "wardrobe-accessories-base-minimal-watch-polished-finish",
+      "text": "a minimal watch with a polished finish",
+      "sentence": "A minimal watch with a polished finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a minimal watch with a polished finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a minimal watch with a polished finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a minimal watch with a polished finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-accessories-base-minimal-watch",
+      "tags": [
+        "accessories",
+        "base",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "accessory": "minimal-watch",
+        "treatment": "polished-finish"
+      },
+      "subcategory": "minimal-watch",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-accessories-base-minimal-watch-weathered-finish",
+      "semantic_key": "wardrobe-accessories-base-minimal-watch-weathered-finish",
+      "text": "a minimal watch with a weathered finish",
+      "sentence": "A minimal watch with a weathered finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a minimal watch with a weathered finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a minimal watch with a weathered finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a minimal watch with a weathered finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-accessories-base-minimal-watch",
+      "tags": [
+        "accessories",
+        "base",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "accessory": "minimal-watch",
+        "treatment": "weathered-finish"
+      },
+      "subcategory": "minimal-watch",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-accessories-base-minimal-watch-satin-finish",
+      "semantic_key": "wardrobe-accessories-base-minimal-watch-satin-finish",
+      "text": "a minimal watch with a satin finish",
+      "sentence": "A minimal watch with a satin finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a minimal watch with a satin finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a minimal watch with a satin finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a minimal watch with a satin finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-accessories-base-minimal-watch",
+      "tags": [
+        "accessories",
+        "base",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "accessory": "minimal-watch",
+        "treatment": "satin-finish"
+      },
+      "subcategory": "minimal-watch",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    }
+  ]
+}

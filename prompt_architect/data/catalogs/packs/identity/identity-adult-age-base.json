@@ -1,0 +1,2642 @@
+{
+  "schema_version": "2.0",
+  "id": "identity-adult-age-base",
+  "version": "2.0.0",
+  "library": "adult-age",
+  "domain": "identity",
+  "category": "adult-age",
+  "language": "en",
+  "status": "active",
+  "safety": "general",
+  "tags": [
+    "adults-only",
+    "base"
+  ],
+  "fallback_option_id": "identity-adult-age-base-adult-in-their-twenties-softly-defined",
+  "options": [
+    {
+      "id": "identity-adult-age-base-adult-in-their-twenties-softly-defined",
+      "semantic_key": "identity-adult-age-base-adult-in-their-twenties-softly-defined",
+      "text": "adult in their twenties, with softly defined age characterization",
+      "sentence": "Adult in their twenties, with softly defined age characterization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult in their twenties, with softly defined age characterization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult in their twenties, with softly defined age characterization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult in their twenties, with softly defined age characterization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-adult-age-base-adult-in-their-twenties",
+      "tags": [
+        "adult-age",
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "age-band": "adult-in-their-twenties",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "adult-in-their-twenties",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-adult-age-base-adult-in-their-twenties-cleanly-outlined",
+      "semantic_key": "identity-adult-age-base-adult-in-their-twenties-cleanly-outlined",
+      "text": "adult in their twenties, with cleanly outlined age characterization",
+      "sentence": "Adult in their twenties, with cleanly outlined age characterization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult in their twenties, with cleanly outlined age characterization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult in their twenties, with cleanly outlined age characterization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult in their twenties, with cleanly outlined age characterization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-adult-age-base-adult-in-their-twenties",
+      "tags": [
+        "adult-age",
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "age-band": "adult-in-their-twenties",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "adult-in-their-twenties",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-adult-age-base-adult-in-their-twenties-gently-tapered",
+      "semantic_key": "identity-adult-age-base-adult-in-their-twenties-gently-tapered",
+      "text": "adult in their twenties, with gently tapered age characterization",
+      "sentence": "Adult in their twenties, with gently tapered age characterization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult in their twenties, with gently tapered age characterization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult in their twenties, with gently tapered age characterization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult in their twenties, with gently tapered age characterization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-adult-age-base-adult-in-their-twenties",
+      "tags": [
+        "adult-age",
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "age-band": "adult-in-their-twenties",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "adult-in-their-twenties",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-adult-age-base-adult-in-their-twenties-evenly-proportioned",
+      "semantic_key": "identity-adult-age-base-adult-in-their-twenties-evenly-proportioned",
+      "text": "adult in their twenties, with evenly proportioned age characterization",
+      "sentence": "Adult in their twenties, with evenly proportioned age characterization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult in their twenties, with evenly proportioned age characterization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult in their twenties, with evenly proportioned age characterization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult in their twenties, with evenly proportioned age characterization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-adult-age-base-adult-in-their-twenties",
+      "tags": [
+        "adult-age",
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "age-band": "adult-in-their-twenties",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "adult-in-their-twenties",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-adult-age-base-adult-in-their-twenties-subtly-angular",
+      "semantic_key": "identity-adult-age-base-adult-in-their-twenties-subtly-angular",
+      "text": "adult in their twenties, with subtly angular age characterization",
+      "sentence": "Adult in their twenties, with subtly angular age characterization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult in their twenties, with subtly angular age characterization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult in their twenties, with subtly angular age characterization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult in their twenties, with subtly angular age characterization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-adult-age-base-adult-in-their-twenties",
+      "tags": [
+        "adult-age",
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "age-band": "adult-in-their-twenties",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "adult-in-their-twenties",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-adult-age-base-adult-in-their-twenties-smoothly-contoured",
+      "semantic_key": "identity-adult-age-base-adult-in-their-twenties-smoothly-contoured",
+      "text": "adult in their twenties, with smoothly contoured age characterization",
+      "sentence": "Adult in their twenties, with smoothly contoured age characterization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult in their twenties, with smoothly contoured age characterization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult in their twenties, with smoothly contoured age characterization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult in their twenties, with smoothly contoured age characterization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-adult-age-base-adult-in-their-twenties",
+      "tags": [
+        "adult-age",
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "age-band": "adult-in-their-twenties",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "adult-in-their-twenties",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-adult-age-base-adult-in-their-twenties-distinctly-structured",
+      "semantic_key": "identity-adult-age-base-adult-in-their-twenties-distinctly-structured",
+      "text": "adult in their twenties, with distinctly structured age characterization",
+      "sentence": "Adult in their twenties, with distinctly structured age characterization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult in their twenties, with distinctly structured age characterization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult in their twenties, with distinctly structured age characterization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult in their twenties, with distinctly structured age characterization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-adult-age-base-adult-in-their-twenties",
+      "tags": [
+        "adult-age",
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "age-band": "adult-in-their-twenties",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "adult-in-their-twenties",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-adult-age-base-adult-in-their-twenties-naturally-asymmetric",
+      "semantic_key": "identity-adult-age-base-adult-in-their-twenties-naturally-asymmetric",
+      "text": "adult in their twenties, with naturally asymmetric age characterization",
+      "sentence": "Adult in their twenties, with naturally asymmetric age characterization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult in their twenties, with naturally asymmetric age characterization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult in their twenties, with naturally asymmetric age characterization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult in their twenties, with naturally asymmetric age characterization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-adult-age-base-adult-in-their-twenties",
+      "tags": [
+        "adult-age",
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "age-band": "adult-in-their-twenties",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "adult-in-their-twenties",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-adult-age-base-adult-in-their-thirties-softly-defined",
+      "semantic_key": "identity-adult-age-base-adult-in-their-thirties-softly-defined",
+      "text": "adult in their thirties, with softly defined age characterization",
+      "sentence": "Adult in their thirties, with softly defined age characterization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult in their thirties, with softly defined age characterization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult in their thirties, with softly defined age characterization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult in their thirties, with softly defined age characterization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-adult-age-base-adult-in-their-thirties",
+      "tags": [
+        "adult-age",
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "age-band": "adult-in-their-thirties",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "adult-in-their-thirties",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-adult-age-base-adult-in-their-thirties-cleanly-outlined",
+      "semantic_key": "identity-adult-age-base-adult-in-their-thirties-cleanly-outlined",
+      "text": "adult in their thirties, with cleanly outlined age characterization",
+      "sentence": "Adult in their thirties, with cleanly outlined age characterization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult in their thirties, with cleanly outlined age characterization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult in their thirties, with cleanly outlined age characterization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult in their thirties, with cleanly outlined age characterization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-adult-age-base-adult-in-their-thirties",
+      "tags": [
+        "adult-age",
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "age-band": "adult-in-their-thirties",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "adult-in-their-thirties",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-adult-age-base-adult-in-their-thirties-gently-tapered",
+      "semantic_key": "identity-adult-age-base-adult-in-their-thirties-gently-tapered",
+      "text": "adult in their thirties, with gently tapered age characterization",
+      "sentence": "Adult in their thirties, with gently tapered age characterization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult in their thirties, with gently tapered age characterization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult in their thirties, with gently tapered age characterization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult in their thirties, with gently tapered age characterization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-adult-age-base-adult-in-their-thirties",
+      "tags": [
+        "adult-age",
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "age-band": "adult-in-their-thirties",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "adult-in-their-thirties",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-adult-age-base-adult-in-their-thirties-evenly-proportioned",
+      "semantic_key": "identity-adult-age-base-adult-in-their-thirties-evenly-proportioned",
+      "text": "adult in their thirties, with evenly proportioned age characterization",
+      "sentence": "Adult in their thirties, with evenly proportioned age characterization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult in their thirties, with evenly proportioned age characterization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult in their thirties, with evenly proportioned age characterization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult in their thirties, with evenly proportioned age characterization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-adult-age-base-adult-in-their-thirties",
+      "tags": [
+        "adult-age",
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "age-band": "adult-in-their-thirties",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "adult-in-their-thirties",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-adult-age-base-adult-in-their-thirties-subtly-angular",
+      "semantic_key": "identity-adult-age-base-adult-in-their-thirties-subtly-angular",
+      "text": "adult in their thirties, with subtly angular age characterization",
+      "sentence": "Adult in their thirties, with subtly angular age characterization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult in their thirties, with subtly angular age characterization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult in their thirties, with subtly angular age characterization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult in their thirties, with subtly angular age characterization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-adult-age-base-adult-in-their-thirties",
+      "tags": [
+        "adult-age",
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "age-band": "adult-in-their-thirties",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "adult-in-their-thirties",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-adult-age-base-adult-in-their-thirties-smoothly-contoured",
+      "semantic_key": "identity-adult-age-base-adult-in-their-thirties-smoothly-contoured",
+      "text": "adult in their thirties, with smoothly contoured age characterization",
+      "sentence": "Adult in their thirties, with smoothly contoured age characterization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult in their thirties, with smoothly contoured age characterization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult in their thirties, with smoothly contoured age characterization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult in their thirties, with smoothly contoured age characterization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-adult-age-base-adult-in-their-thirties",
+      "tags": [
+        "adult-age",
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "age-band": "adult-in-their-thirties",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "adult-in-their-thirties",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-adult-age-base-adult-in-their-thirties-distinctly-structured",
+      "semantic_key": "identity-adult-age-base-adult-in-their-thirties-distinctly-structured",
+      "text": "adult in their thirties, with distinctly structured age characterization",
+      "sentence": "Adult in their thirties, with distinctly structured age characterization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult in their thirties, with distinctly structured age characterization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult in their thirties, with distinctly structured age characterization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult in their thirties, with distinctly structured age characterization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-adult-age-base-adult-in-their-thirties",
+      "tags": [
+        "adult-age",
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "age-band": "adult-in-their-thirties",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "adult-in-their-thirties",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-adult-age-base-adult-in-their-thirties-naturally-asymmetric",
+      "semantic_key": "identity-adult-age-base-adult-in-their-thirties-naturally-asymmetric",
+      "text": "adult in their thirties, with naturally asymmetric age characterization",
+      "sentence": "Adult in their thirties, with naturally asymmetric age characterization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult in their thirties, with naturally asymmetric age characterization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult in their thirties, with naturally asymmetric age characterization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult in their thirties, with naturally asymmetric age characterization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-adult-age-base-adult-in-their-thirties",
+      "tags": [
+        "adult-age",
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "age-band": "adult-in-their-thirties",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "adult-in-their-thirties",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-adult-age-base-adult-in-their-forties-softly-defined",
+      "semantic_key": "identity-adult-age-base-adult-in-their-forties-softly-defined",
+      "text": "adult in their forties, with softly defined age characterization",
+      "sentence": "Adult in their forties, with softly defined age characterization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult in their forties, with softly defined age characterization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult in their forties, with softly defined age characterization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult in their forties, with softly defined age characterization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-adult-age-base-adult-in-their-forties",
+      "tags": [
+        "adult-age",
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "age-band": "adult-in-their-forties",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "adult-in-their-forties",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-adult-age-base-adult-in-their-forties-cleanly-outlined",
+      "semantic_key": "identity-adult-age-base-adult-in-their-forties-cleanly-outlined",
+      "text": "adult in their forties, with cleanly outlined age characterization",
+      "sentence": "Adult in their forties, with cleanly outlined age characterization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult in their forties, with cleanly outlined age characterization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult in their forties, with cleanly outlined age characterization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult in their forties, with cleanly outlined age characterization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-adult-age-base-adult-in-their-forties",
+      "tags": [
+        "adult-age",
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "age-band": "adult-in-their-forties",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "adult-in-their-forties",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-adult-age-base-adult-in-their-forties-gently-tapered",
+      "semantic_key": "identity-adult-age-base-adult-in-their-forties-gently-tapered",
+      "text": "adult in their forties, with gently tapered age characterization",
+      "sentence": "Adult in their forties, with gently tapered age characterization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult in their forties, with gently tapered age characterization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult in their forties, with gently tapered age characterization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult in their forties, with gently tapered age characterization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-adult-age-base-adult-in-their-forties",
+      "tags": [
+        "adult-age",
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "age-band": "adult-in-their-forties",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "adult-in-their-forties",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-adult-age-base-adult-in-their-forties-evenly-proportioned",
+      "semantic_key": "identity-adult-age-base-adult-in-their-forties-evenly-proportioned",
+      "text": "adult in their forties, with evenly proportioned age characterization",
+      "sentence": "Adult in their forties, with evenly proportioned age characterization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult in their forties, with evenly proportioned age characterization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult in their forties, with evenly proportioned age characterization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult in their forties, with evenly proportioned age characterization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-adult-age-base-adult-in-their-forties",
+      "tags": [
+        "adult-age",
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "age-band": "adult-in-their-forties",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "adult-in-their-forties",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-adult-age-base-adult-in-their-forties-subtly-angular",
+      "semantic_key": "identity-adult-age-base-adult-in-their-forties-subtly-angular",
+      "text": "adult in their forties, with subtly angular age characterization",
+      "sentence": "Adult in their forties, with subtly angular age characterization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult in their forties, with subtly angular age characterization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult in their forties, with subtly angular age characterization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult in their forties, with subtly angular age characterization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-adult-age-base-adult-in-their-forties",
+      "tags": [
+        "adult-age",
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "age-band": "adult-in-their-forties",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "adult-in-their-forties",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-adult-age-base-adult-in-their-forties-smoothly-contoured",
+      "semantic_key": "identity-adult-age-base-adult-in-their-forties-smoothly-contoured",
+      "text": "adult in their forties, with smoothly contoured age characterization",
+      "sentence": "Adult in their forties, with smoothly contoured age characterization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult in their forties, with smoothly contoured age characterization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult in their forties, with smoothly contoured age characterization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult in their forties, with smoothly contoured age characterization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-adult-age-base-adult-in-their-forties",
+      "tags": [
+        "adult-age",
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "age-band": "adult-in-their-forties",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "adult-in-their-forties",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-adult-age-base-adult-in-their-forties-distinctly-structured",
+      "semantic_key": "identity-adult-age-base-adult-in-their-forties-distinctly-structured",
+      "text": "adult in their forties, with distinctly structured age characterization",
+      "sentence": "Adult in their forties, with distinctly structured age characterization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult in their forties, with distinctly structured age characterization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult in their forties, with distinctly structured age characterization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult in their forties, with distinctly structured age characterization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-adult-age-base-adult-in-their-forties",
+      "tags": [
+        "adult-age",
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "age-band": "adult-in-their-forties",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "adult-in-their-forties",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-adult-age-base-adult-in-their-forties-naturally-asymmetric",
+      "semantic_key": "identity-adult-age-base-adult-in-their-forties-naturally-asymmetric",
+      "text": "adult in their forties, with naturally asymmetric age characterization",
+      "sentence": "Adult in their forties, with naturally asymmetric age characterization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult in their forties, with naturally asymmetric age characterization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult in their forties, with naturally asymmetric age characterization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult in their forties, with naturally asymmetric age characterization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-adult-age-base-adult-in-their-forties",
+      "tags": [
+        "adult-age",
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "age-band": "adult-in-their-forties",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "adult-in-their-forties",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-adult-age-base-adult-in-their-fifties-softly-defined",
+      "semantic_key": "identity-adult-age-base-adult-in-their-fifties-softly-defined",
+      "text": "adult in their fifties, with softly defined age characterization",
+      "sentence": "Adult in their fifties, with softly defined age characterization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult in their fifties, with softly defined age characterization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult in their fifties, with softly defined age characterization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult in their fifties, with softly defined age characterization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-adult-age-base-adult-in-their-fifties",
+      "tags": [
+        "adult-age",
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "age-band": "adult-in-their-fifties",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "adult-in-their-fifties",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-adult-age-base-adult-in-their-fifties-cleanly-outlined",
+      "semantic_key": "identity-adult-age-base-adult-in-their-fifties-cleanly-outlined",
+      "text": "adult in their fifties, with cleanly outlined age characterization",
+      "sentence": "Adult in their fifties, with cleanly outlined age characterization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult in their fifties, with cleanly outlined age characterization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult in their fifties, with cleanly outlined age characterization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult in their fifties, with cleanly outlined age characterization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-adult-age-base-adult-in-their-fifties",
+      "tags": [
+        "adult-age",
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "age-band": "adult-in-their-fifties",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "adult-in-their-fifties",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-adult-age-base-adult-in-their-fifties-gently-tapered",
+      "semantic_key": "identity-adult-age-base-adult-in-their-fifties-gently-tapered",
+      "text": "adult in their fifties, with gently tapered age characterization",
+      "sentence": "Adult in their fifties, with gently tapered age characterization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult in their fifties, with gently tapered age characterization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult in their fifties, with gently tapered age characterization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult in their fifties, with gently tapered age characterization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-adult-age-base-adult-in-their-fifties",
+      "tags": [
+        "adult-age",
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "age-band": "adult-in-their-fifties",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "adult-in-their-fifties",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-adult-age-base-adult-in-their-fifties-evenly-proportioned",
+      "semantic_key": "identity-adult-age-base-adult-in-their-fifties-evenly-proportioned",
+      "text": "adult in their fifties, with evenly proportioned age characterization",
+      "sentence": "Adult in their fifties, with evenly proportioned age characterization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult in their fifties, with evenly proportioned age characterization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult in their fifties, with evenly proportioned age characterization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult in their fifties, with evenly proportioned age characterization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-adult-age-base-adult-in-their-fifties",
+      "tags": [
+        "adult-age",
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "age-band": "adult-in-their-fifties",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "adult-in-their-fifties",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-adult-age-base-adult-in-their-fifties-subtly-angular",
+      "semantic_key": "identity-adult-age-base-adult-in-their-fifties-subtly-angular",
+      "text": "adult in their fifties, with subtly angular age characterization",
+      "sentence": "Adult in their fifties, with subtly angular age characterization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult in their fifties, with subtly angular age characterization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult in their fifties, with subtly angular age characterization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult in their fifties, with subtly angular age characterization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-adult-age-base-adult-in-their-fifties",
+      "tags": [
+        "adult-age",
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "age-band": "adult-in-their-fifties",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "adult-in-their-fifties",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-adult-age-base-adult-in-their-fifties-smoothly-contoured",
+      "semantic_key": "identity-adult-age-base-adult-in-their-fifties-smoothly-contoured",
+      "text": "adult in their fifties, with smoothly contoured age characterization",
+      "sentence": "Adult in their fifties, with smoothly contoured age characterization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult in their fifties, with smoothly contoured age characterization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult in their fifties, with smoothly contoured age characterization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult in their fifties, with smoothly contoured age characterization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-adult-age-base-adult-in-their-fifties",
+      "tags": [
+        "adult-age",
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "age-band": "adult-in-their-fifties",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "adult-in-their-fifties",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-adult-age-base-adult-in-their-fifties-distinctly-structured",
+      "semantic_key": "identity-adult-age-base-adult-in-their-fifties-distinctly-structured",
+      "text": "adult in their fifties, with distinctly structured age characterization",
+      "sentence": "Adult in their fifties, with distinctly structured age characterization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult in their fifties, with distinctly structured age characterization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult in their fifties, with distinctly structured age characterization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult in their fifties, with distinctly structured age characterization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-adult-age-base-adult-in-their-fifties",
+      "tags": [
+        "adult-age",
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "age-band": "adult-in-their-fifties",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "adult-in-their-fifties",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-adult-age-base-adult-in-their-fifties-naturally-asymmetric",
+      "semantic_key": "identity-adult-age-base-adult-in-their-fifties-naturally-asymmetric",
+      "text": "adult in their fifties, with naturally asymmetric age characterization",
+      "sentence": "Adult in their fifties, with naturally asymmetric age characterization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult in their fifties, with naturally asymmetric age characterization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult in their fifties, with naturally asymmetric age characterization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult in their fifties, with naturally asymmetric age characterization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-adult-age-base-adult-in-their-fifties",
+      "tags": [
+        "adult-age",
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "age-band": "adult-in-their-fifties",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "adult-in-their-fifties",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-adult-age-base-adult-in-their-sixties-softly-defined",
+      "semantic_key": "identity-adult-age-base-adult-in-their-sixties-softly-defined",
+      "text": "adult in their sixties, with softly defined age characterization",
+      "sentence": "Adult in their sixties, with softly defined age characterization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult in their sixties, with softly defined age characterization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult in their sixties, with softly defined age characterization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult in their sixties, with softly defined age characterization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-adult-age-base-adult-in-their-sixties",
+      "tags": [
+        "adult-age",
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "age-band": "adult-in-their-sixties",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "adult-in-their-sixties",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-adult-age-base-adult-in-their-sixties-cleanly-outlined",
+      "semantic_key": "identity-adult-age-base-adult-in-their-sixties-cleanly-outlined",
+      "text": "adult in their sixties, with cleanly outlined age characterization",
+      "sentence": "Adult in their sixties, with cleanly outlined age characterization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult in their sixties, with cleanly outlined age characterization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult in their sixties, with cleanly outlined age characterization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult in their sixties, with cleanly outlined age characterization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-adult-age-base-adult-in-their-sixties",
+      "tags": [
+        "adult-age",
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "age-band": "adult-in-their-sixties",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "adult-in-their-sixties",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-adult-age-base-adult-in-their-sixties-gently-tapered",
+      "semantic_key": "identity-adult-age-base-adult-in-their-sixties-gently-tapered",
+      "text": "adult in their sixties, with gently tapered age characterization",
+      "sentence": "Adult in their sixties, with gently tapered age characterization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult in their sixties, with gently tapered age characterization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult in their sixties, with gently tapered age characterization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult in their sixties, with gently tapered age characterization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-adult-age-base-adult-in-their-sixties",
+      "tags": [
+        "adult-age",
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "age-band": "adult-in-their-sixties",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "adult-in-their-sixties",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-adult-age-base-adult-in-their-sixties-evenly-proportioned",
+      "semantic_key": "identity-adult-age-base-adult-in-their-sixties-evenly-proportioned",
+      "text": "adult in their sixties, with evenly proportioned age characterization",
+      "sentence": "Adult in their sixties, with evenly proportioned age characterization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult in their sixties, with evenly proportioned age characterization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult in their sixties, with evenly proportioned age characterization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult in their sixties, with evenly proportioned age characterization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-adult-age-base-adult-in-their-sixties",
+      "tags": [
+        "adult-age",
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "age-band": "adult-in-their-sixties",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "adult-in-their-sixties",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-adult-age-base-adult-in-their-sixties-subtly-angular",
+      "semantic_key": "identity-adult-age-base-adult-in-their-sixties-subtly-angular",
+      "text": "adult in their sixties, with subtly angular age characterization",
+      "sentence": "Adult in their sixties, with subtly angular age characterization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult in their sixties, with subtly angular age characterization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult in their sixties, with subtly angular age characterization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult in their sixties, with subtly angular age characterization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-adult-age-base-adult-in-their-sixties",
+      "tags": [
+        "adult-age",
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "age-band": "adult-in-their-sixties",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "adult-in-their-sixties",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-adult-age-base-adult-in-their-sixties-smoothly-contoured",
+      "semantic_key": "identity-adult-age-base-adult-in-their-sixties-smoothly-contoured",
+      "text": "adult in their sixties, with smoothly contoured age characterization",
+      "sentence": "Adult in their sixties, with smoothly contoured age characterization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult in their sixties, with smoothly contoured age characterization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult in their sixties, with smoothly contoured age characterization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult in their sixties, with smoothly contoured age characterization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-adult-age-base-adult-in-their-sixties",
+      "tags": [
+        "adult-age",
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "age-band": "adult-in-their-sixties",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "adult-in-their-sixties",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-adult-age-base-adult-in-their-sixties-distinctly-structured",
+      "semantic_key": "identity-adult-age-base-adult-in-their-sixties-distinctly-structured",
+      "text": "adult in their sixties, with distinctly structured age characterization",
+      "sentence": "Adult in their sixties, with distinctly structured age characterization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult in their sixties, with distinctly structured age characterization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult in their sixties, with distinctly structured age characterization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult in their sixties, with distinctly structured age characterization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-adult-age-base-adult-in-their-sixties",
+      "tags": [
+        "adult-age",
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "age-band": "adult-in-their-sixties",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "adult-in-their-sixties",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-adult-age-base-adult-in-their-sixties-naturally-asymmetric",
+      "semantic_key": "identity-adult-age-base-adult-in-their-sixties-naturally-asymmetric",
+      "text": "adult in their sixties, with naturally asymmetric age characterization",
+      "sentence": "Adult in their sixties, with naturally asymmetric age characterization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult in their sixties, with naturally asymmetric age characterization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult in their sixties, with naturally asymmetric age characterization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult in their sixties, with naturally asymmetric age characterization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-adult-age-base-adult-in-their-sixties",
+      "tags": [
+        "adult-age",
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "age-band": "adult-in-their-sixties",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "adult-in-their-sixties",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-adult-age-base-adult-in-their-seventies-softly-defined",
+      "semantic_key": "identity-adult-age-base-adult-in-their-seventies-softly-defined",
+      "text": "adult in their seventies, with softly defined age characterization",
+      "sentence": "Adult in their seventies, with softly defined age characterization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult in their seventies, with softly defined age characterization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult in their seventies, with softly defined age characterization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult in their seventies, with softly defined age characterization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-adult-age-base-adult-in-their-seventies",
+      "tags": [
+        "adult-age",
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "age-band": "adult-in-their-seventies",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "adult-in-their-seventies",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-adult-age-base-adult-in-their-seventies-cleanly-outlined",
+      "semantic_key": "identity-adult-age-base-adult-in-their-seventies-cleanly-outlined",
+      "text": "adult in their seventies, with cleanly outlined age characterization",
+      "sentence": "Adult in their seventies, with cleanly outlined age characterization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult in their seventies, with cleanly outlined age characterization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult in their seventies, with cleanly outlined age characterization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult in their seventies, with cleanly outlined age characterization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-adult-age-base-adult-in-their-seventies",
+      "tags": [
+        "adult-age",
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "age-band": "adult-in-their-seventies",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "adult-in-their-seventies",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-adult-age-base-adult-in-their-seventies-gently-tapered",
+      "semantic_key": "identity-adult-age-base-adult-in-their-seventies-gently-tapered",
+      "text": "adult in their seventies, with gently tapered age characterization",
+      "sentence": "Adult in their seventies, with gently tapered age characterization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult in their seventies, with gently tapered age characterization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult in their seventies, with gently tapered age characterization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult in their seventies, with gently tapered age characterization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-adult-age-base-adult-in-their-seventies",
+      "tags": [
+        "adult-age",
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "age-band": "adult-in-their-seventies",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "adult-in-their-seventies",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-adult-age-base-adult-in-their-seventies-evenly-proportioned",
+      "semantic_key": "identity-adult-age-base-adult-in-their-seventies-evenly-proportioned",
+      "text": "adult in their seventies, with evenly proportioned age characterization",
+      "sentence": "Adult in their seventies, with evenly proportioned age characterization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult in their seventies, with evenly proportioned age characterization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult in their seventies, with evenly proportioned age characterization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult in their seventies, with evenly proportioned age characterization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-adult-age-base-adult-in-their-seventies",
+      "tags": [
+        "adult-age",
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "age-band": "adult-in-their-seventies",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "adult-in-their-seventies",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-adult-age-base-adult-in-their-seventies-subtly-angular",
+      "semantic_key": "identity-adult-age-base-adult-in-their-seventies-subtly-angular",
+      "text": "adult in their seventies, with subtly angular age characterization",
+      "sentence": "Adult in their seventies, with subtly angular age characterization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult in their seventies, with subtly angular age characterization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult in their seventies, with subtly angular age characterization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult in their seventies, with subtly angular age characterization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-adult-age-base-adult-in-their-seventies",
+      "tags": [
+        "adult-age",
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "age-band": "adult-in-their-seventies",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "adult-in-their-seventies",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-adult-age-base-adult-in-their-seventies-smoothly-contoured",
+      "semantic_key": "identity-adult-age-base-adult-in-their-seventies-smoothly-contoured",
+      "text": "adult in their seventies, with smoothly contoured age characterization",
+      "sentence": "Adult in their seventies, with smoothly contoured age characterization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult in their seventies, with smoothly contoured age characterization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult in their seventies, with smoothly contoured age characterization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult in their seventies, with smoothly contoured age characterization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-adult-age-base-adult-in-their-seventies",
+      "tags": [
+        "adult-age",
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "age-band": "adult-in-their-seventies",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "adult-in-their-seventies",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-adult-age-base-adult-in-their-seventies-distinctly-structured",
+      "semantic_key": "identity-adult-age-base-adult-in-their-seventies-distinctly-structured",
+      "text": "adult in their seventies, with distinctly structured age characterization",
+      "sentence": "Adult in their seventies, with distinctly structured age characterization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult in their seventies, with distinctly structured age characterization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult in their seventies, with distinctly structured age characterization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult in their seventies, with distinctly structured age characterization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-adult-age-base-adult-in-their-seventies",
+      "tags": [
+        "adult-age",
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "age-band": "adult-in-their-seventies",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "adult-in-their-seventies",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-adult-age-base-adult-in-their-seventies-naturally-asymmetric",
+      "semantic_key": "identity-adult-age-base-adult-in-their-seventies-naturally-asymmetric",
+      "text": "adult in their seventies, with naturally asymmetric age characterization",
+      "sentence": "Adult in their seventies, with naturally asymmetric age characterization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult in their seventies, with naturally asymmetric age characterization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult in their seventies, with naturally asymmetric age characterization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult in their seventies, with naturally asymmetric age characterization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-adult-age-base-adult-in-their-seventies",
+      "tags": [
+        "adult-age",
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "age-band": "adult-in-their-seventies",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "adult-in-their-seventies",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-adult-age-base-adult-in-their-eighties-softly-defined",
+      "semantic_key": "identity-adult-age-base-adult-in-their-eighties-softly-defined",
+      "text": "adult in their eighties, with softly defined age characterization",
+      "sentence": "Adult in their eighties, with softly defined age characterization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult in their eighties, with softly defined age characterization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult in their eighties, with softly defined age characterization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult in their eighties, with softly defined age characterization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-adult-age-base-adult-in-their-eighties",
+      "tags": [
+        "adult-age",
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "age-band": "adult-in-their-eighties",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "adult-in-their-eighties",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-adult-age-base-adult-in-their-eighties-cleanly-outlined",
+      "semantic_key": "identity-adult-age-base-adult-in-their-eighties-cleanly-outlined",
+      "text": "adult in their eighties, with cleanly outlined age characterization",
+      "sentence": "Adult in their eighties, with cleanly outlined age characterization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult in their eighties, with cleanly outlined age characterization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult in their eighties, with cleanly outlined age characterization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult in their eighties, with cleanly outlined age characterization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-adult-age-base-adult-in-their-eighties",
+      "tags": [
+        "adult-age",
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "age-band": "adult-in-their-eighties",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "adult-in-their-eighties",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-adult-age-base-adult-in-their-eighties-gently-tapered",
+      "semantic_key": "identity-adult-age-base-adult-in-their-eighties-gently-tapered",
+      "text": "adult in their eighties, with gently tapered age characterization",
+      "sentence": "Adult in their eighties, with gently tapered age characterization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult in their eighties, with gently tapered age characterization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult in their eighties, with gently tapered age characterization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult in their eighties, with gently tapered age characterization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-adult-age-base-adult-in-their-eighties",
+      "tags": [
+        "adult-age",
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "age-band": "adult-in-their-eighties",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "adult-in-their-eighties",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-adult-age-base-adult-in-their-eighties-evenly-proportioned",
+      "semantic_key": "identity-adult-age-base-adult-in-their-eighties-evenly-proportioned",
+      "text": "adult in their eighties, with evenly proportioned age characterization",
+      "sentence": "Adult in their eighties, with evenly proportioned age characterization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult in their eighties, with evenly proportioned age characterization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult in their eighties, with evenly proportioned age characterization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult in their eighties, with evenly proportioned age characterization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-adult-age-base-adult-in-their-eighties",
+      "tags": [
+        "adult-age",
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "age-band": "adult-in-their-eighties",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "adult-in-their-eighties",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-adult-age-base-adult-in-their-eighties-subtly-angular",
+      "semantic_key": "identity-adult-age-base-adult-in-their-eighties-subtly-angular",
+      "text": "adult in their eighties, with subtly angular age characterization",
+      "sentence": "Adult in their eighties, with subtly angular age characterization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult in their eighties, with subtly angular age characterization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult in their eighties, with subtly angular age characterization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult in their eighties, with subtly angular age characterization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-adult-age-base-adult-in-their-eighties",
+      "tags": [
+        "adult-age",
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "age-band": "adult-in-their-eighties",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "adult-in-their-eighties",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-adult-age-base-adult-in-their-eighties-smoothly-contoured",
+      "semantic_key": "identity-adult-age-base-adult-in-their-eighties-smoothly-contoured",
+      "text": "adult in their eighties, with smoothly contoured age characterization",
+      "sentence": "Adult in their eighties, with smoothly contoured age characterization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult in their eighties, with smoothly contoured age characterization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult in their eighties, with smoothly contoured age characterization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult in their eighties, with smoothly contoured age characterization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-adult-age-base-adult-in-their-eighties",
+      "tags": [
+        "adult-age",
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "age-band": "adult-in-their-eighties",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "adult-in-their-eighties",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-adult-age-base-adult-in-their-eighties-distinctly-structured",
+      "semantic_key": "identity-adult-age-base-adult-in-their-eighties-distinctly-structured",
+      "text": "adult in their eighties, with distinctly structured age characterization",
+      "sentence": "Adult in their eighties, with distinctly structured age characterization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult in their eighties, with distinctly structured age characterization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult in their eighties, with distinctly structured age characterization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult in their eighties, with distinctly structured age characterization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-adult-age-base-adult-in-their-eighties",
+      "tags": [
+        "adult-age",
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "age-band": "adult-in-their-eighties",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "adult-in-their-eighties",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-adult-age-base-adult-in-their-eighties-naturally-asymmetric",
+      "semantic_key": "identity-adult-age-base-adult-in-their-eighties-naturally-asymmetric",
+      "text": "adult in their eighties, with naturally asymmetric age characterization",
+      "sentence": "Adult in their eighties, with naturally asymmetric age characterization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult in their eighties, with naturally asymmetric age characterization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult in their eighties, with naturally asymmetric age characterization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult in their eighties, with naturally asymmetric age characterization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-adult-age-base-adult-in-their-eighties",
+      "tags": [
+        "adult-age",
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "age-band": "adult-in-their-eighties",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "adult-in-their-eighties",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-adult-age-base-mature-adult-of-unspecified-age-softly-defined",
+      "semantic_key": "identity-adult-age-base-mature-adult-of-unspecified-age-softly-defined",
+      "text": "mature adult of unspecified age, with softly defined age characterization",
+      "sentence": "Mature adult of unspecified age, with softly defined age characterization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "mature adult of unspecified age, with softly defined age characterization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing mature adult of unspecified age, with softly defined age characterization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with mature adult of unspecified age, with softly defined age characterization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-adult-age-base-mature-adult-of-unspecified-age",
+      "tags": [
+        "adult-age",
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "age-band": "mature-adult-of-unspecified-age",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "mature-adult-of-unspecified-age",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-adult-age-base-mature-adult-of-unspecified-age-cleanly-outlined",
+      "semantic_key": "identity-adult-age-base-mature-adult-of-unspecified-age-cleanly-outlined",
+      "text": "mature adult of unspecified age, with cleanly outlined age characterization",
+      "sentence": "Mature adult of unspecified age, with cleanly outlined age characterization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "mature adult of unspecified age, with cleanly outlined age characterization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing mature adult of unspecified age, with cleanly outlined age characterization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with mature adult of unspecified age, with cleanly outlined age characterization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-adult-age-base-mature-adult-of-unspecified-age",
+      "tags": [
+        "adult-age",
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "age-band": "mature-adult-of-unspecified-age",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "mature-adult-of-unspecified-age",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-adult-age-base-mature-adult-of-unspecified-age-gently-tapered",
+      "semantic_key": "identity-adult-age-base-mature-adult-of-unspecified-age-gently-tapered",
+      "text": "mature adult of unspecified age, with gently tapered age characterization",
+      "sentence": "Mature adult of unspecified age, with gently tapered age characterization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "mature adult of unspecified age, with gently tapered age characterization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing mature adult of unspecified age, with gently tapered age characterization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with mature adult of unspecified age, with gently tapered age characterization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-adult-age-base-mature-adult-of-unspecified-age",
+      "tags": [
+        "adult-age",
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "age-band": "mature-adult-of-unspecified-age",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "mature-adult-of-unspecified-age",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-adult-age-base-mature-adult-of-unspecified-age-evenly-proportioned",
+      "semantic_key": "identity-adult-age-base-mature-adult-of-unspecified-age-evenly-proportioned",
+      "text": "mature adult of unspecified age, with evenly proportioned age characterization",
+      "sentence": "Mature adult of unspecified age, with evenly proportioned age characterization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "mature adult of unspecified age, with evenly proportioned age characterization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing mature adult of unspecified age, with evenly proportioned age characterization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with mature adult of unspecified age, with evenly proportioned age characterization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-adult-age-base-mature-adult-of-unspecified-age",
+      "tags": [
+        "adult-age",
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "age-band": "mature-adult-of-unspecified-age",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "mature-adult-of-unspecified-age",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-adult-age-base-mature-adult-of-unspecified-age-subtly-angular",
+      "semantic_key": "identity-adult-age-base-mature-adult-of-unspecified-age-subtly-angular",
+      "text": "mature adult of unspecified age, with subtly angular age characterization",
+      "sentence": "Mature adult of unspecified age, with subtly angular age characterization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "mature adult of unspecified age, with subtly angular age characterization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing mature adult of unspecified age, with subtly angular age characterization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with mature adult of unspecified age, with subtly angular age characterization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-adult-age-base-mature-adult-of-unspecified-age",
+      "tags": [
+        "adult-age",
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "age-band": "mature-adult-of-unspecified-age",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "mature-adult-of-unspecified-age",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-adult-age-base-mature-adult-of-unspecified-age-smoothly-contoured",
+      "semantic_key": "identity-adult-age-base-mature-adult-of-unspecified-age-smoothly-contoured",
+      "text": "mature adult of unspecified age, with smoothly contoured age characterization",
+      "sentence": "Mature adult of unspecified age, with smoothly contoured age characterization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "mature adult of unspecified age, with smoothly contoured age characterization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing mature adult of unspecified age, with smoothly contoured age characterization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with mature adult of unspecified age, with smoothly contoured age characterization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-adult-age-base-mature-adult-of-unspecified-age",
+      "tags": [
+        "adult-age",
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "age-band": "mature-adult-of-unspecified-age",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "mature-adult-of-unspecified-age",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-adult-age-base-mature-adult-of-unspecified-age-distinctly-structured",
+      "semantic_key": "identity-adult-age-base-mature-adult-of-unspecified-age-distinctly-structured",
+      "text": "mature adult of unspecified age, with distinctly structured age characterization",
+      "sentence": "Mature adult of unspecified age, with distinctly structured age characterization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "mature adult of unspecified age, with distinctly structured age characterization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing mature adult of unspecified age, with distinctly structured age characterization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with mature adult of unspecified age, with distinctly structured age characterization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-adult-age-base-mature-adult-of-unspecified-age",
+      "tags": [
+        "adult-age",
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "age-band": "mature-adult-of-unspecified-age",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "mature-adult-of-unspecified-age",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-adult-age-base-mature-adult-of-unspecified-age-naturally-asymmetric",
+      "semantic_key": "identity-adult-age-base-mature-adult-of-unspecified-age-naturally-asymmetric",
+      "text": "mature adult of unspecified age, with naturally asymmetric age characterization",
+      "sentence": "Mature adult of unspecified age, with naturally asymmetric age characterization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "mature adult of unspecified age, with naturally asymmetric age characterization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing mature adult of unspecified age, with naturally asymmetric age characterization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with mature adult of unspecified age, with naturally asymmetric age characterization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-adult-age-base-mature-adult-of-unspecified-age",
+      "tags": [
+        "adult-age",
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "age-band": "mature-adult-of-unspecified-age",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "mature-adult-of-unspecified-age",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    }
+  ]
+}

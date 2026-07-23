@@ -1,0 +1,2577 @@
+{
+  "schema_version": "2.0",
+  "id": "identity-nose-base",
+  "version": "2.0.0",
+  "library": "nose",
+  "domain": "identity",
+  "category": "nose",
+  "language": "en",
+  "status": "active",
+  "safety": "general",
+  "tags": [
+    "base"
+  ],
+  "fallback_option_id": "identity-nose-base-straight-bridge-softly-defined",
+  "options": [
+    {
+      "id": "identity-nose-base-straight-bridge-softly-defined",
+      "semantic_key": "identity-nose-base-straight-bridge-softly-defined",
+      "text": "a softly defined nose with a straight bridge",
+      "sentence": "A softly defined nose with a straight bridge.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a softly defined nose with a straight bridge",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a softly defined nose with a straight bridge",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a softly defined nose with a straight bridge",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-nose-base-straight-bridge",
+      "tags": [
+        "base",
+        "identity",
+        "nose",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "straight-bridge",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "straight-bridge",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-nose-base-straight-bridge-cleanly-outlined",
+      "semantic_key": "identity-nose-base-straight-bridge-cleanly-outlined",
+      "text": "a cleanly outlined nose with a straight bridge",
+      "sentence": "A cleanly outlined nose with a straight bridge.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a cleanly outlined nose with a straight bridge",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a cleanly outlined nose with a straight bridge",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a cleanly outlined nose with a straight bridge",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-nose-base-straight-bridge",
+      "tags": [
+        "base",
+        "identity",
+        "nose",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "straight-bridge",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "straight-bridge",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-nose-base-straight-bridge-gently-tapered",
+      "semantic_key": "identity-nose-base-straight-bridge-gently-tapered",
+      "text": "a gently tapered nose with a straight bridge",
+      "sentence": "A gently tapered nose with a straight bridge.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a gently tapered nose with a straight bridge",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a gently tapered nose with a straight bridge",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a gently tapered nose with a straight bridge",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-nose-base-straight-bridge",
+      "tags": [
+        "base",
+        "identity",
+        "nose",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "straight-bridge",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "straight-bridge",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-nose-base-straight-bridge-evenly-proportioned",
+      "semantic_key": "identity-nose-base-straight-bridge-evenly-proportioned",
+      "text": "a evenly proportioned nose with a straight bridge",
+      "sentence": "A evenly proportioned nose with a straight bridge.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a evenly proportioned nose with a straight bridge",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a evenly proportioned nose with a straight bridge",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a evenly proportioned nose with a straight bridge",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-nose-base-straight-bridge",
+      "tags": [
+        "base",
+        "identity",
+        "nose",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "straight-bridge",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "straight-bridge",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-nose-base-straight-bridge-subtly-angular",
+      "semantic_key": "identity-nose-base-straight-bridge-subtly-angular",
+      "text": "a subtly angular nose with a straight bridge",
+      "sentence": "A subtly angular nose with a straight bridge.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a subtly angular nose with a straight bridge",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a subtly angular nose with a straight bridge",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a subtly angular nose with a straight bridge",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-nose-base-straight-bridge",
+      "tags": [
+        "base",
+        "identity",
+        "nose",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "structure": "straight-bridge",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "straight-bridge",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-nose-base-straight-bridge-smoothly-contoured",
+      "semantic_key": "identity-nose-base-straight-bridge-smoothly-contoured",
+      "text": "a smoothly contoured nose with a straight bridge",
+      "sentence": "A smoothly contoured nose with a straight bridge.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a smoothly contoured nose with a straight bridge",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a smoothly contoured nose with a straight bridge",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a smoothly contoured nose with a straight bridge",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-nose-base-straight-bridge",
+      "tags": [
+        "base",
+        "identity",
+        "nose",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "structure": "straight-bridge",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "straight-bridge",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-nose-base-straight-bridge-distinctly-structured",
+      "semantic_key": "identity-nose-base-straight-bridge-distinctly-structured",
+      "text": "a distinctly structured nose with a straight bridge",
+      "sentence": "A distinctly structured nose with a straight bridge.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a distinctly structured nose with a straight bridge",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a distinctly structured nose with a straight bridge",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a distinctly structured nose with a straight bridge",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-nose-base-straight-bridge",
+      "tags": [
+        "base",
+        "identity",
+        "nose",
+        "rarity-rare"
+      ],
+      "facets": {
+        "structure": "straight-bridge",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "straight-bridge",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-nose-base-straight-bridge-naturally-asymmetric",
+      "semantic_key": "identity-nose-base-straight-bridge-naturally-asymmetric",
+      "text": "a naturally asymmetric nose with a straight bridge",
+      "sentence": "A naturally asymmetric nose with a straight bridge.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a naturally asymmetric nose with a straight bridge",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a naturally asymmetric nose with a straight bridge",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a naturally asymmetric nose with a straight bridge",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-nose-base-straight-bridge",
+      "tags": [
+        "base",
+        "identity",
+        "nose",
+        "rarity-rare"
+      ],
+      "facets": {
+        "structure": "straight-bridge",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "straight-bridge",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-nose-base-gently-curved-bridge-softly-defined",
+      "semantic_key": "identity-nose-base-gently-curved-bridge-softly-defined",
+      "text": "a softly defined nose with a gently curved bridge",
+      "sentence": "A softly defined nose with a gently curved bridge.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a softly defined nose with a gently curved bridge",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a softly defined nose with a gently curved bridge",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a softly defined nose with a gently curved bridge",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-nose-base-gently-curved-bridge",
+      "tags": [
+        "base",
+        "identity",
+        "nose",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "gently-curved-bridge",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "gently-curved-bridge",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-nose-base-gently-curved-bridge-cleanly-outlined",
+      "semantic_key": "identity-nose-base-gently-curved-bridge-cleanly-outlined",
+      "text": "a cleanly outlined nose with a gently curved bridge",
+      "sentence": "A cleanly outlined nose with a gently curved bridge.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a cleanly outlined nose with a gently curved bridge",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a cleanly outlined nose with a gently curved bridge",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a cleanly outlined nose with a gently curved bridge",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-nose-base-gently-curved-bridge",
+      "tags": [
+        "base",
+        "identity",
+        "nose",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "gently-curved-bridge",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "gently-curved-bridge",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-nose-base-gently-curved-bridge-gently-tapered",
+      "semantic_key": "identity-nose-base-gently-curved-bridge-gently-tapered",
+      "text": "a gently tapered nose with a gently curved bridge",
+      "sentence": "A gently tapered nose with a gently curved bridge.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a gently tapered nose with a gently curved bridge",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a gently tapered nose with a gently curved bridge",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a gently tapered nose with a gently curved bridge",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-nose-base-gently-curved-bridge",
+      "tags": [
+        "base",
+        "identity",
+        "nose",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "gently-curved-bridge",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "gently-curved-bridge",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-nose-base-gently-curved-bridge-evenly-proportioned",
+      "semantic_key": "identity-nose-base-gently-curved-bridge-evenly-proportioned",
+      "text": "a evenly proportioned nose with a gently curved bridge",
+      "sentence": "A evenly proportioned nose with a gently curved bridge.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a evenly proportioned nose with a gently curved bridge",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a evenly proportioned nose with a gently curved bridge",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a evenly proportioned nose with a gently curved bridge",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-nose-base-gently-curved-bridge",
+      "tags": [
+        "base",
+        "identity",
+        "nose",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "gently-curved-bridge",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "gently-curved-bridge",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-nose-base-gently-curved-bridge-subtly-angular",
+      "semantic_key": "identity-nose-base-gently-curved-bridge-subtly-angular",
+      "text": "a subtly angular nose with a gently curved bridge",
+      "sentence": "A subtly angular nose with a gently curved bridge.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a subtly angular nose with a gently curved bridge",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a subtly angular nose with a gently curved bridge",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a subtly angular nose with a gently curved bridge",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-nose-base-gently-curved-bridge",
+      "tags": [
+        "base",
+        "identity",
+        "nose",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "structure": "gently-curved-bridge",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "gently-curved-bridge",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-nose-base-gently-curved-bridge-smoothly-contoured",
+      "semantic_key": "identity-nose-base-gently-curved-bridge-smoothly-contoured",
+      "text": "a smoothly contoured nose with a gently curved bridge",
+      "sentence": "A smoothly contoured nose with a gently curved bridge.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a smoothly contoured nose with a gently curved bridge",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a smoothly contoured nose with a gently curved bridge",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a smoothly contoured nose with a gently curved bridge",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-nose-base-gently-curved-bridge",
+      "tags": [
+        "base",
+        "identity",
+        "nose",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "structure": "gently-curved-bridge",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "gently-curved-bridge",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-nose-base-gently-curved-bridge-distinctly-structured",
+      "semantic_key": "identity-nose-base-gently-curved-bridge-distinctly-structured",
+      "text": "a distinctly structured nose with a gently curved bridge",
+      "sentence": "A distinctly structured nose with a gently curved bridge.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a distinctly structured nose with a gently curved bridge",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a distinctly structured nose with a gently curved bridge",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a distinctly structured nose with a gently curved bridge",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-nose-base-gently-curved-bridge",
+      "tags": [
+        "base",
+        "identity",
+        "nose",
+        "rarity-rare"
+      ],
+      "facets": {
+        "structure": "gently-curved-bridge",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "gently-curved-bridge",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-nose-base-gently-curved-bridge-naturally-asymmetric",
+      "semantic_key": "identity-nose-base-gently-curved-bridge-naturally-asymmetric",
+      "text": "a naturally asymmetric nose with a gently curved bridge",
+      "sentence": "A naturally asymmetric nose with a gently curved bridge.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a naturally asymmetric nose with a gently curved bridge",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a naturally asymmetric nose with a gently curved bridge",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a naturally asymmetric nose with a gently curved bridge",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-nose-base-gently-curved-bridge",
+      "tags": [
+        "base",
+        "identity",
+        "nose",
+        "rarity-rare"
+      ],
+      "facets": {
+        "structure": "gently-curved-bridge",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "gently-curved-bridge",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-nose-base-broad-bridge-softly-defined",
+      "semantic_key": "identity-nose-base-broad-bridge-softly-defined",
+      "text": "a softly defined nose with a broad bridge",
+      "sentence": "A softly defined nose with a broad bridge.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a softly defined nose with a broad bridge",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a softly defined nose with a broad bridge",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a softly defined nose with a broad bridge",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-nose-base-broad-bridge",
+      "tags": [
+        "base",
+        "identity",
+        "nose",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "broad-bridge",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "broad-bridge",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-nose-base-broad-bridge-cleanly-outlined",
+      "semantic_key": "identity-nose-base-broad-bridge-cleanly-outlined",
+      "text": "a cleanly outlined nose with a broad bridge",
+      "sentence": "A cleanly outlined nose with a broad bridge.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a cleanly outlined nose with a broad bridge",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a cleanly outlined nose with a broad bridge",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a cleanly outlined nose with a broad bridge",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-nose-base-broad-bridge",
+      "tags": [
+        "base",
+        "identity",
+        "nose",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "broad-bridge",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "broad-bridge",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-nose-base-broad-bridge-gently-tapered",
+      "semantic_key": "identity-nose-base-broad-bridge-gently-tapered",
+      "text": "a gently tapered nose with a broad bridge",
+      "sentence": "A gently tapered nose with a broad bridge.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a gently tapered nose with a broad bridge",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a gently tapered nose with a broad bridge",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a gently tapered nose with a broad bridge",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-nose-base-broad-bridge",
+      "tags": [
+        "base",
+        "identity",
+        "nose",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "broad-bridge",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "broad-bridge",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-nose-base-broad-bridge-evenly-proportioned",
+      "semantic_key": "identity-nose-base-broad-bridge-evenly-proportioned",
+      "text": "a evenly proportioned nose with a broad bridge",
+      "sentence": "A evenly proportioned nose with a broad bridge.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a evenly proportioned nose with a broad bridge",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a evenly proportioned nose with a broad bridge",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a evenly proportioned nose with a broad bridge",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-nose-base-broad-bridge",
+      "tags": [
+        "base",
+        "identity",
+        "nose",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "broad-bridge",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "broad-bridge",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-nose-base-broad-bridge-subtly-angular",
+      "semantic_key": "identity-nose-base-broad-bridge-subtly-angular",
+      "text": "a subtly angular nose with a broad bridge",
+      "sentence": "A subtly angular nose with a broad bridge.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a subtly angular nose with a broad bridge",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a subtly angular nose with a broad bridge",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a subtly angular nose with a broad bridge",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-nose-base-broad-bridge",
+      "tags": [
+        "base",
+        "identity",
+        "nose",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "structure": "broad-bridge",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "broad-bridge",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-nose-base-broad-bridge-smoothly-contoured",
+      "semantic_key": "identity-nose-base-broad-bridge-smoothly-contoured",
+      "text": "a smoothly contoured nose with a broad bridge",
+      "sentence": "A smoothly contoured nose with a broad bridge.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a smoothly contoured nose with a broad bridge",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a smoothly contoured nose with a broad bridge",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a smoothly contoured nose with a broad bridge",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-nose-base-broad-bridge",
+      "tags": [
+        "base",
+        "identity",
+        "nose",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "structure": "broad-bridge",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "broad-bridge",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-nose-base-broad-bridge-distinctly-structured",
+      "semantic_key": "identity-nose-base-broad-bridge-distinctly-structured",
+      "text": "a distinctly structured nose with a broad bridge",
+      "sentence": "A distinctly structured nose with a broad bridge.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a distinctly structured nose with a broad bridge",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a distinctly structured nose with a broad bridge",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a distinctly structured nose with a broad bridge",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-nose-base-broad-bridge",
+      "tags": [
+        "base",
+        "identity",
+        "nose",
+        "rarity-rare"
+      ],
+      "facets": {
+        "structure": "broad-bridge",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "broad-bridge",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-nose-base-broad-bridge-naturally-asymmetric",
+      "semantic_key": "identity-nose-base-broad-bridge-naturally-asymmetric",
+      "text": "a naturally asymmetric nose with a broad bridge",
+      "sentence": "A naturally asymmetric nose with a broad bridge.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a naturally asymmetric nose with a broad bridge",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a naturally asymmetric nose with a broad bridge",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a naturally asymmetric nose with a broad bridge",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-nose-base-broad-bridge",
+      "tags": [
+        "base",
+        "identity",
+        "nose",
+        "rarity-rare"
+      ],
+      "facets": {
+        "structure": "broad-bridge",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "broad-bridge",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-nose-base-narrow-bridge-softly-defined",
+      "semantic_key": "identity-nose-base-narrow-bridge-softly-defined",
+      "text": "a softly defined nose with a narrow bridge",
+      "sentence": "A softly defined nose with a narrow bridge.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a softly defined nose with a narrow bridge",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a softly defined nose with a narrow bridge",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a softly defined nose with a narrow bridge",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-nose-base-narrow-bridge",
+      "tags": [
+        "base",
+        "identity",
+        "nose",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "narrow-bridge",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "narrow-bridge",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-nose-base-narrow-bridge-cleanly-outlined",
+      "semantic_key": "identity-nose-base-narrow-bridge-cleanly-outlined",
+      "text": "a cleanly outlined nose with a narrow bridge",
+      "sentence": "A cleanly outlined nose with a narrow bridge.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a cleanly outlined nose with a narrow bridge",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a cleanly outlined nose with a narrow bridge",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a cleanly outlined nose with a narrow bridge",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-nose-base-narrow-bridge",
+      "tags": [
+        "base",
+        "identity",
+        "nose",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "narrow-bridge",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "narrow-bridge",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-nose-base-narrow-bridge-gently-tapered",
+      "semantic_key": "identity-nose-base-narrow-bridge-gently-tapered",
+      "text": "a gently tapered nose with a narrow bridge",
+      "sentence": "A gently tapered nose with a narrow bridge.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a gently tapered nose with a narrow bridge",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a gently tapered nose with a narrow bridge",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a gently tapered nose with a narrow bridge",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-nose-base-narrow-bridge",
+      "tags": [
+        "base",
+        "identity",
+        "nose",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "narrow-bridge",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "narrow-bridge",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-nose-base-narrow-bridge-evenly-proportioned",
+      "semantic_key": "identity-nose-base-narrow-bridge-evenly-proportioned",
+      "text": "a evenly proportioned nose with a narrow bridge",
+      "sentence": "A evenly proportioned nose with a narrow bridge.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a evenly proportioned nose with a narrow bridge",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a evenly proportioned nose with a narrow bridge",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a evenly proportioned nose with a narrow bridge",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-nose-base-narrow-bridge",
+      "tags": [
+        "base",
+        "identity",
+        "nose",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "narrow-bridge",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "narrow-bridge",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-nose-base-narrow-bridge-subtly-angular",
+      "semantic_key": "identity-nose-base-narrow-bridge-subtly-angular",
+      "text": "a subtly angular nose with a narrow bridge",
+      "sentence": "A subtly angular nose with a narrow bridge.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a subtly angular nose with a narrow bridge",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a subtly angular nose with a narrow bridge",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a subtly angular nose with a narrow bridge",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-nose-base-narrow-bridge",
+      "tags": [
+        "base",
+        "identity",
+        "nose",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "structure": "narrow-bridge",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "narrow-bridge",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-nose-base-narrow-bridge-smoothly-contoured",
+      "semantic_key": "identity-nose-base-narrow-bridge-smoothly-contoured",
+      "text": "a smoothly contoured nose with a narrow bridge",
+      "sentence": "A smoothly contoured nose with a narrow bridge.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a smoothly contoured nose with a narrow bridge",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a smoothly contoured nose with a narrow bridge",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a smoothly contoured nose with a narrow bridge",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-nose-base-narrow-bridge",
+      "tags": [
+        "base",
+        "identity",
+        "nose",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "structure": "narrow-bridge",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "narrow-bridge",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-nose-base-narrow-bridge-distinctly-structured",
+      "semantic_key": "identity-nose-base-narrow-bridge-distinctly-structured",
+      "text": "a distinctly structured nose with a narrow bridge",
+      "sentence": "A distinctly structured nose with a narrow bridge.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a distinctly structured nose with a narrow bridge",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a distinctly structured nose with a narrow bridge",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a distinctly structured nose with a narrow bridge",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-nose-base-narrow-bridge",
+      "tags": [
+        "base",
+        "identity",
+        "nose",
+        "rarity-rare"
+      ],
+      "facets": {
+        "structure": "narrow-bridge",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "narrow-bridge",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-nose-base-narrow-bridge-naturally-asymmetric",
+      "semantic_key": "identity-nose-base-narrow-bridge-naturally-asymmetric",
+      "text": "a naturally asymmetric nose with a narrow bridge",
+      "sentence": "A naturally asymmetric nose with a narrow bridge.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a naturally asymmetric nose with a narrow bridge",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a naturally asymmetric nose with a narrow bridge",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a naturally asymmetric nose with a narrow bridge",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-nose-base-narrow-bridge",
+      "tags": [
+        "base",
+        "identity",
+        "nose",
+        "rarity-rare"
+      ],
+      "facets": {
+        "structure": "narrow-bridge",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "narrow-bridge",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-nose-base-rounded-tip-softly-defined",
+      "semantic_key": "identity-nose-base-rounded-tip-softly-defined",
+      "text": "a softly defined nose with a rounded tip",
+      "sentence": "A softly defined nose with a rounded tip.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a softly defined nose with a rounded tip",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a softly defined nose with a rounded tip",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a softly defined nose with a rounded tip",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-nose-base-rounded-tip",
+      "tags": [
+        "base",
+        "identity",
+        "nose",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "rounded-tip",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "rounded-tip",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-nose-base-rounded-tip-cleanly-outlined",
+      "semantic_key": "identity-nose-base-rounded-tip-cleanly-outlined",
+      "text": "a cleanly outlined nose with a rounded tip",
+      "sentence": "A cleanly outlined nose with a rounded tip.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a cleanly outlined nose with a rounded tip",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a cleanly outlined nose with a rounded tip",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a cleanly outlined nose with a rounded tip",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-nose-base-rounded-tip",
+      "tags": [
+        "base",
+        "identity",
+        "nose",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "rounded-tip",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "rounded-tip",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-nose-base-rounded-tip-gently-tapered",
+      "semantic_key": "identity-nose-base-rounded-tip-gently-tapered",
+      "text": "a gently tapered nose with a rounded tip",
+      "sentence": "A gently tapered nose with a rounded tip.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a gently tapered nose with a rounded tip",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a gently tapered nose with a rounded tip",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a gently tapered nose with a rounded tip",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-nose-base-rounded-tip",
+      "tags": [
+        "base",
+        "identity",
+        "nose",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "rounded-tip",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "rounded-tip",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-nose-base-rounded-tip-evenly-proportioned",
+      "semantic_key": "identity-nose-base-rounded-tip-evenly-proportioned",
+      "text": "a evenly proportioned nose with a rounded tip",
+      "sentence": "A evenly proportioned nose with a rounded tip.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a evenly proportioned nose with a rounded tip",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a evenly proportioned nose with a rounded tip",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a evenly proportioned nose with a rounded tip",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-nose-base-rounded-tip",
+      "tags": [
+        "base",
+        "identity",
+        "nose",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "rounded-tip",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "rounded-tip",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-nose-base-rounded-tip-subtly-angular",
+      "semantic_key": "identity-nose-base-rounded-tip-subtly-angular",
+      "text": "a subtly angular nose with a rounded tip",
+      "sentence": "A subtly angular nose with a rounded tip.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a subtly angular nose with a rounded tip",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a subtly angular nose with a rounded tip",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a subtly angular nose with a rounded tip",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-nose-base-rounded-tip",
+      "tags": [
+        "base",
+        "identity",
+        "nose",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "structure": "rounded-tip",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "rounded-tip",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-nose-base-rounded-tip-smoothly-contoured",
+      "semantic_key": "identity-nose-base-rounded-tip-smoothly-contoured",
+      "text": "a smoothly contoured nose with a rounded tip",
+      "sentence": "A smoothly contoured nose with a rounded tip.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a smoothly contoured nose with a rounded tip",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a smoothly contoured nose with a rounded tip",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a smoothly contoured nose with a rounded tip",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-nose-base-rounded-tip",
+      "tags": [
+        "base",
+        "identity",
+        "nose",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "structure": "rounded-tip",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "rounded-tip",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-nose-base-rounded-tip-distinctly-structured",
+      "semantic_key": "identity-nose-base-rounded-tip-distinctly-structured",
+      "text": "a distinctly structured nose with a rounded tip",
+      "sentence": "A distinctly structured nose with a rounded tip.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a distinctly structured nose with a rounded tip",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a distinctly structured nose with a rounded tip",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a distinctly structured nose with a rounded tip",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-nose-base-rounded-tip",
+      "tags": [
+        "base",
+        "identity",
+        "nose",
+        "rarity-rare"
+      ],
+      "facets": {
+        "structure": "rounded-tip",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "rounded-tip",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-nose-base-rounded-tip-naturally-asymmetric",
+      "semantic_key": "identity-nose-base-rounded-tip-naturally-asymmetric",
+      "text": "a naturally asymmetric nose with a rounded tip",
+      "sentence": "A naturally asymmetric nose with a rounded tip.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a naturally asymmetric nose with a rounded tip",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a naturally asymmetric nose with a rounded tip",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a naturally asymmetric nose with a rounded tip",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-nose-base-rounded-tip",
+      "tags": [
+        "base",
+        "identity",
+        "nose",
+        "rarity-rare"
+      ],
+      "facets": {
+        "structure": "rounded-tip",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "rounded-tip",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-nose-base-defined-tip-softly-defined",
+      "semantic_key": "identity-nose-base-defined-tip-softly-defined",
+      "text": "a softly defined nose with a defined tip",
+      "sentence": "A softly defined nose with a defined tip.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a softly defined nose with a defined tip",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a softly defined nose with a defined tip",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a softly defined nose with a defined tip",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-nose-base-defined-tip",
+      "tags": [
+        "base",
+        "identity",
+        "nose",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "defined-tip",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "defined-tip",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-nose-base-defined-tip-cleanly-outlined",
+      "semantic_key": "identity-nose-base-defined-tip-cleanly-outlined",
+      "text": "a cleanly outlined nose with a defined tip",
+      "sentence": "A cleanly outlined nose with a defined tip.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a cleanly outlined nose with a defined tip",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a cleanly outlined nose with a defined tip",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a cleanly outlined nose with a defined tip",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-nose-base-defined-tip",
+      "tags": [
+        "base",
+        "identity",
+        "nose",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "defined-tip",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "defined-tip",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-nose-base-defined-tip-gently-tapered",
+      "semantic_key": "identity-nose-base-defined-tip-gently-tapered",
+      "text": "a gently tapered nose with a defined tip",
+      "sentence": "A gently tapered nose with a defined tip.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a gently tapered nose with a defined tip",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a gently tapered nose with a defined tip",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a gently tapered nose with a defined tip",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-nose-base-defined-tip",
+      "tags": [
+        "base",
+        "identity",
+        "nose",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "defined-tip",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "defined-tip",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-nose-base-defined-tip-evenly-proportioned",
+      "semantic_key": "identity-nose-base-defined-tip-evenly-proportioned",
+      "text": "a evenly proportioned nose with a defined tip",
+      "sentence": "A evenly proportioned nose with a defined tip.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a evenly proportioned nose with a defined tip",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a evenly proportioned nose with a defined tip",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a evenly proportioned nose with a defined tip",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-nose-base-defined-tip",
+      "tags": [
+        "base",
+        "identity",
+        "nose",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "defined-tip",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "defined-tip",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-nose-base-defined-tip-subtly-angular",
+      "semantic_key": "identity-nose-base-defined-tip-subtly-angular",
+      "text": "a subtly angular nose with a defined tip",
+      "sentence": "A subtly angular nose with a defined tip.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a subtly angular nose with a defined tip",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a subtly angular nose with a defined tip",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a subtly angular nose with a defined tip",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-nose-base-defined-tip",
+      "tags": [
+        "base",
+        "identity",
+        "nose",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "structure": "defined-tip",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "defined-tip",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-nose-base-defined-tip-smoothly-contoured",
+      "semantic_key": "identity-nose-base-defined-tip-smoothly-contoured",
+      "text": "a smoothly contoured nose with a defined tip",
+      "sentence": "A smoothly contoured nose with a defined tip.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a smoothly contoured nose with a defined tip",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a smoothly contoured nose with a defined tip",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a smoothly contoured nose with a defined tip",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-nose-base-defined-tip",
+      "tags": [
+        "base",
+        "identity",
+        "nose",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "structure": "defined-tip",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "defined-tip",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-nose-base-defined-tip-distinctly-structured",
+      "semantic_key": "identity-nose-base-defined-tip-distinctly-structured",
+      "text": "a distinctly structured nose with a defined tip",
+      "sentence": "A distinctly structured nose with a defined tip.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a distinctly structured nose with a defined tip",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a distinctly structured nose with a defined tip",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a distinctly structured nose with a defined tip",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-nose-base-defined-tip",
+      "tags": [
+        "base",
+        "identity",
+        "nose",
+        "rarity-rare"
+      ],
+      "facets": {
+        "structure": "defined-tip",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "defined-tip",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-nose-base-defined-tip-naturally-asymmetric",
+      "semantic_key": "identity-nose-base-defined-tip-naturally-asymmetric",
+      "text": "a naturally asymmetric nose with a defined tip",
+      "sentence": "A naturally asymmetric nose with a defined tip.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a naturally asymmetric nose with a defined tip",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a naturally asymmetric nose with a defined tip",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a naturally asymmetric nose with a defined tip",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-nose-base-defined-tip",
+      "tags": [
+        "base",
+        "identity",
+        "nose",
+        "rarity-rare"
+      ],
+      "facets": {
+        "structure": "defined-tip",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "defined-tip",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-nose-base-low-bridge-softly-defined",
+      "semantic_key": "identity-nose-base-low-bridge-softly-defined",
+      "text": "a softly defined nose with a low bridge",
+      "sentence": "A softly defined nose with a low bridge.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a softly defined nose with a low bridge",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a softly defined nose with a low bridge",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a softly defined nose with a low bridge",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-nose-base-low-bridge",
+      "tags": [
+        "base",
+        "identity",
+        "nose",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "low-bridge",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "low-bridge",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-nose-base-low-bridge-cleanly-outlined",
+      "semantic_key": "identity-nose-base-low-bridge-cleanly-outlined",
+      "text": "a cleanly outlined nose with a low bridge",
+      "sentence": "A cleanly outlined nose with a low bridge.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a cleanly outlined nose with a low bridge",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a cleanly outlined nose with a low bridge",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a cleanly outlined nose with a low bridge",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-nose-base-low-bridge",
+      "tags": [
+        "base",
+        "identity",
+        "nose",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "low-bridge",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "low-bridge",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-nose-base-low-bridge-gently-tapered",
+      "semantic_key": "identity-nose-base-low-bridge-gently-tapered",
+      "text": "a gently tapered nose with a low bridge",
+      "sentence": "A gently tapered nose with a low bridge.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a gently tapered nose with a low bridge",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a gently tapered nose with a low bridge",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a gently tapered nose with a low bridge",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-nose-base-low-bridge",
+      "tags": [
+        "base",
+        "identity",
+        "nose",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "low-bridge",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "low-bridge",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-nose-base-low-bridge-evenly-proportioned",
+      "semantic_key": "identity-nose-base-low-bridge-evenly-proportioned",
+      "text": "a evenly proportioned nose with a low bridge",
+      "sentence": "A evenly proportioned nose with a low bridge.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a evenly proportioned nose with a low bridge",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a evenly proportioned nose with a low bridge",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a evenly proportioned nose with a low bridge",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-nose-base-low-bridge",
+      "tags": [
+        "base",
+        "identity",
+        "nose",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "low-bridge",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "low-bridge",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-nose-base-low-bridge-subtly-angular",
+      "semantic_key": "identity-nose-base-low-bridge-subtly-angular",
+      "text": "a subtly angular nose with a low bridge",
+      "sentence": "A subtly angular nose with a low bridge.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a subtly angular nose with a low bridge",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a subtly angular nose with a low bridge",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a subtly angular nose with a low bridge",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-nose-base-low-bridge",
+      "tags": [
+        "base",
+        "identity",
+        "nose",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "structure": "low-bridge",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "low-bridge",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-nose-base-low-bridge-smoothly-contoured",
+      "semantic_key": "identity-nose-base-low-bridge-smoothly-contoured",
+      "text": "a smoothly contoured nose with a low bridge",
+      "sentence": "A smoothly contoured nose with a low bridge.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a smoothly contoured nose with a low bridge",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a smoothly contoured nose with a low bridge",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a smoothly contoured nose with a low bridge",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-nose-base-low-bridge",
+      "tags": [
+        "base",
+        "identity",
+        "nose",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "structure": "low-bridge",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "low-bridge",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-nose-base-low-bridge-distinctly-structured",
+      "semantic_key": "identity-nose-base-low-bridge-distinctly-structured",
+      "text": "a distinctly structured nose with a low bridge",
+      "sentence": "A distinctly structured nose with a low bridge.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a distinctly structured nose with a low bridge",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a distinctly structured nose with a low bridge",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a distinctly structured nose with a low bridge",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-nose-base-low-bridge",
+      "tags": [
+        "base",
+        "identity",
+        "nose",
+        "rarity-rare"
+      ],
+      "facets": {
+        "structure": "low-bridge",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "low-bridge",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-nose-base-low-bridge-naturally-asymmetric",
+      "semantic_key": "identity-nose-base-low-bridge-naturally-asymmetric",
+      "text": "a naturally asymmetric nose with a low bridge",
+      "sentence": "A naturally asymmetric nose with a low bridge.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a naturally asymmetric nose with a low bridge",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a naturally asymmetric nose with a low bridge",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a naturally asymmetric nose with a low bridge",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-nose-base-low-bridge",
+      "tags": [
+        "base",
+        "identity",
+        "nose",
+        "rarity-rare"
+      ],
+      "facets": {
+        "structure": "low-bridge",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "low-bridge",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-nose-base-high-bridge-softly-defined",
+      "semantic_key": "identity-nose-base-high-bridge-softly-defined",
+      "text": "a softly defined nose with a high bridge",
+      "sentence": "A softly defined nose with a high bridge.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a softly defined nose with a high bridge",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a softly defined nose with a high bridge",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a softly defined nose with a high bridge",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-nose-base-high-bridge",
+      "tags": [
+        "base",
+        "identity",
+        "nose",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "high-bridge",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "high-bridge",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-nose-base-high-bridge-cleanly-outlined",
+      "semantic_key": "identity-nose-base-high-bridge-cleanly-outlined",
+      "text": "a cleanly outlined nose with a high bridge",
+      "sentence": "A cleanly outlined nose with a high bridge.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a cleanly outlined nose with a high bridge",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a cleanly outlined nose with a high bridge",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a cleanly outlined nose with a high bridge",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-nose-base-high-bridge",
+      "tags": [
+        "base",
+        "identity",
+        "nose",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "high-bridge",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "high-bridge",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-nose-base-high-bridge-gently-tapered",
+      "semantic_key": "identity-nose-base-high-bridge-gently-tapered",
+      "text": "a gently tapered nose with a high bridge",
+      "sentence": "A gently tapered nose with a high bridge.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a gently tapered nose with a high bridge",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a gently tapered nose with a high bridge",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a gently tapered nose with a high bridge",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-nose-base-high-bridge",
+      "tags": [
+        "base",
+        "identity",
+        "nose",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "high-bridge",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "high-bridge",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-nose-base-high-bridge-evenly-proportioned",
+      "semantic_key": "identity-nose-base-high-bridge-evenly-proportioned",
+      "text": "a evenly proportioned nose with a high bridge",
+      "sentence": "A evenly proportioned nose with a high bridge.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a evenly proportioned nose with a high bridge",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a evenly proportioned nose with a high bridge",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a evenly proportioned nose with a high bridge",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-nose-base-high-bridge",
+      "tags": [
+        "base",
+        "identity",
+        "nose",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "high-bridge",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "high-bridge",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-nose-base-high-bridge-subtly-angular",
+      "semantic_key": "identity-nose-base-high-bridge-subtly-angular",
+      "text": "a subtly angular nose with a high bridge",
+      "sentence": "A subtly angular nose with a high bridge.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a subtly angular nose with a high bridge",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a subtly angular nose with a high bridge",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a subtly angular nose with a high bridge",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-nose-base-high-bridge",
+      "tags": [
+        "base",
+        "identity",
+        "nose",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "structure": "high-bridge",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "high-bridge",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-nose-base-high-bridge-smoothly-contoured",
+      "semantic_key": "identity-nose-base-high-bridge-smoothly-contoured",
+      "text": "a smoothly contoured nose with a high bridge",
+      "sentence": "A smoothly contoured nose with a high bridge.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a smoothly contoured nose with a high bridge",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a smoothly contoured nose with a high bridge",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a smoothly contoured nose with a high bridge",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-nose-base-high-bridge",
+      "tags": [
+        "base",
+        "identity",
+        "nose",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "structure": "high-bridge",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "high-bridge",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-nose-base-high-bridge-distinctly-structured",
+      "semantic_key": "identity-nose-base-high-bridge-distinctly-structured",
+      "text": "a distinctly structured nose with a high bridge",
+      "sentence": "A distinctly structured nose with a high bridge.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a distinctly structured nose with a high bridge",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a distinctly structured nose with a high bridge",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a distinctly structured nose with a high bridge",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-nose-base-high-bridge",
+      "tags": [
+        "base",
+        "identity",
+        "nose",
+        "rarity-rare"
+      ],
+      "facets": {
+        "structure": "high-bridge",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "high-bridge",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-nose-base-high-bridge-naturally-asymmetric",
+      "semantic_key": "identity-nose-base-high-bridge-naturally-asymmetric",
+      "text": "a naturally asymmetric nose with a high bridge",
+      "sentence": "A naturally asymmetric nose with a high bridge.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a naturally asymmetric nose with a high bridge",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a naturally asymmetric nose with a high bridge",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a naturally asymmetric nose with a high bridge",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-nose-base-high-bridge",
+      "tags": [
+        "base",
+        "identity",
+        "nose",
+        "rarity-rare"
+      ],
+      "facets": {
+        "structure": "high-bridge",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "high-bridge",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    }
+  ]
+}

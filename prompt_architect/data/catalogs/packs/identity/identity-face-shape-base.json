@@ -1,0 +1,2577 @@
+{
+  "schema_version": "2.0",
+  "id": "identity-face-shape-base",
+  "version": "2.0.0",
+  "library": "face-shape",
+  "domain": "identity",
+  "category": "face-shape",
+  "language": "en",
+  "status": "active",
+  "safety": "general",
+  "tags": [
+    "base"
+  ],
+  "fallback_option_id": "identity-face-shape-base-oval-softly-defined",
+  "options": [
+    {
+      "id": "identity-face-shape-base-oval-softly-defined",
+      "semantic_key": "identity-face-shape-base-oval-softly-defined",
+      "text": "a softly defined oval facial outline",
+      "sentence": "A softly defined oval facial outline.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a softly defined oval facial outline",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a softly defined oval facial outline",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a softly defined oval facial outline",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-face-shape-base-oval",
+      "tags": [
+        "base",
+        "face-shape",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "shape": "oval",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "oval",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-face-shape-base-oval-cleanly-outlined",
+      "semantic_key": "identity-face-shape-base-oval-cleanly-outlined",
+      "text": "a cleanly outlined oval facial outline",
+      "sentence": "A cleanly outlined oval facial outline.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a cleanly outlined oval facial outline",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a cleanly outlined oval facial outline",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a cleanly outlined oval facial outline",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-face-shape-base-oval",
+      "tags": [
+        "base",
+        "face-shape",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "shape": "oval",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "oval",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-face-shape-base-oval-gently-tapered",
+      "semantic_key": "identity-face-shape-base-oval-gently-tapered",
+      "text": "a gently tapered oval facial outline",
+      "sentence": "A gently tapered oval facial outline.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a gently tapered oval facial outline",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a gently tapered oval facial outline",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a gently tapered oval facial outline",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-face-shape-base-oval",
+      "tags": [
+        "base",
+        "face-shape",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "shape": "oval",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "oval",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-face-shape-base-oval-evenly-proportioned",
+      "semantic_key": "identity-face-shape-base-oval-evenly-proportioned",
+      "text": "a evenly proportioned oval facial outline",
+      "sentence": "A evenly proportioned oval facial outline.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a evenly proportioned oval facial outline",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a evenly proportioned oval facial outline",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a evenly proportioned oval facial outline",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-face-shape-base-oval",
+      "tags": [
+        "base",
+        "face-shape",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "shape": "oval",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "oval",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-face-shape-base-oval-subtly-angular",
+      "semantic_key": "identity-face-shape-base-oval-subtly-angular",
+      "text": "a subtly angular oval facial outline",
+      "sentence": "A subtly angular oval facial outline.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a subtly angular oval facial outline",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a subtly angular oval facial outline",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a subtly angular oval facial outline",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-face-shape-base-oval",
+      "tags": [
+        "base",
+        "face-shape",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "shape": "oval",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "oval",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-face-shape-base-oval-smoothly-contoured",
+      "semantic_key": "identity-face-shape-base-oval-smoothly-contoured",
+      "text": "a smoothly contoured oval facial outline",
+      "sentence": "A smoothly contoured oval facial outline.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a smoothly contoured oval facial outline",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a smoothly contoured oval facial outline",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a smoothly contoured oval facial outline",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-face-shape-base-oval",
+      "tags": [
+        "base",
+        "face-shape",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "shape": "oval",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "oval",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-face-shape-base-oval-distinctly-structured",
+      "semantic_key": "identity-face-shape-base-oval-distinctly-structured",
+      "text": "a distinctly structured oval facial outline",
+      "sentence": "A distinctly structured oval facial outline.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a distinctly structured oval facial outline",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a distinctly structured oval facial outline",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a distinctly structured oval facial outline",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-face-shape-base-oval",
+      "tags": [
+        "base",
+        "face-shape",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "shape": "oval",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "oval",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-face-shape-base-oval-naturally-asymmetric",
+      "semantic_key": "identity-face-shape-base-oval-naturally-asymmetric",
+      "text": "a naturally asymmetric oval facial outline",
+      "sentence": "A naturally asymmetric oval facial outline.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a naturally asymmetric oval facial outline",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a naturally asymmetric oval facial outline",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a naturally asymmetric oval facial outline",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-face-shape-base-oval",
+      "tags": [
+        "base",
+        "face-shape",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "shape": "oval",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "oval",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-face-shape-base-round-softly-defined",
+      "semantic_key": "identity-face-shape-base-round-softly-defined",
+      "text": "a softly defined round facial outline",
+      "sentence": "A softly defined round facial outline.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a softly defined round facial outline",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a softly defined round facial outline",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a softly defined round facial outline",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-face-shape-base-round",
+      "tags": [
+        "base",
+        "face-shape",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "shape": "round",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "round",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-face-shape-base-round-cleanly-outlined",
+      "semantic_key": "identity-face-shape-base-round-cleanly-outlined",
+      "text": "a cleanly outlined round facial outline",
+      "sentence": "A cleanly outlined round facial outline.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a cleanly outlined round facial outline",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a cleanly outlined round facial outline",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a cleanly outlined round facial outline",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-face-shape-base-round",
+      "tags": [
+        "base",
+        "face-shape",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "shape": "round",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "round",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-face-shape-base-round-gently-tapered",
+      "semantic_key": "identity-face-shape-base-round-gently-tapered",
+      "text": "a gently tapered round facial outline",
+      "sentence": "A gently tapered round facial outline.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a gently tapered round facial outline",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a gently tapered round facial outline",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a gently tapered round facial outline",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-face-shape-base-round",
+      "tags": [
+        "base",
+        "face-shape",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "shape": "round",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "round",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-face-shape-base-round-evenly-proportioned",
+      "semantic_key": "identity-face-shape-base-round-evenly-proportioned",
+      "text": "a evenly proportioned round facial outline",
+      "sentence": "A evenly proportioned round facial outline.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a evenly proportioned round facial outline",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a evenly proportioned round facial outline",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a evenly proportioned round facial outline",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-face-shape-base-round",
+      "tags": [
+        "base",
+        "face-shape",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "shape": "round",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "round",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-face-shape-base-round-subtly-angular",
+      "semantic_key": "identity-face-shape-base-round-subtly-angular",
+      "text": "a subtly angular round facial outline",
+      "sentence": "A subtly angular round facial outline.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a subtly angular round facial outline",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a subtly angular round facial outline",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a subtly angular round facial outline",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-face-shape-base-round",
+      "tags": [
+        "base",
+        "face-shape",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "shape": "round",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "round",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-face-shape-base-round-smoothly-contoured",
+      "semantic_key": "identity-face-shape-base-round-smoothly-contoured",
+      "text": "a smoothly contoured round facial outline",
+      "sentence": "A smoothly contoured round facial outline.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a smoothly contoured round facial outline",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a smoothly contoured round facial outline",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a smoothly contoured round facial outline",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-face-shape-base-round",
+      "tags": [
+        "base",
+        "face-shape",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "shape": "round",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "round",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-face-shape-base-round-distinctly-structured",
+      "semantic_key": "identity-face-shape-base-round-distinctly-structured",
+      "text": "a distinctly structured round facial outline",
+      "sentence": "A distinctly structured round facial outline.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a distinctly structured round facial outline",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a distinctly structured round facial outline",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a distinctly structured round facial outline",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-face-shape-base-round",
+      "tags": [
+        "base",
+        "face-shape",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "shape": "round",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "round",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-face-shape-base-round-naturally-asymmetric",
+      "semantic_key": "identity-face-shape-base-round-naturally-asymmetric",
+      "text": "a naturally asymmetric round facial outline",
+      "sentence": "A naturally asymmetric round facial outline.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a naturally asymmetric round facial outline",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a naturally asymmetric round facial outline",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a naturally asymmetric round facial outline",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-face-shape-base-round",
+      "tags": [
+        "base",
+        "face-shape",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "shape": "round",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "round",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-face-shape-base-square-softly-defined",
+      "semantic_key": "identity-face-shape-base-square-softly-defined",
+      "text": "a softly defined square facial outline",
+      "sentence": "A softly defined square facial outline.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a softly defined square facial outline",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a softly defined square facial outline",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a softly defined square facial outline",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-face-shape-base-square",
+      "tags": [
+        "base",
+        "face-shape",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "shape": "square",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "square",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-face-shape-base-square-cleanly-outlined",
+      "semantic_key": "identity-face-shape-base-square-cleanly-outlined",
+      "text": "a cleanly outlined square facial outline",
+      "sentence": "A cleanly outlined square facial outline.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a cleanly outlined square facial outline",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a cleanly outlined square facial outline",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a cleanly outlined square facial outline",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-face-shape-base-square",
+      "tags": [
+        "base",
+        "face-shape",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "shape": "square",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "square",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-face-shape-base-square-gently-tapered",
+      "semantic_key": "identity-face-shape-base-square-gently-tapered",
+      "text": "a gently tapered square facial outline",
+      "sentence": "A gently tapered square facial outline.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a gently tapered square facial outline",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a gently tapered square facial outline",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a gently tapered square facial outline",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-face-shape-base-square",
+      "tags": [
+        "base",
+        "face-shape",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "shape": "square",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "square",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-face-shape-base-square-evenly-proportioned",
+      "semantic_key": "identity-face-shape-base-square-evenly-proportioned",
+      "text": "a evenly proportioned square facial outline",
+      "sentence": "A evenly proportioned square facial outline.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a evenly proportioned square facial outline",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a evenly proportioned square facial outline",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a evenly proportioned square facial outline",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-face-shape-base-square",
+      "tags": [
+        "base",
+        "face-shape",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "shape": "square",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "square",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-face-shape-base-square-subtly-angular",
+      "semantic_key": "identity-face-shape-base-square-subtly-angular",
+      "text": "a subtly angular square facial outline",
+      "sentence": "A subtly angular square facial outline.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a subtly angular square facial outline",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a subtly angular square facial outline",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a subtly angular square facial outline",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-face-shape-base-square",
+      "tags": [
+        "base",
+        "face-shape",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "shape": "square",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "square",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-face-shape-base-square-smoothly-contoured",
+      "semantic_key": "identity-face-shape-base-square-smoothly-contoured",
+      "text": "a smoothly contoured square facial outline",
+      "sentence": "A smoothly contoured square facial outline.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a smoothly contoured square facial outline",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a smoothly contoured square facial outline",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a smoothly contoured square facial outline",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-face-shape-base-square",
+      "tags": [
+        "base",
+        "face-shape",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "shape": "square",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "square",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-face-shape-base-square-distinctly-structured",
+      "semantic_key": "identity-face-shape-base-square-distinctly-structured",
+      "text": "a distinctly structured square facial outline",
+      "sentence": "A distinctly structured square facial outline.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a distinctly structured square facial outline",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a distinctly structured square facial outline",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a distinctly structured square facial outline",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-face-shape-base-square",
+      "tags": [
+        "base",
+        "face-shape",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "shape": "square",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "square",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-face-shape-base-square-naturally-asymmetric",
+      "semantic_key": "identity-face-shape-base-square-naturally-asymmetric",
+      "text": "a naturally asymmetric square facial outline",
+      "sentence": "A naturally asymmetric square facial outline.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a naturally asymmetric square facial outline",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a naturally asymmetric square facial outline",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a naturally asymmetric square facial outline",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-face-shape-base-square",
+      "tags": [
+        "base",
+        "face-shape",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "shape": "square",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "square",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-face-shape-base-oblong-softly-defined",
+      "semantic_key": "identity-face-shape-base-oblong-softly-defined",
+      "text": "a softly defined oblong facial outline",
+      "sentence": "A softly defined oblong facial outline.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a softly defined oblong facial outline",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a softly defined oblong facial outline",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a softly defined oblong facial outline",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-face-shape-base-oblong",
+      "tags": [
+        "base",
+        "face-shape",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "shape": "oblong",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "oblong",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-face-shape-base-oblong-cleanly-outlined",
+      "semantic_key": "identity-face-shape-base-oblong-cleanly-outlined",
+      "text": "a cleanly outlined oblong facial outline",
+      "sentence": "A cleanly outlined oblong facial outline.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a cleanly outlined oblong facial outline",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a cleanly outlined oblong facial outline",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a cleanly outlined oblong facial outline",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-face-shape-base-oblong",
+      "tags": [
+        "base",
+        "face-shape",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "shape": "oblong",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "oblong",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-face-shape-base-oblong-gently-tapered",
+      "semantic_key": "identity-face-shape-base-oblong-gently-tapered",
+      "text": "a gently tapered oblong facial outline",
+      "sentence": "A gently tapered oblong facial outline.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a gently tapered oblong facial outline",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a gently tapered oblong facial outline",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a gently tapered oblong facial outline",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-face-shape-base-oblong",
+      "tags": [
+        "base",
+        "face-shape",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "shape": "oblong",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "oblong",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-face-shape-base-oblong-evenly-proportioned",
+      "semantic_key": "identity-face-shape-base-oblong-evenly-proportioned",
+      "text": "a evenly proportioned oblong facial outline",
+      "sentence": "A evenly proportioned oblong facial outline.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a evenly proportioned oblong facial outline",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a evenly proportioned oblong facial outline",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a evenly proportioned oblong facial outline",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-face-shape-base-oblong",
+      "tags": [
+        "base",
+        "face-shape",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "shape": "oblong",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "oblong",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-face-shape-base-oblong-subtly-angular",
+      "semantic_key": "identity-face-shape-base-oblong-subtly-angular",
+      "text": "a subtly angular oblong facial outline",
+      "sentence": "A subtly angular oblong facial outline.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a subtly angular oblong facial outline",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a subtly angular oblong facial outline",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a subtly angular oblong facial outline",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-face-shape-base-oblong",
+      "tags": [
+        "base",
+        "face-shape",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "shape": "oblong",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "oblong",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-face-shape-base-oblong-smoothly-contoured",
+      "semantic_key": "identity-face-shape-base-oblong-smoothly-contoured",
+      "text": "a smoothly contoured oblong facial outline",
+      "sentence": "A smoothly contoured oblong facial outline.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a smoothly contoured oblong facial outline",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a smoothly contoured oblong facial outline",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a smoothly contoured oblong facial outline",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-face-shape-base-oblong",
+      "tags": [
+        "base",
+        "face-shape",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "shape": "oblong",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "oblong",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-face-shape-base-oblong-distinctly-structured",
+      "semantic_key": "identity-face-shape-base-oblong-distinctly-structured",
+      "text": "a distinctly structured oblong facial outline",
+      "sentence": "A distinctly structured oblong facial outline.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a distinctly structured oblong facial outline",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a distinctly structured oblong facial outline",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a distinctly structured oblong facial outline",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-face-shape-base-oblong",
+      "tags": [
+        "base",
+        "face-shape",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "shape": "oblong",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "oblong",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-face-shape-base-oblong-naturally-asymmetric",
+      "semantic_key": "identity-face-shape-base-oblong-naturally-asymmetric",
+      "text": "a naturally asymmetric oblong facial outline",
+      "sentence": "A naturally asymmetric oblong facial outline.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a naturally asymmetric oblong facial outline",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a naturally asymmetric oblong facial outline",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a naturally asymmetric oblong facial outline",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-face-shape-base-oblong",
+      "tags": [
+        "base",
+        "face-shape",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "shape": "oblong",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "oblong",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-face-shape-base-heart-shaped-softly-defined",
+      "semantic_key": "identity-face-shape-base-heart-shaped-softly-defined",
+      "text": "a softly defined heart-shaped facial outline",
+      "sentence": "A softly defined heart-shaped facial outline.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a softly defined heart-shaped facial outline",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a softly defined heart-shaped facial outline",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a softly defined heart-shaped facial outline",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-face-shape-base-heart-shaped",
+      "tags": [
+        "base",
+        "face-shape",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "shape": "heart-shaped",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "heart-shaped",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-face-shape-base-heart-shaped-cleanly-outlined",
+      "semantic_key": "identity-face-shape-base-heart-shaped-cleanly-outlined",
+      "text": "a cleanly outlined heart-shaped facial outline",
+      "sentence": "A cleanly outlined heart-shaped facial outline.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a cleanly outlined heart-shaped facial outline",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a cleanly outlined heart-shaped facial outline",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a cleanly outlined heart-shaped facial outline",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-face-shape-base-heart-shaped",
+      "tags": [
+        "base",
+        "face-shape",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "shape": "heart-shaped",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "heart-shaped",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-face-shape-base-heart-shaped-gently-tapered",
+      "semantic_key": "identity-face-shape-base-heart-shaped-gently-tapered",
+      "text": "a gently tapered heart-shaped facial outline",
+      "sentence": "A gently tapered heart-shaped facial outline.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a gently tapered heart-shaped facial outline",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a gently tapered heart-shaped facial outline",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a gently tapered heart-shaped facial outline",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-face-shape-base-heart-shaped",
+      "tags": [
+        "base",
+        "face-shape",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "shape": "heart-shaped",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "heart-shaped",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-face-shape-base-heart-shaped-evenly-proportioned",
+      "semantic_key": "identity-face-shape-base-heart-shaped-evenly-proportioned",
+      "text": "a evenly proportioned heart-shaped facial outline",
+      "sentence": "A evenly proportioned heart-shaped facial outline.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a evenly proportioned heart-shaped facial outline",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a evenly proportioned heart-shaped facial outline",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a evenly proportioned heart-shaped facial outline",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-face-shape-base-heart-shaped",
+      "tags": [
+        "base",
+        "face-shape",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "shape": "heart-shaped",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "heart-shaped",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-face-shape-base-heart-shaped-subtly-angular",
+      "semantic_key": "identity-face-shape-base-heart-shaped-subtly-angular",
+      "text": "a subtly angular heart-shaped facial outline",
+      "sentence": "A subtly angular heart-shaped facial outline.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a subtly angular heart-shaped facial outline",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a subtly angular heart-shaped facial outline",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a subtly angular heart-shaped facial outline",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-face-shape-base-heart-shaped",
+      "tags": [
+        "base",
+        "face-shape",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "shape": "heart-shaped",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "heart-shaped",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-face-shape-base-heart-shaped-smoothly-contoured",
+      "semantic_key": "identity-face-shape-base-heart-shaped-smoothly-contoured",
+      "text": "a smoothly contoured heart-shaped facial outline",
+      "sentence": "A smoothly contoured heart-shaped facial outline.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a smoothly contoured heart-shaped facial outline",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a smoothly contoured heart-shaped facial outline",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a smoothly contoured heart-shaped facial outline",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-face-shape-base-heart-shaped",
+      "tags": [
+        "base",
+        "face-shape",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "shape": "heart-shaped",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "heart-shaped",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-face-shape-base-heart-shaped-distinctly-structured",
+      "semantic_key": "identity-face-shape-base-heart-shaped-distinctly-structured",
+      "text": "a distinctly structured heart-shaped facial outline",
+      "sentence": "A distinctly structured heart-shaped facial outline.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a distinctly structured heart-shaped facial outline",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a distinctly structured heart-shaped facial outline",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a distinctly structured heart-shaped facial outline",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-face-shape-base-heart-shaped",
+      "tags": [
+        "base",
+        "face-shape",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "shape": "heart-shaped",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "heart-shaped",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-face-shape-base-heart-shaped-naturally-asymmetric",
+      "semantic_key": "identity-face-shape-base-heart-shaped-naturally-asymmetric",
+      "text": "a naturally asymmetric heart-shaped facial outline",
+      "sentence": "A naturally asymmetric heart-shaped facial outline.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a naturally asymmetric heart-shaped facial outline",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a naturally asymmetric heart-shaped facial outline",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a naturally asymmetric heart-shaped facial outline",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-face-shape-base-heart-shaped",
+      "tags": [
+        "base",
+        "face-shape",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "shape": "heart-shaped",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "heart-shaped",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-face-shape-base-diamond-shaped-softly-defined",
+      "semantic_key": "identity-face-shape-base-diamond-shaped-softly-defined",
+      "text": "a softly defined diamond-shaped facial outline",
+      "sentence": "A softly defined diamond-shaped facial outline.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a softly defined diamond-shaped facial outline",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a softly defined diamond-shaped facial outline",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a softly defined diamond-shaped facial outline",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-face-shape-base-diamond-shaped",
+      "tags": [
+        "base",
+        "face-shape",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "shape": "diamond-shaped",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "diamond-shaped",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-face-shape-base-diamond-shaped-cleanly-outlined",
+      "semantic_key": "identity-face-shape-base-diamond-shaped-cleanly-outlined",
+      "text": "a cleanly outlined diamond-shaped facial outline",
+      "sentence": "A cleanly outlined diamond-shaped facial outline.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a cleanly outlined diamond-shaped facial outline",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a cleanly outlined diamond-shaped facial outline",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a cleanly outlined diamond-shaped facial outline",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-face-shape-base-diamond-shaped",
+      "tags": [
+        "base",
+        "face-shape",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "shape": "diamond-shaped",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "diamond-shaped",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-face-shape-base-diamond-shaped-gently-tapered",
+      "semantic_key": "identity-face-shape-base-diamond-shaped-gently-tapered",
+      "text": "a gently tapered diamond-shaped facial outline",
+      "sentence": "A gently tapered diamond-shaped facial outline.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a gently tapered diamond-shaped facial outline",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a gently tapered diamond-shaped facial outline",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a gently tapered diamond-shaped facial outline",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-face-shape-base-diamond-shaped",
+      "tags": [
+        "base",
+        "face-shape",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "shape": "diamond-shaped",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "diamond-shaped",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-face-shape-base-diamond-shaped-evenly-proportioned",
+      "semantic_key": "identity-face-shape-base-diamond-shaped-evenly-proportioned",
+      "text": "a evenly proportioned diamond-shaped facial outline",
+      "sentence": "A evenly proportioned diamond-shaped facial outline.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a evenly proportioned diamond-shaped facial outline",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a evenly proportioned diamond-shaped facial outline",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a evenly proportioned diamond-shaped facial outline",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-face-shape-base-diamond-shaped",
+      "tags": [
+        "base",
+        "face-shape",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "shape": "diamond-shaped",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "diamond-shaped",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-face-shape-base-diamond-shaped-subtly-angular",
+      "semantic_key": "identity-face-shape-base-diamond-shaped-subtly-angular",
+      "text": "a subtly angular diamond-shaped facial outline",
+      "sentence": "A subtly angular diamond-shaped facial outline.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a subtly angular diamond-shaped facial outline",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a subtly angular diamond-shaped facial outline",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a subtly angular diamond-shaped facial outline",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-face-shape-base-diamond-shaped",
+      "tags": [
+        "base",
+        "face-shape",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "shape": "diamond-shaped",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "diamond-shaped",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-face-shape-base-diamond-shaped-smoothly-contoured",
+      "semantic_key": "identity-face-shape-base-diamond-shaped-smoothly-contoured",
+      "text": "a smoothly contoured diamond-shaped facial outline",
+      "sentence": "A smoothly contoured diamond-shaped facial outline.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a smoothly contoured diamond-shaped facial outline",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a smoothly contoured diamond-shaped facial outline",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a smoothly contoured diamond-shaped facial outline",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-face-shape-base-diamond-shaped",
+      "tags": [
+        "base",
+        "face-shape",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "shape": "diamond-shaped",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "diamond-shaped",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-face-shape-base-diamond-shaped-distinctly-structured",
+      "semantic_key": "identity-face-shape-base-diamond-shaped-distinctly-structured",
+      "text": "a distinctly structured diamond-shaped facial outline",
+      "sentence": "A distinctly structured diamond-shaped facial outline.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a distinctly structured diamond-shaped facial outline",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a distinctly structured diamond-shaped facial outline",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a distinctly structured diamond-shaped facial outline",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-face-shape-base-diamond-shaped",
+      "tags": [
+        "base",
+        "face-shape",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "shape": "diamond-shaped",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "diamond-shaped",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-face-shape-base-diamond-shaped-naturally-asymmetric",
+      "semantic_key": "identity-face-shape-base-diamond-shaped-naturally-asymmetric",
+      "text": "a naturally asymmetric diamond-shaped facial outline",
+      "sentence": "A naturally asymmetric diamond-shaped facial outline.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a naturally asymmetric diamond-shaped facial outline",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a naturally asymmetric diamond-shaped facial outline",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a naturally asymmetric diamond-shaped facial outline",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-face-shape-base-diamond-shaped",
+      "tags": [
+        "base",
+        "face-shape",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "shape": "diamond-shaped",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "diamond-shaped",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-face-shape-base-triangular-softly-defined",
+      "semantic_key": "identity-face-shape-base-triangular-softly-defined",
+      "text": "a softly defined triangular facial outline",
+      "sentence": "A softly defined triangular facial outline.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a softly defined triangular facial outline",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a softly defined triangular facial outline",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a softly defined triangular facial outline",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-face-shape-base-triangular",
+      "tags": [
+        "base",
+        "face-shape",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "shape": "triangular",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "triangular",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-face-shape-base-triangular-cleanly-outlined",
+      "semantic_key": "identity-face-shape-base-triangular-cleanly-outlined",
+      "text": "a cleanly outlined triangular facial outline",
+      "sentence": "A cleanly outlined triangular facial outline.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a cleanly outlined triangular facial outline",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a cleanly outlined triangular facial outline",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a cleanly outlined triangular facial outline",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-face-shape-base-triangular",
+      "tags": [
+        "base",
+        "face-shape",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "shape": "triangular",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "triangular",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-face-shape-base-triangular-gently-tapered",
+      "semantic_key": "identity-face-shape-base-triangular-gently-tapered",
+      "text": "a gently tapered triangular facial outline",
+      "sentence": "A gently tapered triangular facial outline.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a gently tapered triangular facial outline",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a gently tapered triangular facial outline",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a gently tapered triangular facial outline",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-face-shape-base-triangular",
+      "tags": [
+        "base",
+        "face-shape",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "shape": "triangular",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "triangular",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-face-shape-base-triangular-evenly-proportioned",
+      "semantic_key": "identity-face-shape-base-triangular-evenly-proportioned",
+      "text": "a evenly proportioned triangular facial outline",
+      "sentence": "A evenly proportioned triangular facial outline.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a evenly proportioned triangular facial outline",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a evenly proportioned triangular facial outline",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a evenly proportioned triangular facial outline",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-face-shape-base-triangular",
+      "tags": [
+        "base",
+        "face-shape",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "shape": "triangular",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "triangular",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-face-shape-base-triangular-subtly-angular",
+      "semantic_key": "identity-face-shape-base-triangular-subtly-angular",
+      "text": "a subtly angular triangular facial outline",
+      "sentence": "A subtly angular triangular facial outline.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a subtly angular triangular facial outline",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a subtly angular triangular facial outline",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a subtly angular triangular facial outline",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-face-shape-base-triangular",
+      "tags": [
+        "base",
+        "face-shape",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "shape": "triangular",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "triangular",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-face-shape-base-triangular-smoothly-contoured",
+      "semantic_key": "identity-face-shape-base-triangular-smoothly-contoured",
+      "text": "a smoothly contoured triangular facial outline",
+      "sentence": "A smoothly contoured triangular facial outline.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a smoothly contoured triangular facial outline",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a smoothly contoured triangular facial outline",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a smoothly contoured triangular facial outline",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-face-shape-base-triangular",
+      "tags": [
+        "base",
+        "face-shape",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "shape": "triangular",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "triangular",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-face-shape-base-triangular-distinctly-structured",
+      "semantic_key": "identity-face-shape-base-triangular-distinctly-structured",
+      "text": "a distinctly structured triangular facial outline",
+      "sentence": "A distinctly structured triangular facial outline.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a distinctly structured triangular facial outline",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a distinctly structured triangular facial outline",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a distinctly structured triangular facial outline",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-face-shape-base-triangular",
+      "tags": [
+        "base",
+        "face-shape",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "shape": "triangular",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "triangular",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-face-shape-base-triangular-naturally-asymmetric",
+      "semantic_key": "identity-face-shape-base-triangular-naturally-asymmetric",
+      "text": "a naturally asymmetric triangular facial outline",
+      "sentence": "A naturally asymmetric triangular facial outline.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a naturally asymmetric triangular facial outline",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a naturally asymmetric triangular facial outline",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a naturally asymmetric triangular facial outline",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-face-shape-base-triangular",
+      "tags": [
+        "base",
+        "face-shape",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "shape": "triangular",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "triangular",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-face-shape-base-pear-shaped-softly-defined",
+      "semantic_key": "identity-face-shape-base-pear-shaped-softly-defined",
+      "text": "a softly defined pear-shaped facial outline",
+      "sentence": "A softly defined pear-shaped facial outline.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a softly defined pear-shaped facial outline",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a softly defined pear-shaped facial outline",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a softly defined pear-shaped facial outline",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-face-shape-base-pear-shaped",
+      "tags": [
+        "base",
+        "face-shape",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "shape": "pear-shaped",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "pear-shaped",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-face-shape-base-pear-shaped-cleanly-outlined",
+      "semantic_key": "identity-face-shape-base-pear-shaped-cleanly-outlined",
+      "text": "a cleanly outlined pear-shaped facial outline",
+      "sentence": "A cleanly outlined pear-shaped facial outline.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a cleanly outlined pear-shaped facial outline",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a cleanly outlined pear-shaped facial outline",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a cleanly outlined pear-shaped facial outline",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-face-shape-base-pear-shaped",
+      "tags": [
+        "base",
+        "face-shape",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "shape": "pear-shaped",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "pear-shaped",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-face-shape-base-pear-shaped-gently-tapered",
+      "semantic_key": "identity-face-shape-base-pear-shaped-gently-tapered",
+      "text": "a gently tapered pear-shaped facial outline",
+      "sentence": "A gently tapered pear-shaped facial outline.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a gently tapered pear-shaped facial outline",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a gently tapered pear-shaped facial outline",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a gently tapered pear-shaped facial outline",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-face-shape-base-pear-shaped",
+      "tags": [
+        "base",
+        "face-shape",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "shape": "pear-shaped",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "pear-shaped",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-face-shape-base-pear-shaped-evenly-proportioned",
+      "semantic_key": "identity-face-shape-base-pear-shaped-evenly-proportioned",
+      "text": "a evenly proportioned pear-shaped facial outline",
+      "sentence": "A evenly proportioned pear-shaped facial outline.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a evenly proportioned pear-shaped facial outline",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a evenly proportioned pear-shaped facial outline",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a evenly proportioned pear-shaped facial outline",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-face-shape-base-pear-shaped",
+      "tags": [
+        "base",
+        "face-shape",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "shape": "pear-shaped",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "pear-shaped",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-face-shape-base-pear-shaped-subtly-angular",
+      "semantic_key": "identity-face-shape-base-pear-shaped-subtly-angular",
+      "text": "a subtly angular pear-shaped facial outline",
+      "sentence": "A subtly angular pear-shaped facial outline.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a subtly angular pear-shaped facial outline",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a subtly angular pear-shaped facial outline",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a subtly angular pear-shaped facial outline",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-face-shape-base-pear-shaped",
+      "tags": [
+        "base",
+        "face-shape",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "shape": "pear-shaped",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "pear-shaped",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-face-shape-base-pear-shaped-smoothly-contoured",
+      "semantic_key": "identity-face-shape-base-pear-shaped-smoothly-contoured",
+      "text": "a smoothly contoured pear-shaped facial outline",
+      "sentence": "A smoothly contoured pear-shaped facial outline.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a smoothly contoured pear-shaped facial outline",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a smoothly contoured pear-shaped facial outline",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a smoothly contoured pear-shaped facial outline",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-face-shape-base-pear-shaped",
+      "tags": [
+        "base",
+        "face-shape",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "shape": "pear-shaped",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "pear-shaped",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-face-shape-base-pear-shaped-distinctly-structured",
+      "semantic_key": "identity-face-shape-base-pear-shaped-distinctly-structured",
+      "text": "a distinctly structured pear-shaped facial outline",
+      "sentence": "A distinctly structured pear-shaped facial outline.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a distinctly structured pear-shaped facial outline",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a distinctly structured pear-shaped facial outline",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a distinctly structured pear-shaped facial outline",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-face-shape-base-pear-shaped",
+      "tags": [
+        "base",
+        "face-shape",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "shape": "pear-shaped",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "pear-shaped",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-face-shape-base-pear-shaped-naturally-asymmetric",
+      "semantic_key": "identity-face-shape-base-pear-shaped-naturally-asymmetric",
+      "text": "a naturally asymmetric pear-shaped facial outline",
+      "sentence": "A naturally asymmetric pear-shaped facial outline.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a naturally asymmetric pear-shaped facial outline",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a naturally asymmetric pear-shaped facial outline",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a naturally asymmetric pear-shaped facial outline",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-face-shape-base-pear-shaped",
+      "tags": [
+        "base",
+        "face-shape",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "shape": "pear-shaped",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "pear-shaped",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    }
+  ]
+}

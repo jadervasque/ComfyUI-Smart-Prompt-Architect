@@ -1,18 +1,21 @@
-# Validation, manifests, and diagnostics
+# Validação, manifesto e diagnósticos
 
-The final pipeline validates required structured sections and absolute rules before rendering, then
-checks the final positive and negative prompts. A positive prompt must contain meaningful text,
-meet profile character and section thresholds, contain no residual placeholders or null-like
-sentinels, and never consist only of punctuation. A profile may require a non-empty negative
-prompt. Errors are returned as structured issues and raised as one clear
-`FinalPromptValidationError` before output.
+O pipeline valida seções obrigatórias e regras absolutas antes de renderizar. Depois verifica prompt
+positivo significativo, comprimento, quantidade de seções, placeholders, sentinelas e negativo
+obrigatório. Um erro impede a saída e identifica campo e motivo.
 
-Positive and negative prefix/suffix overrides are joined around generated content; they never
-replace it. Unknown override keys fail as configuration errors. All parts are normalized after
-joining.
+O manifesto V2 registra:
 
-Every successful composition produces canonical JSON with schema/engine/profile/library versions,
-the complete effective configuration and SHA-256 hash, master and group seeds, per-section option
-and provenance, rule/conflict/fallback events, attempts, warnings, and both final prompts. Keys are
-sorted and NaN is forbidden, so identical inputs produce byte-identical manifest JSON. The summary
-reports profile, seed, section/attempt/fallback/warning counts without including full prompt text.
+- versões do engine, perfil, catálogo, bibliotecas e packs;
+- configuração efetiva e hash SHA-256;
+- master seed, group seeds e batch index;
+- opção, pack, família, facets, tags, variante e origem por seção;
+- se a seção foi realmente renderizada;
+- regras, conflitos, fallbacks, tentativas e avisos;
+- prompts positivo e negativo finais.
+
+O JSON usa ordenação canônica e proíbe NaN. Mesma versão, configuração e seed produzem bytes
+idênticos. Omissões adaptativas são visíveis pelo campo `rendered: false` e por um aviso.
+
+Manifestos antigos sem catálogo permanecem no schema `1.0`; composições Catalog V2 usam schema
+`2.0`.

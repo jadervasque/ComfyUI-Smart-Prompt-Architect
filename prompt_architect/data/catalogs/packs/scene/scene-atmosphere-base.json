@@ -1,0 +1,2577 @@
+{
+  "schema_version": "2.0",
+  "id": "scene-atmosphere-base",
+  "version": "2.0.0",
+  "library": "atmosphere",
+  "domain": "scene",
+  "category": "atmosphere",
+  "language": "en",
+  "status": "active",
+  "safety": "general",
+  "tags": [
+    "base"
+  ],
+  "fallback_option_id": "scene-atmosphere-base-quiet-atmosphere-clear-atmosphere",
+  "options": [
+    {
+      "id": "scene-atmosphere-base-quiet-atmosphere-clear-atmosphere",
+      "semantic_key": "scene-atmosphere-base-quiet-atmosphere-clear-atmosphere",
+      "text": "quiet atmosphere carried by clear atmosphere",
+      "sentence": "Quiet atmosphere carried by clear atmosphere.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "quiet atmosphere carried by clear atmosphere",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing quiet atmosphere carried by clear atmosphere",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with quiet atmosphere carried by clear atmosphere",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-atmosphere-base-quiet-atmosphere",
+      "tags": [
+        "atmosphere",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "mood": "quiet-atmosphere",
+        "treatment": "clear-atmosphere"
+      },
+      "subcategory": "quiet-atmosphere",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-atmosphere-base-quiet-atmosphere-light-haze",
+      "semantic_key": "scene-atmosphere-base-quiet-atmosphere-light-haze",
+      "text": "quiet atmosphere carried by light haze",
+      "sentence": "Quiet atmosphere carried by light haze.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "quiet atmosphere carried by light haze",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing quiet atmosphere carried by light haze",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with quiet atmosphere carried by light haze",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-atmosphere-base-quiet-atmosphere",
+      "tags": [
+        "atmosphere",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "mood": "quiet-atmosphere",
+        "treatment": "light-haze"
+      },
+      "subcategory": "quiet-atmosphere",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-atmosphere-base-quiet-atmosphere-soft-mist",
+      "semantic_key": "scene-atmosphere-base-quiet-atmosphere-soft-mist",
+      "text": "quiet atmosphere carried by soft mist",
+      "sentence": "Quiet atmosphere carried by soft mist.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "quiet atmosphere carried by soft mist",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing quiet atmosphere carried by soft mist",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with quiet atmosphere carried by soft mist",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-atmosphere-base-quiet-atmosphere",
+      "tags": [
+        "atmosphere",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "mood": "quiet-atmosphere",
+        "treatment": "soft-mist"
+      },
+      "subcategory": "quiet-atmosphere",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-atmosphere-base-quiet-atmosphere-humid-air",
+      "semantic_key": "scene-atmosphere-base-quiet-atmosphere-humid-air",
+      "text": "quiet atmosphere carried by humid air",
+      "sentence": "Quiet atmosphere carried by humid air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "quiet atmosphere carried by humid air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing quiet atmosphere carried by humid air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with quiet atmosphere carried by humid air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-atmosphere-base-quiet-atmosphere",
+      "tags": [
+        "atmosphere",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "mood": "quiet-atmosphere",
+        "treatment": "humid-air"
+      },
+      "subcategory": "quiet-atmosphere",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-atmosphere-base-quiet-atmosphere-dry-air",
+      "semantic_key": "scene-atmosphere-base-quiet-atmosphere-dry-air",
+      "text": "quiet atmosphere carried by dry air",
+      "sentence": "Quiet atmosphere carried by dry air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "quiet atmosphere carried by dry air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing quiet atmosphere carried by dry air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with quiet atmosphere carried by dry air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-atmosphere-base-quiet-atmosphere",
+      "tags": [
+        "atmosphere",
+        "base",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "mood": "quiet-atmosphere",
+        "treatment": "dry-air"
+      },
+      "subcategory": "quiet-atmosphere",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-atmosphere-base-quiet-atmosphere-wind-swept-air",
+      "semantic_key": "scene-atmosphere-base-quiet-atmosphere-wind-swept-air",
+      "text": "quiet atmosphere carried by wind-swept air",
+      "sentence": "Quiet atmosphere carried by wind-swept air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "quiet atmosphere carried by wind-swept air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing quiet atmosphere carried by wind-swept air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with quiet atmosphere carried by wind-swept air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-atmosphere-base-quiet-atmosphere",
+      "tags": [
+        "atmosphere",
+        "base",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "mood": "quiet-atmosphere",
+        "treatment": "wind-swept-air"
+      },
+      "subcategory": "quiet-atmosphere",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-atmosphere-base-quiet-atmosphere-still-air",
+      "semantic_key": "scene-atmosphere-base-quiet-atmosphere-still-air",
+      "text": "quiet atmosphere carried by still air",
+      "sentence": "Quiet atmosphere carried by still air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "quiet atmosphere carried by still air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing quiet atmosphere carried by still air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with quiet atmosphere carried by still air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-atmosphere-base-quiet-atmosphere",
+      "tags": [
+        "atmosphere",
+        "base",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "mood": "quiet-atmosphere",
+        "treatment": "still-air"
+      },
+      "subcategory": "quiet-atmosphere",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-atmosphere-base-quiet-atmosphere-particulate-glow",
+      "semantic_key": "scene-atmosphere-base-quiet-atmosphere-particulate-glow",
+      "text": "quiet atmosphere carried by particulate glow",
+      "sentence": "Quiet atmosphere carried by particulate glow.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "quiet atmosphere carried by particulate glow",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing quiet atmosphere carried by particulate glow",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with quiet atmosphere carried by particulate glow",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-atmosphere-base-quiet-atmosphere",
+      "tags": [
+        "atmosphere",
+        "base",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "mood": "quiet-atmosphere",
+        "treatment": "particulate-glow"
+      },
+      "subcategory": "quiet-atmosphere",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-atmosphere-base-lively-atmosphere-clear-atmosphere",
+      "semantic_key": "scene-atmosphere-base-lively-atmosphere-clear-atmosphere",
+      "text": "lively atmosphere carried by clear atmosphere",
+      "sentence": "Lively atmosphere carried by clear atmosphere.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "lively atmosphere carried by clear atmosphere",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing lively atmosphere carried by clear atmosphere",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with lively atmosphere carried by clear atmosphere",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-atmosphere-base-lively-atmosphere",
+      "tags": [
+        "atmosphere",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "mood": "lively-atmosphere",
+        "treatment": "clear-atmosphere"
+      },
+      "subcategory": "lively-atmosphere",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-atmosphere-base-lively-atmosphere-light-haze",
+      "semantic_key": "scene-atmosphere-base-lively-atmosphere-light-haze",
+      "text": "lively atmosphere carried by light haze",
+      "sentence": "Lively atmosphere carried by light haze.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "lively atmosphere carried by light haze",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing lively atmosphere carried by light haze",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with lively atmosphere carried by light haze",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-atmosphere-base-lively-atmosphere",
+      "tags": [
+        "atmosphere",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "mood": "lively-atmosphere",
+        "treatment": "light-haze"
+      },
+      "subcategory": "lively-atmosphere",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-atmosphere-base-lively-atmosphere-soft-mist",
+      "semantic_key": "scene-atmosphere-base-lively-atmosphere-soft-mist",
+      "text": "lively atmosphere carried by soft mist",
+      "sentence": "Lively atmosphere carried by soft mist.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "lively atmosphere carried by soft mist",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing lively atmosphere carried by soft mist",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with lively atmosphere carried by soft mist",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-atmosphere-base-lively-atmosphere",
+      "tags": [
+        "atmosphere",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "mood": "lively-atmosphere",
+        "treatment": "soft-mist"
+      },
+      "subcategory": "lively-atmosphere",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-atmosphere-base-lively-atmosphere-humid-air",
+      "semantic_key": "scene-atmosphere-base-lively-atmosphere-humid-air",
+      "text": "lively atmosphere carried by humid air",
+      "sentence": "Lively atmosphere carried by humid air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "lively atmosphere carried by humid air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing lively atmosphere carried by humid air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with lively atmosphere carried by humid air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-atmosphere-base-lively-atmosphere",
+      "tags": [
+        "atmosphere",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "mood": "lively-atmosphere",
+        "treatment": "humid-air"
+      },
+      "subcategory": "lively-atmosphere",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-atmosphere-base-lively-atmosphere-dry-air",
+      "semantic_key": "scene-atmosphere-base-lively-atmosphere-dry-air",
+      "text": "lively atmosphere carried by dry air",
+      "sentence": "Lively atmosphere carried by dry air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "lively atmosphere carried by dry air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing lively atmosphere carried by dry air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with lively atmosphere carried by dry air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-atmosphere-base-lively-atmosphere",
+      "tags": [
+        "atmosphere",
+        "base",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "mood": "lively-atmosphere",
+        "treatment": "dry-air"
+      },
+      "subcategory": "lively-atmosphere",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-atmosphere-base-lively-atmosphere-wind-swept-air",
+      "semantic_key": "scene-atmosphere-base-lively-atmosphere-wind-swept-air",
+      "text": "lively atmosphere carried by wind-swept air",
+      "sentence": "Lively atmosphere carried by wind-swept air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "lively atmosphere carried by wind-swept air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing lively atmosphere carried by wind-swept air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with lively atmosphere carried by wind-swept air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-atmosphere-base-lively-atmosphere",
+      "tags": [
+        "atmosphere",
+        "base",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "mood": "lively-atmosphere",
+        "treatment": "wind-swept-air"
+      },
+      "subcategory": "lively-atmosphere",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-atmosphere-base-lively-atmosphere-still-air",
+      "semantic_key": "scene-atmosphere-base-lively-atmosphere-still-air",
+      "text": "lively atmosphere carried by still air",
+      "sentence": "Lively atmosphere carried by still air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "lively atmosphere carried by still air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing lively atmosphere carried by still air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with lively atmosphere carried by still air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-atmosphere-base-lively-atmosphere",
+      "tags": [
+        "atmosphere",
+        "base",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "mood": "lively-atmosphere",
+        "treatment": "still-air"
+      },
+      "subcategory": "lively-atmosphere",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-atmosphere-base-lively-atmosphere-particulate-glow",
+      "semantic_key": "scene-atmosphere-base-lively-atmosphere-particulate-glow",
+      "text": "lively atmosphere carried by particulate glow",
+      "sentence": "Lively atmosphere carried by particulate glow.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "lively atmosphere carried by particulate glow",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing lively atmosphere carried by particulate glow",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with lively atmosphere carried by particulate glow",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-atmosphere-base-lively-atmosphere",
+      "tags": [
+        "atmosphere",
+        "base",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "mood": "lively-atmosphere",
+        "treatment": "particulate-glow"
+      },
+      "subcategory": "lively-atmosphere",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-atmosphere-base-contemplative-atmosphere-clear-atmosphere",
+      "semantic_key": "scene-atmosphere-base-contemplative-atmosphere-clear-atmosphere",
+      "text": "contemplative atmosphere carried by clear atmosphere",
+      "sentence": "Contemplative atmosphere carried by clear atmosphere.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "contemplative atmosphere carried by clear atmosphere",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing contemplative atmosphere carried by clear atmosphere",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with contemplative atmosphere carried by clear atmosphere",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-atmosphere-base-contemplative-atmosphere",
+      "tags": [
+        "atmosphere",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "mood": "contemplative-atmosphere",
+        "treatment": "clear-atmosphere"
+      },
+      "subcategory": "contemplative-atmosphere",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-atmosphere-base-contemplative-atmosphere-light-haze",
+      "semantic_key": "scene-atmosphere-base-contemplative-atmosphere-light-haze",
+      "text": "contemplative atmosphere carried by light haze",
+      "sentence": "Contemplative atmosphere carried by light haze.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "contemplative atmosphere carried by light haze",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing contemplative atmosphere carried by light haze",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with contemplative atmosphere carried by light haze",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-atmosphere-base-contemplative-atmosphere",
+      "tags": [
+        "atmosphere",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "mood": "contemplative-atmosphere",
+        "treatment": "light-haze"
+      },
+      "subcategory": "contemplative-atmosphere",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-atmosphere-base-contemplative-atmosphere-soft-mist",
+      "semantic_key": "scene-atmosphere-base-contemplative-atmosphere-soft-mist",
+      "text": "contemplative atmosphere carried by soft mist",
+      "sentence": "Contemplative atmosphere carried by soft mist.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "contemplative atmosphere carried by soft mist",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing contemplative atmosphere carried by soft mist",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with contemplative atmosphere carried by soft mist",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-atmosphere-base-contemplative-atmosphere",
+      "tags": [
+        "atmosphere",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "mood": "contemplative-atmosphere",
+        "treatment": "soft-mist"
+      },
+      "subcategory": "contemplative-atmosphere",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-atmosphere-base-contemplative-atmosphere-humid-air",
+      "semantic_key": "scene-atmosphere-base-contemplative-atmosphere-humid-air",
+      "text": "contemplative atmosphere carried by humid air",
+      "sentence": "Contemplative atmosphere carried by humid air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "contemplative atmosphere carried by humid air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing contemplative atmosphere carried by humid air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with contemplative atmosphere carried by humid air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-atmosphere-base-contemplative-atmosphere",
+      "tags": [
+        "atmosphere",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "mood": "contemplative-atmosphere",
+        "treatment": "humid-air"
+      },
+      "subcategory": "contemplative-atmosphere",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-atmosphere-base-contemplative-atmosphere-dry-air",
+      "semantic_key": "scene-atmosphere-base-contemplative-atmosphere-dry-air",
+      "text": "contemplative atmosphere carried by dry air",
+      "sentence": "Contemplative atmosphere carried by dry air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "contemplative atmosphere carried by dry air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing contemplative atmosphere carried by dry air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with contemplative atmosphere carried by dry air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-atmosphere-base-contemplative-atmosphere",
+      "tags": [
+        "atmosphere",
+        "base",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "mood": "contemplative-atmosphere",
+        "treatment": "dry-air"
+      },
+      "subcategory": "contemplative-atmosphere",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-atmosphere-base-contemplative-atmosphere-wind-swept-air",
+      "semantic_key": "scene-atmosphere-base-contemplative-atmosphere-wind-swept-air",
+      "text": "contemplative atmosphere carried by wind-swept air",
+      "sentence": "Contemplative atmosphere carried by wind-swept air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "contemplative atmosphere carried by wind-swept air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing contemplative atmosphere carried by wind-swept air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with contemplative atmosphere carried by wind-swept air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-atmosphere-base-contemplative-atmosphere",
+      "tags": [
+        "atmosphere",
+        "base",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "mood": "contemplative-atmosphere",
+        "treatment": "wind-swept-air"
+      },
+      "subcategory": "contemplative-atmosphere",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-atmosphere-base-contemplative-atmosphere-still-air",
+      "semantic_key": "scene-atmosphere-base-contemplative-atmosphere-still-air",
+      "text": "contemplative atmosphere carried by still air",
+      "sentence": "Contemplative atmosphere carried by still air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "contemplative atmosphere carried by still air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing contemplative atmosphere carried by still air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with contemplative atmosphere carried by still air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-atmosphere-base-contemplative-atmosphere",
+      "tags": [
+        "atmosphere",
+        "base",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "mood": "contemplative-atmosphere",
+        "treatment": "still-air"
+      },
+      "subcategory": "contemplative-atmosphere",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-atmosphere-base-contemplative-atmosphere-particulate-glow",
+      "semantic_key": "scene-atmosphere-base-contemplative-atmosphere-particulate-glow",
+      "text": "contemplative atmosphere carried by particulate glow",
+      "sentence": "Contemplative atmosphere carried by particulate glow.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "contemplative atmosphere carried by particulate glow",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing contemplative atmosphere carried by particulate glow",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with contemplative atmosphere carried by particulate glow",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-atmosphere-base-contemplative-atmosphere",
+      "tags": [
+        "atmosphere",
+        "base",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "mood": "contemplative-atmosphere",
+        "treatment": "particulate-glow"
+      },
+      "subcategory": "contemplative-atmosphere",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-atmosphere-base-formal-atmosphere-clear-atmosphere",
+      "semantic_key": "scene-atmosphere-base-formal-atmosphere-clear-atmosphere",
+      "text": "formal atmosphere carried by clear atmosphere",
+      "sentence": "Formal atmosphere carried by clear atmosphere.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "formal atmosphere carried by clear atmosphere",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing formal atmosphere carried by clear atmosphere",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with formal atmosphere carried by clear atmosphere",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-atmosphere-base-formal-atmosphere",
+      "tags": [
+        "atmosphere",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "mood": "formal-atmosphere",
+        "treatment": "clear-atmosphere"
+      },
+      "subcategory": "formal-atmosphere",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-atmosphere-base-formal-atmosphere-light-haze",
+      "semantic_key": "scene-atmosphere-base-formal-atmosphere-light-haze",
+      "text": "formal atmosphere carried by light haze",
+      "sentence": "Formal atmosphere carried by light haze.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "formal atmosphere carried by light haze",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing formal atmosphere carried by light haze",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with formal atmosphere carried by light haze",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-atmosphere-base-formal-atmosphere",
+      "tags": [
+        "atmosphere",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "mood": "formal-atmosphere",
+        "treatment": "light-haze"
+      },
+      "subcategory": "formal-atmosphere",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-atmosphere-base-formal-atmosphere-soft-mist",
+      "semantic_key": "scene-atmosphere-base-formal-atmosphere-soft-mist",
+      "text": "formal atmosphere carried by soft mist",
+      "sentence": "Formal atmosphere carried by soft mist.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "formal atmosphere carried by soft mist",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing formal atmosphere carried by soft mist",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with formal atmosphere carried by soft mist",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-atmosphere-base-formal-atmosphere",
+      "tags": [
+        "atmosphere",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "mood": "formal-atmosphere",
+        "treatment": "soft-mist"
+      },
+      "subcategory": "formal-atmosphere",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-atmosphere-base-formal-atmosphere-humid-air",
+      "semantic_key": "scene-atmosphere-base-formal-atmosphere-humid-air",
+      "text": "formal atmosphere carried by humid air",
+      "sentence": "Formal atmosphere carried by humid air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "formal atmosphere carried by humid air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing formal atmosphere carried by humid air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with formal atmosphere carried by humid air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-atmosphere-base-formal-atmosphere",
+      "tags": [
+        "atmosphere",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "mood": "formal-atmosphere",
+        "treatment": "humid-air"
+      },
+      "subcategory": "formal-atmosphere",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-atmosphere-base-formal-atmosphere-dry-air",
+      "semantic_key": "scene-atmosphere-base-formal-atmosphere-dry-air",
+      "text": "formal atmosphere carried by dry air",
+      "sentence": "Formal atmosphere carried by dry air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "formal atmosphere carried by dry air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing formal atmosphere carried by dry air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with formal atmosphere carried by dry air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-atmosphere-base-formal-atmosphere",
+      "tags": [
+        "atmosphere",
+        "base",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "mood": "formal-atmosphere",
+        "treatment": "dry-air"
+      },
+      "subcategory": "formal-atmosphere",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-atmosphere-base-formal-atmosphere-wind-swept-air",
+      "semantic_key": "scene-atmosphere-base-formal-atmosphere-wind-swept-air",
+      "text": "formal atmosphere carried by wind-swept air",
+      "sentence": "Formal atmosphere carried by wind-swept air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "formal atmosphere carried by wind-swept air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing formal atmosphere carried by wind-swept air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with formal atmosphere carried by wind-swept air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-atmosphere-base-formal-atmosphere",
+      "tags": [
+        "atmosphere",
+        "base",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "mood": "formal-atmosphere",
+        "treatment": "wind-swept-air"
+      },
+      "subcategory": "formal-atmosphere",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-atmosphere-base-formal-atmosphere-still-air",
+      "semantic_key": "scene-atmosphere-base-formal-atmosphere-still-air",
+      "text": "formal atmosphere carried by still air",
+      "sentence": "Formal atmosphere carried by still air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "formal atmosphere carried by still air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing formal atmosphere carried by still air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with formal atmosphere carried by still air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-atmosphere-base-formal-atmosphere",
+      "tags": [
+        "atmosphere",
+        "base",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "mood": "formal-atmosphere",
+        "treatment": "still-air"
+      },
+      "subcategory": "formal-atmosphere",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-atmosphere-base-formal-atmosphere-particulate-glow",
+      "semantic_key": "scene-atmosphere-base-formal-atmosphere-particulate-glow",
+      "text": "formal atmosphere carried by particulate glow",
+      "sentence": "Formal atmosphere carried by particulate glow.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "formal atmosphere carried by particulate glow",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing formal atmosphere carried by particulate glow",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with formal atmosphere carried by particulate glow",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-atmosphere-base-formal-atmosphere",
+      "tags": [
+        "atmosphere",
+        "base",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "mood": "formal-atmosphere",
+        "treatment": "particulate-glow"
+      },
+      "subcategory": "formal-atmosphere",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-atmosphere-base-intimate-atmosphere-clear-atmosphere",
+      "semantic_key": "scene-atmosphere-base-intimate-atmosphere-clear-atmosphere",
+      "text": "intimate atmosphere carried by clear atmosphere",
+      "sentence": "Intimate atmosphere carried by clear atmosphere.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "intimate atmosphere carried by clear atmosphere",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing intimate atmosphere carried by clear atmosphere",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with intimate atmosphere carried by clear atmosphere",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-atmosphere-base-intimate-atmosphere",
+      "tags": [
+        "atmosphere",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "mood": "intimate-atmosphere",
+        "treatment": "clear-atmosphere"
+      },
+      "subcategory": "intimate-atmosphere",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-atmosphere-base-intimate-atmosphere-light-haze",
+      "semantic_key": "scene-atmosphere-base-intimate-atmosphere-light-haze",
+      "text": "intimate atmosphere carried by light haze",
+      "sentence": "Intimate atmosphere carried by light haze.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "intimate atmosphere carried by light haze",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing intimate atmosphere carried by light haze",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with intimate atmosphere carried by light haze",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-atmosphere-base-intimate-atmosphere",
+      "tags": [
+        "atmosphere",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "mood": "intimate-atmosphere",
+        "treatment": "light-haze"
+      },
+      "subcategory": "intimate-atmosphere",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-atmosphere-base-intimate-atmosphere-soft-mist",
+      "semantic_key": "scene-atmosphere-base-intimate-atmosphere-soft-mist",
+      "text": "intimate atmosphere carried by soft mist",
+      "sentence": "Intimate atmosphere carried by soft mist.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "intimate atmosphere carried by soft mist",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing intimate atmosphere carried by soft mist",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with intimate atmosphere carried by soft mist",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-atmosphere-base-intimate-atmosphere",
+      "tags": [
+        "atmosphere",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "mood": "intimate-atmosphere",
+        "treatment": "soft-mist"
+      },
+      "subcategory": "intimate-atmosphere",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-atmosphere-base-intimate-atmosphere-humid-air",
+      "semantic_key": "scene-atmosphere-base-intimate-atmosphere-humid-air",
+      "text": "intimate atmosphere carried by humid air",
+      "sentence": "Intimate atmosphere carried by humid air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "intimate atmosphere carried by humid air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing intimate atmosphere carried by humid air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with intimate atmosphere carried by humid air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-atmosphere-base-intimate-atmosphere",
+      "tags": [
+        "atmosphere",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "mood": "intimate-atmosphere",
+        "treatment": "humid-air"
+      },
+      "subcategory": "intimate-atmosphere",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-atmosphere-base-intimate-atmosphere-dry-air",
+      "semantic_key": "scene-atmosphere-base-intimate-atmosphere-dry-air",
+      "text": "intimate atmosphere carried by dry air",
+      "sentence": "Intimate atmosphere carried by dry air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "intimate atmosphere carried by dry air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing intimate atmosphere carried by dry air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with intimate atmosphere carried by dry air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-atmosphere-base-intimate-atmosphere",
+      "tags": [
+        "atmosphere",
+        "base",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "mood": "intimate-atmosphere",
+        "treatment": "dry-air"
+      },
+      "subcategory": "intimate-atmosphere",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-atmosphere-base-intimate-atmosphere-wind-swept-air",
+      "semantic_key": "scene-atmosphere-base-intimate-atmosphere-wind-swept-air",
+      "text": "intimate atmosphere carried by wind-swept air",
+      "sentence": "Intimate atmosphere carried by wind-swept air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "intimate atmosphere carried by wind-swept air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing intimate atmosphere carried by wind-swept air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with intimate atmosphere carried by wind-swept air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-atmosphere-base-intimate-atmosphere",
+      "tags": [
+        "atmosphere",
+        "base",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "mood": "intimate-atmosphere",
+        "treatment": "wind-swept-air"
+      },
+      "subcategory": "intimate-atmosphere",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-atmosphere-base-intimate-atmosphere-still-air",
+      "semantic_key": "scene-atmosphere-base-intimate-atmosphere-still-air",
+      "text": "intimate atmosphere carried by still air",
+      "sentence": "Intimate atmosphere carried by still air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "intimate atmosphere carried by still air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing intimate atmosphere carried by still air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with intimate atmosphere carried by still air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-atmosphere-base-intimate-atmosphere",
+      "tags": [
+        "atmosphere",
+        "base",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "mood": "intimate-atmosphere",
+        "treatment": "still-air"
+      },
+      "subcategory": "intimate-atmosphere",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-atmosphere-base-intimate-atmosphere-particulate-glow",
+      "semantic_key": "scene-atmosphere-base-intimate-atmosphere-particulate-glow",
+      "text": "intimate atmosphere carried by particulate glow",
+      "sentence": "Intimate atmosphere carried by particulate glow.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "intimate atmosphere carried by particulate glow",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing intimate atmosphere carried by particulate glow",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with intimate atmosphere carried by particulate glow",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-atmosphere-base-intimate-atmosphere",
+      "tags": [
+        "atmosphere",
+        "base",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "mood": "intimate-atmosphere",
+        "treatment": "particulate-glow"
+      },
+      "subcategory": "intimate-atmosphere",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-atmosphere-base-expansive-atmosphere-clear-atmosphere",
+      "semantic_key": "scene-atmosphere-base-expansive-atmosphere-clear-atmosphere",
+      "text": "expansive atmosphere carried by clear atmosphere",
+      "sentence": "Expansive atmosphere carried by clear atmosphere.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "expansive atmosphere carried by clear atmosphere",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing expansive atmosphere carried by clear atmosphere",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with expansive atmosphere carried by clear atmosphere",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-atmosphere-base-expansive-atmosphere",
+      "tags": [
+        "atmosphere",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "mood": "expansive-atmosphere",
+        "treatment": "clear-atmosphere"
+      },
+      "subcategory": "expansive-atmosphere",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-atmosphere-base-expansive-atmosphere-light-haze",
+      "semantic_key": "scene-atmosphere-base-expansive-atmosphere-light-haze",
+      "text": "expansive atmosphere carried by light haze",
+      "sentence": "Expansive atmosphere carried by light haze.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "expansive atmosphere carried by light haze",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing expansive atmosphere carried by light haze",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with expansive atmosphere carried by light haze",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-atmosphere-base-expansive-atmosphere",
+      "tags": [
+        "atmosphere",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "mood": "expansive-atmosphere",
+        "treatment": "light-haze"
+      },
+      "subcategory": "expansive-atmosphere",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-atmosphere-base-expansive-atmosphere-soft-mist",
+      "semantic_key": "scene-atmosphere-base-expansive-atmosphere-soft-mist",
+      "text": "expansive atmosphere carried by soft mist",
+      "sentence": "Expansive atmosphere carried by soft mist.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "expansive atmosphere carried by soft mist",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing expansive atmosphere carried by soft mist",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with expansive atmosphere carried by soft mist",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-atmosphere-base-expansive-atmosphere",
+      "tags": [
+        "atmosphere",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "mood": "expansive-atmosphere",
+        "treatment": "soft-mist"
+      },
+      "subcategory": "expansive-atmosphere",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-atmosphere-base-expansive-atmosphere-humid-air",
+      "semantic_key": "scene-atmosphere-base-expansive-atmosphere-humid-air",
+      "text": "expansive atmosphere carried by humid air",
+      "sentence": "Expansive atmosphere carried by humid air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "expansive atmosphere carried by humid air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing expansive atmosphere carried by humid air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with expansive atmosphere carried by humid air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-atmosphere-base-expansive-atmosphere",
+      "tags": [
+        "atmosphere",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "mood": "expansive-atmosphere",
+        "treatment": "humid-air"
+      },
+      "subcategory": "expansive-atmosphere",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-atmosphere-base-expansive-atmosphere-dry-air",
+      "semantic_key": "scene-atmosphere-base-expansive-atmosphere-dry-air",
+      "text": "expansive atmosphere carried by dry air",
+      "sentence": "Expansive atmosphere carried by dry air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "expansive atmosphere carried by dry air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing expansive atmosphere carried by dry air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with expansive atmosphere carried by dry air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-atmosphere-base-expansive-atmosphere",
+      "tags": [
+        "atmosphere",
+        "base",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "mood": "expansive-atmosphere",
+        "treatment": "dry-air"
+      },
+      "subcategory": "expansive-atmosphere",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-atmosphere-base-expansive-atmosphere-wind-swept-air",
+      "semantic_key": "scene-atmosphere-base-expansive-atmosphere-wind-swept-air",
+      "text": "expansive atmosphere carried by wind-swept air",
+      "sentence": "Expansive atmosphere carried by wind-swept air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "expansive atmosphere carried by wind-swept air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing expansive atmosphere carried by wind-swept air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with expansive atmosphere carried by wind-swept air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-atmosphere-base-expansive-atmosphere",
+      "tags": [
+        "atmosphere",
+        "base",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "mood": "expansive-atmosphere",
+        "treatment": "wind-swept-air"
+      },
+      "subcategory": "expansive-atmosphere",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-atmosphere-base-expansive-atmosphere-still-air",
+      "semantic_key": "scene-atmosphere-base-expansive-atmosphere-still-air",
+      "text": "expansive atmosphere carried by still air",
+      "sentence": "Expansive atmosphere carried by still air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "expansive atmosphere carried by still air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing expansive atmosphere carried by still air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with expansive atmosphere carried by still air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-atmosphere-base-expansive-atmosphere",
+      "tags": [
+        "atmosphere",
+        "base",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "mood": "expansive-atmosphere",
+        "treatment": "still-air"
+      },
+      "subcategory": "expansive-atmosphere",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-atmosphere-base-expansive-atmosphere-particulate-glow",
+      "semantic_key": "scene-atmosphere-base-expansive-atmosphere-particulate-glow",
+      "text": "expansive atmosphere carried by particulate glow",
+      "sentence": "Expansive atmosphere carried by particulate glow.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "expansive atmosphere carried by particulate glow",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing expansive atmosphere carried by particulate glow",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with expansive atmosphere carried by particulate glow",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-atmosphere-base-expansive-atmosphere",
+      "tags": [
+        "atmosphere",
+        "base",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "mood": "expansive-atmosphere",
+        "treatment": "particulate-glow"
+      },
+      "subcategory": "expansive-atmosphere",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-atmosphere-base-mysterious-atmosphere-clear-atmosphere",
+      "semantic_key": "scene-atmosphere-base-mysterious-atmosphere-clear-atmosphere",
+      "text": "mysterious atmosphere carried by clear atmosphere",
+      "sentence": "Mysterious atmosphere carried by clear atmosphere.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "mysterious atmosphere carried by clear atmosphere",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing mysterious atmosphere carried by clear atmosphere",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with mysterious atmosphere carried by clear atmosphere",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-atmosphere-base-mysterious-atmosphere",
+      "tags": [
+        "atmosphere",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "mood": "mysterious-atmosphere",
+        "treatment": "clear-atmosphere"
+      },
+      "subcategory": "mysterious-atmosphere",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-atmosphere-base-mysterious-atmosphere-light-haze",
+      "semantic_key": "scene-atmosphere-base-mysterious-atmosphere-light-haze",
+      "text": "mysterious atmosphere carried by light haze",
+      "sentence": "Mysterious atmosphere carried by light haze.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "mysterious atmosphere carried by light haze",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing mysterious atmosphere carried by light haze",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with mysterious atmosphere carried by light haze",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-atmosphere-base-mysterious-atmosphere",
+      "tags": [
+        "atmosphere",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "mood": "mysterious-atmosphere",
+        "treatment": "light-haze"
+      },
+      "subcategory": "mysterious-atmosphere",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-atmosphere-base-mysterious-atmosphere-soft-mist",
+      "semantic_key": "scene-atmosphere-base-mysterious-atmosphere-soft-mist",
+      "text": "mysterious atmosphere carried by soft mist",
+      "sentence": "Mysterious atmosphere carried by soft mist.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "mysterious atmosphere carried by soft mist",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing mysterious atmosphere carried by soft mist",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with mysterious atmosphere carried by soft mist",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-atmosphere-base-mysterious-atmosphere",
+      "tags": [
+        "atmosphere",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "mood": "mysterious-atmosphere",
+        "treatment": "soft-mist"
+      },
+      "subcategory": "mysterious-atmosphere",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-atmosphere-base-mysterious-atmosphere-humid-air",
+      "semantic_key": "scene-atmosphere-base-mysterious-atmosphere-humid-air",
+      "text": "mysterious atmosphere carried by humid air",
+      "sentence": "Mysterious atmosphere carried by humid air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "mysterious atmosphere carried by humid air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing mysterious atmosphere carried by humid air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with mysterious atmosphere carried by humid air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-atmosphere-base-mysterious-atmosphere",
+      "tags": [
+        "atmosphere",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "mood": "mysterious-atmosphere",
+        "treatment": "humid-air"
+      },
+      "subcategory": "mysterious-atmosphere",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-atmosphere-base-mysterious-atmosphere-dry-air",
+      "semantic_key": "scene-atmosphere-base-mysterious-atmosphere-dry-air",
+      "text": "mysterious atmosphere carried by dry air",
+      "sentence": "Mysterious atmosphere carried by dry air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "mysterious atmosphere carried by dry air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing mysterious atmosphere carried by dry air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with mysterious atmosphere carried by dry air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-atmosphere-base-mysterious-atmosphere",
+      "tags": [
+        "atmosphere",
+        "base",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "mood": "mysterious-atmosphere",
+        "treatment": "dry-air"
+      },
+      "subcategory": "mysterious-atmosphere",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-atmosphere-base-mysterious-atmosphere-wind-swept-air",
+      "semantic_key": "scene-atmosphere-base-mysterious-atmosphere-wind-swept-air",
+      "text": "mysterious atmosphere carried by wind-swept air",
+      "sentence": "Mysterious atmosphere carried by wind-swept air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "mysterious atmosphere carried by wind-swept air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing mysterious atmosphere carried by wind-swept air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with mysterious atmosphere carried by wind-swept air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-atmosphere-base-mysterious-atmosphere",
+      "tags": [
+        "atmosphere",
+        "base",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "mood": "mysterious-atmosphere",
+        "treatment": "wind-swept-air"
+      },
+      "subcategory": "mysterious-atmosphere",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-atmosphere-base-mysterious-atmosphere-still-air",
+      "semantic_key": "scene-atmosphere-base-mysterious-atmosphere-still-air",
+      "text": "mysterious atmosphere carried by still air",
+      "sentence": "Mysterious atmosphere carried by still air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "mysterious atmosphere carried by still air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing mysterious atmosphere carried by still air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with mysterious atmosphere carried by still air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-atmosphere-base-mysterious-atmosphere",
+      "tags": [
+        "atmosphere",
+        "base",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "mood": "mysterious-atmosphere",
+        "treatment": "still-air"
+      },
+      "subcategory": "mysterious-atmosphere",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-atmosphere-base-mysterious-atmosphere-particulate-glow",
+      "semantic_key": "scene-atmosphere-base-mysterious-atmosphere-particulate-glow",
+      "text": "mysterious atmosphere carried by particulate glow",
+      "sentence": "Mysterious atmosphere carried by particulate glow.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "mysterious atmosphere carried by particulate glow",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing mysterious atmosphere carried by particulate glow",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with mysterious atmosphere carried by particulate glow",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-atmosphere-base-mysterious-atmosphere",
+      "tags": [
+        "atmosphere",
+        "base",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "mood": "mysterious-atmosphere",
+        "treatment": "particulate-glow"
+      },
+      "subcategory": "mysterious-atmosphere",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-atmosphere-base-optimistic-atmosphere-clear-atmosphere",
+      "semantic_key": "scene-atmosphere-base-optimistic-atmosphere-clear-atmosphere",
+      "text": "optimistic atmosphere carried by clear atmosphere",
+      "sentence": "Optimistic atmosphere carried by clear atmosphere.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "optimistic atmosphere carried by clear atmosphere",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing optimistic atmosphere carried by clear atmosphere",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with optimistic atmosphere carried by clear atmosphere",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-atmosphere-base-optimistic-atmosphere",
+      "tags": [
+        "atmosphere",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "mood": "optimistic-atmosphere",
+        "treatment": "clear-atmosphere"
+      },
+      "subcategory": "optimistic-atmosphere",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-atmosphere-base-optimistic-atmosphere-light-haze",
+      "semantic_key": "scene-atmosphere-base-optimistic-atmosphere-light-haze",
+      "text": "optimistic atmosphere carried by light haze",
+      "sentence": "Optimistic atmosphere carried by light haze.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "optimistic atmosphere carried by light haze",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing optimistic atmosphere carried by light haze",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with optimistic atmosphere carried by light haze",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-atmosphere-base-optimistic-atmosphere",
+      "tags": [
+        "atmosphere",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "mood": "optimistic-atmosphere",
+        "treatment": "light-haze"
+      },
+      "subcategory": "optimistic-atmosphere",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-atmosphere-base-optimistic-atmosphere-soft-mist",
+      "semantic_key": "scene-atmosphere-base-optimistic-atmosphere-soft-mist",
+      "text": "optimistic atmosphere carried by soft mist",
+      "sentence": "Optimistic atmosphere carried by soft mist.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "optimistic atmosphere carried by soft mist",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing optimistic atmosphere carried by soft mist",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with optimistic atmosphere carried by soft mist",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-atmosphere-base-optimistic-atmosphere",
+      "tags": [
+        "atmosphere",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "mood": "optimistic-atmosphere",
+        "treatment": "soft-mist"
+      },
+      "subcategory": "optimistic-atmosphere",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-atmosphere-base-optimistic-atmosphere-humid-air",
+      "semantic_key": "scene-atmosphere-base-optimistic-atmosphere-humid-air",
+      "text": "optimistic atmosphere carried by humid air",
+      "sentence": "Optimistic atmosphere carried by humid air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "optimistic atmosphere carried by humid air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing optimistic atmosphere carried by humid air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with optimistic atmosphere carried by humid air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-atmosphere-base-optimistic-atmosphere",
+      "tags": [
+        "atmosphere",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "mood": "optimistic-atmosphere",
+        "treatment": "humid-air"
+      },
+      "subcategory": "optimistic-atmosphere",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-atmosphere-base-optimistic-atmosphere-dry-air",
+      "semantic_key": "scene-atmosphere-base-optimistic-atmosphere-dry-air",
+      "text": "optimistic atmosphere carried by dry air",
+      "sentence": "Optimistic atmosphere carried by dry air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "optimistic atmosphere carried by dry air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing optimistic atmosphere carried by dry air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with optimistic atmosphere carried by dry air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-atmosphere-base-optimistic-atmosphere",
+      "tags": [
+        "atmosphere",
+        "base",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "mood": "optimistic-atmosphere",
+        "treatment": "dry-air"
+      },
+      "subcategory": "optimistic-atmosphere",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-atmosphere-base-optimistic-atmosphere-wind-swept-air",
+      "semantic_key": "scene-atmosphere-base-optimistic-atmosphere-wind-swept-air",
+      "text": "optimistic atmosphere carried by wind-swept air",
+      "sentence": "Optimistic atmosphere carried by wind-swept air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "optimistic atmosphere carried by wind-swept air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing optimistic atmosphere carried by wind-swept air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with optimistic atmosphere carried by wind-swept air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-atmosphere-base-optimistic-atmosphere",
+      "tags": [
+        "atmosphere",
+        "base",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "mood": "optimistic-atmosphere",
+        "treatment": "wind-swept-air"
+      },
+      "subcategory": "optimistic-atmosphere",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-atmosphere-base-optimistic-atmosphere-still-air",
+      "semantic_key": "scene-atmosphere-base-optimistic-atmosphere-still-air",
+      "text": "optimistic atmosphere carried by still air",
+      "sentence": "Optimistic atmosphere carried by still air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "optimistic atmosphere carried by still air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing optimistic atmosphere carried by still air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with optimistic atmosphere carried by still air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-atmosphere-base-optimistic-atmosphere",
+      "tags": [
+        "atmosphere",
+        "base",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "mood": "optimistic-atmosphere",
+        "treatment": "still-air"
+      },
+      "subcategory": "optimistic-atmosphere",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-atmosphere-base-optimistic-atmosphere-particulate-glow",
+      "semantic_key": "scene-atmosphere-base-optimistic-atmosphere-particulate-glow",
+      "text": "optimistic atmosphere carried by particulate glow",
+      "sentence": "Optimistic atmosphere carried by particulate glow.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "optimistic atmosphere carried by particulate glow",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing optimistic atmosphere carried by particulate glow",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with optimistic atmosphere carried by particulate glow",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-atmosphere-base-optimistic-atmosphere",
+      "tags": [
+        "atmosphere",
+        "base",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "mood": "optimistic-atmosphere",
+        "treatment": "particulate-glow"
+      },
+      "subcategory": "optimistic-atmosphere",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    }
+  ]
+}

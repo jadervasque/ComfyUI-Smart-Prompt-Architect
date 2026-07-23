@@ -1,0 +1,2889 @@
+{
+  "schema_version": "2.0",
+  "id": "scene-weather-base",
+  "version": "2.0.0",
+  "library": "weather",
+  "domain": "scene",
+  "category": "weather",
+  "language": "en",
+  "status": "active",
+  "safety": "general",
+  "tags": [
+    "base"
+  ],
+  "fallback_option_id": "scene-weather-base-clear-weather-clear-atmosphere",
+  "options": [
+    {
+      "id": "scene-weather-base-clear-weather-clear-atmosphere",
+      "semantic_key": "scene-weather-base-clear-weather-clear-atmosphere",
+      "text": "clear weather with clear atmosphere",
+      "sentence": "Clear weather with clear atmosphere.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "clear weather with clear atmosphere",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing clear weather with clear atmosphere",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with clear weather with clear atmosphere",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-weather-base-clear-weather",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "weather",
+        "weather-dry"
+      ],
+      "facets": {
+        "condition": "clear-weather",
+        "treatment": "clear-atmosphere"
+      },
+      "subcategory": "clear-weather",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-weather-base-clear-weather-light-haze",
+      "semantic_key": "scene-weather-base-clear-weather-light-haze",
+      "text": "clear weather with light haze",
+      "sentence": "Clear weather with light haze.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "clear weather with light haze",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing clear weather with light haze",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with clear weather with light haze",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-weather-base-clear-weather",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "weather",
+        "weather-dry"
+      ],
+      "facets": {
+        "condition": "clear-weather",
+        "treatment": "light-haze"
+      },
+      "subcategory": "clear-weather",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-weather-base-clear-weather-soft-mist",
+      "semantic_key": "scene-weather-base-clear-weather-soft-mist",
+      "text": "clear weather with soft mist",
+      "sentence": "Clear weather with soft mist.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "clear weather with soft mist",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing clear weather with soft mist",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with clear weather with soft mist",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-weather-base-clear-weather",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "weather",
+        "weather-dry"
+      ],
+      "facets": {
+        "condition": "clear-weather",
+        "treatment": "soft-mist"
+      },
+      "subcategory": "clear-weather",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-weather-base-clear-weather-humid-air",
+      "semantic_key": "scene-weather-base-clear-weather-humid-air",
+      "text": "clear weather with humid air",
+      "sentence": "Clear weather with humid air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "clear weather with humid air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing clear weather with humid air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with clear weather with humid air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-weather-base-clear-weather",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "weather",
+        "weather-dry"
+      ],
+      "facets": {
+        "condition": "clear-weather",
+        "treatment": "humid-air"
+      },
+      "subcategory": "clear-weather",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-weather-base-clear-weather-dry-air",
+      "semantic_key": "scene-weather-base-clear-weather-dry-air",
+      "text": "clear weather with dry air",
+      "sentence": "Clear weather with dry air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "clear weather with dry air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing clear weather with dry air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with clear weather with dry air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-weather-base-clear-weather",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "scene",
+        "weather",
+        "weather-dry"
+      ],
+      "facets": {
+        "condition": "clear-weather",
+        "treatment": "dry-air"
+      },
+      "subcategory": "clear-weather",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-weather-base-clear-weather-wind-swept-air",
+      "semantic_key": "scene-weather-base-clear-weather-wind-swept-air",
+      "text": "clear weather with wind-swept air",
+      "sentence": "Clear weather with wind-swept air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "clear weather with wind-swept air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing clear weather with wind-swept air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with clear weather with wind-swept air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-weather-base-clear-weather",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "scene",
+        "weather",
+        "weather-dry"
+      ],
+      "facets": {
+        "condition": "clear-weather",
+        "treatment": "wind-swept-air"
+      },
+      "subcategory": "clear-weather",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-weather-base-clear-weather-still-air",
+      "semantic_key": "scene-weather-base-clear-weather-still-air",
+      "text": "clear weather with still air",
+      "sentence": "Clear weather with still air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "clear weather with still air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing clear weather with still air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with clear weather with still air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-weather-base-clear-weather",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "scene",
+        "weather",
+        "weather-dry"
+      ],
+      "facets": {
+        "condition": "clear-weather",
+        "treatment": "still-air"
+      },
+      "subcategory": "clear-weather",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-weather-base-clear-weather-particulate-glow",
+      "semantic_key": "scene-weather-base-clear-weather-particulate-glow",
+      "text": "clear weather with particulate glow",
+      "sentence": "Clear weather with particulate glow.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "clear weather with particulate glow",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing clear weather with particulate glow",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with clear weather with particulate glow",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-weather-base-clear-weather",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "scene",
+        "weather",
+        "weather-dry"
+      ],
+      "facets": {
+        "condition": "clear-weather",
+        "treatment": "particulate-glow"
+      },
+      "subcategory": "clear-weather",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-weather-base-light-cloud-cover-clear-atmosphere",
+      "semantic_key": "scene-weather-base-light-cloud-cover-clear-atmosphere",
+      "text": "light cloud cover with clear atmosphere",
+      "sentence": "Light cloud cover with clear atmosphere.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "light cloud cover with clear atmosphere",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing light cloud cover with clear atmosphere",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with light cloud cover with clear atmosphere",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-weather-base-light-cloud-cover",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "weather",
+        "weather-dry"
+      ],
+      "facets": {
+        "condition": "light-cloud-cover",
+        "treatment": "clear-atmosphere"
+      },
+      "subcategory": "light-cloud-cover",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-weather-base-light-cloud-cover-light-haze",
+      "semantic_key": "scene-weather-base-light-cloud-cover-light-haze",
+      "text": "light cloud cover with light haze",
+      "sentence": "Light cloud cover with light haze.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "light cloud cover with light haze",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing light cloud cover with light haze",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with light cloud cover with light haze",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-weather-base-light-cloud-cover",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "weather",
+        "weather-dry"
+      ],
+      "facets": {
+        "condition": "light-cloud-cover",
+        "treatment": "light-haze"
+      },
+      "subcategory": "light-cloud-cover",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-weather-base-light-cloud-cover-soft-mist",
+      "semantic_key": "scene-weather-base-light-cloud-cover-soft-mist",
+      "text": "light cloud cover with soft mist",
+      "sentence": "Light cloud cover with soft mist.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "light cloud cover with soft mist",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing light cloud cover with soft mist",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with light cloud cover with soft mist",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-weather-base-light-cloud-cover",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "weather",
+        "weather-dry"
+      ],
+      "facets": {
+        "condition": "light-cloud-cover",
+        "treatment": "soft-mist"
+      },
+      "subcategory": "light-cloud-cover",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-weather-base-light-cloud-cover-humid-air",
+      "semantic_key": "scene-weather-base-light-cloud-cover-humid-air",
+      "text": "light cloud cover with humid air",
+      "sentence": "Light cloud cover with humid air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "light cloud cover with humid air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing light cloud cover with humid air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with light cloud cover with humid air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-weather-base-light-cloud-cover",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "weather",
+        "weather-dry"
+      ],
+      "facets": {
+        "condition": "light-cloud-cover",
+        "treatment": "humid-air"
+      },
+      "subcategory": "light-cloud-cover",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-weather-base-light-cloud-cover-dry-air",
+      "semantic_key": "scene-weather-base-light-cloud-cover-dry-air",
+      "text": "light cloud cover with dry air",
+      "sentence": "Light cloud cover with dry air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "light cloud cover with dry air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing light cloud cover with dry air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with light cloud cover with dry air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-weather-base-light-cloud-cover",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "scene",
+        "weather",
+        "weather-dry"
+      ],
+      "facets": {
+        "condition": "light-cloud-cover",
+        "treatment": "dry-air"
+      },
+      "subcategory": "light-cloud-cover",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-weather-base-light-cloud-cover-wind-swept-air",
+      "semantic_key": "scene-weather-base-light-cloud-cover-wind-swept-air",
+      "text": "light cloud cover with wind-swept air",
+      "sentence": "Light cloud cover with wind-swept air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "light cloud cover with wind-swept air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing light cloud cover with wind-swept air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with light cloud cover with wind-swept air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-weather-base-light-cloud-cover",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "scene",
+        "weather",
+        "weather-dry"
+      ],
+      "facets": {
+        "condition": "light-cloud-cover",
+        "treatment": "wind-swept-air"
+      },
+      "subcategory": "light-cloud-cover",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-weather-base-light-cloud-cover-still-air",
+      "semantic_key": "scene-weather-base-light-cloud-cover-still-air",
+      "text": "light cloud cover with still air",
+      "sentence": "Light cloud cover with still air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "light cloud cover with still air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing light cloud cover with still air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with light cloud cover with still air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-weather-base-light-cloud-cover",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "scene",
+        "weather",
+        "weather-dry"
+      ],
+      "facets": {
+        "condition": "light-cloud-cover",
+        "treatment": "still-air"
+      },
+      "subcategory": "light-cloud-cover",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-weather-base-light-cloud-cover-particulate-glow",
+      "semantic_key": "scene-weather-base-light-cloud-cover-particulate-glow",
+      "text": "light cloud cover with particulate glow",
+      "sentence": "Light cloud cover with particulate glow.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "light cloud cover with particulate glow",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing light cloud cover with particulate glow",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with light cloud cover with particulate glow",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-weather-base-light-cloud-cover",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "scene",
+        "weather",
+        "weather-dry"
+      ],
+      "facets": {
+        "condition": "light-cloud-cover",
+        "treatment": "particulate-glow"
+      },
+      "subcategory": "light-cloud-cover",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-weather-base-overcast-weather-clear-atmosphere",
+      "semantic_key": "scene-weather-base-overcast-weather-clear-atmosphere",
+      "text": "overcast weather with clear atmosphere",
+      "sentence": "Overcast weather with clear atmosphere.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "overcast weather with clear atmosphere",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing overcast weather with clear atmosphere",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with overcast weather with clear atmosphere",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-weather-base-overcast-weather",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "weather",
+        "weather-dry"
+      ],
+      "facets": {
+        "condition": "overcast-weather",
+        "treatment": "clear-atmosphere"
+      },
+      "subcategory": "overcast-weather",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-weather-base-overcast-weather-light-haze",
+      "semantic_key": "scene-weather-base-overcast-weather-light-haze",
+      "text": "overcast weather with light haze",
+      "sentence": "Overcast weather with light haze.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "overcast weather with light haze",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing overcast weather with light haze",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with overcast weather with light haze",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-weather-base-overcast-weather",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "weather",
+        "weather-dry"
+      ],
+      "facets": {
+        "condition": "overcast-weather",
+        "treatment": "light-haze"
+      },
+      "subcategory": "overcast-weather",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-weather-base-overcast-weather-soft-mist",
+      "semantic_key": "scene-weather-base-overcast-weather-soft-mist",
+      "text": "overcast weather with soft mist",
+      "sentence": "Overcast weather with soft mist.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "overcast weather with soft mist",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing overcast weather with soft mist",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with overcast weather with soft mist",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-weather-base-overcast-weather",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "weather",
+        "weather-dry"
+      ],
+      "facets": {
+        "condition": "overcast-weather",
+        "treatment": "soft-mist"
+      },
+      "subcategory": "overcast-weather",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-weather-base-overcast-weather-humid-air",
+      "semantic_key": "scene-weather-base-overcast-weather-humid-air",
+      "text": "overcast weather with humid air",
+      "sentence": "Overcast weather with humid air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "overcast weather with humid air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing overcast weather with humid air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with overcast weather with humid air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-weather-base-overcast-weather",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "weather",
+        "weather-dry"
+      ],
+      "facets": {
+        "condition": "overcast-weather",
+        "treatment": "humid-air"
+      },
+      "subcategory": "overcast-weather",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-weather-base-overcast-weather-dry-air",
+      "semantic_key": "scene-weather-base-overcast-weather-dry-air",
+      "text": "overcast weather with dry air",
+      "sentence": "Overcast weather with dry air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "overcast weather with dry air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing overcast weather with dry air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with overcast weather with dry air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-weather-base-overcast-weather",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "scene",
+        "weather",
+        "weather-dry"
+      ],
+      "facets": {
+        "condition": "overcast-weather",
+        "treatment": "dry-air"
+      },
+      "subcategory": "overcast-weather",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-weather-base-overcast-weather-wind-swept-air",
+      "semantic_key": "scene-weather-base-overcast-weather-wind-swept-air",
+      "text": "overcast weather with wind-swept air",
+      "sentence": "Overcast weather with wind-swept air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "overcast weather with wind-swept air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing overcast weather with wind-swept air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with overcast weather with wind-swept air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-weather-base-overcast-weather",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "scene",
+        "weather",
+        "weather-dry"
+      ],
+      "facets": {
+        "condition": "overcast-weather",
+        "treatment": "wind-swept-air"
+      },
+      "subcategory": "overcast-weather",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-weather-base-overcast-weather-still-air",
+      "semantic_key": "scene-weather-base-overcast-weather-still-air",
+      "text": "overcast weather with still air",
+      "sentence": "Overcast weather with still air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "overcast weather with still air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing overcast weather with still air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with overcast weather with still air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-weather-base-overcast-weather",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "scene",
+        "weather",
+        "weather-dry"
+      ],
+      "facets": {
+        "condition": "overcast-weather",
+        "treatment": "still-air"
+      },
+      "subcategory": "overcast-weather",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-weather-base-overcast-weather-particulate-glow",
+      "semantic_key": "scene-weather-base-overcast-weather-particulate-glow",
+      "text": "overcast weather with particulate glow",
+      "sentence": "Overcast weather with particulate glow.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "overcast weather with particulate glow",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing overcast weather with particulate glow",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with overcast weather with particulate glow",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-weather-base-overcast-weather",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "scene",
+        "weather",
+        "weather-dry"
+      ],
+      "facets": {
+        "condition": "overcast-weather",
+        "treatment": "particulate-glow"
+      },
+      "subcategory": "overcast-weather",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-weather-base-light-rain-clear-atmosphere",
+      "semantic_key": "scene-weather-base-light-rain-clear-atmosphere",
+      "text": "light rain with clear atmosphere",
+      "sentence": "Light rain with clear atmosphere.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "light rain with clear atmosphere",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing light rain with clear atmosphere",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with light rain with clear atmosphere",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-weather-base-light-rain",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "weather",
+        "weather-wet"
+      ],
+      "facets": {
+        "condition": "light-rain",
+        "treatment": "clear-atmosphere"
+      },
+      "subcategory": "light-rain",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence",
+      "prefer": [
+        {
+          "field": "outerwear",
+          "operator": "contains_tag",
+          "value": "outerwear-protective",
+          "multiplier": 1.6
+        }
+      ]
+    },
+    {
+      "id": "scene-weather-base-light-rain-light-haze",
+      "semantic_key": "scene-weather-base-light-rain-light-haze",
+      "text": "light rain with light haze",
+      "sentence": "Light rain with light haze.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "light rain with light haze",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing light rain with light haze",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with light rain with light haze",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-weather-base-light-rain",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "weather",
+        "weather-wet"
+      ],
+      "facets": {
+        "condition": "light-rain",
+        "treatment": "light-haze"
+      },
+      "subcategory": "light-rain",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence",
+      "prefer": [
+        {
+          "field": "outerwear",
+          "operator": "contains_tag",
+          "value": "outerwear-protective",
+          "multiplier": 1.6
+        }
+      ]
+    },
+    {
+      "id": "scene-weather-base-light-rain-soft-mist",
+      "semantic_key": "scene-weather-base-light-rain-soft-mist",
+      "text": "light rain with soft mist",
+      "sentence": "Light rain with soft mist.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "light rain with soft mist",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing light rain with soft mist",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with light rain with soft mist",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-weather-base-light-rain",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "weather",
+        "weather-wet"
+      ],
+      "facets": {
+        "condition": "light-rain",
+        "treatment": "soft-mist"
+      },
+      "subcategory": "light-rain",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence",
+      "prefer": [
+        {
+          "field": "outerwear",
+          "operator": "contains_tag",
+          "value": "outerwear-protective",
+          "multiplier": 1.6
+        }
+      ]
+    },
+    {
+      "id": "scene-weather-base-light-rain-humid-air",
+      "semantic_key": "scene-weather-base-light-rain-humid-air",
+      "text": "light rain with humid air",
+      "sentence": "Light rain with humid air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "light rain with humid air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing light rain with humid air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with light rain with humid air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-weather-base-light-rain",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "weather",
+        "weather-wet"
+      ],
+      "facets": {
+        "condition": "light-rain",
+        "treatment": "humid-air"
+      },
+      "subcategory": "light-rain",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence",
+      "prefer": [
+        {
+          "field": "outerwear",
+          "operator": "contains_tag",
+          "value": "outerwear-protective",
+          "multiplier": 1.6
+        }
+      ]
+    },
+    {
+      "id": "scene-weather-base-light-rain-dry-air",
+      "semantic_key": "scene-weather-base-light-rain-dry-air",
+      "text": "light rain with dry air",
+      "sentence": "Light rain with dry air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "light rain with dry air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing light rain with dry air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with light rain with dry air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-weather-base-light-rain",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "scene",
+        "weather",
+        "weather-wet"
+      ],
+      "facets": {
+        "condition": "light-rain",
+        "treatment": "dry-air"
+      },
+      "subcategory": "light-rain",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence",
+      "prefer": [
+        {
+          "field": "outerwear",
+          "operator": "contains_tag",
+          "value": "outerwear-protective",
+          "multiplier": 1.6
+        }
+      ]
+    },
+    {
+      "id": "scene-weather-base-light-rain-wind-swept-air",
+      "semantic_key": "scene-weather-base-light-rain-wind-swept-air",
+      "text": "light rain with wind-swept air",
+      "sentence": "Light rain with wind-swept air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "light rain with wind-swept air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing light rain with wind-swept air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with light rain with wind-swept air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-weather-base-light-rain",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "scene",
+        "weather",
+        "weather-wet"
+      ],
+      "facets": {
+        "condition": "light-rain",
+        "treatment": "wind-swept-air"
+      },
+      "subcategory": "light-rain",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence",
+      "prefer": [
+        {
+          "field": "outerwear",
+          "operator": "contains_tag",
+          "value": "outerwear-protective",
+          "multiplier": 1.6
+        }
+      ]
+    },
+    {
+      "id": "scene-weather-base-light-rain-still-air",
+      "semantic_key": "scene-weather-base-light-rain-still-air",
+      "text": "light rain with still air",
+      "sentence": "Light rain with still air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "light rain with still air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing light rain with still air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with light rain with still air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-weather-base-light-rain",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "scene",
+        "weather",
+        "weather-wet"
+      ],
+      "facets": {
+        "condition": "light-rain",
+        "treatment": "still-air"
+      },
+      "subcategory": "light-rain",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence",
+      "prefer": [
+        {
+          "field": "outerwear",
+          "operator": "contains_tag",
+          "value": "outerwear-protective",
+          "multiplier": 1.6
+        }
+      ]
+    },
+    {
+      "id": "scene-weather-base-light-rain-particulate-glow",
+      "semantic_key": "scene-weather-base-light-rain-particulate-glow",
+      "text": "light rain with particulate glow",
+      "sentence": "Light rain with particulate glow.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "light rain with particulate glow",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing light rain with particulate glow",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with light rain with particulate glow",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-weather-base-light-rain",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "scene",
+        "weather",
+        "weather-wet"
+      ],
+      "facets": {
+        "condition": "light-rain",
+        "treatment": "particulate-glow"
+      },
+      "subcategory": "light-rain",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence",
+      "prefer": [
+        {
+          "field": "outerwear",
+          "operator": "contains_tag",
+          "value": "outerwear-protective",
+          "multiplier": 1.6
+        }
+      ]
+    },
+    {
+      "id": "scene-weather-base-steady-rain-clear-atmosphere",
+      "semantic_key": "scene-weather-base-steady-rain-clear-atmosphere",
+      "text": "steady rain with clear atmosphere",
+      "sentence": "Steady rain with clear atmosphere.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "steady rain with clear atmosphere",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing steady rain with clear atmosphere",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with steady rain with clear atmosphere",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-weather-base-steady-rain",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "weather",
+        "weather-wet"
+      ],
+      "facets": {
+        "condition": "steady-rain",
+        "treatment": "clear-atmosphere"
+      },
+      "subcategory": "steady-rain",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence",
+      "prefer": [
+        {
+          "field": "outerwear",
+          "operator": "contains_tag",
+          "value": "outerwear-protective",
+          "multiplier": 1.6
+        }
+      ]
+    },
+    {
+      "id": "scene-weather-base-steady-rain-light-haze",
+      "semantic_key": "scene-weather-base-steady-rain-light-haze",
+      "text": "steady rain with light haze",
+      "sentence": "Steady rain with light haze.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "steady rain with light haze",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing steady rain with light haze",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with steady rain with light haze",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-weather-base-steady-rain",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "weather",
+        "weather-wet"
+      ],
+      "facets": {
+        "condition": "steady-rain",
+        "treatment": "light-haze"
+      },
+      "subcategory": "steady-rain",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence",
+      "prefer": [
+        {
+          "field": "outerwear",
+          "operator": "contains_tag",
+          "value": "outerwear-protective",
+          "multiplier": 1.6
+        }
+      ]
+    },
+    {
+      "id": "scene-weather-base-steady-rain-soft-mist",
+      "semantic_key": "scene-weather-base-steady-rain-soft-mist",
+      "text": "steady rain with soft mist",
+      "sentence": "Steady rain with soft mist.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "steady rain with soft mist",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing steady rain with soft mist",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with steady rain with soft mist",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-weather-base-steady-rain",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "weather",
+        "weather-wet"
+      ],
+      "facets": {
+        "condition": "steady-rain",
+        "treatment": "soft-mist"
+      },
+      "subcategory": "steady-rain",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence",
+      "prefer": [
+        {
+          "field": "outerwear",
+          "operator": "contains_tag",
+          "value": "outerwear-protective",
+          "multiplier": 1.6
+        }
+      ]
+    },
+    {
+      "id": "scene-weather-base-steady-rain-humid-air",
+      "semantic_key": "scene-weather-base-steady-rain-humid-air",
+      "text": "steady rain with humid air",
+      "sentence": "Steady rain with humid air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "steady rain with humid air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing steady rain with humid air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with steady rain with humid air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-weather-base-steady-rain",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "weather",
+        "weather-wet"
+      ],
+      "facets": {
+        "condition": "steady-rain",
+        "treatment": "humid-air"
+      },
+      "subcategory": "steady-rain",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence",
+      "prefer": [
+        {
+          "field": "outerwear",
+          "operator": "contains_tag",
+          "value": "outerwear-protective",
+          "multiplier": 1.6
+        }
+      ]
+    },
+    {
+      "id": "scene-weather-base-steady-rain-dry-air",
+      "semantic_key": "scene-weather-base-steady-rain-dry-air",
+      "text": "steady rain with dry air",
+      "sentence": "Steady rain with dry air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "steady rain with dry air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing steady rain with dry air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with steady rain with dry air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-weather-base-steady-rain",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "scene",
+        "weather",
+        "weather-wet"
+      ],
+      "facets": {
+        "condition": "steady-rain",
+        "treatment": "dry-air"
+      },
+      "subcategory": "steady-rain",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence",
+      "prefer": [
+        {
+          "field": "outerwear",
+          "operator": "contains_tag",
+          "value": "outerwear-protective",
+          "multiplier": 1.6
+        }
+      ]
+    },
+    {
+      "id": "scene-weather-base-steady-rain-wind-swept-air",
+      "semantic_key": "scene-weather-base-steady-rain-wind-swept-air",
+      "text": "steady rain with wind-swept air",
+      "sentence": "Steady rain with wind-swept air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "steady rain with wind-swept air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing steady rain with wind-swept air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with steady rain with wind-swept air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-weather-base-steady-rain",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "scene",
+        "weather",
+        "weather-wet"
+      ],
+      "facets": {
+        "condition": "steady-rain",
+        "treatment": "wind-swept-air"
+      },
+      "subcategory": "steady-rain",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence",
+      "prefer": [
+        {
+          "field": "outerwear",
+          "operator": "contains_tag",
+          "value": "outerwear-protective",
+          "multiplier": 1.6
+        }
+      ]
+    },
+    {
+      "id": "scene-weather-base-steady-rain-still-air",
+      "semantic_key": "scene-weather-base-steady-rain-still-air",
+      "text": "steady rain with still air",
+      "sentence": "Steady rain with still air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "steady rain with still air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing steady rain with still air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with steady rain with still air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-weather-base-steady-rain",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "scene",
+        "weather",
+        "weather-wet"
+      ],
+      "facets": {
+        "condition": "steady-rain",
+        "treatment": "still-air"
+      },
+      "subcategory": "steady-rain",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence",
+      "prefer": [
+        {
+          "field": "outerwear",
+          "operator": "contains_tag",
+          "value": "outerwear-protective",
+          "multiplier": 1.6
+        }
+      ]
+    },
+    {
+      "id": "scene-weather-base-steady-rain-particulate-glow",
+      "semantic_key": "scene-weather-base-steady-rain-particulate-glow",
+      "text": "steady rain with particulate glow",
+      "sentence": "Steady rain with particulate glow.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "steady rain with particulate glow",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing steady rain with particulate glow",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with steady rain with particulate glow",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-weather-base-steady-rain",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "scene",
+        "weather",
+        "weather-wet"
+      ],
+      "facets": {
+        "condition": "steady-rain",
+        "treatment": "particulate-glow"
+      },
+      "subcategory": "steady-rain",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence",
+      "prefer": [
+        {
+          "field": "outerwear",
+          "operator": "contains_tag",
+          "value": "outerwear-protective",
+          "multiplier": 1.6
+        }
+      ]
+    },
+    {
+      "id": "scene-weather-base-light-snowfall-clear-atmosphere",
+      "semantic_key": "scene-weather-base-light-snowfall-clear-atmosphere",
+      "text": "light snowfall with clear atmosphere",
+      "sentence": "Light snowfall with clear atmosphere.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "light snowfall with clear atmosphere",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing light snowfall with clear atmosphere",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with light snowfall with clear atmosphere",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-weather-base-light-snowfall",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "weather",
+        "weather-cold"
+      ],
+      "facets": {
+        "condition": "light-snowfall",
+        "treatment": "clear-atmosphere"
+      },
+      "subcategory": "light-snowfall",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "season",
+          "operator": "contains_tag",
+          "value": "season-hot"
+        }
+      ],
+      "prefer": [
+        {
+          "field": "outerwear",
+          "operator": "contains_tag",
+          "value": "outerwear-warm",
+          "multiplier": 1.8
+        }
+      ]
+    },
+    {
+      "id": "scene-weather-base-light-snowfall-light-haze",
+      "semantic_key": "scene-weather-base-light-snowfall-light-haze",
+      "text": "light snowfall with light haze",
+      "sentence": "Light snowfall with light haze.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "light snowfall with light haze",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing light snowfall with light haze",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with light snowfall with light haze",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-weather-base-light-snowfall",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "weather",
+        "weather-cold"
+      ],
+      "facets": {
+        "condition": "light-snowfall",
+        "treatment": "light-haze"
+      },
+      "subcategory": "light-snowfall",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "season",
+          "operator": "contains_tag",
+          "value": "season-hot"
+        }
+      ],
+      "prefer": [
+        {
+          "field": "outerwear",
+          "operator": "contains_tag",
+          "value": "outerwear-warm",
+          "multiplier": 1.8
+        }
+      ]
+    },
+    {
+      "id": "scene-weather-base-light-snowfall-soft-mist",
+      "semantic_key": "scene-weather-base-light-snowfall-soft-mist",
+      "text": "light snowfall with soft mist",
+      "sentence": "Light snowfall with soft mist.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "light snowfall with soft mist",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing light snowfall with soft mist",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with light snowfall with soft mist",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-weather-base-light-snowfall",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "weather",
+        "weather-cold"
+      ],
+      "facets": {
+        "condition": "light-snowfall",
+        "treatment": "soft-mist"
+      },
+      "subcategory": "light-snowfall",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "season",
+          "operator": "contains_tag",
+          "value": "season-hot"
+        }
+      ],
+      "prefer": [
+        {
+          "field": "outerwear",
+          "operator": "contains_tag",
+          "value": "outerwear-warm",
+          "multiplier": 1.8
+        }
+      ]
+    },
+    {
+      "id": "scene-weather-base-light-snowfall-humid-air",
+      "semantic_key": "scene-weather-base-light-snowfall-humid-air",
+      "text": "light snowfall with humid air",
+      "sentence": "Light snowfall with humid air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "light snowfall with humid air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing light snowfall with humid air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with light snowfall with humid air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-weather-base-light-snowfall",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "weather",
+        "weather-cold"
+      ],
+      "facets": {
+        "condition": "light-snowfall",
+        "treatment": "humid-air"
+      },
+      "subcategory": "light-snowfall",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "season",
+          "operator": "contains_tag",
+          "value": "season-hot"
+        }
+      ],
+      "prefer": [
+        {
+          "field": "outerwear",
+          "operator": "contains_tag",
+          "value": "outerwear-warm",
+          "multiplier": 1.8
+        }
+      ]
+    },
+    {
+      "id": "scene-weather-base-light-snowfall-dry-air",
+      "semantic_key": "scene-weather-base-light-snowfall-dry-air",
+      "text": "light snowfall with dry air",
+      "sentence": "Light snowfall with dry air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "light snowfall with dry air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing light snowfall with dry air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with light snowfall with dry air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-weather-base-light-snowfall",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "scene",
+        "weather",
+        "weather-cold"
+      ],
+      "facets": {
+        "condition": "light-snowfall",
+        "treatment": "dry-air"
+      },
+      "subcategory": "light-snowfall",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "season",
+          "operator": "contains_tag",
+          "value": "season-hot"
+        }
+      ],
+      "prefer": [
+        {
+          "field": "outerwear",
+          "operator": "contains_tag",
+          "value": "outerwear-warm",
+          "multiplier": 1.8
+        }
+      ]
+    },
+    {
+      "id": "scene-weather-base-light-snowfall-wind-swept-air",
+      "semantic_key": "scene-weather-base-light-snowfall-wind-swept-air",
+      "text": "light snowfall with wind-swept air",
+      "sentence": "Light snowfall with wind-swept air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "light snowfall with wind-swept air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing light snowfall with wind-swept air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with light snowfall with wind-swept air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-weather-base-light-snowfall",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "scene",
+        "weather",
+        "weather-cold"
+      ],
+      "facets": {
+        "condition": "light-snowfall",
+        "treatment": "wind-swept-air"
+      },
+      "subcategory": "light-snowfall",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "season",
+          "operator": "contains_tag",
+          "value": "season-hot"
+        }
+      ],
+      "prefer": [
+        {
+          "field": "outerwear",
+          "operator": "contains_tag",
+          "value": "outerwear-warm",
+          "multiplier": 1.8
+        }
+      ]
+    },
+    {
+      "id": "scene-weather-base-light-snowfall-still-air",
+      "semantic_key": "scene-weather-base-light-snowfall-still-air",
+      "text": "light snowfall with still air",
+      "sentence": "Light snowfall with still air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "light snowfall with still air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing light snowfall with still air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with light snowfall with still air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-weather-base-light-snowfall",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "scene",
+        "weather",
+        "weather-cold"
+      ],
+      "facets": {
+        "condition": "light-snowfall",
+        "treatment": "still-air"
+      },
+      "subcategory": "light-snowfall",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "season",
+          "operator": "contains_tag",
+          "value": "season-hot"
+        }
+      ],
+      "prefer": [
+        {
+          "field": "outerwear",
+          "operator": "contains_tag",
+          "value": "outerwear-warm",
+          "multiplier": 1.8
+        }
+      ]
+    },
+    {
+      "id": "scene-weather-base-light-snowfall-particulate-glow",
+      "semantic_key": "scene-weather-base-light-snowfall-particulate-glow",
+      "text": "light snowfall with particulate glow",
+      "sentence": "Light snowfall with particulate glow.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "light snowfall with particulate glow",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing light snowfall with particulate glow",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with light snowfall with particulate glow",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-weather-base-light-snowfall",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "scene",
+        "weather",
+        "weather-cold"
+      ],
+      "facets": {
+        "condition": "light-snowfall",
+        "treatment": "particulate-glow"
+      },
+      "subcategory": "light-snowfall",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "season",
+          "operator": "contains_tag",
+          "value": "season-hot"
+        }
+      ],
+      "prefer": [
+        {
+          "field": "outerwear",
+          "operator": "contains_tag",
+          "value": "outerwear-warm",
+          "multiplier": 1.8
+        }
+      ]
+    },
+    {
+      "id": "scene-weather-base-dry-wind-clear-atmosphere",
+      "semantic_key": "scene-weather-base-dry-wind-clear-atmosphere",
+      "text": "dry wind with clear atmosphere",
+      "sentence": "Dry wind with clear atmosphere.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "dry wind with clear atmosphere",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing dry wind with clear atmosphere",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with dry wind with clear atmosphere",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-weather-base-dry-wind",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "weather",
+        "weather-dry"
+      ],
+      "facets": {
+        "condition": "dry-wind",
+        "treatment": "clear-atmosphere"
+      },
+      "subcategory": "dry-wind",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-weather-base-dry-wind-light-haze",
+      "semantic_key": "scene-weather-base-dry-wind-light-haze",
+      "text": "dry wind with light haze",
+      "sentence": "Dry wind with light haze.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "dry wind with light haze",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing dry wind with light haze",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with dry wind with light haze",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-weather-base-dry-wind",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "weather",
+        "weather-dry"
+      ],
+      "facets": {
+        "condition": "dry-wind",
+        "treatment": "light-haze"
+      },
+      "subcategory": "dry-wind",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-weather-base-dry-wind-soft-mist",
+      "semantic_key": "scene-weather-base-dry-wind-soft-mist",
+      "text": "dry wind with soft mist",
+      "sentence": "Dry wind with soft mist.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "dry wind with soft mist",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing dry wind with soft mist",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with dry wind with soft mist",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-weather-base-dry-wind",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "weather",
+        "weather-dry"
+      ],
+      "facets": {
+        "condition": "dry-wind",
+        "treatment": "soft-mist"
+      },
+      "subcategory": "dry-wind",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-weather-base-dry-wind-humid-air",
+      "semantic_key": "scene-weather-base-dry-wind-humid-air",
+      "text": "dry wind with humid air",
+      "sentence": "Dry wind with humid air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "dry wind with humid air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing dry wind with humid air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with dry wind with humid air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-weather-base-dry-wind",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "weather",
+        "weather-dry"
+      ],
+      "facets": {
+        "condition": "dry-wind",
+        "treatment": "humid-air"
+      },
+      "subcategory": "dry-wind",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-weather-base-dry-wind-dry-air",
+      "semantic_key": "scene-weather-base-dry-wind-dry-air",
+      "text": "dry wind with dry air",
+      "sentence": "Dry wind with dry air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "dry wind with dry air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing dry wind with dry air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with dry wind with dry air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-weather-base-dry-wind",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "scene",
+        "weather",
+        "weather-dry"
+      ],
+      "facets": {
+        "condition": "dry-wind",
+        "treatment": "dry-air"
+      },
+      "subcategory": "dry-wind",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-weather-base-dry-wind-wind-swept-air",
+      "semantic_key": "scene-weather-base-dry-wind-wind-swept-air",
+      "text": "dry wind with wind-swept air",
+      "sentence": "Dry wind with wind-swept air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "dry wind with wind-swept air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing dry wind with wind-swept air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with dry wind with wind-swept air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-weather-base-dry-wind",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "scene",
+        "weather",
+        "weather-dry"
+      ],
+      "facets": {
+        "condition": "dry-wind",
+        "treatment": "wind-swept-air"
+      },
+      "subcategory": "dry-wind",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-weather-base-dry-wind-still-air",
+      "semantic_key": "scene-weather-base-dry-wind-still-air",
+      "text": "dry wind with still air",
+      "sentence": "Dry wind with still air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "dry wind with still air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing dry wind with still air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with dry wind with still air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-weather-base-dry-wind",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "scene",
+        "weather",
+        "weather-dry"
+      ],
+      "facets": {
+        "condition": "dry-wind",
+        "treatment": "still-air"
+      },
+      "subcategory": "dry-wind",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-weather-base-dry-wind-particulate-glow",
+      "semantic_key": "scene-weather-base-dry-wind-particulate-glow",
+      "text": "dry wind with particulate glow",
+      "sentence": "Dry wind with particulate glow.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "dry wind with particulate glow",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing dry wind with particulate glow",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with dry wind with particulate glow",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-weather-base-dry-wind",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "scene",
+        "weather",
+        "weather-dry"
+      ],
+      "facets": {
+        "condition": "dry-wind",
+        "treatment": "particulate-glow"
+      },
+      "subcategory": "dry-wind",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-weather-base-humid-calm-clear-atmosphere",
+      "semantic_key": "scene-weather-base-humid-calm-clear-atmosphere",
+      "text": "humid calm with clear atmosphere",
+      "sentence": "Humid calm with clear atmosphere.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "humid calm with clear atmosphere",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing humid calm with clear atmosphere",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with humid calm with clear atmosphere",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-weather-base-humid-calm",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "weather",
+        "weather-dry"
+      ],
+      "facets": {
+        "condition": "humid-calm",
+        "treatment": "clear-atmosphere"
+      },
+      "subcategory": "humid-calm",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-weather-base-humid-calm-light-haze",
+      "semantic_key": "scene-weather-base-humid-calm-light-haze",
+      "text": "humid calm with light haze",
+      "sentence": "Humid calm with light haze.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "humid calm with light haze",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing humid calm with light haze",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with humid calm with light haze",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-weather-base-humid-calm",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "weather",
+        "weather-dry"
+      ],
+      "facets": {
+        "condition": "humid-calm",
+        "treatment": "light-haze"
+      },
+      "subcategory": "humid-calm",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-weather-base-humid-calm-soft-mist",
+      "semantic_key": "scene-weather-base-humid-calm-soft-mist",
+      "text": "humid calm with soft mist",
+      "sentence": "Humid calm with soft mist.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "humid calm with soft mist",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing humid calm with soft mist",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with humid calm with soft mist",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-weather-base-humid-calm",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "weather",
+        "weather-dry"
+      ],
+      "facets": {
+        "condition": "humid-calm",
+        "treatment": "soft-mist"
+      },
+      "subcategory": "humid-calm",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-weather-base-humid-calm-humid-air",
+      "semantic_key": "scene-weather-base-humid-calm-humid-air",
+      "text": "humid calm with humid air",
+      "sentence": "Humid calm with humid air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "humid calm with humid air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing humid calm with humid air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with humid calm with humid air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-weather-base-humid-calm",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "weather",
+        "weather-dry"
+      ],
+      "facets": {
+        "condition": "humid-calm",
+        "treatment": "humid-air"
+      },
+      "subcategory": "humid-calm",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-weather-base-humid-calm-dry-air",
+      "semantic_key": "scene-weather-base-humid-calm-dry-air",
+      "text": "humid calm with dry air",
+      "sentence": "Humid calm with dry air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "humid calm with dry air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing humid calm with dry air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with humid calm with dry air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-weather-base-humid-calm",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "scene",
+        "weather",
+        "weather-dry"
+      ],
+      "facets": {
+        "condition": "humid-calm",
+        "treatment": "dry-air"
+      },
+      "subcategory": "humid-calm",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-weather-base-humid-calm-wind-swept-air",
+      "semantic_key": "scene-weather-base-humid-calm-wind-swept-air",
+      "text": "humid calm with wind-swept air",
+      "sentence": "Humid calm with wind-swept air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "humid calm with wind-swept air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing humid calm with wind-swept air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with humid calm with wind-swept air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-weather-base-humid-calm",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "scene",
+        "weather",
+        "weather-dry"
+      ],
+      "facets": {
+        "condition": "humid-calm",
+        "treatment": "wind-swept-air"
+      },
+      "subcategory": "humid-calm",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-weather-base-humid-calm-still-air",
+      "semantic_key": "scene-weather-base-humid-calm-still-air",
+      "text": "humid calm with still air",
+      "sentence": "Humid calm with still air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "humid calm with still air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing humid calm with still air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with humid calm with still air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-weather-base-humid-calm",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "scene",
+        "weather",
+        "weather-dry"
+      ],
+      "facets": {
+        "condition": "humid-calm",
+        "treatment": "still-air"
+      },
+      "subcategory": "humid-calm",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-weather-base-humid-calm-particulate-glow",
+      "semantic_key": "scene-weather-base-humid-calm-particulate-glow",
+      "text": "humid calm with particulate glow",
+      "sentence": "Humid calm with particulate glow.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "humid calm with particulate glow",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing humid calm with particulate glow",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with humid calm with particulate glow",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-weather-base-humid-calm",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "scene",
+        "weather",
+        "weather-dry"
+      ],
+      "facets": {
+        "condition": "humid-calm",
+        "treatment": "particulate-glow"
+      },
+      "subcategory": "humid-calm",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    }
+  ]
+}

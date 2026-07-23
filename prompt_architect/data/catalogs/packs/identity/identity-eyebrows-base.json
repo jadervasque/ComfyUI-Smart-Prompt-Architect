@@ -1,0 +1,2577 @@
+{
+  "schema_version": "2.0",
+  "id": "identity-eyebrows-base",
+  "version": "2.0.0",
+  "library": "eyebrows",
+  "domain": "identity",
+  "category": "eyebrows",
+  "language": "en",
+  "status": "active",
+  "safety": "general",
+  "tags": [
+    "base"
+  ],
+  "fallback_option_id": "identity-eyebrows-base-straight-softly-defined",
+  "options": [
+    {
+      "id": "identity-eyebrows-base-straight-softly-defined",
+      "semantic_key": "identity-eyebrows-base-straight-softly-defined",
+      "text": "softly defined straight eyebrows",
+      "sentence": "Softly defined straight eyebrows.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "softly defined straight eyebrows",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing softly defined straight eyebrows",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with softly defined straight eyebrows",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-eyebrows-base-straight",
+      "tags": [
+        "base",
+        "eyebrows",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "shape": "straight",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "straight",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eyebrows-base-straight-cleanly-outlined",
+      "semantic_key": "identity-eyebrows-base-straight-cleanly-outlined",
+      "text": "cleanly outlined straight eyebrows",
+      "sentence": "Cleanly outlined straight eyebrows.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "cleanly outlined straight eyebrows",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing cleanly outlined straight eyebrows",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with cleanly outlined straight eyebrows",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-eyebrows-base-straight",
+      "tags": [
+        "base",
+        "eyebrows",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "shape": "straight",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "straight",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eyebrows-base-straight-gently-tapered",
+      "semantic_key": "identity-eyebrows-base-straight-gently-tapered",
+      "text": "gently tapered straight eyebrows",
+      "sentence": "Gently tapered straight eyebrows.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gently tapered straight eyebrows",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gently tapered straight eyebrows",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gently tapered straight eyebrows",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-eyebrows-base-straight",
+      "tags": [
+        "base",
+        "eyebrows",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "shape": "straight",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "straight",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eyebrows-base-straight-evenly-proportioned",
+      "semantic_key": "identity-eyebrows-base-straight-evenly-proportioned",
+      "text": "evenly proportioned straight eyebrows",
+      "sentence": "Evenly proportioned straight eyebrows.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "evenly proportioned straight eyebrows",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing evenly proportioned straight eyebrows",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with evenly proportioned straight eyebrows",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-eyebrows-base-straight",
+      "tags": [
+        "base",
+        "eyebrows",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "shape": "straight",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "straight",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eyebrows-base-straight-subtly-angular",
+      "semantic_key": "identity-eyebrows-base-straight-subtly-angular",
+      "text": "subtly angular straight eyebrows",
+      "sentence": "Subtly angular straight eyebrows.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "subtly angular straight eyebrows",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing subtly angular straight eyebrows",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with subtly angular straight eyebrows",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-eyebrows-base-straight",
+      "tags": [
+        "base",
+        "eyebrows",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "shape": "straight",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "straight",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eyebrows-base-straight-smoothly-contoured",
+      "semantic_key": "identity-eyebrows-base-straight-smoothly-contoured",
+      "text": "smoothly contoured straight eyebrows",
+      "sentence": "Smoothly contoured straight eyebrows.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "smoothly contoured straight eyebrows",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing smoothly contoured straight eyebrows",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with smoothly contoured straight eyebrows",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-eyebrows-base-straight",
+      "tags": [
+        "base",
+        "eyebrows",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "shape": "straight",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "straight",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eyebrows-base-straight-distinctly-structured",
+      "semantic_key": "identity-eyebrows-base-straight-distinctly-structured",
+      "text": "distinctly structured straight eyebrows",
+      "sentence": "Distinctly structured straight eyebrows.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "distinctly structured straight eyebrows",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing distinctly structured straight eyebrows",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with distinctly structured straight eyebrows",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-eyebrows-base-straight",
+      "tags": [
+        "base",
+        "eyebrows",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "shape": "straight",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "straight",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eyebrows-base-straight-naturally-asymmetric",
+      "semantic_key": "identity-eyebrows-base-straight-naturally-asymmetric",
+      "text": "naturally asymmetric straight eyebrows",
+      "sentence": "Naturally asymmetric straight eyebrows.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "naturally asymmetric straight eyebrows",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing naturally asymmetric straight eyebrows",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with naturally asymmetric straight eyebrows",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-eyebrows-base-straight",
+      "tags": [
+        "base",
+        "eyebrows",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "shape": "straight",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "straight",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eyebrows-base-softly-arched-softly-defined",
+      "semantic_key": "identity-eyebrows-base-softly-arched-softly-defined",
+      "text": "softly defined softly arched eyebrows",
+      "sentence": "Softly defined softly arched eyebrows.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "softly defined softly arched eyebrows",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing softly defined softly arched eyebrows",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with softly defined softly arched eyebrows",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-eyebrows-base-softly-arched",
+      "tags": [
+        "base",
+        "eyebrows",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "shape": "softly-arched",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "softly-arched",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eyebrows-base-softly-arched-cleanly-outlined",
+      "semantic_key": "identity-eyebrows-base-softly-arched-cleanly-outlined",
+      "text": "cleanly outlined softly arched eyebrows",
+      "sentence": "Cleanly outlined softly arched eyebrows.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "cleanly outlined softly arched eyebrows",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing cleanly outlined softly arched eyebrows",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with cleanly outlined softly arched eyebrows",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-eyebrows-base-softly-arched",
+      "tags": [
+        "base",
+        "eyebrows",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "shape": "softly-arched",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "softly-arched",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eyebrows-base-softly-arched-gently-tapered",
+      "semantic_key": "identity-eyebrows-base-softly-arched-gently-tapered",
+      "text": "gently tapered softly arched eyebrows",
+      "sentence": "Gently tapered softly arched eyebrows.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gently tapered softly arched eyebrows",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gently tapered softly arched eyebrows",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gently tapered softly arched eyebrows",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-eyebrows-base-softly-arched",
+      "tags": [
+        "base",
+        "eyebrows",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "shape": "softly-arched",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "softly-arched",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eyebrows-base-softly-arched-evenly-proportioned",
+      "semantic_key": "identity-eyebrows-base-softly-arched-evenly-proportioned",
+      "text": "evenly proportioned softly arched eyebrows",
+      "sentence": "Evenly proportioned softly arched eyebrows.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "evenly proportioned softly arched eyebrows",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing evenly proportioned softly arched eyebrows",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with evenly proportioned softly arched eyebrows",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-eyebrows-base-softly-arched",
+      "tags": [
+        "base",
+        "eyebrows",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "shape": "softly-arched",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "softly-arched",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eyebrows-base-softly-arched-subtly-angular",
+      "semantic_key": "identity-eyebrows-base-softly-arched-subtly-angular",
+      "text": "subtly angular softly arched eyebrows",
+      "sentence": "Subtly angular softly arched eyebrows.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "subtly angular softly arched eyebrows",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing subtly angular softly arched eyebrows",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with subtly angular softly arched eyebrows",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-eyebrows-base-softly-arched",
+      "tags": [
+        "base",
+        "eyebrows",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "shape": "softly-arched",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "softly-arched",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eyebrows-base-softly-arched-smoothly-contoured",
+      "semantic_key": "identity-eyebrows-base-softly-arched-smoothly-contoured",
+      "text": "smoothly contoured softly arched eyebrows",
+      "sentence": "Smoothly contoured softly arched eyebrows.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "smoothly contoured softly arched eyebrows",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing smoothly contoured softly arched eyebrows",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with smoothly contoured softly arched eyebrows",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-eyebrows-base-softly-arched",
+      "tags": [
+        "base",
+        "eyebrows",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "shape": "softly-arched",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "softly-arched",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eyebrows-base-softly-arched-distinctly-structured",
+      "semantic_key": "identity-eyebrows-base-softly-arched-distinctly-structured",
+      "text": "distinctly structured softly arched eyebrows",
+      "sentence": "Distinctly structured softly arched eyebrows.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "distinctly structured softly arched eyebrows",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing distinctly structured softly arched eyebrows",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with distinctly structured softly arched eyebrows",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-eyebrows-base-softly-arched",
+      "tags": [
+        "base",
+        "eyebrows",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "shape": "softly-arched",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "softly-arched",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eyebrows-base-softly-arched-naturally-asymmetric",
+      "semantic_key": "identity-eyebrows-base-softly-arched-naturally-asymmetric",
+      "text": "naturally asymmetric softly arched eyebrows",
+      "sentence": "Naturally asymmetric softly arched eyebrows.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "naturally asymmetric softly arched eyebrows",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing naturally asymmetric softly arched eyebrows",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with naturally asymmetric softly arched eyebrows",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-eyebrows-base-softly-arched",
+      "tags": [
+        "base",
+        "eyebrows",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "shape": "softly-arched",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "softly-arched",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eyebrows-base-high-arched-softly-defined",
+      "semantic_key": "identity-eyebrows-base-high-arched-softly-defined",
+      "text": "softly defined high-arched eyebrows",
+      "sentence": "Softly defined high-arched eyebrows.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "softly defined high-arched eyebrows",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing softly defined high-arched eyebrows",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with softly defined high-arched eyebrows",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-eyebrows-base-high-arched",
+      "tags": [
+        "base",
+        "eyebrows",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "shape": "high-arched",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "high-arched",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eyebrows-base-high-arched-cleanly-outlined",
+      "semantic_key": "identity-eyebrows-base-high-arched-cleanly-outlined",
+      "text": "cleanly outlined high-arched eyebrows",
+      "sentence": "Cleanly outlined high-arched eyebrows.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "cleanly outlined high-arched eyebrows",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing cleanly outlined high-arched eyebrows",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with cleanly outlined high-arched eyebrows",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-eyebrows-base-high-arched",
+      "tags": [
+        "base",
+        "eyebrows",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "shape": "high-arched",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "high-arched",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eyebrows-base-high-arched-gently-tapered",
+      "semantic_key": "identity-eyebrows-base-high-arched-gently-tapered",
+      "text": "gently tapered high-arched eyebrows",
+      "sentence": "Gently tapered high-arched eyebrows.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gently tapered high-arched eyebrows",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gently tapered high-arched eyebrows",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gently tapered high-arched eyebrows",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-eyebrows-base-high-arched",
+      "tags": [
+        "base",
+        "eyebrows",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "shape": "high-arched",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "high-arched",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eyebrows-base-high-arched-evenly-proportioned",
+      "semantic_key": "identity-eyebrows-base-high-arched-evenly-proportioned",
+      "text": "evenly proportioned high-arched eyebrows",
+      "sentence": "Evenly proportioned high-arched eyebrows.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "evenly proportioned high-arched eyebrows",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing evenly proportioned high-arched eyebrows",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with evenly proportioned high-arched eyebrows",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-eyebrows-base-high-arched",
+      "tags": [
+        "base",
+        "eyebrows",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "shape": "high-arched",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "high-arched",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eyebrows-base-high-arched-subtly-angular",
+      "semantic_key": "identity-eyebrows-base-high-arched-subtly-angular",
+      "text": "subtly angular high-arched eyebrows",
+      "sentence": "Subtly angular high-arched eyebrows.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "subtly angular high-arched eyebrows",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing subtly angular high-arched eyebrows",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with subtly angular high-arched eyebrows",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-eyebrows-base-high-arched",
+      "tags": [
+        "base",
+        "eyebrows",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "shape": "high-arched",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "high-arched",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eyebrows-base-high-arched-smoothly-contoured",
+      "semantic_key": "identity-eyebrows-base-high-arched-smoothly-contoured",
+      "text": "smoothly contoured high-arched eyebrows",
+      "sentence": "Smoothly contoured high-arched eyebrows.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "smoothly contoured high-arched eyebrows",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing smoothly contoured high-arched eyebrows",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with smoothly contoured high-arched eyebrows",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-eyebrows-base-high-arched",
+      "tags": [
+        "base",
+        "eyebrows",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "shape": "high-arched",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "high-arched",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eyebrows-base-high-arched-distinctly-structured",
+      "semantic_key": "identity-eyebrows-base-high-arched-distinctly-structured",
+      "text": "distinctly structured high-arched eyebrows",
+      "sentence": "Distinctly structured high-arched eyebrows.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "distinctly structured high-arched eyebrows",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing distinctly structured high-arched eyebrows",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with distinctly structured high-arched eyebrows",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-eyebrows-base-high-arched",
+      "tags": [
+        "base",
+        "eyebrows",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "shape": "high-arched",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "high-arched",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eyebrows-base-high-arched-naturally-asymmetric",
+      "semantic_key": "identity-eyebrows-base-high-arched-naturally-asymmetric",
+      "text": "naturally asymmetric high-arched eyebrows",
+      "sentence": "Naturally asymmetric high-arched eyebrows.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "naturally asymmetric high-arched eyebrows",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing naturally asymmetric high-arched eyebrows",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with naturally asymmetric high-arched eyebrows",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-eyebrows-base-high-arched",
+      "tags": [
+        "base",
+        "eyebrows",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "shape": "high-arched",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "high-arched",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eyebrows-base-rounded-softly-defined",
+      "semantic_key": "identity-eyebrows-base-rounded-softly-defined",
+      "text": "softly defined rounded eyebrows",
+      "sentence": "Softly defined rounded eyebrows.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "softly defined rounded eyebrows",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing softly defined rounded eyebrows",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with softly defined rounded eyebrows",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-eyebrows-base-rounded",
+      "tags": [
+        "base",
+        "eyebrows",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "shape": "rounded",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "rounded",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eyebrows-base-rounded-cleanly-outlined",
+      "semantic_key": "identity-eyebrows-base-rounded-cleanly-outlined",
+      "text": "cleanly outlined rounded eyebrows",
+      "sentence": "Cleanly outlined rounded eyebrows.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "cleanly outlined rounded eyebrows",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing cleanly outlined rounded eyebrows",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with cleanly outlined rounded eyebrows",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-eyebrows-base-rounded",
+      "tags": [
+        "base",
+        "eyebrows",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "shape": "rounded",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "rounded",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eyebrows-base-rounded-gently-tapered",
+      "semantic_key": "identity-eyebrows-base-rounded-gently-tapered",
+      "text": "gently tapered rounded eyebrows",
+      "sentence": "Gently tapered rounded eyebrows.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gently tapered rounded eyebrows",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gently tapered rounded eyebrows",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gently tapered rounded eyebrows",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-eyebrows-base-rounded",
+      "tags": [
+        "base",
+        "eyebrows",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "shape": "rounded",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "rounded",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eyebrows-base-rounded-evenly-proportioned",
+      "semantic_key": "identity-eyebrows-base-rounded-evenly-proportioned",
+      "text": "evenly proportioned rounded eyebrows",
+      "sentence": "Evenly proportioned rounded eyebrows.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "evenly proportioned rounded eyebrows",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing evenly proportioned rounded eyebrows",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with evenly proportioned rounded eyebrows",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-eyebrows-base-rounded",
+      "tags": [
+        "base",
+        "eyebrows",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "shape": "rounded",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "rounded",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eyebrows-base-rounded-subtly-angular",
+      "semantic_key": "identity-eyebrows-base-rounded-subtly-angular",
+      "text": "subtly angular rounded eyebrows",
+      "sentence": "Subtly angular rounded eyebrows.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "subtly angular rounded eyebrows",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing subtly angular rounded eyebrows",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with subtly angular rounded eyebrows",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-eyebrows-base-rounded",
+      "tags": [
+        "base",
+        "eyebrows",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "shape": "rounded",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "rounded",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eyebrows-base-rounded-smoothly-contoured",
+      "semantic_key": "identity-eyebrows-base-rounded-smoothly-contoured",
+      "text": "smoothly contoured rounded eyebrows",
+      "sentence": "Smoothly contoured rounded eyebrows.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "smoothly contoured rounded eyebrows",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing smoothly contoured rounded eyebrows",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with smoothly contoured rounded eyebrows",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-eyebrows-base-rounded",
+      "tags": [
+        "base",
+        "eyebrows",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "shape": "rounded",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "rounded",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eyebrows-base-rounded-distinctly-structured",
+      "semantic_key": "identity-eyebrows-base-rounded-distinctly-structured",
+      "text": "distinctly structured rounded eyebrows",
+      "sentence": "Distinctly structured rounded eyebrows.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "distinctly structured rounded eyebrows",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing distinctly structured rounded eyebrows",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with distinctly structured rounded eyebrows",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-eyebrows-base-rounded",
+      "tags": [
+        "base",
+        "eyebrows",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "shape": "rounded",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "rounded",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eyebrows-base-rounded-naturally-asymmetric",
+      "semantic_key": "identity-eyebrows-base-rounded-naturally-asymmetric",
+      "text": "naturally asymmetric rounded eyebrows",
+      "sentence": "Naturally asymmetric rounded eyebrows.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "naturally asymmetric rounded eyebrows",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing naturally asymmetric rounded eyebrows",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with naturally asymmetric rounded eyebrows",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-eyebrows-base-rounded",
+      "tags": [
+        "base",
+        "eyebrows",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "shape": "rounded",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "rounded",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eyebrows-base-angled-softly-defined",
+      "semantic_key": "identity-eyebrows-base-angled-softly-defined",
+      "text": "softly defined angled eyebrows",
+      "sentence": "Softly defined angled eyebrows.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "softly defined angled eyebrows",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing softly defined angled eyebrows",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with softly defined angled eyebrows",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-eyebrows-base-angled",
+      "tags": [
+        "base",
+        "eyebrows",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "shape": "angled",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "angled",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eyebrows-base-angled-cleanly-outlined",
+      "semantic_key": "identity-eyebrows-base-angled-cleanly-outlined",
+      "text": "cleanly outlined angled eyebrows",
+      "sentence": "Cleanly outlined angled eyebrows.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "cleanly outlined angled eyebrows",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing cleanly outlined angled eyebrows",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with cleanly outlined angled eyebrows",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-eyebrows-base-angled",
+      "tags": [
+        "base",
+        "eyebrows",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "shape": "angled",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "angled",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eyebrows-base-angled-gently-tapered",
+      "semantic_key": "identity-eyebrows-base-angled-gently-tapered",
+      "text": "gently tapered angled eyebrows",
+      "sentence": "Gently tapered angled eyebrows.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gently tapered angled eyebrows",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gently tapered angled eyebrows",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gently tapered angled eyebrows",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-eyebrows-base-angled",
+      "tags": [
+        "base",
+        "eyebrows",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "shape": "angled",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "angled",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eyebrows-base-angled-evenly-proportioned",
+      "semantic_key": "identity-eyebrows-base-angled-evenly-proportioned",
+      "text": "evenly proportioned angled eyebrows",
+      "sentence": "Evenly proportioned angled eyebrows.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "evenly proportioned angled eyebrows",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing evenly proportioned angled eyebrows",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with evenly proportioned angled eyebrows",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-eyebrows-base-angled",
+      "tags": [
+        "base",
+        "eyebrows",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "shape": "angled",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "angled",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eyebrows-base-angled-subtly-angular",
+      "semantic_key": "identity-eyebrows-base-angled-subtly-angular",
+      "text": "subtly angular angled eyebrows",
+      "sentence": "Subtly angular angled eyebrows.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "subtly angular angled eyebrows",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing subtly angular angled eyebrows",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with subtly angular angled eyebrows",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-eyebrows-base-angled",
+      "tags": [
+        "base",
+        "eyebrows",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "shape": "angled",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "angled",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eyebrows-base-angled-smoothly-contoured",
+      "semantic_key": "identity-eyebrows-base-angled-smoothly-contoured",
+      "text": "smoothly contoured angled eyebrows",
+      "sentence": "Smoothly contoured angled eyebrows.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "smoothly contoured angled eyebrows",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing smoothly contoured angled eyebrows",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with smoothly contoured angled eyebrows",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-eyebrows-base-angled",
+      "tags": [
+        "base",
+        "eyebrows",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "shape": "angled",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "angled",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eyebrows-base-angled-distinctly-structured",
+      "semantic_key": "identity-eyebrows-base-angled-distinctly-structured",
+      "text": "distinctly structured angled eyebrows",
+      "sentence": "Distinctly structured angled eyebrows.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "distinctly structured angled eyebrows",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing distinctly structured angled eyebrows",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with distinctly structured angled eyebrows",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-eyebrows-base-angled",
+      "tags": [
+        "base",
+        "eyebrows",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "shape": "angled",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "angled",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eyebrows-base-angled-naturally-asymmetric",
+      "semantic_key": "identity-eyebrows-base-angled-naturally-asymmetric",
+      "text": "naturally asymmetric angled eyebrows",
+      "sentence": "Naturally asymmetric angled eyebrows.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "naturally asymmetric angled eyebrows",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing naturally asymmetric angled eyebrows",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with naturally asymmetric angled eyebrows",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-eyebrows-base-angled",
+      "tags": [
+        "base",
+        "eyebrows",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "shape": "angled",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "angled",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eyebrows-base-full-softly-defined",
+      "semantic_key": "identity-eyebrows-base-full-softly-defined",
+      "text": "softly defined full eyebrows",
+      "sentence": "Softly defined full eyebrows.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "softly defined full eyebrows",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing softly defined full eyebrows",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with softly defined full eyebrows",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-eyebrows-base-full",
+      "tags": [
+        "base",
+        "eyebrows",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "shape": "full",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "full",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eyebrows-base-full-cleanly-outlined",
+      "semantic_key": "identity-eyebrows-base-full-cleanly-outlined",
+      "text": "cleanly outlined full eyebrows",
+      "sentence": "Cleanly outlined full eyebrows.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "cleanly outlined full eyebrows",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing cleanly outlined full eyebrows",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with cleanly outlined full eyebrows",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-eyebrows-base-full",
+      "tags": [
+        "base",
+        "eyebrows",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "shape": "full",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "full",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eyebrows-base-full-gently-tapered",
+      "semantic_key": "identity-eyebrows-base-full-gently-tapered",
+      "text": "gently tapered full eyebrows",
+      "sentence": "Gently tapered full eyebrows.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gently tapered full eyebrows",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gently tapered full eyebrows",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gently tapered full eyebrows",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-eyebrows-base-full",
+      "tags": [
+        "base",
+        "eyebrows",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "shape": "full",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "full",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eyebrows-base-full-evenly-proportioned",
+      "semantic_key": "identity-eyebrows-base-full-evenly-proportioned",
+      "text": "evenly proportioned full eyebrows",
+      "sentence": "Evenly proportioned full eyebrows.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "evenly proportioned full eyebrows",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing evenly proportioned full eyebrows",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with evenly proportioned full eyebrows",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-eyebrows-base-full",
+      "tags": [
+        "base",
+        "eyebrows",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "shape": "full",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "full",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eyebrows-base-full-subtly-angular",
+      "semantic_key": "identity-eyebrows-base-full-subtly-angular",
+      "text": "subtly angular full eyebrows",
+      "sentence": "Subtly angular full eyebrows.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "subtly angular full eyebrows",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing subtly angular full eyebrows",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with subtly angular full eyebrows",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-eyebrows-base-full",
+      "tags": [
+        "base",
+        "eyebrows",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "shape": "full",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "full",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eyebrows-base-full-smoothly-contoured",
+      "semantic_key": "identity-eyebrows-base-full-smoothly-contoured",
+      "text": "smoothly contoured full eyebrows",
+      "sentence": "Smoothly contoured full eyebrows.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "smoothly contoured full eyebrows",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing smoothly contoured full eyebrows",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with smoothly contoured full eyebrows",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-eyebrows-base-full",
+      "tags": [
+        "base",
+        "eyebrows",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "shape": "full",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "full",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eyebrows-base-full-distinctly-structured",
+      "semantic_key": "identity-eyebrows-base-full-distinctly-structured",
+      "text": "distinctly structured full eyebrows",
+      "sentence": "Distinctly structured full eyebrows.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "distinctly structured full eyebrows",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing distinctly structured full eyebrows",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with distinctly structured full eyebrows",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-eyebrows-base-full",
+      "tags": [
+        "base",
+        "eyebrows",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "shape": "full",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "full",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eyebrows-base-full-naturally-asymmetric",
+      "semantic_key": "identity-eyebrows-base-full-naturally-asymmetric",
+      "text": "naturally asymmetric full eyebrows",
+      "sentence": "Naturally asymmetric full eyebrows.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "naturally asymmetric full eyebrows",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing naturally asymmetric full eyebrows",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with naturally asymmetric full eyebrows",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-eyebrows-base-full",
+      "tags": [
+        "base",
+        "eyebrows",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "shape": "full",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "full",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eyebrows-base-fine-softly-defined",
+      "semantic_key": "identity-eyebrows-base-fine-softly-defined",
+      "text": "softly defined fine eyebrows",
+      "sentence": "Softly defined fine eyebrows.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "softly defined fine eyebrows",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing softly defined fine eyebrows",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with softly defined fine eyebrows",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-eyebrows-base-fine",
+      "tags": [
+        "base",
+        "eyebrows",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "shape": "fine",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "fine",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eyebrows-base-fine-cleanly-outlined",
+      "semantic_key": "identity-eyebrows-base-fine-cleanly-outlined",
+      "text": "cleanly outlined fine eyebrows",
+      "sentence": "Cleanly outlined fine eyebrows.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "cleanly outlined fine eyebrows",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing cleanly outlined fine eyebrows",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with cleanly outlined fine eyebrows",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-eyebrows-base-fine",
+      "tags": [
+        "base",
+        "eyebrows",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "shape": "fine",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "fine",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eyebrows-base-fine-gently-tapered",
+      "semantic_key": "identity-eyebrows-base-fine-gently-tapered",
+      "text": "gently tapered fine eyebrows",
+      "sentence": "Gently tapered fine eyebrows.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gently tapered fine eyebrows",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gently tapered fine eyebrows",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gently tapered fine eyebrows",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-eyebrows-base-fine",
+      "tags": [
+        "base",
+        "eyebrows",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "shape": "fine",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "fine",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eyebrows-base-fine-evenly-proportioned",
+      "semantic_key": "identity-eyebrows-base-fine-evenly-proportioned",
+      "text": "evenly proportioned fine eyebrows",
+      "sentence": "Evenly proportioned fine eyebrows.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "evenly proportioned fine eyebrows",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing evenly proportioned fine eyebrows",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with evenly proportioned fine eyebrows",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-eyebrows-base-fine",
+      "tags": [
+        "base",
+        "eyebrows",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "shape": "fine",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "fine",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eyebrows-base-fine-subtly-angular",
+      "semantic_key": "identity-eyebrows-base-fine-subtly-angular",
+      "text": "subtly angular fine eyebrows",
+      "sentence": "Subtly angular fine eyebrows.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "subtly angular fine eyebrows",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing subtly angular fine eyebrows",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with subtly angular fine eyebrows",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-eyebrows-base-fine",
+      "tags": [
+        "base",
+        "eyebrows",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "shape": "fine",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "fine",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eyebrows-base-fine-smoothly-contoured",
+      "semantic_key": "identity-eyebrows-base-fine-smoothly-contoured",
+      "text": "smoothly contoured fine eyebrows",
+      "sentence": "Smoothly contoured fine eyebrows.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "smoothly contoured fine eyebrows",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing smoothly contoured fine eyebrows",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with smoothly contoured fine eyebrows",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-eyebrows-base-fine",
+      "tags": [
+        "base",
+        "eyebrows",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "shape": "fine",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "fine",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eyebrows-base-fine-distinctly-structured",
+      "semantic_key": "identity-eyebrows-base-fine-distinctly-structured",
+      "text": "distinctly structured fine eyebrows",
+      "sentence": "Distinctly structured fine eyebrows.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "distinctly structured fine eyebrows",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing distinctly structured fine eyebrows",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with distinctly structured fine eyebrows",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-eyebrows-base-fine",
+      "tags": [
+        "base",
+        "eyebrows",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "shape": "fine",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "fine",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eyebrows-base-fine-naturally-asymmetric",
+      "semantic_key": "identity-eyebrows-base-fine-naturally-asymmetric",
+      "text": "naturally asymmetric fine eyebrows",
+      "sentence": "Naturally asymmetric fine eyebrows.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "naturally asymmetric fine eyebrows",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing naturally asymmetric fine eyebrows",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with naturally asymmetric fine eyebrows",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-eyebrows-base-fine",
+      "tags": [
+        "base",
+        "eyebrows",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "shape": "fine",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "fine",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eyebrows-base-tapered-softly-defined",
+      "semantic_key": "identity-eyebrows-base-tapered-softly-defined",
+      "text": "softly defined tapered eyebrows",
+      "sentence": "Softly defined tapered eyebrows.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "softly defined tapered eyebrows",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing softly defined tapered eyebrows",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with softly defined tapered eyebrows",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-eyebrows-base-tapered",
+      "tags": [
+        "base",
+        "eyebrows",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "shape": "tapered",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "tapered",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eyebrows-base-tapered-cleanly-outlined",
+      "semantic_key": "identity-eyebrows-base-tapered-cleanly-outlined",
+      "text": "cleanly outlined tapered eyebrows",
+      "sentence": "Cleanly outlined tapered eyebrows.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "cleanly outlined tapered eyebrows",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing cleanly outlined tapered eyebrows",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with cleanly outlined tapered eyebrows",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-eyebrows-base-tapered",
+      "tags": [
+        "base",
+        "eyebrows",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "shape": "tapered",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "tapered",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eyebrows-base-tapered-gently-tapered",
+      "semantic_key": "identity-eyebrows-base-tapered-gently-tapered",
+      "text": "gently tapered tapered eyebrows",
+      "sentence": "Gently tapered tapered eyebrows.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gently tapered tapered eyebrows",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gently tapered tapered eyebrows",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gently tapered tapered eyebrows",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-eyebrows-base-tapered",
+      "tags": [
+        "base",
+        "eyebrows",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "shape": "tapered",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "tapered",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eyebrows-base-tapered-evenly-proportioned",
+      "semantic_key": "identity-eyebrows-base-tapered-evenly-proportioned",
+      "text": "evenly proportioned tapered eyebrows",
+      "sentence": "Evenly proportioned tapered eyebrows.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "evenly proportioned tapered eyebrows",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing evenly proportioned tapered eyebrows",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with evenly proportioned tapered eyebrows",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-eyebrows-base-tapered",
+      "tags": [
+        "base",
+        "eyebrows",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "shape": "tapered",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "tapered",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eyebrows-base-tapered-subtly-angular",
+      "semantic_key": "identity-eyebrows-base-tapered-subtly-angular",
+      "text": "subtly angular tapered eyebrows",
+      "sentence": "Subtly angular tapered eyebrows.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "subtly angular tapered eyebrows",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing subtly angular tapered eyebrows",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with subtly angular tapered eyebrows",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-eyebrows-base-tapered",
+      "tags": [
+        "base",
+        "eyebrows",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "shape": "tapered",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "tapered",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eyebrows-base-tapered-smoothly-contoured",
+      "semantic_key": "identity-eyebrows-base-tapered-smoothly-contoured",
+      "text": "smoothly contoured tapered eyebrows",
+      "sentence": "Smoothly contoured tapered eyebrows.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "smoothly contoured tapered eyebrows",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing smoothly contoured tapered eyebrows",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with smoothly contoured tapered eyebrows",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-eyebrows-base-tapered",
+      "tags": [
+        "base",
+        "eyebrows",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "shape": "tapered",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "tapered",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eyebrows-base-tapered-distinctly-structured",
+      "semantic_key": "identity-eyebrows-base-tapered-distinctly-structured",
+      "text": "distinctly structured tapered eyebrows",
+      "sentence": "Distinctly structured tapered eyebrows.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "distinctly structured tapered eyebrows",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing distinctly structured tapered eyebrows",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with distinctly structured tapered eyebrows",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-eyebrows-base-tapered",
+      "tags": [
+        "base",
+        "eyebrows",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "shape": "tapered",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "tapered",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-eyebrows-base-tapered-naturally-asymmetric",
+      "semantic_key": "identity-eyebrows-base-tapered-naturally-asymmetric",
+      "text": "naturally asymmetric tapered eyebrows",
+      "sentence": "Naturally asymmetric tapered eyebrows.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "naturally asymmetric tapered eyebrows",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing naturally asymmetric tapered eyebrows",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with naturally asymmetric tapered eyebrows",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-eyebrows-base-tapered",
+      "tags": [
+        "base",
+        "eyebrows",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "shape": "tapered",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "tapered",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    }
+  ]
+}

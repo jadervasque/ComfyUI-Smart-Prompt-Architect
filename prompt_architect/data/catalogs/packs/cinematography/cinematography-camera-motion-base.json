@@ -1,0 +1,3033 @@
+{
+  "schema_version": "2.0",
+  "id": "cinematography-camera-motion-base",
+  "version": "2.0.0",
+  "library": "camera-motion",
+  "domain": "cinematography",
+  "category": "camera-motion",
+  "language": "en",
+  "status": "active",
+  "safety": "general",
+  "tags": [
+    "base"
+  ],
+  "fallback_option_id": "cinematography-camera-motion-base-locked-camera-resting-movement",
+  "options": [
+    {
+      "id": "cinematography-camera-motion-base-locked-camera-resting-movement",
+      "semantic_key": "cinematography-camera-motion-base-locked-camera-resting-movement",
+      "text": "locked camera carrying resting movement",
+      "sentence": "Locked camera carrying resting movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "locked camera carrying resting movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing locked camera carrying resting movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with locked camera carrying resting movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-camera-motion-base-locked-camera",
+      "tags": [
+        "base",
+        "camera-motion",
+        "cinematography",
+        "motion-static",
+        "rarity-common"
+      ],
+      "facets": {
+        "motion-strategy": "locked-camera",
+        "treatment": "resting-movement"
+      },
+      "subcategory": "locked-camera",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-camera-motion-base-locked-camera-measured-movement",
+      "semantic_key": "cinematography-camera-motion-base-locked-camera-measured-movement",
+      "text": "locked camera carrying measured movement",
+      "sentence": "Locked camera carrying measured movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "locked camera carrying measured movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing locked camera carrying measured movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with locked camera carrying measured movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-camera-motion-base-locked-camera",
+      "tags": [
+        "base",
+        "camera-motion",
+        "cinematography",
+        "motion-static",
+        "rarity-common"
+      ],
+      "facets": {
+        "motion-strategy": "locked-camera",
+        "treatment": "measured-movement"
+      },
+      "subcategory": "locked-camera",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-camera-motion-base-locked-camera-flowing-movement",
+      "semantic_key": "cinematography-camera-motion-base-locked-camera-flowing-movement",
+      "text": "locked camera carrying flowing movement",
+      "sentence": "Locked camera carrying flowing movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "locked camera carrying flowing movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing locked camera carrying flowing movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with locked camera carrying flowing movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-camera-motion-base-locked-camera",
+      "tags": [
+        "base",
+        "camera-motion",
+        "cinematography",
+        "motion-static",
+        "rarity-common"
+      ],
+      "facets": {
+        "motion-strategy": "locked-camera",
+        "treatment": "flowing-movement"
+      },
+      "subcategory": "locked-camera",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-camera-motion-base-locked-camera-decisive-movement",
+      "semantic_key": "cinematography-camera-motion-base-locked-camera-decisive-movement",
+      "text": "locked camera carrying decisive movement",
+      "sentence": "Locked camera carrying decisive movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "locked camera carrying decisive movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing locked camera carrying decisive movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with locked camera carrying decisive movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-camera-motion-base-locked-camera",
+      "tags": [
+        "base",
+        "camera-motion",
+        "cinematography",
+        "motion-static",
+        "rarity-common"
+      ],
+      "facets": {
+        "motion-strategy": "locked-camera",
+        "treatment": "decisive-movement"
+      },
+      "subcategory": "locked-camera",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-camera-motion-base-locked-camera-suspended-movement",
+      "semantic_key": "cinematography-camera-motion-base-locked-camera-suspended-movement",
+      "text": "locked camera carrying suspended movement",
+      "sentence": "Locked camera carrying suspended movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "locked camera carrying suspended movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing locked camera carrying suspended movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with locked camera carrying suspended movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-camera-motion-base-locked-camera",
+      "tags": [
+        "base",
+        "camera-motion",
+        "cinematography",
+        "motion-static",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "motion-strategy": "locked-camera",
+        "treatment": "suspended-movement"
+      },
+      "subcategory": "locked-camera",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-camera-motion-base-locked-camera-rhythmic-movement",
+      "semantic_key": "cinematography-camera-motion-base-locked-camera-rhythmic-movement",
+      "text": "locked camera carrying rhythmic movement",
+      "sentence": "Locked camera carrying rhythmic movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "locked camera carrying rhythmic movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing locked camera carrying rhythmic movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with locked camera carrying rhythmic movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-camera-motion-base-locked-camera",
+      "tags": [
+        "base",
+        "camera-motion",
+        "cinematography",
+        "motion-static",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "motion-strategy": "locked-camera",
+        "treatment": "rhythmic-movement"
+      },
+      "subcategory": "locked-camera",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-camera-motion-base-locked-camera-asymmetric-movement",
+      "semantic_key": "cinematography-camera-motion-base-locked-camera-asymmetric-movement",
+      "text": "locked camera carrying asymmetric movement",
+      "sentence": "Locked camera carrying asymmetric movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "locked camera carrying asymmetric movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing locked camera carrying asymmetric movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with locked camera carrying asymmetric movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-camera-motion-base-locked-camera",
+      "tags": [
+        "base",
+        "camera-motion",
+        "cinematography",
+        "motion-static",
+        "rarity-rare"
+      ],
+      "facets": {
+        "motion-strategy": "locked-camera",
+        "treatment": "asymmetric-movement"
+      },
+      "subcategory": "locked-camera",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-camera-motion-base-locked-camera-controlled-momentum",
+      "semantic_key": "cinematography-camera-motion-base-locked-camera-controlled-momentum",
+      "text": "locked camera carrying controlled momentum",
+      "sentence": "Locked camera carrying controlled momentum.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "locked camera carrying controlled momentum",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing locked camera carrying controlled momentum",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with locked camera carrying controlled momentum",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-camera-motion-base-locked-camera",
+      "tags": [
+        "base",
+        "camera-motion",
+        "cinematography",
+        "motion-static",
+        "rarity-rare"
+      ],
+      "facets": {
+        "motion-strategy": "locked-camera",
+        "treatment": "controlled-momentum"
+      },
+      "subcategory": "locked-camera",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-camera-motion-base-gentle-handheld-camera-resting-movement",
+      "semantic_key": "cinematography-camera-motion-base-gentle-handheld-camera-resting-movement",
+      "text": "gentle handheld camera carrying resting movement",
+      "sentence": "Gentle handheld camera carrying resting movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gentle handheld camera carrying resting movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gentle handheld camera carrying resting movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gentle handheld camera carrying resting movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-camera-motion-base-gentle-handheld-camera",
+      "tags": [
+        "base",
+        "camera-motion",
+        "cinematography",
+        "motion-dynamic",
+        "rarity-common"
+      ],
+      "facets": {
+        "motion-strategy": "gentle-handheld-camera",
+        "treatment": "resting-movement"
+      },
+      "subcategory": "gentle-handheld-camera",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "shot-size",
+          "operator": "contains_tag",
+          "value": "framing-close"
+        }
+      ]
+    },
+    {
+      "id": "cinematography-camera-motion-base-gentle-handheld-camera-measured-movement",
+      "semantic_key": "cinematography-camera-motion-base-gentle-handheld-camera-measured-movement",
+      "text": "gentle handheld camera carrying measured movement",
+      "sentence": "Gentle handheld camera carrying measured movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gentle handheld camera carrying measured movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gentle handheld camera carrying measured movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gentle handheld camera carrying measured movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-camera-motion-base-gentle-handheld-camera",
+      "tags": [
+        "base",
+        "camera-motion",
+        "cinematography",
+        "motion-dynamic",
+        "rarity-common"
+      ],
+      "facets": {
+        "motion-strategy": "gentle-handheld-camera",
+        "treatment": "measured-movement"
+      },
+      "subcategory": "gentle-handheld-camera",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "shot-size",
+          "operator": "contains_tag",
+          "value": "framing-close"
+        }
+      ]
+    },
+    {
+      "id": "cinematography-camera-motion-base-gentle-handheld-camera-flowing-movement",
+      "semantic_key": "cinematography-camera-motion-base-gentle-handheld-camera-flowing-movement",
+      "text": "gentle handheld camera carrying flowing movement",
+      "sentence": "Gentle handheld camera carrying flowing movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gentle handheld camera carrying flowing movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gentle handheld camera carrying flowing movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gentle handheld camera carrying flowing movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-camera-motion-base-gentle-handheld-camera",
+      "tags": [
+        "base",
+        "camera-motion",
+        "cinematography",
+        "motion-dynamic",
+        "rarity-common"
+      ],
+      "facets": {
+        "motion-strategy": "gentle-handheld-camera",
+        "treatment": "flowing-movement"
+      },
+      "subcategory": "gentle-handheld-camera",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "shot-size",
+          "operator": "contains_tag",
+          "value": "framing-close"
+        }
+      ]
+    },
+    {
+      "id": "cinematography-camera-motion-base-gentle-handheld-camera-decisive-movement",
+      "semantic_key": "cinematography-camera-motion-base-gentle-handheld-camera-decisive-movement",
+      "text": "gentle handheld camera carrying decisive movement",
+      "sentence": "Gentle handheld camera carrying decisive movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gentle handheld camera carrying decisive movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gentle handheld camera carrying decisive movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gentle handheld camera carrying decisive movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-camera-motion-base-gentle-handheld-camera",
+      "tags": [
+        "base",
+        "camera-motion",
+        "cinematography",
+        "motion-dynamic",
+        "rarity-common"
+      ],
+      "facets": {
+        "motion-strategy": "gentle-handheld-camera",
+        "treatment": "decisive-movement"
+      },
+      "subcategory": "gentle-handheld-camera",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "shot-size",
+          "operator": "contains_tag",
+          "value": "framing-close"
+        }
+      ]
+    },
+    {
+      "id": "cinematography-camera-motion-base-gentle-handheld-camera-suspended-movement",
+      "semantic_key": "cinematography-camera-motion-base-gentle-handheld-camera-suspended-movement",
+      "text": "gentle handheld camera carrying suspended movement",
+      "sentence": "Gentle handheld camera carrying suspended movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gentle handheld camera carrying suspended movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gentle handheld camera carrying suspended movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gentle handheld camera carrying suspended movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-camera-motion-base-gentle-handheld-camera",
+      "tags": [
+        "base",
+        "camera-motion",
+        "cinematography",
+        "motion-dynamic",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "motion-strategy": "gentle-handheld-camera",
+        "treatment": "suspended-movement"
+      },
+      "subcategory": "gentle-handheld-camera",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "shot-size",
+          "operator": "contains_tag",
+          "value": "framing-close"
+        }
+      ]
+    },
+    {
+      "id": "cinematography-camera-motion-base-gentle-handheld-camera-rhythmic-movement",
+      "semantic_key": "cinematography-camera-motion-base-gentle-handheld-camera-rhythmic-movement",
+      "text": "gentle handheld camera carrying rhythmic movement",
+      "sentence": "Gentle handheld camera carrying rhythmic movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gentle handheld camera carrying rhythmic movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gentle handheld camera carrying rhythmic movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gentle handheld camera carrying rhythmic movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-camera-motion-base-gentle-handheld-camera",
+      "tags": [
+        "base",
+        "camera-motion",
+        "cinematography",
+        "motion-dynamic",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "motion-strategy": "gentle-handheld-camera",
+        "treatment": "rhythmic-movement"
+      },
+      "subcategory": "gentle-handheld-camera",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "shot-size",
+          "operator": "contains_tag",
+          "value": "framing-close"
+        }
+      ]
+    },
+    {
+      "id": "cinematography-camera-motion-base-gentle-handheld-camera-asymmetric-movement",
+      "semantic_key": "cinematography-camera-motion-base-gentle-handheld-camera-asymmetric-movement",
+      "text": "gentle handheld camera carrying asymmetric movement",
+      "sentence": "Gentle handheld camera carrying asymmetric movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gentle handheld camera carrying asymmetric movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gentle handheld camera carrying asymmetric movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gentle handheld camera carrying asymmetric movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-camera-motion-base-gentle-handheld-camera",
+      "tags": [
+        "base",
+        "camera-motion",
+        "cinematography",
+        "motion-dynamic",
+        "rarity-rare"
+      ],
+      "facets": {
+        "motion-strategy": "gentle-handheld-camera",
+        "treatment": "asymmetric-movement"
+      },
+      "subcategory": "gentle-handheld-camera",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "shot-size",
+          "operator": "contains_tag",
+          "value": "framing-close"
+        }
+      ]
+    },
+    {
+      "id": "cinematography-camera-motion-base-gentle-handheld-camera-controlled-momentum",
+      "semantic_key": "cinematography-camera-motion-base-gentle-handheld-camera-controlled-momentum",
+      "text": "gentle handheld camera carrying controlled momentum",
+      "sentence": "Gentle handheld camera carrying controlled momentum.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gentle handheld camera carrying controlled momentum",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gentle handheld camera carrying controlled momentum",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gentle handheld camera carrying controlled momentum",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-camera-motion-base-gentle-handheld-camera",
+      "tags": [
+        "base",
+        "camera-motion",
+        "cinematography",
+        "motion-dynamic",
+        "rarity-rare"
+      ],
+      "facets": {
+        "motion-strategy": "gentle-handheld-camera",
+        "treatment": "controlled-momentum"
+      },
+      "subcategory": "gentle-handheld-camera",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "shot-size",
+          "operator": "contains_tag",
+          "value": "framing-close"
+        }
+      ]
+    },
+    {
+      "id": "cinematography-camera-motion-base-slow-push-in-resting-movement",
+      "semantic_key": "cinematography-camera-motion-base-slow-push-in-resting-movement",
+      "text": "slow push-in carrying resting movement",
+      "sentence": "Slow push-in carrying resting movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "slow push-in carrying resting movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing slow push-in carrying resting movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with slow push-in carrying resting movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-camera-motion-base-slow-push-in",
+      "tags": [
+        "base",
+        "camera-motion",
+        "cinematography",
+        "motion-dynamic",
+        "rarity-common"
+      ],
+      "facets": {
+        "motion-strategy": "slow-push-in",
+        "treatment": "resting-movement"
+      },
+      "subcategory": "slow-push-in",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "shot-size",
+          "operator": "contains_tag",
+          "value": "framing-close"
+        }
+      ]
+    },
+    {
+      "id": "cinematography-camera-motion-base-slow-push-in-measured-movement",
+      "semantic_key": "cinematography-camera-motion-base-slow-push-in-measured-movement",
+      "text": "slow push-in carrying measured movement",
+      "sentence": "Slow push-in carrying measured movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "slow push-in carrying measured movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing slow push-in carrying measured movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with slow push-in carrying measured movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-camera-motion-base-slow-push-in",
+      "tags": [
+        "base",
+        "camera-motion",
+        "cinematography",
+        "motion-dynamic",
+        "rarity-common"
+      ],
+      "facets": {
+        "motion-strategy": "slow-push-in",
+        "treatment": "measured-movement"
+      },
+      "subcategory": "slow-push-in",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "shot-size",
+          "operator": "contains_tag",
+          "value": "framing-close"
+        }
+      ]
+    },
+    {
+      "id": "cinematography-camera-motion-base-slow-push-in-flowing-movement",
+      "semantic_key": "cinematography-camera-motion-base-slow-push-in-flowing-movement",
+      "text": "slow push-in carrying flowing movement",
+      "sentence": "Slow push-in carrying flowing movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "slow push-in carrying flowing movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing slow push-in carrying flowing movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with slow push-in carrying flowing movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-camera-motion-base-slow-push-in",
+      "tags": [
+        "base",
+        "camera-motion",
+        "cinematography",
+        "motion-dynamic",
+        "rarity-common"
+      ],
+      "facets": {
+        "motion-strategy": "slow-push-in",
+        "treatment": "flowing-movement"
+      },
+      "subcategory": "slow-push-in",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "shot-size",
+          "operator": "contains_tag",
+          "value": "framing-close"
+        }
+      ]
+    },
+    {
+      "id": "cinematography-camera-motion-base-slow-push-in-decisive-movement",
+      "semantic_key": "cinematography-camera-motion-base-slow-push-in-decisive-movement",
+      "text": "slow push-in carrying decisive movement",
+      "sentence": "Slow push-in carrying decisive movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "slow push-in carrying decisive movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing slow push-in carrying decisive movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with slow push-in carrying decisive movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-camera-motion-base-slow-push-in",
+      "tags": [
+        "base",
+        "camera-motion",
+        "cinematography",
+        "motion-dynamic",
+        "rarity-common"
+      ],
+      "facets": {
+        "motion-strategy": "slow-push-in",
+        "treatment": "decisive-movement"
+      },
+      "subcategory": "slow-push-in",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "shot-size",
+          "operator": "contains_tag",
+          "value": "framing-close"
+        }
+      ]
+    },
+    {
+      "id": "cinematography-camera-motion-base-slow-push-in-suspended-movement",
+      "semantic_key": "cinematography-camera-motion-base-slow-push-in-suspended-movement",
+      "text": "slow push-in carrying suspended movement",
+      "sentence": "Slow push-in carrying suspended movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "slow push-in carrying suspended movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing slow push-in carrying suspended movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with slow push-in carrying suspended movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-camera-motion-base-slow-push-in",
+      "tags": [
+        "base",
+        "camera-motion",
+        "cinematography",
+        "motion-dynamic",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "motion-strategy": "slow-push-in",
+        "treatment": "suspended-movement"
+      },
+      "subcategory": "slow-push-in",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "shot-size",
+          "operator": "contains_tag",
+          "value": "framing-close"
+        }
+      ]
+    },
+    {
+      "id": "cinematography-camera-motion-base-slow-push-in-rhythmic-movement",
+      "semantic_key": "cinematography-camera-motion-base-slow-push-in-rhythmic-movement",
+      "text": "slow push-in carrying rhythmic movement",
+      "sentence": "Slow push-in carrying rhythmic movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "slow push-in carrying rhythmic movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing slow push-in carrying rhythmic movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with slow push-in carrying rhythmic movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-camera-motion-base-slow-push-in",
+      "tags": [
+        "base",
+        "camera-motion",
+        "cinematography",
+        "motion-dynamic",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "motion-strategy": "slow-push-in",
+        "treatment": "rhythmic-movement"
+      },
+      "subcategory": "slow-push-in",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "shot-size",
+          "operator": "contains_tag",
+          "value": "framing-close"
+        }
+      ]
+    },
+    {
+      "id": "cinematography-camera-motion-base-slow-push-in-asymmetric-movement",
+      "semantic_key": "cinematography-camera-motion-base-slow-push-in-asymmetric-movement",
+      "text": "slow push-in carrying asymmetric movement",
+      "sentence": "Slow push-in carrying asymmetric movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "slow push-in carrying asymmetric movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing slow push-in carrying asymmetric movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with slow push-in carrying asymmetric movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-camera-motion-base-slow-push-in",
+      "tags": [
+        "base",
+        "camera-motion",
+        "cinematography",
+        "motion-dynamic",
+        "rarity-rare"
+      ],
+      "facets": {
+        "motion-strategy": "slow-push-in",
+        "treatment": "asymmetric-movement"
+      },
+      "subcategory": "slow-push-in",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "shot-size",
+          "operator": "contains_tag",
+          "value": "framing-close"
+        }
+      ]
+    },
+    {
+      "id": "cinematography-camera-motion-base-slow-push-in-controlled-momentum",
+      "semantic_key": "cinematography-camera-motion-base-slow-push-in-controlled-momentum",
+      "text": "slow push-in carrying controlled momentum",
+      "sentence": "Slow push-in carrying controlled momentum.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "slow push-in carrying controlled momentum",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing slow push-in carrying controlled momentum",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with slow push-in carrying controlled momentum",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-camera-motion-base-slow-push-in",
+      "tags": [
+        "base",
+        "camera-motion",
+        "cinematography",
+        "motion-dynamic",
+        "rarity-rare"
+      ],
+      "facets": {
+        "motion-strategy": "slow-push-in",
+        "treatment": "controlled-momentum"
+      },
+      "subcategory": "slow-push-in",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "shot-size",
+          "operator": "contains_tag",
+          "value": "framing-close"
+        }
+      ]
+    },
+    {
+      "id": "cinematography-camera-motion-base-slow-pull-back-resting-movement",
+      "semantic_key": "cinematography-camera-motion-base-slow-pull-back-resting-movement",
+      "text": "slow pull-back carrying resting movement",
+      "sentence": "Slow pull-back carrying resting movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "slow pull-back carrying resting movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing slow pull-back carrying resting movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with slow pull-back carrying resting movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-camera-motion-base-slow-pull-back",
+      "tags": [
+        "base",
+        "camera-motion",
+        "cinematography",
+        "motion-dynamic",
+        "rarity-common"
+      ],
+      "facets": {
+        "motion-strategy": "slow-pull-back",
+        "treatment": "resting-movement"
+      },
+      "subcategory": "slow-pull-back",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "shot-size",
+          "operator": "contains_tag",
+          "value": "framing-close"
+        }
+      ]
+    },
+    {
+      "id": "cinematography-camera-motion-base-slow-pull-back-measured-movement",
+      "semantic_key": "cinematography-camera-motion-base-slow-pull-back-measured-movement",
+      "text": "slow pull-back carrying measured movement",
+      "sentence": "Slow pull-back carrying measured movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "slow pull-back carrying measured movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing slow pull-back carrying measured movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with slow pull-back carrying measured movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-camera-motion-base-slow-pull-back",
+      "tags": [
+        "base",
+        "camera-motion",
+        "cinematography",
+        "motion-dynamic",
+        "rarity-common"
+      ],
+      "facets": {
+        "motion-strategy": "slow-pull-back",
+        "treatment": "measured-movement"
+      },
+      "subcategory": "slow-pull-back",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "shot-size",
+          "operator": "contains_tag",
+          "value": "framing-close"
+        }
+      ]
+    },
+    {
+      "id": "cinematography-camera-motion-base-slow-pull-back-flowing-movement",
+      "semantic_key": "cinematography-camera-motion-base-slow-pull-back-flowing-movement",
+      "text": "slow pull-back carrying flowing movement",
+      "sentence": "Slow pull-back carrying flowing movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "slow pull-back carrying flowing movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing slow pull-back carrying flowing movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with slow pull-back carrying flowing movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-camera-motion-base-slow-pull-back",
+      "tags": [
+        "base",
+        "camera-motion",
+        "cinematography",
+        "motion-dynamic",
+        "rarity-common"
+      ],
+      "facets": {
+        "motion-strategy": "slow-pull-back",
+        "treatment": "flowing-movement"
+      },
+      "subcategory": "slow-pull-back",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "shot-size",
+          "operator": "contains_tag",
+          "value": "framing-close"
+        }
+      ]
+    },
+    {
+      "id": "cinematography-camera-motion-base-slow-pull-back-decisive-movement",
+      "semantic_key": "cinematography-camera-motion-base-slow-pull-back-decisive-movement",
+      "text": "slow pull-back carrying decisive movement",
+      "sentence": "Slow pull-back carrying decisive movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "slow pull-back carrying decisive movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing slow pull-back carrying decisive movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with slow pull-back carrying decisive movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-camera-motion-base-slow-pull-back",
+      "tags": [
+        "base",
+        "camera-motion",
+        "cinematography",
+        "motion-dynamic",
+        "rarity-common"
+      ],
+      "facets": {
+        "motion-strategy": "slow-pull-back",
+        "treatment": "decisive-movement"
+      },
+      "subcategory": "slow-pull-back",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "shot-size",
+          "operator": "contains_tag",
+          "value": "framing-close"
+        }
+      ]
+    },
+    {
+      "id": "cinematography-camera-motion-base-slow-pull-back-suspended-movement",
+      "semantic_key": "cinematography-camera-motion-base-slow-pull-back-suspended-movement",
+      "text": "slow pull-back carrying suspended movement",
+      "sentence": "Slow pull-back carrying suspended movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "slow pull-back carrying suspended movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing slow pull-back carrying suspended movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with slow pull-back carrying suspended movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-camera-motion-base-slow-pull-back",
+      "tags": [
+        "base",
+        "camera-motion",
+        "cinematography",
+        "motion-dynamic",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "motion-strategy": "slow-pull-back",
+        "treatment": "suspended-movement"
+      },
+      "subcategory": "slow-pull-back",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "shot-size",
+          "operator": "contains_tag",
+          "value": "framing-close"
+        }
+      ]
+    },
+    {
+      "id": "cinematography-camera-motion-base-slow-pull-back-rhythmic-movement",
+      "semantic_key": "cinematography-camera-motion-base-slow-pull-back-rhythmic-movement",
+      "text": "slow pull-back carrying rhythmic movement",
+      "sentence": "Slow pull-back carrying rhythmic movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "slow pull-back carrying rhythmic movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing slow pull-back carrying rhythmic movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with slow pull-back carrying rhythmic movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-camera-motion-base-slow-pull-back",
+      "tags": [
+        "base",
+        "camera-motion",
+        "cinematography",
+        "motion-dynamic",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "motion-strategy": "slow-pull-back",
+        "treatment": "rhythmic-movement"
+      },
+      "subcategory": "slow-pull-back",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "shot-size",
+          "operator": "contains_tag",
+          "value": "framing-close"
+        }
+      ]
+    },
+    {
+      "id": "cinematography-camera-motion-base-slow-pull-back-asymmetric-movement",
+      "semantic_key": "cinematography-camera-motion-base-slow-pull-back-asymmetric-movement",
+      "text": "slow pull-back carrying asymmetric movement",
+      "sentence": "Slow pull-back carrying asymmetric movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "slow pull-back carrying asymmetric movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing slow pull-back carrying asymmetric movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with slow pull-back carrying asymmetric movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-camera-motion-base-slow-pull-back",
+      "tags": [
+        "base",
+        "camera-motion",
+        "cinematography",
+        "motion-dynamic",
+        "rarity-rare"
+      ],
+      "facets": {
+        "motion-strategy": "slow-pull-back",
+        "treatment": "asymmetric-movement"
+      },
+      "subcategory": "slow-pull-back",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "shot-size",
+          "operator": "contains_tag",
+          "value": "framing-close"
+        }
+      ]
+    },
+    {
+      "id": "cinematography-camera-motion-base-slow-pull-back-controlled-momentum",
+      "semantic_key": "cinematography-camera-motion-base-slow-pull-back-controlled-momentum",
+      "text": "slow pull-back carrying controlled momentum",
+      "sentence": "Slow pull-back carrying controlled momentum.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "slow pull-back carrying controlled momentum",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing slow pull-back carrying controlled momentum",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with slow pull-back carrying controlled momentum",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-camera-motion-base-slow-pull-back",
+      "tags": [
+        "base",
+        "camera-motion",
+        "cinematography",
+        "motion-dynamic",
+        "rarity-rare"
+      ],
+      "facets": {
+        "motion-strategy": "slow-pull-back",
+        "treatment": "controlled-momentum"
+      },
+      "subcategory": "slow-pull-back",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "shot-size",
+          "operator": "contains_tag",
+          "value": "framing-close"
+        }
+      ]
+    },
+    {
+      "id": "cinematography-camera-motion-base-lateral-tracking-resting-movement",
+      "semantic_key": "cinematography-camera-motion-base-lateral-tracking-resting-movement",
+      "text": "lateral tracking carrying resting movement",
+      "sentence": "Lateral tracking carrying resting movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "lateral tracking carrying resting movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing lateral tracking carrying resting movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with lateral tracking carrying resting movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-camera-motion-base-lateral-tracking",
+      "tags": [
+        "base",
+        "camera-motion",
+        "cinematography",
+        "motion-dynamic",
+        "rarity-common"
+      ],
+      "facets": {
+        "motion-strategy": "lateral-tracking",
+        "treatment": "resting-movement"
+      },
+      "subcategory": "lateral-tracking",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "shot-size",
+          "operator": "contains_tag",
+          "value": "framing-close"
+        }
+      ]
+    },
+    {
+      "id": "cinematography-camera-motion-base-lateral-tracking-measured-movement",
+      "semantic_key": "cinematography-camera-motion-base-lateral-tracking-measured-movement",
+      "text": "lateral tracking carrying measured movement",
+      "sentence": "Lateral tracking carrying measured movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "lateral tracking carrying measured movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing lateral tracking carrying measured movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with lateral tracking carrying measured movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-camera-motion-base-lateral-tracking",
+      "tags": [
+        "base",
+        "camera-motion",
+        "cinematography",
+        "motion-dynamic",
+        "rarity-common"
+      ],
+      "facets": {
+        "motion-strategy": "lateral-tracking",
+        "treatment": "measured-movement"
+      },
+      "subcategory": "lateral-tracking",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "shot-size",
+          "operator": "contains_tag",
+          "value": "framing-close"
+        }
+      ]
+    },
+    {
+      "id": "cinematography-camera-motion-base-lateral-tracking-flowing-movement",
+      "semantic_key": "cinematography-camera-motion-base-lateral-tracking-flowing-movement",
+      "text": "lateral tracking carrying flowing movement",
+      "sentence": "Lateral tracking carrying flowing movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "lateral tracking carrying flowing movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing lateral tracking carrying flowing movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with lateral tracking carrying flowing movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-camera-motion-base-lateral-tracking",
+      "tags": [
+        "base",
+        "camera-motion",
+        "cinematography",
+        "motion-dynamic",
+        "rarity-common"
+      ],
+      "facets": {
+        "motion-strategy": "lateral-tracking",
+        "treatment": "flowing-movement"
+      },
+      "subcategory": "lateral-tracking",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "shot-size",
+          "operator": "contains_tag",
+          "value": "framing-close"
+        }
+      ]
+    },
+    {
+      "id": "cinematography-camera-motion-base-lateral-tracking-decisive-movement",
+      "semantic_key": "cinematography-camera-motion-base-lateral-tracking-decisive-movement",
+      "text": "lateral tracking carrying decisive movement",
+      "sentence": "Lateral tracking carrying decisive movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "lateral tracking carrying decisive movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing lateral tracking carrying decisive movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with lateral tracking carrying decisive movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-camera-motion-base-lateral-tracking",
+      "tags": [
+        "base",
+        "camera-motion",
+        "cinematography",
+        "motion-dynamic",
+        "rarity-common"
+      ],
+      "facets": {
+        "motion-strategy": "lateral-tracking",
+        "treatment": "decisive-movement"
+      },
+      "subcategory": "lateral-tracking",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "shot-size",
+          "operator": "contains_tag",
+          "value": "framing-close"
+        }
+      ]
+    },
+    {
+      "id": "cinematography-camera-motion-base-lateral-tracking-suspended-movement",
+      "semantic_key": "cinematography-camera-motion-base-lateral-tracking-suspended-movement",
+      "text": "lateral tracking carrying suspended movement",
+      "sentence": "Lateral tracking carrying suspended movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "lateral tracking carrying suspended movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing lateral tracking carrying suspended movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with lateral tracking carrying suspended movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-camera-motion-base-lateral-tracking",
+      "tags": [
+        "base",
+        "camera-motion",
+        "cinematography",
+        "motion-dynamic",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "motion-strategy": "lateral-tracking",
+        "treatment": "suspended-movement"
+      },
+      "subcategory": "lateral-tracking",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "shot-size",
+          "operator": "contains_tag",
+          "value": "framing-close"
+        }
+      ]
+    },
+    {
+      "id": "cinematography-camera-motion-base-lateral-tracking-rhythmic-movement",
+      "semantic_key": "cinematography-camera-motion-base-lateral-tracking-rhythmic-movement",
+      "text": "lateral tracking carrying rhythmic movement",
+      "sentence": "Lateral tracking carrying rhythmic movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "lateral tracking carrying rhythmic movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing lateral tracking carrying rhythmic movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with lateral tracking carrying rhythmic movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-camera-motion-base-lateral-tracking",
+      "tags": [
+        "base",
+        "camera-motion",
+        "cinematography",
+        "motion-dynamic",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "motion-strategy": "lateral-tracking",
+        "treatment": "rhythmic-movement"
+      },
+      "subcategory": "lateral-tracking",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "shot-size",
+          "operator": "contains_tag",
+          "value": "framing-close"
+        }
+      ]
+    },
+    {
+      "id": "cinematography-camera-motion-base-lateral-tracking-asymmetric-movement",
+      "semantic_key": "cinematography-camera-motion-base-lateral-tracking-asymmetric-movement",
+      "text": "lateral tracking carrying asymmetric movement",
+      "sentence": "Lateral tracking carrying asymmetric movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "lateral tracking carrying asymmetric movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing lateral tracking carrying asymmetric movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with lateral tracking carrying asymmetric movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-camera-motion-base-lateral-tracking",
+      "tags": [
+        "base",
+        "camera-motion",
+        "cinematography",
+        "motion-dynamic",
+        "rarity-rare"
+      ],
+      "facets": {
+        "motion-strategy": "lateral-tracking",
+        "treatment": "asymmetric-movement"
+      },
+      "subcategory": "lateral-tracking",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "shot-size",
+          "operator": "contains_tag",
+          "value": "framing-close"
+        }
+      ]
+    },
+    {
+      "id": "cinematography-camera-motion-base-lateral-tracking-controlled-momentum",
+      "semantic_key": "cinematography-camera-motion-base-lateral-tracking-controlled-momentum",
+      "text": "lateral tracking carrying controlled momentum",
+      "sentence": "Lateral tracking carrying controlled momentum.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "lateral tracking carrying controlled momentum",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing lateral tracking carrying controlled momentum",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with lateral tracking carrying controlled momentum",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-camera-motion-base-lateral-tracking",
+      "tags": [
+        "base",
+        "camera-motion",
+        "cinematography",
+        "motion-dynamic",
+        "rarity-rare"
+      ],
+      "facets": {
+        "motion-strategy": "lateral-tracking",
+        "treatment": "controlled-momentum"
+      },
+      "subcategory": "lateral-tracking",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "shot-size",
+          "operator": "contains_tag",
+          "value": "framing-close"
+        }
+      ]
+    },
+    {
+      "id": "cinematography-camera-motion-base-subtle-orbit-resting-movement",
+      "semantic_key": "cinematography-camera-motion-base-subtle-orbit-resting-movement",
+      "text": "subtle orbit carrying resting movement",
+      "sentence": "Subtle orbit carrying resting movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "subtle orbit carrying resting movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing subtle orbit carrying resting movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with subtle orbit carrying resting movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-camera-motion-base-subtle-orbit",
+      "tags": [
+        "base",
+        "camera-motion",
+        "cinematography",
+        "motion-dynamic",
+        "rarity-common"
+      ],
+      "facets": {
+        "motion-strategy": "subtle-orbit",
+        "treatment": "resting-movement"
+      },
+      "subcategory": "subtle-orbit",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "shot-size",
+          "operator": "contains_tag",
+          "value": "framing-close"
+        }
+      ]
+    },
+    {
+      "id": "cinematography-camera-motion-base-subtle-orbit-measured-movement",
+      "semantic_key": "cinematography-camera-motion-base-subtle-orbit-measured-movement",
+      "text": "subtle orbit carrying measured movement",
+      "sentence": "Subtle orbit carrying measured movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "subtle orbit carrying measured movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing subtle orbit carrying measured movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with subtle orbit carrying measured movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-camera-motion-base-subtle-orbit",
+      "tags": [
+        "base",
+        "camera-motion",
+        "cinematography",
+        "motion-dynamic",
+        "rarity-common"
+      ],
+      "facets": {
+        "motion-strategy": "subtle-orbit",
+        "treatment": "measured-movement"
+      },
+      "subcategory": "subtle-orbit",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "shot-size",
+          "operator": "contains_tag",
+          "value": "framing-close"
+        }
+      ]
+    },
+    {
+      "id": "cinematography-camera-motion-base-subtle-orbit-flowing-movement",
+      "semantic_key": "cinematography-camera-motion-base-subtle-orbit-flowing-movement",
+      "text": "subtle orbit carrying flowing movement",
+      "sentence": "Subtle orbit carrying flowing movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "subtle orbit carrying flowing movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing subtle orbit carrying flowing movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with subtle orbit carrying flowing movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-camera-motion-base-subtle-orbit",
+      "tags": [
+        "base",
+        "camera-motion",
+        "cinematography",
+        "motion-dynamic",
+        "rarity-common"
+      ],
+      "facets": {
+        "motion-strategy": "subtle-orbit",
+        "treatment": "flowing-movement"
+      },
+      "subcategory": "subtle-orbit",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "shot-size",
+          "operator": "contains_tag",
+          "value": "framing-close"
+        }
+      ]
+    },
+    {
+      "id": "cinematography-camera-motion-base-subtle-orbit-decisive-movement",
+      "semantic_key": "cinematography-camera-motion-base-subtle-orbit-decisive-movement",
+      "text": "subtle orbit carrying decisive movement",
+      "sentence": "Subtle orbit carrying decisive movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "subtle orbit carrying decisive movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing subtle orbit carrying decisive movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with subtle orbit carrying decisive movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-camera-motion-base-subtle-orbit",
+      "tags": [
+        "base",
+        "camera-motion",
+        "cinematography",
+        "motion-dynamic",
+        "rarity-common"
+      ],
+      "facets": {
+        "motion-strategy": "subtle-orbit",
+        "treatment": "decisive-movement"
+      },
+      "subcategory": "subtle-orbit",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "shot-size",
+          "operator": "contains_tag",
+          "value": "framing-close"
+        }
+      ]
+    },
+    {
+      "id": "cinematography-camera-motion-base-subtle-orbit-suspended-movement",
+      "semantic_key": "cinematography-camera-motion-base-subtle-orbit-suspended-movement",
+      "text": "subtle orbit carrying suspended movement",
+      "sentence": "Subtle orbit carrying suspended movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "subtle orbit carrying suspended movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing subtle orbit carrying suspended movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with subtle orbit carrying suspended movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-camera-motion-base-subtle-orbit",
+      "tags": [
+        "base",
+        "camera-motion",
+        "cinematography",
+        "motion-dynamic",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "motion-strategy": "subtle-orbit",
+        "treatment": "suspended-movement"
+      },
+      "subcategory": "subtle-orbit",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "shot-size",
+          "operator": "contains_tag",
+          "value": "framing-close"
+        }
+      ]
+    },
+    {
+      "id": "cinematography-camera-motion-base-subtle-orbit-rhythmic-movement",
+      "semantic_key": "cinematography-camera-motion-base-subtle-orbit-rhythmic-movement",
+      "text": "subtle orbit carrying rhythmic movement",
+      "sentence": "Subtle orbit carrying rhythmic movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "subtle orbit carrying rhythmic movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing subtle orbit carrying rhythmic movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with subtle orbit carrying rhythmic movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-camera-motion-base-subtle-orbit",
+      "tags": [
+        "base",
+        "camera-motion",
+        "cinematography",
+        "motion-dynamic",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "motion-strategy": "subtle-orbit",
+        "treatment": "rhythmic-movement"
+      },
+      "subcategory": "subtle-orbit",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "shot-size",
+          "operator": "contains_tag",
+          "value": "framing-close"
+        }
+      ]
+    },
+    {
+      "id": "cinematography-camera-motion-base-subtle-orbit-asymmetric-movement",
+      "semantic_key": "cinematography-camera-motion-base-subtle-orbit-asymmetric-movement",
+      "text": "subtle orbit carrying asymmetric movement",
+      "sentence": "Subtle orbit carrying asymmetric movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "subtle orbit carrying asymmetric movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing subtle orbit carrying asymmetric movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with subtle orbit carrying asymmetric movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-camera-motion-base-subtle-orbit",
+      "tags": [
+        "base",
+        "camera-motion",
+        "cinematography",
+        "motion-dynamic",
+        "rarity-rare"
+      ],
+      "facets": {
+        "motion-strategy": "subtle-orbit",
+        "treatment": "asymmetric-movement"
+      },
+      "subcategory": "subtle-orbit",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "shot-size",
+          "operator": "contains_tag",
+          "value": "framing-close"
+        }
+      ]
+    },
+    {
+      "id": "cinematography-camera-motion-base-subtle-orbit-controlled-momentum",
+      "semantic_key": "cinematography-camera-motion-base-subtle-orbit-controlled-momentum",
+      "text": "subtle orbit carrying controlled momentum",
+      "sentence": "Subtle orbit carrying controlled momentum.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "subtle orbit carrying controlled momentum",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing subtle orbit carrying controlled momentum",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with subtle orbit carrying controlled momentum",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-camera-motion-base-subtle-orbit",
+      "tags": [
+        "base",
+        "camera-motion",
+        "cinematography",
+        "motion-dynamic",
+        "rarity-rare"
+      ],
+      "facets": {
+        "motion-strategy": "subtle-orbit",
+        "treatment": "controlled-momentum"
+      },
+      "subcategory": "subtle-orbit",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "shot-size",
+          "operator": "contains_tag",
+          "value": "framing-close"
+        }
+      ]
+    },
+    {
+      "id": "cinematography-camera-motion-base-measured-tilt-resting-movement",
+      "semantic_key": "cinematography-camera-motion-base-measured-tilt-resting-movement",
+      "text": "measured tilt carrying resting movement",
+      "sentence": "Measured tilt carrying resting movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "measured tilt carrying resting movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing measured tilt carrying resting movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with measured tilt carrying resting movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-camera-motion-base-measured-tilt",
+      "tags": [
+        "base",
+        "camera-motion",
+        "cinematography",
+        "motion-dynamic",
+        "rarity-common"
+      ],
+      "facets": {
+        "motion-strategy": "measured-tilt",
+        "treatment": "resting-movement"
+      },
+      "subcategory": "measured-tilt",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "shot-size",
+          "operator": "contains_tag",
+          "value": "framing-close"
+        }
+      ]
+    },
+    {
+      "id": "cinematography-camera-motion-base-measured-tilt-measured-movement",
+      "semantic_key": "cinematography-camera-motion-base-measured-tilt-measured-movement",
+      "text": "measured tilt carrying measured movement",
+      "sentence": "Measured tilt carrying measured movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "measured tilt carrying measured movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing measured tilt carrying measured movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with measured tilt carrying measured movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-camera-motion-base-measured-tilt",
+      "tags": [
+        "base",
+        "camera-motion",
+        "cinematography",
+        "motion-dynamic",
+        "rarity-common"
+      ],
+      "facets": {
+        "motion-strategy": "measured-tilt",
+        "treatment": "measured-movement"
+      },
+      "subcategory": "measured-tilt",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "shot-size",
+          "operator": "contains_tag",
+          "value": "framing-close"
+        }
+      ]
+    },
+    {
+      "id": "cinematography-camera-motion-base-measured-tilt-flowing-movement",
+      "semantic_key": "cinematography-camera-motion-base-measured-tilt-flowing-movement",
+      "text": "measured tilt carrying flowing movement",
+      "sentence": "Measured tilt carrying flowing movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "measured tilt carrying flowing movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing measured tilt carrying flowing movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with measured tilt carrying flowing movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-camera-motion-base-measured-tilt",
+      "tags": [
+        "base",
+        "camera-motion",
+        "cinematography",
+        "motion-dynamic",
+        "rarity-common"
+      ],
+      "facets": {
+        "motion-strategy": "measured-tilt",
+        "treatment": "flowing-movement"
+      },
+      "subcategory": "measured-tilt",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "shot-size",
+          "operator": "contains_tag",
+          "value": "framing-close"
+        }
+      ]
+    },
+    {
+      "id": "cinematography-camera-motion-base-measured-tilt-decisive-movement",
+      "semantic_key": "cinematography-camera-motion-base-measured-tilt-decisive-movement",
+      "text": "measured tilt carrying decisive movement",
+      "sentence": "Measured tilt carrying decisive movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "measured tilt carrying decisive movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing measured tilt carrying decisive movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with measured tilt carrying decisive movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-camera-motion-base-measured-tilt",
+      "tags": [
+        "base",
+        "camera-motion",
+        "cinematography",
+        "motion-dynamic",
+        "rarity-common"
+      ],
+      "facets": {
+        "motion-strategy": "measured-tilt",
+        "treatment": "decisive-movement"
+      },
+      "subcategory": "measured-tilt",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "shot-size",
+          "operator": "contains_tag",
+          "value": "framing-close"
+        }
+      ]
+    },
+    {
+      "id": "cinematography-camera-motion-base-measured-tilt-suspended-movement",
+      "semantic_key": "cinematography-camera-motion-base-measured-tilt-suspended-movement",
+      "text": "measured tilt carrying suspended movement",
+      "sentence": "Measured tilt carrying suspended movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "measured tilt carrying suspended movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing measured tilt carrying suspended movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with measured tilt carrying suspended movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-camera-motion-base-measured-tilt",
+      "tags": [
+        "base",
+        "camera-motion",
+        "cinematography",
+        "motion-dynamic",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "motion-strategy": "measured-tilt",
+        "treatment": "suspended-movement"
+      },
+      "subcategory": "measured-tilt",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "shot-size",
+          "operator": "contains_tag",
+          "value": "framing-close"
+        }
+      ]
+    },
+    {
+      "id": "cinematography-camera-motion-base-measured-tilt-rhythmic-movement",
+      "semantic_key": "cinematography-camera-motion-base-measured-tilt-rhythmic-movement",
+      "text": "measured tilt carrying rhythmic movement",
+      "sentence": "Measured tilt carrying rhythmic movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "measured tilt carrying rhythmic movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing measured tilt carrying rhythmic movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with measured tilt carrying rhythmic movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-camera-motion-base-measured-tilt",
+      "tags": [
+        "base",
+        "camera-motion",
+        "cinematography",
+        "motion-dynamic",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "motion-strategy": "measured-tilt",
+        "treatment": "rhythmic-movement"
+      },
+      "subcategory": "measured-tilt",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "shot-size",
+          "operator": "contains_tag",
+          "value": "framing-close"
+        }
+      ]
+    },
+    {
+      "id": "cinematography-camera-motion-base-measured-tilt-asymmetric-movement",
+      "semantic_key": "cinematography-camera-motion-base-measured-tilt-asymmetric-movement",
+      "text": "measured tilt carrying asymmetric movement",
+      "sentence": "Measured tilt carrying asymmetric movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "measured tilt carrying asymmetric movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing measured tilt carrying asymmetric movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with measured tilt carrying asymmetric movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-camera-motion-base-measured-tilt",
+      "tags": [
+        "base",
+        "camera-motion",
+        "cinematography",
+        "motion-dynamic",
+        "rarity-rare"
+      ],
+      "facets": {
+        "motion-strategy": "measured-tilt",
+        "treatment": "asymmetric-movement"
+      },
+      "subcategory": "measured-tilt",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "shot-size",
+          "operator": "contains_tag",
+          "value": "framing-close"
+        }
+      ]
+    },
+    {
+      "id": "cinematography-camera-motion-base-measured-tilt-controlled-momentum",
+      "semantic_key": "cinematography-camera-motion-base-measured-tilt-controlled-momentum",
+      "text": "measured tilt carrying controlled momentum",
+      "sentence": "Measured tilt carrying controlled momentum.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "measured tilt carrying controlled momentum",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing measured tilt carrying controlled momentum",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with measured tilt carrying controlled momentum",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-camera-motion-base-measured-tilt",
+      "tags": [
+        "base",
+        "camera-motion",
+        "cinematography",
+        "motion-dynamic",
+        "rarity-rare"
+      ],
+      "facets": {
+        "motion-strategy": "measured-tilt",
+        "treatment": "controlled-momentum"
+      },
+      "subcategory": "measured-tilt",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "shot-size",
+          "operator": "contains_tag",
+          "value": "framing-close"
+        }
+      ]
+    },
+    {
+      "id": "cinematography-camera-motion-base-measured-pan-resting-movement",
+      "semantic_key": "cinematography-camera-motion-base-measured-pan-resting-movement",
+      "text": "measured pan carrying resting movement",
+      "sentence": "Measured pan carrying resting movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "measured pan carrying resting movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing measured pan carrying resting movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with measured pan carrying resting movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-camera-motion-base-measured-pan",
+      "tags": [
+        "base",
+        "camera-motion",
+        "cinematography",
+        "motion-dynamic",
+        "rarity-common"
+      ],
+      "facets": {
+        "motion-strategy": "measured-pan",
+        "treatment": "resting-movement"
+      },
+      "subcategory": "measured-pan",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "shot-size",
+          "operator": "contains_tag",
+          "value": "framing-close"
+        }
+      ]
+    },
+    {
+      "id": "cinematography-camera-motion-base-measured-pan-measured-movement",
+      "semantic_key": "cinematography-camera-motion-base-measured-pan-measured-movement",
+      "text": "measured pan carrying measured movement",
+      "sentence": "Measured pan carrying measured movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "measured pan carrying measured movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing measured pan carrying measured movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with measured pan carrying measured movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-camera-motion-base-measured-pan",
+      "tags": [
+        "base",
+        "camera-motion",
+        "cinematography",
+        "motion-dynamic",
+        "rarity-common"
+      ],
+      "facets": {
+        "motion-strategy": "measured-pan",
+        "treatment": "measured-movement"
+      },
+      "subcategory": "measured-pan",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "shot-size",
+          "operator": "contains_tag",
+          "value": "framing-close"
+        }
+      ]
+    },
+    {
+      "id": "cinematography-camera-motion-base-measured-pan-flowing-movement",
+      "semantic_key": "cinematography-camera-motion-base-measured-pan-flowing-movement",
+      "text": "measured pan carrying flowing movement",
+      "sentence": "Measured pan carrying flowing movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "measured pan carrying flowing movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing measured pan carrying flowing movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with measured pan carrying flowing movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-camera-motion-base-measured-pan",
+      "tags": [
+        "base",
+        "camera-motion",
+        "cinematography",
+        "motion-dynamic",
+        "rarity-common"
+      ],
+      "facets": {
+        "motion-strategy": "measured-pan",
+        "treatment": "flowing-movement"
+      },
+      "subcategory": "measured-pan",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "shot-size",
+          "operator": "contains_tag",
+          "value": "framing-close"
+        }
+      ]
+    },
+    {
+      "id": "cinematography-camera-motion-base-measured-pan-decisive-movement",
+      "semantic_key": "cinematography-camera-motion-base-measured-pan-decisive-movement",
+      "text": "measured pan carrying decisive movement",
+      "sentence": "Measured pan carrying decisive movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "measured pan carrying decisive movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing measured pan carrying decisive movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with measured pan carrying decisive movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-camera-motion-base-measured-pan",
+      "tags": [
+        "base",
+        "camera-motion",
+        "cinematography",
+        "motion-dynamic",
+        "rarity-common"
+      ],
+      "facets": {
+        "motion-strategy": "measured-pan",
+        "treatment": "decisive-movement"
+      },
+      "subcategory": "measured-pan",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "shot-size",
+          "operator": "contains_tag",
+          "value": "framing-close"
+        }
+      ]
+    },
+    {
+      "id": "cinematography-camera-motion-base-measured-pan-suspended-movement",
+      "semantic_key": "cinematography-camera-motion-base-measured-pan-suspended-movement",
+      "text": "measured pan carrying suspended movement",
+      "sentence": "Measured pan carrying suspended movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "measured pan carrying suspended movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing measured pan carrying suspended movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with measured pan carrying suspended movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-camera-motion-base-measured-pan",
+      "tags": [
+        "base",
+        "camera-motion",
+        "cinematography",
+        "motion-dynamic",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "motion-strategy": "measured-pan",
+        "treatment": "suspended-movement"
+      },
+      "subcategory": "measured-pan",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "shot-size",
+          "operator": "contains_tag",
+          "value": "framing-close"
+        }
+      ]
+    },
+    {
+      "id": "cinematography-camera-motion-base-measured-pan-rhythmic-movement",
+      "semantic_key": "cinematography-camera-motion-base-measured-pan-rhythmic-movement",
+      "text": "measured pan carrying rhythmic movement",
+      "sentence": "Measured pan carrying rhythmic movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "measured pan carrying rhythmic movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing measured pan carrying rhythmic movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with measured pan carrying rhythmic movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-camera-motion-base-measured-pan",
+      "tags": [
+        "base",
+        "camera-motion",
+        "cinematography",
+        "motion-dynamic",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "motion-strategy": "measured-pan",
+        "treatment": "rhythmic-movement"
+      },
+      "subcategory": "measured-pan",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "shot-size",
+          "operator": "contains_tag",
+          "value": "framing-close"
+        }
+      ]
+    },
+    {
+      "id": "cinematography-camera-motion-base-measured-pan-asymmetric-movement",
+      "semantic_key": "cinematography-camera-motion-base-measured-pan-asymmetric-movement",
+      "text": "measured pan carrying asymmetric movement",
+      "sentence": "Measured pan carrying asymmetric movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "measured pan carrying asymmetric movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing measured pan carrying asymmetric movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with measured pan carrying asymmetric movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-camera-motion-base-measured-pan",
+      "tags": [
+        "base",
+        "camera-motion",
+        "cinematography",
+        "motion-dynamic",
+        "rarity-rare"
+      ],
+      "facets": {
+        "motion-strategy": "measured-pan",
+        "treatment": "asymmetric-movement"
+      },
+      "subcategory": "measured-pan",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "shot-size",
+          "operator": "contains_tag",
+          "value": "framing-close"
+        }
+      ]
+    },
+    {
+      "id": "cinematography-camera-motion-base-measured-pan-controlled-momentum",
+      "semantic_key": "cinematography-camera-motion-base-measured-pan-controlled-momentum",
+      "text": "measured pan carrying controlled momentum",
+      "sentence": "Measured pan carrying controlled momentum.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "measured pan carrying controlled momentum",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing measured pan carrying controlled momentum",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with measured pan carrying controlled momentum",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-camera-motion-base-measured-pan",
+      "tags": [
+        "base",
+        "camera-motion",
+        "cinematography",
+        "motion-dynamic",
+        "rarity-rare"
+      ],
+      "facets": {
+        "motion-strategy": "measured-pan",
+        "treatment": "controlled-momentum"
+      },
+      "subcategory": "measured-pan",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence",
+      "excludes": [
+        {
+          "field": "shot-size",
+          "operator": "contains_tag",
+          "value": "framing-close"
+        }
+      ]
+    }
+  ]
+}

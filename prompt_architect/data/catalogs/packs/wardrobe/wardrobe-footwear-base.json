@@ -1,0 +1,2577 @@
+{
+  "schema_version": "2.0",
+  "id": "wardrobe-footwear-base",
+  "version": "2.0.0",
+  "library": "footwear",
+  "domain": "wardrobe",
+  "category": "footwear",
+  "language": "en",
+  "status": "active",
+  "safety": "general",
+  "tags": [
+    "base"
+  ],
+  "fallback_option_id": "wardrobe-footwear-base-low-profile-sneakers-precise-tailoring",
+  "options": [
+    {
+      "id": "wardrobe-footwear-base-low-profile-sneakers-precise-tailoring",
+      "semantic_key": "wardrobe-footwear-base-low-profile-sneakers-precise-tailoring",
+      "text": "low-profile sneakers with precise tailoring",
+      "sentence": "Low-profile sneakers with precise tailoring.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "low-profile sneakers with precise tailoring",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing low-profile sneakers with precise tailoring",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with low-profile sneakers with precise tailoring",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-footwear-base-low-profile-sneakers",
+      "tags": [
+        "base",
+        "footwear",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "low-profile-sneakers",
+        "treatment": "precise-tailoring"
+      },
+      "subcategory": "low-profile-sneakers",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-footwear-base-low-profile-sneakers-relaxed-drape",
+      "semantic_key": "wardrobe-footwear-base-low-profile-sneakers-relaxed-drape",
+      "text": "low-profile sneakers with relaxed drape",
+      "sentence": "Low-profile sneakers with relaxed drape.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "low-profile sneakers with relaxed drape",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing low-profile sneakers with relaxed drape",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with low-profile sneakers with relaxed drape",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-footwear-base-low-profile-sneakers",
+      "tags": [
+        "base",
+        "footwear",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "low-profile-sneakers",
+        "treatment": "relaxed-drape"
+      },
+      "subcategory": "low-profile-sneakers",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-footwear-base-low-profile-sneakers-layered-construction",
+      "semantic_key": "wardrobe-footwear-base-low-profile-sneakers-layered-construction",
+      "text": "low-profile sneakers with layered construction",
+      "sentence": "Low-profile sneakers with layered construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "low-profile sneakers with layered construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing low-profile sneakers with layered construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with low-profile sneakers with layered construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-footwear-base-low-profile-sneakers",
+      "tags": [
+        "base",
+        "footwear",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "low-profile-sneakers",
+        "treatment": "layered-construction"
+      },
+      "subcategory": "low-profile-sneakers",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-footwear-base-low-profile-sneakers-clean-seaming",
+      "semantic_key": "wardrobe-footwear-base-low-profile-sneakers-clean-seaming",
+      "text": "low-profile sneakers with clean seaming",
+      "sentence": "Low-profile sneakers with clean seaming.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "low-profile sneakers with clean seaming",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing low-profile sneakers with clean seaming",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with low-profile sneakers with clean seaming",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-footwear-base-low-profile-sneakers",
+      "tags": [
+        "base",
+        "footwear",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "low-profile-sneakers",
+        "treatment": "clean-seaming"
+      },
+      "subcategory": "low-profile-sneakers",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-footwear-base-low-profile-sneakers-structured-volume",
+      "semantic_key": "wardrobe-footwear-base-low-profile-sneakers-structured-volume",
+      "text": "low-profile sneakers with structured volume",
+      "sentence": "Low-profile sneakers with structured volume.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "low-profile sneakers with structured volume",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing low-profile sneakers with structured volume",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with low-profile sneakers with structured volume",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-footwear-base-low-profile-sneakers",
+      "tags": [
+        "base",
+        "footwear",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "low-profile-sneakers",
+        "treatment": "structured-volume"
+      },
+      "subcategory": "low-profile-sneakers",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-footwear-base-low-profile-sneakers-fluid-movement",
+      "semantic_key": "wardrobe-footwear-base-low-profile-sneakers-fluid-movement",
+      "text": "low-profile sneakers with fluid movement",
+      "sentence": "Low-profile sneakers with fluid movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "low-profile sneakers with fluid movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing low-profile sneakers with fluid movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with low-profile sneakers with fluid movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-footwear-base-low-profile-sneakers",
+      "tags": [
+        "base",
+        "footwear",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "low-profile-sneakers",
+        "treatment": "fluid-movement"
+      },
+      "subcategory": "low-profile-sneakers",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-footwear-base-low-profile-sneakers-practical-detailing",
+      "semantic_key": "wardrobe-footwear-base-low-profile-sneakers-practical-detailing",
+      "text": "low-profile sneakers with practical detailing",
+      "sentence": "Low-profile sneakers with practical detailing.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "low-profile sneakers with practical detailing",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing low-profile sneakers with practical detailing",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with low-profile sneakers with practical detailing",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-footwear-base-low-profile-sneakers",
+      "tags": [
+        "base",
+        "footwear",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "low-profile-sneakers",
+        "treatment": "practical-detailing"
+      },
+      "subcategory": "low-profile-sneakers",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-footwear-base-low-profile-sneakers-minimal-construction",
+      "semantic_key": "wardrobe-footwear-base-low-profile-sneakers-minimal-construction",
+      "text": "low-profile sneakers with minimal construction",
+      "sentence": "Low-profile sneakers with minimal construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "low-profile sneakers with minimal construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing low-profile sneakers with minimal construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with low-profile sneakers with minimal construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-footwear-base-low-profile-sneakers",
+      "tags": [
+        "base",
+        "footwear",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "low-profile-sneakers",
+        "treatment": "minimal-construction"
+      },
+      "subcategory": "low-profile-sneakers",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-footwear-base-lace-up-boots-precise-tailoring",
+      "semantic_key": "wardrobe-footwear-base-lace-up-boots-precise-tailoring",
+      "text": "lace-up boots with precise tailoring",
+      "sentence": "Lace-up boots with precise tailoring.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "lace-up boots with precise tailoring",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing lace-up boots with precise tailoring",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with lace-up boots with precise tailoring",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-footwear-base-lace-up-boots",
+      "tags": [
+        "base",
+        "footwear",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "lace-up-boots",
+        "treatment": "precise-tailoring"
+      },
+      "subcategory": "lace-up-boots",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-footwear-base-lace-up-boots-relaxed-drape",
+      "semantic_key": "wardrobe-footwear-base-lace-up-boots-relaxed-drape",
+      "text": "lace-up boots with relaxed drape",
+      "sentence": "Lace-up boots with relaxed drape.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "lace-up boots with relaxed drape",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing lace-up boots with relaxed drape",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with lace-up boots with relaxed drape",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-footwear-base-lace-up-boots",
+      "tags": [
+        "base",
+        "footwear",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "lace-up-boots",
+        "treatment": "relaxed-drape"
+      },
+      "subcategory": "lace-up-boots",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-footwear-base-lace-up-boots-layered-construction",
+      "semantic_key": "wardrobe-footwear-base-lace-up-boots-layered-construction",
+      "text": "lace-up boots with layered construction",
+      "sentence": "Lace-up boots with layered construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "lace-up boots with layered construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing lace-up boots with layered construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with lace-up boots with layered construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-footwear-base-lace-up-boots",
+      "tags": [
+        "base",
+        "footwear",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "lace-up-boots",
+        "treatment": "layered-construction"
+      },
+      "subcategory": "lace-up-boots",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-footwear-base-lace-up-boots-clean-seaming",
+      "semantic_key": "wardrobe-footwear-base-lace-up-boots-clean-seaming",
+      "text": "lace-up boots with clean seaming",
+      "sentence": "Lace-up boots with clean seaming.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "lace-up boots with clean seaming",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing lace-up boots with clean seaming",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with lace-up boots with clean seaming",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-footwear-base-lace-up-boots",
+      "tags": [
+        "base",
+        "footwear",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "lace-up-boots",
+        "treatment": "clean-seaming"
+      },
+      "subcategory": "lace-up-boots",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-footwear-base-lace-up-boots-structured-volume",
+      "semantic_key": "wardrobe-footwear-base-lace-up-boots-structured-volume",
+      "text": "lace-up boots with structured volume",
+      "sentence": "Lace-up boots with structured volume.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "lace-up boots with structured volume",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing lace-up boots with structured volume",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with lace-up boots with structured volume",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-footwear-base-lace-up-boots",
+      "tags": [
+        "base",
+        "footwear",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "lace-up-boots",
+        "treatment": "structured-volume"
+      },
+      "subcategory": "lace-up-boots",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-footwear-base-lace-up-boots-fluid-movement",
+      "semantic_key": "wardrobe-footwear-base-lace-up-boots-fluid-movement",
+      "text": "lace-up boots with fluid movement",
+      "sentence": "Lace-up boots with fluid movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "lace-up boots with fluid movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing lace-up boots with fluid movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with lace-up boots with fluid movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-footwear-base-lace-up-boots",
+      "tags": [
+        "base",
+        "footwear",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "lace-up-boots",
+        "treatment": "fluid-movement"
+      },
+      "subcategory": "lace-up-boots",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-footwear-base-lace-up-boots-practical-detailing",
+      "semantic_key": "wardrobe-footwear-base-lace-up-boots-practical-detailing",
+      "text": "lace-up boots with practical detailing",
+      "sentence": "Lace-up boots with practical detailing.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "lace-up boots with practical detailing",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing lace-up boots with practical detailing",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with lace-up boots with practical detailing",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-footwear-base-lace-up-boots",
+      "tags": [
+        "base",
+        "footwear",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "lace-up-boots",
+        "treatment": "practical-detailing"
+      },
+      "subcategory": "lace-up-boots",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-footwear-base-lace-up-boots-minimal-construction",
+      "semantic_key": "wardrobe-footwear-base-lace-up-boots-minimal-construction",
+      "text": "lace-up boots with minimal construction",
+      "sentence": "Lace-up boots with minimal construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "lace-up boots with minimal construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing lace-up boots with minimal construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with lace-up boots with minimal construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-footwear-base-lace-up-boots",
+      "tags": [
+        "base",
+        "footwear",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "lace-up-boots",
+        "treatment": "minimal-construction"
+      },
+      "subcategory": "lace-up-boots",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-footwear-base-ankle-boots-precise-tailoring",
+      "semantic_key": "wardrobe-footwear-base-ankle-boots-precise-tailoring",
+      "text": "ankle boots with precise tailoring",
+      "sentence": "Ankle boots with precise tailoring.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "ankle boots with precise tailoring",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing ankle boots with precise tailoring",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with ankle boots with precise tailoring",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-footwear-base-ankle-boots",
+      "tags": [
+        "base",
+        "footwear",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "ankle-boots",
+        "treatment": "precise-tailoring"
+      },
+      "subcategory": "ankle-boots",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-footwear-base-ankle-boots-relaxed-drape",
+      "semantic_key": "wardrobe-footwear-base-ankle-boots-relaxed-drape",
+      "text": "ankle boots with relaxed drape",
+      "sentence": "Ankle boots with relaxed drape.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "ankle boots with relaxed drape",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing ankle boots with relaxed drape",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with ankle boots with relaxed drape",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-footwear-base-ankle-boots",
+      "tags": [
+        "base",
+        "footwear",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "ankle-boots",
+        "treatment": "relaxed-drape"
+      },
+      "subcategory": "ankle-boots",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-footwear-base-ankle-boots-layered-construction",
+      "semantic_key": "wardrobe-footwear-base-ankle-boots-layered-construction",
+      "text": "ankle boots with layered construction",
+      "sentence": "Ankle boots with layered construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "ankle boots with layered construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing ankle boots with layered construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with ankle boots with layered construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-footwear-base-ankle-boots",
+      "tags": [
+        "base",
+        "footwear",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "ankle-boots",
+        "treatment": "layered-construction"
+      },
+      "subcategory": "ankle-boots",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-footwear-base-ankle-boots-clean-seaming",
+      "semantic_key": "wardrobe-footwear-base-ankle-boots-clean-seaming",
+      "text": "ankle boots with clean seaming",
+      "sentence": "Ankle boots with clean seaming.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "ankle boots with clean seaming",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing ankle boots with clean seaming",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with ankle boots with clean seaming",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-footwear-base-ankle-boots",
+      "tags": [
+        "base",
+        "footwear",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "ankle-boots",
+        "treatment": "clean-seaming"
+      },
+      "subcategory": "ankle-boots",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-footwear-base-ankle-boots-structured-volume",
+      "semantic_key": "wardrobe-footwear-base-ankle-boots-structured-volume",
+      "text": "ankle boots with structured volume",
+      "sentence": "Ankle boots with structured volume.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "ankle boots with structured volume",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing ankle boots with structured volume",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with ankle boots with structured volume",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-footwear-base-ankle-boots",
+      "tags": [
+        "base",
+        "footwear",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "ankle-boots",
+        "treatment": "structured-volume"
+      },
+      "subcategory": "ankle-boots",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-footwear-base-ankle-boots-fluid-movement",
+      "semantic_key": "wardrobe-footwear-base-ankle-boots-fluid-movement",
+      "text": "ankle boots with fluid movement",
+      "sentence": "Ankle boots with fluid movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "ankle boots with fluid movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing ankle boots with fluid movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with ankle boots with fluid movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-footwear-base-ankle-boots",
+      "tags": [
+        "base",
+        "footwear",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "ankle-boots",
+        "treatment": "fluid-movement"
+      },
+      "subcategory": "ankle-boots",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-footwear-base-ankle-boots-practical-detailing",
+      "semantic_key": "wardrobe-footwear-base-ankle-boots-practical-detailing",
+      "text": "ankle boots with practical detailing",
+      "sentence": "Ankle boots with practical detailing.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "ankle boots with practical detailing",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing ankle boots with practical detailing",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with ankle boots with practical detailing",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-footwear-base-ankle-boots",
+      "tags": [
+        "base",
+        "footwear",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "ankle-boots",
+        "treatment": "practical-detailing"
+      },
+      "subcategory": "ankle-boots",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-footwear-base-ankle-boots-minimal-construction",
+      "semantic_key": "wardrobe-footwear-base-ankle-boots-minimal-construction",
+      "text": "ankle boots with minimal construction",
+      "sentence": "Ankle boots with minimal construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "ankle boots with minimal construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing ankle boots with minimal construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with ankle boots with minimal construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-footwear-base-ankle-boots",
+      "tags": [
+        "base",
+        "footwear",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "ankle-boots",
+        "treatment": "minimal-construction"
+      },
+      "subcategory": "ankle-boots",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-footwear-base-loafers-precise-tailoring",
+      "semantic_key": "wardrobe-footwear-base-loafers-precise-tailoring",
+      "text": "loafers with precise tailoring",
+      "sentence": "Loafers with precise tailoring.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "loafers with precise tailoring",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing loafers with precise tailoring",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with loafers with precise tailoring",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-footwear-base-loafers",
+      "tags": [
+        "base",
+        "footwear",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "loafers",
+        "treatment": "precise-tailoring"
+      },
+      "subcategory": "loafers",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-footwear-base-loafers-relaxed-drape",
+      "semantic_key": "wardrobe-footwear-base-loafers-relaxed-drape",
+      "text": "loafers with relaxed drape",
+      "sentence": "Loafers with relaxed drape.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "loafers with relaxed drape",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing loafers with relaxed drape",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with loafers with relaxed drape",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-footwear-base-loafers",
+      "tags": [
+        "base",
+        "footwear",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "loafers",
+        "treatment": "relaxed-drape"
+      },
+      "subcategory": "loafers",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-footwear-base-loafers-layered-construction",
+      "semantic_key": "wardrobe-footwear-base-loafers-layered-construction",
+      "text": "loafers with layered construction",
+      "sentence": "Loafers with layered construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "loafers with layered construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing loafers with layered construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with loafers with layered construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-footwear-base-loafers",
+      "tags": [
+        "base",
+        "footwear",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "loafers",
+        "treatment": "layered-construction"
+      },
+      "subcategory": "loafers",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-footwear-base-loafers-clean-seaming",
+      "semantic_key": "wardrobe-footwear-base-loafers-clean-seaming",
+      "text": "loafers with clean seaming",
+      "sentence": "Loafers with clean seaming.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "loafers with clean seaming",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing loafers with clean seaming",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with loafers with clean seaming",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-footwear-base-loafers",
+      "tags": [
+        "base",
+        "footwear",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "loafers",
+        "treatment": "clean-seaming"
+      },
+      "subcategory": "loafers",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-footwear-base-loafers-structured-volume",
+      "semantic_key": "wardrobe-footwear-base-loafers-structured-volume",
+      "text": "loafers with structured volume",
+      "sentence": "Loafers with structured volume.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "loafers with structured volume",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing loafers with structured volume",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with loafers with structured volume",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-footwear-base-loafers",
+      "tags": [
+        "base",
+        "footwear",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "loafers",
+        "treatment": "structured-volume"
+      },
+      "subcategory": "loafers",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-footwear-base-loafers-fluid-movement",
+      "semantic_key": "wardrobe-footwear-base-loafers-fluid-movement",
+      "text": "loafers with fluid movement",
+      "sentence": "Loafers with fluid movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "loafers with fluid movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing loafers with fluid movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with loafers with fluid movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-footwear-base-loafers",
+      "tags": [
+        "base",
+        "footwear",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "loafers",
+        "treatment": "fluid-movement"
+      },
+      "subcategory": "loafers",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-footwear-base-loafers-practical-detailing",
+      "semantic_key": "wardrobe-footwear-base-loafers-practical-detailing",
+      "text": "loafers with practical detailing",
+      "sentence": "Loafers with practical detailing.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "loafers with practical detailing",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing loafers with practical detailing",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with loafers with practical detailing",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-footwear-base-loafers",
+      "tags": [
+        "base",
+        "footwear",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "loafers",
+        "treatment": "practical-detailing"
+      },
+      "subcategory": "loafers",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-footwear-base-loafers-minimal-construction",
+      "semantic_key": "wardrobe-footwear-base-loafers-minimal-construction",
+      "text": "loafers with minimal construction",
+      "sentence": "Loafers with minimal construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "loafers with minimal construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing loafers with minimal construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with loafers with minimal construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-footwear-base-loafers",
+      "tags": [
+        "base",
+        "footwear",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "loafers",
+        "treatment": "minimal-construction"
+      },
+      "subcategory": "loafers",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-footwear-base-flat-sandals-precise-tailoring",
+      "semantic_key": "wardrobe-footwear-base-flat-sandals-precise-tailoring",
+      "text": "flat sandals with precise tailoring",
+      "sentence": "Flat sandals with precise tailoring.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "flat sandals with precise tailoring",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing flat sandals with precise tailoring",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with flat sandals with precise tailoring",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-footwear-base-flat-sandals",
+      "tags": [
+        "base",
+        "footwear",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "flat-sandals",
+        "treatment": "precise-tailoring"
+      },
+      "subcategory": "flat-sandals",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-footwear-base-flat-sandals-relaxed-drape",
+      "semantic_key": "wardrobe-footwear-base-flat-sandals-relaxed-drape",
+      "text": "flat sandals with relaxed drape",
+      "sentence": "Flat sandals with relaxed drape.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "flat sandals with relaxed drape",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing flat sandals with relaxed drape",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with flat sandals with relaxed drape",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-footwear-base-flat-sandals",
+      "tags": [
+        "base",
+        "footwear",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "flat-sandals",
+        "treatment": "relaxed-drape"
+      },
+      "subcategory": "flat-sandals",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-footwear-base-flat-sandals-layered-construction",
+      "semantic_key": "wardrobe-footwear-base-flat-sandals-layered-construction",
+      "text": "flat sandals with layered construction",
+      "sentence": "Flat sandals with layered construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "flat sandals with layered construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing flat sandals with layered construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with flat sandals with layered construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-footwear-base-flat-sandals",
+      "tags": [
+        "base",
+        "footwear",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "flat-sandals",
+        "treatment": "layered-construction"
+      },
+      "subcategory": "flat-sandals",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-footwear-base-flat-sandals-clean-seaming",
+      "semantic_key": "wardrobe-footwear-base-flat-sandals-clean-seaming",
+      "text": "flat sandals with clean seaming",
+      "sentence": "Flat sandals with clean seaming.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "flat sandals with clean seaming",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing flat sandals with clean seaming",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with flat sandals with clean seaming",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-footwear-base-flat-sandals",
+      "tags": [
+        "base",
+        "footwear",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "flat-sandals",
+        "treatment": "clean-seaming"
+      },
+      "subcategory": "flat-sandals",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-footwear-base-flat-sandals-structured-volume",
+      "semantic_key": "wardrobe-footwear-base-flat-sandals-structured-volume",
+      "text": "flat sandals with structured volume",
+      "sentence": "Flat sandals with structured volume.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "flat sandals with structured volume",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing flat sandals with structured volume",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with flat sandals with structured volume",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-footwear-base-flat-sandals",
+      "tags": [
+        "base",
+        "footwear",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "flat-sandals",
+        "treatment": "structured-volume"
+      },
+      "subcategory": "flat-sandals",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-footwear-base-flat-sandals-fluid-movement",
+      "semantic_key": "wardrobe-footwear-base-flat-sandals-fluid-movement",
+      "text": "flat sandals with fluid movement",
+      "sentence": "Flat sandals with fluid movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "flat sandals with fluid movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing flat sandals with fluid movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with flat sandals with fluid movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-footwear-base-flat-sandals",
+      "tags": [
+        "base",
+        "footwear",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "flat-sandals",
+        "treatment": "fluid-movement"
+      },
+      "subcategory": "flat-sandals",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-footwear-base-flat-sandals-practical-detailing",
+      "semantic_key": "wardrobe-footwear-base-flat-sandals-practical-detailing",
+      "text": "flat sandals with practical detailing",
+      "sentence": "Flat sandals with practical detailing.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "flat sandals with practical detailing",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing flat sandals with practical detailing",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with flat sandals with practical detailing",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-footwear-base-flat-sandals",
+      "tags": [
+        "base",
+        "footwear",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "flat-sandals",
+        "treatment": "practical-detailing"
+      },
+      "subcategory": "flat-sandals",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-footwear-base-flat-sandals-minimal-construction",
+      "semantic_key": "wardrobe-footwear-base-flat-sandals-minimal-construction",
+      "text": "flat sandals with minimal construction",
+      "sentence": "Flat sandals with minimal construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "flat sandals with minimal construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing flat sandals with minimal construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with flat sandals with minimal construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-footwear-base-flat-sandals",
+      "tags": [
+        "base",
+        "footwear",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "flat-sandals",
+        "treatment": "minimal-construction"
+      },
+      "subcategory": "flat-sandals",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-footwear-base-block-heel-shoes-precise-tailoring",
+      "semantic_key": "wardrobe-footwear-base-block-heel-shoes-precise-tailoring",
+      "text": "block-heel shoes with precise tailoring",
+      "sentence": "Block-heel shoes with precise tailoring.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "block-heel shoes with precise tailoring",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing block-heel shoes with precise tailoring",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with block-heel shoes with precise tailoring",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-footwear-base-block-heel-shoes",
+      "tags": [
+        "base",
+        "footwear",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "block-heel-shoes",
+        "treatment": "precise-tailoring"
+      },
+      "subcategory": "block-heel-shoes",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-footwear-base-block-heel-shoes-relaxed-drape",
+      "semantic_key": "wardrobe-footwear-base-block-heel-shoes-relaxed-drape",
+      "text": "block-heel shoes with relaxed drape",
+      "sentence": "Block-heel shoes with relaxed drape.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "block-heel shoes with relaxed drape",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing block-heel shoes with relaxed drape",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with block-heel shoes with relaxed drape",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-footwear-base-block-heel-shoes",
+      "tags": [
+        "base",
+        "footwear",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "block-heel-shoes",
+        "treatment": "relaxed-drape"
+      },
+      "subcategory": "block-heel-shoes",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-footwear-base-block-heel-shoes-layered-construction",
+      "semantic_key": "wardrobe-footwear-base-block-heel-shoes-layered-construction",
+      "text": "block-heel shoes with layered construction",
+      "sentence": "Block-heel shoes with layered construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "block-heel shoes with layered construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing block-heel shoes with layered construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with block-heel shoes with layered construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-footwear-base-block-heel-shoes",
+      "tags": [
+        "base",
+        "footwear",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "block-heel-shoes",
+        "treatment": "layered-construction"
+      },
+      "subcategory": "block-heel-shoes",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-footwear-base-block-heel-shoes-clean-seaming",
+      "semantic_key": "wardrobe-footwear-base-block-heel-shoes-clean-seaming",
+      "text": "block-heel shoes with clean seaming",
+      "sentence": "Block-heel shoes with clean seaming.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "block-heel shoes with clean seaming",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing block-heel shoes with clean seaming",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with block-heel shoes with clean seaming",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-footwear-base-block-heel-shoes",
+      "tags": [
+        "base",
+        "footwear",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "block-heel-shoes",
+        "treatment": "clean-seaming"
+      },
+      "subcategory": "block-heel-shoes",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-footwear-base-block-heel-shoes-structured-volume",
+      "semantic_key": "wardrobe-footwear-base-block-heel-shoes-structured-volume",
+      "text": "block-heel shoes with structured volume",
+      "sentence": "Block-heel shoes with structured volume.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "block-heel shoes with structured volume",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing block-heel shoes with structured volume",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with block-heel shoes with structured volume",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-footwear-base-block-heel-shoes",
+      "tags": [
+        "base",
+        "footwear",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "block-heel-shoes",
+        "treatment": "structured-volume"
+      },
+      "subcategory": "block-heel-shoes",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-footwear-base-block-heel-shoes-fluid-movement",
+      "semantic_key": "wardrobe-footwear-base-block-heel-shoes-fluid-movement",
+      "text": "block-heel shoes with fluid movement",
+      "sentence": "Block-heel shoes with fluid movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "block-heel shoes with fluid movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing block-heel shoes with fluid movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with block-heel shoes with fluid movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-footwear-base-block-heel-shoes",
+      "tags": [
+        "base",
+        "footwear",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "block-heel-shoes",
+        "treatment": "fluid-movement"
+      },
+      "subcategory": "block-heel-shoes",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-footwear-base-block-heel-shoes-practical-detailing",
+      "semantic_key": "wardrobe-footwear-base-block-heel-shoes-practical-detailing",
+      "text": "block-heel shoes with practical detailing",
+      "sentence": "Block-heel shoes with practical detailing.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "block-heel shoes with practical detailing",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing block-heel shoes with practical detailing",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with block-heel shoes with practical detailing",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-footwear-base-block-heel-shoes",
+      "tags": [
+        "base",
+        "footwear",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "block-heel-shoes",
+        "treatment": "practical-detailing"
+      },
+      "subcategory": "block-heel-shoes",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-footwear-base-block-heel-shoes-minimal-construction",
+      "semantic_key": "wardrobe-footwear-base-block-heel-shoes-minimal-construction",
+      "text": "block-heel shoes with minimal construction",
+      "sentence": "Block-heel shoes with minimal construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "block-heel shoes with minimal construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing block-heel shoes with minimal construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with block-heel shoes with minimal construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-footwear-base-block-heel-shoes",
+      "tags": [
+        "base",
+        "footwear",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "block-heel-shoes",
+        "treatment": "minimal-construction"
+      },
+      "subcategory": "block-heel-shoes",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-footwear-base-classic-pumps-precise-tailoring",
+      "semantic_key": "wardrobe-footwear-base-classic-pumps-precise-tailoring",
+      "text": "classic pumps with precise tailoring",
+      "sentence": "Classic pumps with precise tailoring.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "classic pumps with precise tailoring",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing classic pumps with precise tailoring",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with classic pumps with precise tailoring",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-footwear-base-classic-pumps",
+      "tags": [
+        "base",
+        "footwear",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "classic-pumps",
+        "treatment": "precise-tailoring"
+      },
+      "subcategory": "classic-pumps",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-footwear-base-classic-pumps-relaxed-drape",
+      "semantic_key": "wardrobe-footwear-base-classic-pumps-relaxed-drape",
+      "text": "classic pumps with relaxed drape",
+      "sentence": "Classic pumps with relaxed drape.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "classic pumps with relaxed drape",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing classic pumps with relaxed drape",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with classic pumps with relaxed drape",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-footwear-base-classic-pumps",
+      "tags": [
+        "base",
+        "footwear",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "classic-pumps",
+        "treatment": "relaxed-drape"
+      },
+      "subcategory": "classic-pumps",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-footwear-base-classic-pumps-layered-construction",
+      "semantic_key": "wardrobe-footwear-base-classic-pumps-layered-construction",
+      "text": "classic pumps with layered construction",
+      "sentence": "Classic pumps with layered construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "classic pumps with layered construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing classic pumps with layered construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with classic pumps with layered construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-footwear-base-classic-pumps",
+      "tags": [
+        "base",
+        "footwear",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "classic-pumps",
+        "treatment": "layered-construction"
+      },
+      "subcategory": "classic-pumps",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-footwear-base-classic-pumps-clean-seaming",
+      "semantic_key": "wardrobe-footwear-base-classic-pumps-clean-seaming",
+      "text": "classic pumps with clean seaming",
+      "sentence": "Classic pumps with clean seaming.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "classic pumps with clean seaming",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing classic pumps with clean seaming",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with classic pumps with clean seaming",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-footwear-base-classic-pumps",
+      "tags": [
+        "base",
+        "footwear",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "classic-pumps",
+        "treatment": "clean-seaming"
+      },
+      "subcategory": "classic-pumps",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-footwear-base-classic-pumps-structured-volume",
+      "semantic_key": "wardrobe-footwear-base-classic-pumps-structured-volume",
+      "text": "classic pumps with structured volume",
+      "sentence": "Classic pumps with structured volume.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "classic pumps with structured volume",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing classic pumps with structured volume",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with classic pumps with structured volume",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-footwear-base-classic-pumps",
+      "tags": [
+        "base",
+        "footwear",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "classic-pumps",
+        "treatment": "structured-volume"
+      },
+      "subcategory": "classic-pumps",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-footwear-base-classic-pumps-fluid-movement",
+      "semantic_key": "wardrobe-footwear-base-classic-pumps-fluid-movement",
+      "text": "classic pumps with fluid movement",
+      "sentence": "Classic pumps with fluid movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "classic pumps with fluid movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing classic pumps with fluid movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with classic pumps with fluid movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-footwear-base-classic-pumps",
+      "tags": [
+        "base",
+        "footwear",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "classic-pumps",
+        "treatment": "fluid-movement"
+      },
+      "subcategory": "classic-pumps",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-footwear-base-classic-pumps-practical-detailing",
+      "semantic_key": "wardrobe-footwear-base-classic-pumps-practical-detailing",
+      "text": "classic pumps with practical detailing",
+      "sentence": "Classic pumps with practical detailing.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "classic pumps with practical detailing",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing classic pumps with practical detailing",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with classic pumps with practical detailing",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-footwear-base-classic-pumps",
+      "tags": [
+        "base",
+        "footwear",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "classic-pumps",
+        "treatment": "practical-detailing"
+      },
+      "subcategory": "classic-pumps",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-footwear-base-classic-pumps-minimal-construction",
+      "semantic_key": "wardrobe-footwear-base-classic-pumps-minimal-construction",
+      "text": "classic pumps with minimal construction",
+      "sentence": "Classic pumps with minimal construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "classic pumps with minimal construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing classic pumps with minimal construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with classic pumps with minimal construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-footwear-base-classic-pumps",
+      "tags": [
+        "base",
+        "footwear",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "classic-pumps",
+        "treatment": "minimal-construction"
+      },
+      "subcategory": "classic-pumps",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-footwear-base-practical-walking-shoes-precise-tailoring",
+      "semantic_key": "wardrobe-footwear-base-practical-walking-shoes-precise-tailoring",
+      "text": "practical walking shoes with precise tailoring",
+      "sentence": "Practical walking shoes with precise tailoring.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "practical walking shoes with precise tailoring",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing practical walking shoes with precise tailoring",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with practical walking shoes with precise tailoring",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-footwear-base-practical-walking-shoes",
+      "tags": [
+        "base",
+        "footwear",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "practical-walking-shoes",
+        "treatment": "precise-tailoring"
+      },
+      "subcategory": "practical-walking-shoes",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-footwear-base-practical-walking-shoes-relaxed-drape",
+      "semantic_key": "wardrobe-footwear-base-practical-walking-shoes-relaxed-drape",
+      "text": "practical walking shoes with relaxed drape",
+      "sentence": "Practical walking shoes with relaxed drape.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "practical walking shoes with relaxed drape",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing practical walking shoes with relaxed drape",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with practical walking shoes with relaxed drape",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-footwear-base-practical-walking-shoes",
+      "tags": [
+        "base",
+        "footwear",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "practical-walking-shoes",
+        "treatment": "relaxed-drape"
+      },
+      "subcategory": "practical-walking-shoes",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-footwear-base-practical-walking-shoes-layered-construction",
+      "semantic_key": "wardrobe-footwear-base-practical-walking-shoes-layered-construction",
+      "text": "practical walking shoes with layered construction",
+      "sentence": "Practical walking shoes with layered construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "practical walking shoes with layered construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing practical walking shoes with layered construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with practical walking shoes with layered construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-footwear-base-practical-walking-shoes",
+      "tags": [
+        "base",
+        "footwear",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "practical-walking-shoes",
+        "treatment": "layered-construction"
+      },
+      "subcategory": "practical-walking-shoes",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-footwear-base-practical-walking-shoes-clean-seaming",
+      "semantic_key": "wardrobe-footwear-base-practical-walking-shoes-clean-seaming",
+      "text": "practical walking shoes with clean seaming",
+      "sentence": "Practical walking shoes with clean seaming.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "practical walking shoes with clean seaming",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing practical walking shoes with clean seaming",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with practical walking shoes with clean seaming",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-footwear-base-practical-walking-shoes",
+      "tags": [
+        "base",
+        "footwear",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "practical-walking-shoes",
+        "treatment": "clean-seaming"
+      },
+      "subcategory": "practical-walking-shoes",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-footwear-base-practical-walking-shoes-structured-volume",
+      "semantic_key": "wardrobe-footwear-base-practical-walking-shoes-structured-volume",
+      "text": "practical walking shoes with structured volume",
+      "sentence": "Practical walking shoes with structured volume.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "practical walking shoes with structured volume",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing practical walking shoes with structured volume",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with practical walking shoes with structured volume",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-footwear-base-practical-walking-shoes",
+      "tags": [
+        "base",
+        "footwear",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "practical-walking-shoes",
+        "treatment": "structured-volume"
+      },
+      "subcategory": "practical-walking-shoes",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-footwear-base-practical-walking-shoes-fluid-movement",
+      "semantic_key": "wardrobe-footwear-base-practical-walking-shoes-fluid-movement",
+      "text": "practical walking shoes with fluid movement",
+      "sentence": "Practical walking shoes with fluid movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "practical walking shoes with fluid movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing practical walking shoes with fluid movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with practical walking shoes with fluid movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-footwear-base-practical-walking-shoes",
+      "tags": [
+        "base",
+        "footwear",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "practical-walking-shoes",
+        "treatment": "fluid-movement"
+      },
+      "subcategory": "practical-walking-shoes",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-footwear-base-practical-walking-shoes-practical-detailing",
+      "semantic_key": "wardrobe-footwear-base-practical-walking-shoes-practical-detailing",
+      "text": "practical walking shoes with practical detailing",
+      "sentence": "Practical walking shoes with practical detailing.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "practical walking shoes with practical detailing",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing practical walking shoes with practical detailing",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with practical walking shoes with practical detailing",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-footwear-base-practical-walking-shoes",
+      "tags": [
+        "base",
+        "footwear",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "practical-walking-shoes",
+        "treatment": "practical-detailing"
+      },
+      "subcategory": "practical-walking-shoes",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-footwear-base-practical-walking-shoes-minimal-construction",
+      "semantic_key": "wardrobe-footwear-base-practical-walking-shoes-minimal-construction",
+      "text": "practical walking shoes with minimal construction",
+      "sentence": "Practical walking shoes with minimal construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "practical walking shoes with minimal construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing practical walking shoes with minimal construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with practical walking shoes with minimal construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-footwear-base-practical-walking-shoes",
+      "tags": [
+        "base",
+        "footwear",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "practical-walking-shoes",
+        "treatment": "minimal-construction"
+      },
+      "subcategory": "practical-walking-shoes",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    }
+  ]
+}

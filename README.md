@@ -1,11 +1,17 @@
 # Prompt Architect
 
-Prompt Architect is a planned ComfyUI custom node for deterministic, structured prompt
-composition. It will select compatible values before rendering text, preserve user-fixed values,
-record every choice in a manifest, and fail clearly instead of returning an empty positive prompt.
+Prompt Architect is a ComfyUI API V3 custom node for deterministic, structured prompt composition.
+It selects compatible values before rendering text, preserves user-fixed values, records every
+choice in a manifest, and fails clearly instead of returning an empty positive prompt.
 
-The project is in pre-alpha bootstrap development. The ComfyUI node and user interface are not
-implemented yet.
+Catalog V2 includes 81 segmented packs, 69 atomic dimensions, 5,184 original semantic options,
+15,552 deterministic text variants, and 15 official profiles. Pack safety classes, hierarchical
+family selection, contextual negative modules, adaptive framing density, and cross-domain
+coherence rules are enforced by the framework-independent core.
+
+The node and its visual editor are implemented. Search for **Prompt Architect** under
+`Prompt Architect → Generation`. See the step-by-step [Portuguese user manual](MANUAL.md) for every
+input, output, editor tab, profile, recipe, and troubleshooting procedure.
 
 ## Design goals
 
@@ -15,6 +21,8 @@ implemented yet.
 - Validated JSON profiles and libraries with no runtime code execution.
 - No network access, package installation, or arbitrary filesystem access while composing.
 - Explicit fallbacks, errors, diagnostics, and manifests.
+- Profile-scoped packs with global collision detection and offline-only loading.
+- Measurably distinct strict, balanced, creative, dataset, and sequential modes.
 
 ## Development setup
 
@@ -29,6 +37,12 @@ python -m ruff format --check .
 python -m mypy
 python -m pytest
 python -m build
+python -m scripts.validate_data
+python -m scripts.validate_catalog_semantics
+python -m scripts.catalog_stats
+python -m scripts.find_catalog_duplicates
+python -m tests.property_profiles
+python -m scripts.benchmark --iterations 1000 --max-seconds 300
 ```
 
 The core package can be checked independently:
@@ -43,9 +57,14 @@ Implementation is governed by [plans/PLAN0.md](plans/PLAN0.md), with execution e
 
 ## Status
 
-The public product name, repository name, Registry ID, and publisher metadata remain working names
-or placeholders until the owner confirms them. No release or Registry publication is authorized by
-this repository state.
+The core, ComfyUI node, visual editor, preview API, official profiles, and cross-platform CI are
+implemented. Registry publisher metadata and a tagged release remain pending; no Registry or
+release publication is authorized by this repository state.
+
+Catalog documentation: [architecture](docs/architecture.md), [Catalog V2](docs/catalog-v2.md),
+[pack authoring](docs/creating-packs.md), [official profiles](docs/official-profiles.md),
+[generation modes](docs/generation-modes.md), [content safety](docs/content-safety.md), and
+[metrics](docs/catalog-metrics.md).
 
 ## License
 

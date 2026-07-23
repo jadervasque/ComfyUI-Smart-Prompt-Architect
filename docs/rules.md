@@ -10,7 +10,7 @@ option ID or tags, safe profile metadata, and the generation mode. Supported ope
   multiplier so preference has less influence.
 - `implies` fills an empty field or replaces a random value and records the change.
 
-An implication may never silently replace a fixed user value. Such conflicts raise a
+An implication may never silently replace a fixed or custom user value. Such conflicts raise a
 `RuleConflictError` that names both values. Transitive implications use a bounded queue and track
 assignments; repeated conflicting assignments are reported as cycles. Absolute requirements and
 exclusions are revalidated on the final structured context.

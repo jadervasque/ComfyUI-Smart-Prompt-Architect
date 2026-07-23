@@ -1,0 +1,2577 @@
+{
+  "schema_version": "2.0",
+  "id": "identity-facial-structure-base",
+  "version": "2.0.0",
+  "library": "facial-structure",
+  "domain": "identity",
+  "category": "facial-structure",
+  "language": "en",
+  "status": "active",
+  "safety": "general",
+  "tags": [
+    "base"
+  ],
+  "fallback_option_id": "identity-facial-structure-base-high-cheekbone-softly-defined",
+  "options": [
+    {
+      "id": "identity-facial-structure-base-high-cheekbone-softly-defined",
+      "semantic_key": "identity-facial-structure-base-high-cheekbone-softly-defined",
+      "text": "softly defined high cheekbone structure",
+      "sentence": "Softly defined high cheekbone structure.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "softly defined high cheekbone structure",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing softly defined high cheekbone structure",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with softly defined high cheekbone structure",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-facial-structure-base-high-cheekbone",
+      "tags": [
+        "base",
+        "facial-structure",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "high-cheekbone",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "high-cheekbone",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-facial-structure-base-high-cheekbone-cleanly-outlined",
+      "semantic_key": "identity-facial-structure-base-high-cheekbone-cleanly-outlined",
+      "text": "cleanly outlined high cheekbone structure",
+      "sentence": "Cleanly outlined high cheekbone structure.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "cleanly outlined high cheekbone structure",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing cleanly outlined high cheekbone structure",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with cleanly outlined high cheekbone structure",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-facial-structure-base-high-cheekbone",
+      "tags": [
+        "base",
+        "facial-structure",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "high-cheekbone",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "high-cheekbone",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-facial-structure-base-high-cheekbone-gently-tapered",
+      "semantic_key": "identity-facial-structure-base-high-cheekbone-gently-tapered",
+      "text": "gently tapered high cheekbone structure",
+      "sentence": "Gently tapered high cheekbone structure.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gently tapered high cheekbone structure",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gently tapered high cheekbone structure",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gently tapered high cheekbone structure",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-facial-structure-base-high-cheekbone",
+      "tags": [
+        "base",
+        "facial-structure",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "high-cheekbone",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "high-cheekbone",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-facial-structure-base-high-cheekbone-evenly-proportioned",
+      "semantic_key": "identity-facial-structure-base-high-cheekbone-evenly-proportioned",
+      "text": "evenly proportioned high cheekbone structure",
+      "sentence": "Evenly proportioned high cheekbone structure.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "evenly proportioned high cheekbone structure",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing evenly proportioned high cheekbone structure",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with evenly proportioned high cheekbone structure",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-facial-structure-base-high-cheekbone",
+      "tags": [
+        "base",
+        "facial-structure",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "high-cheekbone",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "high-cheekbone",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-facial-structure-base-high-cheekbone-subtly-angular",
+      "semantic_key": "identity-facial-structure-base-high-cheekbone-subtly-angular",
+      "text": "subtly angular high cheekbone structure",
+      "sentence": "Subtly angular high cheekbone structure.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "subtly angular high cheekbone structure",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing subtly angular high cheekbone structure",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with subtly angular high cheekbone structure",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-facial-structure-base-high-cheekbone",
+      "tags": [
+        "base",
+        "facial-structure",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "structure": "high-cheekbone",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "high-cheekbone",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-facial-structure-base-high-cheekbone-smoothly-contoured",
+      "semantic_key": "identity-facial-structure-base-high-cheekbone-smoothly-contoured",
+      "text": "smoothly contoured high cheekbone structure",
+      "sentence": "Smoothly contoured high cheekbone structure.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "smoothly contoured high cheekbone structure",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing smoothly contoured high cheekbone structure",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with smoothly contoured high cheekbone structure",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-facial-structure-base-high-cheekbone",
+      "tags": [
+        "base",
+        "facial-structure",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "structure": "high-cheekbone",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "high-cheekbone",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-facial-structure-base-high-cheekbone-distinctly-structured",
+      "semantic_key": "identity-facial-structure-base-high-cheekbone-distinctly-structured",
+      "text": "distinctly structured high cheekbone structure",
+      "sentence": "Distinctly structured high cheekbone structure.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "distinctly structured high cheekbone structure",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing distinctly structured high cheekbone structure",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with distinctly structured high cheekbone structure",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-facial-structure-base-high-cheekbone",
+      "tags": [
+        "base",
+        "facial-structure",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "structure": "high-cheekbone",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "high-cheekbone",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-facial-structure-base-high-cheekbone-naturally-asymmetric",
+      "semantic_key": "identity-facial-structure-base-high-cheekbone-naturally-asymmetric",
+      "text": "naturally asymmetric high cheekbone structure",
+      "sentence": "Naturally asymmetric high cheekbone structure.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "naturally asymmetric high cheekbone structure",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing naturally asymmetric high cheekbone structure",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with naturally asymmetric high cheekbone structure",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-facial-structure-base-high-cheekbone",
+      "tags": [
+        "base",
+        "facial-structure",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "structure": "high-cheekbone",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "high-cheekbone",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-facial-structure-base-low-cheekbone-softly-defined",
+      "semantic_key": "identity-facial-structure-base-low-cheekbone-softly-defined",
+      "text": "softly defined low cheekbone structure",
+      "sentence": "Softly defined low cheekbone structure.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "softly defined low cheekbone structure",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing softly defined low cheekbone structure",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with softly defined low cheekbone structure",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-facial-structure-base-low-cheekbone",
+      "tags": [
+        "base",
+        "facial-structure",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "low-cheekbone",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "low-cheekbone",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-facial-structure-base-low-cheekbone-cleanly-outlined",
+      "semantic_key": "identity-facial-structure-base-low-cheekbone-cleanly-outlined",
+      "text": "cleanly outlined low cheekbone structure",
+      "sentence": "Cleanly outlined low cheekbone structure.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "cleanly outlined low cheekbone structure",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing cleanly outlined low cheekbone structure",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with cleanly outlined low cheekbone structure",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-facial-structure-base-low-cheekbone",
+      "tags": [
+        "base",
+        "facial-structure",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "low-cheekbone",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "low-cheekbone",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-facial-structure-base-low-cheekbone-gently-tapered",
+      "semantic_key": "identity-facial-structure-base-low-cheekbone-gently-tapered",
+      "text": "gently tapered low cheekbone structure",
+      "sentence": "Gently tapered low cheekbone structure.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gently tapered low cheekbone structure",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gently tapered low cheekbone structure",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gently tapered low cheekbone structure",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-facial-structure-base-low-cheekbone",
+      "tags": [
+        "base",
+        "facial-structure",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "low-cheekbone",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "low-cheekbone",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-facial-structure-base-low-cheekbone-evenly-proportioned",
+      "semantic_key": "identity-facial-structure-base-low-cheekbone-evenly-proportioned",
+      "text": "evenly proportioned low cheekbone structure",
+      "sentence": "Evenly proportioned low cheekbone structure.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "evenly proportioned low cheekbone structure",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing evenly proportioned low cheekbone structure",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with evenly proportioned low cheekbone structure",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-facial-structure-base-low-cheekbone",
+      "tags": [
+        "base",
+        "facial-structure",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "low-cheekbone",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "low-cheekbone",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-facial-structure-base-low-cheekbone-subtly-angular",
+      "semantic_key": "identity-facial-structure-base-low-cheekbone-subtly-angular",
+      "text": "subtly angular low cheekbone structure",
+      "sentence": "Subtly angular low cheekbone structure.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "subtly angular low cheekbone structure",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing subtly angular low cheekbone structure",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with subtly angular low cheekbone structure",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-facial-structure-base-low-cheekbone",
+      "tags": [
+        "base",
+        "facial-structure",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "structure": "low-cheekbone",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "low-cheekbone",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-facial-structure-base-low-cheekbone-smoothly-contoured",
+      "semantic_key": "identity-facial-structure-base-low-cheekbone-smoothly-contoured",
+      "text": "smoothly contoured low cheekbone structure",
+      "sentence": "Smoothly contoured low cheekbone structure.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "smoothly contoured low cheekbone structure",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing smoothly contoured low cheekbone structure",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with smoothly contoured low cheekbone structure",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-facial-structure-base-low-cheekbone",
+      "tags": [
+        "base",
+        "facial-structure",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "structure": "low-cheekbone",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "low-cheekbone",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-facial-structure-base-low-cheekbone-distinctly-structured",
+      "semantic_key": "identity-facial-structure-base-low-cheekbone-distinctly-structured",
+      "text": "distinctly structured low cheekbone structure",
+      "sentence": "Distinctly structured low cheekbone structure.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "distinctly structured low cheekbone structure",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing distinctly structured low cheekbone structure",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with distinctly structured low cheekbone structure",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-facial-structure-base-low-cheekbone",
+      "tags": [
+        "base",
+        "facial-structure",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "structure": "low-cheekbone",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "low-cheekbone",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-facial-structure-base-low-cheekbone-naturally-asymmetric",
+      "semantic_key": "identity-facial-structure-base-low-cheekbone-naturally-asymmetric",
+      "text": "naturally asymmetric low cheekbone structure",
+      "sentence": "Naturally asymmetric low cheekbone structure.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "naturally asymmetric low cheekbone structure",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing naturally asymmetric low cheekbone structure",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with naturally asymmetric low cheekbone structure",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-facial-structure-base-low-cheekbone",
+      "tags": [
+        "base",
+        "facial-structure",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "structure": "low-cheekbone",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "low-cheekbone",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-facial-structure-base-broad-jaw-softly-defined",
+      "semantic_key": "identity-facial-structure-base-broad-jaw-softly-defined",
+      "text": "softly defined broad jaw structure",
+      "sentence": "Softly defined broad jaw structure.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "softly defined broad jaw structure",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing softly defined broad jaw structure",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with softly defined broad jaw structure",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-facial-structure-base-broad-jaw",
+      "tags": [
+        "base",
+        "facial-structure",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "broad-jaw",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "broad-jaw",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-facial-structure-base-broad-jaw-cleanly-outlined",
+      "semantic_key": "identity-facial-structure-base-broad-jaw-cleanly-outlined",
+      "text": "cleanly outlined broad jaw structure",
+      "sentence": "Cleanly outlined broad jaw structure.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "cleanly outlined broad jaw structure",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing cleanly outlined broad jaw structure",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with cleanly outlined broad jaw structure",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-facial-structure-base-broad-jaw",
+      "tags": [
+        "base",
+        "facial-structure",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "broad-jaw",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "broad-jaw",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-facial-structure-base-broad-jaw-gently-tapered",
+      "semantic_key": "identity-facial-structure-base-broad-jaw-gently-tapered",
+      "text": "gently tapered broad jaw structure",
+      "sentence": "Gently tapered broad jaw structure.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gently tapered broad jaw structure",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gently tapered broad jaw structure",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gently tapered broad jaw structure",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-facial-structure-base-broad-jaw",
+      "tags": [
+        "base",
+        "facial-structure",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "broad-jaw",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "broad-jaw",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-facial-structure-base-broad-jaw-evenly-proportioned",
+      "semantic_key": "identity-facial-structure-base-broad-jaw-evenly-proportioned",
+      "text": "evenly proportioned broad jaw structure",
+      "sentence": "Evenly proportioned broad jaw structure.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "evenly proportioned broad jaw structure",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing evenly proportioned broad jaw structure",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with evenly proportioned broad jaw structure",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-facial-structure-base-broad-jaw",
+      "tags": [
+        "base",
+        "facial-structure",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "broad-jaw",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "broad-jaw",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-facial-structure-base-broad-jaw-subtly-angular",
+      "semantic_key": "identity-facial-structure-base-broad-jaw-subtly-angular",
+      "text": "subtly angular broad jaw structure",
+      "sentence": "Subtly angular broad jaw structure.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "subtly angular broad jaw structure",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing subtly angular broad jaw structure",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with subtly angular broad jaw structure",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-facial-structure-base-broad-jaw",
+      "tags": [
+        "base",
+        "facial-structure",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "structure": "broad-jaw",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "broad-jaw",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-facial-structure-base-broad-jaw-smoothly-contoured",
+      "semantic_key": "identity-facial-structure-base-broad-jaw-smoothly-contoured",
+      "text": "smoothly contoured broad jaw structure",
+      "sentence": "Smoothly contoured broad jaw structure.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "smoothly contoured broad jaw structure",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing smoothly contoured broad jaw structure",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with smoothly contoured broad jaw structure",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-facial-structure-base-broad-jaw",
+      "tags": [
+        "base",
+        "facial-structure",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "structure": "broad-jaw",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "broad-jaw",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-facial-structure-base-broad-jaw-distinctly-structured",
+      "semantic_key": "identity-facial-structure-base-broad-jaw-distinctly-structured",
+      "text": "distinctly structured broad jaw structure",
+      "sentence": "Distinctly structured broad jaw structure.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "distinctly structured broad jaw structure",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing distinctly structured broad jaw structure",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with distinctly structured broad jaw structure",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-facial-structure-base-broad-jaw",
+      "tags": [
+        "base",
+        "facial-structure",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "structure": "broad-jaw",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "broad-jaw",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-facial-structure-base-broad-jaw-naturally-asymmetric",
+      "semantic_key": "identity-facial-structure-base-broad-jaw-naturally-asymmetric",
+      "text": "naturally asymmetric broad jaw structure",
+      "sentence": "Naturally asymmetric broad jaw structure.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "naturally asymmetric broad jaw structure",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing naturally asymmetric broad jaw structure",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with naturally asymmetric broad jaw structure",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-facial-structure-base-broad-jaw",
+      "tags": [
+        "base",
+        "facial-structure",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "structure": "broad-jaw",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "broad-jaw",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-facial-structure-base-narrow-jaw-softly-defined",
+      "semantic_key": "identity-facial-structure-base-narrow-jaw-softly-defined",
+      "text": "softly defined narrow jaw structure",
+      "sentence": "Softly defined narrow jaw structure.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "softly defined narrow jaw structure",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing softly defined narrow jaw structure",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with softly defined narrow jaw structure",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-facial-structure-base-narrow-jaw",
+      "tags": [
+        "base",
+        "facial-structure",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "narrow-jaw",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "narrow-jaw",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-facial-structure-base-narrow-jaw-cleanly-outlined",
+      "semantic_key": "identity-facial-structure-base-narrow-jaw-cleanly-outlined",
+      "text": "cleanly outlined narrow jaw structure",
+      "sentence": "Cleanly outlined narrow jaw structure.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "cleanly outlined narrow jaw structure",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing cleanly outlined narrow jaw structure",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with cleanly outlined narrow jaw structure",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-facial-structure-base-narrow-jaw",
+      "tags": [
+        "base",
+        "facial-structure",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "narrow-jaw",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "narrow-jaw",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-facial-structure-base-narrow-jaw-gently-tapered",
+      "semantic_key": "identity-facial-structure-base-narrow-jaw-gently-tapered",
+      "text": "gently tapered narrow jaw structure",
+      "sentence": "Gently tapered narrow jaw structure.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gently tapered narrow jaw structure",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gently tapered narrow jaw structure",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gently tapered narrow jaw structure",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-facial-structure-base-narrow-jaw",
+      "tags": [
+        "base",
+        "facial-structure",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "narrow-jaw",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "narrow-jaw",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-facial-structure-base-narrow-jaw-evenly-proportioned",
+      "semantic_key": "identity-facial-structure-base-narrow-jaw-evenly-proportioned",
+      "text": "evenly proportioned narrow jaw structure",
+      "sentence": "Evenly proportioned narrow jaw structure.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "evenly proportioned narrow jaw structure",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing evenly proportioned narrow jaw structure",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with evenly proportioned narrow jaw structure",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-facial-structure-base-narrow-jaw",
+      "tags": [
+        "base",
+        "facial-structure",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "narrow-jaw",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "narrow-jaw",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-facial-structure-base-narrow-jaw-subtly-angular",
+      "semantic_key": "identity-facial-structure-base-narrow-jaw-subtly-angular",
+      "text": "subtly angular narrow jaw structure",
+      "sentence": "Subtly angular narrow jaw structure.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "subtly angular narrow jaw structure",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing subtly angular narrow jaw structure",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with subtly angular narrow jaw structure",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-facial-structure-base-narrow-jaw",
+      "tags": [
+        "base",
+        "facial-structure",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "structure": "narrow-jaw",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "narrow-jaw",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-facial-structure-base-narrow-jaw-smoothly-contoured",
+      "semantic_key": "identity-facial-structure-base-narrow-jaw-smoothly-contoured",
+      "text": "smoothly contoured narrow jaw structure",
+      "sentence": "Smoothly contoured narrow jaw structure.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "smoothly contoured narrow jaw structure",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing smoothly contoured narrow jaw structure",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with smoothly contoured narrow jaw structure",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-facial-structure-base-narrow-jaw",
+      "tags": [
+        "base",
+        "facial-structure",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "structure": "narrow-jaw",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "narrow-jaw",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-facial-structure-base-narrow-jaw-distinctly-structured",
+      "semantic_key": "identity-facial-structure-base-narrow-jaw-distinctly-structured",
+      "text": "distinctly structured narrow jaw structure",
+      "sentence": "Distinctly structured narrow jaw structure.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "distinctly structured narrow jaw structure",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing distinctly structured narrow jaw structure",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with distinctly structured narrow jaw structure",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-facial-structure-base-narrow-jaw",
+      "tags": [
+        "base",
+        "facial-structure",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "structure": "narrow-jaw",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "narrow-jaw",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-facial-structure-base-narrow-jaw-naturally-asymmetric",
+      "semantic_key": "identity-facial-structure-base-narrow-jaw-naturally-asymmetric",
+      "text": "naturally asymmetric narrow jaw structure",
+      "sentence": "Naturally asymmetric narrow jaw structure.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "naturally asymmetric narrow jaw structure",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing naturally asymmetric narrow jaw structure",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with naturally asymmetric narrow jaw structure",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-facial-structure-base-narrow-jaw",
+      "tags": [
+        "base",
+        "facial-structure",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "structure": "narrow-jaw",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "narrow-jaw",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-facial-structure-base-prominent-chin-softly-defined",
+      "semantic_key": "identity-facial-structure-base-prominent-chin-softly-defined",
+      "text": "softly defined prominent chin structure",
+      "sentence": "Softly defined prominent chin structure.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "softly defined prominent chin structure",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing softly defined prominent chin structure",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with softly defined prominent chin structure",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-facial-structure-base-prominent-chin",
+      "tags": [
+        "base",
+        "facial-structure",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "prominent-chin",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "prominent-chin",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-facial-structure-base-prominent-chin-cleanly-outlined",
+      "semantic_key": "identity-facial-structure-base-prominent-chin-cleanly-outlined",
+      "text": "cleanly outlined prominent chin structure",
+      "sentence": "Cleanly outlined prominent chin structure.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "cleanly outlined prominent chin structure",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing cleanly outlined prominent chin structure",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with cleanly outlined prominent chin structure",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-facial-structure-base-prominent-chin",
+      "tags": [
+        "base",
+        "facial-structure",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "prominent-chin",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "prominent-chin",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-facial-structure-base-prominent-chin-gently-tapered",
+      "semantic_key": "identity-facial-structure-base-prominent-chin-gently-tapered",
+      "text": "gently tapered prominent chin structure",
+      "sentence": "Gently tapered prominent chin structure.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gently tapered prominent chin structure",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gently tapered prominent chin structure",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gently tapered prominent chin structure",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-facial-structure-base-prominent-chin",
+      "tags": [
+        "base",
+        "facial-structure",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "prominent-chin",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "prominent-chin",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-facial-structure-base-prominent-chin-evenly-proportioned",
+      "semantic_key": "identity-facial-structure-base-prominent-chin-evenly-proportioned",
+      "text": "evenly proportioned prominent chin structure",
+      "sentence": "Evenly proportioned prominent chin structure.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "evenly proportioned prominent chin structure",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing evenly proportioned prominent chin structure",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with evenly proportioned prominent chin structure",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-facial-structure-base-prominent-chin",
+      "tags": [
+        "base",
+        "facial-structure",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "prominent-chin",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "prominent-chin",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-facial-structure-base-prominent-chin-subtly-angular",
+      "semantic_key": "identity-facial-structure-base-prominent-chin-subtly-angular",
+      "text": "subtly angular prominent chin structure",
+      "sentence": "Subtly angular prominent chin structure.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "subtly angular prominent chin structure",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing subtly angular prominent chin structure",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with subtly angular prominent chin structure",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-facial-structure-base-prominent-chin",
+      "tags": [
+        "base",
+        "facial-structure",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "structure": "prominent-chin",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "prominent-chin",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-facial-structure-base-prominent-chin-smoothly-contoured",
+      "semantic_key": "identity-facial-structure-base-prominent-chin-smoothly-contoured",
+      "text": "smoothly contoured prominent chin structure",
+      "sentence": "Smoothly contoured prominent chin structure.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "smoothly contoured prominent chin structure",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing smoothly contoured prominent chin structure",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with smoothly contoured prominent chin structure",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-facial-structure-base-prominent-chin",
+      "tags": [
+        "base",
+        "facial-structure",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "structure": "prominent-chin",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "prominent-chin",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-facial-structure-base-prominent-chin-distinctly-structured",
+      "semantic_key": "identity-facial-structure-base-prominent-chin-distinctly-structured",
+      "text": "distinctly structured prominent chin structure",
+      "sentence": "Distinctly structured prominent chin structure.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "distinctly structured prominent chin structure",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing distinctly structured prominent chin structure",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with distinctly structured prominent chin structure",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-facial-structure-base-prominent-chin",
+      "tags": [
+        "base",
+        "facial-structure",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "structure": "prominent-chin",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "prominent-chin",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-facial-structure-base-prominent-chin-naturally-asymmetric",
+      "semantic_key": "identity-facial-structure-base-prominent-chin-naturally-asymmetric",
+      "text": "naturally asymmetric prominent chin structure",
+      "sentence": "Naturally asymmetric prominent chin structure.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "naturally asymmetric prominent chin structure",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing naturally asymmetric prominent chin structure",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with naturally asymmetric prominent chin structure",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-facial-structure-base-prominent-chin",
+      "tags": [
+        "base",
+        "facial-structure",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "structure": "prominent-chin",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "prominent-chin",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-facial-structure-base-soft-chin-softly-defined",
+      "semantic_key": "identity-facial-structure-base-soft-chin-softly-defined",
+      "text": "softly defined soft chin structure",
+      "sentence": "Softly defined soft chin structure.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "softly defined soft chin structure",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing softly defined soft chin structure",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with softly defined soft chin structure",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-facial-structure-base-soft-chin",
+      "tags": [
+        "base",
+        "facial-structure",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "soft-chin",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "soft-chin",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-facial-structure-base-soft-chin-cleanly-outlined",
+      "semantic_key": "identity-facial-structure-base-soft-chin-cleanly-outlined",
+      "text": "cleanly outlined soft chin structure",
+      "sentence": "Cleanly outlined soft chin structure.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "cleanly outlined soft chin structure",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing cleanly outlined soft chin structure",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with cleanly outlined soft chin structure",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-facial-structure-base-soft-chin",
+      "tags": [
+        "base",
+        "facial-structure",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "soft-chin",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "soft-chin",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-facial-structure-base-soft-chin-gently-tapered",
+      "semantic_key": "identity-facial-structure-base-soft-chin-gently-tapered",
+      "text": "gently tapered soft chin structure",
+      "sentence": "Gently tapered soft chin structure.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gently tapered soft chin structure",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gently tapered soft chin structure",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gently tapered soft chin structure",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-facial-structure-base-soft-chin",
+      "tags": [
+        "base",
+        "facial-structure",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "soft-chin",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "soft-chin",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-facial-structure-base-soft-chin-evenly-proportioned",
+      "semantic_key": "identity-facial-structure-base-soft-chin-evenly-proportioned",
+      "text": "evenly proportioned soft chin structure",
+      "sentence": "Evenly proportioned soft chin structure.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "evenly proportioned soft chin structure",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing evenly proportioned soft chin structure",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with evenly proportioned soft chin structure",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-facial-structure-base-soft-chin",
+      "tags": [
+        "base",
+        "facial-structure",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "soft-chin",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "soft-chin",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-facial-structure-base-soft-chin-subtly-angular",
+      "semantic_key": "identity-facial-structure-base-soft-chin-subtly-angular",
+      "text": "subtly angular soft chin structure",
+      "sentence": "Subtly angular soft chin structure.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "subtly angular soft chin structure",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing subtly angular soft chin structure",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with subtly angular soft chin structure",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-facial-structure-base-soft-chin",
+      "tags": [
+        "base",
+        "facial-structure",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "structure": "soft-chin",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "soft-chin",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-facial-structure-base-soft-chin-smoothly-contoured",
+      "semantic_key": "identity-facial-structure-base-soft-chin-smoothly-contoured",
+      "text": "smoothly contoured soft chin structure",
+      "sentence": "Smoothly contoured soft chin structure.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "smoothly contoured soft chin structure",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing smoothly contoured soft chin structure",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with smoothly contoured soft chin structure",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-facial-structure-base-soft-chin",
+      "tags": [
+        "base",
+        "facial-structure",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "structure": "soft-chin",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "soft-chin",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-facial-structure-base-soft-chin-distinctly-structured",
+      "semantic_key": "identity-facial-structure-base-soft-chin-distinctly-structured",
+      "text": "distinctly structured soft chin structure",
+      "sentence": "Distinctly structured soft chin structure.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "distinctly structured soft chin structure",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing distinctly structured soft chin structure",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with distinctly structured soft chin structure",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-facial-structure-base-soft-chin",
+      "tags": [
+        "base",
+        "facial-structure",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "structure": "soft-chin",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "soft-chin",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-facial-structure-base-soft-chin-naturally-asymmetric",
+      "semantic_key": "identity-facial-structure-base-soft-chin-naturally-asymmetric",
+      "text": "naturally asymmetric soft chin structure",
+      "sentence": "Naturally asymmetric soft chin structure.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "naturally asymmetric soft chin structure",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing naturally asymmetric soft chin structure",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with naturally asymmetric soft chin structure",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-facial-structure-base-soft-chin",
+      "tags": [
+        "base",
+        "facial-structure",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "structure": "soft-chin",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "soft-chin",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-facial-structure-base-wide-forehead-softly-defined",
+      "semantic_key": "identity-facial-structure-base-wide-forehead-softly-defined",
+      "text": "softly defined wide forehead structure",
+      "sentence": "Softly defined wide forehead structure.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "softly defined wide forehead structure",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing softly defined wide forehead structure",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with softly defined wide forehead structure",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-facial-structure-base-wide-forehead",
+      "tags": [
+        "base",
+        "facial-structure",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "wide-forehead",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "wide-forehead",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-facial-structure-base-wide-forehead-cleanly-outlined",
+      "semantic_key": "identity-facial-structure-base-wide-forehead-cleanly-outlined",
+      "text": "cleanly outlined wide forehead structure",
+      "sentence": "Cleanly outlined wide forehead structure.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "cleanly outlined wide forehead structure",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing cleanly outlined wide forehead structure",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with cleanly outlined wide forehead structure",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-facial-structure-base-wide-forehead",
+      "tags": [
+        "base",
+        "facial-structure",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "wide-forehead",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "wide-forehead",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-facial-structure-base-wide-forehead-gently-tapered",
+      "semantic_key": "identity-facial-structure-base-wide-forehead-gently-tapered",
+      "text": "gently tapered wide forehead structure",
+      "sentence": "Gently tapered wide forehead structure.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gently tapered wide forehead structure",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gently tapered wide forehead structure",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gently tapered wide forehead structure",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-facial-structure-base-wide-forehead",
+      "tags": [
+        "base",
+        "facial-structure",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "wide-forehead",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "wide-forehead",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-facial-structure-base-wide-forehead-evenly-proportioned",
+      "semantic_key": "identity-facial-structure-base-wide-forehead-evenly-proportioned",
+      "text": "evenly proportioned wide forehead structure",
+      "sentence": "Evenly proportioned wide forehead structure.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "evenly proportioned wide forehead structure",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing evenly proportioned wide forehead structure",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with evenly proportioned wide forehead structure",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-facial-structure-base-wide-forehead",
+      "tags": [
+        "base",
+        "facial-structure",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "wide-forehead",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "wide-forehead",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-facial-structure-base-wide-forehead-subtly-angular",
+      "semantic_key": "identity-facial-structure-base-wide-forehead-subtly-angular",
+      "text": "subtly angular wide forehead structure",
+      "sentence": "Subtly angular wide forehead structure.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "subtly angular wide forehead structure",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing subtly angular wide forehead structure",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with subtly angular wide forehead structure",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-facial-structure-base-wide-forehead",
+      "tags": [
+        "base",
+        "facial-structure",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "structure": "wide-forehead",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "wide-forehead",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-facial-structure-base-wide-forehead-smoothly-contoured",
+      "semantic_key": "identity-facial-structure-base-wide-forehead-smoothly-contoured",
+      "text": "smoothly contoured wide forehead structure",
+      "sentence": "Smoothly contoured wide forehead structure.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "smoothly contoured wide forehead structure",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing smoothly contoured wide forehead structure",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with smoothly contoured wide forehead structure",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-facial-structure-base-wide-forehead",
+      "tags": [
+        "base",
+        "facial-structure",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "structure": "wide-forehead",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "wide-forehead",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-facial-structure-base-wide-forehead-distinctly-structured",
+      "semantic_key": "identity-facial-structure-base-wide-forehead-distinctly-structured",
+      "text": "distinctly structured wide forehead structure",
+      "sentence": "Distinctly structured wide forehead structure.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "distinctly structured wide forehead structure",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing distinctly structured wide forehead structure",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with distinctly structured wide forehead structure",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-facial-structure-base-wide-forehead",
+      "tags": [
+        "base",
+        "facial-structure",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "structure": "wide-forehead",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "wide-forehead",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-facial-structure-base-wide-forehead-naturally-asymmetric",
+      "semantic_key": "identity-facial-structure-base-wide-forehead-naturally-asymmetric",
+      "text": "naturally asymmetric wide forehead structure",
+      "sentence": "Naturally asymmetric wide forehead structure.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "naturally asymmetric wide forehead structure",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing naturally asymmetric wide forehead structure",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with naturally asymmetric wide forehead structure",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-facial-structure-base-wide-forehead",
+      "tags": [
+        "base",
+        "facial-structure",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "structure": "wide-forehead",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "wide-forehead",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-facial-structure-base-compact-forehead-softly-defined",
+      "semantic_key": "identity-facial-structure-base-compact-forehead-softly-defined",
+      "text": "softly defined compact forehead structure",
+      "sentence": "Softly defined compact forehead structure.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "softly defined compact forehead structure",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing softly defined compact forehead structure",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with softly defined compact forehead structure",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-facial-structure-base-compact-forehead",
+      "tags": [
+        "base",
+        "facial-structure",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "compact-forehead",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "compact-forehead",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-facial-structure-base-compact-forehead-cleanly-outlined",
+      "semantic_key": "identity-facial-structure-base-compact-forehead-cleanly-outlined",
+      "text": "cleanly outlined compact forehead structure",
+      "sentence": "Cleanly outlined compact forehead structure.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "cleanly outlined compact forehead structure",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing cleanly outlined compact forehead structure",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with cleanly outlined compact forehead structure",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-facial-structure-base-compact-forehead",
+      "tags": [
+        "base",
+        "facial-structure",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "compact-forehead",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "compact-forehead",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-facial-structure-base-compact-forehead-gently-tapered",
+      "semantic_key": "identity-facial-structure-base-compact-forehead-gently-tapered",
+      "text": "gently tapered compact forehead structure",
+      "sentence": "Gently tapered compact forehead structure.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gently tapered compact forehead structure",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gently tapered compact forehead structure",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gently tapered compact forehead structure",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-facial-structure-base-compact-forehead",
+      "tags": [
+        "base",
+        "facial-structure",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "compact-forehead",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "compact-forehead",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-facial-structure-base-compact-forehead-evenly-proportioned",
+      "semantic_key": "identity-facial-structure-base-compact-forehead-evenly-proportioned",
+      "text": "evenly proportioned compact forehead structure",
+      "sentence": "Evenly proportioned compact forehead structure.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "evenly proportioned compact forehead structure",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing evenly proportioned compact forehead structure",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with evenly proportioned compact forehead structure",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-facial-structure-base-compact-forehead",
+      "tags": [
+        "base",
+        "facial-structure",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "compact-forehead",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "compact-forehead",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-facial-structure-base-compact-forehead-subtly-angular",
+      "semantic_key": "identity-facial-structure-base-compact-forehead-subtly-angular",
+      "text": "subtly angular compact forehead structure",
+      "sentence": "Subtly angular compact forehead structure.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "subtly angular compact forehead structure",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing subtly angular compact forehead structure",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with subtly angular compact forehead structure",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-facial-structure-base-compact-forehead",
+      "tags": [
+        "base",
+        "facial-structure",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "structure": "compact-forehead",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "compact-forehead",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-facial-structure-base-compact-forehead-smoothly-contoured",
+      "semantic_key": "identity-facial-structure-base-compact-forehead-smoothly-contoured",
+      "text": "smoothly contoured compact forehead structure",
+      "sentence": "Smoothly contoured compact forehead structure.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "smoothly contoured compact forehead structure",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing smoothly contoured compact forehead structure",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with smoothly contoured compact forehead structure",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-facial-structure-base-compact-forehead",
+      "tags": [
+        "base",
+        "facial-structure",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "structure": "compact-forehead",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "compact-forehead",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-facial-structure-base-compact-forehead-distinctly-structured",
+      "semantic_key": "identity-facial-structure-base-compact-forehead-distinctly-structured",
+      "text": "distinctly structured compact forehead structure",
+      "sentence": "Distinctly structured compact forehead structure.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "distinctly structured compact forehead structure",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing distinctly structured compact forehead structure",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with distinctly structured compact forehead structure",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-facial-structure-base-compact-forehead",
+      "tags": [
+        "base",
+        "facial-structure",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "structure": "compact-forehead",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "compact-forehead",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-facial-structure-base-compact-forehead-naturally-asymmetric",
+      "semantic_key": "identity-facial-structure-base-compact-forehead-naturally-asymmetric",
+      "text": "naturally asymmetric compact forehead structure",
+      "sentence": "Naturally asymmetric compact forehead structure.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "naturally asymmetric compact forehead structure",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing naturally asymmetric compact forehead structure",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with naturally asymmetric compact forehead structure",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-facial-structure-base-compact-forehead",
+      "tags": [
+        "base",
+        "facial-structure",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "structure": "compact-forehead",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "compact-forehead",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    }
+  ]
+}

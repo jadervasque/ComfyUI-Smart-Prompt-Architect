@@ -35,6 +35,31 @@ class ParserContractTests(unittest.TestCase):
         self.assertEqual(configuration.mode, GenerationMode.BALANCED)
         self.assertEqual(configuration.groups["identity"].seed, 42)
 
+    def test_custom_field_requires_versioned_non_empty_bounded_text(self) -> None:
+        data = cast(dict[str, object], deepcopy(_fixture("valid", "configuration-minimal.json")))
+        data["schema_version"] = "1.1"
+        fields = cast(dict[str, object], data["fields"])
+        fields["subject"] = {"mode": "custom", "value": "  a red-haired adult pilot  "}
+        configuration = parse_configuration(data)
+        self.assertEqual(configuration.schema_version, "1.1")
+        self.assertEqual(configuration.fields["subject"].mode, FieldMode.CUSTOM)
+        self.assertEqual(configuration.fields["subject"].value, "a red-haired adult pilot")
+
+        for version, value, message in (
+            ("1.0", "custom text", "requires configuration schema 1.1"),
+            ("1.1", "", "non-empty string"),
+            ("1.1", "x" * 4097, "cannot exceed 4096"),
+        ):
+            with self.subTest(version=version, size=len(value)):
+                invalid = deepcopy(data)
+                invalid["schema_version"] = version
+                cast(dict[str, object], invalid["fields"])["subject"] = {
+                    "mode": "custom",
+                    "value": value,
+                }
+                with self.assertRaisesRegex(SchemaValidationError, message):
+                    parse_configuration(invalid)
+
     def test_duplicate_option_id_is_rejected(self) -> None:
         with self.assertRaisesRegex(SchemaValidationError, "duplicate option IDs"):
             parse_library(_fixture("invalid", "library-duplicate-id.json"))
@@ -174,6 +199,17 @@ class ParserContractTests(unittest.TestCase):
             "mode"
         ] = "surprise"
         cases.append(("enum", "must be one of", invalid_mode))
+
+        custom_profile_mode = cast(
+            dict[str, object], deepcopy(_fixture("valid", "profile-minimal.json"))
+        )
+        cast(
+            dict[str, object],
+            cast(dict[str, object], custom_profile_mode["sections"])["subject"],
+        )["mode"] = "custom"
+        cases.append(
+            ("custom profile mode", "only valid in node field overrides", custom_profile_mode)
+        )
 
         for name, message, data in cases:
             with self.subTest(name=name):

@@ -1,0 +1,2577 @@
+{
+  "schema_version": "2.0",
+  "id": "cinematography-lighting-setup-base",
+  "version": "2.0.0",
+  "library": "lighting-setup",
+  "domain": "cinematography",
+  "category": "lighting-setup",
+  "language": "en",
+  "status": "active",
+  "safety": "general",
+  "tags": [
+    "base"
+  ],
+  "fallback_option_id": "cinematography-lighting-setup-base-single-key-setup-low-contrast",
+  "options": [
+    {
+      "id": "cinematography-lighting-setup-base-single-key-setup-low-contrast",
+      "semantic_key": "cinematography-lighting-setup-base-single-key-setup-low-contrast",
+      "text": "single-key setup with low contrast",
+      "sentence": "Single-key setup with low contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "single-key setup with low contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing single-key setup with low contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with single-key setup with low contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-lighting-setup-base-single-key-setup",
+      "tags": [
+        "base",
+        "cinematography",
+        "lighting-setup",
+        "rarity-common"
+      ],
+      "facets": {
+        "setup": "single-key-setup",
+        "treatment": "low-contrast"
+      },
+      "subcategory": "single-key-setup",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lighting-setup-base-single-key-setup-moderate-contrast",
+      "semantic_key": "cinematography-lighting-setup-base-single-key-setup-moderate-contrast",
+      "text": "single-key setup with moderate contrast",
+      "sentence": "Single-key setup with moderate contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "single-key setup with moderate contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing single-key setup with moderate contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with single-key setup with moderate contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-lighting-setup-base-single-key-setup",
+      "tags": [
+        "base",
+        "cinematography",
+        "lighting-setup",
+        "rarity-common"
+      ],
+      "facets": {
+        "setup": "single-key-setup",
+        "treatment": "moderate-contrast"
+      },
+      "subcategory": "single-key-setup",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lighting-setup-base-single-key-setup-high-contrast",
+      "semantic_key": "cinematography-lighting-setup-base-single-key-setup-high-contrast",
+      "text": "single-key setup with high contrast",
+      "sentence": "Single-key setup with high contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "single-key setup with high contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing single-key setup with high contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with single-key setup with high contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-lighting-setup-base-single-key-setup",
+      "tags": [
+        "base",
+        "cinematography",
+        "lighting-setup",
+        "rarity-common"
+      ],
+      "facets": {
+        "setup": "single-key-setup",
+        "treatment": "high-contrast"
+      },
+      "subcategory": "single-key-setup",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lighting-setup-base-single-key-setup-soft-transitions",
+      "semantic_key": "cinematography-lighting-setup-base-single-key-setup-soft-transitions",
+      "text": "single-key setup with soft transitions",
+      "sentence": "Single-key setup with soft transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "single-key setup with soft transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing single-key setup with soft transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with single-key setup with soft transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-lighting-setup-base-single-key-setup",
+      "tags": [
+        "base",
+        "cinematography",
+        "lighting-setup",
+        "rarity-common"
+      ],
+      "facets": {
+        "setup": "single-key-setup",
+        "treatment": "soft-transitions"
+      },
+      "subcategory": "single-key-setup",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lighting-setup-base-single-key-setup-crisp-transitions",
+      "semantic_key": "cinematography-lighting-setup-base-single-key-setup-crisp-transitions",
+      "text": "single-key setup with crisp transitions",
+      "sentence": "Single-key setup with crisp transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "single-key setup with crisp transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing single-key setup with crisp transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with single-key setup with crisp transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-lighting-setup-base-single-key-setup",
+      "tags": [
+        "base",
+        "cinematography",
+        "lighting-setup",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "setup": "single-key-setup",
+        "treatment": "crisp-transitions"
+      },
+      "subcategory": "single-key-setup",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lighting-setup-base-single-key-setup-broad-falloff",
+      "semantic_key": "cinematography-lighting-setup-base-single-key-setup-broad-falloff",
+      "text": "single-key setup with broad falloff",
+      "sentence": "Single-key setup with broad falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "single-key setup with broad falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing single-key setup with broad falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with single-key setup with broad falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-lighting-setup-base-single-key-setup",
+      "tags": [
+        "base",
+        "cinematography",
+        "lighting-setup",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "setup": "single-key-setup",
+        "treatment": "broad-falloff"
+      },
+      "subcategory": "single-key-setup",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lighting-setup-base-single-key-setup-rapid-falloff",
+      "semantic_key": "cinematography-lighting-setup-base-single-key-setup-rapid-falloff",
+      "text": "single-key setup with rapid falloff",
+      "sentence": "Single-key setup with rapid falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "single-key setup with rapid falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing single-key setup with rapid falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with single-key setup with rapid falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-lighting-setup-base-single-key-setup",
+      "tags": [
+        "base",
+        "cinematography",
+        "lighting-setup",
+        "rarity-rare"
+      ],
+      "facets": {
+        "setup": "single-key-setup",
+        "treatment": "rapid-falloff"
+      },
+      "subcategory": "single-key-setup",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lighting-setup-base-single-key-setup-layered-illumination",
+      "semantic_key": "cinematography-lighting-setup-base-single-key-setup-layered-illumination",
+      "text": "single-key setup with layered illumination",
+      "sentence": "Single-key setup with layered illumination.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "single-key setup with layered illumination",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing single-key setup with layered illumination",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with single-key setup with layered illumination",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-lighting-setup-base-single-key-setup",
+      "tags": [
+        "base",
+        "cinematography",
+        "lighting-setup",
+        "rarity-rare"
+      ],
+      "facets": {
+        "setup": "single-key-setup",
+        "treatment": "layered-illumination"
+      },
+      "subcategory": "single-key-setup",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lighting-setup-base-key-and-fill-setup-low-contrast",
+      "semantic_key": "cinematography-lighting-setup-base-key-and-fill-setup-low-contrast",
+      "text": "key-and-fill setup with low contrast",
+      "sentence": "Key-and-fill setup with low contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "key-and-fill setup with low contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing key-and-fill setup with low contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with key-and-fill setup with low contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-lighting-setup-base-key-and-fill-setup",
+      "tags": [
+        "base",
+        "cinematography",
+        "lighting-setup",
+        "rarity-common"
+      ],
+      "facets": {
+        "setup": "key-and-fill-setup",
+        "treatment": "low-contrast"
+      },
+      "subcategory": "key-and-fill-setup",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lighting-setup-base-key-and-fill-setup-moderate-contrast",
+      "semantic_key": "cinematography-lighting-setup-base-key-and-fill-setup-moderate-contrast",
+      "text": "key-and-fill setup with moderate contrast",
+      "sentence": "Key-and-fill setup with moderate contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "key-and-fill setup with moderate contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing key-and-fill setup with moderate contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with key-and-fill setup with moderate contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-lighting-setup-base-key-and-fill-setup",
+      "tags": [
+        "base",
+        "cinematography",
+        "lighting-setup",
+        "rarity-common"
+      ],
+      "facets": {
+        "setup": "key-and-fill-setup",
+        "treatment": "moderate-contrast"
+      },
+      "subcategory": "key-and-fill-setup",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lighting-setup-base-key-and-fill-setup-high-contrast",
+      "semantic_key": "cinematography-lighting-setup-base-key-and-fill-setup-high-contrast",
+      "text": "key-and-fill setup with high contrast",
+      "sentence": "Key-and-fill setup with high contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "key-and-fill setup with high contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing key-and-fill setup with high contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with key-and-fill setup with high contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-lighting-setup-base-key-and-fill-setup",
+      "tags": [
+        "base",
+        "cinematography",
+        "lighting-setup",
+        "rarity-common"
+      ],
+      "facets": {
+        "setup": "key-and-fill-setup",
+        "treatment": "high-contrast"
+      },
+      "subcategory": "key-and-fill-setup",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lighting-setup-base-key-and-fill-setup-soft-transitions",
+      "semantic_key": "cinematography-lighting-setup-base-key-and-fill-setup-soft-transitions",
+      "text": "key-and-fill setup with soft transitions",
+      "sentence": "Key-and-fill setup with soft transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "key-and-fill setup with soft transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing key-and-fill setup with soft transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with key-and-fill setup with soft transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-lighting-setup-base-key-and-fill-setup",
+      "tags": [
+        "base",
+        "cinematography",
+        "lighting-setup",
+        "rarity-common"
+      ],
+      "facets": {
+        "setup": "key-and-fill-setup",
+        "treatment": "soft-transitions"
+      },
+      "subcategory": "key-and-fill-setup",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lighting-setup-base-key-and-fill-setup-crisp-transitions",
+      "semantic_key": "cinematography-lighting-setup-base-key-and-fill-setup-crisp-transitions",
+      "text": "key-and-fill setup with crisp transitions",
+      "sentence": "Key-and-fill setup with crisp transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "key-and-fill setup with crisp transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing key-and-fill setup with crisp transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with key-and-fill setup with crisp transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-lighting-setup-base-key-and-fill-setup",
+      "tags": [
+        "base",
+        "cinematography",
+        "lighting-setup",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "setup": "key-and-fill-setup",
+        "treatment": "crisp-transitions"
+      },
+      "subcategory": "key-and-fill-setup",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lighting-setup-base-key-and-fill-setup-broad-falloff",
+      "semantic_key": "cinematography-lighting-setup-base-key-and-fill-setup-broad-falloff",
+      "text": "key-and-fill setup with broad falloff",
+      "sentence": "Key-and-fill setup with broad falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "key-and-fill setup with broad falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing key-and-fill setup with broad falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with key-and-fill setup with broad falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-lighting-setup-base-key-and-fill-setup",
+      "tags": [
+        "base",
+        "cinematography",
+        "lighting-setup",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "setup": "key-and-fill-setup",
+        "treatment": "broad-falloff"
+      },
+      "subcategory": "key-and-fill-setup",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lighting-setup-base-key-and-fill-setup-rapid-falloff",
+      "semantic_key": "cinematography-lighting-setup-base-key-and-fill-setup-rapid-falloff",
+      "text": "key-and-fill setup with rapid falloff",
+      "sentence": "Key-and-fill setup with rapid falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "key-and-fill setup with rapid falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing key-and-fill setup with rapid falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with key-and-fill setup with rapid falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-lighting-setup-base-key-and-fill-setup",
+      "tags": [
+        "base",
+        "cinematography",
+        "lighting-setup",
+        "rarity-rare"
+      ],
+      "facets": {
+        "setup": "key-and-fill-setup",
+        "treatment": "rapid-falloff"
+      },
+      "subcategory": "key-and-fill-setup",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lighting-setup-base-key-and-fill-setup-layered-illumination",
+      "semantic_key": "cinematography-lighting-setup-base-key-and-fill-setup-layered-illumination",
+      "text": "key-and-fill setup with layered illumination",
+      "sentence": "Key-and-fill setup with layered illumination.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "key-and-fill setup with layered illumination",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing key-and-fill setup with layered illumination",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with key-and-fill setup with layered illumination",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-lighting-setup-base-key-and-fill-setup",
+      "tags": [
+        "base",
+        "cinematography",
+        "lighting-setup",
+        "rarity-rare"
+      ],
+      "facets": {
+        "setup": "key-and-fill-setup",
+        "treatment": "layered-illumination"
+      },
+      "subcategory": "key-and-fill-setup",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lighting-setup-base-three-point-setup-low-contrast",
+      "semantic_key": "cinematography-lighting-setup-base-three-point-setup-low-contrast",
+      "text": "three-point setup with low contrast",
+      "sentence": "Three-point setup with low contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "three-point setup with low contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing three-point setup with low contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with three-point setup with low contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-lighting-setup-base-three-point-setup",
+      "tags": [
+        "base",
+        "cinematography",
+        "lighting-setup",
+        "rarity-common"
+      ],
+      "facets": {
+        "setup": "three-point-setup",
+        "treatment": "low-contrast"
+      },
+      "subcategory": "three-point-setup",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lighting-setup-base-three-point-setup-moderate-contrast",
+      "semantic_key": "cinematography-lighting-setup-base-three-point-setup-moderate-contrast",
+      "text": "three-point setup with moderate contrast",
+      "sentence": "Three-point setup with moderate contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "three-point setup with moderate contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing three-point setup with moderate contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with three-point setup with moderate contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-lighting-setup-base-three-point-setup",
+      "tags": [
+        "base",
+        "cinematography",
+        "lighting-setup",
+        "rarity-common"
+      ],
+      "facets": {
+        "setup": "three-point-setup",
+        "treatment": "moderate-contrast"
+      },
+      "subcategory": "three-point-setup",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lighting-setup-base-three-point-setup-high-contrast",
+      "semantic_key": "cinematography-lighting-setup-base-three-point-setup-high-contrast",
+      "text": "three-point setup with high contrast",
+      "sentence": "Three-point setup with high contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "three-point setup with high contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing three-point setup with high contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with three-point setup with high contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-lighting-setup-base-three-point-setup",
+      "tags": [
+        "base",
+        "cinematography",
+        "lighting-setup",
+        "rarity-common"
+      ],
+      "facets": {
+        "setup": "three-point-setup",
+        "treatment": "high-contrast"
+      },
+      "subcategory": "three-point-setup",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lighting-setup-base-three-point-setup-soft-transitions",
+      "semantic_key": "cinematography-lighting-setup-base-three-point-setup-soft-transitions",
+      "text": "three-point setup with soft transitions",
+      "sentence": "Three-point setup with soft transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "three-point setup with soft transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing three-point setup with soft transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with three-point setup with soft transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-lighting-setup-base-three-point-setup",
+      "tags": [
+        "base",
+        "cinematography",
+        "lighting-setup",
+        "rarity-common"
+      ],
+      "facets": {
+        "setup": "three-point-setup",
+        "treatment": "soft-transitions"
+      },
+      "subcategory": "three-point-setup",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lighting-setup-base-three-point-setup-crisp-transitions",
+      "semantic_key": "cinematography-lighting-setup-base-three-point-setup-crisp-transitions",
+      "text": "three-point setup with crisp transitions",
+      "sentence": "Three-point setup with crisp transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "three-point setup with crisp transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing three-point setup with crisp transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with three-point setup with crisp transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-lighting-setup-base-three-point-setup",
+      "tags": [
+        "base",
+        "cinematography",
+        "lighting-setup",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "setup": "three-point-setup",
+        "treatment": "crisp-transitions"
+      },
+      "subcategory": "three-point-setup",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lighting-setup-base-three-point-setup-broad-falloff",
+      "semantic_key": "cinematography-lighting-setup-base-three-point-setup-broad-falloff",
+      "text": "three-point setup with broad falloff",
+      "sentence": "Three-point setup with broad falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "three-point setup with broad falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing three-point setup with broad falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with three-point setup with broad falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-lighting-setup-base-three-point-setup",
+      "tags": [
+        "base",
+        "cinematography",
+        "lighting-setup",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "setup": "three-point-setup",
+        "treatment": "broad-falloff"
+      },
+      "subcategory": "three-point-setup",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lighting-setup-base-three-point-setup-rapid-falloff",
+      "semantic_key": "cinematography-lighting-setup-base-three-point-setup-rapid-falloff",
+      "text": "three-point setup with rapid falloff",
+      "sentence": "Three-point setup with rapid falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "three-point setup with rapid falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing three-point setup with rapid falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with three-point setup with rapid falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-lighting-setup-base-three-point-setup",
+      "tags": [
+        "base",
+        "cinematography",
+        "lighting-setup",
+        "rarity-rare"
+      ],
+      "facets": {
+        "setup": "three-point-setup",
+        "treatment": "rapid-falloff"
+      },
+      "subcategory": "three-point-setup",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lighting-setup-base-three-point-setup-layered-illumination",
+      "semantic_key": "cinematography-lighting-setup-base-three-point-setup-layered-illumination",
+      "text": "three-point setup with layered illumination",
+      "sentence": "Three-point setup with layered illumination.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "three-point setup with layered illumination",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing three-point setup with layered illumination",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with three-point setup with layered illumination",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-lighting-setup-base-three-point-setup",
+      "tags": [
+        "base",
+        "cinematography",
+        "lighting-setup",
+        "rarity-rare"
+      ],
+      "facets": {
+        "setup": "three-point-setup",
+        "treatment": "layered-illumination"
+      },
+      "subcategory": "three-point-setup",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lighting-setup-base-window-key-setup-low-contrast",
+      "semantic_key": "cinematography-lighting-setup-base-window-key-setup-low-contrast",
+      "text": "window-key setup with low contrast",
+      "sentence": "Window-key setup with low contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "window-key setup with low contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing window-key setup with low contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with window-key setup with low contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-lighting-setup-base-window-key-setup",
+      "tags": [
+        "base",
+        "cinematography",
+        "lighting-setup",
+        "rarity-common"
+      ],
+      "facets": {
+        "setup": "window-key-setup",
+        "treatment": "low-contrast"
+      },
+      "subcategory": "window-key-setup",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lighting-setup-base-window-key-setup-moderate-contrast",
+      "semantic_key": "cinematography-lighting-setup-base-window-key-setup-moderate-contrast",
+      "text": "window-key setup with moderate contrast",
+      "sentence": "Window-key setup with moderate contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "window-key setup with moderate contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing window-key setup with moderate contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with window-key setup with moderate contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-lighting-setup-base-window-key-setup",
+      "tags": [
+        "base",
+        "cinematography",
+        "lighting-setup",
+        "rarity-common"
+      ],
+      "facets": {
+        "setup": "window-key-setup",
+        "treatment": "moderate-contrast"
+      },
+      "subcategory": "window-key-setup",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lighting-setup-base-window-key-setup-high-contrast",
+      "semantic_key": "cinematography-lighting-setup-base-window-key-setup-high-contrast",
+      "text": "window-key setup with high contrast",
+      "sentence": "Window-key setup with high contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "window-key setup with high contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing window-key setup with high contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with window-key setup with high contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-lighting-setup-base-window-key-setup",
+      "tags": [
+        "base",
+        "cinematography",
+        "lighting-setup",
+        "rarity-common"
+      ],
+      "facets": {
+        "setup": "window-key-setup",
+        "treatment": "high-contrast"
+      },
+      "subcategory": "window-key-setup",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lighting-setup-base-window-key-setup-soft-transitions",
+      "semantic_key": "cinematography-lighting-setup-base-window-key-setup-soft-transitions",
+      "text": "window-key setup with soft transitions",
+      "sentence": "Window-key setup with soft transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "window-key setup with soft transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing window-key setup with soft transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with window-key setup with soft transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-lighting-setup-base-window-key-setup",
+      "tags": [
+        "base",
+        "cinematography",
+        "lighting-setup",
+        "rarity-common"
+      ],
+      "facets": {
+        "setup": "window-key-setup",
+        "treatment": "soft-transitions"
+      },
+      "subcategory": "window-key-setup",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lighting-setup-base-window-key-setup-crisp-transitions",
+      "semantic_key": "cinematography-lighting-setup-base-window-key-setup-crisp-transitions",
+      "text": "window-key setup with crisp transitions",
+      "sentence": "Window-key setup with crisp transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "window-key setup with crisp transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing window-key setup with crisp transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with window-key setup with crisp transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-lighting-setup-base-window-key-setup",
+      "tags": [
+        "base",
+        "cinematography",
+        "lighting-setup",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "setup": "window-key-setup",
+        "treatment": "crisp-transitions"
+      },
+      "subcategory": "window-key-setup",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lighting-setup-base-window-key-setup-broad-falloff",
+      "semantic_key": "cinematography-lighting-setup-base-window-key-setup-broad-falloff",
+      "text": "window-key setup with broad falloff",
+      "sentence": "Window-key setup with broad falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "window-key setup with broad falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing window-key setup with broad falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with window-key setup with broad falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-lighting-setup-base-window-key-setup",
+      "tags": [
+        "base",
+        "cinematography",
+        "lighting-setup",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "setup": "window-key-setup",
+        "treatment": "broad-falloff"
+      },
+      "subcategory": "window-key-setup",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lighting-setup-base-window-key-setup-rapid-falloff",
+      "semantic_key": "cinematography-lighting-setup-base-window-key-setup-rapid-falloff",
+      "text": "window-key setup with rapid falloff",
+      "sentence": "Window-key setup with rapid falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "window-key setup with rapid falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing window-key setup with rapid falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with window-key setup with rapid falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-lighting-setup-base-window-key-setup",
+      "tags": [
+        "base",
+        "cinematography",
+        "lighting-setup",
+        "rarity-rare"
+      ],
+      "facets": {
+        "setup": "window-key-setup",
+        "treatment": "rapid-falloff"
+      },
+      "subcategory": "window-key-setup",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lighting-setup-base-window-key-setup-layered-illumination",
+      "semantic_key": "cinematography-lighting-setup-base-window-key-setup-layered-illumination",
+      "text": "window-key setup with layered illumination",
+      "sentence": "Window-key setup with layered illumination.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "window-key setup with layered illumination",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing window-key setup with layered illumination",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with window-key setup with layered illumination",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-lighting-setup-base-window-key-setup",
+      "tags": [
+        "base",
+        "cinematography",
+        "lighting-setup",
+        "rarity-rare"
+      ],
+      "facets": {
+        "setup": "window-key-setup",
+        "treatment": "layered-illumination"
+      },
+      "subcategory": "window-key-setup",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lighting-setup-base-large-source-wrap-setup-low-contrast",
+      "semantic_key": "cinematography-lighting-setup-base-large-source-wrap-setup-low-contrast",
+      "text": "large-source wrap setup with low contrast",
+      "sentence": "Large-source wrap setup with low contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "large-source wrap setup with low contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing large-source wrap setup with low contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with large-source wrap setup with low contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-lighting-setup-base-large-source-wrap-setup",
+      "tags": [
+        "base",
+        "cinematography",
+        "lighting-setup",
+        "rarity-common"
+      ],
+      "facets": {
+        "setup": "large-source-wrap-setup",
+        "treatment": "low-contrast"
+      },
+      "subcategory": "large-source-wrap-setup",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lighting-setup-base-large-source-wrap-setup-moderate-contrast",
+      "semantic_key": "cinematography-lighting-setup-base-large-source-wrap-setup-moderate-contrast",
+      "text": "large-source wrap setup with moderate contrast",
+      "sentence": "Large-source wrap setup with moderate contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "large-source wrap setup with moderate contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing large-source wrap setup with moderate contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with large-source wrap setup with moderate contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-lighting-setup-base-large-source-wrap-setup",
+      "tags": [
+        "base",
+        "cinematography",
+        "lighting-setup",
+        "rarity-common"
+      ],
+      "facets": {
+        "setup": "large-source-wrap-setup",
+        "treatment": "moderate-contrast"
+      },
+      "subcategory": "large-source-wrap-setup",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lighting-setup-base-large-source-wrap-setup-high-contrast",
+      "semantic_key": "cinematography-lighting-setup-base-large-source-wrap-setup-high-contrast",
+      "text": "large-source wrap setup with high contrast",
+      "sentence": "Large-source wrap setup with high contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "large-source wrap setup with high contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing large-source wrap setup with high contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with large-source wrap setup with high contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-lighting-setup-base-large-source-wrap-setup",
+      "tags": [
+        "base",
+        "cinematography",
+        "lighting-setup",
+        "rarity-common"
+      ],
+      "facets": {
+        "setup": "large-source-wrap-setup",
+        "treatment": "high-contrast"
+      },
+      "subcategory": "large-source-wrap-setup",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lighting-setup-base-large-source-wrap-setup-soft-transitions",
+      "semantic_key": "cinematography-lighting-setup-base-large-source-wrap-setup-soft-transitions",
+      "text": "large-source wrap setup with soft transitions",
+      "sentence": "Large-source wrap setup with soft transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "large-source wrap setup with soft transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing large-source wrap setup with soft transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with large-source wrap setup with soft transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-lighting-setup-base-large-source-wrap-setup",
+      "tags": [
+        "base",
+        "cinematography",
+        "lighting-setup",
+        "rarity-common"
+      ],
+      "facets": {
+        "setup": "large-source-wrap-setup",
+        "treatment": "soft-transitions"
+      },
+      "subcategory": "large-source-wrap-setup",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lighting-setup-base-large-source-wrap-setup-crisp-transitions",
+      "semantic_key": "cinematography-lighting-setup-base-large-source-wrap-setup-crisp-transitions",
+      "text": "large-source wrap setup with crisp transitions",
+      "sentence": "Large-source wrap setup with crisp transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "large-source wrap setup with crisp transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing large-source wrap setup with crisp transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with large-source wrap setup with crisp transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-lighting-setup-base-large-source-wrap-setup",
+      "tags": [
+        "base",
+        "cinematography",
+        "lighting-setup",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "setup": "large-source-wrap-setup",
+        "treatment": "crisp-transitions"
+      },
+      "subcategory": "large-source-wrap-setup",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lighting-setup-base-large-source-wrap-setup-broad-falloff",
+      "semantic_key": "cinematography-lighting-setup-base-large-source-wrap-setup-broad-falloff",
+      "text": "large-source wrap setup with broad falloff",
+      "sentence": "Large-source wrap setup with broad falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "large-source wrap setup with broad falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing large-source wrap setup with broad falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with large-source wrap setup with broad falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-lighting-setup-base-large-source-wrap-setup",
+      "tags": [
+        "base",
+        "cinematography",
+        "lighting-setup",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "setup": "large-source-wrap-setup",
+        "treatment": "broad-falloff"
+      },
+      "subcategory": "large-source-wrap-setup",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lighting-setup-base-large-source-wrap-setup-rapid-falloff",
+      "semantic_key": "cinematography-lighting-setup-base-large-source-wrap-setup-rapid-falloff",
+      "text": "large-source wrap setup with rapid falloff",
+      "sentence": "Large-source wrap setup with rapid falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "large-source wrap setup with rapid falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing large-source wrap setup with rapid falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with large-source wrap setup with rapid falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-lighting-setup-base-large-source-wrap-setup",
+      "tags": [
+        "base",
+        "cinematography",
+        "lighting-setup",
+        "rarity-rare"
+      ],
+      "facets": {
+        "setup": "large-source-wrap-setup",
+        "treatment": "rapid-falloff"
+      },
+      "subcategory": "large-source-wrap-setup",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lighting-setup-base-large-source-wrap-setup-layered-illumination",
+      "semantic_key": "cinematography-lighting-setup-base-large-source-wrap-setup-layered-illumination",
+      "text": "large-source wrap setup with layered illumination",
+      "sentence": "Large-source wrap setup with layered illumination.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "large-source wrap setup with layered illumination",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing large-source wrap setup with layered illumination",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with large-source wrap setup with layered illumination",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-lighting-setup-base-large-source-wrap-setup",
+      "tags": [
+        "base",
+        "cinematography",
+        "lighting-setup",
+        "rarity-rare"
+      ],
+      "facets": {
+        "setup": "large-source-wrap-setup",
+        "treatment": "layered-illumination"
+      },
+      "subcategory": "large-source-wrap-setup",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lighting-setup-base-hard-key-setup-low-contrast",
+      "semantic_key": "cinematography-lighting-setup-base-hard-key-setup-low-contrast",
+      "text": "hard-key setup with low contrast",
+      "sentence": "Hard-key setup with low contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "hard-key setup with low contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing hard-key setup with low contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with hard-key setup with low contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-lighting-setup-base-hard-key-setup",
+      "tags": [
+        "base",
+        "cinematography",
+        "lighting-setup",
+        "rarity-common"
+      ],
+      "facets": {
+        "setup": "hard-key-setup",
+        "treatment": "low-contrast"
+      },
+      "subcategory": "hard-key-setup",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lighting-setup-base-hard-key-setup-moderate-contrast",
+      "semantic_key": "cinematography-lighting-setup-base-hard-key-setup-moderate-contrast",
+      "text": "hard-key setup with moderate contrast",
+      "sentence": "Hard-key setup with moderate contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "hard-key setup with moderate contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing hard-key setup with moderate contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with hard-key setup with moderate contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-lighting-setup-base-hard-key-setup",
+      "tags": [
+        "base",
+        "cinematography",
+        "lighting-setup",
+        "rarity-common"
+      ],
+      "facets": {
+        "setup": "hard-key-setup",
+        "treatment": "moderate-contrast"
+      },
+      "subcategory": "hard-key-setup",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lighting-setup-base-hard-key-setup-high-contrast",
+      "semantic_key": "cinematography-lighting-setup-base-hard-key-setup-high-contrast",
+      "text": "hard-key setup with high contrast",
+      "sentence": "Hard-key setup with high contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "hard-key setup with high contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing hard-key setup with high contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with hard-key setup with high contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-lighting-setup-base-hard-key-setup",
+      "tags": [
+        "base",
+        "cinematography",
+        "lighting-setup",
+        "rarity-common"
+      ],
+      "facets": {
+        "setup": "hard-key-setup",
+        "treatment": "high-contrast"
+      },
+      "subcategory": "hard-key-setup",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lighting-setup-base-hard-key-setup-soft-transitions",
+      "semantic_key": "cinematography-lighting-setup-base-hard-key-setup-soft-transitions",
+      "text": "hard-key setup with soft transitions",
+      "sentence": "Hard-key setup with soft transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "hard-key setup with soft transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing hard-key setup with soft transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with hard-key setup with soft transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-lighting-setup-base-hard-key-setup",
+      "tags": [
+        "base",
+        "cinematography",
+        "lighting-setup",
+        "rarity-common"
+      ],
+      "facets": {
+        "setup": "hard-key-setup",
+        "treatment": "soft-transitions"
+      },
+      "subcategory": "hard-key-setup",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lighting-setup-base-hard-key-setup-crisp-transitions",
+      "semantic_key": "cinematography-lighting-setup-base-hard-key-setup-crisp-transitions",
+      "text": "hard-key setup with crisp transitions",
+      "sentence": "Hard-key setup with crisp transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "hard-key setup with crisp transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing hard-key setup with crisp transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with hard-key setup with crisp transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-lighting-setup-base-hard-key-setup",
+      "tags": [
+        "base",
+        "cinematography",
+        "lighting-setup",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "setup": "hard-key-setup",
+        "treatment": "crisp-transitions"
+      },
+      "subcategory": "hard-key-setup",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lighting-setup-base-hard-key-setup-broad-falloff",
+      "semantic_key": "cinematography-lighting-setup-base-hard-key-setup-broad-falloff",
+      "text": "hard-key setup with broad falloff",
+      "sentence": "Hard-key setup with broad falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "hard-key setup with broad falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing hard-key setup with broad falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with hard-key setup with broad falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-lighting-setup-base-hard-key-setup",
+      "tags": [
+        "base",
+        "cinematography",
+        "lighting-setup",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "setup": "hard-key-setup",
+        "treatment": "broad-falloff"
+      },
+      "subcategory": "hard-key-setup",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lighting-setup-base-hard-key-setup-rapid-falloff",
+      "semantic_key": "cinematography-lighting-setup-base-hard-key-setup-rapid-falloff",
+      "text": "hard-key setup with rapid falloff",
+      "sentence": "Hard-key setup with rapid falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "hard-key setup with rapid falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing hard-key setup with rapid falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with hard-key setup with rapid falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-lighting-setup-base-hard-key-setup",
+      "tags": [
+        "base",
+        "cinematography",
+        "lighting-setup",
+        "rarity-rare"
+      ],
+      "facets": {
+        "setup": "hard-key-setup",
+        "treatment": "rapid-falloff"
+      },
+      "subcategory": "hard-key-setup",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lighting-setup-base-hard-key-setup-layered-illumination",
+      "semantic_key": "cinematography-lighting-setup-base-hard-key-setup-layered-illumination",
+      "text": "hard-key setup with layered illumination",
+      "sentence": "Hard-key setup with layered illumination.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "hard-key setup with layered illumination",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing hard-key setup with layered illumination",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with hard-key setup with layered illumination",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-lighting-setup-base-hard-key-setup",
+      "tags": [
+        "base",
+        "cinematography",
+        "lighting-setup",
+        "rarity-rare"
+      ],
+      "facets": {
+        "setup": "hard-key-setup",
+        "treatment": "layered-illumination"
+      },
+      "subcategory": "hard-key-setup",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lighting-setup-base-rim-accent-setup-low-contrast",
+      "semantic_key": "cinematography-lighting-setup-base-rim-accent-setup-low-contrast",
+      "text": "rim-accent setup with low contrast",
+      "sentence": "Rim-accent setup with low contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "rim-accent setup with low contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing rim-accent setup with low contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with rim-accent setup with low contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-lighting-setup-base-rim-accent-setup",
+      "tags": [
+        "base",
+        "cinematography",
+        "lighting-setup",
+        "rarity-common"
+      ],
+      "facets": {
+        "setup": "rim-accent-setup",
+        "treatment": "low-contrast"
+      },
+      "subcategory": "rim-accent-setup",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lighting-setup-base-rim-accent-setup-moderate-contrast",
+      "semantic_key": "cinematography-lighting-setup-base-rim-accent-setup-moderate-contrast",
+      "text": "rim-accent setup with moderate contrast",
+      "sentence": "Rim-accent setup with moderate contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "rim-accent setup with moderate contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing rim-accent setup with moderate contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with rim-accent setup with moderate contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-lighting-setup-base-rim-accent-setup",
+      "tags": [
+        "base",
+        "cinematography",
+        "lighting-setup",
+        "rarity-common"
+      ],
+      "facets": {
+        "setup": "rim-accent-setup",
+        "treatment": "moderate-contrast"
+      },
+      "subcategory": "rim-accent-setup",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lighting-setup-base-rim-accent-setup-high-contrast",
+      "semantic_key": "cinematography-lighting-setup-base-rim-accent-setup-high-contrast",
+      "text": "rim-accent setup with high contrast",
+      "sentence": "Rim-accent setup with high contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "rim-accent setup with high contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing rim-accent setup with high contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with rim-accent setup with high contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-lighting-setup-base-rim-accent-setup",
+      "tags": [
+        "base",
+        "cinematography",
+        "lighting-setup",
+        "rarity-common"
+      ],
+      "facets": {
+        "setup": "rim-accent-setup",
+        "treatment": "high-contrast"
+      },
+      "subcategory": "rim-accent-setup",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lighting-setup-base-rim-accent-setup-soft-transitions",
+      "semantic_key": "cinematography-lighting-setup-base-rim-accent-setup-soft-transitions",
+      "text": "rim-accent setup with soft transitions",
+      "sentence": "Rim-accent setup with soft transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "rim-accent setup with soft transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing rim-accent setup with soft transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with rim-accent setup with soft transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-lighting-setup-base-rim-accent-setup",
+      "tags": [
+        "base",
+        "cinematography",
+        "lighting-setup",
+        "rarity-common"
+      ],
+      "facets": {
+        "setup": "rim-accent-setup",
+        "treatment": "soft-transitions"
+      },
+      "subcategory": "rim-accent-setup",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lighting-setup-base-rim-accent-setup-crisp-transitions",
+      "semantic_key": "cinematography-lighting-setup-base-rim-accent-setup-crisp-transitions",
+      "text": "rim-accent setup with crisp transitions",
+      "sentence": "Rim-accent setup with crisp transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "rim-accent setup with crisp transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing rim-accent setup with crisp transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with rim-accent setup with crisp transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-lighting-setup-base-rim-accent-setup",
+      "tags": [
+        "base",
+        "cinematography",
+        "lighting-setup",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "setup": "rim-accent-setup",
+        "treatment": "crisp-transitions"
+      },
+      "subcategory": "rim-accent-setup",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lighting-setup-base-rim-accent-setup-broad-falloff",
+      "semantic_key": "cinematography-lighting-setup-base-rim-accent-setup-broad-falloff",
+      "text": "rim-accent setup with broad falloff",
+      "sentence": "Rim-accent setup with broad falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "rim-accent setup with broad falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing rim-accent setup with broad falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with rim-accent setup with broad falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-lighting-setup-base-rim-accent-setup",
+      "tags": [
+        "base",
+        "cinematography",
+        "lighting-setup",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "setup": "rim-accent-setup",
+        "treatment": "broad-falloff"
+      },
+      "subcategory": "rim-accent-setup",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lighting-setup-base-rim-accent-setup-rapid-falloff",
+      "semantic_key": "cinematography-lighting-setup-base-rim-accent-setup-rapid-falloff",
+      "text": "rim-accent setup with rapid falloff",
+      "sentence": "Rim-accent setup with rapid falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "rim-accent setup with rapid falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing rim-accent setup with rapid falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with rim-accent setup with rapid falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-lighting-setup-base-rim-accent-setup",
+      "tags": [
+        "base",
+        "cinematography",
+        "lighting-setup",
+        "rarity-rare"
+      ],
+      "facets": {
+        "setup": "rim-accent-setup",
+        "treatment": "rapid-falloff"
+      },
+      "subcategory": "rim-accent-setup",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lighting-setup-base-rim-accent-setup-layered-illumination",
+      "semantic_key": "cinematography-lighting-setup-base-rim-accent-setup-layered-illumination",
+      "text": "rim-accent setup with layered illumination",
+      "sentence": "Rim-accent setup with layered illumination.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "rim-accent setup with layered illumination",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing rim-accent setup with layered illumination",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with rim-accent setup with layered illumination",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-lighting-setup-base-rim-accent-setup",
+      "tags": [
+        "base",
+        "cinematography",
+        "lighting-setup",
+        "rarity-rare"
+      ],
+      "facets": {
+        "setup": "rim-accent-setup",
+        "treatment": "layered-illumination"
+      },
+      "subcategory": "rim-accent-setup",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lighting-setup-base-top-light-setup-low-contrast",
+      "semantic_key": "cinematography-lighting-setup-base-top-light-setup-low-contrast",
+      "text": "top-light setup with low contrast",
+      "sentence": "Top-light setup with low contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "top-light setup with low contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing top-light setup with low contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with top-light setup with low contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-lighting-setup-base-top-light-setup",
+      "tags": [
+        "base",
+        "cinematography",
+        "lighting-setup",
+        "rarity-common"
+      ],
+      "facets": {
+        "setup": "top-light-setup",
+        "treatment": "low-contrast"
+      },
+      "subcategory": "top-light-setup",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lighting-setup-base-top-light-setup-moderate-contrast",
+      "semantic_key": "cinematography-lighting-setup-base-top-light-setup-moderate-contrast",
+      "text": "top-light setup with moderate contrast",
+      "sentence": "Top-light setup with moderate contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "top-light setup with moderate contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing top-light setup with moderate contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with top-light setup with moderate contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-lighting-setup-base-top-light-setup",
+      "tags": [
+        "base",
+        "cinematography",
+        "lighting-setup",
+        "rarity-common"
+      ],
+      "facets": {
+        "setup": "top-light-setup",
+        "treatment": "moderate-contrast"
+      },
+      "subcategory": "top-light-setup",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lighting-setup-base-top-light-setup-high-contrast",
+      "semantic_key": "cinematography-lighting-setup-base-top-light-setup-high-contrast",
+      "text": "top-light setup with high contrast",
+      "sentence": "Top-light setup with high contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "top-light setup with high contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing top-light setup with high contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with top-light setup with high contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-lighting-setup-base-top-light-setup",
+      "tags": [
+        "base",
+        "cinematography",
+        "lighting-setup",
+        "rarity-common"
+      ],
+      "facets": {
+        "setup": "top-light-setup",
+        "treatment": "high-contrast"
+      },
+      "subcategory": "top-light-setup",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lighting-setup-base-top-light-setup-soft-transitions",
+      "semantic_key": "cinematography-lighting-setup-base-top-light-setup-soft-transitions",
+      "text": "top-light setup with soft transitions",
+      "sentence": "Top-light setup with soft transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "top-light setup with soft transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing top-light setup with soft transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with top-light setup with soft transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-lighting-setup-base-top-light-setup",
+      "tags": [
+        "base",
+        "cinematography",
+        "lighting-setup",
+        "rarity-common"
+      ],
+      "facets": {
+        "setup": "top-light-setup",
+        "treatment": "soft-transitions"
+      },
+      "subcategory": "top-light-setup",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lighting-setup-base-top-light-setup-crisp-transitions",
+      "semantic_key": "cinematography-lighting-setup-base-top-light-setup-crisp-transitions",
+      "text": "top-light setup with crisp transitions",
+      "sentence": "Top-light setup with crisp transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "top-light setup with crisp transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing top-light setup with crisp transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with top-light setup with crisp transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-lighting-setup-base-top-light-setup",
+      "tags": [
+        "base",
+        "cinematography",
+        "lighting-setup",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "setup": "top-light-setup",
+        "treatment": "crisp-transitions"
+      },
+      "subcategory": "top-light-setup",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lighting-setup-base-top-light-setup-broad-falloff",
+      "semantic_key": "cinematography-lighting-setup-base-top-light-setup-broad-falloff",
+      "text": "top-light setup with broad falloff",
+      "sentence": "Top-light setup with broad falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "top-light setup with broad falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing top-light setup with broad falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with top-light setup with broad falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-lighting-setup-base-top-light-setup",
+      "tags": [
+        "base",
+        "cinematography",
+        "lighting-setup",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "setup": "top-light-setup",
+        "treatment": "broad-falloff"
+      },
+      "subcategory": "top-light-setup",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lighting-setup-base-top-light-setup-rapid-falloff",
+      "semantic_key": "cinematography-lighting-setup-base-top-light-setup-rapid-falloff",
+      "text": "top-light setup with rapid falloff",
+      "sentence": "Top-light setup with rapid falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "top-light setup with rapid falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing top-light setup with rapid falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with top-light setup with rapid falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-lighting-setup-base-top-light-setup",
+      "tags": [
+        "base",
+        "cinematography",
+        "lighting-setup",
+        "rarity-rare"
+      ],
+      "facets": {
+        "setup": "top-light-setup",
+        "treatment": "rapid-falloff"
+      },
+      "subcategory": "top-light-setup",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lighting-setup-base-top-light-setup-layered-illumination",
+      "semantic_key": "cinematography-lighting-setup-base-top-light-setup-layered-illumination",
+      "text": "top-light setup with layered illumination",
+      "sentence": "Top-light setup with layered illumination.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "top-light setup with layered illumination",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing top-light setup with layered illumination",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with top-light setup with layered illumination",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-lighting-setup-base-top-light-setup",
+      "tags": [
+        "base",
+        "cinematography",
+        "lighting-setup",
+        "rarity-rare"
+      ],
+      "facets": {
+        "setup": "top-light-setup",
+        "treatment": "layered-illumination"
+      },
+      "subcategory": "top-light-setup",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    }
+  ]
+}

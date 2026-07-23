@@ -1,0 +1,2577 @@
+{
+  "schema_version": "2.0",
+  "id": "scene-architecture-base",
+  "version": "2.0.0",
+  "library": "architecture",
+  "domain": "scene",
+  "category": "architecture",
+  "language": "en",
+  "status": "active",
+  "safety": "general",
+  "tags": [
+    "base"
+  ],
+  "fallback_option_id": "scene-architecture-base-modernist-concrete-open-spatial-layout",
+  "options": [
+    {
+      "id": "scene-architecture-base-modernist-concrete-open-spatial-layout",
+      "semantic_key": "scene-architecture-base-modernist-concrete-open-spatial-layout",
+      "text": "modernist concrete architecture with open spatial layout",
+      "sentence": "Modernist concrete architecture with open spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "modernist concrete architecture with open spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing modernist concrete architecture with open spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with modernist concrete architecture with open spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-architecture-base-modernist-concrete",
+      "tags": [
+        "architecture",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "material-language": "modernist-concrete",
+        "treatment": "open-spatial-layout"
+      },
+      "subcategory": "modernist-concrete",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-architecture-base-modernist-concrete-intimate-spatial-layout",
+      "semantic_key": "scene-architecture-base-modernist-concrete-intimate-spatial-layout",
+      "text": "modernist concrete architecture with intimate spatial layout",
+      "sentence": "Modernist concrete architecture with intimate spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "modernist concrete architecture with intimate spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing modernist concrete architecture with intimate spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with modernist concrete architecture with intimate spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-architecture-base-modernist-concrete",
+      "tags": [
+        "architecture",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "material-language": "modernist-concrete",
+        "treatment": "intimate-spatial-layout"
+      },
+      "subcategory": "modernist-concrete",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-architecture-base-modernist-concrete-layered-depth",
+      "semantic_key": "scene-architecture-base-modernist-concrete-layered-depth",
+      "text": "modernist concrete architecture with layered depth",
+      "sentence": "Modernist concrete architecture with layered depth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "modernist concrete architecture with layered depth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing modernist concrete architecture with layered depth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with modernist concrete architecture with layered depth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-architecture-base-modernist-concrete",
+      "tags": [
+        "architecture",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "material-language": "modernist-concrete",
+        "treatment": "layered-depth"
+      },
+      "subcategory": "modernist-concrete",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-architecture-base-modernist-concrete-clear-sightlines",
+      "semantic_key": "scene-architecture-base-modernist-concrete-clear-sightlines",
+      "text": "modernist concrete architecture with clear sightlines",
+      "sentence": "Modernist concrete architecture with clear sightlines.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "modernist concrete architecture with clear sightlines",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing modernist concrete architecture with clear sightlines",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with modernist concrete architecture with clear sightlines",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-architecture-base-modernist-concrete",
+      "tags": [
+        "architecture",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "material-language": "modernist-concrete",
+        "treatment": "clear-sightlines"
+      },
+      "subcategory": "modernist-concrete",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-architecture-base-modernist-concrete-enclosed-geometry",
+      "semantic_key": "scene-architecture-base-modernist-concrete-enclosed-geometry",
+      "text": "modernist concrete architecture with enclosed geometry",
+      "sentence": "Modernist concrete architecture with enclosed geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "modernist concrete architecture with enclosed geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing modernist concrete architecture with enclosed geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with modernist concrete architecture with enclosed geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-architecture-base-modernist-concrete",
+      "tags": [
+        "architecture",
+        "base",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "material-language": "modernist-concrete",
+        "treatment": "enclosed-geometry"
+      },
+      "subcategory": "modernist-concrete",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-architecture-base-modernist-concrete-expansive-geometry",
+      "semantic_key": "scene-architecture-base-modernist-concrete-expansive-geometry",
+      "text": "modernist concrete architecture with expansive geometry",
+      "sentence": "Modernist concrete architecture with expansive geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "modernist concrete architecture with expansive geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing modernist concrete architecture with expansive geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with modernist concrete architecture with expansive geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-architecture-base-modernist-concrete",
+      "tags": [
+        "architecture",
+        "base",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "material-language": "modernist-concrete",
+        "treatment": "expansive-geometry"
+      },
+      "subcategory": "modernist-concrete",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-architecture-base-modernist-concrete-asymmetric-layout",
+      "semantic_key": "scene-architecture-base-modernist-concrete-asymmetric-layout",
+      "text": "modernist concrete architecture with asymmetric layout",
+      "sentence": "Modernist concrete architecture with asymmetric layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "modernist concrete architecture with asymmetric layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing modernist concrete architecture with asymmetric layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with modernist concrete architecture with asymmetric layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-architecture-base-modernist-concrete",
+      "tags": [
+        "architecture",
+        "base",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "material-language": "modernist-concrete",
+        "treatment": "asymmetric-layout"
+      },
+      "subcategory": "modernist-concrete",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-architecture-base-modernist-concrete-central-organization",
+      "semantic_key": "scene-architecture-base-modernist-concrete-central-organization",
+      "text": "modernist concrete architecture with central organization",
+      "sentence": "Modernist concrete architecture with central organization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "modernist concrete architecture with central organization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing modernist concrete architecture with central organization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with modernist concrete architecture with central organization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-architecture-base-modernist-concrete",
+      "tags": [
+        "architecture",
+        "base",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "material-language": "modernist-concrete",
+        "treatment": "central-organization"
+      },
+      "subcategory": "modernist-concrete",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-architecture-base-warm-timber-open-spatial-layout",
+      "semantic_key": "scene-architecture-base-warm-timber-open-spatial-layout",
+      "text": "warm timber architecture with open spatial layout",
+      "sentence": "Warm timber architecture with open spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "warm timber architecture with open spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing warm timber architecture with open spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with warm timber architecture with open spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-architecture-base-warm-timber",
+      "tags": [
+        "architecture",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "material-language": "warm-timber",
+        "treatment": "open-spatial-layout"
+      },
+      "subcategory": "warm-timber",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-architecture-base-warm-timber-intimate-spatial-layout",
+      "semantic_key": "scene-architecture-base-warm-timber-intimate-spatial-layout",
+      "text": "warm timber architecture with intimate spatial layout",
+      "sentence": "Warm timber architecture with intimate spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "warm timber architecture with intimate spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing warm timber architecture with intimate spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with warm timber architecture with intimate spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-architecture-base-warm-timber",
+      "tags": [
+        "architecture",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "material-language": "warm-timber",
+        "treatment": "intimate-spatial-layout"
+      },
+      "subcategory": "warm-timber",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-architecture-base-warm-timber-layered-depth",
+      "semantic_key": "scene-architecture-base-warm-timber-layered-depth",
+      "text": "warm timber architecture with layered depth",
+      "sentence": "Warm timber architecture with layered depth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "warm timber architecture with layered depth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing warm timber architecture with layered depth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with warm timber architecture with layered depth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-architecture-base-warm-timber",
+      "tags": [
+        "architecture",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "material-language": "warm-timber",
+        "treatment": "layered-depth"
+      },
+      "subcategory": "warm-timber",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-architecture-base-warm-timber-clear-sightlines",
+      "semantic_key": "scene-architecture-base-warm-timber-clear-sightlines",
+      "text": "warm timber architecture with clear sightlines",
+      "sentence": "Warm timber architecture with clear sightlines.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "warm timber architecture with clear sightlines",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing warm timber architecture with clear sightlines",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with warm timber architecture with clear sightlines",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-architecture-base-warm-timber",
+      "tags": [
+        "architecture",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "material-language": "warm-timber",
+        "treatment": "clear-sightlines"
+      },
+      "subcategory": "warm-timber",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-architecture-base-warm-timber-enclosed-geometry",
+      "semantic_key": "scene-architecture-base-warm-timber-enclosed-geometry",
+      "text": "warm timber architecture with enclosed geometry",
+      "sentence": "Warm timber architecture with enclosed geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "warm timber architecture with enclosed geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing warm timber architecture with enclosed geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with warm timber architecture with enclosed geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-architecture-base-warm-timber",
+      "tags": [
+        "architecture",
+        "base",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "material-language": "warm-timber",
+        "treatment": "enclosed-geometry"
+      },
+      "subcategory": "warm-timber",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-architecture-base-warm-timber-expansive-geometry",
+      "semantic_key": "scene-architecture-base-warm-timber-expansive-geometry",
+      "text": "warm timber architecture with expansive geometry",
+      "sentence": "Warm timber architecture with expansive geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "warm timber architecture with expansive geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing warm timber architecture with expansive geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with warm timber architecture with expansive geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-architecture-base-warm-timber",
+      "tags": [
+        "architecture",
+        "base",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "material-language": "warm-timber",
+        "treatment": "expansive-geometry"
+      },
+      "subcategory": "warm-timber",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-architecture-base-warm-timber-asymmetric-layout",
+      "semantic_key": "scene-architecture-base-warm-timber-asymmetric-layout",
+      "text": "warm timber architecture with asymmetric layout",
+      "sentence": "Warm timber architecture with asymmetric layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "warm timber architecture with asymmetric layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing warm timber architecture with asymmetric layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with warm timber architecture with asymmetric layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-architecture-base-warm-timber",
+      "tags": [
+        "architecture",
+        "base",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "material-language": "warm-timber",
+        "treatment": "asymmetric-layout"
+      },
+      "subcategory": "warm-timber",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-architecture-base-warm-timber-central-organization",
+      "semantic_key": "scene-architecture-base-warm-timber-central-organization",
+      "text": "warm timber architecture with central organization",
+      "sentence": "Warm timber architecture with central organization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "warm timber architecture with central organization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing warm timber architecture with central organization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with warm timber architecture with central organization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-architecture-base-warm-timber",
+      "tags": [
+        "architecture",
+        "base",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "material-language": "warm-timber",
+        "treatment": "central-organization"
+      },
+      "subcategory": "warm-timber",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-architecture-base-industrial-brick-open-spatial-layout",
+      "semantic_key": "scene-architecture-base-industrial-brick-open-spatial-layout",
+      "text": "industrial brick architecture with open spatial layout",
+      "sentence": "Industrial brick architecture with open spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "industrial brick architecture with open spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing industrial brick architecture with open spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with industrial brick architecture with open spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-architecture-base-industrial-brick",
+      "tags": [
+        "architecture",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "material-language": "industrial-brick",
+        "treatment": "open-spatial-layout"
+      },
+      "subcategory": "industrial-brick",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-architecture-base-industrial-brick-intimate-spatial-layout",
+      "semantic_key": "scene-architecture-base-industrial-brick-intimate-spatial-layout",
+      "text": "industrial brick architecture with intimate spatial layout",
+      "sentence": "Industrial brick architecture with intimate spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "industrial brick architecture with intimate spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing industrial brick architecture with intimate spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with industrial brick architecture with intimate spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-architecture-base-industrial-brick",
+      "tags": [
+        "architecture",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "material-language": "industrial-brick",
+        "treatment": "intimate-spatial-layout"
+      },
+      "subcategory": "industrial-brick",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-architecture-base-industrial-brick-layered-depth",
+      "semantic_key": "scene-architecture-base-industrial-brick-layered-depth",
+      "text": "industrial brick architecture with layered depth",
+      "sentence": "Industrial brick architecture with layered depth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "industrial brick architecture with layered depth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing industrial brick architecture with layered depth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with industrial brick architecture with layered depth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-architecture-base-industrial-brick",
+      "tags": [
+        "architecture",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "material-language": "industrial-brick",
+        "treatment": "layered-depth"
+      },
+      "subcategory": "industrial-brick",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-architecture-base-industrial-brick-clear-sightlines",
+      "semantic_key": "scene-architecture-base-industrial-brick-clear-sightlines",
+      "text": "industrial brick architecture with clear sightlines",
+      "sentence": "Industrial brick architecture with clear sightlines.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "industrial brick architecture with clear sightlines",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing industrial brick architecture with clear sightlines",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with industrial brick architecture with clear sightlines",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-architecture-base-industrial-brick",
+      "tags": [
+        "architecture",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "material-language": "industrial-brick",
+        "treatment": "clear-sightlines"
+      },
+      "subcategory": "industrial-brick",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-architecture-base-industrial-brick-enclosed-geometry",
+      "semantic_key": "scene-architecture-base-industrial-brick-enclosed-geometry",
+      "text": "industrial brick architecture with enclosed geometry",
+      "sentence": "Industrial brick architecture with enclosed geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "industrial brick architecture with enclosed geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing industrial brick architecture with enclosed geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with industrial brick architecture with enclosed geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-architecture-base-industrial-brick",
+      "tags": [
+        "architecture",
+        "base",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "material-language": "industrial-brick",
+        "treatment": "enclosed-geometry"
+      },
+      "subcategory": "industrial-brick",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-architecture-base-industrial-brick-expansive-geometry",
+      "semantic_key": "scene-architecture-base-industrial-brick-expansive-geometry",
+      "text": "industrial brick architecture with expansive geometry",
+      "sentence": "Industrial brick architecture with expansive geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "industrial brick architecture with expansive geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing industrial brick architecture with expansive geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with industrial brick architecture with expansive geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-architecture-base-industrial-brick",
+      "tags": [
+        "architecture",
+        "base",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "material-language": "industrial-brick",
+        "treatment": "expansive-geometry"
+      },
+      "subcategory": "industrial-brick",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-architecture-base-industrial-brick-asymmetric-layout",
+      "semantic_key": "scene-architecture-base-industrial-brick-asymmetric-layout",
+      "text": "industrial brick architecture with asymmetric layout",
+      "sentence": "Industrial brick architecture with asymmetric layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "industrial brick architecture with asymmetric layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing industrial brick architecture with asymmetric layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with industrial brick architecture with asymmetric layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-architecture-base-industrial-brick",
+      "tags": [
+        "architecture",
+        "base",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "material-language": "industrial-brick",
+        "treatment": "asymmetric-layout"
+      },
+      "subcategory": "industrial-brick",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-architecture-base-industrial-brick-central-organization",
+      "semantic_key": "scene-architecture-base-industrial-brick-central-organization",
+      "text": "industrial brick architecture with central organization",
+      "sentence": "Industrial brick architecture with central organization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "industrial brick architecture with central organization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing industrial brick architecture with central organization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with industrial brick architecture with central organization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-architecture-base-industrial-brick",
+      "tags": [
+        "architecture",
+        "base",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "material-language": "industrial-brick",
+        "treatment": "central-organization"
+      },
+      "subcategory": "industrial-brick",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-architecture-base-classical-stone-open-spatial-layout",
+      "semantic_key": "scene-architecture-base-classical-stone-open-spatial-layout",
+      "text": "classical stone architecture with open spatial layout",
+      "sentence": "Classical stone architecture with open spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "classical stone architecture with open spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing classical stone architecture with open spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with classical stone architecture with open spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-architecture-base-classical-stone",
+      "tags": [
+        "architecture",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "material-language": "classical-stone",
+        "treatment": "open-spatial-layout"
+      },
+      "subcategory": "classical-stone",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-architecture-base-classical-stone-intimate-spatial-layout",
+      "semantic_key": "scene-architecture-base-classical-stone-intimate-spatial-layout",
+      "text": "classical stone architecture with intimate spatial layout",
+      "sentence": "Classical stone architecture with intimate spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "classical stone architecture with intimate spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing classical stone architecture with intimate spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with classical stone architecture with intimate spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-architecture-base-classical-stone",
+      "tags": [
+        "architecture",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "material-language": "classical-stone",
+        "treatment": "intimate-spatial-layout"
+      },
+      "subcategory": "classical-stone",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-architecture-base-classical-stone-layered-depth",
+      "semantic_key": "scene-architecture-base-classical-stone-layered-depth",
+      "text": "classical stone architecture with layered depth",
+      "sentence": "Classical stone architecture with layered depth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "classical stone architecture with layered depth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing classical stone architecture with layered depth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with classical stone architecture with layered depth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-architecture-base-classical-stone",
+      "tags": [
+        "architecture",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "material-language": "classical-stone",
+        "treatment": "layered-depth"
+      },
+      "subcategory": "classical-stone",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-architecture-base-classical-stone-clear-sightlines",
+      "semantic_key": "scene-architecture-base-classical-stone-clear-sightlines",
+      "text": "classical stone architecture with clear sightlines",
+      "sentence": "Classical stone architecture with clear sightlines.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "classical stone architecture with clear sightlines",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing classical stone architecture with clear sightlines",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with classical stone architecture with clear sightlines",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-architecture-base-classical-stone",
+      "tags": [
+        "architecture",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "material-language": "classical-stone",
+        "treatment": "clear-sightlines"
+      },
+      "subcategory": "classical-stone",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-architecture-base-classical-stone-enclosed-geometry",
+      "semantic_key": "scene-architecture-base-classical-stone-enclosed-geometry",
+      "text": "classical stone architecture with enclosed geometry",
+      "sentence": "Classical stone architecture with enclosed geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "classical stone architecture with enclosed geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing classical stone architecture with enclosed geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with classical stone architecture with enclosed geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-architecture-base-classical-stone",
+      "tags": [
+        "architecture",
+        "base",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "material-language": "classical-stone",
+        "treatment": "enclosed-geometry"
+      },
+      "subcategory": "classical-stone",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-architecture-base-classical-stone-expansive-geometry",
+      "semantic_key": "scene-architecture-base-classical-stone-expansive-geometry",
+      "text": "classical stone architecture with expansive geometry",
+      "sentence": "Classical stone architecture with expansive geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "classical stone architecture with expansive geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing classical stone architecture with expansive geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with classical stone architecture with expansive geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-architecture-base-classical-stone",
+      "tags": [
+        "architecture",
+        "base",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "material-language": "classical-stone",
+        "treatment": "expansive-geometry"
+      },
+      "subcategory": "classical-stone",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-architecture-base-classical-stone-asymmetric-layout",
+      "semantic_key": "scene-architecture-base-classical-stone-asymmetric-layout",
+      "text": "classical stone architecture with asymmetric layout",
+      "sentence": "Classical stone architecture with asymmetric layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "classical stone architecture with asymmetric layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing classical stone architecture with asymmetric layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with classical stone architecture with asymmetric layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-architecture-base-classical-stone",
+      "tags": [
+        "architecture",
+        "base",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "material-language": "classical-stone",
+        "treatment": "asymmetric-layout"
+      },
+      "subcategory": "classical-stone",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-architecture-base-classical-stone-central-organization",
+      "semantic_key": "scene-architecture-base-classical-stone-central-organization",
+      "text": "classical stone architecture with central organization",
+      "sentence": "Classical stone architecture with central organization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "classical stone architecture with central organization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing classical stone architecture with central organization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with classical stone architecture with central organization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-architecture-base-classical-stone",
+      "tags": [
+        "architecture",
+        "base",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "material-language": "classical-stone",
+        "treatment": "central-organization"
+      },
+      "subcategory": "classical-stone",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-architecture-base-art-deco-geometry-open-spatial-layout",
+      "semantic_key": "scene-architecture-base-art-deco-geometry-open-spatial-layout",
+      "text": "art-deco geometry architecture with open spatial layout",
+      "sentence": "Art-deco geometry architecture with open spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "art-deco geometry architecture with open spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing art-deco geometry architecture with open spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with art-deco geometry architecture with open spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-architecture-base-art-deco-geometry",
+      "tags": [
+        "architecture",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "material-language": "art-deco-geometry",
+        "treatment": "open-spatial-layout"
+      },
+      "subcategory": "art-deco-geometry",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-architecture-base-art-deco-geometry-intimate-spatial-layout",
+      "semantic_key": "scene-architecture-base-art-deco-geometry-intimate-spatial-layout",
+      "text": "art-deco geometry architecture with intimate spatial layout",
+      "sentence": "Art-deco geometry architecture with intimate spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "art-deco geometry architecture with intimate spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing art-deco geometry architecture with intimate spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with art-deco geometry architecture with intimate spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-architecture-base-art-deco-geometry",
+      "tags": [
+        "architecture",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "material-language": "art-deco-geometry",
+        "treatment": "intimate-spatial-layout"
+      },
+      "subcategory": "art-deco-geometry",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-architecture-base-art-deco-geometry-layered-depth",
+      "semantic_key": "scene-architecture-base-art-deco-geometry-layered-depth",
+      "text": "art-deco geometry architecture with layered depth",
+      "sentence": "Art-deco geometry architecture with layered depth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "art-deco geometry architecture with layered depth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing art-deco geometry architecture with layered depth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with art-deco geometry architecture with layered depth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-architecture-base-art-deco-geometry",
+      "tags": [
+        "architecture",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "material-language": "art-deco-geometry",
+        "treatment": "layered-depth"
+      },
+      "subcategory": "art-deco-geometry",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-architecture-base-art-deco-geometry-clear-sightlines",
+      "semantic_key": "scene-architecture-base-art-deco-geometry-clear-sightlines",
+      "text": "art-deco geometry architecture with clear sightlines",
+      "sentence": "Art-deco geometry architecture with clear sightlines.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "art-deco geometry architecture with clear sightlines",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing art-deco geometry architecture with clear sightlines",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with art-deco geometry architecture with clear sightlines",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-architecture-base-art-deco-geometry",
+      "tags": [
+        "architecture",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "material-language": "art-deco-geometry",
+        "treatment": "clear-sightlines"
+      },
+      "subcategory": "art-deco-geometry",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-architecture-base-art-deco-geometry-enclosed-geometry",
+      "semantic_key": "scene-architecture-base-art-deco-geometry-enclosed-geometry",
+      "text": "art-deco geometry architecture with enclosed geometry",
+      "sentence": "Art-deco geometry architecture with enclosed geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "art-deco geometry architecture with enclosed geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing art-deco geometry architecture with enclosed geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with art-deco geometry architecture with enclosed geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-architecture-base-art-deco-geometry",
+      "tags": [
+        "architecture",
+        "base",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "material-language": "art-deco-geometry",
+        "treatment": "enclosed-geometry"
+      },
+      "subcategory": "art-deco-geometry",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-architecture-base-art-deco-geometry-expansive-geometry",
+      "semantic_key": "scene-architecture-base-art-deco-geometry-expansive-geometry",
+      "text": "art-deco geometry architecture with expansive geometry",
+      "sentence": "Art-deco geometry architecture with expansive geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "art-deco geometry architecture with expansive geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing art-deco geometry architecture with expansive geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with art-deco geometry architecture with expansive geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-architecture-base-art-deco-geometry",
+      "tags": [
+        "architecture",
+        "base",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "material-language": "art-deco-geometry",
+        "treatment": "expansive-geometry"
+      },
+      "subcategory": "art-deco-geometry",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-architecture-base-art-deco-geometry-asymmetric-layout",
+      "semantic_key": "scene-architecture-base-art-deco-geometry-asymmetric-layout",
+      "text": "art-deco geometry architecture with asymmetric layout",
+      "sentence": "Art-deco geometry architecture with asymmetric layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "art-deco geometry architecture with asymmetric layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing art-deco geometry architecture with asymmetric layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with art-deco geometry architecture with asymmetric layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-architecture-base-art-deco-geometry",
+      "tags": [
+        "architecture",
+        "base",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "material-language": "art-deco-geometry",
+        "treatment": "asymmetric-layout"
+      },
+      "subcategory": "art-deco-geometry",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-architecture-base-art-deco-geometry-central-organization",
+      "semantic_key": "scene-architecture-base-art-deco-geometry-central-organization",
+      "text": "art-deco geometry architecture with central organization",
+      "sentence": "Art-deco geometry architecture with central organization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "art-deco geometry architecture with central organization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing art-deco geometry architecture with central organization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with art-deco geometry architecture with central organization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-architecture-base-art-deco-geometry",
+      "tags": [
+        "architecture",
+        "base",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "material-language": "art-deco-geometry",
+        "treatment": "central-organization"
+      },
+      "subcategory": "art-deco-geometry",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-architecture-base-vernacular-plaster-open-spatial-layout",
+      "semantic_key": "scene-architecture-base-vernacular-plaster-open-spatial-layout",
+      "text": "vernacular plaster architecture with open spatial layout",
+      "sentence": "Vernacular plaster architecture with open spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "vernacular plaster architecture with open spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing vernacular plaster architecture with open spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with vernacular plaster architecture with open spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-architecture-base-vernacular-plaster",
+      "tags": [
+        "architecture",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "material-language": "vernacular-plaster",
+        "treatment": "open-spatial-layout"
+      },
+      "subcategory": "vernacular-plaster",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-architecture-base-vernacular-plaster-intimate-spatial-layout",
+      "semantic_key": "scene-architecture-base-vernacular-plaster-intimate-spatial-layout",
+      "text": "vernacular plaster architecture with intimate spatial layout",
+      "sentence": "Vernacular plaster architecture with intimate spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "vernacular plaster architecture with intimate spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing vernacular plaster architecture with intimate spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with vernacular plaster architecture with intimate spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-architecture-base-vernacular-plaster",
+      "tags": [
+        "architecture",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "material-language": "vernacular-plaster",
+        "treatment": "intimate-spatial-layout"
+      },
+      "subcategory": "vernacular-plaster",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-architecture-base-vernacular-plaster-layered-depth",
+      "semantic_key": "scene-architecture-base-vernacular-plaster-layered-depth",
+      "text": "vernacular plaster architecture with layered depth",
+      "sentence": "Vernacular plaster architecture with layered depth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "vernacular plaster architecture with layered depth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing vernacular plaster architecture with layered depth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with vernacular plaster architecture with layered depth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-architecture-base-vernacular-plaster",
+      "tags": [
+        "architecture",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "material-language": "vernacular-plaster",
+        "treatment": "layered-depth"
+      },
+      "subcategory": "vernacular-plaster",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-architecture-base-vernacular-plaster-clear-sightlines",
+      "semantic_key": "scene-architecture-base-vernacular-plaster-clear-sightlines",
+      "text": "vernacular plaster architecture with clear sightlines",
+      "sentence": "Vernacular plaster architecture with clear sightlines.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "vernacular plaster architecture with clear sightlines",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing vernacular plaster architecture with clear sightlines",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with vernacular plaster architecture with clear sightlines",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-architecture-base-vernacular-plaster",
+      "tags": [
+        "architecture",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "material-language": "vernacular-plaster",
+        "treatment": "clear-sightlines"
+      },
+      "subcategory": "vernacular-plaster",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-architecture-base-vernacular-plaster-enclosed-geometry",
+      "semantic_key": "scene-architecture-base-vernacular-plaster-enclosed-geometry",
+      "text": "vernacular plaster architecture with enclosed geometry",
+      "sentence": "Vernacular plaster architecture with enclosed geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "vernacular plaster architecture with enclosed geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing vernacular plaster architecture with enclosed geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with vernacular plaster architecture with enclosed geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-architecture-base-vernacular-plaster",
+      "tags": [
+        "architecture",
+        "base",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "material-language": "vernacular-plaster",
+        "treatment": "enclosed-geometry"
+      },
+      "subcategory": "vernacular-plaster",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-architecture-base-vernacular-plaster-expansive-geometry",
+      "semantic_key": "scene-architecture-base-vernacular-plaster-expansive-geometry",
+      "text": "vernacular plaster architecture with expansive geometry",
+      "sentence": "Vernacular plaster architecture with expansive geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "vernacular plaster architecture with expansive geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing vernacular plaster architecture with expansive geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with vernacular plaster architecture with expansive geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-architecture-base-vernacular-plaster",
+      "tags": [
+        "architecture",
+        "base",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "material-language": "vernacular-plaster",
+        "treatment": "expansive-geometry"
+      },
+      "subcategory": "vernacular-plaster",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-architecture-base-vernacular-plaster-asymmetric-layout",
+      "semantic_key": "scene-architecture-base-vernacular-plaster-asymmetric-layout",
+      "text": "vernacular plaster architecture with asymmetric layout",
+      "sentence": "Vernacular plaster architecture with asymmetric layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "vernacular plaster architecture with asymmetric layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing vernacular plaster architecture with asymmetric layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with vernacular plaster architecture with asymmetric layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-architecture-base-vernacular-plaster",
+      "tags": [
+        "architecture",
+        "base",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "material-language": "vernacular-plaster",
+        "treatment": "asymmetric-layout"
+      },
+      "subcategory": "vernacular-plaster",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-architecture-base-vernacular-plaster-central-organization",
+      "semantic_key": "scene-architecture-base-vernacular-plaster-central-organization",
+      "text": "vernacular plaster architecture with central organization",
+      "sentence": "Vernacular plaster architecture with central organization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "vernacular plaster architecture with central organization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing vernacular plaster architecture with central organization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with vernacular plaster architecture with central organization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-architecture-base-vernacular-plaster",
+      "tags": [
+        "architecture",
+        "base",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "material-language": "vernacular-plaster",
+        "treatment": "central-organization"
+      },
+      "subcategory": "vernacular-plaster",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-architecture-base-glass-and-steel-open-spatial-layout",
+      "semantic_key": "scene-architecture-base-glass-and-steel-open-spatial-layout",
+      "text": "glass-and-steel architecture with open spatial layout",
+      "sentence": "Glass-and-steel architecture with open spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "glass-and-steel architecture with open spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing glass-and-steel architecture with open spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with glass-and-steel architecture with open spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-architecture-base-glass-and-steel",
+      "tags": [
+        "architecture",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "material-language": "glass-and-steel",
+        "treatment": "open-spatial-layout"
+      },
+      "subcategory": "glass-and-steel",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-architecture-base-glass-and-steel-intimate-spatial-layout",
+      "semantic_key": "scene-architecture-base-glass-and-steel-intimate-spatial-layout",
+      "text": "glass-and-steel architecture with intimate spatial layout",
+      "sentence": "Glass-and-steel architecture with intimate spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "glass-and-steel architecture with intimate spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing glass-and-steel architecture with intimate spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with glass-and-steel architecture with intimate spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-architecture-base-glass-and-steel",
+      "tags": [
+        "architecture",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "material-language": "glass-and-steel",
+        "treatment": "intimate-spatial-layout"
+      },
+      "subcategory": "glass-and-steel",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-architecture-base-glass-and-steel-layered-depth",
+      "semantic_key": "scene-architecture-base-glass-and-steel-layered-depth",
+      "text": "glass-and-steel architecture with layered depth",
+      "sentence": "Glass-and-steel architecture with layered depth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "glass-and-steel architecture with layered depth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing glass-and-steel architecture with layered depth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with glass-and-steel architecture with layered depth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-architecture-base-glass-and-steel",
+      "tags": [
+        "architecture",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "material-language": "glass-and-steel",
+        "treatment": "layered-depth"
+      },
+      "subcategory": "glass-and-steel",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-architecture-base-glass-and-steel-clear-sightlines",
+      "semantic_key": "scene-architecture-base-glass-and-steel-clear-sightlines",
+      "text": "glass-and-steel architecture with clear sightlines",
+      "sentence": "Glass-and-steel architecture with clear sightlines.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "glass-and-steel architecture with clear sightlines",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing glass-and-steel architecture with clear sightlines",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with glass-and-steel architecture with clear sightlines",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-architecture-base-glass-and-steel",
+      "tags": [
+        "architecture",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "material-language": "glass-and-steel",
+        "treatment": "clear-sightlines"
+      },
+      "subcategory": "glass-and-steel",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-architecture-base-glass-and-steel-enclosed-geometry",
+      "semantic_key": "scene-architecture-base-glass-and-steel-enclosed-geometry",
+      "text": "glass-and-steel architecture with enclosed geometry",
+      "sentence": "Glass-and-steel architecture with enclosed geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "glass-and-steel architecture with enclosed geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing glass-and-steel architecture with enclosed geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with glass-and-steel architecture with enclosed geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-architecture-base-glass-and-steel",
+      "tags": [
+        "architecture",
+        "base",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "material-language": "glass-and-steel",
+        "treatment": "enclosed-geometry"
+      },
+      "subcategory": "glass-and-steel",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-architecture-base-glass-and-steel-expansive-geometry",
+      "semantic_key": "scene-architecture-base-glass-and-steel-expansive-geometry",
+      "text": "glass-and-steel architecture with expansive geometry",
+      "sentence": "Glass-and-steel architecture with expansive geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "glass-and-steel architecture with expansive geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing glass-and-steel architecture with expansive geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with glass-and-steel architecture with expansive geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-architecture-base-glass-and-steel",
+      "tags": [
+        "architecture",
+        "base",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "material-language": "glass-and-steel",
+        "treatment": "expansive-geometry"
+      },
+      "subcategory": "glass-and-steel",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-architecture-base-glass-and-steel-asymmetric-layout",
+      "semantic_key": "scene-architecture-base-glass-and-steel-asymmetric-layout",
+      "text": "glass-and-steel architecture with asymmetric layout",
+      "sentence": "Glass-and-steel architecture with asymmetric layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "glass-and-steel architecture with asymmetric layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing glass-and-steel architecture with asymmetric layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with glass-and-steel architecture with asymmetric layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-architecture-base-glass-and-steel",
+      "tags": [
+        "architecture",
+        "base",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "material-language": "glass-and-steel",
+        "treatment": "asymmetric-layout"
+      },
+      "subcategory": "glass-and-steel",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-architecture-base-glass-and-steel-central-organization",
+      "semantic_key": "scene-architecture-base-glass-and-steel-central-organization",
+      "text": "glass-and-steel architecture with central organization",
+      "sentence": "Glass-and-steel architecture with central organization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "glass-and-steel architecture with central organization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing glass-and-steel architecture with central organization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with glass-and-steel architecture with central organization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-architecture-base-glass-and-steel",
+      "tags": [
+        "architecture",
+        "base",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "material-language": "glass-and-steel",
+        "treatment": "central-organization"
+      },
+      "subcategory": "glass-and-steel",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-architecture-base-weathered-masonry-open-spatial-layout",
+      "semantic_key": "scene-architecture-base-weathered-masonry-open-spatial-layout",
+      "text": "weathered masonry architecture with open spatial layout",
+      "sentence": "Weathered masonry architecture with open spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "weathered masonry architecture with open spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing weathered masonry architecture with open spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with weathered masonry architecture with open spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-architecture-base-weathered-masonry",
+      "tags": [
+        "architecture",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "material-language": "weathered-masonry",
+        "treatment": "open-spatial-layout"
+      },
+      "subcategory": "weathered-masonry",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-architecture-base-weathered-masonry-intimate-spatial-layout",
+      "semantic_key": "scene-architecture-base-weathered-masonry-intimate-spatial-layout",
+      "text": "weathered masonry architecture with intimate spatial layout",
+      "sentence": "Weathered masonry architecture with intimate spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "weathered masonry architecture with intimate spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing weathered masonry architecture with intimate spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with weathered masonry architecture with intimate spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-architecture-base-weathered-masonry",
+      "tags": [
+        "architecture",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "material-language": "weathered-masonry",
+        "treatment": "intimate-spatial-layout"
+      },
+      "subcategory": "weathered-masonry",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-architecture-base-weathered-masonry-layered-depth",
+      "semantic_key": "scene-architecture-base-weathered-masonry-layered-depth",
+      "text": "weathered masonry architecture with layered depth",
+      "sentence": "Weathered masonry architecture with layered depth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "weathered masonry architecture with layered depth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing weathered masonry architecture with layered depth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with weathered masonry architecture with layered depth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-architecture-base-weathered-masonry",
+      "tags": [
+        "architecture",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "material-language": "weathered-masonry",
+        "treatment": "layered-depth"
+      },
+      "subcategory": "weathered-masonry",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-architecture-base-weathered-masonry-clear-sightlines",
+      "semantic_key": "scene-architecture-base-weathered-masonry-clear-sightlines",
+      "text": "weathered masonry architecture with clear sightlines",
+      "sentence": "Weathered masonry architecture with clear sightlines.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "weathered masonry architecture with clear sightlines",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing weathered masonry architecture with clear sightlines",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with weathered masonry architecture with clear sightlines",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-architecture-base-weathered-masonry",
+      "tags": [
+        "architecture",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "material-language": "weathered-masonry",
+        "treatment": "clear-sightlines"
+      },
+      "subcategory": "weathered-masonry",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-architecture-base-weathered-masonry-enclosed-geometry",
+      "semantic_key": "scene-architecture-base-weathered-masonry-enclosed-geometry",
+      "text": "weathered masonry architecture with enclosed geometry",
+      "sentence": "Weathered masonry architecture with enclosed geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "weathered masonry architecture with enclosed geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing weathered masonry architecture with enclosed geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with weathered masonry architecture with enclosed geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-architecture-base-weathered-masonry",
+      "tags": [
+        "architecture",
+        "base",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "material-language": "weathered-masonry",
+        "treatment": "enclosed-geometry"
+      },
+      "subcategory": "weathered-masonry",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-architecture-base-weathered-masonry-expansive-geometry",
+      "semantic_key": "scene-architecture-base-weathered-masonry-expansive-geometry",
+      "text": "weathered masonry architecture with expansive geometry",
+      "sentence": "Weathered masonry architecture with expansive geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "weathered masonry architecture with expansive geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing weathered masonry architecture with expansive geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with weathered masonry architecture with expansive geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-architecture-base-weathered-masonry",
+      "tags": [
+        "architecture",
+        "base",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "material-language": "weathered-masonry",
+        "treatment": "expansive-geometry"
+      },
+      "subcategory": "weathered-masonry",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-architecture-base-weathered-masonry-asymmetric-layout",
+      "semantic_key": "scene-architecture-base-weathered-masonry-asymmetric-layout",
+      "text": "weathered masonry architecture with asymmetric layout",
+      "sentence": "Weathered masonry architecture with asymmetric layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "weathered masonry architecture with asymmetric layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing weathered masonry architecture with asymmetric layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with weathered masonry architecture with asymmetric layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-architecture-base-weathered-masonry",
+      "tags": [
+        "architecture",
+        "base",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "material-language": "weathered-masonry",
+        "treatment": "asymmetric-layout"
+      },
+      "subcategory": "weathered-masonry",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-architecture-base-weathered-masonry-central-organization",
+      "semantic_key": "scene-architecture-base-weathered-masonry-central-organization",
+      "text": "weathered masonry architecture with central organization",
+      "sentence": "Weathered masonry architecture with central organization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "weathered masonry architecture with central organization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing weathered masonry architecture with central organization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with weathered masonry architecture with central organization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-architecture-base-weathered-masonry",
+      "tags": [
+        "architecture",
+        "base",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "material-language": "weathered-masonry",
+        "treatment": "central-organization"
+      },
+      "subcategory": "weathered-masonry",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    }
+  ]
+}

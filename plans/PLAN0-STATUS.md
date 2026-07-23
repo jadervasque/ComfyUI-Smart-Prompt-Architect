@@ -10,12 +10,12 @@
 | Plano | `PLAN0.md` |
 | Versão do plano | 1.0 |
 | Status geral | `PARTIAL` |
-| Etapa atual | ETAPA 14 |
-| Última atualização | 2026-07-22 21:08 -04:00 |
+| Etapa atual | ETAPA 14 + Expansão Catálogo V2 concluída localmente |
+| Última atualização | 2026-07-23 01:13 -04:00 |
 | Responsável atual | Agente IA no VS Code |
-| Branch atual | `ci/quality-matrix` |
-| Próximo marco | Iniciar documentação e exemplos da ETAPA 14 |
-| Bloqueadores | Nenhum para iniciar a ETAPA 14 |
+| Branch atual | `docs/user-manual` |
+| Próximo marco | Revisar o diff e decidir commit/publicação da expansão |
+| Bloqueadores | Nenhum; validação Linux/GitHub Actions da expansão ainda não foi executada |
 
 ## 2. Legenda
 
@@ -45,7 +45,8 @@
 | 11 | Preview e validação API | DONE | 7, 9, 10 | 2026-07-22 19:38 -04:00 | 2026-07-22 19:43 -04:00 | `dac65e1` | Rotas e limites validados no ComfyUI local |
 | 12 | Interface avançada | DONE | 10, 11 | 2026-07-22 19:43 -04:00 | 2026-07-22 19:50 -04:00 | `3c98b5e` | Editor completo e estado avançado testado |
 | 13 | Qualidade e CI | DONE | 0–12 | 2026-07-22 19:50 -04:00 | 2026-07-22 21:08 -04:00 | `c7a3f87`, `01c8119` | CI run `29970873136` verde nos 7 jobs Linux/Windows |
-| 14 | Documentação e exemplos | PENDING | 8–13 | — | — | — | Documentação incremental obrigatória |
+| 14 | Documentação e exemplos | IN_PROGRESS | 8–13 | 2026-07-22 21:45 -04:00 | — | — | `MANUAL.md` completo e validado; demais entregas da etapa pendentes |
+| V2.1 | Expansão do Catálogo V2 | DONE | 0–13 | 2026-07-22 23:10 -04:00 | 2026-07-23 01:13 -04:00 | `5999366` (baseline) | 81 packs, 69 dimensões, 5.184 opções, 15.552 variantes e 15 perfis; gates locais aprovados |
 | 15 | Beta público 0.9.0 | PENDING | 0–14 | — | — | — | Requer autorização para publicar |
 | 16 | Release 1.0.0 | PENDING | 15 | — | — | — | Requer autorização para publicar |
 
@@ -238,6 +239,19 @@
 - [x] Workflow remoto verde em Linux e Windows.
 - [x] Commit realizado.
 
+### ETAPA 14 — Documentação e exemplos
+
+- [x] `MANUAL.md` completo para o nó e editor visual.
+- [ ] README completo.
+- [ ] Screenshots.
+- [ ] Workflows básico e modelo virtual.
+- [ ] Exemplo de perfil.
+- [ ] Regras e troubleshooting revisados.
+- [ ] Desenvolvimento, contribuição e segurança revisados.
+- [ ] Inglês e links revisados.
+- [ ] Instalação e primeiro prompt validados somente pelo README.
+- [ ] Commit realizado.
+
 ## 5. Registro de trabalho
 
 Adicionar uma entrada por sessão relevante. Não apagar entradas antigas.
@@ -261,6 +275,70 @@ Adicionar uma entrada por sessão relevante. Não apagar entradas antigas.
 - Commit/PR:
 - Próxima ação:
 ```
+
+### 2026-07-22 22:25 -04:00 — EXTENSÃO DO MODO DE CAMPO CUSTOM
+
+- Status anterior: ETAPA 14 `IN_PROGRESS`.
+- Status novo: ETAPA 14 `IN_PROGRESS`; extensão funcional solicitada em execução.
+- Branch: `docs/user-manual`.
+- Objetivo: adicionar o modo `custom` aos campos do editor, com texto livre específico por seção e composição independente das opções da biblioteca.
+- Arquivos alterados: inicialmente apenas `plans/PLAN0-STATUS.md`.
+- Implementação: iniciada.
+- Testes executados: pendentes.
+- Resultado dos testes: pendente.
+- Pendências: contrato versionado, core, frontend dinâmico, testes, documentação e validação completa.
+- Bloqueadores: nenhum.
+- Decisões: preservar `fixed` como ID de opção e representar texto livre por um modo distinto, sem acesso a rede, arquivos ou execução de código.
+- Commit/PR: pendente.
+- Próxima ação: implementar o contrato compatível e a seleção sintética segura para texto customizado.
+
+### 2026-07-22 22:37 -04:00 — CONCLUSÃO DO MODO DE CAMPO CUSTOM
+
+- Status anterior: extensão funcional em execução; ETAPA 14 `IN_PROGRESS`.
+- Status novo: extensão funcional concluída; ETAPA 14 permanece `IN_PROGRESS` por suas entregas documentais originais.
+- Branch: `docs/user-manual`.
+- Objetivo: concluir o modo `custom` por campo com editor dinâmico, persistência, composição, manifesto e compatibilidade versionada.
+- Arquivos alterados: enums, modelos, parser, selector, engine, regras, adapter ComfyUI, frontend JS/CSS, schemas 1.0/1.1, versão do pacote, testes, `MANUAL.md`, documentação técnica, changelog e este registro.
+- Implementação: `custom` adicionado ao combobox; `Custom text` aparece somente nesse modo; texto livre não vazio de até 4.096 caracteres é armazenado no workflow, resolvido antes dos campos aleatórios, protegido contra implicações e registrado como `source: custom`; schema de configuração evoluído para `1.1`, mantendo leitura de `1.0`; versão evoluída para `0.2.0.dev0`.
+- Testes executados: Ruff format/check; mypy; pytest completo com cobertura; gate de cobertura do core; Node test/check; validação dos dados; 10.000 seeds por perfil; benchmark; build; composição direta com perfil oficial; verificação HTTP dos assets servidos pelo ComfyUI local.
+- Resultado dos testes: PASS — 94 testes Python; cobertura geral 91,90%; cobertura core/application 92,91%; 7 testes frontend; 30.000 seeds; 3.000 composições de benchmark em 4,608 s; wheel e sdist `0.2.0.dev0` construídos; assets HTTP 200 contendo `custom`; prompt e manifesto oficiais confirmados. A tentativa de automação visual pelo navegador integrado não obteve conexão nesta sessão.
+- Pendências: reiniciar o ComfyUI e recarregar a página para substituir o backend Python já carregado em memória e então conferir visualmente o modal; continuar screenshots e workflows da ETAPA 14.
+- Bloqueadores: nenhum no código; validação visual depende apenas do reinício/reload da instância local.
+- Decisões: usar `value` como texto no modo `custom`, distinguido semanticamente pelo modo; limitar texto a 4.096 caracteres; preservar schema legado em `configuration-1.0.schema.json`; não reiniciar automaticamente a instância ativa do usuário.
+- Commit/PR: pendente.
+- Próxima ação: reiniciar o ComfyUI, validar visualmente `Fields > Mode > custom` e retomar as entregas documentais da ETAPA 14.
+
+### 2026-07-22 22:41 -04:00 — CORREÇÃO DE SINCRONIZAÇÃO IDENTITY LOCK
+
+- Status anterior: ETAPA 14 `IN_PROGRESS`; `identity_lock` do nó e `Groups > identity > Lock group` podiam divergir ao abrir o editor.
+- Status novo: correção de regressão em execução; ETAPA 14 permanece `IN_PROGRESS`.
+- Branch: `docs/user-manual`.
+- Objetivo: tornar o valor visível de `identity_lock` a fonte inicial do editor e manter os controles Basic/Groups vinculados em ambos os sentidos.
+- Arquivos alterados: inicialmente apenas `plans/PLAN0-STATUS.md`.
+- Implementação: iniciada.
+- Testes executados: pendentes.
+- Resultado dos testes: pendente.
+- Pendências: helper de sincronização do estado do nó, teste frontend, documentação e validação.
+- Bloqueadores: nenhum.
+- Decisões: preservar os demais campos avançados de `configuration_json`; aplicar a precedência pública já usada pelo backend também ao abrir o modal.
+- Commit/PR: pendente.
+- Próxima ação: sincronizar o estado serializado com os widgets visíveis antes de renderizar o editor.
+
+### 2026-07-22 22:43 -04:00 — CONCLUSÃO DA SINCRONIZAÇÃO IDENTITY LOCK
+
+- Status anterior: correção de regressão em execução; ETAPA 14 `IN_PROGRESS`.
+- Status novo: correção concluída; ETAPA 14 permanece `IN_PROGRESS`.
+- Branch: `docs/user-manual`.
+- Objetivo: eliminar a divergência entre o widget `identity_lock` e os controles de identidade do editor.
+- Arquivos alterados: `prompt_architect/web/prompt_architect_state.js`, `prompt_architect/web/prompt_architect.js`, `tests/frontend/state.test.mjs`, `MANUAL.md`, `CHANGELOG.md` e este registro.
+- Implementação: novo helper valida e aplica o valor booleano visível de `identity_lock` sobre o estado serializado antes da renderização; Basic e Groups passam a iniciar com esse valor, mantêm o vínculo já existente durante a edição e gravam o mesmo estado no widget e no JSON ao salvar.
+- Testes executados: Node test; Node syntax check; Ruff format/check; mypy; pytest completo; verificação HTTP do asset servido pelo ComfyUI local.
+- Resultado dos testes: PASS — 8 testes frontend, incluindo regressão `configuration_json=true`/widget visível `false`; 94 testes Python; zero erros de lint/tipagem; asset atualizado servido com HTTP 200. A automação visual pelo navegador integrado continuou indisponível por falha de conexão da ferramenta.
+- Pendências: recarregar completamente a página do ComfyUI para substituir o módulo JavaScript já importado pelo navegador; continuar ETAPA 14.
+- Bloqueadores: nenhum no código.
+- Decisões: o widget público visível mantém a mesma precedência que já possui no backend; nenhum estado avançado ou seed do grupo é descartado ao sincronizar apenas `locked`.
+- Commit/PR: pendente.
+- Próxima ação: hard reload no ComfyUI e conferir o fluxo desmarcar `identity_lock` → abrir editor → Groups → salvar.
 
 ### 2026-07-22 18:32 -04:00 — ETAPA 0
 
@@ -726,6 +804,39 @@ Adicionar uma entrada por sessão relevante. Não apagar entradas antigas.
 - Commit/PR: `01c8119` (`test: raise core coverage above quality gate`); GitHub Actions run `29970873136`.
 - Próxima ação: iniciar a ETAPA 14 — Documentação e exemplos.
 
+### 2026-07-22 21:45 -04:00 — ETAPA 14
+
+- Status anterior: `PENDING`.
+- Status novo: `IN_PROGRESS`.
+- Branch: `docs/user-manual`.
+- Objetivo: criar `MANUAL.md` passo a passo para o único nó público, todas as configurações, editor visual, entradas avançadas, saídas, integração e troubleshooting.
+- Arquivos alterados: `MANUAL.md`, `README.md` e este registro.
+- Implementação: manual em português com primeiro uso, ligações no workflow, perfis, 13 entradas, precedência, 5 modos, editor visual, campos/grupos, 5 saídas, receitas, determinismo, erros e segurança; README obsoleto corrigido e ligado ao manual.
+- Testes executados: verificador de links Markdown e cobertura dos nomes do schema; Ruff check/format, mypy, pytest, testes Node, validação dos dados e `git diff --check`.
+- Resultado dos testes: PASS; links locais válidos, 13 entradas e 5 saídas documentadas, 87 testes/337 subtests Python, 5 testes frontend e 27 JSONs oficiais aprovados.
+- Pendências: screenshots, workflows, exemplo de perfil e revisão documental restante continuam pendentes na ETAPA 14.
+- Bloqueadores: nenhum.
+- Decisões: manual em português, orientado a tarefas, com distinção explícita entre controles visíveis, estado do editor e entradas avançadas.
+- Commit/PR: `168d0cb` (`docs: add complete Prompt Architect user manual`), seguido por `6edc562` (normalização de EOF); branch publicada em `origin/docs/user-manual`.
+- Próxima ação: publicar a branch e continuar as demais entregas da ETAPA 14.
+
+### 2026-07-22 23:10 -04:00 — EXPANSÃO DO CATÁLOGO V2
+
+- Status anterior: `PENDING`.
+- Status novo: `DONE` localmente.
+- Branch: `docs/user-manual`.
+- Objetivo: implementar integralmente `PROMPT_AGENTE_EXPANSAO_CATALOGO.md` sem publicar release.
+- Arquivos alterados: contratos e schemas V2, repository, parser, seletor, regras, renderer, manifesto, 81 packs, 15 perfis, frontend, scripts de auditoria, testes, CI e documentação.
+- Implementação: índice e packs modulares versionados; 69 dimensões lógicas; seleção hierárquica por família; cinco modos de geração; variantes determinísticas; densidade adaptativa; negativos modulares; 15 perfis oficiais; manifesto V2; compatibilidade de leitura V1; gerador offline reproduzível.
+- Auditoria externa: `E:\ComfyUI\ComfyUI\wildcards` foi usado somente para ampliar a taxonomia. Nomes próprios, artistas, marcas, horror gráfico, linhas sensuais ambíguas, duplicatas e entradas multidimensionais não foram importados literalmente.
+- Correção durante a validação: a primeira execução completa revelou 63 opções de `subject-type` inacessíveis porque todos os perfis fixavam o fallback. A dimensão passou a `random`; todas as opções permanecem explicitamente adultas, e o lock do grupo de identidade preserva determinismo.
+- Resultado dos testes: 103 testes Python e 193 subtests; 8 testes Node; Ruff, format e mypy aprovados; 126 JSONs validados; 5.184 opções semanticamente únicas; 150.000 prompts com cobertura global integral, 100% de unicidade por perfil e zero fallback; benchmark dentro do limite.
+- Empacotamento: `python -m build` indisponível porque o módulo de desenvolvimento `build` não está instalado; a alternativa sem instalação `pip wheel --no-build-isolation` gerou o wheel `0.3.0.dev0`.
+- Pendências: execução da CI remota Linux/Windows e eventual commit/publicação dependem de ação posterior; nenhuma release ou Registry foi publicado.
+- Bloqueadores: nenhum para a implementação local.
+- Commit/PR: baseline pré-implementação `5999366`; alterações da expansão ainda não commitadas.
+- Próxima ação: revisar o diff, criar um commit Conventional Commit se autorizado e executar a CI por `git remote`.
+
 ## 6. Testes executados
 
 | Data | Etapa | Comando | Resultado | Evidência/observação |
@@ -807,6 +918,18 @@ Adicionar uma entrada por sessão relevante. Não apagar entradas antigas.
 | 2026-07-22 | 13 | `python -m tests.property_profiles` após correção | PASS | 10.000 seeds por perfil e 60.000 composições determinísticas. |
 | 2026-07-22 | 13 | `python -m scripts.benchmark --iterations 1000 --max-seconds 30` | PASS | 3.000 composições em 3,619 s (828,9/s). |
 | 2026-07-22 | 13 | GitHub Actions run `29970873136` | PASS | 7/7 jobs: Ubuntu/Windows em Python 3.10/3.12/3.13 e property/benchmark; todos os passos aprovados. |
+| 2026-07-22 | 14 | Validação de `MANUAL.md` e links locais | PASS | Todas as 13 entradas e 5 saídas do schema documentadas; nenhum link local quebrado. |
+| 2026-07-22 | 14 | Ruff, format, mypy, pytest, Node e validação de dados | PASS | 87 testes/337 subtests Python, 5 testes frontend e 27 JSONs aprovados. |
+| 2026-07-23 | V2.1 | `python -m ruff check .` / `python -m ruff format --check .` / `python -m mypy` | PASS | Zero erros; 53 arquivos formatados e 44 arquivos tipados. |
+| 2026-07-23 | V2.1 | `python -m pytest -q` | UNAVAILABLE | O Python 3.12 do sistema não possui o módulo opcional `pytest`; nenhuma instalação foi feita. |
+| 2026-07-23 | V2.1 | `python -m unittest discover -s tests -q` | PASS | 103 testes em 38,011 s no estado final. |
+| 2026-07-23 | V2.1 | `E:\ComfyUI\python_embeded\python.exe -m pytest -q` | PASS | 103 testes e 193 subtests em 39,50 s no estado final. |
+| 2026-07-23 | V2.1 | Testes Node e `node --check` | PASS | 8 testes frontend e sintaxe dos módulos aprovados. |
+| 2026-07-23 | V2.1 | Validadores de dados, semântica, duplicatas e wildcards | PASS | 126 JSONs; 5.184 opções únicas; zero termo proibido; auditoria externa de 48 TXT e 2.486 linhas. |
+| 2026-07-23 | V2.1 | `python -m tests.property_profiles --seeds 10000 --determinism-seeds 128 --output reports/catalog-metrics.json` | PASS | 150.000 prompts; 15 perfis; unicidade 100%; cobertura global 5.184/5.184; zero fallback. |
+| 2026-07-23 | V2.1 | `python -m scripts.benchmark --iterations 1000 --max-seconds 300` | PASS | Carga em 10,901 s; pico 12,7 MiB; 15.000 composições em 252,853 s (59,3/s). |
+| 2026-07-23 | V2.1 | `python -m pip wheel . --no-deps --no-build-isolation --wheel-dir dist` | PASS | Wheel `comfyui_prompt_architect-0.3.0.dev0-py3-none-any.whl`, 486.811 bytes, SHA-256 `f4e96c51efeba5d6b2fdbc898a246ae4e88f33fdcb50ab88c048cf4620ee912e`. |
+| 2026-07-23 | V2.1 | Scan de APIs proibidas, `compileall` e `git diff --check` | PASS | Nenhum uso de execução dinâmica, subprocesso ou biblioteca de rede no runtime; pacote compila e diff não contém erro de whitespace. |
 
 Nunca registrar `PASS` sem executar o comando.
 
@@ -818,10 +941,14 @@ Nunca registrar `PASS` sem executar o comando.
 | Cobertura total | >= 80% | 91,70% por coverage.py com branches na CI | PASS |
 | Ruff | 0 erros | 0 erros | PASS |
 | Mypy | 0 erros relevantes | 0 erros | PASS |
-| Perfis oficiais | 3 | 3 | PASS |
+| Perfis oficiais | >= 15 | 15 | PASS |
+| Packs de catálogo | Modular | 81 packs em 9 domínios | PASS |
+| Opções semânticas | >= 4.000 | 5.184 únicas | PASS |
+| Variantes textuais | 2–5 por opção | 15.552; 3 por opção | PASS |
 | Seeds testadas por perfil | 10.000 | 10.000 | PASS |
-| Prompts vazios | 0 | 0 em 30.000 seeds | PASS |
-| Placeholders residuais | 0 | 0 em 30.000 seeds | PASS |
+| Cobertura global do catálogo | 100% | 5.184/5.184 | PASS |
+| Prompts vazios | 0 | 0 em 150.000 seeds | PASS |
+| Placeholders residuais | 0 | 0 em 150.000 seeds | PASS |
 | Windows | Suportado | Core, frontend state e ComfyUI 0.27.0 validados | PASS |
 | Linux | Suportado | 87 testes e todos os gates aprovados em Python 3.10/3.12/3.13 | PASS |
 
@@ -857,6 +984,11 @@ Nunca registrar `PASS` sem executar o comando.
 | D-007 | 2026-07-22 | Não aplicar scaffold específico do ComfyUI na ETAPA 0 | Adapter público V3 pertence à ETAPA 9 e o core precisa importar sem ComfyUI | Criar adapter provisório ou legado | Bootstrap contém somente limites de pacote vazios |
 | D-008 | 2026-07-22 | Manter ETAPA 13 `PARTIAL` até uma execução Linux/Windows real da CI | O plano proíbe inventar compatibilidade ou marcar aceite não executado | Marcar `DONE` apenas com equivalentes Windows locais | Cumprida pela run `29970873136`; ETAPA 14 elegível |
 | D-009 | 2026-07-22 | Validar Linux exclusivamente pelo GitHub Actions e operar o repositório por `git remote` | O repositório público e runners hospedados fornecem a matriz reproduzível exigida | Manter uma segunda infraestrutura Linux local | Remove dependências locais do fluxo de CI |
+| D-010 | 2026-07-22 | Introduzir `custom` no schema de configuração 1.1 e preservar leitura do schema 1.0 | Texto livre por seção tem semântica distinta de um ID `fixed` e precisa ser portátil, limitado e auditável | Reutilizar `fixed` com IDs inexistentes; aceitar caminhos ou editar bibliotecas em runtime | Novo texto livre é explícito, determinístico, protegido e registrado no manifesto; pacote `0.2.0.dev0` |
+| D-011 | 2026-07-22 | Introduzir Catálogo e Manifesto V2 com leitura compatível de dados V1 | Packs independentes, proveniência, variantes e versionamento não cabem no contrato V1 sem ambiguidade | Alterar silenciosamente o schema V1; descartar compatibilidade | Contratos públicos versionados; pacote `0.3.0.dev0` |
+| D-012 | 2026-07-22 | Gerar os dados oficiais por script offline determinístico | O volume exige reprodução, revisão estrutural e IDs estáveis sem instalação ou rede em runtime | Arquivos manuais sem fonte reproduzível; geração durante execução do nó | 81 packs e 15 perfis podem ser regenerados e auditados localmente |
+| D-013 | 2026-07-22 | Usar `E:\ComfyUI\ComfyUI\wildcards` somente como referência de taxonomia | A fonte contém duplicatas, nomes próprios, marcas, conteúdo inseguro e linhas multidimensionais | Copiar linhas literalmente; ignorar completamente a taxonomia disponível | Conteúdo final é original, atômico, seguro e rastreável por domínio |
+| D-014 | 2026-07-23 | Tornar `subject-type` aleatório nos perfis oficiais, mantendo fallback adulto | A auditoria de 150.000 prompts revelou que o modo fixo deixava 63 opções seguras inacessíveis | Reduzir artificialmente o conjunto elegível; remover as opções | Cobertura global integral e maior diversidade, preservando segurança e `identity_lock` |
 
 ## 11. Dívida técnica
 
@@ -919,4 +1051,4 @@ Nunca registrar `PASS` sem executar o comando.
 
 ## 14. Próxima ação obrigatória
 
-Iniciar a **ETAPA 14 — Documentação e exemplos** em branch curta, preservando a CI verde obtida na run `29970873136`.
+Revisar o diff da expansão, decidir o commit e executar a CI remota Linux/Windows por `git remote`; a publicação de release/Registry continua condicionada a autorização explícita.

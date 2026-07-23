@@ -1,0 +1,2577 @@
+{
+  "schema_version": "2.0",
+  "id": "scene-location-historical",
+  "version": "2.0.0",
+  "library": "location",
+  "domain": "scene",
+  "category": "location",
+  "language": "en",
+  "status": "active",
+  "safety": "general",
+  "tags": [
+    "historical"
+  ],
+  "fallback_option_id": "scene-location-historical-stone-manor-hall-faithful-period-detail",
+  "options": [
+    {
+      "id": "scene-location-historical-stone-manor-hall-faithful-period-detail",
+      "semantic_key": "scene-location-historical-stone-manor-hall-faithful-period-detail",
+      "text": "a stone manor hall with faithful period detail",
+      "sentence": "A stone manor hall with faithful period detail.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a stone manor hall with faithful period detail",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a stone manor hall with faithful period detail",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a stone manor hall with faithful period detail",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-historical-stone-manor-hall",
+      "tags": [
+        "historical",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "stone-manor-hall",
+        "treatment": "faithful-period-detail"
+      },
+      "subcategory": "stone-manor-hall",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-historical-stone-manor-hall-modern-reinterpretation",
+      "semantic_key": "scene-location-historical-stone-manor-hall-modern-reinterpretation",
+      "text": "a stone manor hall with modern reinterpretation",
+      "sentence": "A stone manor hall with modern reinterpretation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a stone manor hall with modern reinterpretation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a stone manor hall with modern reinterpretation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a stone manor hall with modern reinterpretation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-historical-stone-manor-hall",
+      "tags": [
+        "historical",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "stone-manor-hall",
+        "treatment": "modern-reinterpretation"
+      },
+      "subcategory": "stone-manor-hall",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-historical-stone-manor-hall-restrained-ornament",
+      "semantic_key": "scene-location-historical-stone-manor-hall-restrained-ornament",
+      "text": "a stone manor hall with restrained ornament",
+      "sentence": "A stone manor hall with restrained ornament.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a stone manor hall with restrained ornament",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a stone manor hall with restrained ornament",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a stone manor hall with restrained ornament",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-historical-stone-manor-hall",
+      "tags": [
+        "historical",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "stone-manor-hall",
+        "treatment": "restrained-ornament"
+      },
+      "subcategory": "stone-manor-hall",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-historical-stone-manor-hall-functional-construction",
+      "semantic_key": "scene-location-historical-stone-manor-hall-functional-construction",
+      "text": "a stone manor hall with functional construction",
+      "sentence": "A stone manor hall with functional construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a stone manor hall with functional construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a stone manor hall with functional construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a stone manor hall with functional construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-historical-stone-manor-hall",
+      "tags": [
+        "historical",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "stone-manor-hall",
+        "treatment": "functional-construction"
+      },
+      "subcategory": "stone-manor-hall",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-historical-stone-manor-hall-ceremonial-refinement",
+      "semantic_key": "scene-location-historical-stone-manor-hall-ceremonial-refinement",
+      "text": "a stone manor hall with ceremonial refinement",
+      "sentence": "A stone manor hall with ceremonial refinement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a stone manor hall with ceremonial refinement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a stone manor hall with ceremonial refinement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a stone manor hall with ceremonial refinement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-historical-stone-manor-hall",
+      "tags": [
+        "historical",
+        "location",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "stone-manor-hall",
+        "treatment": "ceremonial-refinement"
+      },
+      "subcategory": "stone-manor-hall",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-historical-stone-manor-hall-everyday-authenticity",
+      "semantic_key": "scene-location-historical-stone-manor-hall-everyday-authenticity",
+      "text": "a stone manor hall with everyday authenticity",
+      "sentence": "A stone manor hall with everyday authenticity.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a stone manor hall with everyday authenticity",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a stone manor hall with everyday authenticity",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a stone manor hall with everyday authenticity",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-historical-stone-manor-hall",
+      "tags": [
+        "historical",
+        "location",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "stone-manor-hall",
+        "treatment": "everyday-authenticity"
+      },
+      "subcategory": "stone-manor-hall",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-historical-stone-manor-hall-weathered-character",
+      "semantic_key": "scene-location-historical-stone-manor-hall-weathered-character",
+      "text": "a stone manor hall with weathered character",
+      "sentence": "A stone manor hall with weathered character.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a stone manor hall with weathered character",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a stone manor hall with weathered character",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a stone manor hall with weathered character",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-historical-stone-manor-hall",
+      "tags": [
+        "historical",
+        "location",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "stone-manor-hall",
+        "treatment": "weathered-character"
+      },
+      "subcategory": "stone-manor-hall",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-historical-stone-manor-hall-museum-clean-finish",
+      "semantic_key": "scene-location-historical-stone-manor-hall-museum-clean-finish",
+      "text": "a stone manor hall with museum-clean finish",
+      "sentence": "A stone manor hall with museum-clean finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a stone manor hall with museum-clean finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a stone manor hall with museum-clean finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a stone manor hall with museum-clean finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-historical-stone-manor-hall",
+      "tags": [
+        "historical",
+        "location",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "stone-manor-hall",
+        "treatment": "museum-clean-finish"
+      },
+      "subcategory": "stone-manor-hall",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-historical-timber-framed-market-street-faithful-period-detail",
+      "semantic_key": "scene-location-historical-timber-framed-market-street-faithful-period-detail",
+      "text": "a timber-framed market street with faithful period detail",
+      "sentence": "A timber-framed market street with faithful period detail.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a timber-framed market street with faithful period detail",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a timber-framed market street with faithful period detail",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a timber-framed market street with faithful period detail",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-historical-timber-framed-market-street",
+      "tags": [
+        "historical",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "timber-framed-market-street",
+        "treatment": "faithful-period-detail"
+      },
+      "subcategory": "timber-framed-market-street",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-historical-timber-framed-market-street-modern-reinterpretation",
+      "semantic_key": "scene-location-historical-timber-framed-market-street-modern-reinterpretation",
+      "text": "a timber-framed market street with modern reinterpretation",
+      "sentence": "A timber-framed market street with modern reinterpretation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a timber-framed market street with modern reinterpretation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a timber-framed market street with modern reinterpretation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a timber-framed market street with modern reinterpretation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-historical-timber-framed-market-street",
+      "tags": [
+        "historical",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "timber-framed-market-street",
+        "treatment": "modern-reinterpretation"
+      },
+      "subcategory": "timber-framed-market-street",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-historical-timber-framed-market-street-restrained-ornament",
+      "semantic_key": "scene-location-historical-timber-framed-market-street-restrained-ornament",
+      "text": "a timber-framed market street with restrained ornament",
+      "sentence": "A timber-framed market street with restrained ornament.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a timber-framed market street with restrained ornament",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a timber-framed market street with restrained ornament",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a timber-framed market street with restrained ornament",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-historical-timber-framed-market-street",
+      "tags": [
+        "historical",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "timber-framed-market-street",
+        "treatment": "restrained-ornament"
+      },
+      "subcategory": "timber-framed-market-street",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-historical-timber-framed-market-street-functional-construction",
+      "semantic_key": "scene-location-historical-timber-framed-market-street-functional-construction",
+      "text": "a timber-framed market street with functional construction",
+      "sentence": "A timber-framed market street with functional construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a timber-framed market street with functional construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a timber-framed market street with functional construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a timber-framed market street with functional construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-historical-timber-framed-market-street",
+      "tags": [
+        "historical",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "timber-framed-market-street",
+        "treatment": "functional-construction"
+      },
+      "subcategory": "timber-framed-market-street",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-historical-timber-framed-market-street-ceremonial-refinement",
+      "semantic_key": "scene-location-historical-timber-framed-market-street-ceremonial-refinement",
+      "text": "a timber-framed market street with ceremonial refinement",
+      "sentence": "A timber-framed market street with ceremonial refinement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a timber-framed market street with ceremonial refinement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a timber-framed market street with ceremonial refinement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a timber-framed market street with ceremonial refinement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-historical-timber-framed-market-street",
+      "tags": [
+        "historical",
+        "location",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "timber-framed-market-street",
+        "treatment": "ceremonial-refinement"
+      },
+      "subcategory": "timber-framed-market-street",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-historical-timber-framed-market-street-everyday-authenticity",
+      "semantic_key": "scene-location-historical-timber-framed-market-street-everyday-authenticity",
+      "text": "a timber-framed market street with everyday authenticity",
+      "sentence": "A timber-framed market street with everyday authenticity.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a timber-framed market street with everyday authenticity",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a timber-framed market street with everyday authenticity",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a timber-framed market street with everyday authenticity",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-historical-timber-framed-market-street",
+      "tags": [
+        "historical",
+        "location",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "timber-framed-market-street",
+        "treatment": "everyday-authenticity"
+      },
+      "subcategory": "timber-framed-market-street",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-historical-timber-framed-market-street-weathered-character",
+      "semantic_key": "scene-location-historical-timber-framed-market-street-weathered-character",
+      "text": "a timber-framed market street with weathered character",
+      "sentence": "A timber-framed market street with weathered character.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a timber-framed market street with weathered character",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a timber-framed market street with weathered character",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a timber-framed market street with weathered character",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-historical-timber-framed-market-street",
+      "tags": [
+        "historical",
+        "location",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "timber-framed-market-street",
+        "treatment": "weathered-character"
+      },
+      "subcategory": "timber-framed-market-street",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-historical-timber-framed-market-street-museum-clean-finish",
+      "semantic_key": "scene-location-historical-timber-framed-market-street-museum-clean-finish",
+      "text": "a timber-framed market street with museum-clean finish",
+      "sentence": "A timber-framed market street with museum-clean finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a timber-framed market street with museum-clean finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a timber-framed market street with museum-clean finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a timber-framed market street with museum-clean finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-historical-timber-framed-market-street",
+      "tags": [
+        "historical",
+        "location",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "timber-framed-market-street",
+        "treatment": "museum-clean-finish"
+      },
+      "subcategory": "timber-framed-market-street",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-historical-formal-period-salon-faithful-period-detail",
+      "semantic_key": "scene-location-historical-formal-period-salon-faithful-period-detail",
+      "text": "a formal period salon with faithful period detail",
+      "sentence": "A formal period salon with faithful period detail.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a formal period salon with faithful period detail",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a formal period salon with faithful period detail",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a formal period salon with faithful period detail",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-historical-formal-period-salon",
+      "tags": [
+        "historical",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "formal-period-salon",
+        "treatment": "faithful-period-detail"
+      },
+      "subcategory": "formal-period-salon",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-historical-formal-period-salon-modern-reinterpretation",
+      "semantic_key": "scene-location-historical-formal-period-salon-modern-reinterpretation",
+      "text": "a formal period salon with modern reinterpretation",
+      "sentence": "A formal period salon with modern reinterpretation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a formal period salon with modern reinterpretation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a formal period salon with modern reinterpretation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a formal period salon with modern reinterpretation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-historical-formal-period-salon",
+      "tags": [
+        "historical",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "formal-period-salon",
+        "treatment": "modern-reinterpretation"
+      },
+      "subcategory": "formal-period-salon",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-historical-formal-period-salon-restrained-ornament",
+      "semantic_key": "scene-location-historical-formal-period-salon-restrained-ornament",
+      "text": "a formal period salon with restrained ornament",
+      "sentence": "A formal period salon with restrained ornament.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a formal period salon with restrained ornament",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a formal period salon with restrained ornament",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a formal period salon with restrained ornament",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-historical-formal-period-salon",
+      "tags": [
+        "historical",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "formal-period-salon",
+        "treatment": "restrained-ornament"
+      },
+      "subcategory": "formal-period-salon",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-historical-formal-period-salon-functional-construction",
+      "semantic_key": "scene-location-historical-formal-period-salon-functional-construction",
+      "text": "a formal period salon with functional construction",
+      "sentence": "A formal period salon with functional construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a formal period salon with functional construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a formal period salon with functional construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a formal period salon with functional construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-historical-formal-period-salon",
+      "tags": [
+        "historical",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "formal-period-salon",
+        "treatment": "functional-construction"
+      },
+      "subcategory": "formal-period-salon",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-historical-formal-period-salon-ceremonial-refinement",
+      "semantic_key": "scene-location-historical-formal-period-salon-ceremonial-refinement",
+      "text": "a formal period salon with ceremonial refinement",
+      "sentence": "A formal period salon with ceremonial refinement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a formal period salon with ceremonial refinement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a formal period salon with ceremonial refinement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a formal period salon with ceremonial refinement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-historical-formal-period-salon",
+      "tags": [
+        "historical",
+        "location",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "formal-period-salon",
+        "treatment": "ceremonial-refinement"
+      },
+      "subcategory": "formal-period-salon",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-historical-formal-period-salon-everyday-authenticity",
+      "semantic_key": "scene-location-historical-formal-period-salon-everyday-authenticity",
+      "text": "a formal period salon with everyday authenticity",
+      "sentence": "A formal period salon with everyday authenticity.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a formal period salon with everyday authenticity",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a formal period salon with everyday authenticity",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a formal period salon with everyday authenticity",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-historical-formal-period-salon",
+      "tags": [
+        "historical",
+        "location",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "formal-period-salon",
+        "treatment": "everyday-authenticity"
+      },
+      "subcategory": "formal-period-salon",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-historical-formal-period-salon-weathered-character",
+      "semantic_key": "scene-location-historical-formal-period-salon-weathered-character",
+      "text": "a formal period salon with weathered character",
+      "sentence": "A formal period salon with weathered character.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a formal period salon with weathered character",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a formal period salon with weathered character",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a formal period salon with weathered character",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-historical-formal-period-salon",
+      "tags": [
+        "historical",
+        "location",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "formal-period-salon",
+        "treatment": "weathered-character"
+      },
+      "subcategory": "formal-period-salon",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-historical-formal-period-salon-museum-clean-finish",
+      "semantic_key": "scene-location-historical-formal-period-salon-museum-clean-finish",
+      "text": "a formal period salon with museum-clean finish",
+      "sentence": "A formal period salon with museum-clean finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a formal period salon with museum-clean finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a formal period salon with museum-clean finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a formal period salon with museum-clean finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-historical-formal-period-salon",
+      "tags": [
+        "historical",
+        "location",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "formal-period-salon",
+        "treatment": "museum-clean-finish"
+      },
+      "subcategory": "formal-period-salon",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-historical-historic-railway-platform-faithful-period-detail",
+      "semantic_key": "scene-location-historical-historic-railway-platform-faithful-period-detail",
+      "text": "a historic railway platform with faithful period detail",
+      "sentence": "A historic railway platform with faithful period detail.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a historic railway platform with faithful period detail",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a historic railway platform with faithful period detail",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a historic railway platform with faithful period detail",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-historical-historic-railway-platform",
+      "tags": [
+        "historical",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "historic-railway-platform",
+        "treatment": "faithful-period-detail"
+      },
+      "subcategory": "historic-railway-platform",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-historical-historic-railway-platform-modern-reinterpretation",
+      "semantic_key": "scene-location-historical-historic-railway-platform-modern-reinterpretation",
+      "text": "a historic railway platform with modern reinterpretation",
+      "sentence": "A historic railway platform with modern reinterpretation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a historic railway platform with modern reinterpretation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a historic railway platform with modern reinterpretation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a historic railway platform with modern reinterpretation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-historical-historic-railway-platform",
+      "tags": [
+        "historical",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "historic-railway-platform",
+        "treatment": "modern-reinterpretation"
+      },
+      "subcategory": "historic-railway-platform",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-historical-historic-railway-platform-restrained-ornament",
+      "semantic_key": "scene-location-historical-historic-railway-platform-restrained-ornament",
+      "text": "a historic railway platform with restrained ornament",
+      "sentence": "A historic railway platform with restrained ornament.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a historic railway platform with restrained ornament",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a historic railway platform with restrained ornament",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a historic railway platform with restrained ornament",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-historical-historic-railway-platform",
+      "tags": [
+        "historical",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "historic-railway-platform",
+        "treatment": "restrained-ornament"
+      },
+      "subcategory": "historic-railway-platform",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-historical-historic-railway-platform-functional-construction",
+      "semantic_key": "scene-location-historical-historic-railway-platform-functional-construction",
+      "text": "a historic railway platform with functional construction",
+      "sentence": "A historic railway platform with functional construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a historic railway platform with functional construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a historic railway platform with functional construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a historic railway platform with functional construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-historical-historic-railway-platform",
+      "tags": [
+        "historical",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "historic-railway-platform",
+        "treatment": "functional-construction"
+      },
+      "subcategory": "historic-railway-platform",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-historical-historic-railway-platform-ceremonial-refinement",
+      "semantic_key": "scene-location-historical-historic-railway-platform-ceremonial-refinement",
+      "text": "a historic railway platform with ceremonial refinement",
+      "sentence": "A historic railway platform with ceremonial refinement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a historic railway platform with ceremonial refinement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a historic railway platform with ceremonial refinement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a historic railway platform with ceremonial refinement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-historical-historic-railway-platform",
+      "tags": [
+        "historical",
+        "location",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "historic-railway-platform",
+        "treatment": "ceremonial-refinement"
+      },
+      "subcategory": "historic-railway-platform",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-historical-historic-railway-platform-everyday-authenticity",
+      "semantic_key": "scene-location-historical-historic-railway-platform-everyday-authenticity",
+      "text": "a historic railway platform with everyday authenticity",
+      "sentence": "A historic railway platform with everyday authenticity.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a historic railway platform with everyday authenticity",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a historic railway platform with everyday authenticity",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a historic railway platform with everyday authenticity",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-historical-historic-railway-platform",
+      "tags": [
+        "historical",
+        "location",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "historic-railway-platform",
+        "treatment": "everyday-authenticity"
+      },
+      "subcategory": "historic-railway-platform",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-historical-historic-railway-platform-weathered-character",
+      "semantic_key": "scene-location-historical-historic-railway-platform-weathered-character",
+      "text": "a historic railway platform with weathered character",
+      "sentence": "A historic railway platform with weathered character.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a historic railway platform with weathered character",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a historic railway platform with weathered character",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a historic railway platform with weathered character",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-historical-historic-railway-platform",
+      "tags": [
+        "historical",
+        "location",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "historic-railway-platform",
+        "treatment": "weathered-character"
+      },
+      "subcategory": "historic-railway-platform",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-historical-historic-railway-platform-museum-clean-finish",
+      "semantic_key": "scene-location-historical-historic-railway-platform-museum-clean-finish",
+      "text": "a historic railway platform with museum-clean finish",
+      "sentence": "A historic railway platform with museum-clean finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a historic railway platform with museum-clean finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a historic railway platform with museum-clean finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a historic railway platform with museum-clean finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-historical-historic-railway-platform",
+      "tags": [
+        "historical",
+        "location",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "historic-railway-platform",
+        "treatment": "museum-clean-finish"
+      },
+      "subcategory": "historic-railway-platform",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-historical-old-university-courtyard-faithful-period-detail",
+      "semantic_key": "scene-location-historical-old-university-courtyard-faithful-period-detail",
+      "text": "a old university courtyard with faithful period detail",
+      "sentence": "A old university courtyard with faithful period detail.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a old university courtyard with faithful period detail",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a old university courtyard with faithful period detail",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a old university courtyard with faithful period detail",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-historical-old-university-courtyard",
+      "tags": [
+        "historical",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "old-university-courtyard",
+        "treatment": "faithful-period-detail"
+      },
+      "subcategory": "old-university-courtyard",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-historical-old-university-courtyard-modern-reinterpretation",
+      "semantic_key": "scene-location-historical-old-university-courtyard-modern-reinterpretation",
+      "text": "a old university courtyard with modern reinterpretation",
+      "sentence": "A old university courtyard with modern reinterpretation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a old university courtyard with modern reinterpretation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a old university courtyard with modern reinterpretation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a old university courtyard with modern reinterpretation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-historical-old-university-courtyard",
+      "tags": [
+        "historical",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "old-university-courtyard",
+        "treatment": "modern-reinterpretation"
+      },
+      "subcategory": "old-university-courtyard",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-historical-old-university-courtyard-restrained-ornament",
+      "semantic_key": "scene-location-historical-old-university-courtyard-restrained-ornament",
+      "text": "a old university courtyard with restrained ornament",
+      "sentence": "A old university courtyard with restrained ornament.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a old university courtyard with restrained ornament",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a old university courtyard with restrained ornament",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a old university courtyard with restrained ornament",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-historical-old-university-courtyard",
+      "tags": [
+        "historical",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "old-university-courtyard",
+        "treatment": "restrained-ornament"
+      },
+      "subcategory": "old-university-courtyard",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-historical-old-university-courtyard-functional-construction",
+      "semantic_key": "scene-location-historical-old-university-courtyard-functional-construction",
+      "text": "a old university courtyard with functional construction",
+      "sentence": "A old university courtyard with functional construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a old university courtyard with functional construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a old university courtyard with functional construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a old university courtyard with functional construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-historical-old-university-courtyard",
+      "tags": [
+        "historical",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "old-university-courtyard",
+        "treatment": "functional-construction"
+      },
+      "subcategory": "old-university-courtyard",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-historical-old-university-courtyard-ceremonial-refinement",
+      "semantic_key": "scene-location-historical-old-university-courtyard-ceremonial-refinement",
+      "text": "a old university courtyard with ceremonial refinement",
+      "sentence": "A old university courtyard with ceremonial refinement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a old university courtyard with ceremonial refinement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a old university courtyard with ceremonial refinement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a old university courtyard with ceremonial refinement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-historical-old-university-courtyard",
+      "tags": [
+        "historical",
+        "location",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "old-university-courtyard",
+        "treatment": "ceremonial-refinement"
+      },
+      "subcategory": "old-university-courtyard",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-historical-old-university-courtyard-everyday-authenticity",
+      "semantic_key": "scene-location-historical-old-university-courtyard-everyday-authenticity",
+      "text": "a old university courtyard with everyday authenticity",
+      "sentence": "A old university courtyard with everyday authenticity.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a old university courtyard with everyday authenticity",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a old university courtyard with everyday authenticity",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a old university courtyard with everyday authenticity",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-historical-old-university-courtyard",
+      "tags": [
+        "historical",
+        "location",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "old-university-courtyard",
+        "treatment": "everyday-authenticity"
+      },
+      "subcategory": "old-university-courtyard",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-historical-old-university-courtyard-weathered-character",
+      "semantic_key": "scene-location-historical-old-university-courtyard-weathered-character",
+      "text": "a old university courtyard with weathered character",
+      "sentence": "A old university courtyard with weathered character.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a old university courtyard with weathered character",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a old university courtyard with weathered character",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a old university courtyard with weathered character",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-historical-old-university-courtyard",
+      "tags": [
+        "historical",
+        "location",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "old-university-courtyard",
+        "treatment": "weathered-character"
+      },
+      "subcategory": "old-university-courtyard",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-historical-old-university-courtyard-museum-clean-finish",
+      "semantic_key": "scene-location-historical-old-university-courtyard-museum-clean-finish",
+      "text": "a old university courtyard with museum-clean finish",
+      "sentence": "A old university courtyard with museum-clean finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a old university courtyard with museum-clean finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a old university courtyard with museum-clean finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a old university courtyard with museum-clean finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-historical-old-university-courtyard",
+      "tags": [
+        "historical",
+        "location",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "old-university-courtyard",
+        "treatment": "museum-clean-finish"
+      },
+      "subcategory": "old-university-courtyard",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-historical-rural-stone-cottage-faithful-period-detail",
+      "semantic_key": "scene-location-historical-rural-stone-cottage-faithful-period-detail",
+      "text": "a rural stone cottage with faithful period detail",
+      "sentence": "A rural stone cottage with faithful period detail.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a rural stone cottage with faithful period detail",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a rural stone cottage with faithful period detail",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a rural stone cottage with faithful period detail",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-historical-rural-stone-cottage",
+      "tags": [
+        "historical",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "rural-stone-cottage",
+        "treatment": "faithful-period-detail"
+      },
+      "subcategory": "rural-stone-cottage",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-historical-rural-stone-cottage-modern-reinterpretation",
+      "semantic_key": "scene-location-historical-rural-stone-cottage-modern-reinterpretation",
+      "text": "a rural stone cottage with modern reinterpretation",
+      "sentence": "A rural stone cottage with modern reinterpretation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a rural stone cottage with modern reinterpretation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a rural stone cottage with modern reinterpretation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a rural stone cottage with modern reinterpretation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-historical-rural-stone-cottage",
+      "tags": [
+        "historical",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "rural-stone-cottage",
+        "treatment": "modern-reinterpretation"
+      },
+      "subcategory": "rural-stone-cottage",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-historical-rural-stone-cottage-restrained-ornament",
+      "semantic_key": "scene-location-historical-rural-stone-cottage-restrained-ornament",
+      "text": "a rural stone cottage with restrained ornament",
+      "sentence": "A rural stone cottage with restrained ornament.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a rural stone cottage with restrained ornament",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a rural stone cottage with restrained ornament",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a rural stone cottage with restrained ornament",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-historical-rural-stone-cottage",
+      "tags": [
+        "historical",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "rural-stone-cottage",
+        "treatment": "restrained-ornament"
+      },
+      "subcategory": "rural-stone-cottage",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-historical-rural-stone-cottage-functional-construction",
+      "semantic_key": "scene-location-historical-rural-stone-cottage-functional-construction",
+      "text": "a rural stone cottage with functional construction",
+      "sentence": "A rural stone cottage with functional construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a rural stone cottage with functional construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a rural stone cottage with functional construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a rural stone cottage with functional construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-historical-rural-stone-cottage",
+      "tags": [
+        "historical",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "rural-stone-cottage",
+        "treatment": "functional-construction"
+      },
+      "subcategory": "rural-stone-cottage",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-historical-rural-stone-cottage-ceremonial-refinement",
+      "semantic_key": "scene-location-historical-rural-stone-cottage-ceremonial-refinement",
+      "text": "a rural stone cottage with ceremonial refinement",
+      "sentence": "A rural stone cottage with ceremonial refinement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a rural stone cottage with ceremonial refinement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a rural stone cottage with ceremonial refinement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a rural stone cottage with ceremonial refinement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-historical-rural-stone-cottage",
+      "tags": [
+        "historical",
+        "location",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "rural-stone-cottage",
+        "treatment": "ceremonial-refinement"
+      },
+      "subcategory": "rural-stone-cottage",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-historical-rural-stone-cottage-everyday-authenticity",
+      "semantic_key": "scene-location-historical-rural-stone-cottage-everyday-authenticity",
+      "text": "a rural stone cottage with everyday authenticity",
+      "sentence": "A rural stone cottage with everyday authenticity.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a rural stone cottage with everyday authenticity",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a rural stone cottage with everyday authenticity",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a rural stone cottage with everyday authenticity",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-historical-rural-stone-cottage",
+      "tags": [
+        "historical",
+        "location",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "rural-stone-cottage",
+        "treatment": "everyday-authenticity"
+      },
+      "subcategory": "rural-stone-cottage",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-historical-rural-stone-cottage-weathered-character",
+      "semantic_key": "scene-location-historical-rural-stone-cottage-weathered-character",
+      "text": "a rural stone cottage with weathered character",
+      "sentence": "A rural stone cottage with weathered character.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a rural stone cottage with weathered character",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a rural stone cottage with weathered character",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a rural stone cottage with weathered character",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-historical-rural-stone-cottage",
+      "tags": [
+        "historical",
+        "location",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "rural-stone-cottage",
+        "treatment": "weathered-character"
+      },
+      "subcategory": "rural-stone-cottage",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-historical-rural-stone-cottage-museum-clean-finish",
+      "semantic_key": "scene-location-historical-rural-stone-cottage-museum-clean-finish",
+      "text": "a rural stone cottage with museum-clean finish",
+      "sentence": "A rural stone cottage with museum-clean finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a rural stone cottage with museum-clean finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a rural stone cottage with museum-clean finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a rural stone cottage with museum-clean finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-historical-rural-stone-cottage",
+      "tags": [
+        "historical",
+        "location",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "rural-stone-cottage",
+        "treatment": "museum-clean-finish"
+      },
+      "subcategory": "rural-stone-cottage",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-historical-classical-colonnade-faithful-period-detail",
+      "semantic_key": "scene-location-historical-classical-colonnade-faithful-period-detail",
+      "text": "a classical colonnade with faithful period detail",
+      "sentence": "A classical colonnade with faithful period detail.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a classical colonnade with faithful period detail",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a classical colonnade with faithful period detail",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a classical colonnade with faithful period detail",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-historical-classical-colonnade",
+      "tags": [
+        "historical",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "classical-colonnade",
+        "treatment": "faithful-period-detail"
+      },
+      "subcategory": "classical-colonnade",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-historical-classical-colonnade-modern-reinterpretation",
+      "semantic_key": "scene-location-historical-classical-colonnade-modern-reinterpretation",
+      "text": "a classical colonnade with modern reinterpretation",
+      "sentence": "A classical colonnade with modern reinterpretation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a classical colonnade with modern reinterpretation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a classical colonnade with modern reinterpretation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a classical colonnade with modern reinterpretation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-historical-classical-colonnade",
+      "tags": [
+        "historical",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "classical-colonnade",
+        "treatment": "modern-reinterpretation"
+      },
+      "subcategory": "classical-colonnade",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-historical-classical-colonnade-restrained-ornament",
+      "semantic_key": "scene-location-historical-classical-colonnade-restrained-ornament",
+      "text": "a classical colonnade with restrained ornament",
+      "sentence": "A classical colonnade with restrained ornament.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a classical colonnade with restrained ornament",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a classical colonnade with restrained ornament",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a classical colonnade with restrained ornament",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-historical-classical-colonnade",
+      "tags": [
+        "historical",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "classical-colonnade",
+        "treatment": "restrained-ornament"
+      },
+      "subcategory": "classical-colonnade",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-historical-classical-colonnade-functional-construction",
+      "semantic_key": "scene-location-historical-classical-colonnade-functional-construction",
+      "text": "a classical colonnade with functional construction",
+      "sentence": "A classical colonnade with functional construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a classical colonnade with functional construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a classical colonnade with functional construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a classical colonnade with functional construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-historical-classical-colonnade",
+      "tags": [
+        "historical",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "classical-colonnade",
+        "treatment": "functional-construction"
+      },
+      "subcategory": "classical-colonnade",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-historical-classical-colonnade-ceremonial-refinement",
+      "semantic_key": "scene-location-historical-classical-colonnade-ceremonial-refinement",
+      "text": "a classical colonnade with ceremonial refinement",
+      "sentence": "A classical colonnade with ceremonial refinement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a classical colonnade with ceremonial refinement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a classical colonnade with ceremonial refinement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a classical colonnade with ceremonial refinement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-historical-classical-colonnade",
+      "tags": [
+        "historical",
+        "location",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "classical-colonnade",
+        "treatment": "ceremonial-refinement"
+      },
+      "subcategory": "classical-colonnade",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-historical-classical-colonnade-everyday-authenticity",
+      "semantic_key": "scene-location-historical-classical-colonnade-everyday-authenticity",
+      "text": "a classical colonnade with everyday authenticity",
+      "sentence": "A classical colonnade with everyday authenticity.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a classical colonnade with everyday authenticity",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a classical colonnade with everyday authenticity",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a classical colonnade with everyday authenticity",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-historical-classical-colonnade",
+      "tags": [
+        "historical",
+        "location",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "classical-colonnade",
+        "treatment": "everyday-authenticity"
+      },
+      "subcategory": "classical-colonnade",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-historical-classical-colonnade-weathered-character",
+      "semantic_key": "scene-location-historical-classical-colonnade-weathered-character",
+      "text": "a classical colonnade with weathered character",
+      "sentence": "A classical colonnade with weathered character.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a classical colonnade with weathered character",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a classical colonnade with weathered character",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a classical colonnade with weathered character",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-historical-classical-colonnade",
+      "tags": [
+        "historical",
+        "location",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "classical-colonnade",
+        "treatment": "weathered-character"
+      },
+      "subcategory": "classical-colonnade",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-historical-classical-colonnade-museum-clean-finish",
+      "semantic_key": "scene-location-historical-classical-colonnade-museum-clean-finish",
+      "text": "a classical colonnade with museum-clean finish",
+      "sentence": "A classical colonnade with museum-clean finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a classical colonnade with museum-clean finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a classical colonnade with museum-clean finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a classical colonnade with museum-clean finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-historical-classical-colonnade",
+      "tags": [
+        "historical",
+        "location",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "classical-colonnade",
+        "treatment": "museum-clean-finish"
+      },
+      "subcategory": "classical-colonnade",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-historical-art-deco-hotel-interior-faithful-period-detail",
+      "semantic_key": "scene-location-historical-art-deco-hotel-interior-faithful-period-detail",
+      "text": "a art-deco hotel interior with faithful period detail",
+      "sentence": "A art-deco hotel interior with faithful period detail.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a art-deco hotel interior with faithful period detail",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a art-deco hotel interior with faithful period detail",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a art-deco hotel interior with faithful period detail",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-historical-art-deco-hotel-interior",
+      "tags": [
+        "historical",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "art-deco-hotel-interior",
+        "treatment": "faithful-period-detail"
+      },
+      "subcategory": "art-deco-hotel-interior",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-historical-art-deco-hotel-interior-modern-reinterpretation",
+      "semantic_key": "scene-location-historical-art-deco-hotel-interior-modern-reinterpretation",
+      "text": "a art-deco hotel interior with modern reinterpretation",
+      "sentence": "A art-deco hotel interior with modern reinterpretation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a art-deco hotel interior with modern reinterpretation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a art-deco hotel interior with modern reinterpretation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a art-deco hotel interior with modern reinterpretation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-historical-art-deco-hotel-interior",
+      "tags": [
+        "historical",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "art-deco-hotel-interior",
+        "treatment": "modern-reinterpretation"
+      },
+      "subcategory": "art-deco-hotel-interior",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-historical-art-deco-hotel-interior-restrained-ornament",
+      "semantic_key": "scene-location-historical-art-deco-hotel-interior-restrained-ornament",
+      "text": "a art-deco hotel interior with restrained ornament",
+      "sentence": "A art-deco hotel interior with restrained ornament.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a art-deco hotel interior with restrained ornament",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a art-deco hotel interior with restrained ornament",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a art-deco hotel interior with restrained ornament",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-historical-art-deco-hotel-interior",
+      "tags": [
+        "historical",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "art-deco-hotel-interior",
+        "treatment": "restrained-ornament"
+      },
+      "subcategory": "art-deco-hotel-interior",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-historical-art-deco-hotel-interior-functional-construction",
+      "semantic_key": "scene-location-historical-art-deco-hotel-interior-functional-construction",
+      "text": "a art-deco hotel interior with functional construction",
+      "sentence": "A art-deco hotel interior with functional construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a art-deco hotel interior with functional construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a art-deco hotel interior with functional construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a art-deco hotel interior with functional construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-historical-art-deco-hotel-interior",
+      "tags": [
+        "historical",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "art-deco-hotel-interior",
+        "treatment": "functional-construction"
+      },
+      "subcategory": "art-deco-hotel-interior",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-historical-art-deco-hotel-interior-ceremonial-refinement",
+      "semantic_key": "scene-location-historical-art-deco-hotel-interior-ceremonial-refinement",
+      "text": "a art-deco hotel interior with ceremonial refinement",
+      "sentence": "A art-deco hotel interior with ceremonial refinement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a art-deco hotel interior with ceremonial refinement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a art-deco hotel interior with ceremonial refinement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a art-deco hotel interior with ceremonial refinement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-historical-art-deco-hotel-interior",
+      "tags": [
+        "historical",
+        "location",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "art-deco-hotel-interior",
+        "treatment": "ceremonial-refinement"
+      },
+      "subcategory": "art-deco-hotel-interior",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-historical-art-deco-hotel-interior-everyday-authenticity",
+      "semantic_key": "scene-location-historical-art-deco-hotel-interior-everyday-authenticity",
+      "text": "a art-deco hotel interior with everyday authenticity",
+      "sentence": "A art-deco hotel interior with everyday authenticity.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a art-deco hotel interior with everyday authenticity",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a art-deco hotel interior with everyday authenticity",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a art-deco hotel interior with everyday authenticity",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-historical-art-deco-hotel-interior",
+      "tags": [
+        "historical",
+        "location",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "art-deco-hotel-interior",
+        "treatment": "everyday-authenticity"
+      },
+      "subcategory": "art-deco-hotel-interior",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-historical-art-deco-hotel-interior-weathered-character",
+      "semantic_key": "scene-location-historical-art-deco-hotel-interior-weathered-character",
+      "text": "a art-deco hotel interior with weathered character",
+      "sentence": "A art-deco hotel interior with weathered character.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a art-deco hotel interior with weathered character",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a art-deco hotel interior with weathered character",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a art-deco hotel interior with weathered character",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-historical-art-deco-hotel-interior",
+      "tags": [
+        "historical",
+        "location",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "art-deco-hotel-interior",
+        "treatment": "weathered-character"
+      },
+      "subcategory": "art-deco-hotel-interior",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-historical-art-deco-hotel-interior-museum-clean-finish",
+      "semantic_key": "scene-location-historical-art-deco-hotel-interior-museum-clean-finish",
+      "text": "a art-deco hotel interior with museum-clean finish",
+      "sentence": "A art-deco hotel interior with museum-clean finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a art-deco hotel interior with museum-clean finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a art-deco hotel interior with museum-clean finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a art-deco hotel interior with museum-clean finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-historical-art-deco-hotel-interior",
+      "tags": [
+        "historical",
+        "location",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "art-deco-hotel-interior",
+        "treatment": "museum-clean-finish"
+      },
+      "subcategory": "art-deco-hotel-interior",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    }
+  ]
+}

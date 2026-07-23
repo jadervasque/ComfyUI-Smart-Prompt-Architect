@@ -1,18 +1,41 @@
 # Configuration contracts
 
-Prompt Architect 1.0 uses strict, versioned JSON for profiles, libraries, node configuration, and
+Prompt Architect uses strict, versioned JSON for profiles, libraries, node configuration, and
 manifests. Unknown fields are rejected so misspellings and future semantic changes cannot be
 silently ignored. The executable parser uses only the Python standard library; JSON Schema files
 under `prompt_architect/data/schemas` document the interoperable shape.
 
-All IDs use lowercase kebab-case. Schema version `1.0` is currently the only accepted version.
-Profile and library versions use semantic version syntax. Weights must be finite and non-negative;
-zero disables an option during random selection. Library fallback IDs must resolve inside the same
-library.
+All IDs use lowercase kebab-case. Official profiles, catalog packs and manifests use schema `2.0`;
+legacy profiles, libraries and manifests `1.0` remain readable. Node configurations use schema
+`1.1`, and the editor upgrades configurations from `1.0`. Profile, pack and catalog versions use semantic
+version syntax. Weights must be finite and non-negative; zero disables an option during random
+selection. Fallback IDs must resolve inside the effective logical library.
 
 Node configuration is portable JSON. It stores a profile ID and version, generation mode, master
 seed, optional group locks/seeds, per-field modes and tag filters, and prompt prefix/suffix
 overrides. It does not contain absolute filesystem paths.
+
+Configuration schema `1.1` adds field mode `custom`. In this mode, `value` is user-authored prompt
+text instead of a library option ID. The text must be non-empty, is trimmed, is limited to 4,096
+characters, and is stored directly in the workflow. Custom values are deterministic, appear in the
+manifest with source `custom`, and cannot be silently replaced by implications. Tag filters do not
+select or rewrite custom text.
+
+```json
+{
+  "schema_version": "1.1",
+  "profile_id": "virtual-model",
+  "profile_version": "2.0.0",
+  "mode": "balanced",
+  "master_seed": 42,
+  "fields": {
+    "wardrobe-theme": {
+      "mode": "custom",
+      "value": "They wear a bespoke emerald coat with brass buttons"
+    }
+  }
+}
+```
 
 The parser rejects unknown schema versions, missing required fields, duplicate option IDs,
 unresolved local fallbacks, invalid operators, non-finite weights, and unsupported template

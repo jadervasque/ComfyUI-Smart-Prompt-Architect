@@ -1,0 +1,2577 @@
+{
+  "schema_version": "2.0",
+  "id": "performance-gaze-base",
+  "version": "2.0.0",
+  "library": "gaze",
+  "domain": "performance",
+  "category": "gaze",
+  "language": "en",
+  "status": "active",
+  "safety": "general",
+  "tags": [
+    "base"
+  ],
+  "fallback_option_id": "performance-gaze-base-direct-gaze-subtle-intensity",
+  "options": [
+    {
+      "id": "performance-gaze-base-direct-gaze-subtle-intensity",
+      "semantic_key": "performance-gaze-base-direct-gaze-subtle-intensity",
+      "text": "direct gaze with subtle intensity",
+      "sentence": "Direct gaze with subtle intensity.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "direct gaze with subtle intensity",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing direct gaze with subtle intensity",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with direct gaze with subtle intensity",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-gaze-base-direct-gaze",
+      "tags": [
+        "base",
+        "gaze",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "direction": "direct-gaze",
+        "treatment": "subtle-intensity"
+      },
+      "subcategory": "direct-gaze",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-gaze-base-direct-gaze-open-warmth",
+      "semantic_key": "performance-gaze-base-direct-gaze-open-warmth",
+      "text": "direct gaze with open warmth",
+      "sentence": "Direct gaze with open warmth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "direct gaze with open warmth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing direct gaze with open warmth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with direct gaze with open warmth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-gaze-base-direct-gaze",
+      "tags": [
+        "base",
+        "gaze",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "direction": "direct-gaze",
+        "treatment": "open-warmth"
+      },
+      "subcategory": "direct-gaze",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-gaze-base-direct-gaze-quiet-restraint",
+      "semantic_key": "performance-gaze-base-direct-gaze-quiet-restraint",
+      "text": "direct gaze with quiet restraint",
+      "sentence": "Direct gaze with quiet restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "direct gaze with quiet restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing direct gaze with quiet restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with direct gaze with quiet restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-gaze-base-direct-gaze",
+      "tags": [
+        "base",
+        "gaze",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "direction": "direct-gaze",
+        "treatment": "quiet-restraint"
+      },
+      "subcategory": "direct-gaze",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-gaze-base-direct-gaze-focused-attention",
+      "semantic_key": "performance-gaze-base-direct-gaze-focused-attention",
+      "text": "direct gaze with focused attention",
+      "sentence": "Direct gaze with focused attention.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "direct gaze with focused attention",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing direct gaze with focused attention",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with direct gaze with focused attention",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-gaze-base-direct-gaze",
+      "tags": [
+        "base",
+        "gaze",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "direction": "direct-gaze",
+        "treatment": "focused-attention"
+      },
+      "subcategory": "direct-gaze",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-gaze-base-direct-gaze-gentle-tension",
+      "semantic_key": "performance-gaze-base-direct-gaze-gentle-tension",
+      "text": "direct gaze with gentle tension",
+      "sentence": "Direct gaze with gentle tension.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "direct gaze with gentle tension",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing direct gaze with gentle tension",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with direct gaze with gentle tension",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-gaze-base-direct-gaze",
+      "tags": [
+        "base",
+        "gaze",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "direction": "direct-gaze",
+        "treatment": "gentle-tension"
+      },
+      "subcategory": "direct-gaze",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-gaze-base-direct-gaze-confident-ease",
+      "semantic_key": "performance-gaze-base-direct-gaze-confident-ease",
+      "text": "direct gaze with confident ease",
+      "sentence": "Direct gaze with confident ease.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "direct gaze with confident ease",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing direct gaze with confident ease",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with direct gaze with confident ease",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-gaze-base-direct-gaze",
+      "tags": [
+        "base",
+        "gaze",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "direction": "direct-gaze",
+        "treatment": "confident-ease"
+      },
+      "subcategory": "direct-gaze",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-gaze-base-direct-gaze-reflective-distance",
+      "semantic_key": "performance-gaze-base-direct-gaze-reflective-distance",
+      "text": "direct gaze with reflective distance",
+      "sentence": "Direct gaze with reflective distance.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "direct gaze with reflective distance",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing direct gaze with reflective distance",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with direct gaze with reflective distance",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-gaze-base-direct-gaze",
+      "tags": [
+        "base",
+        "gaze",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "direction": "direct-gaze",
+        "treatment": "reflective-distance"
+      },
+      "subcategory": "direct-gaze",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-gaze-base-direct-gaze-animated-energy",
+      "semantic_key": "performance-gaze-base-direct-gaze-animated-energy",
+      "text": "direct gaze with animated energy",
+      "sentence": "Direct gaze with animated energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "direct gaze with animated energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing direct gaze with animated energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with direct gaze with animated energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-gaze-base-direct-gaze",
+      "tags": [
+        "base",
+        "gaze",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "direction": "direct-gaze",
+        "treatment": "animated-energy"
+      },
+      "subcategory": "direct-gaze",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-gaze-base-off-camera-gaze-subtle-intensity",
+      "semantic_key": "performance-gaze-base-off-camera-gaze-subtle-intensity",
+      "text": "off-camera gaze with subtle intensity",
+      "sentence": "Off-camera gaze with subtle intensity.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "off-camera gaze with subtle intensity",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing off-camera gaze with subtle intensity",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with off-camera gaze with subtle intensity",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-gaze-base-off-camera-gaze",
+      "tags": [
+        "base",
+        "gaze",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "direction": "off-camera-gaze",
+        "treatment": "subtle-intensity"
+      },
+      "subcategory": "off-camera-gaze",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-gaze-base-off-camera-gaze-open-warmth",
+      "semantic_key": "performance-gaze-base-off-camera-gaze-open-warmth",
+      "text": "off-camera gaze with open warmth",
+      "sentence": "Off-camera gaze with open warmth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "off-camera gaze with open warmth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing off-camera gaze with open warmth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with off-camera gaze with open warmth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-gaze-base-off-camera-gaze",
+      "tags": [
+        "base",
+        "gaze",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "direction": "off-camera-gaze",
+        "treatment": "open-warmth"
+      },
+      "subcategory": "off-camera-gaze",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-gaze-base-off-camera-gaze-quiet-restraint",
+      "semantic_key": "performance-gaze-base-off-camera-gaze-quiet-restraint",
+      "text": "off-camera gaze with quiet restraint",
+      "sentence": "Off-camera gaze with quiet restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "off-camera gaze with quiet restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing off-camera gaze with quiet restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with off-camera gaze with quiet restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-gaze-base-off-camera-gaze",
+      "tags": [
+        "base",
+        "gaze",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "direction": "off-camera-gaze",
+        "treatment": "quiet-restraint"
+      },
+      "subcategory": "off-camera-gaze",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-gaze-base-off-camera-gaze-focused-attention",
+      "semantic_key": "performance-gaze-base-off-camera-gaze-focused-attention",
+      "text": "off-camera gaze with focused attention",
+      "sentence": "Off-camera gaze with focused attention.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "off-camera gaze with focused attention",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing off-camera gaze with focused attention",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with off-camera gaze with focused attention",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-gaze-base-off-camera-gaze",
+      "tags": [
+        "base",
+        "gaze",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "direction": "off-camera-gaze",
+        "treatment": "focused-attention"
+      },
+      "subcategory": "off-camera-gaze",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-gaze-base-off-camera-gaze-gentle-tension",
+      "semantic_key": "performance-gaze-base-off-camera-gaze-gentle-tension",
+      "text": "off-camera gaze with gentle tension",
+      "sentence": "Off-camera gaze with gentle tension.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "off-camera gaze with gentle tension",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing off-camera gaze with gentle tension",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with off-camera gaze with gentle tension",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-gaze-base-off-camera-gaze",
+      "tags": [
+        "base",
+        "gaze",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "direction": "off-camera-gaze",
+        "treatment": "gentle-tension"
+      },
+      "subcategory": "off-camera-gaze",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-gaze-base-off-camera-gaze-confident-ease",
+      "semantic_key": "performance-gaze-base-off-camera-gaze-confident-ease",
+      "text": "off-camera gaze with confident ease",
+      "sentence": "Off-camera gaze with confident ease.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "off-camera gaze with confident ease",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing off-camera gaze with confident ease",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with off-camera gaze with confident ease",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-gaze-base-off-camera-gaze",
+      "tags": [
+        "base",
+        "gaze",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "direction": "off-camera-gaze",
+        "treatment": "confident-ease"
+      },
+      "subcategory": "off-camera-gaze",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-gaze-base-off-camera-gaze-reflective-distance",
+      "semantic_key": "performance-gaze-base-off-camera-gaze-reflective-distance",
+      "text": "off-camera gaze with reflective distance",
+      "sentence": "Off-camera gaze with reflective distance.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "off-camera gaze with reflective distance",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing off-camera gaze with reflective distance",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with off-camera gaze with reflective distance",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-gaze-base-off-camera-gaze",
+      "tags": [
+        "base",
+        "gaze",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "direction": "off-camera-gaze",
+        "treatment": "reflective-distance"
+      },
+      "subcategory": "off-camera-gaze",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-gaze-base-off-camera-gaze-animated-energy",
+      "semantic_key": "performance-gaze-base-off-camera-gaze-animated-energy",
+      "text": "off-camera gaze with animated energy",
+      "sentence": "Off-camera gaze with animated energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "off-camera gaze with animated energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing off-camera gaze with animated energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with off-camera gaze with animated energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-gaze-base-off-camera-gaze",
+      "tags": [
+        "base",
+        "gaze",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "direction": "off-camera-gaze",
+        "treatment": "animated-energy"
+      },
+      "subcategory": "off-camera-gaze",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-gaze-base-downward-gaze-subtle-intensity",
+      "semantic_key": "performance-gaze-base-downward-gaze-subtle-intensity",
+      "text": "downward gaze with subtle intensity",
+      "sentence": "Downward gaze with subtle intensity.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "downward gaze with subtle intensity",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing downward gaze with subtle intensity",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with downward gaze with subtle intensity",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-gaze-base-downward-gaze",
+      "tags": [
+        "base",
+        "gaze",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "direction": "downward-gaze",
+        "treatment": "subtle-intensity"
+      },
+      "subcategory": "downward-gaze",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-gaze-base-downward-gaze-open-warmth",
+      "semantic_key": "performance-gaze-base-downward-gaze-open-warmth",
+      "text": "downward gaze with open warmth",
+      "sentence": "Downward gaze with open warmth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "downward gaze with open warmth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing downward gaze with open warmth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with downward gaze with open warmth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-gaze-base-downward-gaze",
+      "tags": [
+        "base",
+        "gaze",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "direction": "downward-gaze",
+        "treatment": "open-warmth"
+      },
+      "subcategory": "downward-gaze",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-gaze-base-downward-gaze-quiet-restraint",
+      "semantic_key": "performance-gaze-base-downward-gaze-quiet-restraint",
+      "text": "downward gaze with quiet restraint",
+      "sentence": "Downward gaze with quiet restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "downward gaze with quiet restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing downward gaze with quiet restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with downward gaze with quiet restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-gaze-base-downward-gaze",
+      "tags": [
+        "base",
+        "gaze",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "direction": "downward-gaze",
+        "treatment": "quiet-restraint"
+      },
+      "subcategory": "downward-gaze",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-gaze-base-downward-gaze-focused-attention",
+      "semantic_key": "performance-gaze-base-downward-gaze-focused-attention",
+      "text": "downward gaze with focused attention",
+      "sentence": "Downward gaze with focused attention.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "downward gaze with focused attention",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing downward gaze with focused attention",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with downward gaze with focused attention",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-gaze-base-downward-gaze",
+      "tags": [
+        "base",
+        "gaze",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "direction": "downward-gaze",
+        "treatment": "focused-attention"
+      },
+      "subcategory": "downward-gaze",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-gaze-base-downward-gaze-gentle-tension",
+      "semantic_key": "performance-gaze-base-downward-gaze-gentle-tension",
+      "text": "downward gaze with gentle tension",
+      "sentence": "Downward gaze with gentle tension.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "downward gaze with gentle tension",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing downward gaze with gentle tension",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with downward gaze with gentle tension",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-gaze-base-downward-gaze",
+      "tags": [
+        "base",
+        "gaze",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "direction": "downward-gaze",
+        "treatment": "gentle-tension"
+      },
+      "subcategory": "downward-gaze",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-gaze-base-downward-gaze-confident-ease",
+      "semantic_key": "performance-gaze-base-downward-gaze-confident-ease",
+      "text": "downward gaze with confident ease",
+      "sentence": "Downward gaze with confident ease.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "downward gaze with confident ease",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing downward gaze with confident ease",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with downward gaze with confident ease",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-gaze-base-downward-gaze",
+      "tags": [
+        "base",
+        "gaze",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "direction": "downward-gaze",
+        "treatment": "confident-ease"
+      },
+      "subcategory": "downward-gaze",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-gaze-base-downward-gaze-reflective-distance",
+      "semantic_key": "performance-gaze-base-downward-gaze-reflective-distance",
+      "text": "downward gaze with reflective distance",
+      "sentence": "Downward gaze with reflective distance.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "downward gaze with reflective distance",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing downward gaze with reflective distance",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with downward gaze with reflective distance",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-gaze-base-downward-gaze",
+      "tags": [
+        "base",
+        "gaze",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "direction": "downward-gaze",
+        "treatment": "reflective-distance"
+      },
+      "subcategory": "downward-gaze",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-gaze-base-downward-gaze-animated-energy",
+      "semantic_key": "performance-gaze-base-downward-gaze-animated-energy",
+      "text": "downward gaze with animated energy",
+      "sentence": "Downward gaze with animated energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "downward gaze with animated energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing downward gaze with animated energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with downward gaze with animated energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-gaze-base-downward-gaze",
+      "tags": [
+        "base",
+        "gaze",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "direction": "downward-gaze",
+        "treatment": "animated-energy"
+      },
+      "subcategory": "downward-gaze",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-gaze-base-upward-gaze-subtle-intensity",
+      "semantic_key": "performance-gaze-base-upward-gaze-subtle-intensity",
+      "text": "upward gaze with subtle intensity",
+      "sentence": "Upward gaze with subtle intensity.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "upward gaze with subtle intensity",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing upward gaze with subtle intensity",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with upward gaze with subtle intensity",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-gaze-base-upward-gaze",
+      "tags": [
+        "base",
+        "gaze",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "direction": "upward-gaze",
+        "treatment": "subtle-intensity"
+      },
+      "subcategory": "upward-gaze",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-gaze-base-upward-gaze-open-warmth",
+      "semantic_key": "performance-gaze-base-upward-gaze-open-warmth",
+      "text": "upward gaze with open warmth",
+      "sentence": "Upward gaze with open warmth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "upward gaze with open warmth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing upward gaze with open warmth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with upward gaze with open warmth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-gaze-base-upward-gaze",
+      "tags": [
+        "base",
+        "gaze",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "direction": "upward-gaze",
+        "treatment": "open-warmth"
+      },
+      "subcategory": "upward-gaze",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-gaze-base-upward-gaze-quiet-restraint",
+      "semantic_key": "performance-gaze-base-upward-gaze-quiet-restraint",
+      "text": "upward gaze with quiet restraint",
+      "sentence": "Upward gaze with quiet restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "upward gaze with quiet restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing upward gaze with quiet restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with upward gaze with quiet restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-gaze-base-upward-gaze",
+      "tags": [
+        "base",
+        "gaze",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "direction": "upward-gaze",
+        "treatment": "quiet-restraint"
+      },
+      "subcategory": "upward-gaze",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-gaze-base-upward-gaze-focused-attention",
+      "semantic_key": "performance-gaze-base-upward-gaze-focused-attention",
+      "text": "upward gaze with focused attention",
+      "sentence": "Upward gaze with focused attention.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "upward gaze with focused attention",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing upward gaze with focused attention",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with upward gaze with focused attention",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-gaze-base-upward-gaze",
+      "tags": [
+        "base",
+        "gaze",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "direction": "upward-gaze",
+        "treatment": "focused-attention"
+      },
+      "subcategory": "upward-gaze",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-gaze-base-upward-gaze-gentle-tension",
+      "semantic_key": "performance-gaze-base-upward-gaze-gentle-tension",
+      "text": "upward gaze with gentle tension",
+      "sentence": "Upward gaze with gentle tension.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "upward gaze with gentle tension",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing upward gaze with gentle tension",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with upward gaze with gentle tension",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-gaze-base-upward-gaze",
+      "tags": [
+        "base",
+        "gaze",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "direction": "upward-gaze",
+        "treatment": "gentle-tension"
+      },
+      "subcategory": "upward-gaze",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-gaze-base-upward-gaze-confident-ease",
+      "semantic_key": "performance-gaze-base-upward-gaze-confident-ease",
+      "text": "upward gaze with confident ease",
+      "sentence": "Upward gaze with confident ease.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "upward gaze with confident ease",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing upward gaze with confident ease",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with upward gaze with confident ease",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-gaze-base-upward-gaze",
+      "tags": [
+        "base",
+        "gaze",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "direction": "upward-gaze",
+        "treatment": "confident-ease"
+      },
+      "subcategory": "upward-gaze",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-gaze-base-upward-gaze-reflective-distance",
+      "semantic_key": "performance-gaze-base-upward-gaze-reflective-distance",
+      "text": "upward gaze with reflective distance",
+      "sentence": "Upward gaze with reflective distance.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "upward gaze with reflective distance",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing upward gaze with reflective distance",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with upward gaze with reflective distance",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-gaze-base-upward-gaze",
+      "tags": [
+        "base",
+        "gaze",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "direction": "upward-gaze",
+        "treatment": "reflective-distance"
+      },
+      "subcategory": "upward-gaze",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-gaze-base-upward-gaze-animated-energy",
+      "semantic_key": "performance-gaze-base-upward-gaze-animated-energy",
+      "text": "upward gaze with animated energy",
+      "sentence": "Upward gaze with animated energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "upward gaze with animated energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing upward gaze with animated energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with upward gaze with animated energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-gaze-base-upward-gaze",
+      "tags": [
+        "base",
+        "gaze",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "direction": "upward-gaze",
+        "treatment": "animated-energy"
+      },
+      "subcategory": "upward-gaze",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-gaze-base-sideward-gaze-subtle-intensity",
+      "semantic_key": "performance-gaze-base-sideward-gaze-subtle-intensity",
+      "text": "sideward gaze with subtle intensity",
+      "sentence": "Sideward gaze with subtle intensity.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "sideward gaze with subtle intensity",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing sideward gaze with subtle intensity",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with sideward gaze with subtle intensity",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-gaze-base-sideward-gaze",
+      "tags": [
+        "base",
+        "gaze",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "direction": "sideward-gaze",
+        "treatment": "subtle-intensity"
+      },
+      "subcategory": "sideward-gaze",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-gaze-base-sideward-gaze-open-warmth",
+      "semantic_key": "performance-gaze-base-sideward-gaze-open-warmth",
+      "text": "sideward gaze with open warmth",
+      "sentence": "Sideward gaze with open warmth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "sideward gaze with open warmth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing sideward gaze with open warmth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with sideward gaze with open warmth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-gaze-base-sideward-gaze",
+      "tags": [
+        "base",
+        "gaze",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "direction": "sideward-gaze",
+        "treatment": "open-warmth"
+      },
+      "subcategory": "sideward-gaze",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-gaze-base-sideward-gaze-quiet-restraint",
+      "semantic_key": "performance-gaze-base-sideward-gaze-quiet-restraint",
+      "text": "sideward gaze with quiet restraint",
+      "sentence": "Sideward gaze with quiet restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "sideward gaze with quiet restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing sideward gaze with quiet restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with sideward gaze with quiet restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-gaze-base-sideward-gaze",
+      "tags": [
+        "base",
+        "gaze",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "direction": "sideward-gaze",
+        "treatment": "quiet-restraint"
+      },
+      "subcategory": "sideward-gaze",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-gaze-base-sideward-gaze-focused-attention",
+      "semantic_key": "performance-gaze-base-sideward-gaze-focused-attention",
+      "text": "sideward gaze with focused attention",
+      "sentence": "Sideward gaze with focused attention.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "sideward gaze with focused attention",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing sideward gaze with focused attention",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with sideward gaze with focused attention",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-gaze-base-sideward-gaze",
+      "tags": [
+        "base",
+        "gaze",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "direction": "sideward-gaze",
+        "treatment": "focused-attention"
+      },
+      "subcategory": "sideward-gaze",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-gaze-base-sideward-gaze-gentle-tension",
+      "semantic_key": "performance-gaze-base-sideward-gaze-gentle-tension",
+      "text": "sideward gaze with gentle tension",
+      "sentence": "Sideward gaze with gentle tension.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "sideward gaze with gentle tension",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing sideward gaze with gentle tension",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with sideward gaze with gentle tension",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-gaze-base-sideward-gaze",
+      "tags": [
+        "base",
+        "gaze",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "direction": "sideward-gaze",
+        "treatment": "gentle-tension"
+      },
+      "subcategory": "sideward-gaze",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-gaze-base-sideward-gaze-confident-ease",
+      "semantic_key": "performance-gaze-base-sideward-gaze-confident-ease",
+      "text": "sideward gaze with confident ease",
+      "sentence": "Sideward gaze with confident ease.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "sideward gaze with confident ease",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing sideward gaze with confident ease",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with sideward gaze with confident ease",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-gaze-base-sideward-gaze",
+      "tags": [
+        "base",
+        "gaze",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "direction": "sideward-gaze",
+        "treatment": "confident-ease"
+      },
+      "subcategory": "sideward-gaze",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-gaze-base-sideward-gaze-reflective-distance",
+      "semantic_key": "performance-gaze-base-sideward-gaze-reflective-distance",
+      "text": "sideward gaze with reflective distance",
+      "sentence": "Sideward gaze with reflective distance.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "sideward gaze with reflective distance",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing sideward gaze with reflective distance",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with sideward gaze with reflective distance",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-gaze-base-sideward-gaze",
+      "tags": [
+        "base",
+        "gaze",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "direction": "sideward-gaze",
+        "treatment": "reflective-distance"
+      },
+      "subcategory": "sideward-gaze",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-gaze-base-sideward-gaze-animated-energy",
+      "semantic_key": "performance-gaze-base-sideward-gaze-animated-energy",
+      "text": "sideward gaze with animated energy",
+      "sentence": "Sideward gaze with animated energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "sideward gaze with animated energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing sideward gaze with animated energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with sideward gaze with animated energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-gaze-base-sideward-gaze",
+      "tags": [
+        "base",
+        "gaze",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "direction": "sideward-gaze",
+        "treatment": "animated-energy"
+      },
+      "subcategory": "sideward-gaze",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-gaze-base-distant-gaze-subtle-intensity",
+      "semantic_key": "performance-gaze-base-distant-gaze-subtle-intensity",
+      "text": "distant gaze with subtle intensity",
+      "sentence": "Distant gaze with subtle intensity.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "distant gaze with subtle intensity",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing distant gaze with subtle intensity",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with distant gaze with subtle intensity",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-gaze-base-distant-gaze",
+      "tags": [
+        "base",
+        "gaze",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "direction": "distant-gaze",
+        "treatment": "subtle-intensity"
+      },
+      "subcategory": "distant-gaze",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-gaze-base-distant-gaze-open-warmth",
+      "semantic_key": "performance-gaze-base-distant-gaze-open-warmth",
+      "text": "distant gaze with open warmth",
+      "sentence": "Distant gaze with open warmth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "distant gaze with open warmth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing distant gaze with open warmth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with distant gaze with open warmth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-gaze-base-distant-gaze",
+      "tags": [
+        "base",
+        "gaze",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "direction": "distant-gaze",
+        "treatment": "open-warmth"
+      },
+      "subcategory": "distant-gaze",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-gaze-base-distant-gaze-quiet-restraint",
+      "semantic_key": "performance-gaze-base-distant-gaze-quiet-restraint",
+      "text": "distant gaze with quiet restraint",
+      "sentence": "Distant gaze with quiet restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "distant gaze with quiet restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing distant gaze with quiet restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with distant gaze with quiet restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-gaze-base-distant-gaze",
+      "tags": [
+        "base",
+        "gaze",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "direction": "distant-gaze",
+        "treatment": "quiet-restraint"
+      },
+      "subcategory": "distant-gaze",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-gaze-base-distant-gaze-focused-attention",
+      "semantic_key": "performance-gaze-base-distant-gaze-focused-attention",
+      "text": "distant gaze with focused attention",
+      "sentence": "Distant gaze with focused attention.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "distant gaze with focused attention",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing distant gaze with focused attention",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with distant gaze with focused attention",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-gaze-base-distant-gaze",
+      "tags": [
+        "base",
+        "gaze",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "direction": "distant-gaze",
+        "treatment": "focused-attention"
+      },
+      "subcategory": "distant-gaze",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-gaze-base-distant-gaze-gentle-tension",
+      "semantic_key": "performance-gaze-base-distant-gaze-gentle-tension",
+      "text": "distant gaze with gentle tension",
+      "sentence": "Distant gaze with gentle tension.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "distant gaze with gentle tension",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing distant gaze with gentle tension",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with distant gaze with gentle tension",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-gaze-base-distant-gaze",
+      "tags": [
+        "base",
+        "gaze",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "direction": "distant-gaze",
+        "treatment": "gentle-tension"
+      },
+      "subcategory": "distant-gaze",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-gaze-base-distant-gaze-confident-ease",
+      "semantic_key": "performance-gaze-base-distant-gaze-confident-ease",
+      "text": "distant gaze with confident ease",
+      "sentence": "Distant gaze with confident ease.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "distant gaze with confident ease",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing distant gaze with confident ease",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with distant gaze with confident ease",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-gaze-base-distant-gaze",
+      "tags": [
+        "base",
+        "gaze",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "direction": "distant-gaze",
+        "treatment": "confident-ease"
+      },
+      "subcategory": "distant-gaze",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-gaze-base-distant-gaze-reflective-distance",
+      "semantic_key": "performance-gaze-base-distant-gaze-reflective-distance",
+      "text": "distant gaze with reflective distance",
+      "sentence": "Distant gaze with reflective distance.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "distant gaze with reflective distance",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing distant gaze with reflective distance",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with distant gaze with reflective distance",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-gaze-base-distant-gaze",
+      "tags": [
+        "base",
+        "gaze",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "direction": "distant-gaze",
+        "treatment": "reflective-distance"
+      },
+      "subcategory": "distant-gaze",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-gaze-base-distant-gaze-animated-energy",
+      "semantic_key": "performance-gaze-base-distant-gaze-animated-energy",
+      "text": "distant gaze with animated energy",
+      "sentence": "Distant gaze with animated energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "distant gaze with animated energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing distant gaze with animated energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with distant gaze with animated energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-gaze-base-distant-gaze",
+      "tags": [
+        "base",
+        "gaze",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "direction": "distant-gaze",
+        "treatment": "animated-energy"
+      },
+      "subcategory": "distant-gaze",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-gaze-base-softly-focused-gaze-subtle-intensity",
+      "semantic_key": "performance-gaze-base-softly-focused-gaze-subtle-intensity",
+      "text": "softly focused gaze with subtle intensity",
+      "sentence": "Softly focused gaze with subtle intensity.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "softly focused gaze with subtle intensity",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing softly focused gaze with subtle intensity",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with softly focused gaze with subtle intensity",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-gaze-base-softly-focused-gaze",
+      "tags": [
+        "base",
+        "gaze",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "direction": "softly-focused-gaze",
+        "treatment": "subtle-intensity"
+      },
+      "subcategory": "softly-focused-gaze",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-gaze-base-softly-focused-gaze-open-warmth",
+      "semantic_key": "performance-gaze-base-softly-focused-gaze-open-warmth",
+      "text": "softly focused gaze with open warmth",
+      "sentence": "Softly focused gaze with open warmth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "softly focused gaze with open warmth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing softly focused gaze with open warmth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with softly focused gaze with open warmth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-gaze-base-softly-focused-gaze",
+      "tags": [
+        "base",
+        "gaze",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "direction": "softly-focused-gaze",
+        "treatment": "open-warmth"
+      },
+      "subcategory": "softly-focused-gaze",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-gaze-base-softly-focused-gaze-quiet-restraint",
+      "semantic_key": "performance-gaze-base-softly-focused-gaze-quiet-restraint",
+      "text": "softly focused gaze with quiet restraint",
+      "sentence": "Softly focused gaze with quiet restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "softly focused gaze with quiet restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing softly focused gaze with quiet restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with softly focused gaze with quiet restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-gaze-base-softly-focused-gaze",
+      "tags": [
+        "base",
+        "gaze",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "direction": "softly-focused-gaze",
+        "treatment": "quiet-restraint"
+      },
+      "subcategory": "softly-focused-gaze",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-gaze-base-softly-focused-gaze-focused-attention",
+      "semantic_key": "performance-gaze-base-softly-focused-gaze-focused-attention",
+      "text": "softly focused gaze with focused attention",
+      "sentence": "Softly focused gaze with focused attention.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "softly focused gaze with focused attention",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing softly focused gaze with focused attention",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with softly focused gaze with focused attention",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-gaze-base-softly-focused-gaze",
+      "tags": [
+        "base",
+        "gaze",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "direction": "softly-focused-gaze",
+        "treatment": "focused-attention"
+      },
+      "subcategory": "softly-focused-gaze",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-gaze-base-softly-focused-gaze-gentle-tension",
+      "semantic_key": "performance-gaze-base-softly-focused-gaze-gentle-tension",
+      "text": "softly focused gaze with gentle tension",
+      "sentence": "Softly focused gaze with gentle tension.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "softly focused gaze with gentle tension",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing softly focused gaze with gentle tension",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with softly focused gaze with gentle tension",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-gaze-base-softly-focused-gaze",
+      "tags": [
+        "base",
+        "gaze",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "direction": "softly-focused-gaze",
+        "treatment": "gentle-tension"
+      },
+      "subcategory": "softly-focused-gaze",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-gaze-base-softly-focused-gaze-confident-ease",
+      "semantic_key": "performance-gaze-base-softly-focused-gaze-confident-ease",
+      "text": "softly focused gaze with confident ease",
+      "sentence": "Softly focused gaze with confident ease.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "softly focused gaze with confident ease",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing softly focused gaze with confident ease",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with softly focused gaze with confident ease",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-gaze-base-softly-focused-gaze",
+      "tags": [
+        "base",
+        "gaze",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "direction": "softly-focused-gaze",
+        "treatment": "confident-ease"
+      },
+      "subcategory": "softly-focused-gaze",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-gaze-base-softly-focused-gaze-reflective-distance",
+      "semantic_key": "performance-gaze-base-softly-focused-gaze-reflective-distance",
+      "text": "softly focused gaze with reflective distance",
+      "sentence": "Softly focused gaze with reflective distance.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "softly focused gaze with reflective distance",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing softly focused gaze with reflective distance",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with softly focused gaze with reflective distance",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-gaze-base-softly-focused-gaze",
+      "tags": [
+        "base",
+        "gaze",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "direction": "softly-focused-gaze",
+        "treatment": "reflective-distance"
+      },
+      "subcategory": "softly-focused-gaze",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-gaze-base-softly-focused-gaze-animated-energy",
+      "semantic_key": "performance-gaze-base-softly-focused-gaze-animated-energy",
+      "text": "softly focused gaze with animated energy",
+      "sentence": "Softly focused gaze with animated energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "softly focused gaze with animated energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing softly focused gaze with animated energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with softly focused gaze with animated energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-gaze-base-softly-focused-gaze",
+      "tags": [
+        "base",
+        "gaze",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "direction": "softly-focused-gaze",
+        "treatment": "animated-energy"
+      },
+      "subcategory": "softly-focused-gaze",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-gaze-base-intently-focused-gaze-subtle-intensity",
+      "semantic_key": "performance-gaze-base-intently-focused-gaze-subtle-intensity",
+      "text": "intently focused gaze with subtle intensity",
+      "sentence": "Intently focused gaze with subtle intensity.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "intently focused gaze with subtle intensity",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing intently focused gaze with subtle intensity",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with intently focused gaze with subtle intensity",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-gaze-base-intently-focused-gaze",
+      "tags": [
+        "base",
+        "gaze",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "direction": "intently-focused-gaze",
+        "treatment": "subtle-intensity"
+      },
+      "subcategory": "intently-focused-gaze",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-gaze-base-intently-focused-gaze-open-warmth",
+      "semantic_key": "performance-gaze-base-intently-focused-gaze-open-warmth",
+      "text": "intently focused gaze with open warmth",
+      "sentence": "Intently focused gaze with open warmth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "intently focused gaze with open warmth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing intently focused gaze with open warmth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with intently focused gaze with open warmth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-gaze-base-intently-focused-gaze",
+      "tags": [
+        "base",
+        "gaze",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "direction": "intently-focused-gaze",
+        "treatment": "open-warmth"
+      },
+      "subcategory": "intently-focused-gaze",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-gaze-base-intently-focused-gaze-quiet-restraint",
+      "semantic_key": "performance-gaze-base-intently-focused-gaze-quiet-restraint",
+      "text": "intently focused gaze with quiet restraint",
+      "sentence": "Intently focused gaze with quiet restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "intently focused gaze with quiet restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing intently focused gaze with quiet restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with intently focused gaze with quiet restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-gaze-base-intently-focused-gaze",
+      "tags": [
+        "base",
+        "gaze",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "direction": "intently-focused-gaze",
+        "treatment": "quiet-restraint"
+      },
+      "subcategory": "intently-focused-gaze",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-gaze-base-intently-focused-gaze-focused-attention",
+      "semantic_key": "performance-gaze-base-intently-focused-gaze-focused-attention",
+      "text": "intently focused gaze with focused attention",
+      "sentence": "Intently focused gaze with focused attention.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "intently focused gaze with focused attention",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing intently focused gaze with focused attention",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with intently focused gaze with focused attention",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-gaze-base-intently-focused-gaze",
+      "tags": [
+        "base",
+        "gaze",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "direction": "intently-focused-gaze",
+        "treatment": "focused-attention"
+      },
+      "subcategory": "intently-focused-gaze",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-gaze-base-intently-focused-gaze-gentle-tension",
+      "semantic_key": "performance-gaze-base-intently-focused-gaze-gentle-tension",
+      "text": "intently focused gaze with gentle tension",
+      "sentence": "Intently focused gaze with gentle tension.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "intently focused gaze with gentle tension",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing intently focused gaze with gentle tension",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with intently focused gaze with gentle tension",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-gaze-base-intently-focused-gaze",
+      "tags": [
+        "base",
+        "gaze",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "direction": "intently-focused-gaze",
+        "treatment": "gentle-tension"
+      },
+      "subcategory": "intently-focused-gaze",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-gaze-base-intently-focused-gaze-confident-ease",
+      "semantic_key": "performance-gaze-base-intently-focused-gaze-confident-ease",
+      "text": "intently focused gaze with confident ease",
+      "sentence": "Intently focused gaze with confident ease.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "intently focused gaze with confident ease",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing intently focused gaze with confident ease",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with intently focused gaze with confident ease",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-gaze-base-intently-focused-gaze",
+      "tags": [
+        "base",
+        "gaze",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "direction": "intently-focused-gaze",
+        "treatment": "confident-ease"
+      },
+      "subcategory": "intently-focused-gaze",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-gaze-base-intently-focused-gaze-reflective-distance",
+      "semantic_key": "performance-gaze-base-intently-focused-gaze-reflective-distance",
+      "text": "intently focused gaze with reflective distance",
+      "sentence": "Intently focused gaze with reflective distance.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "intently focused gaze with reflective distance",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing intently focused gaze with reflective distance",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with intently focused gaze with reflective distance",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-gaze-base-intently-focused-gaze",
+      "tags": [
+        "base",
+        "gaze",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "direction": "intently-focused-gaze",
+        "treatment": "reflective-distance"
+      },
+      "subcategory": "intently-focused-gaze",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-gaze-base-intently-focused-gaze-animated-energy",
+      "semantic_key": "performance-gaze-base-intently-focused-gaze-animated-energy",
+      "text": "intently focused gaze with animated energy",
+      "sentence": "Intently focused gaze with animated energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "intently focused gaze with animated energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing intently focused gaze with animated energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with intently focused gaze with animated energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-gaze-base-intently-focused-gaze",
+      "tags": [
+        "base",
+        "gaze",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "direction": "intently-focused-gaze",
+        "treatment": "animated-energy"
+      },
+      "subcategory": "intently-focused-gaze",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    }
+  ]
+}

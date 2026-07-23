@@ -1,0 +1,2577 @@
+{
+  "schema_version": "2.0",
+  "id": "identity-distinguishing-features-base",
+  "version": "2.0.0",
+  "library": "distinguishing-features",
+  "domain": "identity",
+  "category": "distinguishing-features",
+  "language": "en",
+  "status": "active",
+  "safety": "general",
+  "tags": [
+    "base"
+  ],
+  "fallback_option_id": "identity-distinguishing-features-base-subtle-facial-asymmetry-softly-defined",
+  "options": [
+    {
+      "id": "identity-distinguishing-features-base-subtle-facial-asymmetry-softly-defined",
+      "semantic_key": "identity-distinguishing-features-base-subtle-facial-asymmetry-softly-defined",
+      "text": "softly defined subtle facial asymmetry",
+      "sentence": "Softly defined subtle facial asymmetry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "softly defined subtle facial asymmetry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing softly defined subtle facial asymmetry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with softly defined subtle facial asymmetry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-distinguishing-features-base-subtle-facial-asymmetry",
+      "tags": [
+        "base",
+        "distinguishing-features",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "feature": "subtle-facial-asymmetry",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "subtle-facial-asymmetry",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-distinguishing-features-base-subtle-facial-asymmetry-cleanly-outlined",
+      "semantic_key": "identity-distinguishing-features-base-subtle-facial-asymmetry-cleanly-outlined",
+      "text": "cleanly outlined subtle facial asymmetry",
+      "sentence": "Cleanly outlined subtle facial asymmetry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "cleanly outlined subtle facial asymmetry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing cleanly outlined subtle facial asymmetry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with cleanly outlined subtle facial asymmetry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-distinguishing-features-base-subtle-facial-asymmetry",
+      "tags": [
+        "base",
+        "distinguishing-features",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "feature": "subtle-facial-asymmetry",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "subtle-facial-asymmetry",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-distinguishing-features-base-subtle-facial-asymmetry-gently-tapered",
+      "semantic_key": "identity-distinguishing-features-base-subtle-facial-asymmetry-gently-tapered",
+      "text": "gently tapered subtle facial asymmetry",
+      "sentence": "Gently tapered subtle facial asymmetry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gently tapered subtle facial asymmetry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gently tapered subtle facial asymmetry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gently tapered subtle facial asymmetry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-distinguishing-features-base-subtle-facial-asymmetry",
+      "tags": [
+        "base",
+        "distinguishing-features",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "feature": "subtle-facial-asymmetry",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "subtle-facial-asymmetry",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-distinguishing-features-base-subtle-facial-asymmetry-evenly-proportioned",
+      "semantic_key": "identity-distinguishing-features-base-subtle-facial-asymmetry-evenly-proportioned",
+      "text": "evenly proportioned subtle facial asymmetry",
+      "sentence": "Evenly proportioned subtle facial asymmetry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "evenly proportioned subtle facial asymmetry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing evenly proportioned subtle facial asymmetry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with evenly proportioned subtle facial asymmetry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-distinguishing-features-base-subtle-facial-asymmetry",
+      "tags": [
+        "base",
+        "distinguishing-features",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "feature": "subtle-facial-asymmetry",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "subtle-facial-asymmetry",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-distinguishing-features-base-subtle-facial-asymmetry-subtly-angular",
+      "semantic_key": "identity-distinguishing-features-base-subtle-facial-asymmetry-subtly-angular",
+      "text": "subtly angular subtle facial asymmetry",
+      "sentence": "Subtly angular subtle facial asymmetry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "subtly angular subtle facial asymmetry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing subtly angular subtle facial asymmetry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with subtly angular subtle facial asymmetry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-distinguishing-features-base-subtle-facial-asymmetry",
+      "tags": [
+        "base",
+        "distinguishing-features",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "feature": "subtle-facial-asymmetry",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "subtle-facial-asymmetry",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-distinguishing-features-base-subtle-facial-asymmetry-smoothly-contoured",
+      "semantic_key": "identity-distinguishing-features-base-subtle-facial-asymmetry-smoothly-contoured",
+      "text": "smoothly contoured subtle facial asymmetry",
+      "sentence": "Smoothly contoured subtle facial asymmetry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "smoothly contoured subtle facial asymmetry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing smoothly contoured subtle facial asymmetry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with smoothly contoured subtle facial asymmetry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-distinguishing-features-base-subtle-facial-asymmetry",
+      "tags": [
+        "base",
+        "distinguishing-features",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "feature": "subtle-facial-asymmetry",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "subtle-facial-asymmetry",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-distinguishing-features-base-subtle-facial-asymmetry-distinctly-structured",
+      "semantic_key": "identity-distinguishing-features-base-subtle-facial-asymmetry-distinctly-structured",
+      "text": "distinctly structured subtle facial asymmetry",
+      "sentence": "Distinctly structured subtle facial asymmetry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "distinctly structured subtle facial asymmetry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing distinctly structured subtle facial asymmetry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with distinctly structured subtle facial asymmetry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-distinguishing-features-base-subtle-facial-asymmetry",
+      "tags": [
+        "base",
+        "distinguishing-features",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "feature": "subtle-facial-asymmetry",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "subtle-facial-asymmetry",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-distinguishing-features-base-subtle-facial-asymmetry-naturally-asymmetric",
+      "semantic_key": "identity-distinguishing-features-base-subtle-facial-asymmetry-naturally-asymmetric",
+      "text": "naturally asymmetric subtle facial asymmetry",
+      "sentence": "Naturally asymmetric subtle facial asymmetry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "naturally asymmetric subtle facial asymmetry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing naturally asymmetric subtle facial asymmetry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with naturally asymmetric subtle facial asymmetry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-distinguishing-features-base-subtle-facial-asymmetry",
+      "tags": [
+        "base",
+        "distinguishing-features",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "feature": "subtle-facial-asymmetry",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "subtle-facial-asymmetry",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-distinguishing-features-base-distinct-cheek-contour-softly-defined",
+      "semantic_key": "identity-distinguishing-features-base-distinct-cheek-contour-softly-defined",
+      "text": "softly defined distinct cheek contour",
+      "sentence": "Softly defined distinct cheek contour.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "softly defined distinct cheek contour",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing softly defined distinct cheek contour",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with softly defined distinct cheek contour",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-distinguishing-features-base-distinct-cheek-contour",
+      "tags": [
+        "base",
+        "distinguishing-features",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "feature": "distinct-cheek-contour",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "distinct-cheek-contour",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-distinguishing-features-base-distinct-cheek-contour-cleanly-outlined",
+      "semantic_key": "identity-distinguishing-features-base-distinct-cheek-contour-cleanly-outlined",
+      "text": "cleanly outlined distinct cheek contour",
+      "sentence": "Cleanly outlined distinct cheek contour.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "cleanly outlined distinct cheek contour",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing cleanly outlined distinct cheek contour",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with cleanly outlined distinct cheek contour",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-distinguishing-features-base-distinct-cheek-contour",
+      "tags": [
+        "base",
+        "distinguishing-features",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "feature": "distinct-cheek-contour",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "distinct-cheek-contour",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-distinguishing-features-base-distinct-cheek-contour-gently-tapered",
+      "semantic_key": "identity-distinguishing-features-base-distinct-cheek-contour-gently-tapered",
+      "text": "gently tapered distinct cheek contour",
+      "sentence": "Gently tapered distinct cheek contour.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gently tapered distinct cheek contour",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gently tapered distinct cheek contour",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gently tapered distinct cheek contour",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-distinguishing-features-base-distinct-cheek-contour",
+      "tags": [
+        "base",
+        "distinguishing-features",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "feature": "distinct-cheek-contour",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "distinct-cheek-contour",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-distinguishing-features-base-distinct-cheek-contour-evenly-proportioned",
+      "semantic_key": "identity-distinguishing-features-base-distinct-cheek-contour-evenly-proportioned",
+      "text": "evenly proportioned distinct cheek contour",
+      "sentence": "Evenly proportioned distinct cheek contour.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "evenly proportioned distinct cheek contour",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing evenly proportioned distinct cheek contour",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with evenly proportioned distinct cheek contour",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-distinguishing-features-base-distinct-cheek-contour",
+      "tags": [
+        "base",
+        "distinguishing-features",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "feature": "distinct-cheek-contour",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "distinct-cheek-contour",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-distinguishing-features-base-distinct-cheek-contour-subtly-angular",
+      "semantic_key": "identity-distinguishing-features-base-distinct-cheek-contour-subtly-angular",
+      "text": "subtly angular distinct cheek contour",
+      "sentence": "Subtly angular distinct cheek contour.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "subtly angular distinct cheek contour",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing subtly angular distinct cheek contour",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with subtly angular distinct cheek contour",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-distinguishing-features-base-distinct-cheek-contour",
+      "tags": [
+        "base",
+        "distinguishing-features",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "feature": "distinct-cheek-contour",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "distinct-cheek-contour",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-distinguishing-features-base-distinct-cheek-contour-smoothly-contoured",
+      "semantic_key": "identity-distinguishing-features-base-distinct-cheek-contour-smoothly-contoured",
+      "text": "smoothly contoured distinct cheek contour",
+      "sentence": "Smoothly contoured distinct cheek contour.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "smoothly contoured distinct cheek contour",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing smoothly contoured distinct cheek contour",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with smoothly contoured distinct cheek contour",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-distinguishing-features-base-distinct-cheek-contour",
+      "tags": [
+        "base",
+        "distinguishing-features",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "feature": "distinct-cheek-contour",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "distinct-cheek-contour",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-distinguishing-features-base-distinct-cheek-contour-distinctly-structured",
+      "semantic_key": "identity-distinguishing-features-base-distinct-cheek-contour-distinctly-structured",
+      "text": "distinctly structured distinct cheek contour",
+      "sentence": "Distinctly structured distinct cheek contour.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "distinctly structured distinct cheek contour",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing distinctly structured distinct cheek contour",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with distinctly structured distinct cheek contour",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-distinguishing-features-base-distinct-cheek-contour",
+      "tags": [
+        "base",
+        "distinguishing-features",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "feature": "distinct-cheek-contour",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "distinct-cheek-contour",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-distinguishing-features-base-distinct-cheek-contour-naturally-asymmetric",
+      "semantic_key": "identity-distinguishing-features-base-distinct-cheek-contour-naturally-asymmetric",
+      "text": "naturally asymmetric distinct cheek contour",
+      "sentence": "Naturally asymmetric distinct cheek contour.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "naturally asymmetric distinct cheek contour",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing naturally asymmetric distinct cheek contour",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with naturally asymmetric distinct cheek contour",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-distinguishing-features-base-distinct-cheek-contour",
+      "tags": [
+        "base",
+        "distinguishing-features",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "feature": "distinct-cheek-contour",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "distinct-cheek-contour",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-distinguishing-features-base-recognizable-brow-line-softly-defined",
+      "semantic_key": "identity-distinguishing-features-base-recognizable-brow-line-softly-defined",
+      "text": "softly defined recognizable brow line",
+      "sentence": "Softly defined recognizable brow line.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "softly defined recognizable brow line",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing softly defined recognizable brow line",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with softly defined recognizable brow line",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-distinguishing-features-base-recognizable-brow-line",
+      "tags": [
+        "base",
+        "distinguishing-features",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "feature": "recognizable-brow-line",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "recognizable-brow-line",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-distinguishing-features-base-recognizable-brow-line-cleanly-outlined",
+      "semantic_key": "identity-distinguishing-features-base-recognizable-brow-line-cleanly-outlined",
+      "text": "cleanly outlined recognizable brow line",
+      "sentence": "Cleanly outlined recognizable brow line.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "cleanly outlined recognizable brow line",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing cleanly outlined recognizable brow line",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with cleanly outlined recognizable brow line",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-distinguishing-features-base-recognizable-brow-line",
+      "tags": [
+        "base",
+        "distinguishing-features",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "feature": "recognizable-brow-line",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "recognizable-brow-line",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-distinguishing-features-base-recognizable-brow-line-gently-tapered",
+      "semantic_key": "identity-distinguishing-features-base-recognizable-brow-line-gently-tapered",
+      "text": "gently tapered recognizable brow line",
+      "sentence": "Gently tapered recognizable brow line.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gently tapered recognizable brow line",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gently tapered recognizable brow line",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gently tapered recognizable brow line",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-distinguishing-features-base-recognizable-brow-line",
+      "tags": [
+        "base",
+        "distinguishing-features",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "feature": "recognizable-brow-line",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "recognizable-brow-line",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-distinguishing-features-base-recognizable-brow-line-evenly-proportioned",
+      "semantic_key": "identity-distinguishing-features-base-recognizable-brow-line-evenly-proportioned",
+      "text": "evenly proportioned recognizable brow line",
+      "sentence": "Evenly proportioned recognizable brow line.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "evenly proportioned recognizable brow line",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing evenly proportioned recognizable brow line",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with evenly proportioned recognizable brow line",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-distinguishing-features-base-recognizable-brow-line",
+      "tags": [
+        "base",
+        "distinguishing-features",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "feature": "recognizable-brow-line",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "recognizable-brow-line",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-distinguishing-features-base-recognizable-brow-line-subtly-angular",
+      "semantic_key": "identity-distinguishing-features-base-recognizable-brow-line-subtly-angular",
+      "text": "subtly angular recognizable brow line",
+      "sentence": "Subtly angular recognizable brow line.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "subtly angular recognizable brow line",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing subtly angular recognizable brow line",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with subtly angular recognizable brow line",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-distinguishing-features-base-recognizable-brow-line",
+      "tags": [
+        "base",
+        "distinguishing-features",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "feature": "recognizable-brow-line",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "recognizable-brow-line",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-distinguishing-features-base-recognizable-brow-line-smoothly-contoured",
+      "semantic_key": "identity-distinguishing-features-base-recognizable-brow-line-smoothly-contoured",
+      "text": "smoothly contoured recognizable brow line",
+      "sentence": "Smoothly contoured recognizable brow line.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "smoothly contoured recognizable brow line",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing smoothly contoured recognizable brow line",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with smoothly contoured recognizable brow line",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-distinguishing-features-base-recognizable-brow-line",
+      "tags": [
+        "base",
+        "distinguishing-features",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "feature": "recognizable-brow-line",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "recognizable-brow-line",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-distinguishing-features-base-recognizable-brow-line-distinctly-structured",
+      "semantic_key": "identity-distinguishing-features-base-recognizable-brow-line-distinctly-structured",
+      "text": "distinctly structured recognizable brow line",
+      "sentence": "Distinctly structured recognizable brow line.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "distinctly structured recognizable brow line",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing distinctly structured recognizable brow line",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with distinctly structured recognizable brow line",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-distinguishing-features-base-recognizable-brow-line",
+      "tags": [
+        "base",
+        "distinguishing-features",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "feature": "recognizable-brow-line",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "recognizable-brow-line",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-distinguishing-features-base-recognizable-brow-line-naturally-asymmetric",
+      "semantic_key": "identity-distinguishing-features-base-recognizable-brow-line-naturally-asymmetric",
+      "text": "naturally asymmetric recognizable brow line",
+      "sentence": "Naturally asymmetric recognizable brow line.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "naturally asymmetric recognizable brow line",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing naturally asymmetric recognizable brow line",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with naturally asymmetric recognizable brow line",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-distinguishing-features-base-recognizable-brow-line",
+      "tags": [
+        "base",
+        "distinguishing-features",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "feature": "recognizable-brow-line",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "recognizable-brow-line",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-distinguishing-features-base-characteristic-smile-line-softly-defined",
+      "semantic_key": "identity-distinguishing-features-base-characteristic-smile-line-softly-defined",
+      "text": "softly defined characteristic smile line",
+      "sentence": "Softly defined characteristic smile line.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "softly defined characteristic smile line",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing softly defined characteristic smile line",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with softly defined characteristic smile line",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-distinguishing-features-base-characteristic-smile-line",
+      "tags": [
+        "base",
+        "distinguishing-features",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "feature": "characteristic-smile-line",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "characteristic-smile-line",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-distinguishing-features-base-characteristic-smile-line-cleanly-outlined",
+      "semantic_key": "identity-distinguishing-features-base-characteristic-smile-line-cleanly-outlined",
+      "text": "cleanly outlined characteristic smile line",
+      "sentence": "Cleanly outlined characteristic smile line.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "cleanly outlined characteristic smile line",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing cleanly outlined characteristic smile line",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with cleanly outlined characteristic smile line",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-distinguishing-features-base-characteristic-smile-line",
+      "tags": [
+        "base",
+        "distinguishing-features",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "feature": "characteristic-smile-line",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "characteristic-smile-line",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-distinguishing-features-base-characteristic-smile-line-gently-tapered",
+      "semantic_key": "identity-distinguishing-features-base-characteristic-smile-line-gently-tapered",
+      "text": "gently tapered characteristic smile line",
+      "sentence": "Gently tapered characteristic smile line.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gently tapered characteristic smile line",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gently tapered characteristic smile line",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gently tapered characteristic smile line",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-distinguishing-features-base-characteristic-smile-line",
+      "tags": [
+        "base",
+        "distinguishing-features",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "feature": "characteristic-smile-line",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "characteristic-smile-line",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-distinguishing-features-base-characteristic-smile-line-evenly-proportioned",
+      "semantic_key": "identity-distinguishing-features-base-characteristic-smile-line-evenly-proportioned",
+      "text": "evenly proportioned characteristic smile line",
+      "sentence": "Evenly proportioned characteristic smile line.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "evenly proportioned characteristic smile line",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing evenly proportioned characteristic smile line",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with evenly proportioned characteristic smile line",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-distinguishing-features-base-characteristic-smile-line",
+      "tags": [
+        "base",
+        "distinguishing-features",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "feature": "characteristic-smile-line",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "characteristic-smile-line",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-distinguishing-features-base-characteristic-smile-line-subtly-angular",
+      "semantic_key": "identity-distinguishing-features-base-characteristic-smile-line-subtly-angular",
+      "text": "subtly angular characteristic smile line",
+      "sentence": "Subtly angular characteristic smile line.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "subtly angular characteristic smile line",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing subtly angular characteristic smile line",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with subtly angular characteristic smile line",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-distinguishing-features-base-characteristic-smile-line",
+      "tags": [
+        "base",
+        "distinguishing-features",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "feature": "characteristic-smile-line",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "characteristic-smile-line",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-distinguishing-features-base-characteristic-smile-line-smoothly-contoured",
+      "semantic_key": "identity-distinguishing-features-base-characteristic-smile-line-smoothly-contoured",
+      "text": "smoothly contoured characteristic smile line",
+      "sentence": "Smoothly contoured characteristic smile line.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "smoothly contoured characteristic smile line",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing smoothly contoured characteristic smile line",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with smoothly contoured characteristic smile line",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-distinguishing-features-base-characteristic-smile-line",
+      "tags": [
+        "base",
+        "distinguishing-features",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "feature": "characteristic-smile-line",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "characteristic-smile-line",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-distinguishing-features-base-characteristic-smile-line-distinctly-structured",
+      "semantic_key": "identity-distinguishing-features-base-characteristic-smile-line-distinctly-structured",
+      "text": "distinctly structured characteristic smile line",
+      "sentence": "Distinctly structured characteristic smile line.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "distinctly structured characteristic smile line",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing distinctly structured characteristic smile line",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with distinctly structured characteristic smile line",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-distinguishing-features-base-characteristic-smile-line",
+      "tags": [
+        "base",
+        "distinguishing-features",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "feature": "characteristic-smile-line",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "characteristic-smile-line",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-distinguishing-features-base-characteristic-smile-line-naturally-asymmetric",
+      "semantic_key": "identity-distinguishing-features-base-characteristic-smile-line-naturally-asymmetric",
+      "text": "naturally asymmetric characteristic smile line",
+      "sentence": "Naturally asymmetric characteristic smile line.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "naturally asymmetric characteristic smile line",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing naturally asymmetric characteristic smile line",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with naturally asymmetric characteristic smile line",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-distinguishing-features-base-characteristic-smile-line",
+      "tags": [
+        "base",
+        "distinguishing-features",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "feature": "characteristic-smile-line",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "characteristic-smile-line",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-distinguishing-features-base-distinctive-nose-profile-softly-defined",
+      "semantic_key": "identity-distinguishing-features-base-distinctive-nose-profile-softly-defined",
+      "text": "softly defined distinctive nose profile",
+      "sentence": "Softly defined distinctive nose profile.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "softly defined distinctive nose profile",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing softly defined distinctive nose profile",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with softly defined distinctive nose profile",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-distinguishing-features-base-distinctive-nose-profile",
+      "tags": [
+        "base",
+        "distinguishing-features",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "feature": "distinctive-nose-profile",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "distinctive-nose-profile",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-distinguishing-features-base-distinctive-nose-profile-cleanly-outlined",
+      "semantic_key": "identity-distinguishing-features-base-distinctive-nose-profile-cleanly-outlined",
+      "text": "cleanly outlined distinctive nose profile",
+      "sentence": "Cleanly outlined distinctive nose profile.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "cleanly outlined distinctive nose profile",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing cleanly outlined distinctive nose profile",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with cleanly outlined distinctive nose profile",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-distinguishing-features-base-distinctive-nose-profile",
+      "tags": [
+        "base",
+        "distinguishing-features",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "feature": "distinctive-nose-profile",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "distinctive-nose-profile",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-distinguishing-features-base-distinctive-nose-profile-gently-tapered",
+      "semantic_key": "identity-distinguishing-features-base-distinctive-nose-profile-gently-tapered",
+      "text": "gently tapered distinctive nose profile",
+      "sentence": "Gently tapered distinctive nose profile.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gently tapered distinctive nose profile",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gently tapered distinctive nose profile",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gently tapered distinctive nose profile",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-distinguishing-features-base-distinctive-nose-profile",
+      "tags": [
+        "base",
+        "distinguishing-features",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "feature": "distinctive-nose-profile",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "distinctive-nose-profile",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-distinguishing-features-base-distinctive-nose-profile-evenly-proportioned",
+      "semantic_key": "identity-distinguishing-features-base-distinctive-nose-profile-evenly-proportioned",
+      "text": "evenly proportioned distinctive nose profile",
+      "sentence": "Evenly proportioned distinctive nose profile.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "evenly proportioned distinctive nose profile",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing evenly proportioned distinctive nose profile",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with evenly proportioned distinctive nose profile",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-distinguishing-features-base-distinctive-nose-profile",
+      "tags": [
+        "base",
+        "distinguishing-features",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "feature": "distinctive-nose-profile",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "distinctive-nose-profile",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-distinguishing-features-base-distinctive-nose-profile-subtly-angular",
+      "semantic_key": "identity-distinguishing-features-base-distinctive-nose-profile-subtly-angular",
+      "text": "subtly angular distinctive nose profile",
+      "sentence": "Subtly angular distinctive nose profile.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "subtly angular distinctive nose profile",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing subtly angular distinctive nose profile",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with subtly angular distinctive nose profile",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-distinguishing-features-base-distinctive-nose-profile",
+      "tags": [
+        "base",
+        "distinguishing-features",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "feature": "distinctive-nose-profile",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "distinctive-nose-profile",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-distinguishing-features-base-distinctive-nose-profile-smoothly-contoured",
+      "semantic_key": "identity-distinguishing-features-base-distinctive-nose-profile-smoothly-contoured",
+      "text": "smoothly contoured distinctive nose profile",
+      "sentence": "Smoothly contoured distinctive nose profile.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "smoothly contoured distinctive nose profile",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing smoothly contoured distinctive nose profile",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with smoothly contoured distinctive nose profile",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-distinguishing-features-base-distinctive-nose-profile",
+      "tags": [
+        "base",
+        "distinguishing-features",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "feature": "distinctive-nose-profile",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "distinctive-nose-profile",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-distinguishing-features-base-distinctive-nose-profile-distinctly-structured",
+      "semantic_key": "identity-distinguishing-features-base-distinctive-nose-profile-distinctly-structured",
+      "text": "distinctly structured distinctive nose profile",
+      "sentence": "Distinctly structured distinctive nose profile.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "distinctly structured distinctive nose profile",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing distinctly structured distinctive nose profile",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with distinctly structured distinctive nose profile",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-distinguishing-features-base-distinctive-nose-profile",
+      "tags": [
+        "base",
+        "distinguishing-features",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "feature": "distinctive-nose-profile",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "distinctive-nose-profile",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-distinguishing-features-base-distinctive-nose-profile-naturally-asymmetric",
+      "semantic_key": "identity-distinguishing-features-base-distinctive-nose-profile-naturally-asymmetric",
+      "text": "naturally asymmetric distinctive nose profile",
+      "sentence": "Naturally asymmetric distinctive nose profile.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "naturally asymmetric distinctive nose profile",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing naturally asymmetric distinctive nose profile",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with naturally asymmetric distinctive nose profile",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-distinguishing-features-base-distinctive-nose-profile",
+      "tags": [
+        "base",
+        "distinguishing-features",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "feature": "distinctive-nose-profile",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "distinctive-nose-profile",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-distinguishing-features-base-recognizable-chin-contour-softly-defined",
+      "semantic_key": "identity-distinguishing-features-base-recognizable-chin-contour-softly-defined",
+      "text": "softly defined recognizable chin contour",
+      "sentence": "Softly defined recognizable chin contour.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "softly defined recognizable chin contour",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing softly defined recognizable chin contour",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with softly defined recognizable chin contour",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-distinguishing-features-base-recognizable-chin-contour",
+      "tags": [
+        "base",
+        "distinguishing-features",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "feature": "recognizable-chin-contour",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "recognizable-chin-contour",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-distinguishing-features-base-recognizable-chin-contour-cleanly-outlined",
+      "semantic_key": "identity-distinguishing-features-base-recognizable-chin-contour-cleanly-outlined",
+      "text": "cleanly outlined recognizable chin contour",
+      "sentence": "Cleanly outlined recognizable chin contour.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "cleanly outlined recognizable chin contour",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing cleanly outlined recognizable chin contour",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with cleanly outlined recognizable chin contour",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-distinguishing-features-base-recognizable-chin-contour",
+      "tags": [
+        "base",
+        "distinguishing-features",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "feature": "recognizable-chin-contour",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "recognizable-chin-contour",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-distinguishing-features-base-recognizable-chin-contour-gently-tapered",
+      "semantic_key": "identity-distinguishing-features-base-recognizable-chin-contour-gently-tapered",
+      "text": "gently tapered recognizable chin contour",
+      "sentence": "Gently tapered recognizable chin contour.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gently tapered recognizable chin contour",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gently tapered recognizable chin contour",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gently tapered recognizable chin contour",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-distinguishing-features-base-recognizable-chin-contour",
+      "tags": [
+        "base",
+        "distinguishing-features",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "feature": "recognizable-chin-contour",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "recognizable-chin-contour",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-distinguishing-features-base-recognizable-chin-contour-evenly-proportioned",
+      "semantic_key": "identity-distinguishing-features-base-recognizable-chin-contour-evenly-proportioned",
+      "text": "evenly proportioned recognizable chin contour",
+      "sentence": "Evenly proportioned recognizable chin contour.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "evenly proportioned recognizable chin contour",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing evenly proportioned recognizable chin contour",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with evenly proportioned recognizable chin contour",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-distinguishing-features-base-recognizable-chin-contour",
+      "tags": [
+        "base",
+        "distinguishing-features",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "feature": "recognizable-chin-contour",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "recognizable-chin-contour",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-distinguishing-features-base-recognizable-chin-contour-subtly-angular",
+      "semantic_key": "identity-distinguishing-features-base-recognizable-chin-contour-subtly-angular",
+      "text": "subtly angular recognizable chin contour",
+      "sentence": "Subtly angular recognizable chin contour.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "subtly angular recognizable chin contour",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing subtly angular recognizable chin contour",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with subtly angular recognizable chin contour",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-distinguishing-features-base-recognizable-chin-contour",
+      "tags": [
+        "base",
+        "distinguishing-features",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "feature": "recognizable-chin-contour",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "recognizable-chin-contour",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-distinguishing-features-base-recognizable-chin-contour-smoothly-contoured",
+      "semantic_key": "identity-distinguishing-features-base-recognizable-chin-contour-smoothly-contoured",
+      "text": "smoothly contoured recognizable chin contour",
+      "sentence": "Smoothly contoured recognizable chin contour.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "smoothly contoured recognizable chin contour",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing smoothly contoured recognizable chin contour",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with smoothly contoured recognizable chin contour",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-distinguishing-features-base-recognizable-chin-contour",
+      "tags": [
+        "base",
+        "distinguishing-features",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "feature": "recognizable-chin-contour",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "recognizable-chin-contour",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-distinguishing-features-base-recognizable-chin-contour-distinctly-structured",
+      "semantic_key": "identity-distinguishing-features-base-recognizable-chin-contour-distinctly-structured",
+      "text": "distinctly structured recognizable chin contour",
+      "sentence": "Distinctly structured recognizable chin contour.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "distinctly structured recognizable chin contour",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing distinctly structured recognizable chin contour",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with distinctly structured recognizable chin contour",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-distinguishing-features-base-recognizable-chin-contour",
+      "tags": [
+        "base",
+        "distinguishing-features",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "feature": "recognizable-chin-contour",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "recognizable-chin-contour",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-distinguishing-features-base-recognizable-chin-contour-naturally-asymmetric",
+      "semantic_key": "identity-distinguishing-features-base-recognizable-chin-contour-naturally-asymmetric",
+      "text": "naturally asymmetric recognizable chin contour",
+      "sentence": "Naturally asymmetric recognizable chin contour.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "naturally asymmetric recognizable chin contour",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing naturally asymmetric recognizable chin contour",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with naturally asymmetric recognizable chin contour",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-distinguishing-features-base-recognizable-chin-contour",
+      "tags": [
+        "base",
+        "distinguishing-features",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "feature": "recognizable-chin-contour",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "recognizable-chin-contour",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-distinguishing-features-base-natural-birthmark-softly-defined",
+      "semantic_key": "identity-distinguishing-features-base-natural-birthmark-softly-defined",
+      "text": "softly defined natural birthmark",
+      "sentence": "Softly defined natural birthmark.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "softly defined natural birthmark",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing softly defined natural birthmark",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with softly defined natural birthmark",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-distinguishing-features-base-natural-birthmark",
+      "tags": [
+        "base",
+        "distinguishing-features",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "feature": "natural-birthmark",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "natural-birthmark",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-distinguishing-features-base-natural-birthmark-cleanly-outlined",
+      "semantic_key": "identity-distinguishing-features-base-natural-birthmark-cleanly-outlined",
+      "text": "cleanly outlined natural birthmark",
+      "sentence": "Cleanly outlined natural birthmark.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "cleanly outlined natural birthmark",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing cleanly outlined natural birthmark",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with cleanly outlined natural birthmark",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-distinguishing-features-base-natural-birthmark",
+      "tags": [
+        "base",
+        "distinguishing-features",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "feature": "natural-birthmark",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "natural-birthmark",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-distinguishing-features-base-natural-birthmark-gently-tapered",
+      "semantic_key": "identity-distinguishing-features-base-natural-birthmark-gently-tapered",
+      "text": "gently tapered natural birthmark",
+      "sentence": "Gently tapered natural birthmark.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gently tapered natural birthmark",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gently tapered natural birthmark",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gently tapered natural birthmark",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-distinguishing-features-base-natural-birthmark",
+      "tags": [
+        "base",
+        "distinguishing-features",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "feature": "natural-birthmark",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "natural-birthmark",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-distinguishing-features-base-natural-birthmark-evenly-proportioned",
+      "semantic_key": "identity-distinguishing-features-base-natural-birthmark-evenly-proportioned",
+      "text": "evenly proportioned natural birthmark",
+      "sentence": "Evenly proportioned natural birthmark.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "evenly proportioned natural birthmark",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing evenly proportioned natural birthmark",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with evenly proportioned natural birthmark",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-distinguishing-features-base-natural-birthmark",
+      "tags": [
+        "base",
+        "distinguishing-features",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "feature": "natural-birthmark",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "natural-birthmark",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-distinguishing-features-base-natural-birthmark-subtly-angular",
+      "semantic_key": "identity-distinguishing-features-base-natural-birthmark-subtly-angular",
+      "text": "subtly angular natural birthmark",
+      "sentence": "Subtly angular natural birthmark.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "subtly angular natural birthmark",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing subtly angular natural birthmark",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with subtly angular natural birthmark",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-distinguishing-features-base-natural-birthmark",
+      "tags": [
+        "base",
+        "distinguishing-features",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "feature": "natural-birthmark",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "natural-birthmark",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-distinguishing-features-base-natural-birthmark-smoothly-contoured",
+      "semantic_key": "identity-distinguishing-features-base-natural-birthmark-smoothly-contoured",
+      "text": "smoothly contoured natural birthmark",
+      "sentence": "Smoothly contoured natural birthmark.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "smoothly contoured natural birthmark",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing smoothly contoured natural birthmark",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with smoothly contoured natural birthmark",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-distinguishing-features-base-natural-birthmark",
+      "tags": [
+        "base",
+        "distinguishing-features",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "feature": "natural-birthmark",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "natural-birthmark",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-distinguishing-features-base-natural-birthmark-distinctly-structured",
+      "semantic_key": "identity-distinguishing-features-base-natural-birthmark-distinctly-structured",
+      "text": "distinctly structured natural birthmark",
+      "sentence": "Distinctly structured natural birthmark.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "distinctly structured natural birthmark",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing distinctly structured natural birthmark",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with distinctly structured natural birthmark",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-distinguishing-features-base-natural-birthmark",
+      "tags": [
+        "base",
+        "distinguishing-features",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "feature": "natural-birthmark",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "natural-birthmark",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-distinguishing-features-base-natural-birthmark-naturally-asymmetric",
+      "semantic_key": "identity-distinguishing-features-base-natural-birthmark-naturally-asymmetric",
+      "text": "naturally asymmetric natural birthmark",
+      "sentence": "Naturally asymmetric natural birthmark.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "naturally asymmetric natural birthmark",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing naturally asymmetric natural birthmark",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with naturally asymmetric natural birthmark",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-distinguishing-features-base-natural-birthmark",
+      "tags": [
+        "base",
+        "distinguishing-features",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "feature": "natural-birthmark",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "natural-birthmark",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-distinguishing-features-base-small-healed-scar-softly-defined",
+      "semantic_key": "identity-distinguishing-features-base-small-healed-scar-softly-defined",
+      "text": "softly defined small healed scar",
+      "sentence": "Softly defined small healed scar.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "softly defined small healed scar",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing softly defined small healed scar",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with softly defined small healed scar",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-distinguishing-features-base-small-healed-scar",
+      "tags": [
+        "base",
+        "distinguishing-features",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "feature": "small-healed-scar",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "small-healed-scar",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-distinguishing-features-base-small-healed-scar-cleanly-outlined",
+      "semantic_key": "identity-distinguishing-features-base-small-healed-scar-cleanly-outlined",
+      "text": "cleanly outlined small healed scar",
+      "sentence": "Cleanly outlined small healed scar.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "cleanly outlined small healed scar",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing cleanly outlined small healed scar",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with cleanly outlined small healed scar",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-distinguishing-features-base-small-healed-scar",
+      "tags": [
+        "base",
+        "distinguishing-features",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "feature": "small-healed-scar",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "small-healed-scar",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-distinguishing-features-base-small-healed-scar-gently-tapered",
+      "semantic_key": "identity-distinguishing-features-base-small-healed-scar-gently-tapered",
+      "text": "gently tapered small healed scar",
+      "sentence": "Gently tapered small healed scar.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gently tapered small healed scar",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gently tapered small healed scar",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gently tapered small healed scar",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-distinguishing-features-base-small-healed-scar",
+      "tags": [
+        "base",
+        "distinguishing-features",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "feature": "small-healed-scar",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "small-healed-scar",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-distinguishing-features-base-small-healed-scar-evenly-proportioned",
+      "semantic_key": "identity-distinguishing-features-base-small-healed-scar-evenly-proportioned",
+      "text": "evenly proportioned small healed scar",
+      "sentence": "Evenly proportioned small healed scar.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "evenly proportioned small healed scar",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing evenly proportioned small healed scar",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with evenly proportioned small healed scar",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-distinguishing-features-base-small-healed-scar",
+      "tags": [
+        "base",
+        "distinguishing-features",
+        "identity",
+        "rarity-common"
+      ],
+      "facets": {
+        "feature": "small-healed-scar",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "small-healed-scar",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-distinguishing-features-base-small-healed-scar-subtly-angular",
+      "semantic_key": "identity-distinguishing-features-base-small-healed-scar-subtly-angular",
+      "text": "subtly angular small healed scar",
+      "sentence": "Subtly angular small healed scar.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "subtly angular small healed scar",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing subtly angular small healed scar",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with subtly angular small healed scar",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-distinguishing-features-base-small-healed-scar",
+      "tags": [
+        "base",
+        "distinguishing-features",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "feature": "small-healed-scar",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "small-healed-scar",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-distinguishing-features-base-small-healed-scar-smoothly-contoured",
+      "semantic_key": "identity-distinguishing-features-base-small-healed-scar-smoothly-contoured",
+      "text": "smoothly contoured small healed scar",
+      "sentence": "Smoothly contoured small healed scar.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "smoothly contoured small healed scar",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing smoothly contoured small healed scar",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with smoothly contoured small healed scar",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-distinguishing-features-base-small-healed-scar",
+      "tags": [
+        "base",
+        "distinguishing-features",
+        "identity",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "feature": "small-healed-scar",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "small-healed-scar",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-distinguishing-features-base-small-healed-scar-distinctly-structured",
+      "semantic_key": "identity-distinguishing-features-base-small-healed-scar-distinctly-structured",
+      "text": "distinctly structured small healed scar",
+      "sentence": "Distinctly structured small healed scar.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "distinctly structured small healed scar",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing distinctly structured small healed scar",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with distinctly structured small healed scar",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-distinguishing-features-base-small-healed-scar",
+      "tags": [
+        "base",
+        "distinguishing-features",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "feature": "small-healed-scar",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "small-healed-scar",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-distinguishing-features-base-small-healed-scar-naturally-asymmetric",
+      "semantic_key": "identity-distinguishing-features-base-small-healed-scar-naturally-asymmetric",
+      "text": "naturally asymmetric small healed scar",
+      "sentence": "Naturally asymmetric small healed scar.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "naturally asymmetric small healed scar",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing naturally asymmetric small healed scar",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with naturally asymmetric small healed scar",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-distinguishing-features-base-small-healed-scar",
+      "tags": [
+        "base",
+        "distinguishing-features",
+        "identity",
+        "rarity-rare"
+      ],
+      "facets": {
+        "feature": "small-healed-scar",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "small-healed-scar",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    }
+  ]
+}

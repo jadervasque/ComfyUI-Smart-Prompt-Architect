@@ -52,6 +52,24 @@ class NodeSchemaTests(unittest.TestCase):
         self.assertEqual(configuration.profile_id, "portrait")
         self.assertEqual(configuration.master_seed, 123)
         self.assertEqual(configuration.mode.value, "balanced")
+        self.assertEqual(configuration.schema_version, "1.1")
+
+    def test_custom_field_survives_node_input_merge(self) -> None:
+        configuration = _build(
+            configuration_json=json.dumps(
+                {
+                    "schema_version": "1.1",
+                    "fields": {
+                        "face": {
+                            "mode": "custom",
+                            "value": "A heart-shaped adult face with a small beauty mark",
+                        }
+                    },
+                }
+            )
+        )
+        self.assertEqual(configuration.fields["face"].mode, FieldMode.CUSTOM)
+        self.assertIn("beauty mark", configuration.fields["face"].value or "")
 
     def test_external_context_has_fixed_precedence(self) -> None:
         configuration = _build(external_context_json='{"outfit":"formal-suit"}')

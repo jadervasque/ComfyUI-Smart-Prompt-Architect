@@ -1,0 +1,2642 @@
+{
+  "schema_version": "2.0",
+  "id": "negative-camera",
+  "version": "2.0.0",
+  "library": "negative-camera",
+  "domain": "negative",
+  "category": "negative-camera",
+  "language": "en",
+  "status": "active",
+  "safety": "general",
+  "tags": [
+    "camera",
+    "level-standard"
+  ],
+  "fallback_option_id": "negative-camera-accidental-motion-blur-minor-occurrence",
+  "options": [
+    {
+      "id": "negative-camera-accidental-motion-blur-minor-occurrence",
+      "semantic_key": "negative-camera-accidental-motion-blur-minor-occurrence",
+      "text": "accidental motion blur at minor occurrence",
+      "sentence": "Accidental motion blur at minor occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "accidental motion blur at minor occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid accidental motion blur at minor occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude accidental motion blur at minor occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-camera-accidental-motion-blur",
+      "tags": [
+        "camera",
+        "level-standard",
+        "negative",
+        "negative-camera",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "accidental-motion-blur",
+        "treatment": "minor-occurrence"
+      },
+      "subcategory": "accidental-motion-blur",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-camera-accidental-motion-blur-repeated-occurrence",
+      "semantic_key": "negative-camera-accidental-motion-blur-repeated-occurrence",
+      "text": "accidental motion blur at repeated occurrence",
+      "sentence": "Accidental motion blur at repeated occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "accidental motion blur at repeated occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid accidental motion blur at repeated occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude accidental motion blur at repeated occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-camera-accidental-motion-blur",
+      "tags": [
+        "camera",
+        "level-standard",
+        "negative",
+        "negative-camera",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "accidental-motion-blur",
+        "treatment": "repeated-occurrence"
+      },
+      "subcategory": "accidental-motion-blur",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-camera-accidental-motion-blur-prominent-occurrence",
+      "semantic_key": "negative-camera-accidental-motion-blur-prominent-occurrence",
+      "text": "accidental motion blur at prominent occurrence",
+      "sentence": "Accidental motion blur at prominent occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "accidental motion blur at prominent occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid accidental motion blur at prominent occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude accidental motion blur at prominent occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-camera-accidental-motion-blur",
+      "tags": [
+        "camera",
+        "level-standard",
+        "negative",
+        "negative-camera",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "accidental-motion-blur",
+        "treatment": "prominent-occurrence"
+      },
+      "subcategory": "accidental-motion-blur",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-camera-accidental-motion-blur-edge-occurrence",
+      "semantic_key": "negative-camera-accidental-motion-blur-edge-occurrence",
+      "text": "accidental motion blur at edge occurrence",
+      "sentence": "Accidental motion blur at edge occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "accidental motion blur at edge occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid accidental motion blur at edge occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude accidental motion blur at edge occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-camera-accidental-motion-blur",
+      "tags": [
+        "camera",
+        "level-standard",
+        "negative",
+        "negative-camera",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "accidental-motion-blur",
+        "treatment": "edge-occurrence"
+      },
+      "subcategory": "accidental-motion-blur",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-camera-accidental-motion-blur-background-occurrence",
+      "semantic_key": "negative-camera-accidental-motion-blur-background-occurrence",
+      "text": "accidental motion blur at background occurrence",
+      "sentence": "Accidental motion blur at background occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "accidental motion blur at background occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid accidental motion blur at background occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude accidental motion blur at background occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "negative-camera-accidental-motion-blur",
+      "tags": [
+        "camera",
+        "level-standard",
+        "negative",
+        "negative-camera",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "artifact-family": "accidental-motion-blur",
+        "treatment": "background-occurrence"
+      },
+      "subcategory": "accidental-motion-blur",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-camera-accidental-motion-blur-subject-occurrence",
+      "semantic_key": "negative-camera-accidental-motion-blur-subject-occurrence",
+      "text": "accidental motion blur at subject occurrence",
+      "sentence": "Accidental motion blur at subject occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "accidental motion blur at subject occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid accidental motion blur at subject occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude accidental motion blur at subject occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "negative-camera-accidental-motion-blur",
+      "tags": [
+        "camera",
+        "level-standard",
+        "negative",
+        "negative-camera",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "artifact-family": "accidental-motion-blur",
+        "treatment": "subject-occurrence"
+      },
+      "subcategory": "accidental-motion-blur",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-camera-accidental-motion-blur-high-frequency-occurrence",
+      "semantic_key": "negative-camera-accidental-motion-blur-high-frequency-occurrence",
+      "text": "accidental motion blur at high-frequency occurrence",
+      "sentence": "Accidental motion blur at high-frequency occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "accidental motion blur at high-frequency occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid accidental motion blur at high-frequency occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude accidental motion blur at high-frequency occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "negative-camera-accidental-motion-blur",
+      "tags": [
+        "camera",
+        "level-standard",
+        "negative",
+        "negative-camera",
+        "rarity-rare"
+      ],
+      "facets": {
+        "artifact-family": "accidental-motion-blur",
+        "treatment": "high-frequency-occurrence"
+      },
+      "subcategory": "accidental-motion-blur",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-camera-accidental-motion-blur-composition-wide-occurrence",
+      "semantic_key": "negative-camera-accidental-motion-blur-composition-wide-occurrence",
+      "text": "accidental motion blur at composition-wide occurrence",
+      "sentence": "Accidental motion blur at composition-wide occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "accidental motion blur at composition-wide occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid accidental motion blur at composition-wide occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude accidental motion blur at composition-wide occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "negative-camera-accidental-motion-blur",
+      "tags": [
+        "camera",
+        "level-standard",
+        "negative",
+        "negative-camera",
+        "rarity-rare"
+      ],
+      "facets": {
+        "artifact-family": "accidental-motion-blur",
+        "treatment": "composition-wide-occurrence"
+      },
+      "subcategory": "accidental-motion-blur",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-camera-missed-subject-focus-minor-occurrence",
+      "semantic_key": "negative-camera-missed-subject-focus-minor-occurrence",
+      "text": "missed subject focus at minor occurrence",
+      "sentence": "Missed subject focus at minor occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "missed subject focus at minor occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid missed subject focus at minor occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude missed subject focus at minor occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-camera-missed-subject-focus",
+      "tags": [
+        "camera",
+        "level-standard",
+        "negative",
+        "negative-camera",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "missed-subject-focus",
+        "treatment": "minor-occurrence"
+      },
+      "subcategory": "missed-subject-focus",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-camera-missed-subject-focus-repeated-occurrence",
+      "semantic_key": "negative-camera-missed-subject-focus-repeated-occurrence",
+      "text": "missed subject focus at repeated occurrence",
+      "sentence": "Missed subject focus at repeated occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "missed subject focus at repeated occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid missed subject focus at repeated occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude missed subject focus at repeated occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-camera-missed-subject-focus",
+      "tags": [
+        "camera",
+        "level-standard",
+        "negative",
+        "negative-camera",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "missed-subject-focus",
+        "treatment": "repeated-occurrence"
+      },
+      "subcategory": "missed-subject-focus",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-camera-missed-subject-focus-prominent-occurrence",
+      "semantic_key": "negative-camera-missed-subject-focus-prominent-occurrence",
+      "text": "missed subject focus at prominent occurrence",
+      "sentence": "Missed subject focus at prominent occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "missed subject focus at prominent occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid missed subject focus at prominent occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude missed subject focus at prominent occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-camera-missed-subject-focus",
+      "tags": [
+        "camera",
+        "level-standard",
+        "negative",
+        "negative-camera",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "missed-subject-focus",
+        "treatment": "prominent-occurrence"
+      },
+      "subcategory": "missed-subject-focus",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-camera-missed-subject-focus-edge-occurrence",
+      "semantic_key": "negative-camera-missed-subject-focus-edge-occurrence",
+      "text": "missed subject focus at edge occurrence",
+      "sentence": "Missed subject focus at edge occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "missed subject focus at edge occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid missed subject focus at edge occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude missed subject focus at edge occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-camera-missed-subject-focus",
+      "tags": [
+        "camera",
+        "level-standard",
+        "negative",
+        "negative-camera",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "missed-subject-focus",
+        "treatment": "edge-occurrence"
+      },
+      "subcategory": "missed-subject-focus",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-camera-missed-subject-focus-background-occurrence",
+      "semantic_key": "negative-camera-missed-subject-focus-background-occurrence",
+      "text": "missed subject focus at background occurrence",
+      "sentence": "Missed subject focus at background occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "missed subject focus at background occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid missed subject focus at background occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude missed subject focus at background occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "negative-camera-missed-subject-focus",
+      "tags": [
+        "camera",
+        "level-standard",
+        "negative",
+        "negative-camera",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "artifact-family": "missed-subject-focus",
+        "treatment": "background-occurrence"
+      },
+      "subcategory": "missed-subject-focus",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-camera-missed-subject-focus-subject-occurrence",
+      "semantic_key": "negative-camera-missed-subject-focus-subject-occurrence",
+      "text": "missed subject focus at subject occurrence",
+      "sentence": "Missed subject focus at subject occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "missed subject focus at subject occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid missed subject focus at subject occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude missed subject focus at subject occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "negative-camera-missed-subject-focus",
+      "tags": [
+        "camera",
+        "level-standard",
+        "negative",
+        "negative-camera",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "artifact-family": "missed-subject-focus",
+        "treatment": "subject-occurrence"
+      },
+      "subcategory": "missed-subject-focus",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-camera-missed-subject-focus-high-frequency-occurrence",
+      "semantic_key": "negative-camera-missed-subject-focus-high-frequency-occurrence",
+      "text": "missed subject focus at high-frequency occurrence",
+      "sentence": "Missed subject focus at high-frequency occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "missed subject focus at high-frequency occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid missed subject focus at high-frequency occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude missed subject focus at high-frequency occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "negative-camera-missed-subject-focus",
+      "tags": [
+        "camera",
+        "level-standard",
+        "negative",
+        "negative-camera",
+        "rarity-rare"
+      ],
+      "facets": {
+        "artifact-family": "missed-subject-focus",
+        "treatment": "high-frequency-occurrence"
+      },
+      "subcategory": "missed-subject-focus",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-camera-missed-subject-focus-composition-wide-occurrence",
+      "semantic_key": "negative-camera-missed-subject-focus-composition-wide-occurrence",
+      "text": "missed subject focus at composition-wide occurrence",
+      "sentence": "Missed subject focus at composition-wide occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "missed subject focus at composition-wide occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid missed subject focus at composition-wide occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude missed subject focus at composition-wide occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "negative-camera-missed-subject-focus",
+      "tags": [
+        "camera",
+        "level-standard",
+        "negative",
+        "negative-camera",
+        "rarity-rare"
+      ],
+      "facets": {
+        "artifact-family": "missed-subject-focus",
+        "treatment": "composition-wide-occurrence"
+      },
+      "subcategory": "missed-subject-focus",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-camera-extreme-lens-distortion-minor-occurrence",
+      "semantic_key": "negative-camera-extreme-lens-distortion-minor-occurrence",
+      "text": "extreme lens distortion at minor occurrence",
+      "sentence": "Extreme lens distortion at minor occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "extreme lens distortion at minor occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid extreme lens distortion at minor occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude extreme lens distortion at minor occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-camera-extreme-lens-distortion",
+      "tags": [
+        "camera",
+        "level-standard",
+        "negative",
+        "negative-camera",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "extreme-lens-distortion",
+        "treatment": "minor-occurrence"
+      },
+      "subcategory": "extreme-lens-distortion",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-camera-extreme-lens-distortion-repeated-occurrence",
+      "semantic_key": "negative-camera-extreme-lens-distortion-repeated-occurrence",
+      "text": "extreme lens distortion at repeated occurrence",
+      "sentence": "Extreme lens distortion at repeated occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "extreme lens distortion at repeated occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid extreme lens distortion at repeated occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude extreme lens distortion at repeated occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-camera-extreme-lens-distortion",
+      "tags": [
+        "camera",
+        "level-standard",
+        "negative",
+        "negative-camera",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "extreme-lens-distortion",
+        "treatment": "repeated-occurrence"
+      },
+      "subcategory": "extreme-lens-distortion",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-camera-extreme-lens-distortion-prominent-occurrence",
+      "semantic_key": "negative-camera-extreme-lens-distortion-prominent-occurrence",
+      "text": "extreme lens distortion at prominent occurrence",
+      "sentence": "Extreme lens distortion at prominent occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "extreme lens distortion at prominent occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid extreme lens distortion at prominent occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude extreme lens distortion at prominent occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-camera-extreme-lens-distortion",
+      "tags": [
+        "camera",
+        "level-standard",
+        "negative",
+        "negative-camera",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "extreme-lens-distortion",
+        "treatment": "prominent-occurrence"
+      },
+      "subcategory": "extreme-lens-distortion",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-camera-extreme-lens-distortion-edge-occurrence",
+      "semantic_key": "negative-camera-extreme-lens-distortion-edge-occurrence",
+      "text": "extreme lens distortion at edge occurrence",
+      "sentence": "Extreme lens distortion at edge occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "extreme lens distortion at edge occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid extreme lens distortion at edge occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude extreme lens distortion at edge occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-camera-extreme-lens-distortion",
+      "tags": [
+        "camera",
+        "level-standard",
+        "negative",
+        "negative-camera",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "extreme-lens-distortion",
+        "treatment": "edge-occurrence"
+      },
+      "subcategory": "extreme-lens-distortion",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-camera-extreme-lens-distortion-background-occurrence",
+      "semantic_key": "negative-camera-extreme-lens-distortion-background-occurrence",
+      "text": "extreme lens distortion at background occurrence",
+      "sentence": "Extreme lens distortion at background occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "extreme lens distortion at background occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid extreme lens distortion at background occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude extreme lens distortion at background occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "negative-camera-extreme-lens-distortion",
+      "tags": [
+        "camera",
+        "level-standard",
+        "negative",
+        "negative-camera",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "artifact-family": "extreme-lens-distortion",
+        "treatment": "background-occurrence"
+      },
+      "subcategory": "extreme-lens-distortion",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-camera-extreme-lens-distortion-subject-occurrence",
+      "semantic_key": "negative-camera-extreme-lens-distortion-subject-occurrence",
+      "text": "extreme lens distortion at subject occurrence",
+      "sentence": "Extreme lens distortion at subject occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "extreme lens distortion at subject occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid extreme lens distortion at subject occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude extreme lens distortion at subject occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "negative-camera-extreme-lens-distortion",
+      "tags": [
+        "camera",
+        "level-standard",
+        "negative",
+        "negative-camera",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "artifact-family": "extreme-lens-distortion",
+        "treatment": "subject-occurrence"
+      },
+      "subcategory": "extreme-lens-distortion",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-camera-extreme-lens-distortion-high-frequency-occurrence",
+      "semantic_key": "negative-camera-extreme-lens-distortion-high-frequency-occurrence",
+      "text": "extreme lens distortion at high-frequency occurrence",
+      "sentence": "Extreme lens distortion at high-frequency occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "extreme lens distortion at high-frequency occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid extreme lens distortion at high-frequency occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude extreme lens distortion at high-frequency occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "negative-camera-extreme-lens-distortion",
+      "tags": [
+        "camera",
+        "level-standard",
+        "negative",
+        "negative-camera",
+        "rarity-rare"
+      ],
+      "facets": {
+        "artifact-family": "extreme-lens-distortion",
+        "treatment": "high-frequency-occurrence"
+      },
+      "subcategory": "extreme-lens-distortion",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-camera-extreme-lens-distortion-composition-wide-occurrence",
+      "semantic_key": "negative-camera-extreme-lens-distortion-composition-wide-occurrence",
+      "text": "extreme lens distortion at composition-wide occurrence",
+      "sentence": "Extreme lens distortion at composition-wide occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "extreme lens distortion at composition-wide occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid extreme lens distortion at composition-wide occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude extreme lens distortion at composition-wide occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "negative-camera-extreme-lens-distortion",
+      "tags": [
+        "camera",
+        "level-standard",
+        "negative",
+        "negative-camera",
+        "rarity-rare"
+      ],
+      "facets": {
+        "artifact-family": "extreme-lens-distortion",
+        "treatment": "composition-wide-occurrence"
+      },
+      "subcategory": "extreme-lens-distortion",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-camera-uncontrolled-highlight-clipping-minor-occurrence",
+      "semantic_key": "negative-camera-uncontrolled-highlight-clipping-minor-occurrence",
+      "text": "uncontrolled highlight clipping at minor occurrence",
+      "sentence": "Uncontrolled highlight clipping at minor occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "uncontrolled highlight clipping at minor occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid uncontrolled highlight clipping at minor occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude uncontrolled highlight clipping at minor occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-camera-uncontrolled-highlight-clipping",
+      "tags": [
+        "camera",
+        "level-standard",
+        "negative",
+        "negative-camera",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "uncontrolled-highlight-clipping",
+        "treatment": "minor-occurrence"
+      },
+      "subcategory": "uncontrolled-highlight-clipping",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-camera-uncontrolled-highlight-clipping-repeated-occurrence",
+      "semantic_key": "negative-camera-uncontrolled-highlight-clipping-repeated-occurrence",
+      "text": "uncontrolled highlight clipping at repeated occurrence",
+      "sentence": "Uncontrolled highlight clipping at repeated occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "uncontrolled highlight clipping at repeated occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid uncontrolled highlight clipping at repeated occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude uncontrolled highlight clipping at repeated occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-camera-uncontrolled-highlight-clipping",
+      "tags": [
+        "camera",
+        "level-standard",
+        "negative",
+        "negative-camera",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "uncontrolled-highlight-clipping",
+        "treatment": "repeated-occurrence"
+      },
+      "subcategory": "uncontrolled-highlight-clipping",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-camera-uncontrolled-highlight-clipping-prominent-occurrence",
+      "semantic_key": "negative-camera-uncontrolled-highlight-clipping-prominent-occurrence",
+      "text": "uncontrolled highlight clipping at prominent occurrence",
+      "sentence": "Uncontrolled highlight clipping at prominent occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "uncontrolled highlight clipping at prominent occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid uncontrolled highlight clipping at prominent occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude uncontrolled highlight clipping at prominent occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-camera-uncontrolled-highlight-clipping",
+      "tags": [
+        "camera",
+        "level-standard",
+        "negative",
+        "negative-camera",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "uncontrolled-highlight-clipping",
+        "treatment": "prominent-occurrence"
+      },
+      "subcategory": "uncontrolled-highlight-clipping",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-camera-uncontrolled-highlight-clipping-edge-occurrence",
+      "semantic_key": "negative-camera-uncontrolled-highlight-clipping-edge-occurrence",
+      "text": "uncontrolled highlight clipping at edge occurrence",
+      "sentence": "Uncontrolled highlight clipping at edge occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "uncontrolled highlight clipping at edge occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid uncontrolled highlight clipping at edge occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude uncontrolled highlight clipping at edge occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-camera-uncontrolled-highlight-clipping",
+      "tags": [
+        "camera",
+        "level-standard",
+        "negative",
+        "negative-camera",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "uncontrolled-highlight-clipping",
+        "treatment": "edge-occurrence"
+      },
+      "subcategory": "uncontrolled-highlight-clipping",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-camera-uncontrolled-highlight-clipping-background-occurrence",
+      "semantic_key": "negative-camera-uncontrolled-highlight-clipping-background-occurrence",
+      "text": "uncontrolled highlight clipping at background occurrence",
+      "sentence": "Uncontrolled highlight clipping at background occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "uncontrolled highlight clipping at background occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid uncontrolled highlight clipping at background occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude uncontrolled highlight clipping at background occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "negative-camera-uncontrolled-highlight-clipping",
+      "tags": [
+        "camera",
+        "level-standard",
+        "negative",
+        "negative-camera",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "artifact-family": "uncontrolled-highlight-clipping",
+        "treatment": "background-occurrence"
+      },
+      "subcategory": "uncontrolled-highlight-clipping",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-camera-uncontrolled-highlight-clipping-subject-occurrence",
+      "semantic_key": "negative-camera-uncontrolled-highlight-clipping-subject-occurrence",
+      "text": "uncontrolled highlight clipping at subject occurrence",
+      "sentence": "Uncontrolled highlight clipping at subject occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "uncontrolled highlight clipping at subject occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid uncontrolled highlight clipping at subject occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude uncontrolled highlight clipping at subject occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "negative-camera-uncontrolled-highlight-clipping",
+      "tags": [
+        "camera",
+        "level-standard",
+        "negative",
+        "negative-camera",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "artifact-family": "uncontrolled-highlight-clipping",
+        "treatment": "subject-occurrence"
+      },
+      "subcategory": "uncontrolled-highlight-clipping",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-camera-uncontrolled-highlight-clipping-high-frequency-occurrence",
+      "semantic_key": "negative-camera-uncontrolled-highlight-clipping-high-frequency-occurrence",
+      "text": "uncontrolled highlight clipping at high-frequency occurrence",
+      "sentence": "Uncontrolled highlight clipping at high-frequency occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "uncontrolled highlight clipping at high-frequency occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid uncontrolled highlight clipping at high-frequency occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude uncontrolled highlight clipping at high-frequency occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "negative-camera-uncontrolled-highlight-clipping",
+      "tags": [
+        "camera",
+        "level-standard",
+        "negative",
+        "negative-camera",
+        "rarity-rare"
+      ],
+      "facets": {
+        "artifact-family": "uncontrolled-highlight-clipping",
+        "treatment": "high-frequency-occurrence"
+      },
+      "subcategory": "uncontrolled-highlight-clipping",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-camera-uncontrolled-highlight-clipping-composition-wide-occurrence",
+      "semantic_key": "negative-camera-uncontrolled-highlight-clipping-composition-wide-occurrence",
+      "text": "uncontrolled highlight clipping at composition-wide occurrence",
+      "sentence": "Uncontrolled highlight clipping at composition-wide occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "uncontrolled highlight clipping at composition-wide occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid uncontrolled highlight clipping at composition-wide occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude uncontrolled highlight clipping at composition-wide occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "negative-camera-uncontrolled-highlight-clipping",
+      "tags": [
+        "camera",
+        "level-standard",
+        "negative",
+        "negative-camera",
+        "rarity-rare"
+      ],
+      "facets": {
+        "artifact-family": "uncontrolled-highlight-clipping",
+        "treatment": "composition-wide-occurrence"
+      },
+      "subcategory": "uncontrolled-highlight-clipping",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-camera-crushed-shadow-detail-minor-occurrence",
+      "semantic_key": "negative-camera-crushed-shadow-detail-minor-occurrence",
+      "text": "crushed shadow detail at minor occurrence",
+      "sentence": "Crushed shadow detail at minor occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "crushed shadow detail at minor occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid crushed shadow detail at minor occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude crushed shadow detail at minor occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-camera-crushed-shadow-detail",
+      "tags": [
+        "camera",
+        "level-standard",
+        "negative",
+        "negative-camera",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "crushed-shadow-detail",
+        "treatment": "minor-occurrence"
+      },
+      "subcategory": "crushed-shadow-detail",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-camera-crushed-shadow-detail-repeated-occurrence",
+      "semantic_key": "negative-camera-crushed-shadow-detail-repeated-occurrence",
+      "text": "crushed shadow detail at repeated occurrence",
+      "sentence": "Crushed shadow detail at repeated occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "crushed shadow detail at repeated occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid crushed shadow detail at repeated occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude crushed shadow detail at repeated occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-camera-crushed-shadow-detail",
+      "tags": [
+        "camera",
+        "level-standard",
+        "negative",
+        "negative-camera",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "crushed-shadow-detail",
+        "treatment": "repeated-occurrence"
+      },
+      "subcategory": "crushed-shadow-detail",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-camera-crushed-shadow-detail-prominent-occurrence",
+      "semantic_key": "negative-camera-crushed-shadow-detail-prominent-occurrence",
+      "text": "crushed shadow detail at prominent occurrence",
+      "sentence": "Crushed shadow detail at prominent occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "crushed shadow detail at prominent occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid crushed shadow detail at prominent occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude crushed shadow detail at prominent occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-camera-crushed-shadow-detail",
+      "tags": [
+        "camera",
+        "level-standard",
+        "negative",
+        "negative-camera",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "crushed-shadow-detail",
+        "treatment": "prominent-occurrence"
+      },
+      "subcategory": "crushed-shadow-detail",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-camera-crushed-shadow-detail-edge-occurrence",
+      "semantic_key": "negative-camera-crushed-shadow-detail-edge-occurrence",
+      "text": "crushed shadow detail at edge occurrence",
+      "sentence": "Crushed shadow detail at edge occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "crushed shadow detail at edge occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid crushed shadow detail at edge occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude crushed shadow detail at edge occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-camera-crushed-shadow-detail",
+      "tags": [
+        "camera",
+        "level-standard",
+        "negative",
+        "negative-camera",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "crushed-shadow-detail",
+        "treatment": "edge-occurrence"
+      },
+      "subcategory": "crushed-shadow-detail",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-camera-crushed-shadow-detail-background-occurrence",
+      "semantic_key": "negative-camera-crushed-shadow-detail-background-occurrence",
+      "text": "crushed shadow detail at background occurrence",
+      "sentence": "Crushed shadow detail at background occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "crushed shadow detail at background occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid crushed shadow detail at background occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude crushed shadow detail at background occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "negative-camera-crushed-shadow-detail",
+      "tags": [
+        "camera",
+        "level-standard",
+        "negative",
+        "negative-camera",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "artifact-family": "crushed-shadow-detail",
+        "treatment": "background-occurrence"
+      },
+      "subcategory": "crushed-shadow-detail",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-camera-crushed-shadow-detail-subject-occurrence",
+      "semantic_key": "negative-camera-crushed-shadow-detail-subject-occurrence",
+      "text": "crushed shadow detail at subject occurrence",
+      "sentence": "Crushed shadow detail at subject occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "crushed shadow detail at subject occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid crushed shadow detail at subject occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude crushed shadow detail at subject occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "negative-camera-crushed-shadow-detail",
+      "tags": [
+        "camera",
+        "level-standard",
+        "negative",
+        "negative-camera",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "artifact-family": "crushed-shadow-detail",
+        "treatment": "subject-occurrence"
+      },
+      "subcategory": "crushed-shadow-detail",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-camera-crushed-shadow-detail-high-frequency-occurrence",
+      "semantic_key": "negative-camera-crushed-shadow-detail-high-frequency-occurrence",
+      "text": "crushed shadow detail at high-frequency occurrence",
+      "sentence": "Crushed shadow detail at high-frequency occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "crushed shadow detail at high-frequency occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid crushed shadow detail at high-frequency occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude crushed shadow detail at high-frequency occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "negative-camera-crushed-shadow-detail",
+      "tags": [
+        "camera",
+        "level-standard",
+        "negative",
+        "negative-camera",
+        "rarity-rare"
+      ],
+      "facets": {
+        "artifact-family": "crushed-shadow-detail",
+        "treatment": "high-frequency-occurrence"
+      },
+      "subcategory": "crushed-shadow-detail",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-camera-crushed-shadow-detail-composition-wide-occurrence",
+      "semantic_key": "negative-camera-crushed-shadow-detail-composition-wide-occurrence",
+      "text": "crushed shadow detail at composition-wide occurrence",
+      "sentence": "Crushed shadow detail at composition-wide occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "crushed shadow detail at composition-wide occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid crushed shadow detail at composition-wide occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude crushed shadow detail at composition-wide occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "negative-camera-crushed-shadow-detail",
+      "tags": [
+        "camera",
+        "level-standard",
+        "negative",
+        "negative-camera",
+        "rarity-rare"
+      ],
+      "facets": {
+        "artifact-family": "crushed-shadow-detail",
+        "treatment": "composition-wide-occurrence"
+      },
+      "subcategory": "crushed-shadow-detail",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-camera-chromatic-fringing-minor-occurrence",
+      "semantic_key": "negative-camera-chromatic-fringing-minor-occurrence",
+      "text": "chromatic fringing at minor occurrence",
+      "sentence": "Chromatic fringing at minor occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "chromatic fringing at minor occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid chromatic fringing at minor occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude chromatic fringing at minor occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-camera-chromatic-fringing",
+      "tags": [
+        "camera",
+        "level-standard",
+        "negative",
+        "negative-camera",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "chromatic-fringing",
+        "treatment": "minor-occurrence"
+      },
+      "subcategory": "chromatic-fringing",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-camera-chromatic-fringing-repeated-occurrence",
+      "semantic_key": "negative-camera-chromatic-fringing-repeated-occurrence",
+      "text": "chromatic fringing at repeated occurrence",
+      "sentence": "Chromatic fringing at repeated occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "chromatic fringing at repeated occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid chromatic fringing at repeated occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude chromatic fringing at repeated occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-camera-chromatic-fringing",
+      "tags": [
+        "camera",
+        "level-standard",
+        "negative",
+        "negative-camera",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "chromatic-fringing",
+        "treatment": "repeated-occurrence"
+      },
+      "subcategory": "chromatic-fringing",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-camera-chromatic-fringing-prominent-occurrence",
+      "semantic_key": "negative-camera-chromatic-fringing-prominent-occurrence",
+      "text": "chromatic fringing at prominent occurrence",
+      "sentence": "Chromatic fringing at prominent occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "chromatic fringing at prominent occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid chromatic fringing at prominent occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude chromatic fringing at prominent occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-camera-chromatic-fringing",
+      "tags": [
+        "camera",
+        "level-standard",
+        "negative",
+        "negative-camera",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "chromatic-fringing",
+        "treatment": "prominent-occurrence"
+      },
+      "subcategory": "chromatic-fringing",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-camera-chromatic-fringing-edge-occurrence",
+      "semantic_key": "negative-camera-chromatic-fringing-edge-occurrence",
+      "text": "chromatic fringing at edge occurrence",
+      "sentence": "Chromatic fringing at edge occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "chromatic fringing at edge occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid chromatic fringing at edge occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude chromatic fringing at edge occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-camera-chromatic-fringing",
+      "tags": [
+        "camera",
+        "level-standard",
+        "negative",
+        "negative-camera",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "chromatic-fringing",
+        "treatment": "edge-occurrence"
+      },
+      "subcategory": "chromatic-fringing",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-camera-chromatic-fringing-background-occurrence",
+      "semantic_key": "negative-camera-chromatic-fringing-background-occurrence",
+      "text": "chromatic fringing at background occurrence",
+      "sentence": "Chromatic fringing at background occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "chromatic fringing at background occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid chromatic fringing at background occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude chromatic fringing at background occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "negative-camera-chromatic-fringing",
+      "tags": [
+        "camera",
+        "level-standard",
+        "negative",
+        "negative-camera",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "artifact-family": "chromatic-fringing",
+        "treatment": "background-occurrence"
+      },
+      "subcategory": "chromatic-fringing",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-camera-chromatic-fringing-subject-occurrence",
+      "semantic_key": "negative-camera-chromatic-fringing-subject-occurrence",
+      "text": "chromatic fringing at subject occurrence",
+      "sentence": "Chromatic fringing at subject occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "chromatic fringing at subject occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid chromatic fringing at subject occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude chromatic fringing at subject occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "negative-camera-chromatic-fringing",
+      "tags": [
+        "camera",
+        "level-standard",
+        "negative",
+        "negative-camera",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "artifact-family": "chromatic-fringing",
+        "treatment": "subject-occurrence"
+      },
+      "subcategory": "chromatic-fringing",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-camera-chromatic-fringing-high-frequency-occurrence",
+      "semantic_key": "negative-camera-chromatic-fringing-high-frequency-occurrence",
+      "text": "chromatic fringing at high-frequency occurrence",
+      "sentence": "Chromatic fringing at high-frequency occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "chromatic fringing at high-frequency occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid chromatic fringing at high-frequency occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude chromatic fringing at high-frequency occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "negative-camera-chromatic-fringing",
+      "tags": [
+        "camera",
+        "level-standard",
+        "negative",
+        "negative-camera",
+        "rarity-rare"
+      ],
+      "facets": {
+        "artifact-family": "chromatic-fringing",
+        "treatment": "high-frequency-occurrence"
+      },
+      "subcategory": "chromatic-fringing",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-camera-chromatic-fringing-composition-wide-occurrence",
+      "semantic_key": "negative-camera-chromatic-fringing-composition-wide-occurrence",
+      "text": "chromatic fringing at composition-wide occurrence",
+      "sentence": "Chromatic fringing at composition-wide occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "chromatic fringing at composition-wide occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid chromatic fringing at composition-wide occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude chromatic fringing at composition-wide occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "negative-camera-chromatic-fringing",
+      "tags": [
+        "camera",
+        "level-standard",
+        "negative",
+        "negative-camera",
+        "rarity-rare"
+      ],
+      "facets": {
+        "artifact-family": "chromatic-fringing",
+        "treatment": "composition-wide-occurrence"
+      },
+      "subcategory": "chromatic-fringing",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-camera-sensor-pattern-artifacts-minor-occurrence",
+      "semantic_key": "negative-camera-sensor-pattern-artifacts-minor-occurrence",
+      "text": "sensor-pattern artifacts at minor occurrence",
+      "sentence": "Sensor-pattern artifacts at minor occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "sensor-pattern artifacts at minor occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid sensor-pattern artifacts at minor occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude sensor-pattern artifacts at minor occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-camera-sensor-pattern-artifacts",
+      "tags": [
+        "camera",
+        "level-standard",
+        "negative",
+        "negative-camera",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "sensor-pattern-artifacts",
+        "treatment": "minor-occurrence"
+      },
+      "subcategory": "sensor-pattern-artifacts",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-camera-sensor-pattern-artifacts-repeated-occurrence",
+      "semantic_key": "negative-camera-sensor-pattern-artifacts-repeated-occurrence",
+      "text": "sensor-pattern artifacts at repeated occurrence",
+      "sentence": "Sensor-pattern artifacts at repeated occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "sensor-pattern artifacts at repeated occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid sensor-pattern artifacts at repeated occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude sensor-pattern artifacts at repeated occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-camera-sensor-pattern-artifacts",
+      "tags": [
+        "camera",
+        "level-standard",
+        "negative",
+        "negative-camera",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "sensor-pattern-artifacts",
+        "treatment": "repeated-occurrence"
+      },
+      "subcategory": "sensor-pattern-artifacts",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-camera-sensor-pattern-artifacts-prominent-occurrence",
+      "semantic_key": "negative-camera-sensor-pattern-artifacts-prominent-occurrence",
+      "text": "sensor-pattern artifacts at prominent occurrence",
+      "sentence": "Sensor-pattern artifacts at prominent occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "sensor-pattern artifacts at prominent occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid sensor-pattern artifacts at prominent occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude sensor-pattern artifacts at prominent occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-camera-sensor-pattern-artifacts",
+      "tags": [
+        "camera",
+        "level-standard",
+        "negative",
+        "negative-camera",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "sensor-pattern-artifacts",
+        "treatment": "prominent-occurrence"
+      },
+      "subcategory": "sensor-pattern-artifacts",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-camera-sensor-pattern-artifacts-edge-occurrence",
+      "semantic_key": "negative-camera-sensor-pattern-artifacts-edge-occurrence",
+      "text": "sensor-pattern artifacts at edge occurrence",
+      "sentence": "Sensor-pattern artifacts at edge occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "sensor-pattern artifacts at edge occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid sensor-pattern artifacts at edge occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude sensor-pattern artifacts at edge occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-camera-sensor-pattern-artifacts",
+      "tags": [
+        "camera",
+        "level-standard",
+        "negative",
+        "negative-camera",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "sensor-pattern-artifacts",
+        "treatment": "edge-occurrence"
+      },
+      "subcategory": "sensor-pattern-artifacts",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-camera-sensor-pattern-artifacts-background-occurrence",
+      "semantic_key": "negative-camera-sensor-pattern-artifacts-background-occurrence",
+      "text": "sensor-pattern artifacts at background occurrence",
+      "sentence": "Sensor-pattern artifacts at background occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "sensor-pattern artifacts at background occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid sensor-pattern artifacts at background occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude sensor-pattern artifacts at background occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "negative-camera-sensor-pattern-artifacts",
+      "tags": [
+        "camera",
+        "level-standard",
+        "negative",
+        "negative-camera",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "artifact-family": "sensor-pattern-artifacts",
+        "treatment": "background-occurrence"
+      },
+      "subcategory": "sensor-pattern-artifacts",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-camera-sensor-pattern-artifacts-subject-occurrence",
+      "semantic_key": "negative-camera-sensor-pattern-artifacts-subject-occurrence",
+      "text": "sensor-pattern artifacts at subject occurrence",
+      "sentence": "Sensor-pattern artifacts at subject occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "sensor-pattern artifacts at subject occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid sensor-pattern artifacts at subject occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude sensor-pattern artifacts at subject occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "negative-camera-sensor-pattern-artifacts",
+      "tags": [
+        "camera",
+        "level-standard",
+        "negative",
+        "negative-camera",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "artifact-family": "sensor-pattern-artifacts",
+        "treatment": "subject-occurrence"
+      },
+      "subcategory": "sensor-pattern-artifacts",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-camera-sensor-pattern-artifacts-high-frequency-occurrence",
+      "semantic_key": "negative-camera-sensor-pattern-artifacts-high-frequency-occurrence",
+      "text": "sensor-pattern artifacts at high-frequency occurrence",
+      "sentence": "Sensor-pattern artifacts at high-frequency occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "sensor-pattern artifacts at high-frequency occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid sensor-pattern artifacts at high-frequency occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude sensor-pattern artifacts at high-frequency occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "negative-camera-sensor-pattern-artifacts",
+      "tags": [
+        "camera",
+        "level-standard",
+        "negative",
+        "negative-camera",
+        "rarity-rare"
+      ],
+      "facets": {
+        "artifact-family": "sensor-pattern-artifacts",
+        "treatment": "high-frequency-occurrence"
+      },
+      "subcategory": "sensor-pattern-artifacts",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-camera-sensor-pattern-artifacts-composition-wide-occurrence",
+      "semantic_key": "negative-camera-sensor-pattern-artifacts-composition-wide-occurrence",
+      "text": "sensor-pattern artifacts at composition-wide occurrence",
+      "sentence": "Sensor-pattern artifacts at composition-wide occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "sensor-pattern artifacts at composition-wide occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid sensor-pattern artifacts at composition-wide occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude sensor-pattern artifacts at composition-wide occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "negative-camera-sensor-pattern-artifacts",
+      "tags": [
+        "camera",
+        "level-standard",
+        "negative",
+        "negative-camera",
+        "rarity-rare"
+      ],
+      "facets": {
+        "artifact-family": "sensor-pattern-artifacts",
+        "treatment": "composition-wide-occurrence"
+      },
+      "subcategory": "sensor-pattern-artifacts",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-camera-inconsistent-depth-of-field-minor-occurrence",
+      "semantic_key": "negative-camera-inconsistent-depth-of-field-minor-occurrence",
+      "text": "inconsistent depth of field at minor occurrence",
+      "sentence": "Inconsistent depth of field at minor occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "inconsistent depth of field at minor occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid inconsistent depth of field at minor occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude inconsistent depth of field at minor occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-camera-inconsistent-depth-of-field",
+      "tags": [
+        "camera",
+        "level-standard",
+        "negative",
+        "negative-camera",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "inconsistent-depth-of-field",
+        "treatment": "minor-occurrence"
+      },
+      "subcategory": "inconsistent-depth-of-field",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-camera-inconsistent-depth-of-field-repeated-occurrence",
+      "semantic_key": "negative-camera-inconsistent-depth-of-field-repeated-occurrence",
+      "text": "inconsistent depth of field at repeated occurrence",
+      "sentence": "Inconsistent depth of field at repeated occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "inconsistent depth of field at repeated occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid inconsistent depth of field at repeated occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude inconsistent depth of field at repeated occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-camera-inconsistent-depth-of-field",
+      "tags": [
+        "camera",
+        "level-standard",
+        "negative",
+        "negative-camera",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "inconsistent-depth-of-field",
+        "treatment": "repeated-occurrence"
+      },
+      "subcategory": "inconsistent-depth-of-field",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-camera-inconsistent-depth-of-field-prominent-occurrence",
+      "semantic_key": "negative-camera-inconsistent-depth-of-field-prominent-occurrence",
+      "text": "inconsistent depth of field at prominent occurrence",
+      "sentence": "Inconsistent depth of field at prominent occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "inconsistent depth of field at prominent occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid inconsistent depth of field at prominent occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude inconsistent depth of field at prominent occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-camera-inconsistent-depth-of-field",
+      "tags": [
+        "camera",
+        "level-standard",
+        "negative",
+        "negative-camera",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "inconsistent-depth-of-field",
+        "treatment": "prominent-occurrence"
+      },
+      "subcategory": "inconsistent-depth-of-field",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-camera-inconsistent-depth-of-field-edge-occurrence",
+      "semantic_key": "negative-camera-inconsistent-depth-of-field-edge-occurrence",
+      "text": "inconsistent depth of field at edge occurrence",
+      "sentence": "Inconsistent depth of field at edge occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "inconsistent depth of field at edge occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid inconsistent depth of field at edge occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude inconsistent depth of field at edge occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-camera-inconsistent-depth-of-field",
+      "tags": [
+        "camera",
+        "level-standard",
+        "negative",
+        "negative-camera",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "inconsistent-depth-of-field",
+        "treatment": "edge-occurrence"
+      },
+      "subcategory": "inconsistent-depth-of-field",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-camera-inconsistent-depth-of-field-background-occurrence",
+      "semantic_key": "negative-camera-inconsistent-depth-of-field-background-occurrence",
+      "text": "inconsistent depth of field at background occurrence",
+      "sentence": "Inconsistent depth of field at background occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "inconsistent depth of field at background occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid inconsistent depth of field at background occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude inconsistent depth of field at background occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "negative-camera-inconsistent-depth-of-field",
+      "tags": [
+        "camera",
+        "level-standard",
+        "negative",
+        "negative-camera",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "artifact-family": "inconsistent-depth-of-field",
+        "treatment": "background-occurrence"
+      },
+      "subcategory": "inconsistent-depth-of-field",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-camera-inconsistent-depth-of-field-subject-occurrence",
+      "semantic_key": "negative-camera-inconsistent-depth-of-field-subject-occurrence",
+      "text": "inconsistent depth of field at subject occurrence",
+      "sentence": "Inconsistent depth of field at subject occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "inconsistent depth of field at subject occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid inconsistent depth of field at subject occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude inconsistent depth of field at subject occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "negative-camera-inconsistent-depth-of-field",
+      "tags": [
+        "camera",
+        "level-standard",
+        "negative",
+        "negative-camera",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "artifact-family": "inconsistent-depth-of-field",
+        "treatment": "subject-occurrence"
+      },
+      "subcategory": "inconsistent-depth-of-field",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-camera-inconsistent-depth-of-field-high-frequency-occurrence",
+      "semantic_key": "negative-camera-inconsistent-depth-of-field-high-frequency-occurrence",
+      "text": "inconsistent depth of field at high-frequency occurrence",
+      "sentence": "Inconsistent depth of field at high-frequency occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "inconsistent depth of field at high-frequency occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid inconsistent depth of field at high-frequency occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude inconsistent depth of field at high-frequency occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "negative-camera-inconsistent-depth-of-field",
+      "tags": [
+        "camera",
+        "level-standard",
+        "negative",
+        "negative-camera",
+        "rarity-rare"
+      ],
+      "facets": {
+        "artifact-family": "inconsistent-depth-of-field",
+        "treatment": "high-frequency-occurrence"
+      },
+      "subcategory": "inconsistent-depth-of-field",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-camera-inconsistent-depth-of-field-composition-wide-occurrence",
+      "semantic_key": "negative-camera-inconsistent-depth-of-field-composition-wide-occurrence",
+      "text": "inconsistent depth of field at composition-wide occurrence",
+      "sentence": "Inconsistent depth of field at composition-wide occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "inconsistent depth of field at composition-wide occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid inconsistent depth of field at composition-wide occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude inconsistent depth of field at composition-wide occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "negative-camera-inconsistent-depth-of-field",
+      "tags": [
+        "camera",
+        "level-standard",
+        "negative",
+        "negative-camera",
+        "rarity-rare"
+      ],
+      "facets": {
+        "artifact-family": "inconsistent-depth-of-field",
+        "treatment": "composition-wide-occurrence"
+      },
+      "subcategory": "inconsistent-depth-of-field",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://prompt-architect.invalid/schemas/2.0/catalog-index.schema.json",
+  "title": "Prompt Architect Catalog Index 2.0",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "id", "version", "language", "packs", "libraries"],
+  "properties": {
+    "schema_version": { "const": "2.0" },
+    "id": { "$ref": "#/$defs/id" },
+    "version": { "$ref": "#/$defs/version" },
+    "language": { "type": "string", "minLength": 1 },
+    "packs": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/pack" }
+    },
+    "libraries": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": { "$ref": "#/$defs/library" }
+    }
+  },
+  "$defs": {
+    "id": { "type": "string", "pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$" },
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+(?:[.-][0-9A-Za-z.-]+)?$"
+    },
+    "pack": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "library",
+        "domain",
+        "path",
+        "version",
+        "language",
+        "status",
+        "safety",
+        "tags",
+        "dependencies",
+        "priority"
+      ],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "library": { "$ref": "#/$defs/id" },
+        "domain": { "$ref": "#/$defs/id" },
+        "path": {
+          "type": "string",
+          "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[a-z0-9][a-z0-9/.-]*\\.json$"
+        },
+        "version": { "$ref": "#/$defs/version" },
+        "language": { "type": "string", "minLength": 1 },
+        "status": { "enum": ["active", "experimental", "deprecated"] },
+        "safety": {
+          "enum": ["general", "fashion-mature", "dark-atmospheric", "experimental"]
+        },
+        "tags": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "$ref": "#/$defs/id" }
+        },
+        "dependencies": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "$ref": "#/$defs/id" }
+        },
+        "priority": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "library": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["display_name", "packs"],
+      "properties": {
+        "display_name": { "type": "string", "minLength": 1 },
+        "packs": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": { "$ref": "#/$defs/id" }
+        },
+        "fallback_option_id": { "$ref": "#/$defs/id" }
+      }
+    }
+  }
+}

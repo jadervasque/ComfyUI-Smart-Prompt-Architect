@@ -1,0 +1,2577 @@
+{
+  "schema_version": "2.0",
+  "id": "wardrobe-jewelry-base",
+  "version": "2.0.0",
+  "library": "jewelry",
+  "domain": "wardrobe",
+  "category": "jewelry",
+  "language": "en",
+  "status": "active",
+  "safety": "general",
+  "tags": [
+    "base"
+  ],
+  "fallback_option_id": "wardrobe-jewelry-base-small-hoop-earrings-matte-finish",
+  "options": [
+    {
+      "id": "wardrobe-jewelry-base-small-hoop-earrings-matte-finish",
+      "semantic_key": "wardrobe-jewelry-base-small-hoop-earrings-matte-finish",
+      "text": "small hoop earrings with a matte finish",
+      "sentence": "Small hoop earrings with a matte finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "small hoop earrings with a matte finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing small hoop earrings with a matte finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with small hoop earrings with a matte finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-jewelry-base-small-hoop-earrings",
+      "tags": [
+        "base",
+        "jewelry",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "jewelry": "small-hoop-earrings",
+        "treatment": "matte-finish"
+      },
+      "subcategory": "small-hoop-earrings",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-jewelry-base-small-hoop-earrings-soft-sheen",
+      "semantic_key": "wardrobe-jewelry-base-small-hoop-earrings-soft-sheen",
+      "text": "small hoop earrings with a soft sheen",
+      "sentence": "Small hoop earrings with a soft sheen.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "small hoop earrings with a soft sheen",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing small hoop earrings with a soft sheen",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with small hoop earrings with a soft sheen",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-jewelry-base-small-hoop-earrings",
+      "tags": [
+        "base",
+        "jewelry",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "jewelry": "small-hoop-earrings",
+        "treatment": "soft-sheen"
+      },
+      "subcategory": "small-hoop-earrings",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-jewelry-base-small-hoop-earrings-natural-luster",
+      "semantic_key": "wardrobe-jewelry-base-small-hoop-earrings-natural-luster",
+      "text": "small hoop earrings with a natural luster",
+      "sentence": "Small hoop earrings with a natural luster.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "small hoop earrings with a natural luster",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing small hoop earrings with a natural luster",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with small hoop earrings with a natural luster",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-jewelry-base-small-hoop-earrings",
+      "tags": [
+        "base",
+        "jewelry",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "jewelry": "small-hoop-earrings",
+        "treatment": "natural-luster"
+      },
+      "subcategory": "small-hoop-earrings",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-jewelry-base-small-hoop-earrings-textured-finish",
+      "semantic_key": "wardrobe-jewelry-base-small-hoop-earrings-textured-finish",
+      "text": "small hoop earrings with a textured finish",
+      "sentence": "Small hoop earrings with a textured finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "small hoop earrings with a textured finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing small hoop earrings with a textured finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with small hoop earrings with a textured finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-jewelry-base-small-hoop-earrings",
+      "tags": [
+        "base",
+        "jewelry",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "jewelry": "small-hoop-earrings",
+        "treatment": "textured-finish"
+      },
+      "subcategory": "small-hoop-earrings",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-jewelry-base-small-hoop-earrings-brushed-finish",
+      "semantic_key": "wardrobe-jewelry-base-small-hoop-earrings-brushed-finish",
+      "text": "small hoop earrings with a brushed finish",
+      "sentence": "Small hoop earrings with a brushed finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "small hoop earrings with a brushed finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing small hoop earrings with a brushed finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with small hoop earrings with a brushed finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-jewelry-base-small-hoop-earrings",
+      "tags": [
+        "base",
+        "jewelry",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "jewelry": "small-hoop-earrings",
+        "treatment": "brushed-finish"
+      },
+      "subcategory": "small-hoop-earrings",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-jewelry-base-small-hoop-earrings-polished-finish",
+      "semantic_key": "wardrobe-jewelry-base-small-hoop-earrings-polished-finish",
+      "text": "small hoop earrings with a polished finish",
+      "sentence": "Small hoop earrings with a polished finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "small hoop earrings with a polished finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing small hoop earrings with a polished finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with small hoop earrings with a polished finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-jewelry-base-small-hoop-earrings",
+      "tags": [
+        "base",
+        "jewelry",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "jewelry": "small-hoop-earrings",
+        "treatment": "polished-finish"
+      },
+      "subcategory": "small-hoop-earrings",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-jewelry-base-small-hoop-earrings-weathered-finish",
+      "semantic_key": "wardrobe-jewelry-base-small-hoop-earrings-weathered-finish",
+      "text": "small hoop earrings with a weathered finish",
+      "sentence": "Small hoop earrings with a weathered finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "small hoop earrings with a weathered finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing small hoop earrings with a weathered finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with small hoop earrings with a weathered finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-jewelry-base-small-hoop-earrings",
+      "tags": [
+        "base",
+        "jewelry",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "jewelry": "small-hoop-earrings",
+        "treatment": "weathered-finish"
+      },
+      "subcategory": "small-hoop-earrings",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-jewelry-base-small-hoop-earrings-satin-finish",
+      "semantic_key": "wardrobe-jewelry-base-small-hoop-earrings-satin-finish",
+      "text": "small hoop earrings with a satin finish",
+      "sentence": "Small hoop earrings with a satin finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "small hoop earrings with a satin finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing small hoop earrings with a satin finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with small hoop earrings with a satin finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-jewelry-base-small-hoop-earrings",
+      "tags": [
+        "base",
+        "jewelry",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "jewelry": "small-hoop-earrings",
+        "treatment": "satin-finish"
+      },
+      "subcategory": "small-hoop-earrings",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-jewelry-base-drop-earrings-matte-finish",
+      "semantic_key": "wardrobe-jewelry-base-drop-earrings-matte-finish",
+      "text": "drop earrings with a matte finish",
+      "sentence": "Drop earrings with a matte finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "drop earrings with a matte finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing drop earrings with a matte finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with drop earrings with a matte finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-jewelry-base-drop-earrings",
+      "tags": [
+        "base",
+        "jewelry",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "jewelry": "drop-earrings",
+        "treatment": "matte-finish"
+      },
+      "subcategory": "drop-earrings",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-jewelry-base-drop-earrings-soft-sheen",
+      "semantic_key": "wardrobe-jewelry-base-drop-earrings-soft-sheen",
+      "text": "drop earrings with a soft sheen",
+      "sentence": "Drop earrings with a soft sheen.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "drop earrings with a soft sheen",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing drop earrings with a soft sheen",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with drop earrings with a soft sheen",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-jewelry-base-drop-earrings",
+      "tags": [
+        "base",
+        "jewelry",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "jewelry": "drop-earrings",
+        "treatment": "soft-sheen"
+      },
+      "subcategory": "drop-earrings",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-jewelry-base-drop-earrings-natural-luster",
+      "semantic_key": "wardrobe-jewelry-base-drop-earrings-natural-luster",
+      "text": "drop earrings with a natural luster",
+      "sentence": "Drop earrings with a natural luster.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "drop earrings with a natural luster",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing drop earrings with a natural luster",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with drop earrings with a natural luster",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-jewelry-base-drop-earrings",
+      "tags": [
+        "base",
+        "jewelry",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "jewelry": "drop-earrings",
+        "treatment": "natural-luster"
+      },
+      "subcategory": "drop-earrings",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-jewelry-base-drop-earrings-textured-finish",
+      "semantic_key": "wardrobe-jewelry-base-drop-earrings-textured-finish",
+      "text": "drop earrings with a textured finish",
+      "sentence": "Drop earrings with a textured finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "drop earrings with a textured finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing drop earrings with a textured finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with drop earrings with a textured finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-jewelry-base-drop-earrings",
+      "tags": [
+        "base",
+        "jewelry",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "jewelry": "drop-earrings",
+        "treatment": "textured-finish"
+      },
+      "subcategory": "drop-earrings",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-jewelry-base-drop-earrings-brushed-finish",
+      "semantic_key": "wardrobe-jewelry-base-drop-earrings-brushed-finish",
+      "text": "drop earrings with a brushed finish",
+      "sentence": "Drop earrings with a brushed finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "drop earrings with a brushed finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing drop earrings with a brushed finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with drop earrings with a brushed finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-jewelry-base-drop-earrings",
+      "tags": [
+        "base",
+        "jewelry",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "jewelry": "drop-earrings",
+        "treatment": "brushed-finish"
+      },
+      "subcategory": "drop-earrings",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-jewelry-base-drop-earrings-polished-finish",
+      "semantic_key": "wardrobe-jewelry-base-drop-earrings-polished-finish",
+      "text": "drop earrings with a polished finish",
+      "sentence": "Drop earrings with a polished finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "drop earrings with a polished finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing drop earrings with a polished finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with drop earrings with a polished finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-jewelry-base-drop-earrings",
+      "tags": [
+        "base",
+        "jewelry",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "jewelry": "drop-earrings",
+        "treatment": "polished-finish"
+      },
+      "subcategory": "drop-earrings",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-jewelry-base-drop-earrings-weathered-finish",
+      "semantic_key": "wardrobe-jewelry-base-drop-earrings-weathered-finish",
+      "text": "drop earrings with a weathered finish",
+      "sentence": "Drop earrings with a weathered finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "drop earrings with a weathered finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing drop earrings with a weathered finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with drop earrings with a weathered finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-jewelry-base-drop-earrings",
+      "tags": [
+        "base",
+        "jewelry",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "jewelry": "drop-earrings",
+        "treatment": "weathered-finish"
+      },
+      "subcategory": "drop-earrings",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-jewelry-base-drop-earrings-satin-finish",
+      "semantic_key": "wardrobe-jewelry-base-drop-earrings-satin-finish",
+      "text": "drop earrings with a satin finish",
+      "sentence": "Drop earrings with a satin finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "drop earrings with a satin finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing drop earrings with a satin finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with drop earrings with a satin finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-jewelry-base-drop-earrings",
+      "tags": [
+        "base",
+        "jewelry",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "jewelry": "drop-earrings",
+        "treatment": "satin-finish"
+      },
+      "subcategory": "drop-earrings",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-jewelry-base-stud-earrings-matte-finish",
+      "semantic_key": "wardrobe-jewelry-base-stud-earrings-matte-finish",
+      "text": "stud earrings with a matte finish",
+      "sentence": "Stud earrings with a matte finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "stud earrings with a matte finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing stud earrings with a matte finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with stud earrings with a matte finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-jewelry-base-stud-earrings",
+      "tags": [
+        "base",
+        "jewelry",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "jewelry": "stud-earrings",
+        "treatment": "matte-finish"
+      },
+      "subcategory": "stud-earrings",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-jewelry-base-stud-earrings-soft-sheen",
+      "semantic_key": "wardrobe-jewelry-base-stud-earrings-soft-sheen",
+      "text": "stud earrings with a soft sheen",
+      "sentence": "Stud earrings with a soft sheen.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "stud earrings with a soft sheen",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing stud earrings with a soft sheen",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with stud earrings with a soft sheen",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-jewelry-base-stud-earrings",
+      "tags": [
+        "base",
+        "jewelry",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "jewelry": "stud-earrings",
+        "treatment": "soft-sheen"
+      },
+      "subcategory": "stud-earrings",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-jewelry-base-stud-earrings-natural-luster",
+      "semantic_key": "wardrobe-jewelry-base-stud-earrings-natural-luster",
+      "text": "stud earrings with a natural luster",
+      "sentence": "Stud earrings with a natural luster.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "stud earrings with a natural luster",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing stud earrings with a natural luster",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with stud earrings with a natural luster",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-jewelry-base-stud-earrings",
+      "tags": [
+        "base",
+        "jewelry",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "jewelry": "stud-earrings",
+        "treatment": "natural-luster"
+      },
+      "subcategory": "stud-earrings",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-jewelry-base-stud-earrings-textured-finish",
+      "semantic_key": "wardrobe-jewelry-base-stud-earrings-textured-finish",
+      "text": "stud earrings with a textured finish",
+      "sentence": "Stud earrings with a textured finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "stud earrings with a textured finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing stud earrings with a textured finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with stud earrings with a textured finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-jewelry-base-stud-earrings",
+      "tags": [
+        "base",
+        "jewelry",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "jewelry": "stud-earrings",
+        "treatment": "textured-finish"
+      },
+      "subcategory": "stud-earrings",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-jewelry-base-stud-earrings-brushed-finish",
+      "semantic_key": "wardrobe-jewelry-base-stud-earrings-brushed-finish",
+      "text": "stud earrings with a brushed finish",
+      "sentence": "Stud earrings with a brushed finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "stud earrings with a brushed finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing stud earrings with a brushed finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with stud earrings with a brushed finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-jewelry-base-stud-earrings",
+      "tags": [
+        "base",
+        "jewelry",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "jewelry": "stud-earrings",
+        "treatment": "brushed-finish"
+      },
+      "subcategory": "stud-earrings",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-jewelry-base-stud-earrings-polished-finish",
+      "semantic_key": "wardrobe-jewelry-base-stud-earrings-polished-finish",
+      "text": "stud earrings with a polished finish",
+      "sentence": "Stud earrings with a polished finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "stud earrings with a polished finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing stud earrings with a polished finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with stud earrings with a polished finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-jewelry-base-stud-earrings",
+      "tags": [
+        "base",
+        "jewelry",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "jewelry": "stud-earrings",
+        "treatment": "polished-finish"
+      },
+      "subcategory": "stud-earrings",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-jewelry-base-stud-earrings-weathered-finish",
+      "semantic_key": "wardrobe-jewelry-base-stud-earrings-weathered-finish",
+      "text": "stud earrings with a weathered finish",
+      "sentence": "Stud earrings with a weathered finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "stud earrings with a weathered finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing stud earrings with a weathered finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with stud earrings with a weathered finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-jewelry-base-stud-earrings",
+      "tags": [
+        "base",
+        "jewelry",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "jewelry": "stud-earrings",
+        "treatment": "weathered-finish"
+      },
+      "subcategory": "stud-earrings",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-jewelry-base-stud-earrings-satin-finish",
+      "semantic_key": "wardrobe-jewelry-base-stud-earrings-satin-finish",
+      "text": "stud earrings with a satin finish",
+      "sentence": "Stud earrings with a satin finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "stud earrings with a satin finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing stud earrings with a satin finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with stud earrings with a satin finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-jewelry-base-stud-earrings",
+      "tags": [
+        "base",
+        "jewelry",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "jewelry": "stud-earrings",
+        "treatment": "satin-finish"
+      },
+      "subcategory": "stud-earrings",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-jewelry-base-fine-chain-necklace-matte-finish",
+      "semantic_key": "wardrobe-jewelry-base-fine-chain-necklace-matte-finish",
+      "text": "fine chain necklace with a matte finish",
+      "sentence": "Fine chain necklace with a matte finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "fine chain necklace with a matte finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing fine chain necklace with a matte finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with fine chain necklace with a matte finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-jewelry-base-fine-chain-necklace",
+      "tags": [
+        "base",
+        "jewelry",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "jewelry": "fine-chain-necklace",
+        "treatment": "matte-finish"
+      },
+      "subcategory": "fine-chain-necklace",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-jewelry-base-fine-chain-necklace-soft-sheen",
+      "semantic_key": "wardrobe-jewelry-base-fine-chain-necklace-soft-sheen",
+      "text": "fine chain necklace with a soft sheen",
+      "sentence": "Fine chain necklace with a soft sheen.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "fine chain necklace with a soft sheen",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing fine chain necklace with a soft sheen",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with fine chain necklace with a soft sheen",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-jewelry-base-fine-chain-necklace",
+      "tags": [
+        "base",
+        "jewelry",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "jewelry": "fine-chain-necklace",
+        "treatment": "soft-sheen"
+      },
+      "subcategory": "fine-chain-necklace",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-jewelry-base-fine-chain-necklace-natural-luster",
+      "semantic_key": "wardrobe-jewelry-base-fine-chain-necklace-natural-luster",
+      "text": "fine chain necklace with a natural luster",
+      "sentence": "Fine chain necklace with a natural luster.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "fine chain necklace with a natural luster",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing fine chain necklace with a natural luster",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with fine chain necklace with a natural luster",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-jewelry-base-fine-chain-necklace",
+      "tags": [
+        "base",
+        "jewelry",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "jewelry": "fine-chain-necklace",
+        "treatment": "natural-luster"
+      },
+      "subcategory": "fine-chain-necklace",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-jewelry-base-fine-chain-necklace-textured-finish",
+      "semantic_key": "wardrobe-jewelry-base-fine-chain-necklace-textured-finish",
+      "text": "fine chain necklace with a textured finish",
+      "sentence": "Fine chain necklace with a textured finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "fine chain necklace with a textured finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing fine chain necklace with a textured finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with fine chain necklace with a textured finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-jewelry-base-fine-chain-necklace",
+      "tags": [
+        "base",
+        "jewelry",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "jewelry": "fine-chain-necklace",
+        "treatment": "textured-finish"
+      },
+      "subcategory": "fine-chain-necklace",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-jewelry-base-fine-chain-necklace-brushed-finish",
+      "semantic_key": "wardrobe-jewelry-base-fine-chain-necklace-brushed-finish",
+      "text": "fine chain necklace with a brushed finish",
+      "sentence": "Fine chain necklace with a brushed finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "fine chain necklace with a brushed finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing fine chain necklace with a brushed finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with fine chain necklace with a brushed finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-jewelry-base-fine-chain-necklace",
+      "tags": [
+        "base",
+        "jewelry",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "jewelry": "fine-chain-necklace",
+        "treatment": "brushed-finish"
+      },
+      "subcategory": "fine-chain-necklace",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-jewelry-base-fine-chain-necklace-polished-finish",
+      "semantic_key": "wardrobe-jewelry-base-fine-chain-necklace-polished-finish",
+      "text": "fine chain necklace with a polished finish",
+      "sentence": "Fine chain necklace with a polished finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "fine chain necklace with a polished finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing fine chain necklace with a polished finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with fine chain necklace with a polished finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-jewelry-base-fine-chain-necklace",
+      "tags": [
+        "base",
+        "jewelry",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "jewelry": "fine-chain-necklace",
+        "treatment": "polished-finish"
+      },
+      "subcategory": "fine-chain-necklace",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-jewelry-base-fine-chain-necklace-weathered-finish",
+      "semantic_key": "wardrobe-jewelry-base-fine-chain-necklace-weathered-finish",
+      "text": "fine chain necklace with a weathered finish",
+      "sentence": "Fine chain necklace with a weathered finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "fine chain necklace with a weathered finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing fine chain necklace with a weathered finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with fine chain necklace with a weathered finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-jewelry-base-fine-chain-necklace",
+      "tags": [
+        "base",
+        "jewelry",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "jewelry": "fine-chain-necklace",
+        "treatment": "weathered-finish"
+      },
+      "subcategory": "fine-chain-necklace",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-jewelry-base-fine-chain-necklace-satin-finish",
+      "semantic_key": "wardrobe-jewelry-base-fine-chain-necklace-satin-finish",
+      "text": "fine chain necklace with a satin finish",
+      "sentence": "Fine chain necklace with a satin finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "fine chain necklace with a satin finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing fine chain necklace with a satin finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with fine chain necklace with a satin finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-jewelry-base-fine-chain-necklace",
+      "tags": [
+        "base",
+        "jewelry",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "jewelry": "fine-chain-necklace",
+        "treatment": "satin-finish"
+      },
+      "subcategory": "fine-chain-necklace",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-jewelry-base-sculptural-necklace-matte-finish",
+      "semantic_key": "wardrobe-jewelry-base-sculptural-necklace-matte-finish",
+      "text": "sculptural necklace with a matte finish",
+      "sentence": "Sculptural necklace with a matte finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "sculptural necklace with a matte finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing sculptural necklace with a matte finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with sculptural necklace with a matte finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-jewelry-base-sculptural-necklace",
+      "tags": [
+        "base",
+        "jewelry",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "jewelry": "sculptural-necklace",
+        "treatment": "matte-finish"
+      },
+      "subcategory": "sculptural-necklace",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-jewelry-base-sculptural-necklace-soft-sheen",
+      "semantic_key": "wardrobe-jewelry-base-sculptural-necklace-soft-sheen",
+      "text": "sculptural necklace with a soft sheen",
+      "sentence": "Sculptural necklace with a soft sheen.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "sculptural necklace with a soft sheen",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing sculptural necklace with a soft sheen",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with sculptural necklace with a soft sheen",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-jewelry-base-sculptural-necklace",
+      "tags": [
+        "base",
+        "jewelry",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "jewelry": "sculptural-necklace",
+        "treatment": "soft-sheen"
+      },
+      "subcategory": "sculptural-necklace",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-jewelry-base-sculptural-necklace-natural-luster",
+      "semantic_key": "wardrobe-jewelry-base-sculptural-necklace-natural-luster",
+      "text": "sculptural necklace with a natural luster",
+      "sentence": "Sculptural necklace with a natural luster.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "sculptural necklace with a natural luster",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing sculptural necklace with a natural luster",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with sculptural necklace with a natural luster",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-jewelry-base-sculptural-necklace",
+      "tags": [
+        "base",
+        "jewelry",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "jewelry": "sculptural-necklace",
+        "treatment": "natural-luster"
+      },
+      "subcategory": "sculptural-necklace",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-jewelry-base-sculptural-necklace-textured-finish",
+      "semantic_key": "wardrobe-jewelry-base-sculptural-necklace-textured-finish",
+      "text": "sculptural necklace with a textured finish",
+      "sentence": "Sculptural necklace with a textured finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "sculptural necklace with a textured finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing sculptural necklace with a textured finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with sculptural necklace with a textured finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-jewelry-base-sculptural-necklace",
+      "tags": [
+        "base",
+        "jewelry",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "jewelry": "sculptural-necklace",
+        "treatment": "textured-finish"
+      },
+      "subcategory": "sculptural-necklace",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-jewelry-base-sculptural-necklace-brushed-finish",
+      "semantic_key": "wardrobe-jewelry-base-sculptural-necklace-brushed-finish",
+      "text": "sculptural necklace with a brushed finish",
+      "sentence": "Sculptural necklace with a brushed finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "sculptural necklace with a brushed finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing sculptural necklace with a brushed finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with sculptural necklace with a brushed finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-jewelry-base-sculptural-necklace",
+      "tags": [
+        "base",
+        "jewelry",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "jewelry": "sculptural-necklace",
+        "treatment": "brushed-finish"
+      },
+      "subcategory": "sculptural-necklace",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-jewelry-base-sculptural-necklace-polished-finish",
+      "semantic_key": "wardrobe-jewelry-base-sculptural-necklace-polished-finish",
+      "text": "sculptural necklace with a polished finish",
+      "sentence": "Sculptural necklace with a polished finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "sculptural necklace with a polished finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing sculptural necklace with a polished finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with sculptural necklace with a polished finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-jewelry-base-sculptural-necklace",
+      "tags": [
+        "base",
+        "jewelry",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "jewelry": "sculptural-necklace",
+        "treatment": "polished-finish"
+      },
+      "subcategory": "sculptural-necklace",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-jewelry-base-sculptural-necklace-weathered-finish",
+      "semantic_key": "wardrobe-jewelry-base-sculptural-necklace-weathered-finish",
+      "text": "sculptural necklace with a weathered finish",
+      "sentence": "Sculptural necklace with a weathered finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "sculptural necklace with a weathered finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing sculptural necklace with a weathered finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with sculptural necklace with a weathered finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-jewelry-base-sculptural-necklace",
+      "tags": [
+        "base",
+        "jewelry",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "jewelry": "sculptural-necklace",
+        "treatment": "weathered-finish"
+      },
+      "subcategory": "sculptural-necklace",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-jewelry-base-sculptural-necklace-satin-finish",
+      "semantic_key": "wardrobe-jewelry-base-sculptural-necklace-satin-finish",
+      "text": "sculptural necklace with a satin finish",
+      "sentence": "Sculptural necklace with a satin finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "sculptural necklace with a satin finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing sculptural necklace with a satin finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with sculptural necklace with a satin finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-jewelry-base-sculptural-necklace",
+      "tags": [
+        "base",
+        "jewelry",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "jewelry": "sculptural-necklace",
+        "treatment": "satin-finish"
+      },
+      "subcategory": "sculptural-necklace",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-jewelry-base-stacked-rings-matte-finish",
+      "semantic_key": "wardrobe-jewelry-base-stacked-rings-matte-finish",
+      "text": "stacked rings with a matte finish",
+      "sentence": "Stacked rings with a matte finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "stacked rings with a matte finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing stacked rings with a matte finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with stacked rings with a matte finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-jewelry-base-stacked-rings",
+      "tags": [
+        "base",
+        "jewelry",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "jewelry": "stacked-rings",
+        "treatment": "matte-finish"
+      },
+      "subcategory": "stacked-rings",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-jewelry-base-stacked-rings-soft-sheen",
+      "semantic_key": "wardrobe-jewelry-base-stacked-rings-soft-sheen",
+      "text": "stacked rings with a soft sheen",
+      "sentence": "Stacked rings with a soft sheen.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "stacked rings with a soft sheen",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing stacked rings with a soft sheen",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with stacked rings with a soft sheen",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-jewelry-base-stacked-rings",
+      "tags": [
+        "base",
+        "jewelry",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "jewelry": "stacked-rings",
+        "treatment": "soft-sheen"
+      },
+      "subcategory": "stacked-rings",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-jewelry-base-stacked-rings-natural-luster",
+      "semantic_key": "wardrobe-jewelry-base-stacked-rings-natural-luster",
+      "text": "stacked rings with a natural luster",
+      "sentence": "Stacked rings with a natural luster.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "stacked rings with a natural luster",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing stacked rings with a natural luster",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with stacked rings with a natural luster",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-jewelry-base-stacked-rings",
+      "tags": [
+        "base",
+        "jewelry",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "jewelry": "stacked-rings",
+        "treatment": "natural-luster"
+      },
+      "subcategory": "stacked-rings",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-jewelry-base-stacked-rings-textured-finish",
+      "semantic_key": "wardrobe-jewelry-base-stacked-rings-textured-finish",
+      "text": "stacked rings with a textured finish",
+      "sentence": "Stacked rings with a textured finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "stacked rings with a textured finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing stacked rings with a textured finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with stacked rings with a textured finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-jewelry-base-stacked-rings",
+      "tags": [
+        "base",
+        "jewelry",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "jewelry": "stacked-rings",
+        "treatment": "textured-finish"
+      },
+      "subcategory": "stacked-rings",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-jewelry-base-stacked-rings-brushed-finish",
+      "semantic_key": "wardrobe-jewelry-base-stacked-rings-brushed-finish",
+      "text": "stacked rings with a brushed finish",
+      "sentence": "Stacked rings with a brushed finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "stacked rings with a brushed finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing stacked rings with a brushed finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with stacked rings with a brushed finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-jewelry-base-stacked-rings",
+      "tags": [
+        "base",
+        "jewelry",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "jewelry": "stacked-rings",
+        "treatment": "brushed-finish"
+      },
+      "subcategory": "stacked-rings",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-jewelry-base-stacked-rings-polished-finish",
+      "semantic_key": "wardrobe-jewelry-base-stacked-rings-polished-finish",
+      "text": "stacked rings with a polished finish",
+      "sentence": "Stacked rings with a polished finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "stacked rings with a polished finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing stacked rings with a polished finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with stacked rings with a polished finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-jewelry-base-stacked-rings",
+      "tags": [
+        "base",
+        "jewelry",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "jewelry": "stacked-rings",
+        "treatment": "polished-finish"
+      },
+      "subcategory": "stacked-rings",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-jewelry-base-stacked-rings-weathered-finish",
+      "semantic_key": "wardrobe-jewelry-base-stacked-rings-weathered-finish",
+      "text": "stacked rings with a weathered finish",
+      "sentence": "Stacked rings with a weathered finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "stacked rings with a weathered finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing stacked rings with a weathered finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with stacked rings with a weathered finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-jewelry-base-stacked-rings",
+      "tags": [
+        "base",
+        "jewelry",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "jewelry": "stacked-rings",
+        "treatment": "weathered-finish"
+      },
+      "subcategory": "stacked-rings",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-jewelry-base-stacked-rings-satin-finish",
+      "semantic_key": "wardrobe-jewelry-base-stacked-rings-satin-finish",
+      "text": "stacked rings with a satin finish",
+      "sentence": "Stacked rings with a satin finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "stacked rings with a satin finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing stacked rings with a satin finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with stacked rings with a satin finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-jewelry-base-stacked-rings",
+      "tags": [
+        "base",
+        "jewelry",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "jewelry": "stacked-rings",
+        "treatment": "satin-finish"
+      },
+      "subcategory": "stacked-rings",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-jewelry-base-single-cuff-bracelet-matte-finish",
+      "semantic_key": "wardrobe-jewelry-base-single-cuff-bracelet-matte-finish",
+      "text": "single cuff bracelet with a matte finish",
+      "sentence": "Single cuff bracelet with a matte finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "single cuff bracelet with a matte finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing single cuff bracelet with a matte finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with single cuff bracelet with a matte finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-jewelry-base-single-cuff-bracelet",
+      "tags": [
+        "base",
+        "jewelry",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "jewelry": "single-cuff-bracelet",
+        "treatment": "matte-finish"
+      },
+      "subcategory": "single-cuff-bracelet",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-jewelry-base-single-cuff-bracelet-soft-sheen",
+      "semantic_key": "wardrobe-jewelry-base-single-cuff-bracelet-soft-sheen",
+      "text": "single cuff bracelet with a soft sheen",
+      "sentence": "Single cuff bracelet with a soft sheen.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "single cuff bracelet with a soft sheen",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing single cuff bracelet with a soft sheen",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with single cuff bracelet with a soft sheen",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-jewelry-base-single-cuff-bracelet",
+      "tags": [
+        "base",
+        "jewelry",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "jewelry": "single-cuff-bracelet",
+        "treatment": "soft-sheen"
+      },
+      "subcategory": "single-cuff-bracelet",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-jewelry-base-single-cuff-bracelet-natural-luster",
+      "semantic_key": "wardrobe-jewelry-base-single-cuff-bracelet-natural-luster",
+      "text": "single cuff bracelet with a natural luster",
+      "sentence": "Single cuff bracelet with a natural luster.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "single cuff bracelet with a natural luster",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing single cuff bracelet with a natural luster",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with single cuff bracelet with a natural luster",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-jewelry-base-single-cuff-bracelet",
+      "tags": [
+        "base",
+        "jewelry",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "jewelry": "single-cuff-bracelet",
+        "treatment": "natural-luster"
+      },
+      "subcategory": "single-cuff-bracelet",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-jewelry-base-single-cuff-bracelet-textured-finish",
+      "semantic_key": "wardrobe-jewelry-base-single-cuff-bracelet-textured-finish",
+      "text": "single cuff bracelet with a textured finish",
+      "sentence": "Single cuff bracelet with a textured finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "single cuff bracelet with a textured finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing single cuff bracelet with a textured finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with single cuff bracelet with a textured finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-jewelry-base-single-cuff-bracelet",
+      "tags": [
+        "base",
+        "jewelry",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "jewelry": "single-cuff-bracelet",
+        "treatment": "textured-finish"
+      },
+      "subcategory": "single-cuff-bracelet",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-jewelry-base-single-cuff-bracelet-brushed-finish",
+      "semantic_key": "wardrobe-jewelry-base-single-cuff-bracelet-brushed-finish",
+      "text": "single cuff bracelet with a brushed finish",
+      "sentence": "Single cuff bracelet with a brushed finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "single cuff bracelet with a brushed finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing single cuff bracelet with a brushed finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with single cuff bracelet with a brushed finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-jewelry-base-single-cuff-bracelet",
+      "tags": [
+        "base",
+        "jewelry",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "jewelry": "single-cuff-bracelet",
+        "treatment": "brushed-finish"
+      },
+      "subcategory": "single-cuff-bracelet",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-jewelry-base-single-cuff-bracelet-polished-finish",
+      "semantic_key": "wardrobe-jewelry-base-single-cuff-bracelet-polished-finish",
+      "text": "single cuff bracelet with a polished finish",
+      "sentence": "Single cuff bracelet with a polished finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "single cuff bracelet with a polished finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing single cuff bracelet with a polished finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with single cuff bracelet with a polished finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-jewelry-base-single-cuff-bracelet",
+      "tags": [
+        "base",
+        "jewelry",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "jewelry": "single-cuff-bracelet",
+        "treatment": "polished-finish"
+      },
+      "subcategory": "single-cuff-bracelet",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-jewelry-base-single-cuff-bracelet-weathered-finish",
+      "semantic_key": "wardrobe-jewelry-base-single-cuff-bracelet-weathered-finish",
+      "text": "single cuff bracelet with a weathered finish",
+      "sentence": "Single cuff bracelet with a weathered finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "single cuff bracelet with a weathered finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing single cuff bracelet with a weathered finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with single cuff bracelet with a weathered finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-jewelry-base-single-cuff-bracelet",
+      "tags": [
+        "base",
+        "jewelry",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "jewelry": "single-cuff-bracelet",
+        "treatment": "weathered-finish"
+      },
+      "subcategory": "single-cuff-bracelet",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-jewelry-base-single-cuff-bracelet-satin-finish",
+      "semantic_key": "wardrobe-jewelry-base-single-cuff-bracelet-satin-finish",
+      "text": "single cuff bracelet with a satin finish",
+      "sentence": "Single cuff bracelet with a satin finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "single cuff bracelet with a satin finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing single cuff bracelet with a satin finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with single cuff bracelet with a satin finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-jewelry-base-single-cuff-bracelet",
+      "tags": [
+        "base",
+        "jewelry",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "jewelry": "single-cuff-bracelet",
+        "treatment": "satin-finish"
+      },
+      "subcategory": "single-cuff-bracelet",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-jewelry-base-delicate-brooch-matte-finish",
+      "semantic_key": "wardrobe-jewelry-base-delicate-brooch-matte-finish",
+      "text": "delicate brooch with a matte finish",
+      "sentence": "Delicate brooch with a matte finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "delicate brooch with a matte finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing delicate brooch with a matte finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with delicate brooch with a matte finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-jewelry-base-delicate-brooch",
+      "tags": [
+        "base",
+        "jewelry",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "jewelry": "delicate-brooch",
+        "treatment": "matte-finish"
+      },
+      "subcategory": "delicate-brooch",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-jewelry-base-delicate-brooch-soft-sheen",
+      "semantic_key": "wardrobe-jewelry-base-delicate-brooch-soft-sheen",
+      "text": "delicate brooch with a soft sheen",
+      "sentence": "Delicate brooch with a soft sheen.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "delicate brooch with a soft sheen",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing delicate brooch with a soft sheen",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with delicate brooch with a soft sheen",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-jewelry-base-delicate-brooch",
+      "tags": [
+        "base",
+        "jewelry",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "jewelry": "delicate-brooch",
+        "treatment": "soft-sheen"
+      },
+      "subcategory": "delicate-brooch",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-jewelry-base-delicate-brooch-natural-luster",
+      "semantic_key": "wardrobe-jewelry-base-delicate-brooch-natural-luster",
+      "text": "delicate brooch with a natural luster",
+      "sentence": "Delicate brooch with a natural luster.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "delicate brooch with a natural luster",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing delicate brooch with a natural luster",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with delicate brooch with a natural luster",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-jewelry-base-delicate-brooch",
+      "tags": [
+        "base",
+        "jewelry",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "jewelry": "delicate-brooch",
+        "treatment": "natural-luster"
+      },
+      "subcategory": "delicate-brooch",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-jewelry-base-delicate-brooch-textured-finish",
+      "semantic_key": "wardrobe-jewelry-base-delicate-brooch-textured-finish",
+      "text": "delicate brooch with a textured finish",
+      "sentence": "Delicate brooch with a textured finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "delicate brooch with a textured finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing delicate brooch with a textured finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with delicate brooch with a textured finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-jewelry-base-delicate-brooch",
+      "tags": [
+        "base",
+        "jewelry",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "jewelry": "delicate-brooch",
+        "treatment": "textured-finish"
+      },
+      "subcategory": "delicate-brooch",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-jewelry-base-delicate-brooch-brushed-finish",
+      "semantic_key": "wardrobe-jewelry-base-delicate-brooch-brushed-finish",
+      "text": "delicate brooch with a brushed finish",
+      "sentence": "Delicate brooch with a brushed finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "delicate brooch with a brushed finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing delicate brooch with a brushed finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with delicate brooch with a brushed finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-jewelry-base-delicate-brooch",
+      "tags": [
+        "base",
+        "jewelry",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "jewelry": "delicate-brooch",
+        "treatment": "brushed-finish"
+      },
+      "subcategory": "delicate-brooch",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-jewelry-base-delicate-brooch-polished-finish",
+      "semantic_key": "wardrobe-jewelry-base-delicate-brooch-polished-finish",
+      "text": "delicate brooch with a polished finish",
+      "sentence": "Delicate brooch with a polished finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "delicate brooch with a polished finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing delicate brooch with a polished finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with delicate brooch with a polished finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-jewelry-base-delicate-brooch",
+      "tags": [
+        "base",
+        "jewelry",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "jewelry": "delicate-brooch",
+        "treatment": "polished-finish"
+      },
+      "subcategory": "delicate-brooch",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-jewelry-base-delicate-brooch-weathered-finish",
+      "semantic_key": "wardrobe-jewelry-base-delicate-brooch-weathered-finish",
+      "text": "delicate brooch with a weathered finish",
+      "sentence": "Delicate brooch with a weathered finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "delicate brooch with a weathered finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing delicate brooch with a weathered finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with delicate brooch with a weathered finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-jewelry-base-delicate-brooch",
+      "tags": [
+        "base",
+        "jewelry",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "jewelry": "delicate-brooch",
+        "treatment": "weathered-finish"
+      },
+      "subcategory": "delicate-brooch",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-jewelry-base-delicate-brooch-satin-finish",
+      "semantic_key": "wardrobe-jewelry-base-delicate-brooch-satin-finish",
+      "text": "delicate brooch with a satin finish",
+      "sentence": "Delicate brooch with a satin finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "delicate brooch with a satin finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing delicate brooch with a satin finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with delicate brooch with a satin finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-jewelry-base-delicate-brooch",
+      "tags": [
+        "base",
+        "jewelry",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "jewelry": "delicate-brooch",
+        "treatment": "satin-finish"
+      },
+      "subcategory": "delicate-brooch",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    }
+  ]
+}

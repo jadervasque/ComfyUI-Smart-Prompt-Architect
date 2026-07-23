@@ -1,0 +1,2642 @@
+{
+  "schema_version": "2.0",
+  "id": "negative-context",
+  "version": "2.0.0",
+  "library": "negative-context",
+  "domain": "negative",
+  "category": "negative-context",
+  "language": "en",
+  "status": "active",
+  "safety": "general",
+  "tags": [
+    "context",
+    "level-strict"
+  ],
+  "fallback_option_id": "negative-context-era-inconsistent-objects-minor-occurrence",
+  "options": [
+    {
+      "id": "negative-context-era-inconsistent-objects-minor-occurrence",
+      "semantic_key": "negative-context-era-inconsistent-objects-minor-occurrence",
+      "text": "era-inconsistent objects at minor occurrence",
+      "sentence": "Era-inconsistent objects at minor occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "era-inconsistent objects at minor occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid era-inconsistent objects at minor occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude era-inconsistent objects at minor occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-context-era-inconsistent-objects",
+      "tags": [
+        "context",
+        "level-strict",
+        "negative",
+        "negative-context",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "era-inconsistent-objects",
+        "treatment": "minor-occurrence"
+      },
+      "subcategory": "era-inconsistent-objects",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-context-era-inconsistent-objects-repeated-occurrence",
+      "semantic_key": "negative-context-era-inconsistent-objects-repeated-occurrence",
+      "text": "era-inconsistent objects at repeated occurrence",
+      "sentence": "Era-inconsistent objects at repeated occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "era-inconsistent objects at repeated occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid era-inconsistent objects at repeated occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude era-inconsistent objects at repeated occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-context-era-inconsistent-objects",
+      "tags": [
+        "context",
+        "level-strict",
+        "negative",
+        "negative-context",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "era-inconsistent-objects",
+        "treatment": "repeated-occurrence"
+      },
+      "subcategory": "era-inconsistent-objects",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-context-era-inconsistent-objects-prominent-occurrence",
+      "semantic_key": "negative-context-era-inconsistent-objects-prominent-occurrence",
+      "text": "era-inconsistent objects at prominent occurrence",
+      "sentence": "Era-inconsistent objects at prominent occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "era-inconsistent objects at prominent occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid era-inconsistent objects at prominent occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude era-inconsistent objects at prominent occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-context-era-inconsistent-objects",
+      "tags": [
+        "context",
+        "level-strict",
+        "negative",
+        "negative-context",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "era-inconsistent-objects",
+        "treatment": "prominent-occurrence"
+      },
+      "subcategory": "era-inconsistent-objects",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-context-era-inconsistent-objects-edge-occurrence",
+      "semantic_key": "negative-context-era-inconsistent-objects-edge-occurrence",
+      "text": "era-inconsistent objects at edge occurrence",
+      "sentence": "Era-inconsistent objects at edge occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "era-inconsistent objects at edge occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid era-inconsistent objects at edge occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude era-inconsistent objects at edge occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-context-era-inconsistent-objects",
+      "tags": [
+        "context",
+        "level-strict",
+        "negative",
+        "negative-context",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "era-inconsistent-objects",
+        "treatment": "edge-occurrence"
+      },
+      "subcategory": "era-inconsistent-objects",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-context-era-inconsistent-objects-background-occurrence",
+      "semantic_key": "negative-context-era-inconsistent-objects-background-occurrence",
+      "text": "era-inconsistent objects at background occurrence",
+      "sentence": "Era-inconsistent objects at background occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "era-inconsistent objects at background occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid era-inconsistent objects at background occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude era-inconsistent objects at background occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "negative-context-era-inconsistent-objects",
+      "tags": [
+        "context",
+        "level-strict",
+        "negative",
+        "negative-context",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "artifact-family": "era-inconsistent-objects",
+        "treatment": "background-occurrence"
+      },
+      "subcategory": "era-inconsistent-objects",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-context-era-inconsistent-objects-subject-occurrence",
+      "semantic_key": "negative-context-era-inconsistent-objects-subject-occurrence",
+      "text": "era-inconsistent objects at subject occurrence",
+      "sentence": "Era-inconsistent objects at subject occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "era-inconsistent objects at subject occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid era-inconsistent objects at subject occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude era-inconsistent objects at subject occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "negative-context-era-inconsistent-objects",
+      "tags": [
+        "context",
+        "level-strict",
+        "negative",
+        "negative-context",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "artifact-family": "era-inconsistent-objects",
+        "treatment": "subject-occurrence"
+      },
+      "subcategory": "era-inconsistent-objects",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-context-era-inconsistent-objects-high-frequency-occurrence",
+      "semantic_key": "negative-context-era-inconsistent-objects-high-frequency-occurrence",
+      "text": "era-inconsistent objects at high-frequency occurrence",
+      "sentence": "Era-inconsistent objects at high-frequency occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "era-inconsistent objects at high-frequency occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid era-inconsistent objects at high-frequency occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude era-inconsistent objects at high-frequency occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "negative-context-era-inconsistent-objects",
+      "tags": [
+        "context",
+        "level-strict",
+        "negative",
+        "negative-context",
+        "rarity-rare"
+      ],
+      "facets": {
+        "artifact-family": "era-inconsistent-objects",
+        "treatment": "high-frequency-occurrence"
+      },
+      "subcategory": "era-inconsistent-objects",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-context-era-inconsistent-objects-composition-wide-occurrence",
+      "semantic_key": "negative-context-era-inconsistent-objects-composition-wide-occurrence",
+      "text": "era-inconsistent objects at composition-wide occurrence",
+      "sentence": "Era-inconsistent objects at composition-wide occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "era-inconsistent objects at composition-wide occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid era-inconsistent objects at composition-wide occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude era-inconsistent objects at composition-wide occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "negative-context-era-inconsistent-objects",
+      "tags": [
+        "context",
+        "level-strict",
+        "negative",
+        "negative-context",
+        "rarity-rare"
+      ],
+      "facets": {
+        "artifact-family": "era-inconsistent-objects",
+        "treatment": "composition-wide-occurrence"
+      },
+      "subcategory": "era-inconsistent-objects",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-context-weather-inconsistent-clothing-minor-occurrence",
+      "semantic_key": "negative-context-weather-inconsistent-clothing-minor-occurrence",
+      "text": "weather-inconsistent clothing at minor occurrence",
+      "sentence": "Weather-inconsistent clothing at minor occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "weather-inconsistent clothing at minor occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid weather-inconsistent clothing at minor occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude weather-inconsistent clothing at minor occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-context-weather-inconsistent-clothing",
+      "tags": [
+        "context",
+        "level-strict",
+        "negative",
+        "negative-context",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "weather-inconsistent-clothing",
+        "treatment": "minor-occurrence"
+      },
+      "subcategory": "weather-inconsistent-clothing",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-context-weather-inconsistent-clothing-repeated-occurrence",
+      "semantic_key": "negative-context-weather-inconsistent-clothing-repeated-occurrence",
+      "text": "weather-inconsistent clothing at repeated occurrence",
+      "sentence": "Weather-inconsistent clothing at repeated occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "weather-inconsistent clothing at repeated occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid weather-inconsistent clothing at repeated occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude weather-inconsistent clothing at repeated occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-context-weather-inconsistent-clothing",
+      "tags": [
+        "context",
+        "level-strict",
+        "negative",
+        "negative-context",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "weather-inconsistent-clothing",
+        "treatment": "repeated-occurrence"
+      },
+      "subcategory": "weather-inconsistent-clothing",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-context-weather-inconsistent-clothing-prominent-occurrence",
+      "semantic_key": "negative-context-weather-inconsistent-clothing-prominent-occurrence",
+      "text": "weather-inconsistent clothing at prominent occurrence",
+      "sentence": "Weather-inconsistent clothing at prominent occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "weather-inconsistent clothing at prominent occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid weather-inconsistent clothing at prominent occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude weather-inconsistent clothing at prominent occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-context-weather-inconsistent-clothing",
+      "tags": [
+        "context",
+        "level-strict",
+        "negative",
+        "negative-context",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "weather-inconsistent-clothing",
+        "treatment": "prominent-occurrence"
+      },
+      "subcategory": "weather-inconsistent-clothing",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-context-weather-inconsistent-clothing-edge-occurrence",
+      "semantic_key": "negative-context-weather-inconsistent-clothing-edge-occurrence",
+      "text": "weather-inconsistent clothing at edge occurrence",
+      "sentence": "Weather-inconsistent clothing at edge occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "weather-inconsistent clothing at edge occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid weather-inconsistent clothing at edge occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude weather-inconsistent clothing at edge occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-context-weather-inconsistent-clothing",
+      "tags": [
+        "context",
+        "level-strict",
+        "negative",
+        "negative-context",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "weather-inconsistent-clothing",
+        "treatment": "edge-occurrence"
+      },
+      "subcategory": "weather-inconsistent-clothing",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-context-weather-inconsistent-clothing-background-occurrence",
+      "semantic_key": "negative-context-weather-inconsistent-clothing-background-occurrence",
+      "text": "weather-inconsistent clothing at background occurrence",
+      "sentence": "Weather-inconsistent clothing at background occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "weather-inconsistent clothing at background occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid weather-inconsistent clothing at background occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude weather-inconsistent clothing at background occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "negative-context-weather-inconsistent-clothing",
+      "tags": [
+        "context",
+        "level-strict",
+        "negative",
+        "negative-context",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "artifact-family": "weather-inconsistent-clothing",
+        "treatment": "background-occurrence"
+      },
+      "subcategory": "weather-inconsistent-clothing",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-context-weather-inconsistent-clothing-subject-occurrence",
+      "semantic_key": "negative-context-weather-inconsistent-clothing-subject-occurrence",
+      "text": "weather-inconsistent clothing at subject occurrence",
+      "sentence": "Weather-inconsistent clothing at subject occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "weather-inconsistent clothing at subject occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid weather-inconsistent clothing at subject occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude weather-inconsistent clothing at subject occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "negative-context-weather-inconsistent-clothing",
+      "tags": [
+        "context",
+        "level-strict",
+        "negative",
+        "negative-context",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "artifact-family": "weather-inconsistent-clothing",
+        "treatment": "subject-occurrence"
+      },
+      "subcategory": "weather-inconsistent-clothing",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-context-weather-inconsistent-clothing-high-frequency-occurrence",
+      "semantic_key": "negative-context-weather-inconsistent-clothing-high-frequency-occurrence",
+      "text": "weather-inconsistent clothing at high-frequency occurrence",
+      "sentence": "Weather-inconsistent clothing at high-frequency occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "weather-inconsistent clothing at high-frequency occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid weather-inconsistent clothing at high-frequency occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude weather-inconsistent clothing at high-frequency occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "negative-context-weather-inconsistent-clothing",
+      "tags": [
+        "context",
+        "level-strict",
+        "negative",
+        "negative-context",
+        "rarity-rare"
+      ],
+      "facets": {
+        "artifact-family": "weather-inconsistent-clothing",
+        "treatment": "high-frequency-occurrence"
+      },
+      "subcategory": "weather-inconsistent-clothing",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-context-weather-inconsistent-clothing-composition-wide-occurrence",
+      "semantic_key": "negative-context-weather-inconsistent-clothing-composition-wide-occurrence",
+      "text": "weather-inconsistent clothing at composition-wide occurrence",
+      "sentence": "Weather-inconsistent clothing at composition-wide occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "weather-inconsistent clothing at composition-wide occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid weather-inconsistent clothing at composition-wide occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude weather-inconsistent clothing at composition-wide occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "negative-context-weather-inconsistent-clothing",
+      "tags": [
+        "context",
+        "level-strict",
+        "negative",
+        "negative-context",
+        "rarity-rare"
+      ],
+      "facets": {
+        "artifact-family": "weather-inconsistent-clothing",
+        "treatment": "composition-wide-occurrence"
+      },
+      "subcategory": "weather-inconsistent-clothing",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-context-light-direction-conflict-minor-occurrence",
+      "semantic_key": "negative-context-light-direction-conflict-minor-occurrence",
+      "text": "light-direction conflict at minor occurrence",
+      "sentence": "Light-direction conflict at minor occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "light-direction conflict at minor occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid light-direction conflict at minor occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude light-direction conflict at minor occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-context-light-direction-conflict",
+      "tags": [
+        "context",
+        "level-strict",
+        "negative",
+        "negative-context",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "light-direction-conflict",
+        "treatment": "minor-occurrence"
+      },
+      "subcategory": "light-direction-conflict",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-context-light-direction-conflict-repeated-occurrence",
+      "semantic_key": "negative-context-light-direction-conflict-repeated-occurrence",
+      "text": "light-direction conflict at repeated occurrence",
+      "sentence": "Light-direction conflict at repeated occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "light-direction conflict at repeated occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid light-direction conflict at repeated occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude light-direction conflict at repeated occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-context-light-direction-conflict",
+      "tags": [
+        "context",
+        "level-strict",
+        "negative",
+        "negative-context",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "light-direction-conflict",
+        "treatment": "repeated-occurrence"
+      },
+      "subcategory": "light-direction-conflict",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-context-light-direction-conflict-prominent-occurrence",
+      "semantic_key": "negative-context-light-direction-conflict-prominent-occurrence",
+      "text": "light-direction conflict at prominent occurrence",
+      "sentence": "Light-direction conflict at prominent occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "light-direction conflict at prominent occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid light-direction conflict at prominent occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude light-direction conflict at prominent occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-context-light-direction-conflict",
+      "tags": [
+        "context",
+        "level-strict",
+        "negative",
+        "negative-context",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "light-direction-conflict",
+        "treatment": "prominent-occurrence"
+      },
+      "subcategory": "light-direction-conflict",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-context-light-direction-conflict-edge-occurrence",
+      "semantic_key": "negative-context-light-direction-conflict-edge-occurrence",
+      "text": "light-direction conflict at edge occurrence",
+      "sentence": "Light-direction conflict at edge occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "light-direction conflict at edge occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid light-direction conflict at edge occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude light-direction conflict at edge occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-context-light-direction-conflict",
+      "tags": [
+        "context",
+        "level-strict",
+        "negative",
+        "negative-context",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "light-direction-conflict",
+        "treatment": "edge-occurrence"
+      },
+      "subcategory": "light-direction-conflict",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-context-light-direction-conflict-background-occurrence",
+      "semantic_key": "negative-context-light-direction-conflict-background-occurrence",
+      "text": "light-direction conflict at background occurrence",
+      "sentence": "Light-direction conflict at background occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "light-direction conflict at background occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid light-direction conflict at background occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude light-direction conflict at background occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "negative-context-light-direction-conflict",
+      "tags": [
+        "context",
+        "level-strict",
+        "negative",
+        "negative-context",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "artifact-family": "light-direction-conflict",
+        "treatment": "background-occurrence"
+      },
+      "subcategory": "light-direction-conflict",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-context-light-direction-conflict-subject-occurrence",
+      "semantic_key": "negative-context-light-direction-conflict-subject-occurrence",
+      "text": "light-direction conflict at subject occurrence",
+      "sentence": "Light-direction conflict at subject occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "light-direction conflict at subject occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid light-direction conflict at subject occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude light-direction conflict at subject occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "negative-context-light-direction-conflict",
+      "tags": [
+        "context",
+        "level-strict",
+        "negative",
+        "negative-context",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "artifact-family": "light-direction-conflict",
+        "treatment": "subject-occurrence"
+      },
+      "subcategory": "light-direction-conflict",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-context-light-direction-conflict-high-frequency-occurrence",
+      "semantic_key": "negative-context-light-direction-conflict-high-frequency-occurrence",
+      "text": "light-direction conflict at high-frequency occurrence",
+      "sentence": "Light-direction conflict at high-frequency occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "light-direction conflict at high-frequency occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid light-direction conflict at high-frequency occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude light-direction conflict at high-frequency occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "negative-context-light-direction-conflict",
+      "tags": [
+        "context",
+        "level-strict",
+        "negative",
+        "negative-context",
+        "rarity-rare"
+      ],
+      "facets": {
+        "artifact-family": "light-direction-conflict",
+        "treatment": "high-frequency-occurrence"
+      },
+      "subcategory": "light-direction-conflict",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-context-light-direction-conflict-composition-wide-occurrence",
+      "semantic_key": "negative-context-light-direction-conflict-composition-wide-occurrence",
+      "text": "light-direction conflict at composition-wide occurrence",
+      "sentence": "Light-direction conflict at composition-wide occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "light-direction conflict at composition-wide occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid light-direction conflict at composition-wide occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude light-direction conflict at composition-wide occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "negative-context-light-direction-conflict",
+      "tags": [
+        "context",
+        "level-strict",
+        "negative",
+        "negative-context",
+        "rarity-rare"
+      ],
+      "facets": {
+        "artifact-family": "light-direction-conflict",
+        "treatment": "composition-wide-occurrence"
+      },
+      "subcategory": "light-direction-conflict",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-context-reflection-inconsistency-minor-occurrence",
+      "semantic_key": "negative-context-reflection-inconsistency-minor-occurrence",
+      "text": "reflection inconsistency at minor occurrence",
+      "sentence": "Reflection inconsistency at minor occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "reflection inconsistency at minor occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid reflection inconsistency at minor occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude reflection inconsistency at minor occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-context-reflection-inconsistency",
+      "tags": [
+        "context",
+        "level-strict",
+        "negative",
+        "negative-context",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "reflection-inconsistency",
+        "treatment": "minor-occurrence"
+      },
+      "subcategory": "reflection-inconsistency",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-context-reflection-inconsistency-repeated-occurrence",
+      "semantic_key": "negative-context-reflection-inconsistency-repeated-occurrence",
+      "text": "reflection inconsistency at repeated occurrence",
+      "sentence": "Reflection inconsistency at repeated occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "reflection inconsistency at repeated occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid reflection inconsistency at repeated occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude reflection inconsistency at repeated occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-context-reflection-inconsistency",
+      "tags": [
+        "context",
+        "level-strict",
+        "negative",
+        "negative-context",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "reflection-inconsistency",
+        "treatment": "repeated-occurrence"
+      },
+      "subcategory": "reflection-inconsistency",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-context-reflection-inconsistency-prominent-occurrence",
+      "semantic_key": "negative-context-reflection-inconsistency-prominent-occurrence",
+      "text": "reflection inconsistency at prominent occurrence",
+      "sentence": "Reflection inconsistency at prominent occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "reflection inconsistency at prominent occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid reflection inconsistency at prominent occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude reflection inconsistency at prominent occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-context-reflection-inconsistency",
+      "tags": [
+        "context",
+        "level-strict",
+        "negative",
+        "negative-context",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "reflection-inconsistency",
+        "treatment": "prominent-occurrence"
+      },
+      "subcategory": "reflection-inconsistency",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-context-reflection-inconsistency-edge-occurrence",
+      "semantic_key": "negative-context-reflection-inconsistency-edge-occurrence",
+      "text": "reflection inconsistency at edge occurrence",
+      "sentence": "Reflection inconsistency at edge occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "reflection inconsistency at edge occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid reflection inconsistency at edge occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude reflection inconsistency at edge occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-context-reflection-inconsistency",
+      "tags": [
+        "context",
+        "level-strict",
+        "negative",
+        "negative-context",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "reflection-inconsistency",
+        "treatment": "edge-occurrence"
+      },
+      "subcategory": "reflection-inconsistency",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-context-reflection-inconsistency-background-occurrence",
+      "semantic_key": "negative-context-reflection-inconsistency-background-occurrence",
+      "text": "reflection inconsistency at background occurrence",
+      "sentence": "Reflection inconsistency at background occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "reflection inconsistency at background occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid reflection inconsistency at background occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude reflection inconsistency at background occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "negative-context-reflection-inconsistency",
+      "tags": [
+        "context",
+        "level-strict",
+        "negative",
+        "negative-context",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "artifact-family": "reflection-inconsistency",
+        "treatment": "background-occurrence"
+      },
+      "subcategory": "reflection-inconsistency",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-context-reflection-inconsistency-subject-occurrence",
+      "semantic_key": "negative-context-reflection-inconsistency-subject-occurrence",
+      "text": "reflection inconsistency at subject occurrence",
+      "sentence": "Reflection inconsistency at subject occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "reflection inconsistency at subject occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid reflection inconsistency at subject occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude reflection inconsistency at subject occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "negative-context-reflection-inconsistency",
+      "tags": [
+        "context",
+        "level-strict",
+        "negative",
+        "negative-context",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "artifact-family": "reflection-inconsistency",
+        "treatment": "subject-occurrence"
+      },
+      "subcategory": "reflection-inconsistency",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-context-reflection-inconsistency-high-frequency-occurrence",
+      "semantic_key": "negative-context-reflection-inconsistency-high-frequency-occurrence",
+      "text": "reflection inconsistency at high-frequency occurrence",
+      "sentence": "Reflection inconsistency at high-frequency occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "reflection inconsistency at high-frequency occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid reflection inconsistency at high-frequency occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude reflection inconsistency at high-frequency occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "negative-context-reflection-inconsistency",
+      "tags": [
+        "context",
+        "level-strict",
+        "negative",
+        "negative-context",
+        "rarity-rare"
+      ],
+      "facets": {
+        "artifact-family": "reflection-inconsistency",
+        "treatment": "high-frequency-occurrence"
+      },
+      "subcategory": "reflection-inconsistency",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-context-reflection-inconsistency-composition-wide-occurrence",
+      "semantic_key": "negative-context-reflection-inconsistency-composition-wide-occurrence",
+      "text": "reflection inconsistency at composition-wide occurrence",
+      "sentence": "Reflection inconsistency at composition-wide occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "reflection inconsistency at composition-wide occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid reflection inconsistency at composition-wide occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude reflection inconsistency at composition-wide occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "negative-context-reflection-inconsistency",
+      "tags": [
+        "context",
+        "level-strict",
+        "negative",
+        "negative-context",
+        "rarity-rare"
+      ],
+      "facets": {
+        "artifact-family": "reflection-inconsistency",
+        "treatment": "composition-wide-occurrence"
+      },
+      "subcategory": "reflection-inconsistency",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-context-scale-inconsistency-minor-occurrence",
+      "semantic_key": "negative-context-scale-inconsistency-minor-occurrence",
+      "text": "scale inconsistency at minor occurrence",
+      "sentence": "Scale inconsistency at minor occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "scale inconsistency at minor occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid scale inconsistency at minor occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude scale inconsistency at minor occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-context-scale-inconsistency",
+      "tags": [
+        "context",
+        "level-strict",
+        "negative",
+        "negative-context",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "scale-inconsistency",
+        "treatment": "minor-occurrence"
+      },
+      "subcategory": "scale-inconsistency",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-context-scale-inconsistency-repeated-occurrence",
+      "semantic_key": "negative-context-scale-inconsistency-repeated-occurrence",
+      "text": "scale inconsistency at repeated occurrence",
+      "sentence": "Scale inconsistency at repeated occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "scale inconsistency at repeated occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid scale inconsistency at repeated occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude scale inconsistency at repeated occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-context-scale-inconsistency",
+      "tags": [
+        "context",
+        "level-strict",
+        "negative",
+        "negative-context",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "scale-inconsistency",
+        "treatment": "repeated-occurrence"
+      },
+      "subcategory": "scale-inconsistency",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-context-scale-inconsistency-prominent-occurrence",
+      "semantic_key": "negative-context-scale-inconsistency-prominent-occurrence",
+      "text": "scale inconsistency at prominent occurrence",
+      "sentence": "Scale inconsistency at prominent occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "scale inconsistency at prominent occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid scale inconsistency at prominent occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude scale inconsistency at prominent occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-context-scale-inconsistency",
+      "tags": [
+        "context",
+        "level-strict",
+        "negative",
+        "negative-context",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "scale-inconsistency",
+        "treatment": "prominent-occurrence"
+      },
+      "subcategory": "scale-inconsistency",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-context-scale-inconsistency-edge-occurrence",
+      "semantic_key": "negative-context-scale-inconsistency-edge-occurrence",
+      "text": "scale inconsistency at edge occurrence",
+      "sentence": "Scale inconsistency at edge occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "scale inconsistency at edge occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid scale inconsistency at edge occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude scale inconsistency at edge occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-context-scale-inconsistency",
+      "tags": [
+        "context",
+        "level-strict",
+        "negative",
+        "negative-context",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "scale-inconsistency",
+        "treatment": "edge-occurrence"
+      },
+      "subcategory": "scale-inconsistency",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-context-scale-inconsistency-background-occurrence",
+      "semantic_key": "negative-context-scale-inconsistency-background-occurrence",
+      "text": "scale inconsistency at background occurrence",
+      "sentence": "Scale inconsistency at background occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "scale inconsistency at background occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid scale inconsistency at background occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude scale inconsistency at background occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "negative-context-scale-inconsistency",
+      "tags": [
+        "context",
+        "level-strict",
+        "negative",
+        "negative-context",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "artifact-family": "scale-inconsistency",
+        "treatment": "background-occurrence"
+      },
+      "subcategory": "scale-inconsistency",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-context-scale-inconsistency-subject-occurrence",
+      "semantic_key": "negative-context-scale-inconsistency-subject-occurrence",
+      "text": "scale inconsistency at subject occurrence",
+      "sentence": "Scale inconsistency at subject occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "scale inconsistency at subject occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid scale inconsistency at subject occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude scale inconsistency at subject occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "negative-context-scale-inconsistency",
+      "tags": [
+        "context",
+        "level-strict",
+        "negative",
+        "negative-context",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "artifact-family": "scale-inconsistency",
+        "treatment": "subject-occurrence"
+      },
+      "subcategory": "scale-inconsistency",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-context-scale-inconsistency-high-frequency-occurrence",
+      "semantic_key": "negative-context-scale-inconsistency-high-frequency-occurrence",
+      "text": "scale inconsistency at high-frequency occurrence",
+      "sentence": "Scale inconsistency at high-frequency occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "scale inconsistency at high-frequency occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid scale inconsistency at high-frequency occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude scale inconsistency at high-frequency occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "negative-context-scale-inconsistency",
+      "tags": [
+        "context",
+        "level-strict",
+        "negative",
+        "negative-context",
+        "rarity-rare"
+      ],
+      "facets": {
+        "artifact-family": "scale-inconsistency",
+        "treatment": "high-frequency-occurrence"
+      },
+      "subcategory": "scale-inconsistency",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-context-scale-inconsistency-composition-wide-occurrence",
+      "semantic_key": "negative-context-scale-inconsistency-composition-wide-occurrence",
+      "text": "scale inconsistency at composition-wide occurrence",
+      "sentence": "Scale inconsistency at composition-wide occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "scale inconsistency at composition-wide occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid scale inconsistency at composition-wide occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude scale inconsistency at composition-wide occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "negative-context-scale-inconsistency",
+      "tags": [
+        "context",
+        "level-strict",
+        "negative",
+        "negative-context",
+        "rarity-rare"
+      ],
+      "facets": {
+        "artifact-family": "scale-inconsistency",
+        "treatment": "composition-wide-occurrence"
+      },
+      "subcategory": "scale-inconsistency",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-context-floating-accessories-minor-occurrence",
+      "semantic_key": "negative-context-floating-accessories-minor-occurrence",
+      "text": "floating accessories at minor occurrence",
+      "sentence": "Floating accessories at minor occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "floating accessories at minor occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid floating accessories at minor occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude floating accessories at minor occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-context-floating-accessories",
+      "tags": [
+        "context",
+        "level-strict",
+        "negative",
+        "negative-context",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "floating-accessories",
+        "treatment": "minor-occurrence"
+      },
+      "subcategory": "floating-accessories",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-context-floating-accessories-repeated-occurrence",
+      "semantic_key": "negative-context-floating-accessories-repeated-occurrence",
+      "text": "floating accessories at repeated occurrence",
+      "sentence": "Floating accessories at repeated occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "floating accessories at repeated occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid floating accessories at repeated occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude floating accessories at repeated occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-context-floating-accessories",
+      "tags": [
+        "context",
+        "level-strict",
+        "negative",
+        "negative-context",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "floating-accessories",
+        "treatment": "repeated-occurrence"
+      },
+      "subcategory": "floating-accessories",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-context-floating-accessories-prominent-occurrence",
+      "semantic_key": "negative-context-floating-accessories-prominent-occurrence",
+      "text": "floating accessories at prominent occurrence",
+      "sentence": "Floating accessories at prominent occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "floating accessories at prominent occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid floating accessories at prominent occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude floating accessories at prominent occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-context-floating-accessories",
+      "tags": [
+        "context",
+        "level-strict",
+        "negative",
+        "negative-context",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "floating-accessories",
+        "treatment": "prominent-occurrence"
+      },
+      "subcategory": "floating-accessories",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-context-floating-accessories-edge-occurrence",
+      "semantic_key": "negative-context-floating-accessories-edge-occurrence",
+      "text": "floating accessories at edge occurrence",
+      "sentence": "Floating accessories at edge occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "floating accessories at edge occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid floating accessories at edge occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude floating accessories at edge occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-context-floating-accessories",
+      "tags": [
+        "context",
+        "level-strict",
+        "negative",
+        "negative-context",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "floating-accessories",
+        "treatment": "edge-occurrence"
+      },
+      "subcategory": "floating-accessories",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-context-floating-accessories-background-occurrence",
+      "semantic_key": "negative-context-floating-accessories-background-occurrence",
+      "text": "floating accessories at background occurrence",
+      "sentence": "Floating accessories at background occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "floating accessories at background occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid floating accessories at background occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude floating accessories at background occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "negative-context-floating-accessories",
+      "tags": [
+        "context",
+        "level-strict",
+        "negative",
+        "negative-context",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "artifact-family": "floating-accessories",
+        "treatment": "background-occurrence"
+      },
+      "subcategory": "floating-accessories",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-context-floating-accessories-subject-occurrence",
+      "semantic_key": "negative-context-floating-accessories-subject-occurrence",
+      "text": "floating accessories at subject occurrence",
+      "sentence": "Floating accessories at subject occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "floating accessories at subject occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid floating accessories at subject occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude floating accessories at subject occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "negative-context-floating-accessories",
+      "tags": [
+        "context",
+        "level-strict",
+        "negative",
+        "negative-context",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "artifact-family": "floating-accessories",
+        "treatment": "subject-occurrence"
+      },
+      "subcategory": "floating-accessories",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-context-floating-accessories-high-frequency-occurrence",
+      "semantic_key": "negative-context-floating-accessories-high-frequency-occurrence",
+      "text": "floating accessories at high-frequency occurrence",
+      "sentence": "Floating accessories at high-frequency occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "floating accessories at high-frequency occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid floating accessories at high-frequency occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude floating accessories at high-frequency occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "negative-context-floating-accessories",
+      "tags": [
+        "context",
+        "level-strict",
+        "negative",
+        "negative-context",
+        "rarity-rare"
+      ],
+      "facets": {
+        "artifact-family": "floating-accessories",
+        "treatment": "high-frequency-occurrence"
+      },
+      "subcategory": "floating-accessories",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-context-floating-accessories-composition-wide-occurrence",
+      "semantic_key": "negative-context-floating-accessories-composition-wide-occurrence",
+      "text": "floating accessories at composition-wide occurrence",
+      "sentence": "Floating accessories at composition-wide occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "floating accessories at composition-wide occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid floating accessories at composition-wide occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude floating accessories at composition-wide occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "negative-context-floating-accessories",
+      "tags": [
+        "context",
+        "level-strict",
+        "negative",
+        "negative-context",
+        "rarity-rare"
+      ],
+      "facets": {
+        "artifact-family": "floating-accessories",
+        "treatment": "composition-wide-occurrence"
+      },
+      "subcategory": "floating-accessories",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-context-background-subject-intersection-minor-occurrence",
+      "semantic_key": "negative-context-background-subject-intersection-minor-occurrence",
+      "text": "background-subject intersection at minor occurrence",
+      "sentence": "Background-subject intersection at minor occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "background-subject intersection at minor occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid background-subject intersection at minor occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude background-subject intersection at minor occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-context-background-subject-intersection",
+      "tags": [
+        "context",
+        "level-strict",
+        "negative",
+        "negative-context",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "background-subject-intersection",
+        "treatment": "minor-occurrence"
+      },
+      "subcategory": "background-subject-intersection",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-context-background-subject-intersection-repeated-occurrence",
+      "semantic_key": "negative-context-background-subject-intersection-repeated-occurrence",
+      "text": "background-subject intersection at repeated occurrence",
+      "sentence": "Background-subject intersection at repeated occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "background-subject intersection at repeated occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid background-subject intersection at repeated occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude background-subject intersection at repeated occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-context-background-subject-intersection",
+      "tags": [
+        "context",
+        "level-strict",
+        "negative",
+        "negative-context",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "background-subject-intersection",
+        "treatment": "repeated-occurrence"
+      },
+      "subcategory": "background-subject-intersection",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-context-background-subject-intersection-prominent-occurrence",
+      "semantic_key": "negative-context-background-subject-intersection-prominent-occurrence",
+      "text": "background-subject intersection at prominent occurrence",
+      "sentence": "Background-subject intersection at prominent occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "background-subject intersection at prominent occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid background-subject intersection at prominent occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude background-subject intersection at prominent occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-context-background-subject-intersection",
+      "tags": [
+        "context",
+        "level-strict",
+        "negative",
+        "negative-context",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "background-subject-intersection",
+        "treatment": "prominent-occurrence"
+      },
+      "subcategory": "background-subject-intersection",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-context-background-subject-intersection-edge-occurrence",
+      "semantic_key": "negative-context-background-subject-intersection-edge-occurrence",
+      "text": "background-subject intersection at edge occurrence",
+      "sentence": "Background-subject intersection at edge occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "background-subject intersection at edge occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid background-subject intersection at edge occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude background-subject intersection at edge occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-context-background-subject-intersection",
+      "tags": [
+        "context",
+        "level-strict",
+        "negative",
+        "negative-context",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "background-subject-intersection",
+        "treatment": "edge-occurrence"
+      },
+      "subcategory": "background-subject-intersection",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-context-background-subject-intersection-background-occurrence",
+      "semantic_key": "negative-context-background-subject-intersection-background-occurrence",
+      "text": "background-subject intersection at background occurrence",
+      "sentence": "Background-subject intersection at background occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "background-subject intersection at background occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid background-subject intersection at background occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude background-subject intersection at background occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "negative-context-background-subject-intersection",
+      "tags": [
+        "context",
+        "level-strict",
+        "negative",
+        "negative-context",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "artifact-family": "background-subject-intersection",
+        "treatment": "background-occurrence"
+      },
+      "subcategory": "background-subject-intersection",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-context-background-subject-intersection-subject-occurrence",
+      "semantic_key": "negative-context-background-subject-intersection-subject-occurrence",
+      "text": "background-subject intersection at subject occurrence",
+      "sentence": "Background-subject intersection at subject occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "background-subject intersection at subject occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid background-subject intersection at subject occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude background-subject intersection at subject occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "negative-context-background-subject-intersection",
+      "tags": [
+        "context",
+        "level-strict",
+        "negative",
+        "negative-context",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "artifact-family": "background-subject-intersection",
+        "treatment": "subject-occurrence"
+      },
+      "subcategory": "background-subject-intersection",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-context-background-subject-intersection-high-frequency-occurrence",
+      "semantic_key": "negative-context-background-subject-intersection-high-frequency-occurrence",
+      "text": "background-subject intersection at high-frequency occurrence",
+      "sentence": "Background-subject intersection at high-frequency occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "background-subject intersection at high-frequency occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid background-subject intersection at high-frequency occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude background-subject intersection at high-frequency occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "negative-context-background-subject-intersection",
+      "tags": [
+        "context",
+        "level-strict",
+        "negative",
+        "negative-context",
+        "rarity-rare"
+      ],
+      "facets": {
+        "artifact-family": "background-subject-intersection",
+        "treatment": "high-frequency-occurrence"
+      },
+      "subcategory": "background-subject-intersection",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-context-background-subject-intersection-composition-wide-occurrence",
+      "semantic_key": "negative-context-background-subject-intersection-composition-wide-occurrence",
+      "text": "background-subject intersection at composition-wide occurrence",
+      "sentence": "Background-subject intersection at composition-wide occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "background-subject intersection at composition-wide occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid background-subject intersection at composition-wide occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude background-subject intersection at composition-wide occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "negative-context-background-subject-intersection",
+      "tags": [
+        "context",
+        "level-strict",
+        "negative",
+        "negative-context",
+        "rarity-rare"
+      ],
+      "facets": {
+        "artifact-family": "background-subject-intersection",
+        "treatment": "composition-wide-occurrence"
+      },
+      "subcategory": "background-subject-intersection",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-context-unmotivated-mixed-lighting-minor-occurrence",
+      "semantic_key": "negative-context-unmotivated-mixed-lighting-minor-occurrence",
+      "text": "unmotivated mixed lighting at minor occurrence",
+      "sentence": "Unmotivated mixed lighting at minor occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "unmotivated mixed lighting at minor occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid unmotivated mixed lighting at minor occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude unmotivated mixed lighting at minor occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-context-unmotivated-mixed-lighting",
+      "tags": [
+        "context",
+        "level-strict",
+        "negative",
+        "negative-context",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "unmotivated-mixed-lighting",
+        "treatment": "minor-occurrence"
+      },
+      "subcategory": "unmotivated-mixed-lighting",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-context-unmotivated-mixed-lighting-repeated-occurrence",
+      "semantic_key": "negative-context-unmotivated-mixed-lighting-repeated-occurrence",
+      "text": "unmotivated mixed lighting at repeated occurrence",
+      "sentence": "Unmotivated mixed lighting at repeated occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "unmotivated mixed lighting at repeated occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid unmotivated mixed lighting at repeated occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude unmotivated mixed lighting at repeated occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-context-unmotivated-mixed-lighting",
+      "tags": [
+        "context",
+        "level-strict",
+        "negative",
+        "negative-context",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "unmotivated-mixed-lighting",
+        "treatment": "repeated-occurrence"
+      },
+      "subcategory": "unmotivated-mixed-lighting",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-context-unmotivated-mixed-lighting-prominent-occurrence",
+      "semantic_key": "negative-context-unmotivated-mixed-lighting-prominent-occurrence",
+      "text": "unmotivated mixed lighting at prominent occurrence",
+      "sentence": "Unmotivated mixed lighting at prominent occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "unmotivated mixed lighting at prominent occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid unmotivated mixed lighting at prominent occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude unmotivated mixed lighting at prominent occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-context-unmotivated-mixed-lighting",
+      "tags": [
+        "context",
+        "level-strict",
+        "negative",
+        "negative-context",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "unmotivated-mixed-lighting",
+        "treatment": "prominent-occurrence"
+      },
+      "subcategory": "unmotivated-mixed-lighting",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-context-unmotivated-mixed-lighting-edge-occurrence",
+      "semantic_key": "negative-context-unmotivated-mixed-lighting-edge-occurrence",
+      "text": "unmotivated mixed lighting at edge occurrence",
+      "sentence": "Unmotivated mixed lighting at edge occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "unmotivated mixed lighting at edge occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid unmotivated mixed lighting at edge occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude unmotivated mixed lighting at edge occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-context-unmotivated-mixed-lighting",
+      "tags": [
+        "context",
+        "level-strict",
+        "negative",
+        "negative-context",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "unmotivated-mixed-lighting",
+        "treatment": "edge-occurrence"
+      },
+      "subcategory": "unmotivated-mixed-lighting",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-context-unmotivated-mixed-lighting-background-occurrence",
+      "semantic_key": "negative-context-unmotivated-mixed-lighting-background-occurrence",
+      "text": "unmotivated mixed lighting at background occurrence",
+      "sentence": "Unmotivated mixed lighting at background occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "unmotivated mixed lighting at background occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid unmotivated mixed lighting at background occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude unmotivated mixed lighting at background occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "negative-context-unmotivated-mixed-lighting",
+      "tags": [
+        "context",
+        "level-strict",
+        "negative",
+        "negative-context",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "artifact-family": "unmotivated-mixed-lighting",
+        "treatment": "background-occurrence"
+      },
+      "subcategory": "unmotivated-mixed-lighting",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-context-unmotivated-mixed-lighting-subject-occurrence",
+      "semantic_key": "negative-context-unmotivated-mixed-lighting-subject-occurrence",
+      "text": "unmotivated mixed lighting at subject occurrence",
+      "sentence": "Unmotivated mixed lighting at subject occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "unmotivated mixed lighting at subject occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid unmotivated mixed lighting at subject occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude unmotivated mixed lighting at subject occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "negative-context-unmotivated-mixed-lighting",
+      "tags": [
+        "context",
+        "level-strict",
+        "negative",
+        "negative-context",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "artifact-family": "unmotivated-mixed-lighting",
+        "treatment": "subject-occurrence"
+      },
+      "subcategory": "unmotivated-mixed-lighting",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-context-unmotivated-mixed-lighting-high-frequency-occurrence",
+      "semantic_key": "negative-context-unmotivated-mixed-lighting-high-frequency-occurrence",
+      "text": "unmotivated mixed lighting at high-frequency occurrence",
+      "sentence": "Unmotivated mixed lighting at high-frequency occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "unmotivated mixed lighting at high-frequency occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid unmotivated mixed lighting at high-frequency occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude unmotivated mixed lighting at high-frequency occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "negative-context-unmotivated-mixed-lighting",
+      "tags": [
+        "context",
+        "level-strict",
+        "negative",
+        "negative-context",
+        "rarity-rare"
+      ],
+      "facets": {
+        "artifact-family": "unmotivated-mixed-lighting",
+        "treatment": "high-frequency-occurrence"
+      },
+      "subcategory": "unmotivated-mixed-lighting",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-context-unmotivated-mixed-lighting-composition-wide-occurrence",
+      "semantic_key": "negative-context-unmotivated-mixed-lighting-composition-wide-occurrence",
+      "text": "unmotivated mixed lighting at composition-wide occurrence",
+      "sentence": "Unmotivated mixed lighting at composition-wide occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "unmotivated mixed lighting at composition-wide occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid unmotivated mixed lighting at composition-wide occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude unmotivated mixed lighting at composition-wide occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "negative-context-unmotivated-mixed-lighting",
+      "tags": [
+        "context",
+        "level-strict",
+        "negative",
+        "negative-context",
+        "rarity-rare"
+      ],
+      "facets": {
+        "artifact-family": "unmotivated-mixed-lighting",
+        "treatment": "composition-wide-occurrence"
+      },
+      "subcategory": "unmotivated-mixed-lighting",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    }
+  ]
+}

@@ -1,0 +1,2577 @@
+{
+  "schema_version": "2.0",
+  "id": "wardrobe-patterns-base",
+  "version": "2.0.0",
+  "library": "patterns",
+  "domain": "wardrobe",
+  "category": "patterns",
+  "language": "en",
+  "status": "active",
+  "safety": "general",
+  "tags": [
+    "base"
+  ],
+  "fallback_option_id": "wardrobe-patterns-base-solid-field-delicate-scale",
+  "options": [
+    {
+      "id": "wardrobe-patterns-base-solid-field-delicate-scale",
+      "semantic_key": "wardrobe-patterns-base-solid-field-delicate-scale",
+      "text": "a solid field at a delicate scale",
+      "sentence": "A solid field at a delicate scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a solid field at a delicate scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a solid field at a delicate scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a solid field at a delicate scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-patterns-base-solid-field",
+      "tags": [
+        "base",
+        "patterns",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "pattern": "solid-field",
+        "treatment": "delicate-scale"
+      },
+      "subcategory": "solid-field",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-patterns-base-solid-field-compact-scale",
+      "semantic_key": "wardrobe-patterns-base-solid-field-compact-scale",
+      "text": "a solid field at a compact scale",
+      "sentence": "A solid field at a compact scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a solid field at a compact scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a solid field at a compact scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a solid field at a compact scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-patterns-base-solid-field",
+      "tags": [
+        "base",
+        "patterns",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "pattern": "solid-field",
+        "treatment": "compact-scale"
+      },
+      "subcategory": "solid-field",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-patterns-base-solid-field-balanced-scale",
+      "semantic_key": "wardrobe-patterns-base-solid-field-balanced-scale",
+      "text": "a solid field at a balanced scale",
+      "sentence": "A solid field at a balanced scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a solid field at a balanced scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a solid field at a balanced scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a solid field at a balanced scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-patterns-base-solid-field",
+      "tags": [
+        "base",
+        "patterns",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "pattern": "solid-field",
+        "treatment": "balanced-scale"
+      },
+      "subcategory": "solid-field",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-patterns-base-solid-field-elongated-scale",
+      "semantic_key": "wardrobe-patterns-base-solid-field-elongated-scale",
+      "text": "a solid field at a elongated scale",
+      "sentence": "A solid field at a elongated scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a solid field at a elongated scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a solid field at a elongated scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a solid field at a elongated scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-patterns-base-solid-field",
+      "tags": [
+        "base",
+        "patterns",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "pattern": "solid-field",
+        "treatment": "elongated-scale"
+      },
+      "subcategory": "solid-field",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-patterns-base-solid-field-broad-scale",
+      "semantic_key": "wardrobe-patterns-base-solid-field-broad-scale",
+      "text": "a solid field at a broad scale",
+      "sentence": "A solid field at a broad scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a solid field at a broad scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a solid field at a broad scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a solid field at a broad scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-patterns-base-solid-field",
+      "tags": [
+        "base",
+        "patterns",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "pattern": "solid-field",
+        "treatment": "broad-scale"
+      },
+      "subcategory": "solid-field",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-patterns-base-solid-field-generous-scale",
+      "semantic_key": "wardrobe-patterns-base-solid-field-generous-scale",
+      "text": "a solid field at a generous scale",
+      "sentence": "A solid field at a generous scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a solid field at a generous scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a solid field at a generous scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a solid field at a generous scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-patterns-base-solid-field",
+      "tags": [
+        "base",
+        "patterns",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "pattern": "solid-field",
+        "treatment": "generous-scale"
+      },
+      "subcategory": "solid-field",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-patterns-base-solid-field-graduated-scale",
+      "semantic_key": "wardrobe-patterns-base-solid-field-graduated-scale",
+      "text": "a solid field at a graduated scale",
+      "sentence": "A solid field at a graduated scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a solid field at a graduated scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a solid field at a graduated scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a solid field at a graduated scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-patterns-base-solid-field",
+      "tags": [
+        "base",
+        "patterns",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "pattern": "solid-field",
+        "treatment": "graduated-scale"
+      },
+      "subcategory": "solid-field",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-patterns-base-solid-field-irregular-scale",
+      "semantic_key": "wardrobe-patterns-base-solid-field-irregular-scale",
+      "text": "a solid field at a irregular scale",
+      "sentence": "A solid field at a irregular scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a solid field at a irregular scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a solid field at a irregular scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a solid field at a irregular scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-patterns-base-solid-field",
+      "tags": [
+        "base",
+        "patterns",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "pattern": "solid-field",
+        "treatment": "irregular-scale"
+      },
+      "subcategory": "solid-field",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-patterns-base-fine-stripe-delicate-scale",
+      "semantic_key": "wardrobe-patterns-base-fine-stripe-delicate-scale",
+      "text": "a fine stripe at a delicate scale",
+      "sentence": "A fine stripe at a delicate scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a fine stripe at a delicate scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a fine stripe at a delicate scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a fine stripe at a delicate scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-patterns-base-fine-stripe",
+      "tags": [
+        "base",
+        "patterns",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "pattern": "fine-stripe",
+        "treatment": "delicate-scale"
+      },
+      "subcategory": "fine-stripe",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-patterns-base-fine-stripe-compact-scale",
+      "semantic_key": "wardrobe-patterns-base-fine-stripe-compact-scale",
+      "text": "a fine stripe at a compact scale",
+      "sentence": "A fine stripe at a compact scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a fine stripe at a compact scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a fine stripe at a compact scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a fine stripe at a compact scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-patterns-base-fine-stripe",
+      "tags": [
+        "base",
+        "patterns",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "pattern": "fine-stripe",
+        "treatment": "compact-scale"
+      },
+      "subcategory": "fine-stripe",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-patterns-base-fine-stripe-balanced-scale",
+      "semantic_key": "wardrobe-patterns-base-fine-stripe-balanced-scale",
+      "text": "a fine stripe at a balanced scale",
+      "sentence": "A fine stripe at a balanced scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a fine stripe at a balanced scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a fine stripe at a balanced scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a fine stripe at a balanced scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-patterns-base-fine-stripe",
+      "tags": [
+        "base",
+        "patterns",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "pattern": "fine-stripe",
+        "treatment": "balanced-scale"
+      },
+      "subcategory": "fine-stripe",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-patterns-base-fine-stripe-elongated-scale",
+      "semantic_key": "wardrobe-patterns-base-fine-stripe-elongated-scale",
+      "text": "a fine stripe at a elongated scale",
+      "sentence": "A fine stripe at a elongated scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a fine stripe at a elongated scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a fine stripe at a elongated scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a fine stripe at a elongated scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-patterns-base-fine-stripe",
+      "tags": [
+        "base",
+        "patterns",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "pattern": "fine-stripe",
+        "treatment": "elongated-scale"
+      },
+      "subcategory": "fine-stripe",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-patterns-base-fine-stripe-broad-scale",
+      "semantic_key": "wardrobe-patterns-base-fine-stripe-broad-scale",
+      "text": "a fine stripe at a broad scale",
+      "sentence": "A fine stripe at a broad scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a fine stripe at a broad scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a fine stripe at a broad scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a fine stripe at a broad scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-patterns-base-fine-stripe",
+      "tags": [
+        "base",
+        "patterns",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "pattern": "fine-stripe",
+        "treatment": "broad-scale"
+      },
+      "subcategory": "fine-stripe",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-patterns-base-fine-stripe-generous-scale",
+      "semantic_key": "wardrobe-patterns-base-fine-stripe-generous-scale",
+      "text": "a fine stripe at a generous scale",
+      "sentence": "A fine stripe at a generous scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a fine stripe at a generous scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a fine stripe at a generous scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a fine stripe at a generous scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-patterns-base-fine-stripe",
+      "tags": [
+        "base",
+        "patterns",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "pattern": "fine-stripe",
+        "treatment": "generous-scale"
+      },
+      "subcategory": "fine-stripe",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-patterns-base-fine-stripe-graduated-scale",
+      "semantic_key": "wardrobe-patterns-base-fine-stripe-graduated-scale",
+      "text": "a fine stripe at a graduated scale",
+      "sentence": "A fine stripe at a graduated scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a fine stripe at a graduated scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a fine stripe at a graduated scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a fine stripe at a graduated scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-patterns-base-fine-stripe",
+      "tags": [
+        "base",
+        "patterns",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "pattern": "fine-stripe",
+        "treatment": "graduated-scale"
+      },
+      "subcategory": "fine-stripe",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-patterns-base-fine-stripe-irregular-scale",
+      "semantic_key": "wardrobe-patterns-base-fine-stripe-irregular-scale",
+      "text": "a fine stripe at a irregular scale",
+      "sentence": "A fine stripe at a irregular scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a fine stripe at a irregular scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a fine stripe at a irregular scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a fine stripe at a irregular scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-patterns-base-fine-stripe",
+      "tags": [
+        "base",
+        "patterns",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "pattern": "fine-stripe",
+        "treatment": "irregular-scale"
+      },
+      "subcategory": "fine-stripe",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-patterns-base-wide-stripe-delicate-scale",
+      "semantic_key": "wardrobe-patterns-base-wide-stripe-delicate-scale",
+      "text": "a wide stripe at a delicate scale",
+      "sentence": "A wide stripe at a delicate scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a wide stripe at a delicate scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a wide stripe at a delicate scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a wide stripe at a delicate scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-patterns-base-wide-stripe",
+      "tags": [
+        "base",
+        "patterns",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "pattern": "wide-stripe",
+        "treatment": "delicate-scale"
+      },
+      "subcategory": "wide-stripe",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-patterns-base-wide-stripe-compact-scale",
+      "semantic_key": "wardrobe-patterns-base-wide-stripe-compact-scale",
+      "text": "a wide stripe at a compact scale",
+      "sentence": "A wide stripe at a compact scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a wide stripe at a compact scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a wide stripe at a compact scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a wide stripe at a compact scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-patterns-base-wide-stripe",
+      "tags": [
+        "base",
+        "patterns",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "pattern": "wide-stripe",
+        "treatment": "compact-scale"
+      },
+      "subcategory": "wide-stripe",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-patterns-base-wide-stripe-balanced-scale",
+      "semantic_key": "wardrobe-patterns-base-wide-stripe-balanced-scale",
+      "text": "a wide stripe at a balanced scale",
+      "sentence": "A wide stripe at a balanced scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a wide stripe at a balanced scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a wide stripe at a balanced scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a wide stripe at a balanced scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-patterns-base-wide-stripe",
+      "tags": [
+        "base",
+        "patterns",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "pattern": "wide-stripe",
+        "treatment": "balanced-scale"
+      },
+      "subcategory": "wide-stripe",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-patterns-base-wide-stripe-elongated-scale",
+      "semantic_key": "wardrobe-patterns-base-wide-stripe-elongated-scale",
+      "text": "a wide stripe at a elongated scale",
+      "sentence": "A wide stripe at a elongated scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a wide stripe at a elongated scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a wide stripe at a elongated scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a wide stripe at a elongated scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-patterns-base-wide-stripe",
+      "tags": [
+        "base",
+        "patterns",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "pattern": "wide-stripe",
+        "treatment": "elongated-scale"
+      },
+      "subcategory": "wide-stripe",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-patterns-base-wide-stripe-broad-scale",
+      "semantic_key": "wardrobe-patterns-base-wide-stripe-broad-scale",
+      "text": "a wide stripe at a broad scale",
+      "sentence": "A wide stripe at a broad scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a wide stripe at a broad scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a wide stripe at a broad scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a wide stripe at a broad scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-patterns-base-wide-stripe",
+      "tags": [
+        "base",
+        "patterns",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "pattern": "wide-stripe",
+        "treatment": "broad-scale"
+      },
+      "subcategory": "wide-stripe",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-patterns-base-wide-stripe-generous-scale",
+      "semantic_key": "wardrobe-patterns-base-wide-stripe-generous-scale",
+      "text": "a wide stripe at a generous scale",
+      "sentence": "A wide stripe at a generous scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a wide stripe at a generous scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a wide stripe at a generous scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a wide stripe at a generous scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-patterns-base-wide-stripe",
+      "tags": [
+        "base",
+        "patterns",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "pattern": "wide-stripe",
+        "treatment": "generous-scale"
+      },
+      "subcategory": "wide-stripe",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-patterns-base-wide-stripe-graduated-scale",
+      "semantic_key": "wardrobe-patterns-base-wide-stripe-graduated-scale",
+      "text": "a wide stripe at a graduated scale",
+      "sentence": "A wide stripe at a graduated scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a wide stripe at a graduated scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a wide stripe at a graduated scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a wide stripe at a graduated scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-patterns-base-wide-stripe",
+      "tags": [
+        "base",
+        "patterns",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "pattern": "wide-stripe",
+        "treatment": "graduated-scale"
+      },
+      "subcategory": "wide-stripe",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-patterns-base-wide-stripe-irregular-scale",
+      "semantic_key": "wardrobe-patterns-base-wide-stripe-irregular-scale",
+      "text": "a wide stripe at a irregular scale",
+      "sentence": "A wide stripe at a irregular scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a wide stripe at a irregular scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a wide stripe at a irregular scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a wide stripe at a irregular scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-patterns-base-wide-stripe",
+      "tags": [
+        "base",
+        "patterns",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "pattern": "wide-stripe",
+        "treatment": "irregular-scale"
+      },
+      "subcategory": "wide-stripe",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-patterns-base-small-check-delicate-scale",
+      "semantic_key": "wardrobe-patterns-base-small-check-delicate-scale",
+      "text": "a small check at a delicate scale",
+      "sentence": "A small check at a delicate scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a small check at a delicate scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a small check at a delicate scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a small check at a delicate scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-patterns-base-small-check",
+      "tags": [
+        "base",
+        "patterns",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "pattern": "small-check",
+        "treatment": "delicate-scale"
+      },
+      "subcategory": "small-check",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-patterns-base-small-check-compact-scale",
+      "semantic_key": "wardrobe-patterns-base-small-check-compact-scale",
+      "text": "a small check at a compact scale",
+      "sentence": "A small check at a compact scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a small check at a compact scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a small check at a compact scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a small check at a compact scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-patterns-base-small-check",
+      "tags": [
+        "base",
+        "patterns",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "pattern": "small-check",
+        "treatment": "compact-scale"
+      },
+      "subcategory": "small-check",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-patterns-base-small-check-balanced-scale",
+      "semantic_key": "wardrobe-patterns-base-small-check-balanced-scale",
+      "text": "a small check at a balanced scale",
+      "sentence": "A small check at a balanced scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a small check at a balanced scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a small check at a balanced scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a small check at a balanced scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-patterns-base-small-check",
+      "tags": [
+        "base",
+        "patterns",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "pattern": "small-check",
+        "treatment": "balanced-scale"
+      },
+      "subcategory": "small-check",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-patterns-base-small-check-elongated-scale",
+      "semantic_key": "wardrobe-patterns-base-small-check-elongated-scale",
+      "text": "a small check at a elongated scale",
+      "sentence": "A small check at a elongated scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a small check at a elongated scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a small check at a elongated scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a small check at a elongated scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-patterns-base-small-check",
+      "tags": [
+        "base",
+        "patterns",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "pattern": "small-check",
+        "treatment": "elongated-scale"
+      },
+      "subcategory": "small-check",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-patterns-base-small-check-broad-scale",
+      "semantic_key": "wardrobe-patterns-base-small-check-broad-scale",
+      "text": "a small check at a broad scale",
+      "sentence": "A small check at a broad scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a small check at a broad scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a small check at a broad scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a small check at a broad scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-patterns-base-small-check",
+      "tags": [
+        "base",
+        "patterns",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "pattern": "small-check",
+        "treatment": "broad-scale"
+      },
+      "subcategory": "small-check",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-patterns-base-small-check-generous-scale",
+      "semantic_key": "wardrobe-patterns-base-small-check-generous-scale",
+      "text": "a small check at a generous scale",
+      "sentence": "A small check at a generous scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a small check at a generous scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a small check at a generous scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a small check at a generous scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-patterns-base-small-check",
+      "tags": [
+        "base",
+        "patterns",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "pattern": "small-check",
+        "treatment": "generous-scale"
+      },
+      "subcategory": "small-check",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-patterns-base-small-check-graduated-scale",
+      "semantic_key": "wardrobe-patterns-base-small-check-graduated-scale",
+      "text": "a small check at a graduated scale",
+      "sentence": "A small check at a graduated scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a small check at a graduated scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a small check at a graduated scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a small check at a graduated scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-patterns-base-small-check",
+      "tags": [
+        "base",
+        "patterns",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "pattern": "small-check",
+        "treatment": "graduated-scale"
+      },
+      "subcategory": "small-check",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-patterns-base-small-check-irregular-scale",
+      "semantic_key": "wardrobe-patterns-base-small-check-irregular-scale",
+      "text": "a small check at a irregular scale",
+      "sentence": "A small check at a irregular scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a small check at a irregular scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a small check at a irregular scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a small check at a irregular scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-patterns-base-small-check",
+      "tags": [
+        "base",
+        "patterns",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "pattern": "small-check",
+        "treatment": "irregular-scale"
+      },
+      "subcategory": "small-check",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-patterns-base-large-check-delicate-scale",
+      "semantic_key": "wardrobe-patterns-base-large-check-delicate-scale",
+      "text": "a large check at a delicate scale",
+      "sentence": "A large check at a delicate scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a large check at a delicate scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a large check at a delicate scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a large check at a delicate scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-patterns-base-large-check",
+      "tags": [
+        "base",
+        "patterns",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "pattern": "large-check",
+        "treatment": "delicate-scale"
+      },
+      "subcategory": "large-check",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-patterns-base-large-check-compact-scale",
+      "semantic_key": "wardrobe-patterns-base-large-check-compact-scale",
+      "text": "a large check at a compact scale",
+      "sentence": "A large check at a compact scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a large check at a compact scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a large check at a compact scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a large check at a compact scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-patterns-base-large-check",
+      "tags": [
+        "base",
+        "patterns",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "pattern": "large-check",
+        "treatment": "compact-scale"
+      },
+      "subcategory": "large-check",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-patterns-base-large-check-balanced-scale",
+      "semantic_key": "wardrobe-patterns-base-large-check-balanced-scale",
+      "text": "a large check at a balanced scale",
+      "sentence": "A large check at a balanced scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a large check at a balanced scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a large check at a balanced scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a large check at a balanced scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-patterns-base-large-check",
+      "tags": [
+        "base",
+        "patterns",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "pattern": "large-check",
+        "treatment": "balanced-scale"
+      },
+      "subcategory": "large-check",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-patterns-base-large-check-elongated-scale",
+      "semantic_key": "wardrobe-patterns-base-large-check-elongated-scale",
+      "text": "a large check at a elongated scale",
+      "sentence": "A large check at a elongated scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a large check at a elongated scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a large check at a elongated scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a large check at a elongated scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-patterns-base-large-check",
+      "tags": [
+        "base",
+        "patterns",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "pattern": "large-check",
+        "treatment": "elongated-scale"
+      },
+      "subcategory": "large-check",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-patterns-base-large-check-broad-scale",
+      "semantic_key": "wardrobe-patterns-base-large-check-broad-scale",
+      "text": "a large check at a broad scale",
+      "sentence": "A large check at a broad scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a large check at a broad scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a large check at a broad scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a large check at a broad scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-patterns-base-large-check",
+      "tags": [
+        "base",
+        "patterns",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "pattern": "large-check",
+        "treatment": "broad-scale"
+      },
+      "subcategory": "large-check",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-patterns-base-large-check-generous-scale",
+      "semantic_key": "wardrobe-patterns-base-large-check-generous-scale",
+      "text": "a large check at a generous scale",
+      "sentence": "A large check at a generous scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a large check at a generous scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a large check at a generous scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a large check at a generous scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-patterns-base-large-check",
+      "tags": [
+        "base",
+        "patterns",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "pattern": "large-check",
+        "treatment": "generous-scale"
+      },
+      "subcategory": "large-check",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-patterns-base-large-check-graduated-scale",
+      "semantic_key": "wardrobe-patterns-base-large-check-graduated-scale",
+      "text": "a large check at a graduated scale",
+      "sentence": "A large check at a graduated scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a large check at a graduated scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a large check at a graduated scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a large check at a graduated scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-patterns-base-large-check",
+      "tags": [
+        "base",
+        "patterns",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "pattern": "large-check",
+        "treatment": "graduated-scale"
+      },
+      "subcategory": "large-check",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-patterns-base-large-check-irregular-scale",
+      "semantic_key": "wardrobe-patterns-base-large-check-irregular-scale",
+      "text": "a large check at a irregular scale",
+      "sentence": "A large check at a irregular scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a large check at a irregular scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a large check at a irregular scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a large check at a irregular scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-patterns-base-large-check",
+      "tags": [
+        "base",
+        "patterns",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "pattern": "large-check",
+        "treatment": "irregular-scale"
+      },
+      "subcategory": "large-check",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-patterns-base-geometric-repeat-delicate-scale",
+      "semantic_key": "wardrobe-patterns-base-geometric-repeat-delicate-scale",
+      "text": "a geometric repeat at a delicate scale",
+      "sentence": "A geometric repeat at a delicate scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a geometric repeat at a delicate scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a geometric repeat at a delicate scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a geometric repeat at a delicate scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-patterns-base-geometric-repeat",
+      "tags": [
+        "base",
+        "patterns",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "pattern": "geometric-repeat",
+        "treatment": "delicate-scale"
+      },
+      "subcategory": "geometric-repeat",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-patterns-base-geometric-repeat-compact-scale",
+      "semantic_key": "wardrobe-patterns-base-geometric-repeat-compact-scale",
+      "text": "a geometric repeat at a compact scale",
+      "sentence": "A geometric repeat at a compact scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a geometric repeat at a compact scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a geometric repeat at a compact scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a geometric repeat at a compact scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-patterns-base-geometric-repeat",
+      "tags": [
+        "base",
+        "patterns",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "pattern": "geometric-repeat",
+        "treatment": "compact-scale"
+      },
+      "subcategory": "geometric-repeat",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-patterns-base-geometric-repeat-balanced-scale",
+      "semantic_key": "wardrobe-patterns-base-geometric-repeat-balanced-scale",
+      "text": "a geometric repeat at a balanced scale",
+      "sentence": "A geometric repeat at a balanced scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a geometric repeat at a balanced scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a geometric repeat at a balanced scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a geometric repeat at a balanced scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-patterns-base-geometric-repeat",
+      "tags": [
+        "base",
+        "patterns",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "pattern": "geometric-repeat",
+        "treatment": "balanced-scale"
+      },
+      "subcategory": "geometric-repeat",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-patterns-base-geometric-repeat-elongated-scale",
+      "semantic_key": "wardrobe-patterns-base-geometric-repeat-elongated-scale",
+      "text": "a geometric repeat at a elongated scale",
+      "sentence": "A geometric repeat at a elongated scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a geometric repeat at a elongated scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a geometric repeat at a elongated scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a geometric repeat at a elongated scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-patterns-base-geometric-repeat",
+      "tags": [
+        "base",
+        "patterns",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "pattern": "geometric-repeat",
+        "treatment": "elongated-scale"
+      },
+      "subcategory": "geometric-repeat",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-patterns-base-geometric-repeat-broad-scale",
+      "semantic_key": "wardrobe-patterns-base-geometric-repeat-broad-scale",
+      "text": "a geometric repeat at a broad scale",
+      "sentence": "A geometric repeat at a broad scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a geometric repeat at a broad scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a geometric repeat at a broad scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a geometric repeat at a broad scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-patterns-base-geometric-repeat",
+      "tags": [
+        "base",
+        "patterns",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "pattern": "geometric-repeat",
+        "treatment": "broad-scale"
+      },
+      "subcategory": "geometric-repeat",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-patterns-base-geometric-repeat-generous-scale",
+      "semantic_key": "wardrobe-patterns-base-geometric-repeat-generous-scale",
+      "text": "a geometric repeat at a generous scale",
+      "sentence": "A geometric repeat at a generous scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a geometric repeat at a generous scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a geometric repeat at a generous scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a geometric repeat at a generous scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-patterns-base-geometric-repeat",
+      "tags": [
+        "base",
+        "patterns",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "pattern": "geometric-repeat",
+        "treatment": "generous-scale"
+      },
+      "subcategory": "geometric-repeat",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-patterns-base-geometric-repeat-graduated-scale",
+      "semantic_key": "wardrobe-patterns-base-geometric-repeat-graduated-scale",
+      "text": "a geometric repeat at a graduated scale",
+      "sentence": "A geometric repeat at a graduated scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a geometric repeat at a graduated scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a geometric repeat at a graduated scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a geometric repeat at a graduated scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-patterns-base-geometric-repeat",
+      "tags": [
+        "base",
+        "patterns",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "pattern": "geometric-repeat",
+        "treatment": "graduated-scale"
+      },
+      "subcategory": "geometric-repeat",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-patterns-base-geometric-repeat-irregular-scale",
+      "semantic_key": "wardrobe-patterns-base-geometric-repeat-irregular-scale",
+      "text": "a geometric repeat at a irregular scale",
+      "sentence": "A geometric repeat at a irregular scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a geometric repeat at a irregular scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a geometric repeat at a irregular scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a geometric repeat at a irregular scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-patterns-base-geometric-repeat",
+      "tags": [
+        "base",
+        "patterns",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "pattern": "geometric-repeat",
+        "treatment": "irregular-scale"
+      },
+      "subcategory": "geometric-repeat",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-patterns-base-botanical-repeat-delicate-scale",
+      "semantic_key": "wardrobe-patterns-base-botanical-repeat-delicate-scale",
+      "text": "a botanical repeat at a delicate scale",
+      "sentence": "A botanical repeat at a delicate scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a botanical repeat at a delicate scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a botanical repeat at a delicate scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a botanical repeat at a delicate scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-patterns-base-botanical-repeat",
+      "tags": [
+        "base",
+        "patterns",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "pattern": "botanical-repeat",
+        "treatment": "delicate-scale"
+      },
+      "subcategory": "botanical-repeat",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-patterns-base-botanical-repeat-compact-scale",
+      "semantic_key": "wardrobe-patterns-base-botanical-repeat-compact-scale",
+      "text": "a botanical repeat at a compact scale",
+      "sentence": "A botanical repeat at a compact scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a botanical repeat at a compact scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a botanical repeat at a compact scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a botanical repeat at a compact scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-patterns-base-botanical-repeat",
+      "tags": [
+        "base",
+        "patterns",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "pattern": "botanical-repeat",
+        "treatment": "compact-scale"
+      },
+      "subcategory": "botanical-repeat",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-patterns-base-botanical-repeat-balanced-scale",
+      "semantic_key": "wardrobe-patterns-base-botanical-repeat-balanced-scale",
+      "text": "a botanical repeat at a balanced scale",
+      "sentence": "A botanical repeat at a balanced scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a botanical repeat at a balanced scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a botanical repeat at a balanced scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a botanical repeat at a balanced scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-patterns-base-botanical-repeat",
+      "tags": [
+        "base",
+        "patterns",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "pattern": "botanical-repeat",
+        "treatment": "balanced-scale"
+      },
+      "subcategory": "botanical-repeat",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-patterns-base-botanical-repeat-elongated-scale",
+      "semantic_key": "wardrobe-patterns-base-botanical-repeat-elongated-scale",
+      "text": "a botanical repeat at a elongated scale",
+      "sentence": "A botanical repeat at a elongated scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a botanical repeat at a elongated scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a botanical repeat at a elongated scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a botanical repeat at a elongated scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-patterns-base-botanical-repeat",
+      "tags": [
+        "base",
+        "patterns",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "pattern": "botanical-repeat",
+        "treatment": "elongated-scale"
+      },
+      "subcategory": "botanical-repeat",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-patterns-base-botanical-repeat-broad-scale",
+      "semantic_key": "wardrobe-patterns-base-botanical-repeat-broad-scale",
+      "text": "a botanical repeat at a broad scale",
+      "sentence": "A botanical repeat at a broad scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a botanical repeat at a broad scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a botanical repeat at a broad scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a botanical repeat at a broad scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-patterns-base-botanical-repeat",
+      "tags": [
+        "base",
+        "patterns",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "pattern": "botanical-repeat",
+        "treatment": "broad-scale"
+      },
+      "subcategory": "botanical-repeat",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-patterns-base-botanical-repeat-generous-scale",
+      "semantic_key": "wardrobe-patterns-base-botanical-repeat-generous-scale",
+      "text": "a botanical repeat at a generous scale",
+      "sentence": "A botanical repeat at a generous scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a botanical repeat at a generous scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a botanical repeat at a generous scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a botanical repeat at a generous scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-patterns-base-botanical-repeat",
+      "tags": [
+        "base",
+        "patterns",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "pattern": "botanical-repeat",
+        "treatment": "generous-scale"
+      },
+      "subcategory": "botanical-repeat",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-patterns-base-botanical-repeat-graduated-scale",
+      "semantic_key": "wardrobe-patterns-base-botanical-repeat-graduated-scale",
+      "text": "a botanical repeat at a graduated scale",
+      "sentence": "A botanical repeat at a graduated scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a botanical repeat at a graduated scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a botanical repeat at a graduated scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a botanical repeat at a graduated scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-patterns-base-botanical-repeat",
+      "tags": [
+        "base",
+        "patterns",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "pattern": "botanical-repeat",
+        "treatment": "graduated-scale"
+      },
+      "subcategory": "botanical-repeat",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-patterns-base-botanical-repeat-irregular-scale",
+      "semantic_key": "wardrobe-patterns-base-botanical-repeat-irregular-scale",
+      "text": "a botanical repeat at a irregular scale",
+      "sentence": "A botanical repeat at a irregular scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a botanical repeat at a irregular scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a botanical repeat at a irregular scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a botanical repeat at a irregular scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-patterns-base-botanical-repeat",
+      "tags": [
+        "base",
+        "patterns",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "pattern": "botanical-repeat",
+        "treatment": "irregular-scale"
+      },
+      "subcategory": "botanical-repeat",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-patterns-base-abstract-tonal-pattern-delicate-scale",
+      "semantic_key": "wardrobe-patterns-base-abstract-tonal-pattern-delicate-scale",
+      "text": "a abstract tonal pattern at a delicate scale",
+      "sentence": "A abstract tonal pattern at a delicate scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a abstract tonal pattern at a delicate scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a abstract tonal pattern at a delicate scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a abstract tonal pattern at a delicate scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-patterns-base-abstract-tonal-pattern",
+      "tags": [
+        "base",
+        "patterns",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "pattern": "abstract-tonal-pattern",
+        "treatment": "delicate-scale"
+      },
+      "subcategory": "abstract-tonal-pattern",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-patterns-base-abstract-tonal-pattern-compact-scale",
+      "semantic_key": "wardrobe-patterns-base-abstract-tonal-pattern-compact-scale",
+      "text": "a abstract tonal pattern at a compact scale",
+      "sentence": "A abstract tonal pattern at a compact scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a abstract tonal pattern at a compact scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a abstract tonal pattern at a compact scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a abstract tonal pattern at a compact scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-patterns-base-abstract-tonal-pattern",
+      "tags": [
+        "base",
+        "patterns",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "pattern": "abstract-tonal-pattern",
+        "treatment": "compact-scale"
+      },
+      "subcategory": "abstract-tonal-pattern",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-patterns-base-abstract-tonal-pattern-balanced-scale",
+      "semantic_key": "wardrobe-patterns-base-abstract-tonal-pattern-balanced-scale",
+      "text": "a abstract tonal pattern at a balanced scale",
+      "sentence": "A abstract tonal pattern at a balanced scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a abstract tonal pattern at a balanced scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a abstract tonal pattern at a balanced scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a abstract tonal pattern at a balanced scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-patterns-base-abstract-tonal-pattern",
+      "tags": [
+        "base",
+        "patterns",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "pattern": "abstract-tonal-pattern",
+        "treatment": "balanced-scale"
+      },
+      "subcategory": "abstract-tonal-pattern",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-patterns-base-abstract-tonal-pattern-elongated-scale",
+      "semantic_key": "wardrobe-patterns-base-abstract-tonal-pattern-elongated-scale",
+      "text": "a abstract tonal pattern at a elongated scale",
+      "sentence": "A abstract tonal pattern at a elongated scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a abstract tonal pattern at a elongated scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a abstract tonal pattern at a elongated scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a abstract tonal pattern at a elongated scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-patterns-base-abstract-tonal-pattern",
+      "tags": [
+        "base",
+        "patterns",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "pattern": "abstract-tonal-pattern",
+        "treatment": "elongated-scale"
+      },
+      "subcategory": "abstract-tonal-pattern",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-patterns-base-abstract-tonal-pattern-broad-scale",
+      "semantic_key": "wardrobe-patterns-base-abstract-tonal-pattern-broad-scale",
+      "text": "a abstract tonal pattern at a broad scale",
+      "sentence": "A abstract tonal pattern at a broad scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a abstract tonal pattern at a broad scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a abstract tonal pattern at a broad scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a abstract tonal pattern at a broad scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-patterns-base-abstract-tonal-pattern",
+      "tags": [
+        "base",
+        "patterns",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "pattern": "abstract-tonal-pattern",
+        "treatment": "broad-scale"
+      },
+      "subcategory": "abstract-tonal-pattern",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-patterns-base-abstract-tonal-pattern-generous-scale",
+      "semantic_key": "wardrobe-patterns-base-abstract-tonal-pattern-generous-scale",
+      "text": "a abstract tonal pattern at a generous scale",
+      "sentence": "A abstract tonal pattern at a generous scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a abstract tonal pattern at a generous scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a abstract tonal pattern at a generous scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a abstract tonal pattern at a generous scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-patterns-base-abstract-tonal-pattern",
+      "tags": [
+        "base",
+        "patterns",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "pattern": "abstract-tonal-pattern",
+        "treatment": "generous-scale"
+      },
+      "subcategory": "abstract-tonal-pattern",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-patterns-base-abstract-tonal-pattern-graduated-scale",
+      "semantic_key": "wardrobe-patterns-base-abstract-tonal-pattern-graduated-scale",
+      "text": "a abstract tonal pattern at a graduated scale",
+      "sentence": "A abstract tonal pattern at a graduated scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a abstract tonal pattern at a graduated scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a abstract tonal pattern at a graduated scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a abstract tonal pattern at a graduated scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-patterns-base-abstract-tonal-pattern",
+      "tags": [
+        "base",
+        "patterns",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "pattern": "abstract-tonal-pattern",
+        "treatment": "graduated-scale"
+      },
+      "subcategory": "abstract-tonal-pattern",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-patterns-base-abstract-tonal-pattern-irregular-scale",
+      "semantic_key": "wardrobe-patterns-base-abstract-tonal-pattern-irregular-scale",
+      "text": "a abstract tonal pattern at a irregular scale",
+      "sentence": "A abstract tonal pattern at a irregular scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a abstract tonal pattern at a irregular scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a abstract tonal pattern at a irregular scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a abstract tonal pattern at a irregular scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-patterns-base-abstract-tonal-pattern",
+      "tags": [
+        "base",
+        "patterns",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "pattern": "abstract-tonal-pattern",
+        "treatment": "irregular-scale"
+      },
+      "subcategory": "abstract-tonal-pattern",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    }
+  ]
+}

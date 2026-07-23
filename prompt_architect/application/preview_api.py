@@ -47,7 +47,7 @@ def get_profile(
     sections: list[dict[str, object]] = []
     for section_id in profile.section_order:
         section = profile.sections[section_id]
-        library = source.load_library(section.library)
+        library = source.load_library_for_profile(profile, section.library)
         sections.append(
             {
                 "id": section.id,

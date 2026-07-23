@@ -1,0 +1,2577 @@
+{
+  "schema_version": "2.0",
+  "id": "hair-facial-hair-base",
+  "version": "2.0.0",
+  "library": "facial-hair",
+  "domain": "hair",
+  "category": "facial-hair",
+  "language": "en",
+  "status": "active",
+  "safety": "general",
+  "tags": [
+    "base"
+  ],
+  "fallback_option_id": "hair-facial-hair-base-clean-shaven-finish-softly-defined",
+  "options": [
+    {
+      "id": "hair-facial-hair-base-clean-shaven-finish-softly-defined",
+      "semantic_key": "hair-facial-hair-base-clean-shaven-finish-softly-defined",
+      "text": "clean-shaven finish with softly defined edge definition",
+      "sentence": "Clean-shaven finish with softly defined edge definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "clean-shaven finish with softly defined edge definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing clean-shaven finish with softly defined edge definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with clean-shaven finish with softly defined edge definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-facial-hair-base-clean-shaven-finish",
+      "tags": [
+        "base",
+        "facial-hair",
+        "hair",
+        "rarity-common"
+      ],
+      "facets": {
+        "style": "clean-shaven-finish",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "clean-shaven-finish",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-facial-hair-base-clean-shaven-finish-cleanly-outlined",
+      "semantic_key": "hair-facial-hair-base-clean-shaven-finish-cleanly-outlined",
+      "text": "clean-shaven finish with cleanly outlined edge definition",
+      "sentence": "Clean-shaven finish with cleanly outlined edge definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "clean-shaven finish with cleanly outlined edge definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing clean-shaven finish with cleanly outlined edge definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with clean-shaven finish with cleanly outlined edge definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-facial-hair-base-clean-shaven-finish",
+      "tags": [
+        "base",
+        "facial-hair",
+        "hair",
+        "rarity-common"
+      ],
+      "facets": {
+        "style": "clean-shaven-finish",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "clean-shaven-finish",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-facial-hair-base-clean-shaven-finish-gently-tapered",
+      "semantic_key": "hair-facial-hair-base-clean-shaven-finish-gently-tapered",
+      "text": "clean-shaven finish with gently tapered edge definition",
+      "sentence": "Clean-shaven finish with gently tapered edge definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "clean-shaven finish with gently tapered edge definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing clean-shaven finish with gently tapered edge definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with clean-shaven finish with gently tapered edge definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-facial-hair-base-clean-shaven-finish",
+      "tags": [
+        "base",
+        "facial-hair",
+        "hair",
+        "rarity-common"
+      ],
+      "facets": {
+        "style": "clean-shaven-finish",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "clean-shaven-finish",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-facial-hair-base-clean-shaven-finish-evenly-proportioned",
+      "semantic_key": "hair-facial-hair-base-clean-shaven-finish-evenly-proportioned",
+      "text": "clean-shaven finish with evenly proportioned edge definition",
+      "sentence": "Clean-shaven finish with evenly proportioned edge definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "clean-shaven finish with evenly proportioned edge definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing clean-shaven finish with evenly proportioned edge definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with clean-shaven finish with evenly proportioned edge definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-facial-hair-base-clean-shaven-finish",
+      "tags": [
+        "base",
+        "facial-hair",
+        "hair",
+        "rarity-common"
+      ],
+      "facets": {
+        "style": "clean-shaven-finish",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "clean-shaven-finish",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-facial-hair-base-clean-shaven-finish-subtly-angular",
+      "semantic_key": "hair-facial-hair-base-clean-shaven-finish-subtly-angular",
+      "text": "clean-shaven finish with subtly angular edge definition",
+      "sentence": "Clean-shaven finish with subtly angular edge definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "clean-shaven finish with subtly angular edge definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing clean-shaven finish with subtly angular edge definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with clean-shaven finish with subtly angular edge definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-facial-hair-base-clean-shaven-finish",
+      "tags": [
+        "base",
+        "facial-hair",
+        "hair",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "style": "clean-shaven-finish",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "clean-shaven-finish",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-facial-hair-base-clean-shaven-finish-smoothly-contoured",
+      "semantic_key": "hair-facial-hair-base-clean-shaven-finish-smoothly-contoured",
+      "text": "clean-shaven finish with smoothly contoured edge definition",
+      "sentence": "Clean-shaven finish with smoothly contoured edge definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "clean-shaven finish with smoothly contoured edge definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing clean-shaven finish with smoothly contoured edge definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with clean-shaven finish with smoothly contoured edge definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-facial-hair-base-clean-shaven-finish",
+      "tags": [
+        "base",
+        "facial-hair",
+        "hair",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "style": "clean-shaven-finish",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "clean-shaven-finish",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-facial-hair-base-clean-shaven-finish-distinctly-structured",
+      "semantic_key": "hair-facial-hair-base-clean-shaven-finish-distinctly-structured",
+      "text": "clean-shaven finish with distinctly structured edge definition",
+      "sentence": "Clean-shaven finish with distinctly structured edge definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "clean-shaven finish with distinctly structured edge definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing clean-shaven finish with distinctly structured edge definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with clean-shaven finish with distinctly structured edge definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-facial-hair-base-clean-shaven-finish",
+      "tags": [
+        "base",
+        "facial-hair",
+        "hair",
+        "rarity-rare"
+      ],
+      "facets": {
+        "style": "clean-shaven-finish",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "clean-shaven-finish",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-facial-hair-base-clean-shaven-finish-naturally-asymmetric",
+      "semantic_key": "hair-facial-hair-base-clean-shaven-finish-naturally-asymmetric",
+      "text": "clean-shaven finish with naturally asymmetric edge definition",
+      "sentence": "Clean-shaven finish with naturally asymmetric edge definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "clean-shaven finish with naturally asymmetric edge definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing clean-shaven finish with naturally asymmetric edge definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with clean-shaven finish with naturally asymmetric edge definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-facial-hair-base-clean-shaven-finish",
+      "tags": [
+        "base",
+        "facial-hair",
+        "hair",
+        "rarity-rare"
+      ],
+      "facets": {
+        "style": "clean-shaven-finish",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "clean-shaven-finish",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-facial-hair-base-light-stubble-softly-defined",
+      "semantic_key": "hair-facial-hair-base-light-stubble-softly-defined",
+      "text": "light stubble with softly defined edge definition",
+      "sentence": "Light stubble with softly defined edge definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "light stubble with softly defined edge definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing light stubble with softly defined edge definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with light stubble with softly defined edge definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-facial-hair-base-light-stubble",
+      "tags": [
+        "base",
+        "facial-hair",
+        "hair",
+        "rarity-common"
+      ],
+      "facets": {
+        "style": "light-stubble",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "light-stubble",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-facial-hair-base-light-stubble-cleanly-outlined",
+      "semantic_key": "hair-facial-hair-base-light-stubble-cleanly-outlined",
+      "text": "light stubble with cleanly outlined edge definition",
+      "sentence": "Light stubble with cleanly outlined edge definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "light stubble with cleanly outlined edge definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing light stubble with cleanly outlined edge definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with light stubble with cleanly outlined edge definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-facial-hair-base-light-stubble",
+      "tags": [
+        "base",
+        "facial-hair",
+        "hair",
+        "rarity-common"
+      ],
+      "facets": {
+        "style": "light-stubble",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "light-stubble",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-facial-hair-base-light-stubble-gently-tapered",
+      "semantic_key": "hair-facial-hair-base-light-stubble-gently-tapered",
+      "text": "light stubble with gently tapered edge definition",
+      "sentence": "Light stubble with gently tapered edge definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "light stubble with gently tapered edge definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing light stubble with gently tapered edge definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with light stubble with gently tapered edge definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-facial-hair-base-light-stubble",
+      "tags": [
+        "base",
+        "facial-hair",
+        "hair",
+        "rarity-common"
+      ],
+      "facets": {
+        "style": "light-stubble",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "light-stubble",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-facial-hair-base-light-stubble-evenly-proportioned",
+      "semantic_key": "hair-facial-hair-base-light-stubble-evenly-proportioned",
+      "text": "light stubble with evenly proportioned edge definition",
+      "sentence": "Light stubble with evenly proportioned edge definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "light stubble with evenly proportioned edge definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing light stubble with evenly proportioned edge definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with light stubble with evenly proportioned edge definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-facial-hair-base-light-stubble",
+      "tags": [
+        "base",
+        "facial-hair",
+        "hair",
+        "rarity-common"
+      ],
+      "facets": {
+        "style": "light-stubble",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "light-stubble",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-facial-hair-base-light-stubble-subtly-angular",
+      "semantic_key": "hair-facial-hair-base-light-stubble-subtly-angular",
+      "text": "light stubble with subtly angular edge definition",
+      "sentence": "Light stubble with subtly angular edge definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "light stubble with subtly angular edge definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing light stubble with subtly angular edge definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with light stubble with subtly angular edge definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-facial-hair-base-light-stubble",
+      "tags": [
+        "base",
+        "facial-hair",
+        "hair",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "style": "light-stubble",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "light-stubble",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-facial-hair-base-light-stubble-smoothly-contoured",
+      "semantic_key": "hair-facial-hair-base-light-stubble-smoothly-contoured",
+      "text": "light stubble with smoothly contoured edge definition",
+      "sentence": "Light stubble with smoothly contoured edge definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "light stubble with smoothly contoured edge definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing light stubble with smoothly contoured edge definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with light stubble with smoothly contoured edge definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-facial-hair-base-light-stubble",
+      "tags": [
+        "base",
+        "facial-hair",
+        "hair",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "style": "light-stubble",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "light-stubble",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-facial-hair-base-light-stubble-distinctly-structured",
+      "semantic_key": "hair-facial-hair-base-light-stubble-distinctly-structured",
+      "text": "light stubble with distinctly structured edge definition",
+      "sentence": "Light stubble with distinctly structured edge definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "light stubble with distinctly structured edge definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing light stubble with distinctly structured edge definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with light stubble with distinctly structured edge definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-facial-hair-base-light-stubble",
+      "tags": [
+        "base",
+        "facial-hair",
+        "hair",
+        "rarity-rare"
+      ],
+      "facets": {
+        "style": "light-stubble",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "light-stubble",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-facial-hair-base-light-stubble-naturally-asymmetric",
+      "semantic_key": "hair-facial-hair-base-light-stubble-naturally-asymmetric",
+      "text": "light stubble with naturally asymmetric edge definition",
+      "sentence": "Light stubble with naturally asymmetric edge definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "light stubble with naturally asymmetric edge definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing light stubble with naturally asymmetric edge definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with light stubble with naturally asymmetric edge definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-facial-hair-base-light-stubble",
+      "tags": [
+        "base",
+        "facial-hair",
+        "hair",
+        "rarity-rare"
+      ],
+      "facets": {
+        "style": "light-stubble",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "light-stubble",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-facial-hair-base-short-boxed-beard-softly-defined",
+      "semantic_key": "hair-facial-hair-base-short-boxed-beard-softly-defined",
+      "text": "short boxed beard with softly defined edge definition",
+      "sentence": "Short boxed beard with softly defined edge definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "short boxed beard with softly defined edge definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing short boxed beard with softly defined edge definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with short boxed beard with softly defined edge definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-facial-hair-base-short-boxed-beard",
+      "tags": [
+        "base",
+        "facial-hair",
+        "hair",
+        "rarity-common"
+      ],
+      "facets": {
+        "style": "short-boxed-beard",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "short-boxed-beard",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-facial-hair-base-short-boxed-beard-cleanly-outlined",
+      "semantic_key": "hair-facial-hair-base-short-boxed-beard-cleanly-outlined",
+      "text": "short boxed beard with cleanly outlined edge definition",
+      "sentence": "Short boxed beard with cleanly outlined edge definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "short boxed beard with cleanly outlined edge definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing short boxed beard with cleanly outlined edge definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with short boxed beard with cleanly outlined edge definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-facial-hair-base-short-boxed-beard",
+      "tags": [
+        "base",
+        "facial-hair",
+        "hair",
+        "rarity-common"
+      ],
+      "facets": {
+        "style": "short-boxed-beard",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "short-boxed-beard",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-facial-hair-base-short-boxed-beard-gently-tapered",
+      "semantic_key": "hair-facial-hair-base-short-boxed-beard-gently-tapered",
+      "text": "short boxed beard with gently tapered edge definition",
+      "sentence": "Short boxed beard with gently tapered edge definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "short boxed beard with gently tapered edge definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing short boxed beard with gently tapered edge definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with short boxed beard with gently tapered edge definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-facial-hair-base-short-boxed-beard",
+      "tags": [
+        "base",
+        "facial-hair",
+        "hair",
+        "rarity-common"
+      ],
+      "facets": {
+        "style": "short-boxed-beard",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "short-boxed-beard",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-facial-hair-base-short-boxed-beard-evenly-proportioned",
+      "semantic_key": "hair-facial-hair-base-short-boxed-beard-evenly-proportioned",
+      "text": "short boxed beard with evenly proportioned edge definition",
+      "sentence": "Short boxed beard with evenly proportioned edge definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "short boxed beard with evenly proportioned edge definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing short boxed beard with evenly proportioned edge definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with short boxed beard with evenly proportioned edge definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-facial-hair-base-short-boxed-beard",
+      "tags": [
+        "base",
+        "facial-hair",
+        "hair",
+        "rarity-common"
+      ],
+      "facets": {
+        "style": "short-boxed-beard",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "short-boxed-beard",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-facial-hair-base-short-boxed-beard-subtly-angular",
+      "semantic_key": "hair-facial-hair-base-short-boxed-beard-subtly-angular",
+      "text": "short boxed beard with subtly angular edge definition",
+      "sentence": "Short boxed beard with subtly angular edge definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "short boxed beard with subtly angular edge definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing short boxed beard with subtly angular edge definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with short boxed beard with subtly angular edge definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-facial-hair-base-short-boxed-beard",
+      "tags": [
+        "base",
+        "facial-hair",
+        "hair",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "style": "short-boxed-beard",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "short-boxed-beard",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-facial-hair-base-short-boxed-beard-smoothly-contoured",
+      "semantic_key": "hair-facial-hair-base-short-boxed-beard-smoothly-contoured",
+      "text": "short boxed beard with smoothly contoured edge definition",
+      "sentence": "Short boxed beard with smoothly contoured edge definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "short boxed beard with smoothly contoured edge definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing short boxed beard with smoothly contoured edge definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with short boxed beard with smoothly contoured edge definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-facial-hair-base-short-boxed-beard",
+      "tags": [
+        "base",
+        "facial-hair",
+        "hair",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "style": "short-boxed-beard",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "short-boxed-beard",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-facial-hair-base-short-boxed-beard-distinctly-structured",
+      "semantic_key": "hair-facial-hair-base-short-boxed-beard-distinctly-structured",
+      "text": "short boxed beard with distinctly structured edge definition",
+      "sentence": "Short boxed beard with distinctly structured edge definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "short boxed beard with distinctly structured edge definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing short boxed beard with distinctly structured edge definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with short boxed beard with distinctly structured edge definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-facial-hair-base-short-boxed-beard",
+      "tags": [
+        "base",
+        "facial-hair",
+        "hair",
+        "rarity-rare"
+      ],
+      "facets": {
+        "style": "short-boxed-beard",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "short-boxed-beard",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-facial-hair-base-short-boxed-beard-naturally-asymmetric",
+      "semantic_key": "hair-facial-hair-base-short-boxed-beard-naturally-asymmetric",
+      "text": "short boxed beard with naturally asymmetric edge definition",
+      "sentence": "Short boxed beard with naturally asymmetric edge definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "short boxed beard with naturally asymmetric edge definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing short boxed beard with naturally asymmetric edge definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with short boxed beard with naturally asymmetric edge definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-facial-hair-base-short-boxed-beard",
+      "tags": [
+        "base",
+        "facial-hair",
+        "hair",
+        "rarity-rare"
+      ],
+      "facets": {
+        "style": "short-boxed-beard",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "short-boxed-beard",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-facial-hair-base-full-natural-beard-softly-defined",
+      "semantic_key": "hair-facial-hair-base-full-natural-beard-softly-defined",
+      "text": "full natural beard with softly defined edge definition",
+      "sentence": "Full natural beard with softly defined edge definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "full natural beard with softly defined edge definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing full natural beard with softly defined edge definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with full natural beard with softly defined edge definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-facial-hair-base-full-natural-beard",
+      "tags": [
+        "base",
+        "facial-hair",
+        "hair",
+        "rarity-common"
+      ],
+      "facets": {
+        "style": "full-natural-beard",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "full-natural-beard",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-facial-hair-base-full-natural-beard-cleanly-outlined",
+      "semantic_key": "hair-facial-hair-base-full-natural-beard-cleanly-outlined",
+      "text": "full natural beard with cleanly outlined edge definition",
+      "sentence": "Full natural beard with cleanly outlined edge definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "full natural beard with cleanly outlined edge definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing full natural beard with cleanly outlined edge definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with full natural beard with cleanly outlined edge definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-facial-hair-base-full-natural-beard",
+      "tags": [
+        "base",
+        "facial-hair",
+        "hair",
+        "rarity-common"
+      ],
+      "facets": {
+        "style": "full-natural-beard",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "full-natural-beard",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-facial-hair-base-full-natural-beard-gently-tapered",
+      "semantic_key": "hair-facial-hair-base-full-natural-beard-gently-tapered",
+      "text": "full natural beard with gently tapered edge definition",
+      "sentence": "Full natural beard with gently tapered edge definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "full natural beard with gently tapered edge definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing full natural beard with gently tapered edge definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with full natural beard with gently tapered edge definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-facial-hair-base-full-natural-beard",
+      "tags": [
+        "base",
+        "facial-hair",
+        "hair",
+        "rarity-common"
+      ],
+      "facets": {
+        "style": "full-natural-beard",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "full-natural-beard",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-facial-hair-base-full-natural-beard-evenly-proportioned",
+      "semantic_key": "hair-facial-hair-base-full-natural-beard-evenly-proportioned",
+      "text": "full natural beard with evenly proportioned edge definition",
+      "sentence": "Full natural beard with evenly proportioned edge definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "full natural beard with evenly proportioned edge definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing full natural beard with evenly proportioned edge definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with full natural beard with evenly proportioned edge definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-facial-hair-base-full-natural-beard",
+      "tags": [
+        "base",
+        "facial-hair",
+        "hair",
+        "rarity-common"
+      ],
+      "facets": {
+        "style": "full-natural-beard",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "full-natural-beard",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-facial-hair-base-full-natural-beard-subtly-angular",
+      "semantic_key": "hair-facial-hair-base-full-natural-beard-subtly-angular",
+      "text": "full natural beard with subtly angular edge definition",
+      "sentence": "Full natural beard with subtly angular edge definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "full natural beard with subtly angular edge definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing full natural beard with subtly angular edge definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with full natural beard with subtly angular edge definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-facial-hair-base-full-natural-beard",
+      "tags": [
+        "base",
+        "facial-hair",
+        "hair",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "style": "full-natural-beard",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "full-natural-beard",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-facial-hair-base-full-natural-beard-smoothly-contoured",
+      "semantic_key": "hair-facial-hair-base-full-natural-beard-smoothly-contoured",
+      "text": "full natural beard with smoothly contoured edge definition",
+      "sentence": "Full natural beard with smoothly contoured edge definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "full natural beard with smoothly contoured edge definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing full natural beard with smoothly contoured edge definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with full natural beard with smoothly contoured edge definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-facial-hair-base-full-natural-beard",
+      "tags": [
+        "base",
+        "facial-hair",
+        "hair",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "style": "full-natural-beard",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "full-natural-beard",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-facial-hair-base-full-natural-beard-distinctly-structured",
+      "semantic_key": "hair-facial-hair-base-full-natural-beard-distinctly-structured",
+      "text": "full natural beard with distinctly structured edge definition",
+      "sentence": "Full natural beard with distinctly structured edge definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "full natural beard with distinctly structured edge definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing full natural beard with distinctly structured edge definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with full natural beard with distinctly structured edge definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-facial-hair-base-full-natural-beard",
+      "tags": [
+        "base",
+        "facial-hair",
+        "hair",
+        "rarity-rare"
+      ],
+      "facets": {
+        "style": "full-natural-beard",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "full-natural-beard",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-facial-hair-base-full-natural-beard-naturally-asymmetric",
+      "semantic_key": "hair-facial-hair-base-full-natural-beard-naturally-asymmetric",
+      "text": "full natural beard with naturally asymmetric edge definition",
+      "sentence": "Full natural beard with naturally asymmetric edge definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "full natural beard with naturally asymmetric edge definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing full natural beard with naturally asymmetric edge definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with full natural beard with naturally asymmetric edge definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-facial-hair-base-full-natural-beard",
+      "tags": [
+        "base",
+        "facial-hair",
+        "hair",
+        "rarity-rare"
+      ],
+      "facets": {
+        "style": "full-natural-beard",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "full-natural-beard",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-facial-hair-base-trimmed-goatee-softly-defined",
+      "semantic_key": "hair-facial-hair-base-trimmed-goatee-softly-defined",
+      "text": "trimmed goatee with softly defined edge definition",
+      "sentence": "Trimmed goatee with softly defined edge definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "trimmed goatee with softly defined edge definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing trimmed goatee with softly defined edge definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with trimmed goatee with softly defined edge definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-facial-hair-base-trimmed-goatee",
+      "tags": [
+        "base",
+        "facial-hair",
+        "hair",
+        "rarity-common"
+      ],
+      "facets": {
+        "style": "trimmed-goatee",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "trimmed-goatee",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-facial-hair-base-trimmed-goatee-cleanly-outlined",
+      "semantic_key": "hair-facial-hair-base-trimmed-goatee-cleanly-outlined",
+      "text": "trimmed goatee with cleanly outlined edge definition",
+      "sentence": "Trimmed goatee with cleanly outlined edge definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "trimmed goatee with cleanly outlined edge definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing trimmed goatee with cleanly outlined edge definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with trimmed goatee with cleanly outlined edge definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-facial-hair-base-trimmed-goatee",
+      "tags": [
+        "base",
+        "facial-hair",
+        "hair",
+        "rarity-common"
+      ],
+      "facets": {
+        "style": "trimmed-goatee",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "trimmed-goatee",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-facial-hair-base-trimmed-goatee-gently-tapered",
+      "semantic_key": "hair-facial-hair-base-trimmed-goatee-gently-tapered",
+      "text": "trimmed goatee with gently tapered edge definition",
+      "sentence": "Trimmed goatee with gently tapered edge definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "trimmed goatee with gently tapered edge definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing trimmed goatee with gently tapered edge definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with trimmed goatee with gently tapered edge definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-facial-hair-base-trimmed-goatee",
+      "tags": [
+        "base",
+        "facial-hair",
+        "hair",
+        "rarity-common"
+      ],
+      "facets": {
+        "style": "trimmed-goatee",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "trimmed-goatee",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-facial-hair-base-trimmed-goatee-evenly-proportioned",
+      "semantic_key": "hair-facial-hair-base-trimmed-goatee-evenly-proportioned",
+      "text": "trimmed goatee with evenly proportioned edge definition",
+      "sentence": "Trimmed goatee with evenly proportioned edge definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "trimmed goatee with evenly proportioned edge definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing trimmed goatee with evenly proportioned edge definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with trimmed goatee with evenly proportioned edge definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-facial-hair-base-trimmed-goatee",
+      "tags": [
+        "base",
+        "facial-hair",
+        "hair",
+        "rarity-common"
+      ],
+      "facets": {
+        "style": "trimmed-goatee",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "trimmed-goatee",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-facial-hair-base-trimmed-goatee-subtly-angular",
+      "semantic_key": "hair-facial-hair-base-trimmed-goatee-subtly-angular",
+      "text": "trimmed goatee with subtly angular edge definition",
+      "sentence": "Trimmed goatee with subtly angular edge definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "trimmed goatee with subtly angular edge definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing trimmed goatee with subtly angular edge definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with trimmed goatee with subtly angular edge definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-facial-hair-base-trimmed-goatee",
+      "tags": [
+        "base",
+        "facial-hair",
+        "hair",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "style": "trimmed-goatee",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "trimmed-goatee",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-facial-hair-base-trimmed-goatee-smoothly-contoured",
+      "semantic_key": "hair-facial-hair-base-trimmed-goatee-smoothly-contoured",
+      "text": "trimmed goatee with smoothly contoured edge definition",
+      "sentence": "Trimmed goatee with smoothly contoured edge definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "trimmed goatee with smoothly contoured edge definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing trimmed goatee with smoothly contoured edge definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with trimmed goatee with smoothly contoured edge definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-facial-hair-base-trimmed-goatee",
+      "tags": [
+        "base",
+        "facial-hair",
+        "hair",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "style": "trimmed-goatee",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "trimmed-goatee",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-facial-hair-base-trimmed-goatee-distinctly-structured",
+      "semantic_key": "hair-facial-hair-base-trimmed-goatee-distinctly-structured",
+      "text": "trimmed goatee with distinctly structured edge definition",
+      "sentence": "Trimmed goatee with distinctly structured edge definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "trimmed goatee with distinctly structured edge definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing trimmed goatee with distinctly structured edge definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with trimmed goatee with distinctly structured edge definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-facial-hair-base-trimmed-goatee",
+      "tags": [
+        "base",
+        "facial-hair",
+        "hair",
+        "rarity-rare"
+      ],
+      "facets": {
+        "style": "trimmed-goatee",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "trimmed-goatee",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-facial-hair-base-trimmed-goatee-naturally-asymmetric",
+      "semantic_key": "hair-facial-hair-base-trimmed-goatee-naturally-asymmetric",
+      "text": "trimmed goatee with naturally asymmetric edge definition",
+      "sentence": "Trimmed goatee with naturally asymmetric edge definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "trimmed goatee with naturally asymmetric edge definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing trimmed goatee with naturally asymmetric edge definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with trimmed goatee with naturally asymmetric edge definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-facial-hair-base-trimmed-goatee",
+      "tags": [
+        "base",
+        "facial-hair",
+        "hair",
+        "rarity-rare"
+      ],
+      "facets": {
+        "style": "trimmed-goatee",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "trimmed-goatee",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-facial-hair-base-defined-mustache-softly-defined",
+      "semantic_key": "hair-facial-hair-base-defined-mustache-softly-defined",
+      "text": "defined mustache with softly defined edge definition",
+      "sentence": "Defined mustache with softly defined edge definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "defined mustache with softly defined edge definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing defined mustache with softly defined edge definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with defined mustache with softly defined edge definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-facial-hair-base-defined-mustache",
+      "tags": [
+        "base",
+        "facial-hair",
+        "hair",
+        "rarity-common"
+      ],
+      "facets": {
+        "style": "defined-mustache",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "defined-mustache",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-facial-hair-base-defined-mustache-cleanly-outlined",
+      "semantic_key": "hair-facial-hair-base-defined-mustache-cleanly-outlined",
+      "text": "defined mustache with cleanly outlined edge definition",
+      "sentence": "Defined mustache with cleanly outlined edge definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "defined mustache with cleanly outlined edge definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing defined mustache with cleanly outlined edge definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with defined mustache with cleanly outlined edge definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-facial-hair-base-defined-mustache",
+      "tags": [
+        "base",
+        "facial-hair",
+        "hair",
+        "rarity-common"
+      ],
+      "facets": {
+        "style": "defined-mustache",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "defined-mustache",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-facial-hair-base-defined-mustache-gently-tapered",
+      "semantic_key": "hair-facial-hair-base-defined-mustache-gently-tapered",
+      "text": "defined mustache with gently tapered edge definition",
+      "sentence": "Defined mustache with gently tapered edge definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "defined mustache with gently tapered edge definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing defined mustache with gently tapered edge definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with defined mustache with gently tapered edge definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-facial-hair-base-defined-mustache",
+      "tags": [
+        "base",
+        "facial-hair",
+        "hair",
+        "rarity-common"
+      ],
+      "facets": {
+        "style": "defined-mustache",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "defined-mustache",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-facial-hair-base-defined-mustache-evenly-proportioned",
+      "semantic_key": "hair-facial-hair-base-defined-mustache-evenly-proportioned",
+      "text": "defined mustache with evenly proportioned edge definition",
+      "sentence": "Defined mustache with evenly proportioned edge definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "defined mustache with evenly proportioned edge definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing defined mustache with evenly proportioned edge definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with defined mustache with evenly proportioned edge definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-facial-hair-base-defined-mustache",
+      "tags": [
+        "base",
+        "facial-hair",
+        "hair",
+        "rarity-common"
+      ],
+      "facets": {
+        "style": "defined-mustache",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "defined-mustache",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-facial-hair-base-defined-mustache-subtly-angular",
+      "semantic_key": "hair-facial-hair-base-defined-mustache-subtly-angular",
+      "text": "defined mustache with subtly angular edge definition",
+      "sentence": "Defined mustache with subtly angular edge definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "defined mustache with subtly angular edge definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing defined mustache with subtly angular edge definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with defined mustache with subtly angular edge definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-facial-hair-base-defined-mustache",
+      "tags": [
+        "base",
+        "facial-hair",
+        "hair",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "style": "defined-mustache",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "defined-mustache",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-facial-hair-base-defined-mustache-smoothly-contoured",
+      "semantic_key": "hair-facial-hair-base-defined-mustache-smoothly-contoured",
+      "text": "defined mustache with smoothly contoured edge definition",
+      "sentence": "Defined mustache with smoothly contoured edge definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "defined mustache with smoothly contoured edge definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing defined mustache with smoothly contoured edge definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with defined mustache with smoothly contoured edge definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-facial-hair-base-defined-mustache",
+      "tags": [
+        "base",
+        "facial-hair",
+        "hair",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "style": "defined-mustache",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "defined-mustache",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-facial-hair-base-defined-mustache-distinctly-structured",
+      "semantic_key": "hair-facial-hair-base-defined-mustache-distinctly-structured",
+      "text": "defined mustache with distinctly structured edge definition",
+      "sentence": "Defined mustache with distinctly structured edge definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "defined mustache with distinctly structured edge definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing defined mustache with distinctly structured edge definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with defined mustache with distinctly structured edge definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-facial-hair-base-defined-mustache",
+      "tags": [
+        "base",
+        "facial-hair",
+        "hair",
+        "rarity-rare"
+      ],
+      "facets": {
+        "style": "defined-mustache",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "defined-mustache",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-facial-hair-base-defined-mustache-naturally-asymmetric",
+      "semantic_key": "hair-facial-hair-base-defined-mustache-naturally-asymmetric",
+      "text": "defined mustache with naturally asymmetric edge definition",
+      "sentence": "Defined mustache with naturally asymmetric edge definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "defined mustache with naturally asymmetric edge definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing defined mustache with naturally asymmetric edge definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with defined mustache with naturally asymmetric edge definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-facial-hair-base-defined-mustache",
+      "tags": [
+        "base",
+        "facial-hair",
+        "hair",
+        "rarity-rare"
+      ],
+      "facets": {
+        "style": "defined-mustache",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "defined-mustache",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-facial-hair-base-mustache-and-beard-combination-softly-defined",
+      "semantic_key": "hair-facial-hair-base-mustache-and-beard-combination-softly-defined",
+      "text": "mustache and beard combination with softly defined edge definition",
+      "sentence": "Mustache and beard combination with softly defined edge definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "mustache and beard combination with softly defined edge definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing mustache and beard combination with softly defined edge definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with mustache and beard combination with softly defined edge definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-facial-hair-base-mustache-and-beard-combination",
+      "tags": [
+        "base",
+        "facial-hair",
+        "hair",
+        "rarity-common"
+      ],
+      "facets": {
+        "style": "mustache-and-beard-combination",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "mustache-and-beard-combination",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-facial-hair-base-mustache-and-beard-combination-cleanly-outlined",
+      "semantic_key": "hair-facial-hair-base-mustache-and-beard-combination-cleanly-outlined",
+      "text": "mustache and beard combination with cleanly outlined edge definition",
+      "sentence": "Mustache and beard combination with cleanly outlined edge definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "mustache and beard combination with cleanly outlined edge definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing mustache and beard combination with cleanly outlined edge definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with mustache and beard combination with cleanly outlined edge definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-facial-hair-base-mustache-and-beard-combination",
+      "tags": [
+        "base",
+        "facial-hair",
+        "hair",
+        "rarity-common"
+      ],
+      "facets": {
+        "style": "mustache-and-beard-combination",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "mustache-and-beard-combination",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-facial-hair-base-mustache-and-beard-combination-gently-tapered",
+      "semantic_key": "hair-facial-hair-base-mustache-and-beard-combination-gently-tapered",
+      "text": "mustache and beard combination with gently tapered edge definition",
+      "sentence": "Mustache and beard combination with gently tapered edge definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "mustache and beard combination with gently tapered edge definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing mustache and beard combination with gently tapered edge definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with mustache and beard combination with gently tapered edge definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-facial-hair-base-mustache-and-beard-combination",
+      "tags": [
+        "base",
+        "facial-hair",
+        "hair",
+        "rarity-common"
+      ],
+      "facets": {
+        "style": "mustache-and-beard-combination",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "mustache-and-beard-combination",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-facial-hair-base-mustache-and-beard-combination-evenly-proportioned",
+      "semantic_key": "hair-facial-hair-base-mustache-and-beard-combination-evenly-proportioned",
+      "text": "mustache and beard combination with evenly proportioned edge definition",
+      "sentence": "Mustache and beard combination with evenly proportioned edge definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "mustache and beard combination with evenly proportioned edge definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing mustache and beard combination with evenly proportioned edge definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with mustache and beard combination with evenly proportioned edge definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-facial-hair-base-mustache-and-beard-combination",
+      "tags": [
+        "base",
+        "facial-hair",
+        "hair",
+        "rarity-common"
+      ],
+      "facets": {
+        "style": "mustache-and-beard-combination",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "mustache-and-beard-combination",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-facial-hair-base-mustache-and-beard-combination-subtly-angular",
+      "semantic_key": "hair-facial-hair-base-mustache-and-beard-combination-subtly-angular",
+      "text": "mustache and beard combination with subtly angular edge definition",
+      "sentence": "Mustache and beard combination with subtly angular edge definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "mustache and beard combination with subtly angular edge definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing mustache and beard combination with subtly angular edge definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with mustache and beard combination with subtly angular edge definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-facial-hair-base-mustache-and-beard-combination",
+      "tags": [
+        "base",
+        "facial-hair",
+        "hair",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "style": "mustache-and-beard-combination",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "mustache-and-beard-combination",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-facial-hair-base-mustache-and-beard-combination-smoothly-contoured",
+      "semantic_key": "hair-facial-hair-base-mustache-and-beard-combination-smoothly-contoured",
+      "text": "mustache and beard combination with smoothly contoured edge definition",
+      "sentence": "Mustache and beard combination with smoothly contoured edge definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "mustache and beard combination with smoothly contoured edge definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing mustache and beard combination with smoothly contoured edge definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with mustache and beard combination with smoothly contoured edge definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-facial-hair-base-mustache-and-beard-combination",
+      "tags": [
+        "base",
+        "facial-hair",
+        "hair",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "style": "mustache-and-beard-combination",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "mustache-and-beard-combination",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-facial-hair-base-mustache-and-beard-combination-distinctly-structured",
+      "semantic_key": "hair-facial-hair-base-mustache-and-beard-combination-distinctly-structured",
+      "text": "mustache and beard combination with distinctly structured edge definition",
+      "sentence": "Mustache and beard combination with distinctly structured edge definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "mustache and beard combination with distinctly structured edge definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing mustache and beard combination with distinctly structured edge definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with mustache and beard combination with distinctly structured edge definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-facial-hair-base-mustache-and-beard-combination",
+      "tags": [
+        "base",
+        "facial-hair",
+        "hair",
+        "rarity-rare"
+      ],
+      "facets": {
+        "style": "mustache-and-beard-combination",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "mustache-and-beard-combination",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-facial-hair-base-mustache-and-beard-combination-naturally-asymmetric",
+      "semantic_key": "hair-facial-hair-base-mustache-and-beard-combination-naturally-asymmetric",
+      "text": "mustache and beard combination with naturally asymmetric edge definition",
+      "sentence": "Mustache and beard combination with naturally asymmetric edge definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "mustache and beard combination with naturally asymmetric edge definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing mustache and beard combination with naturally asymmetric edge definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with mustache and beard combination with naturally asymmetric edge definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-facial-hair-base-mustache-and-beard-combination",
+      "tags": [
+        "base",
+        "facial-hair",
+        "hair",
+        "rarity-rare"
+      ],
+      "facets": {
+        "style": "mustache-and-beard-combination",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "mustache-and-beard-combination",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-facial-hair-base-closely-cropped-beard-softly-defined",
+      "semantic_key": "hair-facial-hair-base-closely-cropped-beard-softly-defined",
+      "text": "closely cropped beard with softly defined edge definition",
+      "sentence": "Closely cropped beard with softly defined edge definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "closely cropped beard with softly defined edge definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing closely cropped beard with softly defined edge definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with closely cropped beard with softly defined edge definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-facial-hair-base-closely-cropped-beard",
+      "tags": [
+        "base",
+        "facial-hair",
+        "hair",
+        "rarity-common"
+      ],
+      "facets": {
+        "style": "closely-cropped-beard",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "closely-cropped-beard",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-facial-hair-base-closely-cropped-beard-cleanly-outlined",
+      "semantic_key": "hair-facial-hair-base-closely-cropped-beard-cleanly-outlined",
+      "text": "closely cropped beard with cleanly outlined edge definition",
+      "sentence": "Closely cropped beard with cleanly outlined edge definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "closely cropped beard with cleanly outlined edge definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing closely cropped beard with cleanly outlined edge definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with closely cropped beard with cleanly outlined edge definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-facial-hair-base-closely-cropped-beard",
+      "tags": [
+        "base",
+        "facial-hair",
+        "hair",
+        "rarity-common"
+      ],
+      "facets": {
+        "style": "closely-cropped-beard",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "closely-cropped-beard",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-facial-hair-base-closely-cropped-beard-gently-tapered",
+      "semantic_key": "hair-facial-hair-base-closely-cropped-beard-gently-tapered",
+      "text": "closely cropped beard with gently tapered edge definition",
+      "sentence": "Closely cropped beard with gently tapered edge definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "closely cropped beard with gently tapered edge definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing closely cropped beard with gently tapered edge definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with closely cropped beard with gently tapered edge definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-facial-hair-base-closely-cropped-beard",
+      "tags": [
+        "base",
+        "facial-hair",
+        "hair",
+        "rarity-common"
+      ],
+      "facets": {
+        "style": "closely-cropped-beard",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "closely-cropped-beard",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-facial-hair-base-closely-cropped-beard-evenly-proportioned",
+      "semantic_key": "hair-facial-hair-base-closely-cropped-beard-evenly-proportioned",
+      "text": "closely cropped beard with evenly proportioned edge definition",
+      "sentence": "Closely cropped beard with evenly proportioned edge definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "closely cropped beard with evenly proportioned edge definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing closely cropped beard with evenly proportioned edge definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with closely cropped beard with evenly proportioned edge definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-facial-hair-base-closely-cropped-beard",
+      "tags": [
+        "base",
+        "facial-hair",
+        "hair",
+        "rarity-common"
+      ],
+      "facets": {
+        "style": "closely-cropped-beard",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "closely-cropped-beard",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-facial-hair-base-closely-cropped-beard-subtly-angular",
+      "semantic_key": "hair-facial-hair-base-closely-cropped-beard-subtly-angular",
+      "text": "closely cropped beard with subtly angular edge definition",
+      "sentence": "Closely cropped beard with subtly angular edge definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "closely cropped beard with subtly angular edge definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing closely cropped beard with subtly angular edge definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with closely cropped beard with subtly angular edge definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-facial-hair-base-closely-cropped-beard",
+      "tags": [
+        "base",
+        "facial-hair",
+        "hair",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "style": "closely-cropped-beard",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "closely-cropped-beard",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-facial-hair-base-closely-cropped-beard-smoothly-contoured",
+      "semantic_key": "hair-facial-hair-base-closely-cropped-beard-smoothly-contoured",
+      "text": "closely cropped beard with smoothly contoured edge definition",
+      "sentence": "Closely cropped beard with smoothly contoured edge definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "closely cropped beard with smoothly contoured edge definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing closely cropped beard with smoothly contoured edge definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with closely cropped beard with smoothly contoured edge definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-facial-hair-base-closely-cropped-beard",
+      "tags": [
+        "base",
+        "facial-hair",
+        "hair",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "style": "closely-cropped-beard",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "closely-cropped-beard",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-facial-hair-base-closely-cropped-beard-distinctly-structured",
+      "semantic_key": "hair-facial-hair-base-closely-cropped-beard-distinctly-structured",
+      "text": "closely cropped beard with distinctly structured edge definition",
+      "sentence": "Closely cropped beard with distinctly structured edge definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "closely cropped beard with distinctly structured edge definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing closely cropped beard with distinctly structured edge definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with closely cropped beard with distinctly structured edge definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-facial-hair-base-closely-cropped-beard",
+      "tags": [
+        "base",
+        "facial-hair",
+        "hair",
+        "rarity-rare"
+      ],
+      "facets": {
+        "style": "closely-cropped-beard",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "closely-cropped-beard",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-facial-hair-base-closely-cropped-beard-naturally-asymmetric",
+      "semantic_key": "hair-facial-hair-base-closely-cropped-beard-naturally-asymmetric",
+      "text": "closely cropped beard with naturally asymmetric edge definition",
+      "sentence": "Closely cropped beard with naturally asymmetric edge definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "closely cropped beard with naturally asymmetric edge definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing closely cropped beard with naturally asymmetric edge definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with closely cropped beard with naturally asymmetric edge definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-facial-hair-base-closely-cropped-beard",
+      "tags": [
+        "base",
+        "facial-hair",
+        "hair",
+        "rarity-rare"
+      ],
+      "facets": {
+        "style": "closely-cropped-beard",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "closely-cropped-beard",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    }
+  ]
+}
