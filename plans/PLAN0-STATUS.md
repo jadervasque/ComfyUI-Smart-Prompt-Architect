@@ -9,12 +9,12 @@
 | Projeto | Prompt Architect |
 | Plano | `PLAN0.md` |
 | Versão do plano | 1.0 |
-| Status geral | `NOT_STARTED` |
-| Etapa atual | ETAPA 0 |
-| Última atualização | Não iniciada |
+| Status geral | `IN_PROGRESS` |
+| Etapa atual | ETAPA 1 |
+| Última atualização | 2026-07-22 18:38 -04:00 |
 | Responsável atual | Agente IA no VS Code |
-| Branch atual | Não criada |
-| Próximo marco | Bootstrap do repositório |
+| Branch atual | `chore/bootstrap` |
+| Próximo marco | Contratos, schemas e modelos |
 | Bloqueadores | Nenhum identificado |
 
 ## 2. Legenda
@@ -31,7 +31,7 @@
 
 | Etapa | Nome | Status | Dependências | Início | Conclusão | Commit/PR | Observações |
 |---:|---|---|---|---|---|---|---|
-| 0 | Bootstrap e decisões | PENDING | — | — | — | — | Primeira etapa |
+| 0 | Bootstrap e decisões | DONE | — | 2026-07-22 18:32 -04:00 | 2026-07-22 18:38 -04:00 | `02a3977` | Aceite validado; registro final em commit separado |
 | 1 | Contratos e modelos | PENDING | 0 | — | — | — | — |
 | 2 | Loader e cache | PENDING | 1 | — | — | — | — |
 | 3 | Seeds e seleção | PENDING | 1 | — | — | — | — |
@@ -53,20 +53,38 @@
 
 ### ETAPA 0 — Bootstrap e decisões
 
-- [ ] Repositório criado.
-- [ ] Git inicializado.
-- [ ] Branch de trabalho criada.
-- [ ] Estrutura mínima criada.
-- [ ] `PLAN0.md` preservado.
-- [ ] `PLAN0-STATUS.md` preservado.
-- [ ] `AGENTS.md` preservado.
-- [ ] `pyproject.toml` criado.
-- [ ] Licença criada.
-- [ ] README inicial criado.
-- [ ] Documentos comunitários criados.
-- [ ] Pacote importa.
-- [ ] `compileall` aprovado.
-- [ ] Versões do ambiente registradas.
+- [x] Repositório criado.
+- [x] Git inicializado.
+- [x] Branch de trabalho criada.
+- [x] Estrutura mínima criada.
+- [x] `PLAN0.md` preservado.
+- [x] `PLAN0-STATUS.md` preservado.
+- [x] `AGENTS.md` preservado.
+- [x] `pyproject.toml` criado.
+- [x] Licença criada.
+- [x] README inicial criado.
+- [x] Documentos comunitários criados.
+- [x] Pacote importa.
+- [x] `compileall` aprovado.
+- [x] Versões do ambiente registradas.
+- [x] Commit realizado.
+
+### ETAPA 1 — Contratos, schemas e modelos
+
+- [ ] Enums, dataclasses e exceções criados.
+- [ ] Schemas JSON criados.
+- [ ] Fixtures válidas e inválidas criadas.
+- [ ] Parser tipado implementado.
+- [ ] Campos essenciais ausentes rejeitados.
+- [ ] Política de campos desconhecidos definida.
+- [ ] Perfil mínimo válido testado.
+- [ ] Biblioteca válida testada.
+- [ ] ID duplicado testado.
+- [ ] Peso negativo testado.
+- [ ] Fallback inexistente testado.
+- [ ] Schema desconhecido testado.
+- [ ] Lint, tipagem e testes aprovados.
+- [ ] Documentação atualizada.
 - [ ] Commit realizado.
 
 ## 5. Registro de trabalho
@@ -93,11 +111,52 @@ Adicionar uma entrada por sessão relevante. Não apagar entradas antigas.
 - Próxima ação:
 ```
 
+### 2026-07-22 18:32 -04:00 — ETAPA 0
+
+- Status anterior: `PENDING` / projeto `NOT_STARTED`.
+- Status novo: `IN_PROGRESS`.
+- Branch: `chore/bootstrap`.
+- Objetivo: criar a estrutura profissional mínima, metadados, documentação comunitária e pacote Python importável da versão de desenvolvimento.
+- Arquivos alterados: pacote `prompt_architect`, `tests`, `docs`, `examples`, documentos comunitários, `pyproject.toml`, `requirements.txt`, `.gitignore` e este registro.
+- Implementação: estrutura de camadas criada; pacote independente importável; metadados PEP 440; licença Apache-2.0; documentação inicial; configuração de Ruff, mypy, unittest/pytest, coverage e build; nenhuma dependência de runtime.
+- Testes executados: compilação, importação, parse TOML, Ruff, mypy, unittest e build de wheel.
+- Resultado dos testes: validação final aprovada; falhas intermediárias e respectivas correções registradas na seção 6.
+- Pendências: realizar o commit da etapa e registrar sua referência antes de marcar `DONE`.
+- Bloqueadores: nenhum.
+- Decisões: preservar Git existente; usar `0.1.0.dev0`; adiar scaffold específico do ComfyUI para a ETAPA 9.
+- Commit/PR: preparado com mensagem `chore: bootstrap Prompt Architect project`.
+- Próxima ação: revisar e realizar o commit da ETAPA 0.
+
+### 2026-07-22 18:38 -04:00 — CONCLUSÃO DA ETAPA 0
+
+- Status anterior: `IN_PROGRESS`.
+- Status novo: `DONE`.
+- Branch: `chore/bootstrap`.
+- Objetivo: confirmar o aceite e registrar o commit real da etapa.
+- Arquivos alterados: `plans/PLAN0-STATUS.md`.
+- Implementação: checklist integral da ETAPA 0 conferido; ETAPA 1 selecionada como próxima elegível.
+- Testes executados: usados os resultados finais registrados na seção 6; nenhum teste adicional após o commit de código.
+- Resultado dos testes: todos os checks disponíveis e o build alternativo aprovados.
+- Pendências: `pytest`, `pytest-cov` e `build` continuam declarados como dependências opcionais e não estavam instalados no interpretador global; cobertura ainda não medida.
+- Bloqueadores: nenhum para o aceite da ETAPA 0.
+- Decisões: etapa marcada `DONE` porque os testes explícitos, lint, tipagem, teste unitário e wheel foram validados sem dependência de runtime.
+- Commit/PR: `02a3977` (`chore: bootstrap Prompt Architect project`).
+- Próxima ação: executar a ETAPA 1 — Contratos, schemas e modelos.
+
 ## 6. Testes executados
 
 | Data | Etapa | Comando | Resultado | Evidência/observação |
 |---|---:|---|---|---|
-| — | — | — | — | Nenhum teste executado |
+| 2026-07-22 | 0 | `python -m compileall -q prompt_architect` | PASS | Pacote compilado sem erro. |
+| 2026-07-22 | 0 | `python -c "import prompt_architect; assert prompt_architect.__version__ == '0.1.0.dev0'"` | PASS | Core importado sem ComfyUI. |
+| 2026-07-22 | 0 | `python -c "import pathlib, tomllib; tomllib.loads(...)"` | PASS | `pyproject.toml` válido para `tomllib`. |
+| 2026-07-22 | 0 | `python -m ruff check .` | PASS | Zero erros. |
+| 2026-07-22 | 0 | `python -m ruff format --check .` | PASS | Sete arquivos formatados na correção e aprovados na repetição. |
+| 2026-07-22 | 0 | `python -m mypy` | PASS | Zero issues em 7 arquivos. |
+| 2026-07-22 | 0 | `python -m pytest --cov=prompt_architect --cov-report=term-missing` | UNAVAILABLE | Módulo opcional `pytest` não instalado no Python local; nenhuma instalação global foi feita. |
+| 2026-07-22 | 0 | `python -m unittest discover -s tests -v` | PASS | 1 teste executado. |
+| 2026-07-22 | 0 | `python -m build --no-isolation` | UNAVAILABLE | Módulo opcional `build` não instalado no Python local. |
+| 2026-07-22 | 0 | `python -m pip wheel . --no-deps --no-build-isolation --wheel-dir dist` | FAIL/PASS | Primeira execução revelou classificador de licença incompatível com PEP 639; após remoção do classificador redundante, wheel `0.1.0.dev0` construído. |
 
 Nunca registrar `PASS` sem executar o comando.
 
@@ -107,13 +166,13 @@ Nunca registrar `PASS` sem executar o comando.
 |---|---:|---:|---|
 | Cobertura do core | >= 90% | Não medida | PENDING |
 | Cobertura total | >= 80% | Não medida | PENDING |
-| Ruff | 0 erros | Não executado | PENDING |
-| Mypy | 0 erros relevantes | Não executado | PENDING |
+| Ruff | 0 erros | 0 erros | PASS |
+| Mypy | 0 erros relevantes | 0 erros | PASS |
 | Perfis oficiais | 3 | 0 | PENDING |
 | Seeds testadas por perfil | 10.000 | 0 | PENDING |
 | Prompts vazios | 0 | Não medido | PENDING |
 | Placeholders residuais | 0 | Não medido | PENDING |
-| Windows | Suportado | Não testado | PENDING |
+| Windows | Suportado | Bootstrap validado em Windows | PARTIAL |
 | Linux | Suportado | Não testado | PENDING |
 
 ## 8. Bloqueadores
@@ -142,6 +201,9 @@ Nunca registrar `PASS` sem executar o comando.
 | D-002 | Inicial | JSON oficial | Seguro, portável e validável | YAML, Python, TXT puro | Dados estruturados |
 | D-003 | Inicial | Core sem ComfyUI | Testabilidade | Lógica dentro do nó | Separação de camadas |
 | D-004 | Inicial | Sem escrita persistente no MVP | Segurança | Editor de arquivos no servidor | Frontend inicial |
+| D-005 | 2026-07-22 | Preservar o repositório Git e o commit inicial existentes | O projeto já estava inicializado corretamente | Reinicializar ou apagar histórico | Bootstrap parte do commit `548e757` |
+| D-006 | 2026-07-22 | Representar `0.1.0-dev` como `0.1.0.dev0` | Forma canônica e interoperável do PEP 440 | Manter grafia não canônica nos metadados | Versão de pacote normalizada |
+| D-007 | 2026-07-22 | Não aplicar scaffold específico do ComfyUI na ETAPA 0 | Adapter público V3 pertence à ETAPA 9 e o core precisa importar sem ComfyUI | Criar adapter provisório ou legado | Bootstrap contém somente limites de pacote vazios |
 
 ## 11. Dívida técnica
 
@@ -153,9 +215,9 @@ Nunca registrar `PASS` sem executar o comando.
 
 | Componente | Versão | Sistema | Resultado | Data |
 |---|---|---|---|---|
-| Python | Não registrada | — | PENDING | — |
-| ComfyUI | Não registrada | — | PENDING | — |
-| ComfyUI Frontend | Não registrada | — | PENDING | — |
+| Python | 3.12.10 | Windows | Ambiente local identificado | 2026-07-22 |
+| ComfyUI | 0.27.0 | Windows | Versão local identificada em `comfyui_version.py` | 2026-07-22 |
+| ComfyUI Frontend | 1.45.20 (requisito local) | Windows | Versão fixada no `requirements.txt` do ComfyUI 0.27.0; pacote não instalado neste Python | 2026-07-22 |
 
 ## 13. Release readiness
 
@@ -204,4 +266,4 @@ Nunca registrar `PASS` sem executar o comando.
 
 ## 14. Próxima ação obrigatória
 
-Executar a **ETAPA 0 — Bootstrap e decisões de projeto**, seguindo integralmente `PLAN0.md`.
+Executar a **ETAPA 1 — Contratos, schemas e modelos**, seguindo integralmente `PLAN0.md`.
