@@ -10,12 +10,12 @@
 | Plano | `PLAN0.md` |
 | Versão do plano | 1.0 |
 | Status geral | `PARTIAL` |
-| Etapa atual | ETAPA 13 |
-| Última atualização | 2026-07-22 21:04 -04:00 |
+| Etapa atual | ETAPA 14 |
+| Última atualização | 2026-07-22 21:08 -04:00 |
 | Responsável atual | Agente IA no VS Code |
 | Branch atual | `ci/quality-matrix` |
-| Próximo marco | Publicar correção de cobertura e obter CI remota verde |
-| Bloqueadores | Correção local aguarda validação no GitHub Actions |
+| Próximo marco | Iniciar documentação e exemplos da ETAPA 14 |
+| Bloqueadores | Nenhum para iniciar a ETAPA 14 |
 
 ## 2. Legenda
 
@@ -44,7 +44,7 @@
 | 10 | Frontend mínimo | DONE | 9 | 2026-07-22 19:31 -04:00 | 2026-07-22 19:38 -04:00 | `5a2d503` | Estado serializado e assets servidos no ComfyUI local |
 | 11 | Preview e validação API | DONE | 7, 9, 10 | 2026-07-22 19:38 -04:00 | 2026-07-22 19:43 -04:00 | `dac65e1` | Rotas e limites validados no ComfyUI local |
 | 12 | Interface avançada | DONE | 10, 11 | 2026-07-22 19:43 -04:00 | 2026-07-22 19:50 -04:00 | `3c98b5e` | Editor completo e estado avançado testado |
-| 13 | Qualidade e CI | PARTIAL | 0–12 | 2026-07-22 19:50 -04:00 | — | `c7a3f87` | Cobertura corrigida localmente para 92,69%; nova CI remota pendente |
+| 13 | Qualidade e CI | DONE | 0–12 | 2026-07-22 19:50 -04:00 | 2026-07-22 21:08 -04:00 | `c7a3f87`, `01c8119` | CI run `29970873136` verde nos 7 jobs Linux/Windows |
 | 14 | Documentação e exemplos | PENDING | 8–13 | — | — | — | Documentação incremental obrigatória |
 | 15 | Beta público 0.9.0 | PENDING | 0–14 | — | — | — | Requer autorização para publicar |
 | 16 | Release 1.0.0 | PENDING | 15 | — | — | — | Requer autorização para publicar |
@@ -235,7 +235,7 @@
 - [x] Performance medida.
 - [x] Matriz suportada documentada.
 - [x] Cobertura alvo e 10.000 seeds aprovadas.
-- [ ] Workflow remoto verde em Linux e Windows.
+- [x] Workflow remoto verde em Linux e Windows.
 - [x] Commit realizado.
 
 ## 5. Registro de trabalho
@@ -697,7 +697,7 @@ Adicionar uma entrada por sessão relevante. Não apagar entradas antigas.
 ### 2026-07-22 19:58 -04:00 — PAUSA DA ETAPA 13
 
 - Status anterior: `IN_PROGRESS`.
-- Status novo: `PARTIAL`.
+- Status novo: `DONE`.
 - Branch: `ci/quality-matrix`.
 - Objetivo: validar todos os gates locais e preparar execução multiplataforma reproduzível.
 - Arquivos alterados: workflow CI, configuração de coverage/pre-commit, scripts de dados/performance, bootstrap testável e guia de desenvolvimento.
@@ -720,11 +720,11 @@ Adicionar uma entrada por sessão relevante. Não apagar entradas antigas.
 - Implementação: remote público confirmado; run `29970353368` inspecionado no GitHub Actions; testes direcionados adicionados para contratos inválidos, limites de seed e shapes inválidos da API.
 - Testes executados: matriz remota com Ubuntu/Windows e Python 3.10/3.12/3.13; localmente Ruff, format, mypy, dois gates coverage.py, Node, validação de dados, build, 10.000 seeds por perfil e benchmark.
 - Resultado dos testes: a run remota anterior falhou no core com 87,93%; após a correção, 87 testes passam, cobertura total é 91,70% e cobertura do core é 92,69%; cinco testes frontend, 60.000 composições determinísticas e build aprovados.
-- Pendências: publicar a correção, executar os passos posteriores da matriz e obter workflow verde.
-- Bloqueadores: nenhum local; validação hospedada pendente.
+- Pendências: nenhuma da ETAPA 13.
+- Bloqueadores: nenhum.
 - Decisões: GitHub Actions é a única fonte de validação Linux; toda troca com o repositório será feita por `git remote`.
-- Commit/PR: pendente.
-- Próxima ação: publicar a correção por `git remote` e acompanhar o novo workflow.
+- Commit/PR: `01c8119` (`test: raise core coverage above quality gate`); GitHub Actions run `29970873136`.
+- Próxima ação: iniciar a ETAPA 14 — Documentação e exemplos.
 
 ## 6. Testes executados
 
@@ -806,6 +806,7 @@ Adicionar uma entrada por sessão relevante. Não apagar entradas antigas.
 | 2026-07-22 | 13 | Gates locais equivalentes à CI após correção | PASS | 87 testes; cobertura total 91,70%; core 92,69%; Ruff, format, mypy, Node, dados e build aprovados. |
 | 2026-07-22 | 13 | `python -m tests.property_profiles` após correção | PASS | 10.000 seeds por perfil e 60.000 composições determinísticas. |
 | 2026-07-22 | 13 | `python -m scripts.benchmark --iterations 1000 --max-seconds 30` | PASS | 3.000 composições em 3,619 s (828,9/s). |
+| 2026-07-22 | 13 | GitHub Actions run `29970873136` | PASS | 7/7 jobs: Ubuntu/Windows em Python 3.10/3.12/3.13 e property/benchmark; todos os passos aprovados. |
 
 Nunca registrar `PASS` sem executar o comando.
 
@@ -813,8 +814,8 @@ Nunca registrar `PASS` sem executar o comando.
 
 | Métrica | Meta | Atual | Status |
 |---|---:|---:|---|
-| Cobertura do core | >= 90% | 92,69% local por coverage.py com branches; nova CI pendente | PASS LOCAL |
-| Cobertura total | >= 80% | 91,70% local por coverage.py com branches; nova CI pendente | PASS LOCAL |
+| Cobertura do core | >= 90% | 92,69% por coverage.py com branches na CI | PASS |
+| Cobertura total | >= 80% | 91,70% por coverage.py com branches na CI | PASS |
 | Ruff | 0 erros | 0 erros | PASS |
 | Mypy | 0 erros relevantes | 0 erros | PASS |
 | Perfis oficiais | 3 | 3 | PASS |
@@ -822,14 +823,14 @@ Nunca registrar `PASS` sem executar o comando.
 | Prompts vazios | 0 | 0 em 30.000 seeds | PASS |
 | Placeholders residuais | 0 | 0 em 30.000 seeds | PASS |
 | Windows | Suportado | Core, frontend state e ComfyUI 0.27.0 validados | PASS |
-| Linux | Suportado | 81 testes e gates preliminares aprovados em Python 3.10/3.12/3.13; workflow ainda falha na cobertura | PARTIAL |
+| Linux | Suportado | 87 testes e todos os gates aprovados em Python 3.10/3.12/3.13 | PASS |
 
 ## 8. Bloqueadores
 
 | ID | Data | Etapa | Descrição | Impacto | Responsável | Estado | Resolução |
 |---|---|---:|---|---|---|---|---|
 | B-001 | 2026-07-22 | 13 | Sem Git remote para executar GitHub Actions | Impedia validar CI hospedada e Linux | Usuário | RESOLVIDO | `origin` configurado e branch publicada em 2026-07-22 |
-| B-003 | 2026-07-22 | 13 | Cobertura do core na CI em 87,93%, abaixo da meta de 90% | Impede workflow verde e conclusão da etapa | Projeto | EM VALIDAÇÃO | Testes elevaram o gate local para 92,69%; nova CI pendente |
+| B-003 | 2026-07-22 | 13 | Cobertura do core na CI em 87,93%, abaixo da meta de 90% | Impedia workflow verde e conclusão da etapa | Projeto | RESOLVIDO | Testes elevaram o gate para 92,69%; run `29970873136` verde |
 
 ## 9. Riscos
 
@@ -854,7 +855,7 @@ Nunca registrar `PASS` sem executar o comando.
 | D-005 | 2026-07-22 | Preservar o repositório Git e o commit inicial existentes | O projeto já estava inicializado corretamente | Reinicializar ou apagar histórico | Bootstrap parte do commit `548e757` |
 | D-006 | 2026-07-22 | Representar `0.1.0-dev` como `0.1.0.dev0` | Forma canônica e interoperável do PEP 440 | Manter grafia não canônica nos metadados | Versão de pacote normalizada |
 | D-007 | 2026-07-22 | Não aplicar scaffold específico do ComfyUI na ETAPA 0 | Adapter público V3 pertence à ETAPA 9 e o core precisa importar sem ComfyUI | Criar adapter provisório ou legado | Bootstrap contém somente limites de pacote vazios |
-| D-008 | 2026-07-22 | Manter ETAPA 13 `PARTIAL` até uma execução Linux/Windows real da CI | O plano proíbe inventar compatibilidade ou marcar aceite não executado | Marcar `DONE` apenas com equivalentes Windows locais | ETAPA 14 permanece inelegível |
+| D-008 | 2026-07-22 | Manter ETAPA 13 `PARTIAL` até uma execução Linux/Windows real da CI | O plano proíbe inventar compatibilidade ou marcar aceite não executado | Marcar `DONE` apenas com equivalentes Windows locais | Cumprida pela run `29970873136`; ETAPA 14 elegível |
 | D-009 | 2026-07-22 | Validar Linux exclusivamente pelo GitHub Actions e operar o repositório por `git remote` | O repositório público e runners hospedados fornecem a matriz reproduzível exigida | Manter uma segunda infraestrutura Linux local | Remove dependências locais do fluxo de CI |
 
 ## 11. Dívida técnica
@@ -879,18 +880,18 @@ Nunca registrar `PASS` sem executar o comando.
 - [ ] Schemas congelados.
 - [ ] Sem TODO crítico.
 - [ ] Sem warning crítico.
-- [ ] Sem dependência dinâmica.
-- [ ] Sem `eval`/`exec`.
-- [ ] Performance medida.
+- [x] Sem dependência dinâmica.
+- [x] Sem `eval`/`exec`.
+- [x] Performance medida.
 
 ### Testes
 
-- [ ] Unitários.
-- [ ] Integração.
-- [ ] Propriedade.
-- [ ] Smoke workflow.
-- [ ] Windows.
-- [ ] Linux.
+- [x] Unitários.
+- [x] Integração.
+- [x] Propriedade.
+- [x] Smoke workflow.
+- [x] Windows.
+- [x] Linux.
 - [ ] Instalação limpa.
 
 ### Documentação
@@ -918,4 +919,4 @@ Nunca registrar `PASS` sem executar o comando.
 
 ## 14. Próxima ação obrigatória
 
-Publicar a correção que elevou a cobertura local do core para **92,69%** e obter a CI Linux/Windows verde no GitHub Actions; somente então iniciar a ETAPA 14.
+Iniciar a **ETAPA 14 — Documentação e exemplos** em branch curta, preservando a CI verde obtida na run `29970873136`.
