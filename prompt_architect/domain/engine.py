@@ -27,6 +27,7 @@ from prompt_architect.domain.rules import (
 )
 from prompt_architect.domain.seeds import derive_section_seed, resolve_group_seeds
 from prompt_architect.domain.selector import (
+    custom_option,
     effective_field_configuration,
     eligible_by_tags,
     weighted_choice,
@@ -48,9 +49,9 @@ def compose_selection(
     fixed_fields = frozenset(
         section_id
         for section_id, field in effective_fields.items()
-        if field.mode is FieldMode.FIXED
+        if field.mode in {FieldMode.FIXED, FieldMode.CUSTOM}
     )
-    selections = _resolve_fixed(profile, section_libraries, effective_fields)
+    selections = _resolve_user_values(profile, section_libraries, effective_fields)
     context = _context(profile, configuration, selections, fixed_fields)
     fixed_implications = apply_implications(context, section_libraries)
     context = fixed_implications.context
@@ -79,6 +80,11 @@ def compose_selection(
                 raise RuleConflictError(
                     f"fixed section {section_id!r} was changed to {existing.option.id!r}"
                 )
+            if (
+                field.mode is FieldMode.CUSTOM
+                and existing.option.text != (field.value or "").strip()
+            ):
+                raise RuleConflictError(f"custom section {section_id!r} was changed")
             continue
         context, attempt_count, events, conflicts, relaxed = _select_random_section(
             section_id,
@@ -158,7 +164,7 @@ def _section_libraries(
     return MappingProxyType(result)
 
 
-def _resolve_fixed(
+def _resolve_user_values(
     profile: ProfileDefinition,
     libraries: Mapping[str, LibraryDefinition],
     fields: Mapping[str, FieldConfiguration],
@@ -166,6 +172,13 @@ def _resolve_fixed(
     selections: dict[str, SelectedValue] = {}
     for section_id in profile.section_order:
         field = fields[section_id]
+        if field.mode is FieldMode.CUSTOM:
+            selections[section_id] = SelectedValue(
+                section_id,
+                custom_option(section_id, field),
+                SelectionSource.CUSTOM,
+            )
+            continue
         if field.mode is not FieldMode.FIXED:
             continue
         if field.value is None:

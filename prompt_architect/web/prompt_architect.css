@@ -11,6 +11,7 @@
 .pa-pane[hidden] { display: none; }
 .pa-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
 .pa-dialog label { display: grid; gap: 7px; color: var(--fg-color, #e9edf3); font-weight: 650; }
+.pa-dialog [hidden] { display: none !important; }
 .pa-dialog input, .pa-dialog select, .pa-dialog textarea { width: 100%; box-sizing: border-box; padding: 10px 12px; color: inherit; background: var(--comfy-input-bg, #0e1117); border: 1px solid var(--border-color, #394150); border-radius: 8px; font: inherit; font-weight: 400; }
 .pa-dialog input:focus, .pa-dialog select:focus, .pa-dialog textarea:focus, .pa-dialog button:focus-visible { outline: 2px solid #45bceb; outline-offset: 2px; }
 .pa-check { grid-template-columns: auto 1fr !important; align-items: center; justify-content: start; margin: 20px 0; }
@@ -20,6 +21,7 @@
 .pa-field > div, .pa-group > div { display: grid; gap: 2px; align-self: center; }
 .pa-field small, .pa-group small { color: var(--descrip-text, #aab2c0); font-weight: 400; }
 .pa-field label:nth-last-child(-n+2) { grid-column: span 1; }
+.pa-field [data-custom-control] { grid-column: 2 / -1; }
 .pa-group { grid-template-columns: minmax(160px, 1fr) minmax(140px, .7fr) minmax(180px, 1fr); }
 .pa-loading { padding: 30px; color: var(--descrip-text, #aab2c0); text-align: center; }
 .pa-busy { cursor: progress; }

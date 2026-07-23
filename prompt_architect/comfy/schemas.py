@@ -5,7 +5,11 @@ from collections.abc import Mapping
 from prompt_architect.domain.enums import FieldMode
 from prompt_architect.domain.exceptions import ConfigurationError, SchemaValidationError
 from prompt_architect.domain.models import NodeConfiguration, ProfileDefinition
-from prompt_architect.domain.parser import parse_configuration, parse_profile
+from prompt_architect.domain.parser import (
+    CURRENT_CONFIGURATION_SCHEMA_VERSION,
+    parse_configuration,
+    parse_profile,
+)
 from prompt_architect.domain.seeds import derive_seed
 from prompt_architect.infrastructure.json_loader import decode_json_object
 
@@ -40,7 +44,7 @@ def build_node_configuration(
         data = _json_input(configuration_json, "configuration_json")
     data.update(
         {
-            "schema_version": "1.0",
+            "schema_version": CURRENT_CONFIGURATION_SCHEMA_VERSION,
             "profile_id": profile,
             "profile_version": "1.0.0",
             "mode": generation_mode,

@@ -9,6 +9,7 @@ import {
   serializeConfiguration,
   setFieldConfiguration,
   setGroupConfiguration,
+  synchronizeIdentityLock,
   updateConfiguration,
 } from "./prompt_architect_state.js";
 
@@ -73,13 +74,25 @@ function applyNodeState(node, configuration) {
 function fieldMarkup(section, configured) {
   const mode = configured?.mode ?? "inherit";
   const value = configured?.value ?? section.default ?? section.options[0]?.id ?? "";
+  const customText = mode === "custom" ? configured?.value ?? "" : "";
   return `<article class="pa-field" data-field-id="${escapeHtml(section.id)}">
     <div><strong>${escapeHtml(section.id)}</strong><small>${escapeHtml(section.group)} · ${section.required ? "required" : "optional"}</small></div>
     <label>Mode<select data-field-mode>${optionsMarkup(promptArchitectFieldModes, mode)}</select></label>
-    <label>Value<select data-field-value${mode === "fixed" ? "" : " disabled"}>${optionsMarkup(section.options.map((option) => option.id), value, (id) => section.options.find((option) => option.id === id)?.text ?? id)}</select></label>
+    <label data-fixed-control${mode === "fixed" ? "" : " hidden"}>Value<select data-field-value${mode === "fixed" ? "" : " disabled"}>${optionsMarkup(section.options.map((option) => option.id), value, (id) => section.options.find((option) => option.id === id)?.text ?? id)}</select></label>
+    <label data-custom-control${mode === "custom" ? "" : " hidden"}>Custom text<textarea data-field-custom rows="2" maxlength="4096" placeholder="Describe exactly what this field should add to the prompt"${mode === "custom" ? "" : " disabled"}>${escapeHtml(customText)}</textarea></label>
     <label>Include tags<input data-include-tags value="${escapeHtml((configured?.include_tags ?? []).join(", "))}" placeholder="portrait, studio"></label>
     <label>Exclude tags<input data-exclude-tags value="${escapeHtml((configured?.exclude_tags ?? []).join(", "))}" placeholder="experimental"></label>
   </article>`;
+}
+
+function syncFieldControls(card) {
+  const mode = card.querySelector("[data-field-mode]").value;
+  const fixedControl = card.querySelector("[data-fixed-control]");
+  const customControl = card.querySelector("[data-custom-control]");
+  fixedControl.hidden = mode !== "fixed";
+  customControl.hidden = mode !== "custom";
+  card.querySelector("[data-field-value]").disabled = mode !== "fixed";
+  card.querySelector("[data-field-custom]").disabled = mode !== "custom";
 }
 
 function groupMarkup(groupId, configured) {
@@ -93,6 +106,10 @@ async function openArchitect(node) {
   let state;
   try {
     state = parseConfiguration(String(configWidget?.value ?? "{}"), String(profileWidget?.value ?? "portrait"));
+    const identityLockWidget = widget(node, "identity_lock");
+    if (typeof identityLockWidget?.value === "boolean") {
+      state = synchronizeIdentityLock(state, identityLockWidget.value);
+    }
   } catch (exception) {
     window.alert(`Prompt Architect: ${exception.message}`);
     return;
@@ -135,7 +152,10 @@ async function openArchitect(node) {
   const syncJson = () => { form.elements.advancedJson.value = serializeConfiguration(state); };
   const collectSections = () => {
     state = readBasics(state, form);
-    for (const card of overlay.querySelectorAll("[data-field-id]")) state = setFieldConfiguration(state, card.dataset.fieldId, { mode: card.querySelector("[data-field-mode]").value, value: card.querySelector("[data-field-value]").value, includeTags: card.querySelector("[data-include-tags]").value, excludeTags: card.querySelector("[data-exclude-tags]").value });
+    for (const card of overlay.querySelectorAll("[data-field-id]")) {
+      const fieldMode = card.querySelector("[data-field-mode]").value;
+      state = setFieldConfiguration(state, card.dataset.fieldId, { mode: fieldMode, value: fieldMode === "custom" ? card.querySelector("[data-field-custom]").value : card.querySelector("[data-field-value]").value, includeTags: card.querySelector("[data-include-tags]").value, excludeTags: card.querySelector("[data-exclude-tags]").value });
+    }
     for (const card of overlay.querySelectorAll("[data-group-id]")) state = setGroupConfiguration(state, card.dataset.groupId, { locked: card.querySelector("[data-group-lock]").checked, seed: card.querySelector("[data-group-seed]").value });
     syncJson();
     return state;
@@ -174,15 +194,15 @@ async function openArchitect(node) {
     const next = (current + (event.key === 'ArrowRight' ? 1 : -1) + tabs.length) % tabs.length;
     tabs[next].focus(); tabs[next].click(); event.preventDefault();
   });
-  overlay.querySelector("[data-fields]").addEventListener("change", (event) => { if (event.target.matches("[data-field-mode]")) event.target.closest("[data-field-id]").querySelector("[data-field-value]").disabled = event.target.value !== "fixed"; try { collectSections(); clearError(); } catch (error) { showError(error); } });
+  overlay.querySelector("[data-fields]").addEventListener("change", (event) => { if (event.target.matches("[data-field-mode]")) syncFieldControls(event.target.closest("[data-field-id]")); try { collectSections(); clearError(); } catch (error) { showError(error); } });
   overlay.querySelector("[data-groups]").addEventListener("change", () => { try { collectSections(); clearError(); } catch (error) { showError(error); } });
   form.elements.identityLock.addEventListener("change", () => { const identity = overlay.querySelector('[data-group-id="identity"] [data-group-lock]'); if (identity) identity.checked = form.elements.identityLock.checked; });
   overlay.querySelector("[data-groups]").addEventListener("change", (event) => { if (event.target.matches('[data-group-id="identity"] [data-group-lock]')) form.elements.identityLock.checked = event.target.checked; });
   for (const control of form.querySelectorAll('[data-pane="basic"] input, [data-pane="basic"] select, [data-pane="basic"] textarea')) control.addEventListener("change", () => { if (control.name === "profile") return; try { state = readBasics(state, form); syncJson(); clearError(); } catch (error) { showError(error); } });
   form.elements.profile.addEventListener("change", async (event) => {
     const previous = state.profile_id;
-    const hasFixed = Object.values(state.fields).some((field) => field.mode === "fixed");
-    if (hasFixed && !window.confirm("Changing profile resets field overrides, including fixed values. Continue?")) { event.target.value = previous; return; }
+    const hasUserValues = Object.values(state.fields).some((field) => field.mode === "fixed" || field.mode === "custom");
+    if (hasUserValues && !window.confirm("Changing profile resets field overrides, including fixed and custom values. Continue?")) { event.target.value = previous; return; }
     state = defaultConfiguration(event.target.value); setOverrides(); syncJson(); await loadProfile(state.profile_id);
   });
   overlay.querySelector("[data-reset]").addEventListener("click", async () => { if (!window.confirm("Reset all settings for this profile?")) return; state = defaultConfiguration(form.elements.profile.value); form.elements.mode.value = state.mode; form.elements.seed.value = state.master_seed; form.elements.batchIndex.value = state.batch_index; form.elements.identityLock.checked = true; setOverrides(); syncJson(); await loadProfile(state.profile_id); });

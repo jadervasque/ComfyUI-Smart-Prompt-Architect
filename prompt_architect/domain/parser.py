@@ -16,6 +16,7 @@ from prompt_architect.domain.enums import (
 )
 from prompt_architect.domain.exceptions import SchemaValidationError
 from prompt_architect.domain.models import (
+    MAX_CUSTOM_TEXT_CHARACTERS,
     FieldConfiguration,
     GroupConfiguration,
     LibraryDefinition,
@@ -29,6 +30,10 @@ from prompt_architect.domain.models import (
 )
 
 SUPPORTED_SCHEMA_VERSION = "1.0"
+CURRENT_CONFIGURATION_SCHEMA_VERSION = "1.1"
+SUPPORTED_CONFIGURATION_SCHEMA_VERSIONS = frozenset(
+    {SUPPORTED_SCHEMA_VERSION, CURRENT_CONFIGURATION_SCHEMA_VERSION}
+)
 _ID_PATTERN = re.compile(r"^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$")
 _VERSION_PATTERN = re.compile(r"^\d+\.\d+\.\d+(?:[.-][0-9A-Za-z.-]+)?$")
 _T = TypeVar("_T")
@@ -144,10 +149,18 @@ def parse_configuration(data: object) -> NodeConfiguration:
         },
         "configuration",
     )
+    schema_version = _schema_version(
+        root,
+        "configuration",
+        supported=SUPPORTED_CONFIGURATION_SCHEMA_VERSIONS,
+    )
     groups_data = _optional_mapping(root, "groups", "configuration")
     fields_data = _optional_mapping(root, "fields", "configuration")
     groups = {key: _parse_group(key, value) for key, value in groups_data.items()}
-    fields = {key: _parse_field(key, value) for key, value in fields_data.items()}
+    fields = {
+        key: _parse_field(key, value, schema_version=schema_version)
+        for key, value in fields_data.items()
+    }
     mode = _enum_value(
         GenerationMode,
         _non_empty_string(root, "mode", "configuration"),
@@ -162,7 +175,7 @@ def parse_configuration(data: object) -> NodeConfiguration:
     if batch_index < 0:
         raise _error("configuration.batch_index", "must be non-negative")
     return NodeConfiguration(
-        schema_version=_schema_version(root, "configuration"),
+        schema_version=schema_version,
         profile_id=_id(root, "profile_id", "configuration"),
         profile_version=_optional_version(root, "profile_version", "configuration"),
         mode=mode,
@@ -183,6 +196,8 @@ def _parse_section(section_id: str, data: object) -> SectionDefinition:
     _reject_unknown(item, {"required", "library", "mode", "default", "group", "fallback"}, path)
     required = _bool(item, "required", path)
     mode = _enum_value(FieldMode, _non_empty_string(item, "mode", path), f"{path}.mode")
+    if mode is FieldMode.CUSTOM:
+        raise _error(f"{path}.mode", "custom mode is only valid in node field overrides")
     default = _optional_string(item, "default", path)
     if mode is FieldMode.FIXED and default is None:
         raise _error(f"{path}.default", "is required when mode is fixed")
@@ -315,15 +330,26 @@ def _parse_group(group_id: str, data: object) -> GroupConfiguration:
     return GroupConfiguration(locked=_optional_bool(item, "locked", False, path), seed=seed)
 
 
-def _parse_field(field_id: str, data: object) -> FieldConfiguration:
+def _parse_field(field_id: str, data: object, *, schema_version: str) -> FieldConfiguration:
     _validate_id_value(field_id, f"configuration.fields.{field_id}")
     path = f"configuration.fields.{field_id}"
     item = _mapping(data, path)
     _reject_unknown(item, {"mode", "value", "include_tags", "exclude_tags"}, path)
     mode = _enum_value(FieldMode, _non_empty_string(item, "mode", path), f"{path}.mode")
     value = _optional_string(item, "value", path)
-    if mode is FieldMode.FIXED and value is None:
-        raise _error(f"{path}.value", "is required when mode is fixed")
+    if mode in {FieldMode.FIXED, FieldMode.CUSTOM} and value is None:
+        raise _error(f"{path}.value", f"is required when mode is {mode.value}")
+    if mode is FieldMode.CUSTOM:
+        if schema_version != CURRENT_CONFIGURATION_SCHEMA_VERSION:
+            raise _error(
+                f"{path}.mode",
+                f"custom requires configuration schema {CURRENT_CONFIGURATION_SCHEMA_VERSION}",
+            )
+        if value is not None and len(value) > MAX_CUSTOM_TEXT_CHARACTERS:
+            raise _error(
+                f"{path}.value",
+                f"custom text cannot exceed {MAX_CUSTOM_TEXT_CHARACTERS} characters",
+            )
     return FieldConfiguration(
         mode=mode,
         value=value,
@@ -359,9 +385,14 @@ def _validate_weight(weight: float, path: str) -> None:
         raise _error(path, "must be finite and non-negative")
 
 
-def _schema_version(data: Mapping[str, object], path: str) -> str:
+def _schema_version(
+    data: Mapping[str, object],
+    path: str,
+    *,
+    supported: frozenset[str] = frozenset({SUPPORTED_SCHEMA_VERSION}),
+) -> str:
     value = _non_empty_string(data, "schema_version", path)
-    if value != SUPPORTED_SCHEMA_VERSION:
+    if value not in supported:
         raise _error(f"{path}.schema_version", f"unsupported schema version {value!r}")
     return value
 

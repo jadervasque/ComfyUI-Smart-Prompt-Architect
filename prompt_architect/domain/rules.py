@@ -126,7 +126,7 @@ def apply_implications(
                 continue
             if existing is not None and target_field in context.fixed_fields:
                 raise RuleConflictError(
-                    f"{event} conflicts with fixed value {existing.option.id!r}"
+                    f"{event} conflicts with user-locked value {existing.option.id!r}"
                 )
             if (target_field, target_value) in history:
                 raise RuleConflictError(f"implication cycle detected while applying {event}")

@@ -57,7 +57,7 @@ O perfil define quais campos existem, sua ordem, seus padrões, fallbacks e o te
 | `dataset` | Séries reproduzíveis para datasets | Mantém sujeito, identidade e qualidade fixos por padrão; `batch_index` varia os demais campos sem estado oculto. |
 
 Trocar o perfil dentro do editor reinicia as configurações de campo. Se houver valores em modo
-`fixed`, o editor pede confirmação antes de descartá-los.
+`fixed` ou `custom`, o editor pede confirmação antes de descartá-los.
 
 ## 3. Entradas do nó
 
@@ -246,6 +246,11 @@ Contém:
 - **Reset selected profile:** restaura o perfil selecionado para `balanced`, seed `0`, batch `0`,
   identity lock ativado, campos vazios e prefixos/sufixos vazios. Exige confirmação.
 
+Ao abrir o editor, o valor atualmente visível de `identity_lock` no nó prevalece sobre uma cópia
+antiga em `configuration_json`. O checkbox **Keep identity group locked** e o controle
+**Groups > identity > Lock group** permanecem vinculados: alterar qualquer um atualiza o outro, e
+**Save configuration** grava o mesmo valor de volta no widget do nó e no JSON.
+
 ### Aba `Fields`
 
 Mostra um cartão para cada seção do perfil. Cada cartão informa o ID, o grupo e se a seção é
@@ -258,12 +263,30 @@ obrigatória.
 | `inherit` | Usa o modo e o valor padrão definidos pelo perfil. É a melhor opção quando você não precisa de override. |
 | `random` | Escolhe deterministicamente uma opção elegível da biblioteca, considerando pesos, tags, regras, seed do grupo e batch index. |
 | `fixed` | Exige uma opção em `Value` e preserva essa escolha. Regras não podem trocá-la silenciosamente. |
+| `custom` | Exibe `Custom text` para escrever exatamente o que esta seção deve acrescentar ao prompt, sem exigir uma opção da biblioteca. |
 | `disabled` | Omite uma seção opcional. Desativar uma seção obrigatória causa erro explícito. |
 
 #### `Value`
 
 Fica habilitado somente em modo `fixed`. A lista mostra o texto das opções, enquanto o JSON salva
 o ID estável da opção.
+
+#### `Custom text`
+
+Aparece somente em modo `custom`. Digite uma descrição não vazia, de até 4.096 caracteres,
+específica para aquele campo. O texto é salvo no próprio workflow, participa da normalização final
+e é registrado no manifesto com origem `custom`. Ele não precisa existir na biblioteca e não é
+alterado pela seed. Regras não podem substituí-lo silenciosamente; se uma combinação customizada
+violar uma regra absoluta de outra opção, o preview retorna um erro explícito.
+
+Exemplo no campo `outfit`:
+
+```text
+They wear a bespoke emerald coat with brass buttons
+```
+
+Os filtros `Include tags` e `Exclude tags` só afetam o modo `random`; eles não modificam texto
+customizado.
 
 #### `Include tags`
 
@@ -298,6 +321,9 @@ Cada grupo possui:
 - **Lock group:** permite que uma seed explícita prevaleça sobre a derivação da master seed.
 - **Explicit seed:** seed usada quando o grupo está bloqueado. Em branco, a seed é derivada da
   master seed.
+
+No grupo `identity`, **Lock group** representa exatamente o mesmo estado de `identity_lock` no nó
+e de **Keep identity group locked** na aba Basic.
 
 Exemplo para manter identidade e variar o restante:
 
@@ -368,7 +394,7 @@ Permite editar diretamente a configuração portátil. Exemplo mínimo completo:
   },
   "profile_id": "virtual-model",
   "profile_version": "1.0.0",
-  "schema_version": "1.0"
+  "schema_version": "1.1"
 }
 ```
 
@@ -509,6 +535,18 @@ conflito em vez de substituir os valores.
    filtro ficar sem candidatos.
 6. Gere preview e confira o manifesto.
 
+### Escrever um valor fora da biblioteca
+
+1. Abra **Fields**.
+2. Localize o grupo específico, por exemplo `outfit`, `pose` ou `location`.
+3. Em **Mode**, escolha `custom`.
+4. No campo **Custom text** que aparecer, descreva exatamente o resultado desejado.
+5. Gere o preview e confira a integração do texto com as demais seções.
+6. Clique em **Save configuration**.
+
+O valor customizado pertence somente ao campo em que foi escrito. Outros campos continuam usando
+`inherit`, `random`, `fixed` ou `disabled` conforme suas próprias configurações.
+
 ## 8. Determinismo e cache
 
 O resultado depende de:
@@ -559,8 +597,9 @@ enfileirar. **Apply advanced JSON** atualiza somente o editor.
 
 ### `unknown fields` ou `unsupported schema version`
 
-O contrato é estrito. Corrija o nome do campo e use `schema_version: "1.0"`. Não acrescente
-propriedades arbitrárias ao JSON.
+O contrato é estrito. Use `schema_version: "1.1"` nas novas configurações. Configurações `1.0`
+continuam legíveis, mas o modo `custom` exige `1.1`. Não acrescente propriedades arbitrárias ao
+JSON.
 
 ### `fixed section ... references unknown option`
 
@@ -569,7 +608,8 @@ O valor fixo não existe na biblioteca do perfil atual. Selecione novamente o va
 
 ### `required section ... cannot be disabled`
 
-Uma seção obrigatória foi configurada como `disabled`. Volte para `inherit`, `random` ou `fixed`.
+Uma seção obrigatória foi configurada como `disabled`. Volte para `inherit`, `random`, `fixed` ou
+`custom`.
 
 ### Nenhuma opção ou fallback válido
 

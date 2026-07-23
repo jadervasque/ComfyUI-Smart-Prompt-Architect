@@ -1,8 +1,9 @@
-const SCHEMA_VERSION = "1.0";
+const SCHEMA_VERSION = "1.1";
+const MAX_CUSTOM_TEXT_CHARACTERS = 4096;
 const PROFILE_VERSION = "1.0.0";
 const PROFILES = ["portrait", "virtual-model", "dataset"];
 const MODES = ["strict", "balanced", "creative", "dataset", "sequential"];
-const FIELD_MODES = ["inherit", "random", "fixed", "disabled"];
+const FIELD_MODES = ["inherit", "random", "fixed", "custom", "disabled"];
 
 export function defaultConfiguration(profile = "portrait") {
   return {
@@ -36,15 +37,22 @@ export function parseConfiguration(value, fallbackProfile = "portrait") {
   const base = defaultConfiguration(fallbackProfile);
   const profile = parsed.profile_id ?? base.profile_id;
   const mode = parsed.mode ?? base.mode;
+  const schemaVersion = parsed.schema_version ?? SCHEMA_VERSION;
   const seed = parsed.master_seed ?? base.master_seed;
   const batchIndex = parsed.batch_index ?? base.batch_index;
   if (!PROFILES.includes(profile)) throw new Error(`Unknown profile: ${profile}`);
   if (!MODES.includes(mode)) throw new Error(`Unknown generation mode: ${mode}`);
+  if (!["1.0", SCHEMA_VERSION].includes(schemaVersion)) {
+    throw new Error(`Unknown configuration schema: ${schemaVersion}`);
+  }
   if (!Number.isSafeInteger(seed) || seed < 0) throw new Error("Seed must be a non-negative safe integer.");
   if (!Number.isSafeInteger(batchIndex) || batchIndex < 0) throw new Error("Batch index must be a non-negative safe integer.");
 
   const groups = objectValue(parsed.groups, "groups");
-  const fields = objectValue(parsed.fields, "fields");
+  const fields = normalizeFields(
+    objectValue(parsed.fields, "fields"),
+    schemaVersion,
+  );
   const overrides = objectValue(parsed.overrides, "overrides");
   const identity = objectValue(groups.identity, "groups.identity");
   return {
@@ -91,6 +99,18 @@ export function updateConfiguration(configuration, values) {
   }), values.profile);
 }
 
+export function synchronizeIdentityLock(configuration, locked) {
+  if (typeof locked !== "boolean") throw new Error("Identity lock must be a boolean.");
+  const identity = objectValue(configuration.groups?.identity, "groups.identity");
+  return parseConfiguration(JSON.stringify({
+    ...configuration,
+    groups: {
+      ...configuration.groups,
+      identity: { ...identity, locked },
+    },
+  }), configuration.profile_id);
+}
+
 export function setFieldConfiguration(configuration, fieldId, values) {
   if (!fieldId || typeof fieldId !== "string") throw new Error("Field ID is required.");
   if (!FIELD_MODES.includes(values.mode)) throw new Error(`Unknown field mode: ${values.mode}`);
@@ -99,9 +119,13 @@ export function setFieldConfiguration(configuration, fieldId, values) {
     include_tags: normalizeTags(values.includeTags),
     exclude_tags: normalizeTags(values.excludeTags),
   };
-  if (values.mode === "fixed") {
-    if (!values.value) throw new Error(`${fieldId}: fixed mode requires a value.`);
-    field.value = values.value;
+  if (values.mode === "fixed" || values.mode === "custom") {
+    const value = String(values.value ?? "").trim();
+    if (!value) throw new Error(`${fieldId}: ${values.mode} mode requires a value.`);
+    if (values.mode === "custom" && value.length > MAX_CUSTOM_TEXT_CHARACTERS) {
+      throw new Error(`${fieldId}: custom text cannot exceed ${MAX_CUSTOM_TEXT_CHARACTERS} characters.`);
+    }
+    field.value = value;
   }
   return parseConfiguration(JSON.stringify({
     ...configuration,
@@ -126,6 +150,32 @@ export function setGroupConfiguration(configuration, groupId, values) {
 export function normalizeTags(value) {
   const items = Array.isArray(value) ? value : String(value ?? "").split(",");
   return [...new Set(items.map((item) => String(item).trim().toLowerCase()).filter(Boolean))].sort();
+}
+
+function normalizeFields(fields, schemaVersion) {
+  const normalized = {};
+  for (const [fieldId, raw] of Object.entries(fields)) {
+    const field = objectValue(raw, `fields.${fieldId}`);
+    const mode = field.mode;
+    if (!FIELD_MODES.includes(mode)) throw new Error(`Unknown field mode: ${mode}`);
+    if (mode === "custom" && schemaVersion === "1.0") {
+      throw new Error("Custom field mode requires configuration schema 1.1.");
+    }
+    const value = field.value;
+    if ((mode === "fixed" || mode === "custom") && (typeof value !== "string" || !value.trim())) {
+      throw new Error(`${fieldId}: ${mode} mode requires a value.`);
+    }
+    if (mode === "custom" && value.trim().length > MAX_CUSTOM_TEXT_CHARACTERS) {
+      throw new Error(`${fieldId}: custom text cannot exceed ${MAX_CUSTOM_TEXT_CHARACTERS} characters.`);
+    }
+    normalized[fieldId] = {
+      ...field,
+      ...(typeof value === "string" ? { value: value.trim() } : {}),
+      include_tags: normalizeTags(field.include_tags),
+      exclude_tags: normalizeTags(field.exclude_tags),
+    };
+  }
+  return normalized;
 }
 
 function objectValue(value, path) {

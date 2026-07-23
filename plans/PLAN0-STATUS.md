@@ -11,7 +11,7 @@
 | Versão do plano | 1.0 |
 | Status geral | `PARTIAL` |
 | Etapa atual | ETAPA 14 |
-| Última atualização | 2026-07-22 21:52 -04:00 |
+| Última atualização | 2026-07-22 22:43 -04:00 |
 | Responsável atual | Agente IA no VS Code |
 | Branch atual | `docs/user-manual` |
 | Próximo marco | Completar screenshots e workflows de exemplo da ETAPA 14 |
@@ -274,6 +274,70 @@ Adicionar uma entrada por sessão relevante. Não apagar entradas antigas.
 - Commit/PR:
 - Próxima ação:
 ```
+
+### 2026-07-22 22:25 -04:00 — EXTENSÃO DO MODO DE CAMPO CUSTOM
+
+- Status anterior: ETAPA 14 `IN_PROGRESS`.
+- Status novo: ETAPA 14 `IN_PROGRESS`; extensão funcional solicitada em execução.
+- Branch: `docs/user-manual`.
+- Objetivo: adicionar o modo `custom` aos campos do editor, com texto livre específico por seção e composição independente das opções da biblioteca.
+- Arquivos alterados: inicialmente apenas `plans/PLAN0-STATUS.md`.
+- Implementação: iniciada.
+- Testes executados: pendentes.
+- Resultado dos testes: pendente.
+- Pendências: contrato versionado, core, frontend dinâmico, testes, documentação e validação completa.
+- Bloqueadores: nenhum.
+- Decisões: preservar `fixed` como ID de opção e representar texto livre por um modo distinto, sem acesso a rede, arquivos ou execução de código.
+- Commit/PR: pendente.
+- Próxima ação: implementar o contrato compatível e a seleção sintética segura para texto customizado.
+
+### 2026-07-22 22:37 -04:00 — CONCLUSÃO DO MODO DE CAMPO CUSTOM
+
+- Status anterior: extensão funcional em execução; ETAPA 14 `IN_PROGRESS`.
+- Status novo: extensão funcional concluída; ETAPA 14 permanece `IN_PROGRESS` por suas entregas documentais originais.
+- Branch: `docs/user-manual`.
+- Objetivo: concluir o modo `custom` por campo com editor dinâmico, persistência, composição, manifesto e compatibilidade versionada.
+- Arquivos alterados: enums, modelos, parser, selector, engine, regras, adapter ComfyUI, frontend JS/CSS, schemas 1.0/1.1, versão do pacote, testes, `MANUAL.md`, documentação técnica, changelog e este registro.
+- Implementação: `custom` adicionado ao combobox; `Custom text` aparece somente nesse modo; texto livre não vazio de até 4.096 caracteres é armazenado no workflow, resolvido antes dos campos aleatórios, protegido contra implicações e registrado como `source: custom`; schema de configuração evoluído para `1.1`, mantendo leitura de `1.0`; versão evoluída para `0.2.0.dev0`.
+- Testes executados: Ruff format/check; mypy; pytest completo com cobertura; gate de cobertura do core; Node test/check; validação dos dados; 10.000 seeds por perfil; benchmark; build; composição direta com perfil oficial; verificação HTTP dos assets servidos pelo ComfyUI local.
+- Resultado dos testes: PASS — 94 testes Python; cobertura geral 91,90%; cobertura core/application 92,91%; 7 testes frontend; 30.000 seeds; 3.000 composições de benchmark em 4,608 s; wheel e sdist `0.2.0.dev0` construídos; assets HTTP 200 contendo `custom`; prompt e manifesto oficiais confirmados. A tentativa de automação visual pelo navegador integrado não obteve conexão nesta sessão.
+- Pendências: reiniciar o ComfyUI e recarregar a página para substituir o backend Python já carregado em memória e então conferir visualmente o modal; continuar screenshots e workflows da ETAPA 14.
+- Bloqueadores: nenhum no código; validação visual depende apenas do reinício/reload da instância local.
+- Decisões: usar `value` como texto no modo `custom`, distinguido semanticamente pelo modo; limitar texto a 4.096 caracteres; preservar schema legado em `configuration-1.0.schema.json`; não reiniciar automaticamente a instância ativa do usuário.
+- Commit/PR: pendente.
+- Próxima ação: reiniciar o ComfyUI, validar visualmente `Fields > Mode > custom` e retomar as entregas documentais da ETAPA 14.
+
+### 2026-07-22 22:41 -04:00 — CORREÇÃO DE SINCRONIZAÇÃO IDENTITY LOCK
+
+- Status anterior: ETAPA 14 `IN_PROGRESS`; `identity_lock` do nó e `Groups > identity > Lock group` podiam divergir ao abrir o editor.
+- Status novo: correção de regressão em execução; ETAPA 14 permanece `IN_PROGRESS`.
+- Branch: `docs/user-manual`.
+- Objetivo: tornar o valor visível de `identity_lock` a fonte inicial do editor e manter os controles Basic/Groups vinculados em ambos os sentidos.
+- Arquivos alterados: inicialmente apenas `plans/PLAN0-STATUS.md`.
+- Implementação: iniciada.
+- Testes executados: pendentes.
+- Resultado dos testes: pendente.
+- Pendências: helper de sincronização do estado do nó, teste frontend, documentação e validação.
+- Bloqueadores: nenhum.
+- Decisões: preservar os demais campos avançados de `configuration_json`; aplicar a precedência pública já usada pelo backend também ao abrir o modal.
+- Commit/PR: pendente.
+- Próxima ação: sincronizar o estado serializado com os widgets visíveis antes de renderizar o editor.
+
+### 2026-07-22 22:43 -04:00 — CONCLUSÃO DA SINCRONIZAÇÃO IDENTITY LOCK
+
+- Status anterior: correção de regressão em execução; ETAPA 14 `IN_PROGRESS`.
+- Status novo: correção concluída; ETAPA 14 permanece `IN_PROGRESS`.
+- Branch: `docs/user-manual`.
+- Objetivo: eliminar a divergência entre o widget `identity_lock` e os controles de identidade do editor.
+- Arquivos alterados: `prompt_architect/web/prompt_architect_state.js`, `prompt_architect/web/prompt_architect.js`, `tests/frontend/state.test.mjs`, `MANUAL.md`, `CHANGELOG.md` e este registro.
+- Implementação: novo helper valida e aplica o valor booleano visível de `identity_lock` sobre o estado serializado antes da renderização; Basic e Groups passam a iniciar com esse valor, mantêm o vínculo já existente durante a edição e gravam o mesmo estado no widget e no JSON ao salvar.
+- Testes executados: Node test; Node syntax check; Ruff format/check; mypy; pytest completo; verificação HTTP do asset servido pelo ComfyUI local.
+- Resultado dos testes: PASS — 8 testes frontend, incluindo regressão `configuration_json=true`/widget visível `false`; 94 testes Python; zero erros de lint/tipagem; asset atualizado servido com HTTP 200. A automação visual pelo navegador integrado continuou indisponível por falha de conexão da ferramenta.
+- Pendências: recarregar completamente a página do ComfyUI para substituir o módulo JavaScript já importado pelo navegador; continuar ETAPA 14.
+- Bloqueadores: nenhum no código.
+- Decisões: o widget público visível mantém a mesma precedência que já possui no backend; nenhum estado avançado ou seed do grupo é descartado ao sincronizar apenas `locked`.
+- Commit/PR: pendente.
+- Próxima ação: hard reload no ComfyUI e conferir o fluxo desmarcar `identity_lock` → abrir editor → Groups → salvar.
 
 ### 2026-07-22 18:32 -04:00 — ETAPA 0
 
@@ -888,6 +952,7 @@ Nunca registrar `PASS` sem executar o comando.
 | D-007 | 2026-07-22 | Não aplicar scaffold específico do ComfyUI na ETAPA 0 | Adapter público V3 pertence à ETAPA 9 e o core precisa importar sem ComfyUI | Criar adapter provisório ou legado | Bootstrap contém somente limites de pacote vazios |
 | D-008 | 2026-07-22 | Manter ETAPA 13 `PARTIAL` até uma execução Linux/Windows real da CI | O plano proíbe inventar compatibilidade ou marcar aceite não executado | Marcar `DONE` apenas com equivalentes Windows locais | Cumprida pela run `29970873136`; ETAPA 14 elegível |
 | D-009 | 2026-07-22 | Validar Linux exclusivamente pelo GitHub Actions e operar o repositório por `git remote` | O repositório público e runners hospedados fornecem a matriz reproduzível exigida | Manter uma segunda infraestrutura Linux local | Remove dependências locais do fluxo de CI |
+| D-010 | 2026-07-22 | Introduzir `custom` no schema de configuração 1.1 e preservar leitura do schema 1.0 | Texto livre por seção tem semântica distinta de um ID `fixed` e precisa ser portátil, limitado e auditável | Reutilizar `fixed` com IDs inexistentes; aceitar caminhos ou editar bibliotecas em runtime | Novo texto livre é explícito, determinístico, protegido e registrado no manifesto; pacote `0.2.0.dev0` |
 
 ## 11. Dívida técnica
 

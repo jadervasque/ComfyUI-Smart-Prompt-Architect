@@ -8,6 +8,7 @@ from typing import Protocol, TypeVar
 from prompt_architect.domain.enums import FieldMode, SelectionSource
 from prompt_architect.domain.exceptions import ConfigurationError, SelectionError
 from prompt_architect.domain.models import (
+    MAX_CUSTOM_TEXT_CHARACTERS,
     FieldConfiguration,
     LibraryDefinition,
     NodeConfiguration,
@@ -82,13 +83,25 @@ def eligible_by_tags(
     )
 
 
+def custom_option(section_id: str, field: FieldConfiguration) -> PromptOption:
+    """Create a safe synthetic option for user-authored section text."""
+    value = (field.value or "").strip()
+    if not value:
+        raise ConfigurationError(f"custom section {section_id!r} requires non-empty text")
+    if len(value) > MAX_CUSTOM_TEXT_CHARACTERS:
+        raise ConfigurationError(
+            f"custom section {section_id!r} cannot exceed {MAX_CUSTOM_TEXT_CHARACTERS} characters"
+        )
+    return PromptOption(id="custom", text=value)
+
+
 def select_basic_option(
     section: SectionDefinition,
     library: LibraryDefinition,
     profile: ProfileDefinition,
     configuration: NodeConfiguration,
 ) -> SelectedValue | None:
-    """Resolve disabled, fixed, random, and inherited modes before compatibility rules."""
+    """Resolve disabled, fixed, custom, random, and inherited modes before rules."""
     field = effective_field_configuration(section, configuration)
     if field.mode is FieldMode.DISABLED:
         if section.required:
@@ -103,6 +116,12 @@ def select_basic_option(
                 f"fixed section {section.id!r} references unknown option {field.value!r}"
             )
         return SelectedValue(section.id, option, SelectionSource.FIXED)
+    if field.mode is FieldMode.CUSTOM:
+        return SelectedValue(
+            section.id,
+            custom_option(section.id, field),
+            SelectionSource.CUSTOM,
+        )
     if field.mode is not FieldMode.RANDOM:
         raise ConfigurationError(f"section {section.id!r} has unresolved inherit mode")
     candidates = eligible_by_tags(library.options, field)

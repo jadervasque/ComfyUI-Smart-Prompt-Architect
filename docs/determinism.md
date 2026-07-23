@@ -11,5 +11,6 @@ sorted before deterministic operations.
 
 Weighted choice rejects negative, NaN, and infinite weights. Zero-weight options are disabled, and
 an all-zero candidate set raises an explicit selection error so a higher layer can apply a declared
-fallback. Fixed values are resolved by exact option ID and are never replaced silently. Required
+fallback. Fixed option IDs and custom user text are resolved before random fields and are never
+replaced silently. Required
 fields cannot be disabled.

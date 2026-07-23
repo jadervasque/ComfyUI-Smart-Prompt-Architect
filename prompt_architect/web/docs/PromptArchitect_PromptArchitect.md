@@ -19,5 +19,5 @@ runs on CPU, does not load a model, and performs no network or arbitrary filesys
 ## Outputs
 
 The node returns positive prompt, negative prompt, canonical manifest JSON, diagnostic summary, and
-the master seed used. A positive prompt is never returned empty silently; invalid fixed values,
+the master seed used. A positive prompt is never returned empty silently; invalid fixed/custom values,
 rules, fallbacks, templates, or final text stop execution with a clear error.

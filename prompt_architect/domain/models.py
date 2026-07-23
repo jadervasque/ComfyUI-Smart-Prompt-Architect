@@ -13,6 +13,8 @@ from prompt_architect.domain.enums import (
     SelectionSource,
 )
 
+MAX_CUSTOM_TEXT_CHARACTERS = 4096
+
 
 @dataclass(frozen=True, slots=True)
 class RuleCondition:
@@ -109,7 +111,7 @@ class LibraryDefinition:
 
 @dataclass(frozen=True, slots=True)
 class FieldConfiguration:
-    """Per-field mode, fixed value, and optional tag filters."""
+    """Per-field mode, fixed option ID or custom text, and optional tag filters."""
 
     mode: FieldMode
     value: str | None = None

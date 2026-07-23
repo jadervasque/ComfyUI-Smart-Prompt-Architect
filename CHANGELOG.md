@@ -10,3 +10,10 @@ intends to follow [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 ### Added
 
 - Initial project structure, package metadata, community documents, and quality configuration.
+- Field mode `custom` with a per-section free-text editor, deterministic manifest provenance, and
+  backward-compatible configuration schema 1.1.
+
+### Fixed
+
+- Keep the visible `identity_lock`, Basic editor checkbox, and `Groups > identity` lock synchronized
+  when opening and saving the structured prompt editor.

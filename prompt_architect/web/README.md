@@ -15,5 +15,5 @@ reduced-motion handling, and a responsive single-column layout.
 The advanced editor loads profile metadata from the versioned local API and provides Basic,
 Fields, Groups, and Preview & JSON tabs. Field modes, values, tag filters, group locks/seeds,
 server preview, manifest inspection, reset, and JSON import/export remain synchronized with the
-same workflow configuration. Profile changes that would discard fixed values require explicit
+same workflow configuration. Profile changes that would discard fixed or custom values require explicit
 confirmation.

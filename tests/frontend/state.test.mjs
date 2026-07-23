@@ -8,6 +8,7 @@ import {
   serializeConfiguration,
   setFieldConfiguration,
   setGroupConfiguration,
+  synchronizeIdentityLock,
   updateConfiguration,
 } from "../../prompt_architect/web/prompt_architect_state.js";
 
@@ -28,6 +29,15 @@ test("form state survives serialization", () => {
   assert.equal(restored.master_seed, 42);
   assert.equal(restored.groups.identity.locked, false);
   assert.equal(restored.overrides.positive_prefix, "Editorial");
+});
+
+test("visible identity lock overrides stale serialized editor state", () => {
+  const stale = defaultConfiguration();
+  assert.equal(stale.groups.identity.locked, true);
+  const synchronized = synchronizeIdentityLock(stale, false);
+  assert.equal(synchronized.groups.identity.locked, false);
+  assert.equal(parseConfiguration(serializeConfiguration(synchronized)).groups.identity.locked, false);
+  assert.throws(() => synchronizeIdentityLock(stale, "false"), /must be a boolean/);
 });
 
 test("invalid JSON and unsafe seeds are rejected", () => {
@@ -54,4 +64,31 @@ test("fixed values and invalid group seeds are never discarded silently", () => 
   assert.throws(() => setGroupConfiguration(defaultConfiguration(), "scene", {
     locked: true, seed: "-2",
   }), /non-negative/);
+});
+
+test("custom mode stores bounded free text and upgrades the configuration schema", () => {
+  const state = setFieldConfiguration(defaultConfiguration(), "outfit", {
+    mode: "custom",
+    value: "  a bespoke emerald coat with brass buttons  ",
+    includeTags: "",
+    excludeTags: "",
+  });
+  const restored = parseConfiguration(serializeConfiguration(state));
+  assert.equal(restored.schema_version, "1.1");
+  assert.equal(restored.fields.outfit.mode, "custom");
+  assert.equal(restored.fields.outfit.value, "a bespoke emerald coat with brass buttons");
+  assert.throws(() => setFieldConfiguration(defaultConfiguration(), "outfit", {
+    mode: "custom", value: " ", includeTags: "", excludeTags: "",
+  }), /requires a value/);
+  assert.throws(() => setFieldConfiguration(defaultConfiguration(), "outfit", {
+    mode: "custom", value: "x".repeat(4097), includeTags: "", excludeTags: "",
+  }), /cannot exceed 4096/);
+});
+
+test("legacy schema cannot smuggle in custom mode", () => {
+  assert.throws(() => parseConfiguration(JSON.stringify({
+    schema_version: "1.0",
+    fields: { outfit: { mode: "custom", value: "custom coat" } },
+  })), /requires configuration schema 1.1/);
+  assert.throws(() => parseConfiguration('{"schema_version":"2.0"}'), /Unknown configuration schema/);
 });

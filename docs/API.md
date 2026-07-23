@@ -22,7 +22,7 @@ Example:
 ```json
 {
   "configuration": {
-    "schema_version": "1.0",
+    "schema_version": "1.1",
     "profile_id": "portrait",
     "profile_version": "1.0.0",
     "mode": "balanced",
