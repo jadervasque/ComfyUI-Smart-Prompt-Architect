@@ -19,13 +19,13 @@ framework-independent Python core.
 ## Why Prompt Architect
 
 - **Reproducible:** the same data version, profile, configuration, seed, and batch index produce
-	the same result.
+  the same result.
 - **Coherent:** values are selected and checked for compatibility before text is rendered.
 - **Controllable:** fields can be inherited, randomized, fixed, customized, disabled, or grouped
-	under deterministic locks.
+  under deterministic locks.
 - **Observable:** each composition returns a manifest, summary, effective seed, and diagnostics.
 - **Safe by design:** no network access, package installation, dynamic code execution, or arbitrary
-	filesystem access occurs while the node composes a prompt.
+  filesystem access occurs while the node composes a prompt.
 - **Self-contained:** no other custom node is required for the composition engine.
 
 ## Installation
@@ -140,11 +140,27 @@ The README is the project entry point; the following guides provide complete ref
 
 ## Development
 
-Create a development environment and install the optional tooling:
+Create a development environment:
 
 ```console
 python -m venv .venv
+```
+
+Activate it with PowerShell on Windows:
+
+```powershell
 .venv\Scripts\activate
+```
+
+Or activate it with a POSIX shell on Linux and macOS:
+
+```console
+source .venv/bin/activate
+```
+
+Then install the optional development tooling:
+
+```console
 python -m pip install -e ".[dev]"
 ```
 
