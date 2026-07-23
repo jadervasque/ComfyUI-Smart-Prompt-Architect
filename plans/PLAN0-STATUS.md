@@ -11,10 +11,10 @@
 | Versão do plano | 1.0 |
 | Status geral | `PARTIAL` |
 | Etapa atual | ETAPA 14 |
-| Última atualização | 2026-07-22 21:08 -04:00 |
+| Última atualização | 2026-07-22 21:50 -04:00 |
 | Responsável atual | Agente IA no VS Code |
-| Branch atual | `ci/quality-matrix` |
-| Próximo marco | Iniciar documentação e exemplos da ETAPA 14 |
+| Branch atual | `docs/user-manual` |
+| Próximo marco | Completar screenshots e workflows de exemplo da ETAPA 14 |
 | Bloqueadores | Nenhum para iniciar a ETAPA 14 |
 
 ## 2. Legenda
@@ -45,7 +45,7 @@
 | 11 | Preview e validação API | DONE | 7, 9, 10 | 2026-07-22 19:38 -04:00 | 2026-07-22 19:43 -04:00 | `dac65e1` | Rotas e limites validados no ComfyUI local |
 | 12 | Interface avançada | DONE | 10, 11 | 2026-07-22 19:43 -04:00 | 2026-07-22 19:50 -04:00 | `3c98b5e` | Editor completo e estado avançado testado |
 | 13 | Qualidade e CI | DONE | 0–12 | 2026-07-22 19:50 -04:00 | 2026-07-22 21:08 -04:00 | `c7a3f87`, `01c8119` | CI run `29970873136` verde nos 7 jobs Linux/Windows |
-| 14 | Documentação e exemplos | PENDING | 8–13 | — | — | — | Documentação incremental obrigatória |
+| 14 | Documentação e exemplos | IN_PROGRESS | 8–13 | 2026-07-22 21:45 -04:00 | — | — | `MANUAL.md` completo e validado; demais entregas da etapa pendentes |
 | 15 | Beta público 0.9.0 | PENDING | 0–14 | — | — | — | Requer autorização para publicar |
 | 16 | Release 1.0.0 | PENDING | 15 | — | — | — | Requer autorização para publicar |
 
@@ -237,6 +237,19 @@
 - [x] Cobertura alvo e 10.000 seeds aprovadas.
 - [x] Workflow remoto verde em Linux e Windows.
 - [x] Commit realizado.
+
+### ETAPA 14 — Documentação e exemplos
+
+- [x] `MANUAL.md` completo para o nó e editor visual.
+- [ ] README completo.
+- [ ] Screenshots.
+- [ ] Workflows básico e modelo virtual.
+- [ ] Exemplo de perfil.
+- [ ] Regras e troubleshooting revisados.
+- [ ] Desenvolvimento, contribuição e segurança revisados.
+- [ ] Inglês e links revisados.
+- [ ] Instalação e primeiro prompt validados somente pelo README.
+- [ ] Commit realizado.
 
 ## 5. Registro de trabalho
 
@@ -726,6 +739,22 @@ Adicionar uma entrada por sessão relevante. Não apagar entradas antigas.
 - Commit/PR: `01c8119` (`test: raise core coverage above quality gate`); GitHub Actions run `29970873136`.
 - Próxima ação: iniciar a ETAPA 14 — Documentação e exemplos.
 
+### 2026-07-22 21:45 -04:00 — ETAPA 14
+
+- Status anterior: `PENDING`.
+- Status novo: `IN_PROGRESS`.
+- Branch: `docs/user-manual`.
+- Objetivo: criar `MANUAL.md` passo a passo para o único nó público, todas as configurações, editor visual, entradas avançadas, saídas, integração e troubleshooting.
+- Arquivos alterados: `MANUAL.md`, `README.md` e este registro.
+- Implementação: manual em português com primeiro uso, ligações no workflow, perfis, 13 entradas, precedência, 5 modos, editor visual, campos/grupos, 5 saídas, receitas, determinismo, erros e segurança; README obsoleto corrigido e ligado ao manual.
+- Testes executados: verificador de links Markdown e cobertura dos nomes do schema; Ruff check/format, mypy, pytest, testes Node, validação dos dados e `git diff --check`.
+- Resultado dos testes: PASS; links locais válidos, 13 entradas e 5 saídas documentadas, 87 testes/337 subtests Python, 5 testes frontend e 27 JSONs oficiais aprovados.
+- Pendências: commit/push deste incremento; screenshots, workflows, exemplo de perfil e revisão documental restante continuam pendentes na ETAPA 14.
+- Bloqueadores: nenhum.
+- Decisões: manual em português, orientado a tarefas, com distinção explícita entre controles visíveis, estado do editor e entradas avançadas.
+- Commit/PR: preparado com mensagem `docs: add complete Prompt Architect user manual`.
+- Próxima ação: publicar a branch e continuar as demais entregas da ETAPA 14.
+
 ## 6. Testes executados
 
 | Data | Etapa | Comando | Resultado | Evidência/observação |
@@ -807,6 +836,8 @@ Adicionar uma entrada por sessão relevante. Não apagar entradas antigas.
 | 2026-07-22 | 13 | `python -m tests.property_profiles` após correção | PASS | 10.000 seeds por perfil e 60.000 composições determinísticas. |
 | 2026-07-22 | 13 | `python -m scripts.benchmark --iterations 1000 --max-seconds 30` | PASS | 3.000 composições em 3,619 s (828,9/s). |
 | 2026-07-22 | 13 | GitHub Actions run `29970873136` | PASS | 7/7 jobs: Ubuntu/Windows em Python 3.10/3.12/3.13 e property/benchmark; todos os passos aprovados. |
+| 2026-07-22 | 14 | Validação de `MANUAL.md` e links locais | PASS | Todas as 13 entradas e 5 saídas do schema documentadas; nenhum link local quebrado. |
+| 2026-07-22 | 14 | Ruff, format, mypy, pytest, Node e validação de dados | PASS | 87 testes/337 subtests Python, 5 testes frontend e 27 JSONs aprovados. |
 
 Nunca registrar `PASS` sem executar o comando.
 
@@ -919,4 +950,4 @@ Nunca registrar `PASS` sem executar o comando.
 
 ## 14. Próxima ação obrigatória
 
-Iniciar a **ETAPA 14 — Documentação e exemplos** em branch curta, preservando a CI verde obtida na run `29970873136`.
+Completar **screenshots e workflows de exemplo** da ETAPA 14, mantendo `MANUAL.md` sincronizado com o schema público.
