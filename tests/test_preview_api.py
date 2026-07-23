@@ -4,6 +4,7 @@ import json
 import unittest
 from concurrent.futures import ThreadPoolExecutor
 from typing import Any, cast
+from unittest.mock import patch
 
 from prompt_architect.application.compose_service import ComposeService
 from prompt_architect.application.preview_api import (
@@ -15,7 +16,7 @@ from prompt_architect.application.preview_api import (
     validate,
 )
 from prompt_architect.comfy.schemas import build_node_configuration
-from prompt_architect.domain.exceptions import ConfigurationError
+from prompt_architect.domain.exceptions import ConfigurationError, SchemaValidationError
 from prompt_architect.infrastructure.repository import bundled_repository
 
 
@@ -83,6 +84,28 @@ class PreviewApiTests(unittest.TestCase):
     def test_duplicate_json_keys_fail(self) -> None:
         with self.assertRaisesRegex(Exception, "duplicate JSON key"):
             decode_preview_payload(b'{"configuration":{},"configuration":{}}')
+
+    def test_preview_rejects_non_object_configuration_and_groups(self) -> None:
+        with self.assertRaisesRegex(ValueError, "configuration must be a JSON object"):
+            preview({"configuration": []})
+
+        invalid_groups = _configuration()
+        invalid_groups["groups"] = []
+        with self.assertRaisesRegex(SchemaValidationError, "configuration.groups"):
+            preview(invalid_groups)
+
+        invalid_identity = _configuration()
+        invalid_identity["groups"] = {"identity": []}
+        with self.assertRaisesRegex(SchemaValidationError, "configuration.groups.identity"):
+            preview(invalid_identity)
+
+    def test_validate_rejects_an_invalid_internal_manifest_shape(self) -> None:
+        with patch(
+            "prompt_architect.application.preview_api.preview",
+            return_value={"manifest": [], "issues": [], "summary": ""},
+        ):
+            with self.assertRaisesRegex(RuntimeError, "manifest payload is not an object"):
+                validate(_configuration())
 
     def test_concurrent_previews_are_identical(self) -> None:
         with ThreadPoolExecutor(max_workers=8) as executor:

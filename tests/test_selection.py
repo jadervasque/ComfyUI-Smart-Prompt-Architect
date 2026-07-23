@@ -15,7 +15,7 @@ from prompt_architect.domain.models import (
     PromptOption,
     SectionDefinition,
 )
-from prompt_architect.domain.seeds import derive_seed, resolve_group_seed
+from prompt_architect.domain.seeds import derive_section_seed, derive_seed, resolve_group_seed
 from prompt_architect.domain.selector import select_basic_option, weighted_choice
 
 
@@ -83,6 +83,14 @@ class SeedTests(unittest.TestCase):
 
     def test_group_seed_is_namespace_independent(self) -> None:
         self.assertNotEqual(resolve_group_seed(123, "identity"), resolve_group_seed(123, "outfit"))
+
+    def test_invalid_seed_inputs_fail_explicitly(self) -> None:
+        with self.assertRaisesRegex(ValueError, r"between 0 and 2\^64-1"):
+            derive_seed(-1, "identity")
+        with self.assertRaisesRegex(ValueError, "namespace cannot be empty"):
+            derive_seed(0, "")
+        with self.assertRaisesRegex(ValueError, "batch_index must be non-negative"):
+            derive_section_seed(0, "identity", -1)
 
 
 class WeightedChoiceTests(unittest.TestCase):
