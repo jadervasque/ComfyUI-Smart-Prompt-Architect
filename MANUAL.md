@@ -628,4 +628,3 @@ salva no próprio workflow somente após **Save configuration**.
 - [API local de preview](docs/API.md)
 - [Guia de desenvolvimento](docs/DEVELOPMENT.md)
 - [Política de segurança](SECURITY.md)
-
