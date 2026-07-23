@@ -1,0 +1,2577 @@
+{
+  "schema_version": "2.0",
+  "id": "cinematography-lens-focal-base",
+  "version": "2.0.0",
+  "library": "lens-focal",
+  "domain": "cinematography",
+  "category": "lens-focal",
+  "language": "en",
+  "status": "active",
+  "safety": "general",
+  "tags": [
+    "base"
+  ],
+  "fallback_option_id": "cinematography-lens-focal-base-24mm-wide-lens-documentary-restraint",
+  "options": [
+    {
+      "id": "cinematography-lens-focal-base-24mm-wide-lens-documentary-restraint",
+      "semantic_key": "cinematography-lens-focal-base-24mm-wide-lens-documentary-restraint",
+      "text": "24mm wide lens used with documentary restraint",
+      "sentence": "24mm wide lens used with documentary restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "24mm wide lens used with documentary restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing 24mm wide lens used with documentary restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with 24mm wide lens used with documentary restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-lens-focal-base-24mm-wide-lens",
+      "tags": [
+        "base",
+        "cinematography",
+        "lens-focal",
+        "rarity-common"
+      ],
+      "facets": {
+        "focal-family": "value-24mm-wide-lens",
+        "treatment": "documentary-restraint"
+      },
+      "subcategory": "value-24mm-wide-lens",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lens-focal-base-24mm-wide-lens-formal-precision",
+      "semantic_key": "cinematography-lens-focal-base-24mm-wide-lens-formal-precision",
+      "text": "24mm wide lens used with formal precision",
+      "sentence": "24mm wide lens used with formal precision.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "24mm wide lens used with formal precision",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing 24mm wide lens used with formal precision",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with 24mm wide lens used with formal precision",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-lens-focal-base-24mm-wide-lens",
+      "tags": [
+        "base",
+        "cinematography",
+        "lens-focal",
+        "rarity-common"
+      ],
+      "facets": {
+        "focal-family": "value-24mm-wide-lens",
+        "treatment": "formal-precision"
+      },
+      "subcategory": "value-24mm-wide-lens",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lens-focal-base-24mm-wide-lens-intimate-emphasis",
+      "semantic_key": "cinematography-lens-focal-base-24mm-wide-lens-intimate-emphasis",
+      "text": "24mm wide lens used with intimate emphasis",
+      "sentence": "24mm wide lens used with intimate emphasis.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "24mm wide lens used with intimate emphasis",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing 24mm wide lens used with intimate emphasis",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with 24mm wide lens used with intimate emphasis",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-lens-focal-base-24mm-wide-lens",
+      "tags": [
+        "base",
+        "cinematography",
+        "lens-focal",
+        "rarity-common"
+      ],
+      "facets": {
+        "focal-family": "value-24mm-wide-lens",
+        "treatment": "intimate-emphasis"
+      },
+      "subcategory": "value-24mm-wide-lens",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lens-focal-base-24mm-wide-lens-spatial-context",
+      "semantic_key": "cinematography-lens-focal-base-24mm-wide-lens-spatial-context",
+      "text": "24mm wide lens used with spatial context",
+      "sentence": "24mm wide lens used with spatial context.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "24mm wide lens used with spatial context",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing 24mm wide lens used with spatial context",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with 24mm wide lens used with spatial context",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-lens-focal-base-24mm-wide-lens",
+      "tags": [
+        "base",
+        "cinematography",
+        "lens-focal",
+        "rarity-common"
+      ],
+      "facets": {
+        "focal-family": "value-24mm-wide-lens",
+        "treatment": "spatial-context"
+      },
+      "subcategory": "value-24mm-wide-lens",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lens-focal-base-24mm-wide-lens-graphic-geometry",
+      "semantic_key": "cinematography-lens-focal-base-24mm-wide-lens-graphic-geometry",
+      "text": "24mm wide lens used with graphic geometry",
+      "sentence": "24mm wide lens used with graphic geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "24mm wide lens used with graphic geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing 24mm wide lens used with graphic geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with 24mm wide lens used with graphic geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-lens-focal-base-24mm-wide-lens",
+      "tags": [
+        "base",
+        "cinematography",
+        "lens-focal",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "focal-family": "value-24mm-wide-lens",
+        "treatment": "graphic-geometry"
+      },
+      "subcategory": "value-24mm-wide-lens",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lens-focal-base-24mm-wide-lens-dynamic-energy",
+      "semantic_key": "cinematography-lens-focal-base-24mm-wide-lens-dynamic-energy",
+      "text": "24mm wide lens used with dynamic energy",
+      "sentence": "24mm wide lens used with dynamic energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "24mm wide lens used with dynamic energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing 24mm wide lens used with dynamic energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with 24mm wide lens used with dynamic energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-lens-focal-base-24mm-wide-lens",
+      "tags": [
+        "base",
+        "cinematography",
+        "lens-focal",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "focal-family": "value-24mm-wide-lens",
+        "treatment": "dynamic-energy"
+      },
+      "subcategory": "value-24mm-wide-lens",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lens-focal-base-24mm-wide-lens-quiet-observation",
+      "semantic_key": "cinematography-lens-focal-base-24mm-wide-lens-quiet-observation",
+      "text": "24mm wide lens used with quiet observation",
+      "sentence": "24mm wide lens used with quiet observation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "24mm wide lens used with quiet observation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing 24mm wide lens used with quiet observation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with 24mm wide lens used with quiet observation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-lens-focal-base-24mm-wide-lens",
+      "tags": [
+        "base",
+        "cinematography",
+        "lens-focal",
+        "rarity-rare"
+      ],
+      "facets": {
+        "focal-family": "value-24mm-wide-lens",
+        "treatment": "quiet-observation"
+      },
+      "subcategory": "value-24mm-wide-lens",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lens-focal-base-24mm-wide-lens-editorial-polish",
+      "semantic_key": "cinematography-lens-focal-base-24mm-wide-lens-editorial-polish",
+      "text": "24mm wide lens used with editorial polish",
+      "sentence": "24mm wide lens used with editorial polish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "24mm wide lens used with editorial polish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing 24mm wide lens used with editorial polish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with 24mm wide lens used with editorial polish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-lens-focal-base-24mm-wide-lens",
+      "tags": [
+        "base",
+        "cinematography",
+        "lens-focal",
+        "rarity-rare"
+      ],
+      "facets": {
+        "focal-family": "value-24mm-wide-lens",
+        "treatment": "editorial-polish"
+      },
+      "subcategory": "value-24mm-wide-lens",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lens-focal-base-35mm-environmental-lens-documentary-restraint",
+      "semantic_key": "cinematography-lens-focal-base-35mm-environmental-lens-documentary-restraint",
+      "text": "35mm environmental lens used with documentary restraint",
+      "sentence": "35mm environmental lens used with documentary restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "35mm environmental lens used with documentary restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing 35mm environmental lens used with documentary restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with 35mm environmental lens used with documentary restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-lens-focal-base-35mm-environmental-lens",
+      "tags": [
+        "base",
+        "cinematography",
+        "lens-focal",
+        "rarity-common"
+      ],
+      "facets": {
+        "focal-family": "value-35mm-environmental-lens",
+        "treatment": "documentary-restraint"
+      },
+      "subcategory": "value-35mm-environmental-lens",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lens-focal-base-35mm-environmental-lens-formal-precision",
+      "semantic_key": "cinematography-lens-focal-base-35mm-environmental-lens-formal-precision",
+      "text": "35mm environmental lens used with formal precision",
+      "sentence": "35mm environmental lens used with formal precision.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "35mm environmental lens used with formal precision",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing 35mm environmental lens used with formal precision",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with 35mm environmental lens used with formal precision",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-lens-focal-base-35mm-environmental-lens",
+      "tags": [
+        "base",
+        "cinematography",
+        "lens-focal",
+        "rarity-common"
+      ],
+      "facets": {
+        "focal-family": "value-35mm-environmental-lens",
+        "treatment": "formal-precision"
+      },
+      "subcategory": "value-35mm-environmental-lens",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lens-focal-base-35mm-environmental-lens-intimate-emphasis",
+      "semantic_key": "cinematography-lens-focal-base-35mm-environmental-lens-intimate-emphasis",
+      "text": "35mm environmental lens used with intimate emphasis",
+      "sentence": "35mm environmental lens used with intimate emphasis.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "35mm environmental lens used with intimate emphasis",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing 35mm environmental lens used with intimate emphasis",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with 35mm environmental lens used with intimate emphasis",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-lens-focal-base-35mm-environmental-lens",
+      "tags": [
+        "base",
+        "cinematography",
+        "lens-focal",
+        "rarity-common"
+      ],
+      "facets": {
+        "focal-family": "value-35mm-environmental-lens",
+        "treatment": "intimate-emphasis"
+      },
+      "subcategory": "value-35mm-environmental-lens",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lens-focal-base-35mm-environmental-lens-spatial-context",
+      "semantic_key": "cinematography-lens-focal-base-35mm-environmental-lens-spatial-context",
+      "text": "35mm environmental lens used with spatial context",
+      "sentence": "35mm environmental lens used with spatial context.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "35mm environmental lens used with spatial context",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing 35mm environmental lens used with spatial context",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with 35mm environmental lens used with spatial context",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-lens-focal-base-35mm-environmental-lens",
+      "tags": [
+        "base",
+        "cinematography",
+        "lens-focal",
+        "rarity-common"
+      ],
+      "facets": {
+        "focal-family": "value-35mm-environmental-lens",
+        "treatment": "spatial-context"
+      },
+      "subcategory": "value-35mm-environmental-lens",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lens-focal-base-35mm-environmental-lens-graphic-geometry",
+      "semantic_key": "cinematography-lens-focal-base-35mm-environmental-lens-graphic-geometry",
+      "text": "35mm environmental lens used with graphic geometry",
+      "sentence": "35mm environmental lens used with graphic geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "35mm environmental lens used with graphic geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing 35mm environmental lens used with graphic geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with 35mm environmental lens used with graphic geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-lens-focal-base-35mm-environmental-lens",
+      "tags": [
+        "base",
+        "cinematography",
+        "lens-focal",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "focal-family": "value-35mm-environmental-lens",
+        "treatment": "graphic-geometry"
+      },
+      "subcategory": "value-35mm-environmental-lens",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lens-focal-base-35mm-environmental-lens-dynamic-energy",
+      "semantic_key": "cinematography-lens-focal-base-35mm-environmental-lens-dynamic-energy",
+      "text": "35mm environmental lens used with dynamic energy",
+      "sentence": "35mm environmental lens used with dynamic energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "35mm environmental lens used with dynamic energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing 35mm environmental lens used with dynamic energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with 35mm environmental lens used with dynamic energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-lens-focal-base-35mm-environmental-lens",
+      "tags": [
+        "base",
+        "cinematography",
+        "lens-focal",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "focal-family": "value-35mm-environmental-lens",
+        "treatment": "dynamic-energy"
+      },
+      "subcategory": "value-35mm-environmental-lens",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lens-focal-base-35mm-environmental-lens-quiet-observation",
+      "semantic_key": "cinematography-lens-focal-base-35mm-environmental-lens-quiet-observation",
+      "text": "35mm environmental lens used with quiet observation",
+      "sentence": "35mm environmental lens used with quiet observation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "35mm environmental lens used with quiet observation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing 35mm environmental lens used with quiet observation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with 35mm environmental lens used with quiet observation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-lens-focal-base-35mm-environmental-lens",
+      "tags": [
+        "base",
+        "cinematography",
+        "lens-focal",
+        "rarity-rare"
+      ],
+      "facets": {
+        "focal-family": "value-35mm-environmental-lens",
+        "treatment": "quiet-observation"
+      },
+      "subcategory": "value-35mm-environmental-lens",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lens-focal-base-35mm-environmental-lens-editorial-polish",
+      "semantic_key": "cinematography-lens-focal-base-35mm-environmental-lens-editorial-polish",
+      "text": "35mm environmental lens used with editorial polish",
+      "sentence": "35mm environmental lens used with editorial polish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "35mm environmental lens used with editorial polish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing 35mm environmental lens used with editorial polish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with 35mm environmental lens used with editorial polish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-lens-focal-base-35mm-environmental-lens",
+      "tags": [
+        "base",
+        "cinematography",
+        "lens-focal",
+        "rarity-rare"
+      ],
+      "facets": {
+        "focal-family": "value-35mm-environmental-lens",
+        "treatment": "editorial-polish"
+      },
+      "subcategory": "value-35mm-environmental-lens",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lens-focal-base-40mm-natural-wide-lens-documentary-restraint",
+      "semantic_key": "cinematography-lens-focal-base-40mm-natural-wide-lens-documentary-restraint",
+      "text": "40mm natural-wide lens used with documentary restraint",
+      "sentence": "40mm natural-wide lens used with documentary restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "40mm natural-wide lens used with documentary restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing 40mm natural-wide lens used with documentary restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with 40mm natural-wide lens used with documentary restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-lens-focal-base-40mm-natural-wide-lens",
+      "tags": [
+        "base",
+        "cinematography",
+        "lens-focal",
+        "rarity-common"
+      ],
+      "facets": {
+        "focal-family": "value-40mm-natural-wide-lens",
+        "treatment": "documentary-restraint"
+      },
+      "subcategory": "value-40mm-natural-wide-lens",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lens-focal-base-40mm-natural-wide-lens-formal-precision",
+      "semantic_key": "cinematography-lens-focal-base-40mm-natural-wide-lens-formal-precision",
+      "text": "40mm natural-wide lens used with formal precision",
+      "sentence": "40mm natural-wide lens used with formal precision.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "40mm natural-wide lens used with formal precision",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing 40mm natural-wide lens used with formal precision",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with 40mm natural-wide lens used with formal precision",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-lens-focal-base-40mm-natural-wide-lens",
+      "tags": [
+        "base",
+        "cinematography",
+        "lens-focal",
+        "rarity-common"
+      ],
+      "facets": {
+        "focal-family": "value-40mm-natural-wide-lens",
+        "treatment": "formal-precision"
+      },
+      "subcategory": "value-40mm-natural-wide-lens",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lens-focal-base-40mm-natural-wide-lens-intimate-emphasis",
+      "semantic_key": "cinematography-lens-focal-base-40mm-natural-wide-lens-intimate-emphasis",
+      "text": "40mm natural-wide lens used with intimate emphasis",
+      "sentence": "40mm natural-wide lens used with intimate emphasis.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "40mm natural-wide lens used with intimate emphasis",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing 40mm natural-wide lens used with intimate emphasis",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with 40mm natural-wide lens used with intimate emphasis",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-lens-focal-base-40mm-natural-wide-lens",
+      "tags": [
+        "base",
+        "cinematography",
+        "lens-focal",
+        "rarity-common"
+      ],
+      "facets": {
+        "focal-family": "value-40mm-natural-wide-lens",
+        "treatment": "intimate-emphasis"
+      },
+      "subcategory": "value-40mm-natural-wide-lens",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lens-focal-base-40mm-natural-wide-lens-spatial-context",
+      "semantic_key": "cinematography-lens-focal-base-40mm-natural-wide-lens-spatial-context",
+      "text": "40mm natural-wide lens used with spatial context",
+      "sentence": "40mm natural-wide lens used with spatial context.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "40mm natural-wide lens used with spatial context",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing 40mm natural-wide lens used with spatial context",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with 40mm natural-wide lens used with spatial context",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-lens-focal-base-40mm-natural-wide-lens",
+      "tags": [
+        "base",
+        "cinematography",
+        "lens-focal",
+        "rarity-common"
+      ],
+      "facets": {
+        "focal-family": "value-40mm-natural-wide-lens",
+        "treatment": "spatial-context"
+      },
+      "subcategory": "value-40mm-natural-wide-lens",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lens-focal-base-40mm-natural-wide-lens-graphic-geometry",
+      "semantic_key": "cinematography-lens-focal-base-40mm-natural-wide-lens-graphic-geometry",
+      "text": "40mm natural-wide lens used with graphic geometry",
+      "sentence": "40mm natural-wide lens used with graphic geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "40mm natural-wide lens used with graphic geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing 40mm natural-wide lens used with graphic geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with 40mm natural-wide lens used with graphic geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-lens-focal-base-40mm-natural-wide-lens",
+      "tags": [
+        "base",
+        "cinematography",
+        "lens-focal",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "focal-family": "value-40mm-natural-wide-lens",
+        "treatment": "graphic-geometry"
+      },
+      "subcategory": "value-40mm-natural-wide-lens",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lens-focal-base-40mm-natural-wide-lens-dynamic-energy",
+      "semantic_key": "cinematography-lens-focal-base-40mm-natural-wide-lens-dynamic-energy",
+      "text": "40mm natural-wide lens used with dynamic energy",
+      "sentence": "40mm natural-wide lens used with dynamic energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "40mm natural-wide lens used with dynamic energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing 40mm natural-wide lens used with dynamic energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with 40mm natural-wide lens used with dynamic energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-lens-focal-base-40mm-natural-wide-lens",
+      "tags": [
+        "base",
+        "cinematography",
+        "lens-focal",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "focal-family": "value-40mm-natural-wide-lens",
+        "treatment": "dynamic-energy"
+      },
+      "subcategory": "value-40mm-natural-wide-lens",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lens-focal-base-40mm-natural-wide-lens-quiet-observation",
+      "semantic_key": "cinematography-lens-focal-base-40mm-natural-wide-lens-quiet-observation",
+      "text": "40mm natural-wide lens used with quiet observation",
+      "sentence": "40mm natural-wide lens used with quiet observation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "40mm natural-wide lens used with quiet observation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing 40mm natural-wide lens used with quiet observation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with 40mm natural-wide lens used with quiet observation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-lens-focal-base-40mm-natural-wide-lens",
+      "tags": [
+        "base",
+        "cinematography",
+        "lens-focal",
+        "rarity-rare"
+      ],
+      "facets": {
+        "focal-family": "value-40mm-natural-wide-lens",
+        "treatment": "quiet-observation"
+      },
+      "subcategory": "value-40mm-natural-wide-lens",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lens-focal-base-40mm-natural-wide-lens-editorial-polish",
+      "semantic_key": "cinematography-lens-focal-base-40mm-natural-wide-lens-editorial-polish",
+      "text": "40mm natural-wide lens used with editorial polish",
+      "sentence": "40mm natural-wide lens used with editorial polish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "40mm natural-wide lens used with editorial polish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing 40mm natural-wide lens used with editorial polish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with 40mm natural-wide lens used with editorial polish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-lens-focal-base-40mm-natural-wide-lens",
+      "tags": [
+        "base",
+        "cinematography",
+        "lens-focal",
+        "rarity-rare"
+      ],
+      "facets": {
+        "focal-family": "value-40mm-natural-wide-lens",
+        "treatment": "editorial-polish"
+      },
+      "subcategory": "value-40mm-natural-wide-lens",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lens-focal-base-50mm-normal-lens-documentary-restraint",
+      "semantic_key": "cinematography-lens-focal-base-50mm-normal-lens-documentary-restraint",
+      "text": "50mm normal lens used with documentary restraint",
+      "sentence": "50mm normal lens used with documentary restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "50mm normal lens used with documentary restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing 50mm normal lens used with documentary restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with 50mm normal lens used with documentary restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-lens-focal-base-50mm-normal-lens",
+      "tags": [
+        "base",
+        "cinematography",
+        "lens-focal",
+        "rarity-common"
+      ],
+      "facets": {
+        "focal-family": "value-50mm-normal-lens",
+        "treatment": "documentary-restraint"
+      },
+      "subcategory": "value-50mm-normal-lens",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lens-focal-base-50mm-normal-lens-formal-precision",
+      "semantic_key": "cinematography-lens-focal-base-50mm-normal-lens-formal-precision",
+      "text": "50mm normal lens used with formal precision",
+      "sentence": "50mm normal lens used with formal precision.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "50mm normal lens used with formal precision",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing 50mm normal lens used with formal precision",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with 50mm normal lens used with formal precision",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-lens-focal-base-50mm-normal-lens",
+      "tags": [
+        "base",
+        "cinematography",
+        "lens-focal",
+        "rarity-common"
+      ],
+      "facets": {
+        "focal-family": "value-50mm-normal-lens",
+        "treatment": "formal-precision"
+      },
+      "subcategory": "value-50mm-normal-lens",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lens-focal-base-50mm-normal-lens-intimate-emphasis",
+      "semantic_key": "cinematography-lens-focal-base-50mm-normal-lens-intimate-emphasis",
+      "text": "50mm normal lens used with intimate emphasis",
+      "sentence": "50mm normal lens used with intimate emphasis.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "50mm normal lens used with intimate emphasis",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing 50mm normal lens used with intimate emphasis",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with 50mm normal lens used with intimate emphasis",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-lens-focal-base-50mm-normal-lens",
+      "tags": [
+        "base",
+        "cinematography",
+        "lens-focal",
+        "rarity-common"
+      ],
+      "facets": {
+        "focal-family": "value-50mm-normal-lens",
+        "treatment": "intimate-emphasis"
+      },
+      "subcategory": "value-50mm-normal-lens",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lens-focal-base-50mm-normal-lens-spatial-context",
+      "semantic_key": "cinematography-lens-focal-base-50mm-normal-lens-spatial-context",
+      "text": "50mm normal lens used with spatial context",
+      "sentence": "50mm normal lens used with spatial context.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "50mm normal lens used with spatial context",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing 50mm normal lens used with spatial context",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with 50mm normal lens used with spatial context",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-lens-focal-base-50mm-normal-lens",
+      "tags": [
+        "base",
+        "cinematography",
+        "lens-focal",
+        "rarity-common"
+      ],
+      "facets": {
+        "focal-family": "value-50mm-normal-lens",
+        "treatment": "spatial-context"
+      },
+      "subcategory": "value-50mm-normal-lens",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lens-focal-base-50mm-normal-lens-graphic-geometry",
+      "semantic_key": "cinematography-lens-focal-base-50mm-normal-lens-graphic-geometry",
+      "text": "50mm normal lens used with graphic geometry",
+      "sentence": "50mm normal lens used with graphic geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "50mm normal lens used with graphic geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing 50mm normal lens used with graphic geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with 50mm normal lens used with graphic geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-lens-focal-base-50mm-normal-lens",
+      "tags": [
+        "base",
+        "cinematography",
+        "lens-focal",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "focal-family": "value-50mm-normal-lens",
+        "treatment": "graphic-geometry"
+      },
+      "subcategory": "value-50mm-normal-lens",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lens-focal-base-50mm-normal-lens-dynamic-energy",
+      "semantic_key": "cinematography-lens-focal-base-50mm-normal-lens-dynamic-energy",
+      "text": "50mm normal lens used with dynamic energy",
+      "sentence": "50mm normal lens used with dynamic energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "50mm normal lens used with dynamic energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing 50mm normal lens used with dynamic energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with 50mm normal lens used with dynamic energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-lens-focal-base-50mm-normal-lens",
+      "tags": [
+        "base",
+        "cinematography",
+        "lens-focal",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "focal-family": "value-50mm-normal-lens",
+        "treatment": "dynamic-energy"
+      },
+      "subcategory": "value-50mm-normal-lens",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lens-focal-base-50mm-normal-lens-quiet-observation",
+      "semantic_key": "cinematography-lens-focal-base-50mm-normal-lens-quiet-observation",
+      "text": "50mm normal lens used with quiet observation",
+      "sentence": "50mm normal lens used with quiet observation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "50mm normal lens used with quiet observation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing 50mm normal lens used with quiet observation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with 50mm normal lens used with quiet observation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-lens-focal-base-50mm-normal-lens",
+      "tags": [
+        "base",
+        "cinematography",
+        "lens-focal",
+        "rarity-rare"
+      ],
+      "facets": {
+        "focal-family": "value-50mm-normal-lens",
+        "treatment": "quiet-observation"
+      },
+      "subcategory": "value-50mm-normal-lens",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lens-focal-base-50mm-normal-lens-editorial-polish",
+      "semantic_key": "cinematography-lens-focal-base-50mm-normal-lens-editorial-polish",
+      "text": "50mm normal lens used with editorial polish",
+      "sentence": "50mm normal lens used with editorial polish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "50mm normal lens used with editorial polish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing 50mm normal lens used with editorial polish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with 50mm normal lens used with editorial polish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-lens-focal-base-50mm-normal-lens",
+      "tags": [
+        "base",
+        "cinematography",
+        "lens-focal",
+        "rarity-rare"
+      ],
+      "facets": {
+        "focal-family": "value-50mm-normal-lens",
+        "treatment": "editorial-polish"
+      },
+      "subcategory": "value-50mm-normal-lens",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lens-focal-base-65mm-short-portrait-lens-documentary-restraint",
+      "semantic_key": "cinematography-lens-focal-base-65mm-short-portrait-lens-documentary-restraint",
+      "text": "65mm short portrait lens used with documentary restraint",
+      "sentence": "65mm short portrait lens used with documentary restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "65mm short portrait lens used with documentary restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing 65mm short portrait lens used with documentary restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with 65mm short portrait lens used with documentary restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-lens-focal-base-65mm-short-portrait-lens",
+      "tags": [
+        "base",
+        "cinematography",
+        "lens-focal",
+        "rarity-common"
+      ],
+      "facets": {
+        "focal-family": "value-65mm-short-portrait-lens",
+        "treatment": "documentary-restraint"
+      },
+      "subcategory": "value-65mm-short-portrait-lens",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lens-focal-base-65mm-short-portrait-lens-formal-precision",
+      "semantic_key": "cinematography-lens-focal-base-65mm-short-portrait-lens-formal-precision",
+      "text": "65mm short portrait lens used with formal precision",
+      "sentence": "65mm short portrait lens used with formal precision.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "65mm short portrait lens used with formal precision",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing 65mm short portrait lens used with formal precision",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with 65mm short portrait lens used with formal precision",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-lens-focal-base-65mm-short-portrait-lens",
+      "tags": [
+        "base",
+        "cinematography",
+        "lens-focal",
+        "rarity-common"
+      ],
+      "facets": {
+        "focal-family": "value-65mm-short-portrait-lens",
+        "treatment": "formal-precision"
+      },
+      "subcategory": "value-65mm-short-portrait-lens",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lens-focal-base-65mm-short-portrait-lens-intimate-emphasis",
+      "semantic_key": "cinematography-lens-focal-base-65mm-short-portrait-lens-intimate-emphasis",
+      "text": "65mm short portrait lens used with intimate emphasis",
+      "sentence": "65mm short portrait lens used with intimate emphasis.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "65mm short portrait lens used with intimate emphasis",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing 65mm short portrait lens used with intimate emphasis",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with 65mm short portrait lens used with intimate emphasis",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-lens-focal-base-65mm-short-portrait-lens",
+      "tags": [
+        "base",
+        "cinematography",
+        "lens-focal",
+        "rarity-common"
+      ],
+      "facets": {
+        "focal-family": "value-65mm-short-portrait-lens",
+        "treatment": "intimate-emphasis"
+      },
+      "subcategory": "value-65mm-short-portrait-lens",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lens-focal-base-65mm-short-portrait-lens-spatial-context",
+      "semantic_key": "cinematography-lens-focal-base-65mm-short-portrait-lens-spatial-context",
+      "text": "65mm short portrait lens used with spatial context",
+      "sentence": "65mm short portrait lens used with spatial context.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "65mm short portrait lens used with spatial context",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing 65mm short portrait lens used with spatial context",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with 65mm short portrait lens used with spatial context",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-lens-focal-base-65mm-short-portrait-lens",
+      "tags": [
+        "base",
+        "cinematography",
+        "lens-focal",
+        "rarity-common"
+      ],
+      "facets": {
+        "focal-family": "value-65mm-short-portrait-lens",
+        "treatment": "spatial-context"
+      },
+      "subcategory": "value-65mm-short-portrait-lens",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lens-focal-base-65mm-short-portrait-lens-graphic-geometry",
+      "semantic_key": "cinematography-lens-focal-base-65mm-short-portrait-lens-graphic-geometry",
+      "text": "65mm short portrait lens used with graphic geometry",
+      "sentence": "65mm short portrait lens used with graphic geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "65mm short portrait lens used with graphic geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing 65mm short portrait lens used with graphic geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with 65mm short portrait lens used with graphic geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-lens-focal-base-65mm-short-portrait-lens",
+      "tags": [
+        "base",
+        "cinematography",
+        "lens-focal",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "focal-family": "value-65mm-short-portrait-lens",
+        "treatment": "graphic-geometry"
+      },
+      "subcategory": "value-65mm-short-portrait-lens",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lens-focal-base-65mm-short-portrait-lens-dynamic-energy",
+      "semantic_key": "cinematography-lens-focal-base-65mm-short-portrait-lens-dynamic-energy",
+      "text": "65mm short portrait lens used with dynamic energy",
+      "sentence": "65mm short portrait lens used with dynamic energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "65mm short portrait lens used with dynamic energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing 65mm short portrait lens used with dynamic energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with 65mm short portrait lens used with dynamic energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-lens-focal-base-65mm-short-portrait-lens",
+      "tags": [
+        "base",
+        "cinematography",
+        "lens-focal",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "focal-family": "value-65mm-short-portrait-lens",
+        "treatment": "dynamic-energy"
+      },
+      "subcategory": "value-65mm-short-portrait-lens",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lens-focal-base-65mm-short-portrait-lens-quiet-observation",
+      "semantic_key": "cinematography-lens-focal-base-65mm-short-portrait-lens-quiet-observation",
+      "text": "65mm short portrait lens used with quiet observation",
+      "sentence": "65mm short portrait lens used with quiet observation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "65mm short portrait lens used with quiet observation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing 65mm short portrait lens used with quiet observation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with 65mm short portrait lens used with quiet observation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-lens-focal-base-65mm-short-portrait-lens",
+      "tags": [
+        "base",
+        "cinematography",
+        "lens-focal",
+        "rarity-rare"
+      ],
+      "facets": {
+        "focal-family": "value-65mm-short-portrait-lens",
+        "treatment": "quiet-observation"
+      },
+      "subcategory": "value-65mm-short-portrait-lens",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lens-focal-base-65mm-short-portrait-lens-editorial-polish",
+      "semantic_key": "cinematography-lens-focal-base-65mm-short-portrait-lens-editorial-polish",
+      "text": "65mm short portrait lens used with editorial polish",
+      "sentence": "65mm short portrait lens used with editorial polish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "65mm short portrait lens used with editorial polish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing 65mm short portrait lens used with editorial polish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with 65mm short portrait lens used with editorial polish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-lens-focal-base-65mm-short-portrait-lens",
+      "tags": [
+        "base",
+        "cinematography",
+        "lens-focal",
+        "rarity-rare"
+      ],
+      "facets": {
+        "focal-family": "value-65mm-short-portrait-lens",
+        "treatment": "editorial-polish"
+      },
+      "subcategory": "value-65mm-short-portrait-lens",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lens-focal-base-85mm-portrait-lens-documentary-restraint",
+      "semantic_key": "cinematography-lens-focal-base-85mm-portrait-lens-documentary-restraint",
+      "text": "85mm portrait lens used with documentary restraint",
+      "sentence": "85mm portrait lens used with documentary restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "85mm portrait lens used with documentary restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing 85mm portrait lens used with documentary restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with 85mm portrait lens used with documentary restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-lens-focal-base-85mm-portrait-lens",
+      "tags": [
+        "base",
+        "cinematography",
+        "lens-focal",
+        "rarity-common"
+      ],
+      "facets": {
+        "focal-family": "value-85mm-portrait-lens",
+        "treatment": "documentary-restraint"
+      },
+      "subcategory": "value-85mm-portrait-lens",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lens-focal-base-85mm-portrait-lens-formal-precision",
+      "semantic_key": "cinematography-lens-focal-base-85mm-portrait-lens-formal-precision",
+      "text": "85mm portrait lens used with formal precision",
+      "sentence": "85mm portrait lens used with formal precision.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "85mm portrait lens used with formal precision",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing 85mm portrait lens used with formal precision",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with 85mm portrait lens used with formal precision",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-lens-focal-base-85mm-portrait-lens",
+      "tags": [
+        "base",
+        "cinematography",
+        "lens-focal",
+        "rarity-common"
+      ],
+      "facets": {
+        "focal-family": "value-85mm-portrait-lens",
+        "treatment": "formal-precision"
+      },
+      "subcategory": "value-85mm-portrait-lens",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lens-focal-base-85mm-portrait-lens-intimate-emphasis",
+      "semantic_key": "cinematography-lens-focal-base-85mm-portrait-lens-intimate-emphasis",
+      "text": "85mm portrait lens used with intimate emphasis",
+      "sentence": "85mm portrait lens used with intimate emphasis.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "85mm portrait lens used with intimate emphasis",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing 85mm portrait lens used with intimate emphasis",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with 85mm portrait lens used with intimate emphasis",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-lens-focal-base-85mm-portrait-lens",
+      "tags": [
+        "base",
+        "cinematography",
+        "lens-focal",
+        "rarity-common"
+      ],
+      "facets": {
+        "focal-family": "value-85mm-portrait-lens",
+        "treatment": "intimate-emphasis"
+      },
+      "subcategory": "value-85mm-portrait-lens",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lens-focal-base-85mm-portrait-lens-spatial-context",
+      "semantic_key": "cinematography-lens-focal-base-85mm-portrait-lens-spatial-context",
+      "text": "85mm portrait lens used with spatial context",
+      "sentence": "85mm portrait lens used with spatial context.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "85mm portrait lens used with spatial context",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing 85mm portrait lens used with spatial context",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with 85mm portrait lens used with spatial context",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-lens-focal-base-85mm-portrait-lens",
+      "tags": [
+        "base",
+        "cinematography",
+        "lens-focal",
+        "rarity-common"
+      ],
+      "facets": {
+        "focal-family": "value-85mm-portrait-lens",
+        "treatment": "spatial-context"
+      },
+      "subcategory": "value-85mm-portrait-lens",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lens-focal-base-85mm-portrait-lens-graphic-geometry",
+      "semantic_key": "cinematography-lens-focal-base-85mm-portrait-lens-graphic-geometry",
+      "text": "85mm portrait lens used with graphic geometry",
+      "sentence": "85mm portrait lens used with graphic geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "85mm portrait lens used with graphic geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing 85mm portrait lens used with graphic geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with 85mm portrait lens used with graphic geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-lens-focal-base-85mm-portrait-lens",
+      "tags": [
+        "base",
+        "cinematography",
+        "lens-focal",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "focal-family": "value-85mm-portrait-lens",
+        "treatment": "graphic-geometry"
+      },
+      "subcategory": "value-85mm-portrait-lens",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lens-focal-base-85mm-portrait-lens-dynamic-energy",
+      "semantic_key": "cinematography-lens-focal-base-85mm-portrait-lens-dynamic-energy",
+      "text": "85mm portrait lens used with dynamic energy",
+      "sentence": "85mm portrait lens used with dynamic energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "85mm portrait lens used with dynamic energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing 85mm portrait lens used with dynamic energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with 85mm portrait lens used with dynamic energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-lens-focal-base-85mm-portrait-lens",
+      "tags": [
+        "base",
+        "cinematography",
+        "lens-focal",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "focal-family": "value-85mm-portrait-lens",
+        "treatment": "dynamic-energy"
+      },
+      "subcategory": "value-85mm-portrait-lens",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lens-focal-base-85mm-portrait-lens-quiet-observation",
+      "semantic_key": "cinematography-lens-focal-base-85mm-portrait-lens-quiet-observation",
+      "text": "85mm portrait lens used with quiet observation",
+      "sentence": "85mm portrait lens used with quiet observation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "85mm portrait lens used with quiet observation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing 85mm portrait lens used with quiet observation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with 85mm portrait lens used with quiet observation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-lens-focal-base-85mm-portrait-lens",
+      "tags": [
+        "base",
+        "cinematography",
+        "lens-focal",
+        "rarity-rare"
+      ],
+      "facets": {
+        "focal-family": "value-85mm-portrait-lens",
+        "treatment": "quiet-observation"
+      },
+      "subcategory": "value-85mm-portrait-lens",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lens-focal-base-85mm-portrait-lens-editorial-polish",
+      "semantic_key": "cinematography-lens-focal-base-85mm-portrait-lens-editorial-polish",
+      "text": "85mm portrait lens used with editorial polish",
+      "sentence": "85mm portrait lens used with editorial polish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "85mm portrait lens used with editorial polish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing 85mm portrait lens used with editorial polish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with 85mm portrait lens used with editorial polish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-lens-focal-base-85mm-portrait-lens",
+      "tags": [
+        "base",
+        "cinematography",
+        "lens-focal",
+        "rarity-rare"
+      ],
+      "facets": {
+        "focal-family": "value-85mm-portrait-lens",
+        "treatment": "editorial-polish"
+      },
+      "subcategory": "value-85mm-portrait-lens",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lens-focal-base-105mm-portrait-lens-documentary-restraint",
+      "semantic_key": "cinematography-lens-focal-base-105mm-portrait-lens-documentary-restraint",
+      "text": "105mm portrait lens used with documentary restraint",
+      "sentence": "105mm portrait lens used with documentary restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "105mm portrait lens used with documentary restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing 105mm portrait lens used with documentary restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with 105mm portrait lens used with documentary restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-lens-focal-base-105mm-portrait-lens",
+      "tags": [
+        "base",
+        "cinematography",
+        "lens-focal",
+        "rarity-common"
+      ],
+      "facets": {
+        "focal-family": "value-105mm-portrait-lens",
+        "treatment": "documentary-restraint"
+      },
+      "subcategory": "value-105mm-portrait-lens",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lens-focal-base-105mm-portrait-lens-formal-precision",
+      "semantic_key": "cinematography-lens-focal-base-105mm-portrait-lens-formal-precision",
+      "text": "105mm portrait lens used with formal precision",
+      "sentence": "105mm portrait lens used with formal precision.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "105mm portrait lens used with formal precision",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing 105mm portrait lens used with formal precision",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with 105mm portrait lens used with formal precision",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-lens-focal-base-105mm-portrait-lens",
+      "tags": [
+        "base",
+        "cinematography",
+        "lens-focal",
+        "rarity-common"
+      ],
+      "facets": {
+        "focal-family": "value-105mm-portrait-lens",
+        "treatment": "formal-precision"
+      },
+      "subcategory": "value-105mm-portrait-lens",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lens-focal-base-105mm-portrait-lens-intimate-emphasis",
+      "semantic_key": "cinematography-lens-focal-base-105mm-portrait-lens-intimate-emphasis",
+      "text": "105mm portrait lens used with intimate emphasis",
+      "sentence": "105mm portrait lens used with intimate emphasis.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "105mm portrait lens used with intimate emphasis",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing 105mm portrait lens used with intimate emphasis",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with 105mm portrait lens used with intimate emphasis",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-lens-focal-base-105mm-portrait-lens",
+      "tags": [
+        "base",
+        "cinematography",
+        "lens-focal",
+        "rarity-common"
+      ],
+      "facets": {
+        "focal-family": "value-105mm-portrait-lens",
+        "treatment": "intimate-emphasis"
+      },
+      "subcategory": "value-105mm-portrait-lens",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lens-focal-base-105mm-portrait-lens-spatial-context",
+      "semantic_key": "cinematography-lens-focal-base-105mm-portrait-lens-spatial-context",
+      "text": "105mm portrait lens used with spatial context",
+      "sentence": "105mm portrait lens used with spatial context.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "105mm portrait lens used with spatial context",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing 105mm portrait lens used with spatial context",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with 105mm portrait lens used with spatial context",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-lens-focal-base-105mm-portrait-lens",
+      "tags": [
+        "base",
+        "cinematography",
+        "lens-focal",
+        "rarity-common"
+      ],
+      "facets": {
+        "focal-family": "value-105mm-portrait-lens",
+        "treatment": "spatial-context"
+      },
+      "subcategory": "value-105mm-portrait-lens",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lens-focal-base-105mm-portrait-lens-graphic-geometry",
+      "semantic_key": "cinematography-lens-focal-base-105mm-portrait-lens-graphic-geometry",
+      "text": "105mm portrait lens used with graphic geometry",
+      "sentence": "105mm portrait lens used with graphic geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "105mm portrait lens used with graphic geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing 105mm portrait lens used with graphic geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with 105mm portrait lens used with graphic geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-lens-focal-base-105mm-portrait-lens",
+      "tags": [
+        "base",
+        "cinematography",
+        "lens-focal",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "focal-family": "value-105mm-portrait-lens",
+        "treatment": "graphic-geometry"
+      },
+      "subcategory": "value-105mm-portrait-lens",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lens-focal-base-105mm-portrait-lens-dynamic-energy",
+      "semantic_key": "cinematography-lens-focal-base-105mm-portrait-lens-dynamic-energy",
+      "text": "105mm portrait lens used with dynamic energy",
+      "sentence": "105mm portrait lens used with dynamic energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "105mm portrait lens used with dynamic energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing 105mm portrait lens used with dynamic energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with 105mm portrait lens used with dynamic energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-lens-focal-base-105mm-portrait-lens",
+      "tags": [
+        "base",
+        "cinematography",
+        "lens-focal",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "focal-family": "value-105mm-portrait-lens",
+        "treatment": "dynamic-energy"
+      },
+      "subcategory": "value-105mm-portrait-lens",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lens-focal-base-105mm-portrait-lens-quiet-observation",
+      "semantic_key": "cinematography-lens-focal-base-105mm-portrait-lens-quiet-observation",
+      "text": "105mm portrait lens used with quiet observation",
+      "sentence": "105mm portrait lens used with quiet observation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "105mm portrait lens used with quiet observation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing 105mm portrait lens used with quiet observation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with 105mm portrait lens used with quiet observation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-lens-focal-base-105mm-portrait-lens",
+      "tags": [
+        "base",
+        "cinematography",
+        "lens-focal",
+        "rarity-rare"
+      ],
+      "facets": {
+        "focal-family": "value-105mm-portrait-lens",
+        "treatment": "quiet-observation"
+      },
+      "subcategory": "value-105mm-portrait-lens",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lens-focal-base-105mm-portrait-lens-editorial-polish",
+      "semantic_key": "cinematography-lens-focal-base-105mm-portrait-lens-editorial-polish",
+      "text": "105mm portrait lens used with editorial polish",
+      "sentence": "105mm portrait lens used with editorial polish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "105mm portrait lens used with editorial polish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing 105mm portrait lens used with editorial polish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with 105mm portrait lens used with editorial polish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-lens-focal-base-105mm-portrait-lens",
+      "tags": [
+        "base",
+        "cinematography",
+        "lens-focal",
+        "rarity-rare"
+      ],
+      "facets": {
+        "focal-family": "value-105mm-portrait-lens",
+        "treatment": "editorial-polish"
+      },
+      "subcategory": "value-105mm-portrait-lens",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lens-focal-base-135mm-compressed-lens-documentary-restraint",
+      "semantic_key": "cinematography-lens-focal-base-135mm-compressed-lens-documentary-restraint",
+      "text": "135mm compressed lens used with documentary restraint",
+      "sentence": "135mm compressed lens used with documentary restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "135mm compressed lens used with documentary restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing 135mm compressed lens used with documentary restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with 135mm compressed lens used with documentary restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-lens-focal-base-135mm-compressed-lens",
+      "tags": [
+        "base",
+        "cinematography",
+        "lens-focal",
+        "rarity-common"
+      ],
+      "facets": {
+        "focal-family": "value-135mm-compressed-lens",
+        "treatment": "documentary-restraint"
+      },
+      "subcategory": "value-135mm-compressed-lens",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lens-focal-base-135mm-compressed-lens-formal-precision",
+      "semantic_key": "cinematography-lens-focal-base-135mm-compressed-lens-formal-precision",
+      "text": "135mm compressed lens used with formal precision",
+      "sentence": "135mm compressed lens used with formal precision.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "135mm compressed lens used with formal precision",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing 135mm compressed lens used with formal precision",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with 135mm compressed lens used with formal precision",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-lens-focal-base-135mm-compressed-lens",
+      "tags": [
+        "base",
+        "cinematography",
+        "lens-focal",
+        "rarity-common"
+      ],
+      "facets": {
+        "focal-family": "value-135mm-compressed-lens",
+        "treatment": "formal-precision"
+      },
+      "subcategory": "value-135mm-compressed-lens",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lens-focal-base-135mm-compressed-lens-intimate-emphasis",
+      "semantic_key": "cinematography-lens-focal-base-135mm-compressed-lens-intimate-emphasis",
+      "text": "135mm compressed lens used with intimate emphasis",
+      "sentence": "135mm compressed lens used with intimate emphasis.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "135mm compressed lens used with intimate emphasis",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing 135mm compressed lens used with intimate emphasis",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with 135mm compressed lens used with intimate emphasis",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-lens-focal-base-135mm-compressed-lens",
+      "tags": [
+        "base",
+        "cinematography",
+        "lens-focal",
+        "rarity-common"
+      ],
+      "facets": {
+        "focal-family": "value-135mm-compressed-lens",
+        "treatment": "intimate-emphasis"
+      },
+      "subcategory": "value-135mm-compressed-lens",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lens-focal-base-135mm-compressed-lens-spatial-context",
+      "semantic_key": "cinematography-lens-focal-base-135mm-compressed-lens-spatial-context",
+      "text": "135mm compressed lens used with spatial context",
+      "sentence": "135mm compressed lens used with spatial context.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "135mm compressed lens used with spatial context",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing 135mm compressed lens used with spatial context",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with 135mm compressed lens used with spatial context",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-lens-focal-base-135mm-compressed-lens",
+      "tags": [
+        "base",
+        "cinematography",
+        "lens-focal",
+        "rarity-common"
+      ],
+      "facets": {
+        "focal-family": "value-135mm-compressed-lens",
+        "treatment": "spatial-context"
+      },
+      "subcategory": "value-135mm-compressed-lens",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lens-focal-base-135mm-compressed-lens-graphic-geometry",
+      "semantic_key": "cinematography-lens-focal-base-135mm-compressed-lens-graphic-geometry",
+      "text": "135mm compressed lens used with graphic geometry",
+      "sentence": "135mm compressed lens used with graphic geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "135mm compressed lens used with graphic geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing 135mm compressed lens used with graphic geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with 135mm compressed lens used with graphic geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-lens-focal-base-135mm-compressed-lens",
+      "tags": [
+        "base",
+        "cinematography",
+        "lens-focal",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "focal-family": "value-135mm-compressed-lens",
+        "treatment": "graphic-geometry"
+      },
+      "subcategory": "value-135mm-compressed-lens",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lens-focal-base-135mm-compressed-lens-dynamic-energy",
+      "semantic_key": "cinematography-lens-focal-base-135mm-compressed-lens-dynamic-energy",
+      "text": "135mm compressed lens used with dynamic energy",
+      "sentence": "135mm compressed lens used with dynamic energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "135mm compressed lens used with dynamic energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing 135mm compressed lens used with dynamic energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with 135mm compressed lens used with dynamic energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-lens-focal-base-135mm-compressed-lens",
+      "tags": [
+        "base",
+        "cinematography",
+        "lens-focal",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "focal-family": "value-135mm-compressed-lens",
+        "treatment": "dynamic-energy"
+      },
+      "subcategory": "value-135mm-compressed-lens",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lens-focal-base-135mm-compressed-lens-quiet-observation",
+      "semantic_key": "cinematography-lens-focal-base-135mm-compressed-lens-quiet-observation",
+      "text": "135mm compressed lens used with quiet observation",
+      "sentence": "135mm compressed lens used with quiet observation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "135mm compressed lens used with quiet observation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing 135mm compressed lens used with quiet observation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with 135mm compressed lens used with quiet observation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-lens-focal-base-135mm-compressed-lens",
+      "tags": [
+        "base",
+        "cinematography",
+        "lens-focal",
+        "rarity-rare"
+      ],
+      "facets": {
+        "focal-family": "value-135mm-compressed-lens",
+        "treatment": "quiet-observation"
+      },
+      "subcategory": "value-135mm-compressed-lens",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-lens-focal-base-135mm-compressed-lens-editorial-polish",
+      "semantic_key": "cinematography-lens-focal-base-135mm-compressed-lens-editorial-polish",
+      "text": "135mm compressed lens used with editorial polish",
+      "sentence": "135mm compressed lens used with editorial polish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "135mm compressed lens used with editorial polish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing 135mm compressed lens used with editorial polish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with 135mm compressed lens used with editorial polish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-lens-focal-base-135mm-compressed-lens",
+      "tags": [
+        "base",
+        "cinematography",
+        "lens-focal",
+        "rarity-rare"
+      ],
+      "facets": {
+        "focal-family": "value-135mm-compressed-lens",
+        "treatment": "editorial-polish"
+      },
+      "subcategory": "value-135mm-compressed-lens",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    }
+  ]
+}

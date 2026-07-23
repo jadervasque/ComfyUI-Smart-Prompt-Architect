@@ -1,0 +1,2641 @@
+{
+  "schema_version": "2.0",
+  "id": "wardrobe-theme-fantasy",
+  "version": "2.0.0",
+  "library": "wardrobe-theme",
+  "domain": "wardrobe",
+  "category": "wardrobe-theme",
+  "language": "en",
+  "status": "active",
+  "safety": "general",
+  "tags": [
+    "fantasy"
+  ],
+  "fallback_option_id": "wardrobe-theme-fantasy-courtly-fantasy-precise-tailoring",
+  "options": [
+    {
+      "id": "wardrobe-theme-fantasy-courtly-fantasy-precise-tailoring",
+      "semantic_key": "wardrobe-theme-fantasy-courtly-fantasy-precise-tailoring",
+      "text": "courtly fantasy wardrobe with precise tailoring",
+      "sentence": "Courtly fantasy wardrobe with precise tailoring.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "courtly fantasy wardrobe with precise tailoring",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing courtly fantasy wardrobe with precise tailoring",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with courtly fantasy wardrobe with precise tailoring",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-theme-fantasy-courtly-fantasy",
+      "tags": [
+        "era-fantasy",
+        "fantasy",
+        "rarity-common",
+        "wardrobe",
+        "wardrobe-theme"
+      ],
+      "facets": {
+        "theme": "courtly-fantasy",
+        "treatment": "precise-tailoring"
+      },
+      "subcategory": "courtly-fantasy",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-theme-fantasy-courtly-fantasy-relaxed-drape",
+      "semantic_key": "wardrobe-theme-fantasy-courtly-fantasy-relaxed-drape",
+      "text": "courtly fantasy wardrobe with relaxed drape",
+      "sentence": "Courtly fantasy wardrobe with relaxed drape.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "courtly fantasy wardrobe with relaxed drape",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing courtly fantasy wardrobe with relaxed drape",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with courtly fantasy wardrobe with relaxed drape",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-theme-fantasy-courtly-fantasy",
+      "tags": [
+        "era-fantasy",
+        "fantasy",
+        "rarity-common",
+        "wardrobe",
+        "wardrobe-theme"
+      ],
+      "facets": {
+        "theme": "courtly-fantasy",
+        "treatment": "relaxed-drape"
+      },
+      "subcategory": "courtly-fantasy",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-theme-fantasy-courtly-fantasy-layered-construction",
+      "semantic_key": "wardrobe-theme-fantasy-courtly-fantasy-layered-construction",
+      "text": "courtly fantasy wardrobe with layered construction",
+      "sentence": "Courtly fantasy wardrobe with layered construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "courtly fantasy wardrobe with layered construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing courtly fantasy wardrobe with layered construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with courtly fantasy wardrobe with layered construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-theme-fantasy-courtly-fantasy",
+      "tags": [
+        "era-fantasy",
+        "fantasy",
+        "rarity-common",
+        "wardrobe",
+        "wardrobe-theme"
+      ],
+      "facets": {
+        "theme": "courtly-fantasy",
+        "treatment": "layered-construction"
+      },
+      "subcategory": "courtly-fantasy",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-theme-fantasy-courtly-fantasy-clean-seaming",
+      "semantic_key": "wardrobe-theme-fantasy-courtly-fantasy-clean-seaming",
+      "text": "courtly fantasy wardrobe with clean seaming",
+      "sentence": "Courtly fantasy wardrobe with clean seaming.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "courtly fantasy wardrobe with clean seaming",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing courtly fantasy wardrobe with clean seaming",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with courtly fantasy wardrobe with clean seaming",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-theme-fantasy-courtly-fantasy",
+      "tags": [
+        "era-fantasy",
+        "fantasy",
+        "rarity-common",
+        "wardrobe",
+        "wardrobe-theme"
+      ],
+      "facets": {
+        "theme": "courtly-fantasy",
+        "treatment": "clean-seaming"
+      },
+      "subcategory": "courtly-fantasy",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-theme-fantasy-courtly-fantasy-structured-volume",
+      "semantic_key": "wardrobe-theme-fantasy-courtly-fantasy-structured-volume",
+      "text": "courtly fantasy wardrobe with structured volume",
+      "sentence": "Courtly fantasy wardrobe with structured volume.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "courtly fantasy wardrobe with structured volume",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing courtly fantasy wardrobe with structured volume",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with courtly fantasy wardrobe with structured volume",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-theme-fantasy-courtly-fantasy",
+      "tags": [
+        "era-fantasy",
+        "fantasy",
+        "rarity-uncommon",
+        "wardrobe",
+        "wardrobe-theme"
+      ],
+      "facets": {
+        "theme": "courtly-fantasy",
+        "treatment": "structured-volume"
+      },
+      "subcategory": "courtly-fantasy",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-theme-fantasy-courtly-fantasy-fluid-movement",
+      "semantic_key": "wardrobe-theme-fantasy-courtly-fantasy-fluid-movement",
+      "text": "courtly fantasy wardrobe with fluid movement",
+      "sentence": "Courtly fantasy wardrobe with fluid movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "courtly fantasy wardrobe with fluid movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing courtly fantasy wardrobe with fluid movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with courtly fantasy wardrobe with fluid movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-theme-fantasy-courtly-fantasy",
+      "tags": [
+        "era-fantasy",
+        "fantasy",
+        "rarity-uncommon",
+        "wardrobe",
+        "wardrobe-theme"
+      ],
+      "facets": {
+        "theme": "courtly-fantasy",
+        "treatment": "fluid-movement"
+      },
+      "subcategory": "courtly-fantasy",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-theme-fantasy-courtly-fantasy-practical-detailing",
+      "semantic_key": "wardrobe-theme-fantasy-courtly-fantasy-practical-detailing",
+      "text": "courtly fantasy wardrobe with practical detailing",
+      "sentence": "Courtly fantasy wardrobe with practical detailing.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "courtly fantasy wardrobe with practical detailing",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing courtly fantasy wardrobe with practical detailing",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with courtly fantasy wardrobe with practical detailing",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-theme-fantasy-courtly-fantasy",
+      "tags": [
+        "era-fantasy",
+        "fantasy",
+        "rarity-rare",
+        "wardrobe",
+        "wardrobe-theme"
+      ],
+      "facets": {
+        "theme": "courtly-fantasy",
+        "treatment": "practical-detailing"
+      },
+      "subcategory": "courtly-fantasy",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-theme-fantasy-courtly-fantasy-minimal-construction",
+      "semantic_key": "wardrobe-theme-fantasy-courtly-fantasy-minimal-construction",
+      "text": "courtly fantasy wardrobe with minimal construction",
+      "sentence": "Courtly fantasy wardrobe with minimal construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "courtly fantasy wardrobe with minimal construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing courtly fantasy wardrobe with minimal construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with courtly fantasy wardrobe with minimal construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-theme-fantasy-courtly-fantasy",
+      "tags": [
+        "era-fantasy",
+        "fantasy",
+        "rarity-rare",
+        "wardrobe",
+        "wardrobe-theme"
+      ],
+      "facets": {
+        "theme": "courtly-fantasy",
+        "treatment": "minimal-construction"
+      },
+      "subcategory": "courtly-fantasy",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-theme-fantasy-woodland-fantasy-precise-tailoring",
+      "semantic_key": "wardrobe-theme-fantasy-woodland-fantasy-precise-tailoring",
+      "text": "woodland fantasy wardrobe with precise tailoring",
+      "sentence": "Woodland fantasy wardrobe with precise tailoring.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "woodland fantasy wardrobe with precise tailoring",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing woodland fantasy wardrobe with precise tailoring",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with woodland fantasy wardrobe with precise tailoring",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-theme-fantasy-woodland-fantasy",
+      "tags": [
+        "era-fantasy",
+        "fantasy",
+        "rarity-common",
+        "wardrobe",
+        "wardrobe-theme"
+      ],
+      "facets": {
+        "theme": "woodland-fantasy",
+        "treatment": "precise-tailoring"
+      },
+      "subcategory": "woodland-fantasy",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-theme-fantasy-woodland-fantasy-relaxed-drape",
+      "semantic_key": "wardrobe-theme-fantasy-woodland-fantasy-relaxed-drape",
+      "text": "woodland fantasy wardrobe with relaxed drape",
+      "sentence": "Woodland fantasy wardrobe with relaxed drape.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "woodland fantasy wardrobe with relaxed drape",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing woodland fantasy wardrobe with relaxed drape",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with woodland fantasy wardrobe with relaxed drape",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-theme-fantasy-woodland-fantasy",
+      "tags": [
+        "era-fantasy",
+        "fantasy",
+        "rarity-common",
+        "wardrobe",
+        "wardrobe-theme"
+      ],
+      "facets": {
+        "theme": "woodland-fantasy",
+        "treatment": "relaxed-drape"
+      },
+      "subcategory": "woodland-fantasy",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-theme-fantasy-woodland-fantasy-layered-construction",
+      "semantic_key": "wardrobe-theme-fantasy-woodland-fantasy-layered-construction",
+      "text": "woodland fantasy wardrobe with layered construction",
+      "sentence": "Woodland fantasy wardrobe with layered construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "woodland fantasy wardrobe with layered construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing woodland fantasy wardrobe with layered construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with woodland fantasy wardrobe with layered construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-theme-fantasy-woodland-fantasy",
+      "tags": [
+        "era-fantasy",
+        "fantasy",
+        "rarity-common",
+        "wardrobe",
+        "wardrobe-theme"
+      ],
+      "facets": {
+        "theme": "woodland-fantasy",
+        "treatment": "layered-construction"
+      },
+      "subcategory": "woodland-fantasy",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-theme-fantasy-woodland-fantasy-clean-seaming",
+      "semantic_key": "wardrobe-theme-fantasy-woodland-fantasy-clean-seaming",
+      "text": "woodland fantasy wardrobe with clean seaming",
+      "sentence": "Woodland fantasy wardrobe with clean seaming.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "woodland fantasy wardrobe with clean seaming",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing woodland fantasy wardrobe with clean seaming",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with woodland fantasy wardrobe with clean seaming",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-theme-fantasy-woodland-fantasy",
+      "tags": [
+        "era-fantasy",
+        "fantasy",
+        "rarity-common",
+        "wardrobe",
+        "wardrobe-theme"
+      ],
+      "facets": {
+        "theme": "woodland-fantasy",
+        "treatment": "clean-seaming"
+      },
+      "subcategory": "woodland-fantasy",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-theme-fantasy-woodland-fantasy-structured-volume",
+      "semantic_key": "wardrobe-theme-fantasy-woodland-fantasy-structured-volume",
+      "text": "woodland fantasy wardrobe with structured volume",
+      "sentence": "Woodland fantasy wardrobe with structured volume.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "woodland fantasy wardrobe with structured volume",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing woodland fantasy wardrobe with structured volume",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with woodland fantasy wardrobe with structured volume",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-theme-fantasy-woodland-fantasy",
+      "tags": [
+        "era-fantasy",
+        "fantasy",
+        "rarity-uncommon",
+        "wardrobe",
+        "wardrobe-theme"
+      ],
+      "facets": {
+        "theme": "woodland-fantasy",
+        "treatment": "structured-volume"
+      },
+      "subcategory": "woodland-fantasy",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-theme-fantasy-woodland-fantasy-fluid-movement",
+      "semantic_key": "wardrobe-theme-fantasy-woodland-fantasy-fluid-movement",
+      "text": "woodland fantasy wardrobe with fluid movement",
+      "sentence": "Woodland fantasy wardrobe with fluid movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "woodland fantasy wardrobe with fluid movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing woodland fantasy wardrobe with fluid movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with woodland fantasy wardrobe with fluid movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-theme-fantasy-woodland-fantasy",
+      "tags": [
+        "era-fantasy",
+        "fantasy",
+        "rarity-uncommon",
+        "wardrobe",
+        "wardrobe-theme"
+      ],
+      "facets": {
+        "theme": "woodland-fantasy",
+        "treatment": "fluid-movement"
+      },
+      "subcategory": "woodland-fantasy",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-theme-fantasy-woodland-fantasy-practical-detailing",
+      "semantic_key": "wardrobe-theme-fantasy-woodland-fantasy-practical-detailing",
+      "text": "woodland fantasy wardrobe with practical detailing",
+      "sentence": "Woodland fantasy wardrobe with practical detailing.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "woodland fantasy wardrobe with practical detailing",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing woodland fantasy wardrobe with practical detailing",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with woodland fantasy wardrobe with practical detailing",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-theme-fantasy-woodland-fantasy",
+      "tags": [
+        "era-fantasy",
+        "fantasy",
+        "rarity-rare",
+        "wardrobe",
+        "wardrobe-theme"
+      ],
+      "facets": {
+        "theme": "woodland-fantasy",
+        "treatment": "practical-detailing"
+      },
+      "subcategory": "woodland-fantasy",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-theme-fantasy-woodland-fantasy-minimal-construction",
+      "semantic_key": "wardrobe-theme-fantasy-woodland-fantasy-minimal-construction",
+      "text": "woodland fantasy wardrobe with minimal construction",
+      "sentence": "Woodland fantasy wardrobe with minimal construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "woodland fantasy wardrobe with minimal construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing woodland fantasy wardrobe with minimal construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with woodland fantasy wardrobe with minimal construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-theme-fantasy-woodland-fantasy",
+      "tags": [
+        "era-fantasy",
+        "fantasy",
+        "rarity-rare",
+        "wardrobe",
+        "wardrobe-theme"
+      ],
+      "facets": {
+        "theme": "woodland-fantasy",
+        "treatment": "minimal-construction"
+      },
+      "subcategory": "woodland-fantasy",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-theme-fantasy-scholarly-fantasy-precise-tailoring",
+      "semantic_key": "wardrobe-theme-fantasy-scholarly-fantasy-precise-tailoring",
+      "text": "scholarly fantasy wardrobe with precise tailoring",
+      "sentence": "Scholarly fantasy wardrobe with precise tailoring.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "scholarly fantasy wardrobe with precise tailoring",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing scholarly fantasy wardrobe with precise tailoring",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with scholarly fantasy wardrobe with precise tailoring",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-theme-fantasy-scholarly-fantasy",
+      "tags": [
+        "era-fantasy",
+        "fantasy",
+        "rarity-common",
+        "wardrobe",
+        "wardrobe-theme"
+      ],
+      "facets": {
+        "theme": "scholarly-fantasy",
+        "treatment": "precise-tailoring"
+      },
+      "subcategory": "scholarly-fantasy",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-theme-fantasy-scholarly-fantasy-relaxed-drape",
+      "semantic_key": "wardrobe-theme-fantasy-scholarly-fantasy-relaxed-drape",
+      "text": "scholarly fantasy wardrobe with relaxed drape",
+      "sentence": "Scholarly fantasy wardrobe with relaxed drape.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "scholarly fantasy wardrobe with relaxed drape",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing scholarly fantasy wardrobe with relaxed drape",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with scholarly fantasy wardrobe with relaxed drape",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-theme-fantasy-scholarly-fantasy",
+      "tags": [
+        "era-fantasy",
+        "fantasy",
+        "rarity-common",
+        "wardrobe",
+        "wardrobe-theme"
+      ],
+      "facets": {
+        "theme": "scholarly-fantasy",
+        "treatment": "relaxed-drape"
+      },
+      "subcategory": "scholarly-fantasy",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-theme-fantasy-scholarly-fantasy-layered-construction",
+      "semantic_key": "wardrobe-theme-fantasy-scholarly-fantasy-layered-construction",
+      "text": "scholarly fantasy wardrobe with layered construction",
+      "sentence": "Scholarly fantasy wardrobe with layered construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "scholarly fantasy wardrobe with layered construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing scholarly fantasy wardrobe with layered construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with scholarly fantasy wardrobe with layered construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-theme-fantasy-scholarly-fantasy",
+      "tags": [
+        "era-fantasy",
+        "fantasy",
+        "rarity-common",
+        "wardrobe",
+        "wardrobe-theme"
+      ],
+      "facets": {
+        "theme": "scholarly-fantasy",
+        "treatment": "layered-construction"
+      },
+      "subcategory": "scholarly-fantasy",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-theme-fantasy-scholarly-fantasy-clean-seaming",
+      "semantic_key": "wardrobe-theme-fantasy-scholarly-fantasy-clean-seaming",
+      "text": "scholarly fantasy wardrobe with clean seaming",
+      "sentence": "Scholarly fantasy wardrobe with clean seaming.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "scholarly fantasy wardrobe with clean seaming",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing scholarly fantasy wardrobe with clean seaming",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with scholarly fantasy wardrobe with clean seaming",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-theme-fantasy-scholarly-fantasy",
+      "tags": [
+        "era-fantasy",
+        "fantasy",
+        "rarity-common",
+        "wardrobe",
+        "wardrobe-theme"
+      ],
+      "facets": {
+        "theme": "scholarly-fantasy",
+        "treatment": "clean-seaming"
+      },
+      "subcategory": "scholarly-fantasy",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-theme-fantasy-scholarly-fantasy-structured-volume",
+      "semantic_key": "wardrobe-theme-fantasy-scholarly-fantasy-structured-volume",
+      "text": "scholarly fantasy wardrobe with structured volume",
+      "sentence": "Scholarly fantasy wardrobe with structured volume.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "scholarly fantasy wardrobe with structured volume",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing scholarly fantasy wardrobe with structured volume",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with scholarly fantasy wardrobe with structured volume",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-theme-fantasy-scholarly-fantasy",
+      "tags": [
+        "era-fantasy",
+        "fantasy",
+        "rarity-uncommon",
+        "wardrobe",
+        "wardrobe-theme"
+      ],
+      "facets": {
+        "theme": "scholarly-fantasy",
+        "treatment": "structured-volume"
+      },
+      "subcategory": "scholarly-fantasy",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-theme-fantasy-scholarly-fantasy-fluid-movement",
+      "semantic_key": "wardrobe-theme-fantasy-scholarly-fantasy-fluid-movement",
+      "text": "scholarly fantasy wardrobe with fluid movement",
+      "sentence": "Scholarly fantasy wardrobe with fluid movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "scholarly fantasy wardrobe with fluid movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing scholarly fantasy wardrobe with fluid movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with scholarly fantasy wardrobe with fluid movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-theme-fantasy-scholarly-fantasy",
+      "tags": [
+        "era-fantasy",
+        "fantasy",
+        "rarity-uncommon",
+        "wardrobe",
+        "wardrobe-theme"
+      ],
+      "facets": {
+        "theme": "scholarly-fantasy",
+        "treatment": "fluid-movement"
+      },
+      "subcategory": "scholarly-fantasy",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-theme-fantasy-scholarly-fantasy-practical-detailing",
+      "semantic_key": "wardrobe-theme-fantasy-scholarly-fantasy-practical-detailing",
+      "text": "scholarly fantasy wardrobe with practical detailing",
+      "sentence": "Scholarly fantasy wardrobe with practical detailing.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "scholarly fantasy wardrobe with practical detailing",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing scholarly fantasy wardrobe with practical detailing",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with scholarly fantasy wardrobe with practical detailing",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-theme-fantasy-scholarly-fantasy",
+      "tags": [
+        "era-fantasy",
+        "fantasy",
+        "rarity-rare",
+        "wardrobe",
+        "wardrobe-theme"
+      ],
+      "facets": {
+        "theme": "scholarly-fantasy",
+        "treatment": "practical-detailing"
+      },
+      "subcategory": "scholarly-fantasy",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-theme-fantasy-scholarly-fantasy-minimal-construction",
+      "semantic_key": "wardrobe-theme-fantasy-scholarly-fantasy-minimal-construction",
+      "text": "scholarly fantasy wardrobe with minimal construction",
+      "sentence": "Scholarly fantasy wardrobe with minimal construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "scholarly fantasy wardrobe with minimal construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing scholarly fantasy wardrobe with minimal construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with scholarly fantasy wardrobe with minimal construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-theme-fantasy-scholarly-fantasy",
+      "tags": [
+        "era-fantasy",
+        "fantasy",
+        "rarity-rare",
+        "wardrobe",
+        "wardrobe-theme"
+      ],
+      "facets": {
+        "theme": "scholarly-fantasy",
+        "treatment": "minimal-construction"
+      },
+      "subcategory": "scholarly-fantasy",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-theme-fantasy-traveler-fantasy-precise-tailoring",
+      "semantic_key": "wardrobe-theme-fantasy-traveler-fantasy-precise-tailoring",
+      "text": "traveler fantasy wardrobe with precise tailoring",
+      "sentence": "Traveler fantasy wardrobe with precise tailoring.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "traveler fantasy wardrobe with precise tailoring",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing traveler fantasy wardrobe with precise tailoring",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with traveler fantasy wardrobe with precise tailoring",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-theme-fantasy-traveler-fantasy",
+      "tags": [
+        "era-fantasy",
+        "fantasy",
+        "rarity-common",
+        "wardrobe",
+        "wardrobe-theme"
+      ],
+      "facets": {
+        "theme": "traveler-fantasy",
+        "treatment": "precise-tailoring"
+      },
+      "subcategory": "traveler-fantasy",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-theme-fantasy-traveler-fantasy-relaxed-drape",
+      "semantic_key": "wardrobe-theme-fantasy-traveler-fantasy-relaxed-drape",
+      "text": "traveler fantasy wardrobe with relaxed drape",
+      "sentence": "Traveler fantasy wardrobe with relaxed drape.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "traveler fantasy wardrobe with relaxed drape",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing traveler fantasy wardrobe with relaxed drape",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with traveler fantasy wardrobe with relaxed drape",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-theme-fantasy-traveler-fantasy",
+      "tags": [
+        "era-fantasy",
+        "fantasy",
+        "rarity-common",
+        "wardrobe",
+        "wardrobe-theme"
+      ],
+      "facets": {
+        "theme": "traveler-fantasy",
+        "treatment": "relaxed-drape"
+      },
+      "subcategory": "traveler-fantasy",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-theme-fantasy-traveler-fantasy-layered-construction",
+      "semantic_key": "wardrobe-theme-fantasy-traveler-fantasy-layered-construction",
+      "text": "traveler fantasy wardrobe with layered construction",
+      "sentence": "Traveler fantasy wardrobe with layered construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "traveler fantasy wardrobe with layered construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing traveler fantasy wardrobe with layered construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with traveler fantasy wardrobe with layered construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-theme-fantasy-traveler-fantasy",
+      "tags": [
+        "era-fantasy",
+        "fantasy",
+        "rarity-common",
+        "wardrobe",
+        "wardrobe-theme"
+      ],
+      "facets": {
+        "theme": "traveler-fantasy",
+        "treatment": "layered-construction"
+      },
+      "subcategory": "traveler-fantasy",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-theme-fantasy-traveler-fantasy-clean-seaming",
+      "semantic_key": "wardrobe-theme-fantasy-traveler-fantasy-clean-seaming",
+      "text": "traveler fantasy wardrobe with clean seaming",
+      "sentence": "Traveler fantasy wardrobe with clean seaming.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "traveler fantasy wardrobe with clean seaming",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing traveler fantasy wardrobe with clean seaming",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with traveler fantasy wardrobe with clean seaming",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-theme-fantasy-traveler-fantasy",
+      "tags": [
+        "era-fantasy",
+        "fantasy",
+        "rarity-common",
+        "wardrobe",
+        "wardrobe-theme"
+      ],
+      "facets": {
+        "theme": "traveler-fantasy",
+        "treatment": "clean-seaming"
+      },
+      "subcategory": "traveler-fantasy",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-theme-fantasy-traveler-fantasy-structured-volume",
+      "semantic_key": "wardrobe-theme-fantasy-traveler-fantasy-structured-volume",
+      "text": "traveler fantasy wardrobe with structured volume",
+      "sentence": "Traveler fantasy wardrobe with structured volume.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "traveler fantasy wardrobe with structured volume",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing traveler fantasy wardrobe with structured volume",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with traveler fantasy wardrobe with structured volume",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-theme-fantasy-traveler-fantasy",
+      "tags": [
+        "era-fantasy",
+        "fantasy",
+        "rarity-uncommon",
+        "wardrobe",
+        "wardrobe-theme"
+      ],
+      "facets": {
+        "theme": "traveler-fantasy",
+        "treatment": "structured-volume"
+      },
+      "subcategory": "traveler-fantasy",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-theme-fantasy-traveler-fantasy-fluid-movement",
+      "semantic_key": "wardrobe-theme-fantasy-traveler-fantasy-fluid-movement",
+      "text": "traveler fantasy wardrobe with fluid movement",
+      "sentence": "Traveler fantasy wardrobe with fluid movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "traveler fantasy wardrobe with fluid movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing traveler fantasy wardrobe with fluid movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with traveler fantasy wardrobe with fluid movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-theme-fantasy-traveler-fantasy",
+      "tags": [
+        "era-fantasy",
+        "fantasy",
+        "rarity-uncommon",
+        "wardrobe",
+        "wardrobe-theme"
+      ],
+      "facets": {
+        "theme": "traveler-fantasy",
+        "treatment": "fluid-movement"
+      },
+      "subcategory": "traveler-fantasy",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-theme-fantasy-traveler-fantasy-practical-detailing",
+      "semantic_key": "wardrobe-theme-fantasy-traveler-fantasy-practical-detailing",
+      "text": "traveler fantasy wardrobe with practical detailing",
+      "sentence": "Traveler fantasy wardrobe with practical detailing.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "traveler fantasy wardrobe with practical detailing",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing traveler fantasy wardrobe with practical detailing",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with traveler fantasy wardrobe with practical detailing",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-theme-fantasy-traveler-fantasy",
+      "tags": [
+        "era-fantasy",
+        "fantasy",
+        "rarity-rare",
+        "wardrobe",
+        "wardrobe-theme"
+      ],
+      "facets": {
+        "theme": "traveler-fantasy",
+        "treatment": "practical-detailing"
+      },
+      "subcategory": "traveler-fantasy",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-theme-fantasy-traveler-fantasy-minimal-construction",
+      "semantic_key": "wardrobe-theme-fantasy-traveler-fantasy-minimal-construction",
+      "text": "traveler fantasy wardrobe with minimal construction",
+      "sentence": "Traveler fantasy wardrobe with minimal construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "traveler fantasy wardrobe with minimal construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing traveler fantasy wardrobe with minimal construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with traveler fantasy wardrobe with minimal construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-theme-fantasy-traveler-fantasy",
+      "tags": [
+        "era-fantasy",
+        "fantasy",
+        "rarity-rare",
+        "wardrobe",
+        "wardrobe-theme"
+      ],
+      "facets": {
+        "theme": "traveler-fantasy",
+        "treatment": "minimal-construction"
+      },
+      "subcategory": "traveler-fantasy",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-theme-fantasy-celestial-fantasy-precise-tailoring",
+      "semantic_key": "wardrobe-theme-fantasy-celestial-fantasy-precise-tailoring",
+      "text": "celestial fantasy wardrobe with precise tailoring",
+      "sentence": "Celestial fantasy wardrobe with precise tailoring.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "celestial fantasy wardrobe with precise tailoring",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing celestial fantasy wardrobe with precise tailoring",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with celestial fantasy wardrobe with precise tailoring",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-theme-fantasy-celestial-fantasy",
+      "tags": [
+        "era-fantasy",
+        "fantasy",
+        "rarity-common",
+        "wardrobe",
+        "wardrobe-theme"
+      ],
+      "facets": {
+        "theme": "celestial-fantasy",
+        "treatment": "precise-tailoring"
+      },
+      "subcategory": "celestial-fantasy",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-theme-fantasy-celestial-fantasy-relaxed-drape",
+      "semantic_key": "wardrobe-theme-fantasy-celestial-fantasy-relaxed-drape",
+      "text": "celestial fantasy wardrobe with relaxed drape",
+      "sentence": "Celestial fantasy wardrobe with relaxed drape.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "celestial fantasy wardrobe with relaxed drape",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing celestial fantasy wardrobe with relaxed drape",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with celestial fantasy wardrobe with relaxed drape",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-theme-fantasy-celestial-fantasy",
+      "tags": [
+        "era-fantasy",
+        "fantasy",
+        "rarity-common",
+        "wardrobe",
+        "wardrobe-theme"
+      ],
+      "facets": {
+        "theme": "celestial-fantasy",
+        "treatment": "relaxed-drape"
+      },
+      "subcategory": "celestial-fantasy",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-theme-fantasy-celestial-fantasy-layered-construction",
+      "semantic_key": "wardrobe-theme-fantasy-celestial-fantasy-layered-construction",
+      "text": "celestial fantasy wardrobe with layered construction",
+      "sentence": "Celestial fantasy wardrobe with layered construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "celestial fantasy wardrobe with layered construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing celestial fantasy wardrobe with layered construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with celestial fantasy wardrobe with layered construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-theme-fantasy-celestial-fantasy",
+      "tags": [
+        "era-fantasy",
+        "fantasy",
+        "rarity-common",
+        "wardrobe",
+        "wardrobe-theme"
+      ],
+      "facets": {
+        "theme": "celestial-fantasy",
+        "treatment": "layered-construction"
+      },
+      "subcategory": "celestial-fantasy",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-theme-fantasy-celestial-fantasy-clean-seaming",
+      "semantic_key": "wardrobe-theme-fantasy-celestial-fantasy-clean-seaming",
+      "text": "celestial fantasy wardrobe with clean seaming",
+      "sentence": "Celestial fantasy wardrobe with clean seaming.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "celestial fantasy wardrobe with clean seaming",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing celestial fantasy wardrobe with clean seaming",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with celestial fantasy wardrobe with clean seaming",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-theme-fantasy-celestial-fantasy",
+      "tags": [
+        "era-fantasy",
+        "fantasy",
+        "rarity-common",
+        "wardrobe",
+        "wardrobe-theme"
+      ],
+      "facets": {
+        "theme": "celestial-fantasy",
+        "treatment": "clean-seaming"
+      },
+      "subcategory": "celestial-fantasy",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-theme-fantasy-celestial-fantasy-structured-volume",
+      "semantic_key": "wardrobe-theme-fantasy-celestial-fantasy-structured-volume",
+      "text": "celestial fantasy wardrobe with structured volume",
+      "sentence": "Celestial fantasy wardrobe with structured volume.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "celestial fantasy wardrobe with structured volume",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing celestial fantasy wardrobe with structured volume",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with celestial fantasy wardrobe with structured volume",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-theme-fantasy-celestial-fantasy",
+      "tags": [
+        "era-fantasy",
+        "fantasy",
+        "rarity-uncommon",
+        "wardrobe",
+        "wardrobe-theme"
+      ],
+      "facets": {
+        "theme": "celestial-fantasy",
+        "treatment": "structured-volume"
+      },
+      "subcategory": "celestial-fantasy",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-theme-fantasy-celestial-fantasy-fluid-movement",
+      "semantic_key": "wardrobe-theme-fantasy-celestial-fantasy-fluid-movement",
+      "text": "celestial fantasy wardrobe with fluid movement",
+      "sentence": "Celestial fantasy wardrobe with fluid movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "celestial fantasy wardrobe with fluid movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing celestial fantasy wardrobe with fluid movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with celestial fantasy wardrobe with fluid movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-theme-fantasy-celestial-fantasy",
+      "tags": [
+        "era-fantasy",
+        "fantasy",
+        "rarity-uncommon",
+        "wardrobe",
+        "wardrobe-theme"
+      ],
+      "facets": {
+        "theme": "celestial-fantasy",
+        "treatment": "fluid-movement"
+      },
+      "subcategory": "celestial-fantasy",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-theme-fantasy-celestial-fantasy-practical-detailing",
+      "semantic_key": "wardrobe-theme-fantasy-celestial-fantasy-practical-detailing",
+      "text": "celestial fantasy wardrobe with practical detailing",
+      "sentence": "Celestial fantasy wardrobe with practical detailing.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "celestial fantasy wardrobe with practical detailing",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing celestial fantasy wardrobe with practical detailing",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with celestial fantasy wardrobe with practical detailing",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-theme-fantasy-celestial-fantasy",
+      "tags": [
+        "era-fantasy",
+        "fantasy",
+        "rarity-rare",
+        "wardrobe",
+        "wardrobe-theme"
+      ],
+      "facets": {
+        "theme": "celestial-fantasy",
+        "treatment": "practical-detailing"
+      },
+      "subcategory": "celestial-fantasy",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-theme-fantasy-celestial-fantasy-minimal-construction",
+      "semantic_key": "wardrobe-theme-fantasy-celestial-fantasy-minimal-construction",
+      "text": "celestial fantasy wardrobe with minimal construction",
+      "sentence": "Celestial fantasy wardrobe with minimal construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "celestial fantasy wardrobe with minimal construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing celestial fantasy wardrobe with minimal construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with celestial fantasy wardrobe with minimal construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-theme-fantasy-celestial-fantasy",
+      "tags": [
+        "era-fantasy",
+        "fantasy",
+        "rarity-rare",
+        "wardrobe",
+        "wardrobe-theme"
+      ],
+      "facets": {
+        "theme": "celestial-fantasy",
+        "treatment": "minimal-construction"
+      },
+      "subcategory": "celestial-fantasy",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-theme-fantasy-desert-fantasy-precise-tailoring",
+      "semantic_key": "wardrobe-theme-fantasy-desert-fantasy-precise-tailoring",
+      "text": "desert fantasy wardrobe with precise tailoring",
+      "sentence": "Desert fantasy wardrobe with precise tailoring.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "desert fantasy wardrobe with precise tailoring",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing desert fantasy wardrobe with precise tailoring",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with desert fantasy wardrobe with precise tailoring",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-theme-fantasy-desert-fantasy",
+      "tags": [
+        "era-fantasy",
+        "fantasy",
+        "rarity-common",
+        "wardrobe",
+        "wardrobe-theme"
+      ],
+      "facets": {
+        "theme": "desert-fantasy",
+        "treatment": "precise-tailoring"
+      },
+      "subcategory": "desert-fantasy",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-theme-fantasy-desert-fantasy-relaxed-drape",
+      "semantic_key": "wardrobe-theme-fantasy-desert-fantasy-relaxed-drape",
+      "text": "desert fantasy wardrobe with relaxed drape",
+      "sentence": "Desert fantasy wardrobe with relaxed drape.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "desert fantasy wardrobe with relaxed drape",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing desert fantasy wardrobe with relaxed drape",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with desert fantasy wardrobe with relaxed drape",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-theme-fantasy-desert-fantasy",
+      "tags": [
+        "era-fantasy",
+        "fantasy",
+        "rarity-common",
+        "wardrobe",
+        "wardrobe-theme"
+      ],
+      "facets": {
+        "theme": "desert-fantasy",
+        "treatment": "relaxed-drape"
+      },
+      "subcategory": "desert-fantasy",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-theme-fantasy-desert-fantasy-layered-construction",
+      "semantic_key": "wardrobe-theme-fantasy-desert-fantasy-layered-construction",
+      "text": "desert fantasy wardrobe with layered construction",
+      "sentence": "Desert fantasy wardrobe with layered construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "desert fantasy wardrobe with layered construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing desert fantasy wardrobe with layered construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with desert fantasy wardrobe with layered construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-theme-fantasy-desert-fantasy",
+      "tags": [
+        "era-fantasy",
+        "fantasy",
+        "rarity-common",
+        "wardrobe",
+        "wardrobe-theme"
+      ],
+      "facets": {
+        "theme": "desert-fantasy",
+        "treatment": "layered-construction"
+      },
+      "subcategory": "desert-fantasy",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-theme-fantasy-desert-fantasy-clean-seaming",
+      "semantic_key": "wardrobe-theme-fantasy-desert-fantasy-clean-seaming",
+      "text": "desert fantasy wardrobe with clean seaming",
+      "sentence": "Desert fantasy wardrobe with clean seaming.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "desert fantasy wardrobe with clean seaming",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing desert fantasy wardrobe with clean seaming",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with desert fantasy wardrobe with clean seaming",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-theme-fantasy-desert-fantasy",
+      "tags": [
+        "era-fantasy",
+        "fantasy",
+        "rarity-common",
+        "wardrobe",
+        "wardrobe-theme"
+      ],
+      "facets": {
+        "theme": "desert-fantasy",
+        "treatment": "clean-seaming"
+      },
+      "subcategory": "desert-fantasy",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-theme-fantasy-desert-fantasy-structured-volume",
+      "semantic_key": "wardrobe-theme-fantasy-desert-fantasy-structured-volume",
+      "text": "desert fantasy wardrobe with structured volume",
+      "sentence": "Desert fantasy wardrobe with structured volume.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "desert fantasy wardrobe with structured volume",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing desert fantasy wardrobe with structured volume",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with desert fantasy wardrobe with structured volume",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-theme-fantasy-desert-fantasy",
+      "tags": [
+        "era-fantasy",
+        "fantasy",
+        "rarity-uncommon",
+        "wardrobe",
+        "wardrobe-theme"
+      ],
+      "facets": {
+        "theme": "desert-fantasy",
+        "treatment": "structured-volume"
+      },
+      "subcategory": "desert-fantasy",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-theme-fantasy-desert-fantasy-fluid-movement",
+      "semantic_key": "wardrobe-theme-fantasy-desert-fantasy-fluid-movement",
+      "text": "desert fantasy wardrobe with fluid movement",
+      "sentence": "Desert fantasy wardrobe with fluid movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "desert fantasy wardrobe with fluid movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing desert fantasy wardrobe with fluid movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with desert fantasy wardrobe with fluid movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-theme-fantasy-desert-fantasy",
+      "tags": [
+        "era-fantasy",
+        "fantasy",
+        "rarity-uncommon",
+        "wardrobe",
+        "wardrobe-theme"
+      ],
+      "facets": {
+        "theme": "desert-fantasy",
+        "treatment": "fluid-movement"
+      },
+      "subcategory": "desert-fantasy",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-theme-fantasy-desert-fantasy-practical-detailing",
+      "semantic_key": "wardrobe-theme-fantasy-desert-fantasy-practical-detailing",
+      "text": "desert fantasy wardrobe with practical detailing",
+      "sentence": "Desert fantasy wardrobe with practical detailing.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "desert fantasy wardrobe with practical detailing",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing desert fantasy wardrobe with practical detailing",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with desert fantasy wardrobe with practical detailing",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-theme-fantasy-desert-fantasy",
+      "tags": [
+        "era-fantasy",
+        "fantasy",
+        "rarity-rare",
+        "wardrobe",
+        "wardrobe-theme"
+      ],
+      "facets": {
+        "theme": "desert-fantasy",
+        "treatment": "practical-detailing"
+      },
+      "subcategory": "desert-fantasy",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-theme-fantasy-desert-fantasy-minimal-construction",
+      "semantic_key": "wardrobe-theme-fantasy-desert-fantasy-minimal-construction",
+      "text": "desert fantasy wardrobe with minimal construction",
+      "sentence": "Desert fantasy wardrobe with minimal construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "desert fantasy wardrobe with minimal construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing desert fantasy wardrobe with minimal construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with desert fantasy wardrobe with minimal construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-theme-fantasy-desert-fantasy",
+      "tags": [
+        "era-fantasy",
+        "fantasy",
+        "rarity-rare",
+        "wardrobe",
+        "wardrobe-theme"
+      ],
+      "facets": {
+        "theme": "desert-fantasy",
+        "treatment": "minimal-construction"
+      },
+      "subcategory": "desert-fantasy",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-theme-fantasy-maritime-fantasy-precise-tailoring",
+      "semantic_key": "wardrobe-theme-fantasy-maritime-fantasy-precise-tailoring",
+      "text": "maritime fantasy wardrobe with precise tailoring",
+      "sentence": "Maritime fantasy wardrobe with precise tailoring.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "maritime fantasy wardrobe with precise tailoring",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing maritime fantasy wardrobe with precise tailoring",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with maritime fantasy wardrobe with precise tailoring",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-theme-fantasy-maritime-fantasy",
+      "tags": [
+        "era-fantasy",
+        "fantasy",
+        "rarity-common",
+        "wardrobe",
+        "wardrobe-theme"
+      ],
+      "facets": {
+        "theme": "maritime-fantasy",
+        "treatment": "precise-tailoring"
+      },
+      "subcategory": "maritime-fantasy",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-theme-fantasy-maritime-fantasy-relaxed-drape",
+      "semantic_key": "wardrobe-theme-fantasy-maritime-fantasy-relaxed-drape",
+      "text": "maritime fantasy wardrobe with relaxed drape",
+      "sentence": "Maritime fantasy wardrobe with relaxed drape.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "maritime fantasy wardrobe with relaxed drape",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing maritime fantasy wardrobe with relaxed drape",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with maritime fantasy wardrobe with relaxed drape",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-theme-fantasy-maritime-fantasy",
+      "tags": [
+        "era-fantasy",
+        "fantasy",
+        "rarity-common",
+        "wardrobe",
+        "wardrobe-theme"
+      ],
+      "facets": {
+        "theme": "maritime-fantasy",
+        "treatment": "relaxed-drape"
+      },
+      "subcategory": "maritime-fantasy",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-theme-fantasy-maritime-fantasy-layered-construction",
+      "semantic_key": "wardrobe-theme-fantasy-maritime-fantasy-layered-construction",
+      "text": "maritime fantasy wardrobe with layered construction",
+      "sentence": "Maritime fantasy wardrobe with layered construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "maritime fantasy wardrobe with layered construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing maritime fantasy wardrobe with layered construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with maritime fantasy wardrobe with layered construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-theme-fantasy-maritime-fantasy",
+      "tags": [
+        "era-fantasy",
+        "fantasy",
+        "rarity-common",
+        "wardrobe",
+        "wardrobe-theme"
+      ],
+      "facets": {
+        "theme": "maritime-fantasy",
+        "treatment": "layered-construction"
+      },
+      "subcategory": "maritime-fantasy",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-theme-fantasy-maritime-fantasy-clean-seaming",
+      "semantic_key": "wardrobe-theme-fantasy-maritime-fantasy-clean-seaming",
+      "text": "maritime fantasy wardrobe with clean seaming",
+      "sentence": "Maritime fantasy wardrobe with clean seaming.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "maritime fantasy wardrobe with clean seaming",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing maritime fantasy wardrobe with clean seaming",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with maritime fantasy wardrobe with clean seaming",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-theme-fantasy-maritime-fantasy",
+      "tags": [
+        "era-fantasy",
+        "fantasy",
+        "rarity-common",
+        "wardrobe",
+        "wardrobe-theme"
+      ],
+      "facets": {
+        "theme": "maritime-fantasy",
+        "treatment": "clean-seaming"
+      },
+      "subcategory": "maritime-fantasy",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-theme-fantasy-maritime-fantasy-structured-volume",
+      "semantic_key": "wardrobe-theme-fantasy-maritime-fantasy-structured-volume",
+      "text": "maritime fantasy wardrobe with structured volume",
+      "sentence": "Maritime fantasy wardrobe with structured volume.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "maritime fantasy wardrobe with structured volume",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing maritime fantasy wardrobe with structured volume",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with maritime fantasy wardrobe with structured volume",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-theme-fantasy-maritime-fantasy",
+      "tags": [
+        "era-fantasy",
+        "fantasy",
+        "rarity-uncommon",
+        "wardrobe",
+        "wardrobe-theme"
+      ],
+      "facets": {
+        "theme": "maritime-fantasy",
+        "treatment": "structured-volume"
+      },
+      "subcategory": "maritime-fantasy",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-theme-fantasy-maritime-fantasy-fluid-movement",
+      "semantic_key": "wardrobe-theme-fantasy-maritime-fantasy-fluid-movement",
+      "text": "maritime fantasy wardrobe with fluid movement",
+      "sentence": "Maritime fantasy wardrobe with fluid movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "maritime fantasy wardrobe with fluid movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing maritime fantasy wardrobe with fluid movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with maritime fantasy wardrobe with fluid movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-theme-fantasy-maritime-fantasy",
+      "tags": [
+        "era-fantasy",
+        "fantasy",
+        "rarity-uncommon",
+        "wardrobe",
+        "wardrobe-theme"
+      ],
+      "facets": {
+        "theme": "maritime-fantasy",
+        "treatment": "fluid-movement"
+      },
+      "subcategory": "maritime-fantasy",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-theme-fantasy-maritime-fantasy-practical-detailing",
+      "semantic_key": "wardrobe-theme-fantasy-maritime-fantasy-practical-detailing",
+      "text": "maritime fantasy wardrobe with practical detailing",
+      "sentence": "Maritime fantasy wardrobe with practical detailing.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "maritime fantasy wardrobe with practical detailing",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing maritime fantasy wardrobe with practical detailing",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with maritime fantasy wardrobe with practical detailing",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-theme-fantasy-maritime-fantasy",
+      "tags": [
+        "era-fantasy",
+        "fantasy",
+        "rarity-rare",
+        "wardrobe",
+        "wardrobe-theme"
+      ],
+      "facets": {
+        "theme": "maritime-fantasy",
+        "treatment": "practical-detailing"
+      },
+      "subcategory": "maritime-fantasy",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-theme-fantasy-maritime-fantasy-minimal-construction",
+      "semantic_key": "wardrobe-theme-fantasy-maritime-fantasy-minimal-construction",
+      "text": "maritime fantasy wardrobe with minimal construction",
+      "sentence": "Maritime fantasy wardrobe with minimal construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "maritime fantasy wardrobe with minimal construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing maritime fantasy wardrobe with minimal construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with maritime fantasy wardrobe with minimal construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-theme-fantasy-maritime-fantasy",
+      "tags": [
+        "era-fantasy",
+        "fantasy",
+        "rarity-rare",
+        "wardrobe",
+        "wardrobe-theme"
+      ],
+      "facets": {
+        "theme": "maritime-fantasy",
+        "treatment": "minimal-construction"
+      },
+      "subcategory": "maritime-fantasy",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-theme-fantasy-artisan-fantasy-precise-tailoring",
+      "semantic_key": "wardrobe-theme-fantasy-artisan-fantasy-precise-tailoring",
+      "text": "artisan fantasy wardrobe with precise tailoring",
+      "sentence": "Artisan fantasy wardrobe with precise tailoring.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "artisan fantasy wardrobe with precise tailoring",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing artisan fantasy wardrobe with precise tailoring",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with artisan fantasy wardrobe with precise tailoring",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-theme-fantasy-artisan-fantasy",
+      "tags": [
+        "era-fantasy",
+        "fantasy",
+        "rarity-common",
+        "wardrobe",
+        "wardrobe-theme"
+      ],
+      "facets": {
+        "theme": "artisan-fantasy",
+        "treatment": "precise-tailoring"
+      },
+      "subcategory": "artisan-fantasy",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-theme-fantasy-artisan-fantasy-relaxed-drape",
+      "semantic_key": "wardrobe-theme-fantasy-artisan-fantasy-relaxed-drape",
+      "text": "artisan fantasy wardrobe with relaxed drape",
+      "sentence": "Artisan fantasy wardrobe with relaxed drape.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "artisan fantasy wardrobe with relaxed drape",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing artisan fantasy wardrobe with relaxed drape",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with artisan fantasy wardrobe with relaxed drape",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-theme-fantasy-artisan-fantasy",
+      "tags": [
+        "era-fantasy",
+        "fantasy",
+        "rarity-common",
+        "wardrobe",
+        "wardrobe-theme"
+      ],
+      "facets": {
+        "theme": "artisan-fantasy",
+        "treatment": "relaxed-drape"
+      },
+      "subcategory": "artisan-fantasy",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-theme-fantasy-artisan-fantasy-layered-construction",
+      "semantic_key": "wardrobe-theme-fantasy-artisan-fantasy-layered-construction",
+      "text": "artisan fantasy wardrobe with layered construction",
+      "sentence": "Artisan fantasy wardrobe with layered construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "artisan fantasy wardrobe with layered construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing artisan fantasy wardrobe with layered construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with artisan fantasy wardrobe with layered construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-theme-fantasy-artisan-fantasy",
+      "tags": [
+        "era-fantasy",
+        "fantasy",
+        "rarity-common",
+        "wardrobe",
+        "wardrobe-theme"
+      ],
+      "facets": {
+        "theme": "artisan-fantasy",
+        "treatment": "layered-construction"
+      },
+      "subcategory": "artisan-fantasy",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-theme-fantasy-artisan-fantasy-clean-seaming",
+      "semantic_key": "wardrobe-theme-fantasy-artisan-fantasy-clean-seaming",
+      "text": "artisan fantasy wardrobe with clean seaming",
+      "sentence": "Artisan fantasy wardrobe with clean seaming.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "artisan fantasy wardrobe with clean seaming",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing artisan fantasy wardrobe with clean seaming",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with artisan fantasy wardrobe with clean seaming",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-theme-fantasy-artisan-fantasy",
+      "tags": [
+        "era-fantasy",
+        "fantasy",
+        "rarity-common",
+        "wardrobe",
+        "wardrobe-theme"
+      ],
+      "facets": {
+        "theme": "artisan-fantasy",
+        "treatment": "clean-seaming"
+      },
+      "subcategory": "artisan-fantasy",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-theme-fantasy-artisan-fantasy-structured-volume",
+      "semantic_key": "wardrobe-theme-fantasy-artisan-fantasy-structured-volume",
+      "text": "artisan fantasy wardrobe with structured volume",
+      "sentence": "Artisan fantasy wardrobe with structured volume.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "artisan fantasy wardrobe with structured volume",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing artisan fantasy wardrobe with structured volume",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with artisan fantasy wardrobe with structured volume",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-theme-fantasy-artisan-fantasy",
+      "tags": [
+        "era-fantasy",
+        "fantasy",
+        "rarity-uncommon",
+        "wardrobe",
+        "wardrobe-theme"
+      ],
+      "facets": {
+        "theme": "artisan-fantasy",
+        "treatment": "structured-volume"
+      },
+      "subcategory": "artisan-fantasy",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-theme-fantasy-artisan-fantasy-fluid-movement",
+      "semantic_key": "wardrobe-theme-fantasy-artisan-fantasy-fluid-movement",
+      "text": "artisan fantasy wardrobe with fluid movement",
+      "sentence": "Artisan fantasy wardrobe with fluid movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "artisan fantasy wardrobe with fluid movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing artisan fantasy wardrobe with fluid movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with artisan fantasy wardrobe with fluid movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-theme-fantasy-artisan-fantasy",
+      "tags": [
+        "era-fantasy",
+        "fantasy",
+        "rarity-uncommon",
+        "wardrobe",
+        "wardrobe-theme"
+      ],
+      "facets": {
+        "theme": "artisan-fantasy",
+        "treatment": "fluid-movement"
+      },
+      "subcategory": "artisan-fantasy",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-theme-fantasy-artisan-fantasy-practical-detailing",
+      "semantic_key": "wardrobe-theme-fantasy-artisan-fantasy-practical-detailing",
+      "text": "artisan fantasy wardrobe with practical detailing",
+      "sentence": "Artisan fantasy wardrobe with practical detailing.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "artisan fantasy wardrobe with practical detailing",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing artisan fantasy wardrobe with practical detailing",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with artisan fantasy wardrobe with practical detailing",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-theme-fantasy-artisan-fantasy",
+      "tags": [
+        "era-fantasy",
+        "fantasy",
+        "rarity-rare",
+        "wardrobe",
+        "wardrobe-theme"
+      ],
+      "facets": {
+        "theme": "artisan-fantasy",
+        "treatment": "practical-detailing"
+      },
+      "subcategory": "artisan-fantasy",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-theme-fantasy-artisan-fantasy-minimal-construction",
+      "semantic_key": "wardrobe-theme-fantasy-artisan-fantasy-minimal-construction",
+      "text": "artisan fantasy wardrobe with minimal construction",
+      "sentence": "Artisan fantasy wardrobe with minimal construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "artisan fantasy wardrobe with minimal construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing artisan fantasy wardrobe with minimal construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with artisan fantasy wardrobe with minimal construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-theme-fantasy-artisan-fantasy",
+      "tags": [
+        "era-fantasy",
+        "fantasy",
+        "rarity-rare",
+        "wardrobe",
+        "wardrobe-theme"
+      ],
+      "facets": {
+        "theme": "artisan-fantasy",
+        "treatment": "minimal-construction"
+      },
+      "subcategory": "artisan-fantasy",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    }
+  ]
+}

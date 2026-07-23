@@ -1,0 +1,2577 @@
+{
+  "schema_version": "2.0",
+  "id": "identity-skin-tone-base",
+  "version": "2.0.0",
+  "library": "skin-tone",
+  "domain": "identity",
+  "category": "skin-tone",
+  "language": "en",
+  "status": "active",
+  "safety": "general",
+  "tags": [
+    "base"
+  ],
+  "fallback_option_id": "identity-skin-tone-base-very-deep-neutral-undertone",
+  "options": [
+    {
+      "id": "identity-skin-tone-base-very-deep-neutral-undertone",
+      "semantic_key": "identity-skin-tone-base-very-deep-neutral-undertone",
+      "text": "very deep skin with a neutral undertone",
+      "sentence": "Very deep skin with a neutral undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "very deep skin with a neutral undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing very deep skin with a neutral undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with very deep skin with a neutral undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-tone-base-very-deep",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-tone"
+      ],
+      "facets": {
+        "value": "very-deep",
+        "treatment": "neutral-undertone"
+      },
+      "subcategory": "very-deep",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-tone-base-very-deep-warm-undertone",
+      "semantic_key": "identity-skin-tone-base-very-deep-warm-undertone",
+      "text": "very deep skin with a warm undertone",
+      "sentence": "Very deep skin with a warm undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "very deep skin with a warm undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing very deep skin with a warm undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with very deep skin with a warm undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-tone-base-very-deep",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-tone"
+      ],
+      "facets": {
+        "value": "very-deep",
+        "treatment": "warm-undertone"
+      },
+      "subcategory": "very-deep",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-tone-base-very-deep-cool-undertone",
+      "semantic_key": "identity-skin-tone-base-very-deep-cool-undertone",
+      "text": "very deep skin with a cool undertone",
+      "sentence": "Very deep skin with a cool undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "very deep skin with a cool undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing very deep skin with a cool undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with very deep skin with a cool undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-tone-base-very-deep",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-tone"
+      ],
+      "facets": {
+        "value": "very-deep",
+        "treatment": "cool-undertone"
+      },
+      "subcategory": "very-deep",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-tone-base-very-deep-golden-undertone",
+      "semantic_key": "identity-skin-tone-base-very-deep-golden-undertone",
+      "text": "very deep skin with a golden undertone",
+      "sentence": "Very deep skin with a golden undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "very deep skin with a golden undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing very deep skin with a golden undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with very deep skin with a golden undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-tone-base-very-deep",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-tone"
+      ],
+      "facets": {
+        "value": "very-deep",
+        "treatment": "golden-undertone"
+      },
+      "subcategory": "very-deep",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-tone-base-very-deep-olive-undertone",
+      "semantic_key": "identity-skin-tone-base-very-deep-olive-undertone",
+      "text": "very deep skin with a olive undertone",
+      "sentence": "Very deep skin with a olive undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "very deep skin with a olive undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing very deep skin with a olive undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with very deep skin with a olive undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-skin-tone-base-very-deep",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-uncommon",
+        "skin-tone"
+      ],
+      "facets": {
+        "value": "very-deep",
+        "treatment": "olive-undertone"
+      },
+      "subcategory": "very-deep",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-tone-base-very-deep-rose-undertone",
+      "semantic_key": "identity-skin-tone-base-very-deep-rose-undertone",
+      "text": "very deep skin with a rose undertone",
+      "sentence": "Very deep skin with a rose undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "very deep skin with a rose undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing very deep skin with a rose undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with very deep skin with a rose undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-skin-tone-base-very-deep",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-uncommon",
+        "skin-tone"
+      ],
+      "facets": {
+        "value": "very-deep",
+        "treatment": "rose-undertone"
+      },
+      "subcategory": "very-deep",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-tone-base-very-deep-muted-undertone",
+      "semantic_key": "identity-skin-tone-base-very-deep-muted-undertone",
+      "text": "very deep skin with a muted undertone",
+      "sentence": "Very deep skin with a muted undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "very deep skin with a muted undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing very deep skin with a muted undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with very deep skin with a muted undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-skin-tone-base-very-deep",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-rare",
+        "skin-tone"
+      ],
+      "facets": {
+        "value": "very-deep",
+        "treatment": "muted-undertone"
+      },
+      "subcategory": "very-deep",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-tone-base-very-deep-luminous-undertone",
+      "semantic_key": "identity-skin-tone-base-very-deep-luminous-undertone",
+      "text": "very deep skin with a luminous undertone",
+      "sentence": "Very deep skin with a luminous undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "very deep skin with a luminous undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing very deep skin with a luminous undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with very deep skin with a luminous undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-skin-tone-base-very-deep",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-rare",
+        "skin-tone"
+      ],
+      "facets": {
+        "value": "very-deep",
+        "treatment": "luminous-undertone"
+      },
+      "subcategory": "very-deep",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-tone-base-deep-neutral-undertone",
+      "semantic_key": "identity-skin-tone-base-deep-neutral-undertone",
+      "text": "deep skin with a neutral undertone",
+      "sentence": "Deep skin with a neutral undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "deep skin with a neutral undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing deep skin with a neutral undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with deep skin with a neutral undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-tone-base-deep",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-tone"
+      ],
+      "facets": {
+        "value": "deep",
+        "treatment": "neutral-undertone"
+      },
+      "subcategory": "deep",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-tone-base-deep-warm-undertone",
+      "semantic_key": "identity-skin-tone-base-deep-warm-undertone",
+      "text": "deep skin with a warm undertone",
+      "sentence": "Deep skin with a warm undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "deep skin with a warm undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing deep skin with a warm undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with deep skin with a warm undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-tone-base-deep",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-tone"
+      ],
+      "facets": {
+        "value": "deep",
+        "treatment": "warm-undertone"
+      },
+      "subcategory": "deep",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-tone-base-deep-cool-undertone",
+      "semantic_key": "identity-skin-tone-base-deep-cool-undertone",
+      "text": "deep skin with a cool undertone",
+      "sentence": "Deep skin with a cool undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "deep skin with a cool undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing deep skin with a cool undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with deep skin with a cool undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-tone-base-deep",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-tone"
+      ],
+      "facets": {
+        "value": "deep",
+        "treatment": "cool-undertone"
+      },
+      "subcategory": "deep",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-tone-base-deep-golden-undertone",
+      "semantic_key": "identity-skin-tone-base-deep-golden-undertone",
+      "text": "deep skin with a golden undertone",
+      "sentence": "Deep skin with a golden undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "deep skin with a golden undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing deep skin with a golden undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with deep skin with a golden undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-tone-base-deep",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-tone"
+      ],
+      "facets": {
+        "value": "deep",
+        "treatment": "golden-undertone"
+      },
+      "subcategory": "deep",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-tone-base-deep-olive-undertone",
+      "semantic_key": "identity-skin-tone-base-deep-olive-undertone",
+      "text": "deep skin with a olive undertone",
+      "sentence": "Deep skin with a olive undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "deep skin with a olive undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing deep skin with a olive undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with deep skin with a olive undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-skin-tone-base-deep",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-uncommon",
+        "skin-tone"
+      ],
+      "facets": {
+        "value": "deep",
+        "treatment": "olive-undertone"
+      },
+      "subcategory": "deep",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-tone-base-deep-rose-undertone",
+      "semantic_key": "identity-skin-tone-base-deep-rose-undertone",
+      "text": "deep skin with a rose undertone",
+      "sentence": "Deep skin with a rose undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "deep skin with a rose undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing deep skin with a rose undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with deep skin with a rose undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-skin-tone-base-deep",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-uncommon",
+        "skin-tone"
+      ],
+      "facets": {
+        "value": "deep",
+        "treatment": "rose-undertone"
+      },
+      "subcategory": "deep",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-tone-base-deep-muted-undertone",
+      "semantic_key": "identity-skin-tone-base-deep-muted-undertone",
+      "text": "deep skin with a muted undertone",
+      "sentence": "Deep skin with a muted undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "deep skin with a muted undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing deep skin with a muted undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with deep skin with a muted undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-skin-tone-base-deep",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-rare",
+        "skin-tone"
+      ],
+      "facets": {
+        "value": "deep",
+        "treatment": "muted-undertone"
+      },
+      "subcategory": "deep",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-tone-base-deep-luminous-undertone",
+      "semantic_key": "identity-skin-tone-base-deep-luminous-undertone",
+      "text": "deep skin with a luminous undertone",
+      "sentence": "Deep skin with a luminous undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "deep skin with a luminous undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing deep skin with a luminous undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with deep skin with a luminous undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-skin-tone-base-deep",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-rare",
+        "skin-tone"
+      ],
+      "facets": {
+        "value": "deep",
+        "treatment": "luminous-undertone"
+      },
+      "subcategory": "deep",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-tone-base-medium-deep-neutral-undertone",
+      "semantic_key": "identity-skin-tone-base-medium-deep-neutral-undertone",
+      "text": "medium-deep skin with a neutral undertone",
+      "sentence": "Medium-deep skin with a neutral undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "medium-deep skin with a neutral undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing medium-deep skin with a neutral undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with medium-deep skin with a neutral undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-tone-base-medium-deep",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-tone"
+      ],
+      "facets": {
+        "value": "medium-deep",
+        "treatment": "neutral-undertone"
+      },
+      "subcategory": "medium-deep",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-tone-base-medium-deep-warm-undertone",
+      "semantic_key": "identity-skin-tone-base-medium-deep-warm-undertone",
+      "text": "medium-deep skin with a warm undertone",
+      "sentence": "Medium-deep skin with a warm undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "medium-deep skin with a warm undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing medium-deep skin with a warm undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with medium-deep skin with a warm undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-tone-base-medium-deep",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-tone"
+      ],
+      "facets": {
+        "value": "medium-deep",
+        "treatment": "warm-undertone"
+      },
+      "subcategory": "medium-deep",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-tone-base-medium-deep-cool-undertone",
+      "semantic_key": "identity-skin-tone-base-medium-deep-cool-undertone",
+      "text": "medium-deep skin with a cool undertone",
+      "sentence": "Medium-deep skin with a cool undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "medium-deep skin with a cool undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing medium-deep skin with a cool undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with medium-deep skin with a cool undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-tone-base-medium-deep",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-tone"
+      ],
+      "facets": {
+        "value": "medium-deep",
+        "treatment": "cool-undertone"
+      },
+      "subcategory": "medium-deep",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-tone-base-medium-deep-golden-undertone",
+      "semantic_key": "identity-skin-tone-base-medium-deep-golden-undertone",
+      "text": "medium-deep skin with a golden undertone",
+      "sentence": "Medium-deep skin with a golden undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "medium-deep skin with a golden undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing medium-deep skin with a golden undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with medium-deep skin with a golden undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-tone-base-medium-deep",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-tone"
+      ],
+      "facets": {
+        "value": "medium-deep",
+        "treatment": "golden-undertone"
+      },
+      "subcategory": "medium-deep",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-tone-base-medium-deep-olive-undertone",
+      "semantic_key": "identity-skin-tone-base-medium-deep-olive-undertone",
+      "text": "medium-deep skin with a olive undertone",
+      "sentence": "Medium-deep skin with a olive undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "medium-deep skin with a olive undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing medium-deep skin with a olive undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with medium-deep skin with a olive undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-skin-tone-base-medium-deep",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-uncommon",
+        "skin-tone"
+      ],
+      "facets": {
+        "value": "medium-deep",
+        "treatment": "olive-undertone"
+      },
+      "subcategory": "medium-deep",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-tone-base-medium-deep-rose-undertone",
+      "semantic_key": "identity-skin-tone-base-medium-deep-rose-undertone",
+      "text": "medium-deep skin with a rose undertone",
+      "sentence": "Medium-deep skin with a rose undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "medium-deep skin with a rose undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing medium-deep skin with a rose undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with medium-deep skin with a rose undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-skin-tone-base-medium-deep",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-uncommon",
+        "skin-tone"
+      ],
+      "facets": {
+        "value": "medium-deep",
+        "treatment": "rose-undertone"
+      },
+      "subcategory": "medium-deep",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-tone-base-medium-deep-muted-undertone",
+      "semantic_key": "identity-skin-tone-base-medium-deep-muted-undertone",
+      "text": "medium-deep skin with a muted undertone",
+      "sentence": "Medium-deep skin with a muted undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "medium-deep skin with a muted undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing medium-deep skin with a muted undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with medium-deep skin with a muted undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-skin-tone-base-medium-deep",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-rare",
+        "skin-tone"
+      ],
+      "facets": {
+        "value": "medium-deep",
+        "treatment": "muted-undertone"
+      },
+      "subcategory": "medium-deep",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-tone-base-medium-deep-luminous-undertone",
+      "semantic_key": "identity-skin-tone-base-medium-deep-luminous-undertone",
+      "text": "medium-deep skin with a luminous undertone",
+      "sentence": "Medium-deep skin with a luminous undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "medium-deep skin with a luminous undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing medium-deep skin with a luminous undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with medium-deep skin with a luminous undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-skin-tone-base-medium-deep",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-rare",
+        "skin-tone"
+      ],
+      "facets": {
+        "value": "medium-deep",
+        "treatment": "luminous-undertone"
+      },
+      "subcategory": "medium-deep",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-tone-base-medium-neutral-undertone",
+      "semantic_key": "identity-skin-tone-base-medium-neutral-undertone",
+      "text": "medium skin with a neutral undertone",
+      "sentence": "Medium skin with a neutral undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "medium skin with a neutral undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing medium skin with a neutral undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with medium skin with a neutral undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-tone-base-medium",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-tone"
+      ],
+      "facets": {
+        "value": "medium",
+        "treatment": "neutral-undertone"
+      },
+      "subcategory": "medium",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-tone-base-medium-warm-undertone",
+      "semantic_key": "identity-skin-tone-base-medium-warm-undertone",
+      "text": "medium skin with a warm undertone",
+      "sentence": "Medium skin with a warm undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "medium skin with a warm undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing medium skin with a warm undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with medium skin with a warm undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-tone-base-medium",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-tone"
+      ],
+      "facets": {
+        "value": "medium",
+        "treatment": "warm-undertone"
+      },
+      "subcategory": "medium",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-tone-base-medium-cool-undertone",
+      "semantic_key": "identity-skin-tone-base-medium-cool-undertone",
+      "text": "medium skin with a cool undertone",
+      "sentence": "Medium skin with a cool undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "medium skin with a cool undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing medium skin with a cool undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with medium skin with a cool undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-tone-base-medium",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-tone"
+      ],
+      "facets": {
+        "value": "medium",
+        "treatment": "cool-undertone"
+      },
+      "subcategory": "medium",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-tone-base-medium-golden-undertone",
+      "semantic_key": "identity-skin-tone-base-medium-golden-undertone",
+      "text": "medium skin with a golden undertone",
+      "sentence": "Medium skin with a golden undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "medium skin with a golden undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing medium skin with a golden undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with medium skin with a golden undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-tone-base-medium",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-tone"
+      ],
+      "facets": {
+        "value": "medium",
+        "treatment": "golden-undertone"
+      },
+      "subcategory": "medium",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-tone-base-medium-olive-undertone",
+      "semantic_key": "identity-skin-tone-base-medium-olive-undertone",
+      "text": "medium skin with a olive undertone",
+      "sentence": "Medium skin with a olive undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "medium skin with a olive undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing medium skin with a olive undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with medium skin with a olive undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-skin-tone-base-medium",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-uncommon",
+        "skin-tone"
+      ],
+      "facets": {
+        "value": "medium",
+        "treatment": "olive-undertone"
+      },
+      "subcategory": "medium",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-tone-base-medium-rose-undertone",
+      "semantic_key": "identity-skin-tone-base-medium-rose-undertone",
+      "text": "medium skin with a rose undertone",
+      "sentence": "Medium skin with a rose undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "medium skin with a rose undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing medium skin with a rose undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with medium skin with a rose undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-skin-tone-base-medium",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-uncommon",
+        "skin-tone"
+      ],
+      "facets": {
+        "value": "medium",
+        "treatment": "rose-undertone"
+      },
+      "subcategory": "medium",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-tone-base-medium-muted-undertone",
+      "semantic_key": "identity-skin-tone-base-medium-muted-undertone",
+      "text": "medium skin with a muted undertone",
+      "sentence": "Medium skin with a muted undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "medium skin with a muted undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing medium skin with a muted undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with medium skin with a muted undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-skin-tone-base-medium",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-rare",
+        "skin-tone"
+      ],
+      "facets": {
+        "value": "medium",
+        "treatment": "muted-undertone"
+      },
+      "subcategory": "medium",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-tone-base-medium-luminous-undertone",
+      "semantic_key": "identity-skin-tone-base-medium-luminous-undertone",
+      "text": "medium skin with a luminous undertone",
+      "sentence": "Medium skin with a luminous undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "medium skin with a luminous undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing medium skin with a luminous undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with medium skin with a luminous undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-skin-tone-base-medium",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-rare",
+        "skin-tone"
+      ],
+      "facets": {
+        "value": "medium",
+        "treatment": "luminous-undertone"
+      },
+      "subcategory": "medium",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-tone-base-medium-light-neutral-undertone",
+      "semantic_key": "identity-skin-tone-base-medium-light-neutral-undertone",
+      "text": "medium-light skin with a neutral undertone",
+      "sentence": "Medium-light skin with a neutral undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "medium-light skin with a neutral undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing medium-light skin with a neutral undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with medium-light skin with a neutral undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-tone-base-medium-light",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-tone"
+      ],
+      "facets": {
+        "value": "medium-light",
+        "treatment": "neutral-undertone"
+      },
+      "subcategory": "medium-light",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-tone-base-medium-light-warm-undertone",
+      "semantic_key": "identity-skin-tone-base-medium-light-warm-undertone",
+      "text": "medium-light skin with a warm undertone",
+      "sentence": "Medium-light skin with a warm undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "medium-light skin with a warm undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing medium-light skin with a warm undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with medium-light skin with a warm undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-tone-base-medium-light",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-tone"
+      ],
+      "facets": {
+        "value": "medium-light",
+        "treatment": "warm-undertone"
+      },
+      "subcategory": "medium-light",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-tone-base-medium-light-cool-undertone",
+      "semantic_key": "identity-skin-tone-base-medium-light-cool-undertone",
+      "text": "medium-light skin with a cool undertone",
+      "sentence": "Medium-light skin with a cool undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "medium-light skin with a cool undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing medium-light skin with a cool undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with medium-light skin with a cool undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-tone-base-medium-light",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-tone"
+      ],
+      "facets": {
+        "value": "medium-light",
+        "treatment": "cool-undertone"
+      },
+      "subcategory": "medium-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-tone-base-medium-light-golden-undertone",
+      "semantic_key": "identity-skin-tone-base-medium-light-golden-undertone",
+      "text": "medium-light skin with a golden undertone",
+      "sentence": "Medium-light skin with a golden undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "medium-light skin with a golden undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing medium-light skin with a golden undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with medium-light skin with a golden undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-tone-base-medium-light",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-tone"
+      ],
+      "facets": {
+        "value": "medium-light",
+        "treatment": "golden-undertone"
+      },
+      "subcategory": "medium-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-tone-base-medium-light-olive-undertone",
+      "semantic_key": "identity-skin-tone-base-medium-light-olive-undertone",
+      "text": "medium-light skin with a olive undertone",
+      "sentence": "Medium-light skin with a olive undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "medium-light skin with a olive undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing medium-light skin with a olive undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with medium-light skin with a olive undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-skin-tone-base-medium-light",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-uncommon",
+        "skin-tone"
+      ],
+      "facets": {
+        "value": "medium-light",
+        "treatment": "olive-undertone"
+      },
+      "subcategory": "medium-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-tone-base-medium-light-rose-undertone",
+      "semantic_key": "identity-skin-tone-base-medium-light-rose-undertone",
+      "text": "medium-light skin with a rose undertone",
+      "sentence": "Medium-light skin with a rose undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "medium-light skin with a rose undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing medium-light skin with a rose undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with medium-light skin with a rose undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-skin-tone-base-medium-light",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-uncommon",
+        "skin-tone"
+      ],
+      "facets": {
+        "value": "medium-light",
+        "treatment": "rose-undertone"
+      },
+      "subcategory": "medium-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-tone-base-medium-light-muted-undertone",
+      "semantic_key": "identity-skin-tone-base-medium-light-muted-undertone",
+      "text": "medium-light skin with a muted undertone",
+      "sentence": "Medium-light skin with a muted undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "medium-light skin with a muted undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing medium-light skin with a muted undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with medium-light skin with a muted undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-skin-tone-base-medium-light",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-rare",
+        "skin-tone"
+      ],
+      "facets": {
+        "value": "medium-light",
+        "treatment": "muted-undertone"
+      },
+      "subcategory": "medium-light",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-tone-base-medium-light-luminous-undertone",
+      "semantic_key": "identity-skin-tone-base-medium-light-luminous-undertone",
+      "text": "medium-light skin with a luminous undertone",
+      "sentence": "Medium-light skin with a luminous undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "medium-light skin with a luminous undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing medium-light skin with a luminous undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with medium-light skin with a luminous undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-skin-tone-base-medium-light",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-rare",
+        "skin-tone"
+      ],
+      "facets": {
+        "value": "medium-light",
+        "treatment": "luminous-undertone"
+      },
+      "subcategory": "medium-light",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-tone-base-light-neutral-undertone",
+      "semantic_key": "identity-skin-tone-base-light-neutral-undertone",
+      "text": "light skin with a neutral undertone",
+      "sentence": "Light skin with a neutral undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "light skin with a neutral undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing light skin with a neutral undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with light skin with a neutral undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-tone-base-light",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-tone"
+      ],
+      "facets": {
+        "value": "light",
+        "treatment": "neutral-undertone"
+      },
+      "subcategory": "light",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-tone-base-light-warm-undertone",
+      "semantic_key": "identity-skin-tone-base-light-warm-undertone",
+      "text": "light skin with a warm undertone",
+      "sentence": "Light skin with a warm undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "light skin with a warm undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing light skin with a warm undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with light skin with a warm undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-tone-base-light",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-tone"
+      ],
+      "facets": {
+        "value": "light",
+        "treatment": "warm-undertone"
+      },
+      "subcategory": "light",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-tone-base-light-cool-undertone",
+      "semantic_key": "identity-skin-tone-base-light-cool-undertone",
+      "text": "light skin with a cool undertone",
+      "sentence": "Light skin with a cool undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "light skin with a cool undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing light skin with a cool undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with light skin with a cool undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-tone-base-light",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-tone"
+      ],
+      "facets": {
+        "value": "light",
+        "treatment": "cool-undertone"
+      },
+      "subcategory": "light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-tone-base-light-golden-undertone",
+      "semantic_key": "identity-skin-tone-base-light-golden-undertone",
+      "text": "light skin with a golden undertone",
+      "sentence": "Light skin with a golden undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "light skin with a golden undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing light skin with a golden undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with light skin with a golden undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-tone-base-light",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-tone"
+      ],
+      "facets": {
+        "value": "light",
+        "treatment": "golden-undertone"
+      },
+      "subcategory": "light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-tone-base-light-olive-undertone",
+      "semantic_key": "identity-skin-tone-base-light-olive-undertone",
+      "text": "light skin with a olive undertone",
+      "sentence": "Light skin with a olive undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "light skin with a olive undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing light skin with a olive undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with light skin with a olive undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-skin-tone-base-light",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-uncommon",
+        "skin-tone"
+      ],
+      "facets": {
+        "value": "light",
+        "treatment": "olive-undertone"
+      },
+      "subcategory": "light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-tone-base-light-rose-undertone",
+      "semantic_key": "identity-skin-tone-base-light-rose-undertone",
+      "text": "light skin with a rose undertone",
+      "sentence": "Light skin with a rose undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "light skin with a rose undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing light skin with a rose undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with light skin with a rose undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-skin-tone-base-light",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-uncommon",
+        "skin-tone"
+      ],
+      "facets": {
+        "value": "light",
+        "treatment": "rose-undertone"
+      },
+      "subcategory": "light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-tone-base-light-muted-undertone",
+      "semantic_key": "identity-skin-tone-base-light-muted-undertone",
+      "text": "light skin with a muted undertone",
+      "sentence": "Light skin with a muted undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "light skin with a muted undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing light skin with a muted undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with light skin with a muted undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-skin-tone-base-light",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-rare",
+        "skin-tone"
+      ],
+      "facets": {
+        "value": "light",
+        "treatment": "muted-undertone"
+      },
+      "subcategory": "light",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-tone-base-light-luminous-undertone",
+      "semantic_key": "identity-skin-tone-base-light-luminous-undertone",
+      "text": "light skin with a luminous undertone",
+      "sentence": "Light skin with a luminous undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "light skin with a luminous undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing light skin with a luminous undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with light skin with a luminous undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-skin-tone-base-light",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-rare",
+        "skin-tone"
+      ],
+      "facets": {
+        "value": "light",
+        "treatment": "luminous-undertone"
+      },
+      "subcategory": "light",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-tone-base-very-light-neutral-undertone",
+      "semantic_key": "identity-skin-tone-base-very-light-neutral-undertone",
+      "text": "very light skin with a neutral undertone",
+      "sentence": "Very light skin with a neutral undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "very light skin with a neutral undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing very light skin with a neutral undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with very light skin with a neutral undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-tone-base-very-light",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-tone"
+      ],
+      "facets": {
+        "value": "very-light",
+        "treatment": "neutral-undertone"
+      },
+      "subcategory": "very-light",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-tone-base-very-light-warm-undertone",
+      "semantic_key": "identity-skin-tone-base-very-light-warm-undertone",
+      "text": "very light skin with a warm undertone",
+      "sentence": "Very light skin with a warm undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "very light skin with a warm undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing very light skin with a warm undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with very light skin with a warm undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-tone-base-very-light",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-tone"
+      ],
+      "facets": {
+        "value": "very-light",
+        "treatment": "warm-undertone"
+      },
+      "subcategory": "very-light",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-tone-base-very-light-cool-undertone",
+      "semantic_key": "identity-skin-tone-base-very-light-cool-undertone",
+      "text": "very light skin with a cool undertone",
+      "sentence": "Very light skin with a cool undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "very light skin with a cool undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing very light skin with a cool undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with very light skin with a cool undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-tone-base-very-light",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-tone"
+      ],
+      "facets": {
+        "value": "very-light",
+        "treatment": "cool-undertone"
+      },
+      "subcategory": "very-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-tone-base-very-light-golden-undertone",
+      "semantic_key": "identity-skin-tone-base-very-light-golden-undertone",
+      "text": "very light skin with a golden undertone",
+      "sentence": "Very light skin with a golden undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "very light skin with a golden undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing very light skin with a golden undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with very light skin with a golden undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-tone-base-very-light",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-tone"
+      ],
+      "facets": {
+        "value": "very-light",
+        "treatment": "golden-undertone"
+      },
+      "subcategory": "very-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-tone-base-very-light-olive-undertone",
+      "semantic_key": "identity-skin-tone-base-very-light-olive-undertone",
+      "text": "very light skin with a olive undertone",
+      "sentence": "Very light skin with a olive undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "very light skin with a olive undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing very light skin with a olive undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with very light skin with a olive undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-skin-tone-base-very-light",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-uncommon",
+        "skin-tone"
+      ],
+      "facets": {
+        "value": "very-light",
+        "treatment": "olive-undertone"
+      },
+      "subcategory": "very-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-tone-base-very-light-rose-undertone",
+      "semantic_key": "identity-skin-tone-base-very-light-rose-undertone",
+      "text": "very light skin with a rose undertone",
+      "sentence": "Very light skin with a rose undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "very light skin with a rose undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing very light skin with a rose undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with very light skin with a rose undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-skin-tone-base-very-light",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-uncommon",
+        "skin-tone"
+      ],
+      "facets": {
+        "value": "very-light",
+        "treatment": "rose-undertone"
+      },
+      "subcategory": "very-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-tone-base-very-light-muted-undertone",
+      "semantic_key": "identity-skin-tone-base-very-light-muted-undertone",
+      "text": "very light skin with a muted undertone",
+      "sentence": "Very light skin with a muted undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "very light skin with a muted undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing very light skin with a muted undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with very light skin with a muted undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-skin-tone-base-very-light",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-rare",
+        "skin-tone"
+      ],
+      "facets": {
+        "value": "very-light",
+        "treatment": "muted-undertone"
+      },
+      "subcategory": "very-light",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-tone-base-very-light-luminous-undertone",
+      "semantic_key": "identity-skin-tone-base-very-light-luminous-undertone",
+      "text": "very light skin with a luminous undertone",
+      "sentence": "Very light skin with a luminous undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "very light skin with a luminous undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing very light skin with a luminous undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with very light skin with a luminous undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-skin-tone-base-very-light",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-rare",
+        "skin-tone"
+      ],
+      "facets": {
+        "value": "very-light",
+        "treatment": "luminous-undertone"
+      },
+      "subcategory": "very-light",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-tone-base-rich-brown-neutral-undertone",
+      "semantic_key": "identity-skin-tone-base-rich-brown-neutral-undertone",
+      "text": "rich brown skin with a neutral undertone",
+      "sentence": "Rich brown skin with a neutral undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "rich brown skin with a neutral undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing rich brown skin with a neutral undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with rich brown skin with a neutral undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-tone-base-rich-brown",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-tone"
+      ],
+      "facets": {
+        "value": "rich-brown",
+        "treatment": "neutral-undertone"
+      },
+      "subcategory": "rich-brown",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-tone-base-rich-brown-warm-undertone",
+      "semantic_key": "identity-skin-tone-base-rich-brown-warm-undertone",
+      "text": "rich brown skin with a warm undertone",
+      "sentence": "Rich brown skin with a warm undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "rich brown skin with a warm undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing rich brown skin with a warm undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with rich brown skin with a warm undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-tone-base-rich-brown",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-tone"
+      ],
+      "facets": {
+        "value": "rich-brown",
+        "treatment": "warm-undertone"
+      },
+      "subcategory": "rich-brown",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-tone-base-rich-brown-cool-undertone",
+      "semantic_key": "identity-skin-tone-base-rich-brown-cool-undertone",
+      "text": "rich brown skin with a cool undertone",
+      "sentence": "Rich brown skin with a cool undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "rich brown skin with a cool undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing rich brown skin with a cool undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with rich brown skin with a cool undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-tone-base-rich-brown",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-tone"
+      ],
+      "facets": {
+        "value": "rich-brown",
+        "treatment": "cool-undertone"
+      },
+      "subcategory": "rich-brown",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-tone-base-rich-brown-golden-undertone",
+      "semantic_key": "identity-skin-tone-base-rich-brown-golden-undertone",
+      "text": "rich brown skin with a golden undertone",
+      "sentence": "Rich brown skin with a golden undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "rich brown skin with a golden undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing rich brown skin with a golden undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with rich brown skin with a golden undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-tone-base-rich-brown",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-tone"
+      ],
+      "facets": {
+        "value": "rich-brown",
+        "treatment": "golden-undertone"
+      },
+      "subcategory": "rich-brown",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-tone-base-rich-brown-olive-undertone",
+      "semantic_key": "identity-skin-tone-base-rich-brown-olive-undertone",
+      "text": "rich brown skin with a olive undertone",
+      "sentence": "Rich brown skin with a olive undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "rich brown skin with a olive undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing rich brown skin with a olive undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with rich brown skin with a olive undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-skin-tone-base-rich-brown",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-uncommon",
+        "skin-tone"
+      ],
+      "facets": {
+        "value": "rich-brown",
+        "treatment": "olive-undertone"
+      },
+      "subcategory": "rich-brown",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-tone-base-rich-brown-rose-undertone",
+      "semantic_key": "identity-skin-tone-base-rich-brown-rose-undertone",
+      "text": "rich brown skin with a rose undertone",
+      "sentence": "Rich brown skin with a rose undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "rich brown skin with a rose undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing rich brown skin with a rose undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with rich brown skin with a rose undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-skin-tone-base-rich-brown",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-uncommon",
+        "skin-tone"
+      ],
+      "facets": {
+        "value": "rich-brown",
+        "treatment": "rose-undertone"
+      },
+      "subcategory": "rich-brown",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-tone-base-rich-brown-muted-undertone",
+      "semantic_key": "identity-skin-tone-base-rich-brown-muted-undertone",
+      "text": "rich brown skin with a muted undertone",
+      "sentence": "Rich brown skin with a muted undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "rich brown skin with a muted undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing rich brown skin with a muted undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with rich brown skin with a muted undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-skin-tone-base-rich-brown",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-rare",
+        "skin-tone"
+      ],
+      "facets": {
+        "value": "rich-brown",
+        "treatment": "muted-undertone"
+      },
+      "subcategory": "rich-brown",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-tone-base-rich-brown-luminous-undertone",
+      "semantic_key": "identity-skin-tone-base-rich-brown-luminous-undertone",
+      "text": "rich brown skin with a luminous undertone",
+      "sentence": "Rich brown skin with a luminous undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "rich brown skin with a luminous undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing rich brown skin with a luminous undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with rich brown skin with a luminous undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-skin-tone-base-rich-brown",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-rare",
+        "skin-tone"
+      ],
+      "facets": {
+        "value": "rich-brown",
+        "treatment": "luminous-undertone"
+      },
+      "subcategory": "rich-brown",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    }
+  ]
+}

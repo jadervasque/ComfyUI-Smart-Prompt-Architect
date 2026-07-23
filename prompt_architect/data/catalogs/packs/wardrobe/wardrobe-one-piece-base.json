@@ -1,0 +1,2577 @@
+{
+  "schema_version": "2.0",
+  "id": "wardrobe-one-piece-base",
+  "version": "2.0.0",
+  "library": "one-piece",
+  "domain": "wardrobe",
+  "category": "one-piece",
+  "language": "en",
+  "status": "active",
+  "safety": "general",
+  "tags": [
+    "base"
+  ],
+  "fallback_option_id": "wardrobe-one-piece-base-shirt-dress-precise-tailoring",
+  "options": [
+    {
+      "id": "wardrobe-one-piece-base-shirt-dress-precise-tailoring",
+      "semantic_key": "wardrobe-one-piece-base-shirt-dress-precise-tailoring",
+      "text": "a shirt dress with precise tailoring",
+      "sentence": "A shirt dress with precise tailoring.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a shirt dress with precise tailoring",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a shirt dress with precise tailoring",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a shirt dress with precise tailoring",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-one-piece-base-shirt-dress",
+      "tags": [
+        "base",
+        "one-piece",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "shirt-dress",
+        "treatment": "precise-tailoring"
+      },
+      "subcategory": "shirt-dress",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-one-piece-base-shirt-dress-relaxed-drape",
+      "semantic_key": "wardrobe-one-piece-base-shirt-dress-relaxed-drape",
+      "text": "a shirt dress with relaxed drape",
+      "sentence": "A shirt dress with relaxed drape.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a shirt dress with relaxed drape",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a shirt dress with relaxed drape",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a shirt dress with relaxed drape",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-one-piece-base-shirt-dress",
+      "tags": [
+        "base",
+        "one-piece",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "shirt-dress",
+        "treatment": "relaxed-drape"
+      },
+      "subcategory": "shirt-dress",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-one-piece-base-shirt-dress-layered-construction",
+      "semantic_key": "wardrobe-one-piece-base-shirt-dress-layered-construction",
+      "text": "a shirt dress with layered construction",
+      "sentence": "A shirt dress with layered construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a shirt dress with layered construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a shirt dress with layered construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a shirt dress with layered construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-one-piece-base-shirt-dress",
+      "tags": [
+        "base",
+        "one-piece",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "shirt-dress",
+        "treatment": "layered-construction"
+      },
+      "subcategory": "shirt-dress",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-one-piece-base-shirt-dress-clean-seaming",
+      "semantic_key": "wardrobe-one-piece-base-shirt-dress-clean-seaming",
+      "text": "a shirt dress with clean seaming",
+      "sentence": "A shirt dress with clean seaming.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a shirt dress with clean seaming",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a shirt dress with clean seaming",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a shirt dress with clean seaming",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-one-piece-base-shirt-dress",
+      "tags": [
+        "base",
+        "one-piece",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "shirt-dress",
+        "treatment": "clean-seaming"
+      },
+      "subcategory": "shirt-dress",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-one-piece-base-shirt-dress-structured-volume",
+      "semantic_key": "wardrobe-one-piece-base-shirt-dress-structured-volume",
+      "text": "a shirt dress with structured volume",
+      "sentence": "A shirt dress with structured volume.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a shirt dress with structured volume",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a shirt dress with structured volume",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a shirt dress with structured volume",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-one-piece-base-shirt-dress",
+      "tags": [
+        "base",
+        "one-piece",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "shirt-dress",
+        "treatment": "structured-volume"
+      },
+      "subcategory": "shirt-dress",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-one-piece-base-shirt-dress-fluid-movement",
+      "semantic_key": "wardrobe-one-piece-base-shirt-dress-fluid-movement",
+      "text": "a shirt dress with fluid movement",
+      "sentence": "A shirt dress with fluid movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a shirt dress with fluid movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a shirt dress with fluid movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a shirt dress with fluid movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-one-piece-base-shirt-dress",
+      "tags": [
+        "base",
+        "one-piece",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "shirt-dress",
+        "treatment": "fluid-movement"
+      },
+      "subcategory": "shirt-dress",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-one-piece-base-shirt-dress-practical-detailing",
+      "semantic_key": "wardrobe-one-piece-base-shirt-dress-practical-detailing",
+      "text": "a shirt dress with practical detailing",
+      "sentence": "A shirt dress with practical detailing.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a shirt dress with practical detailing",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a shirt dress with practical detailing",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a shirt dress with practical detailing",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-one-piece-base-shirt-dress",
+      "tags": [
+        "base",
+        "one-piece",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "shirt-dress",
+        "treatment": "practical-detailing"
+      },
+      "subcategory": "shirt-dress",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-one-piece-base-shirt-dress-minimal-construction",
+      "semantic_key": "wardrobe-one-piece-base-shirt-dress-minimal-construction",
+      "text": "a shirt dress with minimal construction",
+      "sentence": "A shirt dress with minimal construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a shirt dress with minimal construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a shirt dress with minimal construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a shirt dress with minimal construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-one-piece-base-shirt-dress",
+      "tags": [
+        "base",
+        "one-piece",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "shirt-dress",
+        "treatment": "minimal-construction"
+      },
+      "subcategory": "shirt-dress",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-one-piece-base-wrap-dress-precise-tailoring",
+      "semantic_key": "wardrobe-one-piece-base-wrap-dress-precise-tailoring",
+      "text": "a wrap dress with precise tailoring",
+      "sentence": "A wrap dress with precise tailoring.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a wrap dress with precise tailoring",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a wrap dress with precise tailoring",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a wrap dress with precise tailoring",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-one-piece-base-wrap-dress",
+      "tags": [
+        "base",
+        "one-piece",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "wrap-dress",
+        "treatment": "precise-tailoring"
+      },
+      "subcategory": "wrap-dress",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-one-piece-base-wrap-dress-relaxed-drape",
+      "semantic_key": "wardrobe-one-piece-base-wrap-dress-relaxed-drape",
+      "text": "a wrap dress with relaxed drape",
+      "sentence": "A wrap dress with relaxed drape.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a wrap dress with relaxed drape",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a wrap dress with relaxed drape",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a wrap dress with relaxed drape",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-one-piece-base-wrap-dress",
+      "tags": [
+        "base",
+        "one-piece",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "wrap-dress",
+        "treatment": "relaxed-drape"
+      },
+      "subcategory": "wrap-dress",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-one-piece-base-wrap-dress-layered-construction",
+      "semantic_key": "wardrobe-one-piece-base-wrap-dress-layered-construction",
+      "text": "a wrap dress with layered construction",
+      "sentence": "A wrap dress with layered construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a wrap dress with layered construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a wrap dress with layered construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a wrap dress with layered construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-one-piece-base-wrap-dress",
+      "tags": [
+        "base",
+        "one-piece",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "wrap-dress",
+        "treatment": "layered-construction"
+      },
+      "subcategory": "wrap-dress",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-one-piece-base-wrap-dress-clean-seaming",
+      "semantic_key": "wardrobe-one-piece-base-wrap-dress-clean-seaming",
+      "text": "a wrap dress with clean seaming",
+      "sentence": "A wrap dress with clean seaming.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a wrap dress with clean seaming",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a wrap dress with clean seaming",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a wrap dress with clean seaming",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-one-piece-base-wrap-dress",
+      "tags": [
+        "base",
+        "one-piece",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "wrap-dress",
+        "treatment": "clean-seaming"
+      },
+      "subcategory": "wrap-dress",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-one-piece-base-wrap-dress-structured-volume",
+      "semantic_key": "wardrobe-one-piece-base-wrap-dress-structured-volume",
+      "text": "a wrap dress with structured volume",
+      "sentence": "A wrap dress with structured volume.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a wrap dress with structured volume",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a wrap dress with structured volume",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a wrap dress with structured volume",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-one-piece-base-wrap-dress",
+      "tags": [
+        "base",
+        "one-piece",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "wrap-dress",
+        "treatment": "structured-volume"
+      },
+      "subcategory": "wrap-dress",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-one-piece-base-wrap-dress-fluid-movement",
+      "semantic_key": "wardrobe-one-piece-base-wrap-dress-fluid-movement",
+      "text": "a wrap dress with fluid movement",
+      "sentence": "A wrap dress with fluid movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a wrap dress with fluid movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a wrap dress with fluid movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a wrap dress with fluid movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-one-piece-base-wrap-dress",
+      "tags": [
+        "base",
+        "one-piece",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "wrap-dress",
+        "treatment": "fluid-movement"
+      },
+      "subcategory": "wrap-dress",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-one-piece-base-wrap-dress-practical-detailing",
+      "semantic_key": "wardrobe-one-piece-base-wrap-dress-practical-detailing",
+      "text": "a wrap dress with practical detailing",
+      "sentence": "A wrap dress with practical detailing.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a wrap dress with practical detailing",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a wrap dress with practical detailing",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a wrap dress with practical detailing",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-one-piece-base-wrap-dress",
+      "tags": [
+        "base",
+        "one-piece",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "wrap-dress",
+        "treatment": "practical-detailing"
+      },
+      "subcategory": "wrap-dress",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-one-piece-base-wrap-dress-minimal-construction",
+      "semantic_key": "wardrobe-one-piece-base-wrap-dress-minimal-construction",
+      "text": "a wrap dress with minimal construction",
+      "sentence": "A wrap dress with minimal construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a wrap dress with minimal construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a wrap dress with minimal construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a wrap dress with minimal construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-one-piece-base-wrap-dress",
+      "tags": [
+        "base",
+        "one-piece",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "wrap-dress",
+        "treatment": "minimal-construction"
+      },
+      "subcategory": "wrap-dress",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-one-piece-base-column-dress-precise-tailoring",
+      "semantic_key": "wardrobe-one-piece-base-column-dress-precise-tailoring",
+      "text": "a column dress with precise tailoring",
+      "sentence": "A column dress with precise tailoring.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a column dress with precise tailoring",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a column dress with precise tailoring",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a column dress with precise tailoring",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-one-piece-base-column-dress",
+      "tags": [
+        "base",
+        "one-piece",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "column-dress",
+        "treatment": "precise-tailoring"
+      },
+      "subcategory": "column-dress",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-one-piece-base-column-dress-relaxed-drape",
+      "semantic_key": "wardrobe-one-piece-base-column-dress-relaxed-drape",
+      "text": "a column dress with relaxed drape",
+      "sentence": "A column dress with relaxed drape.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a column dress with relaxed drape",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a column dress with relaxed drape",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a column dress with relaxed drape",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-one-piece-base-column-dress",
+      "tags": [
+        "base",
+        "one-piece",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "column-dress",
+        "treatment": "relaxed-drape"
+      },
+      "subcategory": "column-dress",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-one-piece-base-column-dress-layered-construction",
+      "semantic_key": "wardrobe-one-piece-base-column-dress-layered-construction",
+      "text": "a column dress with layered construction",
+      "sentence": "A column dress with layered construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a column dress with layered construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a column dress with layered construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a column dress with layered construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-one-piece-base-column-dress",
+      "tags": [
+        "base",
+        "one-piece",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "column-dress",
+        "treatment": "layered-construction"
+      },
+      "subcategory": "column-dress",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-one-piece-base-column-dress-clean-seaming",
+      "semantic_key": "wardrobe-one-piece-base-column-dress-clean-seaming",
+      "text": "a column dress with clean seaming",
+      "sentence": "A column dress with clean seaming.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a column dress with clean seaming",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a column dress with clean seaming",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a column dress with clean seaming",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-one-piece-base-column-dress",
+      "tags": [
+        "base",
+        "one-piece",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "column-dress",
+        "treatment": "clean-seaming"
+      },
+      "subcategory": "column-dress",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-one-piece-base-column-dress-structured-volume",
+      "semantic_key": "wardrobe-one-piece-base-column-dress-structured-volume",
+      "text": "a column dress with structured volume",
+      "sentence": "A column dress with structured volume.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a column dress with structured volume",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a column dress with structured volume",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a column dress with structured volume",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-one-piece-base-column-dress",
+      "tags": [
+        "base",
+        "one-piece",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "column-dress",
+        "treatment": "structured-volume"
+      },
+      "subcategory": "column-dress",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-one-piece-base-column-dress-fluid-movement",
+      "semantic_key": "wardrobe-one-piece-base-column-dress-fluid-movement",
+      "text": "a column dress with fluid movement",
+      "sentence": "A column dress with fluid movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a column dress with fluid movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a column dress with fluid movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a column dress with fluid movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-one-piece-base-column-dress",
+      "tags": [
+        "base",
+        "one-piece",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "column-dress",
+        "treatment": "fluid-movement"
+      },
+      "subcategory": "column-dress",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-one-piece-base-column-dress-practical-detailing",
+      "semantic_key": "wardrobe-one-piece-base-column-dress-practical-detailing",
+      "text": "a column dress with practical detailing",
+      "sentence": "A column dress with practical detailing.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a column dress with practical detailing",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a column dress with practical detailing",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a column dress with practical detailing",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-one-piece-base-column-dress",
+      "tags": [
+        "base",
+        "one-piece",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "column-dress",
+        "treatment": "practical-detailing"
+      },
+      "subcategory": "column-dress",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-one-piece-base-column-dress-minimal-construction",
+      "semantic_key": "wardrobe-one-piece-base-column-dress-minimal-construction",
+      "text": "a column dress with minimal construction",
+      "sentence": "A column dress with minimal construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a column dress with minimal construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a column dress with minimal construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a column dress with minimal construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-one-piece-base-column-dress",
+      "tags": [
+        "base",
+        "one-piece",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "column-dress",
+        "treatment": "minimal-construction"
+      },
+      "subcategory": "column-dress",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-one-piece-base-tailored-jumpsuit-precise-tailoring",
+      "semantic_key": "wardrobe-one-piece-base-tailored-jumpsuit-precise-tailoring",
+      "text": "a tailored jumpsuit with precise tailoring",
+      "sentence": "A tailored jumpsuit with precise tailoring.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a tailored jumpsuit with precise tailoring",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a tailored jumpsuit with precise tailoring",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a tailored jumpsuit with precise tailoring",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-one-piece-base-tailored-jumpsuit",
+      "tags": [
+        "base",
+        "one-piece",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "tailored-jumpsuit",
+        "treatment": "precise-tailoring"
+      },
+      "subcategory": "tailored-jumpsuit",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-one-piece-base-tailored-jumpsuit-relaxed-drape",
+      "semantic_key": "wardrobe-one-piece-base-tailored-jumpsuit-relaxed-drape",
+      "text": "a tailored jumpsuit with relaxed drape",
+      "sentence": "A tailored jumpsuit with relaxed drape.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a tailored jumpsuit with relaxed drape",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a tailored jumpsuit with relaxed drape",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a tailored jumpsuit with relaxed drape",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-one-piece-base-tailored-jumpsuit",
+      "tags": [
+        "base",
+        "one-piece",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "tailored-jumpsuit",
+        "treatment": "relaxed-drape"
+      },
+      "subcategory": "tailored-jumpsuit",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-one-piece-base-tailored-jumpsuit-layered-construction",
+      "semantic_key": "wardrobe-one-piece-base-tailored-jumpsuit-layered-construction",
+      "text": "a tailored jumpsuit with layered construction",
+      "sentence": "A tailored jumpsuit with layered construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a tailored jumpsuit with layered construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a tailored jumpsuit with layered construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a tailored jumpsuit with layered construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-one-piece-base-tailored-jumpsuit",
+      "tags": [
+        "base",
+        "one-piece",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "tailored-jumpsuit",
+        "treatment": "layered-construction"
+      },
+      "subcategory": "tailored-jumpsuit",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-one-piece-base-tailored-jumpsuit-clean-seaming",
+      "semantic_key": "wardrobe-one-piece-base-tailored-jumpsuit-clean-seaming",
+      "text": "a tailored jumpsuit with clean seaming",
+      "sentence": "A tailored jumpsuit with clean seaming.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a tailored jumpsuit with clean seaming",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a tailored jumpsuit with clean seaming",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a tailored jumpsuit with clean seaming",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-one-piece-base-tailored-jumpsuit",
+      "tags": [
+        "base",
+        "one-piece",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "tailored-jumpsuit",
+        "treatment": "clean-seaming"
+      },
+      "subcategory": "tailored-jumpsuit",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-one-piece-base-tailored-jumpsuit-structured-volume",
+      "semantic_key": "wardrobe-one-piece-base-tailored-jumpsuit-structured-volume",
+      "text": "a tailored jumpsuit with structured volume",
+      "sentence": "A tailored jumpsuit with structured volume.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a tailored jumpsuit with structured volume",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a tailored jumpsuit with structured volume",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a tailored jumpsuit with structured volume",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-one-piece-base-tailored-jumpsuit",
+      "tags": [
+        "base",
+        "one-piece",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "tailored-jumpsuit",
+        "treatment": "structured-volume"
+      },
+      "subcategory": "tailored-jumpsuit",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-one-piece-base-tailored-jumpsuit-fluid-movement",
+      "semantic_key": "wardrobe-one-piece-base-tailored-jumpsuit-fluid-movement",
+      "text": "a tailored jumpsuit with fluid movement",
+      "sentence": "A tailored jumpsuit with fluid movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a tailored jumpsuit with fluid movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a tailored jumpsuit with fluid movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a tailored jumpsuit with fluid movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-one-piece-base-tailored-jumpsuit",
+      "tags": [
+        "base",
+        "one-piece",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "tailored-jumpsuit",
+        "treatment": "fluid-movement"
+      },
+      "subcategory": "tailored-jumpsuit",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-one-piece-base-tailored-jumpsuit-practical-detailing",
+      "semantic_key": "wardrobe-one-piece-base-tailored-jumpsuit-practical-detailing",
+      "text": "a tailored jumpsuit with practical detailing",
+      "sentence": "A tailored jumpsuit with practical detailing.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a tailored jumpsuit with practical detailing",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a tailored jumpsuit with practical detailing",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a tailored jumpsuit with practical detailing",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-one-piece-base-tailored-jumpsuit",
+      "tags": [
+        "base",
+        "one-piece",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "tailored-jumpsuit",
+        "treatment": "practical-detailing"
+      },
+      "subcategory": "tailored-jumpsuit",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-one-piece-base-tailored-jumpsuit-minimal-construction",
+      "semantic_key": "wardrobe-one-piece-base-tailored-jumpsuit-minimal-construction",
+      "text": "a tailored jumpsuit with minimal construction",
+      "sentence": "A tailored jumpsuit with minimal construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a tailored jumpsuit with minimal construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a tailored jumpsuit with minimal construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a tailored jumpsuit with minimal construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-one-piece-base-tailored-jumpsuit",
+      "tags": [
+        "base",
+        "one-piece",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "tailored-jumpsuit",
+        "treatment": "minimal-construction"
+      },
+      "subcategory": "tailored-jumpsuit",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-one-piece-base-utility-jumpsuit-precise-tailoring",
+      "semantic_key": "wardrobe-one-piece-base-utility-jumpsuit-precise-tailoring",
+      "text": "a utility jumpsuit with precise tailoring",
+      "sentence": "A utility jumpsuit with precise tailoring.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a utility jumpsuit with precise tailoring",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a utility jumpsuit with precise tailoring",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a utility jumpsuit with precise tailoring",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-one-piece-base-utility-jumpsuit",
+      "tags": [
+        "base",
+        "one-piece",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "utility-jumpsuit",
+        "treatment": "precise-tailoring"
+      },
+      "subcategory": "utility-jumpsuit",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-one-piece-base-utility-jumpsuit-relaxed-drape",
+      "semantic_key": "wardrobe-one-piece-base-utility-jumpsuit-relaxed-drape",
+      "text": "a utility jumpsuit with relaxed drape",
+      "sentence": "A utility jumpsuit with relaxed drape.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a utility jumpsuit with relaxed drape",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a utility jumpsuit with relaxed drape",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a utility jumpsuit with relaxed drape",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-one-piece-base-utility-jumpsuit",
+      "tags": [
+        "base",
+        "one-piece",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "utility-jumpsuit",
+        "treatment": "relaxed-drape"
+      },
+      "subcategory": "utility-jumpsuit",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-one-piece-base-utility-jumpsuit-layered-construction",
+      "semantic_key": "wardrobe-one-piece-base-utility-jumpsuit-layered-construction",
+      "text": "a utility jumpsuit with layered construction",
+      "sentence": "A utility jumpsuit with layered construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a utility jumpsuit with layered construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a utility jumpsuit with layered construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a utility jumpsuit with layered construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-one-piece-base-utility-jumpsuit",
+      "tags": [
+        "base",
+        "one-piece",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "utility-jumpsuit",
+        "treatment": "layered-construction"
+      },
+      "subcategory": "utility-jumpsuit",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-one-piece-base-utility-jumpsuit-clean-seaming",
+      "semantic_key": "wardrobe-one-piece-base-utility-jumpsuit-clean-seaming",
+      "text": "a utility jumpsuit with clean seaming",
+      "sentence": "A utility jumpsuit with clean seaming.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a utility jumpsuit with clean seaming",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a utility jumpsuit with clean seaming",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a utility jumpsuit with clean seaming",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-one-piece-base-utility-jumpsuit",
+      "tags": [
+        "base",
+        "one-piece",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "utility-jumpsuit",
+        "treatment": "clean-seaming"
+      },
+      "subcategory": "utility-jumpsuit",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-one-piece-base-utility-jumpsuit-structured-volume",
+      "semantic_key": "wardrobe-one-piece-base-utility-jumpsuit-structured-volume",
+      "text": "a utility jumpsuit with structured volume",
+      "sentence": "A utility jumpsuit with structured volume.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a utility jumpsuit with structured volume",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a utility jumpsuit with structured volume",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a utility jumpsuit with structured volume",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-one-piece-base-utility-jumpsuit",
+      "tags": [
+        "base",
+        "one-piece",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "utility-jumpsuit",
+        "treatment": "structured-volume"
+      },
+      "subcategory": "utility-jumpsuit",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-one-piece-base-utility-jumpsuit-fluid-movement",
+      "semantic_key": "wardrobe-one-piece-base-utility-jumpsuit-fluid-movement",
+      "text": "a utility jumpsuit with fluid movement",
+      "sentence": "A utility jumpsuit with fluid movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a utility jumpsuit with fluid movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a utility jumpsuit with fluid movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a utility jumpsuit with fluid movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-one-piece-base-utility-jumpsuit",
+      "tags": [
+        "base",
+        "one-piece",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "utility-jumpsuit",
+        "treatment": "fluid-movement"
+      },
+      "subcategory": "utility-jumpsuit",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-one-piece-base-utility-jumpsuit-practical-detailing",
+      "semantic_key": "wardrobe-one-piece-base-utility-jumpsuit-practical-detailing",
+      "text": "a utility jumpsuit with practical detailing",
+      "sentence": "A utility jumpsuit with practical detailing.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a utility jumpsuit with practical detailing",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a utility jumpsuit with practical detailing",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a utility jumpsuit with practical detailing",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-one-piece-base-utility-jumpsuit",
+      "tags": [
+        "base",
+        "one-piece",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "utility-jumpsuit",
+        "treatment": "practical-detailing"
+      },
+      "subcategory": "utility-jumpsuit",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-one-piece-base-utility-jumpsuit-minimal-construction",
+      "semantic_key": "wardrobe-one-piece-base-utility-jumpsuit-minimal-construction",
+      "text": "a utility jumpsuit with minimal construction",
+      "sentence": "A utility jumpsuit with minimal construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a utility jumpsuit with minimal construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a utility jumpsuit with minimal construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a utility jumpsuit with minimal construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-one-piece-base-utility-jumpsuit",
+      "tags": [
+        "base",
+        "one-piece",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "utility-jumpsuit",
+        "treatment": "minimal-construction"
+      },
+      "subcategory": "utility-jumpsuit",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-one-piece-base-knit-dress-precise-tailoring",
+      "semantic_key": "wardrobe-one-piece-base-knit-dress-precise-tailoring",
+      "text": "a knit dress with precise tailoring",
+      "sentence": "A knit dress with precise tailoring.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a knit dress with precise tailoring",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a knit dress with precise tailoring",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a knit dress with precise tailoring",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-one-piece-base-knit-dress",
+      "tags": [
+        "base",
+        "one-piece",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "knit-dress",
+        "treatment": "precise-tailoring"
+      },
+      "subcategory": "knit-dress",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-one-piece-base-knit-dress-relaxed-drape",
+      "semantic_key": "wardrobe-one-piece-base-knit-dress-relaxed-drape",
+      "text": "a knit dress with relaxed drape",
+      "sentence": "A knit dress with relaxed drape.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a knit dress with relaxed drape",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a knit dress with relaxed drape",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a knit dress with relaxed drape",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-one-piece-base-knit-dress",
+      "tags": [
+        "base",
+        "one-piece",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "knit-dress",
+        "treatment": "relaxed-drape"
+      },
+      "subcategory": "knit-dress",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-one-piece-base-knit-dress-layered-construction",
+      "semantic_key": "wardrobe-one-piece-base-knit-dress-layered-construction",
+      "text": "a knit dress with layered construction",
+      "sentence": "A knit dress with layered construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a knit dress with layered construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a knit dress with layered construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a knit dress with layered construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-one-piece-base-knit-dress",
+      "tags": [
+        "base",
+        "one-piece",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "knit-dress",
+        "treatment": "layered-construction"
+      },
+      "subcategory": "knit-dress",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-one-piece-base-knit-dress-clean-seaming",
+      "semantic_key": "wardrobe-one-piece-base-knit-dress-clean-seaming",
+      "text": "a knit dress with clean seaming",
+      "sentence": "A knit dress with clean seaming.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a knit dress with clean seaming",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a knit dress with clean seaming",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a knit dress with clean seaming",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-one-piece-base-knit-dress",
+      "tags": [
+        "base",
+        "one-piece",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "knit-dress",
+        "treatment": "clean-seaming"
+      },
+      "subcategory": "knit-dress",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-one-piece-base-knit-dress-structured-volume",
+      "semantic_key": "wardrobe-one-piece-base-knit-dress-structured-volume",
+      "text": "a knit dress with structured volume",
+      "sentence": "A knit dress with structured volume.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a knit dress with structured volume",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a knit dress with structured volume",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a knit dress with structured volume",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-one-piece-base-knit-dress",
+      "tags": [
+        "base",
+        "one-piece",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "knit-dress",
+        "treatment": "structured-volume"
+      },
+      "subcategory": "knit-dress",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-one-piece-base-knit-dress-fluid-movement",
+      "semantic_key": "wardrobe-one-piece-base-knit-dress-fluid-movement",
+      "text": "a knit dress with fluid movement",
+      "sentence": "A knit dress with fluid movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a knit dress with fluid movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a knit dress with fluid movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a knit dress with fluid movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-one-piece-base-knit-dress",
+      "tags": [
+        "base",
+        "one-piece",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "knit-dress",
+        "treatment": "fluid-movement"
+      },
+      "subcategory": "knit-dress",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-one-piece-base-knit-dress-practical-detailing",
+      "semantic_key": "wardrobe-one-piece-base-knit-dress-practical-detailing",
+      "text": "a knit dress with practical detailing",
+      "sentence": "A knit dress with practical detailing.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a knit dress with practical detailing",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a knit dress with practical detailing",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a knit dress with practical detailing",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-one-piece-base-knit-dress",
+      "tags": [
+        "base",
+        "one-piece",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "knit-dress",
+        "treatment": "practical-detailing"
+      },
+      "subcategory": "knit-dress",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-one-piece-base-knit-dress-minimal-construction",
+      "semantic_key": "wardrobe-one-piece-base-knit-dress-minimal-construction",
+      "text": "a knit dress with minimal construction",
+      "sentence": "A knit dress with minimal construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a knit dress with minimal construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a knit dress with minimal construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a knit dress with minimal construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-one-piece-base-knit-dress",
+      "tags": [
+        "base",
+        "one-piece",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "knit-dress",
+        "treatment": "minimal-construction"
+      },
+      "subcategory": "knit-dress",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-one-piece-base-a-line-dress-precise-tailoring",
+      "semantic_key": "wardrobe-one-piece-base-a-line-dress-precise-tailoring",
+      "text": "a a-line dress with precise tailoring",
+      "sentence": "A a-line dress with precise tailoring.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a a-line dress with precise tailoring",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a a-line dress with precise tailoring",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a a-line dress with precise tailoring",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-one-piece-base-a-line-dress",
+      "tags": [
+        "base",
+        "one-piece",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "a-line-dress",
+        "treatment": "precise-tailoring"
+      },
+      "subcategory": "a-line-dress",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-one-piece-base-a-line-dress-relaxed-drape",
+      "semantic_key": "wardrobe-one-piece-base-a-line-dress-relaxed-drape",
+      "text": "a a-line dress with relaxed drape",
+      "sentence": "A a-line dress with relaxed drape.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a a-line dress with relaxed drape",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a a-line dress with relaxed drape",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a a-line dress with relaxed drape",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-one-piece-base-a-line-dress",
+      "tags": [
+        "base",
+        "one-piece",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "a-line-dress",
+        "treatment": "relaxed-drape"
+      },
+      "subcategory": "a-line-dress",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-one-piece-base-a-line-dress-layered-construction",
+      "semantic_key": "wardrobe-one-piece-base-a-line-dress-layered-construction",
+      "text": "a a-line dress with layered construction",
+      "sentence": "A a-line dress with layered construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a a-line dress with layered construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a a-line dress with layered construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a a-line dress with layered construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-one-piece-base-a-line-dress",
+      "tags": [
+        "base",
+        "one-piece",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "a-line-dress",
+        "treatment": "layered-construction"
+      },
+      "subcategory": "a-line-dress",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-one-piece-base-a-line-dress-clean-seaming",
+      "semantic_key": "wardrobe-one-piece-base-a-line-dress-clean-seaming",
+      "text": "a a-line dress with clean seaming",
+      "sentence": "A a-line dress with clean seaming.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a a-line dress with clean seaming",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a a-line dress with clean seaming",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a a-line dress with clean seaming",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-one-piece-base-a-line-dress",
+      "tags": [
+        "base",
+        "one-piece",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "a-line-dress",
+        "treatment": "clean-seaming"
+      },
+      "subcategory": "a-line-dress",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-one-piece-base-a-line-dress-structured-volume",
+      "semantic_key": "wardrobe-one-piece-base-a-line-dress-structured-volume",
+      "text": "a a-line dress with structured volume",
+      "sentence": "A a-line dress with structured volume.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a a-line dress with structured volume",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a a-line dress with structured volume",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a a-line dress with structured volume",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-one-piece-base-a-line-dress",
+      "tags": [
+        "base",
+        "one-piece",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "a-line-dress",
+        "treatment": "structured-volume"
+      },
+      "subcategory": "a-line-dress",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-one-piece-base-a-line-dress-fluid-movement",
+      "semantic_key": "wardrobe-one-piece-base-a-line-dress-fluid-movement",
+      "text": "a a-line dress with fluid movement",
+      "sentence": "A a-line dress with fluid movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a a-line dress with fluid movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a a-line dress with fluid movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a a-line dress with fluid movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-one-piece-base-a-line-dress",
+      "tags": [
+        "base",
+        "one-piece",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "a-line-dress",
+        "treatment": "fluid-movement"
+      },
+      "subcategory": "a-line-dress",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-one-piece-base-a-line-dress-practical-detailing",
+      "semantic_key": "wardrobe-one-piece-base-a-line-dress-practical-detailing",
+      "text": "a a-line dress with practical detailing",
+      "sentence": "A a-line dress with practical detailing.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a a-line dress with practical detailing",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a a-line dress with practical detailing",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a a-line dress with practical detailing",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-one-piece-base-a-line-dress",
+      "tags": [
+        "base",
+        "one-piece",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "a-line-dress",
+        "treatment": "practical-detailing"
+      },
+      "subcategory": "a-line-dress",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-one-piece-base-a-line-dress-minimal-construction",
+      "semantic_key": "wardrobe-one-piece-base-a-line-dress-minimal-construction",
+      "text": "a a-line dress with minimal construction",
+      "sentence": "A a-line dress with minimal construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a a-line dress with minimal construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a a-line dress with minimal construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a a-line dress with minimal construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-one-piece-base-a-line-dress",
+      "tags": [
+        "base",
+        "one-piece",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "a-line-dress",
+        "treatment": "minimal-construction"
+      },
+      "subcategory": "a-line-dress",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-one-piece-base-structured-overall-precise-tailoring",
+      "semantic_key": "wardrobe-one-piece-base-structured-overall-precise-tailoring",
+      "text": "a structured overall with precise tailoring",
+      "sentence": "A structured overall with precise tailoring.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a structured overall with precise tailoring",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a structured overall with precise tailoring",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a structured overall with precise tailoring",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-one-piece-base-structured-overall",
+      "tags": [
+        "base",
+        "one-piece",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "structured-overall",
+        "treatment": "precise-tailoring"
+      },
+      "subcategory": "structured-overall",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-one-piece-base-structured-overall-relaxed-drape",
+      "semantic_key": "wardrobe-one-piece-base-structured-overall-relaxed-drape",
+      "text": "a structured overall with relaxed drape",
+      "sentence": "A structured overall with relaxed drape.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a structured overall with relaxed drape",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a structured overall with relaxed drape",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a structured overall with relaxed drape",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-one-piece-base-structured-overall",
+      "tags": [
+        "base",
+        "one-piece",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "structured-overall",
+        "treatment": "relaxed-drape"
+      },
+      "subcategory": "structured-overall",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-one-piece-base-structured-overall-layered-construction",
+      "semantic_key": "wardrobe-one-piece-base-structured-overall-layered-construction",
+      "text": "a structured overall with layered construction",
+      "sentence": "A structured overall with layered construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a structured overall with layered construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a structured overall with layered construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a structured overall with layered construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-one-piece-base-structured-overall",
+      "tags": [
+        "base",
+        "one-piece",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "structured-overall",
+        "treatment": "layered-construction"
+      },
+      "subcategory": "structured-overall",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-one-piece-base-structured-overall-clean-seaming",
+      "semantic_key": "wardrobe-one-piece-base-structured-overall-clean-seaming",
+      "text": "a structured overall with clean seaming",
+      "sentence": "A structured overall with clean seaming.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a structured overall with clean seaming",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a structured overall with clean seaming",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a structured overall with clean seaming",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-one-piece-base-structured-overall",
+      "tags": [
+        "base",
+        "one-piece",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "structured-overall",
+        "treatment": "clean-seaming"
+      },
+      "subcategory": "structured-overall",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-one-piece-base-structured-overall-structured-volume",
+      "semantic_key": "wardrobe-one-piece-base-structured-overall-structured-volume",
+      "text": "a structured overall with structured volume",
+      "sentence": "A structured overall with structured volume.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a structured overall with structured volume",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a structured overall with structured volume",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a structured overall with structured volume",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-one-piece-base-structured-overall",
+      "tags": [
+        "base",
+        "one-piece",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "structured-overall",
+        "treatment": "structured-volume"
+      },
+      "subcategory": "structured-overall",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-one-piece-base-structured-overall-fluid-movement",
+      "semantic_key": "wardrobe-one-piece-base-structured-overall-fluid-movement",
+      "text": "a structured overall with fluid movement",
+      "sentence": "A structured overall with fluid movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a structured overall with fluid movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a structured overall with fluid movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a structured overall with fluid movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-one-piece-base-structured-overall",
+      "tags": [
+        "base",
+        "one-piece",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "structured-overall",
+        "treatment": "fluid-movement"
+      },
+      "subcategory": "structured-overall",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-one-piece-base-structured-overall-practical-detailing",
+      "semantic_key": "wardrobe-one-piece-base-structured-overall-practical-detailing",
+      "text": "a structured overall with practical detailing",
+      "sentence": "A structured overall with practical detailing.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a structured overall with practical detailing",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a structured overall with practical detailing",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a structured overall with practical detailing",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-one-piece-base-structured-overall",
+      "tags": [
+        "base",
+        "one-piece",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "structured-overall",
+        "treatment": "practical-detailing"
+      },
+      "subcategory": "structured-overall",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-one-piece-base-structured-overall-minimal-construction",
+      "semantic_key": "wardrobe-one-piece-base-structured-overall-minimal-construction",
+      "text": "a structured overall with minimal construction",
+      "sentence": "A structured overall with minimal construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a structured overall with minimal construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a structured overall with minimal construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a structured overall with minimal construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-one-piece-base-structured-overall",
+      "tags": [
+        "base",
+        "one-piece",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "structured-overall",
+        "treatment": "minimal-construction"
+      },
+      "subcategory": "structured-overall",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    }
+  ]
+}

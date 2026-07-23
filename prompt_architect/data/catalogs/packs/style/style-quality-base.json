@@ -1,0 +1,2577 @@
+{
+  "schema_version": "2.0",
+  "id": "style-quality-base",
+  "version": "2.0.0",
+  "library": "quality",
+  "domain": "style",
+  "category": "quality",
+  "language": "en",
+  "status": "active",
+  "safety": "general",
+  "tags": [
+    "base"
+  ],
+  "fallback_option_id": "style-quality-base-clear-subject-detail-matte-finish",
+  "options": [
+    {
+      "id": "style-quality-base-clear-subject-detail-matte-finish",
+      "semantic_key": "style-quality-base-clear-subject-detail-matte-finish",
+      "text": "clear subject detail with a matte finish",
+      "sentence": "Clear subject detail with a matte finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "clear subject detail with a matte finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing clear subject detail with a matte finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with clear subject detail with a matte finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-quality-base-clear-subject-detail",
+      "tags": [
+        "base",
+        "quality",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "quality-target": "clear-subject-detail",
+        "treatment": "matte-finish"
+      },
+      "subcategory": "clear-subject-detail",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-quality-base-clear-subject-detail-soft-sheen",
+      "semantic_key": "style-quality-base-clear-subject-detail-soft-sheen",
+      "text": "clear subject detail with a soft sheen",
+      "sentence": "Clear subject detail with a soft sheen.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "clear subject detail with a soft sheen",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing clear subject detail with a soft sheen",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with clear subject detail with a soft sheen",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-quality-base-clear-subject-detail",
+      "tags": [
+        "base",
+        "quality",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "quality-target": "clear-subject-detail",
+        "treatment": "soft-sheen"
+      },
+      "subcategory": "clear-subject-detail",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-quality-base-clear-subject-detail-natural-luster",
+      "semantic_key": "style-quality-base-clear-subject-detail-natural-luster",
+      "text": "clear subject detail with a natural luster",
+      "sentence": "Clear subject detail with a natural luster.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "clear subject detail with a natural luster",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing clear subject detail with a natural luster",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with clear subject detail with a natural luster",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-quality-base-clear-subject-detail",
+      "tags": [
+        "base",
+        "quality",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "quality-target": "clear-subject-detail",
+        "treatment": "natural-luster"
+      },
+      "subcategory": "clear-subject-detail",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-quality-base-clear-subject-detail-textured-finish",
+      "semantic_key": "style-quality-base-clear-subject-detail-textured-finish",
+      "text": "clear subject detail with a textured finish",
+      "sentence": "Clear subject detail with a textured finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "clear subject detail with a textured finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing clear subject detail with a textured finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with clear subject detail with a textured finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-quality-base-clear-subject-detail",
+      "tags": [
+        "base",
+        "quality",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "quality-target": "clear-subject-detail",
+        "treatment": "textured-finish"
+      },
+      "subcategory": "clear-subject-detail",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-quality-base-clear-subject-detail-brushed-finish",
+      "semantic_key": "style-quality-base-clear-subject-detail-brushed-finish",
+      "text": "clear subject detail with a brushed finish",
+      "sentence": "Clear subject detail with a brushed finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "clear subject detail with a brushed finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing clear subject detail with a brushed finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with clear subject detail with a brushed finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "style-quality-base-clear-subject-detail",
+      "tags": [
+        "base",
+        "quality",
+        "rarity-uncommon",
+        "style"
+      ],
+      "facets": {
+        "quality-target": "clear-subject-detail",
+        "treatment": "brushed-finish"
+      },
+      "subcategory": "clear-subject-detail",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-quality-base-clear-subject-detail-polished-finish",
+      "semantic_key": "style-quality-base-clear-subject-detail-polished-finish",
+      "text": "clear subject detail with a polished finish",
+      "sentence": "Clear subject detail with a polished finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "clear subject detail with a polished finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing clear subject detail with a polished finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with clear subject detail with a polished finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "style-quality-base-clear-subject-detail",
+      "tags": [
+        "base",
+        "quality",
+        "rarity-uncommon",
+        "style"
+      ],
+      "facets": {
+        "quality-target": "clear-subject-detail",
+        "treatment": "polished-finish"
+      },
+      "subcategory": "clear-subject-detail",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-quality-base-clear-subject-detail-weathered-finish",
+      "semantic_key": "style-quality-base-clear-subject-detail-weathered-finish",
+      "text": "clear subject detail with a weathered finish",
+      "sentence": "Clear subject detail with a weathered finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "clear subject detail with a weathered finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing clear subject detail with a weathered finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with clear subject detail with a weathered finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "style-quality-base-clear-subject-detail",
+      "tags": [
+        "base",
+        "quality",
+        "rarity-rare",
+        "style"
+      ],
+      "facets": {
+        "quality-target": "clear-subject-detail",
+        "treatment": "weathered-finish"
+      },
+      "subcategory": "clear-subject-detail",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-quality-base-clear-subject-detail-satin-finish",
+      "semantic_key": "style-quality-base-clear-subject-detail-satin-finish",
+      "text": "clear subject detail with a satin finish",
+      "sentence": "Clear subject detail with a satin finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "clear subject detail with a satin finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing clear subject detail with a satin finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with clear subject detail with a satin finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "style-quality-base-clear-subject-detail",
+      "tags": [
+        "base",
+        "quality",
+        "rarity-rare",
+        "style"
+      ],
+      "facets": {
+        "quality-target": "clear-subject-detail",
+        "treatment": "satin-finish"
+      },
+      "subcategory": "clear-subject-detail",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-quality-base-natural-skin-detail-matte-finish",
+      "semantic_key": "style-quality-base-natural-skin-detail-matte-finish",
+      "text": "natural skin detail with a matte finish",
+      "sentence": "Natural skin detail with a matte finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "natural skin detail with a matte finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing natural skin detail with a matte finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with natural skin detail with a matte finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-quality-base-natural-skin-detail",
+      "tags": [
+        "base",
+        "quality",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "quality-target": "natural-skin-detail",
+        "treatment": "matte-finish"
+      },
+      "subcategory": "natural-skin-detail",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-quality-base-natural-skin-detail-soft-sheen",
+      "semantic_key": "style-quality-base-natural-skin-detail-soft-sheen",
+      "text": "natural skin detail with a soft sheen",
+      "sentence": "Natural skin detail with a soft sheen.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "natural skin detail with a soft sheen",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing natural skin detail with a soft sheen",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with natural skin detail with a soft sheen",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-quality-base-natural-skin-detail",
+      "tags": [
+        "base",
+        "quality",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "quality-target": "natural-skin-detail",
+        "treatment": "soft-sheen"
+      },
+      "subcategory": "natural-skin-detail",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-quality-base-natural-skin-detail-natural-luster",
+      "semantic_key": "style-quality-base-natural-skin-detail-natural-luster",
+      "text": "natural skin detail with a natural luster",
+      "sentence": "Natural skin detail with a natural luster.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "natural skin detail with a natural luster",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing natural skin detail with a natural luster",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with natural skin detail with a natural luster",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-quality-base-natural-skin-detail",
+      "tags": [
+        "base",
+        "quality",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "quality-target": "natural-skin-detail",
+        "treatment": "natural-luster"
+      },
+      "subcategory": "natural-skin-detail",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-quality-base-natural-skin-detail-textured-finish",
+      "semantic_key": "style-quality-base-natural-skin-detail-textured-finish",
+      "text": "natural skin detail with a textured finish",
+      "sentence": "Natural skin detail with a textured finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "natural skin detail with a textured finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing natural skin detail with a textured finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with natural skin detail with a textured finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-quality-base-natural-skin-detail",
+      "tags": [
+        "base",
+        "quality",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "quality-target": "natural-skin-detail",
+        "treatment": "textured-finish"
+      },
+      "subcategory": "natural-skin-detail",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-quality-base-natural-skin-detail-brushed-finish",
+      "semantic_key": "style-quality-base-natural-skin-detail-brushed-finish",
+      "text": "natural skin detail with a brushed finish",
+      "sentence": "Natural skin detail with a brushed finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "natural skin detail with a brushed finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing natural skin detail with a brushed finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with natural skin detail with a brushed finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "style-quality-base-natural-skin-detail",
+      "tags": [
+        "base",
+        "quality",
+        "rarity-uncommon",
+        "style"
+      ],
+      "facets": {
+        "quality-target": "natural-skin-detail",
+        "treatment": "brushed-finish"
+      },
+      "subcategory": "natural-skin-detail",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-quality-base-natural-skin-detail-polished-finish",
+      "semantic_key": "style-quality-base-natural-skin-detail-polished-finish",
+      "text": "natural skin detail with a polished finish",
+      "sentence": "Natural skin detail with a polished finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "natural skin detail with a polished finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing natural skin detail with a polished finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with natural skin detail with a polished finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "style-quality-base-natural-skin-detail",
+      "tags": [
+        "base",
+        "quality",
+        "rarity-uncommon",
+        "style"
+      ],
+      "facets": {
+        "quality-target": "natural-skin-detail",
+        "treatment": "polished-finish"
+      },
+      "subcategory": "natural-skin-detail",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-quality-base-natural-skin-detail-weathered-finish",
+      "semantic_key": "style-quality-base-natural-skin-detail-weathered-finish",
+      "text": "natural skin detail with a weathered finish",
+      "sentence": "Natural skin detail with a weathered finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "natural skin detail with a weathered finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing natural skin detail with a weathered finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with natural skin detail with a weathered finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "style-quality-base-natural-skin-detail",
+      "tags": [
+        "base",
+        "quality",
+        "rarity-rare",
+        "style"
+      ],
+      "facets": {
+        "quality-target": "natural-skin-detail",
+        "treatment": "weathered-finish"
+      },
+      "subcategory": "natural-skin-detail",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-quality-base-natural-skin-detail-satin-finish",
+      "semantic_key": "style-quality-base-natural-skin-detail-satin-finish",
+      "text": "natural skin detail with a satin finish",
+      "sentence": "Natural skin detail with a satin finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "natural skin detail with a satin finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing natural skin detail with a satin finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with natural skin detail with a satin finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "style-quality-base-natural-skin-detail",
+      "tags": [
+        "base",
+        "quality",
+        "rarity-rare",
+        "style"
+      ],
+      "facets": {
+        "quality-target": "natural-skin-detail",
+        "treatment": "satin-finish"
+      },
+      "subcategory": "natural-skin-detail",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-quality-base-coherent-fabric-detail-matte-finish",
+      "semantic_key": "style-quality-base-coherent-fabric-detail-matte-finish",
+      "text": "coherent fabric detail with a matte finish",
+      "sentence": "Coherent fabric detail with a matte finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "coherent fabric detail with a matte finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing coherent fabric detail with a matte finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with coherent fabric detail with a matte finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-quality-base-coherent-fabric-detail",
+      "tags": [
+        "base",
+        "quality",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "quality-target": "coherent-fabric-detail",
+        "treatment": "matte-finish"
+      },
+      "subcategory": "coherent-fabric-detail",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-quality-base-coherent-fabric-detail-soft-sheen",
+      "semantic_key": "style-quality-base-coherent-fabric-detail-soft-sheen",
+      "text": "coherent fabric detail with a soft sheen",
+      "sentence": "Coherent fabric detail with a soft sheen.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "coherent fabric detail with a soft sheen",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing coherent fabric detail with a soft sheen",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with coherent fabric detail with a soft sheen",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-quality-base-coherent-fabric-detail",
+      "tags": [
+        "base",
+        "quality",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "quality-target": "coherent-fabric-detail",
+        "treatment": "soft-sheen"
+      },
+      "subcategory": "coherent-fabric-detail",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-quality-base-coherent-fabric-detail-natural-luster",
+      "semantic_key": "style-quality-base-coherent-fabric-detail-natural-luster",
+      "text": "coherent fabric detail with a natural luster",
+      "sentence": "Coherent fabric detail with a natural luster.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "coherent fabric detail with a natural luster",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing coherent fabric detail with a natural luster",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with coherent fabric detail with a natural luster",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-quality-base-coherent-fabric-detail",
+      "tags": [
+        "base",
+        "quality",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "quality-target": "coherent-fabric-detail",
+        "treatment": "natural-luster"
+      },
+      "subcategory": "coherent-fabric-detail",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-quality-base-coherent-fabric-detail-textured-finish",
+      "semantic_key": "style-quality-base-coherent-fabric-detail-textured-finish",
+      "text": "coherent fabric detail with a textured finish",
+      "sentence": "Coherent fabric detail with a textured finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "coherent fabric detail with a textured finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing coherent fabric detail with a textured finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with coherent fabric detail with a textured finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-quality-base-coherent-fabric-detail",
+      "tags": [
+        "base",
+        "quality",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "quality-target": "coherent-fabric-detail",
+        "treatment": "textured-finish"
+      },
+      "subcategory": "coherent-fabric-detail",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-quality-base-coherent-fabric-detail-brushed-finish",
+      "semantic_key": "style-quality-base-coherent-fabric-detail-brushed-finish",
+      "text": "coherent fabric detail with a brushed finish",
+      "sentence": "Coherent fabric detail with a brushed finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "coherent fabric detail with a brushed finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing coherent fabric detail with a brushed finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with coherent fabric detail with a brushed finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "style-quality-base-coherent-fabric-detail",
+      "tags": [
+        "base",
+        "quality",
+        "rarity-uncommon",
+        "style"
+      ],
+      "facets": {
+        "quality-target": "coherent-fabric-detail",
+        "treatment": "brushed-finish"
+      },
+      "subcategory": "coherent-fabric-detail",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-quality-base-coherent-fabric-detail-polished-finish",
+      "semantic_key": "style-quality-base-coherent-fabric-detail-polished-finish",
+      "text": "coherent fabric detail with a polished finish",
+      "sentence": "Coherent fabric detail with a polished finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "coherent fabric detail with a polished finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing coherent fabric detail with a polished finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with coherent fabric detail with a polished finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "style-quality-base-coherent-fabric-detail",
+      "tags": [
+        "base",
+        "quality",
+        "rarity-uncommon",
+        "style"
+      ],
+      "facets": {
+        "quality-target": "coherent-fabric-detail",
+        "treatment": "polished-finish"
+      },
+      "subcategory": "coherent-fabric-detail",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-quality-base-coherent-fabric-detail-weathered-finish",
+      "semantic_key": "style-quality-base-coherent-fabric-detail-weathered-finish",
+      "text": "coherent fabric detail with a weathered finish",
+      "sentence": "Coherent fabric detail with a weathered finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "coherent fabric detail with a weathered finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing coherent fabric detail with a weathered finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with coherent fabric detail with a weathered finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "style-quality-base-coherent-fabric-detail",
+      "tags": [
+        "base",
+        "quality",
+        "rarity-rare",
+        "style"
+      ],
+      "facets": {
+        "quality-target": "coherent-fabric-detail",
+        "treatment": "weathered-finish"
+      },
+      "subcategory": "coherent-fabric-detail",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-quality-base-coherent-fabric-detail-satin-finish",
+      "semantic_key": "style-quality-base-coherent-fabric-detail-satin-finish",
+      "text": "coherent fabric detail with a satin finish",
+      "sentence": "Coherent fabric detail with a satin finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "coherent fabric detail with a satin finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing coherent fabric detail with a satin finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with coherent fabric detail with a satin finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "style-quality-base-coherent-fabric-detail",
+      "tags": [
+        "base",
+        "quality",
+        "rarity-rare",
+        "style"
+      ],
+      "facets": {
+        "quality-target": "coherent-fabric-detail",
+        "treatment": "satin-finish"
+      },
+      "subcategory": "coherent-fabric-detail",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-quality-base-controlled-edge-detail-matte-finish",
+      "semantic_key": "style-quality-base-controlled-edge-detail-matte-finish",
+      "text": "controlled edge detail with a matte finish",
+      "sentence": "Controlled edge detail with a matte finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "controlled edge detail with a matte finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing controlled edge detail with a matte finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with controlled edge detail with a matte finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-quality-base-controlled-edge-detail",
+      "tags": [
+        "base",
+        "quality",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "quality-target": "controlled-edge-detail",
+        "treatment": "matte-finish"
+      },
+      "subcategory": "controlled-edge-detail",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-quality-base-controlled-edge-detail-soft-sheen",
+      "semantic_key": "style-quality-base-controlled-edge-detail-soft-sheen",
+      "text": "controlled edge detail with a soft sheen",
+      "sentence": "Controlled edge detail with a soft sheen.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "controlled edge detail with a soft sheen",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing controlled edge detail with a soft sheen",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with controlled edge detail with a soft sheen",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-quality-base-controlled-edge-detail",
+      "tags": [
+        "base",
+        "quality",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "quality-target": "controlled-edge-detail",
+        "treatment": "soft-sheen"
+      },
+      "subcategory": "controlled-edge-detail",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-quality-base-controlled-edge-detail-natural-luster",
+      "semantic_key": "style-quality-base-controlled-edge-detail-natural-luster",
+      "text": "controlled edge detail with a natural luster",
+      "sentence": "Controlled edge detail with a natural luster.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "controlled edge detail with a natural luster",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing controlled edge detail with a natural luster",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with controlled edge detail with a natural luster",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-quality-base-controlled-edge-detail",
+      "tags": [
+        "base",
+        "quality",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "quality-target": "controlled-edge-detail",
+        "treatment": "natural-luster"
+      },
+      "subcategory": "controlled-edge-detail",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-quality-base-controlled-edge-detail-textured-finish",
+      "semantic_key": "style-quality-base-controlled-edge-detail-textured-finish",
+      "text": "controlled edge detail with a textured finish",
+      "sentence": "Controlled edge detail with a textured finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "controlled edge detail with a textured finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing controlled edge detail with a textured finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with controlled edge detail with a textured finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-quality-base-controlled-edge-detail",
+      "tags": [
+        "base",
+        "quality",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "quality-target": "controlled-edge-detail",
+        "treatment": "textured-finish"
+      },
+      "subcategory": "controlled-edge-detail",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-quality-base-controlled-edge-detail-brushed-finish",
+      "semantic_key": "style-quality-base-controlled-edge-detail-brushed-finish",
+      "text": "controlled edge detail with a brushed finish",
+      "sentence": "Controlled edge detail with a brushed finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "controlled edge detail with a brushed finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing controlled edge detail with a brushed finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with controlled edge detail with a brushed finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "style-quality-base-controlled-edge-detail",
+      "tags": [
+        "base",
+        "quality",
+        "rarity-uncommon",
+        "style"
+      ],
+      "facets": {
+        "quality-target": "controlled-edge-detail",
+        "treatment": "brushed-finish"
+      },
+      "subcategory": "controlled-edge-detail",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-quality-base-controlled-edge-detail-polished-finish",
+      "semantic_key": "style-quality-base-controlled-edge-detail-polished-finish",
+      "text": "controlled edge detail with a polished finish",
+      "sentence": "Controlled edge detail with a polished finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "controlled edge detail with a polished finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing controlled edge detail with a polished finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with controlled edge detail with a polished finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "style-quality-base-controlled-edge-detail",
+      "tags": [
+        "base",
+        "quality",
+        "rarity-uncommon",
+        "style"
+      ],
+      "facets": {
+        "quality-target": "controlled-edge-detail",
+        "treatment": "polished-finish"
+      },
+      "subcategory": "controlled-edge-detail",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-quality-base-controlled-edge-detail-weathered-finish",
+      "semantic_key": "style-quality-base-controlled-edge-detail-weathered-finish",
+      "text": "controlled edge detail with a weathered finish",
+      "sentence": "Controlled edge detail with a weathered finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "controlled edge detail with a weathered finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing controlled edge detail with a weathered finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with controlled edge detail with a weathered finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "style-quality-base-controlled-edge-detail",
+      "tags": [
+        "base",
+        "quality",
+        "rarity-rare",
+        "style"
+      ],
+      "facets": {
+        "quality-target": "controlled-edge-detail",
+        "treatment": "weathered-finish"
+      },
+      "subcategory": "controlled-edge-detail",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-quality-base-controlled-edge-detail-satin-finish",
+      "semantic_key": "style-quality-base-controlled-edge-detail-satin-finish",
+      "text": "controlled edge detail with a satin finish",
+      "sentence": "Controlled edge detail with a satin finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "controlled edge detail with a satin finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing controlled edge detail with a satin finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with controlled edge detail with a satin finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "style-quality-base-controlled-edge-detail",
+      "tags": [
+        "base",
+        "quality",
+        "rarity-rare",
+        "style"
+      ],
+      "facets": {
+        "quality-target": "controlled-edge-detail",
+        "treatment": "satin-finish"
+      },
+      "subcategory": "controlled-edge-detail",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-quality-base-clean-tonal-separation-matte-finish",
+      "semantic_key": "style-quality-base-clean-tonal-separation-matte-finish",
+      "text": "clean tonal separation with a matte finish",
+      "sentence": "Clean tonal separation with a matte finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "clean tonal separation with a matte finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing clean tonal separation with a matte finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with clean tonal separation with a matte finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-quality-base-clean-tonal-separation",
+      "tags": [
+        "base",
+        "quality",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "quality-target": "clean-tonal-separation",
+        "treatment": "matte-finish"
+      },
+      "subcategory": "clean-tonal-separation",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-quality-base-clean-tonal-separation-soft-sheen",
+      "semantic_key": "style-quality-base-clean-tonal-separation-soft-sheen",
+      "text": "clean tonal separation with a soft sheen",
+      "sentence": "Clean tonal separation with a soft sheen.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "clean tonal separation with a soft sheen",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing clean tonal separation with a soft sheen",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with clean tonal separation with a soft sheen",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-quality-base-clean-tonal-separation",
+      "tags": [
+        "base",
+        "quality",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "quality-target": "clean-tonal-separation",
+        "treatment": "soft-sheen"
+      },
+      "subcategory": "clean-tonal-separation",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-quality-base-clean-tonal-separation-natural-luster",
+      "semantic_key": "style-quality-base-clean-tonal-separation-natural-luster",
+      "text": "clean tonal separation with a natural luster",
+      "sentence": "Clean tonal separation with a natural luster.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "clean tonal separation with a natural luster",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing clean tonal separation with a natural luster",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with clean tonal separation with a natural luster",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-quality-base-clean-tonal-separation",
+      "tags": [
+        "base",
+        "quality",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "quality-target": "clean-tonal-separation",
+        "treatment": "natural-luster"
+      },
+      "subcategory": "clean-tonal-separation",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-quality-base-clean-tonal-separation-textured-finish",
+      "semantic_key": "style-quality-base-clean-tonal-separation-textured-finish",
+      "text": "clean tonal separation with a textured finish",
+      "sentence": "Clean tonal separation with a textured finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "clean tonal separation with a textured finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing clean tonal separation with a textured finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with clean tonal separation with a textured finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-quality-base-clean-tonal-separation",
+      "tags": [
+        "base",
+        "quality",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "quality-target": "clean-tonal-separation",
+        "treatment": "textured-finish"
+      },
+      "subcategory": "clean-tonal-separation",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-quality-base-clean-tonal-separation-brushed-finish",
+      "semantic_key": "style-quality-base-clean-tonal-separation-brushed-finish",
+      "text": "clean tonal separation with a brushed finish",
+      "sentence": "Clean tonal separation with a brushed finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "clean tonal separation with a brushed finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing clean tonal separation with a brushed finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with clean tonal separation with a brushed finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "style-quality-base-clean-tonal-separation",
+      "tags": [
+        "base",
+        "quality",
+        "rarity-uncommon",
+        "style"
+      ],
+      "facets": {
+        "quality-target": "clean-tonal-separation",
+        "treatment": "brushed-finish"
+      },
+      "subcategory": "clean-tonal-separation",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-quality-base-clean-tonal-separation-polished-finish",
+      "semantic_key": "style-quality-base-clean-tonal-separation-polished-finish",
+      "text": "clean tonal separation with a polished finish",
+      "sentence": "Clean tonal separation with a polished finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "clean tonal separation with a polished finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing clean tonal separation with a polished finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with clean tonal separation with a polished finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "style-quality-base-clean-tonal-separation",
+      "tags": [
+        "base",
+        "quality",
+        "rarity-uncommon",
+        "style"
+      ],
+      "facets": {
+        "quality-target": "clean-tonal-separation",
+        "treatment": "polished-finish"
+      },
+      "subcategory": "clean-tonal-separation",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-quality-base-clean-tonal-separation-weathered-finish",
+      "semantic_key": "style-quality-base-clean-tonal-separation-weathered-finish",
+      "text": "clean tonal separation with a weathered finish",
+      "sentence": "Clean tonal separation with a weathered finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "clean tonal separation with a weathered finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing clean tonal separation with a weathered finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with clean tonal separation with a weathered finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "style-quality-base-clean-tonal-separation",
+      "tags": [
+        "base",
+        "quality",
+        "rarity-rare",
+        "style"
+      ],
+      "facets": {
+        "quality-target": "clean-tonal-separation",
+        "treatment": "weathered-finish"
+      },
+      "subcategory": "clean-tonal-separation",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-quality-base-clean-tonal-separation-satin-finish",
+      "semantic_key": "style-quality-base-clean-tonal-separation-satin-finish",
+      "text": "clean tonal separation with a satin finish",
+      "sentence": "Clean tonal separation with a satin finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "clean tonal separation with a satin finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing clean tonal separation with a satin finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with clean tonal separation with a satin finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "style-quality-base-clean-tonal-separation",
+      "tags": [
+        "base",
+        "quality",
+        "rarity-rare",
+        "style"
+      ],
+      "facets": {
+        "quality-target": "clean-tonal-separation",
+        "treatment": "satin-finish"
+      },
+      "subcategory": "clean-tonal-separation",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-quality-base-stable-anatomical-detail-matte-finish",
+      "semantic_key": "style-quality-base-stable-anatomical-detail-matte-finish",
+      "text": "stable anatomical detail with a matte finish",
+      "sentence": "Stable anatomical detail with a matte finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "stable anatomical detail with a matte finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing stable anatomical detail with a matte finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with stable anatomical detail with a matte finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-quality-base-stable-anatomical-detail",
+      "tags": [
+        "base",
+        "quality",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "quality-target": "stable-anatomical-detail",
+        "treatment": "matte-finish"
+      },
+      "subcategory": "stable-anatomical-detail",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-quality-base-stable-anatomical-detail-soft-sheen",
+      "semantic_key": "style-quality-base-stable-anatomical-detail-soft-sheen",
+      "text": "stable anatomical detail with a soft sheen",
+      "sentence": "Stable anatomical detail with a soft sheen.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "stable anatomical detail with a soft sheen",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing stable anatomical detail with a soft sheen",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with stable anatomical detail with a soft sheen",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-quality-base-stable-anatomical-detail",
+      "tags": [
+        "base",
+        "quality",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "quality-target": "stable-anatomical-detail",
+        "treatment": "soft-sheen"
+      },
+      "subcategory": "stable-anatomical-detail",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-quality-base-stable-anatomical-detail-natural-luster",
+      "semantic_key": "style-quality-base-stable-anatomical-detail-natural-luster",
+      "text": "stable anatomical detail with a natural luster",
+      "sentence": "Stable anatomical detail with a natural luster.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "stable anatomical detail with a natural luster",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing stable anatomical detail with a natural luster",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with stable anatomical detail with a natural luster",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-quality-base-stable-anatomical-detail",
+      "tags": [
+        "base",
+        "quality",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "quality-target": "stable-anatomical-detail",
+        "treatment": "natural-luster"
+      },
+      "subcategory": "stable-anatomical-detail",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-quality-base-stable-anatomical-detail-textured-finish",
+      "semantic_key": "style-quality-base-stable-anatomical-detail-textured-finish",
+      "text": "stable anatomical detail with a textured finish",
+      "sentence": "Stable anatomical detail with a textured finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "stable anatomical detail with a textured finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing stable anatomical detail with a textured finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with stable anatomical detail with a textured finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-quality-base-stable-anatomical-detail",
+      "tags": [
+        "base",
+        "quality",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "quality-target": "stable-anatomical-detail",
+        "treatment": "textured-finish"
+      },
+      "subcategory": "stable-anatomical-detail",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-quality-base-stable-anatomical-detail-brushed-finish",
+      "semantic_key": "style-quality-base-stable-anatomical-detail-brushed-finish",
+      "text": "stable anatomical detail with a brushed finish",
+      "sentence": "Stable anatomical detail with a brushed finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "stable anatomical detail with a brushed finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing stable anatomical detail with a brushed finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with stable anatomical detail with a brushed finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "style-quality-base-stable-anatomical-detail",
+      "tags": [
+        "base",
+        "quality",
+        "rarity-uncommon",
+        "style"
+      ],
+      "facets": {
+        "quality-target": "stable-anatomical-detail",
+        "treatment": "brushed-finish"
+      },
+      "subcategory": "stable-anatomical-detail",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-quality-base-stable-anatomical-detail-polished-finish",
+      "semantic_key": "style-quality-base-stable-anatomical-detail-polished-finish",
+      "text": "stable anatomical detail with a polished finish",
+      "sentence": "Stable anatomical detail with a polished finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "stable anatomical detail with a polished finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing stable anatomical detail with a polished finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with stable anatomical detail with a polished finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "style-quality-base-stable-anatomical-detail",
+      "tags": [
+        "base",
+        "quality",
+        "rarity-uncommon",
+        "style"
+      ],
+      "facets": {
+        "quality-target": "stable-anatomical-detail",
+        "treatment": "polished-finish"
+      },
+      "subcategory": "stable-anatomical-detail",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-quality-base-stable-anatomical-detail-weathered-finish",
+      "semantic_key": "style-quality-base-stable-anatomical-detail-weathered-finish",
+      "text": "stable anatomical detail with a weathered finish",
+      "sentence": "Stable anatomical detail with a weathered finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "stable anatomical detail with a weathered finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing stable anatomical detail with a weathered finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with stable anatomical detail with a weathered finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "style-quality-base-stable-anatomical-detail",
+      "tags": [
+        "base",
+        "quality",
+        "rarity-rare",
+        "style"
+      ],
+      "facets": {
+        "quality-target": "stable-anatomical-detail",
+        "treatment": "weathered-finish"
+      },
+      "subcategory": "stable-anatomical-detail",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-quality-base-stable-anatomical-detail-satin-finish",
+      "semantic_key": "style-quality-base-stable-anatomical-detail-satin-finish",
+      "text": "stable anatomical detail with a satin finish",
+      "sentence": "Stable anatomical detail with a satin finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "stable anatomical detail with a satin finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing stable anatomical detail with a satin finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with stable anatomical detail with a satin finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "style-quality-base-stable-anatomical-detail",
+      "tags": [
+        "base",
+        "quality",
+        "rarity-rare",
+        "style"
+      ],
+      "facets": {
+        "quality-target": "stable-anatomical-detail",
+        "treatment": "satin-finish"
+      },
+      "subcategory": "stable-anatomical-detail",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-quality-base-consistent-perspective-detail-matte-finish",
+      "semantic_key": "style-quality-base-consistent-perspective-detail-matte-finish",
+      "text": "consistent perspective detail with a matte finish",
+      "sentence": "Consistent perspective detail with a matte finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "consistent perspective detail with a matte finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing consistent perspective detail with a matte finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with consistent perspective detail with a matte finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-quality-base-consistent-perspective-detail",
+      "tags": [
+        "base",
+        "quality",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "quality-target": "consistent-perspective-detail",
+        "treatment": "matte-finish"
+      },
+      "subcategory": "consistent-perspective-detail",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-quality-base-consistent-perspective-detail-soft-sheen",
+      "semantic_key": "style-quality-base-consistent-perspective-detail-soft-sheen",
+      "text": "consistent perspective detail with a soft sheen",
+      "sentence": "Consistent perspective detail with a soft sheen.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "consistent perspective detail with a soft sheen",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing consistent perspective detail with a soft sheen",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with consistent perspective detail with a soft sheen",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-quality-base-consistent-perspective-detail",
+      "tags": [
+        "base",
+        "quality",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "quality-target": "consistent-perspective-detail",
+        "treatment": "soft-sheen"
+      },
+      "subcategory": "consistent-perspective-detail",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-quality-base-consistent-perspective-detail-natural-luster",
+      "semantic_key": "style-quality-base-consistent-perspective-detail-natural-luster",
+      "text": "consistent perspective detail with a natural luster",
+      "sentence": "Consistent perspective detail with a natural luster.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "consistent perspective detail with a natural luster",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing consistent perspective detail with a natural luster",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with consistent perspective detail with a natural luster",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-quality-base-consistent-perspective-detail",
+      "tags": [
+        "base",
+        "quality",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "quality-target": "consistent-perspective-detail",
+        "treatment": "natural-luster"
+      },
+      "subcategory": "consistent-perspective-detail",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-quality-base-consistent-perspective-detail-textured-finish",
+      "semantic_key": "style-quality-base-consistent-perspective-detail-textured-finish",
+      "text": "consistent perspective detail with a textured finish",
+      "sentence": "Consistent perspective detail with a textured finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "consistent perspective detail with a textured finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing consistent perspective detail with a textured finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with consistent perspective detail with a textured finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-quality-base-consistent-perspective-detail",
+      "tags": [
+        "base",
+        "quality",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "quality-target": "consistent-perspective-detail",
+        "treatment": "textured-finish"
+      },
+      "subcategory": "consistent-perspective-detail",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-quality-base-consistent-perspective-detail-brushed-finish",
+      "semantic_key": "style-quality-base-consistent-perspective-detail-brushed-finish",
+      "text": "consistent perspective detail with a brushed finish",
+      "sentence": "Consistent perspective detail with a brushed finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "consistent perspective detail with a brushed finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing consistent perspective detail with a brushed finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with consistent perspective detail with a brushed finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "style-quality-base-consistent-perspective-detail",
+      "tags": [
+        "base",
+        "quality",
+        "rarity-uncommon",
+        "style"
+      ],
+      "facets": {
+        "quality-target": "consistent-perspective-detail",
+        "treatment": "brushed-finish"
+      },
+      "subcategory": "consistent-perspective-detail",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-quality-base-consistent-perspective-detail-polished-finish",
+      "semantic_key": "style-quality-base-consistent-perspective-detail-polished-finish",
+      "text": "consistent perspective detail with a polished finish",
+      "sentence": "Consistent perspective detail with a polished finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "consistent perspective detail with a polished finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing consistent perspective detail with a polished finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with consistent perspective detail with a polished finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "style-quality-base-consistent-perspective-detail",
+      "tags": [
+        "base",
+        "quality",
+        "rarity-uncommon",
+        "style"
+      ],
+      "facets": {
+        "quality-target": "consistent-perspective-detail",
+        "treatment": "polished-finish"
+      },
+      "subcategory": "consistent-perspective-detail",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-quality-base-consistent-perspective-detail-weathered-finish",
+      "semantic_key": "style-quality-base-consistent-perspective-detail-weathered-finish",
+      "text": "consistent perspective detail with a weathered finish",
+      "sentence": "Consistent perspective detail with a weathered finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "consistent perspective detail with a weathered finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing consistent perspective detail with a weathered finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with consistent perspective detail with a weathered finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "style-quality-base-consistent-perspective-detail",
+      "tags": [
+        "base",
+        "quality",
+        "rarity-rare",
+        "style"
+      ],
+      "facets": {
+        "quality-target": "consistent-perspective-detail",
+        "treatment": "weathered-finish"
+      },
+      "subcategory": "consistent-perspective-detail",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-quality-base-consistent-perspective-detail-satin-finish",
+      "semantic_key": "style-quality-base-consistent-perspective-detail-satin-finish",
+      "text": "consistent perspective detail with a satin finish",
+      "sentence": "Consistent perspective detail with a satin finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "consistent perspective detail with a satin finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing consistent perspective detail with a satin finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with consistent perspective detail with a satin finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "style-quality-base-consistent-perspective-detail",
+      "tags": [
+        "base",
+        "quality",
+        "rarity-rare",
+        "style"
+      ],
+      "facets": {
+        "quality-target": "consistent-perspective-detail",
+        "treatment": "satin-finish"
+      },
+      "subcategory": "consistent-perspective-detail",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-quality-base-artifact-free-photographic-detail-matte-finish",
+      "semantic_key": "style-quality-base-artifact-free-photographic-detail-matte-finish",
+      "text": "artifact-free photographic detail with a matte finish",
+      "sentence": "Artifact-free photographic detail with a matte finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "artifact-free photographic detail with a matte finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing artifact-free photographic detail with a matte finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with artifact-free photographic detail with a matte finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-quality-base-artifact-free-photographic-detail",
+      "tags": [
+        "base",
+        "quality",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "quality-target": "artifact-free-photographic-detail",
+        "treatment": "matte-finish"
+      },
+      "subcategory": "artifact-free-photographic-detail",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-quality-base-artifact-free-photographic-detail-soft-sheen",
+      "semantic_key": "style-quality-base-artifact-free-photographic-detail-soft-sheen",
+      "text": "artifact-free photographic detail with a soft sheen",
+      "sentence": "Artifact-free photographic detail with a soft sheen.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "artifact-free photographic detail with a soft sheen",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing artifact-free photographic detail with a soft sheen",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with artifact-free photographic detail with a soft sheen",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-quality-base-artifact-free-photographic-detail",
+      "tags": [
+        "base",
+        "quality",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "quality-target": "artifact-free-photographic-detail",
+        "treatment": "soft-sheen"
+      },
+      "subcategory": "artifact-free-photographic-detail",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-quality-base-artifact-free-photographic-detail-natural-luster",
+      "semantic_key": "style-quality-base-artifact-free-photographic-detail-natural-luster",
+      "text": "artifact-free photographic detail with a natural luster",
+      "sentence": "Artifact-free photographic detail with a natural luster.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "artifact-free photographic detail with a natural luster",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing artifact-free photographic detail with a natural luster",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with artifact-free photographic detail with a natural luster",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-quality-base-artifact-free-photographic-detail",
+      "tags": [
+        "base",
+        "quality",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "quality-target": "artifact-free-photographic-detail",
+        "treatment": "natural-luster"
+      },
+      "subcategory": "artifact-free-photographic-detail",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-quality-base-artifact-free-photographic-detail-textured-finish",
+      "semantic_key": "style-quality-base-artifact-free-photographic-detail-textured-finish",
+      "text": "artifact-free photographic detail with a textured finish",
+      "sentence": "Artifact-free photographic detail with a textured finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "artifact-free photographic detail with a textured finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing artifact-free photographic detail with a textured finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with artifact-free photographic detail with a textured finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-quality-base-artifact-free-photographic-detail",
+      "tags": [
+        "base",
+        "quality",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "quality-target": "artifact-free-photographic-detail",
+        "treatment": "textured-finish"
+      },
+      "subcategory": "artifact-free-photographic-detail",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-quality-base-artifact-free-photographic-detail-brushed-finish",
+      "semantic_key": "style-quality-base-artifact-free-photographic-detail-brushed-finish",
+      "text": "artifact-free photographic detail with a brushed finish",
+      "sentence": "Artifact-free photographic detail with a brushed finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "artifact-free photographic detail with a brushed finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing artifact-free photographic detail with a brushed finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with artifact-free photographic detail with a brushed finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "style-quality-base-artifact-free-photographic-detail",
+      "tags": [
+        "base",
+        "quality",
+        "rarity-uncommon",
+        "style"
+      ],
+      "facets": {
+        "quality-target": "artifact-free-photographic-detail",
+        "treatment": "brushed-finish"
+      },
+      "subcategory": "artifact-free-photographic-detail",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-quality-base-artifact-free-photographic-detail-polished-finish",
+      "semantic_key": "style-quality-base-artifact-free-photographic-detail-polished-finish",
+      "text": "artifact-free photographic detail with a polished finish",
+      "sentence": "Artifact-free photographic detail with a polished finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "artifact-free photographic detail with a polished finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing artifact-free photographic detail with a polished finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with artifact-free photographic detail with a polished finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "style-quality-base-artifact-free-photographic-detail",
+      "tags": [
+        "base",
+        "quality",
+        "rarity-uncommon",
+        "style"
+      ],
+      "facets": {
+        "quality-target": "artifact-free-photographic-detail",
+        "treatment": "polished-finish"
+      },
+      "subcategory": "artifact-free-photographic-detail",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-quality-base-artifact-free-photographic-detail-weathered-finish",
+      "semantic_key": "style-quality-base-artifact-free-photographic-detail-weathered-finish",
+      "text": "artifact-free photographic detail with a weathered finish",
+      "sentence": "Artifact-free photographic detail with a weathered finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "artifact-free photographic detail with a weathered finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing artifact-free photographic detail with a weathered finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with artifact-free photographic detail with a weathered finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "style-quality-base-artifact-free-photographic-detail",
+      "tags": [
+        "base",
+        "quality",
+        "rarity-rare",
+        "style"
+      ],
+      "facets": {
+        "quality-target": "artifact-free-photographic-detail",
+        "treatment": "weathered-finish"
+      },
+      "subcategory": "artifact-free-photographic-detail",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-quality-base-artifact-free-photographic-detail-satin-finish",
+      "semantic_key": "style-quality-base-artifact-free-photographic-detail-satin-finish",
+      "text": "artifact-free photographic detail with a satin finish",
+      "sentence": "Artifact-free photographic detail with a satin finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "artifact-free photographic detail with a satin finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing artifact-free photographic detail with a satin finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with artifact-free photographic detail with a satin finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "style-quality-base-artifact-free-photographic-detail",
+      "tags": [
+        "base",
+        "quality",
+        "rarity-rare",
+        "style"
+      ],
+      "facets": {
+        "quality-target": "artifact-free-photographic-detail",
+        "treatment": "satin-finish"
+      },
+      "subcategory": "artifact-free-photographic-detail",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    }
+  ]
+}

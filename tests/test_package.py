@@ -10,7 +10,7 @@ class PackageContractTests(unittest.TestCase):
 
     def test_package_exposes_pep440_development_version(self) -> None:
         """The package should expose the same canonical version as project metadata."""
-        self.assertEqual(prompt_architect.__version__, "0.2.0.dev0")
+        self.assertEqual(prompt_architect.__version__, "0.3.0.dev0")
 
 
 if __name__ == "__main__":

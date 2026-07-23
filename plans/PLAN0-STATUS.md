@@ -10,12 +10,12 @@
 | Plano | `PLAN0.md` |
 | Versão do plano | 1.0 |
 | Status geral | `PARTIAL` |
-| Etapa atual | ETAPA 14 |
-| Última atualização | 2026-07-22 22:43 -04:00 |
+| Etapa atual | ETAPA 14 + Expansão Catálogo V2 concluída localmente |
+| Última atualização | 2026-07-23 01:13 -04:00 |
 | Responsável atual | Agente IA no VS Code |
 | Branch atual | `docs/user-manual` |
-| Próximo marco | Completar screenshots e workflows de exemplo da ETAPA 14 |
-| Bloqueadores | Nenhum para iniciar a ETAPA 14 |
+| Próximo marco | Revisar o diff e decidir commit/publicação da expansão |
+| Bloqueadores | Nenhum; validação Linux/GitHub Actions da expansão ainda não foi executada |
 
 ## 2. Legenda
 
@@ -46,6 +46,7 @@
 | 12 | Interface avançada | DONE | 10, 11 | 2026-07-22 19:43 -04:00 | 2026-07-22 19:50 -04:00 | `3c98b5e` | Editor completo e estado avançado testado |
 | 13 | Qualidade e CI | DONE | 0–12 | 2026-07-22 19:50 -04:00 | 2026-07-22 21:08 -04:00 | `c7a3f87`, `01c8119` | CI run `29970873136` verde nos 7 jobs Linux/Windows |
 | 14 | Documentação e exemplos | IN_PROGRESS | 8–13 | 2026-07-22 21:45 -04:00 | — | — | `MANUAL.md` completo e validado; demais entregas da etapa pendentes |
+| V2.1 | Expansão do Catálogo V2 | DONE | 0–13 | 2026-07-22 23:10 -04:00 | 2026-07-23 01:13 -04:00 | `5999366` (baseline) | 81 packs, 69 dimensões, 5.184 opções, 15.552 variantes e 15 perfis; gates locais aprovados |
 | 15 | Beta público 0.9.0 | PENDING | 0–14 | — | — | — | Requer autorização para publicar |
 | 16 | Release 1.0.0 | PENDING | 15 | — | — | — | Requer autorização para publicar |
 
@@ -819,6 +820,23 @@ Adicionar uma entrada por sessão relevante. Não apagar entradas antigas.
 - Commit/PR: `168d0cb` (`docs: add complete Prompt Architect user manual`), seguido por `6edc562` (normalização de EOF); branch publicada em `origin/docs/user-manual`.
 - Próxima ação: publicar a branch e continuar as demais entregas da ETAPA 14.
 
+### 2026-07-22 23:10 -04:00 — EXPANSÃO DO CATÁLOGO V2
+
+- Status anterior: `PENDING`.
+- Status novo: `DONE` localmente.
+- Branch: `docs/user-manual`.
+- Objetivo: implementar integralmente `PROMPT_AGENTE_EXPANSAO_CATALOGO.md` sem publicar release.
+- Arquivos alterados: contratos e schemas V2, repository, parser, seletor, regras, renderer, manifesto, 81 packs, 15 perfis, frontend, scripts de auditoria, testes, CI e documentação.
+- Implementação: índice e packs modulares versionados; 69 dimensões lógicas; seleção hierárquica por família; cinco modos de geração; variantes determinísticas; densidade adaptativa; negativos modulares; 15 perfis oficiais; manifesto V2; compatibilidade de leitura V1; gerador offline reproduzível.
+- Auditoria externa: `E:\ComfyUI\ComfyUI\wildcards` foi usado somente para ampliar a taxonomia. Nomes próprios, artistas, marcas, horror gráfico, linhas sensuais ambíguas, duplicatas e entradas multidimensionais não foram importados literalmente.
+- Correção durante a validação: a primeira execução completa revelou 63 opções de `subject-type` inacessíveis porque todos os perfis fixavam o fallback. A dimensão passou a `random`; todas as opções permanecem explicitamente adultas, e o lock do grupo de identidade preserva determinismo.
+- Resultado dos testes: 103 testes Python e 193 subtests; 8 testes Node; Ruff, format e mypy aprovados; 126 JSONs validados; 5.184 opções semanticamente únicas; 150.000 prompts com cobertura global integral, 100% de unicidade por perfil e zero fallback; benchmark dentro do limite.
+- Empacotamento: `python -m build` indisponível porque o módulo de desenvolvimento `build` não está instalado; a alternativa sem instalação `pip wheel --no-build-isolation` gerou o wheel `0.3.0.dev0`.
+- Pendências: execução da CI remota Linux/Windows e eventual commit/publicação dependem de ação posterior; nenhuma release ou Registry foi publicado.
+- Bloqueadores: nenhum para a implementação local.
+- Commit/PR: baseline pré-implementação `5999366`; alterações da expansão ainda não commitadas.
+- Próxima ação: revisar o diff, criar um commit Conventional Commit se autorizado e executar a CI por `git remote`.
+
 ## 6. Testes executados
 
 | Data | Etapa | Comando | Resultado | Evidência/observação |
@@ -902,6 +920,16 @@ Adicionar uma entrada por sessão relevante. Não apagar entradas antigas.
 | 2026-07-22 | 13 | GitHub Actions run `29970873136` | PASS | 7/7 jobs: Ubuntu/Windows em Python 3.10/3.12/3.13 e property/benchmark; todos os passos aprovados. |
 | 2026-07-22 | 14 | Validação de `MANUAL.md` e links locais | PASS | Todas as 13 entradas e 5 saídas do schema documentadas; nenhum link local quebrado. |
 | 2026-07-22 | 14 | Ruff, format, mypy, pytest, Node e validação de dados | PASS | 87 testes/337 subtests Python, 5 testes frontend e 27 JSONs aprovados. |
+| 2026-07-23 | V2.1 | `python -m ruff check .` / `python -m ruff format --check .` / `python -m mypy` | PASS | Zero erros; 53 arquivos formatados e 44 arquivos tipados. |
+| 2026-07-23 | V2.1 | `python -m pytest -q` | UNAVAILABLE | O Python 3.12 do sistema não possui o módulo opcional `pytest`; nenhuma instalação foi feita. |
+| 2026-07-23 | V2.1 | `python -m unittest discover -s tests -q` | PASS | 103 testes em 38,011 s no estado final. |
+| 2026-07-23 | V2.1 | `E:\ComfyUI\python_embeded\python.exe -m pytest -q` | PASS | 103 testes e 193 subtests em 39,50 s no estado final. |
+| 2026-07-23 | V2.1 | Testes Node e `node --check` | PASS | 8 testes frontend e sintaxe dos módulos aprovados. |
+| 2026-07-23 | V2.1 | Validadores de dados, semântica, duplicatas e wildcards | PASS | 126 JSONs; 5.184 opções únicas; zero termo proibido; auditoria externa de 48 TXT e 2.486 linhas. |
+| 2026-07-23 | V2.1 | `python -m tests.property_profiles --seeds 10000 --determinism-seeds 128 --output reports/catalog-metrics.json` | PASS | 150.000 prompts; 15 perfis; unicidade 100%; cobertura global 5.184/5.184; zero fallback. |
+| 2026-07-23 | V2.1 | `python -m scripts.benchmark --iterations 1000 --max-seconds 300` | PASS | Carga em 10,901 s; pico 12,7 MiB; 15.000 composições em 252,853 s (59,3/s). |
+| 2026-07-23 | V2.1 | `python -m pip wheel . --no-deps --no-build-isolation --wheel-dir dist` | PASS | Wheel `comfyui_prompt_architect-0.3.0.dev0-py3-none-any.whl`, 486.811 bytes, SHA-256 `f4e96c51efeba5d6b2fdbc898a246ae4e88f33fdcb50ab88c048cf4620ee912e`. |
+| 2026-07-23 | V2.1 | Scan de APIs proibidas, `compileall` e `git diff --check` | PASS | Nenhum uso de execução dinâmica, subprocesso ou biblioteca de rede no runtime; pacote compila e diff não contém erro de whitespace. |
 
 Nunca registrar `PASS` sem executar o comando.
 
@@ -913,10 +941,14 @@ Nunca registrar `PASS` sem executar o comando.
 | Cobertura total | >= 80% | 91,70% por coverage.py com branches na CI | PASS |
 | Ruff | 0 erros | 0 erros | PASS |
 | Mypy | 0 erros relevantes | 0 erros | PASS |
-| Perfis oficiais | 3 | 3 | PASS |
+| Perfis oficiais | >= 15 | 15 | PASS |
+| Packs de catálogo | Modular | 81 packs em 9 domínios | PASS |
+| Opções semânticas | >= 4.000 | 5.184 únicas | PASS |
+| Variantes textuais | 2–5 por opção | 15.552; 3 por opção | PASS |
 | Seeds testadas por perfil | 10.000 | 10.000 | PASS |
-| Prompts vazios | 0 | 0 em 30.000 seeds | PASS |
-| Placeholders residuais | 0 | 0 em 30.000 seeds | PASS |
+| Cobertura global do catálogo | 100% | 5.184/5.184 | PASS |
+| Prompts vazios | 0 | 0 em 150.000 seeds | PASS |
+| Placeholders residuais | 0 | 0 em 150.000 seeds | PASS |
 | Windows | Suportado | Core, frontend state e ComfyUI 0.27.0 validados | PASS |
 | Linux | Suportado | 87 testes e todos os gates aprovados em Python 3.10/3.12/3.13 | PASS |
 
@@ -953,6 +985,10 @@ Nunca registrar `PASS` sem executar o comando.
 | D-008 | 2026-07-22 | Manter ETAPA 13 `PARTIAL` até uma execução Linux/Windows real da CI | O plano proíbe inventar compatibilidade ou marcar aceite não executado | Marcar `DONE` apenas com equivalentes Windows locais | Cumprida pela run `29970873136`; ETAPA 14 elegível |
 | D-009 | 2026-07-22 | Validar Linux exclusivamente pelo GitHub Actions e operar o repositório por `git remote` | O repositório público e runners hospedados fornecem a matriz reproduzível exigida | Manter uma segunda infraestrutura Linux local | Remove dependências locais do fluxo de CI |
 | D-010 | 2026-07-22 | Introduzir `custom` no schema de configuração 1.1 e preservar leitura do schema 1.0 | Texto livre por seção tem semântica distinta de um ID `fixed` e precisa ser portátil, limitado e auditável | Reutilizar `fixed` com IDs inexistentes; aceitar caminhos ou editar bibliotecas em runtime | Novo texto livre é explícito, determinístico, protegido e registrado no manifesto; pacote `0.2.0.dev0` |
+| D-011 | 2026-07-22 | Introduzir Catálogo e Manifesto V2 com leitura compatível de dados V1 | Packs independentes, proveniência, variantes e versionamento não cabem no contrato V1 sem ambiguidade | Alterar silenciosamente o schema V1; descartar compatibilidade | Contratos públicos versionados; pacote `0.3.0.dev0` |
+| D-012 | 2026-07-22 | Gerar os dados oficiais por script offline determinístico | O volume exige reprodução, revisão estrutural e IDs estáveis sem instalação ou rede em runtime | Arquivos manuais sem fonte reproduzível; geração durante execução do nó | 81 packs e 15 perfis podem ser regenerados e auditados localmente |
+| D-013 | 2026-07-22 | Usar `E:\ComfyUI\ComfyUI\wildcards` somente como referência de taxonomia | A fonte contém duplicatas, nomes próprios, marcas, conteúdo inseguro e linhas multidimensionais | Copiar linhas literalmente; ignorar completamente a taxonomia disponível | Conteúdo final é original, atômico, seguro e rastreável por domínio |
+| D-014 | 2026-07-23 | Tornar `subject-type` aleatório nos perfis oficiais, mantendo fallback adulto | A auditoria de 150.000 prompts revelou que o modo fixo deixava 63 opções seguras inacessíveis | Reduzir artificialmente o conjunto elegível; remover as opções | Cobertura global integral e maior diversidade, preservando segurança e `identity_lock` |
 
 ## 11. Dívida técnica
 
@@ -1015,4 +1051,4 @@ Nunca registrar `PASS` sem executar o comando.
 
 ## 14. Próxima ação obrigatória
 
-Completar **screenshots e workflows de exemplo** da ETAPA 14, mantendo `MANUAL.md` sincronizado com o schema público.
+Revisar o diff da expansão, decidir o commit e executar a CI remota Linux/Windows por `git remote`; a publicação de release/Registry continua condicionada a autorização explícita.

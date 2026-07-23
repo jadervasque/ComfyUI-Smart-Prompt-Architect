@@ -1,0 +1,2577 @@
+{
+  "schema_version": "2.0",
+  "id": "wardrobe-headwear-base",
+  "version": "2.0.0",
+  "library": "headwear",
+  "domain": "wardrobe",
+  "category": "headwear",
+  "language": "en",
+  "status": "active",
+  "safety": "general",
+  "tags": [
+    "base"
+  ],
+  "fallback_option_id": "wardrobe-headwear-base-wide-brim-hat-precise-tailoring",
+  "options": [
+    {
+      "id": "wardrobe-headwear-base-wide-brim-hat-precise-tailoring",
+      "semantic_key": "wardrobe-headwear-base-wide-brim-hat-precise-tailoring",
+      "text": "a wide-brim hat with precise tailoring",
+      "sentence": "A wide-brim hat with precise tailoring.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a wide-brim hat with precise tailoring",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a wide-brim hat with precise tailoring",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a wide-brim hat with precise tailoring",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-headwear-base-wide-brim-hat",
+      "tags": [
+        "base",
+        "headwear",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "headwear": "wide-brim-hat",
+        "treatment": "precise-tailoring"
+      },
+      "subcategory": "wide-brim-hat",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-headwear-base-wide-brim-hat-relaxed-drape",
+      "semantic_key": "wardrobe-headwear-base-wide-brim-hat-relaxed-drape",
+      "text": "a wide-brim hat with relaxed drape",
+      "sentence": "A wide-brim hat with relaxed drape.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a wide-brim hat with relaxed drape",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a wide-brim hat with relaxed drape",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a wide-brim hat with relaxed drape",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-headwear-base-wide-brim-hat",
+      "tags": [
+        "base",
+        "headwear",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "headwear": "wide-brim-hat",
+        "treatment": "relaxed-drape"
+      },
+      "subcategory": "wide-brim-hat",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-headwear-base-wide-brim-hat-layered-construction",
+      "semantic_key": "wardrobe-headwear-base-wide-brim-hat-layered-construction",
+      "text": "a wide-brim hat with layered construction",
+      "sentence": "A wide-brim hat with layered construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a wide-brim hat with layered construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a wide-brim hat with layered construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a wide-brim hat with layered construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-headwear-base-wide-brim-hat",
+      "tags": [
+        "base",
+        "headwear",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "headwear": "wide-brim-hat",
+        "treatment": "layered-construction"
+      },
+      "subcategory": "wide-brim-hat",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-headwear-base-wide-brim-hat-clean-seaming",
+      "semantic_key": "wardrobe-headwear-base-wide-brim-hat-clean-seaming",
+      "text": "a wide-brim hat with clean seaming",
+      "sentence": "A wide-brim hat with clean seaming.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a wide-brim hat with clean seaming",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a wide-brim hat with clean seaming",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a wide-brim hat with clean seaming",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-headwear-base-wide-brim-hat",
+      "tags": [
+        "base",
+        "headwear",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "headwear": "wide-brim-hat",
+        "treatment": "clean-seaming"
+      },
+      "subcategory": "wide-brim-hat",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-headwear-base-wide-brim-hat-structured-volume",
+      "semantic_key": "wardrobe-headwear-base-wide-brim-hat-structured-volume",
+      "text": "a wide-brim hat with structured volume",
+      "sentence": "A wide-brim hat with structured volume.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a wide-brim hat with structured volume",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a wide-brim hat with structured volume",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a wide-brim hat with structured volume",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-headwear-base-wide-brim-hat",
+      "tags": [
+        "base",
+        "headwear",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "headwear": "wide-brim-hat",
+        "treatment": "structured-volume"
+      },
+      "subcategory": "wide-brim-hat",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-headwear-base-wide-brim-hat-fluid-movement",
+      "semantic_key": "wardrobe-headwear-base-wide-brim-hat-fluid-movement",
+      "text": "a wide-brim hat with fluid movement",
+      "sentence": "A wide-brim hat with fluid movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a wide-brim hat with fluid movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a wide-brim hat with fluid movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a wide-brim hat with fluid movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-headwear-base-wide-brim-hat",
+      "tags": [
+        "base",
+        "headwear",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "headwear": "wide-brim-hat",
+        "treatment": "fluid-movement"
+      },
+      "subcategory": "wide-brim-hat",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-headwear-base-wide-brim-hat-practical-detailing",
+      "semantic_key": "wardrobe-headwear-base-wide-brim-hat-practical-detailing",
+      "text": "a wide-brim hat with practical detailing",
+      "sentence": "A wide-brim hat with practical detailing.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a wide-brim hat with practical detailing",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a wide-brim hat with practical detailing",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a wide-brim hat with practical detailing",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-headwear-base-wide-brim-hat",
+      "tags": [
+        "base",
+        "headwear",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "headwear": "wide-brim-hat",
+        "treatment": "practical-detailing"
+      },
+      "subcategory": "wide-brim-hat",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-headwear-base-wide-brim-hat-minimal-construction",
+      "semantic_key": "wardrobe-headwear-base-wide-brim-hat-minimal-construction",
+      "text": "a wide-brim hat with minimal construction",
+      "sentence": "A wide-brim hat with minimal construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a wide-brim hat with minimal construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a wide-brim hat with minimal construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a wide-brim hat with minimal construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-headwear-base-wide-brim-hat",
+      "tags": [
+        "base",
+        "headwear",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "headwear": "wide-brim-hat",
+        "treatment": "minimal-construction"
+      },
+      "subcategory": "wide-brim-hat",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-headwear-base-soft-beanie-precise-tailoring",
+      "semantic_key": "wardrobe-headwear-base-soft-beanie-precise-tailoring",
+      "text": "a soft beanie with precise tailoring",
+      "sentence": "A soft beanie with precise tailoring.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a soft beanie with precise tailoring",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a soft beanie with precise tailoring",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a soft beanie with precise tailoring",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-headwear-base-soft-beanie",
+      "tags": [
+        "base",
+        "headwear",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "headwear": "soft-beanie",
+        "treatment": "precise-tailoring"
+      },
+      "subcategory": "soft-beanie",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-headwear-base-soft-beanie-relaxed-drape",
+      "semantic_key": "wardrobe-headwear-base-soft-beanie-relaxed-drape",
+      "text": "a soft beanie with relaxed drape",
+      "sentence": "A soft beanie with relaxed drape.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a soft beanie with relaxed drape",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a soft beanie with relaxed drape",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a soft beanie with relaxed drape",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-headwear-base-soft-beanie",
+      "tags": [
+        "base",
+        "headwear",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "headwear": "soft-beanie",
+        "treatment": "relaxed-drape"
+      },
+      "subcategory": "soft-beanie",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-headwear-base-soft-beanie-layered-construction",
+      "semantic_key": "wardrobe-headwear-base-soft-beanie-layered-construction",
+      "text": "a soft beanie with layered construction",
+      "sentence": "A soft beanie with layered construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a soft beanie with layered construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a soft beanie with layered construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a soft beanie with layered construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-headwear-base-soft-beanie",
+      "tags": [
+        "base",
+        "headwear",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "headwear": "soft-beanie",
+        "treatment": "layered-construction"
+      },
+      "subcategory": "soft-beanie",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-headwear-base-soft-beanie-clean-seaming",
+      "semantic_key": "wardrobe-headwear-base-soft-beanie-clean-seaming",
+      "text": "a soft beanie with clean seaming",
+      "sentence": "A soft beanie with clean seaming.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a soft beanie with clean seaming",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a soft beanie with clean seaming",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a soft beanie with clean seaming",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-headwear-base-soft-beanie",
+      "tags": [
+        "base",
+        "headwear",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "headwear": "soft-beanie",
+        "treatment": "clean-seaming"
+      },
+      "subcategory": "soft-beanie",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-headwear-base-soft-beanie-structured-volume",
+      "semantic_key": "wardrobe-headwear-base-soft-beanie-structured-volume",
+      "text": "a soft beanie with structured volume",
+      "sentence": "A soft beanie with structured volume.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a soft beanie with structured volume",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a soft beanie with structured volume",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a soft beanie with structured volume",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-headwear-base-soft-beanie",
+      "tags": [
+        "base",
+        "headwear",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "headwear": "soft-beanie",
+        "treatment": "structured-volume"
+      },
+      "subcategory": "soft-beanie",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-headwear-base-soft-beanie-fluid-movement",
+      "semantic_key": "wardrobe-headwear-base-soft-beanie-fluid-movement",
+      "text": "a soft beanie with fluid movement",
+      "sentence": "A soft beanie with fluid movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a soft beanie with fluid movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a soft beanie with fluid movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a soft beanie with fluid movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-headwear-base-soft-beanie",
+      "tags": [
+        "base",
+        "headwear",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "headwear": "soft-beanie",
+        "treatment": "fluid-movement"
+      },
+      "subcategory": "soft-beanie",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-headwear-base-soft-beanie-practical-detailing",
+      "semantic_key": "wardrobe-headwear-base-soft-beanie-practical-detailing",
+      "text": "a soft beanie with practical detailing",
+      "sentence": "A soft beanie with practical detailing.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a soft beanie with practical detailing",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a soft beanie with practical detailing",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a soft beanie with practical detailing",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-headwear-base-soft-beanie",
+      "tags": [
+        "base",
+        "headwear",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "headwear": "soft-beanie",
+        "treatment": "practical-detailing"
+      },
+      "subcategory": "soft-beanie",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-headwear-base-soft-beanie-minimal-construction",
+      "semantic_key": "wardrobe-headwear-base-soft-beanie-minimal-construction",
+      "text": "a soft beanie with minimal construction",
+      "sentence": "A soft beanie with minimal construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a soft beanie with minimal construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a soft beanie with minimal construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a soft beanie with minimal construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-headwear-base-soft-beanie",
+      "tags": [
+        "base",
+        "headwear",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "headwear": "soft-beanie",
+        "treatment": "minimal-construction"
+      },
+      "subcategory": "soft-beanie",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-headwear-base-structured-cap-precise-tailoring",
+      "semantic_key": "wardrobe-headwear-base-structured-cap-precise-tailoring",
+      "text": "a structured cap with precise tailoring",
+      "sentence": "A structured cap with precise tailoring.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a structured cap with precise tailoring",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a structured cap with precise tailoring",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a structured cap with precise tailoring",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-headwear-base-structured-cap",
+      "tags": [
+        "base",
+        "headwear",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "headwear": "structured-cap",
+        "treatment": "precise-tailoring"
+      },
+      "subcategory": "structured-cap",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-headwear-base-structured-cap-relaxed-drape",
+      "semantic_key": "wardrobe-headwear-base-structured-cap-relaxed-drape",
+      "text": "a structured cap with relaxed drape",
+      "sentence": "A structured cap with relaxed drape.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a structured cap with relaxed drape",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a structured cap with relaxed drape",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a structured cap with relaxed drape",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-headwear-base-structured-cap",
+      "tags": [
+        "base",
+        "headwear",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "headwear": "structured-cap",
+        "treatment": "relaxed-drape"
+      },
+      "subcategory": "structured-cap",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-headwear-base-structured-cap-layered-construction",
+      "semantic_key": "wardrobe-headwear-base-structured-cap-layered-construction",
+      "text": "a structured cap with layered construction",
+      "sentence": "A structured cap with layered construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a structured cap with layered construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a structured cap with layered construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a structured cap with layered construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-headwear-base-structured-cap",
+      "tags": [
+        "base",
+        "headwear",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "headwear": "structured-cap",
+        "treatment": "layered-construction"
+      },
+      "subcategory": "structured-cap",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-headwear-base-structured-cap-clean-seaming",
+      "semantic_key": "wardrobe-headwear-base-structured-cap-clean-seaming",
+      "text": "a structured cap with clean seaming",
+      "sentence": "A structured cap with clean seaming.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a structured cap with clean seaming",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a structured cap with clean seaming",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a structured cap with clean seaming",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-headwear-base-structured-cap",
+      "tags": [
+        "base",
+        "headwear",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "headwear": "structured-cap",
+        "treatment": "clean-seaming"
+      },
+      "subcategory": "structured-cap",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-headwear-base-structured-cap-structured-volume",
+      "semantic_key": "wardrobe-headwear-base-structured-cap-structured-volume",
+      "text": "a structured cap with structured volume",
+      "sentence": "A structured cap with structured volume.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a structured cap with structured volume",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a structured cap with structured volume",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a structured cap with structured volume",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-headwear-base-structured-cap",
+      "tags": [
+        "base",
+        "headwear",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "headwear": "structured-cap",
+        "treatment": "structured-volume"
+      },
+      "subcategory": "structured-cap",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-headwear-base-structured-cap-fluid-movement",
+      "semantic_key": "wardrobe-headwear-base-structured-cap-fluid-movement",
+      "text": "a structured cap with fluid movement",
+      "sentence": "A structured cap with fluid movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a structured cap with fluid movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a structured cap with fluid movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a structured cap with fluid movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-headwear-base-structured-cap",
+      "tags": [
+        "base",
+        "headwear",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "headwear": "structured-cap",
+        "treatment": "fluid-movement"
+      },
+      "subcategory": "structured-cap",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-headwear-base-structured-cap-practical-detailing",
+      "semantic_key": "wardrobe-headwear-base-structured-cap-practical-detailing",
+      "text": "a structured cap with practical detailing",
+      "sentence": "A structured cap with practical detailing.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a structured cap with practical detailing",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a structured cap with practical detailing",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a structured cap with practical detailing",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-headwear-base-structured-cap",
+      "tags": [
+        "base",
+        "headwear",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "headwear": "structured-cap",
+        "treatment": "practical-detailing"
+      },
+      "subcategory": "structured-cap",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-headwear-base-structured-cap-minimal-construction",
+      "semantic_key": "wardrobe-headwear-base-structured-cap-minimal-construction",
+      "text": "a structured cap with minimal construction",
+      "sentence": "A structured cap with minimal construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a structured cap with minimal construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a structured cap with minimal construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a structured cap with minimal construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-headwear-base-structured-cap",
+      "tags": [
+        "base",
+        "headwear",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "headwear": "structured-cap",
+        "treatment": "minimal-construction"
+      },
+      "subcategory": "structured-cap",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-headwear-base-silk-headscarf-precise-tailoring",
+      "semantic_key": "wardrobe-headwear-base-silk-headscarf-precise-tailoring",
+      "text": "a silk headscarf with precise tailoring",
+      "sentence": "A silk headscarf with precise tailoring.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a silk headscarf with precise tailoring",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a silk headscarf with precise tailoring",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a silk headscarf with precise tailoring",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-headwear-base-silk-headscarf",
+      "tags": [
+        "base",
+        "headwear",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "headwear": "silk-headscarf",
+        "treatment": "precise-tailoring"
+      },
+      "subcategory": "silk-headscarf",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-headwear-base-silk-headscarf-relaxed-drape",
+      "semantic_key": "wardrobe-headwear-base-silk-headscarf-relaxed-drape",
+      "text": "a silk headscarf with relaxed drape",
+      "sentence": "A silk headscarf with relaxed drape.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a silk headscarf with relaxed drape",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a silk headscarf with relaxed drape",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a silk headscarf with relaxed drape",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-headwear-base-silk-headscarf",
+      "tags": [
+        "base",
+        "headwear",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "headwear": "silk-headscarf",
+        "treatment": "relaxed-drape"
+      },
+      "subcategory": "silk-headscarf",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-headwear-base-silk-headscarf-layered-construction",
+      "semantic_key": "wardrobe-headwear-base-silk-headscarf-layered-construction",
+      "text": "a silk headscarf with layered construction",
+      "sentence": "A silk headscarf with layered construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a silk headscarf with layered construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a silk headscarf with layered construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a silk headscarf with layered construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-headwear-base-silk-headscarf",
+      "tags": [
+        "base",
+        "headwear",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "headwear": "silk-headscarf",
+        "treatment": "layered-construction"
+      },
+      "subcategory": "silk-headscarf",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-headwear-base-silk-headscarf-clean-seaming",
+      "semantic_key": "wardrobe-headwear-base-silk-headscarf-clean-seaming",
+      "text": "a silk headscarf with clean seaming",
+      "sentence": "A silk headscarf with clean seaming.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a silk headscarf with clean seaming",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a silk headscarf with clean seaming",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a silk headscarf with clean seaming",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-headwear-base-silk-headscarf",
+      "tags": [
+        "base",
+        "headwear",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "headwear": "silk-headscarf",
+        "treatment": "clean-seaming"
+      },
+      "subcategory": "silk-headscarf",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-headwear-base-silk-headscarf-structured-volume",
+      "semantic_key": "wardrobe-headwear-base-silk-headscarf-structured-volume",
+      "text": "a silk headscarf with structured volume",
+      "sentence": "A silk headscarf with structured volume.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a silk headscarf with structured volume",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a silk headscarf with structured volume",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a silk headscarf with structured volume",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-headwear-base-silk-headscarf",
+      "tags": [
+        "base",
+        "headwear",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "headwear": "silk-headscarf",
+        "treatment": "structured-volume"
+      },
+      "subcategory": "silk-headscarf",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-headwear-base-silk-headscarf-fluid-movement",
+      "semantic_key": "wardrobe-headwear-base-silk-headscarf-fluid-movement",
+      "text": "a silk headscarf with fluid movement",
+      "sentence": "A silk headscarf with fluid movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a silk headscarf with fluid movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a silk headscarf with fluid movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a silk headscarf with fluid movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-headwear-base-silk-headscarf",
+      "tags": [
+        "base",
+        "headwear",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "headwear": "silk-headscarf",
+        "treatment": "fluid-movement"
+      },
+      "subcategory": "silk-headscarf",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-headwear-base-silk-headscarf-practical-detailing",
+      "semantic_key": "wardrobe-headwear-base-silk-headscarf-practical-detailing",
+      "text": "a silk headscarf with practical detailing",
+      "sentence": "A silk headscarf with practical detailing.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a silk headscarf with practical detailing",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a silk headscarf with practical detailing",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a silk headscarf with practical detailing",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-headwear-base-silk-headscarf",
+      "tags": [
+        "base",
+        "headwear",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "headwear": "silk-headscarf",
+        "treatment": "practical-detailing"
+      },
+      "subcategory": "silk-headscarf",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-headwear-base-silk-headscarf-minimal-construction",
+      "semantic_key": "wardrobe-headwear-base-silk-headscarf-minimal-construction",
+      "text": "a silk headscarf with minimal construction",
+      "sentence": "A silk headscarf with minimal construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a silk headscarf with minimal construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a silk headscarf with minimal construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a silk headscarf with minimal construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-headwear-base-silk-headscarf",
+      "tags": [
+        "base",
+        "headwear",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "headwear": "silk-headscarf",
+        "treatment": "minimal-construction"
+      },
+      "subcategory": "silk-headscarf",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-headwear-base-felt-fedora-precise-tailoring",
+      "semantic_key": "wardrobe-headwear-base-felt-fedora-precise-tailoring",
+      "text": "a felt fedora with precise tailoring",
+      "sentence": "A felt fedora with precise tailoring.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a felt fedora with precise tailoring",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a felt fedora with precise tailoring",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a felt fedora with precise tailoring",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-headwear-base-felt-fedora",
+      "tags": [
+        "base",
+        "headwear",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "headwear": "felt-fedora",
+        "treatment": "precise-tailoring"
+      },
+      "subcategory": "felt-fedora",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-headwear-base-felt-fedora-relaxed-drape",
+      "semantic_key": "wardrobe-headwear-base-felt-fedora-relaxed-drape",
+      "text": "a felt fedora with relaxed drape",
+      "sentence": "A felt fedora with relaxed drape.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a felt fedora with relaxed drape",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a felt fedora with relaxed drape",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a felt fedora with relaxed drape",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-headwear-base-felt-fedora",
+      "tags": [
+        "base",
+        "headwear",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "headwear": "felt-fedora",
+        "treatment": "relaxed-drape"
+      },
+      "subcategory": "felt-fedora",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-headwear-base-felt-fedora-layered-construction",
+      "semantic_key": "wardrobe-headwear-base-felt-fedora-layered-construction",
+      "text": "a felt fedora with layered construction",
+      "sentence": "A felt fedora with layered construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a felt fedora with layered construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a felt fedora with layered construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a felt fedora with layered construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-headwear-base-felt-fedora",
+      "tags": [
+        "base",
+        "headwear",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "headwear": "felt-fedora",
+        "treatment": "layered-construction"
+      },
+      "subcategory": "felt-fedora",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-headwear-base-felt-fedora-clean-seaming",
+      "semantic_key": "wardrobe-headwear-base-felt-fedora-clean-seaming",
+      "text": "a felt fedora with clean seaming",
+      "sentence": "A felt fedora with clean seaming.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a felt fedora with clean seaming",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a felt fedora with clean seaming",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a felt fedora with clean seaming",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-headwear-base-felt-fedora",
+      "tags": [
+        "base",
+        "headwear",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "headwear": "felt-fedora",
+        "treatment": "clean-seaming"
+      },
+      "subcategory": "felt-fedora",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-headwear-base-felt-fedora-structured-volume",
+      "semantic_key": "wardrobe-headwear-base-felt-fedora-structured-volume",
+      "text": "a felt fedora with structured volume",
+      "sentence": "A felt fedora with structured volume.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a felt fedora with structured volume",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a felt fedora with structured volume",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a felt fedora with structured volume",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-headwear-base-felt-fedora",
+      "tags": [
+        "base",
+        "headwear",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "headwear": "felt-fedora",
+        "treatment": "structured-volume"
+      },
+      "subcategory": "felt-fedora",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-headwear-base-felt-fedora-fluid-movement",
+      "semantic_key": "wardrobe-headwear-base-felt-fedora-fluid-movement",
+      "text": "a felt fedora with fluid movement",
+      "sentence": "A felt fedora with fluid movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a felt fedora with fluid movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a felt fedora with fluid movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a felt fedora with fluid movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-headwear-base-felt-fedora",
+      "tags": [
+        "base",
+        "headwear",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "headwear": "felt-fedora",
+        "treatment": "fluid-movement"
+      },
+      "subcategory": "felt-fedora",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-headwear-base-felt-fedora-practical-detailing",
+      "semantic_key": "wardrobe-headwear-base-felt-fedora-practical-detailing",
+      "text": "a felt fedora with practical detailing",
+      "sentence": "A felt fedora with practical detailing.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a felt fedora with practical detailing",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a felt fedora with practical detailing",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a felt fedora with practical detailing",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-headwear-base-felt-fedora",
+      "tags": [
+        "base",
+        "headwear",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "headwear": "felt-fedora",
+        "treatment": "practical-detailing"
+      },
+      "subcategory": "felt-fedora",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-headwear-base-felt-fedora-minimal-construction",
+      "semantic_key": "wardrobe-headwear-base-felt-fedora-minimal-construction",
+      "text": "a felt fedora with minimal construction",
+      "sentence": "A felt fedora with minimal construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a felt fedora with minimal construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a felt fedora with minimal construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a felt fedora with minimal construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-headwear-base-felt-fedora",
+      "tags": [
+        "base",
+        "headwear",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "headwear": "felt-fedora",
+        "treatment": "minimal-construction"
+      },
+      "subcategory": "felt-fedora",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-headwear-base-woven-sun-hat-precise-tailoring",
+      "semantic_key": "wardrobe-headwear-base-woven-sun-hat-precise-tailoring",
+      "text": "a woven sun hat with precise tailoring",
+      "sentence": "A woven sun hat with precise tailoring.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a woven sun hat with precise tailoring",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a woven sun hat with precise tailoring",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a woven sun hat with precise tailoring",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-headwear-base-woven-sun-hat",
+      "tags": [
+        "base",
+        "headwear",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "headwear": "woven-sun-hat",
+        "treatment": "precise-tailoring"
+      },
+      "subcategory": "woven-sun-hat",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-headwear-base-woven-sun-hat-relaxed-drape",
+      "semantic_key": "wardrobe-headwear-base-woven-sun-hat-relaxed-drape",
+      "text": "a woven sun hat with relaxed drape",
+      "sentence": "A woven sun hat with relaxed drape.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a woven sun hat with relaxed drape",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a woven sun hat with relaxed drape",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a woven sun hat with relaxed drape",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-headwear-base-woven-sun-hat",
+      "tags": [
+        "base",
+        "headwear",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "headwear": "woven-sun-hat",
+        "treatment": "relaxed-drape"
+      },
+      "subcategory": "woven-sun-hat",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-headwear-base-woven-sun-hat-layered-construction",
+      "semantic_key": "wardrobe-headwear-base-woven-sun-hat-layered-construction",
+      "text": "a woven sun hat with layered construction",
+      "sentence": "A woven sun hat with layered construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a woven sun hat with layered construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a woven sun hat with layered construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a woven sun hat with layered construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-headwear-base-woven-sun-hat",
+      "tags": [
+        "base",
+        "headwear",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "headwear": "woven-sun-hat",
+        "treatment": "layered-construction"
+      },
+      "subcategory": "woven-sun-hat",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-headwear-base-woven-sun-hat-clean-seaming",
+      "semantic_key": "wardrobe-headwear-base-woven-sun-hat-clean-seaming",
+      "text": "a woven sun hat with clean seaming",
+      "sentence": "A woven sun hat with clean seaming.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a woven sun hat with clean seaming",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a woven sun hat with clean seaming",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a woven sun hat with clean seaming",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-headwear-base-woven-sun-hat",
+      "tags": [
+        "base",
+        "headwear",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "headwear": "woven-sun-hat",
+        "treatment": "clean-seaming"
+      },
+      "subcategory": "woven-sun-hat",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-headwear-base-woven-sun-hat-structured-volume",
+      "semantic_key": "wardrobe-headwear-base-woven-sun-hat-structured-volume",
+      "text": "a woven sun hat with structured volume",
+      "sentence": "A woven sun hat with structured volume.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a woven sun hat with structured volume",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a woven sun hat with structured volume",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a woven sun hat with structured volume",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-headwear-base-woven-sun-hat",
+      "tags": [
+        "base",
+        "headwear",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "headwear": "woven-sun-hat",
+        "treatment": "structured-volume"
+      },
+      "subcategory": "woven-sun-hat",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-headwear-base-woven-sun-hat-fluid-movement",
+      "semantic_key": "wardrobe-headwear-base-woven-sun-hat-fluid-movement",
+      "text": "a woven sun hat with fluid movement",
+      "sentence": "A woven sun hat with fluid movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a woven sun hat with fluid movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a woven sun hat with fluid movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a woven sun hat with fluid movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-headwear-base-woven-sun-hat",
+      "tags": [
+        "base",
+        "headwear",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "headwear": "woven-sun-hat",
+        "treatment": "fluid-movement"
+      },
+      "subcategory": "woven-sun-hat",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-headwear-base-woven-sun-hat-practical-detailing",
+      "semantic_key": "wardrobe-headwear-base-woven-sun-hat-practical-detailing",
+      "text": "a woven sun hat with practical detailing",
+      "sentence": "A woven sun hat with practical detailing.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a woven sun hat with practical detailing",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a woven sun hat with practical detailing",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a woven sun hat with practical detailing",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-headwear-base-woven-sun-hat",
+      "tags": [
+        "base",
+        "headwear",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "headwear": "woven-sun-hat",
+        "treatment": "practical-detailing"
+      },
+      "subcategory": "woven-sun-hat",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-headwear-base-woven-sun-hat-minimal-construction",
+      "semantic_key": "wardrobe-headwear-base-woven-sun-hat-minimal-construction",
+      "text": "a woven sun hat with minimal construction",
+      "sentence": "A woven sun hat with minimal construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a woven sun hat with minimal construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a woven sun hat with minimal construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a woven sun hat with minimal construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-headwear-base-woven-sun-hat",
+      "tags": [
+        "base",
+        "headwear",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "headwear": "woven-sun-hat",
+        "treatment": "minimal-construction"
+      },
+      "subcategory": "woven-sun-hat",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-headwear-base-minimal-headband-precise-tailoring",
+      "semantic_key": "wardrobe-headwear-base-minimal-headband-precise-tailoring",
+      "text": "a minimal headband with precise tailoring",
+      "sentence": "A minimal headband with precise tailoring.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a minimal headband with precise tailoring",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a minimal headband with precise tailoring",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a minimal headband with precise tailoring",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-headwear-base-minimal-headband",
+      "tags": [
+        "base",
+        "headwear",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "headwear": "minimal-headband",
+        "treatment": "precise-tailoring"
+      },
+      "subcategory": "minimal-headband",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-headwear-base-minimal-headband-relaxed-drape",
+      "semantic_key": "wardrobe-headwear-base-minimal-headband-relaxed-drape",
+      "text": "a minimal headband with relaxed drape",
+      "sentence": "A minimal headband with relaxed drape.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a minimal headband with relaxed drape",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a minimal headband with relaxed drape",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a minimal headband with relaxed drape",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-headwear-base-minimal-headband",
+      "tags": [
+        "base",
+        "headwear",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "headwear": "minimal-headband",
+        "treatment": "relaxed-drape"
+      },
+      "subcategory": "minimal-headband",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-headwear-base-minimal-headband-layered-construction",
+      "semantic_key": "wardrobe-headwear-base-minimal-headband-layered-construction",
+      "text": "a minimal headband with layered construction",
+      "sentence": "A minimal headband with layered construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a minimal headband with layered construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a minimal headband with layered construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a minimal headband with layered construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-headwear-base-minimal-headband",
+      "tags": [
+        "base",
+        "headwear",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "headwear": "minimal-headband",
+        "treatment": "layered-construction"
+      },
+      "subcategory": "minimal-headband",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-headwear-base-minimal-headband-clean-seaming",
+      "semantic_key": "wardrobe-headwear-base-minimal-headband-clean-seaming",
+      "text": "a minimal headband with clean seaming",
+      "sentence": "A minimal headband with clean seaming.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a minimal headband with clean seaming",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a minimal headband with clean seaming",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a minimal headband with clean seaming",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-headwear-base-minimal-headband",
+      "tags": [
+        "base",
+        "headwear",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "headwear": "minimal-headband",
+        "treatment": "clean-seaming"
+      },
+      "subcategory": "minimal-headband",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-headwear-base-minimal-headband-structured-volume",
+      "semantic_key": "wardrobe-headwear-base-minimal-headband-structured-volume",
+      "text": "a minimal headband with structured volume",
+      "sentence": "A minimal headband with structured volume.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a minimal headband with structured volume",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a minimal headband with structured volume",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a minimal headband with structured volume",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-headwear-base-minimal-headband",
+      "tags": [
+        "base",
+        "headwear",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "headwear": "minimal-headband",
+        "treatment": "structured-volume"
+      },
+      "subcategory": "minimal-headband",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-headwear-base-minimal-headband-fluid-movement",
+      "semantic_key": "wardrobe-headwear-base-minimal-headband-fluid-movement",
+      "text": "a minimal headband with fluid movement",
+      "sentence": "A minimal headband with fluid movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a minimal headband with fluid movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a minimal headband with fluid movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a minimal headband with fluid movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-headwear-base-minimal-headband",
+      "tags": [
+        "base",
+        "headwear",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "headwear": "minimal-headband",
+        "treatment": "fluid-movement"
+      },
+      "subcategory": "minimal-headband",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-headwear-base-minimal-headband-practical-detailing",
+      "semantic_key": "wardrobe-headwear-base-minimal-headband-practical-detailing",
+      "text": "a minimal headband with practical detailing",
+      "sentence": "A minimal headband with practical detailing.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a minimal headband with practical detailing",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a minimal headband with practical detailing",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a minimal headband with practical detailing",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-headwear-base-minimal-headband",
+      "tags": [
+        "base",
+        "headwear",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "headwear": "minimal-headband",
+        "treatment": "practical-detailing"
+      },
+      "subcategory": "minimal-headband",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-headwear-base-minimal-headband-minimal-construction",
+      "semantic_key": "wardrobe-headwear-base-minimal-headband-minimal-construction",
+      "text": "a minimal headband with minimal construction",
+      "sentence": "A minimal headband with minimal construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a minimal headband with minimal construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a minimal headband with minimal construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a minimal headband with minimal construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-headwear-base-minimal-headband",
+      "tags": [
+        "base",
+        "headwear",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "headwear": "minimal-headband",
+        "treatment": "minimal-construction"
+      },
+      "subcategory": "minimal-headband",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-headwear-base-beret-precise-tailoring",
+      "semantic_key": "wardrobe-headwear-base-beret-precise-tailoring",
+      "text": "a beret with precise tailoring",
+      "sentence": "A beret with precise tailoring.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a beret with precise tailoring",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a beret with precise tailoring",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a beret with precise tailoring",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-headwear-base-beret",
+      "tags": [
+        "base",
+        "headwear",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "headwear": "beret",
+        "treatment": "precise-tailoring"
+      },
+      "subcategory": "beret",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-headwear-base-beret-relaxed-drape",
+      "semantic_key": "wardrobe-headwear-base-beret-relaxed-drape",
+      "text": "a beret with relaxed drape",
+      "sentence": "A beret with relaxed drape.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a beret with relaxed drape",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a beret with relaxed drape",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a beret with relaxed drape",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-headwear-base-beret",
+      "tags": [
+        "base",
+        "headwear",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "headwear": "beret",
+        "treatment": "relaxed-drape"
+      },
+      "subcategory": "beret",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-headwear-base-beret-layered-construction",
+      "semantic_key": "wardrobe-headwear-base-beret-layered-construction",
+      "text": "a beret with layered construction",
+      "sentence": "A beret with layered construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a beret with layered construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a beret with layered construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a beret with layered construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-headwear-base-beret",
+      "tags": [
+        "base",
+        "headwear",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "headwear": "beret",
+        "treatment": "layered-construction"
+      },
+      "subcategory": "beret",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-headwear-base-beret-clean-seaming",
+      "semantic_key": "wardrobe-headwear-base-beret-clean-seaming",
+      "text": "a beret with clean seaming",
+      "sentence": "A beret with clean seaming.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a beret with clean seaming",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a beret with clean seaming",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a beret with clean seaming",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-headwear-base-beret",
+      "tags": [
+        "base",
+        "headwear",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "headwear": "beret",
+        "treatment": "clean-seaming"
+      },
+      "subcategory": "beret",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-headwear-base-beret-structured-volume",
+      "semantic_key": "wardrobe-headwear-base-beret-structured-volume",
+      "text": "a beret with structured volume",
+      "sentence": "A beret with structured volume.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a beret with structured volume",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a beret with structured volume",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a beret with structured volume",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-headwear-base-beret",
+      "tags": [
+        "base",
+        "headwear",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "headwear": "beret",
+        "treatment": "structured-volume"
+      },
+      "subcategory": "beret",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-headwear-base-beret-fluid-movement",
+      "semantic_key": "wardrobe-headwear-base-beret-fluid-movement",
+      "text": "a beret with fluid movement",
+      "sentence": "A beret with fluid movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a beret with fluid movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a beret with fluid movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a beret with fluid movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-headwear-base-beret",
+      "tags": [
+        "base",
+        "headwear",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "headwear": "beret",
+        "treatment": "fluid-movement"
+      },
+      "subcategory": "beret",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-headwear-base-beret-practical-detailing",
+      "semantic_key": "wardrobe-headwear-base-beret-practical-detailing",
+      "text": "a beret with practical detailing",
+      "sentence": "A beret with practical detailing.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a beret with practical detailing",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a beret with practical detailing",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a beret with practical detailing",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-headwear-base-beret",
+      "tags": [
+        "base",
+        "headwear",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "headwear": "beret",
+        "treatment": "practical-detailing"
+      },
+      "subcategory": "beret",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-headwear-base-beret-minimal-construction",
+      "semantic_key": "wardrobe-headwear-base-beret-minimal-construction",
+      "text": "a beret with minimal construction",
+      "sentence": "A beret with minimal construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a beret with minimal construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a beret with minimal construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a beret with minimal construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-headwear-base-beret",
+      "tags": [
+        "base",
+        "headwear",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "headwear": "beret",
+        "treatment": "minimal-construction"
+      },
+      "subcategory": "beret",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    }
+  ]
+}

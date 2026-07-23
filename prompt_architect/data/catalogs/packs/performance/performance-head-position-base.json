@@ -1,0 +1,2577 @@
+{
+  "schema_version": "2.0",
+  "id": "performance-head-position-base",
+  "version": "2.0.0",
+  "library": "head-position",
+  "domain": "performance",
+  "category": "head-position",
+  "language": "en",
+  "status": "active",
+  "safety": "general",
+  "tags": [
+    "base"
+  ],
+  "fallback_option_id": "performance-head-position-base-level-head-position-softly-defined",
+  "options": [
+    {
+      "id": "performance-head-position-base-level-head-position-softly-defined",
+      "semantic_key": "performance-head-position-base-level-head-position-softly-defined",
+      "text": "level head position with softly defined orientation",
+      "sentence": "Level head position with softly defined orientation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "level head position with softly defined orientation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing level head position with softly defined orientation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with level head position with softly defined orientation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-head-position-base-level-head-position",
+      "tags": [
+        "base",
+        "head-position",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "position": "level-head-position",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "level-head-position",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-head-position-base-level-head-position-cleanly-outlined",
+      "semantic_key": "performance-head-position-base-level-head-position-cleanly-outlined",
+      "text": "level head position with cleanly outlined orientation",
+      "sentence": "Level head position with cleanly outlined orientation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "level head position with cleanly outlined orientation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing level head position with cleanly outlined orientation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with level head position with cleanly outlined orientation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-head-position-base-level-head-position",
+      "tags": [
+        "base",
+        "head-position",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "position": "level-head-position",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "level-head-position",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-head-position-base-level-head-position-gently-tapered",
+      "semantic_key": "performance-head-position-base-level-head-position-gently-tapered",
+      "text": "level head position with gently tapered orientation",
+      "sentence": "Level head position with gently tapered orientation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "level head position with gently tapered orientation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing level head position with gently tapered orientation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with level head position with gently tapered orientation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-head-position-base-level-head-position",
+      "tags": [
+        "base",
+        "head-position",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "position": "level-head-position",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "level-head-position",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-head-position-base-level-head-position-evenly-proportioned",
+      "semantic_key": "performance-head-position-base-level-head-position-evenly-proportioned",
+      "text": "level head position with evenly proportioned orientation",
+      "sentence": "Level head position with evenly proportioned orientation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "level head position with evenly proportioned orientation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing level head position with evenly proportioned orientation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with level head position with evenly proportioned orientation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-head-position-base-level-head-position",
+      "tags": [
+        "base",
+        "head-position",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "position": "level-head-position",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "level-head-position",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-head-position-base-level-head-position-subtly-angular",
+      "semantic_key": "performance-head-position-base-level-head-position-subtly-angular",
+      "text": "level head position with subtly angular orientation",
+      "sentence": "Level head position with subtly angular orientation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "level head position with subtly angular orientation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing level head position with subtly angular orientation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with level head position with subtly angular orientation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-head-position-base-level-head-position",
+      "tags": [
+        "base",
+        "head-position",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "position": "level-head-position",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "level-head-position",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-head-position-base-level-head-position-smoothly-contoured",
+      "semantic_key": "performance-head-position-base-level-head-position-smoothly-contoured",
+      "text": "level head position with smoothly contoured orientation",
+      "sentence": "Level head position with smoothly contoured orientation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "level head position with smoothly contoured orientation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing level head position with smoothly contoured orientation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with level head position with smoothly contoured orientation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-head-position-base-level-head-position",
+      "tags": [
+        "base",
+        "head-position",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "position": "level-head-position",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "level-head-position",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-head-position-base-level-head-position-distinctly-structured",
+      "semantic_key": "performance-head-position-base-level-head-position-distinctly-structured",
+      "text": "level head position with distinctly structured orientation",
+      "sentence": "Level head position with distinctly structured orientation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "level head position with distinctly structured orientation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing level head position with distinctly structured orientation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with level head position with distinctly structured orientation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-head-position-base-level-head-position",
+      "tags": [
+        "base",
+        "head-position",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "position": "level-head-position",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "level-head-position",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-head-position-base-level-head-position-naturally-asymmetric",
+      "semantic_key": "performance-head-position-base-level-head-position-naturally-asymmetric",
+      "text": "level head position with naturally asymmetric orientation",
+      "sentence": "Level head position with naturally asymmetric orientation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "level head position with naturally asymmetric orientation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing level head position with naturally asymmetric orientation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with level head position with naturally asymmetric orientation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-head-position-base-level-head-position",
+      "tags": [
+        "base",
+        "head-position",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "position": "level-head-position",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "level-head-position",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-head-position-base-slight-left-turn-softly-defined",
+      "semantic_key": "performance-head-position-base-slight-left-turn-softly-defined",
+      "text": "slight left turn with softly defined orientation",
+      "sentence": "Slight left turn with softly defined orientation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "slight left turn with softly defined orientation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing slight left turn with softly defined orientation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with slight left turn with softly defined orientation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-head-position-base-slight-left-turn",
+      "tags": [
+        "base",
+        "head-position",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "position": "slight-left-turn",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "slight-left-turn",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-head-position-base-slight-left-turn-cleanly-outlined",
+      "semantic_key": "performance-head-position-base-slight-left-turn-cleanly-outlined",
+      "text": "slight left turn with cleanly outlined orientation",
+      "sentence": "Slight left turn with cleanly outlined orientation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "slight left turn with cleanly outlined orientation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing slight left turn with cleanly outlined orientation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with slight left turn with cleanly outlined orientation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-head-position-base-slight-left-turn",
+      "tags": [
+        "base",
+        "head-position",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "position": "slight-left-turn",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "slight-left-turn",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-head-position-base-slight-left-turn-gently-tapered",
+      "semantic_key": "performance-head-position-base-slight-left-turn-gently-tapered",
+      "text": "slight left turn with gently tapered orientation",
+      "sentence": "Slight left turn with gently tapered orientation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "slight left turn with gently tapered orientation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing slight left turn with gently tapered orientation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with slight left turn with gently tapered orientation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-head-position-base-slight-left-turn",
+      "tags": [
+        "base",
+        "head-position",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "position": "slight-left-turn",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "slight-left-turn",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-head-position-base-slight-left-turn-evenly-proportioned",
+      "semantic_key": "performance-head-position-base-slight-left-turn-evenly-proportioned",
+      "text": "slight left turn with evenly proportioned orientation",
+      "sentence": "Slight left turn with evenly proportioned orientation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "slight left turn with evenly proportioned orientation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing slight left turn with evenly proportioned orientation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with slight left turn with evenly proportioned orientation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-head-position-base-slight-left-turn",
+      "tags": [
+        "base",
+        "head-position",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "position": "slight-left-turn",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "slight-left-turn",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-head-position-base-slight-left-turn-subtly-angular",
+      "semantic_key": "performance-head-position-base-slight-left-turn-subtly-angular",
+      "text": "slight left turn with subtly angular orientation",
+      "sentence": "Slight left turn with subtly angular orientation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "slight left turn with subtly angular orientation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing slight left turn with subtly angular orientation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with slight left turn with subtly angular orientation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-head-position-base-slight-left-turn",
+      "tags": [
+        "base",
+        "head-position",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "position": "slight-left-turn",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "slight-left-turn",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-head-position-base-slight-left-turn-smoothly-contoured",
+      "semantic_key": "performance-head-position-base-slight-left-turn-smoothly-contoured",
+      "text": "slight left turn with smoothly contoured orientation",
+      "sentence": "Slight left turn with smoothly contoured orientation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "slight left turn with smoothly contoured orientation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing slight left turn with smoothly contoured orientation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with slight left turn with smoothly contoured orientation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-head-position-base-slight-left-turn",
+      "tags": [
+        "base",
+        "head-position",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "position": "slight-left-turn",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "slight-left-turn",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-head-position-base-slight-left-turn-distinctly-structured",
+      "semantic_key": "performance-head-position-base-slight-left-turn-distinctly-structured",
+      "text": "slight left turn with distinctly structured orientation",
+      "sentence": "Slight left turn with distinctly structured orientation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "slight left turn with distinctly structured orientation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing slight left turn with distinctly structured orientation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with slight left turn with distinctly structured orientation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-head-position-base-slight-left-turn",
+      "tags": [
+        "base",
+        "head-position",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "position": "slight-left-turn",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "slight-left-turn",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-head-position-base-slight-left-turn-naturally-asymmetric",
+      "semantic_key": "performance-head-position-base-slight-left-turn-naturally-asymmetric",
+      "text": "slight left turn with naturally asymmetric orientation",
+      "sentence": "Slight left turn with naturally asymmetric orientation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "slight left turn with naturally asymmetric orientation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing slight left turn with naturally asymmetric orientation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with slight left turn with naturally asymmetric orientation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-head-position-base-slight-left-turn",
+      "tags": [
+        "base",
+        "head-position",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "position": "slight-left-turn",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "slight-left-turn",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-head-position-base-slight-right-turn-softly-defined",
+      "semantic_key": "performance-head-position-base-slight-right-turn-softly-defined",
+      "text": "slight right turn with softly defined orientation",
+      "sentence": "Slight right turn with softly defined orientation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "slight right turn with softly defined orientation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing slight right turn with softly defined orientation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with slight right turn with softly defined orientation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-head-position-base-slight-right-turn",
+      "tags": [
+        "base",
+        "head-position",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "position": "slight-right-turn",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "slight-right-turn",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-head-position-base-slight-right-turn-cleanly-outlined",
+      "semantic_key": "performance-head-position-base-slight-right-turn-cleanly-outlined",
+      "text": "slight right turn with cleanly outlined orientation",
+      "sentence": "Slight right turn with cleanly outlined orientation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "slight right turn with cleanly outlined orientation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing slight right turn with cleanly outlined orientation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with slight right turn with cleanly outlined orientation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-head-position-base-slight-right-turn",
+      "tags": [
+        "base",
+        "head-position",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "position": "slight-right-turn",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "slight-right-turn",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-head-position-base-slight-right-turn-gently-tapered",
+      "semantic_key": "performance-head-position-base-slight-right-turn-gently-tapered",
+      "text": "slight right turn with gently tapered orientation",
+      "sentence": "Slight right turn with gently tapered orientation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "slight right turn with gently tapered orientation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing slight right turn with gently tapered orientation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with slight right turn with gently tapered orientation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-head-position-base-slight-right-turn",
+      "tags": [
+        "base",
+        "head-position",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "position": "slight-right-turn",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "slight-right-turn",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-head-position-base-slight-right-turn-evenly-proportioned",
+      "semantic_key": "performance-head-position-base-slight-right-turn-evenly-proportioned",
+      "text": "slight right turn with evenly proportioned orientation",
+      "sentence": "Slight right turn with evenly proportioned orientation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "slight right turn with evenly proportioned orientation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing slight right turn with evenly proportioned orientation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with slight right turn with evenly proportioned orientation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-head-position-base-slight-right-turn",
+      "tags": [
+        "base",
+        "head-position",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "position": "slight-right-turn",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "slight-right-turn",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-head-position-base-slight-right-turn-subtly-angular",
+      "semantic_key": "performance-head-position-base-slight-right-turn-subtly-angular",
+      "text": "slight right turn with subtly angular orientation",
+      "sentence": "Slight right turn with subtly angular orientation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "slight right turn with subtly angular orientation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing slight right turn with subtly angular orientation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with slight right turn with subtly angular orientation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-head-position-base-slight-right-turn",
+      "tags": [
+        "base",
+        "head-position",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "position": "slight-right-turn",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "slight-right-turn",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-head-position-base-slight-right-turn-smoothly-contoured",
+      "semantic_key": "performance-head-position-base-slight-right-turn-smoothly-contoured",
+      "text": "slight right turn with smoothly contoured orientation",
+      "sentence": "Slight right turn with smoothly contoured orientation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "slight right turn with smoothly contoured orientation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing slight right turn with smoothly contoured orientation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with slight right turn with smoothly contoured orientation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-head-position-base-slight-right-turn",
+      "tags": [
+        "base",
+        "head-position",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "position": "slight-right-turn",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "slight-right-turn",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-head-position-base-slight-right-turn-distinctly-structured",
+      "semantic_key": "performance-head-position-base-slight-right-turn-distinctly-structured",
+      "text": "slight right turn with distinctly structured orientation",
+      "sentence": "Slight right turn with distinctly structured orientation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "slight right turn with distinctly structured orientation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing slight right turn with distinctly structured orientation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with slight right turn with distinctly structured orientation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-head-position-base-slight-right-turn",
+      "tags": [
+        "base",
+        "head-position",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "position": "slight-right-turn",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "slight-right-turn",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-head-position-base-slight-right-turn-naturally-asymmetric",
+      "semantic_key": "performance-head-position-base-slight-right-turn-naturally-asymmetric",
+      "text": "slight right turn with naturally asymmetric orientation",
+      "sentence": "Slight right turn with naturally asymmetric orientation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "slight right turn with naturally asymmetric orientation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing slight right turn with naturally asymmetric orientation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with slight right turn with naturally asymmetric orientation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-head-position-base-slight-right-turn",
+      "tags": [
+        "base",
+        "head-position",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "position": "slight-right-turn",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "slight-right-turn",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-head-position-base-three-quarter-left-turn-softly-defined",
+      "semantic_key": "performance-head-position-base-three-quarter-left-turn-softly-defined",
+      "text": "three-quarter left turn with softly defined orientation",
+      "sentence": "Three-quarter left turn with softly defined orientation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "three-quarter left turn with softly defined orientation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing three-quarter left turn with softly defined orientation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with three-quarter left turn with softly defined orientation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-head-position-base-three-quarter-left-turn",
+      "tags": [
+        "base",
+        "head-position",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "position": "three-quarter-left-turn",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "three-quarter-left-turn",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-head-position-base-three-quarter-left-turn-cleanly-outlined",
+      "semantic_key": "performance-head-position-base-three-quarter-left-turn-cleanly-outlined",
+      "text": "three-quarter left turn with cleanly outlined orientation",
+      "sentence": "Three-quarter left turn with cleanly outlined orientation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "three-quarter left turn with cleanly outlined orientation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing three-quarter left turn with cleanly outlined orientation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with three-quarter left turn with cleanly outlined orientation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-head-position-base-three-quarter-left-turn",
+      "tags": [
+        "base",
+        "head-position",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "position": "three-quarter-left-turn",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "three-quarter-left-turn",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-head-position-base-three-quarter-left-turn-gently-tapered",
+      "semantic_key": "performance-head-position-base-three-quarter-left-turn-gently-tapered",
+      "text": "three-quarter left turn with gently tapered orientation",
+      "sentence": "Three-quarter left turn with gently tapered orientation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "three-quarter left turn with gently tapered orientation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing three-quarter left turn with gently tapered orientation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with three-quarter left turn with gently tapered orientation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-head-position-base-three-quarter-left-turn",
+      "tags": [
+        "base",
+        "head-position",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "position": "three-quarter-left-turn",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "three-quarter-left-turn",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-head-position-base-three-quarter-left-turn-evenly-proportioned",
+      "semantic_key": "performance-head-position-base-three-quarter-left-turn-evenly-proportioned",
+      "text": "three-quarter left turn with evenly proportioned orientation",
+      "sentence": "Three-quarter left turn with evenly proportioned orientation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "three-quarter left turn with evenly proportioned orientation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing three-quarter left turn with evenly proportioned orientation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with three-quarter left turn with evenly proportioned orientation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-head-position-base-three-quarter-left-turn",
+      "tags": [
+        "base",
+        "head-position",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "position": "three-quarter-left-turn",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "three-quarter-left-turn",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-head-position-base-three-quarter-left-turn-subtly-angular",
+      "semantic_key": "performance-head-position-base-three-quarter-left-turn-subtly-angular",
+      "text": "three-quarter left turn with subtly angular orientation",
+      "sentence": "Three-quarter left turn with subtly angular orientation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "three-quarter left turn with subtly angular orientation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing three-quarter left turn with subtly angular orientation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with three-quarter left turn with subtly angular orientation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-head-position-base-three-quarter-left-turn",
+      "tags": [
+        "base",
+        "head-position",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "position": "three-quarter-left-turn",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "three-quarter-left-turn",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-head-position-base-three-quarter-left-turn-smoothly-contoured",
+      "semantic_key": "performance-head-position-base-three-quarter-left-turn-smoothly-contoured",
+      "text": "three-quarter left turn with smoothly contoured orientation",
+      "sentence": "Three-quarter left turn with smoothly contoured orientation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "three-quarter left turn with smoothly contoured orientation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing three-quarter left turn with smoothly contoured orientation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with three-quarter left turn with smoothly contoured orientation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-head-position-base-three-quarter-left-turn",
+      "tags": [
+        "base",
+        "head-position",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "position": "three-quarter-left-turn",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "three-quarter-left-turn",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-head-position-base-three-quarter-left-turn-distinctly-structured",
+      "semantic_key": "performance-head-position-base-three-quarter-left-turn-distinctly-structured",
+      "text": "three-quarter left turn with distinctly structured orientation",
+      "sentence": "Three-quarter left turn with distinctly structured orientation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "three-quarter left turn with distinctly structured orientation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing three-quarter left turn with distinctly structured orientation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with three-quarter left turn with distinctly structured orientation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-head-position-base-three-quarter-left-turn",
+      "tags": [
+        "base",
+        "head-position",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "position": "three-quarter-left-turn",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "three-quarter-left-turn",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-head-position-base-three-quarter-left-turn-naturally-asymmetric",
+      "semantic_key": "performance-head-position-base-three-quarter-left-turn-naturally-asymmetric",
+      "text": "three-quarter left turn with naturally asymmetric orientation",
+      "sentence": "Three-quarter left turn with naturally asymmetric orientation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "three-quarter left turn with naturally asymmetric orientation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing three-quarter left turn with naturally asymmetric orientation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with three-quarter left turn with naturally asymmetric orientation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-head-position-base-three-quarter-left-turn",
+      "tags": [
+        "base",
+        "head-position",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "position": "three-quarter-left-turn",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "three-quarter-left-turn",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-head-position-base-three-quarter-right-turn-softly-defined",
+      "semantic_key": "performance-head-position-base-three-quarter-right-turn-softly-defined",
+      "text": "three-quarter right turn with softly defined orientation",
+      "sentence": "Three-quarter right turn with softly defined orientation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "three-quarter right turn with softly defined orientation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing three-quarter right turn with softly defined orientation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with three-quarter right turn with softly defined orientation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-head-position-base-three-quarter-right-turn",
+      "tags": [
+        "base",
+        "head-position",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "position": "three-quarter-right-turn",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "three-quarter-right-turn",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-head-position-base-three-quarter-right-turn-cleanly-outlined",
+      "semantic_key": "performance-head-position-base-three-quarter-right-turn-cleanly-outlined",
+      "text": "three-quarter right turn with cleanly outlined orientation",
+      "sentence": "Three-quarter right turn with cleanly outlined orientation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "three-quarter right turn with cleanly outlined orientation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing three-quarter right turn with cleanly outlined orientation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with three-quarter right turn with cleanly outlined orientation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-head-position-base-three-quarter-right-turn",
+      "tags": [
+        "base",
+        "head-position",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "position": "three-quarter-right-turn",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "three-quarter-right-turn",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-head-position-base-three-quarter-right-turn-gently-tapered",
+      "semantic_key": "performance-head-position-base-three-quarter-right-turn-gently-tapered",
+      "text": "three-quarter right turn with gently tapered orientation",
+      "sentence": "Three-quarter right turn with gently tapered orientation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "three-quarter right turn with gently tapered orientation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing three-quarter right turn with gently tapered orientation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with three-quarter right turn with gently tapered orientation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-head-position-base-three-quarter-right-turn",
+      "tags": [
+        "base",
+        "head-position",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "position": "three-quarter-right-turn",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "three-quarter-right-turn",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-head-position-base-three-quarter-right-turn-evenly-proportioned",
+      "semantic_key": "performance-head-position-base-three-quarter-right-turn-evenly-proportioned",
+      "text": "three-quarter right turn with evenly proportioned orientation",
+      "sentence": "Three-quarter right turn with evenly proportioned orientation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "three-quarter right turn with evenly proportioned orientation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing three-quarter right turn with evenly proportioned orientation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with three-quarter right turn with evenly proportioned orientation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-head-position-base-three-quarter-right-turn",
+      "tags": [
+        "base",
+        "head-position",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "position": "three-quarter-right-turn",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "three-quarter-right-turn",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-head-position-base-three-quarter-right-turn-subtly-angular",
+      "semantic_key": "performance-head-position-base-three-quarter-right-turn-subtly-angular",
+      "text": "three-quarter right turn with subtly angular orientation",
+      "sentence": "Three-quarter right turn with subtly angular orientation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "three-quarter right turn with subtly angular orientation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing three-quarter right turn with subtly angular orientation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with three-quarter right turn with subtly angular orientation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-head-position-base-three-quarter-right-turn",
+      "tags": [
+        "base",
+        "head-position",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "position": "three-quarter-right-turn",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "three-quarter-right-turn",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-head-position-base-three-quarter-right-turn-smoothly-contoured",
+      "semantic_key": "performance-head-position-base-three-quarter-right-turn-smoothly-contoured",
+      "text": "three-quarter right turn with smoothly contoured orientation",
+      "sentence": "Three-quarter right turn with smoothly contoured orientation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "three-quarter right turn with smoothly contoured orientation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing three-quarter right turn with smoothly contoured orientation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with three-quarter right turn with smoothly contoured orientation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-head-position-base-three-quarter-right-turn",
+      "tags": [
+        "base",
+        "head-position",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "position": "three-quarter-right-turn",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "three-quarter-right-turn",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-head-position-base-three-quarter-right-turn-distinctly-structured",
+      "semantic_key": "performance-head-position-base-three-quarter-right-turn-distinctly-structured",
+      "text": "three-quarter right turn with distinctly structured orientation",
+      "sentence": "Three-quarter right turn with distinctly structured orientation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "three-quarter right turn with distinctly structured orientation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing three-quarter right turn with distinctly structured orientation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with three-quarter right turn with distinctly structured orientation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-head-position-base-three-quarter-right-turn",
+      "tags": [
+        "base",
+        "head-position",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "position": "three-quarter-right-turn",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "three-quarter-right-turn",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-head-position-base-three-quarter-right-turn-naturally-asymmetric",
+      "semantic_key": "performance-head-position-base-three-quarter-right-turn-naturally-asymmetric",
+      "text": "three-quarter right turn with naturally asymmetric orientation",
+      "sentence": "Three-quarter right turn with naturally asymmetric orientation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "three-quarter right turn with naturally asymmetric orientation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing three-quarter right turn with naturally asymmetric orientation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with three-quarter right turn with naturally asymmetric orientation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-head-position-base-three-quarter-right-turn",
+      "tags": [
+        "base",
+        "head-position",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "position": "three-quarter-right-turn",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "three-quarter-right-turn",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-head-position-base-gentle-upward-tilt-softly-defined",
+      "semantic_key": "performance-head-position-base-gentle-upward-tilt-softly-defined",
+      "text": "gentle upward tilt with softly defined orientation",
+      "sentence": "Gentle upward tilt with softly defined orientation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gentle upward tilt with softly defined orientation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gentle upward tilt with softly defined orientation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gentle upward tilt with softly defined orientation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-head-position-base-gentle-upward-tilt",
+      "tags": [
+        "base",
+        "head-position",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "position": "gentle-upward-tilt",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "gentle-upward-tilt",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-head-position-base-gentle-upward-tilt-cleanly-outlined",
+      "semantic_key": "performance-head-position-base-gentle-upward-tilt-cleanly-outlined",
+      "text": "gentle upward tilt with cleanly outlined orientation",
+      "sentence": "Gentle upward tilt with cleanly outlined orientation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gentle upward tilt with cleanly outlined orientation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gentle upward tilt with cleanly outlined orientation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gentle upward tilt with cleanly outlined orientation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-head-position-base-gentle-upward-tilt",
+      "tags": [
+        "base",
+        "head-position",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "position": "gentle-upward-tilt",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "gentle-upward-tilt",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-head-position-base-gentle-upward-tilt-gently-tapered",
+      "semantic_key": "performance-head-position-base-gentle-upward-tilt-gently-tapered",
+      "text": "gentle upward tilt with gently tapered orientation",
+      "sentence": "Gentle upward tilt with gently tapered orientation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gentle upward tilt with gently tapered orientation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gentle upward tilt with gently tapered orientation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gentle upward tilt with gently tapered orientation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-head-position-base-gentle-upward-tilt",
+      "tags": [
+        "base",
+        "head-position",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "position": "gentle-upward-tilt",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "gentle-upward-tilt",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-head-position-base-gentle-upward-tilt-evenly-proportioned",
+      "semantic_key": "performance-head-position-base-gentle-upward-tilt-evenly-proportioned",
+      "text": "gentle upward tilt with evenly proportioned orientation",
+      "sentence": "Gentle upward tilt with evenly proportioned orientation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gentle upward tilt with evenly proportioned orientation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gentle upward tilt with evenly proportioned orientation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gentle upward tilt with evenly proportioned orientation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-head-position-base-gentle-upward-tilt",
+      "tags": [
+        "base",
+        "head-position",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "position": "gentle-upward-tilt",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "gentle-upward-tilt",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-head-position-base-gentle-upward-tilt-subtly-angular",
+      "semantic_key": "performance-head-position-base-gentle-upward-tilt-subtly-angular",
+      "text": "gentle upward tilt with subtly angular orientation",
+      "sentence": "Gentle upward tilt with subtly angular orientation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gentle upward tilt with subtly angular orientation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gentle upward tilt with subtly angular orientation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gentle upward tilt with subtly angular orientation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-head-position-base-gentle-upward-tilt",
+      "tags": [
+        "base",
+        "head-position",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "position": "gentle-upward-tilt",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "gentle-upward-tilt",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-head-position-base-gentle-upward-tilt-smoothly-contoured",
+      "semantic_key": "performance-head-position-base-gentle-upward-tilt-smoothly-contoured",
+      "text": "gentle upward tilt with smoothly contoured orientation",
+      "sentence": "Gentle upward tilt with smoothly contoured orientation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gentle upward tilt with smoothly contoured orientation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gentle upward tilt with smoothly contoured orientation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gentle upward tilt with smoothly contoured orientation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-head-position-base-gentle-upward-tilt",
+      "tags": [
+        "base",
+        "head-position",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "position": "gentle-upward-tilt",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "gentle-upward-tilt",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-head-position-base-gentle-upward-tilt-distinctly-structured",
+      "semantic_key": "performance-head-position-base-gentle-upward-tilt-distinctly-structured",
+      "text": "gentle upward tilt with distinctly structured orientation",
+      "sentence": "Gentle upward tilt with distinctly structured orientation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gentle upward tilt with distinctly structured orientation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gentle upward tilt with distinctly structured orientation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gentle upward tilt with distinctly structured orientation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-head-position-base-gentle-upward-tilt",
+      "tags": [
+        "base",
+        "head-position",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "position": "gentle-upward-tilt",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "gentle-upward-tilt",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-head-position-base-gentle-upward-tilt-naturally-asymmetric",
+      "semantic_key": "performance-head-position-base-gentle-upward-tilt-naturally-asymmetric",
+      "text": "gentle upward tilt with naturally asymmetric orientation",
+      "sentence": "Gentle upward tilt with naturally asymmetric orientation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gentle upward tilt with naturally asymmetric orientation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gentle upward tilt with naturally asymmetric orientation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gentle upward tilt with naturally asymmetric orientation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-head-position-base-gentle-upward-tilt",
+      "tags": [
+        "base",
+        "head-position",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "position": "gentle-upward-tilt",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "gentle-upward-tilt",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-head-position-base-gentle-downward-tilt-softly-defined",
+      "semantic_key": "performance-head-position-base-gentle-downward-tilt-softly-defined",
+      "text": "gentle downward tilt with softly defined orientation",
+      "sentence": "Gentle downward tilt with softly defined orientation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gentle downward tilt with softly defined orientation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gentle downward tilt with softly defined orientation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gentle downward tilt with softly defined orientation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-head-position-base-gentle-downward-tilt",
+      "tags": [
+        "base",
+        "head-position",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "position": "gentle-downward-tilt",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "gentle-downward-tilt",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-head-position-base-gentle-downward-tilt-cleanly-outlined",
+      "semantic_key": "performance-head-position-base-gentle-downward-tilt-cleanly-outlined",
+      "text": "gentle downward tilt with cleanly outlined orientation",
+      "sentence": "Gentle downward tilt with cleanly outlined orientation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gentle downward tilt with cleanly outlined orientation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gentle downward tilt with cleanly outlined orientation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gentle downward tilt with cleanly outlined orientation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-head-position-base-gentle-downward-tilt",
+      "tags": [
+        "base",
+        "head-position",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "position": "gentle-downward-tilt",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "gentle-downward-tilt",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-head-position-base-gentle-downward-tilt-gently-tapered",
+      "semantic_key": "performance-head-position-base-gentle-downward-tilt-gently-tapered",
+      "text": "gentle downward tilt with gently tapered orientation",
+      "sentence": "Gentle downward tilt with gently tapered orientation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gentle downward tilt with gently tapered orientation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gentle downward tilt with gently tapered orientation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gentle downward tilt with gently tapered orientation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-head-position-base-gentle-downward-tilt",
+      "tags": [
+        "base",
+        "head-position",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "position": "gentle-downward-tilt",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "gentle-downward-tilt",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-head-position-base-gentle-downward-tilt-evenly-proportioned",
+      "semantic_key": "performance-head-position-base-gentle-downward-tilt-evenly-proportioned",
+      "text": "gentle downward tilt with evenly proportioned orientation",
+      "sentence": "Gentle downward tilt with evenly proportioned orientation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gentle downward tilt with evenly proportioned orientation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gentle downward tilt with evenly proportioned orientation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gentle downward tilt with evenly proportioned orientation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-head-position-base-gentle-downward-tilt",
+      "tags": [
+        "base",
+        "head-position",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "position": "gentle-downward-tilt",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "gentle-downward-tilt",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-head-position-base-gentle-downward-tilt-subtly-angular",
+      "semantic_key": "performance-head-position-base-gentle-downward-tilt-subtly-angular",
+      "text": "gentle downward tilt with subtly angular orientation",
+      "sentence": "Gentle downward tilt with subtly angular orientation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gentle downward tilt with subtly angular orientation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gentle downward tilt with subtly angular orientation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gentle downward tilt with subtly angular orientation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-head-position-base-gentle-downward-tilt",
+      "tags": [
+        "base",
+        "head-position",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "position": "gentle-downward-tilt",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "gentle-downward-tilt",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-head-position-base-gentle-downward-tilt-smoothly-contoured",
+      "semantic_key": "performance-head-position-base-gentle-downward-tilt-smoothly-contoured",
+      "text": "gentle downward tilt with smoothly contoured orientation",
+      "sentence": "Gentle downward tilt with smoothly contoured orientation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gentle downward tilt with smoothly contoured orientation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gentle downward tilt with smoothly contoured orientation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gentle downward tilt with smoothly contoured orientation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-head-position-base-gentle-downward-tilt",
+      "tags": [
+        "base",
+        "head-position",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "position": "gentle-downward-tilt",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "gentle-downward-tilt",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-head-position-base-gentle-downward-tilt-distinctly-structured",
+      "semantic_key": "performance-head-position-base-gentle-downward-tilt-distinctly-structured",
+      "text": "gentle downward tilt with distinctly structured orientation",
+      "sentence": "Gentle downward tilt with distinctly structured orientation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gentle downward tilt with distinctly structured orientation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gentle downward tilt with distinctly structured orientation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gentle downward tilt with distinctly structured orientation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-head-position-base-gentle-downward-tilt",
+      "tags": [
+        "base",
+        "head-position",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "position": "gentle-downward-tilt",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "gentle-downward-tilt",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-head-position-base-gentle-downward-tilt-naturally-asymmetric",
+      "semantic_key": "performance-head-position-base-gentle-downward-tilt-naturally-asymmetric",
+      "text": "gentle downward tilt with naturally asymmetric orientation",
+      "sentence": "Gentle downward tilt with naturally asymmetric orientation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gentle downward tilt with naturally asymmetric orientation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gentle downward tilt with naturally asymmetric orientation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gentle downward tilt with naturally asymmetric orientation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-head-position-base-gentle-downward-tilt",
+      "tags": [
+        "base",
+        "head-position",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "position": "gentle-downward-tilt",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "gentle-downward-tilt",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-head-position-base-profile-position-softly-defined",
+      "semantic_key": "performance-head-position-base-profile-position-softly-defined",
+      "text": "profile position with softly defined orientation",
+      "sentence": "Profile position with softly defined orientation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "profile position with softly defined orientation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing profile position with softly defined orientation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with profile position with softly defined orientation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-head-position-base-profile-position",
+      "tags": [
+        "base",
+        "head-position",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "position": "profile-position",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "profile-position",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-head-position-base-profile-position-cleanly-outlined",
+      "semantic_key": "performance-head-position-base-profile-position-cleanly-outlined",
+      "text": "profile position with cleanly outlined orientation",
+      "sentence": "Profile position with cleanly outlined orientation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "profile position with cleanly outlined orientation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing profile position with cleanly outlined orientation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with profile position with cleanly outlined orientation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-head-position-base-profile-position",
+      "tags": [
+        "base",
+        "head-position",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "position": "profile-position",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "profile-position",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-head-position-base-profile-position-gently-tapered",
+      "semantic_key": "performance-head-position-base-profile-position-gently-tapered",
+      "text": "profile position with gently tapered orientation",
+      "sentence": "Profile position with gently tapered orientation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "profile position with gently tapered orientation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing profile position with gently tapered orientation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with profile position with gently tapered orientation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-head-position-base-profile-position",
+      "tags": [
+        "base",
+        "head-position",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "position": "profile-position",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "profile-position",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-head-position-base-profile-position-evenly-proportioned",
+      "semantic_key": "performance-head-position-base-profile-position-evenly-proportioned",
+      "text": "profile position with evenly proportioned orientation",
+      "sentence": "Profile position with evenly proportioned orientation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "profile position with evenly proportioned orientation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing profile position with evenly proportioned orientation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with profile position with evenly proportioned orientation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-head-position-base-profile-position",
+      "tags": [
+        "base",
+        "head-position",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "position": "profile-position",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "profile-position",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-head-position-base-profile-position-subtly-angular",
+      "semantic_key": "performance-head-position-base-profile-position-subtly-angular",
+      "text": "profile position with subtly angular orientation",
+      "sentence": "Profile position with subtly angular orientation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "profile position with subtly angular orientation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing profile position with subtly angular orientation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with profile position with subtly angular orientation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-head-position-base-profile-position",
+      "tags": [
+        "base",
+        "head-position",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "position": "profile-position",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "profile-position",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-head-position-base-profile-position-smoothly-contoured",
+      "semantic_key": "performance-head-position-base-profile-position-smoothly-contoured",
+      "text": "profile position with smoothly contoured orientation",
+      "sentence": "Profile position with smoothly contoured orientation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "profile position with smoothly contoured orientation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing profile position with smoothly contoured orientation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with profile position with smoothly contoured orientation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-head-position-base-profile-position",
+      "tags": [
+        "base",
+        "head-position",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "position": "profile-position",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "profile-position",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-head-position-base-profile-position-distinctly-structured",
+      "semantic_key": "performance-head-position-base-profile-position-distinctly-structured",
+      "text": "profile position with distinctly structured orientation",
+      "sentence": "Profile position with distinctly structured orientation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "profile position with distinctly structured orientation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing profile position with distinctly structured orientation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with profile position with distinctly structured orientation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-head-position-base-profile-position",
+      "tags": [
+        "base",
+        "head-position",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "position": "profile-position",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "profile-position",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-head-position-base-profile-position-naturally-asymmetric",
+      "semantic_key": "performance-head-position-base-profile-position-naturally-asymmetric",
+      "text": "profile position with naturally asymmetric orientation",
+      "sentence": "Profile position with naturally asymmetric orientation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "profile position with naturally asymmetric orientation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing profile position with naturally asymmetric orientation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with profile position with naturally asymmetric orientation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-head-position-base-profile-position",
+      "tags": [
+        "base",
+        "head-position",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "position": "profile-position",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "profile-position",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    }
+  ]
+}

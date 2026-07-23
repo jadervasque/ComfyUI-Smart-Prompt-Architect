@@ -1,0 +1,2577 @@
+{
+  "schema_version": "2.0",
+  "id": "cinematography-light-direction-base",
+  "version": "2.0.0",
+  "library": "light-direction",
+  "domain": "cinematography",
+  "category": "light-direction",
+  "language": "en",
+  "status": "active",
+  "safety": "general",
+  "tags": [
+    "base"
+  ],
+  "fallback_option_id": "cinematography-light-direction-base-front-light-low-contrast",
+  "options": [
+    {
+      "id": "cinematography-light-direction-base-front-light-low-contrast",
+      "semantic_key": "cinematography-light-direction-base-front-light-low-contrast",
+      "text": "front light with low contrast",
+      "sentence": "Front light with low contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "front light with low contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing front light with low contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with front light with low contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-direction-base-front-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-direction",
+        "rarity-common"
+      ],
+      "facets": {
+        "direction": "front-light",
+        "treatment": "low-contrast"
+      },
+      "subcategory": "front-light",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-direction-base-front-light-moderate-contrast",
+      "semantic_key": "cinematography-light-direction-base-front-light-moderate-contrast",
+      "text": "front light with moderate contrast",
+      "sentence": "Front light with moderate contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "front light with moderate contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing front light with moderate contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with front light with moderate contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-direction-base-front-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-direction",
+        "rarity-common"
+      ],
+      "facets": {
+        "direction": "front-light",
+        "treatment": "moderate-contrast"
+      },
+      "subcategory": "front-light",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-direction-base-front-light-high-contrast",
+      "semantic_key": "cinematography-light-direction-base-front-light-high-contrast",
+      "text": "front light with high contrast",
+      "sentence": "Front light with high contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "front light with high contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing front light with high contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with front light with high contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-direction-base-front-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-direction",
+        "rarity-common"
+      ],
+      "facets": {
+        "direction": "front-light",
+        "treatment": "high-contrast"
+      },
+      "subcategory": "front-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-direction-base-front-light-soft-transitions",
+      "semantic_key": "cinematography-light-direction-base-front-light-soft-transitions",
+      "text": "front light with soft transitions",
+      "sentence": "Front light with soft transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "front light with soft transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing front light with soft transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with front light with soft transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-direction-base-front-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-direction",
+        "rarity-common"
+      ],
+      "facets": {
+        "direction": "front-light",
+        "treatment": "soft-transitions"
+      },
+      "subcategory": "front-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-direction-base-front-light-crisp-transitions",
+      "semantic_key": "cinematography-light-direction-base-front-light-crisp-transitions",
+      "text": "front light with crisp transitions",
+      "sentence": "Front light with crisp transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "front light with crisp transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing front light with crisp transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with front light with crisp transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-light-direction-base-front-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-direction",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "direction": "front-light",
+        "treatment": "crisp-transitions"
+      },
+      "subcategory": "front-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-direction-base-front-light-broad-falloff",
+      "semantic_key": "cinematography-light-direction-base-front-light-broad-falloff",
+      "text": "front light with broad falloff",
+      "sentence": "Front light with broad falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "front light with broad falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing front light with broad falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with front light with broad falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-light-direction-base-front-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-direction",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "direction": "front-light",
+        "treatment": "broad-falloff"
+      },
+      "subcategory": "front-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-direction-base-front-light-rapid-falloff",
+      "semantic_key": "cinematography-light-direction-base-front-light-rapid-falloff",
+      "text": "front light with rapid falloff",
+      "sentence": "Front light with rapid falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "front light with rapid falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing front light with rapid falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with front light with rapid falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-light-direction-base-front-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-direction",
+        "rarity-rare"
+      ],
+      "facets": {
+        "direction": "front-light",
+        "treatment": "rapid-falloff"
+      },
+      "subcategory": "front-light",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-direction-base-front-light-layered-illumination",
+      "semantic_key": "cinematography-light-direction-base-front-light-layered-illumination",
+      "text": "front light with layered illumination",
+      "sentence": "Front light with layered illumination.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "front light with layered illumination",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing front light with layered illumination",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with front light with layered illumination",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-light-direction-base-front-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-direction",
+        "rarity-rare"
+      ],
+      "facets": {
+        "direction": "front-light",
+        "treatment": "layered-illumination"
+      },
+      "subcategory": "front-light",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-direction-base-three-quarter-light-low-contrast",
+      "semantic_key": "cinematography-light-direction-base-three-quarter-light-low-contrast",
+      "text": "three-quarter light with low contrast",
+      "sentence": "Three-quarter light with low contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "three-quarter light with low contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing three-quarter light with low contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with three-quarter light with low contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-direction-base-three-quarter-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-direction",
+        "rarity-common"
+      ],
+      "facets": {
+        "direction": "three-quarter-light",
+        "treatment": "low-contrast"
+      },
+      "subcategory": "three-quarter-light",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-direction-base-three-quarter-light-moderate-contrast",
+      "semantic_key": "cinematography-light-direction-base-three-quarter-light-moderate-contrast",
+      "text": "three-quarter light with moderate contrast",
+      "sentence": "Three-quarter light with moderate contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "three-quarter light with moderate contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing three-quarter light with moderate contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with three-quarter light with moderate contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-direction-base-three-quarter-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-direction",
+        "rarity-common"
+      ],
+      "facets": {
+        "direction": "three-quarter-light",
+        "treatment": "moderate-contrast"
+      },
+      "subcategory": "three-quarter-light",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-direction-base-three-quarter-light-high-contrast",
+      "semantic_key": "cinematography-light-direction-base-three-quarter-light-high-contrast",
+      "text": "three-quarter light with high contrast",
+      "sentence": "Three-quarter light with high contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "three-quarter light with high contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing three-quarter light with high contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with three-quarter light with high contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-direction-base-three-quarter-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-direction",
+        "rarity-common"
+      ],
+      "facets": {
+        "direction": "three-quarter-light",
+        "treatment": "high-contrast"
+      },
+      "subcategory": "three-quarter-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-direction-base-three-quarter-light-soft-transitions",
+      "semantic_key": "cinematography-light-direction-base-three-quarter-light-soft-transitions",
+      "text": "three-quarter light with soft transitions",
+      "sentence": "Three-quarter light with soft transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "three-quarter light with soft transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing three-quarter light with soft transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with three-quarter light with soft transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-direction-base-three-quarter-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-direction",
+        "rarity-common"
+      ],
+      "facets": {
+        "direction": "three-quarter-light",
+        "treatment": "soft-transitions"
+      },
+      "subcategory": "three-quarter-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-direction-base-three-quarter-light-crisp-transitions",
+      "semantic_key": "cinematography-light-direction-base-three-quarter-light-crisp-transitions",
+      "text": "three-quarter light with crisp transitions",
+      "sentence": "Three-quarter light with crisp transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "three-quarter light with crisp transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing three-quarter light with crisp transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with three-quarter light with crisp transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-light-direction-base-three-quarter-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-direction",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "direction": "three-quarter-light",
+        "treatment": "crisp-transitions"
+      },
+      "subcategory": "three-quarter-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-direction-base-three-quarter-light-broad-falloff",
+      "semantic_key": "cinematography-light-direction-base-three-quarter-light-broad-falloff",
+      "text": "three-quarter light with broad falloff",
+      "sentence": "Three-quarter light with broad falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "three-quarter light with broad falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing three-quarter light with broad falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with three-quarter light with broad falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-light-direction-base-three-quarter-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-direction",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "direction": "three-quarter-light",
+        "treatment": "broad-falloff"
+      },
+      "subcategory": "three-quarter-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-direction-base-three-quarter-light-rapid-falloff",
+      "semantic_key": "cinematography-light-direction-base-three-quarter-light-rapid-falloff",
+      "text": "three-quarter light with rapid falloff",
+      "sentence": "Three-quarter light with rapid falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "three-quarter light with rapid falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing three-quarter light with rapid falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with three-quarter light with rapid falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-light-direction-base-three-quarter-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-direction",
+        "rarity-rare"
+      ],
+      "facets": {
+        "direction": "three-quarter-light",
+        "treatment": "rapid-falloff"
+      },
+      "subcategory": "three-quarter-light",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-direction-base-three-quarter-light-layered-illumination",
+      "semantic_key": "cinematography-light-direction-base-three-quarter-light-layered-illumination",
+      "text": "three-quarter light with layered illumination",
+      "sentence": "Three-quarter light with layered illumination.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "three-quarter light with layered illumination",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing three-quarter light with layered illumination",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with three-quarter light with layered illumination",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-light-direction-base-three-quarter-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-direction",
+        "rarity-rare"
+      ],
+      "facets": {
+        "direction": "three-quarter-light",
+        "treatment": "layered-illumination"
+      },
+      "subcategory": "three-quarter-light",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-direction-base-side-light-low-contrast",
+      "semantic_key": "cinematography-light-direction-base-side-light-low-contrast",
+      "text": "side light with low contrast",
+      "sentence": "Side light with low contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "side light with low contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing side light with low contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with side light with low contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-direction-base-side-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-direction",
+        "rarity-common"
+      ],
+      "facets": {
+        "direction": "side-light",
+        "treatment": "low-contrast"
+      },
+      "subcategory": "side-light",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-direction-base-side-light-moderate-contrast",
+      "semantic_key": "cinematography-light-direction-base-side-light-moderate-contrast",
+      "text": "side light with moderate contrast",
+      "sentence": "Side light with moderate contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "side light with moderate contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing side light with moderate contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with side light with moderate contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-direction-base-side-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-direction",
+        "rarity-common"
+      ],
+      "facets": {
+        "direction": "side-light",
+        "treatment": "moderate-contrast"
+      },
+      "subcategory": "side-light",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-direction-base-side-light-high-contrast",
+      "semantic_key": "cinematography-light-direction-base-side-light-high-contrast",
+      "text": "side light with high contrast",
+      "sentence": "Side light with high contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "side light with high contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing side light with high contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with side light with high contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-direction-base-side-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-direction",
+        "rarity-common"
+      ],
+      "facets": {
+        "direction": "side-light",
+        "treatment": "high-contrast"
+      },
+      "subcategory": "side-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-direction-base-side-light-soft-transitions",
+      "semantic_key": "cinematography-light-direction-base-side-light-soft-transitions",
+      "text": "side light with soft transitions",
+      "sentence": "Side light with soft transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "side light with soft transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing side light with soft transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with side light with soft transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-direction-base-side-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-direction",
+        "rarity-common"
+      ],
+      "facets": {
+        "direction": "side-light",
+        "treatment": "soft-transitions"
+      },
+      "subcategory": "side-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-direction-base-side-light-crisp-transitions",
+      "semantic_key": "cinematography-light-direction-base-side-light-crisp-transitions",
+      "text": "side light with crisp transitions",
+      "sentence": "Side light with crisp transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "side light with crisp transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing side light with crisp transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with side light with crisp transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-light-direction-base-side-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-direction",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "direction": "side-light",
+        "treatment": "crisp-transitions"
+      },
+      "subcategory": "side-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-direction-base-side-light-broad-falloff",
+      "semantic_key": "cinematography-light-direction-base-side-light-broad-falloff",
+      "text": "side light with broad falloff",
+      "sentence": "Side light with broad falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "side light with broad falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing side light with broad falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with side light with broad falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-light-direction-base-side-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-direction",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "direction": "side-light",
+        "treatment": "broad-falloff"
+      },
+      "subcategory": "side-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-direction-base-side-light-rapid-falloff",
+      "semantic_key": "cinematography-light-direction-base-side-light-rapid-falloff",
+      "text": "side light with rapid falloff",
+      "sentence": "Side light with rapid falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "side light with rapid falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing side light with rapid falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with side light with rapid falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-light-direction-base-side-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-direction",
+        "rarity-rare"
+      ],
+      "facets": {
+        "direction": "side-light",
+        "treatment": "rapid-falloff"
+      },
+      "subcategory": "side-light",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-direction-base-side-light-layered-illumination",
+      "semantic_key": "cinematography-light-direction-base-side-light-layered-illumination",
+      "text": "side light with layered illumination",
+      "sentence": "Side light with layered illumination.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "side light with layered illumination",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing side light with layered illumination",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with side light with layered illumination",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-light-direction-base-side-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-direction",
+        "rarity-rare"
+      ],
+      "facets": {
+        "direction": "side-light",
+        "treatment": "layered-illumination"
+      },
+      "subcategory": "side-light",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-direction-base-back-light-low-contrast",
+      "semantic_key": "cinematography-light-direction-base-back-light-low-contrast",
+      "text": "back light with low contrast",
+      "sentence": "Back light with low contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "back light with low contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing back light with low contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with back light with low contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-direction-base-back-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-direction",
+        "rarity-common"
+      ],
+      "facets": {
+        "direction": "back-light",
+        "treatment": "low-contrast"
+      },
+      "subcategory": "back-light",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-direction-base-back-light-moderate-contrast",
+      "semantic_key": "cinematography-light-direction-base-back-light-moderate-contrast",
+      "text": "back light with moderate contrast",
+      "sentence": "Back light with moderate contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "back light with moderate contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing back light with moderate contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with back light with moderate contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-direction-base-back-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-direction",
+        "rarity-common"
+      ],
+      "facets": {
+        "direction": "back-light",
+        "treatment": "moderate-contrast"
+      },
+      "subcategory": "back-light",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-direction-base-back-light-high-contrast",
+      "semantic_key": "cinematography-light-direction-base-back-light-high-contrast",
+      "text": "back light with high contrast",
+      "sentence": "Back light with high contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "back light with high contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing back light with high contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with back light with high contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-direction-base-back-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-direction",
+        "rarity-common"
+      ],
+      "facets": {
+        "direction": "back-light",
+        "treatment": "high-contrast"
+      },
+      "subcategory": "back-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-direction-base-back-light-soft-transitions",
+      "semantic_key": "cinematography-light-direction-base-back-light-soft-transitions",
+      "text": "back light with soft transitions",
+      "sentence": "Back light with soft transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "back light with soft transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing back light with soft transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with back light with soft transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-direction-base-back-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-direction",
+        "rarity-common"
+      ],
+      "facets": {
+        "direction": "back-light",
+        "treatment": "soft-transitions"
+      },
+      "subcategory": "back-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-direction-base-back-light-crisp-transitions",
+      "semantic_key": "cinematography-light-direction-base-back-light-crisp-transitions",
+      "text": "back light with crisp transitions",
+      "sentence": "Back light with crisp transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "back light with crisp transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing back light with crisp transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with back light with crisp transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-light-direction-base-back-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-direction",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "direction": "back-light",
+        "treatment": "crisp-transitions"
+      },
+      "subcategory": "back-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-direction-base-back-light-broad-falloff",
+      "semantic_key": "cinematography-light-direction-base-back-light-broad-falloff",
+      "text": "back light with broad falloff",
+      "sentence": "Back light with broad falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "back light with broad falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing back light with broad falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with back light with broad falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-light-direction-base-back-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-direction",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "direction": "back-light",
+        "treatment": "broad-falloff"
+      },
+      "subcategory": "back-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-direction-base-back-light-rapid-falloff",
+      "semantic_key": "cinematography-light-direction-base-back-light-rapid-falloff",
+      "text": "back light with rapid falloff",
+      "sentence": "Back light with rapid falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "back light with rapid falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing back light with rapid falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with back light with rapid falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-light-direction-base-back-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-direction",
+        "rarity-rare"
+      ],
+      "facets": {
+        "direction": "back-light",
+        "treatment": "rapid-falloff"
+      },
+      "subcategory": "back-light",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-direction-base-back-light-layered-illumination",
+      "semantic_key": "cinematography-light-direction-base-back-light-layered-illumination",
+      "text": "back light with layered illumination",
+      "sentence": "Back light with layered illumination.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "back light with layered illumination",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing back light with layered illumination",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with back light with layered illumination",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-light-direction-base-back-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-direction",
+        "rarity-rare"
+      ],
+      "facets": {
+        "direction": "back-light",
+        "treatment": "layered-illumination"
+      },
+      "subcategory": "back-light",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-direction-base-top-light-low-contrast",
+      "semantic_key": "cinematography-light-direction-base-top-light-low-contrast",
+      "text": "top light with low contrast",
+      "sentence": "Top light with low contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "top light with low contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing top light with low contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with top light with low contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-direction-base-top-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-direction",
+        "rarity-common"
+      ],
+      "facets": {
+        "direction": "top-light",
+        "treatment": "low-contrast"
+      },
+      "subcategory": "top-light",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-direction-base-top-light-moderate-contrast",
+      "semantic_key": "cinematography-light-direction-base-top-light-moderate-contrast",
+      "text": "top light with moderate contrast",
+      "sentence": "Top light with moderate contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "top light with moderate contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing top light with moderate contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with top light with moderate contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-direction-base-top-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-direction",
+        "rarity-common"
+      ],
+      "facets": {
+        "direction": "top-light",
+        "treatment": "moderate-contrast"
+      },
+      "subcategory": "top-light",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-direction-base-top-light-high-contrast",
+      "semantic_key": "cinematography-light-direction-base-top-light-high-contrast",
+      "text": "top light with high contrast",
+      "sentence": "Top light with high contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "top light with high contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing top light with high contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with top light with high contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-direction-base-top-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-direction",
+        "rarity-common"
+      ],
+      "facets": {
+        "direction": "top-light",
+        "treatment": "high-contrast"
+      },
+      "subcategory": "top-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-direction-base-top-light-soft-transitions",
+      "semantic_key": "cinematography-light-direction-base-top-light-soft-transitions",
+      "text": "top light with soft transitions",
+      "sentence": "Top light with soft transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "top light with soft transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing top light with soft transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with top light with soft transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-direction-base-top-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-direction",
+        "rarity-common"
+      ],
+      "facets": {
+        "direction": "top-light",
+        "treatment": "soft-transitions"
+      },
+      "subcategory": "top-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-direction-base-top-light-crisp-transitions",
+      "semantic_key": "cinematography-light-direction-base-top-light-crisp-transitions",
+      "text": "top light with crisp transitions",
+      "sentence": "Top light with crisp transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "top light with crisp transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing top light with crisp transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with top light with crisp transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-light-direction-base-top-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-direction",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "direction": "top-light",
+        "treatment": "crisp-transitions"
+      },
+      "subcategory": "top-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-direction-base-top-light-broad-falloff",
+      "semantic_key": "cinematography-light-direction-base-top-light-broad-falloff",
+      "text": "top light with broad falloff",
+      "sentence": "Top light with broad falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "top light with broad falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing top light with broad falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with top light with broad falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-light-direction-base-top-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-direction",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "direction": "top-light",
+        "treatment": "broad-falloff"
+      },
+      "subcategory": "top-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-direction-base-top-light-rapid-falloff",
+      "semantic_key": "cinematography-light-direction-base-top-light-rapid-falloff",
+      "text": "top light with rapid falloff",
+      "sentence": "Top light with rapid falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "top light with rapid falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing top light with rapid falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with top light with rapid falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-light-direction-base-top-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-direction",
+        "rarity-rare"
+      ],
+      "facets": {
+        "direction": "top-light",
+        "treatment": "rapid-falloff"
+      },
+      "subcategory": "top-light",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-direction-base-top-light-layered-illumination",
+      "semantic_key": "cinematography-light-direction-base-top-light-layered-illumination",
+      "text": "top light with layered illumination",
+      "sentence": "Top light with layered illumination.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "top light with layered illumination",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing top light with layered illumination",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with top light with layered illumination",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-light-direction-base-top-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-direction",
+        "rarity-rare"
+      ],
+      "facets": {
+        "direction": "top-light",
+        "treatment": "layered-illumination"
+      },
+      "subcategory": "top-light",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-direction-base-under-light-low-contrast",
+      "semantic_key": "cinematography-light-direction-base-under-light-low-contrast",
+      "text": "under light with low contrast",
+      "sentence": "Under light with low contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "under light with low contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing under light with low contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with under light with low contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-direction-base-under-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-direction",
+        "rarity-common"
+      ],
+      "facets": {
+        "direction": "under-light",
+        "treatment": "low-contrast"
+      },
+      "subcategory": "under-light",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-direction-base-under-light-moderate-contrast",
+      "semantic_key": "cinematography-light-direction-base-under-light-moderate-contrast",
+      "text": "under light with moderate contrast",
+      "sentence": "Under light with moderate contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "under light with moderate contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing under light with moderate contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with under light with moderate contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-direction-base-under-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-direction",
+        "rarity-common"
+      ],
+      "facets": {
+        "direction": "under-light",
+        "treatment": "moderate-contrast"
+      },
+      "subcategory": "under-light",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-direction-base-under-light-high-contrast",
+      "semantic_key": "cinematography-light-direction-base-under-light-high-contrast",
+      "text": "under light with high contrast",
+      "sentence": "Under light with high contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "under light with high contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing under light with high contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with under light with high contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-direction-base-under-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-direction",
+        "rarity-common"
+      ],
+      "facets": {
+        "direction": "under-light",
+        "treatment": "high-contrast"
+      },
+      "subcategory": "under-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-direction-base-under-light-soft-transitions",
+      "semantic_key": "cinematography-light-direction-base-under-light-soft-transitions",
+      "text": "under light with soft transitions",
+      "sentence": "Under light with soft transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "under light with soft transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing under light with soft transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with under light with soft transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-direction-base-under-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-direction",
+        "rarity-common"
+      ],
+      "facets": {
+        "direction": "under-light",
+        "treatment": "soft-transitions"
+      },
+      "subcategory": "under-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-direction-base-under-light-crisp-transitions",
+      "semantic_key": "cinematography-light-direction-base-under-light-crisp-transitions",
+      "text": "under light with crisp transitions",
+      "sentence": "Under light with crisp transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "under light with crisp transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing under light with crisp transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with under light with crisp transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-light-direction-base-under-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-direction",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "direction": "under-light",
+        "treatment": "crisp-transitions"
+      },
+      "subcategory": "under-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-direction-base-under-light-broad-falloff",
+      "semantic_key": "cinematography-light-direction-base-under-light-broad-falloff",
+      "text": "under light with broad falloff",
+      "sentence": "Under light with broad falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "under light with broad falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing under light with broad falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with under light with broad falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-light-direction-base-under-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-direction",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "direction": "under-light",
+        "treatment": "broad-falloff"
+      },
+      "subcategory": "under-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-direction-base-under-light-rapid-falloff",
+      "semantic_key": "cinematography-light-direction-base-under-light-rapid-falloff",
+      "text": "under light with rapid falloff",
+      "sentence": "Under light with rapid falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "under light with rapid falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing under light with rapid falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with under light with rapid falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-light-direction-base-under-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-direction",
+        "rarity-rare"
+      ],
+      "facets": {
+        "direction": "under-light",
+        "treatment": "rapid-falloff"
+      },
+      "subcategory": "under-light",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-direction-base-under-light-layered-illumination",
+      "semantic_key": "cinematography-light-direction-base-under-light-layered-illumination",
+      "text": "under light with layered illumination",
+      "sentence": "Under light with layered illumination.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "under light with layered illumination",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing under light with layered illumination",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with under light with layered illumination",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-light-direction-base-under-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-direction",
+        "rarity-rare"
+      ],
+      "facets": {
+        "direction": "under-light",
+        "treatment": "layered-illumination"
+      },
+      "subcategory": "under-light",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-direction-base-cross-light-low-contrast",
+      "semantic_key": "cinematography-light-direction-base-cross-light-low-contrast",
+      "text": "cross light with low contrast",
+      "sentence": "Cross light with low contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "cross light with low contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing cross light with low contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with cross light with low contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-direction-base-cross-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-direction",
+        "rarity-common"
+      ],
+      "facets": {
+        "direction": "cross-light",
+        "treatment": "low-contrast"
+      },
+      "subcategory": "cross-light",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-direction-base-cross-light-moderate-contrast",
+      "semantic_key": "cinematography-light-direction-base-cross-light-moderate-contrast",
+      "text": "cross light with moderate contrast",
+      "sentence": "Cross light with moderate contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "cross light with moderate contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing cross light with moderate contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with cross light with moderate contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-direction-base-cross-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-direction",
+        "rarity-common"
+      ],
+      "facets": {
+        "direction": "cross-light",
+        "treatment": "moderate-contrast"
+      },
+      "subcategory": "cross-light",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-direction-base-cross-light-high-contrast",
+      "semantic_key": "cinematography-light-direction-base-cross-light-high-contrast",
+      "text": "cross light with high contrast",
+      "sentence": "Cross light with high contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "cross light with high contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing cross light with high contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with cross light with high contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-direction-base-cross-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-direction",
+        "rarity-common"
+      ],
+      "facets": {
+        "direction": "cross-light",
+        "treatment": "high-contrast"
+      },
+      "subcategory": "cross-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-direction-base-cross-light-soft-transitions",
+      "semantic_key": "cinematography-light-direction-base-cross-light-soft-transitions",
+      "text": "cross light with soft transitions",
+      "sentence": "Cross light with soft transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "cross light with soft transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing cross light with soft transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with cross light with soft transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-direction-base-cross-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-direction",
+        "rarity-common"
+      ],
+      "facets": {
+        "direction": "cross-light",
+        "treatment": "soft-transitions"
+      },
+      "subcategory": "cross-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-direction-base-cross-light-crisp-transitions",
+      "semantic_key": "cinematography-light-direction-base-cross-light-crisp-transitions",
+      "text": "cross light with crisp transitions",
+      "sentence": "Cross light with crisp transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "cross light with crisp transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing cross light with crisp transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with cross light with crisp transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-light-direction-base-cross-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-direction",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "direction": "cross-light",
+        "treatment": "crisp-transitions"
+      },
+      "subcategory": "cross-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-direction-base-cross-light-broad-falloff",
+      "semantic_key": "cinematography-light-direction-base-cross-light-broad-falloff",
+      "text": "cross light with broad falloff",
+      "sentence": "Cross light with broad falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "cross light with broad falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing cross light with broad falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with cross light with broad falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-light-direction-base-cross-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-direction",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "direction": "cross-light",
+        "treatment": "broad-falloff"
+      },
+      "subcategory": "cross-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-direction-base-cross-light-rapid-falloff",
+      "semantic_key": "cinematography-light-direction-base-cross-light-rapid-falloff",
+      "text": "cross light with rapid falloff",
+      "sentence": "Cross light with rapid falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "cross light with rapid falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing cross light with rapid falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with cross light with rapid falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-light-direction-base-cross-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-direction",
+        "rarity-rare"
+      ],
+      "facets": {
+        "direction": "cross-light",
+        "treatment": "rapid-falloff"
+      },
+      "subcategory": "cross-light",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-direction-base-cross-light-layered-illumination",
+      "semantic_key": "cinematography-light-direction-base-cross-light-layered-illumination",
+      "text": "cross light with layered illumination",
+      "sentence": "Cross light with layered illumination.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "cross light with layered illumination",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing cross light with layered illumination",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with cross light with layered illumination",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-light-direction-base-cross-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-direction",
+        "rarity-rare"
+      ],
+      "facets": {
+        "direction": "cross-light",
+        "treatment": "layered-illumination"
+      },
+      "subcategory": "cross-light",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-direction-base-edge-light-low-contrast",
+      "semantic_key": "cinematography-light-direction-base-edge-light-low-contrast",
+      "text": "edge light with low contrast",
+      "sentence": "Edge light with low contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "edge light with low contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing edge light with low contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with edge light with low contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-direction-base-edge-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-direction",
+        "rarity-common"
+      ],
+      "facets": {
+        "direction": "edge-light",
+        "treatment": "low-contrast"
+      },
+      "subcategory": "edge-light",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-direction-base-edge-light-moderate-contrast",
+      "semantic_key": "cinematography-light-direction-base-edge-light-moderate-contrast",
+      "text": "edge light with moderate contrast",
+      "sentence": "Edge light with moderate contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "edge light with moderate contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing edge light with moderate contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with edge light with moderate contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-direction-base-edge-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-direction",
+        "rarity-common"
+      ],
+      "facets": {
+        "direction": "edge-light",
+        "treatment": "moderate-contrast"
+      },
+      "subcategory": "edge-light",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-direction-base-edge-light-high-contrast",
+      "semantic_key": "cinematography-light-direction-base-edge-light-high-contrast",
+      "text": "edge light with high contrast",
+      "sentence": "Edge light with high contrast.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "edge light with high contrast",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing edge light with high contrast",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with edge light with high contrast",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-direction-base-edge-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-direction",
+        "rarity-common"
+      ],
+      "facets": {
+        "direction": "edge-light",
+        "treatment": "high-contrast"
+      },
+      "subcategory": "edge-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-direction-base-edge-light-soft-transitions",
+      "semantic_key": "cinematography-light-direction-base-edge-light-soft-transitions",
+      "text": "edge light with soft transitions",
+      "sentence": "Edge light with soft transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "edge light with soft transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing edge light with soft transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with edge light with soft transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-direction-base-edge-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-direction",
+        "rarity-common"
+      ],
+      "facets": {
+        "direction": "edge-light",
+        "treatment": "soft-transitions"
+      },
+      "subcategory": "edge-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-direction-base-edge-light-crisp-transitions",
+      "semantic_key": "cinematography-light-direction-base-edge-light-crisp-transitions",
+      "text": "edge light with crisp transitions",
+      "sentence": "Edge light with crisp transitions.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "edge light with crisp transitions",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing edge light with crisp transitions",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with edge light with crisp transitions",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-light-direction-base-edge-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-direction",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "direction": "edge-light",
+        "treatment": "crisp-transitions"
+      },
+      "subcategory": "edge-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-direction-base-edge-light-broad-falloff",
+      "semantic_key": "cinematography-light-direction-base-edge-light-broad-falloff",
+      "text": "edge light with broad falloff",
+      "sentence": "Edge light with broad falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "edge light with broad falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing edge light with broad falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with edge light with broad falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-light-direction-base-edge-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-direction",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "direction": "edge-light",
+        "treatment": "broad-falloff"
+      },
+      "subcategory": "edge-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-direction-base-edge-light-rapid-falloff",
+      "semantic_key": "cinematography-light-direction-base-edge-light-rapid-falloff",
+      "text": "edge light with rapid falloff",
+      "sentence": "Edge light with rapid falloff.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "edge light with rapid falloff",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing edge light with rapid falloff",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with edge light with rapid falloff",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-light-direction-base-edge-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-direction",
+        "rarity-rare"
+      ],
+      "facets": {
+        "direction": "edge-light",
+        "treatment": "rapid-falloff"
+      },
+      "subcategory": "edge-light",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-direction-base-edge-light-layered-illumination",
+      "semantic_key": "cinematography-light-direction-base-edge-light-layered-illumination",
+      "text": "edge light with layered illumination",
+      "sentence": "Edge light with layered illumination.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "edge light with layered illumination",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing edge light with layered illumination",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with edge light with layered illumination",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-light-direction-base-edge-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-direction",
+        "rarity-rare"
+      ],
+      "facets": {
+        "direction": "edge-light",
+        "treatment": "layered-illumination"
+      },
+      "subcategory": "edge-light",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    }
+  ]
+}

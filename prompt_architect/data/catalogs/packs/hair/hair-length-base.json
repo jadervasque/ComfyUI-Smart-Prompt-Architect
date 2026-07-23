@@ -1,0 +1,2641 @@
+{
+  "schema_version": "2.0",
+  "id": "hair-length-base",
+  "version": "2.0.0",
+  "library": "hair-length",
+  "domain": "hair",
+  "category": "hair-length",
+  "language": "en",
+  "status": "active",
+  "safety": "general",
+  "tags": [
+    "base"
+  ],
+  "fallback_option_id": "hair-length-base-closely-cropped-softly-defined",
+  "options": [
+    {
+      "id": "hair-length-base-closely-cropped-softly-defined",
+      "semantic_key": "hair-length-base-closely-cropped-softly-defined",
+      "text": "closely cropped hair with a softly defined perimeter",
+      "sentence": "Closely cropped hair with a softly defined perimeter.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "closely cropped hair with a softly defined perimeter",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing closely cropped hair with a softly defined perimeter",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with closely cropped hair with a softly defined perimeter",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-length-base-closely-cropped",
+      "tags": [
+        "base",
+        "hair",
+        "hair-length",
+        "hair-short",
+        "rarity-common"
+      ],
+      "facets": {
+        "length": "closely-cropped",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "closely-cropped",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-length-base-closely-cropped-cleanly-outlined",
+      "semantic_key": "hair-length-base-closely-cropped-cleanly-outlined",
+      "text": "closely cropped hair with a cleanly outlined perimeter",
+      "sentence": "Closely cropped hair with a cleanly outlined perimeter.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "closely cropped hair with a cleanly outlined perimeter",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing closely cropped hair with a cleanly outlined perimeter",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with closely cropped hair with a cleanly outlined perimeter",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-length-base-closely-cropped",
+      "tags": [
+        "base",
+        "hair",
+        "hair-length",
+        "hair-short",
+        "rarity-common"
+      ],
+      "facets": {
+        "length": "closely-cropped",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "closely-cropped",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-length-base-closely-cropped-gently-tapered",
+      "semantic_key": "hair-length-base-closely-cropped-gently-tapered",
+      "text": "closely cropped hair with a gently tapered perimeter",
+      "sentence": "Closely cropped hair with a gently tapered perimeter.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "closely cropped hair with a gently tapered perimeter",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing closely cropped hair with a gently tapered perimeter",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with closely cropped hair with a gently tapered perimeter",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-length-base-closely-cropped",
+      "tags": [
+        "base",
+        "hair",
+        "hair-length",
+        "hair-short",
+        "rarity-common"
+      ],
+      "facets": {
+        "length": "closely-cropped",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "closely-cropped",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-length-base-closely-cropped-evenly-proportioned",
+      "semantic_key": "hair-length-base-closely-cropped-evenly-proportioned",
+      "text": "closely cropped hair with a evenly proportioned perimeter",
+      "sentence": "Closely cropped hair with a evenly proportioned perimeter.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "closely cropped hair with a evenly proportioned perimeter",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing closely cropped hair with a evenly proportioned perimeter",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with closely cropped hair with a evenly proportioned perimeter",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-length-base-closely-cropped",
+      "tags": [
+        "base",
+        "hair",
+        "hair-length",
+        "hair-short",
+        "rarity-common"
+      ],
+      "facets": {
+        "length": "closely-cropped",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "closely-cropped",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-length-base-closely-cropped-subtly-angular",
+      "semantic_key": "hair-length-base-closely-cropped-subtly-angular",
+      "text": "closely cropped hair with a subtly angular perimeter",
+      "sentence": "Closely cropped hair with a subtly angular perimeter.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "closely cropped hair with a subtly angular perimeter",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing closely cropped hair with a subtly angular perimeter",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with closely cropped hair with a subtly angular perimeter",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-length-base-closely-cropped",
+      "tags": [
+        "base",
+        "hair",
+        "hair-length",
+        "hair-short",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "length": "closely-cropped",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "closely-cropped",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-length-base-closely-cropped-smoothly-contoured",
+      "semantic_key": "hair-length-base-closely-cropped-smoothly-contoured",
+      "text": "closely cropped hair with a smoothly contoured perimeter",
+      "sentence": "Closely cropped hair with a smoothly contoured perimeter.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "closely cropped hair with a smoothly contoured perimeter",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing closely cropped hair with a smoothly contoured perimeter",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with closely cropped hair with a smoothly contoured perimeter",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-length-base-closely-cropped",
+      "tags": [
+        "base",
+        "hair",
+        "hair-length",
+        "hair-short",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "length": "closely-cropped",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "closely-cropped",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-length-base-closely-cropped-distinctly-structured",
+      "semantic_key": "hair-length-base-closely-cropped-distinctly-structured",
+      "text": "closely cropped hair with a distinctly structured perimeter",
+      "sentence": "Closely cropped hair with a distinctly structured perimeter.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "closely cropped hair with a distinctly structured perimeter",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing closely cropped hair with a distinctly structured perimeter",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with closely cropped hair with a distinctly structured perimeter",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-length-base-closely-cropped",
+      "tags": [
+        "base",
+        "hair",
+        "hair-length",
+        "hair-short",
+        "rarity-rare"
+      ],
+      "facets": {
+        "length": "closely-cropped",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "closely-cropped",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-length-base-closely-cropped-naturally-asymmetric",
+      "semantic_key": "hair-length-base-closely-cropped-naturally-asymmetric",
+      "text": "closely cropped hair with a naturally asymmetric perimeter",
+      "sentence": "Closely cropped hair with a naturally asymmetric perimeter.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "closely cropped hair with a naturally asymmetric perimeter",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing closely cropped hair with a naturally asymmetric perimeter",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with closely cropped hair with a naturally asymmetric perimeter",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-length-base-closely-cropped",
+      "tags": [
+        "base",
+        "hair",
+        "hair-length",
+        "hair-short",
+        "rarity-rare"
+      ],
+      "facets": {
+        "length": "closely-cropped",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "closely-cropped",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-length-base-ear-length-softly-defined",
+      "semantic_key": "hair-length-base-ear-length-softly-defined",
+      "text": "ear-length hair with a softly defined perimeter",
+      "sentence": "Ear-length hair with a softly defined perimeter.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "ear-length hair with a softly defined perimeter",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing ear-length hair with a softly defined perimeter",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with ear-length hair with a softly defined perimeter",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-length-base-ear-length",
+      "tags": [
+        "base",
+        "hair",
+        "hair-length",
+        "hair-short",
+        "rarity-common"
+      ],
+      "facets": {
+        "length": "ear-length",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "ear-length",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-length-base-ear-length-cleanly-outlined",
+      "semantic_key": "hair-length-base-ear-length-cleanly-outlined",
+      "text": "ear-length hair with a cleanly outlined perimeter",
+      "sentence": "Ear-length hair with a cleanly outlined perimeter.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "ear-length hair with a cleanly outlined perimeter",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing ear-length hair with a cleanly outlined perimeter",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with ear-length hair with a cleanly outlined perimeter",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-length-base-ear-length",
+      "tags": [
+        "base",
+        "hair",
+        "hair-length",
+        "hair-short",
+        "rarity-common"
+      ],
+      "facets": {
+        "length": "ear-length",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "ear-length",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-length-base-ear-length-gently-tapered",
+      "semantic_key": "hair-length-base-ear-length-gently-tapered",
+      "text": "ear-length hair with a gently tapered perimeter",
+      "sentence": "Ear-length hair with a gently tapered perimeter.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "ear-length hair with a gently tapered perimeter",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing ear-length hair with a gently tapered perimeter",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with ear-length hair with a gently tapered perimeter",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-length-base-ear-length",
+      "tags": [
+        "base",
+        "hair",
+        "hair-length",
+        "hair-short",
+        "rarity-common"
+      ],
+      "facets": {
+        "length": "ear-length",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "ear-length",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-length-base-ear-length-evenly-proportioned",
+      "semantic_key": "hair-length-base-ear-length-evenly-proportioned",
+      "text": "ear-length hair with a evenly proportioned perimeter",
+      "sentence": "Ear-length hair with a evenly proportioned perimeter.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "ear-length hair with a evenly proportioned perimeter",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing ear-length hair with a evenly proportioned perimeter",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with ear-length hair with a evenly proportioned perimeter",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-length-base-ear-length",
+      "tags": [
+        "base",
+        "hair",
+        "hair-length",
+        "hair-short",
+        "rarity-common"
+      ],
+      "facets": {
+        "length": "ear-length",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "ear-length",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-length-base-ear-length-subtly-angular",
+      "semantic_key": "hair-length-base-ear-length-subtly-angular",
+      "text": "ear-length hair with a subtly angular perimeter",
+      "sentence": "Ear-length hair with a subtly angular perimeter.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "ear-length hair with a subtly angular perimeter",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing ear-length hair with a subtly angular perimeter",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with ear-length hair with a subtly angular perimeter",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-length-base-ear-length",
+      "tags": [
+        "base",
+        "hair",
+        "hair-length",
+        "hair-short",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "length": "ear-length",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "ear-length",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-length-base-ear-length-smoothly-contoured",
+      "semantic_key": "hair-length-base-ear-length-smoothly-contoured",
+      "text": "ear-length hair with a smoothly contoured perimeter",
+      "sentence": "Ear-length hair with a smoothly contoured perimeter.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "ear-length hair with a smoothly contoured perimeter",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing ear-length hair with a smoothly contoured perimeter",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with ear-length hair with a smoothly contoured perimeter",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-length-base-ear-length",
+      "tags": [
+        "base",
+        "hair",
+        "hair-length",
+        "hair-short",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "length": "ear-length",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "ear-length",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-length-base-ear-length-distinctly-structured",
+      "semantic_key": "hair-length-base-ear-length-distinctly-structured",
+      "text": "ear-length hair with a distinctly structured perimeter",
+      "sentence": "Ear-length hair with a distinctly structured perimeter.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "ear-length hair with a distinctly structured perimeter",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing ear-length hair with a distinctly structured perimeter",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with ear-length hair with a distinctly structured perimeter",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-length-base-ear-length",
+      "tags": [
+        "base",
+        "hair",
+        "hair-length",
+        "hair-short",
+        "rarity-rare"
+      ],
+      "facets": {
+        "length": "ear-length",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "ear-length",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-length-base-ear-length-naturally-asymmetric",
+      "semantic_key": "hair-length-base-ear-length-naturally-asymmetric",
+      "text": "ear-length hair with a naturally asymmetric perimeter",
+      "sentence": "Ear-length hair with a naturally asymmetric perimeter.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "ear-length hair with a naturally asymmetric perimeter",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing ear-length hair with a naturally asymmetric perimeter",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with ear-length hair with a naturally asymmetric perimeter",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-length-base-ear-length",
+      "tags": [
+        "base",
+        "hair",
+        "hair-length",
+        "hair-short",
+        "rarity-rare"
+      ],
+      "facets": {
+        "length": "ear-length",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "ear-length",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-length-base-chin-length-softly-defined",
+      "semantic_key": "hair-length-base-chin-length-softly-defined",
+      "text": "chin-length hair with a softly defined perimeter",
+      "sentence": "Chin-length hair with a softly defined perimeter.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "chin-length hair with a softly defined perimeter",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing chin-length hair with a softly defined perimeter",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with chin-length hair with a softly defined perimeter",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-length-base-chin-length",
+      "tags": [
+        "base",
+        "hair",
+        "hair-length",
+        "hair-medium",
+        "rarity-common"
+      ],
+      "facets": {
+        "length": "chin-length",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "chin-length",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-length-base-chin-length-cleanly-outlined",
+      "semantic_key": "hair-length-base-chin-length-cleanly-outlined",
+      "text": "chin-length hair with a cleanly outlined perimeter",
+      "sentence": "Chin-length hair with a cleanly outlined perimeter.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "chin-length hair with a cleanly outlined perimeter",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing chin-length hair with a cleanly outlined perimeter",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with chin-length hair with a cleanly outlined perimeter",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-length-base-chin-length",
+      "tags": [
+        "base",
+        "hair",
+        "hair-length",
+        "hair-medium",
+        "rarity-common"
+      ],
+      "facets": {
+        "length": "chin-length",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "chin-length",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-length-base-chin-length-gently-tapered",
+      "semantic_key": "hair-length-base-chin-length-gently-tapered",
+      "text": "chin-length hair with a gently tapered perimeter",
+      "sentence": "Chin-length hair with a gently tapered perimeter.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "chin-length hair with a gently tapered perimeter",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing chin-length hair with a gently tapered perimeter",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with chin-length hair with a gently tapered perimeter",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-length-base-chin-length",
+      "tags": [
+        "base",
+        "hair",
+        "hair-length",
+        "hair-medium",
+        "rarity-common"
+      ],
+      "facets": {
+        "length": "chin-length",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "chin-length",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-length-base-chin-length-evenly-proportioned",
+      "semantic_key": "hair-length-base-chin-length-evenly-proportioned",
+      "text": "chin-length hair with a evenly proportioned perimeter",
+      "sentence": "Chin-length hair with a evenly proportioned perimeter.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "chin-length hair with a evenly proportioned perimeter",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing chin-length hair with a evenly proportioned perimeter",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with chin-length hair with a evenly proportioned perimeter",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-length-base-chin-length",
+      "tags": [
+        "base",
+        "hair",
+        "hair-length",
+        "hair-medium",
+        "rarity-common"
+      ],
+      "facets": {
+        "length": "chin-length",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "chin-length",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-length-base-chin-length-subtly-angular",
+      "semantic_key": "hair-length-base-chin-length-subtly-angular",
+      "text": "chin-length hair with a subtly angular perimeter",
+      "sentence": "Chin-length hair with a subtly angular perimeter.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "chin-length hair with a subtly angular perimeter",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing chin-length hair with a subtly angular perimeter",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with chin-length hair with a subtly angular perimeter",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-length-base-chin-length",
+      "tags": [
+        "base",
+        "hair",
+        "hair-length",
+        "hair-medium",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "length": "chin-length",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "chin-length",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-length-base-chin-length-smoothly-contoured",
+      "semantic_key": "hair-length-base-chin-length-smoothly-contoured",
+      "text": "chin-length hair with a smoothly contoured perimeter",
+      "sentence": "Chin-length hair with a smoothly contoured perimeter.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "chin-length hair with a smoothly contoured perimeter",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing chin-length hair with a smoothly contoured perimeter",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with chin-length hair with a smoothly contoured perimeter",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-length-base-chin-length",
+      "tags": [
+        "base",
+        "hair",
+        "hair-length",
+        "hair-medium",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "length": "chin-length",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "chin-length",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-length-base-chin-length-distinctly-structured",
+      "semantic_key": "hair-length-base-chin-length-distinctly-structured",
+      "text": "chin-length hair with a distinctly structured perimeter",
+      "sentence": "Chin-length hair with a distinctly structured perimeter.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "chin-length hair with a distinctly structured perimeter",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing chin-length hair with a distinctly structured perimeter",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with chin-length hair with a distinctly structured perimeter",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-length-base-chin-length",
+      "tags": [
+        "base",
+        "hair",
+        "hair-length",
+        "hair-medium",
+        "rarity-rare"
+      ],
+      "facets": {
+        "length": "chin-length",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "chin-length",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-length-base-chin-length-naturally-asymmetric",
+      "semantic_key": "hair-length-base-chin-length-naturally-asymmetric",
+      "text": "chin-length hair with a naturally asymmetric perimeter",
+      "sentence": "Chin-length hair with a naturally asymmetric perimeter.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "chin-length hair with a naturally asymmetric perimeter",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing chin-length hair with a naturally asymmetric perimeter",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with chin-length hair with a naturally asymmetric perimeter",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-length-base-chin-length",
+      "tags": [
+        "base",
+        "hair",
+        "hair-length",
+        "hair-medium",
+        "rarity-rare"
+      ],
+      "facets": {
+        "length": "chin-length",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "chin-length",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-length-base-shoulder-length-softly-defined",
+      "semantic_key": "hair-length-base-shoulder-length-softly-defined",
+      "text": "shoulder-length hair with a softly defined perimeter",
+      "sentence": "Shoulder-length hair with a softly defined perimeter.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "shoulder-length hair with a softly defined perimeter",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing shoulder-length hair with a softly defined perimeter",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with shoulder-length hair with a softly defined perimeter",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-length-base-shoulder-length",
+      "tags": [
+        "base",
+        "hair",
+        "hair-length",
+        "hair-long",
+        "rarity-common"
+      ],
+      "facets": {
+        "length": "shoulder-length",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "shoulder-length",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-length-base-shoulder-length-cleanly-outlined",
+      "semantic_key": "hair-length-base-shoulder-length-cleanly-outlined",
+      "text": "shoulder-length hair with a cleanly outlined perimeter",
+      "sentence": "Shoulder-length hair with a cleanly outlined perimeter.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "shoulder-length hair with a cleanly outlined perimeter",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing shoulder-length hair with a cleanly outlined perimeter",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with shoulder-length hair with a cleanly outlined perimeter",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-length-base-shoulder-length",
+      "tags": [
+        "base",
+        "hair",
+        "hair-length",
+        "hair-long",
+        "rarity-common"
+      ],
+      "facets": {
+        "length": "shoulder-length",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "shoulder-length",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-length-base-shoulder-length-gently-tapered",
+      "semantic_key": "hair-length-base-shoulder-length-gently-tapered",
+      "text": "shoulder-length hair with a gently tapered perimeter",
+      "sentence": "Shoulder-length hair with a gently tapered perimeter.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "shoulder-length hair with a gently tapered perimeter",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing shoulder-length hair with a gently tapered perimeter",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with shoulder-length hair with a gently tapered perimeter",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-length-base-shoulder-length",
+      "tags": [
+        "base",
+        "hair",
+        "hair-length",
+        "hair-long",
+        "rarity-common"
+      ],
+      "facets": {
+        "length": "shoulder-length",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "shoulder-length",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-length-base-shoulder-length-evenly-proportioned",
+      "semantic_key": "hair-length-base-shoulder-length-evenly-proportioned",
+      "text": "shoulder-length hair with a evenly proportioned perimeter",
+      "sentence": "Shoulder-length hair with a evenly proportioned perimeter.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "shoulder-length hair with a evenly proportioned perimeter",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing shoulder-length hair with a evenly proportioned perimeter",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with shoulder-length hair with a evenly proportioned perimeter",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-length-base-shoulder-length",
+      "tags": [
+        "base",
+        "hair",
+        "hair-length",
+        "hair-long",
+        "rarity-common"
+      ],
+      "facets": {
+        "length": "shoulder-length",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "shoulder-length",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-length-base-shoulder-length-subtly-angular",
+      "semantic_key": "hair-length-base-shoulder-length-subtly-angular",
+      "text": "shoulder-length hair with a subtly angular perimeter",
+      "sentence": "Shoulder-length hair with a subtly angular perimeter.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "shoulder-length hair with a subtly angular perimeter",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing shoulder-length hair with a subtly angular perimeter",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with shoulder-length hair with a subtly angular perimeter",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-length-base-shoulder-length",
+      "tags": [
+        "base",
+        "hair",
+        "hair-length",
+        "hair-long",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "length": "shoulder-length",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "shoulder-length",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-length-base-shoulder-length-smoothly-contoured",
+      "semantic_key": "hair-length-base-shoulder-length-smoothly-contoured",
+      "text": "shoulder-length hair with a smoothly contoured perimeter",
+      "sentence": "Shoulder-length hair with a smoothly contoured perimeter.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "shoulder-length hair with a smoothly contoured perimeter",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing shoulder-length hair with a smoothly contoured perimeter",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with shoulder-length hair with a smoothly contoured perimeter",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-length-base-shoulder-length",
+      "tags": [
+        "base",
+        "hair",
+        "hair-length",
+        "hair-long",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "length": "shoulder-length",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "shoulder-length",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-length-base-shoulder-length-distinctly-structured",
+      "semantic_key": "hair-length-base-shoulder-length-distinctly-structured",
+      "text": "shoulder-length hair with a distinctly structured perimeter",
+      "sentence": "Shoulder-length hair with a distinctly structured perimeter.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "shoulder-length hair with a distinctly structured perimeter",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing shoulder-length hair with a distinctly structured perimeter",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with shoulder-length hair with a distinctly structured perimeter",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-length-base-shoulder-length",
+      "tags": [
+        "base",
+        "hair",
+        "hair-length",
+        "hair-long",
+        "rarity-rare"
+      ],
+      "facets": {
+        "length": "shoulder-length",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "shoulder-length",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-length-base-shoulder-length-naturally-asymmetric",
+      "semantic_key": "hair-length-base-shoulder-length-naturally-asymmetric",
+      "text": "shoulder-length hair with a naturally asymmetric perimeter",
+      "sentence": "Shoulder-length hair with a naturally asymmetric perimeter.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "shoulder-length hair with a naturally asymmetric perimeter",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing shoulder-length hair with a naturally asymmetric perimeter",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with shoulder-length hair with a naturally asymmetric perimeter",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-length-base-shoulder-length",
+      "tags": [
+        "base",
+        "hair",
+        "hair-length",
+        "hair-long",
+        "rarity-rare"
+      ],
+      "facets": {
+        "length": "shoulder-length",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "shoulder-length",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-length-base-collarbone-length-softly-defined",
+      "semantic_key": "hair-length-base-collarbone-length-softly-defined",
+      "text": "collarbone-length hair with a softly defined perimeter",
+      "sentence": "Collarbone-length hair with a softly defined perimeter.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "collarbone-length hair with a softly defined perimeter",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing collarbone-length hair with a softly defined perimeter",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with collarbone-length hair with a softly defined perimeter",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-length-base-collarbone-length",
+      "tags": [
+        "base",
+        "hair",
+        "hair-length",
+        "hair-long",
+        "rarity-common"
+      ],
+      "facets": {
+        "length": "collarbone-length",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "collarbone-length",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-length-base-collarbone-length-cleanly-outlined",
+      "semantic_key": "hair-length-base-collarbone-length-cleanly-outlined",
+      "text": "collarbone-length hair with a cleanly outlined perimeter",
+      "sentence": "Collarbone-length hair with a cleanly outlined perimeter.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "collarbone-length hair with a cleanly outlined perimeter",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing collarbone-length hair with a cleanly outlined perimeter",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with collarbone-length hair with a cleanly outlined perimeter",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-length-base-collarbone-length",
+      "tags": [
+        "base",
+        "hair",
+        "hair-length",
+        "hair-long",
+        "rarity-common"
+      ],
+      "facets": {
+        "length": "collarbone-length",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "collarbone-length",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-length-base-collarbone-length-gently-tapered",
+      "semantic_key": "hair-length-base-collarbone-length-gently-tapered",
+      "text": "collarbone-length hair with a gently tapered perimeter",
+      "sentence": "Collarbone-length hair with a gently tapered perimeter.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "collarbone-length hair with a gently tapered perimeter",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing collarbone-length hair with a gently tapered perimeter",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with collarbone-length hair with a gently tapered perimeter",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-length-base-collarbone-length",
+      "tags": [
+        "base",
+        "hair",
+        "hair-length",
+        "hair-long",
+        "rarity-common"
+      ],
+      "facets": {
+        "length": "collarbone-length",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "collarbone-length",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-length-base-collarbone-length-evenly-proportioned",
+      "semantic_key": "hair-length-base-collarbone-length-evenly-proportioned",
+      "text": "collarbone-length hair with a evenly proportioned perimeter",
+      "sentence": "Collarbone-length hair with a evenly proportioned perimeter.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "collarbone-length hair with a evenly proportioned perimeter",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing collarbone-length hair with a evenly proportioned perimeter",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with collarbone-length hair with a evenly proportioned perimeter",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-length-base-collarbone-length",
+      "tags": [
+        "base",
+        "hair",
+        "hair-length",
+        "hair-long",
+        "rarity-common"
+      ],
+      "facets": {
+        "length": "collarbone-length",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "collarbone-length",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-length-base-collarbone-length-subtly-angular",
+      "semantic_key": "hair-length-base-collarbone-length-subtly-angular",
+      "text": "collarbone-length hair with a subtly angular perimeter",
+      "sentence": "Collarbone-length hair with a subtly angular perimeter.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "collarbone-length hair with a subtly angular perimeter",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing collarbone-length hair with a subtly angular perimeter",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with collarbone-length hair with a subtly angular perimeter",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-length-base-collarbone-length",
+      "tags": [
+        "base",
+        "hair",
+        "hair-length",
+        "hair-long",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "length": "collarbone-length",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "collarbone-length",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-length-base-collarbone-length-smoothly-contoured",
+      "semantic_key": "hair-length-base-collarbone-length-smoothly-contoured",
+      "text": "collarbone-length hair with a smoothly contoured perimeter",
+      "sentence": "Collarbone-length hair with a smoothly contoured perimeter.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "collarbone-length hair with a smoothly contoured perimeter",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing collarbone-length hair with a smoothly contoured perimeter",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with collarbone-length hair with a smoothly contoured perimeter",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-length-base-collarbone-length",
+      "tags": [
+        "base",
+        "hair",
+        "hair-length",
+        "hair-long",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "length": "collarbone-length",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "collarbone-length",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-length-base-collarbone-length-distinctly-structured",
+      "semantic_key": "hair-length-base-collarbone-length-distinctly-structured",
+      "text": "collarbone-length hair with a distinctly structured perimeter",
+      "sentence": "Collarbone-length hair with a distinctly structured perimeter.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "collarbone-length hair with a distinctly structured perimeter",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing collarbone-length hair with a distinctly structured perimeter",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with collarbone-length hair with a distinctly structured perimeter",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-length-base-collarbone-length",
+      "tags": [
+        "base",
+        "hair",
+        "hair-length",
+        "hair-long",
+        "rarity-rare"
+      ],
+      "facets": {
+        "length": "collarbone-length",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "collarbone-length",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-length-base-collarbone-length-naturally-asymmetric",
+      "semantic_key": "hair-length-base-collarbone-length-naturally-asymmetric",
+      "text": "collarbone-length hair with a naturally asymmetric perimeter",
+      "sentence": "Collarbone-length hair with a naturally asymmetric perimeter.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "collarbone-length hair with a naturally asymmetric perimeter",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing collarbone-length hair with a naturally asymmetric perimeter",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with collarbone-length hair with a naturally asymmetric perimeter",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-length-base-collarbone-length",
+      "tags": [
+        "base",
+        "hair",
+        "hair-length",
+        "hair-long",
+        "rarity-rare"
+      ],
+      "facets": {
+        "length": "collarbone-length",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "collarbone-length",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-length-base-mid-back-length-softly-defined",
+      "semantic_key": "hair-length-base-mid-back-length-softly-defined",
+      "text": "mid-back-length hair with a softly defined perimeter",
+      "sentence": "Mid-back-length hair with a softly defined perimeter.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "mid-back-length hair with a softly defined perimeter",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing mid-back-length hair with a softly defined perimeter",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with mid-back-length hair with a softly defined perimeter",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-length-base-mid-back-length",
+      "tags": [
+        "base",
+        "hair",
+        "hair-length",
+        "hair-long",
+        "rarity-common"
+      ],
+      "facets": {
+        "length": "mid-back-length",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "mid-back-length",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-length-base-mid-back-length-cleanly-outlined",
+      "semantic_key": "hair-length-base-mid-back-length-cleanly-outlined",
+      "text": "mid-back-length hair with a cleanly outlined perimeter",
+      "sentence": "Mid-back-length hair with a cleanly outlined perimeter.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "mid-back-length hair with a cleanly outlined perimeter",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing mid-back-length hair with a cleanly outlined perimeter",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with mid-back-length hair with a cleanly outlined perimeter",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-length-base-mid-back-length",
+      "tags": [
+        "base",
+        "hair",
+        "hair-length",
+        "hair-long",
+        "rarity-common"
+      ],
+      "facets": {
+        "length": "mid-back-length",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "mid-back-length",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-length-base-mid-back-length-gently-tapered",
+      "semantic_key": "hair-length-base-mid-back-length-gently-tapered",
+      "text": "mid-back-length hair with a gently tapered perimeter",
+      "sentence": "Mid-back-length hair with a gently tapered perimeter.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "mid-back-length hair with a gently tapered perimeter",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing mid-back-length hair with a gently tapered perimeter",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with mid-back-length hair with a gently tapered perimeter",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-length-base-mid-back-length",
+      "tags": [
+        "base",
+        "hair",
+        "hair-length",
+        "hair-long",
+        "rarity-common"
+      ],
+      "facets": {
+        "length": "mid-back-length",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "mid-back-length",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-length-base-mid-back-length-evenly-proportioned",
+      "semantic_key": "hair-length-base-mid-back-length-evenly-proportioned",
+      "text": "mid-back-length hair with a evenly proportioned perimeter",
+      "sentence": "Mid-back-length hair with a evenly proportioned perimeter.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "mid-back-length hair with a evenly proportioned perimeter",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing mid-back-length hair with a evenly proportioned perimeter",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with mid-back-length hair with a evenly proportioned perimeter",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-length-base-mid-back-length",
+      "tags": [
+        "base",
+        "hair",
+        "hair-length",
+        "hair-long",
+        "rarity-common"
+      ],
+      "facets": {
+        "length": "mid-back-length",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "mid-back-length",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-length-base-mid-back-length-subtly-angular",
+      "semantic_key": "hair-length-base-mid-back-length-subtly-angular",
+      "text": "mid-back-length hair with a subtly angular perimeter",
+      "sentence": "Mid-back-length hair with a subtly angular perimeter.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "mid-back-length hair with a subtly angular perimeter",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing mid-back-length hair with a subtly angular perimeter",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with mid-back-length hair with a subtly angular perimeter",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-length-base-mid-back-length",
+      "tags": [
+        "base",
+        "hair",
+        "hair-length",
+        "hair-long",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "length": "mid-back-length",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "mid-back-length",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-length-base-mid-back-length-smoothly-contoured",
+      "semantic_key": "hair-length-base-mid-back-length-smoothly-contoured",
+      "text": "mid-back-length hair with a smoothly contoured perimeter",
+      "sentence": "Mid-back-length hair with a smoothly contoured perimeter.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "mid-back-length hair with a smoothly contoured perimeter",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing mid-back-length hair with a smoothly contoured perimeter",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with mid-back-length hair with a smoothly contoured perimeter",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-length-base-mid-back-length",
+      "tags": [
+        "base",
+        "hair",
+        "hair-length",
+        "hair-long",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "length": "mid-back-length",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "mid-back-length",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-length-base-mid-back-length-distinctly-structured",
+      "semantic_key": "hair-length-base-mid-back-length-distinctly-structured",
+      "text": "mid-back-length hair with a distinctly structured perimeter",
+      "sentence": "Mid-back-length hair with a distinctly structured perimeter.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "mid-back-length hair with a distinctly structured perimeter",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing mid-back-length hair with a distinctly structured perimeter",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with mid-back-length hair with a distinctly structured perimeter",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-length-base-mid-back-length",
+      "tags": [
+        "base",
+        "hair",
+        "hair-length",
+        "hair-long",
+        "rarity-rare"
+      ],
+      "facets": {
+        "length": "mid-back-length",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "mid-back-length",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-length-base-mid-back-length-naturally-asymmetric",
+      "semantic_key": "hair-length-base-mid-back-length-naturally-asymmetric",
+      "text": "mid-back-length hair with a naturally asymmetric perimeter",
+      "sentence": "Mid-back-length hair with a naturally asymmetric perimeter.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "mid-back-length hair with a naturally asymmetric perimeter",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing mid-back-length hair with a naturally asymmetric perimeter",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with mid-back-length hair with a naturally asymmetric perimeter",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-length-base-mid-back-length",
+      "tags": [
+        "base",
+        "hair",
+        "hair-length",
+        "hair-long",
+        "rarity-rare"
+      ],
+      "facets": {
+        "length": "mid-back-length",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "mid-back-length",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-length-base-waist-length-softly-defined",
+      "semantic_key": "hair-length-base-waist-length-softly-defined",
+      "text": "waist-length hair with a softly defined perimeter",
+      "sentence": "Waist-length hair with a softly defined perimeter.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "waist-length hair with a softly defined perimeter",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing waist-length hair with a softly defined perimeter",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with waist-length hair with a softly defined perimeter",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-length-base-waist-length",
+      "tags": [
+        "base",
+        "hair",
+        "hair-length",
+        "hair-long",
+        "rarity-common"
+      ],
+      "facets": {
+        "length": "waist-length",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "waist-length",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-length-base-waist-length-cleanly-outlined",
+      "semantic_key": "hair-length-base-waist-length-cleanly-outlined",
+      "text": "waist-length hair with a cleanly outlined perimeter",
+      "sentence": "Waist-length hair with a cleanly outlined perimeter.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "waist-length hair with a cleanly outlined perimeter",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing waist-length hair with a cleanly outlined perimeter",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with waist-length hair with a cleanly outlined perimeter",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-length-base-waist-length",
+      "tags": [
+        "base",
+        "hair",
+        "hair-length",
+        "hair-long",
+        "rarity-common"
+      ],
+      "facets": {
+        "length": "waist-length",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "waist-length",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-length-base-waist-length-gently-tapered",
+      "semantic_key": "hair-length-base-waist-length-gently-tapered",
+      "text": "waist-length hair with a gently tapered perimeter",
+      "sentence": "Waist-length hair with a gently tapered perimeter.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "waist-length hair with a gently tapered perimeter",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing waist-length hair with a gently tapered perimeter",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with waist-length hair with a gently tapered perimeter",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-length-base-waist-length",
+      "tags": [
+        "base",
+        "hair",
+        "hair-length",
+        "hair-long",
+        "rarity-common"
+      ],
+      "facets": {
+        "length": "waist-length",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "waist-length",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-length-base-waist-length-evenly-proportioned",
+      "semantic_key": "hair-length-base-waist-length-evenly-proportioned",
+      "text": "waist-length hair with a evenly proportioned perimeter",
+      "sentence": "Waist-length hair with a evenly proportioned perimeter.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "waist-length hair with a evenly proportioned perimeter",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing waist-length hair with a evenly proportioned perimeter",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with waist-length hair with a evenly proportioned perimeter",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-length-base-waist-length",
+      "tags": [
+        "base",
+        "hair",
+        "hair-length",
+        "hair-long",
+        "rarity-common"
+      ],
+      "facets": {
+        "length": "waist-length",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "waist-length",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-length-base-waist-length-subtly-angular",
+      "semantic_key": "hair-length-base-waist-length-subtly-angular",
+      "text": "waist-length hair with a subtly angular perimeter",
+      "sentence": "Waist-length hair with a subtly angular perimeter.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "waist-length hair with a subtly angular perimeter",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing waist-length hair with a subtly angular perimeter",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with waist-length hair with a subtly angular perimeter",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-length-base-waist-length",
+      "tags": [
+        "base",
+        "hair",
+        "hair-length",
+        "hair-long",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "length": "waist-length",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "waist-length",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-length-base-waist-length-smoothly-contoured",
+      "semantic_key": "hair-length-base-waist-length-smoothly-contoured",
+      "text": "waist-length hair with a smoothly contoured perimeter",
+      "sentence": "Waist-length hair with a smoothly contoured perimeter.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "waist-length hair with a smoothly contoured perimeter",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing waist-length hair with a smoothly contoured perimeter",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with waist-length hair with a smoothly contoured perimeter",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-length-base-waist-length",
+      "tags": [
+        "base",
+        "hair",
+        "hair-length",
+        "hair-long",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "length": "waist-length",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "waist-length",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-length-base-waist-length-distinctly-structured",
+      "semantic_key": "hair-length-base-waist-length-distinctly-structured",
+      "text": "waist-length hair with a distinctly structured perimeter",
+      "sentence": "Waist-length hair with a distinctly structured perimeter.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "waist-length hair with a distinctly structured perimeter",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing waist-length hair with a distinctly structured perimeter",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with waist-length hair with a distinctly structured perimeter",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-length-base-waist-length",
+      "tags": [
+        "base",
+        "hair",
+        "hair-length",
+        "hair-long",
+        "rarity-rare"
+      ],
+      "facets": {
+        "length": "waist-length",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "waist-length",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-length-base-waist-length-naturally-asymmetric",
+      "semantic_key": "hair-length-base-waist-length-naturally-asymmetric",
+      "text": "waist-length hair with a naturally asymmetric perimeter",
+      "sentence": "Waist-length hair with a naturally asymmetric perimeter.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "waist-length hair with a naturally asymmetric perimeter",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing waist-length hair with a naturally asymmetric perimeter",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with waist-length hair with a naturally asymmetric perimeter",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-length-base-waist-length",
+      "tags": [
+        "base",
+        "hair",
+        "hair-length",
+        "hair-long",
+        "rarity-rare"
+      ],
+      "facets": {
+        "length": "waist-length",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "waist-length",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-length-base-mixed-length-layered-softly-defined",
+      "semantic_key": "hair-length-base-mixed-length-layered-softly-defined",
+      "text": "mixed-length layered hair with a softly defined perimeter",
+      "sentence": "Mixed-length layered hair with a softly defined perimeter.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "mixed-length layered hair with a softly defined perimeter",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing mixed-length layered hair with a softly defined perimeter",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with mixed-length layered hair with a softly defined perimeter",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-length-base-mixed-length-layered",
+      "tags": [
+        "base",
+        "hair",
+        "hair-length",
+        "hair-long",
+        "rarity-common"
+      ],
+      "facets": {
+        "length": "mixed-length-layered",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "mixed-length-layered",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-length-base-mixed-length-layered-cleanly-outlined",
+      "semantic_key": "hair-length-base-mixed-length-layered-cleanly-outlined",
+      "text": "mixed-length layered hair with a cleanly outlined perimeter",
+      "sentence": "Mixed-length layered hair with a cleanly outlined perimeter.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "mixed-length layered hair with a cleanly outlined perimeter",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing mixed-length layered hair with a cleanly outlined perimeter",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with mixed-length layered hair with a cleanly outlined perimeter",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-length-base-mixed-length-layered",
+      "tags": [
+        "base",
+        "hair",
+        "hair-length",
+        "hair-long",
+        "rarity-common"
+      ],
+      "facets": {
+        "length": "mixed-length-layered",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "mixed-length-layered",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-length-base-mixed-length-layered-gently-tapered",
+      "semantic_key": "hair-length-base-mixed-length-layered-gently-tapered",
+      "text": "mixed-length layered hair with a gently tapered perimeter",
+      "sentence": "Mixed-length layered hair with a gently tapered perimeter.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "mixed-length layered hair with a gently tapered perimeter",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing mixed-length layered hair with a gently tapered perimeter",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with mixed-length layered hair with a gently tapered perimeter",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-length-base-mixed-length-layered",
+      "tags": [
+        "base",
+        "hair",
+        "hair-length",
+        "hair-long",
+        "rarity-common"
+      ],
+      "facets": {
+        "length": "mixed-length-layered",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "mixed-length-layered",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-length-base-mixed-length-layered-evenly-proportioned",
+      "semantic_key": "hair-length-base-mixed-length-layered-evenly-proportioned",
+      "text": "mixed-length layered hair with a evenly proportioned perimeter",
+      "sentence": "Mixed-length layered hair with a evenly proportioned perimeter.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "mixed-length layered hair with a evenly proportioned perimeter",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing mixed-length layered hair with a evenly proportioned perimeter",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with mixed-length layered hair with a evenly proportioned perimeter",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-length-base-mixed-length-layered",
+      "tags": [
+        "base",
+        "hair",
+        "hair-length",
+        "hair-long",
+        "rarity-common"
+      ],
+      "facets": {
+        "length": "mixed-length-layered",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "mixed-length-layered",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-length-base-mixed-length-layered-subtly-angular",
+      "semantic_key": "hair-length-base-mixed-length-layered-subtly-angular",
+      "text": "mixed-length layered hair with a subtly angular perimeter",
+      "sentence": "Mixed-length layered hair with a subtly angular perimeter.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "mixed-length layered hair with a subtly angular perimeter",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing mixed-length layered hair with a subtly angular perimeter",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with mixed-length layered hair with a subtly angular perimeter",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-length-base-mixed-length-layered",
+      "tags": [
+        "base",
+        "hair",
+        "hair-length",
+        "hair-long",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "length": "mixed-length-layered",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "mixed-length-layered",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-length-base-mixed-length-layered-smoothly-contoured",
+      "semantic_key": "hair-length-base-mixed-length-layered-smoothly-contoured",
+      "text": "mixed-length layered hair with a smoothly contoured perimeter",
+      "sentence": "Mixed-length layered hair with a smoothly contoured perimeter.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "mixed-length layered hair with a smoothly contoured perimeter",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing mixed-length layered hair with a smoothly contoured perimeter",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with mixed-length layered hair with a smoothly contoured perimeter",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-length-base-mixed-length-layered",
+      "tags": [
+        "base",
+        "hair",
+        "hair-length",
+        "hair-long",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "length": "mixed-length-layered",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "mixed-length-layered",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-length-base-mixed-length-layered-distinctly-structured",
+      "semantic_key": "hair-length-base-mixed-length-layered-distinctly-structured",
+      "text": "mixed-length layered hair with a distinctly structured perimeter",
+      "sentence": "Mixed-length layered hair with a distinctly structured perimeter.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "mixed-length layered hair with a distinctly structured perimeter",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing mixed-length layered hair with a distinctly structured perimeter",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with mixed-length layered hair with a distinctly structured perimeter",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-length-base-mixed-length-layered",
+      "tags": [
+        "base",
+        "hair",
+        "hair-length",
+        "hair-long",
+        "rarity-rare"
+      ],
+      "facets": {
+        "length": "mixed-length-layered",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "mixed-length-layered",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-length-base-mixed-length-layered-naturally-asymmetric",
+      "semantic_key": "hair-length-base-mixed-length-layered-naturally-asymmetric",
+      "text": "mixed-length layered hair with a naturally asymmetric perimeter",
+      "sentence": "Mixed-length layered hair with a naturally asymmetric perimeter.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "mixed-length layered hair with a naturally asymmetric perimeter",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing mixed-length layered hair with a naturally asymmetric perimeter",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with mixed-length layered hair with a naturally asymmetric perimeter",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-length-base-mixed-length-layered",
+      "tags": [
+        "base",
+        "hair",
+        "hair-length",
+        "hair-long",
+        "rarity-rare"
+      ],
+      "facets": {
+        "length": "mixed-length-layered",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "mixed-length-layered",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    }
+  ]
+}

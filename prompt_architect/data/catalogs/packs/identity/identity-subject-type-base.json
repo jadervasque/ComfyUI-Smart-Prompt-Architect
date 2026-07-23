@@ -1,0 +1,2642 @@
+{
+  "schema_version": "2.0",
+  "id": "identity-subject-type-base",
+  "version": "2.0.0",
+  "library": "subject-type",
+  "domain": "identity",
+  "category": "subject-type",
+  "language": "en",
+  "status": "active",
+  "safety": "general",
+  "tags": [
+    "adults-only",
+    "base"
+  ],
+  "fallback_option_id": "identity-subject-type-base-adult-person-subtle-intensity",
+  "options": [
+    {
+      "id": "identity-subject-type-base-adult-person-subtle-intensity",
+      "semantic_key": "identity-subject-type-base-adult-person-subtle-intensity",
+      "text": "adult person presented with subtle intensity",
+      "sentence": "Adult person presented with subtle intensity.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult person presented with subtle intensity",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult person presented with subtle intensity",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult person presented with subtle intensity",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-subject-type-base-adult-person",
+      "tags": [
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-common",
+        "subject-type"
+      ],
+      "facets": {
+        "adult-subject": "adult-person",
+        "treatment": "subtle-intensity"
+      },
+      "subcategory": "adult-person",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-subject-type-base-adult-person-open-warmth",
+      "semantic_key": "identity-subject-type-base-adult-person-open-warmth",
+      "text": "adult person presented with open warmth",
+      "sentence": "Adult person presented with open warmth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult person presented with open warmth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult person presented with open warmth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult person presented with open warmth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-subject-type-base-adult-person",
+      "tags": [
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-common",
+        "subject-type"
+      ],
+      "facets": {
+        "adult-subject": "adult-person",
+        "treatment": "open-warmth"
+      },
+      "subcategory": "adult-person",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-subject-type-base-adult-person-quiet-restraint",
+      "semantic_key": "identity-subject-type-base-adult-person-quiet-restraint",
+      "text": "adult person presented with quiet restraint",
+      "sentence": "Adult person presented with quiet restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult person presented with quiet restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult person presented with quiet restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult person presented with quiet restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-subject-type-base-adult-person",
+      "tags": [
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-common",
+        "subject-type"
+      ],
+      "facets": {
+        "adult-subject": "adult-person",
+        "treatment": "quiet-restraint"
+      },
+      "subcategory": "adult-person",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-subject-type-base-adult-person-focused-attention",
+      "semantic_key": "identity-subject-type-base-adult-person-focused-attention",
+      "text": "adult person presented with focused attention",
+      "sentence": "Adult person presented with focused attention.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult person presented with focused attention",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult person presented with focused attention",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult person presented with focused attention",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-subject-type-base-adult-person",
+      "tags": [
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-common",
+        "subject-type"
+      ],
+      "facets": {
+        "adult-subject": "adult-person",
+        "treatment": "focused-attention"
+      },
+      "subcategory": "adult-person",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-subject-type-base-adult-person-gentle-tension",
+      "semantic_key": "identity-subject-type-base-adult-person-gentle-tension",
+      "text": "adult person presented with gentle tension",
+      "sentence": "Adult person presented with gentle tension.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult person presented with gentle tension",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult person presented with gentle tension",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult person presented with gentle tension",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-subject-type-base-adult-person",
+      "tags": [
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-uncommon",
+        "subject-type"
+      ],
+      "facets": {
+        "adult-subject": "adult-person",
+        "treatment": "gentle-tension"
+      },
+      "subcategory": "adult-person",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-subject-type-base-adult-person-confident-ease",
+      "semantic_key": "identity-subject-type-base-adult-person-confident-ease",
+      "text": "adult person presented with confident ease",
+      "sentence": "Adult person presented with confident ease.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult person presented with confident ease",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult person presented with confident ease",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult person presented with confident ease",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-subject-type-base-adult-person",
+      "tags": [
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-uncommon",
+        "subject-type"
+      ],
+      "facets": {
+        "adult-subject": "adult-person",
+        "treatment": "confident-ease"
+      },
+      "subcategory": "adult-person",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-subject-type-base-adult-person-reflective-distance",
+      "semantic_key": "identity-subject-type-base-adult-person-reflective-distance",
+      "text": "adult person presented with reflective distance",
+      "sentence": "Adult person presented with reflective distance.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult person presented with reflective distance",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult person presented with reflective distance",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult person presented with reflective distance",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-subject-type-base-adult-person",
+      "tags": [
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-rare",
+        "subject-type"
+      ],
+      "facets": {
+        "adult-subject": "adult-person",
+        "treatment": "reflective-distance"
+      },
+      "subcategory": "adult-person",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-subject-type-base-adult-person-animated-energy",
+      "semantic_key": "identity-subject-type-base-adult-person-animated-energy",
+      "text": "adult person presented with animated energy",
+      "sentence": "Adult person presented with animated energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult person presented with animated energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult person presented with animated energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult person presented with animated energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-subject-type-base-adult-person",
+      "tags": [
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-rare",
+        "subject-type"
+      ],
+      "facets": {
+        "adult-subject": "adult-person",
+        "treatment": "animated-energy"
+      },
+      "subcategory": "adult-person",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-subject-type-base-adult-woman-subtle-intensity",
+      "semantic_key": "identity-subject-type-base-adult-woman-subtle-intensity",
+      "text": "adult woman presented with subtle intensity",
+      "sentence": "Adult woman presented with subtle intensity.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult woman presented with subtle intensity",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult woman presented with subtle intensity",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult woman presented with subtle intensity",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-subject-type-base-adult-woman",
+      "tags": [
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-common",
+        "subject-type"
+      ],
+      "facets": {
+        "adult-subject": "adult-woman",
+        "treatment": "subtle-intensity"
+      },
+      "subcategory": "adult-woman",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-subject-type-base-adult-woman-open-warmth",
+      "semantic_key": "identity-subject-type-base-adult-woman-open-warmth",
+      "text": "adult woman presented with open warmth",
+      "sentence": "Adult woman presented with open warmth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult woman presented with open warmth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult woman presented with open warmth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult woman presented with open warmth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-subject-type-base-adult-woman",
+      "tags": [
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-common",
+        "subject-type"
+      ],
+      "facets": {
+        "adult-subject": "adult-woman",
+        "treatment": "open-warmth"
+      },
+      "subcategory": "adult-woman",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-subject-type-base-adult-woman-quiet-restraint",
+      "semantic_key": "identity-subject-type-base-adult-woman-quiet-restraint",
+      "text": "adult woman presented with quiet restraint",
+      "sentence": "Adult woman presented with quiet restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult woman presented with quiet restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult woman presented with quiet restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult woman presented with quiet restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-subject-type-base-adult-woman",
+      "tags": [
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-common",
+        "subject-type"
+      ],
+      "facets": {
+        "adult-subject": "adult-woman",
+        "treatment": "quiet-restraint"
+      },
+      "subcategory": "adult-woman",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-subject-type-base-adult-woman-focused-attention",
+      "semantic_key": "identity-subject-type-base-adult-woman-focused-attention",
+      "text": "adult woman presented with focused attention",
+      "sentence": "Adult woman presented with focused attention.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult woman presented with focused attention",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult woman presented with focused attention",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult woman presented with focused attention",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-subject-type-base-adult-woman",
+      "tags": [
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-common",
+        "subject-type"
+      ],
+      "facets": {
+        "adult-subject": "adult-woman",
+        "treatment": "focused-attention"
+      },
+      "subcategory": "adult-woman",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-subject-type-base-adult-woman-gentle-tension",
+      "semantic_key": "identity-subject-type-base-adult-woman-gentle-tension",
+      "text": "adult woman presented with gentle tension",
+      "sentence": "Adult woman presented with gentle tension.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult woman presented with gentle tension",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult woman presented with gentle tension",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult woman presented with gentle tension",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-subject-type-base-adult-woman",
+      "tags": [
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-uncommon",
+        "subject-type"
+      ],
+      "facets": {
+        "adult-subject": "adult-woman",
+        "treatment": "gentle-tension"
+      },
+      "subcategory": "adult-woman",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-subject-type-base-adult-woman-confident-ease",
+      "semantic_key": "identity-subject-type-base-adult-woman-confident-ease",
+      "text": "adult woman presented with confident ease",
+      "sentence": "Adult woman presented with confident ease.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult woman presented with confident ease",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult woman presented with confident ease",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult woman presented with confident ease",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-subject-type-base-adult-woman",
+      "tags": [
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-uncommon",
+        "subject-type"
+      ],
+      "facets": {
+        "adult-subject": "adult-woman",
+        "treatment": "confident-ease"
+      },
+      "subcategory": "adult-woman",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-subject-type-base-adult-woman-reflective-distance",
+      "semantic_key": "identity-subject-type-base-adult-woman-reflective-distance",
+      "text": "adult woman presented with reflective distance",
+      "sentence": "Adult woman presented with reflective distance.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult woman presented with reflective distance",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult woman presented with reflective distance",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult woman presented with reflective distance",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-subject-type-base-adult-woman",
+      "tags": [
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-rare",
+        "subject-type"
+      ],
+      "facets": {
+        "adult-subject": "adult-woman",
+        "treatment": "reflective-distance"
+      },
+      "subcategory": "adult-woman",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-subject-type-base-adult-woman-animated-energy",
+      "semantic_key": "identity-subject-type-base-adult-woman-animated-energy",
+      "text": "adult woman presented with animated energy",
+      "sentence": "Adult woman presented with animated energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult woman presented with animated energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult woman presented with animated energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult woman presented with animated energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-subject-type-base-adult-woman",
+      "tags": [
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-rare",
+        "subject-type"
+      ],
+      "facets": {
+        "adult-subject": "adult-woman",
+        "treatment": "animated-energy"
+      },
+      "subcategory": "adult-woman",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-subject-type-base-adult-man-subtle-intensity",
+      "semantic_key": "identity-subject-type-base-adult-man-subtle-intensity",
+      "text": "adult man presented with subtle intensity",
+      "sentence": "Adult man presented with subtle intensity.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult man presented with subtle intensity",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult man presented with subtle intensity",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult man presented with subtle intensity",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-subject-type-base-adult-man",
+      "tags": [
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-common",
+        "subject-type"
+      ],
+      "facets": {
+        "adult-subject": "adult-man",
+        "treatment": "subtle-intensity"
+      },
+      "subcategory": "adult-man",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-subject-type-base-adult-man-open-warmth",
+      "semantic_key": "identity-subject-type-base-adult-man-open-warmth",
+      "text": "adult man presented with open warmth",
+      "sentence": "Adult man presented with open warmth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult man presented with open warmth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult man presented with open warmth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult man presented with open warmth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-subject-type-base-adult-man",
+      "tags": [
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-common",
+        "subject-type"
+      ],
+      "facets": {
+        "adult-subject": "adult-man",
+        "treatment": "open-warmth"
+      },
+      "subcategory": "adult-man",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-subject-type-base-adult-man-quiet-restraint",
+      "semantic_key": "identity-subject-type-base-adult-man-quiet-restraint",
+      "text": "adult man presented with quiet restraint",
+      "sentence": "Adult man presented with quiet restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult man presented with quiet restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult man presented with quiet restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult man presented with quiet restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-subject-type-base-adult-man",
+      "tags": [
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-common",
+        "subject-type"
+      ],
+      "facets": {
+        "adult-subject": "adult-man",
+        "treatment": "quiet-restraint"
+      },
+      "subcategory": "adult-man",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-subject-type-base-adult-man-focused-attention",
+      "semantic_key": "identity-subject-type-base-adult-man-focused-attention",
+      "text": "adult man presented with focused attention",
+      "sentence": "Adult man presented with focused attention.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult man presented with focused attention",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult man presented with focused attention",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult man presented with focused attention",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-subject-type-base-adult-man",
+      "tags": [
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-common",
+        "subject-type"
+      ],
+      "facets": {
+        "adult-subject": "adult-man",
+        "treatment": "focused-attention"
+      },
+      "subcategory": "adult-man",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-subject-type-base-adult-man-gentle-tension",
+      "semantic_key": "identity-subject-type-base-adult-man-gentle-tension",
+      "text": "adult man presented with gentle tension",
+      "sentence": "Adult man presented with gentle tension.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult man presented with gentle tension",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult man presented with gentle tension",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult man presented with gentle tension",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-subject-type-base-adult-man",
+      "tags": [
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-uncommon",
+        "subject-type"
+      ],
+      "facets": {
+        "adult-subject": "adult-man",
+        "treatment": "gentle-tension"
+      },
+      "subcategory": "adult-man",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-subject-type-base-adult-man-confident-ease",
+      "semantic_key": "identity-subject-type-base-adult-man-confident-ease",
+      "text": "adult man presented with confident ease",
+      "sentence": "Adult man presented with confident ease.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult man presented with confident ease",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult man presented with confident ease",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult man presented with confident ease",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-subject-type-base-adult-man",
+      "tags": [
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-uncommon",
+        "subject-type"
+      ],
+      "facets": {
+        "adult-subject": "adult-man",
+        "treatment": "confident-ease"
+      },
+      "subcategory": "adult-man",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-subject-type-base-adult-man-reflective-distance",
+      "semantic_key": "identity-subject-type-base-adult-man-reflective-distance",
+      "text": "adult man presented with reflective distance",
+      "sentence": "Adult man presented with reflective distance.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult man presented with reflective distance",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult man presented with reflective distance",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult man presented with reflective distance",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-subject-type-base-adult-man",
+      "tags": [
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-rare",
+        "subject-type"
+      ],
+      "facets": {
+        "adult-subject": "adult-man",
+        "treatment": "reflective-distance"
+      },
+      "subcategory": "adult-man",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-subject-type-base-adult-man-animated-energy",
+      "semantic_key": "identity-subject-type-base-adult-man-animated-energy",
+      "text": "adult man presented with animated energy",
+      "sentence": "Adult man presented with animated energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult man presented with animated energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult man presented with animated energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult man presented with animated energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-subject-type-base-adult-man",
+      "tags": [
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-rare",
+        "subject-type"
+      ],
+      "facets": {
+        "adult-subject": "adult-man",
+        "treatment": "animated-energy"
+      },
+      "subcategory": "adult-man",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-subject-type-base-nonbinary-adult-subtle-intensity",
+      "semantic_key": "identity-subject-type-base-nonbinary-adult-subtle-intensity",
+      "text": "nonbinary adult presented with subtle intensity",
+      "sentence": "Nonbinary adult presented with subtle intensity.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "nonbinary adult presented with subtle intensity",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing nonbinary adult presented with subtle intensity",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with nonbinary adult presented with subtle intensity",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-subject-type-base-nonbinary-adult",
+      "tags": [
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-common",
+        "subject-type"
+      ],
+      "facets": {
+        "adult-subject": "nonbinary-adult",
+        "treatment": "subtle-intensity"
+      },
+      "subcategory": "nonbinary-adult",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-subject-type-base-nonbinary-adult-open-warmth",
+      "semantic_key": "identity-subject-type-base-nonbinary-adult-open-warmth",
+      "text": "nonbinary adult presented with open warmth",
+      "sentence": "Nonbinary adult presented with open warmth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "nonbinary adult presented with open warmth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing nonbinary adult presented with open warmth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with nonbinary adult presented with open warmth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-subject-type-base-nonbinary-adult",
+      "tags": [
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-common",
+        "subject-type"
+      ],
+      "facets": {
+        "adult-subject": "nonbinary-adult",
+        "treatment": "open-warmth"
+      },
+      "subcategory": "nonbinary-adult",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-subject-type-base-nonbinary-adult-quiet-restraint",
+      "semantic_key": "identity-subject-type-base-nonbinary-adult-quiet-restraint",
+      "text": "nonbinary adult presented with quiet restraint",
+      "sentence": "Nonbinary adult presented with quiet restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "nonbinary adult presented with quiet restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing nonbinary adult presented with quiet restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with nonbinary adult presented with quiet restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-subject-type-base-nonbinary-adult",
+      "tags": [
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-common",
+        "subject-type"
+      ],
+      "facets": {
+        "adult-subject": "nonbinary-adult",
+        "treatment": "quiet-restraint"
+      },
+      "subcategory": "nonbinary-adult",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-subject-type-base-nonbinary-adult-focused-attention",
+      "semantic_key": "identity-subject-type-base-nonbinary-adult-focused-attention",
+      "text": "nonbinary adult presented with focused attention",
+      "sentence": "Nonbinary adult presented with focused attention.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "nonbinary adult presented with focused attention",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing nonbinary adult presented with focused attention",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with nonbinary adult presented with focused attention",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-subject-type-base-nonbinary-adult",
+      "tags": [
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-common",
+        "subject-type"
+      ],
+      "facets": {
+        "adult-subject": "nonbinary-adult",
+        "treatment": "focused-attention"
+      },
+      "subcategory": "nonbinary-adult",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-subject-type-base-nonbinary-adult-gentle-tension",
+      "semantic_key": "identity-subject-type-base-nonbinary-adult-gentle-tension",
+      "text": "nonbinary adult presented with gentle tension",
+      "sentence": "Nonbinary adult presented with gentle tension.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "nonbinary adult presented with gentle tension",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing nonbinary adult presented with gentle tension",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with nonbinary adult presented with gentle tension",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-subject-type-base-nonbinary-adult",
+      "tags": [
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-uncommon",
+        "subject-type"
+      ],
+      "facets": {
+        "adult-subject": "nonbinary-adult",
+        "treatment": "gentle-tension"
+      },
+      "subcategory": "nonbinary-adult",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-subject-type-base-nonbinary-adult-confident-ease",
+      "semantic_key": "identity-subject-type-base-nonbinary-adult-confident-ease",
+      "text": "nonbinary adult presented with confident ease",
+      "sentence": "Nonbinary adult presented with confident ease.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "nonbinary adult presented with confident ease",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing nonbinary adult presented with confident ease",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with nonbinary adult presented with confident ease",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-subject-type-base-nonbinary-adult",
+      "tags": [
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-uncommon",
+        "subject-type"
+      ],
+      "facets": {
+        "adult-subject": "nonbinary-adult",
+        "treatment": "confident-ease"
+      },
+      "subcategory": "nonbinary-adult",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-subject-type-base-nonbinary-adult-reflective-distance",
+      "semantic_key": "identity-subject-type-base-nonbinary-adult-reflective-distance",
+      "text": "nonbinary adult presented with reflective distance",
+      "sentence": "Nonbinary adult presented with reflective distance.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "nonbinary adult presented with reflective distance",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing nonbinary adult presented with reflective distance",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with nonbinary adult presented with reflective distance",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-subject-type-base-nonbinary-adult",
+      "tags": [
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-rare",
+        "subject-type"
+      ],
+      "facets": {
+        "adult-subject": "nonbinary-adult",
+        "treatment": "reflective-distance"
+      },
+      "subcategory": "nonbinary-adult",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-subject-type-base-nonbinary-adult-animated-energy",
+      "semantic_key": "identity-subject-type-base-nonbinary-adult-animated-energy",
+      "text": "nonbinary adult presented with animated energy",
+      "sentence": "Nonbinary adult presented with animated energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "nonbinary adult presented with animated energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing nonbinary adult presented with animated energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with nonbinary adult presented with animated energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-subject-type-base-nonbinary-adult",
+      "tags": [
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-rare",
+        "subject-type"
+      ],
+      "facets": {
+        "adult-subject": "nonbinary-adult",
+        "treatment": "animated-energy"
+      },
+      "subcategory": "nonbinary-adult",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-subject-type-base-adult-fashion-model-subtle-intensity",
+      "semantic_key": "identity-subject-type-base-adult-fashion-model-subtle-intensity",
+      "text": "adult fashion model presented with subtle intensity",
+      "sentence": "Adult fashion model presented with subtle intensity.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult fashion model presented with subtle intensity",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult fashion model presented with subtle intensity",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult fashion model presented with subtle intensity",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-subject-type-base-adult-fashion-model",
+      "tags": [
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-common",
+        "subject-type"
+      ],
+      "facets": {
+        "adult-subject": "adult-fashion-model",
+        "treatment": "subtle-intensity"
+      },
+      "subcategory": "adult-fashion-model",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-subject-type-base-adult-fashion-model-open-warmth",
+      "semantic_key": "identity-subject-type-base-adult-fashion-model-open-warmth",
+      "text": "adult fashion model presented with open warmth",
+      "sentence": "Adult fashion model presented with open warmth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult fashion model presented with open warmth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult fashion model presented with open warmth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult fashion model presented with open warmth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-subject-type-base-adult-fashion-model",
+      "tags": [
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-common",
+        "subject-type"
+      ],
+      "facets": {
+        "adult-subject": "adult-fashion-model",
+        "treatment": "open-warmth"
+      },
+      "subcategory": "adult-fashion-model",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-subject-type-base-adult-fashion-model-quiet-restraint",
+      "semantic_key": "identity-subject-type-base-adult-fashion-model-quiet-restraint",
+      "text": "adult fashion model presented with quiet restraint",
+      "sentence": "Adult fashion model presented with quiet restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult fashion model presented with quiet restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult fashion model presented with quiet restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult fashion model presented with quiet restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-subject-type-base-adult-fashion-model",
+      "tags": [
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-common",
+        "subject-type"
+      ],
+      "facets": {
+        "adult-subject": "adult-fashion-model",
+        "treatment": "quiet-restraint"
+      },
+      "subcategory": "adult-fashion-model",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-subject-type-base-adult-fashion-model-focused-attention",
+      "semantic_key": "identity-subject-type-base-adult-fashion-model-focused-attention",
+      "text": "adult fashion model presented with focused attention",
+      "sentence": "Adult fashion model presented with focused attention.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult fashion model presented with focused attention",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult fashion model presented with focused attention",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult fashion model presented with focused attention",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-subject-type-base-adult-fashion-model",
+      "tags": [
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-common",
+        "subject-type"
+      ],
+      "facets": {
+        "adult-subject": "adult-fashion-model",
+        "treatment": "focused-attention"
+      },
+      "subcategory": "adult-fashion-model",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-subject-type-base-adult-fashion-model-gentle-tension",
+      "semantic_key": "identity-subject-type-base-adult-fashion-model-gentle-tension",
+      "text": "adult fashion model presented with gentle tension",
+      "sentence": "Adult fashion model presented with gentle tension.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult fashion model presented with gentle tension",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult fashion model presented with gentle tension",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult fashion model presented with gentle tension",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-subject-type-base-adult-fashion-model",
+      "tags": [
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-uncommon",
+        "subject-type"
+      ],
+      "facets": {
+        "adult-subject": "adult-fashion-model",
+        "treatment": "gentle-tension"
+      },
+      "subcategory": "adult-fashion-model",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-subject-type-base-adult-fashion-model-confident-ease",
+      "semantic_key": "identity-subject-type-base-adult-fashion-model-confident-ease",
+      "text": "adult fashion model presented with confident ease",
+      "sentence": "Adult fashion model presented with confident ease.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult fashion model presented with confident ease",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult fashion model presented with confident ease",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult fashion model presented with confident ease",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-subject-type-base-adult-fashion-model",
+      "tags": [
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-uncommon",
+        "subject-type"
+      ],
+      "facets": {
+        "adult-subject": "adult-fashion-model",
+        "treatment": "confident-ease"
+      },
+      "subcategory": "adult-fashion-model",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-subject-type-base-adult-fashion-model-reflective-distance",
+      "semantic_key": "identity-subject-type-base-adult-fashion-model-reflective-distance",
+      "text": "adult fashion model presented with reflective distance",
+      "sentence": "Adult fashion model presented with reflective distance.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult fashion model presented with reflective distance",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult fashion model presented with reflective distance",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult fashion model presented with reflective distance",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-subject-type-base-adult-fashion-model",
+      "tags": [
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-rare",
+        "subject-type"
+      ],
+      "facets": {
+        "adult-subject": "adult-fashion-model",
+        "treatment": "reflective-distance"
+      },
+      "subcategory": "adult-fashion-model",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-subject-type-base-adult-fashion-model-animated-energy",
+      "semantic_key": "identity-subject-type-base-adult-fashion-model-animated-energy",
+      "text": "adult fashion model presented with animated energy",
+      "sentence": "Adult fashion model presented with animated energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult fashion model presented with animated energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult fashion model presented with animated energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult fashion model presented with animated energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-subject-type-base-adult-fashion-model",
+      "tags": [
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-rare",
+        "subject-type"
+      ],
+      "facets": {
+        "adult-subject": "adult-fashion-model",
+        "treatment": "animated-energy"
+      },
+      "subcategory": "adult-fashion-model",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-subject-type-base-adult-creative-professional-subtle-intensity",
+      "semantic_key": "identity-subject-type-base-adult-creative-professional-subtle-intensity",
+      "text": "adult creative professional presented with subtle intensity",
+      "sentence": "Adult creative professional presented with subtle intensity.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult creative professional presented with subtle intensity",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult creative professional presented with subtle intensity",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult creative professional presented with subtle intensity",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-subject-type-base-adult-creative-professional",
+      "tags": [
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-common",
+        "subject-type"
+      ],
+      "facets": {
+        "adult-subject": "adult-creative-professional",
+        "treatment": "subtle-intensity"
+      },
+      "subcategory": "adult-creative-professional",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-subject-type-base-adult-creative-professional-open-warmth",
+      "semantic_key": "identity-subject-type-base-adult-creative-professional-open-warmth",
+      "text": "adult creative professional presented with open warmth",
+      "sentence": "Adult creative professional presented with open warmth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult creative professional presented with open warmth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult creative professional presented with open warmth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult creative professional presented with open warmth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-subject-type-base-adult-creative-professional",
+      "tags": [
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-common",
+        "subject-type"
+      ],
+      "facets": {
+        "adult-subject": "adult-creative-professional",
+        "treatment": "open-warmth"
+      },
+      "subcategory": "adult-creative-professional",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-subject-type-base-adult-creative-professional-quiet-restraint",
+      "semantic_key": "identity-subject-type-base-adult-creative-professional-quiet-restraint",
+      "text": "adult creative professional presented with quiet restraint",
+      "sentence": "Adult creative professional presented with quiet restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult creative professional presented with quiet restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult creative professional presented with quiet restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult creative professional presented with quiet restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-subject-type-base-adult-creative-professional",
+      "tags": [
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-common",
+        "subject-type"
+      ],
+      "facets": {
+        "adult-subject": "adult-creative-professional",
+        "treatment": "quiet-restraint"
+      },
+      "subcategory": "adult-creative-professional",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-subject-type-base-adult-creative-professional-focused-attention",
+      "semantic_key": "identity-subject-type-base-adult-creative-professional-focused-attention",
+      "text": "adult creative professional presented with focused attention",
+      "sentence": "Adult creative professional presented with focused attention.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult creative professional presented with focused attention",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult creative professional presented with focused attention",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult creative professional presented with focused attention",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-subject-type-base-adult-creative-professional",
+      "tags": [
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-common",
+        "subject-type"
+      ],
+      "facets": {
+        "adult-subject": "adult-creative-professional",
+        "treatment": "focused-attention"
+      },
+      "subcategory": "adult-creative-professional",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-subject-type-base-adult-creative-professional-gentle-tension",
+      "semantic_key": "identity-subject-type-base-adult-creative-professional-gentle-tension",
+      "text": "adult creative professional presented with gentle tension",
+      "sentence": "Adult creative professional presented with gentle tension.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult creative professional presented with gentle tension",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult creative professional presented with gentle tension",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult creative professional presented with gentle tension",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-subject-type-base-adult-creative-professional",
+      "tags": [
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-uncommon",
+        "subject-type"
+      ],
+      "facets": {
+        "adult-subject": "adult-creative-professional",
+        "treatment": "gentle-tension"
+      },
+      "subcategory": "adult-creative-professional",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-subject-type-base-adult-creative-professional-confident-ease",
+      "semantic_key": "identity-subject-type-base-adult-creative-professional-confident-ease",
+      "text": "adult creative professional presented with confident ease",
+      "sentence": "Adult creative professional presented with confident ease.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult creative professional presented with confident ease",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult creative professional presented with confident ease",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult creative professional presented with confident ease",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-subject-type-base-adult-creative-professional",
+      "tags": [
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-uncommon",
+        "subject-type"
+      ],
+      "facets": {
+        "adult-subject": "adult-creative-professional",
+        "treatment": "confident-ease"
+      },
+      "subcategory": "adult-creative-professional",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-subject-type-base-adult-creative-professional-reflective-distance",
+      "semantic_key": "identity-subject-type-base-adult-creative-professional-reflective-distance",
+      "text": "adult creative professional presented with reflective distance",
+      "sentence": "Adult creative professional presented with reflective distance.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult creative professional presented with reflective distance",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult creative professional presented with reflective distance",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult creative professional presented with reflective distance",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-subject-type-base-adult-creative-professional",
+      "tags": [
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-rare",
+        "subject-type"
+      ],
+      "facets": {
+        "adult-subject": "adult-creative-professional",
+        "treatment": "reflective-distance"
+      },
+      "subcategory": "adult-creative-professional",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-subject-type-base-adult-creative-professional-animated-energy",
+      "semantic_key": "identity-subject-type-base-adult-creative-professional-animated-energy",
+      "text": "adult creative professional presented with animated energy",
+      "sentence": "Adult creative professional presented with animated energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult creative professional presented with animated energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult creative professional presented with animated energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult creative professional presented with animated energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-subject-type-base-adult-creative-professional",
+      "tags": [
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-rare",
+        "subject-type"
+      ],
+      "facets": {
+        "adult-subject": "adult-creative-professional",
+        "treatment": "animated-energy"
+      },
+      "subcategory": "adult-creative-professional",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-subject-type-base-adult-athlete-subtle-intensity",
+      "semantic_key": "identity-subject-type-base-adult-athlete-subtle-intensity",
+      "text": "adult athlete presented with subtle intensity",
+      "sentence": "Adult athlete presented with subtle intensity.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult athlete presented with subtle intensity",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult athlete presented with subtle intensity",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult athlete presented with subtle intensity",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-subject-type-base-adult-athlete",
+      "tags": [
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-common",
+        "subject-type"
+      ],
+      "facets": {
+        "adult-subject": "adult-athlete",
+        "treatment": "subtle-intensity"
+      },
+      "subcategory": "adult-athlete",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-subject-type-base-adult-athlete-open-warmth",
+      "semantic_key": "identity-subject-type-base-adult-athlete-open-warmth",
+      "text": "adult athlete presented with open warmth",
+      "sentence": "Adult athlete presented with open warmth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult athlete presented with open warmth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult athlete presented with open warmth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult athlete presented with open warmth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-subject-type-base-adult-athlete",
+      "tags": [
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-common",
+        "subject-type"
+      ],
+      "facets": {
+        "adult-subject": "adult-athlete",
+        "treatment": "open-warmth"
+      },
+      "subcategory": "adult-athlete",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-subject-type-base-adult-athlete-quiet-restraint",
+      "semantic_key": "identity-subject-type-base-adult-athlete-quiet-restraint",
+      "text": "adult athlete presented with quiet restraint",
+      "sentence": "Adult athlete presented with quiet restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult athlete presented with quiet restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult athlete presented with quiet restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult athlete presented with quiet restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-subject-type-base-adult-athlete",
+      "tags": [
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-common",
+        "subject-type"
+      ],
+      "facets": {
+        "adult-subject": "adult-athlete",
+        "treatment": "quiet-restraint"
+      },
+      "subcategory": "adult-athlete",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-subject-type-base-adult-athlete-focused-attention",
+      "semantic_key": "identity-subject-type-base-adult-athlete-focused-attention",
+      "text": "adult athlete presented with focused attention",
+      "sentence": "Adult athlete presented with focused attention.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult athlete presented with focused attention",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult athlete presented with focused attention",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult athlete presented with focused attention",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-subject-type-base-adult-athlete",
+      "tags": [
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-common",
+        "subject-type"
+      ],
+      "facets": {
+        "adult-subject": "adult-athlete",
+        "treatment": "focused-attention"
+      },
+      "subcategory": "adult-athlete",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-subject-type-base-adult-athlete-gentle-tension",
+      "semantic_key": "identity-subject-type-base-adult-athlete-gentle-tension",
+      "text": "adult athlete presented with gentle tension",
+      "sentence": "Adult athlete presented with gentle tension.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult athlete presented with gentle tension",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult athlete presented with gentle tension",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult athlete presented with gentle tension",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-subject-type-base-adult-athlete",
+      "tags": [
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-uncommon",
+        "subject-type"
+      ],
+      "facets": {
+        "adult-subject": "adult-athlete",
+        "treatment": "gentle-tension"
+      },
+      "subcategory": "adult-athlete",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-subject-type-base-adult-athlete-confident-ease",
+      "semantic_key": "identity-subject-type-base-adult-athlete-confident-ease",
+      "text": "adult athlete presented with confident ease",
+      "sentence": "Adult athlete presented with confident ease.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult athlete presented with confident ease",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult athlete presented with confident ease",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult athlete presented with confident ease",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-subject-type-base-adult-athlete",
+      "tags": [
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-uncommon",
+        "subject-type"
+      ],
+      "facets": {
+        "adult-subject": "adult-athlete",
+        "treatment": "confident-ease"
+      },
+      "subcategory": "adult-athlete",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-subject-type-base-adult-athlete-reflective-distance",
+      "semantic_key": "identity-subject-type-base-adult-athlete-reflective-distance",
+      "text": "adult athlete presented with reflective distance",
+      "sentence": "Adult athlete presented with reflective distance.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult athlete presented with reflective distance",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult athlete presented with reflective distance",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult athlete presented with reflective distance",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-subject-type-base-adult-athlete",
+      "tags": [
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-rare",
+        "subject-type"
+      ],
+      "facets": {
+        "adult-subject": "adult-athlete",
+        "treatment": "reflective-distance"
+      },
+      "subcategory": "adult-athlete",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-subject-type-base-adult-athlete-animated-energy",
+      "semantic_key": "identity-subject-type-base-adult-athlete-animated-energy",
+      "text": "adult athlete presented with animated energy",
+      "sentence": "Adult athlete presented with animated energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult athlete presented with animated energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult athlete presented with animated energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult athlete presented with animated energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-subject-type-base-adult-athlete",
+      "tags": [
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-rare",
+        "subject-type"
+      ],
+      "facets": {
+        "adult-subject": "adult-athlete",
+        "treatment": "animated-energy"
+      },
+      "subcategory": "adult-athlete",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-subject-type-base-adult-performing-artist-subtle-intensity",
+      "semantic_key": "identity-subject-type-base-adult-performing-artist-subtle-intensity",
+      "text": "adult performing artist presented with subtle intensity",
+      "sentence": "Adult performing artist presented with subtle intensity.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult performing artist presented with subtle intensity",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult performing artist presented with subtle intensity",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult performing artist presented with subtle intensity",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-subject-type-base-adult-performing-artist",
+      "tags": [
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-common",
+        "subject-type"
+      ],
+      "facets": {
+        "adult-subject": "adult-performing-artist",
+        "treatment": "subtle-intensity"
+      },
+      "subcategory": "adult-performing-artist",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-subject-type-base-adult-performing-artist-open-warmth",
+      "semantic_key": "identity-subject-type-base-adult-performing-artist-open-warmth",
+      "text": "adult performing artist presented with open warmth",
+      "sentence": "Adult performing artist presented with open warmth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult performing artist presented with open warmth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult performing artist presented with open warmth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult performing artist presented with open warmth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-subject-type-base-adult-performing-artist",
+      "tags": [
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-common",
+        "subject-type"
+      ],
+      "facets": {
+        "adult-subject": "adult-performing-artist",
+        "treatment": "open-warmth"
+      },
+      "subcategory": "adult-performing-artist",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-subject-type-base-adult-performing-artist-quiet-restraint",
+      "semantic_key": "identity-subject-type-base-adult-performing-artist-quiet-restraint",
+      "text": "adult performing artist presented with quiet restraint",
+      "sentence": "Adult performing artist presented with quiet restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult performing artist presented with quiet restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult performing artist presented with quiet restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult performing artist presented with quiet restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-subject-type-base-adult-performing-artist",
+      "tags": [
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-common",
+        "subject-type"
+      ],
+      "facets": {
+        "adult-subject": "adult-performing-artist",
+        "treatment": "quiet-restraint"
+      },
+      "subcategory": "adult-performing-artist",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-subject-type-base-adult-performing-artist-focused-attention",
+      "semantic_key": "identity-subject-type-base-adult-performing-artist-focused-attention",
+      "text": "adult performing artist presented with focused attention",
+      "sentence": "Adult performing artist presented with focused attention.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult performing artist presented with focused attention",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult performing artist presented with focused attention",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult performing artist presented with focused attention",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-subject-type-base-adult-performing-artist",
+      "tags": [
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-common",
+        "subject-type"
+      ],
+      "facets": {
+        "adult-subject": "adult-performing-artist",
+        "treatment": "focused-attention"
+      },
+      "subcategory": "adult-performing-artist",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-subject-type-base-adult-performing-artist-gentle-tension",
+      "semantic_key": "identity-subject-type-base-adult-performing-artist-gentle-tension",
+      "text": "adult performing artist presented with gentle tension",
+      "sentence": "Adult performing artist presented with gentle tension.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult performing artist presented with gentle tension",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult performing artist presented with gentle tension",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult performing artist presented with gentle tension",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-subject-type-base-adult-performing-artist",
+      "tags": [
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-uncommon",
+        "subject-type"
+      ],
+      "facets": {
+        "adult-subject": "adult-performing-artist",
+        "treatment": "gentle-tension"
+      },
+      "subcategory": "adult-performing-artist",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-subject-type-base-adult-performing-artist-confident-ease",
+      "semantic_key": "identity-subject-type-base-adult-performing-artist-confident-ease",
+      "text": "adult performing artist presented with confident ease",
+      "sentence": "Adult performing artist presented with confident ease.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult performing artist presented with confident ease",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult performing artist presented with confident ease",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult performing artist presented with confident ease",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-subject-type-base-adult-performing-artist",
+      "tags": [
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-uncommon",
+        "subject-type"
+      ],
+      "facets": {
+        "adult-subject": "adult-performing-artist",
+        "treatment": "confident-ease"
+      },
+      "subcategory": "adult-performing-artist",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-subject-type-base-adult-performing-artist-reflective-distance",
+      "semantic_key": "identity-subject-type-base-adult-performing-artist-reflective-distance",
+      "text": "adult performing artist presented with reflective distance",
+      "sentence": "Adult performing artist presented with reflective distance.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult performing artist presented with reflective distance",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult performing artist presented with reflective distance",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult performing artist presented with reflective distance",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-subject-type-base-adult-performing-artist",
+      "tags": [
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-rare",
+        "subject-type"
+      ],
+      "facets": {
+        "adult-subject": "adult-performing-artist",
+        "treatment": "reflective-distance"
+      },
+      "subcategory": "adult-performing-artist",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-subject-type-base-adult-performing-artist-animated-energy",
+      "semantic_key": "identity-subject-type-base-adult-performing-artist-animated-energy",
+      "text": "adult performing artist presented with animated energy",
+      "sentence": "Adult performing artist presented with animated energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adult performing artist presented with animated energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adult performing artist presented with animated energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adult performing artist presented with animated energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-subject-type-base-adult-performing-artist",
+      "tags": [
+        "adults-only",
+        "base",
+        "identity",
+        "rarity-rare",
+        "subject-type"
+      ],
+      "facets": {
+        "adult-subject": "adult-performing-artist",
+        "treatment": "animated-energy"
+      },
+      "subcategory": "adult-performing-artist",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    }
+  ]
+}

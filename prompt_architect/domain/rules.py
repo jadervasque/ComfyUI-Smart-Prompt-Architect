@@ -68,8 +68,13 @@ def compatible_options(
     options: Sequence[PromptOption], context: SelectionContext
 ) -> tuple[PromptOption, ...]:
     """Filter absolute rules and apply deterministic preference multipliers."""
+    ordered = tuple(options)
+    if not all(ordered[index - 1].id <= ordered[index].id for index in range(1, len(ordered))):
+        ordered = tuple(sorted(ordered, key=lambda item: item.id))
+    if not any(option.rules for option in ordered):
+        return ordered
     compatible: list[PromptOption] = []
-    for option in sorted(options, key=lambda item: item.id):
+    for option in ordered:
         if option_violations(option, context):
             continue
         multiplier = preference_multiplier(option, context)
@@ -89,6 +94,13 @@ def preference_multiplier(option: PromptOption, context: SelectionContext) -> fl
             influence = rule.multiplier
             if context.generation_mode is GenerationMode.CREATIVE:
                 influence = math.sqrt(influence)
+            elif context.generation_mode in {
+                GenerationMode.DATASET,
+                GenerationMode.SEQUENTIAL,
+            }:
+                influence = 1.0
+            elif context.generation_mode is GenerationMode.STRICT:
+                influence = influence**1.25
             multiplier *= influence
     return multiplier
 
@@ -98,12 +110,18 @@ def apply_implications(
     libraries_by_section: Mapping[str, LibraryDefinition],
     *,
     max_depth: int = 32,
+    initial_fields: Sequence[str] | None = None,
 ) -> RuleApplicationResult:
     """Apply implications transitively, preserving fixed fields and detecting cycles."""
     if max_depth <= 0:
         raise ValueError("max_depth must be positive")
     selections = dict(context.selections)
-    queue = deque(selections)
+    queue = deque(initial_fields if initial_fields is not None else selections)
+    unknown_initial = set(queue) - set(selections)
+    if unknown_initial:
+        raise RuleConflictError(
+            "implication sources are unresolved: " + ", ".join(sorted(unknown_initial))
+        )
     applied: list[str] = []
     conflicts: list[str] = []
     history = {(field, selected.option.id) for field, selected in selections.items()}
@@ -155,7 +173,9 @@ def validate_context_rules(context: SelectionContext) -> tuple[str, ...]:
     """Return absolute rule violations remaining in a resolved context."""
     violations: list[str] = []
     for field in sorted(context.selections):
-        violations.extend(option_violations(context.selections[field].option, context))
+        option = context.selections[field].option
+        if option.rules:
+            violations.extend(option_violations(option, context))
     return tuple(violations)
 
 

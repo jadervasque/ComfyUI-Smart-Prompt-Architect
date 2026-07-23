@@ -1,0 +1,2641 @@
+{
+  "schema_version": "2.0",
+  "id": "scene-season-base",
+  "version": "2.0.0",
+  "library": "season",
+  "domain": "scene",
+  "category": "season",
+  "language": "en",
+  "status": "active",
+  "safety": "general",
+  "tags": [
+    "base"
+  ],
+  "fallback_option_id": "scene-season-base-early-spring-clear-atmosphere",
+  "options": [
+    {
+      "id": "scene-season-base-early-spring-clear-atmosphere",
+      "semantic_key": "scene-season-base-early-spring-clear-atmosphere",
+      "text": "early spring seasonal character with clear atmosphere",
+      "sentence": "Early spring seasonal character with clear atmosphere.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "early spring seasonal character with clear atmosphere",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing early spring seasonal character with clear atmosphere",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with early spring seasonal character with clear atmosphere",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-season-base-early-spring",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "season",
+        "season-mild"
+      ],
+      "facets": {
+        "seasonal-period": "early-spring",
+        "treatment": "clear-atmosphere"
+      },
+      "subcategory": "early-spring",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-season-base-early-spring-light-haze",
+      "semantic_key": "scene-season-base-early-spring-light-haze",
+      "text": "early spring seasonal character with light haze",
+      "sentence": "Early spring seasonal character with light haze.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "early spring seasonal character with light haze",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing early spring seasonal character with light haze",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with early spring seasonal character with light haze",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-season-base-early-spring",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "season",
+        "season-mild"
+      ],
+      "facets": {
+        "seasonal-period": "early-spring",
+        "treatment": "light-haze"
+      },
+      "subcategory": "early-spring",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-season-base-early-spring-soft-mist",
+      "semantic_key": "scene-season-base-early-spring-soft-mist",
+      "text": "early spring seasonal character with soft mist",
+      "sentence": "Early spring seasonal character with soft mist.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "early spring seasonal character with soft mist",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing early spring seasonal character with soft mist",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with early spring seasonal character with soft mist",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-season-base-early-spring",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "season",
+        "season-mild"
+      ],
+      "facets": {
+        "seasonal-period": "early-spring",
+        "treatment": "soft-mist"
+      },
+      "subcategory": "early-spring",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-season-base-early-spring-humid-air",
+      "semantic_key": "scene-season-base-early-spring-humid-air",
+      "text": "early spring seasonal character with humid air",
+      "sentence": "Early spring seasonal character with humid air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "early spring seasonal character with humid air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing early spring seasonal character with humid air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with early spring seasonal character with humid air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-season-base-early-spring",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "season",
+        "season-mild"
+      ],
+      "facets": {
+        "seasonal-period": "early-spring",
+        "treatment": "humid-air"
+      },
+      "subcategory": "early-spring",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-season-base-early-spring-dry-air",
+      "semantic_key": "scene-season-base-early-spring-dry-air",
+      "text": "early spring seasonal character with dry air",
+      "sentence": "Early spring seasonal character with dry air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "early spring seasonal character with dry air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing early spring seasonal character with dry air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with early spring seasonal character with dry air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-season-base-early-spring",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "scene",
+        "season",
+        "season-mild"
+      ],
+      "facets": {
+        "seasonal-period": "early-spring",
+        "treatment": "dry-air"
+      },
+      "subcategory": "early-spring",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-season-base-early-spring-wind-swept-air",
+      "semantic_key": "scene-season-base-early-spring-wind-swept-air",
+      "text": "early spring seasonal character with wind-swept air",
+      "sentence": "Early spring seasonal character with wind-swept air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "early spring seasonal character with wind-swept air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing early spring seasonal character with wind-swept air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with early spring seasonal character with wind-swept air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-season-base-early-spring",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "scene",
+        "season",
+        "season-mild"
+      ],
+      "facets": {
+        "seasonal-period": "early-spring",
+        "treatment": "wind-swept-air"
+      },
+      "subcategory": "early-spring",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-season-base-early-spring-still-air",
+      "semantic_key": "scene-season-base-early-spring-still-air",
+      "text": "early spring seasonal character with still air",
+      "sentence": "Early spring seasonal character with still air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "early spring seasonal character with still air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing early spring seasonal character with still air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with early spring seasonal character with still air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-season-base-early-spring",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "scene",
+        "season",
+        "season-mild"
+      ],
+      "facets": {
+        "seasonal-period": "early-spring",
+        "treatment": "still-air"
+      },
+      "subcategory": "early-spring",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-season-base-early-spring-particulate-glow",
+      "semantic_key": "scene-season-base-early-spring-particulate-glow",
+      "text": "early spring seasonal character with particulate glow",
+      "sentence": "Early spring seasonal character with particulate glow.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "early spring seasonal character with particulate glow",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing early spring seasonal character with particulate glow",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with early spring seasonal character with particulate glow",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-season-base-early-spring",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "scene",
+        "season",
+        "season-mild"
+      ],
+      "facets": {
+        "seasonal-period": "early-spring",
+        "treatment": "particulate-glow"
+      },
+      "subcategory": "early-spring",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-season-base-late-spring-clear-atmosphere",
+      "semantic_key": "scene-season-base-late-spring-clear-atmosphere",
+      "text": "late spring seasonal character with clear atmosphere",
+      "sentence": "Late spring seasonal character with clear atmosphere.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "late spring seasonal character with clear atmosphere",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing late spring seasonal character with clear atmosphere",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with late spring seasonal character with clear atmosphere",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-season-base-late-spring",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "season",
+        "season-mild"
+      ],
+      "facets": {
+        "seasonal-period": "late-spring",
+        "treatment": "clear-atmosphere"
+      },
+      "subcategory": "late-spring",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-season-base-late-spring-light-haze",
+      "semantic_key": "scene-season-base-late-spring-light-haze",
+      "text": "late spring seasonal character with light haze",
+      "sentence": "Late spring seasonal character with light haze.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "late spring seasonal character with light haze",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing late spring seasonal character with light haze",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with late spring seasonal character with light haze",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-season-base-late-spring",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "season",
+        "season-mild"
+      ],
+      "facets": {
+        "seasonal-period": "late-spring",
+        "treatment": "light-haze"
+      },
+      "subcategory": "late-spring",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-season-base-late-spring-soft-mist",
+      "semantic_key": "scene-season-base-late-spring-soft-mist",
+      "text": "late spring seasonal character with soft mist",
+      "sentence": "Late spring seasonal character with soft mist.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "late spring seasonal character with soft mist",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing late spring seasonal character with soft mist",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with late spring seasonal character with soft mist",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-season-base-late-spring",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "season",
+        "season-mild"
+      ],
+      "facets": {
+        "seasonal-period": "late-spring",
+        "treatment": "soft-mist"
+      },
+      "subcategory": "late-spring",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-season-base-late-spring-humid-air",
+      "semantic_key": "scene-season-base-late-spring-humid-air",
+      "text": "late spring seasonal character with humid air",
+      "sentence": "Late spring seasonal character with humid air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "late spring seasonal character with humid air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing late spring seasonal character with humid air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with late spring seasonal character with humid air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-season-base-late-spring",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "season",
+        "season-mild"
+      ],
+      "facets": {
+        "seasonal-period": "late-spring",
+        "treatment": "humid-air"
+      },
+      "subcategory": "late-spring",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-season-base-late-spring-dry-air",
+      "semantic_key": "scene-season-base-late-spring-dry-air",
+      "text": "late spring seasonal character with dry air",
+      "sentence": "Late spring seasonal character with dry air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "late spring seasonal character with dry air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing late spring seasonal character with dry air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with late spring seasonal character with dry air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-season-base-late-spring",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "scene",
+        "season",
+        "season-mild"
+      ],
+      "facets": {
+        "seasonal-period": "late-spring",
+        "treatment": "dry-air"
+      },
+      "subcategory": "late-spring",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-season-base-late-spring-wind-swept-air",
+      "semantic_key": "scene-season-base-late-spring-wind-swept-air",
+      "text": "late spring seasonal character with wind-swept air",
+      "sentence": "Late spring seasonal character with wind-swept air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "late spring seasonal character with wind-swept air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing late spring seasonal character with wind-swept air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with late spring seasonal character with wind-swept air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-season-base-late-spring",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "scene",
+        "season",
+        "season-mild"
+      ],
+      "facets": {
+        "seasonal-period": "late-spring",
+        "treatment": "wind-swept-air"
+      },
+      "subcategory": "late-spring",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-season-base-late-spring-still-air",
+      "semantic_key": "scene-season-base-late-spring-still-air",
+      "text": "late spring seasonal character with still air",
+      "sentence": "Late spring seasonal character with still air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "late spring seasonal character with still air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing late spring seasonal character with still air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with late spring seasonal character with still air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-season-base-late-spring",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "scene",
+        "season",
+        "season-mild"
+      ],
+      "facets": {
+        "seasonal-period": "late-spring",
+        "treatment": "still-air"
+      },
+      "subcategory": "late-spring",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-season-base-late-spring-particulate-glow",
+      "semantic_key": "scene-season-base-late-spring-particulate-glow",
+      "text": "late spring seasonal character with particulate glow",
+      "sentence": "Late spring seasonal character with particulate glow.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "late spring seasonal character with particulate glow",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing late spring seasonal character with particulate glow",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with late spring seasonal character with particulate glow",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-season-base-late-spring",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "scene",
+        "season",
+        "season-mild"
+      ],
+      "facets": {
+        "seasonal-period": "late-spring",
+        "treatment": "particulate-glow"
+      },
+      "subcategory": "late-spring",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-season-base-early-summer-clear-atmosphere",
+      "semantic_key": "scene-season-base-early-summer-clear-atmosphere",
+      "text": "early summer seasonal character with clear atmosphere",
+      "sentence": "Early summer seasonal character with clear atmosphere.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "early summer seasonal character with clear atmosphere",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing early summer seasonal character with clear atmosphere",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with early summer seasonal character with clear atmosphere",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-season-base-early-summer",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "season",
+        "season-hot"
+      ],
+      "facets": {
+        "seasonal-period": "early-summer",
+        "treatment": "clear-atmosphere"
+      },
+      "subcategory": "early-summer",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-season-base-early-summer-light-haze",
+      "semantic_key": "scene-season-base-early-summer-light-haze",
+      "text": "early summer seasonal character with light haze",
+      "sentence": "Early summer seasonal character with light haze.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "early summer seasonal character with light haze",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing early summer seasonal character with light haze",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with early summer seasonal character with light haze",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-season-base-early-summer",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "season",
+        "season-hot"
+      ],
+      "facets": {
+        "seasonal-period": "early-summer",
+        "treatment": "light-haze"
+      },
+      "subcategory": "early-summer",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-season-base-early-summer-soft-mist",
+      "semantic_key": "scene-season-base-early-summer-soft-mist",
+      "text": "early summer seasonal character with soft mist",
+      "sentence": "Early summer seasonal character with soft mist.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "early summer seasonal character with soft mist",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing early summer seasonal character with soft mist",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with early summer seasonal character with soft mist",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-season-base-early-summer",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "season",
+        "season-hot"
+      ],
+      "facets": {
+        "seasonal-period": "early-summer",
+        "treatment": "soft-mist"
+      },
+      "subcategory": "early-summer",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-season-base-early-summer-humid-air",
+      "semantic_key": "scene-season-base-early-summer-humid-air",
+      "text": "early summer seasonal character with humid air",
+      "sentence": "Early summer seasonal character with humid air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "early summer seasonal character with humid air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing early summer seasonal character with humid air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with early summer seasonal character with humid air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-season-base-early-summer",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "season",
+        "season-hot"
+      ],
+      "facets": {
+        "seasonal-period": "early-summer",
+        "treatment": "humid-air"
+      },
+      "subcategory": "early-summer",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-season-base-early-summer-dry-air",
+      "semantic_key": "scene-season-base-early-summer-dry-air",
+      "text": "early summer seasonal character with dry air",
+      "sentence": "Early summer seasonal character with dry air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "early summer seasonal character with dry air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing early summer seasonal character with dry air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with early summer seasonal character with dry air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-season-base-early-summer",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "scene",
+        "season",
+        "season-hot"
+      ],
+      "facets": {
+        "seasonal-period": "early-summer",
+        "treatment": "dry-air"
+      },
+      "subcategory": "early-summer",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-season-base-early-summer-wind-swept-air",
+      "semantic_key": "scene-season-base-early-summer-wind-swept-air",
+      "text": "early summer seasonal character with wind-swept air",
+      "sentence": "Early summer seasonal character with wind-swept air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "early summer seasonal character with wind-swept air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing early summer seasonal character with wind-swept air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with early summer seasonal character with wind-swept air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-season-base-early-summer",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "scene",
+        "season",
+        "season-hot"
+      ],
+      "facets": {
+        "seasonal-period": "early-summer",
+        "treatment": "wind-swept-air"
+      },
+      "subcategory": "early-summer",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-season-base-early-summer-still-air",
+      "semantic_key": "scene-season-base-early-summer-still-air",
+      "text": "early summer seasonal character with still air",
+      "sentence": "Early summer seasonal character with still air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "early summer seasonal character with still air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing early summer seasonal character with still air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with early summer seasonal character with still air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-season-base-early-summer",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "scene",
+        "season",
+        "season-hot"
+      ],
+      "facets": {
+        "seasonal-period": "early-summer",
+        "treatment": "still-air"
+      },
+      "subcategory": "early-summer",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-season-base-early-summer-particulate-glow",
+      "semantic_key": "scene-season-base-early-summer-particulate-glow",
+      "text": "early summer seasonal character with particulate glow",
+      "sentence": "Early summer seasonal character with particulate glow.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "early summer seasonal character with particulate glow",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing early summer seasonal character with particulate glow",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with early summer seasonal character with particulate glow",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-season-base-early-summer",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "scene",
+        "season",
+        "season-hot"
+      ],
+      "facets": {
+        "seasonal-period": "early-summer",
+        "treatment": "particulate-glow"
+      },
+      "subcategory": "early-summer",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-season-base-late-summer-clear-atmosphere",
+      "semantic_key": "scene-season-base-late-summer-clear-atmosphere",
+      "text": "late summer seasonal character with clear atmosphere",
+      "sentence": "Late summer seasonal character with clear atmosphere.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "late summer seasonal character with clear atmosphere",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing late summer seasonal character with clear atmosphere",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with late summer seasonal character with clear atmosphere",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-season-base-late-summer",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "season",
+        "season-hot"
+      ],
+      "facets": {
+        "seasonal-period": "late-summer",
+        "treatment": "clear-atmosphere"
+      },
+      "subcategory": "late-summer",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-season-base-late-summer-light-haze",
+      "semantic_key": "scene-season-base-late-summer-light-haze",
+      "text": "late summer seasonal character with light haze",
+      "sentence": "Late summer seasonal character with light haze.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "late summer seasonal character with light haze",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing late summer seasonal character with light haze",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with late summer seasonal character with light haze",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-season-base-late-summer",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "season",
+        "season-hot"
+      ],
+      "facets": {
+        "seasonal-period": "late-summer",
+        "treatment": "light-haze"
+      },
+      "subcategory": "late-summer",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-season-base-late-summer-soft-mist",
+      "semantic_key": "scene-season-base-late-summer-soft-mist",
+      "text": "late summer seasonal character with soft mist",
+      "sentence": "Late summer seasonal character with soft mist.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "late summer seasonal character with soft mist",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing late summer seasonal character with soft mist",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with late summer seasonal character with soft mist",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-season-base-late-summer",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "season",
+        "season-hot"
+      ],
+      "facets": {
+        "seasonal-period": "late-summer",
+        "treatment": "soft-mist"
+      },
+      "subcategory": "late-summer",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-season-base-late-summer-humid-air",
+      "semantic_key": "scene-season-base-late-summer-humid-air",
+      "text": "late summer seasonal character with humid air",
+      "sentence": "Late summer seasonal character with humid air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "late summer seasonal character with humid air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing late summer seasonal character with humid air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with late summer seasonal character with humid air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-season-base-late-summer",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "season",
+        "season-hot"
+      ],
+      "facets": {
+        "seasonal-period": "late-summer",
+        "treatment": "humid-air"
+      },
+      "subcategory": "late-summer",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-season-base-late-summer-dry-air",
+      "semantic_key": "scene-season-base-late-summer-dry-air",
+      "text": "late summer seasonal character with dry air",
+      "sentence": "Late summer seasonal character with dry air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "late summer seasonal character with dry air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing late summer seasonal character with dry air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with late summer seasonal character with dry air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-season-base-late-summer",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "scene",
+        "season",
+        "season-hot"
+      ],
+      "facets": {
+        "seasonal-period": "late-summer",
+        "treatment": "dry-air"
+      },
+      "subcategory": "late-summer",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-season-base-late-summer-wind-swept-air",
+      "semantic_key": "scene-season-base-late-summer-wind-swept-air",
+      "text": "late summer seasonal character with wind-swept air",
+      "sentence": "Late summer seasonal character with wind-swept air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "late summer seasonal character with wind-swept air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing late summer seasonal character with wind-swept air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with late summer seasonal character with wind-swept air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-season-base-late-summer",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "scene",
+        "season",
+        "season-hot"
+      ],
+      "facets": {
+        "seasonal-period": "late-summer",
+        "treatment": "wind-swept-air"
+      },
+      "subcategory": "late-summer",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-season-base-late-summer-still-air",
+      "semantic_key": "scene-season-base-late-summer-still-air",
+      "text": "late summer seasonal character with still air",
+      "sentence": "Late summer seasonal character with still air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "late summer seasonal character with still air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing late summer seasonal character with still air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with late summer seasonal character with still air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-season-base-late-summer",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "scene",
+        "season",
+        "season-hot"
+      ],
+      "facets": {
+        "seasonal-period": "late-summer",
+        "treatment": "still-air"
+      },
+      "subcategory": "late-summer",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-season-base-late-summer-particulate-glow",
+      "semantic_key": "scene-season-base-late-summer-particulate-glow",
+      "text": "late summer seasonal character with particulate glow",
+      "sentence": "Late summer seasonal character with particulate glow.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "late summer seasonal character with particulate glow",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing late summer seasonal character with particulate glow",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with late summer seasonal character with particulate glow",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-season-base-late-summer",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "scene",
+        "season",
+        "season-hot"
+      ],
+      "facets": {
+        "seasonal-period": "late-summer",
+        "treatment": "particulate-glow"
+      },
+      "subcategory": "late-summer",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-season-base-early-autumn-clear-atmosphere",
+      "semantic_key": "scene-season-base-early-autumn-clear-atmosphere",
+      "text": "early autumn seasonal character with clear atmosphere",
+      "sentence": "Early autumn seasonal character with clear atmosphere.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "early autumn seasonal character with clear atmosphere",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing early autumn seasonal character with clear atmosphere",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with early autumn seasonal character with clear atmosphere",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-season-base-early-autumn",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "season",
+        "season-mild"
+      ],
+      "facets": {
+        "seasonal-period": "early-autumn",
+        "treatment": "clear-atmosphere"
+      },
+      "subcategory": "early-autumn",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-season-base-early-autumn-light-haze",
+      "semantic_key": "scene-season-base-early-autumn-light-haze",
+      "text": "early autumn seasonal character with light haze",
+      "sentence": "Early autumn seasonal character with light haze.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "early autumn seasonal character with light haze",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing early autumn seasonal character with light haze",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with early autumn seasonal character with light haze",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-season-base-early-autumn",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "season",
+        "season-mild"
+      ],
+      "facets": {
+        "seasonal-period": "early-autumn",
+        "treatment": "light-haze"
+      },
+      "subcategory": "early-autumn",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-season-base-early-autumn-soft-mist",
+      "semantic_key": "scene-season-base-early-autumn-soft-mist",
+      "text": "early autumn seasonal character with soft mist",
+      "sentence": "Early autumn seasonal character with soft mist.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "early autumn seasonal character with soft mist",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing early autumn seasonal character with soft mist",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with early autumn seasonal character with soft mist",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-season-base-early-autumn",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "season",
+        "season-mild"
+      ],
+      "facets": {
+        "seasonal-period": "early-autumn",
+        "treatment": "soft-mist"
+      },
+      "subcategory": "early-autumn",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-season-base-early-autumn-humid-air",
+      "semantic_key": "scene-season-base-early-autumn-humid-air",
+      "text": "early autumn seasonal character with humid air",
+      "sentence": "Early autumn seasonal character with humid air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "early autumn seasonal character with humid air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing early autumn seasonal character with humid air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with early autumn seasonal character with humid air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-season-base-early-autumn",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "season",
+        "season-mild"
+      ],
+      "facets": {
+        "seasonal-period": "early-autumn",
+        "treatment": "humid-air"
+      },
+      "subcategory": "early-autumn",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-season-base-early-autumn-dry-air",
+      "semantic_key": "scene-season-base-early-autumn-dry-air",
+      "text": "early autumn seasonal character with dry air",
+      "sentence": "Early autumn seasonal character with dry air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "early autumn seasonal character with dry air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing early autumn seasonal character with dry air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with early autumn seasonal character with dry air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-season-base-early-autumn",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "scene",
+        "season",
+        "season-mild"
+      ],
+      "facets": {
+        "seasonal-period": "early-autumn",
+        "treatment": "dry-air"
+      },
+      "subcategory": "early-autumn",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-season-base-early-autumn-wind-swept-air",
+      "semantic_key": "scene-season-base-early-autumn-wind-swept-air",
+      "text": "early autumn seasonal character with wind-swept air",
+      "sentence": "Early autumn seasonal character with wind-swept air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "early autumn seasonal character with wind-swept air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing early autumn seasonal character with wind-swept air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with early autumn seasonal character with wind-swept air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-season-base-early-autumn",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "scene",
+        "season",
+        "season-mild"
+      ],
+      "facets": {
+        "seasonal-period": "early-autumn",
+        "treatment": "wind-swept-air"
+      },
+      "subcategory": "early-autumn",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-season-base-early-autumn-still-air",
+      "semantic_key": "scene-season-base-early-autumn-still-air",
+      "text": "early autumn seasonal character with still air",
+      "sentence": "Early autumn seasonal character with still air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "early autumn seasonal character with still air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing early autumn seasonal character with still air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with early autumn seasonal character with still air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-season-base-early-autumn",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "scene",
+        "season",
+        "season-mild"
+      ],
+      "facets": {
+        "seasonal-period": "early-autumn",
+        "treatment": "still-air"
+      },
+      "subcategory": "early-autumn",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-season-base-early-autumn-particulate-glow",
+      "semantic_key": "scene-season-base-early-autumn-particulate-glow",
+      "text": "early autumn seasonal character with particulate glow",
+      "sentence": "Early autumn seasonal character with particulate glow.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "early autumn seasonal character with particulate glow",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing early autumn seasonal character with particulate glow",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with early autumn seasonal character with particulate glow",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-season-base-early-autumn",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "scene",
+        "season",
+        "season-mild"
+      ],
+      "facets": {
+        "seasonal-period": "early-autumn",
+        "treatment": "particulate-glow"
+      },
+      "subcategory": "early-autumn",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-season-base-late-autumn-clear-atmosphere",
+      "semantic_key": "scene-season-base-late-autumn-clear-atmosphere",
+      "text": "late autumn seasonal character with clear atmosphere",
+      "sentence": "Late autumn seasonal character with clear atmosphere.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "late autumn seasonal character with clear atmosphere",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing late autumn seasonal character with clear atmosphere",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with late autumn seasonal character with clear atmosphere",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-season-base-late-autumn",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "season",
+        "season-mild"
+      ],
+      "facets": {
+        "seasonal-period": "late-autumn",
+        "treatment": "clear-atmosphere"
+      },
+      "subcategory": "late-autumn",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-season-base-late-autumn-light-haze",
+      "semantic_key": "scene-season-base-late-autumn-light-haze",
+      "text": "late autumn seasonal character with light haze",
+      "sentence": "Late autumn seasonal character with light haze.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "late autumn seasonal character with light haze",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing late autumn seasonal character with light haze",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with late autumn seasonal character with light haze",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-season-base-late-autumn",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "season",
+        "season-mild"
+      ],
+      "facets": {
+        "seasonal-period": "late-autumn",
+        "treatment": "light-haze"
+      },
+      "subcategory": "late-autumn",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-season-base-late-autumn-soft-mist",
+      "semantic_key": "scene-season-base-late-autumn-soft-mist",
+      "text": "late autumn seasonal character with soft mist",
+      "sentence": "Late autumn seasonal character with soft mist.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "late autumn seasonal character with soft mist",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing late autumn seasonal character with soft mist",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with late autumn seasonal character with soft mist",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-season-base-late-autumn",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "season",
+        "season-mild"
+      ],
+      "facets": {
+        "seasonal-period": "late-autumn",
+        "treatment": "soft-mist"
+      },
+      "subcategory": "late-autumn",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-season-base-late-autumn-humid-air",
+      "semantic_key": "scene-season-base-late-autumn-humid-air",
+      "text": "late autumn seasonal character with humid air",
+      "sentence": "Late autumn seasonal character with humid air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "late autumn seasonal character with humid air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing late autumn seasonal character with humid air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with late autumn seasonal character with humid air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-season-base-late-autumn",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "season",
+        "season-mild"
+      ],
+      "facets": {
+        "seasonal-period": "late-autumn",
+        "treatment": "humid-air"
+      },
+      "subcategory": "late-autumn",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-season-base-late-autumn-dry-air",
+      "semantic_key": "scene-season-base-late-autumn-dry-air",
+      "text": "late autumn seasonal character with dry air",
+      "sentence": "Late autumn seasonal character with dry air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "late autumn seasonal character with dry air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing late autumn seasonal character with dry air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with late autumn seasonal character with dry air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-season-base-late-autumn",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "scene",
+        "season",
+        "season-mild"
+      ],
+      "facets": {
+        "seasonal-period": "late-autumn",
+        "treatment": "dry-air"
+      },
+      "subcategory": "late-autumn",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-season-base-late-autumn-wind-swept-air",
+      "semantic_key": "scene-season-base-late-autumn-wind-swept-air",
+      "text": "late autumn seasonal character with wind-swept air",
+      "sentence": "Late autumn seasonal character with wind-swept air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "late autumn seasonal character with wind-swept air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing late autumn seasonal character with wind-swept air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with late autumn seasonal character with wind-swept air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-season-base-late-autumn",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "scene",
+        "season",
+        "season-mild"
+      ],
+      "facets": {
+        "seasonal-period": "late-autumn",
+        "treatment": "wind-swept-air"
+      },
+      "subcategory": "late-autumn",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-season-base-late-autumn-still-air",
+      "semantic_key": "scene-season-base-late-autumn-still-air",
+      "text": "late autumn seasonal character with still air",
+      "sentence": "Late autumn seasonal character with still air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "late autumn seasonal character with still air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing late autumn seasonal character with still air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with late autumn seasonal character with still air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-season-base-late-autumn",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "scene",
+        "season",
+        "season-mild"
+      ],
+      "facets": {
+        "seasonal-period": "late-autumn",
+        "treatment": "still-air"
+      },
+      "subcategory": "late-autumn",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-season-base-late-autumn-particulate-glow",
+      "semantic_key": "scene-season-base-late-autumn-particulate-glow",
+      "text": "late autumn seasonal character with particulate glow",
+      "sentence": "Late autumn seasonal character with particulate glow.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "late autumn seasonal character with particulate glow",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing late autumn seasonal character with particulate glow",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with late autumn seasonal character with particulate glow",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-season-base-late-autumn",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "scene",
+        "season",
+        "season-mild"
+      ],
+      "facets": {
+        "seasonal-period": "late-autumn",
+        "treatment": "particulate-glow"
+      },
+      "subcategory": "late-autumn",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-season-base-early-winter-clear-atmosphere",
+      "semantic_key": "scene-season-base-early-winter-clear-atmosphere",
+      "text": "early winter seasonal character with clear atmosphere",
+      "sentence": "Early winter seasonal character with clear atmosphere.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "early winter seasonal character with clear atmosphere",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing early winter seasonal character with clear atmosphere",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with early winter seasonal character with clear atmosphere",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-season-base-early-winter",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "season",
+        "season-cold"
+      ],
+      "facets": {
+        "seasonal-period": "early-winter",
+        "treatment": "clear-atmosphere"
+      },
+      "subcategory": "early-winter",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-season-base-early-winter-light-haze",
+      "semantic_key": "scene-season-base-early-winter-light-haze",
+      "text": "early winter seasonal character with light haze",
+      "sentence": "Early winter seasonal character with light haze.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "early winter seasonal character with light haze",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing early winter seasonal character with light haze",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with early winter seasonal character with light haze",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-season-base-early-winter",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "season",
+        "season-cold"
+      ],
+      "facets": {
+        "seasonal-period": "early-winter",
+        "treatment": "light-haze"
+      },
+      "subcategory": "early-winter",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-season-base-early-winter-soft-mist",
+      "semantic_key": "scene-season-base-early-winter-soft-mist",
+      "text": "early winter seasonal character with soft mist",
+      "sentence": "Early winter seasonal character with soft mist.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "early winter seasonal character with soft mist",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing early winter seasonal character with soft mist",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with early winter seasonal character with soft mist",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-season-base-early-winter",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "season",
+        "season-cold"
+      ],
+      "facets": {
+        "seasonal-period": "early-winter",
+        "treatment": "soft-mist"
+      },
+      "subcategory": "early-winter",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-season-base-early-winter-humid-air",
+      "semantic_key": "scene-season-base-early-winter-humid-air",
+      "text": "early winter seasonal character with humid air",
+      "sentence": "Early winter seasonal character with humid air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "early winter seasonal character with humid air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing early winter seasonal character with humid air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with early winter seasonal character with humid air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-season-base-early-winter",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "season",
+        "season-cold"
+      ],
+      "facets": {
+        "seasonal-period": "early-winter",
+        "treatment": "humid-air"
+      },
+      "subcategory": "early-winter",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-season-base-early-winter-dry-air",
+      "semantic_key": "scene-season-base-early-winter-dry-air",
+      "text": "early winter seasonal character with dry air",
+      "sentence": "Early winter seasonal character with dry air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "early winter seasonal character with dry air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing early winter seasonal character with dry air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with early winter seasonal character with dry air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-season-base-early-winter",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "scene",
+        "season",
+        "season-cold"
+      ],
+      "facets": {
+        "seasonal-period": "early-winter",
+        "treatment": "dry-air"
+      },
+      "subcategory": "early-winter",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-season-base-early-winter-wind-swept-air",
+      "semantic_key": "scene-season-base-early-winter-wind-swept-air",
+      "text": "early winter seasonal character with wind-swept air",
+      "sentence": "Early winter seasonal character with wind-swept air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "early winter seasonal character with wind-swept air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing early winter seasonal character with wind-swept air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with early winter seasonal character with wind-swept air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-season-base-early-winter",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "scene",
+        "season",
+        "season-cold"
+      ],
+      "facets": {
+        "seasonal-period": "early-winter",
+        "treatment": "wind-swept-air"
+      },
+      "subcategory": "early-winter",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-season-base-early-winter-still-air",
+      "semantic_key": "scene-season-base-early-winter-still-air",
+      "text": "early winter seasonal character with still air",
+      "sentence": "Early winter seasonal character with still air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "early winter seasonal character with still air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing early winter seasonal character with still air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with early winter seasonal character with still air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-season-base-early-winter",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "scene",
+        "season",
+        "season-cold"
+      ],
+      "facets": {
+        "seasonal-period": "early-winter",
+        "treatment": "still-air"
+      },
+      "subcategory": "early-winter",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-season-base-early-winter-particulate-glow",
+      "semantic_key": "scene-season-base-early-winter-particulate-glow",
+      "text": "early winter seasonal character with particulate glow",
+      "sentence": "Early winter seasonal character with particulate glow.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "early winter seasonal character with particulate glow",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing early winter seasonal character with particulate glow",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with early winter seasonal character with particulate glow",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-season-base-early-winter",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "scene",
+        "season",
+        "season-cold"
+      ],
+      "facets": {
+        "seasonal-period": "early-winter",
+        "treatment": "particulate-glow"
+      },
+      "subcategory": "early-winter",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-season-base-late-winter-clear-atmosphere",
+      "semantic_key": "scene-season-base-late-winter-clear-atmosphere",
+      "text": "late winter seasonal character with clear atmosphere",
+      "sentence": "Late winter seasonal character with clear atmosphere.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "late winter seasonal character with clear atmosphere",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing late winter seasonal character with clear atmosphere",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with late winter seasonal character with clear atmosphere",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-season-base-late-winter",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "season",
+        "season-cold"
+      ],
+      "facets": {
+        "seasonal-period": "late-winter",
+        "treatment": "clear-atmosphere"
+      },
+      "subcategory": "late-winter",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-season-base-late-winter-light-haze",
+      "semantic_key": "scene-season-base-late-winter-light-haze",
+      "text": "late winter seasonal character with light haze",
+      "sentence": "Late winter seasonal character with light haze.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "late winter seasonal character with light haze",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing late winter seasonal character with light haze",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with late winter seasonal character with light haze",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-season-base-late-winter",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "season",
+        "season-cold"
+      ],
+      "facets": {
+        "seasonal-period": "late-winter",
+        "treatment": "light-haze"
+      },
+      "subcategory": "late-winter",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-season-base-late-winter-soft-mist",
+      "semantic_key": "scene-season-base-late-winter-soft-mist",
+      "text": "late winter seasonal character with soft mist",
+      "sentence": "Late winter seasonal character with soft mist.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "late winter seasonal character with soft mist",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing late winter seasonal character with soft mist",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with late winter seasonal character with soft mist",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-season-base-late-winter",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "season",
+        "season-cold"
+      ],
+      "facets": {
+        "seasonal-period": "late-winter",
+        "treatment": "soft-mist"
+      },
+      "subcategory": "late-winter",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-season-base-late-winter-humid-air",
+      "semantic_key": "scene-season-base-late-winter-humid-air",
+      "text": "late winter seasonal character with humid air",
+      "sentence": "Late winter seasonal character with humid air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "late winter seasonal character with humid air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing late winter seasonal character with humid air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with late winter seasonal character with humid air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-season-base-late-winter",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "season",
+        "season-cold"
+      ],
+      "facets": {
+        "seasonal-period": "late-winter",
+        "treatment": "humid-air"
+      },
+      "subcategory": "late-winter",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-season-base-late-winter-dry-air",
+      "semantic_key": "scene-season-base-late-winter-dry-air",
+      "text": "late winter seasonal character with dry air",
+      "sentence": "Late winter seasonal character with dry air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "late winter seasonal character with dry air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing late winter seasonal character with dry air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with late winter seasonal character with dry air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-season-base-late-winter",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "scene",
+        "season",
+        "season-cold"
+      ],
+      "facets": {
+        "seasonal-period": "late-winter",
+        "treatment": "dry-air"
+      },
+      "subcategory": "late-winter",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-season-base-late-winter-wind-swept-air",
+      "semantic_key": "scene-season-base-late-winter-wind-swept-air",
+      "text": "late winter seasonal character with wind-swept air",
+      "sentence": "Late winter seasonal character with wind-swept air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "late winter seasonal character with wind-swept air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing late winter seasonal character with wind-swept air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with late winter seasonal character with wind-swept air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-season-base-late-winter",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "scene",
+        "season",
+        "season-cold"
+      ],
+      "facets": {
+        "seasonal-period": "late-winter",
+        "treatment": "wind-swept-air"
+      },
+      "subcategory": "late-winter",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-season-base-late-winter-still-air",
+      "semantic_key": "scene-season-base-late-winter-still-air",
+      "text": "late winter seasonal character with still air",
+      "sentence": "Late winter seasonal character with still air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "late winter seasonal character with still air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing late winter seasonal character with still air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with late winter seasonal character with still air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-season-base-late-winter",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "scene",
+        "season",
+        "season-cold"
+      ],
+      "facets": {
+        "seasonal-period": "late-winter",
+        "treatment": "still-air"
+      },
+      "subcategory": "late-winter",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-season-base-late-winter-particulate-glow",
+      "semantic_key": "scene-season-base-late-winter-particulate-glow",
+      "text": "late winter seasonal character with particulate glow",
+      "sentence": "Late winter seasonal character with particulate glow.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "late winter seasonal character with particulate glow",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing late winter seasonal character with particulate glow",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with late winter seasonal character with particulate glow",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-season-base-late-winter",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "scene",
+        "season",
+        "season-cold"
+      ],
+      "facets": {
+        "seasonal-period": "late-winter",
+        "treatment": "particulate-glow"
+      },
+      "subcategory": "late-winter",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    }
+  ]
+}

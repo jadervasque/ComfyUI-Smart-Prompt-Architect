@@ -1,0 +1,2577 @@
+{
+  "schema_version": "2.0",
+  "id": "wardrobe-bottoms-base",
+  "version": "2.0.0",
+  "library": "bottoms",
+  "domain": "wardrobe",
+  "category": "bottoms",
+  "language": "en",
+  "status": "active",
+  "safety": "general",
+  "tags": [
+    "base"
+  ],
+  "fallback_option_id": "wardrobe-bottoms-base-straight-trousers-precise-tailoring",
+  "options": [
+    {
+      "id": "wardrobe-bottoms-base-straight-trousers-precise-tailoring",
+      "semantic_key": "wardrobe-bottoms-base-straight-trousers-precise-tailoring",
+      "text": "straight trousers with precise tailoring",
+      "sentence": "Straight trousers with precise tailoring.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "straight trousers with precise tailoring",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing straight trousers with precise tailoring",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with straight trousers with precise tailoring",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-bottoms-base-straight-trousers",
+      "tags": [
+        "base",
+        "bottoms",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "straight-trousers",
+        "treatment": "precise-tailoring"
+      },
+      "subcategory": "straight-trousers",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-bottoms-base-straight-trousers-relaxed-drape",
+      "semantic_key": "wardrobe-bottoms-base-straight-trousers-relaxed-drape",
+      "text": "straight trousers with relaxed drape",
+      "sentence": "Straight trousers with relaxed drape.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "straight trousers with relaxed drape",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing straight trousers with relaxed drape",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with straight trousers with relaxed drape",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-bottoms-base-straight-trousers",
+      "tags": [
+        "base",
+        "bottoms",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "straight-trousers",
+        "treatment": "relaxed-drape"
+      },
+      "subcategory": "straight-trousers",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-bottoms-base-straight-trousers-layered-construction",
+      "semantic_key": "wardrobe-bottoms-base-straight-trousers-layered-construction",
+      "text": "straight trousers with layered construction",
+      "sentence": "Straight trousers with layered construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "straight trousers with layered construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing straight trousers with layered construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with straight trousers with layered construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-bottoms-base-straight-trousers",
+      "tags": [
+        "base",
+        "bottoms",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "straight-trousers",
+        "treatment": "layered-construction"
+      },
+      "subcategory": "straight-trousers",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-bottoms-base-straight-trousers-clean-seaming",
+      "semantic_key": "wardrobe-bottoms-base-straight-trousers-clean-seaming",
+      "text": "straight trousers with clean seaming",
+      "sentence": "Straight trousers with clean seaming.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "straight trousers with clean seaming",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing straight trousers with clean seaming",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with straight trousers with clean seaming",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-bottoms-base-straight-trousers",
+      "tags": [
+        "base",
+        "bottoms",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "straight-trousers",
+        "treatment": "clean-seaming"
+      },
+      "subcategory": "straight-trousers",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-bottoms-base-straight-trousers-structured-volume",
+      "semantic_key": "wardrobe-bottoms-base-straight-trousers-structured-volume",
+      "text": "straight trousers with structured volume",
+      "sentence": "Straight trousers with structured volume.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "straight trousers with structured volume",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing straight trousers with structured volume",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with straight trousers with structured volume",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-bottoms-base-straight-trousers",
+      "tags": [
+        "base",
+        "bottoms",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "straight-trousers",
+        "treatment": "structured-volume"
+      },
+      "subcategory": "straight-trousers",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-bottoms-base-straight-trousers-fluid-movement",
+      "semantic_key": "wardrobe-bottoms-base-straight-trousers-fluid-movement",
+      "text": "straight trousers with fluid movement",
+      "sentence": "Straight trousers with fluid movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "straight trousers with fluid movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing straight trousers with fluid movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with straight trousers with fluid movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-bottoms-base-straight-trousers",
+      "tags": [
+        "base",
+        "bottoms",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "straight-trousers",
+        "treatment": "fluid-movement"
+      },
+      "subcategory": "straight-trousers",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-bottoms-base-straight-trousers-practical-detailing",
+      "semantic_key": "wardrobe-bottoms-base-straight-trousers-practical-detailing",
+      "text": "straight trousers with practical detailing",
+      "sentence": "Straight trousers with practical detailing.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "straight trousers with practical detailing",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing straight trousers with practical detailing",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with straight trousers with practical detailing",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-bottoms-base-straight-trousers",
+      "tags": [
+        "base",
+        "bottoms",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "straight-trousers",
+        "treatment": "practical-detailing"
+      },
+      "subcategory": "straight-trousers",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-bottoms-base-straight-trousers-minimal-construction",
+      "semantic_key": "wardrobe-bottoms-base-straight-trousers-minimal-construction",
+      "text": "straight trousers with minimal construction",
+      "sentence": "Straight trousers with minimal construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "straight trousers with minimal construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing straight trousers with minimal construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with straight trousers with minimal construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-bottoms-base-straight-trousers",
+      "tags": [
+        "base",
+        "bottoms",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "straight-trousers",
+        "treatment": "minimal-construction"
+      },
+      "subcategory": "straight-trousers",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-bottoms-base-wide-leg-trousers-precise-tailoring",
+      "semantic_key": "wardrobe-bottoms-base-wide-leg-trousers-precise-tailoring",
+      "text": "wide-leg trousers with precise tailoring",
+      "sentence": "Wide-leg trousers with precise tailoring.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "wide-leg trousers with precise tailoring",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing wide-leg trousers with precise tailoring",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with wide-leg trousers with precise tailoring",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-bottoms-base-wide-leg-trousers",
+      "tags": [
+        "base",
+        "bottoms",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "wide-leg-trousers",
+        "treatment": "precise-tailoring"
+      },
+      "subcategory": "wide-leg-trousers",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-bottoms-base-wide-leg-trousers-relaxed-drape",
+      "semantic_key": "wardrobe-bottoms-base-wide-leg-trousers-relaxed-drape",
+      "text": "wide-leg trousers with relaxed drape",
+      "sentence": "Wide-leg trousers with relaxed drape.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "wide-leg trousers with relaxed drape",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing wide-leg trousers with relaxed drape",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with wide-leg trousers with relaxed drape",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-bottoms-base-wide-leg-trousers",
+      "tags": [
+        "base",
+        "bottoms",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "wide-leg-trousers",
+        "treatment": "relaxed-drape"
+      },
+      "subcategory": "wide-leg-trousers",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-bottoms-base-wide-leg-trousers-layered-construction",
+      "semantic_key": "wardrobe-bottoms-base-wide-leg-trousers-layered-construction",
+      "text": "wide-leg trousers with layered construction",
+      "sentence": "Wide-leg trousers with layered construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "wide-leg trousers with layered construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing wide-leg trousers with layered construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with wide-leg trousers with layered construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-bottoms-base-wide-leg-trousers",
+      "tags": [
+        "base",
+        "bottoms",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "wide-leg-trousers",
+        "treatment": "layered-construction"
+      },
+      "subcategory": "wide-leg-trousers",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-bottoms-base-wide-leg-trousers-clean-seaming",
+      "semantic_key": "wardrobe-bottoms-base-wide-leg-trousers-clean-seaming",
+      "text": "wide-leg trousers with clean seaming",
+      "sentence": "Wide-leg trousers with clean seaming.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "wide-leg trousers with clean seaming",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing wide-leg trousers with clean seaming",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with wide-leg trousers with clean seaming",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-bottoms-base-wide-leg-trousers",
+      "tags": [
+        "base",
+        "bottoms",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "wide-leg-trousers",
+        "treatment": "clean-seaming"
+      },
+      "subcategory": "wide-leg-trousers",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-bottoms-base-wide-leg-trousers-structured-volume",
+      "semantic_key": "wardrobe-bottoms-base-wide-leg-trousers-structured-volume",
+      "text": "wide-leg trousers with structured volume",
+      "sentence": "Wide-leg trousers with structured volume.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "wide-leg trousers with structured volume",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing wide-leg trousers with structured volume",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with wide-leg trousers with structured volume",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-bottoms-base-wide-leg-trousers",
+      "tags": [
+        "base",
+        "bottoms",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "wide-leg-trousers",
+        "treatment": "structured-volume"
+      },
+      "subcategory": "wide-leg-trousers",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-bottoms-base-wide-leg-trousers-fluid-movement",
+      "semantic_key": "wardrobe-bottoms-base-wide-leg-trousers-fluid-movement",
+      "text": "wide-leg trousers with fluid movement",
+      "sentence": "Wide-leg trousers with fluid movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "wide-leg trousers with fluid movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing wide-leg trousers with fluid movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with wide-leg trousers with fluid movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-bottoms-base-wide-leg-trousers",
+      "tags": [
+        "base",
+        "bottoms",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "wide-leg-trousers",
+        "treatment": "fluid-movement"
+      },
+      "subcategory": "wide-leg-trousers",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-bottoms-base-wide-leg-trousers-practical-detailing",
+      "semantic_key": "wardrobe-bottoms-base-wide-leg-trousers-practical-detailing",
+      "text": "wide-leg trousers with practical detailing",
+      "sentence": "Wide-leg trousers with practical detailing.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "wide-leg trousers with practical detailing",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing wide-leg trousers with practical detailing",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with wide-leg trousers with practical detailing",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-bottoms-base-wide-leg-trousers",
+      "tags": [
+        "base",
+        "bottoms",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "wide-leg-trousers",
+        "treatment": "practical-detailing"
+      },
+      "subcategory": "wide-leg-trousers",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-bottoms-base-wide-leg-trousers-minimal-construction",
+      "semantic_key": "wardrobe-bottoms-base-wide-leg-trousers-minimal-construction",
+      "text": "wide-leg trousers with minimal construction",
+      "sentence": "Wide-leg trousers with minimal construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "wide-leg trousers with minimal construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing wide-leg trousers with minimal construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with wide-leg trousers with minimal construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-bottoms-base-wide-leg-trousers",
+      "tags": [
+        "base",
+        "bottoms",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "wide-leg-trousers",
+        "treatment": "minimal-construction"
+      },
+      "subcategory": "wide-leg-trousers",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-bottoms-base-tapered-trousers-precise-tailoring",
+      "semantic_key": "wardrobe-bottoms-base-tapered-trousers-precise-tailoring",
+      "text": "tapered trousers with precise tailoring",
+      "sentence": "Tapered trousers with precise tailoring.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "tapered trousers with precise tailoring",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing tapered trousers with precise tailoring",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with tapered trousers with precise tailoring",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-bottoms-base-tapered-trousers",
+      "tags": [
+        "base",
+        "bottoms",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "tapered-trousers",
+        "treatment": "precise-tailoring"
+      },
+      "subcategory": "tapered-trousers",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-bottoms-base-tapered-trousers-relaxed-drape",
+      "semantic_key": "wardrobe-bottoms-base-tapered-trousers-relaxed-drape",
+      "text": "tapered trousers with relaxed drape",
+      "sentence": "Tapered trousers with relaxed drape.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "tapered trousers with relaxed drape",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing tapered trousers with relaxed drape",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with tapered trousers with relaxed drape",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-bottoms-base-tapered-trousers",
+      "tags": [
+        "base",
+        "bottoms",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "tapered-trousers",
+        "treatment": "relaxed-drape"
+      },
+      "subcategory": "tapered-trousers",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-bottoms-base-tapered-trousers-layered-construction",
+      "semantic_key": "wardrobe-bottoms-base-tapered-trousers-layered-construction",
+      "text": "tapered trousers with layered construction",
+      "sentence": "Tapered trousers with layered construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "tapered trousers with layered construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing tapered trousers with layered construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with tapered trousers with layered construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-bottoms-base-tapered-trousers",
+      "tags": [
+        "base",
+        "bottoms",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "tapered-trousers",
+        "treatment": "layered-construction"
+      },
+      "subcategory": "tapered-trousers",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-bottoms-base-tapered-trousers-clean-seaming",
+      "semantic_key": "wardrobe-bottoms-base-tapered-trousers-clean-seaming",
+      "text": "tapered trousers with clean seaming",
+      "sentence": "Tapered trousers with clean seaming.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "tapered trousers with clean seaming",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing tapered trousers with clean seaming",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with tapered trousers with clean seaming",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-bottoms-base-tapered-trousers",
+      "tags": [
+        "base",
+        "bottoms",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "tapered-trousers",
+        "treatment": "clean-seaming"
+      },
+      "subcategory": "tapered-trousers",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-bottoms-base-tapered-trousers-structured-volume",
+      "semantic_key": "wardrobe-bottoms-base-tapered-trousers-structured-volume",
+      "text": "tapered trousers with structured volume",
+      "sentence": "Tapered trousers with structured volume.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "tapered trousers with structured volume",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing tapered trousers with structured volume",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with tapered trousers with structured volume",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-bottoms-base-tapered-trousers",
+      "tags": [
+        "base",
+        "bottoms",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "tapered-trousers",
+        "treatment": "structured-volume"
+      },
+      "subcategory": "tapered-trousers",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-bottoms-base-tapered-trousers-fluid-movement",
+      "semantic_key": "wardrobe-bottoms-base-tapered-trousers-fluid-movement",
+      "text": "tapered trousers with fluid movement",
+      "sentence": "Tapered trousers with fluid movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "tapered trousers with fluid movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing tapered trousers with fluid movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with tapered trousers with fluid movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-bottoms-base-tapered-trousers",
+      "tags": [
+        "base",
+        "bottoms",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "tapered-trousers",
+        "treatment": "fluid-movement"
+      },
+      "subcategory": "tapered-trousers",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-bottoms-base-tapered-trousers-practical-detailing",
+      "semantic_key": "wardrobe-bottoms-base-tapered-trousers-practical-detailing",
+      "text": "tapered trousers with practical detailing",
+      "sentence": "Tapered trousers with practical detailing.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "tapered trousers with practical detailing",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing tapered trousers with practical detailing",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with tapered trousers with practical detailing",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-bottoms-base-tapered-trousers",
+      "tags": [
+        "base",
+        "bottoms",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "tapered-trousers",
+        "treatment": "practical-detailing"
+      },
+      "subcategory": "tapered-trousers",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-bottoms-base-tapered-trousers-minimal-construction",
+      "semantic_key": "wardrobe-bottoms-base-tapered-trousers-minimal-construction",
+      "text": "tapered trousers with minimal construction",
+      "sentence": "Tapered trousers with minimal construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "tapered trousers with minimal construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing tapered trousers with minimal construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with tapered trousers with minimal construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-bottoms-base-tapered-trousers",
+      "tags": [
+        "base",
+        "bottoms",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "tapered-trousers",
+        "treatment": "minimal-construction"
+      },
+      "subcategory": "tapered-trousers",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-bottoms-base-tailored-shorts-precise-tailoring",
+      "semantic_key": "wardrobe-bottoms-base-tailored-shorts-precise-tailoring",
+      "text": "tailored shorts with precise tailoring",
+      "sentence": "Tailored shorts with precise tailoring.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "tailored shorts with precise tailoring",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing tailored shorts with precise tailoring",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with tailored shorts with precise tailoring",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-bottoms-base-tailored-shorts",
+      "tags": [
+        "base",
+        "bottoms",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "tailored-shorts",
+        "treatment": "precise-tailoring"
+      },
+      "subcategory": "tailored-shorts",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-bottoms-base-tailored-shorts-relaxed-drape",
+      "semantic_key": "wardrobe-bottoms-base-tailored-shorts-relaxed-drape",
+      "text": "tailored shorts with relaxed drape",
+      "sentence": "Tailored shorts with relaxed drape.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "tailored shorts with relaxed drape",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing tailored shorts with relaxed drape",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with tailored shorts with relaxed drape",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-bottoms-base-tailored-shorts",
+      "tags": [
+        "base",
+        "bottoms",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "tailored-shorts",
+        "treatment": "relaxed-drape"
+      },
+      "subcategory": "tailored-shorts",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-bottoms-base-tailored-shorts-layered-construction",
+      "semantic_key": "wardrobe-bottoms-base-tailored-shorts-layered-construction",
+      "text": "tailored shorts with layered construction",
+      "sentence": "Tailored shorts with layered construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "tailored shorts with layered construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing tailored shorts with layered construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with tailored shorts with layered construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-bottoms-base-tailored-shorts",
+      "tags": [
+        "base",
+        "bottoms",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "tailored-shorts",
+        "treatment": "layered-construction"
+      },
+      "subcategory": "tailored-shorts",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-bottoms-base-tailored-shorts-clean-seaming",
+      "semantic_key": "wardrobe-bottoms-base-tailored-shorts-clean-seaming",
+      "text": "tailored shorts with clean seaming",
+      "sentence": "Tailored shorts with clean seaming.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "tailored shorts with clean seaming",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing tailored shorts with clean seaming",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with tailored shorts with clean seaming",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-bottoms-base-tailored-shorts",
+      "tags": [
+        "base",
+        "bottoms",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "tailored-shorts",
+        "treatment": "clean-seaming"
+      },
+      "subcategory": "tailored-shorts",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-bottoms-base-tailored-shorts-structured-volume",
+      "semantic_key": "wardrobe-bottoms-base-tailored-shorts-structured-volume",
+      "text": "tailored shorts with structured volume",
+      "sentence": "Tailored shorts with structured volume.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "tailored shorts with structured volume",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing tailored shorts with structured volume",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with tailored shorts with structured volume",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-bottoms-base-tailored-shorts",
+      "tags": [
+        "base",
+        "bottoms",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "tailored-shorts",
+        "treatment": "structured-volume"
+      },
+      "subcategory": "tailored-shorts",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-bottoms-base-tailored-shorts-fluid-movement",
+      "semantic_key": "wardrobe-bottoms-base-tailored-shorts-fluid-movement",
+      "text": "tailored shorts with fluid movement",
+      "sentence": "Tailored shorts with fluid movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "tailored shorts with fluid movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing tailored shorts with fluid movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with tailored shorts with fluid movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-bottoms-base-tailored-shorts",
+      "tags": [
+        "base",
+        "bottoms",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "tailored-shorts",
+        "treatment": "fluid-movement"
+      },
+      "subcategory": "tailored-shorts",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-bottoms-base-tailored-shorts-practical-detailing",
+      "semantic_key": "wardrobe-bottoms-base-tailored-shorts-practical-detailing",
+      "text": "tailored shorts with practical detailing",
+      "sentence": "Tailored shorts with practical detailing.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "tailored shorts with practical detailing",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing tailored shorts with practical detailing",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with tailored shorts with practical detailing",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-bottoms-base-tailored-shorts",
+      "tags": [
+        "base",
+        "bottoms",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "tailored-shorts",
+        "treatment": "practical-detailing"
+      },
+      "subcategory": "tailored-shorts",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-bottoms-base-tailored-shorts-minimal-construction",
+      "semantic_key": "wardrobe-bottoms-base-tailored-shorts-minimal-construction",
+      "text": "tailored shorts with minimal construction",
+      "sentence": "Tailored shorts with minimal construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "tailored shorts with minimal construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing tailored shorts with minimal construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with tailored shorts with minimal construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-bottoms-base-tailored-shorts",
+      "tags": [
+        "base",
+        "bottoms",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "tailored-shorts",
+        "treatment": "minimal-construction"
+      },
+      "subcategory": "tailored-shorts",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-bottoms-base-midi-skirt-precise-tailoring",
+      "semantic_key": "wardrobe-bottoms-base-midi-skirt-precise-tailoring",
+      "text": "midi skirt with precise tailoring",
+      "sentence": "Midi skirt with precise tailoring.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "midi skirt with precise tailoring",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing midi skirt with precise tailoring",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with midi skirt with precise tailoring",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-bottoms-base-midi-skirt",
+      "tags": [
+        "base",
+        "bottoms",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "midi-skirt",
+        "treatment": "precise-tailoring"
+      },
+      "subcategory": "midi-skirt",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-bottoms-base-midi-skirt-relaxed-drape",
+      "semantic_key": "wardrobe-bottoms-base-midi-skirt-relaxed-drape",
+      "text": "midi skirt with relaxed drape",
+      "sentence": "Midi skirt with relaxed drape.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "midi skirt with relaxed drape",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing midi skirt with relaxed drape",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with midi skirt with relaxed drape",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-bottoms-base-midi-skirt",
+      "tags": [
+        "base",
+        "bottoms",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "midi-skirt",
+        "treatment": "relaxed-drape"
+      },
+      "subcategory": "midi-skirt",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-bottoms-base-midi-skirt-layered-construction",
+      "semantic_key": "wardrobe-bottoms-base-midi-skirt-layered-construction",
+      "text": "midi skirt with layered construction",
+      "sentence": "Midi skirt with layered construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "midi skirt with layered construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing midi skirt with layered construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with midi skirt with layered construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-bottoms-base-midi-skirt",
+      "tags": [
+        "base",
+        "bottoms",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "midi-skirt",
+        "treatment": "layered-construction"
+      },
+      "subcategory": "midi-skirt",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-bottoms-base-midi-skirt-clean-seaming",
+      "semantic_key": "wardrobe-bottoms-base-midi-skirt-clean-seaming",
+      "text": "midi skirt with clean seaming",
+      "sentence": "Midi skirt with clean seaming.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "midi skirt with clean seaming",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing midi skirt with clean seaming",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with midi skirt with clean seaming",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-bottoms-base-midi-skirt",
+      "tags": [
+        "base",
+        "bottoms",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "midi-skirt",
+        "treatment": "clean-seaming"
+      },
+      "subcategory": "midi-skirt",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-bottoms-base-midi-skirt-structured-volume",
+      "semantic_key": "wardrobe-bottoms-base-midi-skirt-structured-volume",
+      "text": "midi skirt with structured volume",
+      "sentence": "Midi skirt with structured volume.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "midi skirt with structured volume",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing midi skirt with structured volume",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with midi skirt with structured volume",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-bottoms-base-midi-skirt",
+      "tags": [
+        "base",
+        "bottoms",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "midi-skirt",
+        "treatment": "structured-volume"
+      },
+      "subcategory": "midi-skirt",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-bottoms-base-midi-skirt-fluid-movement",
+      "semantic_key": "wardrobe-bottoms-base-midi-skirt-fluid-movement",
+      "text": "midi skirt with fluid movement",
+      "sentence": "Midi skirt with fluid movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "midi skirt with fluid movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing midi skirt with fluid movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with midi skirt with fluid movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-bottoms-base-midi-skirt",
+      "tags": [
+        "base",
+        "bottoms",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "midi-skirt",
+        "treatment": "fluid-movement"
+      },
+      "subcategory": "midi-skirt",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-bottoms-base-midi-skirt-practical-detailing",
+      "semantic_key": "wardrobe-bottoms-base-midi-skirt-practical-detailing",
+      "text": "midi skirt with practical detailing",
+      "sentence": "Midi skirt with practical detailing.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "midi skirt with practical detailing",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing midi skirt with practical detailing",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with midi skirt with practical detailing",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-bottoms-base-midi-skirt",
+      "tags": [
+        "base",
+        "bottoms",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "midi-skirt",
+        "treatment": "practical-detailing"
+      },
+      "subcategory": "midi-skirt",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-bottoms-base-midi-skirt-minimal-construction",
+      "semantic_key": "wardrobe-bottoms-base-midi-skirt-minimal-construction",
+      "text": "midi skirt with minimal construction",
+      "sentence": "Midi skirt with minimal construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "midi skirt with minimal construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing midi skirt with minimal construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with midi skirt with minimal construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-bottoms-base-midi-skirt",
+      "tags": [
+        "base",
+        "bottoms",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "midi-skirt",
+        "treatment": "minimal-construction"
+      },
+      "subcategory": "midi-skirt",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-bottoms-base-long-skirt-precise-tailoring",
+      "semantic_key": "wardrobe-bottoms-base-long-skirt-precise-tailoring",
+      "text": "long skirt with precise tailoring",
+      "sentence": "Long skirt with precise tailoring.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "long skirt with precise tailoring",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing long skirt with precise tailoring",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with long skirt with precise tailoring",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-bottoms-base-long-skirt",
+      "tags": [
+        "base",
+        "bottoms",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "long-skirt",
+        "treatment": "precise-tailoring"
+      },
+      "subcategory": "long-skirt",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-bottoms-base-long-skirt-relaxed-drape",
+      "semantic_key": "wardrobe-bottoms-base-long-skirt-relaxed-drape",
+      "text": "long skirt with relaxed drape",
+      "sentence": "Long skirt with relaxed drape.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "long skirt with relaxed drape",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing long skirt with relaxed drape",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with long skirt with relaxed drape",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-bottoms-base-long-skirt",
+      "tags": [
+        "base",
+        "bottoms",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "long-skirt",
+        "treatment": "relaxed-drape"
+      },
+      "subcategory": "long-skirt",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-bottoms-base-long-skirt-layered-construction",
+      "semantic_key": "wardrobe-bottoms-base-long-skirt-layered-construction",
+      "text": "long skirt with layered construction",
+      "sentence": "Long skirt with layered construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "long skirt with layered construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing long skirt with layered construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with long skirt with layered construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-bottoms-base-long-skirt",
+      "tags": [
+        "base",
+        "bottoms",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "long-skirt",
+        "treatment": "layered-construction"
+      },
+      "subcategory": "long-skirt",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-bottoms-base-long-skirt-clean-seaming",
+      "semantic_key": "wardrobe-bottoms-base-long-skirt-clean-seaming",
+      "text": "long skirt with clean seaming",
+      "sentence": "Long skirt with clean seaming.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "long skirt with clean seaming",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing long skirt with clean seaming",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with long skirt with clean seaming",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-bottoms-base-long-skirt",
+      "tags": [
+        "base",
+        "bottoms",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "long-skirt",
+        "treatment": "clean-seaming"
+      },
+      "subcategory": "long-skirt",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-bottoms-base-long-skirt-structured-volume",
+      "semantic_key": "wardrobe-bottoms-base-long-skirt-structured-volume",
+      "text": "long skirt with structured volume",
+      "sentence": "Long skirt with structured volume.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "long skirt with structured volume",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing long skirt with structured volume",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with long skirt with structured volume",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-bottoms-base-long-skirt",
+      "tags": [
+        "base",
+        "bottoms",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "long-skirt",
+        "treatment": "structured-volume"
+      },
+      "subcategory": "long-skirt",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-bottoms-base-long-skirt-fluid-movement",
+      "semantic_key": "wardrobe-bottoms-base-long-skirt-fluid-movement",
+      "text": "long skirt with fluid movement",
+      "sentence": "Long skirt with fluid movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "long skirt with fluid movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing long skirt with fluid movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with long skirt with fluid movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-bottoms-base-long-skirt",
+      "tags": [
+        "base",
+        "bottoms",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "long-skirt",
+        "treatment": "fluid-movement"
+      },
+      "subcategory": "long-skirt",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-bottoms-base-long-skirt-practical-detailing",
+      "semantic_key": "wardrobe-bottoms-base-long-skirt-practical-detailing",
+      "text": "long skirt with practical detailing",
+      "sentence": "Long skirt with practical detailing.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "long skirt with practical detailing",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing long skirt with practical detailing",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with long skirt with practical detailing",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-bottoms-base-long-skirt",
+      "tags": [
+        "base",
+        "bottoms",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "long-skirt",
+        "treatment": "practical-detailing"
+      },
+      "subcategory": "long-skirt",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-bottoms-base-long-skirt-minimal-construction",
+      "semantic_key": "wardrobe-bottoms-base-long-skirt-minimal-construction",
+      "text": "long skirt with minimal construction",
+      "sentence": "Long skirt with minimal construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "long skirt with minimal construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing long skirt with minimal construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with long skirt with minimal construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-bottoms-base-long-skirt",
+      "tags": [
+        "base",
+        "bottoms",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "long-skirt",
+        "treatment": "minimal-construction"
+      },
+      "subcategory": "long-skirt",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-bottoms-base-utility-trousers-precise-tailoring",
+      "semantic_key": "wardrobe-bottoms-base-utility-trousers-precise-tailoring",
+      "text": "utility trousers with precise tailoring",
+      "sentence": "Utility trousers with precise tailoring.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "utility trousers with precise tailoring",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing utility trousers with precise tailoring",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with utility trousers with precise tailoring",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-bottoms-base-utility-trousers",
+      "tags": [
+        "base",
+        "bottoms",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "utility-trousers",
+        "treatment": "precise-tailoring"
+      },
+      "subcategory": "utility-trousers",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-bottoms-base-utility-trousers-relaxed-drape",
+      "semantic_key": "wardrobe-bottoms-base-utility-trousers-relaxed-drape",
+      "text": "utility trousers with relaxed drape",
+      "sentence": "Utility trousers with relaxed drape.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "utility trousers with relaxed drape",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing utility trousers with relaxed drape",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with utility trousers with relaxed drape",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-bottoms-base-utility-trousers",
+      "tags": [
+        "base",
+        "bottoms",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "utility-trousers",
+        "treatment": "relaxed-drape"
+      },
+      "subcategory": "utility-trousers",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-bottoms-base-utility-trousers-layered-construction",
+      "semantic_key": "wardrobe-bottoms-base-utility-trousers-layered-construction",
+      "text": "utility trousers with layered construction",
+      "sentence": "Utility trousers with layered construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "utility trousers with layered construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing utility trousers with layered construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with utility trousers with layered construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-bottoms-base-utility-trousers",
+      "tags": [
+        "base",
+        "bottoms",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "utility-trousers",
+        "treatment": "layered-construction"
+      },
+      "subcategory": "utility-trousers",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-bottoms-base-utility-trousers-clean-seaming",
+      "semantic_key": "wardrobe-bottoms-base-utility-trousers-clean-seaming",
+      "text": "utility trousers with clean seaming",
+      "sentence": "Utility trousers with clean seaming.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "utility trousers with clean seaming",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing utility trousers with clean seaming",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with utility trousers with clean seaming",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-bottoms-base-utility-trousers",
+      "tags": [
+        "base",
+        "bottoms",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "utility-trousers",
+        "treatment": "clean-seaming"
+      },
+      "subcategory": "utility-trousers",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-bottoms-base-utility-trousers-structured-volume",
+      "semantic_key": "wardrobe-bottoms-base-utility-trousers-structured-volume",
+      "text": "utility trousers with structured volume",
+      "sentence": "Utility trousers with structured volume.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "utility trousers with structured volume",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing utility trousers with structured volume",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with utility trousers with structured volume",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-bottoms-base-utility-trousers",
+      "tags": [
+        "base",
+        "bottoms",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "utility-trousers",
+        "treatment": "structured-volume"
+      },
+      "subcategory": "utility-trousers",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-bottoms-base-utility-trousers-fluid-movement",
+      "semantic_key": "wardrobe-bottoms-base-utility-trousers-fluid-movement",
+      "text": "utility trousers with fluid movement",
+      "sentence": "Utility trousers with fluid movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "utility trousers with fluid movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing utility trousers with fluid movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with utility trousers with fluid movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-bottoms-base-utility-trousers",
+      "tags": [
+        "base",
+        "bottoms",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "utility-trousers",
+        "treatment": "fluid-movement"
+      },
+      "subcategory": "utility-trousers",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-bottoms-base-utility-trousers-practical-detailing",
+      "semantic_key": "wardrobe-bottoms-base-utility-trousers-practical-detailing",
+      "text": "utility trousers with practical detailing",
+      "sentence": "Utility trousers with practical detailing.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "utility trousers with practical detailing",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing utility trousers with practical detailing",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with utility trousers with practical detailing",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-bottoms-base-utility-trousers",
+      "tags": [
+        "base",
+        "bottoms",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "utility-trousers",
+        "treatment": "practical-detailing"
+      },
+      "subcategory": "utility-trousers",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-bottoms-base-utility-trousers-minimal-construction",
+      "semantic_key": "wardrobe-bottoms-base-utility-trousers-minimal-construction",
+      "text": "utility trousers with minimal construction",
+      "sentence": "Utility trousers with minimal construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "utility trousers with minimal construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing utility trousers with minimal construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with utility trousers with minimal construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-bottoms-base-utility-trousers",
+      "tags": [
+        "base",
+        "bottoms",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "utility-trousers",
+        "treatment": "minimal-construction"
+      },
+      "subcategory": "utility-trousers",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-bottoms-base-relaxed-jeans-precise-tailoring",
+      "semantic_key": "wardrobe-bottoms-base-relaxed-jeans-precise-tailoring",
+      "text": "relaxed jeans with precise tailoring",
+      "sentence": "Relaxed jeans with precise tailoring.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "relaxed jeans with precise tailoring",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing relaxed jeans with precise tailoring",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with relaxed jeans with precise tailoring",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-bottoms-base-relaxed-jeans",
+      "tags": [
+        "base",
+        "bottoms",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "relaxed-jeans",
+        "treatment": "precise-tailoring"
+      },
+      "subcategory": "relaxed-jeans",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-bottoms-base-relaxed-jeans-relaxed-drape",
+      "semantic_key": "wardrobe-bottoms-base-relaxed-jeans-relaxed-drape",
+      "text": "relaxed jeans with relaxed drape",
+      "sentence": "Relaxed jeans with relaxed drape.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "relaxed jeans with relaxed drape",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing relaxed jeans with relaxed drape",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with relaxed jeans with relaxed drape",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-bottoms-base-relaxed-jeans",
+      "tags": [
+        "base",
+        "bottoms",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "relaxed-jeans",
+        "treatment": "relaxed-drape"
+      },
+      "subcategory": "relaxed-jeans",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-bottoms-base-relaxed-jeans-layered-construction",
+      "semantic_key": "wardrobe-bottoms-base-relaxed-jeans-layered-construction",
+      "text": "relaxed jeans with layered construction",
+      "sentence": "Relaxed jeans with layered construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "relaxed jeans with layered construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing relaxed jeans with layered construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with relaxed jeans with layered construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-bottoms-base-relaxed-jeans",
+      "tags": [
+        "base",
+        "bottoms",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "relaxed-jeans",
+        "treatment": "layered-construction"
+      },
+      "subcategory": "relaxed-jeans",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-bottoms-base-relaxed-jeans-clean-seaming",
+      "semantic_key": "wardrobe-bottoms-base-relaxed-jeans-clean-seaming",
+      "text": "relaxed jeans with clean seaming",
+      "sentence": "Relaxed jeans with clean seaming.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "relaxed jeans with clean seaming",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing relaxed jeans with clean seaming",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with relaxed jeans with clean seaming",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-bottoms-base-relaxed-jeans",
+      "tags": [
+        "base",
+        "bottoms",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "relaxed-jeans",
+        "treatment": "clean-seaming"
+      },
+      "subcategory": "relaxed-jeans",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-bottoms-base-relaxed-jeans-structured-volume",
+      "semantic_key": "wardrobe-bottoms-base-relaxed-jeans-structured-volume",
+      "text": "relaxed jeans with structured volume",
+      "sentence": "Relaxed jeans with structured volume.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "relaxed jeans with structured volume",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing relaxed jeans with structured volume",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with relaxed jeans with structured volume",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-bottoms-base-relaxed-jeans",
+      "tags": [
+        "base",
+        "bottoms",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "relaxed-jeans",
+        "treatment": "structured-volume"
+      },
+      "subcategory": "relaxed-jeans",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-bottoms-base-relaxed-jeans-fluid-movement",
+      "semantic_key": "wardrobe-bottoms-base-relaxed-jeans-fluid-movement",
+      "text": "relaxed jeans with fluid movement",
+      "sentence": "Relaxed jeans with fluid movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "relaxed jeans with fluid movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing relaxed jeans with fluid movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with relaxed jeans with fluid movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-bottoms-base-relaxed-jeans",
+      "tags": [
+        "base",
+        "bottoms",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "relaxed-jeans",
+        "treatment": "fluid-movement"
+      },
+      "subcategory": "relaxed-jeans",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-bottoms-base-relaxed-jeans-practical-detailing",
+      "semantic_key": "wardrobe-bottoms-base-relaxed-jeans-practical-detailing",
+      "text": "relaxed jeans with practical detailing",
+      "sentence": "Relaxed jeans with practical detailing.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "relaxed jeans with practical detailing",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing relaxed jeans with practical detailing",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with relaxed jeans with practical detailing",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-bottoms-base-relaxed-jeans",
+      "tags": [
+        "base",
+        "bottoms",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "relaxed-jeans",
+        "treatment": "practical-detailing"
+      },
+      "subcategory": "relaxed-jeans",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-bottoms-base-relaxed-jeans-minimal-construction",
+      "semantic_key": "wardrobe-bottoms-base-relaxed-jeans-minimal-construction",
+      "text": "relaxed jeans with minimal construction",
+      "sentence": "Relaxed jeans with minimal construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "relaxed jeans with minimal construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing relaxed jeans with minimal construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with relaxed jeans with minimal construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-bottoms-base-relaxed-jeans",
+      "tags": [
+        "base",
+        "bottoms",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "relaxed-jeans",
+        "treatment": "minimal-construction"
+      },
+      "subcategory": "relaxed-jeans",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    }
+  ]
+}

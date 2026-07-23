@@ -1,0 +1,2801 @@
+{
+  "schema_version": "2.0",
+  "id": "hair-style-base",
+  "version": "2.0.0",
+  "library": "hair-style",
+  "domain": "hair",
+  "category": "hair-style",
+  "language": "en",
+  "status": "active",
+  "safety": "general",
+  "tags": [
+    "base"
+  ],
+  "fallback_option_id": "hair-style-base-loose-natural-style-precise-tailoring",
+  "options": [
+    {
+      "id": "hair-style-base-loose-natural-style-precise-tailoring",
+      "semantic_key": "hair-style-base-loose-natural-style-precise-tailoring",
+      "text": "a loose natural style shaped through precise tailoring",
+      "sentence": "A loose natural style shaped through precise tailoring.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a loose natural style shaped through precise tailoring",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a loose natural style shaped through precise tailoring",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a loose natural style shaped through precise tailoring",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-style-base-loose-natural-style",
+      "tags": [
+        "base",
+        "hair",
+        "hair-style",
+        "rarity-common"
+      ],
+      "facets": {
+        "style": "loose-natural-style",
+        "treatment": "precise-tailoring"
+      },
+      "subcategory": "loose-natural-style",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-style-base-loose-natural-style-relaxed-drape",
+      "semantic_key": "hair-style-base-loose-natural-style-relaxed-drape",
+      "text": "a loose natural style shaped through relaxed drape",
+      "sentence": "A loose natural style shaped through relaxed drape.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a loose natural style shaped through relaxed drape",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a loose natural style shaped through relaxed drape",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a loose natural style shaped through relaxed drape",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-style-base-loose-natural-style",
+      "tags": [
+        "base",
+        "hair",
+        "hair-style",
+        "rarity-common"
+      ],
+      "facets": {
+        "style": "loose-natural-style",
+        "treatment": "relaxed-drape"
+      },
+      "subcategory": "loose-natural-style",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-style-base-loose-natural-style-layered-construction",
+      "semantic_key": "hair-style-base-loose-natural-style-layered-construction",
+      "text": "a loose natural style shaped through layered construction",
+      "sentence": "A loose natural style shaped through layered construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a loose natural style shaped through layered construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a loose natural style shaped through layered construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a loose natural style shaped through layered construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-style-base-loose-natural-style",
+      "tags": [
+        "base",
+        "hair",
+        "hair-style",
+        "rarity-common"
+      ],
+      "facets": {
+        "style": "loose-natural-style",
+        "treatment": "layered-construction"
+      },
+      "subcategory": "loose-natural-style",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-style-base-loose-natural-style-clean-seaming",
+      "semantic_key": "hair-style-base-loose-natural-style-clean-seaming",
+      "text": "a loose natural style shaped through clean seaming",
+      "sentence": "A loose natural style shaped through clean seaming.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a loose natural style shaped through clean seaming",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a loose natural style shaped through clean seaming",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a loose natural style shaped through clean seaming",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-style-base-loose-natural-style",
+      "tags": [
+        "base",
+        "hair",
+        "hair-style",
+        "rarity-common"
+      ],
+      "facets": {
+        "style": "loose-natural-style",
+        "treatment": "clean-seaming"
+      },
+      "subcategory": "loose-natural-style",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-style-base-loose-natural-style-structured-volume",
+      "semantic_key": "hair-style-base-loose-natural-style-structured-volume",
+      "text": "a loose natural style shaped through structured volume",
+      "sentence": "A loose natural style shaped through structured volume.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a loose natural style shaped through structured volume",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a loose natural style shaped through structured volume",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a loose natural style shaped through structured volume",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-style-base-loose-natural-style",
+      "tags": [
+        "base",
+        "hair",
+        "hair-style",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "style": "loose-natural-style",
+        "treatment": "structured-volume"
+      },
+      "subcategory": "loose-natural-style",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-style-base-loose-natural-style-fluid-movement",
+      "semantic_key": "hair-style-base-loose-natural-style-fluid-movement",
+      "text": "a loose natural style shaped through fluid movement",
+      "sentence": "A loose natural style shaped through fluid movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a loose natural style shaped through fluid movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a loose natural style shaped through fluid movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a loose natural style shaped through fluid movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-style-base-loose-natural-style",
+      "tags": [
+        "base",
+        "hair",
+        "hair-style",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "style": "loose-natural-style",
+        "treatment": "fluid-movement"
+      },
+      "subcategory": "loose-natural-style",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-style-base-loose-natural-style-practical-detailing",
+      "semantic_key": "hair-style-base-loose-natural-style-practical-detailing",
+      "text": "a loose natural style shaped through practical detailing",
+      "sentence": "A loose natural style shaped through practical detailing.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a loose natural style shaped through practical detailing",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a loose natural style shaped through practical detailing",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a loose natural style shaped through practical detailing",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-style-base-loose-natural-style",
+      "tags": [
+        "base",
+        "hair",
+        "hair-style",
+        "rarity-rare"
+      ],
+      "facets": {
+        "style": "loose-natural-style",
+        "treatment": "practical-detailing"
+      },
+      "subcategory": "loose-natural-style",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-style-base-loose-natural-style-minimal-construction",
+      "semantic_key": "hair-style-base-loose-natural-style-minimal-construction",
+      "text": "a loose natural style shaped through minimal construction",
+      "sentence": "A loose natural style shaped through minimal construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a loose natural style shaped through minimal construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a loose natural style shaped through minimal construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a loose natural style shaped through minimal construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-style-base-loose-natural-style",
+      "tags": [
+        "base",
+        "hair",
+        "hair-style",
+        "rarity-rare"
+      ],
+      "facets": {
+        "style": "loose-natural-style",
+        "treatment": "minimal-construction"
+      },
+      "subcategory": "loose-natural-style",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-style-base-center-parted-style-precise-tailoring",
+      "semantic_key": "hair-style-base-center-parted-style-precise-tailoring",
+      "text": "a center-parted style shaped through precise tailoring",
+      "sentence": "A center-parted style shaped through precise tailoring.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a center-parted style shaped through precise tailoring",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a center-parted style shaped through precise tailoring",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a center-parted style shaped through precise tailoring",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-style-base-center-parted-style",
+      "tags": [
+        "base",
+        "hair",
+        "hair-style",
+        "rarity-common"
+      ],
+      "facets": {
+        "style": "center-parted-style",
+        "treatment": "precise-tailoring"
+      },
+      "subcategory": "center-parted-style",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-style-base-center-parted-style-relaxed-drape",
+      "semantic_key": "hair-style-base-center-parted-style-relaxed-drape",
+      "text": "a center-parted style shaped through relaxed drape",
+      "sentence": "A center-parted style shaped through relaxed drape.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a center-parted style shaped through relaxed drape",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a center-parted style shaped through relaxed drape",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a center-parted style shaped through relaxed drape",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-style-base-center-parted-style",
+      "tags": [
+        "base",
+        "hair",
+        "hair-style",
+        "rarity-common"
+      ],
+      "facets": {
+        "style": "center-parted-style",
+        "treatment": "relaxed-drape"
+      },
+      "subcategory": "center-parted-style",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-style-base-center-parted-style-layered-construction",
+      "semantic_key": "hair-style-base-center-parted-style-layered-construction",
+      "text": "a center-parted style shaped through layered construction",
+      "sentence": "A center-parted style shaped through layered construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a center-parted style shaped through layered construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a center-parted style shaped through layered construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a center-parted style shaped through layered construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-style-base-center-parted-style",
+      "tags": [
+        "base",
+        "hair",
+        "hair-style",
+        "rarity-common"
+      ],
+      "facets": {
+        "style": "center-parted-style",
+        "treatment": "layered-construction"
+      },
+      "subcategory": "center-parted-style",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-style-base-center-parted-style-clean-seaming",
+      "semantic_key": "hair-style-base-center-parted-style-clean-seaming",
+      "text": "a center-parted style shaped through clean seaming",
+      "sentence": "A center-parted style shaped through clean seaming.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a center-parted style shaped through clean seaming",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a center-parted style shaped through clean seaming",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a center-parted style shaped through clean seaming",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-style-base-center-parted-style",
+      "tags": [
+        "base",
+        "hair",
+        "hair-style",
+        "rarity-common"
+      ],
+      "facets": {
+        "style": "center-parted-style",
+        "treatment": "clean-seaming"
+      },
+      "subcategory": "center-parted-style",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-style-base-center-parted-style-structured-volume",
+      "semantic_key": "hair-style-base-center-parted-style-structured-volume",
+      "text": "a center-parted style shaped through structured volume",
+      "sentence": "A center-parted style shaped through structured volume.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a center-parted style shaped through structured volume",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a center-parted style shaped through structured volume",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a center-parted style shaped through structured volume",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-style-base-center-parted-style",
+      "tags": [
+        "base",
+        "hair",
+        "hair-style",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "style": "center-parted-style",
+        "treatment": "structured-volume"
+      },
+      "subcategory": "center-parted-style",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-style-base-center-parted-style-fluid-movement",
+      "semantic_key": "hair-style-base-center-parted-style-fluid-movement",
+      "text": "a center-parted style shaped through fluid movement",
+      "sentence": "A center-parted style shaped through fluid movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a center-parted style shaped through fluid movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a center-parted style shaped through fluid movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a center-parted style shaped through fluid movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-style-base-center-parted-style",
+      "tags": [
+        "base",
+        "hair",
+        "hair-style",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "style": "center-parted-style",
+        "treatment": "fluid-movement"
+      },
+      "subcategory": "center-parted-style",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-style-base-center-parted-style-practical-detailing",
+      "semantic_key": "hair-style-base-center-parted-style-practical-detailing",
+      "text": "a center-parted style shaped through practical detailing",
+      "sentence": "A center-parted style shaped through practical detailing.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a center-parted style shaped through practical detailing",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a center-parted style shaped through practical detailing",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a center-parted style shaped through practical detailing",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-style-base-center-parted-style",
+      "tags": [
+        "base",
+        "hair",
+        "hair-style",
+        "rarity-rare"
+      ],
+      "facets": {
+        "style": "center-parted-style",
+        "treatment": "practical-detailing"
+      },
+      "subcategory": "center-parted-style",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-style-base-center-parted-style-minimal-construction",
+      "semantic_key": "hair-style-base-center-parted-style-minimal-construction",
+      "text": "a center-parted style shaped through minimal construction",
+      "sentence": "A center-parted style shaped through minimal construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a center-parted style shaped through minimal construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a center-parted style shaped through minimal construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a center-parted style shaped through minimal construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-style-base-center-parted-style",
+      "tags": [
+        "base",
+        "hair",
+        "hair-style",
+        "rarity-rare"
+      ],
+      "facets": {
+        "style": "center-parted-style",
+        "treatment": "minimal-construction"
+      },
+      "subcategory": "center-parted-style",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-style-base-side-parted-style-precise-tailoring",
+      "semantic_key": "hair-style-base-side-parted-style-precise-tailoring",
+      "text": "a side-parted style shaped through precise tailoring",
+      "sentence": "A side-parted style shaped through precise tailoring.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a side-parted style shaped through precise tailoring",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a side-parted style shaped through precise tailoring",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a side-parted style shaped through precise tailoring",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-style-base-side-parted-style",
+      "tags": [
+        "base",
+        "hair",
+        "hair-style",
+        "rarity-common"
+      ],
+      "facets": {
+        "style": "side-parted-style",
+        "treatment": "precise-tailoring"
+      },
+      "subcategory": "side-parted-style",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-style-base-side-parted-style-relaxed-drape",
+      "semantic_key": "hair-style-base-side-parted-style-relaxed-drape",
+      "text": "a side-parted style shaped through relaxed drape",
+      "sentence": "A side-parted style shaped through relaxed drape.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a side-parted style shaped through relaxed drape",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a side-parted style shaped through relaxed drape",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a side-parted style shaped through relaxed drape",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-style-base-side-parted-style",
+      "tags": [
+        "base",
+        "hair",
+        "hair-style",
+        "rarity-common"
+      ],
+      "facets": {
+        "style": "side-parted-style",
+        "treatment": "relaxed-drape"
+      },
+      "subcategory": "side-parted-style",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-style-base-side-parted-style-layered-construction",
+      "semantic_key": "hair-style-base-side-parted-style-layered-construction",
+      "text": "a side-parted style shaped through layered construction",
+      "sentence": "A side-parted style shaped through layered construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a side-parted style shaped through layered construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a side-parted style shaped through layered construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a side-parted style shaped through layered construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-style-base-side-parted-style",
+      "tags": [
+        "base",
+        "hair",
+        "hair-style",
+        "rarity-common"
+      ],
+      "facets": {
+        "style": "side-parted-style",
+        "treatment": "layered-construction"
+      },
+      "subcategory": "side-parted-style",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-style-base-side-parted-style-clean-seaming",
+      "semantic_key": "hair-style-base-side-parted-style-clean-seaming",
+      "text": "a side-parted style shaped through clean seaming",
+      "sentence": "A side-parted style shaped through clean seaming.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a side-parted style shaped through clean seaming",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a side-parted style shaped through clean seaming",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a side-parted style shaped through clean seaming",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-style-base-side-parted-style",
+      "tags": [
+        "base",
+        "hair",
+        "hair-style",
+        "rarity-common"
+      ],
+      "facets": {
+        "style": "side-parted-style",
+        "treatment": "clean-seaming"
+      },
+      "subcategory": "side-parted-style",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-style-base-side-parted-style-structured-volume",
+      "semantic_key": "hair-style-base-side-parted-style-structured-volume",
+      "text": "a side-parted style shaped through structured volume",
+      "sentence": "A side-parted style shaped through structured volume.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a side-parted style shaped through structured volume",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a side-parted style shaped through structured volume",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a side-parted style shaped through structured volume",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-style-base-side-parted-style",
+      "tags": [
+        "base",
+        "hair",
+        "hair-style",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "style": "side-parted-style",
+        "treatment": "structured-volume"
+      },
+      "subcategory": "side-parted-style",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-style-base-side-parted-style-fluid-movement",
+      "semantic_key": "hair-style-base-side-parted-style-fluid-movement",
+      "text": "a side-parted style shaped through fluid movement",
+      "sentence": "A side-parted style shaped through fluid movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a side-parted style shaped through fluid movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a side-parted style shaped through fluid movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a side-parted style shaped through fluid movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-style-base-side-parted-style",
+      "tags": [
+        "base",
+        "hair",
+        "hair-style",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "style": "side-parted-style",
+        "treatment": "fluid-movement"
+      },
+      "subcategory": "side-parted-style",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-style-base-side-parted-style-practical-detailing",
+      "semantic_key": "hair-style-base-side-parted-style-practical-detailing",
+      "text": "a side-parted style shaped through practical detailing",
+      "sentence": "A side-parted style shaped through practical detailing.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a side-parted style shaped through practical detailing",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a side-parted style shaped through practical detailing",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a side-parted style shaped through practical detailing",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-style-base-side-parted-style",
+      "tags": [
+        "base",
+        "hair",
+        "hair-style",
+        "rarity-rare"
+      ],
+      "facets": {
+        "style": "side-parted-style",
+        "treatment": "practical-detailing"
+      },
+      "subcategory": "side-parted-style",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-style-base-side-parted-style-minimal-construction",
+      "semantic_key": "hair-style-base-side-parted-style-minimal-construction",
+      "text": "a side-parted style shaped through minimal construction",
+      "sentence": "A side-parted style shaped through minimal construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a side-parted style shaped through minimal construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a side-parted style shaped through minimal construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a side-parted style shaped through minimal construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-style-base-side-parted-style",
+      "tags": [
+        "base",
+        "hair",
+        "hair-style",
+        "rarity-rare"
+      ],
+      "facets": {
+        "style": "side-parted-style",
+        "treatment": "minimal-construction"
+      },
+      "subcategory": "side-parted-style",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-style-base-low-ponytail-precise-tailoring",
+      "semantic_key": "hair-style-base-low-ponytail-precise-tailoring",
+      "text": "a low ponytail shaped through precise tailoring",
+      "sentence": "A low ponytail shaped through precise tailoring.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a low ponytail shaped through precise tailoring",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a low ponytail shaped through precise tailoring",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a low ponytail shaped through precise tailoring",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-style-base-low-ponytail",
+      "tags": [
+        "base",
+        "hair",
+        "hair-style",
+        "rarity-common"
+      ],
+      "facets": {
+        "style": "low-ponytail",
+        "treatment": "precise-tailoring"
+      },
+      "subcategory": "low-ponytail",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence",
+      "requires": [
+        {
+          "field": "hair-length",
+          "operator": "contains_tag",
+          "value": "hair-long"
+        }
+      ]
+    },
+    {
+      "id": "hair-style-base-low-ponytail-relaxed-drape",
+      "semantic_key": "hair-style-base-low-ponytail-relaxed-drape",
+      "text": "a low ponytail shaped through relaxed drape",
+      "sentence": "A low ponytail shaped through relaxed drape.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a low ponytail shaped through relaxed drape",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a low ponytail shaped through relaxed drape",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a low ponytail shaped through relaxed drape",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-style-base-low-ponytail",
+      "tags": [
+        "base",
+        "hair",
+        "hair-style",
+        "rarity-common"
+      ],
+      "facets": {
+        "style": "low-ponytail",
+        "treatment": "relaxed-drape"
+      },
+      "subcategory": "low-ponytail",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence",
+      "requires": [
+        {
+          "field": "hair-length",
+          "operator": "contains_tag",
+          "value": "hair-long"
+        }
+      ]
+    },
+    {
+      "id": "hair-style-base-low-ponytail-layered-construction",
+      "semantic_key": "hair-style-base-low-ponytail-layered-construction",
+      "text": "a low ponytail shaped through layered construction",
+      "sentence": "A low ponytail shaped through layered construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a low ponytail shaped through layered construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a low ponytail shaped through layered construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a low ponytail shaped through layered construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-style-base-low-ponytail",
+      "tags": [
+        "base",
+        "hair",
+        "hair-style",
+        "rarity-common"
+      ],
+      "facets": {
+        "style": "low-ponytail",
+        "treatment": "layered-construction"
+      },
+      "subcategory": "low-ponytail",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence",
+      "requires": [
+        {
+          "field": "hair-length",
+          "operator": "contains_tag",
+          "value": "hair-long"
+        }
+      ]
+    },
+    {
+      "id": "hair-style-base-low-ponytail-clean-seaming",
+      "semantic_key": "hair-style-base-low-ponytail-clean-seaming",
+      "text": "a low ponytail shaped through clean seaming",
+      "sentence": "A low ponytail shaped through clean seaming.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a low ponytail shaped through clean seaming",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a low ponytail shaped through clean seaming",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a low ponytail shaped through clean seaming",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-style-base-low-ponytail",
+      "tags": [
+        "base",
+        "hair",
+        "hair-style",
+        "rarity-common"
+      ],
+      "facets": {
+        "style": "low-ponytail",
+        "treatment": "clean-seaming"
+      },
+      "subcategory": "low-ponytail",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence",
+      "requires": [
+        {
+          "field": "hair-length",
+          "operator": "contains_tag",
+          "value": "hair-long"
+        }
+      ]
+    },
+    {
+      "id": "hair-style-base-low-ponytail-structured-volume",
+      "semantic_key": "hair-style-base-low-ponytail-structured-volume",
+      "text": "a low ponytail shaped through structured volume",
+      "sentence": "A low ponytail shaped through structured volume.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a low ponytail shaped through structured volume",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a low ponytail shaped through structured volume",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a low ponytail shaped through structured volume",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-style-base-low-ponytail",
+      "tags": [
+        "base",
+        "hair",
+        "hair-style",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "style": "low-ponytail",
+        "treatment": "structured-volume"
+      },
+      "subcategory": "low-ponytail",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence",
+      "requires": [
+        {
+          "field": "hair-length",
+          "operator": "contains_tag",
+          "value": "hair-long"
+        }
+      ]
+    },
+    {
+      "id": "hair-style-base-low-ponytail-fluid-movement",
+      "semantic_key": "hair-style-base-low-ponytail-fluid-movement",
+      "text": "a low ponytail shaped through fluid movement",
+      "sentence": "A low ponytail shaped through fluid movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a low ponytail shaped through fluid movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a low ponytail shaped through fluid movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a low ponytail shaped through fluid movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-style-base-low-ponytail",
+      "tags": [
+        "base",
+        "hair",
+        "hair-style",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "style": "low-ponytail",
+        "treatment": "fluid-movement"
+      },
+      "subcategory": "low-ponytail",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence",
+      "requires": [
+        {
+          "field": "hair-length",
+          "operator": "contains_tag",
+          "value": "hair-long"
+        }
+      ]
+    },
+    {
+      "id": "hair-style-base-low-ponytail-practical-detailing",
+      "semantic_key": "hair-style-base-low-ponytail-practical-detailing",
+      "text": "a low ponytail shaped through practical detailing",
+      "sentence": "A low ponytail shaped through practical detailing.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a low ponytail shaped through practical detailing",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a low ponytail shaped through practical detailing",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a low ponytail shaped through practical detailing",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-style-base-low-ponytail",
+      "tags": [
+        "base",
+        "hair",
+        "hair-style",
+        "rarity-rare"
+      ],
+      "facets": {
+        "style": "low-ponytail",
+        "treatment": "practical-detailing"
+      },
+      "subcategory": "low-ponytail",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence",
+      "requires": [
+        {
+          "field": "hair-length",
+          "operator": "contains_tag",
+          "value": "hair-long"
+        }
+      ]
+    },
+    {
+      "id": "hair-style-base-low-ponytail-minimal-construction",
+      "semantic_key": "hair-style-base-low-ponytail-minimal-construction",
+      "text": "a low ponytail shaped through minimal construction",
+      "sentence": "A low ponytail shaped through minimal construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a low ponytail shaped through minimal construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a low ponytail shaped through minimal construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a low ponytail shaped through minimal construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-style-base-low-ponytail",
+      "tags": [
+        "base",
+        "hair",
+        "hair-style",
+        "rarity-rare"
+      ],
+      "facets": {
+        "style": "low-ponytail",
+        "treatment": "minimal-construction"
+      },
+      "subcategory": "low-ponytail",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence",
+      "requires": [
+        {
+          "field": "hair-length",
+          "operator": "contains_tag",
+          "value": "hair-long"
+        }
+      ]
+    },
+    {
+      "id": "hair-style-base-high-ponytail-precise-tailoring",
+      "semantic_key": "hair-style-base-high-ponytail-precise-tailoring",
+      "text": "a high ponytail shaped through precise tailoring",
+      "sentence": "A high ponytail shaped through precise tailoring.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a high ponytail shaped through precise tailoring",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a high ponytail shaped through precise tailoring",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a high ponytail shaped through precise tailoring",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-style-base-high-ponytail",
+      "tags": [
+        "base",
+        "hair",
+        "hair-style",
+        "rarity-common"
+      ],
+      "facets": {
+        "style": "high-ponytail",
+        "treatment": "precise-tailoring"
+      },
+      "subcategory": "high-ponytail",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence",
+      "requires": [
+        {
+          "field": "hair-length",
+          "operator": "contains_tag",
+          "value": "hair-long"
+        }
+      ]
+    },
+    {
+      "id": "hair-style-base-high-ponytail-relaxed-drape",
+      "semantic_key": "hair-style-base-high-ponytail-relaxed-drape",
+      "text": "a high ponytail shaped through relaxed drape",
+      "sentence": "A high ponytail shaped through relaxed drape.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a high ponytail shaped through relaxed drape",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a high ponytail shaped through relaxed drape",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a high ponytail shaped through relaxed drape",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-style-base-high-ponytail",
+      "tags": [
+        "base",
+        "hair",
+        "hair-style",
+        "rarity-common"
+      ],
+      "facets": {
+        "style": "high-ponytail",
+        "treatment": "relaxed-drape"
+      },
+      "subcategory": "high-ponytail",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence",
+      "requires": [
+        {
+          "field": "hair-length",
+          "operator": "contains_tag",
+          "value": "hair-long"
+        }
+      ]
+    },
+    {
+      "id": "hair-style-base-high-ponytail-layered-construction",
+      "semantic_key": "hair-style-base-high-ponytail-layered-construction",
+      "text": "a high ponytail shaped through layered construction",
+      "sentence": "A high ponytail shaped through layered construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a high ponytail shaped through layered construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a high ponytail shaped through layered construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a high ponytail shaped through layered construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-style-base-high-ponytail",
+      "tags": [
+        "base",
+        "hair",
+        "hair-style",
+        "rarity-common"
+      ],
+      "facets": {
+        "style": "high-ponytail",
+        "treatment": "layered-construction"
+      },
+      "subcategory": "high-ponytail",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence",
+      "requires": [
+        {
+          "field": "hair-length",
+          "operator": "contains_tag",
+          "value": "hair-long"
+        }
+      ]
+    },
+    {
+      "id": "hair-style-base-high-ponytail-clean-seaming",
+      "semantic_key": "hair-style-base-high-ponytail-clean-seaming",
+      "text": "a high ponytail shaped through clean seaming",
+      "sentence": "A high ponytail shaped through clean seaming.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a high ponytail shaped through clean seaming",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a high ponytail shaped through clean seaming",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a high ponytail shaped through clean seaming",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-style-base-high-ponytail",
+      "tags": [
+        "base",
+        "hair",
+        "hair-style",
+        "rarity-common"
+      ],
+      "facets": {
+        "style": "high-ponytail",
+        "treatment": "clean-seaming"
+      },
+      "subcategory": "high-ponytail",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence",
+      "requires": [
+        {
+          "field": "hair-length",
+          "operator": "contains_tag",
+          "value": "hair-long"
+        }
+      ]
+    },
+    {
+      "id": "hair-style-base-high-ponytail-structured-volume",
+      "semantic_key": "hair-style-base-high-ponytail-structured-volume",
+      "text": "a high ponytail shaped through structured volume",
+      "sentence": "A high ponytail shaped through structured volume.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a high ponytail shaped through structured volume",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a high ponytail shaped through structured volume",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a high ponytail shaped through structured volume",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-style-base-high-ponytail",
+      "tags": [
+        "base",
+        "hair",
+        "hair-style",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "style": "high-ponytail",
+        "treatment": "structured-volume"
+      },
+      "subcategory": "high-ponytail",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence",
+      "requires": [
+        {
+          "field": "hair-length",
+          "operator": "contains_tag",
+          "value": "hair-long"
+        }
+      ]
+    },
+    {
+      "id": "hair-style-base-high-ponytail-fluid-movement",
+      "semantic_key": "hair-style-base-high-ponytail-fluid-movement",
+      "text": "a high ponytail shaped through fluid movement",
+      "sentence": "A high ponytail shaped through fluid movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a high ponytail shaped through fluid movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a high ponytail shaped through fluid movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a high ponytail shaped through fluid movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-style-base-high-ponytail",
+      "tags": [
+        "base",
+        "hair",
+        "hair-style",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "style": "high-ponytail",
+        "treatment": "fluid-movement"
+      },
+      "subcategory": "high-ponytail",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence",
+      "requires": [
+        {
+          "field": "hair-length",
+          "operator": "contains_tag",
+          "value": "hair-long"
+        }
+      ]
+    },
+    {
+      "id": "hair-style-base-high-ponytail-practical-detailing",
+      "semantic_key": "hair-style-base-high-ponytail-practical-detailing",
+      "text": "a high ponytail shaped through practical detailing",
+      "sentence": "A high ponytail shaped through practical detailing.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a high ponytail shaped through practical detailing",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a high ponytail shaped through practical detailing",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a high ponytail shaped through practical detailing",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-style-base-high-ponytail",
+      "tags": [
+        "base",
+        "hair",
+        "hair-style",
+        "rarity-rare"
+      ],
+      "facets": {
+        "style": "high-ponytail",
+        "treatment": "practical-detailing"
+      },
+      "subcategory": "high-ponytail",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence",
+      "requires": [
+        {
+          "field": "hair-length",
+          "operator": "contains_tag",
+          "value": "hair-long"
+        }
+      ]
+    },
+    {
+      "id": "hair-style-base-high-ponytail-minimal-construction",
+      "semantic_key": "hair-style-base-high-ponytail-minimal-construction",
+      "text": "a high ponytail shaped through minimal construction",
+      "sentence": "A high ponytail shaped through minimal construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a high ponytail shaped through minimal construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a high ponytail shaped through minimal construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a high ponytail shaped through minimal construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-style-base-high-ponytail",
+      "tags": [
+        "base",
+        "hair",
+        "hair-style",
+        "rarity-rare"
+      ],
+      "facets": {
+        "style": "high-ponytail",
+        "treatment": "minimal-construction"
+      },
+      "subcategory": "high-ponytail",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence",
+      "requires": [
+        {
+          "field": "hair-length",
+          "operator": "contains_tag",
+          "value": "hair-long"
+        }
+      ]
+    },
+    {
+      "id": "hair-style-base-low-bun-precise-tailoring",
+      "semantic_key": "hair-style-base-low-bun-precise-tailoring",
+      "text": "a low bun shaped through precise tailoring",
+      "sentence": "A low bun shaped through precise tailoring.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a low bun shaped through precise tailoring",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a low bun shaped through precise tailoring",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a low bun shaped through precise tailoring",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-style-base-low-bun",
+      "tags": [
+        "base",
+        "hair",
+        "hair-style",
+        "rarity-common"
+      ],
+      "facets": {
+        "style": "low-bun",
+        "treatment": "precise-tailoring"
+      },
+      "subcategory": "low-bun",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence",
+      "requires": [
+        {
+          "field": "hair-length",
+          "operator": "contains_tag",
+          "value": "hair-long"
+        }
+      ]
+    },
+    {
+      "id": "hair-style-base-low-bun-relaxed-drape",
+      "semantic_key": "hair-style-base-low-bun-relaxed-drape",
+      "text": "a low bun shaped through relaxed drape",
+      "sentence": "A low bun shaped through relaxed drape.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a low bun shaped through relaxed drape",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a low bun shaped through relaxed drape",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a low bun shaped through relaxed drape",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-style-base-low-bun",
+      "tags": [
+        "base",
+        "hair",
+        "hair-style",
+        "rarity-common"
+      ],
+      "facets": {
+        "style": "low-bun",
+        "treatment": "relaxed-drape"
+      },
+      "subcategory": "low-bun",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence",
+      "requires": [
+        {
+          "field": "hair-length",
+          "operator": "contains_tag",
+          "value": "hair-long"
+        }
+      ]
+    },
+    {
+      "id": "hair-style-base-low-bun-layered-construction",
+      "semantic_key": "hair-style-base-low-bun-layered-construction",
+      "text": "a low bun shaped through layered construction",
+      "sentence": "A low bun shaped through layered construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a low bun shaped through layered construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a low bun shaped through layered construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a low bun shaped through layered construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-style-base-low-bun",
+      "tags": [
+        "base",
+        "hair",
+        "hair-style",
+        "rarity-common"
+      ],
+      "facets": {
+        "style": "low-bun",
+        "treatment": "layered-construction"
+      },
+      "subcategory": "low-bun",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence",
+      "requires": [
+        {
+          "field": "hair-length",
+          "operator": "contains_tag",
+          "value": "hair-long"
+        }
+      ]
+    },
+    {
+      "id": "hair-style-base-low-bun-clean-seaming",
+      "semantic_key": "hair-style-base-low-bun-clean-seaming",
+      "text": "a low bun shaped through clean seaming",
+      "sentence": "A low bun shaped through clean seaming.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a low bun shaped through clean seaming",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a low bun shaped through clean seaming",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a low bun shaped through clean seaming",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-style-base-low-bun",
+      "tags": [
+        "base",
+        "hair",
+        "hair-style",
+        "rarity-common"
+      ],
+      "facets": {
+        "style": "low-bun",
+        "treatment": "clean-seaming"
+      },
+      "subcategory": "low-bun",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence",
+      "requires": [
+        {
+          "field": "hair-length",
+          "operator": "contains_tag",
+          "value": "hair-long"
+        }
+      ]
+    },
+    {
+      "id": "hair-style-base-low-bun-structured-volume",
+      "semantic_key": "hair-style-base-low-bun-structured-volume",
+      "text": "a low bun shaped through structured volume",
+      "sentence": "A low bun shaped through structured volume.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a low bun shaped through structured volume",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a low bun shaped through structured volume",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a low bun shaped through structured volume",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-style-base-low-bun",
+      "tags": [
+        "base",
+        "hair",
+        "hair-style",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "style": "low-bun",
+        "treatment": "structured-volume"
+      },
+      "subcategory": "low-bun",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence",
+      "requires": [
+        {
+          "field": "hair-length",
+          "operator": "contains_tag",
+          "value": "hair-long"
+        }
+      ]
+    },
+    {
+      "id": "hair-style-base-low-bun-fluid-movement",
+      "semantic_key": "hair-style-base-low-bun-fluid-movement",
+      "text": "a low bun shaped through fluid movement",
+      "sentence": "A low bun shaped through fluid movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a low bun shaped through fluid movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a low bun shaped through fluid movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a low bun shaped through fluid movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-style-base-low-bun",
+      "tags": [
+        "base",
+        "hair",
+        "hair-style",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "style": "low-bun",
+        "treatment": "fluid-movement"
+      },
+      "subcategory": "low-bun",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence",
+      "requires": [
+        {
+          "field": "hair-length",
+          "operator": "contains_tag",
+          "value": "hair-long"
+        }
+      ]
+    },
+    {
+      "id": "hair-style-base-low-bun-practical-detailing",
+      "semantic_key": "hair-style-base-low-bun-practical-detailing",
+      "text": "a low bun shaped through practical detailing",
+      "sentence": "A low bun shaped through practical detailing.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a low bun shaped through practical detailing",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a low bun shaped through practical detailing",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a low bun shaped through practical detailing",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-style-base-low-bun",
+      "tags": [
+        "base",
+        "hair",
+        "hair-style",
+        "rarity-rare"
+      ],
+      "facets": {
+        "style": "low-bun",
+        "treatment": "practical-detailing"
+      },
+      "subcategory": "low-bun",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence",
+      "requires": [
+        {
+          "field": "hair-length",
+          "operator": "contains_tag",
+          "value": "hair-long"
+        }
+      ]
+    },
+    {
+      "id": "hair-style-base-low-bun-minimal-construction",
+      "semantic_key": "hair-style-base-low-bun-minimal-construction",
+      "text": "a low bun shaped through minimal construction",
+      "sentence": "A low bun shaped through minimal construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a low bun shaped through minimal construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a low bun shaped through minimal construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a low bun shaped through minimal construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-style-base-low-bun",
+      "tags": [
+        "base",
+        "hair",
+        "hair-style",
+        "rarity-rare"
+      ],
+      "facets": {
+        "style": "low-bun",
+        "treatment": "minimal-construction"
+      },
+      "subcategory": "low-bun",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence",
+      "requires": [
+        {
+          "field": "hair-length",
+          "operator": "contains_tag",
+          "value": "hair-long"
+        }
+      ]
+    },
+    {
+      "id": "hair-style-base-braided-arrangement-precise-tailoring",
+      "semantic_key": "hair-style-base-braided-arrangement-precise-tailoring",
+      "text": "a braided arrangement shaped through precise tailoring",
+      "sentence": "A braided arrangement shaped through precise tailoring.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a braided arrangement shaped through precise tailoring",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a braided arrangement shaped through precise tailoring",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a braided arrangement shaped through precise tailoring",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-style-base-braided-arrangement",
+      "tags": [
+        "base",
+        "hair",
+        "hair-style",
+        "rarity-common"
+      ],
+      "facets": {
+        "style": "braided-arrangement",
+        "treatment": "precise-tailoring"
+      },
+      "subcategory": "braided-arrangement",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence",
+      "requires": [
+        {
+          "field": "hair-length",
+          "operator": "contains_tag",
+          "value": "hair-long"
+        }
+      ]
+    },
+    {
+      "id": "hair-style-base-braided-arrangement-relaxed-drape",
+      "semantic_key": "hair-style-base-braided-arrangement-relaxed-drape",
+      "text": "a braided arrangement shaped through relaxed drape",
+      "sentence": "A braided arrangement shaped through relaxed drape.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a braided arrangement shaped through relaxed drape",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a braided arrangement shaped through relaxed drape",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a braided arrangement shaped through relaxed drape",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-style-base-braided-arrangement",
+      "tags": [
+        "base",
+        "hair",
+        "hair-style",
+        "rarity-common"
+      ],
+      "facets": {
+        "style": "braided-arrangement",
+        "treatment": "relaxed-drape"
+      },
+      "subcategory": "braided-arrangement",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence",
+      "requires": [
+        {
+          "field": "hair-length",
+          "operator": "contains_tag",
+          "value": "hair-long"
+        }
+      ]
+    },
+    {
+      "id": "hair-style-base-braided-arrangement-layered-construction",
+      "semantic_key": "hair-style-base-braided-arrangement-layered-construction",
+      "text": "a braided arrangement shaped through layered construction",
+      "sentence": "A braided arrangement shaped through layered construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a braided arrangement shaped through layered construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a braided arrangement shaped through layered construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a braided arrangement shaped through layered construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-style-base-braided-arrangement",
+      "tags": [
+        "base",
+        "hair",
+        "hair-style",
+        "rarity-common"
+      ],
+      "facets": {
+        "style": "braided-arrangement",
+        "treatment": "layered-construction"
+      },
+      "subcategory": "braided-arrangement",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence",
+      "requires": [
+        {
+          "field": "hair-length",
+          "operator": "contains_tag",
+          "value": "hair-long"
+        }
+      ]
+    },
+    {
+      "id": "hair-style-base-braided-arrangement-clean-seaming",
+      "semantic_key": "hair-style-base-braided-arrangement-clean-seaming",
+      "text": "a braided arrangement shaped through clean seaming",
+      "sentence": "A braided arrangement shaped through clean seaming.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a braided arrangement shaped through clean seaming",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a braided arrangement shaped through clean seaming",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a braided arrangement shaped through clean seaming",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-style-base-braided-arrangement",
+      "tags": [
+        "base",
+        "hair",
+        "hair-style",
+        "rarity-common"
+      ],
+      "facets": {
+        "style": "braided-arrangement",
+        "treatment": "clean-seaming"
+      },
+      "subcategory": "braided-arrangement",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence",
+      "requires": [
+        {
+          "field": "hair-length",
+          "operator": "contains_tag",
+          "value": "hair-long"
+        }
+      ]
+    },
+    {
+      "id": "hair-style-base-braided-arrangement-structured-volume",
+      "semantic_key": "hair-style-base-braided-arrangement-structured-volume",
+      "text": "a braided arrangement shaped through structured volume",
+      "sentence": "A braided arrangement shaped through structured volume.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a braided arrangement shaped through structured volume",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a braided arrangement shaped through structured volume",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a braided arrangement shaped through structured volume",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-style-base-braided-arrangement",
+      "tags": [
+        "base",
+        "hair",
+        "hair-style",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "style": "braided-arrangement",
+        "treatment": "structured-volume"
+      },
+      "subcategory": "braided-arrangement",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence",
+      "requires": [
+        {
+          "field": "hair-length",
+          "operator": "contains_tag",
+          "value": "hair-long"
+        }
+      ]
+    },
+    {
+      "id": "hair-style-base-braided-arrangement-fluid-movement",
+      "semantic_key": "hair-style-base-braided-arrangement-fluid-movement",
+      "text": "a braided arrangement shaped through fluid movement",
+      "sentence": "A braided arrangement shaped through fluid movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a braided arrangement shaped through fluid movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a braided arrangement shaped through fluid movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a braided arrangement shaped through fluid movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-style-base-braided-arrangement",
+      "tags": [
+        "base",
+        "hair",
+        "hair-style",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "style": "braided-arrangement",
+        "treatment": "fluid-movement"
+      },
+      "subcategory": "braided-arrangement",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence",
+      "requires": [
+        {
+          "field": "hair-length",
+          "operator": "contains_tag",
+          "value": "hair-long"
+        }
+      ]
+    },
+    {
+      "id": "hair-style-base-braided-arrangement-practical-detailing",
+      "semantic_key": "hair-style-base-braided-arrangement-practical-detailing",
+      "text": "a braided arrangement shaped through practical detailing",
+      "sentence": "A braided arrangement shaped through practical detailing.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a braided arrangement shaped through practical detailing",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a braided arrangement shaped through practical detailing",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a braided arrangement shaped through practical detailing",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-style-base-braided-arrangement",
+      "tags": [
+        "base",
+        "hair",
+        "hair-style",
+        "rarity-rare"
+      ],
+      "facets": {
+        "style": "braided-arrangement",
+        "treatment": "practical-detailing"
+      },
+      "subcategory": "braided-arrangement",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence",
+      "requires": [
+        {
+          "field": "hair-length",
+          "operator": "contains_tag",
+          "value": "hair-long"
+        }
+      ]
+    },
+    {
+      "id": "hair-style-base-braided-arrangement-minimal-construction",
+      "semantic_key": "hair-style-base-braided-arrangement-minimal-construction",
+      "text": "a braided arrangement shaped through minimal construction",
+      "sentence": "A braided arrangement shaped through minimal construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a braided arrangement shaped through minimal construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a braided arrangement shaped through minimal construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a braided arrangement shaped through minimal construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-style-base-braided-arrangement",
+      "tags": [
+        "base",
+        "hair",
+        "hair-style",
+        "rarity-rare"
+      ],
+      "facets": {
+        "style": "braided-arrangement",
+        "treatment": "minimal-construction"
+      },
+      "subcategory": "braided-arrangement",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence",
+      "requires": [
+        {
+          "field": "hair-length",
+          "operator": "contains_tag",
+          "value": "hair-long"
+        }
+      ]
+    },
+    {
+      "id": "hair-style-base-layered-crop-precise-tailoring",
+      "semantic_key": "hair-style-base-layered-crop-precise-tailoring",
+      "text": "a layered crop shaped through precise tailoring",
+      "sentence": "A layered crop shaped through precise tailoring.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a layered crop shaped through precise tailoring",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a layered crop shaped through precise tailoring",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a layered crop shaped through precise tailoring",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-style-base-layered-crop",
+      "tags": [
+        "base",
+        "hair",
+        "hair-style",
+        "rarity-common"
+      ],
+      "facets": {
+        "style": "layered-crop",
+        "treatment": "precise-tailoring"
+      },
+      "subcategory": "layered-crop",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-style-base-layered-crop-relaxed-drape",
+      "semantic_key": "hair-style-base-layered-crop-relaxed-drape",
+      "text": "a layered crop shaped through relaxed drape",
+      "sentence": "A layered crop shaped through relaxed drape.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a layered crop shaped through relaxed drape",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a layered crop shaped through relaxed drape",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a layered crop shaped through relaxed drape",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-style-base-layered-crop",
+      "tags": [
+        "base",
+        "hair",
+        "hair-style",
+        "rarity-common"
+      ],
+      "facets": {
+        "style": "layered-crop",
+        "treatment": "relaxed-drape"
+      },
+      "subcategory": "layered-crop",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-style-base-layered-crop-layered-construction",
+      "semantic_key": "hair-style-base-layered-crop-layered-construction",
+      "text": "a layered crop shaped through layered construction",
+      "sentence": "A layered crop shaped through layered construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a layered crop shaped through layered construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a layered crop shaped through layered construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a layered crop shaped through layered construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-style-base-layered-crop",
+      "tags": [
+        "base",
+        "hair",
+        "hair-style",
+        "rarity-common"
+      ],
+      "facets": {
+        "style": "layered-crop",
+        "treatment": "layered-construction"
+      },
+      "subcategory": "layered-crop",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-style-base-layered-crop-clean-seaming",
+      "semantic_key": "hair-style-base-layered-crop-clean-seaming",
+      "text": "a layered crop shaped through clean seaming",
+      "sentence": "A layered crop shaped through clean seaming.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a layered crop shaped through clean seaming",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a layered crop shaped through clean seaming",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a layered crop shaped through clean seaming",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-style-base-layered-crop",
+      "tags": [
+        "base",
+        "hair",
+        "hair-style",
+        "rarity-common"
+      ],
+      "facets": {
+        "style": "layered-crop",
+        "treatment": "clean-seaming"
+      },
+      "subcategory": "layered-crop",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-style-base-layered-crop-structured-volume",
+      "semantic_key": "hair-style-base-layered-crop-structured-volume",
+      "text": "a layered crop shaped through structured volume",
+      "sentence": "A layered crop shaped through structured volume.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a layered crop shaped through structured volume",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a layered crop shaped through structured volume",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a layered crop shaped through structured volume",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-style-base-layered-crop",
+      "tags": [
+        "base",
+        "hair",
+        "hair-style",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "style": "layered-crop",
+        "treatment": "structured-volume"
+      },
+      "subcategory": "layered-crop",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-style-base-layered-crop-fluid-movement",
+      "semantic_key": "hair-style-base-layered-crop-fluid-movement",
+      "text": "a layered crop shaped through fluid movement",
+      "sentence": "A layered crop shaped through fluid movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a layered crop shaped through fluid movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a layered crop shaped through fluid movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a layered crop shaped through fluid movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-style-base-layered-crop",
+      "tags": [
+        "base",
+        "hair",
+        "hair-style",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "style": "layered-crop",
+        "treatment": "fluid-movement"
+      },
+      "subcategory": "layered-crop",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-style-base-layered-crop-practical-detailing",
+      "semantic_key": "hair-style-base-layered-crop-practical-detailing",
+      "text": "a layered crop shaped through practical detailing",
+      "sentence": "A layered crop shaped through practical detailing.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a layered crop shaped through practical detailing",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a layered crop shaped through practical detailing",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a layered crop shaped through practical detailing",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-style-base-layered-crop",
+      "tags": [
+        "base",
+        "hair",
+        "hair-style",
+        "rarity-rare"
+      ],
+      "facets": {
+        "style": "layered-crop",
+        "treatment": "practical-detailing"
+      },
+      "subcategory": "layered-crop",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-style-base-layered-crop-minimal-construction",
+      "semantic_key": "hair-style-base-layered-crop-minimal-construction",
+      "text": "a layered crop shaped through minimal construction",
+      "sentence": "A layered crop shaped through minimal construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a layered crop shaped through minimal construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a layered crop shaped through minimal construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a layered crop shaped through minimal construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-style-base-layered-crop",
+      "tags": [
+        "base",
+        "hair",
+        "hair-style",
+        "rarity-rare"
+      ],
+      "facets": {
+        "style": "layered-crop",
+        "treatment": "minimal-construction"
+      },
+      "subcategory": "layered-crop",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    }
+  ]
+}

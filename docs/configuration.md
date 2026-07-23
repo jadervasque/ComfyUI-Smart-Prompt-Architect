@@ -5,11 +5,11 @@ manifests. Unknown fields are rejected so misspellings and future semantic chang
 silently ignored. The executable parser uses only the Python standard library; JSON Schema files
 under `prompt_architect/data/schemas` document the interoperable shape.
 
-All IDs use lowercase kebab-case. Profiles, libraries, and manifests use schema `1.0`. New node
-configurations use schema `1.1`; legacy configuration `1.0` remains readable and is upgraded by the
-visual editor. Profile and library versions use semantic version syntax. Weights must be finite and
-non-negative; zero disables an option during random selection. Library fallback IDs must resolve
-inside the same library.
+All IDs use lowercase kebab-case. Official profiles, catalog packs and manifests use schema `2.0`;
+legacy profiles, libraries and manifests `1.0` remain readable. Node configurations use schema
+`1.1`, and the editor upgrades configurations from `1.0`. Profile, pack and catalog versions use semantic
+version syntax. Weights must be finite and non-negative; zero disables an option during random
+selection. Fallback IDs must resolve inside the effective logical library.
 
 Node configuration is portable JSON. It stores a profile ID and version, generation mode, master
 seed, optional group locks/seeds, per-field modes and tag filters, and prompt prefix/suffix
@@ -25,11 +25,11 @@ select or rewrite custom text.
 {
   "schema_version": "1.1",
   "profile_id": "virtual-model",
-  "profile_version": "1.0.0",
+  "profile_version": "2.0.0",
   "mode": "balanced",
   "master_seed": 42,
   "fields": {
-    "outfit": {
+    "wardrobe-theme": {
       "mode": "custom",
       "value": "They wear a bespoke emerald coat with brass buttons"
     }

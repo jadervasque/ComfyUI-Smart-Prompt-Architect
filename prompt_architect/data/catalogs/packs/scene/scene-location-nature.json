@@ -1,0 +1,2642 @@
+{
+  "schema_version": "2.0",
+  "id": "scene-location-nature",
+  "version": "2.0.0",
+  "library": "location",
+  "domain": "scene",
+  "category": "location",
+  "language": "en",
+  "status": "active",
+  "safety": "general",
+  "tags": [
+    "nature",
+    "outdoor"
+  ],
+  "fallback_option_id": "scene-location-nature-woodland-clearing-open-spatial-layout",
+  "options": [
+    {
+      "id": "scene-location-nature-woodland-clearing-open-spatial-layout",
+      "semantic_key": "scene-location-nature-woodland-clearing-open-spatial-layout",
+      "text": "a woodland clearing with open spatial layout",
+      "sentence": "A woodland clearing with open spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a woodland clearing with open spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a woodland clearing with open spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a woodland clearing with open spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-nature-woodland-clearing",
+      "tags": [
+        "location",
+        "nature",
+        "outdoor",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "woodland-clearing",
+        "treatment": "open-spatial-layout"
+      },
+      "subcategory": "woodland-clearing",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-nature-woodland-clearing-intimate-spatial-layout",
+      "semantic_key": "scene-location-nature-woodland-clearing-intimate-spatial-layout",
+      "text": "a woodland clearing with intimate spatial layout",
+      "sentence": "A woodland clearing with intimate spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a woodland clearing with intimate spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a woodland clearing with intimate spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a woodland clearing with intimate spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-nature-woodland-clearing",
+      "tags": [
+        "location",
+        "nature",
+        "outdoor",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "woodland-clearing",
+        "treatment": "intimate-spatial-layout"
+      },
+      "subcategory": "woodland-clearing",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-nature-woodland-clearing-layered-depth",
+      "semantic_key": "scene-location-nature-woodland-clearing-layered-depth",
+      "text": "a woodland clearing with layered depth",
+      "sentence": "A woodland clearing with layered depth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a woodland clearing with layered depth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a woodland clearing with layered depth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a woodland clearing with layered depth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-nature-woodland-clearing",
+      "tags": [
+        "location",
+        "nature",
+        "outdoor",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "woodland-clearing",
+        "treatment": "layered-depth"
+      },
+      "subcategory": "woodland-clearing",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-nature-woodland-clearing-clear-sightlines",
+      "semantic_key": "scene-location-nature-woodland-clearing-clear-sightlines",
+      "text": "a woodland clearing with clear sightlines",
+      "sentence": "A woodland clearing with clear sightlines.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a woodland clearing with clear sightlines",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a woodland clearing with clear sightlines",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a woodland clearing with clear sightlines",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-nature-woodland-clearing",
+      "tags": [
+        "location",
+        "nature",
+        "outdoor",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "woodland-clearing",
+        "treatment": "clear-sightlines"
+      },
+      "subcategory": "woodland-clearing",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-nature-woodland-clearing-enclosed-geometry",
+      "semantic_key": "scene-location-nature-woodland-clearing-enclosed-geometry",
+      "text": "a woodland clearing with enclosed geometry",
+      "sentence": "A woodland clearing with enclosed geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a woodland clearing with enclosed geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a woodland clearing with enclosed geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a woodland clearing with enclosed geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-nature-woodland-clearing",
+      "tags": [
+        "location",
+        "nature",
+        "outdoor",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "woodland-clearing",
+        "treatment": "enclosed-geometry"
+      },
+      "subcategory": "woodland-clearing",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-nature-woodland-clearing-expansive-geometry",
+      "semantic_key": "scene-location-nature-woodland-clearing-expansive-geometry",
+      "text": "a woodland clearing with expansive geometry",
+      "sentence": "A woodland clearing with expansive geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a woodland clearing with expansive geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a woodland clearing with expansive geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a woodland clearing with expansive geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-nature-woodland-clearing",
+      "tags": [
+        "location",
+        "nature",
+        "outdoor",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "woodland-clearing",
+        "treatment": "expansive-geometry"
+      },
+      "subcategory": "woodland-clearing",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-nature-woodland-clearing-asymmetric-layout",
+      "semantic_key": "scene-location-nature-woodland-clearing-asymmetric-layout",
+      "text": "a woodland clearing with asymmetric layout",
+      "sentence": "A woodland clearing with asymmetric layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a woodland clearing with asymmetric layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a woodland clearing with asymmetric layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a woodland clearing with asymmetric layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-nature-woodland-clearing",
+      "tags": [
+        "location",
+        "nature",
+        "outdoor",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "woodland-clearing",
+        "treatment": "asymmetric-layout"
+      },
+      "subcategory": "woodland-clearing",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-nature-woodland-clearing-central-organization",
+      "semantic_key": "scene-location-nature-woodland-clearing-central-organization",
+      "text": "a woodland clearing with central organization",
+      "sentence": "A woodland clearing with central organization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a woodland clearing with central organization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a woodland clearing with central organization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a woodland clearing with central organization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-nature-woodland-clearing",
+      "tags": [
+        "location",
+        "nature",
+        "outdoor",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "woodland-clearing",
+        "treatment": "central-organization"
+      },
+      "subcategory": "woodland-clearing",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-nature-rocky-shoreline-open-spatial-layout",
+      "semantic_key": "scene-location-nature-rocky-shoreline-open-spatial-layout",
+      "text": "a rocky shoreline with open spatial layout",
+      "sentence": "A rocky shoreline with open spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a rocky shoreline with open spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a rocky shoreline with open spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a rocky shoreline with open spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-nature-rocky-shoreline",
+      "tags": [
+        "location",
+        "nature",
+        "outdoor",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "rocky-shoreline",
+        "treatment": "open-spatial-layout"
+      },
+      "subcategory": "rocky-shoreline",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-nature-rocky-shoreline-intimate-spatial-layout",
+      "semantic_key": "scene-location-nature-rocky-shoreline-intimate-spatial-layout",
+      "text": "a rocky shoreline with intimate spatial layout",
+      "sentence": "A rocky shoreline with intimate spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a rocky shoreline with intimate spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a rocky shoreline with intimate spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a rocky shoreline with intimate spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-nature-rocky-shoreline",
+      "tags": [
+        "location",
+        "nature",
+        "outdoor",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "rocky-shoreline",
+        "treatment": "intimate-spatial-layout"
+      },
+      "subcategory": "rocky-shoreline",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-nature-rocky-shoreline-layered-depth",
+      "semantic_key": "scene-location-nature-rocky-shoreline-layered-depth",
+      "text": "a rocky shoreline with layered depth",
+      "sentence": "A rocky shoreline with layered depth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a rocky shoreline with layered depth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a rocky shoreline with layered depth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a rocky shoreline with layered depth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-nature-rocky-shoreline",
+      "tags": [
+        "location",
+        "nature",
+        "outdoor",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "rocky-shoreline",
+        "treatment": "layered-depth"
+      },
+      "subcategory": "rocky-shoreline",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-nature-rocky-shoreline-clear-sightlines",
+      "semantic_key": "scene-location-nature-rocky-shoreline-clear-sightlines",
+      "text": "a rocky shoreline with clear sightlines",
+      "sentence": "A rocky shoreline with clear sightlines.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a rocky shoreline with clear sightlines",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a rocky shoreline with clear sightlines",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a rocky shoreline with clear sightlines",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-nature-rocky-shoreline",
+      "tags": [
+        "location",
+        "nature",
+        "outdoor",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "rocky-shoreline",
+        "treatment": "clear-sightlines"
+      },
+      "subcategory": "rocky-shoreline",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-nature-rocky-shoreline-enclosed-geometry",
+      "semantic_key": "scene-location-nature-rocky-shoreline-enclosed-geometry",
+      "text": "a rocky shoreline with enclosed geometry",
+      "sentence": "A rocky shoreline with enclosed geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a rocky shoreline with enclosed geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a rocky shoreline with enclosed geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a rocky shoreline with enclosed geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-nature-rocky-shoreline",
+      "tags": [
+        "location",
+        "nature",
+        "outdoor",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "rocky-shoreline",
+        "treatment": "enclosed-geometry"
+      },
+      "subcategory": "rocky-shoreline",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-nature-rocky-shoreline-expansive-geometry",
+      "semantic_key": "scene-location-nature-rocky-shoreline-expansive-geometry",
+      "text": "a rocky shoreline with expansive geometry",
+      "sentence": "A rocky shoreline with expansive geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a rocky shoreline with expansive geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a rocky shoreline with expansive geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a rocky shoreline with expansive geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-nature-rocky-shoreline",
+      "tags": [
+        "location",
+        "nature",
+        "outdoor",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "rocky-shoreline",
+        "treatment": "expansive-geometry"
+      },
+      "subcategory": "rocky-shoreline",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-nature-rocky-shoreline-asymmetric-layout",
+      "semantic_key": "scene-location-nature-rocky-shoreline-asymmetric-layout",
+      "text": "a rocky shoreline with asymmetric layout",
+      "sentence": "A rocky shoreline with asymmetric layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a rocky shoreline with asymmetric layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a rocky shoreline with asymmetric layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a rocky shoreline with asymmetric layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-nature-rocky-shoreline",
+      "tags": [
+        "location",
+        "nature",
+        "outdoor",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "rocky-shoreline",
+        "treatment": "asymmetric-layout"
+      },
+      "subcategory": "rocky-shoreline",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-nature-rocky-shoreline-central-organization",
+      "semantic_key": "scene-location-nature-rocky-shoreline-central-organization",
+      "text": "a rocky shoreline with central organization",
+      "sentence": "A rocky shoreline with central organization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a rocky shoreline with central organization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a rocky shoreline with central organization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a rocky shoreline with central organization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-nature-rocky-shoreline",
+      "tags": [
+        "location",
+        "nature",
+        "outdoor",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "rocky-shoreline",
+        "treatment": "central-organization"
+      },
+      "subcategory": "rocky-shoreline",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-nature-open-grassland-open-spatial-layout",
+      "semantic_key": "scene-location-nature-open-grassland-open-spatial-layout",
+      "text": "a open grassland with open spatial layout",
+      "sentence": "A open grassland with open spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a open grassland with open spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a open grassland with open spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a open grassland with open spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-nature-open-grassland",
+      "tags": [
+        "location",
+        "nature",
+        "outdoor",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "open-grassland",
+        "treatment": "open-spatial-layout"
+      },
+      "subcategory": "open-grassland",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-nature-open-grassland-intimate-spatial-layout",
+      "semantic_key": "scene-location-nature-open-grassland-intimate-spatial-layout",
+      "text": "a open grassland with intimate spatial layout",
+      "sentence": "A open grassland with intimate spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a open grassland with intimate spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a open grassland with intimate spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a open grassland with intimate spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-nature-open-grassland",
+      "tags": [
+        "location",
+        "nature",
+        "outdoor",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "open-grassland",
+        "treatment": "intimate-spatial-layout"
+      },
+      "subcategory": "open-grassland",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-nature-open-grassland-layered-depth",
+      "semantic_key": "scene-location-nature-open-grassland-layered-depth",
+      "text": "a open grassland with layered depth",
+      "sentence": "A open grassland with layered depth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a open grassland with layered depth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a open grassland with layered depth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a open grassland with layered depth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-nature-open-grassland",
+      "tags": [
+        "location",
+        "nature",
+        "outdoor",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "open-grassland",
+        "treatment": "layered-depth"
+      },
+      "subcategory": "open-grassland",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-nature-open-grassland-clear-sightlines",
+      "semantic_key": "scene-location-nature-open-grassland-clear-sightlines",
+      "text": "a open grassland with clear sightlines",
+      "sentence": "A open grassland with clear sightlines.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a open grassland with clear sightlines",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a open grassland with clear sightlines",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a open grassland with clear sightlines",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-nature-open-grassland",
+      "tags": [
+        "location",
+        "nature",
+        "outdoor",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "open-grassland",
+        "treatment": "clear-sightlines"
+      },
+      "subcategory": "open-grassland",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-nature-open-grassland-enclosed-geometry",
+      "semantic_key": "scene-location-nature-open-grassland-enclosed-geometry",
+      "text": "a open grassland with enclosed geometry",
+      "sentence": "A open grassland with enclosed geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a open grassland with enclosed geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a open grassland with enclosed geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a open grassland with enclosed geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-nature-open-grassland",
+      "tags": [
+        "location",
+        "nature",
+        "outdoor",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "open-grassland",
+        "treatment": "enclosed-geometry"
+      },
+      "subcategory": "open-grassland",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-nature-open-grassland-expansive-geometry",
+      "semantic_key": "scene-location-nature-open-grassland-expansive-geometry",
+      "text": "a open grassland with expansive geometry",
+      "sentence": "A open grassland with expansive geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a open grassland with expansive geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a open grassland with expansive geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a open grassland with expansive geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-nature-open-grassland",
+      "tags": [
+        "location",
+        "nature",
+        "outdoor",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "open-grassland",
+        "treatment": "expansive-geometry"
+      },
+      "subcategory": "open-grassland",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-nature-open-grassland-asymmetric-layout",
+      "semantic_key": "scene-location-nature-open-grassland-asymmetric-layout",
+      "text": "a open grassland with asymmetric layout",
+      "sentence": "A open grassland with asymmetric layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a open grassland with asymmetric layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a open grassland with asymmetric layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a open grassland with asymmetric layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-nature-open-grassland",
+      "tags": [
+        "location",
+        "nature",
+        "outdoor",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "open-grassland",
+        "treatment": "asymmetric-layout"
+      },
+      "subcategory": "open-grassland",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-nature-open-grassland-central-organization",
+      "semantic_key": "scene-location-nature-open-grassland-central-organization",
+      "text": "a open grassland with central organization",
+      "sentence": "A open grassland with central organization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a open grassland with central organization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a open grassland with central organization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a open grassland with central organization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-nature-open-grassland",
+      "tags": [
+        "location",
+        "nature",
+        "outdoor",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "open-grassland",
+        "treatment": "central-organization"
+      },
+      "subcategory": "open-grassland",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-nature-mountain-overlook-open-spatial-layout",
+      "semantic_key": "scene-location-nature-mountain-overlook-open-spatial-layout",
+      "text": "a mountain overlook with open spatial layout",
+      "sentence": "A mountain overlook with open spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a mountain overlook with open spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a mountain overlook with open spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a mountain overlook with open spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-nature-mountain-overlook",
+      "tags": [
+        "location",
+        "nature",
+        "outdoor",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "mountain-overlook",
+        "treatment": "open-spatial-layout"
+      },
+      "subcategory": "mountain-overlook",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-nature-mountain-overlook-intimate-spatial-layout",
+      "semantic_key": "scene-location-nature-mountain-overlook-intimate-spatial-layout",
+      "text": "a mountain overlook with intimate spatial layout",
+      "sentence": "A mountain overlook with intimate spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a mountain overlook with intimate spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a mountain overlook with intimate spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a mountain overlook with intimate spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-nature-mountain-overlook",
+      "tags": [
+        "location",
+        "nature",
+        "outdoor",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "mountain-overlook",
+        "treatment": "intimate-spatial-layout"
+      },
+      "subcategory": "mountain-overlook",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-nature-mountain-overlook-layered-depth",
+      "semantic_key": "scene-location-nature-mountain-overlook-layered-depth",
+      "text": "a mountain overlook with layered depth",
+      "sentence": "A mountain overlook with layered depth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a mountain overlook with layered depth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a mountain overlook with layered depth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a mountain overlook with layered depth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-nature-mountain-overlook",
+      "tags": [
+        "location",
+        "nature",
+        "outdoor",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "mountain-overlook",
+        "treatment": "layered-depth"
+      },
+      "subcategory": "mountain-overlook",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-nature-mountain-overlook-clear-sightlines",
+      "semantic_key": "scene-location-nature-mountain-overlook-clear-sightlines",
+      "text": "a mountain overlook with clear sightlines",
+      "sentence": "A mountain overlook with clear sightlines.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a mountain overlook with clear sightlines",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a mountain overlook with clear sightlines",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a mountain overlook with clear sightlines",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-nature-mountain-overlook",
+      "tags": [
+        "location",
+        "nature",
+        "outdoor",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "mountain-overlook",
+        "treatment": "clear-sightlines"
+      },
+      "subcategory": "mountain-overlook",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-nature-mountain-overlook-enclosed-geometry",
+      "semantic_key": "scene-location-nature-mountain-overlook-enclosed-geometry",
+      "text": "a mountain overlook with enclosed geometry",
+      "sentence": "A mountain overlook with enclosed geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a mountain overlook with enclosed geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a mountain overlook with enclosed geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a mountain overlook with enclosed geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-nature-mountain-overlook",
+      "tags": [
+        "location",
+        "nature",
+        "outdoor",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "mountain-overlook",
+        "treatment": "enclosed-geometry"
+      },
+      "subcategory": "mountain-overlook",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-nature-mountain-overlook-expansive-geometry",
+      "semantic_key": "scene-location-nature-mountain-overlook-expansive-geometry",
+      "text": "a mountain overlook with expansive geometry",
+      "sentence": "A mountain overlook with expansive geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a mountain overlook with expansive geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a mountain overlook with expansive geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a mountain overlook with expansive geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-nature-mountain-overlook",
+      "tags": [
+        "location",
+        "nature",
+        "outdoor",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "mountain-overlook",
+        "treatment": "expansive-geometry"
+      },
+      "subcategory": "mountain-overlook",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-nature-mountain-overlook-asymmetric-layout",
+      "semantic_key": "scene-location-nature-mountain-overlook-asymmetric-layout",
+      "text": "a mountain overlook with asymmetric layout",
+      "sentence": "A mountain overlook with asymmetric layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a mountain overlook with asymmetric layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a mountain overlook with asymmetric layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a mountain overlook with asymmetric layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-nature-mountain-overlook",
+      "tags": [
+        "location",
+        "nature",
+        "outdoor",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "mountain-overlook",
+        "treatment": "asymmetric-layout"
+      },
+      "subcategory": "mountain-overlook",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-nature-mountain-overlook-central-organization",
+      "semantic_key": "scene-location-nature-mountain-overlook-central-organization",
+      "text": "a mountain overlook with central organization",
+      "sentence": "A mountain overlook with central organization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a mountain overlook with central organization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a mountain overlook with central organization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a mountain overlook with central organization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-nature-mountain-overlook",
+      "tags": [
+        "location",
+        "nature",
+        "outdoor",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "mountain-overlook",
+        "treatment": "central-organization"
+      },
+      "subcategory": "mountain-overlook",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-nature-desert-plateau-open-spatial-layout",
+      "semantic_key": "scene-location-nature-desert-plateau-open-spatial-layout",
+      "text": "a desert plateau with open spatial layout",
+      "sentence": "A desert plateau with open spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a desert plateau with open spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a desert plateau with open spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a desert plateau with open spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-nature-desert-plateau",
+      "tags": [
+        "location",
+        "nature",
+        "outdoor",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "desert-plateau",
+        "treatment": "open-spatial-layout"
+      },
+      "subcategory": "desert-plateau",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-nature-desert-plateau-intimate-spatial-layout",
+      "semantic_key": "scene-location-nature-desert-plateau-intimate-spatial-layout",
+      "text": "a desert plateau with intimate spatial layout",
+      "sentence": "A desert plateau with intimate spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a desert plateau with intimate spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a desert plateau with intimate spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a desert plateau with intimate spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-nature-desert-plateau",
+      "tags": [
+        "location",
+        "nature",
+        "outdoor",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "desert-plateau",
+        "treatment": "intimate-spatial-layout"
+      },
+      "subcategory": "desert-plateau",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-nature-desert-plateau-layered-depth",
+      "semantic_key": "scene-location-nature-desert-plateau-layered-depth",
+      "text": "a desert plateau with layered depth",
+      "sentence": "A desert plateau with layered depth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a desert plateau with layered depth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a desert plateau with layered depth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a desert plateau with layered depth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-nature-desert-plateau",
+      "tags": [
+        "location",
+        "nature",
+        "outdoor",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "desert-plateau",
+        "treatment": "layered-depth"
+      },
+      "subcategory": "desert-plateau",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-nature-desert-plateau-clear-sightlines",
+      "semantic_key": "scene-location-nature-desert-plateau-clear-sightlines",
+      "text": "a desert plateau with clear sightlines",
+      "sentence": "A desert plateau with clear sightlines.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a desert plateau with clear sightlines",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a desert plateau with clear sightlines",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a desert plateau with clear sightlines",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-nature-desert-plateau",
+      "tags": [
+        "location",
+        "nature",
+        "outdoor",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "desert-plateau",
+        "treatment": "clear-sightlines"
+      },
+      "subcategory": "desert-plateau",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-nature-desert-plateau-enclosed-geometry",
+      "semantic_key": "scene-location-nature-desert-plateau-enclosed-geometry",
+      "text": "a desert plateau with enclosed geometry",
+      "sentence": "A desert plateau with enclosed geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a desert plateau with enclosed geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a desert plateau with enclosed geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a desert plateau with enclosed geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-nature-desert-plateau",
+      "tags": [
+        "location",
+        "nature",
+        "outdoor",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "desert-plateau",
+        "treatment": "enclosed-geometry"
+      },
+      "subcategory": "desert-plateau",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-nature-desert-plateau-expansive-geometry",
+      "semantic_key": "scene-location-nature-desert-plateau-expansive-geometry",
+      "text": "a desert plateau with expansive geometry",
+      "sentence": "A desert plateau with expansive geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a desert plateau with expansive geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a desert plateau with expansive geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a desert plateau with expansive geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-nature-desert-plateau",
+      "tags": [
+        "location",
+        "nature",
+        "outdoor",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "desert-plateau",
+        "treatment": "expansive-geometry"
+      },
+      "subcategory": "desert-plateau",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-nature-desert-plateau-asymmetric-layout",
+      "semantic_key": "scene-location-nature-desert-plateau-asymmetric-layout",
+      "text": "a desert plateau with asymmetric layout",
+      "sentence": "A desert plateau with asymmetric layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a desert plateau with asymmetric layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a desert plateau with asymmetric layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a desert plateau with asymmetric layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-nature-desert-plateau",
+      "tags": [
+        "location",
+        "nature",
+        "outdoor",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "desert-plateau",
+        "treatment": "asymmetric-layout"
+      },
+      "subcategory": "desert-plateau",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-nature-desert-plateau-central-organization",
+      "semantic_key": "scene-location-nature-desert-plateau-central-organization",
+      "text": "a desert plateau with central organization",
+      "sentence": "A desert plateau with central organization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a desert plateau with central organization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a desert plateau with central organization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a desert plateau with central organization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-nature-desert-plateau",
+      "tags": [
+        "location",
+        "nature",
+        "outdoor",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "desert-plateau",
+        "treatment": "central-organization"
+      },
+      "subcategory": "desert-plateau",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-nature-lakeside-path-open-spatial-layout",
+      "semantic_key": "scene-location-nature-lakeside-path-open-spatial-layout",
+      "text": "a lakeside path with open spatial layout",
+      "sentence": "A lakeside path with open spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a lakeside path with open spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a lakeside path with open spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a lakeside path with open spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-nature-lakeside-path",
+      "tags": [
+        "location",
+        "nature",
+        "outdoor",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "lakeside-path",
+        "treatment": "open-spatial-layout"
+      },
+      "subcategory": "lakeside-path",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-nature-lakeside-path-intimate-spatial-layout",
+      "semantic_key": "scene-location-nature-lakeside-path-intimate-spatial-layout",
+      "text": "a lakeside path with intimate spatial layout",
+      "sentence": "A lakeside path with intimate spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a lakeside path with intimate spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a lakeside path with intimate spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a lakeside path with intimate spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-nature-lakeside-path",
+      "tags": [
+        "location",
+        "nature",
+        "outdoor",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "lakeside-path",
+        "treatment": "intimate-spatial-layout"
+      },
+      "subcategory": "lakeside-path",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-nature-lakeside-path-layered-depth",
+      "semantic_key": "scene-location-nature-lakeside-path-layered-depth",
+      "text": "a lakeside path with layered depth",
+      "sentence": "A lakeside path with layered depth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a lakeside path with layered depth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a lakeside path with layered depth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a lakeside path with layered depth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-nature-lakeside-path",
+      "tags": [
+        "location",
+        "nature",
+        "outdoor",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "lakeside-path",
+        "treatment": "layered-depth"
+      },
+      "subcategory": "lakeside-path",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-nature-lakeside-path-clear-sightlines",
+      "semantic_key": "scene-location-nature-lakeside-path-clear-sightlines",
+      "text": "a lakeside path with clear sightlines",
+      "sentence": "A lakeside path with clear sightlines.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a lakeside path with clear sightlines",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a lakeside path with clear sightlines",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a lakeside path with clear sightlines",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-nature-lakeside-path",
+      "tags": [
+        "location",
+        "nature",
+        "outdoor",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "lakeside-path",
+        "treatment": "clear-sightlines"
+      },
+      "subcategory": "lakeside-path",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-nature-lakeside-path-enclosed-geometry",
+      "semantic_key": "scene-location-nature-lakeside-path-enclosed-geometry",
+      "text": "a lakeside path with enclosed geometry",
+      "sentence": "A lakeside path with enclosed geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a lakeside path with enclosed geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a lakeside path with enclosed geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a lakeside path with enclosed geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-nature-lakeside-path",
+      "tags": [
+        "location",
+        "nature",
+        "outdoor",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "lakeside-path",
+        "treatment": "enclosed-geometry"
+      },
+      "subcategory": "lakeside-path",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-nature-lakeside-path-expansive-geometry",
+      "semantic_key": "scene-location-nature-lakeside-path-expansive-geometry",
+      "text": "a lakeside path with expansive geometry",
+      "sentence": "A lakeside path with expansive geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a lakeside path with expansive geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a lakeside path with expansive geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a lakeside path with expansive geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-nature-lakeside-path",
+      "tags": [
+        "location",
+        "nature",
+        "outdoor",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "lakeside-path",
+        "treatment": "expansive-geometry"
+      },
+      "subcategory": "lakeside-path",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-nature-lakeside-path-asymmetric-layout",
+      "semantic_key": "scene-location-nature-lakeside-path-asymmetric-layout",
+      "text": "a lakeside path with asymmetric layout",
+      "sentence": "A lakeside path with asymmetric layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a lakeside path with asymmetric layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a lakeside path with asymmetric layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a lakeside path with asymmetric layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-nature-lakeside-path",
+      "tags": [
+        "location",
+        "nature",
+        "outdoor",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "lakeside-path",
+        "treatment": "asymmetric-layout"
+      },
+      "subcategory": "lakeside-path",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-nature-lakeside-path-central-organization",
+      "semantic_key": "scene-location-nature-lakeside-path-central-organization",
+      "text": "a lakeside path with central organization",
+      "sentence": "A lakeside path with central organization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a lakeside path with central organization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a lakeside path with central organization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a lakeside path with central organization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-nature-lakeside-path",
+      "tags": [
+        "location",
+        "nature",
+        "outdoor",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "lakeside-path",
+        "treatment": "central-organization"
+      },
+      "subcategory": "lakeside-path",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-nature-botanical-garden-open-spatial-layout",
+      "semantic_key": "scene-location-nature-botanical-garden-open-spatial-layout",
+      "text": "a botanical garden with open spatial layout",
+      "sentence": "A botanical garden with open spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a botanical garden with open spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a botanical garden with open spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a botanical garden with open spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-nature-botanical-garden",
+      "tags": [
+        "location",
+        "nature",
+        "outdoor",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "botanical-garden",
+        "treatment": "open-spatial-layout"
+      },
+      "subcategory": "botanical-garden",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-nature-botanical-garden-intimate-spatial-layout",
+      "semantic_key": "scene-location-nature-botanical-garden-intimate-spatial-layout",
+      "text": "a botanical garden with intimate spatial layout",
+      "sentence": "A botanical garden with intimate spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a botanical garden with intimate spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a botanical garden with intimate spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a botanical garden with intimate spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-nature-botanical-garden",
+      "tags": [
+        "location",
+        "nature",
+        "outdoor",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "botanical-garden",
+        "treatment": "intimate-spatial-layout"
+      },
+      "subcategory": "botanical-garden",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-nature-botanical-garden-layered-depth",
+      "semantic_key": "scene-location-nature-botanical-garden-layered-depth",
+      "text": "a botanical garden with layered depth",
+      "sentence": "A botanical garden with layered depth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a botanical garden with layered depth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a botanical garden with layered depth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a botanical garden with layered depth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-nature-botanical-garden",
+      "tags": [
+        "location",
+        "nature",
+        "outdoor",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "botanical-garden",
+        "treatment": "layered-depth"
+      },
+      "subcategory": "botanical-garden",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-nature-botanical-garden-clear-sightlines",
+      "semantic_key": "scene-location-nature-botanical-garden-clear-sightlines",
+      "text": "a botanical garden with clear sightlines",
+      "sentence": "A botanical garden with clear sightlines.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a botanical garden with clear sightlines",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a botanical garden with clear sightlines",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a botanical garden with clear sightlines",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-nature-botanical-garden",
+      "tags": [
+        "location",
+        "nature",
+        "outdoor",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "botanical-garden",
+        "treatment": "clear-sightlines"
+      },
+      "subcategory": "botanical-garden",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-nature-botanical-garden-enclosed-geometry",
+      "semantic_key": "scene-location-nature-botanical-garden-enclosed-geometry",
+      "text": "a botanical garden with enclosed geometry",
+      "sentence": "A botanical garden with enclosed geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a botanical garden with enclosed geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a botanical garden with enclosed geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a botanical garden with enclosed geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-nature-botanical-garden",
+      "tags": [
+        "location",
+        "nature",
+        "outdoor",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "botanical-garden",
+        "treatment": "enclosed-geometry"
+      },
+      "subcategory": "botanical-garden",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-nature-botanical-garden-expansive-geometry",
+      "semantic_key": "scene-location-nature-botanical-garden-expansive-geometry",
+      "text": "a botanical garden with expansive geometry",
+      "sentence": "A botanical garden with expansive geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a botanical garden with expansive geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a botanical garden with expansive geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a botanical garden with expansive geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-nature-botanical-garden",
+      "tags": [
+        "location",
+        "nature",
+        "outdoor",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "botanical-garden",
+        "treatment": "expansive-geometry"
+      },
+      "subcategory": "botanical-garden",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-nature-botanical-garden-asymmetric-layout",
+      "semantic_key": "scene-location-nature-botanical-garden-asymmetric-layout",
+      "text": "a botanical garden with asymmetric layout",
+      "sentence": "A botanical garden with asymmetric layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a botanical garden with asymmetric layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a botanical garden with asymmetric layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a botanical garden with asymmetric layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-nature-botanical-garden",
+      "tags": [
+        "location",
+        "nature",
+        "outdoor",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "botanical-garden",
+        "treatment": "asymmetric-layout"
+      },
+      "subcategory": "botanical-garden",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-nature-botanical-garden-central-organization",
+      "semantic_key": "scene-location-nature-botanical-garden-central-organization",
+      "text": "a botanical garden with central organization",
+      "sentence": "A botanical garden with central organization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a botanical garden with central organization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a botanical garden with central organization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a botanical garden with central organization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-nature-botanical-garden",
+      "tags": [
+        "location",
+        "nature",
+        "outdoor",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "botanical-garden",
+        "treatment": "central-organization"
+      },
+      "subcategory": "botanical-garden",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-nature-windswept-dune-open-spatial-layout",
+      "semantic_key": "scene-location-nature-windswept-dune-open-spatial-layout",
+      "text": "a windswept dune with open spatial layout",
+      "sentence": "A windswept dune with open spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a windswept dune with open spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a windswept dune with open spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a windswept dune with open spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-nature-windswept-dune",
+      "tags": [
+        "location",
+        "nature",
+        "outdoor",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "windswept-dune",
+        "treatment": "open-spatial-layout"
+      },
+      "subcategory": "windswept-dune",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-nature-windswept-dune-intimate-spatial-layout",
+      "semantic_key": "scene-location-nature-windswept-dune-intimate-spatial-layout",
+      "text": "a windswept dune with intimate spatial layout",
+      "sentence": "A windswept dune with intimate spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a windswept dune with intimate spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a windswept dune with intimate spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a windswept dune with intimate spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-nature-windswept-dune",
+      "tags": [
+        "location",
+        "nature",
+        "outdoor",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "windswept-dune",
+        "treatment": "intimate-spatial-layout"
+      },
+      "subcategory": "windswept-dune",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-nature-windswept-dune-layered-depth",
+      "semantic_key": "scene-location-nature-windswept-dune-layered-depth",
+      "text": "a windswept dune with layered depth",
+      "sentence": "A windswept dune with layered depth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a windswept dune with layered depth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a windswept dune with layered depth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a windswept dune with layered depth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-nature-windswept-dune",
+      "tags": [
+        "location",
+        "nature",
+        "outdoor",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "windswept-dune",
+        "treatment": "layered-depth"
+      },
+      "subcategory": "windswept-dune",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-nature-windswept-dune-clear-sightlines",
+      "semantic_key": "scene-location-nature-windswept-dune-clear-sightlines",
+      "text": "a windswept dune with clear sightlines",
+      "sentence": "A windswept dune with clear sightlines.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a windswept dune with clear sightlines",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a windswept dune with clear sightlines",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a windswept dune with clear sightlines",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-nature-windswept-dune",
+      "tags": [
+        "location",
+        "nature",
+        "outdoor",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "windswept-dune",
+        "treatment": "clear-sightlines"
+      },
+      "subcategory": "windswept-dune",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-nature-windswept-dune-enclosed-geometry",
+      "semantic_key": "scene-location-nature-windswept-dune-enclosed-geometry",
+      "text": "a windswept dune with enclosed geometry",
+      "sentence": "A windswept dune with enclosed geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a windswept dune with enclosed geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a windswept dune with enclosed geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a windswept dune with enclosed geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-nature-windswept-dune",
+      "tags": [
+        "location",
+        "nature",
+        "outdoor",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "windswept-dune",
+        "treatment": "enclosed-geometry"
+      },
+      "subcategory": "windswept-dune",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-nature-windswept-dune-expansive-geometry",
+      "semantic_key": "scene-location-nature-windswept-dune-expansive-geometry",
+      "text": "a windswept dune with expansive geometry",
+      "sentence": "A windswept dune with expansive geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a windswept dune with expansive geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a windswept dune with expansive geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a windswept dune with expansive geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-nature-windswept-dune",
+      "tags": [
+        "location",
+        "nature",
+        "outdoor",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "windswept-dune",
+        "treatment": "expansive-geometry"
+      },
+      "subcategory": "windswept-dune",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-nature-windswept-dune-asymmetric-layout",
+      "semantic_key": "scene-location-nature-windswept-dune-asymmetric-layout",
+      "text": "a windswept dune with asymmetric layout",
+      "sentence": "A windswept dune with asymmetric layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a windswept dune with asymmetric layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a windswept dune with asymmetric layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a windswept dune with asymmetric layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-nature-windswept-dune",
+      "tags": [
+        "location",
+        "nature",
+        "outdoor",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "windswept-dune",
+        "treatment": "asymmetric-layout"
+      },
+      "subcategory": "windswept-dune",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-nature-windswept-dune-central-organization",
+      "semantic_key": "scene-location-nature-windswept-dune-central-organization",
+      "text": "a windswept dune with central organization",
+      "sentence": "A windswept dune with central organization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a windswept dune with central organization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a windswept dune with central organization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a windswept dune with central organization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-nature-windswept-dune",
+      "tags": [
+        "location",
+        "nature",
+        "outdoor",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "windswept-dune",
+        "treatment": "central-organization"
+      },
+      "subcategory": "windswept-dune",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    }
+  ]
+}

@@ -1,0 +1,2577 @@
+{
+  "schema_version": "2.0",
+  "id": "hair-texture-base",
+  "version": "2.0.0",
+  "library": "hair-texture",
+  "domain": "hair",
+  "category": "hair-texture",
+  "language": "en",
+  "status": "active",
+  "safety": "general",
+  "tags": [
+    "base"
+  ],
+  "fallback_option_id": "hair-texture-base-pin-straight-softly-defined",
+  "options": [
+    {
+      "id": "hair-texture-base-pin-straight-softly-defined",
+      "semantic_key": "hair-texture-base-pin-straight-softly-defined",
+      "text": "pin-straight hair with softly defined strand definition",
+      "sentence": "Pin-straight hair with softly defined strand definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "pin-straight hair with softly defined strand definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing pin-straight hair with softly defined strand definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with pin-straight hair with softly defined strand definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-texture-base-pin-straight",
+      "tags": [
+        "base",
+        "hair",
+        "hair-texture",
+        "rarity-common"
+      ],
+      "facets": {
+        "texture": "pin-straight",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "pin-straight",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-texture-base-pin-straight-cleanly-outlined",
+      "semantic_key": "hair-texture-base-pin-straight-cleanly-outlined",
+      "text": "pin-straight hair with cleanly outlined strand definition",
+      "sentence": "Pin-straight hair with cleanly outlined strand definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "pin-straight hair with cleanly outlined strand definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing pin-straight hair with cleanly outlined strand definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with pin-straight hair with cleanly outlined strand definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-texture-base-pin-straight",
+      "tags": [
+        "base",
+        "hair",
+        "hair-texture",
+        "rarity-common"
+      ],
+      "facets": {
+        "texture": "pin-straight",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "pin-straight",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-texture-base-pin-straight-gently-tapered",
+      "semantic_key": "hair-texture-base-pin-straight-gently-tapered",
+      "text": "pin-straight hair with gently tapered strand definition",
+      "sentence": "Pin-straight hair with gently tapered strand definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "pin-straight hair with gently tapered strand definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing pin-straight hair with gently tapered strand definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with pin-straight hair with gently tapered strand definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-texture-base-pin-straight",
+      "tags": [
+        "base",
+        "hair",
+        "hair-texture",
+        "rarity-common"
+      ],
+      "facets": {
+        "texture": "pin-straight",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "pin-straight",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-texture-base-pin-straight-evenly-proportioned",
+      "semantic_key": "hair-texture-base-pin-straight-evenly-proportioned",
+      "text": "pin-straight hair with evenly proportioned strand definition",
+      "sentence": "Pin-straight hair with evenly proportioned strand definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "pin-straight hair with evenly proportioned strand definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing pin-straight hair with evenly proportioned strand definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with pin-straight hair with evenly proportioned strand definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-texture-base-pin-straight",
+      "tags": [
+        "base",
+        "hair",
+        "hair-texture",
+        "rarity-common"
+      ],
+      "facets": {
+        "texture": "pin-straight",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "pin-straight",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-texture-base-pin-straight-subtly-angular",
+      "semantic_key": "hair-texture-base-pin-straight-subtly-angular",
+      "text": "pin-straight hair with subtly angular strand definition",
+      "sentence": "Pin-straight hair with subtly angular strand definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "pin-straight hair with subtly angular strand definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing pin-straight hair with subtly angular strand definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with pin-straight hair with subtly angular strand definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-texture-base-pin-straight",
+      "tags": [
+        "base",
+        "hair",
+        "hair-texture",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "texture": "pin-straight",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "pin-straight",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-texture-base-pin-straight-smoothly-contoured",
+      "semantic_key": "hair-texture-base-pin-straight-smoothly-contoured",
+      "text": "pin-straight hair with smoothly contoured strand definition",
+      "sentence": "Pin-straight hair with smoothly contoured strand definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "pin-straight hair with smoothly contoured strand definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing pin-straight hair with smoothly contoured strand definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with pin-straight hair with smoothly contoured strand definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-texture-base-pin-straight",
+      "tags": [
+        "base",
+        "hair",
+        "hair-texture",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "texture": "pin-straight",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "pin-straight",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-texture-base-pin-straight-distinctly-structured",
+      "semantic_key": "hair-texture-base-pin-straight-distinctly-structured",
+      "text": "pin-straight hair with distinctly structured strand definition",
+      "sentence": "Pin-straight hair with distinctly structured strand definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "pin-straight hair with distinctly structured strand definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing pin-straight hair with distinctly structured strand definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with pin-straight hair with distinctly structured strand definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-texture-base-pin-straight",
+      "tags": [
+        "base",
+        "hair",
+        "hair-texture",
+        "rarity-rare"
+      ],
+      "facets": {
+        "texture": "pin-straight",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "pin-straight",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-texture-base-pin-straight-naturally-asymmetric",
+      "semantic_key": "hair-texture-base-pin-straight-naturally-asymmetric",
+      "text": "pin-straight hair with naturally asymmetric strand definition",
+      "sentence": "Pin-straight hair with naturally asymmetric strand definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "pin-straight hair with naturally asymmetric strand definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing pin-straight hair with naturally asymmetric strand definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with pin-straight hair with naturally asymmetric strand definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-texture-base-pin-straight",
+      "tags": [
+        "base",
+        "hair",
+        "hair-texture",
+        "rarity-rare"
+      ],
+      "facets": {
+        "texture": "pin-straight",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "pin-straight",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-texture-base-straight-softly-defined",
+      "semantic_key": "hair-texture-base-straight-softly-defined",
+      "text": "straight hair with softly defined strand definition",
+      "sentence": "Straight hair with softly defined strand definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "straight hair with softly defined strand definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing straight hair with softly defined strand definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with straight hair with softly defined strand definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-texture-base-straight",
+      "tags": [
+        "base",
+        "hair",
+        "hair-texture",
+        "rarity-common"
+      ],
+      "facets": {
+        "texture": "straight",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "straight",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-texture-base-straight-cleanly-outlined",
+      "semantic_key": "hair-texture-base-straight-cleanly-outlined",
+      "text": "straight hair with cleanly outlined strand definition",
+      "sentence": "Straight hair with cleanly outlined strand definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "straight hair with cleanly outlined strand definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing straight hair with cleanly outlined strand definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with straight hair with cleanly outlined strand definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-texture-base-straight",
+      "tags": [
+        "base",
+        "hair",
+        "hair-texture",
+        "rarity-common"
+      ],
+      "facets": {
+        "texture": "straight",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "straight",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-texture-base-straight-gently-tapered",
+      "semantic_key": "hair-texture-base-straight-gently-tapered",
+      "text": "straight hair with gently tapered strand definition",
+      "sentence": "Straight hair with gently tapered strand definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "straight hair with gently tapered strand definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing straight hair with gently tapered strand definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with straight hair with gently tapered strand definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-texture-base-straight",
+      "tags": [
+        "base",
+        "hair",
+        "hair-texture",
+        "rarity-common"
+      ],
+      "facets": {
+        "texture": "straight",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "straight",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-texture-base-straight-evenly-proportioned",
+      "semantic_key": "hair-texture-base-straight-evenly-proportioned",
+      "text": "straight hair with evenly proportioned strand definition",
+      "sentence": "Straight hair with evenly proportioned strand definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "straight hair with evenly proportioned strand definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing straight hair with evenly proportioned strand definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with straight hair with evenly proportioned strand definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-texture-base-straight",
+      "tags": [
+        "base",
+        "hair",
+        "hair-texture",
+        "rarity-common"
+      ],
+      "facets": {
+        "texture": "straight",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "straight",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-texture-base-straight-subtly-angular",
+      "semantic_key": "hair-texture-base-straight-subtly-angular",
+      "text": "straight hair with subtly angular strand definition",
+      "sentence": "Straight hair with subtly angular strand definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "straight hair with subtly angular strand definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing straight hair with subtly angular strand definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with straight hair with subtly angular strand definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-texture-base-straight",
+      "tags": [
+        "base",
+        "hair",
+        "hair-texture",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "texture": "straight",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "straight",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-texture-base-straight-smoothly-contoured",
+      "semantic_key": "hair-texture-base-straight-smoothly-contoured",
+      "text": "straight hair with smoothly contoured strand definition",
+      "sentence": "Straight hair with smoothly contoured strand definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "straight hair with smoothly contoured strand definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing straight hair with smoothly contoured strand definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with straight hair with smoothly contoured strand definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-texture-base-straight",
+      "tags": [
+        "base",
+        "hair",
+        "hair-texture",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "texture": "straight",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "straight",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-texture-base-straight-distinctly-structured",
+      "semantic_key": "hair-texture-base-straight-distinctly-structured",
+      "text": "straight hair with distinctly structured strand definition",
+      "sentence": "Straight hair with distinctly structured strand definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "straight hair with distinctly structured strand definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing straight hair with distinctly structured strand definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with straight hair with distinctly structured strand definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-texture-base-straight",
+      "tags": [
+        "base",
+        "hair",
+        "hair-texture",
+        "rarity-rare"
+      ],
+      "facets": {
+        "texture": "straight",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "straight",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-texture-base-straight-naturally-asymmetric",
+      "semantic_key": "hair-texture-base-straight-naturally-asymmetric",
+      "text": "straight hair with naturally asymmetric strand definition",
+      "sentence": "Straight hair with naturally asymmetric strand definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "straight hair with naturally asymmetric strand definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing straight hair with naturally asymmetric strand definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with straight hair with naturally asymmetric strand definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-texture-base-straight",
+      "tags": [
+        "base",
+        "hair",
+        "hair-texture",
+        "rarity-rare"
+      ],
+      "facets": {
+        "texture": "straight",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "straight",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-texture-base-softly-wavy-softly-defined",
+      "semantic_key": "hair-texture-base-softly-wavy-softly-defined",
+      "text": "softly wavy hair with softly defined strand definition",
+      "sentence": "Softly wavy hair with softly defined strand definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "softly wavy hair with softly defined strand definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing softly wavy hair with softly defined strand definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with softly wavy hair with softly defined strand definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-texture-base-softly-wavy",
+      "tags": [
+        "base",
+        "hair",
+        "hair-texture",
+        "rarity-common"
+      ],
+      "facets": {
+        "texture": "softly-wavy",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "softly-wavy",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-texture-base-softly-wavy-cleanly-outlined",
+      "semantic_key": "hair-texture-base-softly-wavy-cleanly-outlined",
+      "text": "softly wavy hair with cleanly outlined strand definition",
+      "sentence": "Softly wavy hair with cleanly outlined strand definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "softly wavy hair with cleanly outlined strand definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing softly wavy hair with cleanly outlined strand definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with softly wavy hair with cleanly outlined strand definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-texture-base-softly-wavy",
+      "tags": [
+        "base",
+        "hair",
+        "hair-texture",
+        "rarity-common"
+      ],
+      "facets": {
+        "texture": "softly-wavy",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "softly-wavy",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-texture-base-softly-wavy-gently-tapered",
+      "semantic_key": "hair-texture-base-softly-wavy-gently-tapered",
+      "text": "softly wavy hair with gently tapered strand definition",
+      "sentence": "Softly wavy hair with gently tapered strand definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "softly wavy hair with gently tapered strand definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing softly wavy hair with gently tapered strand definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with softly wavy hair with gently tapered strand definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-texture-base-softly-wavy",
+      "tags": [
+        "base",
+        "hair",
+        "hair-texture",
+        "rarity-common"
+      ],
+      "facets": {
+        "texture": "softly-wavy",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "softly-wavy",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-texture-base-softly-wavy-evenly-proportioned",
+      "semantic_key": "hair-texture-base-softly-wavy-evenly-proportioned",
+      "text": "softly wavy hair with evenly proportioned strand definition",
+      "sentence": "Softly wavy hair with evenly proportioned strand definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "softly wavy hair with evenly proportioned strand definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing softly wavy hair with evenly proportioned strand definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with softly wavy hair with evenly proportioned strand definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-texture-base-softly-wavy",
+      "tags": [
+        "base",
+        "hair",
+        "hair-texture",
+        "rarity-common"
+      ],
+      "facets": {
+        "texture": "softly-wavy",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "softly-wavy",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-texture-base-softly-wavy-subtly-angular",
+      "semantic_key": "hair-texture-base-softly-wavy-subtly-angular",
+      "text": "softly wavy hair with subtly angular strand definition",
+      "sentence": "Softly wavy hair with subtly angular strand definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "softly wavy hair with subtly angular strand definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing softly wavy hair with subtly angular strand definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with softly wavy hair with subtly angular strand definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-texture-base-softly-wavy",
+      "tags": [
+        "base",
+        "hair",
+        "hair-texture",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "texture": "softly-wavy",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "softly-wavy",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-texture-base-softly-wavy-smoothly-contoured",
+      "semantic_key": "hair-texture-base-softly-wavy-smoothly-contoured",
+      "text": "softly wavy hair with smoothly contoured strand definition",
+      "sentence": "Softly wavy hair with smoothly contoured strand definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "softly wavy hair with smoothly contoured strand definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing softly wavy hair with smoothly contoured strand definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with softly wavy hair with smoothly contoured strand definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-texture-base-softly-wavy",
+      "tags": [
+        "base",
+        "hair",
+        "hair-texture",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "texture": "softly-wavy",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "softly-wavy",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-texture-base-softly-wavy-distinctly-structured",
+      "semantic_key": "hair-texture-base-softly-wavy-distinctly-structured",
+      "text": "softly wavy hair with distinctly structured strand definition",
+      "sentence": "Softly wavy hair with distinctly structured strand definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "softly wavy hair with distinctly structured strand definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing softly wavy hair with distinctly structured strand definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with softly wavy hair with distinctly structured strand definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-texture-base-softly-wavy",
+      "tags": [
+        "base",
+        "hair",
+        "hair-texture",
+        "rarity-rare"
+      ],
+      "facets": {
+        "texture": "softly-wavy",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "softly-wavy",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-texture-base-softly-wavy-naturally-asymmetric",
+      "semantic_key": "hair-texture-base-softly-wavy-naturally-asymmetric",
+      "text": "softly wavy hair with naturally asymmetric strand definition",
+      "sentence": "Softly wavy hair with naturally asymmetric strand definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "softly wavy hair with naturally asymmetric strand definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing softly wavy hair with naturally asymmetric strand definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with softly wavy hair with naturally asymmetric strand definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-texture-base-softly-wavy",
+      "tags": [
+        "base",
+        "hair",
+        "hair-texture",
+        "rarity-rare"
+      ],
+      "facets": {
+        "texture": "softly-wavy",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "softly-wavy",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-texture-base-deeply-wavy-softly-defined",
+      "semantic_key": "hair-texture-base-deeply-wavy-softly-defined",
+      "text": "deeply wavy hair with softly defined strand definition",
+      "sentence": "Deeply wavy hair with softly defined strand definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "deeply wavy hair with softly defined strand definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing deeply wavy hair with softly defined strand definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with deeply wavy hair with softly defined strand definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-texture-base-deeply-wavy",
+      "tags": [
+        "base",
+        "hair",
+        "hair-texture",
+        "rarity-common"
+      ],
+      "facets": {
+        "texture": "deeply-wavy",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "deeply-wavy",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-texture-base-deeply-wavy-cleanly-outlined",
+      "semantic_key": "hair-texture-base-deeply-wavy-cleanly-outlined",
+      "text": "deeply wavy hair with cleanly outlined strand definition",
+      "sentence": "Deeply wavy hair with cleanly outlined strand definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "deeply wavy hair with cleanly outlined strand definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing deeply wavy hair with cleanly outlined strand definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with deeply wavy hair with cleanly outlined strand definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-texture-base-deeply-wavy",
+      "tags": [
+        "base",
+        "hair",
+        "hair-texture",
+        "rarity-common"
+      ],
+      "facets": {
+        "texture": "deeply-wavy",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "deeply-wavy",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-texture-base-deeply-wavy-gently-tapered",
+      "semantic_key": "hair-texture-base-deeply-wavy-gently-tapered",
+      "text": "deeply wavy hair with gently tapered strand definition",
+      "sentence": "Deeply wavy hair with gently tapered strand definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "deeply wavy hair with gently tapered strand definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing deeply wavy hair with gently tapered strand definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with deeply wavy hair with gently tapered strand definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-texture-base-deeply-wavy",
+      "tags": [
+        "base",
+        "hair",
+        "hair-texture",
+        "rarity-common"
+      ],
+      "facets": {
+        "texture": "deeply-wavy",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "deeply-wavy",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-texture-base-deeply-wavy-evenly-proportioned",
+      "semantic_key": "hair-texture-base-deeply-wavy-evenly-proportioned",
+      "text": "deeply wavy hair with evenly proportioned strand definition",
+      "sentence": "Deeply wavy hair with evenly proportioned strand definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "deeply wavy hair with evenly proportioned strand definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing deeply wavy hair with evenly proportioned strand definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with deeply wavy hair with evenly proportioned strand definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-texture-base-deeply-wavy",
+      "tags": [
+        "base",
+        "hair",
+        "hair-texture",
+        "rarity-common"
+      ],
+      "facets": {
+        "texture": "deeply-wavy",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "deeply-wavy",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-texture-base-deeply-wavy-subtly-angular",
+      "semantic_key": "hair-texture-base-deeply-wavy-subtly-angular",
+      "text": "deeply wavy hair with subtly angular strand definition",
+      "sentence": "Deeply wavy hair with subtly angular strand definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "deeply wavy hair with subtly angular strand definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing deeply wavy hair with subtly angular strand definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with deeply wavy hair with subtly angular strand definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-texture-base-deeply-wavy",
+      "tags": [
+        "base",
+        "hair",
+        "hair-texture",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "texture": "deeply-wavy",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "deeply-wavy",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-texture-base-deeply-wavy-smoothly-contoured",
+      "semantic_key": "hair-texture-base-deeply-wavy-smoothly-contoured",
+      "text": "deeply wavy hair with smoothly contoured strand definition",
+      "sentence": "Deeply wavy hair with smoothly contoured strand definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "deeply wavy hair with smoothly contoured strand definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing deeply wavy hair with smoothly contoured strand definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with deeply wavy hair with smoothly contoured strand definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-texture-base-deeply-wavy",
+      "tags": [
+        "base",
+        "hair",
+        "hair-texture",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "texture": "deeply-wavy",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "deeply-wavy",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-texture-base-deeply-wavy-distinctly-structured",
+      "semantic_key": "hair-texture-base-deeply-wavy-distinctly-structured",
+      "text": "deeply wavy hair with distinctly structured strand definition",
+      "sentence": "Deeply wavy hair with distinctly structured strand definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "deeply wavy hair with distinctly structured strand definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing deeply wavy hair with distinctly structured strand definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with deeply wavy hair with distinctly structured strand definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-texture-base-deeply-wavy",
+      "tags": [
+        "base",
+        "hair",
+        "hair-texture",
+        "rarity-rare"
+      ],
+      "facets": {
+        "texture": "deeply-wavy",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "deeply-wavy",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-texture-base-deeply-wavy-naturally-asymmetric",
+      "semantic_key": "hair-texture-base-deeply-wavy-naturally-asymmetric",
+      "text": "deeply wavy hair with naturally asymmetric strand definition",
+      "sentence": "Deeply wavy hair with naturally asymmetric strand definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "deeply wavy hair with naturally asymmetric strand definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing deeply wavy hair with naturally asymmetric strand definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with deeply wavy hair with naturally asymmetric strand definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-texture-base-deeply-wavy",
+      "tags": [
+        "base",
+        "hair",
+        "hair-texture",
+        "rarity-rare"
+      ],
+      "facets": {
+        "texture": "deeply-wavy",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "deeply-wavy",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-texture-base-loose-curly-softly-defined",
+      "semantic_key": "hair-texture-base-loose-curly-softly-defined",
+      "text": "loose-curly hair with softly defined strand definition",
+      "sentence": "Loose-curly hair with softly defined strand definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "loose-curly hair with softly defined strand definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing loose-curly hair with softly defined strand definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with loose-curly hair with softly defined strand definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-texture-base-loose-curly",
+      "tags": [
+        "base",
+        "hair",
+        "hair-texture",
+        "rarity-common"
+      ],
+      "facets": {
+        "texture": "loose-curly",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "loose-curly",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-texture-base-loose-curly-cleanly-outlined",
+      "semantic_key": "hair-texture-base-loose-curly-cleanly-outlined",
+      "text": "loose-curly hair with cleanly outlined strand definition",
+      "sentence": "Loose-curly hair with cleanly outlined strand definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "loose-curly hair with cleanly outlined strand definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing loose-curly hair with cleanly outlined strand definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with loose-curly hair with cleanly outlined strand definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-texture-base-loose-curly",
+      "tags": [
+        "base",
+        "hair",
+        "hair-texture",
+        "rarity-common"
+      ],
+      "facets": {
+        "texture": "loose-curly",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "loose-curly",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-texture-base-loose-curly-gently-tapered",
+      "semantic_key": "hair-texture-base-loose-curly-gently-tapered",
+      "text": "loose-curly hair with gently tapered strand definition",
+      "sentence": "Loose-curly hair with gently tapered strand definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "loose-curly hair with gently tapered strand definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing loose-curly hair with gently tapered strand definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with loose-curly hair with gently tapered strand definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-texture-base-loose-curly",
+      "tags": [
+        "base",
+        "hair",
+        "hair-texture",
+        "rarity-common"
+      ],
+      "facets": {
+        "texture": "loose-curly",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "loose-curly",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-texture-base-loose-curly-evenly-proportioned",
+      "semantic_key": "hair-texture-base-loose-curly-evenly-proportioned",
+      "text": "loose-curly hair with evenly proportioned strand definition",
+      "sentence": "Loose-curly hair with evenly proportioned strand definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "loose-curly hair with evenly proportioned strand definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing loose-curly hair with evenly proportioned strand definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with loose-curly hair with evenly proportioned strand definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-texture-base-loose-curly",
+      "tags": [
+        "base",
+        "hair",
+        "hair-texture",
+        "rarity-common"
+      ],
+      "facets": {
+        "texture": "loose-curly",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "loose-curly",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-texture-base-loose-curly-subtly-angular",
+      "semantic_key": "hair-texture-base-loose-curly-subtly-angular",
+      "text": "loose-curly hair with subtly angular strand definition",
+      "sentence": "Loose-curly hair with subtly angular strand definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "loose-curly hair with subtly angular strand definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing loose-curly hair with subtly angular strand definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with loose-curly hair with subtly angular strand definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-texture-base-loose-curly",
+      "tags": [
+        "base",
+        "hair",
+        "hair-texture",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "texture": "loose-curly",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "loose-curly",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-texture-base-loose-curly-smoothly-contoured",
+      "semantic_key": "hair-texture-base-loose-curly-smoothly-contoured",
+      "text": "loose-curly hair with smoothly contoured strand definition",
+      "sentence": "Loose-curly hair with smoothly contoured strand definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "loose-curly hair with smoothly contoured strand definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing loose-curly hair with smoothly contoured strand definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with loose-curly hair with smoothly contoured strand definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-texture-base-loose-curly",
+      "tags": [
+        "base",
+        "hair",
+        "hair-texture",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "texture": "loose-curly",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "loose-curly",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-texture-base-loose-curly-distinctly-structured",
+      "semantic_key": "hair-texture-base-loose-curly-distinctly-structured",
+      "text": "loose-curly hair with distinctly structured strand definition",
+      "sentence": "Loose-curly hair with distinctly structured strand definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "loose-curly hair with distinctly structured strand definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing loose-curly hair with distinctly structured strand definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with loose-curly hair with distinctly structured strand definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-texture-base-loose-curly",
+      "tags": [
+        "base",
+        "hair",
+        "hair-texture",
+        "rarity-rare"
+      ],
+      "facets": {
+        "texture": "loose-curly",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "loose-curly",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-texture-base-loose-curly-naturally-asymmetric",
+      "semantic_key": "hair-texture-base-loose-curly-naturally-asymmetric",
+      "text": "loose-curly hair with naturally asymmetric strand definition",
+      "sentence": "Loose-curly hair with naturally asymmetric strand definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "loose-curly hair with naturally asymmetric strand definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing loose-curly hair with naturally asymmetric strand definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with loose-curly hair with naturally asymmetric strand definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-texture-base-loose-curly",
+      "tags": [
+        "base",
+        "hair",
+        "hair-texture",
+        "rarity-rare"
+      ],
+      "facets": {
+        "texture": "loose-curly",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "loose-curly",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-texture-base-tight-curly-softly-defined",
+      "semantic_key": "hair-texture-base-tight-curly-softly-defined",
+      "text": "tight-curly hair with softly defined strand definition",
+      "sentence": "Tight-curly hair with softly defined strand definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "tight-curly hair with softly defined strand definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing tight-curly hair with softly defined strand definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with tight-curly hair with softly defined strand definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-texture-base-tight-curly",
+      "tags": [
+        "base",
+        "hair",
+        "hair-texture",
+        "rarity-common"
+      ],
+      "facets": {
+        "texture": "tight-curly",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "tight-curly",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-texture-base-tight-curly-cleanly-outlined",
+      "semantic_key": "hair-texture-base-tight-curly-cleanly-outlined",
+      "text": "tight-curly hair with cleanly outlined strand definition",
+      "sentence": "Tight-curly hair with cleanly outlined strand definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "tight-curly hair with cleanly outlined strand definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing tight-curly hair with cleanly outlined strand definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with tight-curly hair with cleanly outlined strand definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-texture-base-tight-curly",
+      "tags": [
+        "base",
+        "hair",
+        "hair-texture",
+        "rarity-common"
+      ],
+      "facets": {
+        "texture": "tight-curly",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "tight-curly",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-texture-base-tight-curly-gently-tapered",
+      "semantic_key": "hair-texture-base-tight-curly-gently-tapered",
+      "text": "tight-curly hair with gently tapered strand definition",
+      "sentence": "Tight-curly hair with gently tapered strand definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "tight-curly hair with gently tapered strand definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing tight-curly hair with gently tapered strand definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with tight-curly hair with gently tapered strand definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-texture-base-tight-curly",
+      "tags": [
+        "base",
+        "hair",
+        "hair-texture",
+        "rarity-common"
+      ],
+      "facets": {
+        "texture": "tight-curly",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "tight-curly",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-texture-base-tight-curly-evenly-proportioned",
+      "semantic_key": "hair-texture-base-tight-curly-evenly-proportioned",
+      "text": "tight-curly hair with evenly proportioned strand definition",
+      "sentence": "Tight-curly hair with evenly proportioned strand definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "tight-curly hair with evenly proportioned strand definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing tight-curly hair with evenly proportioned strand definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with tight-curly hair with evenly proportioned strand definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-texture-base-tight-curly",
+      "tags": [
+        "base",
+        "hair",
+        "hair-texture",
+        "rarity-common"
+      ],
+      "facets": {
+        "texture": "tight-curly",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "tight-curly",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-texture-base-tight-curly-subtly-angular",
+      "semantic_key": "hair-texture-base-tight-curly-subtly-angular",
+      "text": "tight-curly hair with subtly angular strand definition",
+      "sentence": "Tight-curly hair with subtly angular strand definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "tight-curly hair with subtly angular strand definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing tight-curly hair with subtly angular strand definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with tight-curly hair with subtly angular strand definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-texture-base-tight-curly",
+      "tags": [
+        "base",
+        "hair",
+        "hair-texture",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "texture": "tight-curly",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "tight-curly",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-texture-base-tight-curly-smoothly-contoured",
+      "semantic_key": "hair-texture-base-tight-curly-smoothly-contoured",
+      "text": "tight-curly hair with smoothly contoured strand definition",
+      "sentence": "Tight-curly hair with smoothly contoured strand definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "tight-curly hair with smoothly contoured strand definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing tight-curly hair with smoothly contoured strand definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with tight-curly hair with smoothly contoured strand definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-texture-base-tight-curly",
+      "tags": [
+        "base",
+        "hair",
+        "hair-texture",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "texture": "tight-curly",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "tight-curly",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-texture-base-tight-curly-distinctly-structured",
+      "semantic_key": "hair-texture-base-tight-curly-distinctly-structured",
+      "text": "tight-curly hair with distinctly structured strand definition",
+      "sentence": "Tight-curly hair with distinctly structured strand definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "tight-curly hair with distinctly structured strand definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing tight-curly hair with distinctly structured strand definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with tight-curly hair with distinctly structured strand definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-texture-base-tight-curly",
+      "tags": [
+        "base",
+        "hair",
+        "hair-texture",
+        "rarity-rare"
+      ],
+      "facets": {
+        "texture": "tight-curly",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "tight-curly",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-texture-base-tight-curly-naturally-asymmetric",
+      "semantic_key": "hair-texture-base-tight-curly-naturally-asymmetric",
+      "text": "tight-curly hair with naturally asymmetric strand definition",
+      "sentence": "Tight-curly hair with naturally asymmetric strand definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "tight-curly hair with naturally asymmetric strand definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing tight-curly hair with naturally asymmetric strand definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with tight-curly hair with naturally asymmetric strand definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-texture-base-tight-curly",
+      "tags": [
+        "base",
+        "hair",
+        "hair-texture",
+        "rarity-rare"
+      ],
+      "facets": {
+        "texture": "tight-curly",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "tight-curly",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-texture-base-coily-softly-defined",
+      "semantic_key": "hair-texture-base-coily-softly-defined",
+      "text": "coily hair with softly defined strand definition",
+      "sentence": "Coily hair with softly defined strand definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "coily hair with softly defined strand definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing coily hair with softly defined strand definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with coily hair with softly defined strand definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-texture-base-coily",
+      "tags": [
+        "base",
+        "hair",
+        "hair-texture",
+        "rarity-common"
+      ],
+      "facets": {
+        "texture": "coily",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "coily",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-texture-base-coily-cleanly-outlined",
+      "semantic_key": "hair-texture-base-coily-cleanly-outlined",
+      "text": "coily hair with cleanly outlined strand definition",
+      "sentence": "Coily hair with cleanly outlined strand definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "coily hair with cleanly outlined strand definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing coily hair with cleanly outlined strand definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with coily hair with cleanly outlined strand definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-texture-base-coily",
+      "tags": [
+        "base",
+        "hair",
+        "hair-texture",
+        "rarity-common"
+      ],
+      "facets": {
+        "texture": "coily",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "coily",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-texture-base-coily-gently-tapered",
+      "semantic_key": "hair-texture-base-coily-gently-tapered",
+      "text": "coily hair with gently tapered strand definition",
+      "sentence": "Coily hair with gently tapered strand definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "coily hair with gently tapered strand definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing coily hair with gently tapered strand definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with coily hair with gently tapered strand definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-texture-base-coily",
+      "tags": [
+        "base",
+        "hair",
+        "hair-texture",
+        "rarity-common"
+      ],
+      "facets": {
+        "texture": "coily",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "coily",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-texture-base-coily-evenly-proportioned",
+      "semantic_key": "hair-texture-base-coily-evenly-proportioned",
+      "text": "coily hair with evenly proportioned strand definition",
+      "sentence": "Coily hair with evenly proportioned strand definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "coily hair with evenly proportioned strand definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing coily hair with evenly proportioned strand definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with coily hair with evenly proportioned strand definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-texture-base-coily",
+      "tags": [
+        "base",
+        "hair",
+        "hair-texture",
+        "rarity-common"
+      ],
+      "facets": {
+        "texture": "coily",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "coily",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-texture-base-coily-subtly-angular",
+      "semantic_key": "hair-texture-base-coily-subtly-angular",
+      "text": "coily hair with subtly angular strand definition",
+      "sentence": "Coily hair with subtly angular strand definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "coily hair with subtly angular strand definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing coily hair with subtly angular strand definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with coily hair with subtly angular strand definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-texture-base-coily",
+      "tags": [
+        "base",
+        "hair",
+        "hair-texture",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "texture": "coily",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "coily",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-texture-base-coily-smoothly-contoured",
+      "semantic_key": "hair-texture-base-coily-smoothly-contoured",
+      "text": "coily hair with smoothly contoured strand definition",
+      "sentence": "Coily hair with smoothly contoured strand definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "coily hair with smoothly contoured strand definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing coily hair with smoothly contoured strand definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with coily hair with smoothly contoured strand definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-texture-base-coily",
+      "tags": [
+        "base",
+        "hair",
+        "hair-texture",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "texture": "coily",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "coily",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-texture-base-coily-distinctly-structured",
+      "semantic_key": "hair-texture-base-coily-distinctly-structured",
+      "text": "coily hair with distinctly structured strand definition",
+      "sentence": "Coily hair with distinctly structured strand definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "coily hair with distinctly structured strand definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing coily hair with distinctly structured strand definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with coily hair with distinctly structured strand definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-texture-base-coily",
+      "tags": [
+        "base",
+        "hair",
+        "hair-texture",
+        "rarity-rare"
+      ],
+      "facets": {
+        "texture": "coily",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "coily",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-texture-base-coily-naturally-asymmetric",
+      "semantic_key": "hair-texture-base-coily-naturally-asymmetric",
+      "text": "coily hair with naturally asymmetric strand definition",
+      "sentence": "Coily hair with naturally asymmetric strand definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "coily hair with naturally asymmetric strand definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing coily hair with naturally asymmetric strand definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with coily hair with naturally asymmetric strand definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-texture-base-coily",
+      "tags": [
+        "base",
+        "hair",
+        "hair-texture",
+        "rarity-rare"
+      ],
+      "facets": {
+        "texture": "coily",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "coily",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-texture-base-kinky-coily-softly-defined",
+      "semantic_key": "hair-texture-base-kinky-coily-softly-defined",
+      "text": "kinky-coily hair with softly defined strand definition",
+      "sentence": "Kinky-coily hair with softly defined strand definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "kinky-coily hair with softly defined strand definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing kinky-coily hair with softly defined strand definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with kinky-coily hair with softly defined strand definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-texture-base-kinky-coily",
+      "tags": [
+        "base",
+        "hair",
+        "hair-texture",
+        "rarity-common"
+      ],
+      "facets": {
+        "texture": "kinky-coily",
+        "treatment": "softly-defined"
+      },
+      "subcategory": "kinky-coily",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-texture-base-kinky-coily-cleanly-outlined",
+      "semantic_key": "hair-texture-base-kinky-coily-cleanly-outlined",
+      "text": "kinky-coily hair with cleanly outlined strand definition",
+      "sentence": "Kinky-coily hair with cleanly outlined strand definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "kinky-coily hair with cleanly outlined strand definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing kinky-coily hair with cleanly outlined strand definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with kinky-coily hair with cleanly outlined strand definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-texture-base-kinky-coily",
+      "tags": [
+        "base",
+        "hair",
+        "hair-texture",
+        "rarity-common"
+      ],
+      "facets": {
+        "texture": "kinky-coily",
+        "treatment": "cleanly-outlined"
+      },
+      "subcategory": "kinky-coily",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-texture-base-kinky-coily-gently-tapered",
+      "semantic_key": "hair-texture-base-kinky-coily-gently-tapered",
+      "text": "kinky-coily hair with gently tapered strand definition",
+      "sentence": "Kinky-coily hair with gently tapered strand definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "kinky-coily hair with gently tapered strand definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing kinky-coily hair with gently tapered strand definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with kinky-coily hair with gently tapered strand definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-texture-base-kinky-coily",
+      "tags": [
+        "base",
+        "hair",
+        "hair-texture",
+        "rarity-common"
+      ],
+      "facets": {
+        "texture": "kinky-coily",
+        "treatment": "gently-tapered"
+      },
+      "subcategory": "kinky-coily",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-texture-base-kinky-coily-evenly-proportioned",
+      "semantic_key": "hair-texture-base-kinky-coily-evenly-proportioned",
+      "text": "kinky-coily hair with evenly proportioned strand definition",
+      "sentence": "Kinky-coily hair with evenly proportioned strand definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "kinky-coily hair with evenly proportioned strand definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing kinky-coily hair with evenly proportioned strand definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with kinky-coily hair with evenly proportioned strand definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-texture-base-kinky-coily",
+      "tags": [
+        "base",
+        "hair",
+        "hair-texture",
+        "rarity-common"
+      ],
+      "facets": {
+        "texture": "kinky-coily",
+        "treatment": "evenly-proportioned"
+      },
+      "subcategory": "kinky-coily",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-texture-base-kinky-coily-subtly-angular",
+      "semantic_key": "hair-texture-base-kinky-coily-subtly-angular",
+      "text": "kinky-coily hair with subtly angular strand definition",
+      "sentence": "Kinky-coily hair with subtly angular strand definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "kinky-coily hair with subtly angular strand definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing kinky-coily hair with subtly angular strand definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with kinky-coily hair with subtly angular strand definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-texture-base-kinky-coily",
+      "tags": [
+        "base",
+        "hair",
+        "hair-texture",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "texture": "kinky-coily",
+        "treatment": "subtly-angular"
+      },
+      "subcategory": "kinky-coily",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-texture-base-kinky-coily-smoothly-contoured",
+      "semantic_key": "hair-texture-base-kinky-coily-smoothly-contoured",
+      "text": "kinky-coily hair with smoothly contoured strand definition",
+      "sentence": "Kinky-coily hair with smoothly contoured strand definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "kinky-coily hair with smoothly contoured strand definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing kinky-coily hair with smoothly contoured strand definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with kinky-coily hair with smoothly contoured strand definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-texture-base-kinky-coily",
+      "tags": [
+        "base",
+        "hair",
+        "hair-texture",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "texture": "kinky-coily",
+        "treatment": "smoothly-contoured"
+      },
+      "subcategory": "kinky-coily",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-texture-base-kinky-coily-distinctly-structured",
+      "semantic_key": "hair-texture-base-kinky-coily-distinctly-structured",
+      "text": "kinky-coily hair with distinctly structured strand definition",
+      "sentence": "Kinky-coily hair with distinctly structured strand definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "kinky-coily hair with distinctly structured strand definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing kinky-coily hair with distinctly structured strand definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with kinky-coily hair with distinctly structured strand definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-texture-base-kinky-coily",
+      "tags": [
+        "base",
+        "hair",
+        "hair-texture",
+        "rarity-rare"
+      ],
+      "facets": {
+        "texture": "kinky-coily",
+        "treatment": "distinctly-structured"
+      },
+      "subcategory": "kinky-coily",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-texture-base-kinky-coily-naturally-asymmetric",
+      "semantic_key": "hair-texture-base-kinky-coily-naturally-asymmetric",
+      "text": "kinky-coily hair with naturally asymmetric strand definition",
+      "sentence": "Kinky-coily hair with naturally asymmetric strand definition.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "kinky-coily hair with naturally asymmetric strand definition",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing kinky-coily hair with naturally asymmetric strand definition",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with kinky-coily hair with naturally asymmetric strand definition",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-texture-base-kinky-coily",
+      "tags": [
+        "base",
+        "hair",
+        "hair-texture",
+        "rarity-rare"
+      ],
+      "facets": {
+        "texture": "kinky-coily",
+        "treatment": "naturally-asymmetric"
+      },
+      "subcategory": "kinky-coily",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    }
+  ]
+}

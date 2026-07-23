@@ -22,7 +22,9 @@ from prompt_architect.infrastructure.repository import bundled_repository
 if TYPE_CHECKING:
     from prompt_architect.domain.models import CompositionResult
 
-_PROFILE_IDS = [summary.id for summary in bundled_repository().list_profiles()]
+_PROFILE_SUMMARIES = bundled_repository().list_profiles()
+_PROFILE_IDS = [summary.id for summary in _PROFILE_SUMMARIES]
+_PROFILE_VERSIONS = {summary.id: summary.version for summary in _PROFILE_SUMMARIES}
 _DATA_ROOT = Path(__file__).resolve().parents[1] / "data"
 
 
@@ -42,7 +44,7 @@ class PromptArchitectNode(io.ComfyNode):
                 io.Combo.Input(
                     "profile",
                     options=_PROFILE_IDS,
-                    default="portrait",
+                    default="portrait-core",
                     tooltip="Bundled or overridden versioned prompt profile.",
                 ),
                 io.Int.Input(
@@ -151,6 +153,7 @@ class PromptArchitectNode(io.ComfyNode):
         try:
             configuration = build_node_configuration(
                 profile=profile,
+                profile_version=_PROFILE_VERSIONS[profile],
                 seed=seed,
                 generation_mode=generation_mode,
                 identity_lock=identity_lock,

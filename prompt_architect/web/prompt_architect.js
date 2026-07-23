@@ -105,7 +105,7 @@ async function openArchitect(node) {
   const configWidget = widget(node, "configuration_json");
   let state;
   try {
-    state = parseConfiguration(String(configWidget?.value ?? "{}"), String(profileWidget?.value ?? "portrait"));
+    state = parseConfiguration(String(configWidget?.value ?? "{}"), String(profileWidget?.value ?? "portrait-core"));
     const identityLockWidget = widget(node, "identity_lock");
     if (typeof identityLockWidget?.value === "boolean") {
       state = synchronizeIdentityLock(state, identityLockWidget.value);

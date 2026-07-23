@@ -1,0 +1,2577 @@
+{
+  "schema_version": "2.0",
+  "id": "performance-hand-pose-base",
+  "version": "2.0.0",
+  "library": "hand-pose",
+  "domain": "performance",
+  "category": "hand-pose",
+  "language": "en",
+  "status": "active",
+  "safety": "general",
+  "tags": [
+    "base"
+  ],
+  "fallback_option_id": "performance-hand-pose-base-hands-resting-naturally-resting-movement",
+  "options": [
+    {
+      "id": "performance-hand-pose-base-hands-resting-naturally-resting-movement",
+      "semantic_key": "performance-hand-pose-base-hands-resting-naturally-resting-movement",
+      "text": "hands resting naturally, expressed through resting movement",
+      "sentence": "Hands resting naturally, expressed through resting movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "hands resting naturally, expressed through resting movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing hands resting naturally, expressed through resting movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with hands resting naturally, expressed through resting movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-hand-pose-base-hands-resting-naturally",
+      "tags": [
+        "base",
+        "hand-pose",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "gesture": "hands-resting-naturally",
+        "treatment": "resting-movement"
+      },
+      "subcategory": "hands-resting-naturally",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-hand-pose-base-hands-resting-naturally-measured-movement",
+      "semantic_key": "performance-hand-pose-base-hands-resting-naturally-measured-movement",
+      "text": "hands resting naturally, expressed through measured movement",
+      "sentence": "Hands resting naturally, expressed through measured movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "hands resting naturally, expressed through measured movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing hands resting naturally, expressed through measured movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with hands resting naturally, expressed through measured movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-hand-pose-base-hands-resting-naturally",
+      "tags": [
+        "base",
+        "hand-pose",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "gesture": "hands-resting-naturally",
+        "treatment": "measured-movement"
+      },
+      "subcategory": "hands-resting-naturally",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-hand-pose-base-hands-resting-naturally-flowing-movement",
+      "semantic_key": "performance-hand-pose-base-hands-resting-naturally-flowing-movement",
+      "text": "hands resting naturally, expressed through flowing movement",
+      "sentence": "Hands resting naturally, expressed through flowing movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "hands resting naturally, expressed through flowing movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing hands resting naturally, expressed through flowing movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with hands resting naturally, expressed through flowing movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-hand-pose-base-hands-resting-naturally",
+      "tags": [
+        "base",
+        "hand-pose",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "gesture": "hands-resting-naturally",
+        "treatment": "flowing-movement"
+      },
+      "subcategory": "hands-resting-naturally",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-hand-pose-base-hands-resting-naturally-decisive-movement",
+      "semantic_key": "performance-hand-pose-base-hands-resting-naturally-decisive-movement",
+      "text": "hands resting naturally, expressed through decisive movement",
+      "sentence": "Hands resting naturally, expressed through decisive movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "hands resting naturally, expressed through decisive movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing hands resting naturally, expressed through decisive movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with hands resting naturally, expressed through decisive movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-hand-pose-base-hands-resting-naturally",
+      "tags": [
+        "base",
+        "hand-pose",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "gesture": "hands-resting-naturally",
+        "treatment": "decisive-movement"
+      },
+      "subcategory": "hands-resting-naturally",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-hand-pose-base-hands-resting-naturally-suspended-movement",
+      "semantic_key": "performance-hand-pose-base-hands-resting-naturally-suspended-movement",
+      "text": "hands resting naturally, expressed through suspended movement",
+      "sentence": "Hands resting naturally, expressed through suspended movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "hands resting naturally, expressed through suspended movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing hands resting naturally, expressed through suspended movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with hands resting naturally, expressed through suspended movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-hand-pose-base-hands-resting-naturally",
+      "tags": [
+        "base",
+        "hand-pose",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "gesture": "hands-resting-naturally",
+        "treatment": "suspended-movement"
+      },
+      "subcategory": "hands-resting-naturally",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-hand-pose-base-hands-resting-naturally-rhythmic-movement",
+      "semantic_key": "performance-hand-pose-base-hands-resting-naturally-rhythmic-movement",
+      "text": "hands resting naturally, expressed through rhythmic movement",
+      "sentence": "Hands resting naturally, expressed through rhythmic movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "hands resting naturally, expressed through rhythmic movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing hands resting naturally, expressed through rhythmic movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with hands resting naturally, expressed through rhythmic movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-hand-pose-base-hands-resting-naturally",
+      "tags": [
+        "base",
+        "hand-pose",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "gesture": "hands-resting-naturally",
+        "treatment": "rhythmic-movement"
+      },
+      "subcategory": "hands-resting-naturally",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-hand-pose-base-hands-resting-naturally-asymmetric-movement",
+      "semantic_key": "performance-hand-pose-base-hands-resting-naturally-asymmetric-movement",
+      "text": "hands resting naturally, expressed through asymmetric movement",
+      "sentence": "Hands resting naturally, expressed through asymmetric movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "hands resting naturally, expressed through asymmetric movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing hands resting naturally, expressed through asymmetric movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with hands resting naturally, expressed through asymmetric movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-hand-pose-base-hands-resting-naturally",
+      "tags": [
+        "base",
+        "hand-pose",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "gesture": "hands-resting-naturally",
+        "treatment": "asymmetric-movement"
+      },
+      "subcategory": "hands-resting-naturally",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-hand-pose-base-hands-resting-naturally-controlled-momentum",
+      "semantic_key": "performance-hand-pose-base-hands-resting-naturally-controlled-momentum",
+      "text": "hands resting naturally, expressed through controlled momentum",
+      "sentence": "Hands resting naturally, expressed through controlled momentum.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "hands resting naturally, expressed through controlled momentum",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing hands resting naturally, expressed through controlled momentum",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with hands resting naturally, expressed through controlled momentum",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-hand-pose-base-hands-resting-naturally",
+      "tags": [
+        "base",
+        "hand-pose",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "gesture": "hands-resting-naturally",
+        "treatment": "controlled-momentum"
+      },
+      "subcategory": "hands-resting-naturally",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-hand-pose-base-one-hand-at-the-waist-resting-movement",
+      "semantic_key": "performance-hand-pose-base-one-hand-at-the-waist-resting-movement",
+      "text": "one hand at the waist, expressed through resting movement",
+      "sentence": "One hand at the waist, expressed through resting movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "one hand at the waist, expressed through resting movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing one hand at the waist, expressed through resting movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with one hand at the waist, expressed through resting movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-hand-pose-base-one-hand-at-the-waist",
+      "tags": [
+        "base",
+        "hand-pose",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "gesture": "one-hand-at-the-waist",
+        "treatment": "resting-movement"
+      },
+      "subcategory": "one-hand-at-the-waist",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-hand-pose-base-one-hand-at-the-waist-measured-movement",
+      "semantic_key": "performance-hand-pose-base-one-hand-at-the-waist-measured-movement",
+      "text": "one hand at the waist, expressed through measured movement",
+      "sentence": "One hand at the waist, expressed through measured movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "one hand at the waist, expressed through measured movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing one hand at the waist, expressed through measured movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with one hand at the waist, expressed through measured movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-hand-pose-base-one-hand-at-the-waist",
+      "tags": [
+        "base",
+        "hand-pose",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "gesture": "one-hand-at-the-waist",
+        "treatment": "measured-movement"
+      },
+      "subcategory": "one-hand-at-the-waist",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-hand-pose-base-one-hand-at-the-waist-flowing-movement",
+      "semantic_key": "performance-hand-pose-base-one-hand-at-the-waist-flowing-movement",
+      "text": "one hand at the waist, expressed through flowing movement",
+      "sentence": "One hand at the waist, expressed through flowing movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "one hand at the waist, expressed through flowing movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing one hand at the waist, expressed through flowing movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with one hand at the waist, expressed through flowing movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-hand-pose-base-one-hand-at-the-waist",
+      "tags": [
+        "base",
+        "hand-pose",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "gesture": "one-hand-at-the-waist",
+        "treatment": "flowing-movement"
+      },
+      "subcategory": "one-hand-at-the-waist",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-hand-pose-base-one-hand-at-the-waist-decisive-movement",
+      "semantic_key": "performance-hand-pose-base-one-hand-at-the-waist-decisive-movement",
+      "text": "one hand at the waist, expressed through decisive movement",
+      "sentence": "One hand at the waist, expressed through decisive movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "one hand at the waist, expressed through decisive movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing one hand at the waist, expressed through decisive movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with one hand at the waist, expressed through decisive movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-hand-pose-base-one-hand-at-the-waist",
+      "tags": [
+        "base",
+        "hand-pose",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "gesture": "one-hand-at-the-waist",
+        "treatment": "decisive-movement"
+      },
+      "subcategory": "one-hand-at-the-waist",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-hand-pose-base-one-hand-at-the-waist-suspended-movement",
+      "semantic_key": "performance-hand-pose-base-one-hand-at-the-waist-suspended-movement",
+      "text": "one hand at the waist, expressed through suspended movement",
+      "sentence": "One hand at the waist, expressed through suspended movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "one hand at the waist, expressed through suspended movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing one hand at the waist, expressed through suspended movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with one hand at the waist, expressed through suspended movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-hand-pose-base-one-hand-at-the-waist",
+      "tags": [
+        "base",
+        "hand-pose",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "gesture": "one-hand-at-the-waist",
+        "treatment": "suspended-movement"
+      },
+      "subcategory": "one-hand-at-the-waist",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-hand-pose-base-one-hand-at-the-waist-rhythmic-movement",
+      "semantic_key": "performance-hand-pose-base-one-hand-at-the-waist-rhythmic-movement",
+      "text": "one hand at the waist, expressed through rhythmic movement",
+      "sentence": "One hand at the waist, expressed through rhythmic movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "one hand at the waist, expressed through rhythmic movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing one hand at the waist, expressed through rhythmic movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with one hand at the waist, expressed through rhythmic movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-hand-pose-base-one-hand-at-the-waist",
+      "tags": [
+        "base",
+        "hand-pose",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "gesture": "one-hand-at-the-waist",
+        "treatment": "rhythmic-movement"
+      },
+      "subcategory": "one-hand-at-the-waist",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-hand-pose-base-one-hand-at-the-waist-asymmetric-movement",
+      "semantic_key": "performance-hand-pose-base-one-hand-at-the-waist-asymmetric-movement",
+      "text": "one hand at the waist, expressed through asymmetric movement",
+      "sentence": "One hand at the waist, expressed through asymmetric movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "one hand at the waist, expressed through asymmetric movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing one hand at the waist, expressed through asymmetric movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with one hand at the waist, expressed through asymmetric movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-hand-pose-base-one-hand-at-the-waist",
+      "tags": [
+        "base",
+        "hand-pose",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "gesture": "one-hand-at-the-waist",
+        "treatment": "asymmetric-movement"
+      },
+      "subcategory": "one-hand-at-the-waist",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-hand-pose-base-one-hand-at-the-waist-controlled-momentum",
+      "semantic_key": "performance-hand-pose-base-one-hand-at-the-waist-controlled-momentum",
+      "text": "one hand at the waist, expressed through controlled momentum",
+      "sentence": "One hand at the waist, expressed through controlled momentum.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "one hand at the waist, expressed through controlled momentum",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing one hand at the waist, expressed through controlled momentum",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with one hand at the waist, expressed through controlled momentum",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-hand-pose-base-one-hand-at-the-waist",
+      "tags": [
+        "base",
+        "hand-pose",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "gesture": "one-hand-at-the-waist",
+        "treatment": "controlled-momentum"
+      },
+      "subcategory": "one-hand-at-the-waist",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-hand-pose-base-hands-loosely-clasped-resting-movement",
+      "semantic_key": "performance-hand-pose-base-hands-loosely-clasped-resting-movement",
+      "text": "hands loosely clasped, expressed through resting movement",
+      "sentence": "Hands loosely clasped, expressed through resting movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "hands loosely clasped, expressed through resting movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing hands loosely clasped, expressed through resting movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with hands loosely clasped, expressed through resting movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-hand-pose-base-hands-loosely-clasped",
+      "tags": [
+        "base",
+        "hand-pose",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "gesture": "hands-loosely-clasped",
+        "treatment": "resting-movement"
+      },
+      "subcategory": "hands-loosely-clasped",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-hand-pose-base-hands-loosely-clasped-measured-movement",
+      "semantic_key": "performance-hand-pose-base-hands-loosely-clasped-measured-movement",
+      "text": "hands loosely clasped, expressed through measured movement",
+      "sentence": "Hands loosely clasped, expressed through measured movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "hands loosely clasped, expressed through measured movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing hands loosely clasped, expressed through measured movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with hands loosely clasped, expressed through measured movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-hand-pose-base-hands-loosely-clasped",
+      "tags": [
+        "base",
+        "hand-pose",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "gesture": "hands-loosely-clasped",
+        "treatment": "measured-movement"
+      },
+      "subcategory": "hands-loosely-clasped",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-hand-pose-base-hands-loosely-clasped-flowing-movement",
+      "semantic_key": "performance-hand-pose-base-hands-loosely-clasped-flowing-movement",
+      "text": "hands loosely clasped, expressed through flowing movement",
+      "sentence": "Hands loosely clasped, expressed through flowing movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "hands loosely clasped, expressed through flowing movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing hands loosely clasped, expressed through flowing movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with hands loosely clasped, expressed through flowing movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-hand-pose-base-hands-loosely-clasped",
+      "tags": [
+        "base",
+        "hand-pose",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "gesture": "hands-loosely-clasped",
+        "treatment": "flowing-movement"
+      },
+      "subcategory": "hands-loosely-clasped",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-hand-pose-base-hands-loosely-clasped-decisive-movement",
+      "semantic_key": "performance-hand-pose-base-hands-loosely-clasped-decisive-movement",
+      "text": "hands loosely clasped, expressed through decisive movement",
+      "sentence": "Hands loosely clasped, expressed through decisive movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "hands loosely clasped, expressed through decisive movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing hands loosely clasped, expressed through decisive movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with hands loosely clasped, expressed through decisive movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-hand-pose-base-hands-loosely-clasped",
+      "tags": [
+        "base",
+        "hand-pose",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "gesture": "hands-loosely-clasped",
+        "treatment": "decisive-movement"
+      },
+      "subcategory": "hands-loosely-clasped",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-hand-pose-base-hands-loosely-clasped-suspended-movement",
+      "semantic_key": "performance-hand-pose-base-hands-loosely-clasped-suspended-movement",
+      "text": "hands loosely clasped, expressed through suspended movement",
+      "sentence": "Hands loosely clasped, expressed through suspended movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "hands loosely clasped, expressed through suspended movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing hands loosely clasped, expressed through suspended movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with hands loosely clasped, expressed through suspended movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-hand-pose-base-hands-loosely-clasped",
+      "tags": [
+        "base",
+        "hand-pose",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "gesture": "hands-loosely-clasped",
+        "treatment": "suspended-movement"
+      },
+      "subcategory": "hands-loosely-clasped",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-hand-pose-base-hands-loosely-clasped-rhythmic-movement",
+      "semantic_key": "performance-hand-pose-base-hands-loosely-clasped-rhythmic-movement",
+      "text": "hands loosely clasped, expressed through rhythmic movement",
+      "sentence": "Hands loosely clasped, expressed through rhythmic movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "hands loosely clasped, expressed through rhythmic movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing hands loosely clasped, expressed through rhythmic movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with hands loosely clasped, expressed through rhythmic movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-hand-pose-base-hands-loosely-clasped",
+      "tags": [
+        "base",
+        "hand-pose",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "gesture": "hands-loosely-clasped",
+        "treatment": "rhythmic-movement"
+      },
+      "subcategory": "hands-loosely-clasped",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-hand-pose-base-hands-loosely-clasped-asymmetric-movement",
+      "semantic_key": "performance-hand-pose-base-hands-loosely-clasped-asymmetric-movement",
+      "text": "hands loosely clasped, expressed through asymmetric movement",
+      "sentence": "Hands loosely clasped, expressed through asymmetric movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "hands loosely clasped, expressed through asymmetric movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing hands loosely clasped, expressed through asymmetric movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with hands loosely clasped, expressed through asymmetric movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-hand-pose-base-hands-loosely-clasped",
+      "tags": [
+        "base",
+        "hand-pose",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "gesture": "hands-loosely-clasped",
+        "treatment": "asymmetric-movement"
+      },
+      "subcategory": "hands-loosely-clasped",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-hand-pose-base-hands-loosely-clasped-controlled-momentum",
+      "semantic_key": "performance-hand-pose-base-hands-loosely-clasped-controlled-momentum",
+      "text": "hands loosely clasped, expressed through controlled momentum",
+      "sentence": "Hands loosely clasped, expressed through controlled momentum.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "hands loosely clasped, expressed through controlled momentum",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing hands loosely clasped, expressed through controlled momentum",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with hands loosely clasped, expressed through controlled momentum",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-hand-pose-base-hands-loosely-clasped",
+      "tags": [
+        "base",
+        "hand-pose",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "gesture": "hands-loosely-clasped",
+        "treatment": "controlled-momentum"
+      },
+      "subcategory": "hands-loosely-clasped",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-hand-pose-base-one-hand-touching-the-collar-resting-movement",
+      "semantic_key": "performance-hand-pose-base-one-hand-touching-the-collar-resting-movement",
+      "text": "one hand touching the collar, expressed through resting movement",
+      "sentence": "One hand touching the collar, expressed through resting movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "one hand touching the collar, expressed through resting movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing one hand touching the collar, expressed through resting movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with one hand touching the collar, expressed through resting movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-hand-pose-base-one-hand-touching-the-collar",
+      "tags": [
+        "base",
+        "hand-pose",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "gesture": "one-hand-touching-the-collar",
+        "treatment": "resting-movement"
+      },
+      "subcategory": "one-hand-touching-the-collar",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-hand-pose-base-one-hand-touching-the-collar-measured-movement",
+      "semantic_key": "performance-hand-pose-base-one-hand-touching-the-collar-measured-movement",
+      "text": "one hand touching the collar, expressed through measured movement",
+      "sentence": "One hand touching the collar, expressed through measured movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "one hand touching the collar, expressed through measured movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing one hand touching the collar, expressed through measured movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with one hand touching the collar, expressed through measured movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-hand-pose-base-one-hand-touching-the-collar",
+      "tags": [
+        "base",
+        "hand-pose",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "gesture": "one-hand-touching-the-collar",
+        "treatment": "measured-movement"
+      },
+      "subcategory": "one-hand-touching-the-collar",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-hand-pose-base-one-hand-touching-the-collar-flowing-movement",
+      "semantic_key": "performance-hand-pose-base-one-hand-touching-the-collar-flowing-movement",
+      "text": "one hand touching the collar, expressed through flowing movement",
+      "sentence": "One hand touching the collar, expressed through flowing movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "one hand touching the collar, expressed through flowing movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing one hand touching the collar, expressed through flowing movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with one hand touching the collar, expressed through flowing movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-hand-pose-base-one-hand-touching-the-collar",
+      "tags": [
+        "base",
+        "hand-pose",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "gesture": "one-hand-touching-the-collar",
+        "treatment": "flowing-movement"
+      },
+      "subcategory": "one-hand-touching-the-collar",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-hand-pose-base-one-hand-touching-the-collar-decisive-movement",
+      "semantic_key": "performance-hand-pose-base-one-hand-touching-the-collar-decisive-movement",
+      "text": "one hand touching the collar, expressed through decisive movement",
+      "sentence": "One hand touching the collar, expressed through decisive movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "one hand touching the collar, expressed through decisive movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing one hand touching the collar, expressed through decisive movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with one hand touching the collar, expressed through decisive movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-hand-pose-base-one-hand-touching-the-collar",
+      "tags": [
+        "base",
+        "hand-pose",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "gesture": "one-hand-touching-the-collar",
+        "treatment": "decisive-movement"
+      },
+      "subcategory": "one-hand-touching-the-collar",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-hand-pose-base-one-hand-touching-the-collar-suspended-movement",
+      "semantic_key": "performance-hand-pose-base-one-hand-touching-the-collar-suspended-movement",
+      "text": "one hand touching the collar, expressed through suspended movement",
+      "sentence": "One hand touching the collar, expressed through suspended movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "one hand touching the collar, expressed through suspended movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing one hand touching the collar, expressed through suspended movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with one hand touching the collar, expressed through suspended movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-hand-pose-base-one-hand-touching-the-collar",
+      "tags": [
+        "base",
+        "hand-pose",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "gesture": "one-hand-touching-the-collar",
+        "treatment": "suspended-movement"
+      },
+      "subcategory": "one-hand-touching-the-collar",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-hand-pose-base-one-hand-touching-the-collar-rhythmic-movement",
+      "semantic_key": "performance-hand-pose-base-one-hand-touching-the-collar-rhythmic-movement",
+      "text": "one hand touching the collar, expressed through rhythmic movement",
+      "sentence": "One hand touching the collar, expressed through rhythmic movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "one hand touching the collar, expressed through rhythmic movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing one hand touching the collar, expressed through rhythmic movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with one hand touching the collar, expressed through rhythmic movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-hand-pose-base-one-hand-touching-the-collar",
+      "tags": [
+        "base",
+        "hand-pose",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "gesture": "one-hand-touching-the-collar",
+        "treatment": "rhythmic-movement"
+      },
+      "subcategory": "one-hand-touching-the-collar",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-hand-pose-base-one-hand-touching-the-collar-asymmetric-movement",
+      "semantic_key": "performance-hand-pose-base-one-hand-touching-the-collar-asymmetric-movement",
+      "text": "one hand touching the collar, expressed through asymmetric movement",
+      "sentence": "One hand touching the collar, expressed through asymmetric movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "one hand touching the collar, expressed through asymmetric movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing one hand touching the collar, expressed through asymmetric movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with one hand touching the collar, expressed through asymmetric movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-hand-pose-base-one-hand-touching-the-collar",
+      "tags": [
+        "base",
+        "hand-pose",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "gesture": "one-hand-touching-the-collar",
+        "treatment": "asymmetric-movement"
+      },
+      "subcategory": "one-hand-touching-the-collar",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-hand-pose-base-one-hand-touching-the-collar-controlled-momentum",
+      "semantic_key": "performance-hand-pose-base-one-hand-touching-the-collar-controlled-momentum",
+      "text": "one hand touching the collar, expressed through controlled momentum",
+      "sentence": "One hand touching the collar, expressed through controlled momentum.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "one hand touching the collar, expressed through controlled momentum",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing one hand touching the collar, expressed through controlled momentum",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with one hand touching the collar, expressed through controlled momentum",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-hand-pose-base-one-hand-touching-the-collar",
+      "tags": [
+        "base",
+        "hand-pose",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "gesture": "one-hand-touching-the-collar",
+        "treatment": "controlled-momentum"
+      },
+      "subcategory": "one-hand-touching-the-collar",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-hand-pose-base-hands-in-pockets-resting-movement",
+      "semantic_key": "performance-hand-pose-base-hands-in-pockets-resting-movement",
+      "text": "hands in pockets, expressed through resting movement",
+      "sentence": "Hands in pockets, expressed through resting movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "hands in pockets, expressed through resting movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing hands in pockets, expressed through resting movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with hands in pockets, expressed through resting movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-hand-pose-base-hands-in-pockets",
+      "tags": [
+        "base",
+        "hand-pose",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "gesture": "hands-in-pockets",
+        "treatment": "resting-movement"
+      },
+      "subcategory": "hands-in-pockets",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-hand-pose-base-hands-in-pockets-measured-movement",
+      "semantic_key": "performance-hand-pose-base-hands-in-pockets-measured-movement",
+      "text": "hands in pockets, expressed through measured movement",
+      "sentence": "Hands in pockets, expressed through measured movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "hands in pockets, expressed through measured movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing hands in pockets, expressed through measured movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with hands in pockets, expressed through measured movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-hand-pose-base-hands-in-pockets",
+      "tags": [
+        "base",
+        "hand-pose",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "gesture": "hands-in-pockets",
+        "treatment": "measured-movement"
+      },
+      "subcategory": "hands-in-pockets",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-hand-pose-base-hands-in-pockets-flowing-movement",
+      "semantic_key": "performance-hand-pose-base-hands-in-pockets-flowing-movement",
+      "text": "hands in pockets, expressed through flowing movement",
+      "sentence": "Hands in pockets, expressed through flowing movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "hands in pockets, expressed through flowing movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing hands in pockets, expressed through flowing movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with hands in pockets, expressed through flowing movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-hand-pose-base-hands-in-pockets",
+      "tags": [
+        "base",
+        "hand-pose",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "gesture": "hands-in-pockets",
+        "treatment": "flowing-movement"
+      },
+      "subcategory": "hands-in-pockets",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-hand-pose-base-hands-in-pockets-decisive-movement",
+      "semantic_key": "performance-hand-pose-base-hands-in-pockets-decisive-movement",
+      "text": "hands in pockets, expressed through decisive movement",
+      "sentence": "Hands in pockets, expressed through decisive movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "hands in pockets, expressed through decisive movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing hands in pockets, expressed through decisive movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with hands in pockets, expressed through decisive movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-hand-pose-base-hands-in-pockets",
+      "tags": [
+        "base",
+        "hand-pose",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "gesture": "hands-in-pockets",
+        "treatment": "decisive-movement"
+      },
+      "subcategory": "hands-in-pockets",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-hand-pose-base-hands-in-pockets-suspended-movement",
+      "semantic_key": "performance-hand-pose-base-hands-in-pockets-suspended-movement",
+      "text": "hands in pockets, expressed through suspended movement",
+      "sentence": "Hands in pockets, expressed through suspended movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "hands in pockets, expressed through suspended movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing hands in pockets, expressed through suspended movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with hands in pockets, expressed through suspended movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-hand-pose-base-hands-in-pockets",
+      "tags": [
+        "base",
+        "hand-pose",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "gesture": "hands-in-pockets",
+        "treatment": "suspended-movement"
+      },
+      "subcategory": "hands-in-pockets",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-hand-pose-base-hands-in-pockets-rhythmic-movement",
+      "semantic_key": "performance-hand-pose-base-hands-in-pockets-rhythmic-movement",
+      "text": "hands in pockets, expressed through rhythmic movement",
+      "sentence": "Hands in pockets, expressed through rhythmic movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "hands in pockets, expressed through rhythmic movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing hands in pockets, expressed through rhythmic movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with hands in pockets, expressed through rhythmic movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-hand-pose-base-hands-in-pockets",
+      "tags": [
+        "base",
+        "hand-pose",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "gesture": "hands-in-pockets",
+        "treatment": "rhythmic-movement"
+      },
+      "subcategory": "hands-in-pockets",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-hand-pose-base-hands-in-pockets-asymmetric-movement",
+      "semantic_key": "performance-hand-pose-base-hands-in-pockets-asymmetric-movement",
+      "text": "hands in pockets, expressed through asymmetric movement",
+      "sentence": "Hands in pockets, expressed through asymmetric movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "hands in pockets, expressed through asymmetric movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing hands in pockets, expressed through asymmetric movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with hands in pockets, expressed through asymmetric movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-hand-pose-base-hands-in-pockets",
+      "tags": [
+        "base",
+        "hand-pose",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "gesture": "hands-in-pockets",
+        "treatment": "asymmetric-movement"
+      },
+      "subcategory": "hands-in-pockets",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-hand-pose-base-hands-in-pockets-controlled-momentum",
+      "semantic_key": "performance-hand-pose-base-hands-in-pockets-controlled-momentum",
+      "text": "hands in pockets, expressed through controlled momentum",
+      "sentence": "Hands in pockets, expressed through controlled momentum.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "hands in pockets, expressed through controlled momentum",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing hands in pockets, expressed through controlled momentum",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with hands in pockets, expressed through controlled momentum",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-hand-pose-base-hands-in-pockets",
+      "tags": [
+        "base",
+        "hand-pose",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "gesture": "hands-in-pockets",
+        "treatment": "controlled-momentum"
+      },
+      "subcategory": "hands-in-pockets",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-hand-pose-base-one-hand-holding-an-object-resting-movement",
+      "semantic_key": "performance-hand-pose-base-one-hand-holding-an-object-resting-movement",
+      "text": "one hand holding an object, expressed through resting movement",
+      "sentence": "One hand holding an object, expressed through resting movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "one hand holding an object, expressed through resting movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing one hand holding an object, expressed through resting movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with one hand holding an object, expressed through resting movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-hand-pose-base-one-hand-holding-an-object",
+      "tags": [
+        "base",
+        "hand-pose",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "gesture": "one-hand-holding-an-object",
+        "treatment": "resting-movement"
+      },
+      "subcategory": "one-hand-holding-an-object",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-hand-pose-base-one-hand-holding-an-object-measured-movement",
+      "semantic_key": "performance-hand-pose-base-one-hand-holding-an-object-measured-movement",
+      "text": "one hand holding an object, expressed through measured movement",
+      "sentence": "One hand holding an object, expressed through measured movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "one hand holding an object, expressed through measured movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing one hand holding an object, expressed through measured movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with one hand holding an object, expressed through measured movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-hand-pose-base-one-hand-holding-an-object",
+      "tags": [
+        "base",
+        "hand-pose",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "gesture": "one-hand-holding-an-object",
+        "treatment": "measured-movement"
+      },
+      "subcategory": "one-hand-holding-an-object",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-hand-pose-base-one-hand-holding-an-object-flowing-movement",
+      "semantic_key": "performance-hand-pose-base-one-hand-holding-an-object-flowing-movement",
+      "text": "one hand holding an object, expressed through flowing movement",
+      "sentence": "One hand holding an object, expressed through flowing movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "one hand holding an object, expressed through flowing movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing one hand holding an object, expressed through flowing movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with one hand holding an object, expressed through flowing movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-hand-pose-base-one-hand-holding-an-object",
+      "tags": [
+        "base",
+        "hand-pose",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "gesture": "one-hand-holding-an-object",
+        "treatment": "flowing-movement"
+      },
+      "subcategory": "one-hand-holding-an-object",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-hand-pose-base-one-hand-holding-an-object-decisive-movement",
+      "semantic_key": "performance-hand-pose-base-one-hand-holding-an-object-decisive-movement",
+      "text": "one hand holding an object, expressed through decisive movement",
+      "sentence": "One hand holding an object, expressed through decisive movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "one hand holding an object, expressed through decisive movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing one hand holding an object, expressed through decisive movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with one hand holding an object, expressed through decisive movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-hand-pose-base-one-hand-holding-an-object",
+      "tags": [
+        "base",
+        "hand-pose",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "gesture": "one-hand-holding-an-object",
+        "treatment": "decisive-movement"
+      },
+      "subcategory": "one-hand-holding-an-object",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-hand-pose-base-one-hand-holding-an-object-suspended-movement",
+      "semantic_key": "performance-hand-pose-base-one-hand-holding-an-object-suspended-movement",
+      "text": "one hand holding an object, expressed through suspended movement",
+      "sentence": "One hand holding an object, expressed through suspended movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "one hand holding an object, expressed through suspended movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing one hand holding an object, expressed through suspended movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with one hand holding an object, expressed through suspended movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-hand-pose-base-one-hand-holding-an-object",
+      "tags": [
+        "base",
+        "hand-pose",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "gesture": "one-hand-holding-an-object",
+        "treatment": "suspended-movement"
+      },
+      "subcategory": "one-hand-holding-an-object",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-hand-pose-base-one-hand-holding-an-object-rhythmic-movement",
+      "semantic_key": "performance-hand-pose-base-one-hand-holding-an-object-rhythmic-movement",
+      "text": "one hand holding an object, expressed through rhythmic movement",
+      "sentence": "One hand holding an object, expressed through rhythmic movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "one hand holding an object, expressed through rhythmic movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing one hand holding an object, expressed through rhythmic movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with one hand holding an object, expressed through rhythmic movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-hand-pose-base-one-hand-holding-an-object",
+      "tags": [
+        "base",
+        "hand-pose",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "gesture": "one-hand-holding-an-object",
+        "treatment": "rhythmic-movement"
+      },
+      "subcategory": "one-hand-holding-an-object",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-hand-pose-base-one-hand-holding-an-object-asymmetric-movement",
+      "semantic_key": "performance-hand-pose-base-one-hand-holding-an-object-asymmetric-movement",
+      "text": "one hand holding an object, expressed through asymmetric movement",
+      "sentence": "One hand holding an object, expressed through asymmetric movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "one hand holding an object, expressed through asymmetric movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing one hand holding an object, expressed through asymmetric movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with one hand holding an object, expressed through asymmetric movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-hand-pose-base-one-hand-holding-an-object",
+      "tags": [
+        "base",
+        "hand-pose",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "gesture": "one-hand-holding-an-object",
+        "treatment": "asymmetric-movement"
+      },
+      "subcategory": "one-hand-holding-an-object",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-hand-pose-base-one-hand-holding-an-object-controlled-momentum",
+      "semantic_key": "performance-hand-pose-base-one-hand-holding-an-object-controlled-momentum",
+      "text": "one hand holding an object, expressed through controlled momentum",
+      "sentence": "One hand holding an object, expressed through controlled momentum.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "one hand holding an object, expressed through controlled momentum",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing one hand holding an object, expressed through controlled momentum",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with one hand holding an object, expressed through controlled momentum",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-hand-pose-base-one-hand-holding-an-object",
+      "tags": [
+        "base",
+        "hand-pose",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "gesture": "one-hand-holding-an-object",
+        "treatment": "controlled-momentum"
+      },
+      "subcategory": "one-hand-holding-an-object",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-hand-pose-base-arms-loosely-folded-resting-movement",
+      "semantic_key": "performance-hand-pose-base-arms-loosely-folded-resting-movement",
+      "text": "arms loosely folded, expressed through resting movement",
+      "sentence": "Arms loosely folded, expressed through resting movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "arms loosely folded, expressed through resting movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing arms loosely folded, expressed through resting movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with arms loosely folded, expressed through resting movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-hand-pose-base-arms-loosely-folded",
+      "tags": [
+        "base",
+        "hand-pose",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "gesture": "arms-loosely-folded",
+        "treatment": "resting-movement"
+      },
+      "subcategory": "arms-loosely-folded",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-hand-pose-base-arms-loosely-folded-measured-movement",
+      "semantic_key": "performance-hand-pose-base-arms-loosely-folded-measured-movement",
+      "text": "arms loosely folded, expressed through measured movement",
+      "sentence": "Arms loosely folded, expressed through measured movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "arms loosely folded, expressed through measured movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing arms loosely folded, expressed through measured movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with arms loosely folded, expressed through measured movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-hand-pose-base-arms-loosely-folded",
+      "tags": [
+        "base",
+        "hand-pose",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "gesture": "arms-loosely-folded",
+        "treatment": "measured-movement"
+      },
+      "subcategory": "arms-loosely-folded",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-hand-pose-base-arms-loosely-folded-flowing-movement",
+      "semantic_key": "performance-hand-pose-base-arms-loosely-folded-flowing-movement",
+      "text": "arms loosely folded, expressed through flowing movement",
+      "sentence": "Arms loosely folded, expressed through flowing movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "arms loosely folded, expressed through flowing movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing arms loosely folded, expressed through flowing movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with arms loosely folded, expressed through flowing movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-hand-pose-base-arms-loosely-folded",
+      "tags": [
+        "base",
+        "hand-pose",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "gesture": "arms-loosely-folded",
+        "treatment": "flowing-movement"
+      },
+      "subcategory": "arms-loosely-folded",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-hand-pose-base-arms-loosely-folded-decisive-movement",
+      "semantic_key": "performance-hand-pose-base-arms-loosely-folded-decisive-movement",
+      "text": "arms loosely folded, expressed through decisive movement",
+      "sentence": "Arms loosely folded, expressed through decisive movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "arms loosely folded, expressed through decisive movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing arms loosely folded, expressed through decisive movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with arms loosely folded, expressed through decisive movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-hand-pose-base-arms-loosely-folded",
+      "tags": [
+        "base",
+        "hand-pose",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "gesture": "arms-loosely-folded",
+        "treatment": "decisive-movement"
+      },
+      "subcategory": "arms-loosely-folded",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-hand-pose-base-arms-loosely-folded-suspended-movement",
+      "semantic_key": "performance-hand-pose-base-arms-loosely-folded-suspended-movement",
+      "text": "arms loosely folded, expressed through suspended movement",
+      "sentence": "Arms loosely folded, expressed through suspended movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "arms loosely folded, expressed through suspended movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing arms loosely folded, expressed through suspended movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with arms loosely folded, expressed through suspended movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-hand-pose-base-arms-loosely-folded",
+      "tags": [
+        "base",
+        "hand-pose",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "gesture": "arms-loosely-folded",
+        "treatment": "suspended-movement"
+      },
+      "subcategory": "arms-loosely-folded",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-hand-pose-base-arms-loosely-folded-rhythmic-movement",
+      "semantic_key": "performance-hand-pose-base-arms-loosely-folded-rhythmic-movement",
+      "text": "arms loosely folded, expressed through rhythmic movement",
+      "sentence": "Arms loosely folded, expressed through rhythmic movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "arms loosely folded, expressed through rhythmic movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing arms loosely folded, expressed through rhythmic movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with arms loosely folded, expressed through rhythmic movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-hand-pose-base-arms-loosely-folded",
+      "tags": [
+        "base",
+        "hand-pose",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "gesture": "arms-loosely-folded",
+        "treatment": "rhythmic-movement"
+      },
+      "subcategory": "arms-loosely-folded",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-hand-pose-base-arms-loosely-folded-asymmetric-movement",
+      "semantic_key": "performance-hand-pose-base-arms-loosely-folded-asymmetric-movement",
+      "text": "arms loosely folded, expressed through asymmetric movement",
+      "sentence": "Arms loosely folded, expressed through asymmetric movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "arms loosely folded, expressed through asymmetric movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing arms loosely folded, expressed through asymmetric movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with arms loosely folded, expressed through asymmetric movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-hand-pose-base-arms-loosely-folded",
+      "tags": [
+        "base",
+        "hand-pose",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "gesture": "arms-loosely-folded",
+        "treatment": "asymmetric-movement"
+      },
+      "subcategory": "arms-loosely-folded",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-hand-pose-base-arms-loosely-folded-controlled-momentum",
+      "semantic_key": "performance-hand-pose-base-arms-loosely-folded-controlled-momentum",
+      "text": "arms loosely folded, expressed through controlled momentum",
+      "sentence": "Arms loosely folded, expressed through controlled momentum.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "arms loosely folded, expressed through controlled momentum",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing arms loosely folded, expressed through controlled momentum",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with arms loosely folded, expressed through controlled momentum",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-hand-pose-base-arms-loosely-folded",
+      "tags": [
+        "base",
+        "hand-pose",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "gesture": "arms-loosely-folded",
+        "treatment": "controlled-momentum"
+      },
+      "subcategory": "arms-loosely-folded",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-hand-pose-base-one-hand-supporting-the-chin-resting-movement",
+      "semantic_key": "performance-hand-pose-base-one-hand-supporting-the-chin-resting-movement",
+      "text": "one hand supporting the chin, expressed through resting movement",
+      "sentence": "One hand supporting the chin, expressed through resting movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "one hand supporting the chin, expressed through resting movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing one hand supporting the chin, expressed through resting movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with one hand supporting the chin, expressed through resting movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-hand-pose-base-one-hand-supporting-the-chin",
+      "tags": [
+        "base",
+        "hand-pose",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "gesture": "one-hand-supporting-the-chin",
+        "treatment": "resting-movement"
+      },
+      "subcategory": "one-hand-supporting-the-chin",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-hand-pose-base-one-hand-supporting-the-chin-measured-movement",
+      "semantic_key": "performance-hand-pose-base-one-hand-supporting-the-chin-measured-movement",
+      "text": "one hand supporting the chin, expressed through measured movement",
+      "sentence": "One hand supporting the chin, expressed through measured movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "one hand supporting the chin, expressed through measured movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing one hand supporting the chin, expressed through measured movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with one hand supporting the chin, expressed through measured movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-hand-pose-base-one-hand-supporting-the-chin",
+      "tags": [
+        "base",
+        "hand-pose",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "gesture": "one-hand-supporting-the-chin",
+        "treatment": "measured-movement"
+      },
+      "subcategory": "one-hand-supporting-the-chin",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-hand-pose-base-one-hand-supporting-the-chin-flowing-movement",
+      "semantic_key": "performance-hand-pose-base-one-hand-supporting-the-chin-flowing-movement",
+      "text": "one hand supporting the chin, expressed through flowing movement",
+      "sentence": "One hand supporting the chin, expressed through flowing movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "one hand supporting the chin, expressed through flowing movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing one hand supporting the chin, expressed through flowing movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with one hand supporting the chin, expressed through flowing movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-hand-pose-base-one-hand-supporting-the-chin",
+      "tags": [
+        "base",
+        "hand-pose",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "gesture": "one-hand-supporting-the-chin",
+        "treatment": "flowing-movement"
+      },
+      "subcategory": "one-hand-supporting-the-chin",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-hand-pose-base-one-hand-supporting-the-chin-decisive-movement",
+      "semantic_key": "performance-hand-pose-base-one-hand-supporting-the-chin-decisive-movement",
+      "text": "one hand supporting the chin, expressed through decisive movement",
+      "sentence": "One hand supporting the chin, expressed through decisive movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "one hand supporting the chin, expressed through decisive movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing one hand supporting the chin, expressed through decisive movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with one hand supporting the chin, expressed through decisive movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-hand-pose-base-one-hand-supporting-the-chin",
+      "tags": [
+        "base",
+        "hand-pose",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "gesture": "one-hand-supporting-the-chin",
+        "treatment": "decisive-movement"
+      },
+      "subcategory": "one-hand-supporting-the-chin",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-hand-pose-base-one-hand-supporting-the-chin-suspended-movement",
+      "semantic_key": "performance-hand-pose-base-one-hand-supporting-the-chin-suspended-movement",
+      "text": "one hand supporting the chin, expressed through suspended movement",
+      "sentence": "One hand supporting the chin, expressed through suspended movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "one hand supporting the chin, expressed through suspended movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing one hand supporting the chin, expressed through suspended movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with one hand supporting the chin, expressed through suspended movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-hand-pose-base-one-hand-supporting-the-chin",
+      "tags": [
+        "base",
+        "hand-pose",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "gesture": "one-hand-supporting-the-chin",
+        "treatment": "suspended-movement"
+      },
+      "subcategory": "one-hand-supporting-the-chin",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-hand-pose-base-one-hand-supporting-the-chin-rhythmic-movement",
+      "semantic_key": "performance-hand-pose-base-one-hand-supporting-the-chin-rhythmic-movement",
+      "text": "one hand supporting the chin, expressed through rhythmic movement",
+      "sentence": "One hand supporting the chin, expressed through rhythmic movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "one hand supporting the chin, expressed through rhythmic movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing one hand supporting the chin, expressed through rhythmic movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with one hand supporting the chin, expressed through rhythmic movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-hand-pose-base-one-hand-supporting-the-chin",
+      "tags": [
+        "base",
+        "hand-pose",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "gesture": "one-hand-supporting-the-chin",
+        "treatment": "rhythmic-movement"
+      },
+      "subcategory": "one-hand-supporting-the-chin",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-hand-pose-base-one-hand-supporting-the-chin-asymmetric-movement",
+      "semantic_key": "performance-hand-pose-base-one-hand-supporting-the-chin-asymmetric-movement",
+      "text": "one hand supporting the chin, expressed through asymmetric movement",
+      "sentence": "One hand supporting the chin, expressed through asymmetric movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "one hand supporting the chin, expressed through asymmetric movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing one hand supporting the chin, expressed through asymmetric movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with one hand supporting the chin, expressed through asymmetric movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-hand-pose-base-one-hand-supporting-the-chin",
+      "tags": [
+        "base",
+        "hand-pose",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "gesture": "one-hand-supporting-the-chin",
+        "treatment": "asymmetric-movement"
+      },
+      "subcategory": "one-hand-supporting-the-chin",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-hand-pose-base-one-hand-supporting-the-chin-controlled-momentum",
+      "semantic_key": "performance-hand-pose-base-one-hand-supporting-the-chin-controlled-momentum",
+      "text": "one hand supporting the chin, expressed through controlled momentum",
+      "sentence": "One hand supporting the chin, expressed through controlled momentum.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "one hand supporting the chin, expressed through controlled momentum",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing one hand supporting the chin, expressed through controlled momentum",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with one hand supporting the chin, expressed through controlled momentum",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-hand-pose-base-one-hand-supporting-the-chin",
+      "tags": [
+        "base",
+        "hand-pose",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "gesture": "one-hand-supporting-the-chin",
+        "treatment": "controlled-momentum"
+      },
+      "subcategory": "one-hand-supporting-the-chin",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    }
+  ]
+}

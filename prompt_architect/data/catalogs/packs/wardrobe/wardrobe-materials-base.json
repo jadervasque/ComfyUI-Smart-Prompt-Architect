@@ -1,0 +1,2577 @@
+{
+  "schema_version": "2.0",
+  "id": "wardrobe-materials-base",
+  "version": "2.0.0",
+  "library": "materials",
+  "domain": "wardrobe",
+  "category": "materials",
+  "language": "en",
+  "status": "active",
+  "safety": "general",
+  "tags": [
+    "base"
+  ],
+  "fallback_option_id": "wardrobe-materials-base-cotton-matte-finish",
+  "options": [
+    {
+      "id": "wardrobe-materials-base-cotton-matte-finish",
+      "semantic_key": "wardrobe-materials-base-cotton-matte-finish",
+      "text": "cotton material with a matte finish",
+      "sentence": "Cotton material with a matte finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "cotton material with a matte finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing cotton material with a matte finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with cotton material with a matte finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-materials-base-cotton",
+      "tags": [
+        "base",
+        "materials",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "material": "cotton",
+        "treatment": "matte-finish"
+      },
+      "subcategory": "cotton",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-materials-base-cotton-soft-sheen",
+      "semantic_key": "wardrobe-materials-base-cotton-soft-sheen",
+      "text": "cotton material with a soft sheen",
+      "sentence": "Cotton material with a soft sheen.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "cotton material with a soft sheen",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing cotton material with a soft sheen",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with cotton material with a soft sheen",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-materials-base-cotton",
+      "tags": [
+        "base",
+        "materials",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "material": "cotton",
+        "treatment": "soft-sheen"
+      },
+      "subcategory": "cotton",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-materials-base-cotton-natural-luster",
+      "semantic_key": "wardrobe-materials-base-cotton-natural-luster",
+      "text": "cotton material with a natural luster",
+      "sentence": "Cotton material with a natural luster.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "cotton material with a natural luster",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing cotton material with a natural luster",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with cotton material with a natural luster",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-materials-base-cotton",
+      "tags": [
+        "base",
+        "materials",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "material": "cotton",
+        "treatment": "natural-luster"
+      },
+      "subcategory": "cotton",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-materials-base-cotton-textured-finish",
+      "semantic_key": "wardrobe-materials-base-cotton-textured-finish",
+      "text": "cotton material with a textured finish",
+      "sentence": "Cotton material with a textured finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "cotton material with a textured finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing cotton material with a textured finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with cotton material with a textured finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-materials-base-cotton",
+      "tags": [
+        "base",
+        "materials",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "material": "cotton",
+        "treatment": "textured-finish"
+      },
+      "subcategory": "cotton",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-materials-base-cotton-brushed-finish",
+      "semantic_key": "wardrobe-materials-base-cotton-brushed-finish",
+      "text": "cotton material with a brushed finish",
+      "sentence": "Cotton material with a brushed finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "cotton material with a brushed finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing cotton material with a brushed finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with cotton material with a brushed finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-materials-base-cotton",
+      "tags": [
+        "base",
+        "materials",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "material": "cotton",
+        "treatment": "brushed-finish"
+      },
+      "subcategory": "cotton",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-materials-base-cotton-polished-finish",
+      "semantic_key": "wardrobe-materials-base-cotton-polished-finish",
+      "text": "cotton material with a polished finish",
+      "sentence": "Cotton material with a polished finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "cotton material with a polished finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing cotton material with a polished finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with cotton material with a polished finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-materials-base-cotton",
+      "tags": [
+        "base",
+        "materials",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "material": "cotton",
+        "treatment": "polished-finish"
+      },
+      "subcategory": "cotton",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-materials-base-cotton-weathered-finish",
+      "semantic_key": "wardrobe-materials-base-cotton-weathered-finish",
+      "text": "cotton material with a weathered finish",
+      "sentence": "Cotton material with a weathered finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "cotton material with a weathered finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing cotton material with a weathered finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with cotton material with a weathered finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-materials-base-cotton",
+      "tags": [
+        "base",
+        "materials",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "material": "cotton",
+        "treatment": "weathered-finish"
+      },
+      "subcategory": "cotton",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-materials-base-cotton-satin-finish",
+      "semantic_key": "wardrobe-materials-base-cotton-satin-finish",
+      "text": "cotton material with a satin finish",
+      "sentence": "Cotton material with a satin finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "cotton material with a satin finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing cotton material with a satin finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with cotton material with a satin finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-materials-base-cotton",
+      "tags": [
+        "base",
+        "materials",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "material": "cotton",
+        "treatment": "satin-finish"
+      },
+      "subcategory": "cotton",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-materials-base-linen-matte-finish",
+      "semantic_key": "wardrobe-materials-base-linen-matte-finish",
+      "text": "linen material with a matte finish",
+      "sentence": "Linen material with a matte finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "linen material with a matte finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing linen material with a matte finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with linen material with a matte finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-materials-base-linen",
+      "tags": [
+        "base",
+        "materials",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "material": "linen",
+        "treatment": "matte-finish"
+      },
+      "subcategory": "linen",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-materials-base-linen-soft-sheen",
+      "semantic_key": "wardrobe-materials-base-linen-soft-sheen",
+      "text": "linen material with a soft sheen",
+      "sentence": "Linen material with a soft sheen.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "linen material with a soft sheen",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing linen material with a soft sheen",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with linen material with a soft sheen",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-materials-base-linen",
+      "tags": [
+        "base",
+        "materials",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "material": "linen",
+        "treatment": "soft-sheen"
+      },
+      "subcategory": "linen",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-materials-base-linen-natural-luster",
+      "semantic_key": "wardrobe-materials-base-linen-natural-luster",
+      "text": "linen material with a natural luster",
+      "sentence": "Linen material with a natural luster.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "linen material with a natural luster",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing linen material with a natural luster",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with linen material with a natural luster",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-materials-base-linen",
+      "tags": [
+        "base",
+        "materials",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "material": "linen",
+        "treatment": "natural-luster"
+      },
+      "subcategory": "linen",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-materials-base-linen-textured-finish",
+      "semantic_key": "wardrobe-materials-base-linen-textured-finish",
+      "text": "linen material with a textured finish",
+      "sentence": "Linen material with a textured finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "linen material with a textured finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing linen material with a textured finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with linen material with a textured finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-materials-base-linen",
+      "tags": [
+        "base",
+        "materials",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "material": "linen",
+        "treatment": "textured-finish"
+      },
+      "subcategory": "linen",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-materials-base-linen-brushed-finish",
+      "semantic_key": "wardrobe-materials-base-linen-brushed-finish",
+      "text": "linen material with a brushed finish",
+      "sentence": "Linen material with a brushed finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "linen material with a brushed finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing linen material with a brushed finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with linen material with a brushed finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-materials-base-linen",
+      "tags": [
+        "base",
+        "materials",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "material": "linen",
+        "treatment": "brushed-finish"
+      },
+      "subcategory": "linen",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-materials-base-linen-polished-finish",
+      "semantic_key": "wardrobe-materials-base-linen-polished-finish",
+      "text": "linen material with a polished finish",
+      "sentence": "Linen material with a polished finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "linen material with a polished finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing linen material with a polished finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with linen material with a polished finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-materials-base-linen",
+      "tags": [
+        "base",
+        "materials",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "material": "linen",
+        "treatment": "polished-finish"
+      },
+      "subcategory": "linen",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-materials-base-linen-weathered-finish",
+      "semantic_key": "wardrobe-materials-base-linen-weathered-finish",
+      "text": "linen material with a weathered finish",
+      "sentence": "Linen material with a weathered finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "linen material with a weathered finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing linen material with a weathered finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with linen material with a weathered finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-materials-base-linen",
+      "tags": [
+        "base",
+        "materials",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "material": "linen",
+        "treatment": "weathered-finish"
+      },
+      "subcategory": "linen",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-materials-base-linen-satin-finish",
+      "semantic_key": "wardrobe-materials-base-linen-satin-finish",
+      "text": "linen material with a satin finish",
+      "sentence": "Linen material with a satin finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "linen material with a satin finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing linen material with a satin finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with linen material with a satin finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-materials-base-linen",
+      "tags": [
+        "base",
+        "materials",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "material": "linen",
+        "treatment": "satin-finish"
+      },
+      "subcategory": "linen",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-materials-base-wool-matte-finish",
+      "semantic_key": "wardrobe-materials-base-wool-matte-finish",
+      "text": "wool material with a matte finish",
+      "sentence": "Wool material with a matte finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "wool material with a matte finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing wool material with a matte finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with wool material with a matte finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-materials-base-wool",
+      "tags": [
+        "base",
+        "materials",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "material": "wool",
+        "treatment": "matte-finish"
+      },
+      "subcategory": "wool",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-materials-base-wool-soft-sheen",
+      "semantic_key": "wardrobe-materials-base-wool-soft-sheen",
+      "text": "wool material with a soft sheen",
+      "sentence": "Wool material with a soft sheen.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "wool material with a soft sheen",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing wool material with a soft sheen",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with wool material with a soft sheen",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-materials-base-wool",
+      "tags": [
+        "base",
+        "materials",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "material": "wool",
+        "treatment": "soft-sheen"
+      },
+      "subcategory": "wool",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-materials-base-wool-natural-luster",
+      "semantic_key": "wardrobe-materials-base-wool-natural-luster",
+      "text": "wool material with a natural luster",
+      "sentence": "Wool material with a natural luster.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "wool material with a natural luster",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing wool material with a natural luster",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with wool material with a natural luster",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-materials-base-wool",
+      "tags": [
+        "base",
+        "materials",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "material": "wool",
+        "treatment": "natural-luster"
+      },
+      "subcategory": "wool",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-materials-base-wool-textured-finish",
+      "semantic_key": "wardrobe-materials-base-wool-textured-finish",
+      "text": "wool material with a textured finish",
+      "sentence": "Wool material with a textured finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "wool material with a textured finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing wool material with a textured finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with wool material with a textured finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-materials-base-wool",
+      "tags": [
+        "base",
+        "materials",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "material": "wool",
+        "treatment": "textured-finish"
+      },
+      "subcategory": "wool",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-materials-base-wool-brushed-finish",
+      "semantic_key": "wardrobe-materials-base-wool-brushed-finish",
+      "text": "wool material with a brushed finish",
+      "sentence": "Wool material with a brushed finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "wool material with a brushed finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing wool material with a brushed finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with wool material with a brushed finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-materials-base-wool",
+      "tags": [
+        "base",
+        "materials",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "material": "wool",
+        "treatment": "brushed-finish"
+      },
+      "subcategory": "wool",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-materials-base-wool-polished-finish",
+      "semantic_key": "wardrobe-materials-base-wool-polished-finish",
+      "text": "wool material with a polished finish",
+      "sentence": "Wool material with a polished finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "wool material with a polished finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing wool material with a polished finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with wool material with a polished finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-materials-base-wool",
+      "tags": [
+        "base",
+        "materials",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "material": "wool",
+        "treatment": "polished-finish"
+      },
+      "subcategory": "wool",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-materials-base-wool-weathered-finish",
+      "semantic_key": "wardrobe-materials-base-wool-weathered-finish",
+      "text": "wool material with a weathered finish",
+      "sentence": "Wool material with a weathered finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "wool material with a weathered finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing wool material with a weathered finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with wool material with a weathered finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-materials-base-wool",
+      "tags": [
+        "base",
+        "materials",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "material": "wool",
+        "treatment": "weathered-finish"
+      },
+      "subcategory": "wool",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-materials-base-wool-satin-finish",
+      "semantic_key": "wardrobe-materials-base-wool-satin-finish",
+      "text": "wool material with a satin finish",
+      "sentence": "Wool material with a satin finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "wool material with a satin finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing wool material with a satin finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with wool material with a satin finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-materials-base-wool",
+      "tags": [
+        "base",
+        "materials",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "material": "wool",
+        "treatment": "satin-finish"
+      },
+      "subcategory": "wool",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-materials-base-silk-matte-finish",
+      "semantic_key": "wardrobe-materials-base-silk-matte-finish",
+      "text": "silk material with a matte finish",
+      "sentence": "Silk material with a matte finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "silk material with a matte finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing silk material with a matte finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with silk material with a matte finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-materials-base-silk",
+      "tags": [
+        "base",
+        "materials",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "material": "silk",
+        "treatment": "matte-finish"
+      },
+      "subcategory": "silk",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-materials-base-silk-soft-sheen",
+      "semantic_key": "wardrobe-materials-base-silk-soft-sheen",
+      "text": "silk material with a soft sheen",
+      "sentence": "Silk material with a soft sheen.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "silk material with a soft sheen",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing silk material with a soft sheen",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with silk material with a soft sheen",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-materials-base-silk",
+      "tags": [
+        "base",
+        "materials",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "material": "silk",
+        "treatment": "soft-sheen"
+      },
+      "subcategory": "silk",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-materials-base-silk-natural-luster",
+      "semantic_key": "wardrobe-materials-base-silk-natural-luster",
+      "text": "silk material with a natural luster",
+      "sentence": "Silk material with a natural luster.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "silk material with a natural luster",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing silk material with a natural luster",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with silk material with a natural luster",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-materials-base-silk",
+      "tags": [
+        "base",
+        "materials",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "material": "silk",
+        "treatment": "natural-luster"
+      },
+      "subcategory": "silk",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-materials-base-silk-textured-finish",
+      "semantic_key": "wardrobe-materials-base-silk-textured-finish",
+      "text": "silk material with a textured finish",
+      "sentence": "Silk material with a textured finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "silk material with a textured finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing silk material with a textured finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with silk material with a textured finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-materials-base-silk",
+      "tags": [
+        "base",
+        "materials",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "material": "silk",
+        "treatment": "textured-finish"
+      },
+      "subcategory": "silk",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-materials-base-silk-brushed-finish",
+      "semantic_key": "wardrobe-materials-base-silk-brushed-finish",
+      "text": "silk material with a brushed finish",
+      "sentence": "Silk material with a brushed finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "silk material with a brushed finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing silk material with a brushed finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with silk material with a brushed finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-materials-base-silk",
+      "tags": [
+        "base",
+        "materials",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "material": "silk",
+        "treatment": "brushed-finish"
+      },
+      "subcategory": "silk",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-materials-base-silk-polished-finish",
+      "semantic_key": "wardrobe-materials-base-silk-polished-finish",
+      "text": "silk material with a polished finish",
+      "sentence": "Silk material with a polished finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "silk material with a polished finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing silk material with a polished finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with silk material with a polished finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-materials-base-silk",
+      "tags": [
+        "base",
+        "materials",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "material": "silk",
+        "treatment": "polished-finish"
+      },
+      "subcategory": "silk",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-materials-base-silk-weathered-finish",
+      "semantic_key": "wardrobe-materials-base-silk-weathered-finish",
+      "text": "silk material with a weathered finish",
+      "sentence": "Silk material with a weathered finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "silk material with a weathered finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing silk material with a weathered finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with silk material with a weathered finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-materials-base-silk",
+      "tags": [
+        "base",
+        "materials",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "material": "silk",
+        "treatment": "weathered-finish"
+      },
+      "subcategory": "silk",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-materials-base-silk-satin-finish",
+      "semantic_key": "wardrobe-materials-base-silk-satin-finish",
+      "text": "silk material with a satin finish",
+      "sentence": "Silk material with a satin finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "silk material with a satin finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing silk material with a satin finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with silk material with a satin finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-materials-base-silk",
+      "tags": [
+        "base",
+        "materials",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "material": "silk",
+        "treatment": "satin-finish"
+      },
+      "subcategory": "silk",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-materials-base-denim-matte-finish",
+      "semantic_key": "wardrobe-materials-base-denim-matte-finish",
+      "text": "denim material with a matte finish",
+      "sentence": "Denim material with a matte finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "denim material with a matte finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing denim material with a matte finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with denim material with a matte finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-materials-base-denim",
+      "tags": [
+        "base",
+        "materials",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "material": "denim",
+        "treatment": "matte-finish"
+      },
+      "subcategory": "denim",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-materials-base-denim-soft-sheen",
+      "semantic_key": "wardrobe-materials-base-denim-soft-sheen",
+      "text": "denim material with a soft sheen",
+      "sentence": "Denim material with a soft sheen.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "denim material with a soft sheen",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing denim material with a soft sheen",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with denim material with a soft sheen",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-materials-base-denim",
+      "tags": [
+        "base",
+        "materials",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "material": "denim",
+        "treatment": "soft-sheen"
+      },
+      "subcategory": "denim",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-materials-base-denim-natural-luster",
+      "semantic_key": "wardrobe-materials-base-denim-natural-luster",
+      "text": "denim material with a natural luster",
+      "sentence": "Denim material with a natural luster.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "denim material with a natural luster",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing denim material with a natural luster",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with denim material with a natural luster",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-materials-base-denim",
+      "tags": [
+        "base",
+        "materials",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "material": "denim",
+        "treatment": "natural-luster"
+      },
+      "subcategory": "denim",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-materials-base-denim-textured-finish",
+      "semantic_key": "wardrobe-materials-base-denim-textured-finish",
+      "text": "denim material with a textured finish",
+      "sentence": "Denim material with a textured finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "denim material with a textured finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing denim material with a textured finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with denim material with a textured finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-materials-base-denim",
+      "tags": [
+        "base",
+        "materials",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "material": "denim",
+        "treatment": "textured-finish"
+      },
+      "subcategory": "denim",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-materials-base-denim-brushed-finish",
+      "semantic_key": "wardrobe-materials-base-denim-brushed-finish",
+      "text": "denim material with a brushed finish",
+      "sentence": "Denim material with a brushed finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "denim material with a brushed finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing denim material with a brushed finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with denim material with a brushed finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-materials-base-denim",
+      "tags": [
+        "base",
+        "materials",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "material": "denim",
+        "treatment": "brushed-finish"
+      },
+      "subcategory": "denim",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-materials-base-denim-polished-finish",
+      "semantic_key": "wardrobe-materials-base-denim-polished-finish",
+      "text": "denim material with a polished finish",
+      "sentence": "Denim material with a polished finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "denim material with a polished finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing denim material with a polished finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with denim material with a polished finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-materials-base-denim",
+      "tags": [
+        "base",
+        "materials",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "material": "denim",
+        "treatment": "polished-finish"
+      },
+      "subcategory": "denim",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-materials-base-denim-weathered-finish",
+      "semantic_key": "wardrobe-materials-base-denim-weathered-finish",
+      "text": "denim material with a weathered finish",
+      "sentence": "Denim material with a weathered finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "denim material with a weathered finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing denim material with a weathered finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with denim material with a weathered finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-materials-base-denim",
+      "tags": [
+        "base",
+        "materials",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "material": "denim",
+        "treatment": "weathered-finish"
+      },
+      "subcategory": "denim",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-materials-base-denim-satin-finish",
+      "semantic_key": "wardrobe-materials-base-denim-satin-finish",
+      "text": "denim material with a satin finish",
+      "sentence": "Denim material with a satin finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "denim material with a satin finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing denim material with a satin finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with denim material with a satin finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-materials-base-denim",
+      "tags": [
+        "base",
+        "materials",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "material": "denim",
+        "treatment": "satin-finish"
+      },
+      "subcategory": "denim",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-materials-base-leather-matte-finish",
+      "semantic_key": "wardrobe-materials-base-leather-matte-finish",
+      "text": "leather material with a matte finish",
+      "sentence": "Leather material with a matte finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "leather material with a matte finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing leather material with a matte finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with leather material with a matte finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-materials-base-leather",
+      "tags": [
+        "base",
+        "materials",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "material": "leather",
+        "treatment": "matte-finish"
+      },
+      "subcategory": "leather",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-materials-base-leather-soft-sheen",
+      "semantic_key": "wardrobe-materials-base-leather-soft-sheen",
+      "text": "leather material with a soft sheen",
+      "sentence": "Leather material with a soft sheen.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "leather material with a soft sheen",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing leather material with a soft sheen",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with leather material with a soft sheen",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-materials-base-leather",
+      "tags": [
+        "base",
+        "materials",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "material": "leather",
+        "treatment": "soft-sheen"
+      },
+      "subcategory": "leather",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-materials-base-leather-natural-luster",
+      "semantic_key": "wardrobe-materials-base-leather-natural-luster",
+      "text": "leather material with a natural luster",
+      "sentence": "Leather material with a natural luster.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "leather material with a natural luster",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing leather material with a natural luster",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with leather material with a natural luster",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-materials-base-leather",
+      "tags": [
+        "base",
+        "materials",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "material": "leather",
+        "treatment": "natural-luster"
+      },
+      "subcategory": "leather",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-materials-base-leather-textured-finish",
+      "semantic_key": "wardrobe-materials-base-leather-textured-finish",
+      "text": "leather material with a textured finish",
+      "sentence": "Leather material with a textured finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "leather material with a textured finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing leather material with a textured finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with leather material with a textured finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-materials-base-leather",
+      "tags": [
+        "base",
+        "materials",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "material": "leather",
+        "treatment": "textured-finish"
+      },
+      "subcategory": "leather",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-materials-base-leather-brushed-finish",
+      "semantic_key": "wardrobe-materials-base-leather-brushed-finish",
+      "text": "leather material with a brushed finish",
+      "sentence": "Leather material with a brushed finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "leather material with a brushed finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing leather material with a brushed finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with leather material with a brushed finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-materials-base-leather",
+      "tags": [
+        "base",
+        "materials",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "material": "leather",
+        "treatment": "brushed-finish"
+      },
+      "subcategory": "leather",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-materials-base-leather-polished-finish",
+      "semantic_key": "wardrobe-materials-base-leather-polished-finish",
+      "text": "leather material with a polished finish",
+      "sentence": "Leather material with a polished finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "leather material with a polished finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing leather material with a polished finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with leather material with a polished finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-materials-base-leather",
+      "tags": [
+        "base",
+        "materials",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "material": "leather",
+        "treatment": "polished-finish"
+      },
+      "subcategory": "leather",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-materials-base-leather-weathered-finish",
+      "semantic_key": "wardrobe-materials-base-leather-weathered-finish",
+      "text": "leather material with a weathered finish",
+      "sentence": "Leather material with a weathered finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "leather material with a weathered finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing leather material with a weathered finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with leather material with a weathered finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-materials-base-leather",
+      "tags": [
+        "base",
+        "materials",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "material": "leather",
+        "treatment": "weathered-finish"
+      },
+      "subcategory": "leather",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-materials-base-leather-satin-finish",
+      "semantic_key": "wardrobe-materials-base-leather-satin-finish",
+      "text": "leather material with a satin finish",
+      "sentence": "Leather material with a satin finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "leather material with a satin finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing leather material with a satin finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with leather material with a satin finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-materials-base-leather",
+      "tags": [
+        "base",
+        "materials",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "material": "leather",
+        "treatment": "satin-finish"
+      },
+      "subcategory": "leather",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-materials-base-velvet-matte-finish",
+      "semantic_key": "wardrobe-materials-base-velvet-matte-finish",
+      "text": "velvet material with a matte finish",
+      "sentence": "Velvet material with a matte finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "velvet material with a matte finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing velvet material with a matte finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with velvet material with a matte finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-materials-base-velvet",
+      "tags": [
+        "base",
+        "materials",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "material": "velvet",
+        "treatment": "matte-finish"
+      },
+      "subcategory": "velvet",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-materials-base-velvet-soft-sheen",
+      "semantic_key": "wardrobe-materials-base-velvet-soft-sheen",
+      "text": "velvet material with a soft sheen",
+      "sentence": "Velvet material with a soft sheen.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "velvet material with a soft sheen",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing velvet material with a soft sheen",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with velvet material with a soft sheen",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-materials-base-velvet",
+      "tags": [
+        "base",
+        "materials",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "material": "velvet",
+        "treatment": "soft-sheen"
+      },
+      "subcategory": "velvet",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-materials-base-velvet-natural-luster",
+      "semantic_key": "wardrobe-materials-base-velvet-natural-luster",
+      "text": "velvet material with a natural luster",
+      "sentence": "Velvet material with a natural luster.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "velvet material with a natural luster",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing velvet material with a natural luster",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with velvet material with a natural luster",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-materials-base-velvet",
+      "tags": [
+        "base",
+        "materials",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "material": "velvet",
+        "treatment": "natural-luster"
+      },
+      "subcategory": "velvet",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-materials-base-velvet-textured-finish",
+      "semantic_key": "wardrobe-materials-base-velvet-textured-finish",
+      "text": "velvet material with a textured finish",
+      "sentence": "Velvet material with a textured finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "velvet material with a textured finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing velvet material with a textured finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with velvet material with a textured finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-materials-base-velvet",
+      "tags": [
+        "base",
+        "materials",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "material": "velvet",
+        "treatment": "textured-finish"
+      },
+      "subcategory": "velvet",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-materials-base-velvet-brushed-finish",
+      "semantic_key": "wardrobe-materials-base-velvet-brushed-finish",
+      "text": "velvet material with a brushed finish",
+      "sentence": "Velvet material with a brushed finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "velvet material with a brushed finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing velvet material with a brushed finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with velvet material with a brushed finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-materials-base-velvet",
+      "tags": [
+        "base",
+        "materials",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "material": "velvet",
+        "treatment": "brushed-finish"
+      },
+      "subcategory": "velvet",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-materials-base-velvet-polished-finish",
+      "semantic_key": "wardrobe-materials-base-velvet-polished-finish",
+      "text": "velvet material with a polished finish",
+      "sentence": "Velvet material with a polished finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "velvet material with a polished finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing velvet material with a polished finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with velvet material with a polished finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-materials-base-velvet",
+      "tags": [
+        "base",
+        "materials",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "material": "velvet",
+        "treatment": "polished-finish"
+      },
+      "subcategory": "velvet",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-materials-base-velvet-weathered-finish",
+      "semantic_key": "wardrobe-materials-base-velvet-weathered-finish",
+      "text": "velvet material with a weathered finish",
+      "sentence": "Velvet material with a weathered finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "velvet material with a weathered finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing velvet material with a weathered finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with velvet material with a weathered finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-materials-base-velvet",
+      "tags": [
+        "base",
+        "materials",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "material": "velvet",
+        "treatment": "weathered-finish"
+      },
+      "subcategory": "velvet",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-materials-base-velvet-satin-finish",
+      "semantic_key": "wardrobe-materials-base-velvet-satin-finish",
+      "text": "velvet material with a satin finish",
+      "sentence": "Velvet material with a satin finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "velvet material with a satin finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing velvet material with a satin finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with velvet material with a satin finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-materials-base-velvet",
+      "tags": [
+        "base",
+        "materials",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "material": "velvet",
+        "treatment": "satin-finish"
+      },
+      "subcategory": "velvet",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-materials-base-technical-woven-fabric-matte-finish",
+      "semantic_key": "wardrobe-materials-base-technical-woven-fabric-matte-finish",
+      "text": "technical woven fabric material with a matte finish",
+      "sentence": "Technical woven fabric material with a matte finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "technical woven fabric material with a matte finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing technical woven fabric material with a matte finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with technical woven fabric material with a matte finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-materials-base-technical-woven-fabric",
+      "tags": [
+        "base",
+        "materials",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "material": "technical-woven-fabric",
+        "treatment": "matte-finish"
+      },
+      "subcategory": "technical-woven-fabric",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-materials-base-technical-woven-fabric-soft-sheen",
+      "semantic_key": "wardrobe-materials-base-technical-woven-fabric-soft-sheen",
+      "text": "technical woven fabric material with a soft sheen",
+      "sentence": "Technical woven fabric material with a soft sheen.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "technical woven fabric material with a soft sheen",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing technical woven fabric material with a soft sheen",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with technical woven fabric material with a soft sheen",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-materials-base-technical-woven-fabric",
+      "tags": [
+        "base",
+        "materials",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "material": "technical-woven-fabric",
+        "treatment": "soft-sheen"
+      },
+      "subcategory": "technical-woven-fabric",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-materials-base-technical-woven-fabric-natural-luster",
+      "semantic_key": "wardrobe-materials-base-technical-woven-fabric-natural-luster",
+      "text": "technical woven fabric material with a natural luster",
+      "sentence": "Technical woven fabric material with a natural luster.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "technical woven fabric material with a natural luster",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing technical woven fabric material with a natural luster",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with technical woven fabric material with a natural luster",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-materials-base-technical-woven-fabric",
+      "tags": [
+        "base",
+        "materials",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "material": "technical-woven-fabric",
+        "treatment": "natural-luster"
+      },
+      "subcategory": "technical-woven-fabric",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-materials-base-technical-woven-fabric-textured-finish",
+      "semantic_key": "wardrobe-materials-base-technical-woven-fabric-textured-finish",
+      "text": "technical woven fabric material with a textured finish",
+      "sentence": "Technical woven fabric material with a textured finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "technical woven fabric material with a textured finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing technical woven fabric material with a textured finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with technical woven fabric material with a textured finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-materials-base-technical-woven-fabric",
+      "tags": [
+        "base",
+        "materials",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "material": "technical-woven-fabric",
+        "treatment": "textured-finish"
+      },
+      "subcategory": "technical-woven-fabric",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-materials-base-technical-woven-fabric-brushed-finish",
+      "semantic_key": "wardrobe-materials-base-technical-woven-fabric-brushed-finish",
+      "text": "technical woven fabric material with a brushed finish",
+      "sentence": "Technical woven fabric material with a brushed finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "technical woven fabric material with a brushed finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing technical woven fabric material with a brushed finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with technical woven fabric material with a brushed finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-materials-base-technical-woven-fabric",
+      "tags": [
+        "base",
+        "materials",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "material": "technical-woven-fabric",
+        "treatment": "brushed-finish"
+      },
+      "subcategory": "technical-woven-fabric",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-materials-base-technical-woven-fabric-polished-finish",
+      "semantic_key": "wardrobe-materials-base-technical-woven-fabric-polished-finish",
+      "text": "technical woven fabric material with a polished finish",
+      "sentence": "Technical woven fabric material with a polished finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "technical woven fabric material with a polished finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing technical woven fabric material with a polished finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with technical woven fabric material with a polished finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-materials-base-technical-woven-fabric",
+      "tags": [
+        "base",
+        "materials",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "material": "technical-woven-fabric",
+        "treatment": "polished-finish"
+      },
+      "subcategory": "technical-woven-fabric",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-materials-base-technical-woven-fabric-weathered-finish",
+      "semantic_key": "wardrobe-materials-base-technical-woven-fabric-weathered-finish",
+      "text": "technical woven fabric material with a weathered finish",
+      "sentence": "Technical woven fabric material with a weathered finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "technical woven fabric material with a weathered finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing technical woven fabric material with a weathered finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with technical woven fabric material with a weathered finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-materials-base-technical-woven-fabric",
+      "tags": [
+        "base",
+        "materials",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "material": "technical-woven-fabric",
+        "treatment": "weathered-finish"
+      },
+      "subcategory": "technical-woven-fabric",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-materials-base-technical-woven-fabric-satin-finish",
+      "semantic_key": "wardrobe-materials-base-technical-woven-fabric-satin-finish",
+      "text": "technical woven fabric material with a satin finish",
+      "sentence": "Technical woven fabric material with a satin finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "technical woven fabric material with a satin finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing technical woven fabric material with a satin finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with technical woven fabric material with a satin finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-materials-base-technical-woven-fabric",
+      "tags": [
+        "base",
+        "materials",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "material": "technical-woven-fabric",
+        "treatment": "satin-finish"
+      },
+      "subcategory": "technical-woven-fabric",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    }
+  ]
+}

@@ -11,8 +11,19 @@ from prompt_architect.domain.exceptions import (
     PromptArchitectError,
     SchemaValidationError,
 )
-from prompt_architect.domain.models import LibraryDefinition, ProfileDefinition
-from prompt_architect.domain.parser import parse_library, parse_profile
+from prompt_architect.domain.models import (
+    CatalogIndexDefinition,
+    CatalogPackDefinition,
+    CatalogPackReference,
+    LibraryDefinition,
+    ProfileDefinition,
+)
+from prompt_architect.domain.parser import (
+    parse_catalog_index,
+    parse_catalog_pack,
+    parse_library,
+    parse_profile,
+)
 from prompt_architect.infrastructure.cache import FileObjectCache, FileSignature
 from prompt_architect.infrastructure.hashing import sha256_bytes
 from prompt_architect.infrastructure.json_loader import (
@@ -46,6 +57,12 @@ class PromptDataRepository(Protocol):
     def load_profile(self, profile_id: str) -> ProfileDefinition: ...
 
     def load_library(self, library_id: str) -> LibraryDefinition: ...
+
+    def load_library_for_profile(
+        self, profile: ProfileDefinition, library_id: str
+    ) -> LibraryDefinition: ...
+
+    def load_catalog_index(self) -> CatalogIndexDefinition: ...
 
 
 @dataclass(frozen=True, slots=True)
@@ -129,11 +146,28 @@ class JsonPromptDataRepository:
         return profile
 
     def load_library(self, library_id: str) -> LibraryDefinition:
-        """Load a library from the highest-precedence source."""
+        """Load a V2 logical library when available, otherwise a legacy library."""
         safe_id = validate_data_id(library_id, kind="library")
         override = self._libraries.get(safe_id)
         if override is not None:
             return override
+        user_source = self._find_optional_source("libraries", safe_id, self._users)
+        if user_source is not None:
+            try:
+                return cast(
+                    LibraryDefinition,
+                    self._load_file_from_source(
+                        *user_source,
+                        "libraries",
+                        safe_id,
+                        parse_library,
+                    ),
+                )
+            except PromptArchitectError as error:
+                raise LibraryLoadError(str(error)) from error
+        catalog = self._optional_catalog()
+        if catalog is not None and safe_id in catalog[1].libraries:
+            return self._load_catalog_library(catalog[0], catalog[1], safe_id)
         try:
             return cast(
                 LibraryDefinition,
@@ -142,9 +176,46 @@ class JsonPromptDataRepository:
         except PromptArchitectError as error:
             raise LibraryLoadError(str(error)) from error
 
+    def load_library_for_profile(
+        self, profile: ProfileDefinition, library_id: str
+    ) -> LibraryDefinition:
+        """Load a profile-filtered logical library with declared safety constraints."""
+        safe_id = validate_data_id(library_id, kind="library")
+        override = self._libraries.get(safe_id)
+        if override is not None:
+            return override
+        if profile.catalog_version is None:
+            return self.load_library(safe_id)
+        catalog = self._optional_catalog()
+        if catalog is None:
+            raise LibraryLoadError(
+                f"profile {profile.id!r} requires Catalog {profile.catalog_version}, "
+                "but catalogs/index.json is missing"
+            )
+        root, index = catalog
+        if index.version != profile.catalog_version:
+            raise LibraryLoadError(
+                f"profile {profile.id!r} requires catalog {profile.catalog_version}, "
+                f"loaded {index.version}"
+            )
+        return self._load_catalog_library(
+            root,
+            index,
+            safe_id,
+            enabled_packs=frozenset(profile.enabled_packs),
+            allowed_safety=frozenset(profile.allowed_safety_classes),
+        )
+
     def clear_cache(self) -> None:
         """Explicitly clear parsed file objects."""
         self._cache.clear()
+
+    def load_catalog_index(self) -> CatalogIndexDefinition:
+        """Load the highest-precedence validated Catalog V2 index."""
+        catalog = self._optional_catalog()
+        if catalog is None:
+            raise LibraryLoadError("catalogs/index.json is missing")
+        return catalog[1]
 
     @property
     def cache_size(self) -> int:
@@ -153,6 +224,16 @@ class JsonPromptDataRepository:
 
     def _load_file(self, category: str, data_id: str, parser: object) -> object:
         source, path = self._find_source(category, data_id)
+        return self._load_file_from_source(source, path, category, data_id, parser)
+
+    def _load_file_from_source(
+        self,
+        source: DataRoot,
+        path: Path,
+        category: str,
+        data_id: str,
+        parser: object,
+    ) -> object:
         label = relative_label(source.label, category, data_id)
         content = read_json_bytes(path, label, max_bytes=self._max_json_bytes)
         stat = path.stat()
@@ -170,6 +251,141 @@ class JsonPromptDataRepository:
         self._cache.put(signature, parsed)
         return parsed
 
+    def _optional_catalog(self) -> tuple[DataRoot, CatalogIndexDefinition] | None:
+        for root in (*self._users, self._internal):
+            path = root.path / "catalogs" / "index.json"
+            if not path.is_file():
+                continue
+            label = f"{root.label}/catalogs/index.json"
+            content = read_json_bytes(path, label, max_bytes=self._max_json_bytes)
+            signature = self._signature(path, content)
+            cached = self._cache.get(signature)
+            if cached is None:
+                cached = parse_catalog_index(decode_json_object(content, label))
+                self._cache.put(signature, cached)
+            return root, cast(CatalogIndexDefinition, cached)
+        return None
+
+    def _load_catalog_library(
+        self,
+        root: DataRoot,
+        index: CatalogIndexDefinition,
+        library_id: str,
+        *,
+        enabled_packs: frozenset[str] = frozenset(),
+        allowed_safety: frozenset[str] = frozenset(
+            {"general", "fashion-mature", "dark-atmospheric", "experimental"}
+        ),
+    ) -> LibraryDefinition:
+        logical = index.libraries.get(library_id)
+        if logical is None:
+            raise LibraryLoadError(f"catalog library {library_id!r} is not declared")
+        references = {reference.id: reference for reference in index.packs}
+        selected_ids = tuple(
+            pack_id
+            for pack_id in logical.pack_ids
+            if (not enabled_packs or pack_id in enabled_packs)
+            and references[pack_id].safety in allowed_safety
+            and references[pack_id].status != "deprecated"
+        )
+        if not selected_ids:
+            raise LibraryLoadError(
+                f"catalog library {library_id!r} has no enabled packs for this profile"
+            )
+        selected_set = frozenset(selected_ids)
+        for pack_id in selected_ids:
+            missing = set(references[pack_id].dependencies) - selected_set
+            if missing:
+                raise LibraryLoadError(
+                    f"pack {pack_id!r} requires disabled packs: {', '.join(sorted(missing))}"
+                )
+        ordered = sorted(
+            (references[pack_id] for pack_id in selected_ids),
+            key=lambda reference: (reference.priority, reference.id),
+        )
+        packs = tuple(self._load_catalog_pack(root, reference) for reference in ordered)
+        option_ids: set[str] = set()
+        semantic_keys: set[str] = set()
+        options = []
+        for pack in packs:
+            for option in pack.options:
+                if option.id in option_ids:
+                    raise LibraryLoadError(
+                        f"catalog option ID collision in {library_id!r}: {option.id!r}"
+                    )
+                if option.semantic_key is not None and option.semantic_key in semantic_keys:
+                    raise LibraryLoadError(
+                        f"catalog semantic key collision in {library_id!r}: {option.semantic_key!r}"
+                    )
+                option_ids.add(option.id)
+                if option.semantic_key is not None:
+                    semantic_keys.add(option.semantic_key)
+                options.append(option)
+        fallback = logical.fallback_option_id
+        if fallback not in option_ids:
+            fallback = next(
+                (pack.fallback_option_id for pack in packs if pack.fallback_option_id is not None),
+                None,
+            )
+        if fallback is not None and fallback not in option_ids:
+            raise LibraryLoadError(
+                f"fallback {fallback!r} for catalog library {library_id!r} is disabled or missing"
+            )
+        return LibraryDefinition(
+            schema_version="2.0",
+            id=logical.id,
+            version=index.version,
+            display_name=logical.display_name,
+            options=tuple(options),
+            fallback_option_id=fallback,
+            catalog_version=index.version,
+            pack_versions={pack.id: pack.version for pack in packs},
+        )
+
+    def _load_catalog_pack(
+        self, root: DataRoot, reference: CatalogPackReference
+    ) -> CatalogPackDefinition:
+        catalogs_root = (root.path / "catalogs").resolve(strict=False)
+        path = (catalogs_root / Path(reference.path)).resolve(strict=False)
+        try:
+            path.relative_to(catalogs_root)
+        except ValueError as error:
+            raise LibraryLoadError("catalog pack path escapes its authorized root") from error
+        label = f"{root.label}/catalogs/{reference.path}"
+        content = read_json_bytes(path, label, max_bytes=self._max_json_bytes)
+        signature = self._signature(path, content)
+        cached = self._cache.get(signature)
+        if cached is None:
+            cached = parse_catalog_pack(decode_json_object(content, label))
+            self._cache.put(signature, cached)
+        pack = cast(CatalogPackDefinition, cached)
+        expected = (
+            reference.id,
+            reference.library,
+            reference.domain,
+            reference.version,
+            reference.language,
+            reference.status,
+            reference.safety,
+        )
+        actual = (
+            pack.id,
+            pack.library,
+            pack.domain,
+            pack.version,
+            pack.language,
+            pack.status,
+            pack.safety,
+        )
+        if actual != expected:
+            raise LibraryLoadError(f"{label}: metadata does not match catalogs/index.json")
+        return pack
+
+    @staticmethod
+    def _signature(path: Path, content: bytes) -> FileSignature:
+        stat = path.stat()
+        return FileSignature(path, stat.st_mtime_ns, len(content), sha256_bytes(content))
+
     def _find_source(self, category: str, data_id: str) -> tuple[DataRoot, Path]:
         for root in (*self._users, self._internal):
             path = data_file(root.path, category, data_id)
@@ -178,6 +394,18 @@ class JsonPromptDataRepository:
         label = relative_label("authorized-roots", category, data_id)
         raise SchemaValidationError(f"{label}: file not found")
 
+    @staticmethod
+    def _find_optional_source(
+        category: str,
+        data_id: str,
+        roots: Sequence[DataRoot],
+    ) -> tuple[DataRoot, Path] | None:
+        for root in roots:
+            path = data_file(root.path, category, data_id)
+            if path.is_file():
+                return root, path
+        return None
+
     def _validate_profile_references(self, profile: ProfileDefinition) -> None:
         unknown_profile_fallbacks = set(profile.profile_fallbacks) - set(profile.sections)
         if unknown_profile_fallbacks:
@@ -185,7 +413,7 @@ class JsonPromptDataRepository:
             raise SchemaValidationError(f"profile_fallbacks reference unknown sections: {names}")
         for section_id in profile.section_order:
             section = profile.sections[section_id]
-            library = self.load_library(section.library)
+            library = self.load_library_for_profile(profile, section.library)
             option_ids = {option.id for option in library.options}
             for label, option_id in (
                 ("default", section.default),

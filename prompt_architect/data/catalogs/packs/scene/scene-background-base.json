@@ -1,0 +1,2577 @@
+{
+  "schema_version": "2.0",
+  "id": "scene-background-base",
+  "version": "2.0.0",
+  "library": "background",
+  "domain": "scene",
+  "category": "background",
+  "language": "en",
+  "status": "active",
+  "safety": "general",
+  "tags": [
+    "base"
+  ],
+  "fallback_option_id": "scene-background-base-plain-tonal-background-open-spatial-layout",
+  "options": [
+    {
+      "id": "scene-background-base-plain-tonal-background-open-spatial-layout",
+      "semantic_key": "scene-background-base-plain-tonal-background-open-spatial-layout",
+      "text": "a plain tonal background arranged with open spatial layout",
+      "sentence": "A plain tonal background arranged with open spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a plain tonal background arranged with open spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a plain tonal background arranged with open spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a plain tonal background arranged with open spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-background-base-plain-tonal-background",
+      "tags": [
+        "background",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "background": "plain-tonal-background",
+        "treatment": "open-spatial-layout"
+      },
+      "subcategory": "plain-tonal-background",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-background-base-plain-tonal-background-intimate-spatial-layout",
+      "semantic_key": "scene-background-base-plain-tonal-background-intimate-spatial-layout",
+      "text": "a plain tonal background arranged with intimate spatial layout",
+      "sentence": "A plain tonal background arranged with intimate spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a plain tonal background arranged with intimate spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a plain tonal background arranged with intimate spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a plain tonal background arranged with intimate spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-background-base-plain-tonal-background",
+      "tags": [
+        "background",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "background": "plain-tonal-background",
+        "treatment": "intimate-spatial-layout"
+      },
+      "subcategory": "plain-tonal-background",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-background-base-plain-tonal-background-layered-depth",
+      "semantic_key": "scene-background-base-plain-tonal-background-layered-depth",
+      "text": "a plain tonal background arranged with layered depth",
+      "sentence": "A plain tonal background arranged with layered depth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a plain tonal background arranged with layered depth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a plain tonal background arranged with layered depth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a plain tonal background arranged with layered depth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-background-base-plain-tonal-background",
+      "tags": [
+        "background",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "background": "plain-tonal-background",
+        "treatment": "layered-depth"
+      },
+      "subcategory": "plain-tonal-background",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-background-base-plain-tonal-background-clear-sightlines",
+      "semantic_key": "scene-background-base-plain-tonal-background-clear-sightlines",
+      "text": "a plain tonal background arranged with clear sightlines",
+      "sentence": "A plain tonal background arranged with clear sightlines.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a plain tonal background arranged with clear sightlines",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a plain tonal background arranged with clear sightlines",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a plain tonal background arranged with clear sightlines",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-background-base-plain-tonal-background",
+      "tags": [
+        "background",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "background": "plain-tonal-background",
+        "treatment": "clear-sightlines"
+      },
+      "subcategory": "plain-tonal-background",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-background-base-plain-tonal-background-enclosed-geometry",
+      "semantic_key": "scene-background-base-plain-tonal-background-enclosed-geometry",
+      "text": "a plain tonal background arranged with enclosed geometry",
+      "sentence": "A plain tonal background arranged with enclosed geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a plain tonal background arranged with enclosed geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a plain tonal background arranged with enclosed geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a plain tonal background arranged with enclosed geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-background-base-plain-tonal-background",
+      "tags": [
+        "background",
+        "base",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "background": "plain-tonal-background",
+        "treatment": "enclosed-geometry"
+      },
+      "subcategory": "plain-tonal-background",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-background-base-plain-tonal-background-expansive-geometry",
+      "semantic_key": "scene-background-base-plain-tonal-background-expansive-geometry",
+      "text": "a plain tonal background arranged with expansive geometry",
+      "sentence": "A plain tonal background arranged with expansive geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a plain tonal background arranged with expansive geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a plain tonal background arranged with expansive geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a plain tonal background arranged with expansive geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-background-base-plain-tonal-background",
+      "tags": [
+        "background",
+        "base",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "background": "plain-tonal-background",
+        "treatment": "expansive-geometry"
+      },
+      "subcategory": "plain-tonal-background",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-background-base-plain-tonal-background-asymmetric-layout",
+      "semantic_key": "scene-background-base-plain-tonal-background-asymmetric-layout",
+      "text": "a plain tonal background arranged with asymmetric layout",
+      "sentence": "A plain tonal background arranged with asymmetric layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a plain tonal background arranged with asymmetric layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a plain tonal background arranged with asymmetric layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a plain tonal background arranged with asymmetric layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-background-base-plain-tonal-background",
+      "tags": [
+        "background",
+        "base",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "background": "plain-tonal-background",
+        "treatment": "asymmetric-layout"
+      },
+      "subcategory": "plain-tonal-background",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-background-base-plain-tonal-background-central-organization",
+      "semantic_key": "scene-background-base-plain-tonal-background-central-organization",
+      "text": "a plain tonal background arranged with central organization",
+      "sentence": "A plain tonal background arranged with central organization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a plain tonal background arranged with central organization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a plain tonal background arranged with central organization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a plain tonal background arranged with central organization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-background-base-plain-tonal-background",
+      "tags": [
+        "background",
+        "base",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "background": "plain-tonal-background",
+        "treatment": "central-organization"
+      },
+      "subcategory": "plain-tonal-background",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-background-base-soft-gradient-background-open-spatial-layout",
+      "semantic_key": "scene-background-base-soft-gradient-background-open-spatial-layout",
+      "text": "a soft gradient background arranged with open spatial layout",
+      "sentence": "A soft gradient background arranged with open spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a soft gradient background arranged with open spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a soft gradient background arranged with open spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a soft gradient background arranged with open spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-background-base-soft-gradient-background",
+      "tags": [
+        "background",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "background": "soft-gradient-background",
+        "treatment": "open-spatial-layout"
+      },
+      "subcategory": "soft-gradient-background",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-background-base-soft-gradient-background-intimate-spatial-layout",
+      "semantic_key": "scene-background-base-soft-gradient-background-intimate-spatial-layout",
+      "text": "a soft gradient background arranged with intimate spatial layout",
+      "sentence": "A soft gradient background arranged with intimate spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a soft gradient background arranged with intimate spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a soft gradient background arranged with intimate spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a soft gradient background arranged with intimate spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-background-base-soft-gradient-background",
+      "tags": [
+        "background",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "background": "soft-gradient-background",
+        "treatment": "intimate-spatial-layout"
+      },
+      "subcategory": "soft-gradient-background",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-background-base-soft-gradient-background-layered-depth",
+      "semantic_key": "scene-background-base-soft-gradient-background-layered-depth",
+      "text": "a soft gradient background arranged with layered depth",
+      "sentence": "A soft gradient background arranged with layered depth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a soft gradient background arranged with layered depth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a soft gradient background arranged with layered depth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a soft gradient background arranged with layered depth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-background-base-soft-gradient-background",
+      "tags": [
+        "background",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "background": "soft-gradient-background",
+        "treatment": "layered-depth"
+      },
+      "subcategory": "soft-gradient-background",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-background-base-soft-gradient-background-clear-sightlines",
+      "semantic_key": "scene-background-base-soft-gradient-background-clear-sightlines",
+      "text": "a soft gradient background arranged with clear sightlines",
+      "sentence": "A soft gradient background arranged with clear sightlines.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a soft gradient background arranged with clear sightlines",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a soft gradient background arranged with clear sightlines",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a soft gradient background arranged with clear sightlines",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-background-base-soft-gradient-background",
+      "tags": [
+        "background",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "background": "soft-gradient-background",
+        "treatment": "clear-sightlines"
+      },
+      "subcategory": "soft-gradient-background",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-background-base-soft-gradient-background-enclosed-geometry",
+      "semantic_key": "scene-background-base-soft-gradient-background-enclosed-geometry",
+      "text": "a soft gradient background arranged with enclosed geometry",
+      "sentence": "A soft gradient background arranged with enclosed geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a soft gradient background arranged with enclosed geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a soft gradient background arranged with enclosed geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a soft gradient background arranged with enclosed geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-background-base-soft-gradient-background",
+      "tags": [
+        "background",
+        "base",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "background": "soft-gradient-background",
+        "treatment": "enclosed-geometry"
+      },
+      "subcategory": "soft-gradient-background",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-background-base-soft-gradient-background-expansive-geometry",
+      "semantic_key": "scene-background-base-soft-gradient-background-expansive-geometry",
+      "text": "a soft gradient background arranged with expansive geometry",
+      "sentence": "A soft gradient background arranged with expansive geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a soft gradient background arranged with expansive geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a soft gradient background arranged with expansive geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a soft gradient background arranged with expansive geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-background-base-soft-gradient-background",
+      "tags": [
+        "background",
+        "base",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "background": "soft-gradient-background",
+        "treatment": "expansive-geometry"
+      },
+      "subcategory": "soft-gradient-background",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-background-base-soft-gradient-background-asymmetric-layout",
+      "semantic_key": "scene-background-base-soft-gradient-background-asymmetric-layout",
+      "text": "a soft gradient background arranged with asymmetric layout",
+      "sentence": "A soft gradient background arranged with asymmetric layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a soft gradient background arranged with asymmetric layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a soft gradient background arranged with asymmetric layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a soft gradient background arranged with asymmetric layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-background-base-soft-gradient-background",
+      "tags": [
+        "background",
+        "base",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "background": "soft-gradient-background",
+        "treatment": "asymmetric-layout"
+      },
+      "subcategory": "soft-gradient-background",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-background-base-soft-gradient-background-central-organization",
+      "semantic_key": "scene-background-base-soft-gradient-background-central-organization",
+      "text": "a soft gradient background arranged with central organization",
+      "sentence": "A soft gradient background arranged with central organization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a soft gradient background arranged with central organization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a soft gradient background arranged with central organization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a soft gradient background arranged with central organization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-background-base-soft-gradient-background",
+      "tags": [
+        "background",
+        "base",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "background": "soft-gradient-background",
+        "treatment": "central-organization"
+      },
+      "subcategory": "soft-gradient-background",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-background-base-textured-plaster-background-open-spatial-layout",
+      "semantic_key": "scene-background-base-textured-plaster-background-open-spatial-layout",
+      "text": "a textured plaster background arranged with open spatial layout",
+      "sentence": "A textured plaster background arranged with open spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a textured plaster background arranged with open spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a textured plaster background arranged with open spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a textured plaster background arranged with open spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-background-base-textured-plaster-background",
+      "tags": [
+        "background",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "background": "textured-plaster-background",
+        "treatment": "open-spatial-layout"
+      },
+      "subcategory": "textured-plaster-background",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-background-base-textured-plaster-background-intimate-spatial-layout",
+      "semantic_key": "scene-background-base-textured-plaster-background-intimate-spatial-layout",
+      "text": "a textured plaster background arranged with intimate spatial layout",
+      "sentence": "A textured plaster background arranged with intimate spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a textured plaster background arranged with intimate spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a textured plaster background arranged with intimate spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a textured plaster background arranged with intimate spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-background-base-textured-plaster-background",
+      "tags": [
+        "background",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "background": "textured-plaster-background",
+        "treatment": "intimate-spatial-layout"
+      },
+      "subcategory": "textured-plaster-background",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-background-base-textured-plaster-background-layered-depth",
+      "semantic_key": "scene-background-base-textured-plaster-background-layered-depth",
+      "text": "a textured plaster background arranged with layered depth",
+      "sentence": "A textured plaster background arranged with layered depth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a textured plaster background arranged with layered depth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a textured plaster background arranged with layered depth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a textured plaster background arranged with layered depth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-background-base-textured-plaster-background",
+      "tags": [
+        "background",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "background": "textured-plaster-background",
+        "treatment": "layered-depth"
+      },
+      "subcategory": "textured-plaster-background",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-background-base-textured-plaster-background-clear-sightlines",
+      "semantic_key": "scene-background-base-textured-plaster-background-clear-sightlines",
+      "text": "a textured plaster background arranged with clear sightlines",
+      "sentence": "A textured plaster background arranged with clear sightlines.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a textured plaster background arranged with clear sightlines",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a textured plaster background arranged with clear sightlines",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a textured plaster background arranged with clear sightlines",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-background-base-textured-plaster-background",
+      "tags": [
+        "background",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "background": "textured-plaster-background",
+        "treatment": "clear-sightlines"
+      },
+      "subcategory": "textured-plaster-background",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-background-base-textured-plaster-background-enclosed-geometry",
+      "semantic_key": "scene-background-base-textured-plaster-background-enclosed-geometry",
+      "text": "a textured plaster background arranged with enclosed geometry",
+      "sentence": "A textured plaster background arranged with enclosed geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a textured plaster background arranged with enclosed geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a textured plaster background arranged with enclosed geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a textured plaster background arranged with enclosed geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-background-base-textured-plaster-background",
+      "tags": [
+        "background",
+        "base",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "background": "textured-plaster-background",
+        "treatment": "enclosed-geometry"
+      },
+      "subcategory": "textured-plaster-background",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-background-base-textured-plaster-background-expansive-geometry",
+      "semantic_key": "scene-background-base-textured-plaster-background-expansive-geometry",
+      "text": "a textured plaster background arranged with expansive geometry",
+      "sentence": "A textured plaster background arranged with expansive geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a textured plaster background arranged with expansive geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a textured plaster background arranged with expansive geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a textured plaster background arranged with expansive geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-background-base-textured-plaster-background",
+      "tags": [
+        "background",
+        "base",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "background": "textured-plaster-background",
+        "treatment": "expansive-geometry"
+      },
+      "subcategory": "textured-plaster-background",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-background-base-textured-plaster-background-asymmetric-layout",
+      "semantic_key": "scene-background-base-textured-plaster-background-asymmetric-layout",
+      "text": "a textured plaster background arranged with asymmetric layout",
+      "sentence": "A textured plaster background arranged with asymmetric layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a textured plaster background arranged with asymmetric layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a textured plaster background arranged with asymmetric layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a textured plaster background arranged with asymmetric layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-background-base-textured-plaster-background",
+      "tags": [
+        "background",
+        "base",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "background": "textured-plaster-background",
+        "treatment": "asymmetric-layout"
+      },
+      "subcategory": "textured-plaster-background",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-background-base-textured-plaster-background-central-organization",
+      "semantic_key": "scene-background-base-textured-plaster-background-central-organization",
+      "text": "a textured plaster background arranged with central organization",
+      "sentence": "A textured plaster background arranged with central organization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a textured plaster background arranged with central organization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a textured plaster background arranged with central organization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a textured plaster background arranged with central organization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-background-base-textured-plaster-background",
+      "tags": [
+        "background",
+        "base",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "background": "textured-plaster-background",
+        "treatment": "central-organization"
+      },
+      "subcategory": "textured-plaster-background",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-background-base-distant-architectural-background-open-spatial-layout",
+      "semantic_key": "scene-background-base-distant-architectural-background-open-spatial-layout",
+      "text": "a distant architectural background arranged with open spatial layout",
+      "sentence": "A distant architectural background arranged with open spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a distant architectural background arranged with open spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a distant architectural background arranged with open spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a distant architectural background arranged with open spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-background-base-distant-architectural-background",
+      "tags": [
+        "background",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "background": "distant-architectural-background",
+        "treatment": "open-spatial-layout"
+      },
+      "subcategory": "distant-architectural-background",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-background-base-distant-architectural-background-intimate-spatial-layout",
+      "semantic_key": "scene-background-base-distant-architectural-background-intimate-spatial-layout",
+      "text": "a distant architectural background arranged with intimate spatial layout",
+      "sentence": "A distant architectural background arranged with intimate spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a distant architectural background arranged with intimate spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a distant architectural background arranged with intimate spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a distant architectural background arranged with intimate spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-background-base-distant-architectural-background",
+      "tags": [
+        "background",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "background": "distant-architectural-background",
+        "treatment": "intimate-spatial-layout"
+      },
+      "subcategory": "distant-architectural-background",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-background-base-distant-architectural-background-layered-depth",
+      "semantic_key": "scene-background-base-distant-architectural-background-layered-depth",
+      "text": "a distant architectural background arranged with layered depth",
+      "sentence": "A distant architectural background arranged with layered depth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a distant architectural background arranged with layered depth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a distant architectural background arranged with layered depth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a distant architectural background arranged with layered depth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-background-base-distant-architectural-background",
+      "tags": [
+        "background",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "background": "distant-architectural-background",
+        "treatment": "layered-depth"
+      },
+      "subcategory": "distant-architectural-background",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-background-base-distant-architectural-background-clear-sightlines",
+      "semantic_key": "scene-background-base-distant-architectural-background-clear-sightlines",
+      "text": "a distant architectural background arranged with clear sightlines",
+      "sentence": "A distant architectural background arranged with clear sightlines.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a distant architectural background arranged with clear sightlines",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a distant architectural background arranged with clear sightlines",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a distant architectural background arranged with clear sightlines",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-background-base-distant-architectural-background",
+      "tags": [
+        "background",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "background": "distant-architectural-background",
+        "treatment": "clear-sightlines"
+      },
+      "subcategory": "distant-architectural-background",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-background-base-distant-architectural-background-enclosed-geometry",
+      "semantic_key": "scene-background-base-distant-architectural-background-enclosed-geometry",
+      "text": "a distant architectural background arranged with enclosed geometry",
+      "sentence": "A distant architectural background arranged with enclosed geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a distant architectural background arranged with enclosed geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a distant architectural background arranged with enclosed geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a distant architectural background arranged with enclosed geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-background-base-distant-architectural-background",
+      "tags": [
+        "background",
+        "base",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "background": "distant-architectural-background",
+        "treatment": "enclosed-geometry"
+      },
+      "subcategory": "distant-architectural-background",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-background-base-distant-architectural-background-expansive-geometry",
+      "semantic_key": "scene-background-base-distant-architectural-background-expansive-geometry",
+      "text": "a distant architectural background arranged with expansive geometry",
+      "sentence": "A distant architectural background arranged with expansive geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a distant architectural background arranged with expansive geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a distant architectural background arranged with expansive geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a distant architectural background arranged with expansive geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-background-base-distant-architectural-background",
+      "tags": [
+        "background",
+        "base",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "background": "distant-architectural-background",
+        "treatment": "expansive-geometry"
+      },
+      "subcategory": "distant-architectural-background",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-background-base-distant-architectural-background-asymmetric-layout",
+      "semantic_key": "scene-background-base-distant-architectural-background-asymmetric-layout",
+      "text": "a distant architectural background arranged with asymmetric layout",
+      "sentence": "A distant architectural background arranged with asymmetric layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a distant architectural background arranged with asymmetric layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a distant architectural background arranged with asymmetric layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a distant architectural background arranged with asymmetric layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-background-base-distant-architectural-background",
+      "tags": [
+        "background",
+        "base",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "background": "distant-architectural-background",
+        "treatment": "asymmetric-layout"
+      },
+      "subcategory": "distant-architectural-background",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-background-base-distant-architectural-background-central-organization",
+      "semantic_key": "scene-background-base-distant-architectural-background-central-organization",
+      "text": "a distant architectural background arranged with central organization",
+      "sentence": "A distant architectural background arranged with central organization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a distant architectural background arranged with central organization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a distant architectural background arranged with central organization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a distant architectural background arranged with central organization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-background-base-distant-architectural-background",
+      "tags": [
+        "background",
+        "base",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "background": "distant-architectural-background",
+        "treatment": "central-organization"
+      },
+      "subcategory": "distant-architectural-background",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-background-base-layered-natural-background-open-spatial-layout",
+      "semantic_key": "scene-background-base-layered-natural-background-open-spatial-layout",
+      "text": "a layered natural background arranged with open spatial layout",
+      "sentence": "A layered natural background arranged with open spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a layered natural background arranged with open spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a layered natural background arranged with open spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a layered natural background arranged with open spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-background-base-layered-natural-background",
+      "tags": [
+        "background",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "background": "layered-natural-background",
+        "treatment": "open-spatial-layout"
+      },
+      "subcategory": "layered-natural-background",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-background-base-layered-natural-background-intimate-spatial-layout",
+      "semantic_key": "scene-background-base-layered-natural-background-intimate-spatial-layout",
+      "text": "a layered natural background arranged with intimate spatial layout",
+      "sentence": "A layered natural background arranged with intimate spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a layered natural background arranged with intimate spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a layered natural background arranged with intimate spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a layered natural background arranged with intimate spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-background-base-layered-natural-background",
+      "tags": [
+        "background",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "background": "layered-natural-background",
+        "treatment": "intimate-spatial-layout"
+      },
+      "subcategory": "layered-natural-background",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-background-base-layered-natural-background-layered-depth",
+      "semantic_key": "scene-background-base-layered-natural-background-layered-depth",
+      "text": "a layered natural background arranged with layered depth",
+      "sentence": "A layered natural background arranged with layered depth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a layered natural background arranged with layered depth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a layered natural background arranged with layered depth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a layered natural background arranged with layered depth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-background-base-layered-natural-background",
+      "tags": [
+        "background",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "background": "layered-natural-background",
+        "treatment": "layered-depth"
+      },
+      "subcategory": "layered-natural-background",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-background-base-layered-natural-background-clear-sightlines",
+      "semantic_key": "scene-background-base-layered-natural-background-clear-sightlines",
+      "text": "a layered natural background arranged with clear sightlines",
+      "sentence": "A layered natural background arranged with clear sightlines.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a layered natural background arranged with clear sightlines",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a layered natural background arranged with clear sightlines",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a layered natural background arranged with clear sightlines",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-background-base-layered-natural-background",
+      "tags": [
+        "background",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "background": "layered-natural-background",
+        "treatment": "clear-sightlines"
+      },
+      "subcategory": "layered-natural-background",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-background-base-layered-natural-background-enclosed-geometry",
+      "semantic_key": "scene-background-base-layered-natural-background-enclosed-geometry",
+      "text": "a layered natural background arranged with enclosed geometry",
+      "sentence": "A layered natural background arranged with enclosed geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a layered natural background arranged with enclosed geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a layered natural background arranged with enclosed geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a layered natural background arranged with enclosed geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-background-base-layered-natural-background",
+      "tags": [
+        "background",
+        "base",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "background": "layered-natural-background",
+        "treatment": "enclosed-geometry"
+      },
+      "subcategory": "layered-natural-background",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-background-base-layered-natural-background-expansive-geometry",
+      "semantic_key": "scene-background-base-layered-natural-background-expansive-geometry",
+      "text": "a layered natural background arranged with expansive geometry",
+      "sentence": "A layered natural background arranged with expansive geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a layered natural background arranged with expansive geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a layered natural background arranged with expansive geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a layered natural background arranged with expansive geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-background-base-layered-natural-background",
+      "tags": [
+        "background",
+        "base",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "background": "layered-natural-background",
+        "treatment": "expansive-geometry"
+      },
+      "subcategory": "layered-natural-background",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-background-base-layered-natural-background-asymmetric-layout",
+      "semantic_key": "scene-background-base-layered-natural-background-asymmetric-layout",
+      "text": "a layered natural background arranged with asymmetric layout",
+      "sentence": "A layered natural background arranged with asymmetric layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a layered natural background arranged with asymmetric layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a layered natural background arranged with asymmetric layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a layered natural background arranged with asymmetric layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-background-base-layered-natural-background",
+      "tags": [
+        "background",
+        "base",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "background": "layered-natural-background",
+        "treatment": "asymmetric-layout"
+      },
+      "subcategory": "layered-natural-background",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-background-base-layered-natural-background-central-organization",
+      "semantic_key": "scene-background-base-layered-natural-background-central-organization",
+      "text": "a layered natural background arranged with central organization",
+      "sentence": "A layered natural background arranged with central organization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a layered natural background arranged with central organization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a layered natural background arranged with central organization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a layered natural background arranged with central organization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-background-base-layered-natural-background",
+      "tags": [
+        "background",
+        "base",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "background": "layered-natural-background",
+        "treatment": "central-organization"
+      },
+      "subcategory": "layered-natural-background",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-background-base-windowed-background-open-spatial-layout",
+      "semantic_key": "scene-background-base-windowed-background-open-spatial-layout",
+      "text": "a windowed background arranged with open spatial layout",
+      "sentence": "A windowed background arranged with open spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a windowed background arranged with open spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a windowed background arranged with open spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a windowed background arranged with open spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-background-base-windowed-background",
+      "tags": [
+        "background",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "background": "windowed-background",
+        "treatment": "open-spatial-layout"
+      },
+      "subcategory": "windowed-background",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-background-base-windowed-background-intimate-spatial-layout",
+      "semantic_key": "scene-background-base-windowed-background-intimate-spatial-layout",
+      "text": "a windowed background arranged with intimate spatial layout",
+      "sentence": "A windowed background arranged with intimate spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a windowed background arranged with intimate spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a windowed background arranged with intimate spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a windowed background arranged with intimate spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-background-base-windowed-background",
+      "tags": [
+        "background",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "background": "windowed-background",
+        "treatment": "intimate-spatial-layout"
+      },
+      "subcategory": "windowed-background",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-background-base-windowed-background-layered-depth",
+      "semantic_key": "scene-background-base-windowed-background-layered-depth",
+      "text": "a windowed background arranged with layered depth",
+      "sentence": "A windowed background arranged with layered depth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a windowed background arranged with layered depth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a windowed background arranged with layered depth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a windowed background arranged with layered depth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-background-base-windowed-background",
+      "tags": [
+        "background",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "background": "windowed-background",
+        "treatment": "layered-depth"
+      },
+      "subcategory": "windowed-background",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-background-base-windowed-background-clear-sightlines",
+      "semantic_key": "scene-background-base-windowed-background-clear-sightlines",
+      "text": "a windowed background arranged with clear sightlines",
+      "sentence": "A windowed background arranged with clear sightlines.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a windowed background arranged with clear sightlines",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a windowed background arranged with clear sightlines",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a windowed background arranged with clear sightlines",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-background-base-windowed-background",
+      "tags": [
+        "background",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "background": "windowed-background",
+        "treatment": "clear-sightlines"
+      },
+      "subcategory": "windowed-background",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-background-base-windowed-background-enclosed-geometry",
+      "semantic_key": "scene-background-base-windowed-background-enclosed-geometry",
+      "text": "a windowed background arranged with enclosed geometry",
+      "sentence": "A windowed background arranged with enclosed geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a windowed background arranged with enclosed geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a windowed background arranged with enclosed geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a windowed background arranged with enclosed geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-background-base-windowed-background",
+      "tags": [
+        "background",
+        "base",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "background": "windowed-background",
+        "treatment": "enclosed-geometry"
+      },
+      "subcategory": "windowed-background",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-background-base-windowed-background-expansive-geometry",
+      "semantic_key": "scene-background-base-windowed-background-expansive-geometry",
+      "text": "a windowed background arranged with expansive geometry",
+      "sentence": "A windowed background arranged with expansive geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a windowed background arranged with expansive geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a windowed background arranged with expansive geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a windowed background arranged with expansive geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-background-base-windowed-background",
+      "tags": [
+        "background",
+        "base",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "background": "windowed-background",
+        "treatment": "expansive-geometry"
+      },
+      "subcategory": "windowed-background",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-background-base-windowed-background-asymmetric-layout",
+      "semantic_key": "scene-background-base-windowed-background-asymmetric-layout",
+      "text": "a windowed background arranged with asymmetric layout",
+      "sentence": "A windowed background arranged with asymmetric layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a windowed background arranged with asymmetric layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a windowed background arranged with asymmetric layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a windowed background arranged with asymmetric layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-background-base-windowed-background",
+      "tags": [
+        "background",
+        "base",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "background": "windowed-background",
+        "treatment": "asymmetric-layout"
+      },
+      "subcategory": "windowed-background",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-background-base-windowed-background-central-organization",
+      "semantic_key": "scene-background-base-windowed-background-central-organization",
+      "text": "a windowed background arranged with central organization",
+      "sentence": "A windowed background arranged with central organization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a windowed background arranged with central organization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a windowed background arranged with central organization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a windowed background arranged with central organization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-background-base-windowed-background",
+      "tags": [
+        "background",
+        "base",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "background": "windowed-background",
+        "treatment": "central-organization"
+      },
+      "subcategory": "windowed-background",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-background-base-graphic-color-block-background-open-spatial-layout",
+      "semantic_key": "scene-background-base-graphic-color-block-background-open-spatial-layout",
+      "text": "a graphic color-block background arranged with open spatial layout",
+      "sentence": "A graphic color-block background arranged with open spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a graphic color-block background arranged with open spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a graphic color-block background arranged with open spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a graphic color-block background arranged with open spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-background-base-graphic-color-block-background",
+      "tags": [
+        "background",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "background": "graphic-color-block-background",
+        "treatment": "open-spatial-layout"
+      },
+      "subcategory": "graphic-color-block-background",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-background-base-graphic-color-block-background-intimate-spatial-layout",
+      "semantic_key": "scene-background-base-graphic-color-block-background-intimate-spatial-layout",
+      "text": "a graphic color-block background arranged with intimate spatial layout",
+      "sentence": "A graphic color-block background arranged with intimate spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a graphic color-block background arranged with intimate spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a graphic color-block background arranged with intimate spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a graphic color-block background arranged with intimate spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-background-base-graphic-color-block-background",
+      "tags": [
+        "background",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "background": "graphic-color-block-background",
+        "treatment": "intimate-spatial-layout"
+      },
+      "subcategory": "graphic-color-block-background",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-background-base-graphic-color-block-background-layered-depth",
+      "semantic_key": "scene-background-base-graphic-color-block-background-layered-depth",
+      "text": "a graphic color-block background arranged with layered depth",
+      "sentence": "A graphic color-block background arranged with layered depth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a graphic color-block background arranged with layered depth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a graphic color-block background arranged with layered depth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a graphic color-block background arranged with layered depth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-background-base-graphic-color-block-background",
+      "tags": [
+        "background",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "background": "graphic-color-block-background",
+        "treatment": "layered-depth"
+      },
+      "subcategory": "graphic-color-block-background",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-background-base-graphic-color-block-background-clear-sightlines",
+      "semantic_key": "scene-background-base-graphic-color-block-background-clear-sightlines",
+      "text": "a graphic color-block background arranged with clear sightlines",
+      "sentence": "A graphic color-block background arranged with clear sightlines.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a graphic color-block background arranged with clear sightlines",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a graphic color-block background arranged with clear sightlines",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a graphic color-block background arranged with clear sightlines",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-background-base-graphic-color-block-background",
+      "tags": [
+        "background",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "background": "graphic-color-block-background",
+        "treatment": "clear-sightlines"
+      },
+      "subcategory": "graphic-color-block-background",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-background-base-graphic-color-block-background-enclosed-geometry",
+      "semantic_key": "scene-background-base-graphic-color-block-background-enclosed-geometry",
+      "text": "a graphic color-block background arranged with enclosed geometry",
+      "sentence": "A graphic color-block background arranged with enclosed geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a graphic color-block background arranged with enclosed geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a graphic color-block background arranged with enclosed geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a graphic color-block background arranged with enclosed geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-background-base-graphic-color-block-background",
+      "tags": [
+        "background",
+        "base",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "background": "graphic-color-block-background",
+        "treatment": "enclosed-geometry"
+      },
+      "subcategory": "graphic-color-block-background",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-background-base-graphic-color-block-background-expansive-geometry",
+      "semantic_key": "scene-background-base-graphic-color-block-background-expansive-geometry",
+      "text": "a graphic color-block background arranged with expansive geometry",
+      "sentence": "A graphic color-block background arranged with expansive geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a graphic color-block background arranged with expansive geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a graphic color-block background arranged with expansive geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a graphic color-block background arranged with expansive geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-background-base-graphic-color-block-background",
+      "tags": [
+        "background",
+        "base",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "background": "graphic-color-block-background",
+        "treatment": "expansive-geometry"
+      },
+      "subcategory": "graphic-color-block-background",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-background-base-graphic-color-block-background-asymmetric-layout",
+      "semantic_key": "scene-background-base-graphic-color-block-background-asymmetric-layout",
+      "text": "a graphic color-block background arranged with asymmetric layout",
+      "sentence": "A graphic color-block background arranged with asymmetric layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a graphic color-block background arranged with asymmetric layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a graphic color-block background arranged with asymmetric layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a graphic color-block background arranged with asymmetric layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-background-base-graphic-color-block-background",
+      "tags": [
+        "background",
+        "base",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "background": "graphic-color-block-background",
+        "treatment": "asymmetric-layout"
+      },
+      "subcategory": "graphic-color-block-background",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-background-base-graphic-color-block-background-central-organization",
+      "semantic_key": "scene-background-base-graphic-color-block-background-central-organization",
+      "text": "a graphic color-block background arranged with central organization",
+      "sentence": "A graphic color-block background arranged with central organization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a graphic color-block background arranged with central organization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a graphic color-block background arranged with central organization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a graphic color-block background arranged with central organization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-background-base-graphic-color-block-background",
+      "tags": [
+        "background",
+        "base",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "background": "graphic-color-block-background",
+        "treatment": "central-organization"
+      },
+      "subcategory": "graphic-color-block-background",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-background-base-deep-shadow-background-open-spatial-layout",
+      "semantic_key": "scene-background-base-deep-shadow-background-open-spatial-layout",
+      "text": "a deep shadow background arranged with open spatial layout",
+      "sentence": "A deep shadow background arranged with open spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a deep shadow background arranged with open spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a deep shadow background arranged with open spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a deep shadow background arranged with open spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-background-base-deep-shadow-background",
+      "tags": [
+        "background",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "background": "deep-shadow-background",
+        "treatment": "open-spatial-layout"
+      },
+      "subcategory": "deep-shadow-background",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-background-base-deep-shadow-background-intimate-spatial-layout",
+      "semantic_key": "scene-background-base-deep-shadow-background-intimate-spatial-layout",
+      "text": "a deep shadow background arranged with intimate spatial layout",
+      "sentence": "A deep shadow background arranged with intimate spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a deep shadow background arranged with intimate spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a deep shadow background arranged with intimate spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a deep shadow background arranged with intimate spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-background-base-deep-shadow-background",
+      "tags": [
+        "background",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "background": "deep-shadow-background",
+        "treatment": "intimate-spatial-layout"
+      },
+      "subcategory": "deep-shadow-background",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-background-base-deep-shadow-background-layered-depth",
+      "semantic_key": "scene-background-base-deep-shadow-background-layered-depth",
+      "text": "a deep shadow background arranged with layered depth",
+      "sentence": "A deep shadow background arranged with layered depth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a deep shadow background arranged with layered depth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a deep shadow background arranged with layered depth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a deep shadow background arranged with layered depth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-background-base-deep-shadow-background",
+      "tags": [
+        "background",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "background": "deep-shadow-background",
+        "treatment": "layered-depth"
+      },
+      "subcategory": "deep-shadow-background",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-background-base-deep-shadow-background-clear-sightlines",
+      "semantic_key": "scene-background-base-deep-shadow-background-clear-sightlines",
+      "text": "a deep shadow background arranged with clear sightlines",
+      "sentence": "A deep shadow background arranged with clear sightlines.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a deep shadow background arranged with clear sightlines",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a deep shadow background arranged with clear sightlines",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a deep shadow background arranged with clear sightlines",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-background-base-deep-shadow-background",
+      "tags": [
+        "background",
+        "base",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "background": "deep-shadow-background",
+        "treatment": "clear-sightlines"
+      },
+      "subcategory": "deep-shadow-background",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-background-base-deep-shadow-background-enclosed-geometry",
+      "semantic_key": "scene-background-base-deep-shadow-background-enclosed-geometry",
+      "text": "a deep shadow background arranged with enclosed geometry",
+      "sentence": "A deep shadow background arranged with enclosed geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a deep shadow background arranged with enclosed geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a deep shadow background arranged with enclosed geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a deep shadow background arranged with enclosed geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-background-base-deep-shadow-background",
+      "tags": [
+        "background",
+        "base",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "background": "deep-shadow-background",
+        "treatment": "enclosed-geometry"
+      },
+      "subcategory": "deep-shadow-background",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-background-base-deep-shadow-background-expansive-geometry",
+      "semantic_key": "scene-background-base-deep-shadow-background-expansive-geometry",
+      "text": "a deep shadow background arranged with expansive geometry",
+      "sentence": "A deep shadow background arranged with expansive geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a deep shadow background arranged with expansive geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a deep shadow background arranged with expansive geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a deep shadow background arranged with expansive geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-background-base-deep-shadow-background",
+      "tags": [
+        "background",
+        "base",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "background": "deep-shadow-background",
+        "treatment": "expansive-geometry"
+      },
+      "subcategory": "deep-shadow-background",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-background-base-deep-shadow-background-asymmetric-layout",
+      "semantic_key": "scene-background-base-deep-shadow-background-asymmetric-layout",
+      "text": "a deep shadow background arranged with asymmetric layout",
+      "sentence": "A deep shadow background arranged with asymmetric layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a deep shadow background arranged with asymmetric layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a deep shadow background arranged with asymmetric layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a deep shadow background arranged with asymmetric layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-background-base-deep-shadow-background",
+      "tags": [
+        "background",
+        "base",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "background": "deep-shadow-background",
+        "treatment": "asymmetric-layout"
+      },
+      "subcategory": "deep-shadow-background",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-background-base-deep-shadow-background-central-organization",
+      "semantic_key": "scene-background-base-deep-shadow-background-central-organization",
+      "text": "a deep shadow background arranged with central organization",
+      "sentence": "A deep shadow background arranged with central organization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a deep shadow background arranged with central organization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a deep shadow background arranged with central organization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a deep shadow background arranged with central organization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-background-base-deep-shadow-background",
+      "tags": [
+        "background",
+        "base",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "background": "deep-shadow-background",
+        "treatment": "central-organization"
+      },
+      "subcategory": "deep-shadow-background",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    }
+  ]
+}

@@ -1,0 +1,2577 @@
+{
+  "schema_version": "2.0",
+  "id": "cinematography-focus-base",
+  "version": "2.0.0",
+  "library": "focus",
+  "domain": "cinematography",
+  "category": "focus",
+  "language": "en",
+  "status": "active",
+  "safety": "general",
+  "tags": [
+    "base"
+  ],
+  "fallback_option_id": "cinematography-focus-base-eye-priority-focus-documentary-restraint",
+  "options": [
+    {
+      "id": "cinematography-focus-base-eye-priority-focus-documentary-restraint",
+      "semantic_key": "cinematography-focus-base-eye-priority-focus-documentary-restraint",
+      "text": "eye-priority focus with documentary restraint",
+      "sentence": "Eye-priority focus with documentary restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "eye-priority focus with documentary restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing eye-priority focus with documentary restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with eye-priority focus with documentary restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-focus-base-eye-priority-focus",
+      "tags": [
+        "base",
+        "cinematography",
+        "focus",
+        "rarity-common"
+      ],
+      "facets": {
+        "focus-strategy": "eye-priority-focus",
+        "treatment": "documentary-restraint"
+      },
+      "subcategory": "eye-priority-focus",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-focus-base-eye-priority-focus-formal-precision",
+      "semantic_key": "cinematography-focus-base-eye-priority-focus-formal-precision",
+      "text": "eye-priority focus with formal precision",
+      "sentence": "Eye-priority focus with formal precision.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "eye-priority focus with formal precision",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing eye-priority focus with formal precision",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with eye-priority focus with formal precision",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-focus-base-eye-priority-focus",
+      "tags": [
+        "base",
+        "cinematography",
+        "focus",
+        "rarity-common"
+      ],
+      "facets": {
+        "focus-strategy": "eye-priority-focus",
+        "treatment": "formal-precision"
+      },
+      "subcategory": "eye-priority-focus",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-focus-base-eye-priority-focus-intimate-emphasis",
+      "semantic_key": "cinematography-focus-base-eye-priority-focus-intimate-emphasis",
+      "text": "eye-priority focus with intimate emphasis",
+      "sentence": "Eye-priority focus with intimate emphasis.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "eye-priority focus with intimate emphasis",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing eye-priority focus with intimate emphasis",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with eye-priority focus with intimate emphasis",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-focus-base-eye-priority-focus",
+      "tags": [
+        "base",
+        "cinematography",
+        "focus",
+        "rarity-common"
+      ],
+      "facets": {
+        "focus-strategy": "eye-priority-focus",
+        "treatment": "intimate-emphasis"
+      },
+      "subcategory": "eye-priority-focus",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-focus-base-eye-priority-focus-spatial-context",
+      "semantic_key": "cinematography-focus-base-eye-priority-focus-spatial-context",
+      "text": "eye-priority focus with spatial context",
+      "sentence": "Eye-priority focus with spatial context.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "eye-priority focus with spatial context",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing eye-priority focus with spatial context",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with eye-priority focus with spatial context",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-focus-base-eye-priority-focus",
+      "tags": [
+        "base",
+        "cinematography",
+        "focus",
+        "rarity-common"
+      ],
+      "facets": {
+        "focus-strategy": "eye-priority-focus",
+        "treatment": "spatial-context"
+      },
+      "subcategory": "eye-priority-focus",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-focus-base-eye-priority-focus-graphic-geometry",
+      "semantic_key": "cinematography-focus-base-eye-priority-focus-graphic-geometry",
+      "text": "eye-priority focus with graphic geometry",
+      "sentence": "Eye-priority focus with graphic geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "eye-priority focus with graphic geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing eye-priority focus with graphic geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with eye-priority focus with graphic geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-focus-base-eye-priority-focus",
+      "tags": [
+        "base",
+        "cinematography",
+        "focus",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "focus-strategy": "eye-priority-focus",
+        "treatment": "graphic-geometry"
+      },
+      "subcategory": "eye-priority-focus",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-focus-base-eye-priority-focus-dynamic-energy",
+      "semantic_key": "cinematography-focus-base-eye-priority-focus-dynamic-energy",
+      "text": "eye-priority focus with dynamic energy",
+      "sentence": "Eye-priority focus with dynamic energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "eye-priority focus with dynamic energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing eye-priority focus with dynamic energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with eye-priority focus with dynamic energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-focus-base-eye-priority-focus",
+      "tags": [
+        "base",
+        "cinematography",
+        "focus",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "focus-strategy": "eye-priority-focus",
+        "treatment": "dynamic-energy"
+      },
+      "subcategory": "eye-priority-focus",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-focus-base-eye-priority-focus-quiet-observation",
+      "semantic_key": "cinematography-focus-base-eye-priority-focus-quiet-observation",
+      "text": "eye-priority focus with quiet observation",
+      "sentence": "Eye-priority focus with quiet observation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "eye-priority focus with quiet observation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing eye-priority focus with quiet observation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with eye-priority focus with quiet observation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-focus-base-eye-priority-focus",
+      "tags": [
+        "base",
+        "cinematography",
+        "focus",
+        "rarity-rare"
+      ],
+      "facets": {
+        "focus-strategy": "eye-priority-focus",
+        "treatment": "quiet-observation"
+      },
+      "subcategory": "eye-priority-focus",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-focus-base-eye-priority-focus-editorial-polish",
+      "semantic_key": "cinematography-focus-base-eye-priority-focus-editorial-polish",
+      "text": "eye-priority focus with editorial polish",
+      "sentence": "Eye-priority focus with editorial polish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "eye-priority focus with editorial polish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing eye-priority focus with editorial polish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with eye-priority focus with editorial polish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-focus-base-eye-priority-focus",
+      "tags": [
+        "base",
+        "cinematography",
+        "focus",
+        "rarity-rare"
+      ],
+      "facets": {
+        "focus-strategy": "eye-priority-focus",
+        "treatment": "editorial-polish"
+      },
+      "subcategory": "eye-priority-focus",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-focus-base-face-priority-focus-documentary-restraint",
+      "semantic_key": "cinematography-focus-base-face-priority-focus-documentary-restraint",
+      "text": "face-priority focus with documentary restraint",
+      "sentence": "Face-priority focus with documentary restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "face-priority focus with documentary restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing face-priority focus with documentary restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with face-priority focus with documentary restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-focus-base-face-priority-focus",
+      "tags": [
+        "base",
+        "cinematography",
+        "focus",
+        "rarity-common"
+      ],
+      "facets": {
+        "focus-strategy": "face-priority-focus",
+        "treatment": "documentary-restraint"
+      },
+      "subcategory": "face-priority-focus",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-focus-base-face-priority-focus-formal-precision",
+      "semantic_key": "cinematography-focus-base-face-priority-focus-formal-precision",
+      "text": "face-priority focus with formal precision",
+      "sentence": "Face-priority focus with formal precision.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "face-priority focus with formal precision",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing face-priority focus with formal precision",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with face-priority focus with formal precision",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-focus-base-face-priority-focus",
+      "tags": [
+        "base",
+        "cinematography",
+        "focus",
+        "rarity-common"
+      ],
+      "facets": {
+        "focus-strategy": "face-priority-focus",
+        "treatment": "formal-precision"
+      },
+      "subcategory": "face-priority-focus",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-focus-base-face-priority-focus-intimate-emphasis",
+      "semantic_key": "cinematography-focus-base-face-priority-focus-intimate-emphasis",
+      "text": "face-priority focus with intimate emphasis",
+      "sentence": "Face-priority focus with intimate emphasis.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "face-priority focus with intimate emphasis",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing face-priority focus with intimate emphasis",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with face-priority focus with intimate emphasis",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-focus-base-face-priority-focus",
+      "tags": [
+        "base",
+        "cinematography",
+        "focus",
+        "rarity-common"
+      ],
+      "facets": {
+        "focus-strategy": "face-priority-focus",
+        "treatment": "intimate-emphasis"
+      },
+      "subcategory": "face-priority-focus",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-focus-base-face-priority-focus-spatial-context",
+      "semantic_key": "cinematography-focus-base-face-priority-focus-spatial-context",
+      "text": "face-priority focus with spatial context",
+      "sentence": "Face-priority focus with spatial context.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "face-priority focus with spatial context",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing face-priority focus with spatial context",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with face-priority focus with spatial context",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-focus-base-face-priority-focus",
+      "tags": [
+        "base",
+        "cinematography",
+        "focus",
+        "rarity-common"
+      ],
+      "facets": {
+        "focus-strategy": "face-priority-focus",
+        "treatment": "spatial-context"
+      },
+      "subcategory": "face-priority-focus",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-focus-base-face-priority-focus-graphic-geometry",
+      "semantic_key": "cinematography-focus-base-face-priority-focus-graphic-geometry",
+      "text": "face-priority focus with graphic geometry",
+      "sentence": "Face-priority focus with graphic geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "face-priority focus with graphic geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing face-priority focus with graphic geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with face-priority focus with graphic geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-focus-base-face-priority-focus",
+      "tags": [
+        "base",
+        "cinematography",
+        "focus",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "focus-strategy": "face-priority-focus",
+        "treatment": "graphic-geometry"
+      },
+      "subcategory": "face-priority-focus",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-focus-base-face-priority-focus-dynamic-energy",
+      "semantic_key": "cinematography-focus-base-face-priority-focus-dynamic-energy",
+      "text": "face-priority focus with dynamic energy",
+      "sentence": "Face-priority focus with dynamic energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "face-priority focus with dynamic energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing face-priority focus with dynamic energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with face-priority focus with dynamic energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-focus-base-face-priority-focus",
+      "tags": [
+        "base",
+        "cinematography",
+        "focus",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "focus-strategy": "face-priority-focus",
+        "treatment": "dynamic-energy"
+      },
+      "subcategory": "face-priority-focus",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-focus-base-face-priority-focus-quiet-observation",
+      "semantic_key": "cinematography-focus-base-face-priority-focus-quiet-observation",
+      "text": "face-priority focus with quiet observation",
+      "sentence": "Face-priority focus with quiet observation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "face-priority focus with quiet observation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing face-priority focus with quiet observation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with face-priority focus with quiet observation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-focus-base-face-priority-focus",
+      "tags": [
+        "base",
+        "cinematography",
+        "focus",
+        "rarity-rare"
+      ],
+      "facets": {
+        "focus-strategy": "face-priority-focus",
+        "treatment": "quiet-observation"
+      },
+      "subcategory": "face-priority-focus",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-focus-base-face-priority-focus-editorial-polish",
+      "semantic_key": "cinematography-focus-base-face-priority-focus-editorial-polish",
+      "text": "face-priority focus with editorial polish",
+      "sentence": "Face-priority focus with editorial polish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "face-priority focus with editorial polish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing face-priority focus with editorial polish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with face-priority focus with editorial polish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-focus-base-face-priority-focus",
+      "tags": [
+        "base",
+        "cinematography",
+        "focus",
+        "rarity-rare"
+      ],
+      "facets": {
+        "focus-strategy": "face-priority-focus",
+        "treatment": "editorial-polish"
+      },
+      "subcategory": "face-priority-focus",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-focus-base-shallow-selective-focus-documentary-restraint",
+      "semantic_key": "cinematography-focus-base-shallow-selective-focus-documentary-restraint",
+      "text": "shallow selective focus with documentary restraint",
+      "sentence": "Shallow selective focus with documentary restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "shallow selective focus with documentary restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing shallow selective focus with documentary restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with shallow selective focus with documentary restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-focus-base-shallow-selective-focus",
+      "tags": [
+        "base",
+        "cinematography",
+        "focus",
+        "rarity-common"
+      ],
+      "facets": {
+        "focus-strategy": "shallow-selective-focus",
+        "treatment": "documentary-restraint"
+      },
+      "subcategory": "shallow-selective-focus",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-focus-base-shallow-selective-focus-formal-precision",
+      "semantic_key": "cinematography-focus-base-shallow-selective-focus-formal-precision",
+      "text": "shallow selective focus with formal precision",
+      "sentence": "Shallow selective focus with formal precision.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "shallow selective focus with formal precision",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing shallow selective focus with formal precision",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with shallow selective focus with formal precision",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-focus-base-shallow-selective-focus",
+      "tags": [
+        "base",
+        "cinematography",
+        "focus",
+        "rarity-common"
+      ],
+      "facets": {
+        "focus-strategy": "shallow-selective-focus",
+        "treatment": "formal-precision"
+      },
+      "subcategory": "shallow-selective-focus",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-focus-base-shallow-selective-focus-intimate-emphasis",
+      "semantic_key": "cinematography-focus-base-shallow-selective-focus-intimate-emphasis",
+      "text": "shallow selective focus with intimate emphasis",
+      "sentence": "Shallow selective focus with intimate emphasis.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "shallow selective focus with intimate emphasis",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing shallow selective focus with intimate emphasis",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with shallow selective focus with intimate emphasis",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-focus-base-shallow-selective-focus",
+      "tags": [
+        "base",
+        "cinematography",
+        "focus",
+        "rarity-common"
+      ],
+      "facets": {
+        "focus-strategy": "shallow-selective-focus",
+        "treatment": "intimate-emphasis"
+      },
+      "subcategory": "shallow-selective-focus",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-focus-base-shallow-selective-focus-spatial-context",
+      "semantic_key": "cinematography-focus-base-shallow-selective-focus-spatial-context",
+      "text": "shallow selective focus with spatial context",
+      "sentence": "Shallow selective focus with spatial context.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "shallow selective focus with spatial context",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing shallow selective focus with spatial context",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with shallow selective focus with spatial context",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-focus-base-shallow-selective-focus",
+      "tags": [
+        "base",
+        "cinematography",
+        "focus",
+        "rarity-common"
+      ],
+      "facets": {
+        "focus-strategy": "shallow-selective-focus",
+        "treatment": "spatial-context"
+      },
+      "subcategory": "shallow-selective-focus",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-focus-base-shallow-selective-focus-graphic-geometry",
+      "semantic_key": "cinematography-focus-base-shallow-selective-focus-graphic-geometry",
+      "text": "shallow selective focus with graphic geometry",
+      "sentence": "Shallow selective focus with graphic geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "shallow selective focus with graphic geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing shallow selective focus with graphic geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with shallow selective focus with graphic geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-focus-base-shallow-selective-focus",
+      "tags": [
+        "base",
+        "cinematography",
+        "focus",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "focus-strategy": "shallow-selective-focus",
+        "treatment": "graphic-geometry"
+      },
+      "subcategory": "shallow-selective-focus",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-focus-base-shallow-selective-focus-dynamic-energy",
+      "semantic_key": "cinematography-focus-base-shallow-selective-focus-dynamic-energy",
+      "text": "shallow selective focus with dynamic energy",
+      "sentence": "Shallow selective focus with dynamic energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "shallow selective focus with dynamic energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing shallow selective focus with dynamic energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with shallow selective focus with dynamic energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-focus-base-shallow-selective-focus",
+      "tags": [
+        "base",
+        "cinematography",
+        "focus",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "focus-strategy": "shallow-selective-focus",
+        "treatment": "dynamic-energy"
+      },
+      "subcategory": "shallow-selective-focus",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-focus-base-shallow-selective-focus-quiet-observation",
+      "semantic_key": "cinematography-focus-base-shallow-selective-focus-quiet-observation",
+      "text": "shallow selective focus with quiet observation",
+      "sentence": "Shallow selective focus with quiet observation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "shallow selective focus with quiet observation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing shallow selective focus with quiet observation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with shallow selective focus with quiet observation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-focus-base-shallow-selective-focus",
+      "tags": [
+        "base",
+        "cinematography",
+        "focus",
+        "rarity-rare"
+      ],
+      "facets": {
+        "focus-strategy": "shallow-selective-focus",
+        "treatment": "quiet-observation"
+      },
+      "subcategory": "shallow-selective-focus",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-focus-base-shallow-selective-focus-editorial-polish",
+      "semantic_key": "cinematography-focus-base-shallow-selective-focus-editorial-polish",
+      "text": "shallow selective focus with editorial polish",
+      "sentence": "Shallow selective focus with editorial polish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "shallow selective focus with editorial polish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing shallow selective focus with editorial polish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with shallow selective focus with editorial polish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-focus-base-shallow-selective-focus",
+      "tags": [
+        "base",
+        "cinematography",
+        "focus",
+        "rarity-rare"
+      ],
+      "facets": {
+        "focus-strategy": "shallow-selective-focus",
+        "treatment": "editorial-polish"
+      },
+      "subcategory": "shallow-selective-focus",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-focus-base-moderate-depth-focus-documentary-restraint",
+      "semantic_key": "cinematography-focus-base-moderate-depth-focus-documentary-restraint",
+      "text": "moderate depth focus with documentary restraint",
+      "sentence": "Moderate depth focus with documentary restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "moderate depth focus with documentary restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing moderate depth focus with documentary restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with moderate depth focus with documentary restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-focus-base-moderate-depth-focus",
+      "tags": [
+        "base",
+        "cinematography",
+        "focus",
+        "rarity-common"
+      ],
+      "facets": {
+        "focus-strategy": "moderate-depth-focus",
+        "treatment": "documentary-restraint"
+      },
+      "subcategory": "moderate-depth-focus",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-focus-base-moderate-depth-focus-formal-precision",
+      "semantic_key": "cinematography-focus-base-moderate-depth-focus-formal-precision",
+      "text": "moderate depth focus with formal precision",
+      "sentence": "Moderate depth focus with formal precision.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "moderate depth focus with formal precision",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing moderate depth focus with formal precision",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with moderate depth focus with formal precision",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-focus-base-moderate-depth-focus",
+      "tags": [
+        "base",
+        "cinematography",
+        "focus",
+        "rarity-common"
+      ],
+      "facets": {
+        "focus-strategy": "moderate-depth-focus",
+        "treatment": "formal-precision"
+      },
+      "subcategory": "moderate-depth-focus",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-focus-base-moderate-depth-focus-intimate-emphasis",
+      "semantic_key": "cinematography-focus-base-moderate-depth-focus-intimate-emphasis",
+      "text": "moderate depth focus with intimate emphasis",
+      "sentence": "Moderate depth focus with intimate emphasis.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "moderate depth focus with intimate emphasis",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing moderate depth focus with intimate emphasis",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with moderate depth focus with intimate emphasis",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-focus-base-moderate-depth-focus",
+      "tags": [
+        "base",
+        "cinematography",
+        "focus",
+        "rarity-common"
+      ],
+      "facets": {
+        "focus-strategy": "moderate-depth-focus",
+        "treatment": "intimate-emphasis"
+      },
+      "subcategory": "moderate-depth-focus",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-focus-base-moderate-depth-focus-spatial-context",
+      "semantic_key": "cinematography-focus-base-moderate-depth-focus-spatial-context",
+      "text": "moderate depth focus with spatial context",
+      "sentence": "Moderate depth focus with spatial context.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "moderate depth focus with spatial context",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing moderate depth focus with spatial context",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with moderate depth focus with spatial context",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-focus-base-moderate-depth-focus",
+      "tags": [
+        "base",
+        "cinematography",
+        "focus",
+        "rarity-common"
+      ],
+      "facets": {
+        "focus-strategy": "moderate-depth-focus",
+        "treatment": "spatial-context"
+      },
+      "subcategory": "moderate-depth-focus",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-focus-base-moderate-depth-focus-graphic-geometry",
+      "semantic_key": "cinematography-focus-base-moderate-depth-focus-graphic-geometry",
+      "text": "moderate depth focus with graphic geometry",
+      "sentence": "Moderate depth focus with graphic geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "moderate depth focus with graphic geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing moderate depth focus with graphic geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with moderate depth focus with graphic geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-focus-base-moderate-depth-focus",
+      "tags": [
+        "base",
+        "cinematography",
+        "focus",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "focus-strategy": "moderate-depth-focus",
+        "treatment": "graphic-geometry"
+      },
+      "subcategory": "moderate-depth-focus",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-focus-base-moderate-depth-focus-dynamic-energy",
+      "semantic_key": "cinematography-focus-base-moderate-depth-focus-dynamic-energy",
+      "text": "moderate depth focus with dynamic energy",
+      "sentence": "Moderate depth focus with dynamic energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "moderate depth focus with dynamic energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing moderate depth focus with dynamic energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with moderate depth focus with dynamic energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-focus-base-moderate-depth-focus",
+      "tags": [
+        "base",
+        "cinematography",
+        "focus",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "focus-strategy": "moderate-depth-focus",
+        "treatment": "dynamic-energy"
+      },
+      "subcategory": "moderate-depth-focus",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-focus-base-moderate-depth-focus-quiet-observation",
+      "semantic_key": "cinematography-focus-base-moderate-depth-focus-quiet-observation",
+      "text": "moderate depth focus with quiet observation",
+      "sentence": "Moderate depth focus with quiet observation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "moderate depth focus with quiet observation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing moderate depth focus with quiet observation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with moderate depth focus with quiet observation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-focus-base-moderate-depth-focus",
+      "tags": [
+        "base",
+        "cinematography",
+        "focus",
+        "rarity-rare"
+      ],
+      "facets": {
+        "focus-strategy": "moderate-depth-focus",
+        "treatment": "quiet-observation"
+      },
+      "subcategory": "moderate-depth-focus",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-focus-base-moderate-depth-focus-editorial-polish",
+      "semantic_key": "cinematography-focus-base-moderate-depth-focus-editorial-polish",
+      "text": "moderate depth focus with editorial polish",
+      "sentence": "Moderate depth focus with editorial polish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "moderate depth focus with editorial polish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing moderate depth focus with editorial polish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with moderate depth focus with editorial polish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-focus-base-moderate-depth-focus",
+      "tags": [
+        "base",
+        "cinematography",
+        "focus",
+        "rarity-rare"
+      ],
+      "facets": {
+        "focus-strategy": "moderate-depth-focus",
+        "treatment": "editorial-polish"
+      },
+      "subcategory": "moderate-depth-focus",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-focus-base-deep-scene-focus-documentary-restraint",
+      "semantic_key": "cinematography-focus-base-deep-scene-focus-documentary-restraint",
+      "text": "deep scene focus with documentary restraint",
+      "sentence": "Deep scene focus with documentary restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "deep scene focus with documentary restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing deep scene focus with documentary restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with deep scene focus with documentary restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-focus-base-deep-scene-focus",
+      "tags": [
+        "base",
+        "cinematography",
+        "focus",
+        "rarity-common"
+      ],
+      "facets": {
+        "focus-strategy": "deep-scene-focus",
+        "treatment": "documentary-restraint"
+      },
+      "subcategory": "deep-scene-focus",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-focus-base-deep-scene-focus-formal-precision",
+      "semantic_key": "cinematography-focus-base-deep-scene-focus-formal-precision",
+      "text": "deep scene focus with formal precision",
+      "sentence": "Deep scene focus with formal precision.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "deep scene focus with formal precision",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing deep scene focus with formal precision",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with deep scene focus with formal precision",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-focus-base-deep-scene-focus",
+      "tags": [
+        "base",
+        "cinematography",
+        "focus",
+        "rarity-common"
+      ],
+      "facets": {
+        "focus-strategy": "deep-scene-focus",
+        "treatment": "formal-precision"
+      },
+      "subcategory": "deep-scene-focus",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-focus-base-deep-scene-focus-intimate-emphasis",
+      "semantic_key": "cinematography-focus-base-deep-scene-focus-intimate-emphasis",
+      "text": "deep scene focus with intimate emphasis",
+      "sentence": "Deep scene focus with intimate emphasis.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "deep scene focus with intimate emphasis",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing deep scene focus with intimate emphasis",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with deep scene focus with intimate emphasis",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-focus-base-deep-scene-focus",
+      "tags": [
+        "base",
+        "cinematography",
+        "focus",
+        "rarity-common"
+      ],
+      "facets": {
+        "focus-strategy": "deep-scene-focus",
+        "treatment": "intimate-emphasis"
+      },
+      "subcategory": "deep-scene-focus",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-focus-base-deep-scene-focus-spatial-context",
+      "semantic_key": "cinematography-focus-base-deep-scene-focus-spatial-context",
+      "text": "deep scene focus with spatial context",
+      "sentence": "Deep scene focus with spatial context.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "deep scene focus with spatial context",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing deep scene focus with spatial context",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with deep scene focus with spatial context",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-focus-base-deep-scene-focus",
+      "tags": [
+        "base",
+        "cinematography",
+        "focus",
+        "rarity-common"
+      ],
+      "facets": {
+        "focus-strategy": "deep-scene-focus",
+        "treatment": "spatial-context"
+      },
+      "subcategory": "deep-scene-focus",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-focus-base-deep-scene-focus-graphic-geometry",
+      "semantic_key": "cinematography-focus-base-deep-scene-focus-graphic-geometry",
+      "text": "deep scene focus with graphic geometry",
+      "sentence": "Deep scene focus with graphic geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "deep scene focus with graphic geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing deep scene focus with graphic geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with deep scene focus with graphic geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-focus-base-deep-scene-focus",
+      "tags": [
+        "base",
+        "cinematography",
+        "focus",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "focus-strategy": "deep-scene-focus",
+        "treatment": "graphic-geometry"
+      },
+      "subcategory": "deep-scene-focus",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-focus-base-deep-scene-focus-dynamic-energy",
+      "semantic_key": "cinematography-focus-base-deep-scene-focus-dynamic-energy",
+      "text": "deep scene focus with dynamic energy",
+      "sentence": "Deep scene focus with dynamic energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "deep scene focus with dynamic energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing deep scene focus with dynamic energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with deep scene focus with dynamic energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-focus-base-deep-scene-focus",
+      "tags": [
+        "base",
+        "cinematography",
+        "focus",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "focus-strategy": "deep-scene-focus",
+        "treatment": "dynamic-energy"
+      },
+      "subcategory": "deep-scene-focus",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-focus-base-deep-scene-focus-quiet-observation",
+      "semantic_key": "cinematography-focus-base-deep-scene-focus-quiet-observation",
+      "text": "deep scene focus with quiet observation",
+      "sentence": "Deep scene focus with quiet observation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "deep scene focus with quiet observation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing deep scene focus with quiet observation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with deep scene focus with quiet observation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-focus-base-deep-scene-focus",
+      "tags": [
+        "base",
+        "cinematography",
+        "focus",
+        "rarity-rare"
+      ],
+      "facets": {
+        "focus-strategy": "deep-scene-focus",
+        "treatment": "quiet-observation"
+      },
+      "subcategory": "deep-scene-focus",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-focus-base-deep-scene-focus-editorial-polish",
+      "semantic_key": "cinematography-focus-base-deep-scene-focus-editorial-polish",
+      "text": "deep scene focus with editorial polish",
+      "sentence": "Deep scene focus with editorial polish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "deep scene focus with editorial polish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing deep scene focus with editorial polish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with deep scene focus with editorial polish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-focus-base-deep-scene-focus",
+      "tags": [
+        "base",
+        "cinematography",
+        "focus",
+        "rarity-rare"
+      ],
+      "facets": {
+        "focus-strategy": "deep-scene-focus",
+        "treatment": "editorial-polish"
+      },
+      "subcategory": "deep-scene-focus",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-focus-base-foreground-to-subject-focus-documentary-restraint",
+      "semantic_key": "cinematography-focus-base-foreground-to-subject-focus-documentary-restraint",
+      "text": "foreground-to-subject focus with documentary restraint",
+      "sentence": "Foreground-to-subject focus with documentary restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "foreground-to-subject focus with documentary restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing foreground-to-subject focus with documentary restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with foreground-to-subject focus with documentary restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-focus-base-foreground-to-subject-focus",
+      "tags": [
+        "base",
+        "cinematography",
+        "focus",
+        "rarity-common"
+      ],
+      "facets": {
+        "focus-strategy": "foreground-to-subject-focus",
+        "treatment": "documentary-restraint"
+      },
+      "subcategory": "foreground-to-subject-focus",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-focus-base-foreground-to-subject-focus-formal-precision",
+      "semantic_key": "cinematography-focus-base-foreground-to-subject-focus-formal-precision",
+      "text": "foreground-to-subject focus with formal precision",
+      "sentence": "Foreground-to-subject focus with formal precision.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "foreground-to-subject focus with formal precision",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing foreground-to-subject focus with formal precision",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with foreground-to-subject focus with formal precision",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-focus-base-foreground-to-subject-focus",
+      "tags": [
+        "base",
+        "cinematography",
+        "focus",
+        "rarity-common"
+      ],
+      "facets": {
+        "focus-strategy": "foreground-to-subject-focus",
+        "treatment": "formal-precision"
+      },
+      "subcategory": "foreground-to-subject-focus",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-focus-base-foreground-to-subject-focus-intimate-emphasis",
+      "semantic_key": "cinematography-focus-base-foreground-to-subject-focus-intimate-emphasis",
+      "text": "foreground-to-subject focus with intimate emphasis",
+      "sentence": "Foreground-to-subject focus with intimate emphasis.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "foreground-to-subject focus with intimate emphasis",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing foreground-to-subject focus with intimate emphasis",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with foreground-to-subject focus with intimate emphasis",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-focus-base-foreground-to-subject-focus",
+      "tags": [
+        "base",
+        "cinematography",
+        "focus",
+        "rarity-common"
+      ],
+      "facets": {
+        "focus-strategy": "foreground-to-subject-focus",
+        "treatment": "intimate-emphasis"
+      },
+      "subcategory": "foreground-to-subject-focus",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-focus-base-foreground-to-subject-focus-spatial-context",
+      "semantic_key": "cinematography-focus-base-foreground-to-subject-focus-spatial-context",
+      "text": "foreground-to-subject focus with spatial context",
+      "sentence": "Foreground-to-subject focus with spatial context.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "foreground-to-subject focus with spatial context",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing foreground-to-subject focus with spatial context",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with foreground-to-subject focus with spatial context",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-focus-base-foreground-to-subject-focus",
+      "tags": [
+        "base",
+        "cinematography",
+        "focus",
+        "rarity-common"
+      ],
+      "facets": {
+        "focus-strategy": "foreground-to-subject-focus",
+        "treatment": "spatial-context"
+      },
+      "subcategory": "foreground-to-subject-focus",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-focus-base-foreground-to-subject-focus-graphic-geometry",
+      "semantic_key": "cinematography-focus-base-foreground-to-subject-focus-graphic-geometry",
+      "text": "foreground-to-subject focus with graphic geometry",
+      "sentence": "Foreground-to-subject focus with graphic geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "foreground-to-subject focus with graphic geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing foreground-to-subject focus with graphic geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with foreground-to-subject focus with graphic geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-focus-base-foreground-to-subject-focus",
+      "tags": [
+        "base",
+        "cinematography",
+        "focus",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "focus-strategy": "foreground-to-subject-focus",
+        "treatment": "graphic-geometry"
+      },
+      "subcategory": "foreground-to-subject-focus",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-focus-base-foreground-to-subject-focus-dynamic-energy",
+      "semantic_key": "cinematography-focus-base-foreground-to-subject-focus-dynamic-energy",
+      "text": "foreground-to-subject focus with dynamic energy",
+      "sentence": "Foreground-to-subject focus with dynamic energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "foreground-to-subject focus with dynamic energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing foreground-to-subject focus with dynamic energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with foreground-to-subject focus with dynamic energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-focus-base-foreground-to-subject-focus",
+      "tags": [
+        "base",
+        "cinematography",
+        "focus",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "focus-strategy": "foreground-to-subject-focus",
+        "treatment": "dynamic-energy"
+      },
+      "subcategory": "foreground-to-subject-focus",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-focus-base-foreground-to-subject-focus-quiet-observation",
+      "semantic_key": "cinematography-focus-base-foreground-to-subject-focus-quiet-observation",
+      "text": "foreground-to-subject focus with quiet observation",
+      "sentence": "Foreground-to-subject focus with quiet observation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "foreground-to-subject focus with quiet observation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing foreground-to-subject focus with quiet observation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with foreground-to-subject focus with quiet observation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-focus-base-foreground-to-subject-focus",
+      "tags": [
+        "base",
+        "cinematography",
+        "focus",
+        "rarity-rare"
+      ],
+      "facets": {
+        "focus-strategy": "foreground-to-subject-focus",
+        "treatment": "quiet-observation"
+      },
+      "subcategory": "foreground-to-subject-focus",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-focus-base-foreground-to-subject-focus-editorial-polish",
+      "semantic_key": "cinematography-focus-base-foreground-to-subject-focus-editorial-polish",
+      "text": "foreground-to-subject focus with editorial polish",
+      "sentence": "Foreground-to-subject focus with editorial polish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "foreground-to-subject focus with editorial polish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing foreground-to-subject focus with editorial polish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with foreground-to-subject focus with editorial polish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-focus-base-foreground-to-subject-focus",
+      "tags": [
+        "base",
+        "cinematography",
+        "focus",
+        "rarity-rare"
+      ],
+      "facets": {
+        "focus-strategy": "foreground-to-subject-focus",
+        "treatment": "editorial-polish"
+      },
+      "subcategory": "foreground-to-subject-focus",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-focus-base-split-plane-focus-documentary-restraint",
+      "semantic_key": "cinematography-focus-base-split-plane-focus-documentary-restraint",
+      "text": "split-plane focus with documentary restraint",
+      "sentence": "Split-plane focus with documentary restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "split-plane focus with documentary restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing split-plane focus with documentary restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with split-plane focus with documentary restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-focus-base-split-plane-focus",
+      "tags": [
+        "base",
+        "cinematography",
+        "focus",
+        "rarity-common"
+      ],
+      "facets": {
+        "focus-strategy": "split-plane-focus",
+        "treatment": "documentary-restraint"
+      },
+      "subcategory": "split-plane-focus",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-focus-base-split-plane-focus-formal-precision",
+      "semantic_key": "cinematography-focus-base-split-plane-focus-formal-precision",
+      "text": "split-plane focus with formal precision",
+      "sentence": "Split-plane focus with formal precision.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "split-plane focus with formal precision",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing split-plane focus with formal precision",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with split-plane focus with formal precision",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-focus-base-split-plane-focus",
+      "tags": [
+        "base",
+        "cinematography",
+        "focus",
+        "rarity-common"
+      ],
+      "facets": {
+        "focus-strategy": "split-plane-focus",
+        "treatment": "formal-precision"
+      },
+      "subcategory": "split-plane-focus",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-focus-base-split-plane-focus-intimate-emphasis",
+      "semantic_key": "cinematography-focus-base-split-plane-focus-intimate-emphasis",
+      "text": "split-plane focus with intimate emphasis",
+      "sentence": "Split-plane focus with intimate emphasis.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "split-plane focus with intimate emphasis",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing split-plane focus with intimate emphasis",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with split-plane focus with intimate emphasis",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-focus-base-split-plane-focus",
+      "tags": [
+        "base",
+        "cinematography",
+        "focus",
+        "rarity-common"
+      ],
+      "facets": {
+        "focus-strategy": "split-plane-focus",
+        "treatment": "intimate-emphasis"
+      },
+      "subcategory": "split-plane-focus",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-focus-base-split-plane-focus-spatial-context",
+      "semantic_key": "cinematography-focus-base-split-plane-focus-spatial-context",
+      "text": "split-plane focus with spatial context",
+      "sentence": "Split-plane focus with spatial context.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "split-plane focus with spatial context",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing split-plane focus with spatial context",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with split-plane focus with spatial context",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-focus-base-split-plane-focus",
+      "tags": [
+        "base",
+        "cinematography",
+        "focus",
+        "rarity-common"
+      ],
+      "facets": {
+        "focus-strategy": "split-plane-focus",
+        "treatment": "spatial-context"
+      },
+      "subcategory": "split-plane-focus",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-focus-base-split-plane-focus-graphic-geometry",
+      "semantic_key": "cinematography-focus-base-split-plane-focus-graphic-geometry",
+      "text": "split-plane focus with graphic geometry",
+      "sentence": "Split-plane focus with graphic geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "split-plane focus with graphic geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing split-plane focus with graphic geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with split-plane focus with graphic geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-focus-base-split-plane-focus",
+      "tags": [
+        "base",
+        "cinematography",
+        "focus",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "focus-strategy": "split-plane-focus",
+        "treatment": "graphic-geometry"
+      },
+      "subcategory": "split-plane-focus",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-focus-base-split-plane-focus-dynamic-energy",
+      "semantic_key": "cinematography-focus-base-split-plane-focus-dynamic-energy",
+      "text": "split-plane focus with dynamic energy",
+      "sentence": "Split-plane focus with dynamic energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "split-plane focus with dynamic energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing split-plane focus with dynamic energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with split-plane focus with dynamic energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-focus-base-split-plane-focus",
+      "tags": [
+        "base",
+        "cinematography",
+        "focus",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "focus-strategy": "split-plane-focus",
+        "treatment": "dynamic-energy"
+      },
+      "subcategory": "split-plane-focus",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-focus-base-split-plane-focus-quiet-observation",
+      "semantic_key": "cinematography-focus-base-split-plane-focus-quiet-observation",
+      "text": "split-plane focus with quiet observation",
+      "sentence": "Split-plane focus with quiet observation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "split-plane focus with quiet observation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing split-plane focus with quiet observation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with split-plane focus with quiet observation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-focus-base-split-plane-focus",
+      "tags": [
+        "base",
+        "cinematography",
+        "focus",
+        "rarity-rare"
+      ],
+      "facets": {
+        "focus-strategy": "split-plane-focus",
+        "treatment": "quiet-observation"
+      },
+      "subcategory": "split-plane-focus",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-focus-base-split-plane-focus-editorial-polish",
+      "semantic_key": "cinematography-focus-base-split-plane-focus-editorial-polish",
+      "text": "split-plane focus with editorial polish",
+      "sentence": "Split-plane focus with editorial polish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "split-plane focus with editorial polish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing split-plane focus with editorial polish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with split-plane focus with editorial polish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-focus-base-split-plane-focus",
+      "tags": [
+        "base",
+        "cinematography",
+        "focus",
+        "rarity-rare"
+      ],
+      "facets": {
+        "focus-strategy": "split-plane-focus",
+        "treatment": "editorial-polish"
+      },
+      "subcategory": "split-plane-focus",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-focus-base-soft-edge-focus-documentary-restraint",
+      "semantic_key": "cinematography-focus-base-soft-edge-focus-documentary-restraint",
+      "text": "soft-edge focus with documentary restraint",
+      "sentence": "Soft-edge focus with documentary restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "soft-edge focus with documentary restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing soft-edge focus with documentary restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with soft-edge focus with documentary restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-focus-base-soft-edge-focus",
+      "tags": [
+        "base",
+        "cinematography",
+        "focus",
+        "rarity-common"
+      ],
+      "facets": {
+        "focus-strategy": "soft-edge-focus",
+        "treatment": "documentary-restraint"
+      },
+      "subcategory": "soft-edge-focus",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-focus-base-soft-edge-focus-formal-precision",
+      "semantic_key": "cinematography-focus-base-soft-edge-focus-formal-precision",
+      "text": "soft-edge focus with formal precision",
+      "sentence": "Soft-edge focus with formal precision.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "soft-edge focus with formal precision",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing soft-edge focus with formal precision",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with soft-edge focus with formal precision",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-focus-base-soft-edge-focus",
+      "tags": [
+        "base",
+        "cinematography",
+        "focus",
+        "rarity-common"
+      ],
+      "facets": {
+        "focus-strategy": "soft-edge-focus",
+        "treatment": "formal-precision"
+      },
+      "subcategory": "soft-edge-focus",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-focus-base-soft-edge-focus-intimate-emphasis",
+      "semantic_key": "cinematography-focus-base-soft-edge-focus-intimate-emphasis",
+      "text": "soft-edge focus with intimate emphasis",
+      "sentence": "Soft-edge focus with intimate emphasis.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "soft-edge focus with intimate emphasis",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing soft-edge focus with intimate emphasis",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with soft-edge focus with intimate emphasis",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-focus-base-soft-edge-focus",
+      "tags": [
+        "base",
+        "cinematography",
+        "focus",
+        "rarity-common"
+      ],
+      "facets": {
+        "focus-strategy": "soft-edge-focus",
+        "treatment": "intimate-emphasis"
+      },
+      "subcategory": "soft-edge-focus",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-focus-base-soft-edge-focus-spatial-context",
+      "semantic_key": "cinematography-focus-base-soft-edge-focus-spatial-context",
+      "text": "soft-edge focus with spatial context",
+      "sentence": "Soft-edge focus with spatial context.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "soft-edge focus with spatial context",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing soft-edge focus with spatial context",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with soft-edge focus with spatial context",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-focus-base-soft-edge-focus",
+      "tags": [
+        "base",
+        "cinematography",
+        "focus",
+        "rarity-common"
+      ],
+      "facets": {
+        "focus-strategy": "soft-edge-focus",
+        "treatment": "spatial-context"
+      },
+      "subcategory": "soft-edge-focus",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-focus-base-soft-edge-focus-graphic-geometry",
+      "semantic_key": "cinematography-focus-base-soft-edge-focus-graphic-geometry",
+      "text": "soft-edge focus with graphic geometry",
+      "sentence": "Soft-edge focus with graphic geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "soft-edge focus with graphic geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing soft-edge focus with graphic geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with soft-edge focus with graphic geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-focus-base-soft-edge-focus",
+      "tags": [
+        "base",
+        "cinematography",
+        "focus",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "focus-strategy": "soft-edge-focus",
+        "treatment": "graphic-geometry"
+      },
+      "subcategory": "soft-edge-focus",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-focus-base-soft-edge-focus-dynamic-energy",
+      "semantic_key": "cinematography-focus-base-soft-edge-focus-dynamic-energy",
+      "text": "soft-edge focus with dynamic energy",
+      "sentence": "Soft-edge focus with dynamic energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "soft-edge focus with dynamic energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing soft-edge focus with dynamic energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with soft-edge focus with dynamic energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-focus-base-soft-edge-focus",
+      "tags": [
+        "base",
+        "cinematography",
+        "focus",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "focus-strategy": "soft-edge-focus",
+        "treatment": "dynamic-energy"
+      },
+      "subcategory": "soft-edge-focus",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-focus-base-soft-edge-focus-quiet-observation",
+      "semantic_key": "cinematography-focus-base-soft-edge-focus-quiet-observation",
+      "text": "soft-edge focus with quiet observation",
+      "sentence": "Soft-edge focus with quiet observation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "soft-edge focus with quiet observation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing soft-edge focus with quiet observation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with soft-edge focus with quiet observation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-focus-base-soft-edge-focus",
+      "tags": [
+        "base",
+        "cinematography",
+        "focus",
+        "rarity-rare"
+      ],
+      "facets": {
+        "focus-strategy": "soft-edge-focus",
+        "treatment": "quiet-observation"
+      },
+      "subcategory": "soft-edge-focus",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-focus-base-soft-edge-focus-editorial-polish",
+      "semantic_key": "cinematography-focus-base-soft-edge-focus-editorial-polish",
+      "text": "soft-edge focus with editorial polish",
+      "sentence": "Soft-edge focus with editorial polish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "soft-edge focus with editorial polish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing soft-edge focus with editorial polish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with soft-edge focus with editorial polish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-focus-base-soft-edge-focus",
+      "tags": [
+        "base",
+        "cinematography",
+        "focus",
+        "rarity-rare"
+      ],
+      "facets": {
+        "focus-strategy": "soft-edge-focus",
+        "treatment": "editorial-polish"
+      },
+      "subcategory": "soft-edge-focus",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    }
+  ]
+}

@@ -12,6 +12,7 @@ from prompt_architect.domain.models import (
     RenderedPrompt,
     SelectionResult,
 )
+from prompt_architect.domain.renderer import selected_variant_id
 from prompt_architect.infrastructure.hashing import canonical_json_hash
 from prompt_architect.version import __version__
 
@@ -59,17 +60,45 @@ def build_manifest(
         selections[section_id] = MappingProxyType(
             {
                 "option_id": selected.option.id,
+                "pack_id": selected.option.pack_id,
                 "raw_text": selected.option.text,
                 "rendered_text": rendered.rendered_sections.get(section_id, ""),
+                "rendered": bool(rendered.rendered_sections.get(section_id, "")),
                 "tags": selected.option.tags,
+                "family": selected.option.family,
+                "facets": selected.option.facets,
                 "semantic_key": selected.option.semantic_key,
+                "variant_id": selected_variant_id(profile, selection, selected),
                 "source": selected.source.value,
                 "fallback": selected.fallback_used,
             }
         )
     versions = {library.id: library.version for library in libraries.values()}
+    catalog_versions = {
+        library.catalog_version
+        for library in libraries.values()
+        if library.catalog_version is not None
+    }
+    catalog_version = next(iter(catalog_versions)) if len(catalog_versions) == 1 else None
+    pack_versions = {
+        pack_id: version
+        for library in libraries.values()
+        for pack_id, version in library.pack_versions.items()
+    }
+    omitted = tuple(
+        section_id
+        for section_id in profile.section_order
+        if section_id in selection.context.selections
+        and not rendered.rendered_sections.get(section_id, "")
+    )
+    warnings = selection.warnings
+    if omitted:
+        warnings = (
+            *warnings,
+            "rendering omitted selected sections: " + ", ".join(omitted),
+        )
     return PromptManifest(
-        schema_version="1.0",
+        schema_version="2.0" if catalog_version is not None else "1.0",
         engine_version=__version__,
         profile_id=profile.id,
         profile_version=profile.version,
@@ -83,15 +112,17 @@ def build_manifest(
         resolved_conflicts=selection.resolved_conflicts,
         fallbacks=selection.fallbacks,
         attempts=selection.attempts,
-        warnings=selection.warnings,
+        warnings=warnings,
         positive_prompt=rendered.positive,
         negative_prompt=rendered.negative,
+        catalog_version=catalog_version,
+        pack_versions=MappingProxyType(dict(sorted(pack_versions.items()))),
     )
 
 
 def manifest_data(manifest: PromptManifest) -> dict[str, object]:
     """Convert a manifest to stable JSON-compatible primitives."""
-    return {
+    data: dict[str, object] = {
         "schema_version": manifest.schema_version,
         "engine_version": manifest.engine_version,
         "profile": {"id": manifest.profile_id, "version": manifest.profile_version},
@@ -109,6 +140,10 @@ def manifest_data(manifest: PromptManifest) -> dict[str, object]:
         "positive_prompt": manifest.positive_prompt,
         "negative_prompt": manifest.negative_prompt,
     }
+    if manifest.catalog_version is not None:
+        data["catalog_version"] = manifest.catalog_version
+        data["packs"] = dict(manifest.pack_versions)
+    return data
 
 
 def manifest_json(manifest: PromptManifest) -> str:

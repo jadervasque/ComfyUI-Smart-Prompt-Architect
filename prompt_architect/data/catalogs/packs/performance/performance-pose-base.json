@@ -1,0 +1,2641 @@
+{
+  "schema_version": "2.0",
+  "id": "performance-pose-base",
+  "version": "2.0.0",
+  "library": "pose",
+  "domain": "performance",
+  "category": "pose",
+  "language": "en",
+  "status": "active",
+  "safety": "general",
+  "tags": [
+    "base"
+  ],
+  "fallback_option_id": "performance-pose-base-relaxed-standing-pose-resting-movement",
+  "options": [
+    {
+      "id": "performance-pose-base-relaxed-standing-pose-resting-movement",
+      "semantic_key": "performance-pose-base-relaxed-standing-pose-resting-movement",
+      "text": "relaxed standing pose with resting movement",
+      "sentence": "Relaxed standing pose with resting movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "relaxed standing pose with resting movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing relaxed standing pose with resting movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with relaxed standing pose with resting movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-pose-base-relaxed-standing-pose",
+      "tags": [
+        "base",
+        "performance",
+        "pose",
+        "pose-standing",
+        "rarity-common"
+      ],
+      "facets": {
+        "pose": "relaxed-standing-pose",
+        "treatment": "resting-movement"
+      },
+      "subcategory": "relaxed-standing-pose",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-pose-base-relaxed-standing-pose-measured-movement",
+      "semantic_key": "performance-pose-base-relaxed-standing-pose-measured-movement",
+      "text": "relaxed standing pose with measured movement",
+      "sentence": "Relaxed standing pose with measured movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "relaxed standing pose with measured movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing relaxed standing pose with measured movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with relaxed standing pose with measured movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-pose-base-relaxed-standing-pose",
+      "tags": [
+        "base",
+        "performance",
+        "pose",
+        "pose-standing",
+        "rarity-common"
+      ],
+      "facets": {
+        "pose": "relaxed-standing-pose",
+        "treatment": "measured-movement"
+      },
+      "subcategory": "relaxed-standing-pose",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-pose-base-relaxed-standing-pose-flowing-movement",
+      "semantic_key": "performance-pose-base-relaxed-standing-pose-flowing-movement",
+      "text": "relaxed standing pose with flowing movement",
+      "sentence": "Relaxed standing pose with flowing movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "relaxed standing pose with flowing movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing relaxed standing pose with flowing movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with relaxed standing pose with flowing movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-pose-base-relaxed-standing-pose",
+      "tags": [
+        "base",
+        "performance",
+        "pose",
+        "pose-standing",
+        "rarity-common"
+      ],
+      "facets": {
+        "pose": "relaxed-standing-pose",
+        "treatment": "flowing-movement"
+      },
+      "subcategory": "relaxed-standing-pose",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-pose-base-relaxed-standing-pose-decisive-movement",
+      "semantic_key": "performance-pose-base-relaxed-standing-pose-decisive-movement",
+      "text": "relaxed standing pose with decisive movement",
+      "sentence": "Relaxed standing pose with decisive movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "relaxed standing pose with decisive movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing relaxed standing pose with decisive movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with relaxed standing pose with decisive movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-pose-base-relaxed-standing-pose",
+      "tags": [
+        "base",
+        "performance",
+        "pose",
+        "pose-standing",
+        "rarity-common"
+      ],
+      "facets": {
+        "pose": "relaxed-standing-pose",
+        "treatment": "decisive-movement"
+      },
+      "subcategory": "relaxed-standing-pose",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-pose-base-relaxed-standing-pose-suspended-movement",
+      "semantic_key": "performance-pose-base-relaxed-standing-pose-suspended-movement",
+      "text": "relaxed standing pose with suspended movement",
+      "sentence": "Relaxed standing pose with suspended movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "relaxed standing pose with suspended movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing relaxed standing pose with suspended movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with relaxed standing pose with suspended movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-pose-base-relaxed-standing-pose",
+      "tags": [
+        "base",
+        "performance",
+        "pose",
+        "pose-standing",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "pose": "relaxed-standing-pose",
+        "treatment": "suspended-movement"
+      },
+      "subcategory": "relaxed-standing-pose",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-pose-base-relaxed-standing-pose-rhythmic-movement",
+      "semantic_key": "performance-pose-base-relaxed-standing-pose-rhythmic-movement",
+      "text": "relaxed standing pose with rhythmic movement",
+      "sentence": "Relaxed standing pose with rhythmic movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "relaxed standing pose with rhythmic movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing relaxed standing pose with rhythmic movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with relaxed standing pose with rhythmic movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-pose-base-relaxed-standing-pose",
+      "tags": [
+        "base",
+        "performance",
+        "pose",
+        "pose-standing",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "pose": "relaxed-standing-pose",
+        "treatment": "rhythmic-movement"
+      },
+      "subcategory": "relaxed-standing-pose",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-pose-base-relaxed-standing-pose-asymmetric-movement",
+      "semantic_key": "performance-pose-base-relaxed-standing-pose-asymmetric-movement",
+      "text": "relaxed standing pose with asymmetric movement",
+      "sentence": "Relaxed standing pose with asymmetric movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "relaxed standing pose with asymmetric movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing relaxed standing pose with asymmetric movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with relaxed standing pose with asymmetric movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-pose-base-relaxed-standing-pose",
+      "tags": [
+        "base",
+        "performance",
+        "pose",
+        "pose-standing",
+        "rarity-rare"
+      ],
+      "facets": {
+        "pose": "relaxed-standing-pose",
+        "treatment": "asymmetric-movement"
+      },
+      "subcategory": "relaxed-standing-pose",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-pose-base-relaxed-standing-pose-controlled-momentum",
+      "semantic_key": "performance-pose-base-relaxed-standing-pose-controlled-momentum",
+      "text": "relaxed standing pose with controlled momentum",
+      "sentence": "Relaxed standing pose with controlled momentum.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "relaxed standing pose with controlled momentum",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing relaxed standing pose with controlled momentum",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with relaxed standing pose with controlled momentum",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-pose-base-relaxed-standing-pose",
+      "tags": [
+        "base",
+        "performance",
+        "pose",
+        "pose-standing",
+        "rarity-rare"
+      ],
+      "facets": {
+        "pose": "relaxed-standing-pose",
+        "treatment": "controlled-momentum"
+      },
+      "subcategory": "relaxed-standing-pose",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-pose-base-balanced-seated-pose-resting-movement",
+      "semantic_key": "performance-pose-base-balanced-seated-pose-resting-movement",
+      "text": "balanced seated pose with resting movement",
+      "sentence": "Balanced seated pose with resting movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "balanced seated pose with resting movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing balanced seated pose with resting movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with balanced seated pose with resting movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-pose-base-balanced-seated-pose",
+      "tags": [
+        "base",
+        "performance",
+        "pose",
+        "pose-seated",
+        "rarity-common"
+      ],
+      "facets": {
+        "pose": "balanced-seated-pose",
+        "treatment": "resting-movement"
+      },
+      "subcategory": "balanced-seated-pose",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-pose-base-balanced-seated-pose-measured-movement",
+      "semantic_key": "performance-pose-base-balanced-seated-pose-measured-movement",
+      "text": "balanced seated pose with measured movement",
+      "sentence": "Balanced seated pose with measured movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "balanced seated pose with measured movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing balanced seated pose with measured movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with balanced seated pose with measured movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-pose-base-balanced-seated-pose",
+      "tags": [
+        "base",
+        "performance",
+        "pose",
+        "pose-seated",
+        "rarity-common"
+      ],
+      "facets": {
+        "pose": "balanced-seated-pose",
+        "treatment": "measured-movement"
+      },
+      "subcategory": "balanced-seated-pose",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-pose-base-balanced-seated-pose-flowing-movement",
+      "semantic_key": "performance-pose-base-balanced-seated-pose-flowing-movement",
+      "text": "balanced seated pose with flowing movement",
+      "sentence": "Balanced seated pose with flowing movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "balanced seated pose with flowing movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing balanced seated pose with flowing movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with balanced seated pose with flowing movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-pose-base-balanced-seated-pose",
+      "tags": [
+        "base",
+        "performance",
+        "pose",
+        "pose-seated",
+        "rarity-common"
+      ],
+      "facets": {
+        "pose": "balanced-seated-pose",
+        "treatment": "flowing-movement"
+      },
+      "subcategory": "balanced-seated-pose",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-pose-base-balanced-seated-pose-decisive-movement",
+      "semantic_key": "performance-pose-base-balanced-seated-pose-decisive-movement",
+      "text": "balanced seated pose with decisive movement",
+      "sentence": "Balanced seated pose with decisive movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "balanced seated pose with decisive movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing balanced seated pose with decisive movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with balanced seated pose with decisive movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-pose-base-balanced-seated-pose",
+      "tags": [
+        "base",
+        "performance",
+        "pose",
+        "pose-seated",
+        "rarity-common"
+      ],
+      "facets": {
+        "pose": "balanced-seated-pose",
+        "treatment": "decisive-movement"
+      },
+      "subcategory": "balanced-seated-pose",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-pose-base-balanced-seated-pose-suspended-movement",
+      "semantic_key": "performance-pose-base-balanced-seated-pose-suspended-movement",
+      "text": "balanced seated pose with suspended movement",
+      "sentence": "Balanced seated pose with suspended movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "balanced seated pose with suspended movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing balanced seated pose with suspended movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with balanced seated pose with suspended movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-pose-base-balanced-seated-pose",
+      "tags": [
+        "base",
+        "performance",
+        "pose",
+        "pose-seated",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "pose": "balanced-seated-pose",
+        "treatment": "suspended-movement"
+      },
+      "subcategory": "balanced-seated-pose",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-pose-base-balanced-seated-pose-rhythmic-movement",
+      "semantic_key": "performance-pose-base-balanced-seated-pose-rhythmic-movement",
+      "text": "balanced seated pose with rhythmic movement",
+      "sentence": "Balanced seated pose with rhythmic movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "balanced seated pose with rhythmic movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing balanced seated pose with rhythmic movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with balanced seated pose with rhythmic movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-pose-base-balanced-seated-pose",
+      "tags": [
+        "base",
+        "performance",
+        "pose",
+        "pose-seated",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "pose": "balanced-seated-pose",
+        "treatment": "rhythmic-movement"
+      },
+      "subcategory": "balanced-seated-pose",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-pose-base-balanced-seated-pose-asymmetric-movement",
+      "semantic_key": "performance-pose-base-balanced-seated-pose-asymmetric-movement",
+      "text": "balanced seated pose with asymmetric movement",
+      "sentence": "Balanced seated pose with asymmetric movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "balanced seated pose with asymmetric movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing balanced seated pose with asymmetric movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with balanced seated pose with asymmetric movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-pose-base-balanced-seated-pose",
+      "tags": [
+        "base",
+        "performance",
+        "pose",
+        "pose-seated",
+        "rarity-rare"
+      ],
+      "facets": {
+        "pose": "balanced-seated-pose",
+        "treatment": "asymmetric-movement"
+      },
+      "subcategory": "balanced-seated-pose",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-pose-base-balanced-seated-pose-controlled-momentum",
+      "semantic_key": "performance-pose-base-balanced-seated-pose-controlled-momentum",
+      "text": "balanced seated pose with controlled momentum",
+      "sentence": "Balanced seated pose with controlled momentum.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "balanced seated pose with controlled momentum",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing balanced seated pose with controlled momentum",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with balanced seated pose with controlled momentum",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-pose-base-balanced-seated-pose",
+      "tags": [
+        "base",
+        "performance",
+        "pose",
+        "pose-seated",
+        "rarity-rare"
+      ],
+      "facets": {
+        "pose": "balanced-seated-pose",
+        "treatment": "controlled-momentum"
+      },
+      "subcategory": "balanced-seated-pose",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-pose-base-walking-pose-resting-movement",
+      "semantic_key": "performance-pose-base-walking-pose-resting-movement",
+      "text": "walking pose with resting movement",
+      "sentence": "Walking pose with resting movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "walking pose with resting movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing walking pose with resting movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with walking pose with resting movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-pose-base-walking-pose",
+      "tags": [
+        "base",
+        "performance",
+        "pose",
+        "pose-standing",
+        "rarity-common"
+      ],
+      "facets": {
+        "pose": "walking-pose",
+        "treatment": "resting-movement"
+      },
+      "subcategory": "walking-pose",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-pose-base-walking-pose-measured-movement",
+      "semantic_key": "performance-pose-base-walking-pose-measured-movement",
+      "text": "walking pose with measured movement",
+      "sentence": "Walking pose with measured movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "walking pose with measured movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing walking pose with measured movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with walking pose with measured movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-pose-base-walking-pose",
+      "tags": [
+        "base",
+        "performance",
+        "pose",
+        "pose-standing",
+        "rarity-common"
+      ],
+      "facets": {
+        "pose": "walking-pose",
+        "treatment": "measured-movement"
+      },
+      "subcategory": "walking-pose",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-pose-base-walking-pose-flowing-movement",
+      "semantic_key": "performance-pose-base-walking-pose-flowing-movement",
+      "text": "walking pose with flowing movement",
+      "sentence": "Walking pose with flowing movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "walking pose with flowing movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing walking pose with flowing movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with walking pose with flowing movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-pose-base-walking-pose",
+      "tags": [
+        "base",
+        "performance",
+        "pose",
+        "pose-standing",
+        "rarity-common"
+      ],
+      "facets": {
+        "pose": "walking-pose",
+        "treatment": "flowing-movement"
+      },
+      "subcategory": "walking-pose",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-pose-base-walking-pose-decisive-movement",
+      "semantic_key": "performance-pose-base-walking-pose-decisive-movement",
+      "text": "walking pose with decisive movement",
+      "sentence": "Walking pose with decisive movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "walking pose with decisive movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing walking pose with decisive movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with walking pose with decisive movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-pose-base-walking-pose",
+      "tags": [
+        "base",
+        "performance",
+        "pose",
+        "pose-standing",
+        "rarity-common"
+      ],
+      "facets": {
+        "pose": "walking-pose",
+        "treatment": "decisive-movement"
+      },
+      "subcategory": "walking-pose",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-pose-base-walking-pose-suspended-movement",
+      "semantic_key": "performance-pose-base-walking-pose-suspended-movement",
+      "text": "walking pose with suspended movement",
+      "sentence": "Walking pose with suspended movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "walking pose with suspended movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing walking pose with suspended movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with walking pose with suspended movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-pose-base-walking-pose",
+      "tags": [
+        "base",
+        "performance",
+        "pose",
+        "pose-standing",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "pose": "walking-pose",
+        "treatment": "suspended-movement"
+      },
+      "subcategory": "walking-pose",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-pose-base-walking-pose-rhythmic-movement",
+      "semantic_key": "performance-pose-base-walking-pose-rhythmic-movement",
+      "text": "walking pose with rhythmic movement",
+      "sentence": "Walking pose with rhythmic movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "walking pose with rhythmic movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing walking pose with rhythmic movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with walking pose with rhythmic movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-pose-base-walking-pose",
+      "tags": [
+        "base",
+        "performance",
+        "pose",
+        "pose-standing",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "pose": "walking-pose",
+        "treatment": "rhythmic-movement"
+      },
+      "subcategory": "walking-pose",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-pose-base-walking-pose-asymmetric-movement",
+      "semantic_key": "performance-pose-base-walking-pose-asymmetric-movement",
+      "text": "walking pose with asymmetric movement",
+      "sentence": "Walking pose with asymmetric movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "walking pose with asymmetric movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing walking pose with asymmetric movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with walking pose with asymmetric movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-pose-base-walking-pose",
+      "tags": [
+        "base",
+        "performance",
+        "pose",
+        "pose-standing",
+        "rarity-rare"
+      ],
+      "facets": {
+        "pose": "walking-pose",
+        "treatment": "asymmetric-movement"
+      },
+      "subcategory": "walking-pose",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-pose-base-walking-pose-controlled-momentum",
+      "semantic_key": "performance-pose-base-walking-pose-controlled-momentum",
+      "text": "walking pose with controlled momentum",
+      "sentence": "Walking pose with controlled momentum.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "walking pose with controlled momentum",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing walking pose with controlled momentum",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with walking pose with controlled momentum",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-pose-base-walking-pose",
+      "tags": [
+        "base",
+        "performance",
+        "pose",
+        "pose-standing",
+        "rarity-rare"
+      ],
+      "facets": {
+        "pose": "walking-pose",
+        "treatment": "controlled-momentum"
+      },
+      "subcategory": "walking-pose",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-pose-base-leaning-pose-resting-movement",
+      "semantic_key": "performance-pose-base-leaning-pose-resting-movement",
+      "text": "leaning pose with resting movement",
+      "sentence": "Leaning pose with resting movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "leaning pose with resting movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing leaning pose with resting movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with leaning pose with resting movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-pose-base-leaning-pose",
+      "tags": [
+        "base",
+        "performance",
+        "pose",
+        "pose-low",
+        "rarity-common"
+      ],
+      "facets": {
+        "pose": "leaning-pose",
+        "treatment": "resting-movement"
+      },
+      "subcategory": "leaning-pose",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-pose-base-leaning-pose-measured-movement",
+      "semantic_key": "performance-pose-base-leaning-pose-measured-movement",
+      "text": "leaning pose with measured movement",
+      "sentence": "Leaning pose with measured movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "leaning pose with measured movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing leaning pose with measured movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with leaning pose with measured movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-pose-base-leaning-pose",
+      "tags": [
+        "base",
+        "performance",
+        "pose",
+        "pose-low",
+        "rarity-common"
+      ],
+      "facets": {
+        "pose": "leaning-pose",
+        "treatment": "measured-movement"
+      },
+      "subcategory": "leaning-pose",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-pose-base-leaning-pose-flowing-movement",
+      "semantic_key": "performance-pose-base-leaning-pose-flowing-movement",
+      "text": "leaning pose with flowing movement",
+      "sentence": "Leaning pose with flowing movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "leaning pose with flowing movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing leaning pose with flowing movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with leaning pose with flowing movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-pose-base-leaning-pose",
+      "tags": [
+        "base",
+        "performance",
+        "pose",
+        "pose-low",
+        "rarity-common"
+      ],
+      "facets": {
+        "pose": "leaning-pose",
+        "treatment": "flowing-movement"
+      },
+      "subcategory": "leaning-pose",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-pose-base-leaning-pose-decisive-movement",
+      "semantic_key": "performance-pose-base-leaning-pose-decisive-movement",
+      "text": "leaning pose with decisive movement",
+      "sentence": "Leaning pose with decisive movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "leaning pose with decisive movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing leaning pose with decisive movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with leaning pose with decisive movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-pose-base-leaning-pose",
+      "tags": [
+        "base",
+        "performance",
+        "pose",
+        "pose-low",
+        "rarity-common"
+      ],
+      "facets": {
+        "pose": "leaning-pose",
+        "treatment": "decisive-movement"
+      },
+      "subcategory": "leaning-pose",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-pose-base-leaning-pose-suspended-movement",
+      "semantic_key": "performance-pose-base-leaning-pose-suspended-movement",
+      "text": "leaning pose with suspended movement",
+      "sentence": "Leaning pose with suspended movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "leaning pose with suspended movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing leaning pose with suspended movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with leaning pose with suspended movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-pose-base-leaning-pose",
+      "tags": [
+        "base",
+        "performance",
+        "pose",
+        "pose-low",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "pose": "leaning-pose",
+        "treatment": "suspended-movement"
+      },
+      "subcategory": "leaning-pose",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-pose-base-leaning-pose-rhythmic-movement",
+      "semantic_key": "performance-pose-base-leaning-pose-rhythmic-movement",
+      "text": "leaning pose with rhythmic movement",
+      "sentence": "Leaning pose with rhythmic movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "leaning pose with rhythmic movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing leaning pose with rhythmic movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with leaning pose with rhythmic movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-pose-base-leaning-pose",
+      "tags": [
+        "base",
+        "performance",
+        "pose",
+        "pose-low",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "pose": "leaning-pose",
+        "treatment": "rhythmic-movement"
+      },
+      "subcategory": "leaning-pose",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-pose-base-leaning-pose-asymmetric-movement",
+      "semantic_key": "performance-pose-base-leaning-pose-asymmetric-movement",
+      "text": "leaning pose with asymmetric movement",
+      "sentence": "Leaning pose with asymmetric movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "leaning pose with asymmetric movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing leaning pose with asymmetric movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with leaning pose with asymmetric movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-pose-base-leaning-pose",
+      "tags": [
+        "base",
+        "performance",
+        "pose",
+        "pose-low",
+        "rarity-rare"
+      ],
+      "facets": {
+        "pose": "leaning-pose",
+        "treatment": "asymmetric-movement"
+      },
+      "subcategory": "leaning-pose",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-pose-base-leaning-pose-controlled-momentum",
+      "semantic_key": "performance-pose-base-leaning-pose-controlled-momentum",
+      "text": "leaning pose with controlled momentum",
+      "sentence": "Leaning pose with controlled momentum.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "leaning pose with controlled momentum",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing leaning pose with controlled momentum",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with leaning pose with controlled momentum",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-pose-base-leaning-pose",
+      "tags": [
+        "base",
+        "performance",
+        "pose",
+        "pose-low",
+        "rarity-rare"
+      ],
+      "facets": {
+        "pose": "leaning-pose",
+        "treatment": "controlled-momentum"
+      },
+      "subcategory": "leaning-pose",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-pose-base-three-quarter-standing-pose-resting-movement",
+      "semantic_key": "performance-pose-base-three-quarter-standing-pose-resting-movement",
+      "text": "three-quarter standing pose with resting movement",
+      "sentence": "Three-quarter standing pose with resting movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "three-quarter standing pose with resting movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing three-quarter standing pose with resting movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with three-quarter standing pose with resting movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-pose-base-three-quarter-standing-pose",
+      "tags": [
+        "base",
+        "performance",
+        "pose",
+        "pose-standing",
+        "rarity-common"
+      ],
+      "facets": {
+        "pose": "three-quarter-standing-pose",
+        "treatment": "resting-movement"
+      },
+      "subcategory": "three-quarter-standing-pose",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-pose-base-three-quarter-standing-pose-measured-movement",
+      "semantic_key": "performance-pose-base-three-quarter-standing-pose-measured-movement",
+      "text": "three-quarter standing pose with measured movement",
+      "sentence": "Three-quarter standing pose with measured movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "three-quarter standing pose with measured movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing three-quarter standing pose with measured movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with three-quarter standing pose with measured movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-pose-base-three-quarter-standing-pose",
+      "tags": [
+        "base",
+        "performance",
+        "pose",
+        "pose-standing",
+        "rarity-common"
+      ],
+      "facets": {
+        "pose": "three-quarter-standing-pose",
+        "treatment": "measured-movement"
+      },
+      "subcategory": "three-quarter-standing-pose",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-pose-base-three-quarter-standing-pose-flowing-movement",
+      "semantic_key": "performance-pose-base-three-quarter-standing-pose-flowing-movement",
+      "text": "three-quarter standing pose with flowing movement",
+      "sentence": "Three-quarter standing pose with flowing movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "three-quarter standing pose with flowing movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing three-quarter standing pose with flowing movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with three-quarter standing pose with flowing movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-pose-base-three-quarter-standing-pose",
+      "tags": [
+        "base",
+        "performance",
+        "pose",
+        "pose-standing",
+        "rarity-common"
+      ],
+      "facets": {
+        "pose": "three-quarter-standing-pose",
+        "treatment": "flowing-movement"
+      },
+      "subcategory": "three-quarter-standing-pose",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-pose-base-three-quarter-standing-pose-decisive-movement",
+      "semantic_key": "performance-pose-base-three-quarter-standing-pose-decisive-movement",
+      "text": "three-quarter standing pose with decisive movement",
+      "sentence": "Three-quarter standing pose with decisive movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "three-quarter standing pose with decisive movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing three-quarter standing pose with decisive movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with three-quarter standing pose with decisive movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-pose-base-three-quarter-standing-pose",
+      "tags": [
+        "base",
+        "performance",
+        "pose",
+        "pose-standing",
+        "rarity-common"
+      ],
+      "facets": {
+        "pose": "three-quarter-standing-pose",
+        "treatment": "decisive-movement"
+      },
+      "subcategory": "three-quarter-standing-pose",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-pose-base-three-quarter-standing-pose-suspended-movement",
+      "semantic_key": "performance-pose-base-three-quarter-standing-pose-suspended-movement",
+      "text": "three-quarter standing pose with suspended movement",
+      "sentence": "Three-quarter standing pose with suspended movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "three-quarter standing pose with suspended movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing three-quarter standing pose with suspended movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with three-quarter standing pose with suspended movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-pose-base-three-quarter-standing-pose",
+      "tags": [
+        "base",
+        "performance",
+        "pose",
+        "pose-standing",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "pose": "three-quarter-standing-pose",
+        "treatment": "suspended-movement"
+      },
+      "subcategory": "three-quarter-standing-pose",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-pose-base-three-quarter-standing-pose-rhythmic-movement",
+      "semantic_key": "performance-pose-base-three-quarter-standing-pose-rhythmic-movement",
+      "text": "three-quarter standing pose with rhythmic movement",
+      "sentence": "Three-quarter standing pose with rhythmic movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "three-quarter standing pose with rhythmic movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing three-quarter standing pose with rhythmic movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with three-quarter standing pose with rhythmic movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-pose-base-three-quarter-standing-pose",
+      "tags": [
+        "base",
+        "performance",
+        "pose",
+        "pose-standing",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "pose": "three-quarter-standing-pose",
+        "treatment": "rhythmic-movement"
+      },
+      "subcategory": "three-quarter-standing-pose",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-pose-base-three-quarter-standing-pose-asymmetric-movement",
+      "semantic_key": "performance-pose-base-three-quarter-standing-pose-asymmetric-movement",
+      "text": "three-quarter standing pose with asymmetric movement",
+      "sentence": "Three-quarter standing pose with asymmetric movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "three-quarter standing pose with asymmetric movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing three-quarter standing pose with asymmetric movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with three-quarter standing pose with asymmetric movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-pose-base-three-quarter-standing-pose",
+      "tags": [
+        "base",
+        "performance",
+        "pose",
+        "pose-standing",
+        "rarity-rare"
+      ],
+      "facets": {
+        "pose": "three-quarter-standing-pose",
+        "treatment": "asymmetric-movement"
+      },
+      "subcategory": "three-quarter-standing-pose",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-pose-base-three-quarter-standing-pose-controlled-momentum",
+      "semantic_key": "performance-pose-base-three-quarter-standing-pose-controlled-momentum",
+      "text": "three-quarter standing pose with controlled momentum",
+      "sentence": "Three-quarter standing pose with controlled momentum.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "three-quarter standing pose with controlled momentum",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing three-quarter standing pose with controlled momentum",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with three-quarter standing pose with controlled momentum",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-pose-base-three-quarter-standing-pose",
+      "tags": [
+        "base",
+        "performance",
+        "pose",
+        "pose-standing",
+        "rarity-rare"
+      ],
+      "facets": {
+        "pose": "three-quarter-standing-pose",
+        "treatment": "controlled-momentum"
+      },
+      "subcategory": "three-quarter-standing-pose",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-pose-base-contrapposto-pose-resting-movement",
+      "semantic_key": "performance-pose-base-contrapposto-pose-resting-movement",
+      "text": "contrapposto pose with resting movement",
+      "sentence": "Contrapposto pose with resting movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "contrapposto pose with resting movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing contrapposto pose with resting movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with contrapposto pose with resting movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-pose-base-contrapposto-pose",
+      "tags": [
+        "base",
+        "performance",
+        "pose",
+        "pose-standing",
+        "rarity-common"
+      ],
+      "facets": {
+        "pose": "contrapposto-pose",
+        "treatment": "resting-movement"
+      },
+      "subcategory": "contrapposto-pose",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-pose-base-contrapposto-pose-measured-movement",
+      "semantic_key": "performance-pose-base-contrapposto-pose-measured-movement",
+      "text": "contrapposto pose with measured movement",
+      "sentence": "Contrapposto pose with measured movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "contrapposto pose with measured movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing contrapposto pose with measured movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with contrapposto pose with measured movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-pose-base-contrapposto-pose",
+      "tags": [
+        "base",
+        "performance",
+        "pose",
+        "pose-standing",
+        "rarity-common"
+      ],
+      "facets": {
+        "pose": "contrapposto-pose",
+        "treatment": "measured-movement"
+      },
+      "subcategory": "contrapposto-pose",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-pose-base-contrapposto-pose-flowing-movement",
+      "semantic_key": "performance-pose-base-contrapposto-pose-flowing-movement",
+      "text": "contrapposto pose with flowing movement",
+      "sentence": "Contrapposto pose with flowing movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "contrapposto pose with flowing movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing contrapposto pose with flowing movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with contrapposto pose with flowing movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-pose-base-contrapposto-pose",
+      "tags": [
+        "base",
+        "performance",
+        "pose",
+        "pose-standing",
+        "rarity-common"
+      ],
+      "facets": {
+        "pose": "contrapposto-pose",
+        "treatment": "flowing-movement"
+      },
+      "subcategory": "contrapposto-pose",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-pose-base-contrapposto-pose-decisive-movement",
+      "semantic_key": "performance-pose-base-contrapposto-pose-decisive-movement",
+      "text": "contrapposto pose with decisive movement",
+      "sentence": "Contrapposto pose with decisive movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "contrapposto pose with decisive movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing contrapposto pose with decisive movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with contrapposto pose with decisive movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-pose-base-contrapposto-pose",
+      "tags": [
+        "base",
+        "performance",
+        "pose",
+        "pose-standing",
+        "rarity-common"
+      ],
+      "facets": {
+        "pose": "contrapposto-pose",
+        "treatment": "decisive-movement"
+      },
+      "subcategory": "contrapposto-pose",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-pose-base-contrapposto-pose-suspended-movement",
+      "semantic_key": "performance-pose-base-contrapposto-pose-suspended-movement",
+      "text": "contrapposto pose with suspended movement",
+      "sentence": "Contrapposto pose with suspended movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "contrapposto pose with suspended movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing contrapposto pose with suspended movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with contrapposto pose with suspended movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-pose-base-contrapposto-pose",
+      "tags": [
+        "base",
+        "performance",
+        "pose",
+        "pose-standing",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "pose": "contrapposto-pose",
+        "treatment": "suspended-movement"
+      },
+      "subcategory": "contrapposto-pose",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-pose-base-contrapposto-pose-rhythmic-movement",
+      "semantic_key": "performance-pose-base-contrapposto-pose-rhythmic-movement",
+      "text": "contrapposto pose with rhythmic movement",
+      "sentence": "Contrapposto pose with rhythmic movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "contrapposto pose with rhythmic movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing contrapposto pose with rhythmic movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with contrapposto pose with rhythmic movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-pose-base-contrapposto-pose",
+      "tags": [
+        "base",
+        "performance",
+        "pose",
+        "pose-standing",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "pose": "contrapposto-pose",
+        "treatment": "rhythmic-movement"
+      },
+      "subcategory": "contrapposto-pose",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-pose-base-contrapposto-pose-asymmetric-movement",
+      "semantic_key": "performance-pose-base-contrapposto-pose-asymmetric-movement",
+      "text": "contrapposto pose with asymmetric movement",
+      "sentence": "Contrapposto pose with asymmetric movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "contrapposto pose with asymmetric movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing contrapposto pose with asymmetric movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with contrapposto pose with asymmetric movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-pose-base-contrapposto-pose",
+      "tags": [
+        "base",
+        "performance",
+        "pose",
+        "pose-standing",
+        "rarity-rare"
+      ],
+      "facets": {
+        "pose": "contrapposto-pose",
+        "treatment": "asymmetric-movement"
+      },
+      "subcategory": "contrapposto-pose",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-pose-base-contrapposto-pose-controlled-momentum",
+      "semantic_key": "performance-pose-base-contrapposto-pose-controlled-momentum",
+      "text": "contrapposto pose with controlled momentum",
+      "sentence": "Contrapposto pose with controlled momentum.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "contrapposto pose with controlled momentum",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing contrapposto pose with controlled momentum",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with contrapposto pose with controlled momentum",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-pose-base-contrapposto-pose",
+      "tags": [
+        "base",
+        "performance",
+        "pose",
+        "pose-standing",
+        "rarity-rare"
+      ],
+      "facets": {
+        "pose": "contrapposto-pose",
+        "treatment": "controlled-momentum"
+      },
+      "subcategory": "contrapposto-pose",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-pose-base-kneeling-pose-resting-movement",
+      "semantic_key": "performance-pose-base-kneeling-pose-resting-movement",
+      "text": "kneeling pose with resting movement",
+      "sentence": "Kneeling pose with resting movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "kneeling pose with resting movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing kneeling pose with resting movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with kneeling pose with resting movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-pose-base-kneeling-pose",
+      "tags": [
+        "base",
+        "performance",
+        "pose",
+        "pose-low",
+        "rarity-common"
+      ],
+      "facets": {
+        "pose": "kneeling-pose",
+        "treatment": "resting-movement"
+      },
+      "subcategory": "kneeling-pose",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-pose-base-kneeling-pose-measured-movement",
+      "semantic_key": "performance-pose-base-kneeling-pose-measured-movement",
+      "text": "kneeling pose with measured movement",
+      "sentence": "Kneeling pose with measured movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "kneeling pose with measured movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing kneeling pose with measured movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with kneeling pose with measured movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-pose-base-kneeling-pose",
+      "tags": [
+        "base",
+        "performance",
+        "pose",
+        "pose-low",
+        "rarity-common"
+      ],
+      "facets": {
+        "pose": "kneeling-pose",
+        "treatment": "measured-movement"
+      },
+      "subcategory": "kneeling-pose",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-pose-base-kneeling-pose-flowing-movement",
+      "semantic_key": "performance-pose-base-kneeling-pose-flowing-movement",
+      "text": "kneeling pose with flowing movement",
+      "sentence": "Kneeling pose with flowing movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "kneeling pose with flowing movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing kneeling pose with flowing movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with kneeling pose with flowing movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-pose-base-kneeling-pose",
+      "tags": [
+        "base",
+        "performance",
+        "pose",
+        "pose-low",
+        "rarity-common"
+      ],
+      "facets": {
+        "pose": "kneeling-pose",
+        "treatment": "flowing-movement"
+      },
+      "subcategory": "kneeling-pose",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-pose-base-kneeling-pose-decisive-movement",
+      "semantic_key": "performance-pose-base-kneeling-pose-decisive-movement",
+      "text": "kneeling pose with decisive movement",
+      "sentence": "Kneeling pose with decisive movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "kneeling pose with decisive movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing kneeling pose with decisive movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with kneeling pose with decisive movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-pose-base-kneeling-pose",
+      "tags": [
+        "base",
+        "performance",
+        "pose",
+        "pose-low",
+        "rarity-common"
+      ],
+      "facets": {
+        "pose": "kneeling-pose",
+        "treatment": "decisive-movement"
+      },
+      "subcategory": "kneeling-pose",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-pose-base-kneeling-pose-suspended-movement",
+      "semantic_key": "performance-pose-base-kneeling-pose-suspended-movement",
+      "text": "kneeling pose with suspended movement",
+      "sentence": "Kneeling pose with suspended movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "kneeling pose with suspended movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing kneeling pose with suspended movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with kneeling pose with suspended movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-pose-base-kneeling-pose",
+      "tags": [
+        "base",
+        "performance",
+        "pose",
+        "pose-low",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "pose": "kneeling-pose",
+        "treatment": "suspended-movement"
+      },
+      "subcategory": "kneeling-pose",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-pose-base-kneeling-pose-rhythmic-movement",
+      "semantic_key": "performance-pose-base-kneeling-pose-rhythmic-movement",
+      "text": "kneeling pose with rhythmic movement",
+      "sentence": "Kneeling pose with rhythmic movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "kneeling pose with rhythmic movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing kneeling pose with rhythmic movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with kneeling pose with rhythmic movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-pose-base-kneeling-pose",
+      "tags": [
+        "base",
+        "performance",
+        "pose",
+        "pose-low",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "pose": "kneeling-pose",
+        "treatment": "rhythmic-movement"
+      },
+      "subcategory": "kneeling-pose",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-pose-base-kneeling-pose-asymmetric-movement",
+      "semantic_key": "performance-pose-base-kneeling-pose-asymmetric-movement",
+      "text": "kneeling pose with asymmetric movement",
+      "sentence": "Kneeling pose with asymmetric movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "kneeling pose with asymmetric movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing kneeling pose with asymmetric movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with kneeling pose with asymmetric movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-pose-base-kneeling-pose",
+      "tags": [
+        "base",
+        "performance",
+        "pose",
+        "pose-low",
+        "rarity-rare"
+      ],
+      "facets": {
+        "pose": "kneeling-pose",
+        "treatment": "asymmetric-movement"
+      },
+      "subcategory": "kneeling-pose",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-pose-base-kneeling-pose-controlled-momentum",
+      "semantic_key": "performance-pose-base-kneeling-pose-controlled-momentum",
+      "text": "kneeling pose with controlled momentum",
+      "sentence": "Kneeling pose with controlled momentum.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "kneeling pose with controlled momentum",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing kneeling pose with controlled momentum",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with kneeling pose with controlled momentum",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-pose-base-kneeling-pose",
+      "tags": [
+        "base",
+        "performance",
+        "pose",
+        "pose-low",
+        "rarity-rare"
+      ],
+      "facets": {
+        "pose": "kneeling-pose",
+        "treatment": "controlled-momentum"
+      },
+      "subcategory": "kneeling-pose",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-pose-base-crouched-pose-resting-movement",
+      "semantic_key": "performance-pose-base-crouched-pose-resting-movement",
+      "text": "crouched pose with resting movement",
+      "sentence": "Crouched pose with resting movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "crouched pose with resting movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing crouched pose with resting movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with crouched pose with resting movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-pose-base-crouched-pose",
+      "tags": [
+        "base",
+        "performance",
+        "pose",
+        "pose-low",
+        "rarity-common"
+      ],
+      "facets": {
+        "pose": "crouched-pose",
+        "treatment": "resting-movement"
+      },
+      "subcategory": "crouched-pose",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-pose-base-crouched-pose-measured-movement",
+      "semantic_key": "performance-pose-base-crouched-pose-measured-movement",
+      "text": "crouched pose with measured movement",
+      "sentence": "Crouched pose with measured movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "crouched pose with measured movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing crouched pose with measured movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with crouched pose with measured movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-pose-base-crouched-pose",
+      "tags": [
+        "base",
+        "performance",
+        "pose",
+        "pose-low",
+        "rarity-common"
+      ],
+      "facets": {
+        "pose": "crouched-pose",
+        "treatment": "measured-movement"
+      },
+      "subcategory": "crouched-pose",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-pose-base-crouched-pose-flowing-movement",
+      "semantic_key": "performance-pose-base-crouched-pose-flowing-movement",
+      "text": "crouched pose with flowing movement",
+      "sentence": "Crouched pose with flowing movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "crouched pose with flowing movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing crouched pose with flowing movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with crouched pose with flowing movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-pose-base-crouched-pose",
+      "tags": [
+        "base",
+        "performance",
+        "pose",
+        "pose-low",
+        "rarity-common"
+      ],
+      "facets": {
+        "pose": "crouched-pose",
+        "treatment": "flowing-movement"
+      },
+      "subcategory": "crouched-pose",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-pose-base-crouched-pose-decisive-movement",
+      "semantic_key": "performance-pose-base-crouched-pose-decisive-movement",
+      "text": "crouched pose with decisive movement",
+      "sentence": "Crouched pose with decisive movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "crouched pose with decisive movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing crouched pose with decisive movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with crouched pose with decisive movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-pose-base-crouched-pose",
+      "tags": [
+        "base",
+        "performance",
+        "pose",
+        "pose-low",
+        "rarity-common"
+      ],
+      "facets": {
+        "pose": "crouched-pose",
+        "treatment": "decisive-movement"
+      },
+      "subcategory": "crouched-pose",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-pose-base-crouched-pose-suspended-movement",
+      "semantic_key": "performance-pose-base-crouched-pose-suspended-movement",
+      "text": "crouched pose with suspended movement",
+      "sentence": "Crouched pose with suspended movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "crouched pose with suspended movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing crouched pose with suspended movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with crouched pose with suspended movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-pose-base-crouched-pose",
+      "tags": [
+        "base",
+        "performance",
+        "pose",
+        "pose-low",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "pose": "crouched-pose",
+        "treatment": "suspended-movement"
+      },
+      "subcategory": "crouched-pose",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-pose-base-crouched-pose-rhythmic-movement",
+      "semantic_key": "performance-pose-base-crouched-pose-rhythmic-movement",
+      "text": "crouched pose with rhythmic movement",
+      "sentence": "Crouched pose with rhythmic movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "crouched pose with rhythmic movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing crouched pose with rhythmic movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with crouched pose with rhythmic movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-pose-base-crouched-pose",
+      "tags": [
+        "base",
+        "performance",
+        "pose",
+        "pose-low",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "pose": "crouched-pose",
+        "treatment": "rhythmic-movement"
+      },
+      "subcategory": "crouched-pose",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-pose-base-crouched-pose-asymmetric-movement",
+      "semantic_key": "performance-pose-base-crouched-pose-asymmetric-movement",
+      "text": "crouched pose with asymmetric movement",
+      "sentence": "Crouched pose with asymmetric movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "crouched pose with asymmetric movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing crouched pose with asymmetric movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with crouched pose with asymmetric movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-pose-base-crouched-pose",
+      "tags": [
+        "base",
+        "performance",
+        "pose",
+        "pose-low",
+        "rarity-rare"
+      ],
+      "facets": {
+        "pose": "crouched-pose",
+        "treatment": "asymmetric-movement"
+      },
+      "subcategory": "crouched-pose",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-pose-base-crouched-pose-controlled-momentum",
+      "semantic_key": "performance-pose-base-crouched-pose-controlled-momentum",
+      "text": "crouched pose with controlled momentum",
+      "sentence": "Crouched pose with controlled momentum.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "crouched pose with controlled momentum",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing crouched pose with controlled momentum",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with crouched pose with controlled momentum",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-pose-base-crouched-pose",
+      "tags": [
+        "base",
+        "performance",
+        "pose",
+        "pose-low",
+        "rarity-rare"
+      ],
+      "facets": {
+        "pose": "crouched-pose",
+        "treatment": "controlled-momentum"
+      },
+      "subcategory": "crouched-pose",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    }
+  ]
+}

@@ -1,0 +1,2577 @@
+{
+  "schema_version": "2.0",
+  "id": "identity-skin-texture-base",
+  "version": "2.0.0",
+  "library": "skin-texture",
+  "domain": "identity",
+  "category": "skin-texture",
+  "language": "en",
+  "status": "active",
+  "safety": "general",
+  "tags": [
+    "base"
+  ],
+  "fallback_option_id": "identity-skin-texture-base-smooth-matte-finish",
+  "options": [
+    {
+      "id": "identity-skin-texture-base-smooth-matte-finish",
+      "semantic_key": "identity-skin-texture-base-smooth-matte-finish",
+      "text": "smooth skin texture with a matte finish",
+      "sentence": "Smooth skin texture with a matte finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "smooth skin texture with a matte finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing smooth skin texture with a matte finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with smooth skin texture with a matte finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-texture-base-smooth",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-texture"
+      ],
+      "facets": {
+        "texture": "smooth",
+        "treatment": "matte-finish"
+      },
+      "subcategory": "smooth",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-texture-base-smooth-soft-sheen",
+      "semantic_key": "identity-skin-texture-base-smooth-soft-sheen",
+      "text": "smooth skin texture with a soft sheen",
+      "sentence": "Smooth skin texture with a soft sheen.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "smooth skin texture with a soft sheen",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing smooth skin texture with a soft sheen",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with smooth skin texture with a soft sheen",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-texture-base-smooth",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-texture"
+      ],
+      "facets": {
+        "texture": "smooth",
+        "treatment": "soft-sheen"
+      },
+      "subcategory": "smooth",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-texture-base-smooth-natural-luster",
+      "semantic_key": "identity-skin-texture-base-smooth-natural-luster",
+      "text": "smooth skin texture with a natural luster",
+      "sentence": "Smooth skin texture with a natural luster.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "smooth skin texture with a natural luster",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing smooth skin texture with a natural luster",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with smooth skin texture with a natural luster",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-texture-base-smooth",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-texture"
+      ],
+      "facets": {
+        "texture": "smooth",
+        "treatment": "natural-luster"
+      },
+      "subcategory": "smooth",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-texture-base-smooth-textured-finish",
+      "semantic_key": "identity-skin-texture-base-smooth-textured-finish",
+      "text": "smooth skin texture with a textured finish",
+      "sentence": "Smooth skin texture with a textured finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "smooth skin texture with a textured finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing smooth skin texture with a textured finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with smooth skin texture with a textured finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-texture-base-smooth",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-texture"
+      ],
+      "facets": {
+        "texture": "smooth",
+        "treatment": "textured-finish"
+      },
+      "subcategory": "smooth",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-texture-base-smooth-brushed-finish",
+      "semantic_key": "identity-skin-texture-base-smooth-brushed-finish",
+      "text": "smooth skin texture with a brushed finish",
+      "sentence": "Smooth skin texture with a brushed finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "smooth skin texture with a brushed finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing smooth skin texture with a brushed finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with smooth skin texture with a brushed finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-skin-texture-base-smooth",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-uncommon",
+        "skin-texture"
+      ],
+      "facets": {
+        "texture": "smooth",
+        "treatment": "brushed-finish"
+      },
+      "subcategory": "smooth",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-texture-base-smooth-polished-finish",
+      "semantic_key": "identity-skin-texture-base-smooth-polished-finish",
+      "text": "smooth skin texture with a polished finish",
+      "sentence": "Smooth skin texture with a polished finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "smooth skin texture with a polished finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing smooth skin texture with a polished finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with smooth skin texture with a polished finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-skin-texture-base-smooth",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-uncommon",
+        "skin-texture"
+      ],
+      "facets": {
+        "texture": "smooth",
+        "treatment": "polished-finish"
+      },
+      "subcategory": "smooth",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-texture-base-smooth-weathered-finish",
+      "semantic_key": "identity-skin-texture-base-smooth-weathered-finish",
+      "text": "smooth skin texture with a weathered finish",
+      "sentence": "Smooth skin texture with a weathered finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "smooth skin texture with a weathered finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing smooth skin texture with a weathered finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with smooth skin texture with a weathered finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-skin-texture-base-smooth",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-rare",
+        "skin-texture"
+      ],
+      "facets": {
+        "texture": "smooth",
+        "treatment": "weathered-finish"
+      },
+      "subcategory": "smooth",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-texture-base-smooth-satin-finish",
+      "semantic_key": "identity-skin-texture-base-smooth-satin-finish",
+      "text": "smooth skin texture with a satin finish",
+      "sentence": "Smooth skin texture with a satin finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "smooth skin texture with a satin finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing smooth skin texture with a satin finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with smooth skin texture with a satin finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-skin-texture-base-smooth",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-rare",
+        "skin-texture"
+      ],
+      "facets": {
+        "texture": "smooth",
+        "treatment": "satin-finish"
+      },
+      "subcategory": "smooth",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-texture-base-fine-pored-matte-finish",
+      "semantic_key": "identity-skin-texture-base-fine-pored-matte-finish",
+      "text": "fine-pored skin texture with a matte finish",
+      "sentence": "Fine-pored skin texture with a matte finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "fine-pored skin texture with a matte finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing fine-pored skin texture with a matte finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with fine-pored skin texture with a matte finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-texture-base-fine-pored",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-texture"
+      ],
+      "facets": {
+        "texture": "fine-pored",
+        "treatment": "matte-finish"
+      },
+      "subcategory": "fine-pored",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-texture-base-fine-pored-soft-sheen",
+      "semantic_key": "identity-skin-texture-base-fine-pored-soft-sheen",
+      "text": "fine-pored skin texture with a soft sheen",
+      "sentence": "Fine-pored skin texture with a soft sheen.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "fine-pored skin texture with a soft sheen",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing fine-pored skin texture with a soft sheen",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with fine-pored skin texture with a soft sheen",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-texture-base-fine-pored",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-texture"
+      ],
+      "facets": {
+        "texture": "fine-pored",
+        "treatment": "soft-sheen"
+      },
+      "subcategory": "fine-pored",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-texture-base-fine-pored-natural-luster",
+      "semantic_key": "identity-skin-texture-base-fine-pored-natural-luster",
+      "text": "fine-pored skin texture with a natural luster",
+      "sentence": "Fine-pored skin texture with a natural luster.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "fine-pored skin texture with a natural luster",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing fine-pored skin texture with a natural luster",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with fine-pored skin texture with a natural luster",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-texture-base-fine-pored",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-texture"
+      ],
+      "facets": {
+        "texture": "fine-pored",
+        "treatment": "natural-luster"
+      },
+      "subcategory": "fine-pored",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-texture-base-fine-pored-textured-finish",
+      "semantic_key": "identity-skin-texture-base-fine-pored-textured-finish",
+      "text": "fine-pored skin texture with a textured finish",
+      "sentence": "Fine-pored skin texture with a textured finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "fine-pored skin texture with a textured finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing fine-pored skin texture with a textured finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with fine-pored skin texture with a textured finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-texture-base-fine-pored",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-texture"
+      ],
+      "facets": {
+        "texture": "fine-pored",
+        "treatment": "textured-finish"
+      },
+      "subcategory": "fine-pored",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-texture-base-fine-pored-brushed-finish",
+      "semantic_key": "identity-skin-texture-base-fine-pored-brushed-finish",
+      "text": "fine-pored skin texture with a brushed finish",
+      "sentence": "Fine-pored skin texture with a brushed finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "fine-pored skin texture with a brushed finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing fine-pored skin texture with a brushed finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with fine-pored skin texture with a brushed finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-skin-texture-base-fine-pored",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-uncommon",
+        "skin-texture"
+      ],
+      "facets": {
+        "texture": "fine-pored",
+        "treatment": "brushed-finish"
+      },
+      "subcategory": "fine-pored",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-texture-base-fine-pored-polished-finish",
+      "semantic_key": "identity-skin-texture-base-fine-pored-polished-finish",
+      "text": "fine-pored skin texture with a polished finish",
+      "sentence": "Fine-pored skin texture with a polished finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "fine-pored skin texture with a polished finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing fine-pored skin texture with a polished finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with fine-pored skin texture with a polished finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-skin-texture-base-fine-pored",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-uncommon",
+        "skin-texture"
+      ],
+      "facets": {
+        "texture": "fine-pored",
+        "treatment": "polished-finish"
+      },
+      "subcategory": "fine-pored",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-texture-base-fine-pored-weathered-finish",
+      "semantic_key": "identity-skin-texture-base-fine-pored-weathered-finish",
+      "text": "fine-pored skin texture with a weathered finish",
+      "sentence": "Fine-pored skin texture with a weathered finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "fine-pored skin texture with a weathered finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing fine-pored skin texture with a weathered finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with fine-pored skin texture with a weathered finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-skin-texture-base-fine-pored",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-rare",
+        "skin-texture"
+      ],
+      "facets": {
+        "texture": "fine-pored",
+        "treatment": "weathered-finish"
+      },
+      "subcategory": "fine-pored",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-texture-base-fine-pored-satin-finish",
+      "semantic_key": "identity-skin-texture-base-fine-pored-satin-finish",
+      "text": "fine-pored skin texture with a satin finish",
+      "sentence": "Fine-pored skin texture with a satin finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "fine-pored skin texture with a satin finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing fine-pored skin texture with a satin finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with fine-pored skin texture with a satin finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-skin-texture-base-fine-pored",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-rare",
+        "skin-texture"
+      ],
+      "facets": {
+        "texture": "fine-pored",
+        "treatment": "satin-finish"
+      },
+      "subcategory": "fine-pored",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-texture-base-visible-pored-matte-finish",
+      "semantic_key": "identity-skin-texture-base-visible-pored-matte-finish",
+      "text": "visible-pored skin texture with a matte finish",
+      "sentence": "Visible-pored skin texture with a matte finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "visible-pored skin texture with a matte finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing visible-pored skin texture with a matte finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with visible-pored skin texture with a matte finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-texture-base-visible-pored",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-texture"
+      ],
+      "facets": {
+        "texture": "visible-pored",
+        "treatment": "matte-finish"
+      },
+      "subcategory": "visible-pored",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-texture-base-visible-pored-soft-sheen",
+      "semantic_key": "identity-skin-texture-base-visible-pored-soft-sheen",
+      "text": "visible-pored skin texture with a soft sheen",
+      "sentence": "Visible-pored skin texture with a soft sheen.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "visible-pored skin texture with a soft sheen",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing visible-pored skin texture with a soft sheen",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with visible-pored skin texture with a soft sheen",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-texture-base-visible-pored",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-texture"
+      ],
+      "facets": {
+        "texture": "visible-pored",
+        "treatment": "soft-sheen"
+      },
+      "subcategory": "visible-pored",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-texture-base-visible-pored-natural-luster",
+      "semantic_key": "identity-skin-texture-base-visible-pored-natural-luster",
+      "text": "visible-pored skin texture with a natural luster",
+      "sentence": "Visible-pored skin texture with a natural luster.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "visible-pored skin texture with a natural luster",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing visible-pored skin texture with a natural luster",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with visible-pored skin texture with a natural luster",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-texture-base-visible-pored",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-texture"
+      ],
+      "facets": {
+        "texture": "visible-pored",
+        "treatment": "natural-luster"
+      },
+      "subcategory": "visible-pored",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-texture-base-visible-pored-textured-finish",
+      "semantic_key": "identity-skin-texture-base-visible-pored-textured-finish",
+      "text": "visible-pored skin texture with a textured finish",
+      "sentence": "Visible-pored skin texture with a textured finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "visible-pored skin texture with a textured finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing visible-pored skin texture with a textured finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with visible-pored skin texture with a textured finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-texture-base-visible-pored",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-texture"
+      ],
+      "facets": {
+        "texture": "visible-pored",
+        "treatment": "textured-finish"
+      },
+      "subcategory": "visible-pored",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-texture-base-visible-pored-brushed-finish",
+      "semantic_key": "identity-skin-texture-base-visible-pored-brushed-finish",
+      "text": "visible-pored skin texture with a brushed finish",
+      "sentence": "Visible-pored skin texture with a brushed finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "visible-pored skin texture with a brushed finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing visible-pored skin texture with a brushed finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with visible-pored skin texture with a brushed finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-skin-texture-base-visible-pored",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-uncommon",
+        "skin-texture"
+      ],
+      "facets": {
+        "texture": "visible-pored",
+        "treatment": "brushed-finish"
+      },
+      "subcategory": "visible-pored",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-texture-base-visible-pored-polished-finish",
+      "semantic_key": "identity-skin-texture-base-visible-pored-polished-finish",
+      "text": "visible-pored skin texture with a polished finish",
+      "sentence": "Visible-pored skin texture with a polished finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "visible-pored skin texture with a polished finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing visible-pored skin texture with a polished finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with visible-pored skin texture with a polished finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-skin-texture-base-visible-pored",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-uncommon",
+        "skin-texture"
+      ],
+      "facets": {
+        "texture": "visible-pored",
+        "treatment": "polished-finish"
+      },
+      "subcategory": "visible-pored",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-texture-base-visible-pored-weathered-finish",
+      "semantic_key": "identity-skin-texture-base-visible-pored-weathered-finish",
+      "text": "visible-pored skin texture with a weathered finish",
+      "sentence": "Visible-pored skin texture with a weathered finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "visible-pored skin texture with a weathered finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing visible-pored skin texture with a weathered finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with visible-pored skin texture with a weathered finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-skin-texture-base-visible-pored",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-rare",
+        "skin-texture"
+      ],
+      "facets": {
+        "texture": "visible-pored",
+        "treatment": "weathered-finish"
+      },
+      "subcategory": "visible-pored",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-texture-base-visible-pored-satin-finish",
+      "semantic_key": "identity-skin-texture-base-visible-pored-satin-finish",
+      "text": "visible-pored skin texture with a satin finish",
+      "sentence": "Visible-pored skin texture with a satin finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "visible-pored skin texture with a satin finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing visible-pored skin texture with a satin finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with visible-pored skin texture with a satin finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-skin-texture-base-visible-pored",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-rare",
+        "skin-texture"
+      ],
+      "facets": {
+        "texture": "visible-pored",
+        "treatment": "satin-finish"
+      },
+      "subcategory": "visible-pored",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-texture-base-softly-textured-matte-finish",
+      "semantic_key": "identity-skin-texture-base-softly-textured-matte-finish",
+      "text": "softly textured skin texture with a matte finish",
+      "sentence": "Softly textured skin texture with a matte finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "softly textured skin texture with a matte finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing softly textured skin texture with a matte finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with softly textured skin texture with a matte finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-texture-base-softly-textured",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-texture"
+      ],
+      "facets": {
+        "texture": "softly-textured",
+        "treatment": "matte-finish"
+      },
+      "subcategory": "softly-textured",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-texture-base-softly-textured-soft-sheen",
+      "semantic_key": "identity-skin-texture-base-softly-textured-soft-sheen",
+      "text": "softly textured skin texture with a soft sheen",
+      "sentence": "Softly textured skin texture with a soft sheen.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "softly textured skin texture with a soft sheen",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing softly textured skin texture with a soft sheen",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with softly textured skin texture with a soft sheen",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-texture-base-softly-textured",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-texture"
+      ],
+      "facets": {
+        "texture": "softly-textured",
+        "treatment": "soft-sheen"
+      },
+      "subcategory": "softly-textured",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-texture-base-softly-textured-natural-luster",
+      "semantic_key": "identity-skin-texture-base-softly-textured-natural-luster",
+      "text": "softly textured skin texture with a natural luster",
+      "sentence": "Softly textured skin texture with a natural luster.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "softly textured skin texture with a natural luster",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing softly textured skin texture with a natural luster",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with softly textured skin texture with a natural luster",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-texture-base-softly-textured",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-texture"
+      ],
+      "facets": {
+        "texture": "softly-textured",
+        "treatment": "natural-luster"
+      },
+      "subcategory": "softly-textured",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-texture-base-softly-textured-textured-finish",
+      "semantic_key": "identity-skin-texture-base-softly-textured-textured-finish",
+      "text": "softly textured skin texture with a textured finish",
+      "sentence": "Softly textured skin texture with a textured finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "softly textured skin texture with a textured finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing softly textured skin texture with a textured finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with softly textured skin texture with a textured finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-texture-base-softly-textured",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-texture"
+      ],
+      "facets": {
+        "texture": "softly-textured",
+        "treatment": "textured-finish"
+      },
+      "subcategory": "softly-textured",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-texture-base-softly-textured-brushed-finish",
+      "semantic_key": "identity-skin-texture-base-softly-textured-brushed-finish",
+      "text": "softly textured skin texture with a brushed finish",
+      "sentence": "Softly textured skin texture with a brushed finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "softly textured skin texture with a brushed finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing softly textured skin texture with a brushed finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with softly textured skin texture with a brushed finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-skin-texture-base-softly-textured",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-uncommon",
+        "skin-texture"
+      ],
+      "facets": {
+        "texture": "softly-textured",
+        "treatment": "brushed-finish"
+      },
+      "subcategory": "softly-textured",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-texture-base-softly-textured-polished-finish",
+      "semantic_key": "identity-skin-texture-base-softly-textured-polished-finish",
+      "text": "softly textured skin texture with a polished finish",
+      "sentence": "Softly textured skin texture with a polished finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "softly textured skin texture with a polished finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing softly textured skin texture with a polished finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with softly textured skin texture with a polished finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-skin-texture-base-softly-textured",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-uncommon",
+        "skin-texture"
+      ],
+      "facets": {
+        "texture": "softly-textured",
+        "treatment": "polished-finish"
+      },
+      "subcategory": "softly-textured",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-texture-base-softly-textured-weathered-finish",
+      "semantic_key": "identity-skin-texture-base-softly-textured-weathered-finish",
+      "text": "softly textured skin texture with a weathered finish",
+      "sentence": "Softly textured skin texture with a weathered finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "softly textured skin texture with a weathered finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing softly textured skin texture with a weathered finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with softly textured skin texture with a weathered finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-skin-texture-base-softly-textured",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-rare",
+        "skin-texture"
+      ],
+      "facets": {
+        "texture": "softly-textured",
+        "treatment": "weathered-finish"
+      },
+      "subcategory": "softly-textured",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-texture-base-softly-textured-satin-finish",
+      "semantic_key": "identity-skin-texture-base-softly-textured-satin-finish",
+      "text": "softly textured skin texture with a satin finish",
+      "sentence": "Softly textured skin texture with a satin finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "softly textured skin texture with a satin finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing softly textured skin texture with a satin finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with softly textured skin texture with a satin finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-skin-texture-base-softly-textured",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-rare",
+        "skin-texture"
+      ],
+      "facets": {
+        "texture": "softly-textured",
+        "treatment": "satin-finish"
+      },
+      "subcategory": "softly-textured",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-texture-base-naturally-varied-matte-finish",
+      "semantic_key": "identity-skin-texture-base-naturally-varied-matte-finish",
+      "text": "naturally varied skin texture with a matte finish",
+      "sentence": "Naturally varied skin texture with a matte finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "naturally varied skin texture with a matte finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing naturally varied skin texture with a matte finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with naturally varied skin texture with a matte finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-texture-base-naturally-varied",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-texture"
+      ],
+      "facets": {
+        "texture": "naturally-varied",
+        "treatment": "matte-finish"
+      },
+      "subcategory": "naturally-varied",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-texture-base-naturally-varied-soft-sheen",
+      "semantic_key": "identity-skin-texture-base-naturally-varied-soft-sheen",
+      "text": "naturally varied skin texture with a soft sheen",
+      "sentence": "Naturally varied skin texture with a soft sheen.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "naturally varied skin texture with a soft sheen",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing naturally varied skin texture with a soft sheen",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with naturally varied skin texture with a soft sheen",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-texture-base-naturally-varied",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-texture"
+      ],
+      "facets": {
+        "texture": "naturally-varied",
+        "treatment": "soft-sheen"
+      },
+      "subcategory": "naturally-varied",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-texture-base-naturally-varied-natural-luster",
+      "semantic_key": "identity-skin-texture-base-naturally-varied-natural-luster",
+      "text": "naturally varied skin texture with a natural luster",
+      "sentence": "Naturally varied skin texture with a natural luster.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "naturally varied skin texture with a natural luster",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing naturally varied skin texture with a natural luster",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with naturally varied skin texture with a natural luster",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-texture-base-naturally-varied",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-texture"
+      ],
+      "facets": {
+        "texture": "naturally-varied",
+        "treatment": "natural-luster"
+      },
+      "subcategory": "naturally-varied",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-texture-base-naturally-varied-textured-finish",
+      "semantic_key": "identity-skin-texture-base-naturally-varied-textured-finish",
+      "text": "naturally varied skin texture with a textured finish",
+      "sentence": "Naturally varied skin texture with a textured finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "naturally varied skin texture with a textured finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing naturally varied skin texture with a textured finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with naturally varied skin texture with a textured finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-texture-base-naturally-varied",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-texture"
+      ],
+      "facets": {
+        "texture": "naturally-varied",
+        "treatment": "textured-finish"
+      },
+      "subcategory": "naturally-varied",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-texture-base-naturally-varied-brushed-finish",
+      "semantic_key": "identity-skin-texture-base-naturally-varied-brushed-finish",
+      "text": "naturally varied skin texture with a brushed finish",
+      "sentence": "Naturally varied skin texture with a brushed finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "naturally varied skin texture with a brushed finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing naturally varied skin texture with a brushed finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with naturally varied skin texture with a brushed finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-skin-texture-base-naturally-varied",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-uncommon",
+        "skin-texture"
+      ],
+      "facets": {
+        "texture": "naturally-varied",
+        "treatment": "brushed-finish"
+      },
+      "subcategory": "naturally-varied",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-texture-base-naturally-varied-polished-finish",
+      "semantic_key": "identity-skin-texture-base-naturally-varied-polished-finish",
+      "text": "naturally varied skin texture with a polished finish",
+      "sentence": "Naturally varied skin texture with a polished finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "naturally varied skin texture with a polished finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing naturally varied skin texture with a polished finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with naturally varied skin texture with a polished finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-skin-texture-base-naturally-varied",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-uncommon",
+        "skin-texture"
+      ],
+      "facets": {
+        "texture": "naturally-varied",
+        "treatment": "polished-finish"
+      },
+      "subcategory": "naturally-varied",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-texture-base-naturally-varied-weathered-finish",
+      "semantic_key": "identity-skin-texture-base-naturally-varied-weathered-finish",
+      "text": "naturally varied skin texture with a weathered finish",
+      "sentence": "Naturally varied skin texture with a weathered finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "naturally varied skin texture with a weathered finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing naturally varied skin texture with a weathered finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with naturally varied skin texture with a weathered finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-skin-texture-base-naturally-varied",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-rare",
+        "skin-texture"
+      ],
+      "facets": {
+        "texture": "naturally-varied",
+        "treatment": "weathered-finish"
+      },
+      "subcategory": "naturally-varied",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-texture-base-naturally-varied-satin-finish",
+      "semantic_key": "identity-skin-texture-base-naturally-varied-satin-finish",
+      "text": "naturally varied skin texture with a satin finish",
+      "sentence": "Naturally varied skin texture with a satin finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "naturally varied skin texture with a satin finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing naturally varied skin texture with a satin finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with naturally varied skin texture with a satin finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-skin-texture-base-naturally-varied",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-rare",
+        "skin-texture"
+      ],
+      "facets": {
+        "texture": "naturally-varied",
+        "treatment": "satin-finish"
+      },
+      "subcategory": "naturally-varied",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-texture-base-dewy-matte-finish",
+      "semantic_key": "identity-skin-texture-base-dewy-matte-finish",
+      "text": "dewy skin texture with a matte finish",
+      "sentence": "Dewy skin texture with a matte finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "dewy skin texture with a matte finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing dewy skin texture with a matte finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with dewy skin texture with a matte finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-texture-base-dewy",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-texture"
+      ],
+      "facets": {
+        "texture": "dewy",
+        "treatment": "matte-finish"
+      },
+      "subcategory": "dewy",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-texture-base-dewy-soft-sheen",
+      "semantic_key": "identity-skin-texture-base-dewy-soft-sheen",
+      "text": "dewy skin texture with a soft sheen",
+      "sentence": "Dewy skin texture with a soft sheen.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "dewy skin texture with a soft sheen",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing dewy skin texture with a soft sheen",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with dewy skin texture with a soft sheen",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-texture-base-dewy",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-texture"
+      ],
+      "facets": {
+        "texture": "dewy",
+        "treatment": "soft-sheen"
+      },
+      "subcategory": "dewy",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-texture-base-dewy-natural-luster",
+      "semantic_key": "identity-skin-texture-base-dewy-natural-luster",
+      "text": "dewy skin texture with a natural luster",
+      "sentence": "Dewy skin texture with a natural luster.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "dewy skin texture with a natural luster",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing dewy skin texture with a natural luster",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with dewy skin texture with a natural luster",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-texture-base-dewy",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-texture"
+      ],
+      "facets": {
+        "texture": "dewy",
+        "treatment": "natural-luster"
+      },
+      "subcategory": "dewy",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-texture-base-dewy-textured-finish",
+      "semantic_key": "identity-skin-texture-base-dewy-textured-finish",
+      "text": "dewy skin texture with a textured finish",
+      "sentence": "Dewy skin texture with a textured finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "dewy skin texture with a textured finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing dewy skin texture with a textured finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with dewy skin texture with a textured finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-texture-base-dewy",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-texture"
+      ],
+      "facets": {
+        "texture": "dewy",
+        "treatment": "textured-finish"
+      },
+      "subcategory": "dewy",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-texture-base-dewy-brushed-finish",
+      "semantic_key": "identity-skin-texture-base-dewy-brushed-finish",
+      "text": "dewy skin texture with a brushed finish",
+      "sentence": "Dewy skin texture with a brushed finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "dewy skin texture with a brushed finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing dewy skin texture with a brushed finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with dewy skin texture with a brushed finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-skin-texture-base-dewy",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-uncommon",
+        "skin-texture"
+      ],
+      "facets": {
+        "texture": "dewy",
+        "treatment": "brushed-finish"
+      },
+      "subcategory": "dewy",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-texture-base-dewy-polished-finish",
+      "semantic_key": "identity-skin-texture-base-dewy-polished-finish",
+      "text": "dewy skin texture with a polished finish",
+      "sentence": "Dewy skin texture with a polished finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "dewy skin texture with a polished finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing dewy skin texture with a polished finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with dewy skin texture with a polished finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-skin-texture-base-dewy",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-uncommon",
+        "skin-texture"
+      ],
+      "facets": {
+        "texture": "dewy",
+        "treatment": "polished-finish"
+      },
+      "subcategory": "dewy",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-texture-base-dewy-weathered-finish",
+      "semantic_key": "identity-skin-texture-base-dewy-weathered-finish",
+      "text": "dewy skin texture with a weathered finish",
+      "sentence": "Dewy skin texture with a weathered finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "dewy skin texture with a weathered finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing dewy skin texture with a weathered finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with dewy skin texture with a weathered finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-skin-texture-base-dewy",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-rare",
+        "skin-texture"
+      ],
+      "facets": {
+        "texture": "dewy",
+        "treatment": "weathered-finish"
+      },
+      "subcategory": "dewy",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-texture-base-dewy-satin-finish",
+      "semantic_key": "identity-skin-texture-base-dewy-satin-finish",
+      "text": "dewy skin texture with a satin finish",
+      "sentence": "Dewy skin texture with a satin finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "dewy skin texture with a satin finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing dewy skin texture with a satin finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with dewy skin texture with a satin finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-skin-texture-base-dewy",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-rare",
+        "skin-texture"
+      ],
+      "facets": {
+        "texture": "dewy",
+        "treatment": "satin-finish"
+      },
+      "subcategory": "dewy",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-texture-base-matte-matte-finish",
+      "semantic_key": "identity-skin-texture-base-matte-matte-finish",
+      "text": "matte skin texture with a matte finish",
+      "sentence": "Matte skin texture with a matte finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "matte skin texture with a matte finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing matte skin texture with a matte finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with matte skin texture with a matte finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-texture-base-matte",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-texture"
+      ],
+      "facets": {
+        "texture": "matte",
+        "treatment": "matte-finish"
+      },
+      "subcategory": "matte",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-texture-base-matte-soft-sheen",
+      "semantic_key": "identity-skin-texture-base-matte-soft-sheen",
+      "text": "matte skin texture with a soft sheen",
+      "sentence": "Matte skin texture with a soft sheen.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "matte skin texture with a soft sheen",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing matte skin texture with a soft sheen",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with matte skin texture with a soft sheen",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-texture-base-matte",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-texture"
+      ],
+      "facets": {
+        "texture": "matte",
+        "treatment": "soft-sheen"
+      },
+      "subcategory": "matte",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-texture-base-matte-natural-luster",
+      "semantic_key": "identity-skin-texture-base-matte-natural-luster",
+      "text": "matte skin texture with a natural luster",
+      "sentence": "Matte skin texture with a natural luster.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "matte skin texture with a natural luster",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing matte skin texture with a natural luster",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with matte skin texture with a natural luster",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-texture-base-matte",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-texture"
+      ],
+      "facets": {
+        "texture": "matte",
+        "treatment": "natural-luster"
+      },
+      "subcategory": "matte",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-texture-base-matte-textured-finish",
+      "semantic_key": "identity-skin-texture-base-matte-textured-finish",
+      "text": "matte skin texture with a textured finish",
+      "sentence": "Matte skin texture with a textured finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "matte skin texture with a textured finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing matte skin texture with a textured finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with matte skin texture with a textured finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-texture-base-matte",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-texture"
+      ],
+      "facets": {
+        "texture": "matte",
+        "treatment": "textured-finish"
+      },
+      "subcategory": "matte",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-texture-base-matte-brushed-finish",
+      "semantic_key": "identity-skin-texture-base-matte-brushed-finish",
+      "text": "matte skin texture with a brushed finish",
+      "sentence": "Matte skin texture with a brushed finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "matte skin texture with a brushed finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing matte skin texture with a brushed finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with matte skin texture with a brushed finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-skin-texture-base-matte",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-uncommon",
+        "skin-texture"
+      ],
+      "facets": {
+        "texture": "matte",
+        "treatment": "brushed-finish"
+      },
+      "subcategory": "matte",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-texture-base-matte-polished-finish",
+      "semantic_key": "identity-skin-texture-base-matte-polished-finish",
+      "text": "matte skin texture with a polished finish",
+      "sentence": "Matte skin texture with a polished finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "matte skin texture with a polished finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing matte skin texture with a polished finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with matte skin texture with a polished finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-skin-texture-base-matte",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-uncommon",
+        "skin-texture"
+      ],
+      "facets": {
+        "texture": "matte",
+        "treatment": "polished-finish"
+      },
+      "subcategory": "matte",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-texture-base-matte-weathered-finish",
+      "semantic_key": "identity-skin-texture-base-matte-weathered-finish",
+      "text": "matte skin texture with a weathered finish",
+      "sentence": "Matte skin texture with a weathered finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "matte skin texture with a weathered finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing matte skin texture with a weathered finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with matte skin texture with a weathered finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-skin-texture-base-matte",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-rare",
+        "skin-texture"
+      ],
+      "facets": {
+        "texture": "matte",
+        "treatment": "weathered-finish"
+      },
+      "subcategory": "matte",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-texture-base-matte-satin-finish",
+      "semantic_key": "identity-skin-texture-base-matte-satin-finish",
+      "text": "matte skin texture with a satin finish",
+      "sentence": "Matte skin texture with a satin finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "matte skin texture with a satin finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing matte skin texture with a satin finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with matte skin texture with a satin finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-skin-texture-base-matte",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-rare",
+        "skin-texture"
+      ],
+      "facets": {
+        "texture": "matte",
+        "treatment": "satin-finish"
+      },
+      "subcategory": "matte",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-texture-base-gently-weathered-matte-finish",
+      "semantic_key": "identity-skin-texture-base-gently-weathered-matte-finish",
+      "text": "gently weathered skin texture with a matte finish",
+      "sentence": "Gently weathered skin texture with a matte finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gently weathered skin texture with a matte finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gently weathered skin texture with a matte finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gently weathered skin texture with a matte finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-texture-base-gently-weathered",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-texture"
+      ],
+      "facets": {
+        "texture": "gently-weathered",
+        "treatment": "matte-finish"
+      },
+      "subcategory": "gently-weathered",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-texture-base-gently-weathered-soft-sheen",
+      "semantic_key": "identity-skin-texture-base-gently-weathered-soft-sheen",
+      "text": "gently weathered skin texture with a soft sheen",
+      "sentence": "Gently weathered skin texture with a soft sheen.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gently weathered skin texture with a soft sheen",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gently weathered skin texture with a soft sheen",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gently weathered skin texture with a soft sheen",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-texture-base-gently-weathered",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-texture"
+      ],
+      "facets": {
+        "texture": "gently-weathered",
+        "treatment": "soft-sheen"
+      },
+      "subcategory": "gently-weathered",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-texture-base-gently-weathered-natural-luster",
+      "semantic_key": "identity-skin-texture-base-gently-weathered-natural-luster",
+      "text": "gently weathered skin texture with a natural luster",
+      "sentence": "Gently weathered skin texture with a natural luster.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gently weathered skin texture with a natural luster",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gently weathered skin texture with a natural luster",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gently weathered skin texture with a natural luster",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-texture-base-gently-weathered",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-texture"
+      ],
+      "facets": {
+        "texture": "gently-weathered",
+        "treatment": "natural-luster"
+      },
+      "subcategory": "gently-weathered",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-texture-base-gently-weathered-textured-finish",
+      "semantic_key": "identity-skin-texture-base-gently-weathered-textured-finish",
+      "text": "gently weathered skin texture with a textured finish",
+      "sentence": "Gently weathered skin texture with a textured finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gently weathered skin texture with a textured finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gently weathered skin texture with a textured finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gently weathered skin texture with a textured finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-texture-base-gently-weathered",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-texture"
+      ],
+      "facets": {
+        "texture": "gently-weathered",
+        "treatment": "textured-finish"
+      },
+      "subcategory": "gently-weathered",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-texture-base-gently-weathered-brushed-finish",
+      "semantic_key": "identity-skin-texture-base-gently-weathered-brushed-finish",
+      "text": "gently weathered skin texture with a brushed finish",
+      "sentence": "Gently weathered skin texture with a brushed finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gently weathered skin texture with a brushed finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gently weathered skin texture with a brushed finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gently weathered skin texture with a brushed finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-skin-texture-base-gently-weathered",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-uncommon",
+        "skin-texture"
+      ],
+      "facets": {
+        "texture": "gently-weathered",
+        "treatment": "brushed-finish"
+      },
+      "subcategory": "gently-weathered",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-texture-base-gently-weathered-polished-finish",
+      "semantic_key": "identity-skin-texture-base-gently-weathered-polished-finish",
+      "text": "gently weathered skin texture with a polished finish",
+      "sentence": "Gently weathered skin texture with a polished finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gently weathered skin texture with a polished finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gently weathered skin texture with a polished finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gently weathered skin texture with a polished finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-skin-texture-base-gently-weathered",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-uncommon",
+        "skin-texture"
+      ],
+      "facets": {
+        "texture": "gently-weathered",
+        "treatment": "polished-finish"
+      },
+      "subcategory": "gently-weathered",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-texture-base-gently-weathered-weathered-finish",
+      "semantic_key": "identity-skin-texture-base-gently-weathered-weathered-finish",
+      "text": "gently weathered skin texture with a weathered finish",
+      "sentence": "Gently weathered skin texture with a weathered finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gently weathered skin texture with a weathered finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gently weathered skin texture with a weathered finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gently weathered skin texture with a weathered finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-skin-texture-base-gently-weathered",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-rare",
+        "skin-texture"
+      ],
+      "facets": {
+        "texture": "gently-weathered",
+        "treatment": "weathered-finish"
+      },
+      "subcategory": "gently-weathered",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-texture-base-gently-weathered-satin-finish",
+      "semantic_key": "identity-skin-texture-base-gently-weathered-satin-finish",
+      "text": "gently weathered skin texture with a satin finish",
+      "sentence": "Gently weathered skin texture with a satin finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gently weathered skin texture with a satin finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gently weathered skin texture with a satin finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gently weathered skin texture with a satin finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-skin-texture-base-gently-weathered",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-rare",
+        "skin-texture"
+      ],
+      "facets": {
+        "texture": "gently-weathered",
+        "treatment": "satin-finish"
+      },
+      "subcategory": "gently-weathered",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    }
+  ]
+}

@@ -1,0 +1,2577 @@
+{
+  "schema_version": "2.0",
+  "id": "cinematography-exposure-film-look-base",
+  "version": "2.0.0",
+  "library": "exposure-film-look",
+  "domain": "cinematography",
+  "category": "exposure-film-look",
+  "language": "en",
+  "status": "active",
+  "safety": "general",
+  "tags": [
+    "base"
+  ],
+  "fallback_option_id": "cinematography-exposure-film-look-base-clean-digital-exposure-matte-finish",
+  "options": [
+    {
+      "id": "cinematography-exposure-film-look-base-clean-digital-exposure-matte-finish",
+      "semantic_key": "cinematography-exposure-film-look-base-clean-digital-exposure-matte-finish",
+      "text": "clean digital exposure with a matte finish",
+      "sentence": "Clean digital exposure with a matte finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "clean digital exposure with a matte finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing clean digital exposure with a matte finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with clean digital exposure with a matte finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-exposure-film-look-base-clean-digital-exposure",
+      "tags": [
+        "base",
+        "cinematography",
+        "exposure-film-look",
+        "rarity-common"
+      ],
+      "facets": {
+        "response": "clean-digital-exposure",
+        "treatment": "matte-finish"
+      },
+      "subcategory": "clean-digital-exposure",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-exposure-film-look-base-clean-digital-exposure-soft-sheen",
+      "semantic_key": "cinematography-exposure-film-look-base-clean-digital-exposure-soft-sheen",
+      "text": "clean digital exposure with a soft sheen",
+      "sentence": "Clean digital exposure with a soft sheen.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "clean digital exposure with a soft sheen",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing clean digital exposure with a soft sheen",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with clean digital exposure with a soft sheen",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-exposure-film-look-base-clean-digital-exposure",
+      "tags": [
+        "base",
+        "cinematography",
+        "exposure-film-look",
+        "rarity-common"
+      ],
+      "facets": {
+        "response": "clean-digital-exposure",
+        "treatment": "soft-sheen"
+      },
+      "subcategory": "clean-digital-exposure",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-exposure-film-look-base-clean-digital-exposure-natural-luster",
+      "semantic_key": "cinematography-exposure-film-look-base-clean-digital-exposure-natural-luster",
+      "text": "clean digital exposure with a natural luster",
+      "sentence": "Clean digital exposure with a natural luster.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "clean digital exposure with a natural luster",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing clean digital exposure with a natural luster",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with clean digital exposure with a natural luster",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-exposure-film-look-base-clean-digital-exposure",
+      "tags": [
+        "base",
+        "cinematography",
+        "exposure-film-look",
+        "rarity-common"
+      ],
+      "facets": {
+        "response": "clean-digital-exposure",
+        "treatment": "natural-luster"
+      },
+      "subcategory": "clean-digital-exposure",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-exposure-film-look-base-clean-digital-exposure-textured-finish",
+      "semantic_key": "cinematography-exposure-film-look-base-clean-digital-exposure-textured-finish",
+      "text": "clean digital exposure with a textured finish",
+      "sentence": "Clean digital exposure with a textured finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "clean digital exposure with a textured finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing clean digital exposure with a textured finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with clean digital exposure with a textured finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-exposure-film-look-base-clean-digital-exposure",
+      "tags": [
+        "base",
+        "cinematography",
+        "exposure-film-look",
+        "rarity-common"
+      ],
+      "facets": {
+        "response": "clean-digital-exposure",
+        "treatment": "textured-finish"
+      },
+      "subcategory": "clean-digital-exposure",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-exposure-film-look-base-clean-digital-exposure-brushed-finish",
+      "semantic_key": "cinematography-exposure-film-look-base-clean-digital-exposure-brushed-finish",
+      "text": "clean digital exposure with a brushed finish",
+      "sentence": "Clean digital exposure with a brushed finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "clean digital exposure with a brushed finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing clean digital exposure with a brushed finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with clean digital exposure with a brushed finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-exposure-film-look-base-clean-digital-exposure",
+      "tags": [
+        "base",
+        "cinematography",
+        "exposure-film-look",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "response": "clean-digital-exposure",
+        "treatment": "brushed-finish"
+      },
+      "subcategory": "clean-digital-exposure",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-exposure-film-look-base-clean-digital-exposure-polished-finish",
+      "semantic_key": "cinematography-exposure-film-look-base-clean-digital-exposure-polished-finish",
+      "text": "clean digital exposure with a polished finish",
+      "sentence": "Clean digital exposure with a polished finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "clean digital exposure with a polished finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing clean digital exposure with a polished finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with clean digital exposure with a polished finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-exposure-film-look-base-clean-digital-exposure",
+      "tags": [
+        "base",
+        "cinematography",
+        "exposure-film-look",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "response": "clean-digital-exposure",
+        "treatment": "polished-finish"
+      },
+      "subcategory": "clean-digital-exposure",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-exposure-film-look-base-clean-digital-exposure-weathered-finish",
+      "semantic_key": "cinematography-exposure-film-look-base-clean-digital-exposure-weathered-finish",
+      "text": "clean digital exposure with a weathered finish",
+      "sentence": "Clean digital exposure with a weathered finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "clean digital exposure with a weathered finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing clean digital exposure with a weathered finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with clean digital exposure with a weathered finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-exposure-film-look-base-clean-digital-exposure",
+      "tags": [
+        "base",
+        "cinematography",
+        "exposure-film-look",
+        "rarity-rare"
+      ],
+      "facets": {
+        "response": "clean-digital-exposure",
+        "treatment": "weathered-finish"
+      },
+      "subcategory": "clean-digital-exposure",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-exposure-film-look-base-clean-digital-exposure-satin-finish",
+      "semantic_key": "cinematography-exposure-film-look-base-clean-digital-exposure-satin-finish",
+      "text": "clean digital exposure with a satin finish",
+      "sentence": "Clean digital exposure with a satin finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "clean digital exposure with a satin finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing clean digital exposure with a satin finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with clean digital exposure with a satin finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-exposure-film-look-base-clean-digital-exposure",
+      "tags": [
+        "base",
+        "cinematography",
+        "exposure-film-look",
+        "rarity-rare"
+      ],
+      "facets": {
+        "response": "clean-digital-exposure",
+        "treatment": "satin-finish"
+      },
+      "subcategory": "clean-digital-exposure",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-exposure-film-look-base-gentle-highlight-rolloff-matte-finish",
+      "semantic_key": "cinematography-exposure-film-look-base-gentle-highlight-rolloff-matte-finish",
+      "text": "gentle highlight rolloff with a matte finish",
+      "sentence": "Gentle highlight rolloff with a matte finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gentle highlight rolloff with a matte finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gentle highlight rolloff with a matte finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gentle highlight rolloff with a matte finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-exposure-film-look-base-gentle-highlight-rolloff",
+      "tags": [
+        "base",
+        "cinematography",
+        "exposure-film-look",
+        "rarity-common"
+      ],
+      "facets": {
+        "response": "gentle-highlight-rolloff",
+        "treatment": "matte-finish"
+      },
+      "subcategory": "gentle-highlight-rolloff",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-exposure-film-look-base-gentle-highlight-rolloff-soft-sheen",
+      "semantic_key": "cinematography-exposure-film-look-base-gentle-highlight-rolloff-soft-sheen",
+      "text": "gentle highlight rolloff with a soft sheen",
+      "sentence": "Gentle highlight rolloff with a soft sheen.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gentle highlight rolloff with a soft sheen",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gentle highlight rolloff with a soft sheen",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gentle highlight rolloff with a soft sheen",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-exposure-film-look-base-gentle-highlight-rolloff",
+      "tags": [
+        "base",
+        "cinematography",
+        "exposure-film-look",
+        "rarity-common"
+      ],
+      "facets": {
+        "response": "gentle-highlight-rolloff",
+        "treatment": "soft-sheen"
+      },
+      "subcategory": "gentle-highlight-rolloff",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-exposure-film-look-base-gentle-highlight-rolloff-natural-luster",
+      "semantic_key": "cinematography-exposure-film-look-base-gentle-highlight-rolloff-natural-luster",
+      "text": "gentle highlight rolloff with a natural luster",
+      "sentence": "Gentle highlight rolloff with a natural luster.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gentle highlight rolloff with a natural luster",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gentle highlight rolloff with a natural luster",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gentle highlight rolloff with a natural luster",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-exposure-film-look-base-gentle-highlight-rolloff",
+      "tags": [
+        "base",
+        "cinematography",
+        "exposure-film-look",
+        "rarity-common"
+      ],
+      "facets": {
+        "response": "gentle-highlight-rolloff",
+        "treatment": "natural-luster"
+      },
+      "subcategory": "gentle-highlight-rolloff",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-exposure-film-look-base-gentle-highlight-rolloff-textured-finish",
+      "semantic_key": "cinematography-exposure-film-look-base-gentle-highlight-rolloff-textured-finish",
+      "text": "gentle highlight rolloff with a textured finish",
+      "sentence": "Gentle highlight rolloff with a textured finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gentle highlight rolloff with a textured finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gentle highlight rolloff with a textured finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gentle highlight rolloff with a textured finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-exposure-film-look-base-gentle-highlight-rolloff",
+      "tags": [
+        "base",
+        "cinematography",
+        "exposure-film-look",
+        "rarity-common"
+      ],
+      "facets": {
+        "response": "gentle-highlight-rolloff",
+        "treatment": "textured-finish"
+      },
+      "subcategory": "gentle-highlight-rolloff",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-exposure-film-look-base-gentle-highlight-rolloff-brushed-finish",
+      "semantic_key": "cinematography-exposure-film-look-base-gentle-highlight-rolloff-brushed-finish",
+      "text": "gentle highlight rolloff with a brushed finish",
+      "sentence": "Gentle highlight rolloff with a brushed finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gentle highlight rolloff with a brushed finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gentle highlight rolloff with a brushed finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gentle highlight rolloff with a brushed finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-exposure-film-look-base-gentle-highlight-rolloff",
+      "tags": [
+        "base",
+        "cinematography",
+        "exposure-film-look",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "response": "gentle-highlight-rolloff",
+        "treatment": "brushed-finish"
+      },
+      "subcategory": "gentle-highlight-rolloff",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-exposure-film-look-base-gentle-highlight-rolloff-polished-finish",
+      "semantic_key": "cinematography-exposure-film-look-base-gentle-highlight-rolloff-polished-finish",
+      "text": "gentle highlight rolloff with a polished finish",
+      "sentence": "Gentle highlight rolloff with a polished finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gentle highlight rolloff with a polished finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gentle highlight rolloff with a polished finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gentle highlight rolloff with a polished finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-exposure-film-look-base-gentle-highlight-rolloff",
+      "tags": [
+        "base",
+        "cinematography",
+        "exposure-film-look",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "response": "gentle-highlight-rolloff",
+        "treatment": "polished-finish"
+      },
+      "subcategory": "gentle-highlight-rolloff",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-exposure-film-look-base-gentle-highlight-rolloff-weathered-finish",
+      "semantic_key": "cinematography-exposure-film-look-base-gentle-highlight-rolloff-weathered-finish",
+      "text": "gentle highlight rolloff with a weathered finish",
+      "sentence": "Gentle highlight rolloff with a weathered finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gentle highlight rolloff with a weathered finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gentle highlight rolloff with a weathered finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gentle highlight rolloff with a weathered finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-exposure-film-look-base-gentle-highlight-rolloff",
+      "tags": [
+        "base",
+        "cinematography",
+        "exposure-film-look",
+        "rarity-rare"
+      ],
+      "facets": {
+        "response": "gentle-highlight-rolloff",
+        "treatment": "weathered-finish"
+      },
+      "subcategory": "gentle-highlight-rolloff",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-exposure-film-look-base-gentle-highlight-rolloff-satin-finish",
+      "semantic_key": "cinematography-exposure-film-look-base-gentle-highlight-rolloff-satin-finish",
+      "text": "gentle highlight rolloff with a satin finish",
+      "sentence": "Gentle highlight rolloff with a satin finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "gentle highlight rolloff with a satin finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing gentle highlight rolloff with a satin finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with gentle highlight rolloff with a satin finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-exposure-film-look-base-gentle-highlight-rolloff",
+      "tags": [
+        "base",
+        "cinematography",
+        "exposure-film-look",
+        "rarity-rare"
+      ],
+      "facets": {
+        "response": "gentle-highlight-rolloff",
+        "treatment": "satin-finish"
+      },
+      "subcategory": "gentle-highlight-rolloff",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-exposure-film-look-base-protected-highlights-matte-finish",
+      "semantic_key": "cinematography-exposure-film-look-base-protected-highlights-matte-finish",
+      "text": "protected highlights with a matte finish",
+      "sentence": "Protected highlights with a matte finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "protected highlights with a matte finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing protected highlights with a matte finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with protected highlights with a matte finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-exposure-film-look-base-protected-highlights",
+      "tags": [
+        "base",
+        "cinematography",
+        "exposure-film-look",
+        "rarity-common"
+      ],
+      "facets": {
+        "response": "protected-highlights",
+        "treatment": "matte-finish"
+      },
+      "subcategory": "protected-highlights",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-exposure-film-look-base-protected-highlights-soft-sheen",
+      "semantic_key": "cinematography-exposure-film-look-base-protected-highlights-soft-sheen",
+      "text": "protected highlights with a soft sheen",
+      "sentence": "Protected highlights with a soft sheen.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "protected highlights with a soft sheen",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing protected highlights with a soft sheen",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with protected highlights with a soft sheen",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-exposure-film-look-base-protected-highlights",
+      "tags": [
+        "base",
+        "cinematography",
+        "exposure-film-look",
+        "rarity-common"
+      ],
+      "facets": {
+        "response": "protected-highlights",
+        "treatment": "soft-sheen"
+      },
+      "subcategory": "protected-highlights",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-exposure-film-look-base-protected-highlights-natural-luster",
+      "semantic_key": "cinematography-exposure-film-look-base-protected-highlights-natural-luster",
+      "text": "protected highlights with a natural luster",
+      "sentence": "Protected highlights with a natural luster.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "protected highlights with a natural luster",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing protected highlights with a natural luster",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with protected highlights with a natural luster",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-exposure-film-look-base-protected-highlights",
+      "tags": [
+        "base",
+        "cinematography",
+        "exposure-film-look",
+        "rarity-common"
+      ],
+      "facets": {
+        "response": "protected-highlights",
+        "treatment": "natural-luster"
+      },
+      "subcategory": "protected-highlights",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-exposure-film-look-base-protected-highlights-textured-finish",
+      "semantic_key": "cinematography-exposure-film-look-base-protected-highlights-textured-finish",
+      "text": "protected highlights with a textured finish",
+      "sentence": "Protected highlights with a textured finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "protected highlights with a textured finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing protected highlights with a textured finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with protected highlights with a textured finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-exposure-film-look-base-protected-highlights",
+      "tags": [
+        "base",
+        "cinematography",
+        "exposure-film-look",
+        "rarity-common"
+      ],
+      "facets": {
+        "response": "protected-highlights",
+        "treatment": "textured-finish"
+      },
+      "subcategory": "protected-highlights",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-exposure-film-look-base-protected-highlights-brushed-finish",
+      "semantic_key": "cinematography-exposure-film-look-base-protected-highlights-brushed-finish",
+      "text": "protected highlights with a brushed finish",
+      "sentence": "Protected highlights with a brushed finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "protected highlights with a brushed finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing protected highlights with a brushed finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with protected highlights with a brushed finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-exposure-film-look-base-protected-highlights",
+      "tags": [
+        "base",
+        "cinematography",
+        "exposure-film-look",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "response": "protected-highlights",
+        "treatment": "brushed-finish"
+      },
+      "subcategory": "protected-highlights",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-exposure-film-look-base-protected-highlights-polished-finish",
+      "semantic_key": "cinematography-exposure-film-look-base-protected-highlights-polished-finish",
+      "text": "protected highlights with a polished finish",
+      "sentence": "Protected highlights with a polished finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "protected highlights with a polished finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing protected highlights with a polished finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with protected highlights with a polished finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-exposure-film-look-base-protected-highlights",
+      "tags": [
+        "base",
+        "cinematography",
+        "exposure-film-look",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "response": "protected-highlights",
+        "treatment": "polished-finish"
+      },
+      "subcategory": "protected-highlights",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-exposure-film-look-base-protected-highlights-weathered-finish",
+      "semantic_key": "cinematography-exposure-film-look-base-protected-highlights-weathered-finish",
+      "text": "protected highlights with a weathered finish",
+      "sentence": "Protected highlights with a weathered finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "protected highlights with a weathered finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing protected highlights with a weathered finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with protected highlights with a weathered finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-exposure-film-look-base-protected-highlights",
+      "tags": [
+        "base",
+        "cinematography",
+        "exposure-film-look",
+        "rarity-rare"
+      ],
+      "facets": {
+        "response": "protected-highlights",
+        "treatment": "weathered-finish"
+      },
+      "subcategory": "protected-highlights",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-exposure-film-look-base-protected-highlights-satin-finish",
+      "semantic_key": "cinematography-exposure-film-look-base-protected-highlights-satin-finish",
+      "text": "protected highlights with a satin finish",
+      "sentence": "Protected highlights with a satin finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "protected highlights with a satin finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing protected highlights with a satin finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with protected highlights with a satin finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-exposure-film-look-base-protected-highlights",
+      "tags": [
+        "base",
+        "cinematography",
+        "exposure-film-look",
+        "rarity-rare"
+      ],
+      "facets": {
+        "response": "protected-highlights",
+        "treatment": "satin-finish"
+      },
+      "subcategory": "protected-highlights",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-exposure-film-look-base-open-shadows-matte-finish",
+      "semantic_key": "cinematography-exposure-film-look-base-open-shadows-matte-finish",
+      "text": "open shadows with a matte finish",
+      "sentence": "Open shadows with a matte finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "open shadows with a matte finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing open shadows with a matte finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with open shadows with a matte finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-exposure-film-look-base-open-shadows",
+      "tags": [
+        "base",
+        "cinematography",
+        "exposure-film-look",
+        "rarity-common"
+      ],
+      "facets": {
+        "response": "open-shadows",
+        "treatment": "matte-finish"
+      },
+      "subcategory": "open-shadows",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-exposure-film-look-base-open-shadows-soft-sheen",
+      "semantic_key": "cinematography-exposure-film-look-base-open-shadows-soft-sheen",
+      "text": "open shadows with a soft sheen",
+      "sentence": "Open shadows with a soft sheen.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "open shadows with a soft sheen",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing open shadows with a soft sheen",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with open shadows with a soft sheen",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-exposure-film-look-base-open-shadows",
+      "tags": [
+        "base",
+        "cinematography",
+        "exposure-film-look",
+        "rarity-common"
+      ],
+      "facets": {
+        "response": "open-shadows",
+        "treatment": "soft-sheen"
+      },
+      "subcategory": "open-shadows",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-exposure-film-look-base-open-shadows-natural-luster",
+      "semantic_key": "cinematography-exposure-film-look-base-open-shadows-natural-luster",
+      "text": "open shadows with a natural luster",
+      "sentence": "Open shadows with a natural luster.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "open shadows with a natural luster",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing open shadows with a natural luster",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with open shadows with a natural luster",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-exposure-film-look-base-open-shadows",
+      "tags": [
+        "base",
+        "cinematography",
+        "exposure-film-look",
+        "rarity-common"
+      ],
+      "facets": {
+        "response": "open-shadows",
+        "treatment": "natural-luster"
+      },
+      "subcategory": "open-shadows",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-exposure-film-look-base-open-shadows-textured-finish",
+      "semantic_key": "cinematography-exposure-film-look-base-open-shadows-textured-finish",
+      "text": "open shadows with a textured finish",
+      "sentence": "Open shadows with a textured finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "open shadows with a textured finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing open shadows with a textured finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with open shadows with a textured finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-exposure-film-look-base-open-shadows",
+      "tags": [
+        "base",
+        "cinematography",
+        "exposure-film-look",
+        "rarity-common"
+      ],
+      "facets": {
+        "response": "open-shadows",
+        "treatment": "textured-finish"
+      },
+      "subcategory": "open-shadows",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-exposure-film-look-base-open-shadows-brushed-finish",
+      "semantic_key": "cinematography-exposure-film-look-base-open-shadows-brushed-finish",
+      "text": "open shadows with a brushed finish",
+      "sentence": "Open shadows with a brushed finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "open shadows with a brushed finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing open shadows with a brushed finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with open shadows with a brushed finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-exposure-film-look-base-open-shadows",
+      "tags": [
+        "base",
+        "cinematography",
+        "exposure-film-look",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "response": "open-shadows",
+        "treatment": "brushed-finish"
+      },
+      "subcategory": "open-shadows",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-exposure-film-look-base-open-shadows-polished-finish",
+      "semantic_key": "cinematography-exposure-film-look-base-open-shadows-polished-finish",
+      "text": "open shadows with a polished finish",
+      "sentence": "Open shadows with a polished finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "open shadows with a polished finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing open shadows with a polished finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with open shadows with a polished finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-exposure-film-look-base-open-shadows",
+      "tags": [
+        "base",
+        "cinematography",
+        "exposure-film-look",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "response": "open-shadows",
+        "treatment": "polished-finish"
+      },
+      "subcategory": "open-shadows",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-exposure-film-look-base-open-shadows-weathered-finish",
+      "semantic_key": "cinematography-exposure-film-look-base-open-shadows-weathered-finish",
+      "text": "open shadows with a weathered finish",
+      "sentence": "Open shadows with a weathered finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "open shadows with a weathered finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing open shadows with a weathered finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with open shadows with a weathered finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-exposure-film-look-base-open-shadows",
+      "tags": [
+        "base",
+        "cinematography",
+        "exposure-film-look",
+        "rarity-rare"
+      ],
+      "facets": {
+        "response": "open-shadows",
+        "treatment": "weathered-finish"
+      },
+      "subcategory": "open-shadows",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-exposure-film-look-base-open-shadows-satin-finish",
+      "semantic_key": "cinematography-exposure-film-look-base-open-shadows-satin-finish",
+      "text": "open shadows with a satin finish",
+      "sentence": "Open shadows with a satin finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "open shadows with a satin finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing open shadows with a satin finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with open shadows with a satin finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-exposure-film-look-base-open-shadows",
+      "tags": [
+        "base",
+        "cinematography",
+        "exposure-film-look",
+        "rarity-rare"
+      ],
+      "facets": {
+        "response": "open-shadows",
+        "treatment": "satin-finish"
+      },
+      "subcategory": "open-shadows",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-exposure-film-look-base-low-key-exposure-matte-finish",
+      "semantic_key": "cinematography-exposure-film-look-base-low-key-exposure-matte-finish",
+      "text": "low-key exposure with a matte finish",
+      "sentence": "Low-key exposure with a matte finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "low-key exposure with a matte finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing low-key exposure with a matte finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with low-key exposure with a matte finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-exposure-film-look-base-low-key-exposure",
+      "tags": [
+        "base",
+        "cinematography",
+        "exposure-film-look",
+        "rarity-common"
+      ],
+      "facets": {
+        "response": "low-key-exposure",
+        "treatment": "matte-finish"
+      },
+      "subcategory": "low-key-exposure",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-exposure-film-look-base-low-key-exposure-soft-sheen",
+      "semantic_key": "cinematography-exposure-film-look-base-low-key-exposure-soft-sheen",
+      "text": "low-key exposure with a soft sheen",
+      "sentence": "Low-key exposure with a soft sheen.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "low-key exposure with a soft sheen",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing low-key exposure with a soft sheen",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with low-key exposure with a soft sheen",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-exposure-film-look-base-low-key-exposure",
+      "tags": [
+        "base",
+        "cinematography",
+        "exposure-film-look",
+        "rarity-common"
+      ],
+      "facets": {
+        "response": "low-key-exposure",
+        "treatment": "soft-sheen"
+      },
+      "subcategory": "low-key-exposure",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-exposure-film-look-base-low-key-exposure-natural-luster",
+      "semantic_key": "cinematography-exposure-film-look-base-low-key-exposure-natural-luster",
+      "text": "low-key exposure with a natural luster",
+      "sentence": "Low-key exposure with a natural luster.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "low-key exposure with a natural luster",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing low-key exposure with a natural luster",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with low-key exposure with a natural luster",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-exposure-film-look-base-low-key-exposure",
+      "tags": [
+        "base",
+        "cinematography",
+        "exposure-film-look",
+        "rarity-common"
+      ],
+      "facets": {
+        "response": "low-key-exposure",
+        "treatment": "natural-luster"
+      },
+      "subcategory": "low-key-exposure",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-exposure-film-look-base-low-key-exposure-textured-finish",
+      "semantic_key": "cinematography-exposure-film-look-base-low-key-exposure-textured-finish",
+      "text": "low-key exposure with a textured finish",
+      "sentence": "Low-key exposure with a textured finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "low-key exposure with a textured finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing low-key exposure with a textured finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with low-key exposure with a textured finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-exposure-film-look-base-low-key-exposure",
+      "tags": [
+        "base",
+        "cinematography",
+        "exposure-film-look",
+        "rarity-common"
+      ],
+      "facets": {
+        "response": "low-key-exposure",
+        "treatment": "textured-finish"
+      },
+      "subcategory": "low-key-exposure",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-exposure-film-look-base-low-key-exposure-brushed-finish",
+      "semantic_key": "cinematography-exposure-film-look-base-low-key-exposure-brushed-finish",
+      "text": "low-key exposure with a brushed finish",
+      "sentence": "Low-key exposure with a brushed finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "low-key exposure with a brushed finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing low-key exposure with a brushed finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with low-key exposure with a brushed finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-exposure-film-look-base-low-key-exposure",
+      "tags": [
+        "base",
+        "cinematography",
+        "exposure-film-look",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "response": "low-key-exposure",
+        "treatment": "brushed-finish"
+      },
+      "subcategory": "low-key-exposure",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-exposure-film-look-base-low-key-exposure-polished-finish",
+      "semantic_key": "cinematography-exposure-film-look-base-low-key-exposure-polished-finish",
+      "text": "low-key exposure with a polished finish",
+      "sentence": "Low-key exposure with a polished finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "low-key exposure with a polished finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing low-key exposure with a polished finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with low-key exposure with a polished finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-exposure-film-look-base-low-key-exposure",
+      "tags": [
+        "base",
+        "cinematography",
+        "exposure-film-look",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "response": "low-key-exposure",
+        "treatment": "polished-finish"
+      },
+      "subcategory": "low-key-exposure",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-exposure-film-look-base-low-key-exposure-weathered-finish",
+      "semantic_key": "cinematography-exposure-film-look-base-low-key-exposure-weathered-finish",
+      "text": "low-key exposure with a weathered finish",
+      "sentence": "Low-key exposure with a weathered finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "low-key exposure with a weathered finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing low-key exposure with a weathered finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with low-key exposure with a weathered finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-exposure-film-look-base-low-key-exposure",
+      "tags": [
+        "base",
+        "cinematography",
+        "exposure-film-look",
+        "rarity-rare"
+      ],
+      "facets": {
+        "response": "low-key-exposure",
+        "treatment": "weathered-finish"
+      },
+      "subcategory": "low-key-exposure",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-exposure-film-look-base-low-key-exposure-satin-finish",
+      "semantic_key": "cinematography-exposure-film-look-base-low-key-exposure-satin-finish",
+      "text": "low-key exposure with a satin finish",
+      "sentence": "Low-key exposure with a satin finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "low-key exposure with a satin finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing low-key exposure with a satin finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with low-key exposure with a satin finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-exposure-film-look-base-low-key-exposure",
+      "tags": [
+        "base",
+        "cinematography",
+        "exposure-film-look",
+        "rarity-rare"
+      ],
+      "facets": {
+        "response": "low-key-exposure",
+        "treatment": "satin-finish"
+      },
+      "subcategory": "low-key-exposure",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-exposure-film-look-base-high-key-exposure-matte-finish",
+      "semantic_key": "cinematography-exposure-film-look-base-high-key-exposure-matte-finish",
+      "text": "high-key exposure with a matte finish",
+      "sentence": "High-key exposure with a matte finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "high-key exposure with a matte finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing high-key exposure with a matte finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with high-key exposure with a matte finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-exposure-film-look-base-high-key-exposure",
+      "tags": [
+        "base",
+        "cinematography",
+        "exposure-film-look",
+        "rarity-common"
+      ],
+      "facets": {
+        "response": "high-key-exposure",
+        "treatment": "matte-finish"
+      },
+      "subcategory": "high-key-exposure",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-exposure-film-look-base-high-key-exposure-soft-sheen",
+      "semantic_key": "cinematography-exposure-film-look-base-high-key-exposure-soft-sheen",
+      "text": "high-key exposure with a soft sheen",
+      "sentence": "High-key exposure with a soft sheen.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "high-key exposure with a soft sheen",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing high-key exposure with a soft sheen",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with high-key exposure with a soft sheen",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-exposure-film-look-base-high-key-exposure",
+      "tags": [
+        "base",
+        "cinematography",
+        "exposure-film-look",
+        "rarity-common"
+      ],
+      "facets": {
+        "response": "high-key-exposure",
+        "treatment": "soft-sheen"
+      },
+      "subcategory": "high-key-exposure",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-exposure-film-look-base-high-key-exposure-natural-luster",
+      "semantic_key": "cinematography-exposure-film-look-base-high-key-exposure-natural-luster",
+      "text": "high-key exposure with a natural luster",
+      "sentence": "High-key exposure with a natural luster.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "high-key exposure with a natural luster",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing high-key exposure with a natural luster",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with high-key exposure with a natural luster",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-exposure-film-look-base-high-key-exposure",
+      "tags": [
+        "base",
+        "cinematography",
+        "exposure-film-look",
+        "rarity-common"
+      ],
+      "facets": {
+        "response": "high-key-exposure",
+        "treatment": "natural-luster"
+      },
+      "subcategory": "high-key-exposure",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-exposure-film-look-base-high-key-exposure-textured-finish",
+      "semantic_key": "cinematography-exposure-film-look-base-high-key-exposure-textured-finish",
+      "text": "high-key exposure with a textured finish",
+      "sentence": "High-key exposure with a textured finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "high-key exposure with a textured finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing high-key exposure with a textured finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with high-key exposure with a textured finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-exposure-film-look-base-high-key-exposure",
+      "tags": [
+        "base",
+        "cinematography",
+        "exposure-film-look",
+        "rarity-common"
+      ],
+      "facets": {
+        "response": "high-key-exposure",
+        "treatment": "textured-finish"
+      },
+      "subcategory": "high-key-exposure",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-exposure-film-look-base-high-key-exposure-brushed-finish",
+      "semantic_key": "cinematography-exposure-film-look-base-high-key-exposure-brushed-finish",
+      "text": "high-key exposure with a brushed finish",
+      "sentence": "High-key exposure with a brushed finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "high-key exposure with a brushed finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing high-key exposure with a brushed finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with high-key exposure with a brushed finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-exposure-film-look-base-high-key-exposure",
+      "tags": [
+        "base",
+        "cinematography",
+        "exposure-film-look",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "response": "high-key-exposure",
+        "treatment": "brushed-finish"
+      },
+      "subcategory": "high-key-exposure",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-exposure-film-look-base-high-key-exposure-polished-finish",
+      "semantic_key": "cinematography-exposure-film-look-base-high-key-exposure-polished-finish",
+      "text": "high-key exposure with a polished finish",
+      "sentence": "High-key exposure with a polished finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "high-key exposure with a polished finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing high-key exposure with a polished finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with high-key exposure with a polished finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-exposure-film-look-base-high-key-exposure",
+      "tags": [
+        "base",
+        "cinematography",
+        "exposure-film-look",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "response": "high-key-exposure",
+        "treatment": "polished-finish"
+      },
+      "subcategory": "high-key-exposure",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-exposure-film-look-base-high-key-exposure-weathered-finish",
+      "semantic_key": "cinematography-exposure-film-look-base-high-key-exposure-weathered-finish",
+      "text": "high-key exposure with a weathered finish",
+      "sentence": "High-key exposure with a weathered finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "high-key exposure with a weathered finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing high-key exposure with a weathered finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with high-key exposure with a weathered finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-exposure-film-look-base-high-key-exposure",
+      "tags": [
+        "base",
+        "cinematography",
+        "exposure-film-look",
+        "rarity-rare"
+      ],
+      "facets": {
+        "response": "high-key-exposure",
+        "treatment": "weathered-finish"
+      },
+      "subcategory": "high-key-exposure",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-exposure-film-look-base-high-key-exposure-satin-finish",
+      "semantic_key": "cinematography-exposure-film-look-base-high-key-exposure-satin-finish",
+      "text": "high-key exposure with a satin finish",
+      "sentence": "High-key exposure with a satin finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "high-key exposure with a satin finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing high-key exposure with a satin finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with high-key exposure with a satin finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-exposure-film-look-base-high-key-exposure",
+      "tags": [
+        "base",
+        "cinematography",
+        "exposure-film-look",
+        "rarity-rare"
+      ],
+      "facets": {
+        "response": "high-key-exposure",
+        "treatment": "satin-finish"
+      },
+      "subcategory": "high-key-exposure",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-exposure-film-look-base-fine-grain-film-response-matte-finish",
+      "semantic_key": "cinematography-exposure-film-look-base-fine-grain-film-response-matte-finish",
+      "text": "fine-grain film response with a matte finish",
+      "sentence": "Fine-grain film response with a matte finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "fine-grain film response with a matte finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing fine-grain film response with a matte finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with fine-grain film response with a matte finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-exposure-film-look-base-fine-grain-film-response",
+      "tags": [
+        "base",
+        "cinematography",
+        "exposure-film-look",
+        "rarity-common"
+      ],
+      "facets": {
+        "response": "fine-grain-film-response",
+        "treatment": "matte-finish"
+      },
+      "subcategory": "fine-grain-film-response",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-exposure-film-look-base-fine-grain-film-response-soft-sheen",
+      "semantic_key": "cinematography-exposure-film-look-base-fine-grain-film-response-soft-sheen",
+      "text": "fine-grain film response with a soft sheen",
+      "sentence": "Fine-grain film response with a soft sheen.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "fine-grain film response with a soft sheen",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing fine-grain film response with a soft sheen",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with fine-grain film response with a soft sheen",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-exposure-film-look-base-fine-grain-film-response",
+      "tags": [
+        "base",
+        "cinematography",
+        "exposure-film-look",
+        "rarity-common"
+      ],
+      "facets": {
+        "response": "fine-grain-film-response",
+        "treatment": "soft-sheen"
+      },
+      "subcategory": "fine-grain-film-response",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-exposure-film-look-base-fine-grain-film-response-natural-luster",
+      "semantic_key": "cinematography-exposure-film-look-base-fine-grain-film-response-natural-luster",
+      "text": "fine-grain film response with a natural luster",
+      "sentence": "Fine-grain film response with a natural luster.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "fine-grain film response with a natural luster",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing fine-grain film response with a natural luster",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with fine-grain film response with a natural luster",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-exposure-film-look-base-fine-grain-film-response",
+      "tags": [
+        "base",
+        "cinematography",
+        "exposure-film-look",
+        "rarity-common"
+      ],
+      "facets": {
+        "response": "fine-grain-film-response",
+        "treatment": "natural-luster"
+      },
+      "subcategory": "fine-grain-film-response",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-exposure-film-look-base-fine-grain-film-response-textured-finish",
+      "semantic_key": "cinematography-exposure-film-look-base-fine-grain-film-response-textured-finish",
+      "text": "fine-grain film response with a textured finish",
+      "sentence": "Fine-grain film response with a textured finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "fine-grain film response with a textured finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing fine-grain film response with a textured finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with fine-grain film response with a textured finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-exposure-film-look-base-fine-grain-film-response",
+      "tags": [
+        "base",
+        "cinematography",
+        "exposure-film-look",
+        "rarity-common"
+      ],
+      "facets": {
+        "response": "fine-grain-film-response",
+        "treatment": "textured-finish"
+      },
+      "subcategory": "fine-grain-film-response",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-exposure-film-look-base-fine-grain-film-response-brushed-finish",
+      "semantic_key": "cinematography-exposure-film-look-base-fine-grain-film-response-brushed-finish",
+      "text": "fine-grain film response with a brushed finish",
+      "sentence": "Fine-grain film response with a brushed finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "fine-grain film response with a brushed finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing fine-grain film response with a brushed finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with fine-grain film response with a brushed finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-exposure-film-look-base-fine-grain-film-response",
+      "tags": [
+        "base",
+        "cinematography",
+        "exposure-film-look",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "response": "fine-grain-film-response",
+        "treatment": "brushed-finish"
+      },
+      "subcategory": "fine-grain-film-response",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-exposure-film-look-base-fine-grain-film-response-polished-finish",
+      "semantic_key": "cinematography-exposure-film-look-base-fine-grain-film-response-polished-finish",
+      "text": "fine-grain film response with a polished finish",
+      "sentence": "Fine-grain film response with a polished finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "fine-grain film response with a polished finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing fine-grain film response with a polished finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with fine-grain film response with a polished finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-exposure-film-look-base-fine-grain-film-response",
+      "tags": [
+        "base",
+        "cinematography",
+        "exposure-film-look",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "response": "fine-grain-film-response",
+        "treatment": "polished-finish"
+      },
+      "subcategory": "fine-grain-film-response",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-exposure-film-look-base-fine-grain-film-response-weathered-finish",
+      "semantic_key": "cinematography-exposure-film-look-base-fine-grain-film-response-weathered-finish",
+      "text": "fine-grain film response with a weathered finish",
+      "sentence": "Fine-grain film response with a weathered finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "fine-grain film response with a weathered finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing fine-grain film response with a weathered finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with fine-grain film response with a weathered finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-exposure-film-look-base-fine-grain-film-response",
+      "tags": [
+        "base",
+        "cinematography",
+        "exposure-film-look",
+        "rarity-rare"
+      ],
+      "facets": {
+        "response": "fine-grain-film-response",
+        "treatment": "weathered-finish"
+      },
+      "subcategory": "fine-grain-film-response",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-exposure-film-look-base-fine-grain-film-response-satin-finish",
+      "semantic_key": "cinematography-exposure-film-look-base-fine-grain-film-response-satin-finish",
+      "text": "fine-grain film response with a satin finish",
+      "sentence": "Fine-grain film response with a satin finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "fine-grain film response with a satin finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing fine-grain film response with a satin finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with fine-grain film response with a satin finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-exposure-film-look-base-fine-grain-film-response",
+      "tags": [
+        "base",
+        "cinematography",
+        "exposure-film-look",
+        "rarity-rare"
+      ],
+      "facets": {
+        "response": "fine-grain-film-response",
+        "treatment": "satin-finish"
+      },
+      "subcategory": "fine-grain-film-response",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-exposure-film-look-base-soft-negative-film-response-matte-finish",
+      "semantic_key": "cinematography-exposure-film-look-base-soft-negative-film-response-matte-finish",
+      "text": "soft negative-film response with a matte finish",
+      "sentence": "Soft negative-film response with a matte finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "soft negative-film response with a matte finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing soft negative-film response with a matte finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with soft negative-film response with a matte finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-exposure-film-look-base-soft-negative-film-response",
+      "tags": [
+        "base",
+        "cinematography",
+        "exposure-film-look",
+        "rarity-common"
+      ],
+      "facets": {
+        "response": "soft-negative-film-response",
+        "treatment": "matte-finish"
+      },
+      "subcategory": "soft-negative-film-response",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-exposure-film-look-base-soft-negative-film-response-soft-sheen",
+      "semantic_key": "cinematography-exposure-film-look-base-soft-negative-film-response-soft-sheen",
+      "text": "soft negative-film response with a soft sheen",
+      "sentence": "Soft negative-film response with a soft sheen.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "soft negative-film response with a soft sheen",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing soft negative-film response with a soft sheen",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with soft negative-film response with a soft sheen",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-exposure-film-look-base-soft-negative-film-response",
+      "tags": [
+        "base",
+        "cinematography",
+        "exposure-film-look",
+        "rarity-common"
+      ],
+      "facets": {
+        "response": "soft-negative-film-response",
+        "treatment": "soft-sheen"
+      },
+      "subcategory": "soft-negative-film-response",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-exposure-film-look-base-soft-negative-film-response-natural-luster",
+      "semantic_key": "cinematography-exposure-film-look-base-soft-negative-film-response-natural-luster",
+      "text": "soft negative-film response with a natural luster",
+      "sentence": "Soft negative-film response with a natural luster.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "soft negative-film response with a natural luster",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing soft negative-film response with a natural luster",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with soft negative-film response with a natural luster",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-exposure-film-look-base-soft-negative-film-response",
+      "tags": [
+        "base",
+        "cinematography",
+        "exposure-film-look",
+        "rarity-common"
+      ],
+      "facets": {
+        "response": "soft-negative-film-response",
+        "treatment": "natural-luster"
+      },
+      "subcategory": "soft-negative-film-response",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-exposure-film-look-base-soft-negative-film-response-textured-finish",
+      "semantic_key": "cinematography-exposure-film-look-base-soft-negative-film-response-textured-finish",
+      "text": "soft negative-film response with a textured finish",
+      "sentence": "Soft negative-film response with a textured finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "soft negative-film response with a textured finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing soft negative-film response with a textured finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with soft negative-film response with a textured finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-exposure-film-look-base-soft-negative-film-response",
+      "tags": [
+        "base",
+        "cinematography",
+        "exposure-film-look",
+        "rarity-common"
+      ],
+      "facets": {
+        "response": "soft-negative-film-response",
+        "treatment": "textured-finish"
+      },
+      "subcategory": "soft-negative-film-response",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-exposure-film-look-base-soft-negative-film-response-brushed-finish",
+      "semantic_key": "cinematography-exposure-film-look-base-soft-negative-film-response-brushed-finish",
+      "text": "soft negative-film response with a brushed finish",
+      "sentence": "Soft negative-film response with a brushed finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "soft negative-film response with a brushed finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing soft negative-film response with a brushed finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with soft negative-film response with a brushed finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-exposure-film-look-base-soft-negative-film-response",
+      "tags": [
+        "base",
+        "cinematography",
+        "exposure-film-look",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "response": "soft-negative-film-response",
+        "treatment": "brushed-finish"
+      },
+      "subcategory": "soft-negative-film-response",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-exposure-film-look-base-soft-negative-film-response-polished-finish",
+      "semantic_key": "cinematography-exposure-film-look-base-soft-negative-film-response-polished-finish",
+      "text": "soft negative-film response with a polished finish",
+      "sentence": "Soft negative-film response with a polished finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "soft negative-film response with a polished finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing soft negative-film response with a polished finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with soft negative-film response with a polished finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-exposure-film-look-base-soft-negative-film-response",
+      "tags": [
+        "base",
+        "cinematography",
+        "exposure-film-look",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "response": "soft-negative-film-response",
+        "treatment": "polished-finish"
+      },
+      "subcategory": "soft-negative-film-response",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-exposure-film-look-base-soft-negative-film-response-weathered-finish",
+      "semantic_key": "cinematography-exposure-film-look-base-soft-negative-film-response-weathered-finish",
+      "text": "soft negative-film response with a weathered finish",
+      "sentence": "Soft negative-film response with a weathered finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "soft negative-film response with a weathered finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing soft negative-film response with a weathered finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with soft negative-film response with a weathered finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-exposure-film-look-base-soft-negative-film-response",
+      "tags": [
+        "base",
+        "cinematography",
+        "exposure-film-look",
+        "rarity-rare"
+      ],
+      "facets": {
+        "response": "soft-negative-film-response",
+        "treatment": "weathered-finish"
+      },
+      "subcategory": "soft-negative-film-response",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-exposure-film-look-base-soft-negative-film-response-satin-finish",
+      "semantic_key": "cinematography-exposure-film-look-base-soft-negative-film-response-satin-finish",
+      "text": "soft negative-film response with a satin finish",
+      "sentence": "Soft negative-film response with a satin finish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "soft negative-film response with a satin finish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing soft negative-film response with a satin finish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with soft negative-film response with a satin finish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-exposure-film-look-base-soft-negative-film-response",
+      "tags": [
+        "base",
+        "cinematography",
+        "exposure-film-look",
+        "rarity-rare"
+      ],
+      "facets": {
+        "response": "soft-negative-film-response",
+        "treatment": "satin-finish"
+      },
+      "subcategory": "soft-negative-film-response",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    }
+  ]
+}

@@ -1,0 +1,2577 @@
+{
+  "schema_version": "2.0",
+  "id": "cinematography-aperture-base",
+  "version": "2.0.0",
+  "library": "aperture",
+  "domain": "cinematography",
+  "category": "aperture",
+  "language": "en",
+  "status": "active",
+  "safety": "general",
+  "tags": [
+    "base"
+  ],
+  "fallback_option_id": "cinematography-aperture-base-f-1-4-aperture-documentary-restraint",
+  "options": [
+    {
+      "id": "cinematography-aperture-base-f-1-4-aperture-documentary-restraint",
+      "semantic_key": "cinematography-aperture-base-f-1-4-aperture-documentary-restraint",
+      "text": "f-1-4 aperture chosen for documentary restraint",
+      "sentence": "F-1-4 aperture chosen for documentary restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "f-1-4 aperture chosen for documentary restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing f-1-4 aperture chosen for documentary restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with f-1-4 aperture chosen for documentary restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-aperture-base-f-1-4-aperture",
+      "tags": [
+        "aperture",
+        "base",
+        "cinematography",
+        "rarity-common"
+      ],
+      "facets": {
+        "aperture-setting": "f-1-4-aperture",
+        "treatment": "documentary-restraint"
+      },
+      "subcategory": "f-1-4-aperture",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-aperture-base-f-1-4-aperture-formal-precision",
+      "semantic_key": "cinematography-aperture-base-f-1-4-aperture-formal-precision",
+      "text": "f-1-4 aperture chosen for formal precision",
+      "sentence": "F-1-4 aperture chosen for formal precision.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "f-1-4 aperture chosen for formal precision",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing f-1-4 aperture chosen for formal precision",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with f-1-4 aperture chosen for formal precision",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-aperture-base-f-1-4-aperture",
+      "tags": [
+        "aperture",
+        "base",
+        "cinematography",
+        "rarity-common"
+      ],
+      "facets": {
+        "aperture-setting": "f-1-4-aperture",
+        "treatment": "formal-precision"
+      },
+      "subcategory": "f-1-4-aperture",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-aperture-base-f-1-4-aperture-intimate-emphasis",
+      "semantic_key": "cinematography-aperture-base-f-1-4-aperture-intimate-emphasis",
+      "text": "f-1-4 aperture chosen for intimate emphasis",
+      "sentence": "F-1-4 aperture chosen for intimate emphasis.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "f-1-4 aperture chosen for intimate emphasis",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing f-1-4 aperture chosen for intimate emphasis",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with f-1-4 aperture chosen for intimate emphasis",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-aperture-base-f-1-4-aperture",
+      "tags": [
+        "aperture",
+        "base",
+        "cinematography",
+        "rarity-common"
+      ],
+      "facets": {
+        "aperture-setting": "f-1-4-aperture",
+        "treatment": "intimate-emphasis"
+      },
+      "subcategory": "f-1-4-aperture",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-aperture-base-f-1-4-aperture-spatial-context",
+      "semantic_key": "cinematography-aperture-base-f-1-4-aperture-spatial-context",
+      "text": "f-1-4 aperture chosen for spatial context",
+      "sentence": "F-1-4 aperture chosen for spatial context.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "f-1-4 aperture chosen for spatial context",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing f-1-4 aperture chosen for spatial context",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with f-1-4 aperture chosen for spatial context",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-aperture-base-f-1-4-aperture",
+      "tags": [
+        "aperture",
+        "base",
+        "cinematography",
+        "rarity-common"
+      ],
+      "facets": {
+        "aperture-setting": "f-1-4-aperture",
+        "treatment": "spatial-context"
+      },
+      "subcategory": "f-1-4-aperture",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-aperture-base-f-1-4-aperture-graphic-geometry",
+      "semantic_key": "cinematography-aperture-base-f-1-4-aperture-graphic-geometry",
+      "text": "f-1-4 aperture chosen for graphic geometry",
+      "sentence": "F-1-4 aperture chosen for graphic geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "f-1-4 aperture chosen for graphic geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing f-1-4 aperture chosen for graphic geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with f-1-4 aperture chosen for graphic geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-aperture-base-f-1-4-aperture",
+      "tags": [
+        "aperture",
+        "base",
+        "cinematography",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "aperture-setting": "f-1-4-aperture",
+        "treatment": "graphic-geometry"
+      },
+      "subcategory": "f-1-4-aperture",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-aperture-base-f-1-4-aperture-dynamic-energy",
+      "semantic_key": "cinematography-aperture-base-f-1-4-aperture-dynamic-energy",
+      "text": "f-1-4 aperture chosen for dynamic energy",
+      "sentence": "F-1-4 aperture chosen for dynamic energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "f-1-4 aperture chosen for dynamic energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing f-1-4 aperture chosen for dynamic energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with f-1-4 aperture chosen for dynamic energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-aperture-base-f-1-4-aperture",
+      "tags": [
+        "aperture",
+        "base",
+        "cinematography",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "aperture-setting": "f-1-4-aperture",
+        "treatment": "dynamic-energy"
+      },
+      "subcategory": "f-1-4-aperture",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-aperture-base-f-1-4-aperture-quiet-observation",
+      "semantic_key": "cinematography-aperture-base-f-1-4-aperture-quiet-observation",
+      "text": "f-1-4 aperture chosen for quiet observation",
+      "sentence": "F-1-4 aperture chosen for quiet observation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "f-1-4 aperture chosen for quiet observation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing f-1-4 aperture chosen for quiet observation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with f-1-4 aperture chosen for quiet observation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-aperture-base-f-1-4-aperture",
+      "tags": [
+        "aperture",
+        "base",
+        "cinematography",
+        "rarity-rare"
+      ],
+      "facets": {
+        "aperture-setting": "f-1-4-aperture",
+        "treatment": "quiet-observation"
+      },
+      "subcategory": "f-1-4-aperture",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-aperture-base-f-1-4-aperture-editorial-polish",
+      "semantic_key": "cinematography-aperture-base-f-1-4-aperture-editorial-polish",
+      "text": "f-1-4 aperture chosen for editorial polish",
+      "sentence": "F-1-4 aperture chosen for editorial polish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "f-1-4 aperture chosen for editorial polish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing f-1-4 aperture chosen for editorial polish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with f-1-4 aperture chosen for editorial polish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-aperture-base-f-1-4-aperture",
+      "tags": [
+        "aperture",
+        "base",
+        "cinematography",
+        "rarity-rare"
+      ],
+      "facets": {
+        "aperture-setting": "f-1-4-aperture",
+        "treatment": "editorial-polish"
+      },
+      "subcategory": "f-1-4-aperture",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-aperture-base-f-2-aperture-documentary-restraint",
+      "semantic_key": "cinematography-aperture-base-f-2-aperture-documentary-restraint",
+      "text": "f-2 aperture chosen for documentary restraint",
+      "sentence": "F-2 aperture chosen for documentary restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "f-2 aperture chosen for documentary restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing f-2 aperture chosen for documentary restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with f-2 aperture chosen for documentary restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-aperture-base-f-2-aperture",
+      "tags": [
+        "aperture",
+        "base",
+        "cinematography",
+        "rarity-common"
+      ],
+      "facets": {
+        "aperture-setting": "f-2-aperture",
+        "treatment": "documentary-restraint"
+      },
+      "subcategory": "f-2-aperture",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-aperture-base-f-2-aperture-formal-precision",
+      "semantic_key": "cinematography-aperture-base-f-2-aperture-formal-precision",
+      "text": "f-2 aperture chosen for formal precision",
+      "sentence": "F-2 aperture chosen for formal precision.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "f-2 aperture chosen for formal precision",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing f-2 aperture chosen for formal precision",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with f-2 aperture chosen for formal precision",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-aperture-base-f-2-aperture",
+      "tags": [
+        "aperture",
+        "base",
+        "cinematography",
+        "rarity-common"
+      ],
+      "facets": {
+        "aperture-setting": "f-2-aperture",
+        "treatment": "formal-precision"
+      },
+      "subcategory": "f-2-aperture",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-aperture-base-f-2-aperture-intimate-emphasis",
+      "semantic_key": "cinematography-aperture-base-f-2-aperture-intimate-emphasis",
+      "text": "f-2 aperture chosen for intimate emphasis",
+      "sentence": "F-2 aperture chosen for intimate emphasis.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "f-2 aperture chosen for intimate emphasis",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing f-2 aperture chosen for intimate emphasis",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with f-2 aperture chosen for intimate emphasis",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-aperture-base-f-2-aperture",
+      "tags": [
+        "aperture",
+        "base",
+        "cinematography",
+        "rarity-common"
+      ],
+      "facets": {
+        "aperture-setting": "f-2-aperture",
+        "treatment": "intimate-emphasis"
+      },
+      "subcategory": "f-2-aperture",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-aperture-base-f-2-aperture-spatial-context",
+      "semantic_key": "cinematography-aperture-base-f-2-aperture-spatial-context",
+      "text": "f-2 aperture chosen for spatial context",
+      "sentence": "F-2 aperture chosen for spatial context.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "f-2 aperture chosen for spatial context",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing f-2 aperture chosen for spatial context",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with f-2 aperture chosen for spatial context",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-aperture-base-f-2-aperture",
+      "tags": [
+        "aperture",
+        "base",
+        "cinematography",
+        "rarity-common"
+      ],
+      "facets": {
+        "aperture-setting": "f-2-aperture",
+        "treatment": "spatial-context"
+      },
+      "subcategory": "f-2-aperture",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-aperture-base-f-2-aperture-graphic-geometry",
+      "semantic_key": "cinematography-aperture-base-f-2-aperture-graphic-geometry",
+      "text": "f-2 aperture chosen for graphic geometry",
+      "sentence": "F-2 aperture chosen for graphic geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "f-2 aperture chosen for graphic geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing f-2 aperture chosen for graphic geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with f-2 aperture chosen for graphic geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-aperture-base-f-2-aperture",
+      "tags": [
+        "aperture",
+        "base",
+        "cinematography",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "aperture-setting": "f-2-aperture",
+        "treatment": "graphic-geometry"
+      },
+      "subcategory": "f-2-aperture",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-aperture-base-f-2-aperture-dynamic-energy",
+      "semantic_key": "cinematography-aperture-base-f-2-aperture-dynamic-energy",
+      "text": "f-2 aperture chosen for dynamic energy",
+      "sentence": "F-2 aperture chosen for dynamic energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "f-2 aperture chosen for dynamic energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing f-2 aperture chosen for dynamic energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with f-2 aperture chosen for dynamic energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-aperture-base-f-2-aperture",
+      "tags": [
+        "aperture",
+        "base",
+        "cinematography",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "aperture-setting": "f-2-aperture",
+        "treatment": "dynamic-energy"
+      },
+      "subcategory": "f-2-aperture",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-aperture-base-f-2-aperture-quiet-observation",
+      "semantic_key": "cinematography-aperture-base-f-2-aperture-quiet-observation",
+      "text": "f-2 aperture chosen for quiet observation",
+      "sentence": "F-2 aperture chosen for quiet observation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "f-2 aperture chosen for quiet observation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing f-2 aperture chosen for quiet observation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with f-2 aperture chosen for quiet observation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-aperture-base-f-2-aperture",
+      "tags": [
+        "aperture",
+        "base",
+        "cinematography",
+        "rarity-rare"
+      ],
+      "facets": {
+        "aperture-setting": "f-2-aperture",
+        "treatment": "quiet-observation"
+      },
+      "subcategory": "f-2-aperture",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-aperture-base-f-2-aperture-editorial-polish",
+      "semantic_key": "cinematography-aperture-base-f-2-aperture-editorial-polish",
+      "text": "f-2 aperture chosen for editorial polish",
+      "sentence": "F-2 aperture chosen for editorial polish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "f-2 aperture chosen for editorial polish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing f-2 aperture chosen for editorial polish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with f-2 aperture chosen for editorial polish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-aperture-base-f-2-aperture",
+      "tags": [
+        "aperture",
+        "base",
+        "cinematography",
+        "rarity-rare"
+      ],
+      "facets": {
+        "aperture-setting": "f-2-aperture",
+        "treatment": "editorial-polish"
+      },
+      "subcategory": "f-2-aperture",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-aperture-base-f-2-8-aperture-documentary-restraint",
+      "semantic_key": "cinematography-aperture-base-f-2-8-aperture-documentary-restraint",
+      "text": "f-2-8 aperture chosen for documentary restraint",
+      "sentence": "F-2-8 aperture chosen for documentary restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "f-2-8 aperture chosen for documentary restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing f-2-8 aperture chosen for documentary restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with f-2-8 aperture chosen for documentary restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-aperture-base-f-2-8-aperture",
+      "tags": [
+        "aperture",
+        "base",
+        "cinematography",
+        "rarity-common"
+      ],
+      "facets": {
+        "aperture-setting": "f-2-8-aperture",
+        "treatment": "documentary-restraint"
+      },
+      "subcategory": "f-2-8-aperture",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-aperture-base-f-2-8-aperture-formal-precision",
+      "semantic_key": "cinematography-aperture-base-f-2-8-aperture-formal-precision",
+      "text": "f-2-8 aperture chosen for formal precision",
+      "sentence": "F-2-8 aperture chosen for formal precision.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "f-2-8 aperture chosen for formal precision",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing f-2-8 aperture chosen for formal precision",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with f-2-8 aperture chosen for formal precision",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-aperture-base-f-2-8-aperture",
+      "tags": [
+        "aperture",
+        "base",
+        "cinematography",
+        "rarity-common"
+      ],
+      "facets": {
+        "aperture-setting": "f-2-8-aperture",
+        "treatment": "formal-precision"
+      },
+      "subcategory": "f-2-8-aperture",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-aperture-base-f-2-8-aperture-intimate-emphasis",
+      "semantic_key": "cinematography-aperture-base-f-2-8-aperture-intimate-emphasis",
+      "text": "f-2-8 aperture chosen for intimate emphasis",
+      "sentence": "F-2-8 aperture chosen for intimate emphasis.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "f-2-8 aperture chosen for intimate emphasis",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing f-2-8 aperture chosen for intimate emphasis",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with f-2-8 aperture chosen for intimate emphasis",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-aperture-base-f-2-8-aperture",
+      "tags": [
+        "aperture",
+        "base",
+        "cinematography",
+        "rarity-common"
+      ],
+      "facets": {
+        "aperture-setting": "f-2-8-aperture",
+        "treatment": "intimate-emphasis"
+      },
+      "subcategory": "f-2-8-aperture",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-aperture-base-f-2-8-aperture-spatial-context",
+      "semantic_key": "cinematography-aperture-base-f-2-8-aperture-spatial-context",
+      "text": "f-2-8 aperture chosen for spatial context",
+      "sentence": "F-2-8 aperture chosen for spatial context.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "f-2-8 aperture chosen for spatial context",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing f-2-8 aperture chosen for spatial context",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with f-2-8 aperture chosen for spatial context",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-aperture-base-f-2-8-aperture",
+      "tags": [
+        "aperture",
+        "base",
+        "cinematography",
+        "rarity-common"
+      ],
+      "facets": {
+        "aperture-setting": "f-2-8-aperture",
+        "treatment": "spatial-context"
+      },
+      "subcategory": "f-2-8-aperture",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-aperture-base-f-2-8-aperture-graphic-geometry",
+      "semantic_key": "cinematography-aperture-base-f-2-8-aperture-graphic-geometry",
+      "text": "f-2-8 aperture chosen for graphic geometry",
+      "sentence": "F-2-8 aperture chosen for graphic geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "f-2-8 aperture chosen for graphic geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing f-2-8 aperture chosen for graphic geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with f-2-8 aperture chosen for graphic geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-aperture-base-f-2-8-aperture",
+      "tags": [
+        "aperture",
+        "base",
+        "cinematography",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "aperture-setting": "f-2-8-aperture",
+        "treatment": "graphic-geometry"
+      },
+      "subcategory": "f-2-8-aperture",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-aperture-base-f-2-8-aperture-dynamic-energy",
+      "semantic_key": "cinematography-aperture-base-f-2-8-aperture-dynamic-energy",
+      "text": "f-2-8 aperture chosen for dynamic energy",
+      "sentence": "F-2-8 aperture chosen for dynamic energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "f-2-8 aperture chosen for dynamic energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing f-2-8 aperture chosen for dynamic energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with f-2-8 aperture chosen for dynamic energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-aperture-base-f-2-8-aperture",
+      "tags": [
+        "aperture",
+        "base",
+        "cinematography",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "aperture-setting": "f-2-8-aperture",
+        "treatment": "dynamic-energy"
+      },
+      "subcategory": "f-2-8-aperture",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-aperture-base-f-2-8-aperture-quiet-observation",
+      "semantic_key": "cinematography-aperture-base-f-2-8-aperture-quiet-observation",
+      "text": "f-2-8 aperture chosen for quiet observation",
+      "sentence": "F-2-8 aperture chosen for quiet observation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "f-2-8 aperture chosen for quiet observation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing f-2-8 aperture chosen for quiet observation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with f-2-8 aperture chosen for quiet observation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-aperture-base-f-2-8-aperture",
+      "tags": [
+        "aperture",
+        "base",
+        "cinematography",
+        "rarity-rare"
+      ],
+      "facets": {
+        "aperture-setting": "f-2-8-aperture",
+        "treatment": "quiet-observation"
+      },
+      "subcategory": "f-2-8-aperture",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-aperture-base-f-2-8-aperture-editorial-polish",
+      "semantic_key": "cinematography-aperture-base-f-2-8-aperture-editorial-polish",
+      "text": "f-2-8 aperture chosen for editorial polish",
+      "sentence": "F-2-8 aperture chosen for editorial polish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "f-2-8 aperture chosen for editorial polish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing f-2-8 aperture chosen for editorial polish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with f-2-8 aperture chosen for editorial polish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-aperture-base-f-2-8-aperture",
+      "tags": [
+        "aperture",
+        "base",
+        "cinematography",
+        "rarity-rare"
+      ],
+      "facets": {
+        "aperture-setting": "f-2-8-aperture",
+        "treatment": "editorial-polish"
+      },
+      "subcategory": "f-2-8-aperture",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-aperture-base-f-4-aperture-documentary-restraint",
+      "semantic_key": "cinematography-aperture-base-f-4-aperture-documentary-restraint",
+      "text": "f-4 aperture chosen for documentary restraint",
+      "sentence": "F-4 aperture chosen for documentary restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "f-4 aperture chosen for documentary restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing f-4 aperture chosen for documentary restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with f-4 aperture chosen for documentary restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-aperture-base-f-4-aperture",
+      "tags": [
+        "aperture",
+        "base",
+        "cinematography",
+        "rarity-common"
+      ],
+      "facets": {
+        "aperture-setting": "f-4-aperture",
+        "treatment": "documentary-restraint"
+      },
+      "subcategory": "f-4-aperture",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-aperture-base-f-4-aperture-formal-precision",
+      "semantic_key": "cinematography-aperture-base-f-4-aperture-formal-precision",
+      "text": "f-4 aperture chosen for formal precision",
+      "sentence": "F-4 aperture chosen for formal precision.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "f-4 aperture chosen for formal precision",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing f-4 aperture chosen for formal precision",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with f-4 aperture chosen for formal precision",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-aperture-base-f-4-aperture",
+      "tags": [
+        "aperture",
+        "base",
+        "cinematography",
+        "rarity-common"
+      ],
+      "facets": {
+        "aperture-setting": "f-4-aperture",
+        "treatment": "formal-precision"
+      },
+      "subcategory": "f-4-aperture",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-aperture-base-f-4-aperture-intimate-emphasis",
+      "semantic_key": "cinematography-aperture-base-f-4-aperture-intimate-emphasis",
+      "text": "f-4 aperture chosen for intimate emphasis",
+      "sentence": "F-4 aperture chosen for intimate emphasis.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "f-4 aperture chosen for intimate emphasis",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing f-4 aperture chosen for intimate emphasis",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with f-4 aperture chosen for intimate emphasis",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-aperture-base-f-4-aperture",
+      "tags": [
+        "aperture",
+        "base",
+        "cinematography",
+        "rarity-common"
+      ],
+      "facets": {
+        "aperture-setting": "f-4-aperture",
+        "treatment": "intimate-emphasis"
+      },
+      "subcategory": "f-4-aperture",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-aperture-base-f-4-aperture-spatial-context",
+      "semantic_key": "cinematography-aperture-base-f-4-aperture-spatial-context",
+      "text": "f-4 aperture chosen for spatial context",
+      "sentence": "F-4 aperture chosen for spatial context.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "f-4 aperture chosen for spatial context",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing f-4 aperture chosen for spatial context",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with f-4 aperture chosen for spatial context",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-aperture-base-f-4-aperture",
+      "tags": [
+        "aperture",
+        "base",
+        "cinematography",
+        "rarity-common"
+      ],
+      "facets": {
+        "aperture-setting": "f-4-aperture",
+        "treatment": "spatial-context"
+      },
+      "subcategory": "f-4-aperture",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-aperture-base-f-4-aperture-graphic-geometry",
+      "semantic_key": "cinematography-aperture-base-f-4-aperture-graphic-geometry",
+      "text": "f-4 aperture chosen for graphic geometry",
+      "sentence": "F-4 aperture chosen for graphic geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "f-4 aperture chosen for graphic geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing f-4 aperture chosen for graphic geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with f-4 aperture chosen for graphic geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-aperture-base-f-4-aperture",
+      "tags": [
+        "aperture",
+        "base",
+        "cinematography",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "aperture-setting": "f-4-aperture",
+        "treatment": "graphic-geometry"
+      },
+      "subcategory": "f-4-aperture",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-aperture-base-f-4-aperture-dynamic-energy",
+      "semantic_key": "cinematography-aperture-base-f-4-aperture-dynamic-energy",
+      "text": "f-4 aperture chosen for dynamic energy",
+      "sentence": "F-4 aperture chosen for dynamic energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "f-4 aperture chosen for dynamic energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing f-4 aperture chosen for dynamic energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with f-4 aperture chosen for dynamic energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-aperture-base-f-4-aperture",
+      "tags": [
+        "aperture",
+        "base",
+        "cinematography",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "aperture-setting": "f-4-aperture",
+        "treatment": "dynamic-energy"
+      },
+      "subcategory": "f-4-aperture",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-aperture-base-f-4-aperture-quiet-observation",
+      "semantic_key": "cinematography-aperture-base-f-4-aperture-quiet-observation",
+      "text": "f-4 aperture chosen for quiet observation",
+      "sentence": "F-4 aperture chosen for quiet observation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "f-4 aperture chosen for quiet observation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing f-4 aperture chosen for quiet observation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with f-4 aperture chosen for quiet observation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-aperture-base-f-4-aperture",
+      "tags": [
+        "aperture",
+        "base",
+        "cinematography",
+        "rarity-rare"
+      ],
+      "facets": {
+        "aperture-setting": "f-4-aperture",
+        "treatment": "quiet-observation"
+      },
+      "subcategory": "f-4-aperture",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-aperture-base-f-4-aperture-editorial-polish",
+      "semantic_key": "cinematography-aperture-base-f-4-aperture-editorial-polish",
+      "text": "f-4 aperture chosen for editorial polish",
+      "sentence": "F-4 aperture chosen for editorial polish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "f-4 aperture chosen for editorial polish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing f-4 aperture chosen for editorial polish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with f-4 aperture chosen for editorial polish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-aperture-base-f-4-aperture",
+      "tags": [
+        "aperture",
+        "base",
+        "cinematography",
+        "rarity-rare"
+      ],
+      "facets": {
+        "aperture-setting": "f-4-aperture",
+        "treatment": "editorial-polish"
+      },
+      "subcategory": "f-4-aperture",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-aperture-base-f-5-6-aperture-documentary-restraint",
+      "semantic_key": "cinematography-aperture-base-f-5-6-aperture-documentary-restraint",
+      "text": "f-5-6 aperture chosen for documentary restraint",
+      "sentence": "F-5-6 aperture chosen for documentary restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "f-5-6 aperture chosen for documentary restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing f-5-6 aperture chosen for documentary restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with f-5-6 aperture chosen for documentary restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-aperture-base-f-5-6-aperture",
+      "tags": [
+        "aperture",
+        "base",
+        "cinematography",
+        "rarity-common"
+      ],
+      "facets": {
+        "aperture-setting": "f-5-6-aperture",
+        "treatment": "documentary-restraint"
+      },
+      "subcategory": "f-5-6-aperture",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-aperture-base-f-5-6-aperture-formal-precision",
+      "semantic_key": "cinematography-aperture-base-f-5-6-aperture-formal-precision",
+      "text": "f-5-6 aperture chosen for formal precision",
+      "sentence": "F-5-6 aperture chosen for formal precision.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "f-5-6 aperture chosen for formal precision",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing f-5-6 aperture chosen for formal precision",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with f-5-6 aperture chosen for formal precision",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-aperture-base-f-5-6-aperture",
+      "tags": [
+        "aperture",
+        "base",
+        "cinematography",
+        "rarity-common"
+      ],
+      "facets": {
+        "aperture-setting": "f-5-6-aperture",
+        "treatment": "formal-precision"
+      },
+      "subcategory": "f-5-6-aperture",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-aperture-base-f-5-6-aperture-intimate-emphasis",
+      "semantic_key": "cinematography-aperture-base-f-5-6-aperture-intimate-emphasis",
+      "text": "f-5-6 aperture chosen for intimate emphasis",
+      "sentence": "F-5-6 aperture chosen for intimate emphasis.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "f-5-6 aperture chosen for intimate emphasis",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing f-5-6 aperture chosen for intimate emphasis",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with f-5-6 aperture chosen for intimate emphasis",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-aperture-base-f-5-6-aperture",
+      "tags": [
+        "aperture",
+        "base",
+        "cinematography",
+        "rarity-common"
+      ],
+      "facets": {
+        "aperture-setting": "f-5-6-aperture",
+        "treatment": "intimate-emphasis"
+      },
+      "subcategory": "f-5-6-aperture",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-aperture-base-f-5-6-aperture-spatial-context",
+      "semantic_key": "cinematography-aperture-base-f-5-6-aperture-spatial-context",
+      "text": "f-5-6 aperture chosen for spatial context",
+      "sentence": "F-5-6 aperture chosen for spatial context.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "f-5-6 aperture chosen for spatial context",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing f-5-6 aperture chosen for spatial context",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with f-5-6 aperture chosen for spatial context",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-aperture-base-f-5-6-aperture",
+      "tags": [
+        "aperture",
+        "base",
+        "cinematography",
+        "rarity-common"
+      ],
+      "facets": {
+        "aperture-setting": "f-5-6-aperture",
+        "treatment": "spatial-context"
+      },
+      "subcategory": "f-5-6-aperture",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-aperture-base-f-5-6-aperture-graphic-geometry",
+      "semantic_key": "cinematography-aperture-base-f-5-6-aperture-graphic-geometry",
+      "text": "f-5-6 aperture chosen for graphic geometry",
+      "sentence": "F-5-6 aperture chosen for graphic geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "f-5-6 aperture chosen for graphic geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing f-5-6 aperture chosen for graphic geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with f-5-6 aperture chosen for graphic geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-aperture-base-f-5-6-aperture",
+      "tags": [
+        "aperture",
+        "base",
+        "cinematography",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "aperture-setting": "f-5-6-aperture",
+        "treatment": "graphic-geometry"
+      },
+      "subcategory": "f-5-6-aperture",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-aperture-base-f-5-6-aperture-dynamic-energy",
+      "semantic_key": "cinematography-aperture-base-f-5-6-aperture-dynamic-energy",
+      "text": "f-5-6 aperture chosen for dynamic energy",
+      "sentence": "F-5-6 aperture chosen for dynamic energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "f-5-6 aperture chosen for dynamic energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing f-5-6 aperture chosen for dynamic energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with f-5-6 aperture chosen for dynamic energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-aperture-base-f-5-6-aperture",
+      "tags": [
+        "aperture",
+        "base",
+        "cinematography",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "aperture-setting": "f-5-6-aperture",
+        "treatment": "dynamic-energy"
+      },
+      "subcategory": "f-5-6-aperture",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-aperture-base-f-5-6-aperture-quiet-observation",
+      "semantic_key": "cinematography-aperture-base-f-5-6-aperture-quiet-observation",
+      "text": "f-5-6 aperture chosen for quiet observation",
+      "sentence": "F-5-6 aperture chosen for quiet observation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "f-5-6 aperture chosen for quiet observation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing f-5-6 aperture chosen for quiet observation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with f-5-6 aperture chosen for quiet observation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-aperture-base-f-5-6-aperture",
+      "tags": [
+        "aperture",
+        "base",
+        "cinematography",
+        "rarity-rare"
+      ],
+      "facets": {
+        "aperture-setting": "f-5-6-aperture",
+        "treatment": "quiet-observation"
+      },
+      "subcategory": "f-5-6-aperture",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-aperture-base-f-5-6-aperture-editorial-polish",
+      "semantic_key": "cinematography-aperture-base-f-5-6-aperture-editorial-polish",
+      "text": "f-5-6 aperture chosen for editorial polish",
+      "sentence": "F-5-6 aperture chosen for editorial polish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "f-5-6 aperture chosen for editorial polish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing f-5-6 aperture chosen for editorial polish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with f-5-6 aperture chosen for editorial polish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-aperture-base-f-5-6-aperture",
+      "tags": [
+        "aperture",
+        "base",
+        "cinematography",
+        "rarity-rare"
+      ],
+      "facets": {
+        "aperture-setting": "f-5-6-aperture",
+        "treatment": "editorial-polish"
+      },
+      "subcategory": "f-5-6-aperture",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-aperture-base-f-8-aperture-documentary-restraint",
+      "semantic_key": "cinematography-aperture-base-f-8-aperture-documentary-restraint",
+      "text": "f-8 aperture chosen for documentary restraint",
+      "sentence": "F-8 aperture chosen for documentary restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "f-8 aperture chosen for documentary restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing f-8 aperture chosen for documentary restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with f-8 aperture chosen for documentary restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-aperture-base-f-8-aperture",
+      "tags": [
+        "aperture",
+        "base",
+        "cinematography",
+        "rarity-common"
+      ],
+      "facets": {
+        "aperture-setting": "f-8-aperture",
+        "treatment": "documentary-restraint"
+      },
+      "subcategory": "f-8-aperture",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-aperture-base-f-8-aperture-formal-precision",
+      "semantic_key": "cinematography-aperture-base-f-8-aperture-formal-precision",
+      "text": "f-8 aperture chosen for formal precision",
+      "sentence": "F-8 aperture chosen for formal precision.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "f-8 aperture chosen for formal precision",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing f-8 aperture chosen for formal precision",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with f-8 aperture chosen for formal precision",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-aperture-base-f-8-aperture",
+      "tags": [
+        "aperture",
+        "base",
+        "cinematography",
+        "rarity-common"
+      ],
+      "facets": {
+        "aperture-setting": "f-8-aperture",
+        "treatment": "formal-precision"
+      },
+      "subcategory": "f-8-aperture",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-aperture-base-f-8-aperture-intimate-emphasis",
+      "semantic_key": "cinematography-aperture-base-f-8-aperture-intimate-emphasis",
+      "text": "f-8 aperture chosen for intimate emphasis",
+      "sentence": "F-8 aperture chosen for intimate emphasis.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "f-8 aperture chosen for intimate emphasis",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing f-8 aperture chosen for intimate emphasis",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with f-8 aperture chosen for intimate emphasis",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-aperture-base-f-8-aperture",
+      "tags": [
+        "aperture",
+        "base",
+        "cinematography",
+        "rarity-common"
+      ],
+      "facets": {
+        "aperture-setting": "f-8-aperture",
+        "treatment": "intimate-emphasis"
+      },
+      "subcategory": "f-8-aperture",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-aperture-base-f-8-aperture-spatial-context",
+      "semantic_key": "cinematography-aperture-base-f-8-aperture-spatial-context",
+      "text": "f-8 aperture chosen for spatial context",
+      "sentence": "F-8 aperture chosen for spatial context.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "f-8 aperture chosen for spatial context",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing f-8 aperture chosen for spatial context",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with f-8 aperture chosen for spatial context",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-aperture-base-f-8-aperture",
+      "tags": [
+        "aperture",
+        "base",
+        "cinematography",
+        "rarity-common"
+      ],
+      "facets": {
+        "aperture-setting": "f-8-aperture",
+        "treatment": "spatial-context"
+      },
+      "subcategory": "f-8-aperture",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-aperture-base-f-8-aperture-graphic-geometry",
+      "semantic_key": "cinematography-aperture-base-f-8-aperture-graphic-geometry",
+      "text": "f-8 aperture chosen for graphic geometry",
+      "sentence": "F-8 aperture chosen for graphic geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "f-8 aperture chosen for graphic geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing f-8 aperture chosen for graphic geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with f-8 aperture chosen for graphic geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-aperture-base-f-8-aperture",
+      "tags": [
+        "aperture",
+        "base",
+        "cinematography",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "aperture-setting": "f-8-aperture",
+        "treatment": "graphic-geometry"
+      },
+      "subcategory": "f-8-aperture",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-aperture-base-f-8-aperture-dynamic-energy",
+      "semantic_key": "cinematography-aperture-base-f-8-aperture-dynamic-energy",
+      "text": "f-8 aperture chosen for dynamic energy",
+      "sentence": "F-8 aperture chosen for dynamic energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "f-8 aperture chosen for dynamic energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing f-8 aperture chosen for dynamic energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with f-8 aperture chosen for dynamic energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-aperture-base-f-8-aperture",
+      "tags": [
+        "aperture",
+        "base",
+        "cinematography",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "aperture-setting": "f-8-aperture",
+        "treatment": "dynamic-energy"
+      },
+      "subcategory": "f-8-aperture",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-aperture-base-f-8-aperture-quiet-observation",
+      "semantic_key": "cinematography-aperture-base-f-8-aperture-quiet-observation",
+      "text": "f-8 aperture chosen for quiet observation",
+      "sentence": "F-8 aperture chosen for quiet observation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "f-8 aperture chosen for quiet observation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing f-8 aperture chosen for quiet observation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with f-8 aperture chosen for quiet observation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-aperture-base-f-8-aperture",
+      "tags": [
+        "aperture",
+        "base",
+        "cinematography",
+        "rarity-rare"
+      ],
+      "facets": {
+        "aperture-setting": "f-8-aperture",
+        "treatment": "quiet-observation"
+      },
+      "subcategory": "f-8-aperture",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-aperture-base-f-8-aperture-editorial-polish",
+      "semantic_key": "cinematography-aperture-base-f-8-aperture-editorial-polish",
+      "text": "f-8 aperture chosen for editorial polish",
+      "sentence": "F-8 aperture chosen for editorial polish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "f-8 aperture chosen for editorial polish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing f-8 aperture chosen for editorial polish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with f-8 aperture chosen for editorial polish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-aperture-base-f-8-aperture",
+      "tags": [
+        "aperture",
+        "base",
+        "cinematography",
+        "rarity-rare"
+      ],
+      "facets": {
+        "aperture-setting": "f-8-aperture",
+        "treatment": "editorial-polish"
+      },
+      "subcategory": "f-8-aperture",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-aperture-base-f-11-aperture-documentary-restraint",
+      "semantic_key": "cinematography-aperture-base-f-11-aperture-documentary-restraint",
+      "text": "f-11 aperture chosen for documentary restraint",
+      "sentence": "F-11 aperture chosen for documentary restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "f-11 aperture chosen for documentary restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing f-11 aperture chosen for documentary restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with f-11 aperture chosen for documentary restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-aperture-base-f-11-aperture",
+      "tags": [
+        "aperture",
+        "base",
+        "cinematography",
+        "rarity-common"
+      ],
+      "facets": {
+        "aperture-setting": "f-11-aperture",
+        "treatment": "documentary-restraint"
+      },
+      "subcategory": "f-11-aperture",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-aperture-base-f-11-aperture-formal-precision",
+      "semantic_key": "cinematography-aperture-base-f-11-aperture-formal-precision",
+      "text": "f-11 aperture chosen for formal precision",
+      "sentence": "F-11 aperture chosen for formal precision.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "f-11 aperture chosen for formal precision",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing f-11 aperture chosen for formal precision",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with f-11 aperture chosen for formal precision",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-aperture-base-f-11-aperture",
+      "tags": [
+        "aperture",
+        "base",
+        "cinematography",
+        "rarity-common"
+      ],
+      "facets": {
+        "aperture-setting": "f-11-aperture",
+        "treatment": "formal-precision"
+      },
+      "subcategory": "f-11-aperture",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-aperture-base-f-11-aperture-intimate-emphasis",
+      "semantic_key": "cinematography-aperture-base-f-11-aperture-intimate-emphasis",
+      "text": "f-11 aperture chosen for intimate emphasis",
+      "sentence": "F-11 aperture chosen for intimate emphasis.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "f-11 aperture chosen for intimate emphasis",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing f-11 aperture chosen for intimate emphasis",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with f-11 aperture chosen for intimate emphasis",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-aperture-base-f-11-aperture",
+      "tags": [
+        "aperture",
+        "base",
+        "cinematography",
+        "rarity-common"
+      ],
+      "facets": {
+        "aperture-setting": "f-11-aperture",
+        "treatment": "intimate-emphasis"
+      },
+      "subcategory": "f-11-aperture",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-aperture-base-f-11-aperture-spatial-context",
+      "semantic_key": "cinematography-aperture-base-f-11-aperture-spatial-context",
+      "text": "f-11 aperture chosen for spatial context",
+      "sentence": "F-11 aperture chosen for spatial context.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "f-11 aperture chosen for spatial context",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing f-11 aperture chosen for spatial context",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with f-11 aperture chosen for spatial context",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-aperture-base-f-11-aperture",
+      "tags": [
+        "aperture",
+        "base",
+        "cinematography",
+        "rarity-common"
+      ],
+      "facets": {
+        "aperture-setting": "f-11-aperture",
+        "treatment": "spatial-context"
+      },
+      "subcategory": "f-11-aperture",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-aperture-base-f-11-aperture-graphic-geometry",
+      "semantic_key": "cinematography-aperture-base-f-11-aperture-graphic-geometry",
+      "text": "f-11 aperture chosen for graphic geometry",
+      "sentence": "F-11 aperture chosen for graphic geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "f-11 aperture chosen for graphic geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing f-11 aperture chosen for graphic geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with f-11 aperture chosen for graphic geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-aperture-base-f-11-aperture",
+      "tags": [
+        "aperture",
+        "base",
+        "cinematography",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "aperture-setting": "f-11-aperture",
+        "treatment": "graphic-geometry"
+      },
+      "subcategory": "f-11-aperture",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-aperture-base-f-11-aperture-dynamic-energy",
+      "semantic_key": "cinematography-aperture-base-f-11-aperture-dynamic-energy",
+      "text": "f-11 aperture chosen for dynamic energy",
+      "sentence": "F-11 aperture chosen for dynamic energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "f-11 aperture chosen for dynamic energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing f-11 aperture chosen for dynamic energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with f-11 aperture chosen for dynamic energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-aperture-base-f-11-aperture",
+      "tags": [
+        "aperture",
+        "base",
+        "cinematography",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "aperture-setting": "f-11-aperture",
+        "treatment": "dynamic-energy"
+      },
+      "subcategory": "f-11-aperture",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-aperture-base-f-11-aperture-quiet-observation",
+      "semantic_key": "cinematography-aperture-base-f-11-aperture-quiet-observation",
+      "text": "f-11 aperture chosen for quiet observation",
+      "sentence": "F-11 aperture chosen for quiet observation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "f-11 aperture chosen for quiet observation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing f-11 aperture chosen for quiet observation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with f-11 aperture chosen for quiet observation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-aperture-base-f-11-aperture",
+      "tags": [
+        "aperture",
+        "base",
+        "cinematography",
+        "rarity-rare"
+      ],
+      "facets": {
+        "aperture-setting": "f-11-aperture",
+        "treatment": "quiet-observation"
+      },
+      "subcategory": "f-11-aperture",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-aperture-base-f-11-aperture-editorial-polish",
+      "semantic_key": "cinematography-aperture-base-f-11-aperture-editorial-polish",
+      "text": "f-11 aperture chosen for editorial polish",
+      "sentence": "F-11 aperture chosen for editorial polish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "f-11 aperture chosen for editorial polish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing f-11 aperture chosen for editorial polish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with f-11 aperture chosen for editorial polish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-aperture-base-f-11-aperture",
+      "tags": [
+        "aperture",
+        "base",
+        "cinematography",
+        "rarity-rare"
+      ],
+      "facets": {
+        "aperture-setting": "f-11-aperture",
+        "treatment": "editorial-polish"
+      },
+      "subcategory": "f-11-aperture",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-aperture-base-variable-aperture-strategy-documentary-restraint",
+      "semantic_key": "cinematography-aperture-base-variable-aperture-strategy-documentary-restraint",
+      "text": "variable aperture strategy chosen for documentary restraint",
+      "sentence": "Variable aperture strategy chosen for documentary restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "variable aperture strategy chosen for documentary restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing variable aperture strategy chosen for documentary restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with variable aperture strategy chosen for documentary restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-aperture-base-variable-aperture-strategy",
+      "tags": [
+        "aperture",
+        "base",
+        "cinematography",
+        "rarity-common"
+      ],
+      "facets": {
+        "aperture-setting": "variable-aperture-strategy",
+        "treatment": "documentary-restraint"
+      },
+      "subcategory": "variable-aperture-strategy",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-aperture-base-variable-aperture-strategy-formal-precision",
+      "semantic_key": "cinematography-aperture-base-variable-aperture-strategy-formal-precision",
+      "text": "variable aperture strategy chosen for formal precision",
+      "sentence": "Variable aperture strategy chosen for formal precision.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "variable aperture strategy chosen for formal precision",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing variable aperture strategy chosen for formal precision",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with variable aperture strategy chosen for formal precision",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-aperture-base-variable-aperture-strategy",
+      "tags": [
+        "aperture",
+        "base",
+        "cinematography",
+        "rarity-common"
+      ],
+      "facets": {
+        "aperture-setting": "variable-aperture-strategy",
+        "treatment": "formal-precision"
+      },
+      "subcategory": "variable-aperture-strategy",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-aperture-base-variable-aperture-strategy-intimate-emphasis",
+      "semantic_key": "cinematography-aperture-base-variable-aperture-strategy-intimate-emphasis",
+      "text": "variable aperture strategy chosen for intimate emphasis",
+      "sentence": "Variable aperture strategy chosen for intimate emphasis.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "variable aperture strategy chosen for intimate emphasis",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing variable aperture strategy chosen for intimate emphasis",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with variable aperture strategy chosen for intimate emphasis",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-aperture-base-variable-aperture-strategy",
+      "tags": [
+        "aperture",
+        "base",
+        "cinematography",
+        "rarity-common"
+      ],
+      "facets": {
+        "aperture-setting": "variable-aperture-strategy",
+        "treatment": "intimate-emphasis"
+      },
+      "subcategory": "variable-aperture-strategy",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-aperture-base-variable-aperture-strategy-spatial-context",
+      "semantic_key": "cinematography-aperture-base-variable-aperture-strategy-spatial-context",
+      "text": "variable aperture strategy chosen for spatial context",
+      "sentence": "Variable aperture strategy chosen for spatial context.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "variable aperture strategy chosen for spatial context",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing variable aperture strategy chosen for spatial context",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with variable aperture strategy chosen for spatial context",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-aperture-base-variable-aperture-strategy",
+      "tags": [
+        "aperture",
+        "base",
+        "cinematography",
+        "rarity-common"
+      ],
+      "facets": {
+        "aperture-setting": "variable-aperture-strategy",
+        "treatment": "spatial-context"
+      },
+      "subcategory": "variable-aperture-strategy",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-aperture-base-variable-aperture-strategy-graphic-geometry",
+      "semantic_key": "cinematography-aperture-base-variable-aperture-strategy-graphic-geometry",
+      "text": "variable aperture strategy chosen for graphic geometry",
+      "sentence": "Variable aperture strategy chosen for graphic geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "variable aperture strategy chosen for graphic geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing variable aperture strategy chosen for graphic geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with variable aperture strategy chosen for graphic geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-aperture-base-variable-aperture-strategy",
+      "tags": [
+        "aperture",
+        "base",
+        "cinematography",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "aperture-setting": "variable-aperture-strategy",
+        "treatment": "graphic-geometry"
+      },
+      "subcategory": "variable-aperture-strategy",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-aperture-base-variable-aperture-strategy-dynamic-energy",
+      "semantic_key": "cinematography-aperture-base-variable-aperture-strategy-dynamic-energy",
+      "text": "variable aperture strategy chosen for dynamic energy",
+      "sentence": "Variable aperture strategy chosen for dynamic energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "variable aperture strategy chosen for dynamic energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing variable aperture strategy chosen for dynamic energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with variable aperture strategy chosen for dynamic energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-aperture-base-variable-aperture-strategy",
+      "tags": [
+        "aperture",
+        "base",
+        "cinematography",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "aperture-setting": "variable-aperture-strategy",
+        "treatment": "dynamic-energy"
+      },
+      "subcategory": "variable-aperture-strategy",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-aperture-base-variable-aperture-strategy-quiet-observation",
+      "semantic_key": "cinematography-aperture-base-variable-aperture-strategy-quiet-observation",
+      "text": "variable aperture strategy chosen for quiet observation",
+      "sentence": "Variable aperture strategy chosen for quiet observation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "variable aperture strategy chosen for quiet observation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing variable aperture strategy chosen for quiet observation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with variable aperture strategy chosen for quiet observation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-aperture-base-variable-aperture-strategy",
+      "tags": [
+        "aperture",
+        "base",
+        "cinematography",
+        "rarity-rare"
+      ],
+      "facets": {
+        "aperture-setting": "variable-aperture-strategy",
+        "treatment": "quiet-observation"
+      },
+      "subcategory": "variable-aperture-strategy",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-aperture-base-variable-aperture-strategy-editorial-polish",
+      "semantic_key": "cinematography-aperture-base-variable-aperture-strategy-editorial-polish",
+      "text": "variable aperture strategy chosen for editorial polish",
+      "sentence": "Variable aperture strategy chosen for editorial polish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "variable aperture strategy chosen for editorial polish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing variable aperture strategy chosen for editorial polish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with variable aperture strategy chosen for editorial polish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-aperture-base-variable-aperture-strategy",
+      "tags": [
+        "aperture",
+        "base",
+        "cinematography",
+        "rarity-rare"
+      ],
+      "facets": {
+        "aperture-setting": "variable-aperture-strategy",
+        "treatment": "editorial-polish"
+      },
+      "subcategory": "variable-aperture-strategy",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    }
+  ]
+}

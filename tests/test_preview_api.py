@@ -22,9 +22,9 @@ from prompt_architect.infrastructure.repository import bundled_repository
 
 def _configuration(seed: int = 7) -> dict[str, object]:
     return {
-        "schema_version": "1.0",
-        "profile_id": "portrait",
-        "profile_version": "1.0.0",
+        "schema_version": "1.1",
+        "profile_id": "portrait-core",
+        "profile_version": "2.0.0",
         "mode": "balanced",
         "master_seed": seed,
         "groups": {"identity": {"locked": True, "seed": 123}},
@@ -38,12 +38,11 @@ class PreviewApiTests(unittest.TestCase):
     def test_lists_profiles_and_profile_options_without_paths(self) -> None:
         listing = list_profiles()
         profiles = cast(list[dict[str, Any]], listing["profiles"])
-        self.assertEqual(
-            [item["id"] for item in profiles], ["dataset", "portrait", "virtual-model"]
-        )
-        detail = get_profile("portrait")
+        self.assertEqual(len(profiles), 15)
+        self.assertIn("portrait-core", [item["id"] for item in profiles])
+        detail = get_profile("portrait-core")
         profile = cast(dict[str, Any], detail["profile"])
-        self.assertEqual(profile["id"], "portrait")
+        self.assertEqual(profile["id"], "portrait-core")
         serialized = json.dumps(detail)
         self.assertNotIn("E:\\", serialized)
         self.assertIn("options", serialized)
@@ -61,7 +60,8 @@ class PreviewApiTests(unittest.TestCase):
         data = _configuration()
         cast(dict[str, Any], cast(dict[str, Any], data["groups"])["identity"]).pop("seed")
         expected_configuration = build_node_configuration(
-            profile="portrait",
+            profile="portrait-core",
+            profile_version="2.0.0",
             seed=7,
             generation_mode="balanced",
             identity_lock=True,

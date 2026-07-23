@@ -1,0 +1,2641 @@
+{
+  "schema_version": "2.0",
+  "id": "wardrobe-outerwear-base",
+  "version": "2.0.0",
+  "library": "outerwear",
+  "domain": "wardrobe",
+  "category": "outerwear",
+  "language": "en",
+  "status": "active",
+  "safety": "general",
+  "tags": [
+    "base"
+  ],
+  "fallback_option_id": "wardrobe-outerwear-base-single-breasted-coat-precise-tailoring",
+  "options": [
+    {
+      "id": "wardrobe-outerwear-base-single-breasted-coat-precise-tailoring",
+      "semantic_key": "wardrobe-outerwear-base-single-breasted-coat-precise-tailoring",
+      "text": "a single-breasted coat with precise tailoring",
+      "sentence": "A single-breasted coat with precise tailoring.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a single-breasted coat with precise tailoring",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a single-breasted coat with precise tailoring",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a single-breasted coat with precise tailoring",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-outerwear-base-single-breasted-coat",
+      "tags": [
+        "base",
+        "outerwear",
+        "outerwear-warm",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "single-breasted-coat",
+        "treatment": "precise-tailoring"
+      },
+      "subcategory": "single-breasted-coat",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-outerwear-base-single-breasted-coat-relaxed-drape",
+      "semantic_key": "wardrobe-outerwear-base-single-breasted-coat-relaxed-drape",
+      "text": "a single-breasted coat with relaxed drape",
+      "sentence": "A single-breasted coat with relaxed drape.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a single-breasted coat with relaxed drape",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a single-breasted coat with relaxed drape",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a single-breasted coat with relaxed drape",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-outerwear-base-single-breasted-coat",
+      "tags": [
+        "base",
+        "outerwear",
+        "outerwear-warm",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "single-breasted-coat",
+        "treatment": "relaxed-drape"
+      },
+      "subcategory": "single-breasted-coat",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-outerwear-base-single-breasted-coat-layered-construction",
+      "semantic_key": "wardrobe-outerwear-base-single-breasted-coat-layered-construction",
+      "text": "a single-breasted coat with layered construction",
+      "sentence": "A single-breasted coat with layered construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a single-breasted coat with layered construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a single-breasted coat with layered construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a single-breasted coat with layered construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-outerwear-base-single-breasted-coat",
+      "tags": [
+        "base",
+        "outerwear",
+        "outerwear-warm",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "single-breasted-coat",
+        "treatment": "layered-construction"
+      },
+      "subcategory": "single-breasted-coat",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-outerwear-base-single-breasted-coat-clean-seaming",
+      "semantic_key": "wardrobe-outerwear-base-single-breasted-coat-clean-seaming",
+      "text": "a single-breasted coat with clean seaming",
+      "sentence": "A single-breasted coat with clean seaming.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a single-breasted coat with clean seaming",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a single-breasted coat with clean seaming",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a single-breasted coat with clean seaming",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-outerwear-base-single-breasted-coat",
+      "tags": [
+        "base",
+        "outerwear",
+        "outerwear-warm",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "single-breasted-coat",
+        "treatment": "clean-seaming"
+      },
+      "subcategory": "single-breasted-coat",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-outerwear-base-single-breasted-coat-structured-volume",
+      "semantic_key": "wardrobe-outerwear-base-single-breasted-coat-structured-volume",
+      "text": "a single-breasted coat with structured volume",
+      "sentence": "A single-breasted coat with structured volume.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a single-breasted coat with structured volume",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a single-breasted coat with structured volume",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a single-breasted coat with structured volume",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-outerwear-base-single-breasted-coat",
+      "tags": [
+        "base",
+        "outerwear",
+        "outerwear-warm",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "single-breasted-coat",
+        "treatment": "structured-volume"
+      },
+      "subcategory": "single-breasted-coat",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-outerwear-base-single-breasted-coat-fluid-movement",
+      "semantic_key": "wardrobe-outerwear-base-single-breasted-coat-fluid-movement",
+      "text": "a single-breasted coat with fluid movement",
+      "sentence": "A single-breasted coat with fluid movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a single-breasted coat with fluid movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a single-breasted coat with fluid movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a single-breasted coat with fluid movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-outerwear-base-single-breasted-coat",
+      "tags": [
+        "base",
+        "outerwear",
+        "outerwear-warm",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "single-breasted-coat",
+        "treatment": "fluid-movement"
+      },
+      "subcategory": "single-breasted-coat",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-outerwear-base-single-breasted-coat-practical-detailing",
+      "semantic_key": "wardrobe-outerwear-base-single-breasted-coat-practical-detailing",
+      "text": "a single-breasted coat with practical detailing",
+      "sentence": "A single-breasted coat with practical detailing.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a single-breasted coat with practical detailing",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a single-breasted coat with practical detailing",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a single-breasted coat with practical detailing",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-outerwear-base-single-breasted-coat",
+      "tags": [
+        "base",
+        "outerwear",
+        "outerwear-warm",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "single-breasted-coat",
+        "treatment": "practical-detailing"
+      },
+      "subcategory": "single-breasted-coat",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-outerwear-base-single-breasted-coat-minimal-construction",
+      "semantic_key": "wardrobe-outerwear-base-single-breasted-coat-minimal-construction",
+      "text": "a single-breasted coat with minimal construction",
+      "sentence": "A single-breasted coat with minimal construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a single-breasted coat with minimal construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a single-breasted coat with minimal construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a single-breasted coat with minimal construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-outerwear-base-single-breasted-coat",
+      "tags": [
+        "base",
+        "outerwear",
+        "outerwear-warm",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "single-breasted-coat",
+        "treatment": "minimal-construction"
+      },
+      "subcategory": "single-breasted-coat",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-outerwear-base-double-breasted-coat-precise-tailoring",
+      "semantic_key": "wardrobe-outerwear-base-double-breasted-coat-precise-tailoring",
+      "text": "a double-breasted coat with precise tailoring",
+      "sentence": "A double-breasted coat with precise tailoring.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a double-breasted coat with precise tailoring",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a double-breasted coat with precise tailoring",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a double-breasted coat with precise tailoring",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-outerwear-base-double-breasted-coat",
+      "tags": [
+        "base",
+        "outerwear",
+        "outerwear-warm",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "double-breasted-coat",
+        "treatment": "precise-tailoring"
+      },
+      "subcategory": "double-breasted-coat",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-outerwear-base-double-breasted-coat-relaxed-drape",
+      "semantic_key": "wardrobe-outerwear-base-double-breasted-coat-relaxed-drape",
+      "text": "a double-breasted coat with relaxed drape",
+      "sentence": "A double-breasted coat with relaxed drape.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a double-breasted coat with relaxed drape",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a double-breasted coat with relaxed drape",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a double-breasted coat with relaxed drape",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-outerwear-base-double-breasted-coat",
+      "tags": [
+        "base",
+        "outerwear",
+        "outerwear-warm",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "double-breasted-coat",
+        "treatment": "relaxed-drape"
+      },
+      "subcategory": "double-breasted-coat",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-outerwear-base-double-breasted-coat-layered-construction",
+      "semantic_key": "wardrobe-outerwear-base-double-breasted-coat-layered-construction",
+      "text": "a double-breasted coat with layered construction",
+      "sentence": "A double-breasted coat with layered construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a double-breasted coat with layered construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a double-breasted coat with layered construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a double-breasted coat with layered construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-outerwear-base-double-breasted-coat",
+      "tags": [
+        "base",
+        "outerwear",
+        "outerwear-warm",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "double-breasted-coat",
+        "treatment": "layered-construction"
+      },
+      "subcategory": "double-breasted-coat",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-outerwear-base-double-breasted-coat-clean-seaming",
+      "semantic_key": "wardrobe-outerwear-base-double-breasted-coat-clean-seaming",
+      "text": "a double-breasted coat with clean seaming",
+      "sentence": "A double-breasted coat with clean seaming.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a double-breasted coat with clean seaming",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a double-breasted coat with clean seaming",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a double-breasted coat with clean seaming",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-outerwear-base-double-breasted-coat",
+      "tags": [
+        "base",
+        "outerwear",
+        "outerwear-warm",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "double-breasted-coat",
+        "treatment": "clean-seaming"
+      },
+      "subcategory": "double-breasted-coat",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-outerwear-base-double-breasted-coat-structured-volume",
+      "semantic_key": "wardrobe-outerwear-base-double-breasted-coat-structured-volume",
+      "text": "a double-breasted coat with structured volume",
+      "sentence": "A double-breasted coat with structured volume.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a double-breasted coat with structured volume",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a double-breasted coat with structured volume",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a double-breasted coat with structured volume",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-outerwear-base-double-breasted-coat",
+      "tags": [
+        "base",
+        "outerwear",
+        "outerwear-warm",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "double-breasted-coat",
+        "treatment": "structured-volume"
+      },
+      "subcategory": "double-breasted-coat",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-outerwear-base-double-breasted-coat-fluid-movement",
+      "semantic_key": "wardrobe-outerwear-base-double-breasted-coat-fluid-movement",
+      "text": "a double-breasted coat with fluid movement",
+      "sentence": "A double-breasted coat with fluid movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a double-breasted coat with fluid movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a double-breasted coat with fluid movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a double-breasted coat with fluid movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-outerwear-base-double-breasted-coat",
+      "tags": [
+        "base",
+        "outerwear",
+        "outerwear-warm",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "double-breasted-coat",
+        "treatment": "fluid-movement"
+      },
+      "subcategory": "double-breasted-coat",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-outerwear-base-double-breasted-coat-practical-detailing",
+      "semantic_key": "wardrobe-outerwear-base-double-breasted-coat-practical-detailing",
+      "text": "a double-breasted coat with practical detailing",
+      "sentence": "A double-breasted coat with practical detailing.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a double-breasted coat with practical detailing",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a double-breasted coat with practical detailing",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a double-breasted coat with practical detailing",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-outerwear-base-double-breasted-coat",
+      "tags": [
+        "base",
+        "outerwear",
+        "outerwear-warm",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "double-breasted-coat",
+        "treatment": "practical-detailing"
+      },
+      "subcategory": "double-breasted-coat",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-outerwear-base-double-breasted-coat-minimal-construction",
+      "semantic_key": "wardrobe-outerwear-base-double-breasted-coat-minimal-construction",
+      "text": "a double-breasted coat with minimal construction",
+      "sentence": "A double-breasted coat with minimal construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a double-breasted coat with minimal construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a double-breasted coat with minimal construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a double-breasted coat with minimal construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-outerwear-base-double-breasted-coat",
+      "tags": [
+        "base",
+        "outerwear",
+        "outerwear-warm",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "double-breasted-coat",
+        "treatment": "minimal-construction"
+      },
+      "subcategory": "double-breasted-coat",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-outerwear-base-cropped-jacket-precise-tailoring",
+      "semantic_key": "wardrobe-outerwear-base-cropped-jacket-precise-tailoring",
+      "text": "a cropped jacket with precise tailoring",
+      "sentence": "A cropped jacket with precise tailoring.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a cropped jacket with precise tailoring",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a cropped jacket with precise tailoring",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a cropped jacket with precise tailoring",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-outerwear-base-cropped-jacket",
+      "tags": [
+        "base",
+        "outerwear",
+        "outerwear-light",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "cropped-jacket",
+        "treatment": "precise-tailoring"
+      },
+      "subcategory": "cropped-jacket",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-outerwear-base-cropped-jacket-relaxed-drape",
+      "semantic_key": "wardrobe-outerwear-base-cropped-jacket-relaxed-drape",
+      "text": "a cropped jacket with relaxed drape",
+      "sentence": "A cropped jacket with relaxed drape.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a cropped jacket with relaxed drape",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a cropped jacket with relaxed drape",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a cropped jacket with relaxed drape",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-outerwear-base-cropped-jacket",
+      "tags": [
+        "base",
+        "outerwear",
+        "outerwear-light",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "cropped-jacket",
+        "treatment": "relaxed-drape"
+      },
+      "subcategory": "cropped-jacket",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-outerwear-base-cropped-jacket-layered-construction",
+      "semantic_key": "wardrobe-outerwear-base-cropped-jacket-layered-construction",
+      "text": "a cropped jacket with layered construction",
+      "sentence": "A cropped jacket with layered construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a cropped jacket with layered construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a cropped jacket with layered construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a cropped jacket with layered construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-outerwear-base-cropped-jacket",
+      "tags": [
+        "base",
+        "outerwear",
+        "outerwear-light",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "cropped-jacket",
+        "treatment": "layered-construction"
+      },
+      "subcategory": "cropped-jacket",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-outerwear-base-cropped-jacket-clean-seaming",
+      "semantic_key": "wardrobe-outerwear-base-cropped-jacket-clean-seaming",
+      "text": "a cropped jacket with clean seaming",
+      "sentence": "A cropped jacket with clean seaming.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a cropped jacket with clean seaming",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a cropped jacket with clean seaming",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a cropped jacket with clean seaming",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-outerwear-base-cropped-jacket",
+      "tags": [
+        "base",
+        "outerwear",
+        "outerwear-light",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "cropped-jacket",
+        "treatment": "clean-seaming"
+      },
+      "subcategory": "cropped-jacket",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-outerwear-base-cropped-jacket-structured-volume",
+      "semantic_key": "wardrobe-outerwear-base-cropped-jacket-structured-volume",
+      "text": "a cropped jacket with structured volume",
+      "sentence": "A cropped jacket with structured volume.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a cropped jacket with structured volume",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a cropped jacket with structured volume",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a cropped jacket with structured volume",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-outerwear-base-cropped-jacket",
+      "tags": [
+        "base",
+        "outerwear",
+        "outerwear-light",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "cropped-jacket",
+        "treatment": "structured-volume"
+      },
+      "subcategory": "cropped-jacket",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-outerwear-base-cropped-jacket-fluid-movement",
+      "semantic_key": "wardrobe-outerwear-base-cropped-jacket-fluid-movement",
+      "text": "a cropped jacket with fluid movement",
+      "sentence": "A cropped jacket with fluid movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a cropped jacket with fluid movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a cropped jacket with fluid movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a cropped jacket with fluid movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-outerwear-base-cropped-jacket",
+      "tags": [
+        "base",
+        "outerwear",
+        "outerwear-light",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "cropped-jacket",
+        "treatment": "fluid-movement"
+      },
+      "subcategory": "cropped-jacket",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-outerwear-base-cropped-jacket-practical-detailing",
+      "semantic_key": "wardrobe-outerwear-base-cropped-jacket-practical-detailing",
+      "text": "a cropped jacket with practical detailing",
+      "sentence": "A cropped jacket with practical detailing.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a cropped jacket with practical detailing",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a cropped jacket with practical detailing",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a cropped jacket with practical detailing",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-outerwear-base-cropped-jacket",
+      "tags": [
+        "base",
+        "outerwear",
+        "outerwear-light",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "cropped-jacket",
+        "treatment": "practical-detailing"
+      },
+      "subcategory": "cropped-jacket",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-outerwear-base-cropped-jacket-minimal-construction",
+      "semantic_key": "wardrobe-outerwear-base-cropped-jacket-minimal-construction",
+      "text": "a cropped jacket with minimal construction",
+      "sentence": "A cropped jacket with minimal construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a cropped jacket with minimal construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a cropped jacket with minimal construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a cropped jacket with minimal construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-outerwear-base-cropped-jacket",
+      "tags": [
+        "base",
+        "outerwear",
+        "outerwear-light",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "cropped-jacket",
+        "treatment": "minimal-construction"
+      },
+      "subcategory": "cropped-jacket",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-outerwear-base-long-cardigan-precise-tailoring",
+      "semantic_key": "wardrobe-outerwear-base-long-cardigan-precise-tailoring",
+      "text": "a long cardigan with precise tailoring",
+      "sentence": "A long cardigan with precise tailoring.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a long cardigan with precise tailoring",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a long cardigan with precise tailoring",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a long cardigan with precise tailoring",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-outerwear-base-long-cardigan",
+      "tags": [
+        "base",
+        "outerwear",
+        "outerwear-warm",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "long-cardigan",
+        "treatment": "precise-tailoring"
+      },
+      "subcategory": "long-cardigan",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-outerwear-base-long-cardigan-relaxed-drape",
+      "semantic_key": "wardrobe-outerwear-base-long-cardigan-relaxed-drape",
+      "text": "a long cardigan with relaxed drape",
+      "sentence": "A long cardigan with relaxed drape.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a long cardigan with relaxed drape",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a long cardigan with relaxed drape",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a long cardigan with relaxed drape",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-outerwear-base-long-cardigan",
+      "tags": [
+        "base",
+        "outerwear",
+        "outerwear-warm",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "long-cardigan",
+        "treatment": "relaxed-drape"
+      },
+      "subcategory": "long-cardigan",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-outerwear-base-long-cardigan-layered-construction",
+      "semantic_key": "wardrobe-outerwear-base-long-cardigan-layered-construction",
+      "text": "a long cardigan with layered construction",
+      "sentence": "A long cardigan with layered construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a long cardigan with layered construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a long cardigan with layered construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a long cardigan with layered construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-outerwear-base-long-cardigan",
+      "tags": [
+        "base",
+        "outerwear",
+        "outerwear-warm",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "long-cardigan",
+        "treatment": "layered-construction"
+      },
+      "subcategory": "long-cardigan",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-outerwear-base-long-cardigan-clean-seaming",
+      "semantic_key": "wardrobe-outerwear-base-long-cardigan-clean-seaming",
+      "text": "a long cardigan with clean seaming",
+      "sentence": "A long cardigan with clean seaming.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a long cardigan with clean seaming",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a long cardigan with clean seaming",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a long cardigan with clean seaming",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-outerwear-base-long-cardigan",
+      "tags": [
+        "base",
+        "outerwear",
+        "outerwear-warm",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "long-cardigan",
+        "treatment": "clean-seaming"
+      },
+      "subcategory": "long-cardigan",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-outerwear-base-long-cardigan-structured-volume",
+      "semantic_key": "wardrobe-outerwear-base-long-cardigan-structured-volume",
+      "text": "a long cardigan with structured volume",
+      "sentence": "A long cardigan with structured volume.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a long cardigan with structured volume",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a long cardigan with structured volume",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a long cardigan with structured volume",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-outerwear-base-long-cardigan",
+      "tags": [
+        "base",
+        "outerwear",
+        "outerwear-warm",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "long-cardigan",
+        "treatment": "structured-volume"
+      },
+      "subcategory": "long-cardigan",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-outerwear-base-long-cardigan-fluid-movement",
+      "semantic_key": "wardrobe-outerwear-base-long-cardigan-fluid-movement",
+      "text": "a long cardigan with fluid movement",
+      "sentence": "A long cardigan with fluid movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a long cardigan with fluid movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a long cardigan with fluid movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a long cardigan with fluid movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-outerwear-base-long-cardigan",
+      "tags": [
+        "base",
+        "outerwear",
+        "outerwear-warm",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "long-cardigan",
+        "treatment": "fluid-movement"
+      },
+      "subcategory": "long-cardigan",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-outerwear-base-long-cardigan-practical-detailing",
+      "semantic_key": "wardrobe-outerwear-base-long-cardigan-practical-detailing",
+      "text": "a long cardigan with practical detailing",
+      "sentence": "A long cardigan with practical detailing.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a long cardigan with practical detailing",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a long cardigan with practical detailing",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a long cardigan with practical detailing",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-outerwear-base-long-cardigan",
+      "tags": [
+        "base",
+        "outerwear",
+        "outerwear-warm",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "long-cardigan",
+        "treatment": "practical-detailing"
+      },
+      "subcategory": "long-cardigan",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-outerwear-base-long-cardigan-minimal-construction",
+      "semantic_key": "wardrobe-outerwear-base-long-cardigan-minimal-construction",
+      "text": "a long cardigan with minimal construction",
+      "sentence": "A long cardigan with minimal construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a long cardigan with minimal construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a long cardigan with minimal construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a long cardigan with minimal construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-outerwear-base-long-cardigan",
+      "tags": [
+        "base",
+        "outerwear",
+        "outerwear-warm",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "long-cardigan",
+        "treatment": "minimal-construction"
+      },
+      "subcategory": "long-cardigan",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-outerwear-base-utility-jacket-precise-tailoring",
+      "semantic_key": "wardrobe-outerwear-base-utility-jacket-precise-tailoring",
+      "text": "a utility jacket with precise tailoring",
+      "sentence": "A utility jacket with precise tailoring.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a utility jacket with precise tailoring",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a utility jacket with precise tailoring",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a utility jacket with precise tailoring",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-outerwear-base-utility-jacket",
+      "tags": [
+        "base",
+        "outerwear",
+        "outerwear-protective",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "utility-jacket",
+        "treatment": "precise-tailoring"
+      },
+      "subcategory": "utility-jacket",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-outerwear-base-utility-jacket-relaxed-drape",
+      "semantic_key": "wardrobe-outerwear-base-utility-jacket-relaxed-drape",
+      "text": "a utility jacket with relaxed drape",
+      "sentence": "A utility jacket with relaxed drape.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a utility jacket with relaxed drape",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a utility jacket with relaxed drape",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a utility jacket with relaxed drape",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-outerwear-base-utility-jacket",
+      "tags": [
+        "base",
+        "outerwear",
+        "outerwear-protective",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "utility-jacket",
+        "treatment": "relaxed-drape"
+      },
+      "subcategory": "utility-jacket",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-outerwear-base-utility-jacket-layered-construction",
+      "semantic_key": "wardrobe-outerwear-base-utility-jacket-layered-construction",
+      "text": "a utility jacket with layered construction",
+      "sentence": "A utility jacket with layered construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a utility jacket with layered construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a utility jacket with layered construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a utility jacket with layered construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-outerwear-base-utility-jacket",
+      "tags": [
+        "base",
+        "outerwear",
+        "outerwear-protective",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "utility-jacket",
+        "treatment": "layered-construction"
+      },
+      "subcategory": "utility-jacket",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-outerwear-base-utility-jacket-clean-seaming",
+      "semantic_key": "wardrobe-outerwear-base-utility-jacket-clean-seaming",
+      "text": "a utility jacket with clean seaming",
+      "sentence": "A utility jacket with clean seaming.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a utility jacket with clean seaming",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a utility jacket with clean seaming",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a utility jacket with clean seaming",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-outerwear-base-utility-jacket",
+      "tags": [
+        "base",
+        "outerwear",
+        "outerwear-protective",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "utility-jacket",
+        "treatment": "clean-seaming"
+      },
+      "subcategory": "utility-jacket",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-outerwear-base-utility-jacket-structured-volume",
+      "semantic_key": "wardrobe-outerwear-base-utility-jacket-structured-volume",
+      "text": "a utility jacket with structured volume",
+      "sentence": "A utility jacket with structured volume.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a utility jacket with structured volume",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a utility jacket with structured volume",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a utility jacket with structured volume",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-outerwear-base-utility-jacket",
+      "tags": [
+        "base",
+        "outerwear",
+        "outerwear-protective",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "utility-jacket",
+        "treatment": "structured-volume"
+      },
+      "subcategory": "utility-jacket",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-outerwear-base-utility-jacket-fluid-movement",
+      "semantic_key": "wardrobe-outerwear-base-utility-jacket-fluid-movement",
+      "text": "a utility jacket with fluid movement",
+      "sentence": "A utility jacket with fluid movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a utility jacket with fluid movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a utility jacket with fluid movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a utility jacket with fluid movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-outerwear-base-utility-jacket",
+      "tags": [
+        "base",
+        "outerwear",
+        "outerwear-protective",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "utility-jacket",
+        "treatment": "fluid-movement"
+      },
+      "subcategory": "utility-jacket",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-outerwear-base-utility-jacket-practical-detailing",
+      "semantic_key": "wardrobe-outerwear-base-utility-jacket-practical-detailing",
+      "text": "a utility jacket with practical detailing",
+      "sentence": "A utility jacket with practical detailing.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a utility jacket with practical detailing",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a utility jacket with practical detailing",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a utility jacket with practical detailing",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-outerwear-base-utility-jacket",
+      "tags": [
+        "base",
+        "outerwear",
+        "outerwear-protective",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "utility-jacket",
+        "treatment": "practical-detailing"
+      },
+      "subcategory": "utility-jacket",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-outerwear-base-utility-jacket-minimal-construction",
+      "semantic_key": "wardrobe-outerwear-base-utility-jacket-minimal-construction",
+      "text": "a utility jacket with minimal construction",
+      "sentence": "A utility jacket with minimal construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a utility jacket with minimal construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a utility jacket with minimal construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a utility jacket with minimal construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-outerwear-base-utility-jacket",
+      "tags": [
+        "base",
+        "outerwear",
+        "outerwear-protective",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "utility-jacket",
+        "treatment": "minimal-construction"
+      },
+      "subcategory": "utility-jacket",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-outerwear-base-trench-coat-precise-tailoring",
+      "semantic_key": "wardrobe-outerwear-base-trench-coat-precise-tailoring",
+      "text": "a trench coat with precise tailoring",
+      "sentence": "A trench coat with precise tailoring.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a trench coat with precise tailoring",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a trench coat with precise tailoring",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a trench coat with precise tailoring",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-outerwear-base-trench-coat",
+      "tags": [
+        "base",
+        "outerwear",
+        "outerwear-protective",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "trench-coat",
+        "treatment": "precise-tailoring"
+      },
+      "subcategory": "trench-coat",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-outerwear-base-trench-coat-relaxed-drape",
+      "semantic_key": "wardrobe-outerwear-base-trench-coat-relaxed-drape",
+      "text": "a trench coat with relaxed drape",
+      "sentence": "A trench coat with relaxed drape.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a trench coat with relaxed drape",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a trench coat with relaxed drape",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a trench coat with relaxed drape",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-outerwear-base-trench-coat",
+      "tags": [
+        "base",
+        "outerwear",
+        "outerwear-protective",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "trench-coat",
+        "treatment": "relaxed-drape"
+      },
+      "subcategory": "trench-coat",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-outerwear-base-trench-coat-layered-construction",
+      "semantic_key": "wardrobe-outerwear-base-trench-coat-layered-construction",
+      "text": "a trench coat with layered construction",
+      "sentence": "A trench coat with layered construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a trench coat with layered construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a trench coat with layered construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a trench coat with layered construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-outerwear-base-trench-coat",
+      "tags": [
+        "base",
+        "outerwear",
+        "outerwear-protective",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "trench-coat",
+        "treatment": "layered-construction"
+      },
+      "subcategory": "trench-coat",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-outerwear-base-trench-coat-clean-seaming",
+      "semantic_key": "wardrobe-outerwear-base-trench-coat-clean-seaming",
+      "text": "a trench coat with clean seaming",
+      "sentence": "A trench coat with clean seaming.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a trench coat with clean seaming",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a trench coat with clean seaming",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a trench coat with clean seaming",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-outerwear-base-trench-coat",
+      "tags": [
+        "base",
+        "outerwear",
+        "outerwear-protective",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "trench-coat",
+        "treatment": "clean-seaming"
+      },
+      "subcategory": "trench-coat",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-outerwear-base-trench-coat-structured-volume",
+      "semantic_key": "wardrobe-outerwear-base-trench-coat-structured-volume",
+      "text": "a trench coat with structured volume",
+      "sentence": "A trench coat with structured volume.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a trench coat with structured volume",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a trench coat with structured volume",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a trench coat with structured volume",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-outerwear-base-trench-coat",
+      "tags": [
+        "base",
+        "outerwear",
+        "outerwear-protective",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "trench-coat",
+        "treatment": "structured-volume"
+      },
+      "subcategory": "trench-coat",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-outerwear-base-trench-coat-fluid-movement",
+      "semantic_key": "wardrobe-outerwear-base-trench-coat-fluid-movement",
+      "text": "a trench coat with fluid movement",
+      "sentence": "A trench coat with fluid movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a trench coat with fluid movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a trench coat with fluid movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a trench coat with fluid movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-outerwear-base-trench-coat",
+      "tags": [
+        "base",
+        "outerwear",
+        "outerwear-protective",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "trench-coat",
+        "treatment": "fluid-movement"
+      },
+      "subcategory": "trench-coat",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-outerwear-base-trench-coat-practical-detailing",
+      "semantic_key": "wardrobe-outerwear-base-trench-coat-practical-detailing",
+      "text": "a trench coat with practical detailing",
+      "sentence": "A trench coat with practical detailing.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a trench coat with practical detailing",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a trench coat with practical detailing",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a trench coat with practical detailing",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-outerwear-base-trench-coat",
+      "tags": [
+        "base",
+        "outerwear",
+        "outerwear-protective",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "trench-coat",
+        "treatment": "practical-detailing"
+      },
+      "subcategory": "trench-coat",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-outerwear-base-trench-coat-minimal-construction",
+      "semantic_key": "wardrobe-outerwear-base-trench-coat-minimal-construction",
+      "text": "a trench coat with minimal construction",
+      "sentence": "A trench coat with minimal construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a trench coat with minimal construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a trench coat with minimal construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a trench coat with minimal construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-outerwear-base-trench-coat",
+      "tags": [
+        "base",
+        "outerwear",
+        "outerwear-protective",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "trench-coat",
+        "treatment": "minimal-construction"
+      },
+      "subcategory": "trench-coat",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-outerwear-base-structured-blazer-precise-tailoring",
+      "semantic_key": "wardrobe-outerwear-base-structured-blazer-precise-tailoring",
+      "text": "a structured blazer with precise tailoring",
+      "sentence": "A structured blazer with precise tailoring.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a structured blazer with precise tailoring",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a structured blazer with precise tailoring",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a structured blazer with precise tailoring",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-outerwear-base-structured-blazer",
+      "tags": [
+        "base",
+        "outerwear",
+        "outerwear-light",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "structured-blazer",
+        "treatment": "precise-tailoring"
+      },
+      "subcategory": "structured-blazer",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-outerwear-base-structured-blazer-relaxed-drape",
+      "semantic_key": "wardrobe-outerwear-base-structured-blazer-relaxed-drape",
+      "text": "a structured blazer with relaxed drape",
+      "sentence": "A structured blazer with relaxed drape.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a structured blazer with relaxed drape",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a structured blazer with relaxed drape",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a structured blazer with relaxed drape",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-outerwear-base-structured-blazer",
+      "tags": [
+        "base",
+        "outerwear",
+        "outerwear-light",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "structured-blazer",
+        "treatment": "relaxed-drape"
+      },
+      "subcategory": "structured-blazer",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-outerwear-base-structured-blazer-layered-construction",
+      "semantic_key": "wardrobe-outerwear-base-structured-blazer-layered-construction",
+      "text": "a structured blazer with layered construction",
+      "sentence": "A structured blazer with layered construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a structured blazer with layered construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a structured blazer with layered construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a structured blazer with layered construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-outerwear-base-structured-blazer",
+      "tags": [
+        "base",
+        "outerwear",
+        "outerwear-light",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "structured-blazer",
+        "treatment": "layered-construction"
+      },
+      "subcategory": "structured-blazer",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-outerwear-base-structured-blazer-clean-seaming",
+      "semantic_key": "wardrobe-outerwear-base-structured-blazer-clean-seaming",
+      "text": "a structured blazer with clean seaming",
+      "sentence": "A structured blazer with clean seaming.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a structured blazer with clean seaming",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a structured blazer with clean seaming",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a structured blazer with clean seaming",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-outerwear-base-structured-blazer",
+      "tags": [
+        "base",
+        "outerwear",
+        "outerwear-light",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "structured-blazer",
+        "treatment": "clean-seaming"
+      },
+      "subcategory": "structured-blazer",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-outerwear-base-structured-blazer-structured-volume",
+      "semantic_key": "wardrobe-outerwear-base-structured-blazer-structured-volume",
+      "text": "a structured blazer with structured volume",
+      "sentence": "A structured blazer with structured volume.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a structured blazer with structured volume",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a structured blazer with structured volume",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a structured blazer with structured volume",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-outerwear-base-structured-blazer",
+      "tags": [
+        "base",
+        "outerwear",
+        "outerwear-light",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "structured-blazer",
+        "treatment": "structured-volume"
+      },
+      "subcategory": "structured-blazer",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-outerwear-base-structured-blazer-fluid-movement",
+      "semantic_key": "wardrobe-outerwear-base-structured-blazer-fluid-movement",
+      "text": "a structured blazer with fluid movement",
+      "sentence": "A structured blazer with fluid movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a structured blazer with fluid movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a structured blazer with fluid movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a structured blazer with fluid movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-outerwear-base-structured-blazer",
+      "tags": [
+        "base",
+        "outerwear",
+        "outerwear-light",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "structured-blazer",
+        "treatment": "fluid-movement"
+      },
+      "subcategory": "structured-blazer",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-outerwear-base-structured-blazer-practical-detailing",
+      "semantic_key": "wardrobe-outerwear-base-structured-blazer-practical-detailing",
+      "text": "a structured blazer with practical detailing",
+      "sentence": "A structured blazer with practical detailing.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a structured blazer with practical detailing",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a structured blazer with practical detailing",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a structured blazer with practical detailing",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-outerwear-base-structured-blazer",
+      "tags": [
+        "base",
+        "outerwear",
+        "outerwear-light",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "structured-blazer",
+        "treatment": "practical-detailing"
+      },
+      "subcategory": "structured-blazer",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-outerwear-base-structured-blazer-minimal-construction",
+      "semantic_key": "wardrobe-outerwear-base-structured-blazer-minimal-construction",
+      "text": "a structured blazer with minimal construction",
+      "sentence": "A structured blazer with minimal construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a structured blazer with minimal construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a structured blazer with minimal construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a structured blazer with minimal construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-outerwear-base-structured-blazer",
+      "tags": [
+        "base",
+        "outerwear",
+        "outerwear-light",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "structured-blazer",
+        "treatment": "minimal-construction"
+      },
+      "subcategory": "structured-blazer",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-outerwear-base-lightweight-parka-precise-tailoring",
+      "semantic_key": "wardrobe-outerwear-base-lightweight-parka-precise-tailoring",
+      "text": "a lightweight parka with precise tailoring",
+      "sentence": "A lightweight parka with precise tailoring.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a lightweight parka with precise tailoring",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a lightweight parka with precise tailoring",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a lightweight parka with precise tailoring",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-outerwear-base-lightweight-parka",
+      "tags": [
+        "base",
+        "outerwear",
+        "outerwear-warm",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "lightweight-parka",
+        "treatment": "precise-tailoring"
+      },
+      "subcategory": "lightweight-parka",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-outerwear-base-lightweight-parka-relaxed-drape",
+      "semantic_key": "wardrobe-outerwear-base-lightweight-parka-relaxed-drape",
+      "text": "a lightweight parka with relaxed drape",
+      "sentence": "A lightweight parka with relaxed drape.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a lightweight parka with relaxed drape",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a lightweight parka with relaxed drape",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a lightweight parka with relaxed drape",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-outerwear-base-lightweight-parka",
+      "tags": [
+        "base",
+        "outerwear",
+        "outerwear-warm",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "lightweight-parka",
+        "treatment": "relaxed-drape"
+      },
+      "subcategory": "lightweight-parka",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-outerwear-base-lightweight-parka-layered-construction",
+      "semantic_key": "wardrobe-outerwear-base-lightweight-parka-layered-construction",
+      "text": "a lightweight parka with layered construction",
+      "sentence": "A lightweight parka with layered construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a lightweight parka with layered construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a lightweight parka with layered construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a lightweight parka with layered construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-outerwear-base-lightweight-parka",
+      "tags": [
+        "base",
+        "outerwear",
+        "outerwear-warm",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "lightweight-parka",
+        "treatment": "layered-construction"
+      },
+      "subcategory": "lightweight-parka",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-outerwear-base-lightweight-parka-clean-seaming",
+      "semantic_key": "wardrobe-outerwear-base-lightweight-parka-clean-seaming",
+      "text": "a lightweight parka with clean seaming",
+      "sentence": "A lightweight parka with clean seaming.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a lightweight parka with clean seaming",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a lightweight parka with clean seaming",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a lightweight parka with clean seaming",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-outerwear-base-lightweight-parka",
+      "tags": [
+        "base",
+        "outerwear",
+        "outerwear-warm",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "lightweight-parka",
+        "treatment": "clean-seaming"
+      },
+      "subcategory": "lightweight-parka",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-outerwear-base-lightweight-parka-structured-volume",
+      "semantic_key": "wardrobe-outerwear-base-lightweight-parka-structured-volume",
+      "text": "a lightweight parka with structured volume",
+      "sentence": "A lightweight parka with structured volume.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a lightweight parka with structured volume",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a lightweight parka with structured volume",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a lightweight parka with structured volume",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-outerwear-base-lightweight-parka",
+      "tags": [
+        "base",
+        "outerwear",
+        "outerwear-warm",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "lightweight-parka",
+        "treatment": "structured-volume"
+      },
+      "subcategory": "lightweight-parka",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-outerwear-base-lightweight-parka-fluid-movement",
+      "semantic_key": "wardrobe-outerwear-base-lightweight-parka-fluid-movement",
+      "text": "a lightweight parka with fluid movement",
+      "sentence": "A lightweight parka with fluid movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a lightweight parka with fluid movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a lightweight parka with fluid movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a lightweight parka with fluid movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-outerwear-base-lightweight-parka",
+      "tags": [
+        "base",
+        "outerwear",
+        "outerwear-warm",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "lightweight-parka",
+        "treatment": "fluid-movement"
+      },
+      "subcategory": "lightweight-parka",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-outerwear-base-lightweight-parka-practical-detailing",
+      "semantic_key": "wardrobe-outerwear-base-lightweight-parka-practical-detailing",
+      "text": "a lightweight parka with practical detailing",
+      "sentence": "A lightweight parka with practical detailing.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a lightweight parka with practical detailing",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a lightweight parka with practical detailing",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a lightweight parka with practical detailing",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-outerwear-base-lightweight-parka",
+      "tags": [
+        "base",
+        "outerwear",
+        "outerwear-warm",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "lightweight-parka",
+        "treatment": "practical-detailing"
+      },
+      "subcategory": "lightweight-parka",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-outerwear-base-lightweight-parka-minimal-construction",
+      "semantic_key": "wardrobe-outerwear-base-lightweight-parka-minimal-construction",
+      "text": "a lightweight parka with minimal construction",
+      "sentence": "A lightweight parka with minimal construction.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a lightweight parka with minimal construction",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a lightweight parka with minimal construction",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a lightweight parka with minimal construction",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-outerwear-base-lightweight-parka",
+      "tags": [
+        "base",
+        "outerwear",
+        "outerwear-warm",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "garment": "lightweight-parka",
+        "treatment": "minimal-construction"
+      },
+      "subcategory": "lightweight-parka",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    }
+  ]
+}

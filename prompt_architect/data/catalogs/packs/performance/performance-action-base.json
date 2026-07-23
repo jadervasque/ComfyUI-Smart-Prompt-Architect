@@ -1,0 +1,2641 @@
+{
+  "schema_version": "2.0",
+  "id": "performance-action-base",
+  "version": "2.0.0",
+  "library": "action",
+  "domain": "performance",
+  "category": "action",
+  "language": "en",
+  "status": "active",
+  "safety": "general",
+  "tags": [
+    "base"
+  ],
+  "fallback_option_id": "performance-action-base-standing-still-resting-movement",
+  "options": [
+    {
+      "id": "performance-action-base-standing-still-resting-movement",
+      "semantic_key": "performance-action-base-standing-still-resting-movement",
+      "text": "standing still with resting movement",
+      "sentence": "Standing still with resting movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "standing still with resting movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing standing still with resting movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with standing still with resting movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-action-base-standing-still",
+      "tags": [
+        "action",
+        "action-contained",
+        "base",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "action": "standing-still",
+        "treatment": "resting-movement"
+      },
+      "subcategory": "standing-still",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-action-base-standing-still-measured-movement",
+      "semantic_key": "performance-action-base-standing-still-measured-movement",
+      "text": "standing still with measured movement",
+      "sentence": "Standing still with measured movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "standing still with measured movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing standing still with measured movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with standing still with measured movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-action-base-standing-still",
+      "tags": [
+        "action",
+        "action-contained",
+        "base",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "action": "standing-still",
+        "treatment": "measured-movement"
+      },
+      "subcategory": "standing-still",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-action-base-standing-still-flowing-movement",
+      "semantic_key": "performance-action-base-standing-still-flowing-movement",
+      "text": "standing still with flowing movement",
+      "sentence": "Standing still with flowing movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "standing still with flowing movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing standing still with flowing movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with standing still with flowing movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-action-base-standing-still",
+      "tags": [
+        "action",
+        "action-contained",
+        "base",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "action": "standing-still",
+        "treatment": "flowing-movement"
+      },
+      "subcategory": "standing-still",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-action-base-standing-still-decisive-movement",
+      "semantic_key": "performance-action-base-standing-still-decisive-movement",
+      "text": "standing still with decisive movement",
+      "sentence": "Standing still with decisive movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "standing still with decisive movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing standing still with decisive movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with standing still with decisive movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-action-base-standing-still",
+      "tags": [
+        "action",
+        "action-contained",
+        "base",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "action": "standing-still",
+        "treatment": "decisive-movement"
+      },
+      "subcategory": "standing-still",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-action-base-standing-still-suspended-movement",
+      "semantic_key": "performance-action-base-standing-still-suspended-movement",
+      "text": "standing still with suspended movement",
+      "sentence": "Standing still with suspended movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "standing still with suspended movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing standing still with suspended movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with standing still with suspended movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-action-base-standing-still",
+      "tags": [
+        "action",
+        "action-contained",
+        "base",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "action": "standing-still",
+        "treatment": "suspended-movement"
+      },
+      "subcategory": "standing-still",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-action-base-standing-still-rhythmic-movement",
+      "semantic_key": "performance-action-base-standing-still-rhythmic-movement",
+      "text": "standing still with rhythmic movement",
+      "sentence": "Standing still with rhythmic movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "standing still with rhythmic movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing standing still with rhythmic movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with standing still with rhythmic movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-action-base-standing-still",
+      "tags": [
+        "action",
+        "action-contained",
+        "base",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "action": "standing-still",
+        "treatment": "rhythmic-movement"
+      },
+      "subcategory": "standing-still",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-action-base-standing-still-asymmetric-movement",
+      "semantic_key": "performance-action-base-standing-still-asymmetric-movement",
+      "text": "standing still with asymmetric movement",
+      "sentence": "Standing still with asymmetric movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "standing still with asymmetric movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing standing still with asymmetric movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with standing still with asymmetric movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-action-base-standing-still",
+      "tags": [
+        "action",
+        "action-contained",
+        "base",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "action": "standing-still",
+        "treatment": "asymmetric-movement"
+      },
+      "subcategory": "standing-still",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-action-base-standing-still-controlled-momentum",
+      "semantic_key": "performance-action-base-standing-still-controlled-momentum",
+      "text": "standing still with controlled momentum",
+      "sentence": "Standing still with controlled momentum.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "standing still with controlled momentum",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing standing still with controlled momentum",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with standing still with controlled momentum",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-action-base-standing-still",
+      "tags": [
+        "action",
+        "action-contained",
+        "base",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "action": "standing-still",
+        "treatment": "controlled-momentum"
+      },
+      "subcategory": "standing-still",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-action-base-walking-forward-resting-movement",
+      "semantic_key": "performance-action-base-walking-forward-resting-movement",
+      "text": "walking forward with resting movement",
+      "sentence": "Walking forward with resting movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "walking forward with resting movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing walking forward with resting movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with walking forward with resting movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-action-base-walking-forward",
+      "tags": [
+        "action",
+        "action-dynamic",
+        "base",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "action": "walking-forward",
+        "treatment": "resting-movement"
+      },
+      "subcategory": "walking-forward",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-action-base-walking-forward-measured-movement",
+      "semantic_key": "performance-action-base-walking-forward-measured-movement",
+      "text": "walking forward with measured movement",
+      "sentence": "Walking forward with measured movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "walking forward with measured movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing walking forward with measured movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with walking forward with measured movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-action-base-walking-forward",
+      "tags": [
+        "action",
+        "action-dynamic",
+        "base",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "action": "walking-forward",
+        "treatment": "measured-movement"
+      },
+      "subcategory": "walking-forward",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-action-base-walking-forward-flowing-movement",
+      "semantic_key": "performance-action-base-walking-forward-flowing-movement",
+      "text": "walking forward with flowing movement",
+      "sentence": "Walking forward with flowing movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "walking forward with flowing movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing walking forward with flowing movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with walking forward with flowing movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-action-base-walking-forward",
+      "tags": [
+        "action",
+        "action-dynamic",
+        "base",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "action": "walking-forward",
+        "treatment": "flowing-movement"
+      },
+      "subcategory": "walking-forward",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-action-base-walking-forward-decisive-movement",
+      "semantic_key": "performance-action-base-walking-forward-decisive-movement",
+      "text": "walking forward with decisive movement",
+      "sentence": "Walking forward with decisive movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "walking forward with decisive movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing walking forward with decisive movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with walking forward with decisive movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-action-base-walking-forward",
+      "tags": [
+        "action",
+        "action-dynamic",
+        "base",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "action": "walking-forward",
+        "treatment": "decisive-movement"
+      },
+      "subcategory": "walking-forward",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-action-base-walking-forward-suspended-movement",
+      "semantic_key": "performance-action-base-walking-forward-suspended-movement",
+      "text": "walking forward with suspended movement",
+      "sentence": "Walking forward with suspended movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "walking forward with suspended movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing walking forward with suspended movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with walking forward with suspended movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-action-base-walking-forward",
+      "tags": [
+        "action",
+        "action-dynamic",
+        "base",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "action": "walking-forward",
+        "treatment": "suspended-movement"
+      },
+      "subcategory": "walking-forward",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-action-base-walking-forward-rhythmic-movement",
+      "semantic_key": "performance-action-base-walking-forward-rhythmic-movement",
+      "text": "walking forward with rhythmic movement",
+      "sentence": "Walking forward with rhythmic movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "walking forward with rhythmic movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing walking forward with rhythmic movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with walking forward with rhythmic movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-action-base-walking-forward",
+      "tags": [
+        "action",
+        "action-dynamic",
+        "base",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "action": "walking-forward",
+        "treatment": "rhythmic-movement"
+      },
+      "subcategory": "walking-forward",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-action-base-walking-forward-asymmetric-movement",
+      "semantic_key": "performance-action-base-walking-forward-asymmetric-movement",
+      "text": "walking forward with asymmetric movement",
+      "sentence": "Walking forward with asymmetric movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "walking forward with asymmetric movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing walking forward with asymmetric movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with walking forward with asymmetric movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-action-base-walking-forward",
+      "tags": [
+        "action",
+        "action-dynamic",
+        "base",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "action": "walking-forward",
+        "treatment": "asymmetric-movement"
+      },
+      "subcategory": "walking-forward",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-action-base-walking-forward-controlled-momentum",
+      "semantic_key": "performance-action-base-walking-forward-controlled-momentum",
+      "text": "walking forward with controlled momentum",
+      "sentence": "Walking forward with controlled momentum.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "walking forward with controlled momentum",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing walking forward with controlled momentum",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with walking forward with controlled momentum",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-action-base-walking-forward",
+      "tags": [
+        "action",
+        "action-dynamic",
+        "base",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "action": "walking-forward",
+        "treatment": "controlled-momentum"
+      },
+      "subcategory": "walking-forward",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-action-base-turning-toward-camera-resting-movement",
+      "semantic_key": "performance-action-base-turning-toward-camera-resting-movement",
+      "text": "turning toward camera with resting movement",
+      "sentence": "Turning toward camera with resting movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "turning toward camera with resting movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing turning toward camera with resting movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with turning toward camera with resting movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-action-base-turning-toward-camera",
+      "tags": [
+        "action",
+        "action-dynamic",
+        "base",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "action": "turning-toward-camera",
+        "treatment": "resting-movement"
+      },
+      "subcategory": "turning-toward-camera",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-action-base-turning-toward-camera-measured-movement",
+      "semantic_key": "performance-action-base-turning-toward-camera-measured-movement",
+      "text": "turning toward camera with measured movement",
+      "sentence": "Turning toward camera with measured movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "turning toward camera with measured movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing turning toward camera with measured movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with turning toward camera with measured movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-action-base-turning-toward-camera",
+      "tags": [
+        "action",
+        "action-dynamic",
+        "base",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "action": "turning-toward-camera",
+        "treatment": "measured-movement"
+      },
+      "subcategory": "turning-toward-camera",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-action-base-turning-toward-camera-flowing-movement",
+      "semantic_key": "performance-action-base-turning-toward-camera-flowing-movement",
+      "text": "turning toward camera with flowing movement",
+      "sentence": "Turning toward camera with flowing movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "turning toward camera with flowing movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing turning toward camera with flowing movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with turning toward camera with flowing movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-action-base-turning-toward-camera",
+      "tags": [
+        "action",
+        "action-dynamic",
+        "base",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "action": "turning-toward-camera",
+        "treatment": "flowing-movement"
+      },
+      "subcategory": "turning-toward-camera",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-action-base-turning-toward-camera-decisive-movement",
+      "semantic_key": "performance-action-base-turning-toward-camera-decisive-movement",
+      "text": "turning toward camera with decisive movement",
+      "sentence": "Turning toward camera with decisive movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "turning toward camera with decisive movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing turning toward camera with decisive movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with turning toward camera with decisive movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-action-base-turning-toward-camera",
+      "tags": [
+        "action",
+        "action-dynamic",
+        "base",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "action": "turning-toward-camera",
+        "treatment": "decisive-movement"
+      },
+      "subcategory": "turning-toward-camera",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-action-base-turning-toward-camera-suspended-movement",
+      "semantic_key": "performance-action-base-turning-toward-camera-suspended-movement",
+      "text": "turning toward camera with suspended movement",
+      "sentence": "Turning toward camera with suspended movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "turning toward camera with suspended movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing turning toward camera with suspended movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with turning toward camera with suspended movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-action-base-turning-toward-camera",
+      "tags": [
+        "action",
+        "action-dynamic",
+        "base",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "action": "turning-toward-camera",
+        "treatment": "suspended-movement"
+      },
+      "subcategory": "turning-toward-camera",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-action-base-turning-toward-camera-rhythmic-movement",
+      "semantic_key": "performance-action-base-turning-toward-camera-rhythmic-movement",
+      "text": "turning toward camera with rhythmic movement",
+      "sentence": "Turning toward camera with rhythmic movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "turning toward camera with rhythmic movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing turning toward camera with rhythmic movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with turning toward camera with rhythmic movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-action-base-turning-toward-camera",
+      "tags": [
+        "action",
+        "action-dynamic",
+        "base",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "action": "turning-toward-camera",
+        "treatment": "rhythmic-movement"
+      },
+      "subcategory": "turning-toward-camera",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-action-base-turning-toward-camera-asymmetric-movement",
+      "semantic_key": "performance-action-base-turning-toward-camera-asymmetric-movement",
+      "text": "turning toward camera with asymmetric movement",
+      "sentence": "Turning toward camera with asymmetric movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "turning toward camera with asymmetric movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing turning toward camera with asymmetric movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with turning toward camera with asymmetric movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-action-base-turning-toward-camera",
+      "tags": [
+        "action",
+        "action-dynamic",
+        "base",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "action": "turning-toward-camera",
+        "treatment": "asymmetric-movement"
+      },
+      "subcategory": "turning-toward-camera",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-action-base-turning-toward-camera-controlled-momentum",
+      "semantic_key": "performance-action-base-turning-toward-camera-controlled-momentum",
+      "text": "turning toward camera with controlled momentum",
+      "sentence": "Turning toward camera with controlled momentum.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "turning toward camera with controlled momentum",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing turning toward camera with controlled momentum",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with turning toward camera with controlled momentum",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-action-base-turning-toward-camera",
+      "tags": [
+        "action",
+        "action-dynamic",
+        "base",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "action": "turning-toward-camera",
+        "treatment": "controlled-momentum"
+      },
+      "subcategory": "turning-toward-camera",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-action-base-adjusting-clothing-resting-movement",
+      "semantic_key": "performance-action-base-adjusting-clothing-resting-movement",
+      "text": "adjusting clothing with resting movement",
+      "sentence": "Adjusting clothing with resting movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adjusting clothing with resting movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adjusting clothing with resting movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adjusting clothing with resting movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-action-base-adjusting-clothing",
+      "tags": [
+        "action",
+        "action-dynamic",
+        "base",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "action": "adjusting-clothing",
+        "treatment": "resting-movement"
+      },
+      "subcategory": "adjusting-clothing",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-action-base-adjusting-clothing-measured-movement",
+      "semantic_key": "performance-action-base-adjusting-clothing-measured-movement",
+      "text": "adjusting clothing with measured movement",
+      "sentence": "Adjusting clothing with measured movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adjusting clothing with measured movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adjusting clothing with measured movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adjusting clothing with measured movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-action-base-adjusting-clothing",
+      "tags": [
+        "action",
+        "action-dynamic",
+        "base",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "action": "adjusting-clothing",
+        "treatment": "measured-movement"
+      },
+      "subcategory": "adjusting-clothing",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-action-base-adjusting-clothing-flowing-movement",
+      "semantic_key": "performance-action-base-adjusting-clothing-flowing-movement",
+      "text": "adjusting clothing with flowing movement",
+      "sentence": "Adjusting clothing with flowing movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adjusting clothing with flowing movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adjusting clothing with flowing movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adjusting clothing with flowing movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-action-base-adjusting-clothing",
+      "tags": [
+        "action",
+        "action-dynamic",
+        "base",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "action": "adjusting-clothing",
+        "treatment": "flowing-movement"
+      },
+      "subcategory": "adjusting-clothing",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-action-base-adjusting-clothing-decisive-movement",
+      "semantic_key": "performance-action-base-adjusting-clothing-decisive-movement",
+      "text": "adjusting clothing with decisive movement",
+      "sentence": "Adjusting clothing with decisive movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adjusting clothing with decisive movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adjusting clothing with decisive movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adjusting clothing with decisive movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-action-base-adjusting-clothing",
+      "tags": [
+        "action",
+        "action-dynamic",
+        "base",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "action": "adjusting-clothing",
+        "treatment": "decisive-movement"
+      },
+      "subcategory": "adjusting-clothing",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-action-base-adjusting-clothing-suspended-movement",
+      "semantic_key": "performance-action-base-adjusting-clothing-suspended-movement",
+      "text": "adjusting clothing with suspended movement",
+      "sentence": "Adjusting clothing with suspended movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adjusting clothing with suspended movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adjusting clothing with suspended movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adjusting clothing with suspended movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-action-base-adjusting-clothing",
+      "tags": [
+        "action",
+        "action-dynamic",
+        "base",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "action": "adjusting-clothing",
+        "treatment": "suspended-movement"
+      },
+      "subcategory": "adjusting-clothing",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-action-base-adjusting-clothing-rhythmic-movement",
+      "semantic_key": "performance-action-base-adjusting-clothing-rhythmic-movement",
+      "text": "adjusting clothing with rhythmic movement",
+      "sentence": "Adjusting clothing with rhythmic movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adjusting clothing with rhythmic movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adjusting clothing with rhythmic movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adjusting clothing with rhythmic movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-action-base-adjusting-clothing",
+      "tags": [
+        "action",
+        "action-dynamic",
+        "base",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "action": "adjusting-clothing",
+        "treatment": "rhythmic-movement"
+      },
+      "subcategory": "adjusting-clothing",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-action-base-adjusting-clothing-asymmetric-movement",
+      "semantic_key": "performance-action-base-adjusting-clothing-asymmetric-movement",
+      "text": "adjusting clothing with asymmetric movement",
+      "sentence": "Adjusting clothing with asymmetric movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adjusting clothing with asymmetric movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adjusting clothing with asymmetric movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adjusting clothing with asymmetric movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-action-base-adjusting-clothing",
+      "tags": [
+        "action",
+        "action-dynamic",
+        "base",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "action": "adjusting-clothing",
+        "treatment": "asymmetric-movement"
+      },
+      "subcategory": "adjusting-clothing",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-action-base-adjusting-clothing-controlled-momentum",
+      "semantic_key": "performance-action-base-adjusting-clothing-controlled-momentum",
+      "text": "adjusting clothing with controlled momentum",
+      "sentence": "Adjusting clothing with controlled momentum.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "adjusting clothing with controlled momentum",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing adjusting clothing with controlled momentum",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with adjusting clothing with controlled momentum",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-action-base-adjusting-clothing",
+      "tags": [
+        "action",
+        "action-dynamic",
+        "base",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "action": "adjusting-clothing",
+        "treatment": "controlled-momentum"
+      },
+      "subcategory": "adjusting-clothing",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-action-base-reading-quietly-resting-movement",
+      "semantic_key": "performance-action-base-reading-quietly-resting-movement",
+      "text": "reading quietly with resting movement",
+      "sentence": "Reading quietly with resting movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "reading quietly with resting movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing reading quietly with resting movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with reading quietly with resting movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-action-base-reading-quietly",
+      "tags": [
+        "action",
+        "action-contained",
+        "base",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "action": "reading-quietly",
+        "treatment": "resting-movement"
+      },
+      "subcategory": "reading-quietly",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-action-base-reading-quietly-measured-movement",
+      "semantic_key": "performance-action-base-reading-quietly-measured-movement",
+      "text": "reading quietly with measured movement",
+      "sentence": "Reading quietly with measured movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "reading quietly with measured movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing reading quietly with measured movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with reading quietly with measured movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-action-base-reading-quietly",
+      "tags": [
+        "action",
+        "action-contained",
+        "base",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "action": "reading-quietly",
+        "treatment": "measured-movement"
+      },
+      "subcategory": "reading-quietly",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-action-base-reading-quietly-flowing-movement",
+      "semantic_key": "performance-action-base-reading-quietly-flowing-movement",
+      "text": "reading quietly with flowing movement",
+      "sentence": "Reading quietly with flowing movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "reading quietly with flowing movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing reading quietly with flowing movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with reading quietly with flowing movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-action-base-reading-quietly",
+      "tags": [
+        "action",
+        "action-contained",
+        "base",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "action": "reading-quietly",
+        "treatment": "flowing-movement"
+      },
+      "subcategory": "reading-quietly",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-action-base-reading-quietly-decisive-movement",
+      "semantic_key": "performance-action-base-reading-quietly-decisive-movement",
+      "text": "reading quietly with decisive movement",
+      "sentence": "Reading quietly with decisive movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "reading quietly with decisive movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing reading quietly with decisive movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with reading quietly with decisive movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-action-base-reading-quietly",
+      "tags": [
+        "action",
+        "action-contained",
+        "base",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "action": "reading-quietly",
+        "treatment": "decisive-movement"
+      },
+      "subcategory": "reading-quietly",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-action-base-reading-quietly-suspended-movement",
+      "semantic_key": "performance-action-base-reading-quietly-suspended-movement",
+      "text": "reading quietly with suspended movement",
+      "sentence": "Reading quietly with suspended movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "reading quietly with suspended movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing reading quietly with suspended movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with reading quietly with suspended movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-action-base-reading-quietly",
+      "tags": [
+        "action",
+        "action-contained",
+        "base",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "action": "reading-quietly",
+        "treatment": "suspended-movement"
+      },
+      "subcategory": "reading-quietly",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-action-base-reading-quietly-rhythmic-movement",
+      "semantic_key": "performance-action-base-reading-quietly-rhythmic-movement",
+      "text": "reading quietly with rhythmic movement",
+      "sentence": "Reading quietly with rhythmic movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "reading quietly with rhythmic movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing reading quietly with rhythmic movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with reading quietly with rhythmic movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-action-base-reading-quietly",
+      "tags": [
+        "action",
+        "action-contained",
+        "base",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "action": "reading-quietly",
+        "treatment": "rhythmic-movement"
+      },
+      "subcategory": "reading-quietly",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-action-base-reading-quietly-asymmetric-movement",
+      "semantic_key": "performance-action-base-reading-quietly-asymmetric-movement",
+      "text": "reading quietly with asymmetric movement",
+      "sentence": "Reading quietly with asymmetric movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "reading quietly with asymmetric movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing reading quietly with asymmetric movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with reading quietly with asymmetric movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-action-base-reading-quietly",
+      "tags": [
+        "action",
+        "action-contained",
+        "base",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "action": "reading-quietly",
+        "treatment": "asymmetric-movement"
+      },
+      "subcategory": "reading-quietly",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-action-base-reading-quietly-controlled-momentum",
+      "semantic_key": "performance-action-base-reading-quietly-controlled-momentum",
+      "text": "reading quietly with controlled momentum",
+      "sentence": "Reading quietly with controlled momentum.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "reading quietly with controlled momentum",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing reading quietly with controlled momentum",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with reading quietly with controlled momentum",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-action-base-reading-quietly",
+      "tags": [
+        "action",
+        "action-contained",
+        "base",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "action": "reading-quietly",
+        "treatment": "controlled-momentum"
+      },
+      "subcategory": "reading-quietly",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-action-base-working-at-a-table-resting-movement",
+      "semantic_key": "performance-action-base-working-at-a-table-resting-movement",
+      "text": "working at a table with resting movement",
+      "sentence": "Working at a table with resting movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "working at a table with resting movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing working at a table with resting movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with working at a table with resting movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-action-base-working-at-a-table",
+      "tags": [
+        "action",
+        "action-contained",
+        "base",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "action": "working-at-a-table",
+        "treatment": "resting-movement"
+      },
+      "subcategory": "working-at-a-table",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-action-base-working-at-a-table-measured-movement",
+      "semantic_key": "performance-action-base-working-at-a-table-measured-movement",
+      "text": "working at a table with measured movement",
+      "sentence": "Working at a table with measured movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "working at a table with measured movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing working at a table with measured movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with working at a table with measured movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-action-base-working-at-a-table",
+      "tags": [
+        "action",
+        "action-contained",
+        "base",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "action": "working-at-a-table",
+        "treatment": "measured-movement"
+      },
+      "subcategory": "working-at-a-table",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-action-base-working-at-a-table-flowing-movement",
+      "semantic_key": "performance-action-base-working-at-a-table-flowing-movement",
+      "text": "working at a table with flowing movement",
+      "sentence": "Working at a table with flowing movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "working at a table with flowing movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing working at a table with flowing movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with working at a table with flowing movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-action-base-working-at-a-table",
+      "tags": [
+        "action",
+        "action-contained",
+        "base",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "action": "working-at-a-table",
+        "treatment": "flowing-movement"
+      },
+      "subcategory": "working-at-a-table",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-action-base-working-at-a-table-decisive-movement",
+      "semantic_key": "performance-action-base-working-at-a-table-decisive-movement",
+      "text": "working at a table with decisive movement",
+      "sentence": "Working at a table with decisive movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "working at a table with decisive movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing working at a table with decisive movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with working at a table with decisive movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-action-base-working-at-a-table",
+      "tags": [
+        "action",
+        "action-contained",
+        "base",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "action": "working-at-a-table",
+        "treatment": "decisive-movement"
+      },
+      "subcategory": "working-at-a-table",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-action-base-working-at-a-table-suspended-movement",
+      "semantic_key": "performance-action-base-working-at-a-table-suspended-movement",
+      "text": "working at a table with suspended movement",
+      "sentence": "Working at a table with suspended movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "working at a table with suspended movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing working at a table with suspended movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with working at a table with suspended movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-action-base-working-at-a-table",
+      "tags": [
+        "action",
+        "action-contained",
+        "base",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "action": "working-at-a-table",
+        "treatment": "suspended-movement"
+      },
+      "subcategory": "working-at-a-table",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-action-base-working-at-a-table-rhythmic-movement",
+      "semantic_key": "performance-action-base-working-at-a-table-rhythmic-movement",
+      "text": "working at a table with rhythmic movement",
+      "sentence": "Working at a table with rhythmic movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "working at a table with rhythmic movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing working at a table with rhythmic movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with working at a table with rhythmic movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-action-base-working-at-a-table",
+      "tags": [
+        "action",
+        "action-contained",
+        "base",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "action": "working-at-a-table",
+        "treatment": "rhythmic-movement"
+      },
+      "subcategory": "working-at-a-table",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-action-base-working-at-a-table-asymmetric-movement",
+      "semantic_key": "performance-action-base-working-at-a-table-asymmetric-movement",
+      "text": "working at a table with asymmetric movement",
+      "sentence": "Working at a table with asymmetric movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "working at a table with asymmetric movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing working at a table with asymmetric movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with working at a table with asymmetric movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-action-base-working-at-a-table",
+      "tags": [
+        "action",
+        "action-contained",
+        "base",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "action": "working-at-a-table",
+        "treatment": "asymmetric-movement"
+      },
+      "subcategory": "working-at-a-table",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-action-base-working-at-a-table-controlled-momentum",
+      "semantic_key": "performance-action-base-working-at-a-table-controlled-momentum",
+      "text": "working at a table with controlled momentum",
+      "sentence": "Working at a table with controlled momentum.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "working at a table with controlled momentum",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing working at a table with controlled momentum",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with working at a table with controlled momentum",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-action-base-working-at-a-table",
+      "tags": [
+        "action",
+        "action-contained",
+        "base",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "action": "working-at-a-table",
+        "treatment": "controlled-momentum"
+      },
+      "subcategory": "working-at-a-table",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-action-base-looking-through-a-window-resting-movement",
+      "semantic_key": "performance-action-base-looking-through-a-window-resting-movement",
+      "text": "looking through a window with resting movement",
+      "sentence": "Looking through a window with resting movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "looking through a window with resting movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing looking through a window with resting movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with looking through a window with resting movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-action-base-looking-through-a-window",
+      "tags": [
+        "action",
+        "action-contained",
+        "base",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "action": "looking-through-a-window",
+        "treatment": "resting-movement"
+      },
+      "subcategory": "looking-through-a-window",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-action-base-looking-through-a-window-measured-movement",
+      "semantic_key": "performance-action-base-looking-through-a-window-measured-movement",
+      "text": "looking through a window with measured movement",
+      "sentence": "Looking through a window with measured movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "looking through a window with measured movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing looking through a window with measured movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with looking through a window with measured movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-action-base-looking-through-a-window",
+      "tags": [
+        "action",
+        "action-contained",
+        "base",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "action": "looking-through-a-window",
+        "treatment": "measured-movement"
+      },
+      "subcategory": "looking-through-a-window",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-action-base-looking-through-a-window-flowing-movement",
+      "semantic_key": "performance-action-base-looking-through-a-window-flowing-movement",
+      "text": "looking through a window with flowing movement",
+      "sentence": "Looking through a window with flowing movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "looking through a window with flowing movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing looking through a window with flowing movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with looking through a window with flowing movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-action-base-looking-through-a-window",
+      "tags": [
+        "action",
+        "action-contained",
+        "base",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "action": "looking-through-a-window",
+        "treatment": "flowing-movement"
+      },
+      "subcategory": "looking-through-a-window",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-action-base-looking-through-a-window-decisive-movement",
+      "semantic_key": "performance-action-base-looking-through-a-window-decisive-movement",
+      "text": "looking through a window with decisive movement",
+      "sentence": "Looking through a window with decisive movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "looking through a window with decisive movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing looking through a window with decisive movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with looking through a window with decisive movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-action-base-looking-through-a-window",
+      "tags": [
+        "action",
+        "action-contained",
+        "base",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "action": "looking-through-a-window",
+        "treatment": "decisive-movement"
+      },
+      "subcategory": "looking-through-a-window",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-action-base-looking-through-a-window-suspended-movement",
+      "semantic_key": "performance-action-base-looking-through-a-window-suspended-movement",
+      "text": "looking through a window with suspended movement",
+      "sentence": "Looking through a window with suspended movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "looking through a window with suspended movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing looking through a window with suspended movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with looking through a window with suspended movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-action-base-looking-through-a-window",
+      "tags": [
+        "action",
+        "action-contained",
+        "base",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "action": "looking-through-a-window",
+        "treatment": "suspended-movement"
+      },
+      "subcategory": "looking-through-a-window",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-action-base-looking-through-a-window-rhythmic-movement",
+      "semantic_key": "performance-action-base-looking-through-a-window-rhythmic-movement",
+      "text": "looking through a window with rhythmic movement",
+      "sentence": "Looking through a window with rhythmic movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "looking through a window with rhythmic movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing looking through a window with rhythmic movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with looking through a window with rhythmic movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-action-base-looking-through-a-window",
+      "tags": [
+        "action",
+        "action-contained",
+        "base",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "action": "looking-through-a-window",
+        "treatment": "rhythmic-movement"
+      },
+      "subcategory": "looking-through-a-window",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-action-base-looking-through-a-window-asymmetric-movement",
+      "semantic_key": "performance-action-base-looking-through-a-window-asymmetric-movement",
+      "text": "looking through a window with asymmetric movement",
+      "sentence": "Looking through a window with asymmetric movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "looking through a window with asymmetric movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing looking through a window with asymmetric movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with looking through a window with asymmetric movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-action-base-looking-through-a-window",
+      "tags": [
+        "action",
+        "action-contained",
+        "base",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "action": "looking-through-a-window",
+        "treatment": "asymmetric-movement"
+      },
+      "subcategory": "looking-through-a-window",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-action-base-looking-through-a-window-controlled-momentum",
+      "semantic_key": "performance-action-base-looking-through-a-window-controlled-momentum",
+      "text": "looking through a window with controlled momentum",
+      "sentence": "Looking through a window with controlled momentum.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "looking through a window with controlled momentum",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing looking through a window with controlled momentum",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with looking through a window with controlled momentum",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-action-base-looking-through-a-window",
+      "tags": [
+        "action",
+        "action-contained",
+        "base",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "action": "looking-through-a-window",
+        "treatment": "controlled-momentum"
+      },
+      "subcategory": "looking-through-a-window",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-action-base-pausing-mid-conversation-resting-movement",
+      "semantic_key": "performance-action-base-pausing-mid-conversation-resting-movement",
+      "text": "pausing mid-conversation with resting movement",
+      "sentence": "Pausing mid-conversation with resting movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "pausing mid-conversation with resting movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing pausing mid-conversation with resting movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with pausing mid-conversation with resting movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-action-base-pausing-mid-conversation",
+      "tags": [
+        "action",
+        "action-contained",
+        "base",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "action": "pausing-mid-conversation",
+        "treatment": "resting-movement"
+      },
+      "subcategory": "pausing-mid-conversation",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-action-base-pausing-mid-conversation-measured-movement",
+      "semantic_key": "performance-action-base-pausing-mid-conversation-measured-movement",
+      "text": "pausing mid-conversation with measured movement",
+      "sentence": "Pausing mid-conversation with measured movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "pausing mid-conversation with measured movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing pausing mid-conversation with measured movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with pausing mid-conversation with measured movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-action-base-pausing-mid-conversation",
+      "tags": [
+        "action",
+        "action-contained",
+        "base",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "action": "pausing-mid-conversation",
+        "treatment": "measured-movement"
+      },
+      "subcategory": "pausing-mid-conversation",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-action-base-pausing-mid-conversation-flowing-movement",
+      "semantic_key": "performance-action-base-pausing-mid-conversation-flowing-movement",
+      "text": "pausing mid-conversation with flowing movement",
+      "sentence": "Pausing mid-conversation with flowing movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "pausing mid-conversation with flowing movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing pausing mid-conversation with flowing movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with pausing mid-conversation with flowing movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-action-base-pausing-mid-conversation",
+      "tags": [
+        "action",
+        "action-contained",
+        "base",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "action": "pausing-mid-conversation",
+        "treatment": "flowing-movement"
+      },
+      "subcategory": "pausing-mid-conversation",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-action-base-pausing-mid-conversation-decisive-movement",
+      "semantic_key": "performance-action-base-pausing-mid-conversation-decisive-movement",
+      "text": "pausing mid-conversation with decisive movement",
+      "sentence": "Pausing mid-conversation with decisive movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "pausing mid-conversation with decisive movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing pausing mid-conversation with decisive movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with pausing mid-conversation with decisive movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "performance-action-base-pausing-mid-conversation",
+      "tags": [
+        "action",
+        "action-contained",
+        "base",
+        "performance",
+        "rarity-common"
+      ],
+      "facets": {
+        "action": "pausing-mid-conversation",
+        "treatment": "decisive-movement"
+      },
+      "subcategory": "pausing-mid-conversation",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-action-base-pausing-mid-conversation-suspended-movement",
+      "semantic_key": "performance-action-base-pausing-mid-conversation-suspended-movement",
+      "text": "pausing mid-conversation with suspended movement",
+      "sentence": "Pausing mid-conversation with suspended movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "pausing mid-conversation with suspended movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing pausing mid-conversation with suspended movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with pausing mid-conversation with suspended movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-action-base-pausing-mid-conversation",
+      "tags": [
+        "action",
+        "action-contained",
+        "base",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "action": "pausing-mid-conversation",
+        "treatment": "suspended-movement"
+      },
+      "subcategory": "pausing-mid-conversation",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-action-base-pausing-mid-conversation-rhythmic-movement",
+      "semantic_key": "performance-action-base-pausing-mid-conversation-rhythmic-movement",
+      "text": "pausing mid-conversation with rhythmic movement",
+      "sentence": "Pausing mid-conversation with rhythmic movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "pausing mid-conversation with rhythmic movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing pausing mid-conversation with rhythmic movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with pausing mid-conversation with rhythmic movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "performance-action-base-pausing-mid-conversation",
+      "tags": [
+        "action",
+        "action-contained",
+        "base",
+        "performance",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "action": "pausing-mid-conversation",
+        "treatment": "rhythmic-movement"
+      },
+      "subcategory": "pausing-mid-conversation",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-action-base-pausing-mid-conversation-asymmetric-movement",
+      "semantic_key": "performance-action-base-pausing-mid-conversation-asymmetric-movement",
+      "text": "pausing mid-conversation with asymmetric movement",
+      "sentence": "Pausing mid-conversation with asymmetric movement.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "pausing mid-conversation with asymmetric movement",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing pausing mid-conversation with asymmetric movement",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with pausing mid-conversation with asymmetric movement",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-action-base-pausing-mid-conversation",
+      "tags": [
+        "action",
+        "action-contained",
+        "base",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "action": "pausing-mid-conversation",
+        "treatment": "asymmetric-movement"
+      },
+      "subcategory": "pausing-mid-conversation",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "performance-action-base-pausing-mid-conversation-controlled-momentum",
+      "semantic_key": "performance-action-base-pausing-mid-conversation-controlled-momentum",
+      "text": "pausing mid-conversation with controlled momentum",
+      "sentence": "Pausing mid-conversation with controlled momentum.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "pausing mid-conversation with controlled momentum",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing pausing mid-conversation with controlled momentum",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with pausing mid-conversation with controlled momentum",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "performance-action-base-pausing-mid-conversation",
+      "tags": [
+        "action",
+        "action-contained",
+        "base",
+        "performance",
+        "rarity-rare"
+      ],
+      "facets": {
+        "action": "pausing-mid-conversation",
+        "treatment": "controlled-momentum"
+      },
+      "subcategory": "pausing-mid-conversation",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    }
+  ]
+}

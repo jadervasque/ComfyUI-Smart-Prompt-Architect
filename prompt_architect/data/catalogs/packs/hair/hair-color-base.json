@@ -1,0 +1,2577 @@
+{
+  "schema_version": "2.0",
+  "id": "hair-color-base",
+  "version": "2.0.0",
+  "library": "hair-color",
+  "domain": "hair",
+  "category": "hair-color",
+  "language": "en",
+  "status": "active",
+  "safety": "general",
+  "tags": [
+    "base"
+  ],
+  "fallback_option_id": "hair-color-base-black-neutral-undertone",
+  "options": [
+    {
+      "id": "hair-color-base-black-neutral-undertone",
+      "semantic_key": "hair-color-base-black-neutral-undertone",
+      "text": "black hair with a neutral undertone",
+      "sentence": "Black hair with a neutral undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "black hair with a neutral undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing black hair with a neutral undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with black hair with a neutral undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-color-base-black",
+      "tags": [
+        "base",
+        "hair",
+        "hair-color",
+        "rarity-common"
+      ],
+      "facets": {
+        "hue": "black",
+        "treatment": "neutral-undertone"
+      },
+      "subcategory": "black",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-color-base-black-warm-undertone",
+      "semantic_key": "hair-color-base-black-warm-undertone",
+      "text": "black hair with a warm undertone",
+      "sentence": "Black hair with a warm undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "black hair with a warm undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing black hair with a warm undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with black hair with a warm undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-color-base-black",
+      "tags": [
+        "base",
+        "hair",
+        "hair-color",
+        "rarity-common"
+      ],
+      "facets": {
+        "hue": "black",
+        "treatment": "warm-undertone"
+      },
+      "subcategory": "black",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-color-base-black-cool-undertone",
+      "semantic_key": "hair-color-base-black-cool-undertone",
+      "text": "black hair with a cool undertone",
+      "sentence": "Black hair with a cool undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "black hair with a cool undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing black hair with a cool undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with black hair with a cool undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-color-base-black",
+      "tags": [
+        "base",
+        "hair",
+        "hair-color",
+        "rarity-common"
+      ],
+      "facets": {
+        "hue": "black",
+        "treatment": "cool-undertone"
+      },
+      "subcategory": "black",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-color-base-black-golden-undertone",
+      "semantic_key": "hair-color-base-black-golden-undertone",
+      "text": "black hair with a golden undertone",
+      "sentence": "Black hair with a golden undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "black hair with a golden undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing black hair with a golden undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with black hair with a golden undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-color-base-black",
+      "tags": [
+        "base",
+        "hair",
+        "hair-color",
+        "rarity-common"
+      ],
+      "facets": {
+        "hue": "black",
+        "treatment": "golden-undertone"
+      },
+      "subcategory": "black",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-color-base-black-olive-undertone",
+      "semantic_key": "hair-color-base-black-olive-undertone",
+      "text": "black hair with a olive undertone",
+      "sentence": "Black hair with a olive undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "black hair with a olive undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing black hair with a olive undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with black hair with a olive undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-color-base-black",
+      "tags": [
+        "base",
+        "hair",
+        "hair-color",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "hue": "black",
+        "treatment": "olive-undertone"
+      },
+      "subcategory": "black",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-color-base-black-rose-undertone",
+      "semantic_key": "hair-color-base-black-rose-undertone",
+      "text": "black hair with a rose undertone",
+      "sentence": "Black hair with a rose undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "black hair with a rose undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing black hair with a rose undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with black hair with a rose undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-color-base-black",
+      "tags": [
+        "base",
+        "hair",
+        "hair-color",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "hue": "black",
+        "treatment": "rose-undertone"
+      },
+      "subcategory": "black",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-color-base-black-muted-undertone",
+      "semantic_key": "hair-color-base-black-muted-undertone",
+      "text": "black hair with a muted undertone",
+      "sentence": "Black hair with a muted undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "black hair with a muted undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing black hair with a muted undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with black hair with a muted undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-color-base-black",
+      "tags": [
+        "base",
+        "hair",
+        "hair-color",
+        "rarity-rare"
+      ],
+      "facets": {
+        "hue": "black",
+        "treatment": "muted-undertone"
+      },
+      "subcategory": "black",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-color-base-black-luminous-undertone",
+      "semantic_key": "hair-color-base-black-luminous-undertone",
+      "text": "black hair with a luminous undertone",
+      "sentence": "Black hair with a luminous undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "black hair with a luminous undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing black hair with a luminous undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with black hair with a luminous undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-color-base-black",
+      "tags": [
+        "base",
+        "hair",
+        "hair-color",
+        "rarity-rare"
+      ],
+      "facets": {
+        "hue": "black",
+        "treatment": "luminous-undertone"
+      },
+      "subcategory": "black",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-color-base-dark-brown-neutral-undertone",
+      "semantic_key": "hair-color-base-dark-brown-neutral-undertone",
+      "text": "dark brown hair with a neutral undertone",
+      "sentence": "Dark brown hair with a neutral undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "dark brown hair with a neutral undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing dark brown hair with a neutral undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with dark brown hair with a neutral undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-color-base-dark-brown",
+      "tags": [
+        "base",
+        "hair",
+        "hair-color",
+        "rarity-common"
+      ],
+      "facets": {
+        "hue": "dark-brown",
+        "treatment": "neutral-undertone"
+      },
+      "subcategory": "dark-brown",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-color-base-dark-brown-warm-undertone",
+      "semantic_key": "hair-color-base-dark-brown-warm-undertone",
+      "text": "dark brown hair with a warm undertone",
+      "sentence": "Dark brown hair with a warm undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "dark brown hair with a warm undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing dark brown hair with a warm undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with dark brown hair with a warm undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-color-base-dark-brown",
+      "tags": [
+        "base",
+        "hair",
+        "hair-color",
+        "rarity-common"
+      ],
+      "facets": {
+        "hue": "dark-brown",
+        "treatment": "warm-undertone"
+      },
+      "subcategory": "dark-brown",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-color-base-dark-brown-cool-undertone",
+      "semantic_key": "hair-color-base-dark-brown-cool-undertone",
+      "text": "dark brown hair with a cool undertone",
+      "sentence": "Dark brown hair with a cool undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "dark brown hair with a cool undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing dark brown hair with a cool undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with dark brown hair with a cool undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-color-base-dark-brown",
+      "tags": [
+        "base",
+        "hair",
+        "hair-color",
+        "rarity-common"
+      ],
+      "facets": {
+        "hue": "dark-brown",
+        "treatment": "cool-undertone"
+      },
+      "subcategory": "dark-brown",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-color-base-dark-brown-golden-undertone",
+      "semantic_key": "hair-color-base-dark-brown-golden-undertone",
+      "text": "dark brown hair with a golden undertone",
+      "sentence": "Dark brown hair with a golden undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "dark brown hair with a golden undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing dark brown hair with a golden undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with dark brown hair with a golden undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-color-base-dark-brown",
+      "tags": [
+        "base",
+        "hair",
+        "hair-color",
+        "rarity-common"
+      ],
+      "facets": {
+        "hue": "dark-brown",
+        "treatment": "golden-undertone"
+      },
+      "subcategory": "dark-brown",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-color-base-dark-brown-olive-undertone",
+      "semantic_key": "hair-color-base-dark-brown-olive-undertone",
+      "text": "dark brown hair with a olive undertone",
+      "sentence": "Dark brown hair with a olive undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "dark brown hair with a olive undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing dark brown hair with a olive undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with dark brown hair with a olive undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-color-base-dark-brown",
+      "tags": [
+        "base",
+        "hair",
+        "hair-color",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "hue": "dark-brown",
+        "treatment": "olive-undertone"
+      },
+      "subcategory": "dark-brown",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-color-base-dark-brown-rose-undertone",
+      "semantic_key": "hair-color-base-dark-brown-rose-undertone",
+      "text": "dark brown hair with a rose undertone",
+      "sentence": "Dark brown hair with a rose undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "dark brown hair with a rose undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing dark brown hair with a rose undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with dark brown hair with a rose undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-color-base-dark-brown",
+      "tags": [
+        "base",
+        "hair",
+        "hair-color",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "hue": "dark-brown",
+        "treatment": "rose-undertone"
+      },
+      "subcategory": "dark-brown",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-color-base-dark-brown-muted-undertone",
+      "semantic_key": "hair-color-base-dark-brown-muted-undertone",
+      "text": "dark brown hair with a muted undertone",
+      "sentence": "Dark brown hair with a muted undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "dark brown hair with a muted undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing dark brown hair with a muted undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with dark brown hair with a muted undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-color-base-dark-brown",
+      "tags": [
+        "base",
+        "hair",
+        "hair-color",
+        "rarity-rare"
+      ],
+      "facets": {
+        "hue": "dark-brown",
+        "treatment": "muted-undertone"
+      },
+      "subcategory": "dark-brown",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-color-base-dark-brown-luminous-undertone",
+      "semantic_key": "hair-color-base-dark-brown-luminous-undertone",
+      "text": "dark brown hair with a luminous undertone",
+      "sentence": "Dark brown hair with a luminous undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "dark brown hair with a luminous undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing dark brown hair with a luminous undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with dark brown hair with a luminous undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-color-base-dark-brown",
+      "tags": [
+        "base",
+        "hair",
+        "hair-color",
+        "rarity-rare"
+      ],
+      "facets": {
+        "hue": "dark-brown",
+        "treatment": "luminous-undertone"
+      },
+      "subcategory": "dark-brown",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-color-base-chestnut-brown-neutral-undertone",
+      "semantic_key": "hair-color-base-chestnut-brown-neutral-undertone",
+      "text": "chestnut brown hair with a neutral undertone",
+      "sentence": "Chestnut brown hair with a neutral undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "chestnut brown hair with a neutral undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing chestnut brown hair with a neutral undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with chestnut brown hair with a neutral undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-color-base-chestnut-brown",
+      "tags": [
+        "base",
+        "hair",
+        "hair-color",
+        "rarity-common"
+      ],
+      "facets": {
+        "hue": "chestnut-brown",
+        "treatment": "neutral-undertone"
+      },
+      "subcategory": "chestnut-brown",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-color-base-chestnut-brown-warm-undertone",
+      "semantic_key": "hair-color-base-chestnut-brown-warm-undertone",
+      "text": "chestnut brown hair with a warm undertone",
+      "sentence": "Chestnut brown hair with a warm undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "chestnut brown hair with a warm undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing chestnut brown hair with a warm undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with chestnut brown hair with a warm undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-color-base-chestnut-brown",
+      "tags": [
+        "base",
+        "hair",
+        "hair-color",
+        "rarity-common"
+      ],
+      "facets": {
+        "hue": "chestnut-brown",
+        "treatment": "warm-undertone"
+      },
+      "subcategory": "chestnut-brown",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-color-base-chestnut-brown-cool-undertone",
+      "semantic_key": "hair-color-base-chestnut-brown-cool-undertone",
+      "text": "chestnut brown hair with a cool undertone",
+      "sentence": "Chestnut brown hair with a cool undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "chestnut brown hair with a cool undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing chestnut brown hair with a cool undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with chestnut brown hair with a cool undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-color-base-chestnut-brown",
+      "tags": [
+        "base",
+        "hair",
+        "hair-color",
+        "rarity-common"
+      ],
+      "facets": {
+        "hue": "chestnut-brown",
+        "treatment": "cool-undertone"
+      },
+      "subcategory": "chestnut-brown",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-color-base-chestnut-brown-golden-undertone",
+      "semantic_key": "hair-color-base-chestnut-brown-golden-undertone",
+      "text": "chestnut brown hair with a golden undertone",
+      "sentence": "Chestnut brown hair with a golden undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "chestnut brown hair with a golden undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing chestnut brown hair with a golden undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with chestnut brown hair with a golden undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-color-base-chestnut-brown",
+      "tags": [
+        "base",
+        "hair",
+        "hair-color",
+        "rarity-common"
+      ],
+      "facets": {
+        "hue": "chestnut-brown",
+        "treatment": "golden-undertone"
+      },
+      "subcategory": "chestnut-brown",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-color-base-chestnut-brown-olive-undertone",
+      "semantic_key": "hair-color-base-chestnut-brown-olive-undertone",
+      "text": "chestnut brown hair with a olive undertone",
+      "sentence": "Chestnut brown hair with a olive undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "chestnut brown hair with a olive undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing chestnut brown hair with a olive undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with chestnut brown hair with a olive undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-color-base-chestnut-brown",
+      "tags": [
+        "base",
+        "hair",
+        "hair-color",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "hue": "chestnut-brown",
+        "treatment": "olive-undertone"
+      },
+      "subcategory": "chestnut-brown",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-color-base-chestnut-brown-rose-undertone",
+      "semantic_key": "hair-color-base-chestnut-brown-rose-undertone",
+      "text": "chestnut brown hair with a rose undertone",
+      "sentence": "Chestnut brown hair with a rose undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "chestnut brown hair with a rose undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing chestnut brown hair with a rose undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with chestnut brown hair with a rose undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-color-base-chestnut-brown",
+      "tags": [
+        "base",
+        "hair",
+        "hair-color",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "hue": "chestnut-brown",
+        "treatment": "rose-undertone"
+      },
+      "subcategory": "chestnut-brown",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-color-base-chestnut-brown-muted-undertone",
+      "semantic_key": "hair-color-base-chestnut-brown-muted-undertone",
+      "text": "chestnut brown hair with a muted undertone",
+      "sentence": "Chestnut brown hair with a muted undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "chestnut brown hair with a muted undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing chestnut brown hair with a muted undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with chestnut brown hair with a muted undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-color-base-chestnut-brown",
+      "tags": [
+        "base",
+        "hair",
+        "hair-color",
+        "rarity-rare"
+      ],
+      "facets": {
+        "hue": "chestnut-brown",
+        "treatment": "muted-undertone"
+      },
+      "subcategory": "chestnut-brown",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-color-base-chestnut-brown-luminous-undertone",
+      "semantic_key": "hair-color-base-chestnut-brown-luminous-undertone",
+      "text": "chestnut brown hair with a luminous undertone",
+      "sentence": "Chestnut brown hair with a luminous undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "chestnut brown hair with a luminous undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing chestnut brown hair with a luminous undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with chestnut brown hair with a luminous undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-color-base-chestnut-brown",
+      "tags": [
+        "base",
+        "hair",
+        "hair-color",
+        "rarity-rare"
+      ],
+      "facets": {
+        "hue": "chestnut-brown",
+        "treatment": "luminous-undertone"
+      },
+      "subcategory": "chestnut-brown",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-color-base-auburn-neutral-undertone",
+      "semantic_key": "hair-color-base-auburn-neutral-undertone",
+      "text": "auburn hair with a neutral undertone",
+      "sentence": "Auburn hair with a neutral undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "auburn hair with a neutral undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing auburn hair with a neutral undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with auburn hair with a neutral undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-color-base-auburn",
+      "tags": [
+        "base",
+        "hair",
+        "hair-color",
+        "rarity-common"
+      ],
+      "facets": {
+        "hue": "auburn",
+        "treatment": "neutral-undertone"
+      },
+      "subcategory": "auburn",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-color-base-auburn-warm-undertone",
+      "semantic_key": "hair-color-base-auburn-warm-undertone",
+      "text": "auburn hair with a warm undertone",
+      "sentence": "Auburn hair with a warm undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "auburn hair with a warm undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing auburn hair with a warm undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with auburn hair with a warm undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-color-base-auburn",
+      "tags": [
+        "base",
+        "hair",
+        "hair-color",
+        "rarity-common"
+      ],
+      "facets": {
+        "hue": "auburn",
+        "treatment": "warm-undertone"
+      },
+      "subcategory": "auburn",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-color-base-auburn-cool-undertone",
+      "semantic_key": "hair-color-base-auburn-cool-undertone",
+      "text": "auburn hair with a cool undertone",
+      "sentence": "Auburn hair with a cool undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "auburn hair with a cool undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing auburn hair with a cool undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with auburn hair with a cool undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-color-base-auburn",
+      "tags": [
+        "base",
+        "hair",
+        "hair-color",
+        "rarity-common"
+      ],
+      "facets": {
+        "hue": "auburn",
+        "treatment": "cool-undertone"
+      },
+      "subcategory": "auburn",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-color-base-auburn-golden-undertone",
+      "semantic_key": "hair-color-base-auburn-golden-undertone",
+      "text": "auburn hair with a golden undertone",
+      "sentence": "Auburn hair with a golden undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "auburn hair with a golden undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing auburn hair with a golden undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with auburn hair with a golden undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-color-base-auburn",
+      "tags": [
+        "base",
+        "hair",
+        "hair-color",
+        "rarity-common"
+      ],
+      "facets": {
+        "hue": "auburn",
+        "treatment": "golden-undertone"
+      },
+      "subcategory": "auburn",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-color-base-auburn-olive-undertone",
+      "semantic_key": "hair-color-base-auburn-olive-undertone",
+      "text": "auburn hair with a olive undertone",
+      "sentence": "Auburn hair with a olive undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "auburn hair with a olive undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing auburn hair with a olive undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with auburn hair with a olive undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-color-base-auburn",
+      "tags": [
+        "base",
+        "hair",
+        "hair-color",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "hue": "auburn",
+        "treatment": "olive-undertone"
+      },
+      "subcategory": "auburn",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-color-base-auburn-rose-undertone",
+      "semantic_key": "hair-color-base-auburn-rose-undertone",
+      "text": "auburn hair with a rose undertone",
+      "sentence": "Auburn hair with a rose undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "auburn hair with a rose undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing auburn hair with a rose undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with auburn hair with a rose undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-color-base-auburn",
+      "tags": [
+        "base",
+        "hair",
+        "hair-color",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "hue": "auburn",
+        "treatment": "rose-undertone"
+      },
+      "subcategory": "auburn",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-color-base-auburn-muted-undertone",
+      "semantic_key": "hair-color-base-auburn-muted-undertone",
+      "text": "auburn hair with a muted undertone",
+      "sentence": "Auburn hair with a muted undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "auburn hair with a muted undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing auburn hair with a muted undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with auburn hair with a muted undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-color-base-auburn",
+      "tags": [
+        "base",
+        "hair",
+        "hair-color",
+        "rarity-rare"
+      ],
+      "facets": {
+        "hue": "auburn",
+        "treatment": "muted-undertone"
+      },
+      "subcategory": "auburn",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-color-base-auburn-luminous-undertone",
+      "semantic_key": "hair-color-base-auburn-luminous-undertone",
+      "text": "auburn hair with a luminous undertone",
+      "sentence": "Auburn hair with a luminous undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "auburn hair with a luminous undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing auburn hair with a luminous undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with auburn hair with a luminous undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-color-base-auburn",
+      "tags": [
+        "base",
+        "hair",
+        "hair-color",
+        "rarity-rare"
+      ],
+      "facets": {
+        "hue": "auburn",
+        "treatment": "luminous-undertone"
+      },
+      "subcategory": "auburn",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-color-base-copper-neutral-undertone",
+      "semantic_key": "hair-color-base-copper-neutral-undertone",
+      "text": "copper hair with a neutral undertone",
+      "sentence": "Copper hair with a neutral undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "copper hair with a neutral undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing copper hair with a neutral undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with copper hair with a neutral undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-color-base-copper",
+      "tags": [
+        "base",
+        "hair",
+        "hair-color",
+        "rarity-common"
+      ],
+      "facets": {
+        "hue": "copper",
+        "treatment": "neutral-undertone"
+      },
+      "subcategory": "copper",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-color-base-copper-warm-undertone",
+      "semantic_key": "hair-color-base-copper-warm-undertone",
+      "text": "copper hair with a warm undertone",
+      "sentence": "Copper hair with a warm undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "copper hair with a warm undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing copper hair with a warm undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with copper hair with a warm undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-color-base-copper",
+      "tags": [
+        "base",
+        "hair",
+        "hair-color",
+        "rarity-common"
+      ],
+      "facets": {
+        "hue": "copper",
+        "treatment": "warm-undertone"
+      },
+      "subcategory": "copper",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-color-base-copper-cool-undertone",
+      "semantic_key": "hair-color-base-copper-cool-undertone",
+      "text": "copper hair with a cool undertone",
+      "sentence": "Copper hair with a cool undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "copper hair with a cool undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing copper hair with a cool undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with copper hair with a cool undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-color-base-copper",
+      "tags": [
+        "base",
+        "hair",
+        "hair-color",
+        "rarity-common"
+      ],
+      "facets": {
+        "hue": "copper",
+        "treatment": "cool-undertone"
+      },
+      "subcategory": "copper",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-color-base-copper-golden-undertone",
+      "semantic_key": "hair-color-base-copper-golden-undertone",
+      "text": "copper hair with a golden undertone",
+      "sentence": "Copper hair with a golden undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "copper hair with a golden undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing copper hair with a golden undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with copper hair with a golden undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-color-base-copper",
+      "tags": [
+        "base",
+        "hair",
+        "hair-color",
+        "rarity-common"
+      ],
+      "facets": {
+        "hue": "copper",
+        "treatment": "golden-undertone"
+      },
+      "subcategory": "copper",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-color-base-copper-olive-undertone",
+      "semantic_key": "hair-color-base-copper-olive-undertone",
+      "text": "copper hair with a olive undertone",
+      "sentence": "Copper hair with a olive undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "copper hair with a olive undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing copper hair with a olive undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with copper hair with a olive undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-color-base-copper",
+      "tags": [
+        "base",
+        "hair",
+        "hair-color",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "hue": "copper",
+        "treatment": "olive-undertone"
+      },
+      "subcategory": "copper",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-color-base-copper-rose-undertone",
+      "semantic_key": "hair-color-base-copper-rose-undertone",
+      "text": "copper hair with a rose undertone",
+      "sentence": "Copper hair with a rose undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "copper hair with a rose undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing copper hair with a rose undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with copper hair with a rose undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-color-base-copper",
+      "tags": [
+        "base",
+        "hair",
+        "hair-color",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "hue": "copper",
+        "treatment": "rose-undertone"
+      },
+      "subcategory": "copper",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-color-base-copper-muted-undertone",
+      "semantic_key": "hair-color-base-copper-muted-undertone",
+      "text": "copper hair with a muted undertone",
+      "sentence": "Copper hair with a muted undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "copper hair with a muted undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing copper hair with a muted undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with copper hair with a muted undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-color-base-copper",
+      "tags": [
+        "base",
+        "hair",
+        "hair-color",
+        "rarity-rare"
+      ],
+      "facets": {
+        "hue": "copper",
+        "treatment": "muted-undertone"
+      },
+      "subcategory": "copper",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-color-base-copper-luminous-undertone",
+      "semantic_key": "hair-color-base-copper-luminous-undertone",
+      "text": "copper hair with a luminous undertone",
+      "sentence": "Copper hair with a luminous undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "copper hair with a luminous undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing copper hair with a luminous undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with copper hair with a luminous undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-color-base-copper",
+      "tags": [
+        "base",
+        "hair",
+        "hair-color",
+        "rarity-rare"
+      ],
+      "facets": {
+        "hue": "copper",
+        "treatment": "luminous-undertone"
+      },
+      "subcategory": "copper",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-color-base-golden-blonde-neutral-undertone",
+      "semantic_key": "hair-color-base-golden-blonde-neutral-undertone",
+      "text": "golden blonde hair with a neutral undertone",
+      "sentence": "Golden blonde hair with a neutral undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "golden blonde hair with a neutral undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing golden blonde hair with a neutral undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with golden blonde hair with a neutral undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-color-base-golden-blonde",
+      "tags": [
+        "base",
+        "hair",
+        "hair-color",
+        "rarity-common"
+      ],
+      "facets": {
+        "hue": "golden-blonde",
+        "treatment": "neutral-undertone"
+      },
+      "subcategory": "golden-blonde",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-color-base-golden-blonde-warm-undertone",
+      "semantic_key": "hair-color-base-golden-blonde-warm-undertone",
+      "text": "golden blonde hair with a warm undertone",
+      "sentence": "Golden blonde hair with a warm undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "golden blonde hair with a warm undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing golden blonde hair with a warm undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with golden blonde hair with a warm undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-color-base-golden-blonde",
+      "tags": [
+        "base",
+        "hair",
+        "hair-color",
+        "rarity-common"
+      ],
+      "facets": {
+        "hue": "golden-blonde",
+        "treatment": "warm-undertone"
+      },
+      "subcategory": "golden-blonde",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-color-base-golden-blonde-cool-undertone",
+      "semantic_key": "hair-color-base-golden-blonde-cool-undertone",
+      "text": "golden blonde hair with a cool undertone",
+      "sentence": "Golden blonde hair with a cool undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "golden blonde hair with a cool undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing golden blonde hair with a cool undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with golden blonde hair with a cool undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-color-base-golden-blonde",
+      "tags": [
+        "base",
+        "hair",
+        "hair-color",
+        "rarity-common"
+      ],
+      "facets": {
+        "hue": "golden-blonde",
+        "treatment": "cool-undertone"
+      },
+      "subcategory": "golden-blonde",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-color-base-golden-blonde-golden-undertone",
+      "semantic_key": "hair-color-base-golden-blonde-golden-undertone",
+      "text": "golden blonde hair with a golden undertone",
+      "sentence": "Golden blonde hair with a golden undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "golden blonde hair with a golden undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing golden blonde hair with a golden undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with golden blonde hair with a golden undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-color-base-golden-blonde",
+      "tags": [
+        "base",
+        "hair",
+        "hair-color",
+        "rarity-common"
+      ],
+      "facets": {
+        "hue": "golden-blonde",
+        "treatment": "golden-undertone"
+      },
+      "subcategory": "golden-blonde",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-color-base-golden-blonde-olive-undertone",
+      "semantic_key": "hair-color-base-golden-blonde-olive-undertone",
+      "text": "golden blonde hair with a olive undertone",
+      "sentence": "Golden blonde hair with a olive undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "golden blonde hair with a olive undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing golden blonde hair with a olive undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with golden blonde hair with a olive undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-color-base-golden-blonde",
+      "tags": [
+        "base",
+        "hair",
+        "hair-color",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "hue": "golden-blonde",
+        "treatment": "olive-undertone"
+      },
+      "subcategory": "golden-blonde",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-color-base-golden-blonde-rose-undertone",
+      "semantic_key": "hair-color-base-golden-blonde-rose-undertone",
+      "text": "golden blonde hair with a rose undertone",
+      "sentence": "Golden blonde hair with a rose undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "golden blonde hair with a rose undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing golden blonde hair with a rose undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with golden blonde hair with a rose undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-color-base-golden-blonde",
+      "tags": [
+        "base",
+        "hair",
+        "hair-color",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "hue": "golden-blonde",
+        "treatment": "rose-undertone"
+      },
+      "subcategory": "golden-blonde",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-color-base-golden-blonde-muted-undertone",
+      "semantic_key": "hair-color-base-golden-blonde-muted-undertone",
+      "text": "golden blonde hair with a muted undertone",
+      "sentence": "Golden blonde hair with a muted undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "golden blonde hair with a muted undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing golden blonde hair with a muted undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with golden blonde hair with a muted undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-color-base-golden-blonde",
+      "tags": [
+        "base",
+        "hair",
+        "hair-color",
+        "rarity-rare"
+      ],
+      "facets": {
+        "hue": "golden-blonde",
+        "treatment": "muted-undertone"
+      },
+      "subcategory": "golden-blonde",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-color-base-golden-blonde-luminous-undertone",
+      "semantic_key": "hair-color-base-golden-blonde-luminous-undertone",
+      "text": "golden blonde hair with a luminous undertone",
+      "sentence": "Golden blonde hair with a luminous undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "golden blonde hair with a luminous undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing golden blonde hair with a luminous undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with golden blonde hair with a luminous undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-color-base-golden-blonde",
+      "tags": [
+        "base",
+        "hair",
+        "hair-color",
+        "rarity-rare"
+      ],
+      "facets": {
+        "hue": "golden-blonde",
+        "treatment": "luminous-undertone"
+      },
+      "subcategory": "golden-blonde",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-color-base-ash-blonde-neutral-undertone",
+      "semantic_key": "hair-color-base-ash-blonde-neutral-undertone",
+      "text": "ash blonde hair with a neutral undertone",
+      "sentence": "Ash blonde hair with a neutral undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "ash blonde hair with a neutral undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing ash blonde hair with a neutral undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with ash blonde hair with a neutral undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-color-base-ash-blonde",
+      "tags": [
+        "base",
+        "hair",
+        "hair-color",
+        "rarity-common"
+      ],
+      "facets": {
+        "hue": "ash-blonde",
+        "treatment": "neutral-undertone"
+      },
+      "subcategory": "ash-blonde",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-color-base-ash-blonde-warm-undertone",
+      "semantic_key": "hair-color-base-ash-blonde-warm-undertone",
+      "text": "ash blonde hair with a warm undertone",
+      "sentence": "Ash blonde hair with a warm undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "ash blonde hair with a warm undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing ash blonde hair with a warm undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with ash blonde hair with a warm undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-color-base-ash-blonde",
+      "tags": [
+        "base",
+        "hair",
+        "hair-color",
+        "rarity-common"
+      ],
+      "facets": {
+        "hue": "ash-blonde",
+        "treatment": "warm-undertone"
+      },
+      "subcategory": "ash-blonde",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-color-base-ash-blonde-cool-undertone",
+      "semantic_key": "hair-color-base-ash-blonde-cool-undertone",
+      "text": "ash blonde hair with a cool undertone",
+      "sentence": "Ash blonde hair with a cool undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "ash blonde hair with a cool undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing ash blonde hair with a cool undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with ash blonde hair with a cool undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-color-base-ash-blonde",
+      "tags": [
+        "base",
+        "hair",
+        "hair-color",
+        "rarity-common"
+      ],
+      "facets": {
+        "hue": "ash-blonde",
+        "treatment": "cool-undertone"
+      },
+      "subcategory": "ash-blonde",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-color-base-ash-blonde-golden-undertone",
+      "semantic_key": "hair-color-base-ash-blonde-golden-undertone",
+      "text": "ash blonde hair with a golden undertone",
+      "sentence": "Ash blonde hair with a golden undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "ash blonde hair with a golden undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing ash blonde hair with a golden undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with ash blonde hair with a golden undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-color-base-ash-blonde",
+      "tags": [
+        "base",
+        "hair",
+        "hair-color",
+        "rarity-common"
+      ],
+      "facets": {
+        "hue": "ash-blonde",
+        "treatment": "golden-undertone"
+      },
+      "subcategory": "ash-blonde",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-color-base-ash-blonde-olive-undertone",
+      "semantic_key": "hair-color-base-ash-blonde-olive-undertone",
+      "text": "ash blonde hair with a olive undertone",
+      "sentence": "Ash blonde hair with a olive undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "ash blonde hair with a olive undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing ash blonde hair with a olive undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with ash blonde hair with a olive undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-color-base-ash-blonde",
+      "tags": [
+        "base",
+        "hair",
+        "hair-color",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "hue": "ash-blonde",
+        "treatment": "olive-undertone"
+      },
+      "subcategory": "ash-blonde",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-color-base-ash-blonde-rose-undertone",
+      "semantic_key": "hair-color-base-ash-blonde-rose-undertone",
+      "text": "ash blonde hair with a rose undertone",
+      "sentence": "Ash blonde hair with a rose undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "ash blonde hair with a rose undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing ash blonde hair with a rose undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with ash blonde hair with a rose undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-color-base-ash-blonde",
+      "tags": [
+        "base",
+        "hair",
+        "hair-color",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "hue": "ash-blonde",
+        "treatment": "rose-undertone"
+      },
+      "subcategory": "ash-blonde",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-color-base-ash-blonde-muted-undertone",
+      "semantic_key": "hair-color-base-ash-blonde-muted-undertone",
+      "text": "ash blonde hair with a muted undertone",
+      "sentence": "Ash blonde hair with a muted undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "ash blonde hair with a muted undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing ash blonde hair with a muted undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with ash blonde hair with a muted undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-color-base-ash-blonde",
+      "tags": [
+        "base",
+        "hair",
+        "hair-color",
+        "rarity-rare"
+      ],
+      "facets": {
+        "hue": "ash-blonde",
+        "treatment": "muted-undertone"
+      },
+      "subcategory": "ash-blonde",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-color-base-ash-blonde-luminous-undertone",
+      "semantic_key": "hair-color-base-ash-blonde-luminous-undertone",
+      "text": "ash blonde hair with a luminous undertone",
+      "sentence": "Ash blonde hair with a luminous undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "ash blonde hair with a luminous undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing ash blonde hair with a luminous undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with ash blonde hair with a luminous undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-color-base-ash-blonde",
+      "tags": [
+        "base",
+        "hair",
+        "hair-color",
+        "rarity-rare"
+      ],
+      "facets": {
+        "hue": "ash-blonde",
+        "treatment": "luminous-undertone"
+      },
+      "subcategory": "ash-blonde",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-color-base-silver-gray-neutral-undertone",
+      "semantic_key": "hair-color-base-silver-gray-neutral-undertone",
+      "text": "silver-gray hair with a neutral undertone",
+      "sentence": "Silver-gray hair with a neutral undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "silver-gray hair with a neutral undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing silver-gray hair with a neutral undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with silver-gray hair with a neutral undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-color-base-silver-gray",
+      "tags": [
+        "base",
+        "hair",
+        "hair-color",
+        "rarity-common"
+      ],
+      "facets": {
+        "hue": "silver-gray",
+        "treatment": "neutral-undertone"
+      },
+      "subcategory": "silver-gray",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-color-base-silver-gray-warm-undertone",
+      "semantic_key": "hair-color-base-silver-gray-warm-undertone",
+      "text": "silver-gray hair with a warm undertone",
+      "sentence": "Silver-gray hair with a warm undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "silver-gray hair with a warm undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing silver-gray hair with a warm undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with silver-gray hair with a warm undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-color-base-silver-gray",
+      "tags": [
+        "base",
+        "hair",
+        "hair-color",
+        "rarity-common"
+      ],
+      "facets": {
+        "hue": "silver-gray",
+        "treatment": "warm-undertone"
+      },
+      "subcategory": "silver-gray",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-color-base-silver-gray-cool-undertone",
+      "semantic_key": "hair-color-base-silver-gray-cool-undertone",
+      "text": "silver-gray hair with a cool undertone",
+      "sentence": "Silver-gray hair with a cool undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "silver-gray hair with a cool undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing silver-gray hair with a cool undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with silver-gray hair with a cool undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-color-base-silver-gray",
+      "tags": [
+        "base",
+        "hair",
+        "hair-color",
+        "rarity-common"
+      ],
+      "facets": {
+        "hue": "silver-gray",
+        "treatment": "cool-undertone"
+      },
+      "subcategory": "silver-gray",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-color-base-silver-gray-golden-undertone",
+      "semantic_key": "hair-color-base-silver-gray-golden-undertone",
+      "text": "silver-gray hair with a golden undertone",
+      "sentence": "Silver-gray hair with a golden undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "silver-gray hair with a golden undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing silver-gray hair with a golden undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with silver-gray hair with a golden undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "hair-color-base-silver-gray",
+      "tags": [
+        "base",
+        "hair",
+        "hair-color",
+        "rarity-common"
+      ],
+      "facets": {
+        "hue": "silver-gray",
+        "treatment": "golden-undertone"
+      },
+      "subcategory": "silver-gray",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-color-base-silver-gray-olive-undertone",
+      "semantic_key": "hair-color-base-silver-gray-olive-undertone",
+      "text": "silver-gray hair with a olive undertone",
+      "sentence": "Silver-gray hair with a olive undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "silver-gray hair with a olive undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing silver-gray hair with a olive undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with silver-gray hair with a olive undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-color-base-silver-gray",
+      "tags": [
+        "base",
+        "hair",
+        "hair-color",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "hue": "silver-gray",
+        "treatment": "olive-undertone"
+      },
+      "subcategory": "silver-gray",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-color-base-silver-gray-rose-undertone",
+      "semantic_key": "hair-color-base-silver-gray-rose-undertone",
+      "text": "silver-gray hair with a rose undertone",
+      "sentence": "Silver-gray hair with a rose undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "silver-gray hair with a rose undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing silver-gray hair with a rose undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with silver-gray hair with a rose undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "hair-color-base-silver-gray",
+      "tags": [
+        "base",
+        "hair",
+        "hair-color",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "hue": "silver-gray",
+        "treatment": "rose-undertone"
+      },
+      "subcategory": "silver-gray",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-color-base-silver-gray-muted-undertone",
+      "semantic_key": "hair-color-base-silver-gray-muted-undertone",
+      "text": "silver-gray hair with a muted undertone",
+      "sentence": "Silver-gray hair with a muted undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "silver-gray hair with a muted undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing silver-gray hair with a muted undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with silver-gray hair with a muted undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-color-base-silver-gray",
+      "tags": [
+        "base",
+        "hair",
+        "hair-color",
+        "rarity-rare"
+      ],
+      "facets": {
+        "hue": "silver-gray",
+        "treatment": "muted-undertone"
+      },
+      "subcategory": "silver-gray",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "hair-color-base-silver-gray-luminous-undertone",
+      "semantic_key": "hair-color-base-silver-gray-luminous-undertone",
+      "text": "silver-gray hair with a luminous undertone",
+      "sentence": "Silver-gray hair with a luminous undertone.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "silver-gray hair with a luminous undertone",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing silver-gray hair with a luminous undertone",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with silver-gray hair with a luminous undertone",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "hair-color-base-silver-gray",
+      "tags": [
+        "base",
+        "hair",
+        "hair-color",
+        "rarity-rare"
+      ],
+      "facets": {
+        "hue": "silver-gray",
+        "treatment": "luminous-undertone"
+      },
+      "subcategory": "silver-gray",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    }
+  ]
+}

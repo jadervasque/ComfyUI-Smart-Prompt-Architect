@@ -1,0 +1,2577 @@
+{
+  "schema_version": "2.0",
+  "id": "wardrobe-palette-base",
+  "version": "2.0.0",
+  "library": "palette",
+  "domain": "wardrobe",
+  "category": "palette",
+  "language": "en",
+  "status": "active",
+  "safety": "general",
+  "tags": [
+    "base"
+  ],
+  "fallback_option_id": "wardrobe-palette-base-earth-neutral-muted-saturation",
+  "options": [
+    {
+      "id": "wardrobe-palette-base-earth-neutral-muted-saturation",
+      "semantic_key": "wardrobe-palette-base-earth-neutral-muted-saturation",
+      "text": "a earth neutral palette with muted saturation",
+      "sentence": "A earth neutral palette with muted saturation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a earth neutral palette with muted saturation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a earth neutral palette with muted saturation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a earth neutral palette with muted saturation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-palette-base-earth-neutral",
+      "tags": [
+        "base",
+        "palette",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "palette": "earth-neutral",
+        "treatment": "muted-saturation"
+      },
+      "subcategory": "earth-neutral",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-palette-base-earth-neutral-balanced-saturation",
+      "semantic_key": "wardrobe-palette-base-earth-neutral-balanced-saturation",
+      "text": "a earth neutral palette with balanced saturation",
+      "sentence": "A earth neutral palette with balanced saturation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a earth neutral palette with balanced saturation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a earth neutral palette with balanced saturation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a earth neutral palette with balanced saturation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-palette-base-earth-neutral",
+      "tags": [
+        "base",
+        "palette",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "palette": "earth-neutral",
+        "treatment": "balanced-saturation"
+      },
+      "subcategory": "earth-neutral",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-palette-base-earth-neutral-rich-saturation",
+      "semantic_key": "wardrobe-palette-base-earth-neutral-rich-saturation",
+      "text": "a earth neutral palette with rich saturation",
+      "sentence": "A earth neutral palette with rich saturation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a earth neutral palette with rich saturation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a earth neutral palette with rich saturation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a earth neutral palette with rich saturation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-palette-base-earth-neutral",
+      "tags": [
+        "base",
+        "palette",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "palette": "earth-neutral",
+        "treatment": "rich-saturation"
+      },
+      "subcategory": "earth-neutral",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-palette-base-earth-neutral-pale-value-range",
+      "semantic_key": "wardrobe-palette-base-earth-neutral-pale-value-range",
+      "text": "a earth neutral palette with pale value range",
+      "sentence": "A earth neutral palette with pale value range.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a earth neutral palette with pale value range",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a earth neutral palette with pale value range",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a earth neutral palette with pale value range",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-palette-base-earth-neutral",
+      "tags": [
+        "base",
+        "palette",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "palette": "earth-neutral",
+        "treatment": "pale-value-range"
+      },
+      "subcategory": "earth-neutral",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-palette-base-earth-neutral-deep-value-range",
+      "semantic_key": "wardrobe-palette-base-earth-neutral-deep-value-range",
+      "text": "a earth neutral palette with deep value range",
+      "sentence": "A earth neutral palette with deep value range.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a earth neutral palette with deep value range",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a earth neutral palette with deep value range",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a earth neutral palette with deep value range",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-palette-base-earth-neutral",
+      "tags": [
+        "base",
+        "palette",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "palette": "earth-neutral",
+        "treatment": "deep-value-range"
+      },
+      "subcategory": "earth-neutral",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-palette-base-earth-neutral-warm-color-bias",
+      "semantic_key": "wardrobe-palette-base-earth-neutral-warm-color-bias",
+      "text": "a earth neutral palette with warm color bias",
+      "sentence": "A earth neutral palette with warm color bias.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a earth neutral palette with warm color bias",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a earth neutral palette with warm color bias",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a earth neutral palette with warm color bias",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-palette-base-earth-neutral",
+      "tags": [
+        "base",
+        "palette",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "palette": "earth-neutral",
+        "treatment": "warm-color-bias"
+      },
+      "subcategory": "earth-neutral",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-palette-base-earth-neutral-cool-color-bias",
+      "semantic_key": "wardrobe-palette-base-earth-neutral-cool-color-bias",
+      "text": "a earth neutral palette with cool color bias",
+      "sentence": "A earth neutral palette with cool color bias.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a earth neutral palette with cool color bias",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a earth neutral palette with cool color bias",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a earth neutral palette with cool color bias",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-palette-base-earth-neutral",
+      "tags": [
+        "base",
+        "palette",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "palette": "earth-neutral",
+        "treatment": "cool-color-bias"
+      },
+      "subcategory": "earth-neutral",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-palette-base-earth-neutral-neutral-color-balance",
+      "semantic_key": "wardrobe-palette-base-earth-neutral-neutral-color-balance",
+      "text": "a earth neutral palette with neutral color balance",
+      "sentence": "A earth neutral palette with neutral color balance.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a earth neutral palette with neutral color balance",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a earth neutral palette with neutral color balance",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a earth neutral palette with neutral color balance",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-palette-base-earth-neutral",
+      "tags": [
+        "base",
+        "palette",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "palette": "earth-neutral",
+        "treatment": "neutral-color-balance"
+      },
+      "subcategory": "earth-neutral",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-palette-base-cool-neutral-muted-saturation",
+      "semantic_key": "wardrobe-palette-base-cool-neutral-muted-saturation",
+      "text": "a cool neutral palette with muted saturation",
+      "sentence": "A cool neutral palette with muted saturation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a cool neutral palette with muted saturation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a cool neutral palette with muted saturation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a cool neutral palette with muted saturation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-palette-base-cool-neutral",
+      "tags": [
+        "base",
+        "palette",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "palette": "cool-neutral",
+        "treatment": "muted-saturation"
+      },
+      "subcategory": "cool-neutral",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-palette-base-cool-neutral-balanced-saturation",
+      "semantic_key": "wardrobe-palette-base-cool-neutral-balanced-saturation",
+      "text": "a cool neutral palette with balanced saturation",
+      "sentence": "A cool neutral palette with balanced saturation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a cool neutral palette with balanced saturation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a cool neutral palette with balanced saturation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a cool neutral palette with balanced saturation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-palette-base-cool-neutral",
+      "tags": [
+        "base",
+        "palette",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "palette": "cool-neutral",
+        "treatment": "balanced-saturation"
+      },
+      "subcategory": "cool-neutral",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-palette-base-cool-neutral-rich-saturation",
+      "semantic_key": "wardrobe-palette-base-cool-neutral-rich-saturation",
+      "text": "a cool neutral palette with rich saturation",
+      "sentence": "A cool neutral palette with rich saturation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a cool neutral palette with rich saturation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a cool neutral palette with rich saturation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a cool neutral palette with rich saturation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-palette-base-cool-neutral",
+      "tags": [
+        "base",
+        "palette",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "palette": "cool-neutral",
+        "treatment": "rich-saturation"
+      },
+      "subcategory": "cool-neutral",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-palette-base-cool-neutral-pale-value-range",
+      "semantic_key": "wardrobe-palette-base-cool-neutral-pale-value-range",
+      "text": "a cool neutral palette with pale value range",
+      "sentence": "A cool neutral palette with pale value range.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a cool neutral palette with pale value range",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a cool neutral palette with pale value range",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a cool neutral palette with pale value range",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-palette-base-cool-neutral",
+      "tags": [
+        "base",
+        "palette",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "palette": "cool-neutral",
+        "treatment": "pale-value-range"
+      },
+      "subcategory": "cool-neutral",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-palette-base-cool-neutral-deep-value-range",
+      "semantic_key": "wardrobe-palette-base-cool-neutral-deep-value-range",
+      "text": "a cool neutral palette with deep value range",
+      "sentence": "A cool neutral palette with deep value range.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a cool neutral palette with deep value range",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a cool neutral palette with deep value range",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a cool neutral palette with deep value range",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-palette-base-cool-neutral",
+      "tags": [
+        "base",
+        "palette",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "palette": "cool-neutral",
+        "treatment": "deep-value-range"
+      },
+      "subcategory": "cool-neutral",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-palette-base-cool-neutral-warm-color-bias",
+      "semantic_key": "wardrobe-palette-base-cool-neutral-warm-color-bias",
+      "text": "a cool neutral palette with warm color bias",
+      "sentence": "A cool neutral palette with warm color bias.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a cool neutral palette with warm color bias",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a cool neutral palette with warm color bias",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a cool neutral palette with warm color bias",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-palette-base-cool-neutral",
+      "tags": [
+        "base",
+        "palette",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "palette": "cool-neutral",
+        "treatment": "warm-color-bias"
+      },
+      "subcategory": "cool-neutral",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-palette-base-cool-neutral-cool-color-bias",
+      "semantic_key": "wardrobe-palette-base-cool-neutral-cool-color-bias",
+      "text": "a cool neutral palette with cool color bias",
+      "sentence": "A cool neutral palette with cool color bias.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a cool neutral palette with cool color bias",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a cool neutral palette with cool color bias",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a cool neutral palette with cool color bias",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-palette-base-cool-neutral",
+      "tags": [
+        "base",
+        "palette",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "palette": "cool-neutral",
+        "treatment": "cool-color-bias"
+      },
+      "subcategory": "cool-neutral",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-palette-base-cool-neutral-neutral-color-balance",
+      "semantic_key": "wardrobe-palette-base-cool-neutral-neutral-color-balance",
+      "text": "a cool neutral palette with neutral color balance",
+      "sentence": "A cool neutral palette with neutral color balance.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a cool neutral palette with neutral color balance",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a cool neutral palette with neutral color balance",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a cool neutral palette with neutral color balance",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-palette-base-cool-neutral",
+      "tags": [
+        "base",
+        "palette",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "palette": "cool-neutral",
+        "treatment": "neutral-color-balance"
+      },
+      "subcategory": "cool-neutral",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-palette-base-warm-neutral-muted-saturation",
+      "semantic_key": "wardrobe-palette-base-warm-neutral-muted-saturation",
+      "text": "a warm neutral palette with muted saturation",
+      "sentence": "A warm neutral palette with muted saturation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a warm neutral palette with muted saturation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a warm neutral palette with muted saturation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a warm neutral palette with muted saturation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-palette-base-warm-neutral",
+      "tags": [
+        "base",
+        "palette",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "palette": "warm-neutral",
+        "treatment": "muted-saturation"
+      },
+      "subcategory": "warm-neutral",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-palette-base-warm-neutral-balanced-saturation",
+      "semantic_key": "wardrobe-palette-base-warm-neutral-balanced-saturation",
+      "text": "a warm neutral palette with balanced saturation",
+      "sentence": "A warm neutral palette with balanced saturation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a warm neutral palette with balanced saturation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a warm neutral palette with balanced saturation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a warm neutral palette with balanced saturation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-palette-base-warm-neutral",
+      "tags": [
+        "base",
+        "palette",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "palette": "warm-neutral",
+        "treatment": "balanced-saturation"
+      },
+      "subcategory": "warm-neutral",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-palette-base-warm-neutral-rich-saturation",
+      "semantic_key": "wardrobe-palette-base-warm-neutral-rich-saturation",
+      "text": "a warm neutral palette with rich saturation",
+      "sentence": "A warm neutral palette with rich saturation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a warm neutral palette with rich saturation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a warm neutral palette with rich saturation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a warm neutral palette with rich saturation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-palette-base-warm-neutral",
+      "tags": [
+        "base",
+        "palette",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "palette": "warm-neutral",
+        "treatment": "rich-saturation"
+      },
+      "subcategory": "warm-neutral",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-palette-base-warm-neutral-pale-value-range",
+      "semantic_key": "wardrobe-palette-base-warm-neutral-pale-value-range",
+      "text": "a warm neutral palette with pale value range",
+      "sentence": "A warm neutral palette with pale value range.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a warm neutral palette with pale value range",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a warm neutral palette with pale value range",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a warm neutral palette with pale value range",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-palette-base-warm-neutral",
+      "tags": [
+        "base",
+        "palette",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "palette": "warm-neutral",
+        "treatment": "pale-value-range"
+      },
+      "subcategory": "warm-neutral",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-palette-base-warm-neutral-deep-value-range",
+      "semantic_key": "wardrobe-palette-base-warm-neutral-deep-value-range",
+      "text": "a warm neutral palette with deep value range",
+      "sentence": "A warm neutral palette with deep value range.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a warm neutral palette with deep value range",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a warm neutral palette with deep value range",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a warm neutral palette with deep value range",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-palette-base-warm-neutral",
+      "tags": [
+        "base",
+        "palette",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "palette": "warm-neutral",
+        "treatment": "deep-value-range"
+      },
+      "subcategory": "warm-neutral",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-palette-base-warm-neutral-warm-color-bias",
+      "semantic_key": "wardrobe-palette-base-warm-neutral-warm-color-bias",
+      "text": "a warm neutral palette with warm color bias",
+      "sentence": "A warm neutral palette with warm color bias.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a warm neutral palette with warm color bias",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a warm neutral palette with warm color bias",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a warm neutral palette with warm color bias",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-palette-base-warm-neutral",
+      "tags": [
+        "base",
+        "palette",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "palette": "warm-neutral",
+        "treatment": "warm-color-bias"
+      },
+      "subcategory": "warm-neutral",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-palette-base-warm-neutral-cool-color-bias",
+      "semantic_key": "wardrobe-palette-base-warm-neutral-cool-color-bias",
+      "text": "a warm neutral palette with cool color bias",
+      "sentence": "A warm neutral palette with cool color bias.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a warm neutral palette with cool color bias",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a warm neutral palette with cool color bias",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a warm neutral palette with cool color bias",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-palette-base-warm-neutral",
+      "tags": [
+        "base",
+        "palette",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "palette": "warm-neutral",
+        "treatment": "cool-color-bias"
+      },
+      "subcategory": "warm-neutral",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-palette-base-warm-neutral-neutral-color-balance",
+      "semantic_key": "wardrobe-palette-base-warm-neutral-neutral-color-balance",
+      "text": "a warm neutral palette with neutral color balance",
+      "sentence": "A warm neutral palette with neutral color balance.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a warm neutral palette with neutral color balance",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a warm neutral palette with neutral color balance",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a warm neutral palette with neutral color balance",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-palette-base-warm-neutral",
+      "tags": [
+        "base",
+        "palette",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "palette": "warm-neutral",
+        "treatment": "neutral-color-balance"
+      },
+      "subcategory": "warm-neutral",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-palette-base-deep-jewel-muted-saturation",
+      "semantic_key": "wardrobe-palette-base-deep-jewel-muted-saturation",
+      "text": "a deep jewel palette with muted saturation",
+      "sentence": "A deep jewel palette with muted saturation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a deep jewel palette with muted saturation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a deep jewel palette with muted saturation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a deep jewel palette with muted saturation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-palette-base-deep-jewel",
+      "tags": [
+        "base",
+        "palette",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "palette": "deep-jewel",
+        "treatment": "muted-saturation"
+      },
+      "subcategory": "deep-jewel",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-palette-base-deep-jewel-balanced-saturation",
+      "semantic_key": "wardrobe-palette-base-deep-jewel-balanced-saturation",
+      "text": "a deep jewel palette with balanced saturation",
+      "sentence": "A deep jewel palette with balanced saturation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a deep jewel palette with balanced saturation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a deep jewel palette with balanced saturation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a deep jewel palette with balanced saturation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-palette-base-deep-jewel",
+      "tags": [
+        "base",
+        "palette",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "palette": "deep-jewel",
+        "treatment": "balanced-saturation"
+      },
+      "subcategory": "deep-jewel",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-palette-base-deep-jewel-rich-saturation",
+      "semantic_key": "wardrobe-palette-base-deep-jewel-rich-saturation",
+      "text": "a deep jewel palette with rich saturation",
+      "sentence": "A deep jewel palette with rich saturation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a deep jewel palette with rich saturation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a deep jewel palette with rich saturation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a deep jewel palette with rich saturation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-palette-base-deep-jewel",
+      "tags": [
+        "base",
+        "palette",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "palette": "deep-jewel",
+        "treatment": "rich-saturation"
+      },
+      "subcategory": "deep-jewel",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-palette-base-deep-jewel-pale-value-range",
+      "semantic_key": "wardrobe-palette-base-deep-jewel-pale-value-range",
+      "text": "a deep jewel palette with pale value range",
+      "sentence": "A deep jewel palette with pale value range.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a deep jewel palette with pale value range",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a deep jewel palette with pale value range",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a deep jewel palette with pale value range",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-palette-base-deep-jewel",
+      "tags": [
+        "base",
+        "palette",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "palette": "deep-jewel",
+        "treatment": "pale-value-range"
+      },
+      "subcategory": "deep-jewel",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-palette-base-deep-jewel-deep-value-range",
+      "semantic_key": "wardrobe-palette-base-deep-jewel-deep-value-range",
+      "text": "a deep jewel palette with deep value range",
+      "sentence": "A deep jewel palette with deep value range.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a deep jewel palette with deep value range",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a deep jewel palette with deep value range",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a deep jewel palette with deep value range",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-palette-base-deep-jewel",
+      "tags": [
+        "base",
+        "palette",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "palette": "deep-jewel",
+        "treatment": "deep-value-range"
+      },
+      "subcategory": "deep-jewel",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-palette-base-deep-jewel-warm-color-bias",
+      "semantic_key": "wardrobe-palette-base-deep-jewel-warm-color-bias",
+      "text": "a deep jewel palette with warm color bias",
+      "sentence": "A deep jewel palette with warm color bias.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a deep jewel palette with warm color bias",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a deep jewel palette with warm color bias",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a deep jewel palette with warm color bias",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-palette-base-deep-jewel",
+      "tags": [
+        "base",
+        "palette",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "palette": "deep-jewel",
+        "treatment": "warm-color-bias"
+      },
+      "subcategory": "deep-jewel",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-palette-base-deep-jewel-cool-color-bias",
+      "semantic_key": "wardrobe-palette-base-deep-jewel-cool-color-bias",
+      "text": "a deep jewel palette with cool color bias",
+      "sentence": "A deep jewel palette with cool color bias.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a deep jewel palette with cool color bias",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a deep jewel palette with cool color bias",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a deep jewel palette with cool color bias",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-palette-base-deep-jewel",
+      "tags": [
+        "base",
+        "palette",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "palette": "deep-jewel",
+        "treatment": "cool-color-bias"
+      },
+      "subcategory": "deep-jewel",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-palette-base-deep-jewel-neutral-color-balance",
+      "semantic_key": "wardrobe-palette-base-deep-jewel-neutral-color-balance",
+      "text": "a deep jewel palette with neutral color balance",
+      "sentence": "A deep jewel palette with neutral color balance.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a deep jewel palette with neutral color balance",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a deep jewel palette with neutral color balance",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a deep jewel palette with neutral color balance",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-palette-base-deep-jewel",
+      "tags": [
+        "base",
+        "palette",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "palette": "deep-jewel",
+        "treatment": "neutral-color-balance"
+      },
+      "subcategory": "deep-jewel",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-palette-base-soft-pastel-muted-saturation",
+      "semantic_key": "wardrobe-palette-base-soft-pastel-muted-saturation",
+      "text": "a soft pastel palette with muted saturation",
+      "sentence": "A soft pastel palette with muted saturation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a soft pastel palette with muted saturation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a soft pastel palette with muted saturation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a soft pastel palette with muted saturation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-palette-base-soft-pastel",
+      "tags": [
+        "base",
+        "palette",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "palette": "soft-pastel",
+        "treatment": "muted-saturation"
+      },
+      "subcategory": "soft-pastel",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-palette-base-soft-pastel-balanced-saturation",
+      "semantic_key": "wardrobe-palette-base-soft-pastel-balanced-saturation",
+      "text": "a soft pastel palette with balanced saturation",
+      "sentence": "A soft pastel palette with balanced saturation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a soft pastel palette with balanced saturation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a soft pastel palette with balanced saturation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a soft pastel palette with balanced saturation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-palette-base-soft-pastel",
+      "tags": [
+        "base",
+        "palette",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "palette": "soft-pastel",
+        "treatment": "balanced-saturation"
+      },
+      "subcategory": "soft-pastel",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-palette-base-soft-pastel-rich-saturation",
+      "semantic_key": "wardrobe-palette-base-soft-pastel-rich-saturation",
+      "text": "a soft pastel palette with rich saturation",
+      "sentence": "A soft pastel palette with rich saturation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a soft pastel palette with rich saturation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a soft pastel palette with rich saturation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a soft pastel palette with rich saturation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-palette-base-soft-pastel",
+      "tags": [
+        "base",
+        "palette",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "palette": "soft-pastel",
+        "treatment": "rich-saturation"
+      },
+      "subcategory": "soft-pastel",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-palette-base-soft-pastel-pale-value-range",
+      "semantic_key": "wardrobe-palette-base-soft-pastel-pale-value-range",
+      "text": "a soft pastel palette with pale value range",
+      "sentence": "A soft pastel palette with pale value range.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a soft pastel palette with pale value range",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a soft pastel palette with pale value range",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a soft pastel palette with pale value range",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-palette-base-soft-pastel",
+      "tags": [
+        "base",
+        "palette",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "palette": "soft-pastel",
+        "treatment": "pale-value-range"
+      },
+      "subcategory": "soft-pastel",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-palette-base-soft-pastel-deep-value-range",
+      "semantic_key": "wardrobe-palette-base-soft-pastel-deep-value-range",
+      "text": "a soft pastel palette with deep value range",
+      "sentence": "A soft pastel palette with deep value range.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a soft pastel palette with deep value range",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a soft pastel palette with deep value range",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a soft pastel palette with deep value range",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-palette-base-soft-pastel",
+      "tags": [
+        "base",
+        "palette",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "palette": "soft-pastel",
+        "treatment": "deep-value-range"
+      },
+      "subcategory": "soft-pastel",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-palette-base-soft-pastel-warm-color-bias",
+      "semantic_key": "wardrobe-palette-base-soft-pastel-warm-color-bias",
+      "text": "a soft pastel palette with warm color bias",
+      "sentence": "A soft pastel palette with warm color bias.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a soft pastel palette with warm color bias",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a soft pastel palette with warm color bias",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a soft pastel palette with warm color bias",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-palette-base-soft-pastel",
+      "tags": [
+        "base",
+        "palette",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "palette": "soft-pastel",
+        "treatment": "warm-color-bias"
+      },
+      "subcategory": "soft-pastel",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-palette-base-soft-pastel-cool-color-bias",
+      "semantic_key": "wardrobe-palette-base-soft-pastel-cool-color-bias",
+      "text": "a soft pastel palette with cool color bias",
+      "sentence": "A soft pastel palette with cool color bias.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a soft pastel palette with cool color bias",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a soft pastel palette with cool color bias",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a soft pastel palette with cool color bias",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-palette-base-soft-pastel",
+      "tags": [
+        "base",
+        "palette",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "palette": "soft-pastel",
+        "treatment": "cool-color-bias"
+      },
+      "subcategory": "soft-pastel",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-palette-base-soft-pastel-neutral-color-balance",
+      "semantic_key": "wardrobe-palette-base-soft-pastel-neutral-color-balance",
+      "text": "a soft pastel palette with neutral color balance",
+      "sentence": "A soft pastel palette with neutral color balance.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a soft pastel palette with neutral color balance",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a soft pastel palette with neutral color balance",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a soft pastel palette with neutral color balance",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-palette-base-soft-pastel",
+      "tags": [
+        "base",
+        "palette",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "palette": "soft-pastel",
+        "treatment": "neutral-color-balance"
+      },
+      "subcategory": "soft-pastel",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-palette-base-high-contrast-monochrome-muted-saturation",
+      "semantic_key": "wardrobe-palette-base-high-contrast-monochrome-muted-saturation",
+      "text": "a high-contrast monochrome palette with muted saturation",
+      "sentence": "A high-contrast monochrome palette with muted saturation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a high-contrast monochrome palette with muted saturation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a high-contrast monochrome palette with muted saturation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a high-contrast monochrome palette with muted saturation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-palette-base-high-contrast-monochrome",
+      "tags": [
+        "base",
+        "palette",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "palette": "high-contrast-monochrome",
+        "treatment": "muted-saturation"
+      },
+      "subcategory": "high-contrast-monochrome",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-palette-base-high-contrast-monochrome-balanced-saturation",
+      "semantic_key": "wardrobe-palette-base-high-contrast-monochrome-balanced-saturation",
+      "text": "a high-contrast monochrome palette with balanced saturation",
+      "sentence": "A high-contrast monochrome palette with balanced saturation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a high-contrast monochrome palette with balanced saturation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a high-contrast monochrome palette with balanced saturation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a high-contrast monochrome palette with balanced saturation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-palette-base-high-contrast-monochrome",
+      "tags": [
+        "base",
+        "palette",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "palette": "high-contrast-monochrome",
+        "treatment": "balanced-saturation"
+      },
+      "subcategory": "high-contrast-monochrome",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-palette-base-high-contrast-monochrome-rich-saturation",
+      "semantic_key": "wardrobe-palette-base-high-contrast-monochrome-rich-saturation",
+      "text": "a high-contrast monochrome palette with rich saturation",
+      "sentence": "A high-contrast monochrome palette with rich saturation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a high-contrast monochrome palette with rich saturation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a high-contrast monochrome palette with rich saturation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a high-contrast monochrome palette with rich saturation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-palette-base-high-contrast-monochrome",
+      "tags": [
+        "base",
+        "palette",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "palette": "high-contrast-monochrome",
+        "treatment": "rich-saturation"
+      },
+      "subcategory": "high-contrast-monochrome",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-palette-base-high-contrast-monochrome-pale-value-range",
+      "semantic_key": "wardrobe-palette-base-high-contrast-monochrome-pale-value-range",
+      "text": "a high-contrast monochrome palette with pale value range",
+      "sentence": "A high-contrast monochrome palette with pale value range.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a high-contrast monochrome palette with pale value range",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a high-contrast monochrome palette with pale value range",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a high-contrast monochrome palette with pale value range",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-palette-base-high-contrast-monochrome",
+      "tags": [
+        "base",
+        "palette",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "palette": "high-contrast-monochrome",
+        "treatment": "pale-value-range"
+      },
+      "subcategory": "high-contrast-monochrome",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-palette-base-high-contrast-monochrome-deep-value-range",
+      "semantic_key": "wardrobe-palette-base-high-contrast-monochrome-deep-value-range",
+      "text": "a high-contrast monochrome palette with deep value range",
+      "sentence": "A high-contrast monochrome palette with deep value range.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a high-contrast monochrome palette with deep value range",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a high-contrast monochrome palette with deep value range",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a high-contrast monochrome palette with deep value range",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-palette-base-high-contrast-monochrome",
+      "tags": [
+        "base",
+        "palette",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "palette": "high-contrast-monochrome",
+        "treatment": "deep-value-range"
+      },
+      "subcategory": "high-contrast-monochrome",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-palette-base-high-contrast-monochrome-warm-color-bias",
+      "semantic_key": "wardrobe-palette-base-high-contrast-monochrome-warm-color-bias",
+      "text": "a high-contrast monochrome palette with warm color bias",
+      "sentence": "A high-contrast monochrome palette with warm color bias.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a high-contrast monochrome palette with warm color bias",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a high-contrast monochrome palette with warm color bias",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a high-contrast monochrome palette with warm color bias",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-palette-base-high-contrast-monochrome",
+      "tags": [
+        "base",
+        "palette",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "palette": "high-contrast-monochrome",
+        "treatment": "warm-color-bias"
+      },
+      "subcategory": "high-contrast-monochrome",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-palette-base-high-contrast-monochrome-cool-color-bias",
+      "semantic_key": "wardrobe-palette-base-high-contrast-monochrome-cool-color-bias",
+      "text": "a high-contrast monochrome palette with cool color bias",
+      "sentence": "A high-contrast monochrome palette with cool color bias.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a high-contrast monochrome palette with cool color bias",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a high-contrast monochrome palette with cool color bias",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a high-contrast monochrome palette with cool color bias",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-palette-base-high-contrast-monochrome",
+      "tags": [
+        "base",
+        "palette",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "palette": "high-contrast-monochrome",
+        "treatment": "cool-color-bias"
+      },
+      "subcategory": "high-contrast-monochrome",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-palette-base-high-contrast-monochrome-neutral-color-balance",
+      "semantic_key": "wardrobe-palette-base-high-contrast-monochrome-neutral-color-balance",
+      "text": "a high-contrast monochrome palette with neutral color balance",
+      "sentence": "A high-contrast monochrome palette with neutral color balance.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a high-contrast monochrome palette with neutral color balance",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a high-contrast monochrome palette with neutral color balance",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a high-contrast monochrome palette with neutral color balance",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-palette-base-high-contrast-monochrome",
+      "tags": [
+        "base",
+        "palette",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "palette": "high-contrast-monochrome",
+        "treatment": "neutral-color-balance"
+      },
+      "subcategory": "high-contrast-monochrome",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-palette-base-muted-botanical-muted-saturation",
+      "semantic_key": "wardrobe-palette-base-muted-botanical-muted-saturation",
+      "text": "a muted botanical palette with muted saturation",
+      "sentence": "A muted botanical palette with muted saturation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a muted botanical palette with muted saturation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a muted botanical palette with muted saturation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a muted botanical palette with muted saturation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-palette-base-muted-botanical",
+      "tags": [
+        "base",
+        "palette",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "palette": "muted-botanical",
+        "treatment": "muted-saturation"
+      },
+      "subcategory": "muted-botanical",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-palette-base-muted-botanical-balanced-saturation",
+      "semantic_key": "wardrobe-palette-base-muted-botanical-balanced-saturation",
+      "text": "a muted botanical palette with balanced saturation",
+      "sentence": "A muted botanical palette with balanced saturation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a muted botanical palette with balanced saturation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a muted botanical palette with balanced saturation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a muted botanical palette with balanced saturation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-palette-base-muted-botanical",
+      "tags": [
+        "base",
+        "palette",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "palette": "muted-botanical",
+        "treatment": "balanced-saturation"
+      },
+      "subcategory": "muted-botanical",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-palette-base-muted-botanical-rich-saturation",
+      "semantic_key": "wardrobe-palette-base-muted-botanical-rich-saturation",
+      "text": "a muted botanical palette with rich saturation",
+      "sentence": "A muted botanical palette with rich saturation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a muted botanical palette with rich saturation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a muted botanical palette with rich saturation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a muted botanical palette with rich saturation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-palette-base-muted-botanical",
+      "tags": [
+        "base",
+        "palette",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "palette": "muted-botanical",
+        "treatment": "rich-saturation"
+      },
+      "subcategory": "muted-botanical",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-palette-base-muted-botanical-pale-value-range",
+      "semantic_key": "wardrobe-palette-base-muted-botanical-pale-value-range",
+      "text": "a muted botanical palette with pale value range",
+      "sentence": "A muted botanical palette with pale value range.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a muted botanical palette with pale value range",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a muted botanical palette with pale value range",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a muted botanical palette with pale value range",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-palette-base-muted-botanical",
+      "tags": [
+        "base",
+        "palette",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "palette": "muted-botanical",
+        "treatment": "pale-value-range"
+      },
+      "subcategory": "muted-botanical",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-palette-base-muted-botanical-deep-value-range",
+      "semantic_key": "wardrobe-palette-base-muted-botanical-deep-value-range",
+      "text": "a muted botanical palette with deep value range",
+      "sentence": "A muted botanical palette with deep value range.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a muted botanical palette with deep value range",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a muted botanical palette with deep value range",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a muted botanical palette with deep value range",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-palette-base-muted-botanical",
+      "tags": [
+        "base",
+        "palette",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "palette": "muted-botanical",
+        "treatment": "deep-value-range"
+      },
+      "subcategory": "muted-botanical",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-palette-base-muted-botanical-warm-color-bias",
+      "semantic_key": "wardrobe-palette-base-muted-botanical-warm-color-bias",
+      "text": "a muted botanical palette with warm color bias",
+      "sentence": "A muted botanical palette with warm color bias.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a muted botanical palette with warm color bias",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a muted botanical palette with warm color bias",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a muted botanical palette with warm color bias",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-palette-base-muted-botanical",
+      "tags": [
+        "base",
+        "palette",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "palette": "muted-botanical",
+        "treatment": "warm-color-bias"
+      },
+      "subcategory": "muted-botanical",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-palette-base-muted-botanical-cool-color-bias",
+      "semantic_key": "wardrobe-palette-base-muted-botanical-cool-color-bias",
+      "text": "a muted botanical palette with cool color bias",
+      "sentence": "A muted botanical palette with cool color bias.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a muted botanical palette with cool color bias",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a muted botanical palette with cool color bias",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a muted botanical palette with cool color bias",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-palette-base-muted-botanical",
+      "tags": [
+        "base",
+        "palette",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "palette": "muted-botanical",
+        "treatment": "cool-color-bias"
+      },
+      "subcategory": "muted-botanical",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-palette-base-muted-botanical-neutral-color-balance",
+      "semantic_key": "wardrobe-palette-base-muted-botanical-neutral-color-balance",
+      "text": "a muted botanical palette with neutral color balance",
+      "sentence": "A muted botanical palette with neutral color balance.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a muted botanical palette with neutral color balance",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a muted botanical palette with neutral color balance",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a muted botanical palette with neutral color balance",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-palette-base-muted-botanical",
+      "tags": [
+        "base",
+        "palette",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "palette": "muted-botanical",
+        "treatment": "neutral-color-balance"
+      },
+      "subcategory": "muted-botanical",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-palette-base-sun-washed-coastal-muted-saturation",
+      "semantic_key": "wardrobe-palette-base-sun-washed-coastal-muted-saturation",
+      "text": "a sun-washed coastal palette with muted saturation",
+      "sentence": "A sun-washed coastal palette with muted saturation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a sun-washed coastal palette with muted saturation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a sun-washed coastal palette with muted saturation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a sun-washed coastal palette with muted saturation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-palette-base-sun-washed-coastal",
+      "tags": [
+        "base",
+        "palette",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "palette": "sun-washed-coastal",
+        "treatment": "muted-saturation"
+      },
+      "subcategory": "sun-washed-coastal",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-palette-base-sun-washed-coastal-balanced-saturation",
+      "semantic_key": "wardrobe-palette-base-sun-washed-coastal-balanced-saturation",
+      "text": "a sun-washed coastal palette with balanced saturation",
+      "sentence": "A sun-washed coastal palette with balanced saturation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a sun-washed coastal palette with balanced saturation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a sun-washed coastal palette with balanced saturation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a sun-washed coastal palette with balanced saturation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-palette-base-sun-washed-coastal",
+      "tags": [
+        "base",
+        "palette",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "palette": "sun-washed-coastal",
+        "treatment": "balanced-saturation"
+      },
+      "subcategory": "sun-washed-coastal",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-palette-base-sun-washed-coastal-rich-saturation",
+      "semantic_key": "wardrobe-palette-base-sun-washed-coastal-rich-saturation",
+      "text": "a sun-washed coastal palette with rich saturation",
+      "sentence": "A sun-washed coastal palette with rich saturation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a sun-washed coastal palette with rich saturation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a sun-washed coastal palette with rich saturation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a sun-washed coastal palette with rich saturation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-palette-base-sun-washed-coastal",
+      "tags": [
+        "base",
+        "palette",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "palette": "sun-washed-coastal",
+        "treatment": "rich-saturation"
+      },
+      "subcategory": "sun-washed-coastal",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-palette-base-sun-washed-coastal-pale-value-range",
+      "semantic_key": "wardrobe-palette-base-sun-washed-coastal-pale-value-range",
+      "text": "a sun-washed coastal palette with pale value range",
+      "sentence": "A sun-washed coastal palette with pale value range.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a sun-washed coastal palette with pale value range",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a sun-washed coastal palette with pale value range",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a sun-washed coastal palette with pale value range",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "wardrobe-palette-base-sun-washed-coastal",
+      "tags": [
+        "base",
+        "palette",
+        "rarity-common",
+        "wardrobe"
+      ],
+      "facets": {
+        "palette": "sun-washed-coastal",
+        "treatment": "pale-value-range"
+      },
+      "subcategory": "sun-washed-coastal",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-palette-base-sun-washed-coastal-deep-value-range",
+      "semantic_key": "wardrobe-palette-base-sun-washed-coastal-deep-value-range",
+      "text": "a sun-washed coastal palette with deep value range",
+      "sentence": "A sun-washed coastal palette with deep value range.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a sun-washed coastal palette with deep value range",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a sun-washed coastal palette with deep value range",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a sun-washed coastal palette with deep value range",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-palette-base-sun-washed-coastal",
+      "tags": [
+        "base",
+        "palette",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "palette": "sun-washed-coastal",
+        "treatment": "deep-value-range"
+      },
+      "subcategory": "sun-washed-coastal",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-palette-base-sun-washed-coastal-warm-color-bias",
+      "semantic_key": "wardrobe-palette-base-sun-washed-coastal-warm-color-bias",
+      "text": "a sun-washed coastal palette with warm color bias",
+      "sentence": "A sun-washed coastal palette with warm color bias.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a sun-washed coastal palette with warm color bias",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a sun-washed coastal palette with warm color bias",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a sun-washed coastal palette with warm color bias",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "wardrobe-palette-base-sun-washed-coastal",
+      "tags": [
+        "base",
+        "palette",
+        "rarity-uncommon",
+        "wardrobe"
+      ],
+      "facets": {
+        "palette": "sun-washed-coastal",
+        "treatment": "warm-color-bias"
+      },
+      "subcategory": "sun-washed-coastal",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-palette-base-sun-washed-coastal-cool-color-bias",
+      "semantic_key": "wardrobe-palette-base-sun-washed-coastal-cool-color-bias",
+      "text": "a sun-washed coastal palette with cool color bias",
+      "sentence": "A sun-washed coastal palette with cool color bias.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a sun-washed coastal palette with cool color bias",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a sun-washed coastal palette with cool color bias",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a sun-washed coastal palette with cool color bias",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-palette-base-sun-washed-coastal",
+      "tags": [
+        "base",
+        "palette",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "palette": "sun-washed-coastal",
+        "treatment": "cool-color-bias"
+      },
+      "subcategory": "sun-washed-coastal",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "wardrobe-palette-base-sun-washed-coastal-neutral-color-balance",
+      "semantic_key": "wardrobe-palette-base-sun-washed-coastal-neutral-color-balance",
+      "text": "a sun-washed coastal palette with neutral color balance",
+      "sentence": "A sun-washed coastal palette with neutral color balance.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a sun-washed coastal palette with neutral color balance",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a sun-washed coastal palette with neutral color balance",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a sun-washed coastal palette with neutral color balance",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "wardrobe-palette-base-sun-washed-coastal",
+      "tags": [
+        "base",
+        "palette",
+        "rarity-rare",
+        "wardrobe"
+      ],
+      "facets": {
+        "palette": "sun-washed-coastal",
+        "treatment": "neutral-color-balance"
+      },
+      "subcategory": "sun-washed-coastal",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    }
+  ]
+}

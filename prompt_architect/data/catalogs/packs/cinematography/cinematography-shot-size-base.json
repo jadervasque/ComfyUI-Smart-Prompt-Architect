@@ -1,0 +1,2641 @@
+{
+  "schema_version": "2.0",
+  "id": "cinematography-shot-size-base",
+  "version": "2.0.0",
+  "library": "shot-size",
+  "domain": "cinematography",
+  "category": "shot-size",
+  "language": "en",
+  "status": "active",
+  "safety": "general",
+  "tags": [
+    "base"
+  ],
+  "fallback_option_id": "cinematography-shot-size-base-extreme-close-up-documentary-restraint",
+  "options": [
+    {
+      "id": "cinematography-shot-size-base-extreme-close-up-documentary-restraint",
+      "semantic_key": "cinematography-shot-size-base-extreme-close-up-documentary-restraint",
+      "text": "extreme close-up with documentary restraint",
+      "sentence": "Extreme close-up with documentary restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "extreme close-up with documentary restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing extreme close-up with documentary restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with extreme close-up with documentary restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-shot-size-base-extreme-close-up",
+      "tags": [
+        "base",
+        "cinematography",
+        "framing-close",
+        "rarity-common",
+        "shot-size"
+      ],
+      "facets": {
+        "framing": "extreme-close-up",
+        "treatment": "documentary-restraint"
+      },
+      "subcategory": "extreme-close-up",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-shot-size-base-extreme-close-up-formal-precision",
+      "semantic_key": "cinematography-shot-size-base-extreme-close-up-formal-precision",
+      "text": "extreme close-up with formal precision",
+      "sentence": "Extreme close-up with formal precision.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "extreme close-up with formal precision",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing extreme close-up with formal precision",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with extreme close-up with formal precision",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-shot-size-base-extreme-close-up",
+      "tags": [
+        "base",
+        "cinematography",
+        "framing-close",
+        "rarity-common",
+        "shot-size"
+      ],
+      "facets": {
+        "framing": "extreme-close-up",
+        "treatment": "formal-precision"
+      },
+      "subcategory": "extreme-close-up",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-shot-size-base-extreme-close-up-intimate-emphasis",
+      "semantic_key": "cinematography-shot-size-base-extreme-close-up-intimate-emphasis",
+      "text": "extreme close-up with intimate emphasis",
+      "sentence": "Extreme close-up with intimate emphasis.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "extreme close-up with intimate emphasis",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing extreme close-up with intimate emphasis",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with extreme close-up with intimate emphasis",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-shot-size-base-extreme-close-up",
+      "tags": [
+        "base",
+        "cinematography",
+        "framing-close",
+        "rarity-common",
+        "shot-size"
+      ],
+      "facets": {
+        "framing": "extreme-close-up",
+        "treatment": "intimate-emphasis"
+      },
+      "subcategory": "extreme-close-up",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-shot-size-base-extreme-close-up-spatial-context",
+      "semantic_key": "cinematography-shot-size-base-extreme-close-up-spatial-context",
+      "text": "extreme close-up with spatial context",
+      "sentence": "Extreme close-up with spatial context.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "extreme close-up with spatial context",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing extreme close-up with spatial context",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with extreme close-up with spatial context",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-shot-size-base-extreme-close-up",
+      "tags": [
+        "base",
+        "cinematography",
+        "framing-close",
+        "rarity-common",
+        "shot-size"
+      ],
+      "facets": {
+        "framing": "extreme-close-up",
+        "treatment": "spatial-context"
+      },
+      "subcategory": "extreme-close-up",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-shot-size-base-extreme-close-up-graphic-geometry",
+      "semantic_key": "cinematography-shot-size-base-extreme-close-up-graphic-geometry",
+      "text": "extreme close-up with graphic geometry",
+      "sentence": "Extreme close-up with graphic geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "extreme close-up with graphic geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing extreme close-up with graphic geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with extreme close-up with graphic geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-shot-size-base-extreme-close-up",
+      "tags": [
+        "base",
+        "cinematography",
+        "framing-close",
+        "rarity-uncommon",
+        "shot-size"
+      ],
+      "facets": {
+        "framing": "extreme-close-up",
+        "treatment": "graphic-geometry"
+      },
+      "subcategory": "extreme-close-up",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-shot-size-base-extreme-close-up-dynamic-energy",
+      "semantic_key": "cinematography-shot-size-base-extreme-close-up-dynamic-energy",
+      "text": "extreme close-up with dynamic energy",
+      "sentence": "Extreme close-up with dynamic energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "extreme close-up with dynamic energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing extreme close-up with dynamic energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with extreme close-up with dynamic energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-shot-size-base-extreme-close-up",
+      "tags": [
+        "base",
+        "cinematography",
+        "framing-close",
+        "rarity-uncommon",
+        "shot-size"
+      ],
+      "facets": {
+        "framing": "extreme-close-up",
+        "treatment": "dynamic-energy"
+      },
+      "subcategory": "extreme-close-up",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-shot-size-base-extreme-close-up-quiet-observation",
+      "semantic_key": "cinematography-shot-size-base-extreme-close-up-quiet-observation",
+      "text": "extreme close-up with quiet observation",
+      "sentence": "Extreme close-up with quiet observation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "extreme close-up with quiet observation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing extreme close-up with quiet observation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with extreme close-up with quiet observation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-shot-size-base-extreme-close-up",
+      "tags": [
+        "base",
+        "cinematography",
+        "framing-close",
+        "rarity-rare",
+        "shot-size"
+      ],
+      "facets": {
+        "framing": "extreme-close-up",
+        "treatment": "quiet-observation"
+      },
+      "subcategory": "extreme-close-up",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-shot-size-base-extreme-close-up-editorial-polish",
+      "semantic_key": "cinematography-shot-size-base-extreme-close-up-editorial-polish",
+      "text": "extreme close-up with editorial polish",
+      "sentence": "Extreme close-up with editorial polish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "extreme close-up with editorial polish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing extreme close-up with editorial polish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with extreme close-up with editorial polish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-shot-size-base-extreme-close-up",
+      "tags": [
+        "base",
+        "cinematography",
+        "framing-close",
+        "rarity-rare",
+        "shot-size"
+      ],
+      "facets": {
+        "framing": "extreme-close-up",
+        "treatment": "editorial-polish"
+      },
+      "subcategory": "extreme-close-up",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-shot-size-base-close-up-documentary-restraint",
+      "semantic_key": "cinematography-shot-size-base-close-up-documentary-restraint",
+      "text": "close-up with documentary restraint",
+      "sentence": "Close-up with documentary restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "close-up with documentary restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing close-up with documentary restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with close-up with documentary restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-shot-size-base-close-up",
+      "tags": [
+        "base",
+        "cinematography",
+        "framing-close",
+        "rarity-common",
+        "shot-size"
+      ],
+      "facets": {
+        "framing": "close-up",
+        "treatment": "documentary-restraint"
+      },
+      "subcategory": "close-up",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-shot-size-base-close-up-formal-precision",
+      "semantic_key": "cinematography-shot-size-base-close-up-formal-precision",
+      "text": "close-up with formal precision",
+      "sentence": "Close-up with formal precision.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "close-up with formal precision",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing close-up with formal precision",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with close-up with formal precision",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-shot-size-base-close-up",
+      "tags": [
+        "base",
+        "cinematography",
+        "framing-close",
+        "rarity-common",
+        "shot-size"
+      ],
+      "facets": {
+        "framing": "close-up",
+        "treatment": "formal-precision"
+      },
+      "subcategory": "close-up",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-shot-size-base-close-up-intimate-emphasis",
+      "semantic_key": "cinematography-shot-size-base-close-up-intimate-emphasis",
+      "text": "close-up with intimate emphasis",
+      "sentence": "Close-up with intimate emphasis.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "close-up with intimate emphasis",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing close-up with intimate emphasis",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with close-up with intimate emphasis",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-shot-size-base-close-up",
+      "tags": [
+        "base",
+        "cinematography",
+        "framing-close",
+        "rarity-common",
+        "shot-size"
+      ],
+      "facets": {
+        "framing": "close-up",
+        "treatment": "intimate-emphasis"
+      },
+      "subcategory": "close-up",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-shot-size-base-close-up-spatial-context",
+      "semantic_key": "cinematography-shot-size-base-close-up-spatial-context",
+      "text": "close-up with spatial context",
+      "sentence": "Close-up with spatial context.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "close-up with spatial context",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing close-up with spatial context",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with close-up with spatial context",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-shot-size-base-close-up",
+      "tags": [
+        "base",
+        "cinematography",
+        "framing-close",
+        "rarity-common",
+        "shot-size"
+      ],
+      "facets": {
+        "framing": "close-up",
+        "treatment": "spatial-context"
+      },
+      "subcategory": "close-up",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-shot-size-base-close-up-graphic-geometry",
+      "semantic_key": "cinematography-shot-size-base-close-up-graphic-geometry",
+      "text": "close-up with graphic geometry",
+      "sentence": "Close-up with graphic geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "close-up with graphic geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing close-up with graphic geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with close-up with graphic geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-shot-size-base-close-up",
+      "tags": [
+        "base",
+        "cinematography",
+        "framing-close",
+        "rarity-uncommon",
+        "shot-size"
+      ],
+      "facets": {
+        "framing": "close-up",
+        "treatment": "graphic-geometry"
+      },
+      "subcategory": "close-up",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-shot-size-base-close-up-dynamic-energy",
+      "semantic_key": "cinematography-shot-size-base-close-up-dynamic-energy",
+      "text": "close-up with dynamic energy",
+      "sentence": "Close-up with dynamic energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "close-up with dynamic energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing close-up with dynamic energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with close-up with dynamic energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-shot-size-base-close-up",
+      "tags": [
+        "base",
+        "cinematography",
+        "framing-close",
+        "rarity-uncommon",
+        "shot-size"
+      ],
+      "facets": {
+        "framing": "close-up",
+        "treatment": "dynamic-energy"
+      },
+      "subcategory": "close-up",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-shot-size-base-close-up-quiet-observation",
+      "semantic_key": "cinematography-shot-size-base-close-up-quiet-observation",
+      "text": "close-up with quiet observation",
+      "sentence": "Close-up with quiet observation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "close-up with quiet observation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing close-up with quiet observation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with close-up with quiet observation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-shot-size-base-close-up",
+      "tags": [
+        "base",
+        "cinematography",
+        "framing-close",
+        "rarity-rare",
+        "shot-size"
+      ],
+      "facets": {
+        "framing": "close-up",
+        "treatment": "quiet-observation"
+      },
+      "subcategory": "close-up",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-shot-size-base-close-up-editorial-polish",
+      "semantic_key": "cinematography-shot-size-base-close-up-editorial-polish",
+      "text": "close-up with editorial polish",
+      "sentence": "Close-up with editorial polish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "close-up with editorial polish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing close-up with editorial polish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with close-up with editorial polish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-shot-size-base-close-up",
+      "tags": [
+        "base",
+        "cinematography",
+        "framing-close",
+        "rarity-rare",
+        "shot-size"
+      ],
+      "facets": {
+        "framing": "close-up",
+        "treatment": "editorial-polish"
+      },
+      "subcategory": "close-up",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-shot-size-base-head-and-shoulders-shot-documentary-restraint",
+      "semantic_key": "cinematography-shot-size-base-head-and-shoulders-shot-documentary-restraint",
+      "text": "head-and-shoulders shot with documentary restraint",
+      "sentence": "Head-and-shoulders shot with documentary restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "head-and-shoulders shot with documentary restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing head-and-shoulders shot with documentary restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with head-and-shoulders shot with documentary restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-shot-size-base-head-and-shoulders-shot",
+      "tags": [
+        "base",
+        "cinematography",
+        "framing-close",
+        "rarity-common",
+        "shot-size"
+      ],
+      "facets": {
+        "framing": "head-and-shoulders-shot",
+        "treatment": "documentary-restraint"
+      },
+      "subcategory": "head-and-shoulders-shot",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-shot-size-base-head-and-shoulders-shot-formal-precision",
+      "semantic_key": "cinematography-shot-size-base-head-and-shoulders-shot-formal-precision",
+      "text": "head-and-shoulders shot with formal precision",
+      "sentence": "Head-and-shoulders shot with formal precision.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "head-and-shoulders shot with formal precision",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing head-and-shoulders shot with formal precision",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with head-and-shoulders shot with formal precision",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-shot-size-base-head-and-shoulders-shot",
+      "tags": [
+        "base",
+        "cinematography",
+        "framing-close",
+        "rarity-common",
+        "shot-size"
+      ],
+      "facets": {
+        "framing": "head-and-shoulders-shot",
+        "treatment": "formal-precision"
+      },
+      "subcategory": "head-and-shoulders-shot",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-shot-size-base-head-and-shoulders-shot-intimate-emphasis",
+      "semantic_key": "cinematography-shot-size-base-head-and-shoulders-shot-intimate-emphasis",
+      "text": "head-and-shoulders shot with intimate emphasis",
+      "sentence": "Head-and-shoulders shot with intimate emphasis.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "head-and-shoulders shot with intimate emphasis",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing head-and-shoulders shot with intimate emphasis",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with head-and-shoulders shot with intimate emphasis",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-shot-size-base-head-and-shoulders-shot",
+      "tags": [
+        "base",
+        "cinematography",
+        "framing-close",
+        "rarity-common",
+        "shot-size"
+      ],
+      "facets": {
+        "framing": "head-and-shoulders-shot",
+        "treatment": "intimate-emphasis"
+      },
+      "subcategory": "head-and-shoulders-shot",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-shot-size-base-head-and-shoulders-shot-spatial-context",
+      "semantic_key": "cinematography-shot-size-base-head-and-shoulders-shot-spatial-context",
+      "text": "head-and-shoulders shot with spatial context",
+      "sentence": "Head-and-shoulders shot with spatial context.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "head-and-shoulders shot with spatial context",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing head-and-shoulders shot with spatial context",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with head-and-shoulders shot with spatial context",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-shot-size-base-head-and-shoulders-shot",
+      "tags": [
+        "base",
+        "cinematography",
+        "framing-close",
+        "rarity-common",
+        "shot-size"
+      ],
+      "facets": {
+        "framing": "head-and-shoulders-shot",
+        "treatment": "spatial-context"
+      },
+      "subcategory": "head-and-shoulders-shot",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-shot-size-base-head-and-shoulders-shot-graphic-geometry",
+      "semantic_key": "cinematography-shot-size-base-head-and-shoulders-shot-graphic-geometry",
+      "text": "head-and-shoulders shot with graphic geometry",
+      "sentence": "Head-and-shoulders shot with graphic geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "head-and-shoulders shot with graphic geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing head-and-shoulders shot with graphic geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with head-and-shoulders shot with graphic geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-shot-size-base-head-and-shoulders-shot",
+      "tags": [
+        "base",
+        "cinematography",
+        "framing-close",
+        "rarity-uncommon",
+        "shot-size"
+      ],
+      "facets": {
+        "framing": "head-and-shoulders-shot",
+        "treatment": "graphic-geometry"
+      },
+      "subcategory": "head-and-shoulders-shot",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-shot-size-base-head-and-shoulders-shot-dynamic-energy",
+      "semantic_key": "cinematography-shot-size-base-head-and-shoulders-shot-dynamic-energy",
+      "text": "head-and-shoulders shot with dynamic energy",
+      "sentence": "Head-and-shoulders shot with dynamic energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "head-and-shoulders shot with dynamic energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing head-and-shoulders shot with dynamic energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with head-and-shoulders shot with dynamic energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-shot-size-base-head-and-shoulders-shot",
+      "tags": [
+        "base",
+        "cinematography",
+        "framing-close",
+        "rarity-uncommon",
+        "shot-size"
+      ],
+      "facets": {
+        "framing": "head-and-shoulders-shot",
+        "treatment": "dynamic-energy"
+      },
+      "subcategory": "head-and-shoulders-shot",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-shot-size-base-head-and-shoulders-shot-quiet-observation",
+      "semantic_key": "cinematography-shot-size-base-head-and-shoulders-shot-quiet-observation",
+      "text": "head-and-shoulders shot with quiet observation",
+      "sentence": "Head-and-shoulders shot with quiet observation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "head-and-shoulders shot with quiet observation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing head-and-shoulders shot with quiet observation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with head-and-shoulders shot with quiet observation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-shot-size-base-head-and-shoulders-shot",
+      "tags": [
+        "base",
+        "cinematography",
+        "framing-close",
+        "rarity-rare",
+        "shot-size"
+      ],
+      "facets": {
+        "framing": "head-and-shoulders-shot",
+        "treatment": "quiet-observation"
+      },
+      "subcategory": "head-and-shoulders-shot",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-shot-size-base-head-and-shoulders-shot-editorial-polish",
+      "semantic_key": "cinematography-shot-size-base-head-and-shoulders-shot-editorial-polish",
+      "text": "head-and-shoulders shot with editorial polish",
+      "sentence": "Head-and-shoulders shot with editorial polish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "head-and-shoulders shot with editorial polish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing head-and-shoulders shot with editorial polish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with head-and-shoulders shot with editorial polish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-shot-size-base-head-and-shoulders-shot",
+      "tags": [
+        "base",
+        "cinematography",
+        "framing-close",
+        "rarity-rare",
+        "shot-size"
+      ],
+      "facets": {
+        "framing": "head-and-shoulders-shot",
+        "treatment": "editorial-polish"
+      },
+      "subcategory": "head-and-shoulders-shot",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-shot-size-base-bust-shot-documentary-restraint",
+      "semantic_key": "cinematography-shot-size-base-bust-shot-documentary-restraint",
+      "text": "bust shot with documentary restraint",
+      "sentence": "Bust shot with documentary restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "bust shot with documentary restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing bust shot with documentary restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with bust shot with documentary restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-shot-size-base-bust-shot",
+      "tags": [
+        "base",
+        "cinematography",
+        "framing-medium",
+        "rarity-common",
+        "shot-size"
+      ],
+      "facets": {
+        "framing": "bust-shot",
+        "treatment": "documentary-restraint"
+      },
+      "subcategory": "bust-shot",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-shot-size-base-bust-shot-formal-precision",
+      "semantic_key": "cinematography-shot-size-base-bust-shot-formal-precision",
+      "text": "bust shot with formal precision",
+      "sentence": "Bust shot with formal precision.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "bust shot with formal precision",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing bust shot with formal precision",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with bust shot with formal precision",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-shot-size-base-bust-shot",
+      "tags": [
+        "base",
+        "cinematography",
+        "framing-medium",
+        "rarity-common",
+        "shot-size"
+      ],
+      "facets": {
+        "framing": "bust-shot",
+        "treatment": "formal-precision"
+      },
+      "subcategory": "bust-shot",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-shot-size-base-bust-shot-intimate-emphasis",
+      "semantic_key": "cinematography-shot-size-base-bust-shot-intimate-emphasis",
+      "text": "bust shot with intimate emphasis",
+      "sentence": "Bust shot with intimate emphasis.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "bust shot with intimate emphasis",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing bust shot with intimate emphasis",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with bust shot with intimate emphasis",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-shot-size-base-bust-shot",
+      "tags": [
+        "base",
+        "cinematography",
+        "framing-medium",
+        "rarity-common",
+        "shot-size"
+      ],
+      "facets": {
+        "framing": "bust-shot",
+        "treatment": "intimate-emphasis"
+      },
+      "subcategory": "bust-shot",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-shot-size-base-bust-shot-spatial-context",
+      "semantic_key": "cinematography-shot-size-base-bust-shot-spatial-context",
+      "text": "bust shot with spatial context",
+      "sentence": "Bust shot with spatial context.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "bust shot with spatial context",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing bust shot with spatial context",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with bust shot with spatial context",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-shot-size-base-bust-shot",
+      "tags": [
+        "base",
+        "cinematography",
+        "framing-medium",
+        "rarity-common",
+        "shot-size"
+      ],
+      "facets": {
+        "framing": "bust-shot",
+        "treatment": "spatial-context"
+      },
+      "subcategory": "bust-shot",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-shot-size-base-bust-shot-graphic-geometry",
+      "semantic_key": "cinematography-shot-size-base-bust-shot-graphic-geometry",
+      "text": "bust shot with graphic geometry",
+      "sentence": "Bust shot with graphic geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "bust shot with graphic geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing bust shot with graphic geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with bust shot with graphic geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-shot-size-base-bust-shot",
+      "tags": [
+        "base",
+        "cinematography",
+        "framing-medium",
+        "rarity-uncommon",
+        "shot-size"
+      ],
+      "facets": {
+        "framing": "bust-shot",
+        "treatment": "graphic-geometry"
+      },
+      "subcategory": "bust-shot",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-shot-size-base-bust-shot-dynamic-energy",
+      "semantic_key": "cinematography-shot-size-base-bust-shot-dynamic-energy",
+      "text": "bust shot with dynamic energy",
+      "sentence": "Bust shot with dynamic energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "bust shot with dynamic energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing bust shot with dynamic energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with bust shot with dynamic energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-shot-size-base-bust-shot",
+      "tags": [
+        "base",
+        "cinematography",
+        "framing-medium",
+        "rarity-uncommon",
+        "shot-size"
+      ],
+      "facets": {
+        "framing": "bust-shot",
+        "treatment": "dynamic-energy"
+      },
+      "subcategory": "bust-shot",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-shot-size-base-bust-shot-quiet-observation",
+      "semantic_key": "cinematography-shot-size-base-bust-shot-quiet-observation",
+      "text": "bust shot with quiet observation",
+      "sentence": "Bust shot with quiet observation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "bust shot with quiet observation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing bust shot with quiet observation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with bust shot with quiet observation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-shot-size-base-bust-shot",
+      "tags": [
+        "base",
+        "cinematography",
+        "framing-medium",
+        "rarity-rare",
+        "shot-size"
+      ],
+      "facets": {
+        "framing": "bust-shot",
+        "treatment": "quiet-observation"
+      },
+      "subcategory": "bust-shot",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-shot-size-base-bust-shot-editorial-polish",
+      "semantic_key": "cinematography-shot-size-base-bust-shot-editorial-polish",
+      "text": "bust shot with editorial polish",
+      "sentence": "Bust shot with editorial polish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "bust shot with editorial polish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing bust shot with editorial polish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with bust shot with editorial polish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-shot-size-base-bust-shot",
+      "tags": [
+        "base",
+        "cinematography",
+        "framing-medium",
+        "rarity-rare",
+        "shot-size"
+      ],
+      "facets": {
+        "framing": "bust-shot",
+        "treatment": "editorial-polish"
+      },
+      "subcategory": "bust-shot",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-shot-size-base-waist-up-shot-documentary-restraint",
+      "semantic_key": "cinematography-shot-size-base-waist-up-shot-documentary-restraint",
+      "text": "waist-up shot with documentary restraint",
+      "sentence": "Waist-up shot with documentary restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "waist-up shot with documentary restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing waist-up shot with documentary restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with waist-up shot with documentary restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-shot-size-base-waist-up-shot",
+      "tags": [
+        "base",
+        "cinematography",
+        "framing-medium",
+        "rarity-common",
+        "shot-size"
+      ],
+      "facets": {
+        "framing": "waist-up-shot",
+        "treatment": "documentary-restraint"
+      },
+      "subcategory": "waist-up-shot",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-shot-size-base-waist-up-shot-formal-precision",
+      "semantic_key": "cinematography-shot-size-base-waist-up-shot-formal-precision",
+      "text": "waist-up shot with formal precision",
+      "sentence": "Waist-up shot with formal precision.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "waist-up shot with formal precision",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing waist-up shot with formal precision",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with waist-up shot with formal precision",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-shot-size-base-waist-up-shot",
+      "tags": [
+        "base",
+        "cinematography",
+        "framing-medium",
+        "rarity-common",
+        "shot-size"
+      ],
+      "facets": {
+        "framing": "waist-up-shot",
+        "treatment": "formal-precision"
+      },
+      "subcategory": "waist-up-shot",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-shot-size-base-waist-up-shot-intimate-emphasis",
+      "semantic_key": "cinematography-shot-size-base-waist-up-shot-intimate-emphasis",
+      "text": "waist-up shot with intimate emphasis",
+      "sentence": "Waist-up shot with intimate emphasis.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "waist-up shot with intimate emphasis",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing waist-up shot with intimate emphasis",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with waist-up shot with intimate emphasis",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-shot-size-base-waist-up-shot",
+      "tags": [
+        "base",
+        "cinematography",
+        "framing-medium",
+        "rarity-common",
+        "shot-size"
+      ],
+      "facets": {
+        "framing": "waist-up-shot",
+        "treatment": "intimate-emphasis"
+      },
+      "subcategory": "waist-up-shot",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-shot-size-base-waist-up-shot-spatial-context",
+      "semantic_key": "cinematography-shot-size-base-waist-up-shot-spatial-context",
+      "text": "waist-up shot with spatial context",
+      "sentence": "Waist-up shot with spatial context.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "waist-up shot with spatial context",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing waist-up shot with spatial context",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with waist-up shot with spatial context",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-shot-size-base-waist-up-shot",
+      "tags": [
+        "base",
+        "cinematography",
+        "framing-medium",
+        "rarity-common",
+        "shot-size"
+      ],
+      "facets": {
+        "framing": "waist-up-shot",
+        "treatment": "spatial-context"
+      },
+      "subcategory": "waist-up-shot",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-shot-size-base-waist-up-shot-graphic-geometry",
+      "semantic_key": "cinematography-shot-size-base-waist-up-shot-graphic-geometry",
+      "text": "waist-up shot with graphic geometry",
+      "sentence": "Waist-up shot with graphic geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "waist-up shot with graphic geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing waist-up shot with graphic geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with waist-up shot with graphic geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-shot-size-base-waist-up-shot",
+      "tags": [
+        "base",
+        "cinematography",
+        "framing-medium",
+        "rarity-uncommon",
+        "shot-size"
+      ],
+      "facets": {
+        "framing": "waist-up-shot",
+        "treatment": "graphic-geometry"
+      },
+      "subcategory": "waist-up-shot",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-shot-size-base-waist-up-shot-dynamic-energy",
+      "semantic_key": "cinematography-shot-size-base-waist-up-shot-dynamic-energy",
+      "text": "waist-up shot with dynamic energy",
+      "sentence": "Waist-up shot with dynamic energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "waist-up shot with dynamic energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing waist-up shot with dynamic energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with waist-up shot with dynamic energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-shot-size-base-waist-up-shot",
+      "tags": [
+        "base",
+        "cinematography",
+        "framing-medium",
+        "rarity-uncommon",
+        "shot-size"
+      ],
+      "facets": {
+        "framing": "waist-up-shot",
+        "treatment": "dynamic-energy"
+      },
+      "subcategory": "waist-up-shot",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-shot-size-base-waist-up-shot-quiet-observation",
+      "semantic_key": "cinematography-shot-size-base-waist-up-shot-quiet-observation",
+      "text": "waist-up shot with quiet observation",
+      "sentence": "Waist-up shot with quiet observation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "waist-up shot with quiet observation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing waist-up shot with quiet observation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with waist-up shot with quiet observation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-shot-size-base-waist-up-shot",
+      "tags": [
+        "base",
+        "cinematography",
+        "framing-medium",
+        "rarity-rare",
+        "shot-size"
+      ],
+      "facets": {
+        "framing": "waist-up-shot",
+        "treatment": "quiet-observation"
+      },
+      "subcategory": "waist-up-shot",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-shot-size-base-waist-up-shot-editorial-polish",
+      "semantic_key": "cinematography-shot-size-base-waist-up-shot-editorial-polish",
+      "text": "waist-up shot with editorial polish",
+      "sentence": "Waist-up shot with editorial polish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "waist-up shot with editorial polish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing waist-up shot with editorial polish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with waist-up shot with editorial polish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-shot-size-base-waist-up-shot",
+      "tags": [
+        "base",
+        "cinematography",
+        "framing-medium",
+        "rarity-rare",
+        "shot-size"
+      ],
+      "facets": {
+        "framing": "waist-up-shot",
+        "treatment": "editorial-polish"
+      },
+      "subcategory": "waist-up-shot",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-shot-size-base-three-quarter-shot-documentary-restraint",
+      "semantic_key": "cinematography-shot-size-base-three-quarter-shot-documentary-restraint",
+      "text": "three-quarter shot with documentary restraint",
+      "sentence": "Three-quarter shot with documentary restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "three-quarter shot with documentary restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing three-quarter shot with documentary restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with three-quarter shot with documentary restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-shot-size-base-three-quarter-shot",
+      "tags": [
+        "base",
+        "cinematography",
+        "framing-medium",
+        "rarity-common",
+        "shot-size"
+      ],
+      "facets": {
+        "framing": "three-quarter-shot",
+        "treatment": "documentary-restraint"
+      },
+      "subcategory": "three-quarter-shot",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-shot-size-base-three-quarter-shot-formal-precision",
+      "semantic_key": "cinematography-shot-size-base-three-quarter-shot-formal-precision",
+      "text": "three-quarter shot with formal precision",
+      "sentence": "Three-quarter shot with formal precision.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "three-quarter shot with formal precision",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing three-quarter shot with formal precision",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with three-quarter shot with formal precision",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-shot-size-base-three-quarter-shot",
+      "tags": [
+        "base",
+        "cinematography",
+        "framing-medium",
+        "rarity-common",
+        "shot-size"
+      ],
+      "facets": {
+        "framing": "three-quarter-shot",
+        "treatment": "formal-precision"
+      },
+      "subcategory": "three-quarter-shot",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-shot-size-base-three-quarter-shot-intimate-emphasis",
+      "semantic_key": "cinematography-shot-size-base-three-quarter-shot-intimate-emphasis",
+      "text": "three-quarter shot with intimate emphasis",
+      "sentence": "Three-quarter shot with intimate emphasis.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "three-quarter shot with intimate emphasis",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing three-quarter shot with intimate emphasis",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with three-quarter shot with intimate emphasis",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-shot-size-base-three-quarter-shot",
+      "tags": [
+        "base",
+        "cinematography",
+        "framing-medium",
+        "rarity-common",
+        "shot-size"
+      ],
+      "facets": {
+        "framing": "three-quarter-shot",
+        "treatment": "intimate-emphasis"
+      },
+      "subcategory": "three-quarter-shot",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-shot-size-base-three-quarter-shot-spatial-context",
+      "semantic_key": "cinematography-shot-size-base-three-quarter-shot-spatial-context",
+      "text": "three-quarter shot with spatial context",
+      "sentence": "Three-quarter shot with spatial context.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "three-quarter shot with spatial context",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing three-quarter shot with spatial context",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with three-quarter shot with spatial context",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-shot-size-base-three-quarter-shot",
+      "tags": [
+        "base",
+        "cinematography",
+        "framing-medium",
+        "rarity-common",
+        "shot-size"
+      ],
+      "facets": {
+        "framing": "three-quarter-shot",
+        "treatment": "spatial-context"
+      },
+      "subcategory": "three-quarter-shot",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-shot-size-base-three-quarter-shot-graphic-geometry",
+      "semantic_key": "cinematography-shot-size-base-three-quarter-shot-graphic-geometry",
+      "text": "three-quarter shot with graphic geometry",
+      "sentence": "Three-quarter shot with graphic geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "three-quarter shot with graphic geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing three-quarter shot with graphic geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with three-quarter shot with graphic geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-shot-size-base-three-quarter-shot",
+      "tags": [
+        "base",
+        "cinematography",
+        "framing-medium",
+        "rarity-uncommon",
+        "shot-size"
+      ],
+      "facets": {
+        "framing": "three-quarter-shot",
+        "treatment": "graphic-geometry"
+      },
+      "subcategory": "three-quarter-shot",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-shot-size-base-three-quarter-shot-dynamic-energy",
+      "semantic_key": "cinematography-shot-size-base-three-quarter-shot-dynamic-energy",
+      "text": "three-quarter shot with dynamic energy",
+      "sentence": "Three-quarter shot with dynamic energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "three-quarter shot with dynamic energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing three-quarter shot with dynamic energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with three-quarter shot with dynamic energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-shot-size-base-three-quarter-shot",
+      "tags": [
+        "base",
+        "cinematography",
+        "framing-medium",
+        "rarity-uncommon",
+        "shot-size"
+      ],
+      "facets": {
+        "framing": "three-quarter-shot",
+        "treatment": "dynamic-energy"
+      },
+      "subcategory": "three-quarter-shot",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-shot-size-base-three-quarter-shot-quiet-observation",
+      "semantic_key": "cinematography-shot-size-base-three-quarter-shot-quiet-observation",
+      "text": "three-quarter shot with quiet observation",
+      "sentence": "Three-quarter shot with quiet observation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "three-quarter shot with quiet observation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing three-quarter shot with quiet observation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with three-quarter shot with quiet observation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-shot-size-base-three-quarter-shot",
+      "tags": [
+        "base",
+        "cinematography",
+        "framing-medium",
+        "rarity-rare",
+        "shot-size"
+      ],
+      "facets": {
+        "framing": "three-quarter-shot",
+        "treatment": "quiet-observation"
+      },
+      "subcategory": "three-quarter-shot",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-shot-size-base-three-quarter-shot-editorial-polish",
+      "semantic_key": "cinematography-shot-size-base-three-quarter-shot-editorial-polish",
+      "text": "three-quarter shot with editorial polish",
+      "sentence": "Three-quarter shot with editorial polish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "three-quarter shot with editorial polish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing three-quarter shot with editorial polish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with three-quarter shot with editorial polish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-shot-size-base-three-quarter-shot",
+      "tags": [
+        "base",
+        "cinematography",
+        "framing-medium",
+        "rarity-rare",
+        "shot-size"
+      ],
+      "facets": {
+        "framing": "three-quarter-shot",
+        "treatment": "editorial-polish"
+      },
+      "subcategory": "three-quarter-shot",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-shot-size-base-full-body-shot-documentary-restraint",
+      "semantic_key": "cinematography-shot-size-base-full-body-shot-documentary-restraint",
+      "text": "full-body shot with documentary restraint",
+      "sentence": "Full-body shot with documentary restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "full-body shot with documentary restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing full-body shot with documentary restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with full-body shot with documentary restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-shot-size-base-full-body-shot",
+      "tags": [
+        "base",
+        "cinematography",
+        "framing-wide",
+        "rarity-common",
+        "shot-size"
+      ],
+      "facets": {
+        "framing": "full-body-shot",
+        "treatment": "documentary-restraint"
+      },
+      "subcategory": "full-body-shot",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-shot-size-base-full-body-shot-formal-precision",
+      "semantic_key": "cinematography-shot-size-base-full-body-shot-formal-precision",
+      "text": "full-body shot with formal precision",
+      "sentence": "Full-body shot with formal precision.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "full-body shot with formal precision",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing full-body shot with formal precision",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with full-body shot with formal precision",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-shot-size-base-full-body-shot",
+      "tags": [
+        "base",
+        "cinematography",
+        "framing-wide",
+        "rarity-common",
+        "shot-size"
+      ],
+      "facets": {
+        "framing": "full-body-shot",
+        "treatment": "formal-precision"
+      },
+      "subcategory": "full-body-shot",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-shot-size-base-full-body-shot-intimate-emphasis",
+      "semantic_key": "cinematography-shot-size-base-full-body-shot-intimate-emphasis",
+      "text": "full-body shot with intimate emphasis",
+      "sentence": "Full-body shot with intimate emphasis.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "full-body shot with intimate emphasis",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing full-body shot with intimate emphasis",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with full-body shot with intimate emphasis",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-shot-size-base-full-body-shot",
+      "tags": [
+        "base",
+        "cinematography",
+        "framing-wide",
+        "rarity-common",
+        "shot-size"
+      ],
+      "facets": {
+        "framing": "full-body-shot",
+        "treatment": "intimate-emphasis"
+      },
+      "subcategory": "full-body-shot",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-shot-size-base-full-body-shot-spatial-context",
+      "semantic_key": "cinematography-shot-size-base-full-body-shot-spatial-context",
+      "text": "full-body shot with spatial context",
+      "sentence": "Full-body shot with spatial context.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "full-body shot with spatial context",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing full-body shot with spatial context",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with full-body shot with spatial context",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-shot-size-base-full-body-shot",
+      "tags": [
+        "base",
+        "cinematography",
+        "framing-wide",
+        "rarity-common",
+        "shot-size"
+      ],
+      "facets": {
+        "framing": "full-body-shot",
+        "treatment": "spatial-context"
+      },
+      "subcategory": "full-body-shot",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-shot-size-base-full-body-shot-graphic-geometry",
+      "semantic_key": "cinematography-shot-size-base-full-body-shot-graphic-geometry",
+      "text": "full-body shot with graphic geometry",
+      "sentence": "Full-body shot with graphic geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "full-body shot with graphic geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing full-body shot with graphic geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with full-body shot with graphic geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-shot-size-base-full-body-shot",
+      "tags": [
+        "base",
+        "cinematography",
+        "framing-wide",
+        "rarity-uncommon",
+        "shot-size"
+      ],
+      "facets": {
+        "framing": "full-body-shot",
+        "treatment": "graphic-geometry"
+      },
+      "subcategory": "full-body-shot",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-shot-size-base-full-body-shot-dynamic-energy",
+      "semantic_key": "cinematography-shot-size-base-full-body-shot-dynamic-energy",
+      "text": "full-body shot with dynamic energy",
+      "sentence": "Full-body shot with dynamic energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "full-body shot with dynamic energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing full-body shot with dynamic energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with full-body shot with dynamic energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-shot-size-base-full-body-shot",
+      "tags": [
+        "base",
+        "cinematography",
+        "framing-wide",
+        "rarity-uncommon",
+        "shot-size"
+      ],
+      "facets": {
+        "framing": "full-body-shot",
+        "treatment": "dynamic-energy"
+      },
+      "subcategory": "full-body-shot",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-shot-size-base-full-body-shot-quiet-observation",
+      "semantic_key": "cinematography-shot-size-base-full-body-shot-quiet-observation",
+      "text": "full-body shot with quiet observation",
+      "sentence": "Full-body shot with quiet observation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "full-body shot with quiet observation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing full-body shot with quiet observation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with full-body shot with quiet observation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-shot-size-base-full-body-shot",
+      "tags": [
+        "base",
+        "cinematography",
+        "framing-wide",
+        "rarity-rare",
+        "shot-size"
+      ],
+      "facets": {
+        "framing": "full-body-shot",
+        "treatment": "quiet-observation"
+      },
+      "subcategory": "full-body-shot",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-shot-size-base-full-body-shot-editorial-polish",
+      "semantic_key": "cinematography-shot-size-base-full-body-shot-editorial-polish",
+      "text": "full-body shot with editorial polish",
+      "sentence": "Full-body shot with editorial polish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "full-body shot with editorial polish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing full-body shot with editorial polish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with full-body shot with editorial polish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-shot-size-base-full-body-shot",
+      "tags": [
+        "base",
+        "cinematography",
+        "framing-wide",
+        "rarity-rare",
+        "shot-size"
+      ],
+      "facets": {
+        "framing": "full-body-shot",
+        "treatment": "editorial-polish"
+      },
+      "subcategory": "full-body-shot",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-shot-size-base-environmental-long-shot-documentary-restraint",
+      "semantic_key": "cinematography-shot-size-base-environmental-long-shot-documentary-restraint",
+      "text": "environmental long shot with documentary restraint",
+      "sentence": "Environmental long shot with documentary restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "environmental long shot with documentary restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing environmental long shot with documentary restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with environmental long shot with documentary restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-shot-size-base-environmental-long-shot",
+      "tags": [
+        "base",
+        "cinematography",
+        "framing-wide",
+        "rarity-common",
+        "shot-size"
+      ],
+      "facets": {
+        "framing": "environmental-long-shot",
+        "treatment": "documentary-restraint"
+      },
+      "subcategory": "environmental-long-shot",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-shot-size-base-environmental-long-shot-formal-precision",
+      "semantic_key": "cinematography-shot-size-base-environmental-long-shot-formal-precision",
+      "text": "environmental long shot with formal precision",
+      "sentence": "Environmental long shot with formal precision.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "environmental long shot with formal precision",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing environmental long shot with formal precision",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with environmental long shot with formal precision",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-shot-size-base-environmental-long-shot",
+      "tags": [
+        "base",
+        "cinematography",
+        "framing-wide",
+        "rarity-common",
+        "shot-size"
+      ],
+      "facets": {
+        "framing": "environmental-long-shot",
+        "treatment": "formal-precision"
+      },
+      "subcategory": "environmental-long-shot",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-shot-size-base-environmental-long-shot-intimate-emphasis",
+      "semantic_key": "cinematography-shot-size-base-environmental-long-shot-intimate-emphasis",
+      "text": "environmental long shot with intimate emphasis",
+      "sentence": "Environmental long shot with intimate emphasis.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "environmental long shot with intimate emphasis",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing environmental long shot with intimate emphasis",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with environmental long shot with intimate emphasis",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-shot-size-base-environmental-long-shot",
+      "tags": [
+        "base",
+        "cinematography",
+        "framing-wide",
+        "rarity-common",
+        "shot-size"
+      ],
+      "facets": {
+        "framing": "environmental-long-shot",
+        "treatment": "intimate-emphasis"
+      },
+      "subcategory": "environmental-long-shot",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-shot-size-base-environmental-long-shot-spatial-context",
+      "semantic_key": "cinematography-shot-size-base-environmental-long-shot-spatial-context",
+      "text": "environmental long shot with spatial context",
+      "sentence": "Environmental long shot with spatial context.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "environmental long shot with spatial context",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing environmental long shot with spatial context",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with environmental long shot with spatial context",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-shot-size-base-environmental-long-shot",
+      "tags": [
+        "base",
+        "cinematography",
+        "framing-wide",
+        "rarity-common",
+        "shot-size"
+      ],
+      "facets": {
+        "framing": "environmental-long-shot",
+        "treatment": "spatial-context"
+      },
+      "subcategory": "environmental-long-shot",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-shot-size-base-environmental-long-shot-graphic-geometry",
+      "semantic_key": "cinematography-shot-size-base-environmental-long-shot-graphic-geometry",
+      "text": "environmental long shot with graphic geometry",
+      "sentence": "Environmental long shot with graphic geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "environmental long shot with graphic geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing environmental long shot with graphic geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with environmental long shot with graphic geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-shot-size-base-environmental-long-shot",
+      "tags": [
+        "base",
+        "cinematography",
+        "framing-wide",
+        "rarity-uncommon",
+        "shot-size"
+      ],
+      "facets": {
+        "framing": "environmental-long-shot",
+        "treatment": "graphic-geometry"
+      },
+      "subcategory": "environmental-long-shot",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-shot-size-base-environmental-long-shot-dynamic-energy",
+      "semantic_key": "cinematography-shot-size-base-environmental-long-shot-dynamic-energy",
+      "text": "environmental long shot with dynamic energy",
+      "sentence": "Environmental long shot with dynamic energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "environmental long shot with dynamic energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing environmental long shot with dynamic energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with environmental long shot with dynamic energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-shot-size-base-environmental-long-shot",
+      "tags": [
+        "base",
+        "cinematography",
+        "framing-wide",
+        "rarity-uncommon",
+        "shot-size"
+      ],
+      "facets": {
+        "framing": "environmental-long-shot",
+        "treatment": "dynamic-energy"
+      },
+      "subcategory": "environmental-long-shot",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-shot-size-base-environmental-long-shot-quiet-observation",
+      "semantic_key": "cinematography-shot-size-base-environmental-long-shot-quiet-observation",
+      "text": "environmental long shot with quiet observation",
+      "sentence": "Environmental long shot with quiet observation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "environmental long shot with quiet observation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing environmental long shot with quiet observation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with environmental long shot with quiet observation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-shot-size-base-environmental-long-shot",
+      "tags": [
+        "base",
+        "cinematography",
+        "framing-wide",
+        "rarity-rare",
+        "shot-size"
+      ],
+      "facets": {
+        "framing": "environmental-long-shot",
+        "treatment": "quiet-observation"
+      },
+      "subcategory": "environmental-long-shot",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-shot-size-base-environmental-long-shot-editorial-polish",
+      "semantic_key": "cinematography-shot-size-base-environmental-long-shot-editorial-polish",
+      "text": "environmental long shot with editorial polish",
+      "sentence": "Environmental long shot with editorial polish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "environmental long shot with editorial polish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing environmental long shot with editorial polish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with environmental long shot with editorial polish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-shot-size-base-environmental-long-shot",
+      "tags": [
+        "base",
+        "cinematography",
+        "framing-wide",
+        "rarity-rare",
+        "shot-size"
+      ],
+      "facets": {
+        "framing": "environmental-long-shot",
+        "treatment": "editorial-polish"
+      },
+      "subcategory": "environmental-long-shot",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    }
+  ]
+}

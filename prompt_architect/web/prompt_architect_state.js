@@ -1,14 +1,30 @@
 const SCHEMA_VERSION = "1.1";
 const MAX_CUSTOM_TEXT_CHARACTERS = 4096;
-const PROFILE_VERSION = "1.0.0";
-const PROFILES = ["portrait", "virtual-model", "dataset"];
+const PROFILE_VERSION = "2.0.0";
+const PROFILES = [
+  "cinematic-portrait",
+  "conceptual-portrait",
+  "dark-fantasy-horror",
+  "dataset-balanced",
+  "editorial-fashion",
+  "fantasy-portrait",
+  "fine-art-portrait",
+  "full-body-fashion",
+  "historical-portrait",
+  "lifestyle",
+  "portrait-core",
+  "professional-headshot",
+  "street-portrait",
+  "studio-beauty",
+  "virtual-model",
+];
 const MODES = ["strict", "balanced", "creative", "dataset", "sequential"];
 const FIELD_MODES = ["inherit", "random", "fixed", "custom", "disabled"];
 
-export function defaultConfiguration(profile = "portrait") {
+export function defaultConfiguration(profile = "portrait-core") {
   return {
     schema_version: SCHEMA_VERSION,
-    profile_id: PROFILES.includes(profile) ? profile : "portrait",
+    profile_id: PROFILES.includes(profile) ? profile : "portrait-core",
     profile_version: PROFILE_VERSION,
     mode: "balanced",
     master_seed: 0,
@@ -24,7 +40,7 @@ export function defaultConfiguration(profile = "portrait") {
   };
 }
 
-export function parseConfiguration(value, fallbackProfile = "portrait") {
+export function parseConfiguration(value, fallbackProfile = "portrait-core") {
   let parsed;
   try {
     parsed = value && value.trim() ? JSON.parse(value) : {};

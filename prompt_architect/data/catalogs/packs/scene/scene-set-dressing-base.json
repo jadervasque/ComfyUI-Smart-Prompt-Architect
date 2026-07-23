@@ -1,0 +1,2577 @@
+{
+  "schema_version": "2.0",
+  "id": "scene-set-dressing-base",
+  "version": "2.0.0",
+  "library": "set-dressing",
+  "domain": "scene",
+  "category": "set-dressing",
+  "language": "en",
+  "status": "active",
+  "safety": "general",
+  "tags": [
+    "base"
+  ],
+  "fallback_option_id": "scene-set-dressing-base-minimal-furniture-open-spatial-layout",
+  "options": [
+    {
+      "id": "scene-set-dressing-base-minimal-furniture-open-spatial-layout",
+      "semantic_key": "scene-set-dressing-base-minimal-furniture-open-spatial-layout",
+      "text": "minimal furniture organized through open spatial layout",
+      "sentence": "Minimal furniture organized through open spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "minimal furniture organized through open spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing minimal furniture organized through open spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with minimal furniture organized through open spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-set-dressing-base-minimal-furniture",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "set-dressing"
+      ],
+      "facets": {
+        "prop-family": "minimal-furniture",
+        "treatment": "open-spatial-layout"
+      },
+      "subcategory": "minimal-furniture",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-set-dressing-base-minimal-furniture-intimate-spatial-layout",
+      "semantic_key": "scene-set-dressing-base-minimal-furniture-intimate-spatial-layout",
+      "text": "minimal furniture organized through intimate spatial layout",
+      "sentence": "Minimal furniture organized through intimate spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "minimal furniture organized through intimate spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing minimal furniture organized through intimate spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with minimal furniture organized through intimate spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-set-dressing-base-minimal-furniture",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "set-dressing"
+      ],
+      "facets": {
+        "prop-family": "minimal-furniture",
+        "treatment": "intimate-spatial-layout"
+      },
+      "subcategory": "minimal-furniture",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-set-dressing-base-minimal-furniture-layered-depth",
+      "semantic_key": "scene-set-dressing-base-minimal-furniture-layered-depth",
+      "text": "minimal furniture organized through layered depth",
+      "sentence": "Minimal furniture organized through layered depth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "minimal furniture organized through layered depth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing minimal furniture organized through layered depth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with minimal furniture organized through layered depth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-set-dressing-base-minimal-furniture",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "set-dressing"
+      ],
+      "facets": {
+        "prop-family": "minimal-furniture",
+        "treatment": "layered-depth"
+      },
+      "subcategory": "minimal-furniture",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-set-dressing-base-minimal-furniture-clear-sightlines",
+      "semantic_key": "scene-set-dressing-base-minimal-furniture-clear-sightlines",
+      "text": "minimal furniture organized through clear sightlines",
+      "sentence": "Minimal furniture organized through clear sightlines.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "minimal furniture organized through clear sightlines",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing minimal furniture organized through clear sightlines",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with minimal furniture organized through clear sightlines",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-set-dressing-base-minimal-furniture",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "set-dressing"
+      ],
+      "facets": {
+        "prop-family": "minimal-furniture",
+        "treatment": "clear-sightlines"
+      },
+      "subcategory": "minimal-furniture",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-set-dressing-base-minimal-furniture-enclosed-geometry",
+      "semantic_key": "scene-set-dressing-base-minimal-furniture-enclosed-geometry",
+      "text": "minimal furniture organized through enclosed geometry",
+      "sentence": "Minimal furniture organized through enclosed geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "minimal furniture organized through enclosed geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing minimal furniture organized through enclosed geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with minimal furniture organized through enclosed geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-set-dressing-base-minimal-furniture",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "scene",
+        "set-dressing"
+      ],
+      "facets": {
+        "prop-family": "minimal-furniture",
+        "treatment": "enclosed-geometry"
+      },
+      "subcategory": "minimal-furniture",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-set-dressing-base-minimal-furniture-expansive-geometry",
+      "semantic_key": "scene-set-dressing-base-minimal-furniture-expansive-geometry",
+      "text": "minimal furniture organized through expansive geometry",
+      "sentence": "Minimal furniture organized through expansive geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "minimal furniture organized through expansive geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing minimal furniture organized through expansive geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with minimal furniture organized through expansive geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-set-dressing-base-minimal-furniture",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "scene",
+        "set-dressing"
+      ],
+      "facets": {
+        "prop-family": "minimal-furniture",
+        "treatment": "expansive-geometry"
+      },
+      "subcategory": "minimal-furniture",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-set-dressing-base-minimal-furniture-asymmetric-layout",
+      "semantic_key": "scene-set-dressing-base-minimal-furniture-asymmetric-layout",
+      "text": "minimal furniture organized through asymmetric layout",
+      "sentence": "Minimal furniture organized through asymmetric layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "minimal furniture organized through asymmetric layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing minimal furniture organized through asymmetric layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with minimal furniture organized through asymmetric layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-set-dressing-base-minimal-furniture",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "scene",
+        "set-dressing"
+      ],
+      "facets": {
+        "prop-family": "minimal-furniture",
+        "treatment": "asymmetric-layout"
+      },
+      "subcategory": "minimal-furniture",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-set-dressing-base-minimal-furniture-central-organization",
+      "semantic_key": "scene-set-dressing-base-minimal-furniture-central-organization",
+      "text": "minimal furniture organized through central organization",
+      "sentence": "Minimal furniture organized through central organization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "minimal furniture organized through central organization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing minimal furniture organized through central organization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with minimal furniture organized through central organization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-set-dressing-base-minimal-furniture",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "scene",
+        "set-dressing"
+      ],
+      "facets": {
+        "prop-family": "minimal-furniture",
+        "treatment": "central-organization"
+      },
+      "subcategory": "minimal-furniture",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-set-dressing-base-books-and-papers-open-spatial-layout",
+      "semantic_key": "scene-set-dressing-base-books-and-papers-open-spatial-layout",
+      "text": "books and papers organized through open spatial layout",
+      "sentence": "Books and papers organized through open spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "books and papers organized through open spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing books and papers organized through open spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with books and papers organized through open spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-set-dressing-base-books-and-papers",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "set-dressing"
+      ],
+      "facets": {
+        "prop-family": "books-and-papers",
+        "treatment": "open-spatial-layout"
+      },
+      "subcategory": "books-and-papers",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-set-dressing-base-books-and-papers-intimate-spatial-layout",
+      "semantic_key": "scene-set-dressing-base-books-and-papers-intimate-spatial-layout",
+      "text": "books and papers organized through intimate spatial layout",
+      "sentence": "Books and papers organized through intimate spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "books and papers organized through intimate spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing books and papers organized through intimate spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with books and papers organized through intimate spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-set-dressing-base-books-and-papers",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "set-dressing"
+      ],
+      "facets": {
+        "prop-family": "books-and-papers",
+        "treatment": "intimate-spatial-layout"
+      },
+      "subcategory": "books-and-papers",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-set-dressing-base-books-and-papers-layered-depth",
+      "semantic_key": "scene-set-dressing-base-books-and-papers-layered-depth",
+      "text": "books and papers organized through layered depth",
+      "sentence": "Books and papers organized through layered depth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "books and papers organized through layered depth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing books and papers organized through layered depth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with books and papers organized through layered depth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-set-dressing-base-books-and-papers",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "set-dressing"
+      ],
+      "facets": {
+        "prop-family": "books-and-papers",
+        "treatment": "layered-depth"
+      },
+      "subcategory": "books-and-papers",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-set-dressing-base-books-and-papers-clear-sightlines",
+      "semantic_key": "scene-set-dressing-base-books-and-papers-clear-sightlines",
+      "text": "books and papers organized through clear sightlines",
+      "sentence": "Books and papers organized through clear sightlines.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "books and papers organized through clear sightlines",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing books and papers organized through clear sightlines",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with books and papers organized through clear sightlines",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-set-dressing-base-books-and-papers",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "set-dressing"
+      ],
+      "facets": {
+        "prop-family": "books-and-papers",
+        "treatment": "clear-sightlines"
+      },
+      "subcategory": "books-and-papers",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-set-dressing-base-books-and-papers-enclosed-geometry",
+      "semantic_key": "scene-set-dressing-base-books-and-papers-enclosed-geometry",
+      "text": "books and papers organized through enclosed geometry",
+      "sentence": "Books and papers organized through enclosed geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "books and papers organized through enclosed geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing books and papers organized through enclosed geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with books and papers organized through enclosed geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-set-dressing-base-books-and-papers",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "scene",
+        "set-dressing"
+      ],
+      "facets": {
+        "prop-family": "books-and-papers",
+        "treatment": "enclosed-geometry"
+      },
+      "subcategory": "books-and-papers",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-set-dressing-base-books-and-papers-expansive-geometry",
+      "semantic_key": "scene-set-dressing-base-books-and-papers-expansive-geometry",
+      "text": "books and papers organized through expansive geometry",
+      "sentence": "Books and papers organized through expansive geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "books and papers organized through expansive geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing books and papers organized through expansive geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with books and papers organized through expansive geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-set-dressing-base-books-and-papers",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "scene",
+        "set-dressing"
+      ],
+      "facets": {
+        "prop-family": "books-and-papers",
+        "treatment": "expansive-geometry"
+      },
+      "subcategory": "books-and-papers",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-set-dressing-base-books-and-papers-asymmetric-layout",
+      "semantic_key": "scene-set-dressing-base-books-and-papers-asymmetric-layout",
+      "text": "books and papers organized through asymmetric layout",
+      "sentence": "Books and papers organized through asymmetric layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "books and papers organized through asymmetric layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing books and papers organized through asymmetric layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with books and papers organized through asymmetric layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-set-dressing-base-books-and-papers",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "scene",
+        "set-dressing"
+      ],
+      "facets": {
+        "prop-family": "books-and-papers",
+        "treatment": "asymmetric-layout"
+      },
+      "subcategory": "books-and-papers",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-set-dressing-base-books-and-papers-central-organization",
+      "semantic_key": "scene-set-dressing-base-books-and-papers-central-organization",
+      "text": "books and papers organized through central organization",
+      "sentence": "Books and papers organized through central organization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "books and papers organized through central organization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing books and papers organized through central organization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with books and papers organized through central organization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-set-dressing-base-books-and-papers",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "scene",
+        "set-dressing"
+      ],
+      "facets": {
+        "prop-family": "books-and-papers",
+        "treatment": "central-organization"
+      },
+      "subcategory": "books-and-papers",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-set-dressing-base-studio-equipment-open-spatial-layout",
+      "semantic_key": "scene-set-dressing-base-studio-equipment-open-spatial-layout",
+      "text": "studio equipment organized through open spatial layout",
+      "sentence": "Studio equipment organized through open spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "studio equipment organized through open spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing studio equipment organized through open spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with studio equipment organized through open spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-set-dressing-base-studio-equipment",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "set-dressing"
+      ],
+      "facets": {
+        "prop-family": "studio-equipment",
+        "treatment": "open-spatial-layout"
+      },
+      "subcategory": "studio-equipment",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-set-dressing-base-studio-equipment-intimate-spatial-layout",
+      "semantic_key": "scene-set-dressing-base-studio-equipment-intimate-spatial-layout",
+      "text": "studio equipment organized through intimate spatial layout",
+      "sentence": "Studio equipment organized through intimate spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "studio equipment organized through intimate spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing studio equipment organized through intimate spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with studio equipment organized through intimate spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-set-dressing-base-studio-equipment",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "set-dressing"
+      ],
+      "facets": {
+        "prop-family": "studio-equipment",
+        "treatment": "intimate-spatial-layout"
+      },
+      "subcategory": "studio-equipment",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-set-dressing-base-studio-equipment-layered-depth",
+      "semantic_key": "scene-set-dressing-base-studio-equipment-layered-depth",
+      "text": "studio equipment organized through layered depth",
+      "sentence": "Studio equipment organized through layered depth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "studio equipment organized through layered depth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing studio equipment organized through layered depth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with studio equipment organized through layered depth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-set-dressing-base-studio-equipment",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "set-dressing"
+      ],
+      "facets": {
+        "prop-family": "studio-equipment",
+        "treatment": "layered-depth"
+      },
+      "subcategory": "studio-equipment",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-set-dressing-base-studio-equipment-clear-sightlines",
+      "semantic_key": "scene-set-dressing-base-studio-equipment-clear-sightlines",
+      "text": "studio equipment organized through clear sightlines",
+      "sentence": "Studio equipment organized through clear sightlines.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "studio equipment organized through clear sightlines",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing studio equipment organized through clear sightlines",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with studio equipment organized through clear sightlines",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-set-dressing-base-studio-equipment",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "set-dressing"
+      ],
+      "facets": {
+        "prop-family": "studio-equipment",
+        "treatment": "clear-sightlines"
+      },
+      "subcategory": "studio-equipment",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-set-dressing-base-studio-equipment-enclosed-geometry",
+      "semantic_key": "scene-set-dressing-base-studio-equipment-enclosed-geometry",
+      "text": "studio equipment organized through enclosed geometry",
+      "sentence": "Studio equipment organized through enclosed geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "studio equipment organized through enclosed geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing studio equipment organized through enclosed geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with studio equipment organized through enclosed geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-set-dressing-base-studio-equipment",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "scene",
+        "set-dressing"
+      ],
+      "facets": {
+        "prop-family": "studio-equipment",
+        "treatment": "enclosed-geometry"
+      },
+      "subcategory": "studio-equipment",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-set-dressing-base-studio-equipment-expansive-geometry",
+      "semantic_key": "scene-set-dressing-base-studio-equipment-expansive-geometry",
+      "text": "studio equipment organized through expansive geometry",
+      "sentence": "Studio equipment organized through expansive geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "studio equipment organized through expansive geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing studio equipment organized through expansive geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with studio equipment organized through expansive geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-set-dressing-base-studio-equipment",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "scene",
+        "set-dressing"
+      ],
+      "facets": {
+        "prop-family": "studio-equipment",
+        "treatment": "expansive-geometry"
+      },
+      "subcategory": "studio-equipment",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-set-dressing-base-studio-equipment-asymmetric-layout",
+      "semantic_key": "scene-set-dressing-base-studio-equipment-asymmetric-layout",
+      "text": "studio equipment organized through asymmetric layout",
+      "sentence": "Studio equipment organized through asymmetric layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "studio equipment organized through asymmetric layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing studio equipment organized through asymmetric layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with studio equipment organized through asymmetric layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-set-dressing-base-studio-equipment",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "scene",
+        "set-dressing"
+      ],
+      "facets": {
+        "prop-family": "studio-equipment",
+        "treatment": "asymmetric-layout"
+      },
+      "subcategory": "studio-equipment",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-set-dressing-base-studio-equipment-central-organization",
+      "semantic_key": "scene-set-dressing-base-studio-equipment-central-organization",
+      "text": "studio equipment organized through central organization",
+      "sentence": "Studio equipment organized through central organization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "studio equipment organized through central organization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing studio equipment organized through central organization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with studio equipment organized through central organization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-set-dressing-base-studio-equipment",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "scene",
+        "set-dressing"
+      ],
+      "facets": {
+        "prop-family": "studio-equipment",
+        "treatment": "central-organization"
+      },
+      "subcategory": "studio-equipment",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-set-dressing-base-potted-plants-open-spatial-layout",
+      "semantic_key": "scene-set-dressing-base-potted-plants-open-spatial-layout",
+      "text": "potted plants organized through open spatial layout",
+      "sentence": "Potted plants organized through open spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "potted plants organized through open spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing potted plants organized through open spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with potted plants organized through open spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-set-dressing-base-potted-plants",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "set-dressing"
+      ],
+      "facets": {
+        "prop-family": "potted-plants",
+        "treatment": "open-spatial-layout"
+      },
+      "subcategory": "potted-plants",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-set-dressing-base-potted-plants-intimate-spatial-layout",
+      "semantic_key": "scene-set-dressing-base-potted-plants-intimate-spatial-layout",
+      "text": "potted plants organized through intimate spatial layout",
+      "sentence": "Potted plants organized through intimate spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "potted plants organized through intimate spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing potted plants organized through intimate spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with potted plants organized through intimate spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-set-dressing-base-potted-plants",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "set-dressing"
+      ],
+      "facets": {
+        "prop-family": "potted-plants",
+        "treatment": "intimate-spatial-layout"
+      },
+      "subcategory": "potted-plants",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-set-dressing-base-potted-plants-layered-depth",
+      "semantic_key": "scene-set-dressing-base-potted-plants-layered-depth",
+      "text": "potted plants organized through layered depth",
+      "sentence": "Potted plants organized through layered depth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "potted plants organized through layered depth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing potted plants organized through layered depth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with potted plants organized through layered depth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-set-dressing-base-potted-plants",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "set-dressing"
+      ],
+      "facets": {
+        "prop-family": "potted-plants",
+        "treatment": "layered-depth"
+      },
+      "subcategory": "potted-plants",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-set-dressing-base-potted-plants-clear-sightlines",
+      "semantic_key": "scene-set-dressing-base-potted-plants-clear-sightlines",
+      "text": "potted plants organized through clear sightlines",
+      "sentence": "Potted plants organized through clear sightlines.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "potted plants organized through clear sightlines",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing potted plants organized through clear sightlines",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with potted plants organized through clear sightlines",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-set-dressing-base-potted-plants",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "set-dressing"
+      ],
+      "facets": {
+        "prop-family": "potted-plants",
+        "treatment": "clear-sightlines"
+      },
+      "subcategory": "potted-plants",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-set-dressing-base-potted-plants-enclosed-geometry",
+      "semantic_key": "scene-set-dressing-base-potted-plants-enclosed-geometry",
+      "text": "potted plants organized through enclosed geometry",
+      "sentence": "Potted plants organized through enclosed geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "potted plants organized through enclosed geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing potted plants organized through enclosed geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with potted plants organized through enclosed geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-set-dressing-base-potted-plants",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "scene",
+        "set-dressing"
+      ],
+      "facets": {
+        "prop-family": "potted-plants",
+        "treatment": "enclosed-geometry"
+      },
+      "subcategory": "potted-plants",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-set-dressing-base-potted-plants-expansive-geometry",
+      "semantic_key": "scene-set-dressing-base-potted-plants-expansive-geometry",
+      "text": "potted plants organized through expansive geometry",
+      "sentence": "Potted plants organized through expansive geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "potted plants organized through expansive geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing potted plants organized through expansive geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with potted plants organized through expansive geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-set-dressing-base-potted-plants",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "scene",
+        "set-dressing"
+      ],
+      "facets": {
+        "prop-family": "potted-plants",
+        "treatment": "expansive-geometry"
+      },
+      "subcategory": "potted-plants",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-set-dressing-base-potted-plants-asymmetric-layout",
+      "semantic_key": "scene-set-dressing-base-potted-plants-asymmetric-layout",
+      "text": "potted plants organized through asymmetric layout",
+      "sentence": "Potted plants organized through asymmetric layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "potted plants organized through asymmetric layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing potted plants organized through asymmetric layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with potted plants organized through asymmetric layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-set-dressing-base-potted-plants",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "scene",
+        "set-dressing"
+      ],
+      "facets": {
+        "prop-family": "potted-plants",
+        "treatment": "asymmetric-layout"
+      },
+      "subcategory": "potted-plants",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-set-dressing-base-potted-plants-central-organization",
+      "semantic_key": "scene-set-dressing-base-potted-plants-central-organization",
+      "text": "potted plants organized through central organization",
+      "sentence": "Potted plants organized through central organization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "potted plants organized through central organization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing potted plants organized through central organization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with potted plants organized through central organization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-set-dressing-base-potted-plants",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "scene",
+        "set-dressing"
+      ],
+      "facets": {
+        "prop-family": "potted-plants",
+        "treatment": "central-organization"
+      },
+      "subcategory": "potted-plants",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-set-dressing-base-ceramic-objects-open-spatial-layout",
+      "semantic_key": "scene-set-dressing-base-ceramic-objects-open-spatial-layout",
+      "text": "ceramic objects organized through open spatial layout",
+      "sentence": "Ceramic objects organized through open spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "ceramic objects organized through open spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing ceramic objects organized through open spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with ceramic objects organized through open spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-set-dressing-base-ceramic-objects",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "set-dressing"
+      ],
+      "facets": {
+        "prop-family": "ceramic-objects",
+        "treatment": "open-spatial-layout"
+      },
+      "subcategory": "ceramic-objects",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-set-dressing-base-ceramic-objects-intimate-spatial-layout",
+      "semantic_key": "scene-set-dressing-base-ceramic-objects-intimate-spatial-layout",
+      "text": "ceramic objects organized through intimate spatial layout",
+      "sentence": "Ceramic objects organized through intimate spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "ceramic objects organized through intimate spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing ceramic objects organized through intimate spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with ceramic objects organized through intimate spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-set-dressing-base-ceramic-objects",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "set-dressing"
+      ],
+      "facets": {
+        "prop-family": "ceramic-objects",
+        "treatment": "intimate-spatial-layout"
+      },
+      "subcategory": "ceramic-objects",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-set-dressing-base-ceramic-objects-layered-depth",
+      "semantic_key": "scene-set-dressing-base-ceramic-objects-layered-depth",
+      "text": "ceramic objects organized through layered depth",
+      "sentence": "Ceramic objects organized through layered depth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "ceramic objects organized through layered depth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing ceramic objects organized through layered depth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with ceramic objects organized through layered depth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-set-dressing-base-ceramic-objects",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "set-dressing"
+      ],
+      "facets": {
+        "prop-family": "ceramic-objects",
+        "treatment": "layered-depth"
+      },
+      "subcategory": "ceramic-objects",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-set-dressing-base-ceramic-objects-clear-sightlines",
+      "semantic_key": "scene-set-dressing-base-ceramic-objects-clear-sightlines",
+      "text": "ceramic objects organized through clear sightlines",
+      "sentence": "Ceramic objects organized through clear sightlines.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "ceramic objects organized through clear sightlines",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing ceramic objects organized through clear sightlines",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with ceramic objects organized through clear sightlines",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-set-dressing-base-ceramic-objects",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "set-dressing"
+      ],
+      "facets": {
+        "prop-family": "ceramic-objects",
+        "treatment": "clear-sightlines"
+      },
+      "subcategory": "ceramic-objects",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-set-dressing-base-ceramic-objects-enclosed-geometry",
+      "semantic_key": "scene-set-dressing-base-ceramic-objects-enclosed-geometry",
+      "text": "ceramic objects organized through enclosed geometry",
+      "sentence": "Ceramic objects organized through enclosed geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "ceramic objects organized through enclosed geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing ceramic objects organized through enclosed geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with ceramic objects organized through enclosed geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-set-dressing-base-ceramic-objects",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "scene",
+        "set-dressing"
+      ],
+      "facets": {
+        "prop-family": "ceramic-objects",
+        "treatment": "enclosed-geometry"
+      },
+      "subcategory": "ceramic-objects",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-set-dressing-base-ceramic-objects-expansive-geometry",
+      "semantic_key": "scene-set-dressing-base-ceramic-objects-expansive-geometry",
+      "text": "ceramic objects organized through expansive geometry",
+      "sentence": "Ceramic objects organized through expansive geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "ceramic objects organized through expansive geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing ceramic objects organized through expansive geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with ceramic objects organized through expansive geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-set-dressing-base-ceramic-objects",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "scene",
+        "set-dressing"
+      ],
+      "facets": {
+        "prop-family": "ceramic-objects",
+        "treatment": "expansive-geometry"
+      },
+      "subcategory": "ceramic-objects",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-set-dressing-base-ceramic-objects-asymmetric-layout",
+      "semantic_key": "scene-set-dressing-base-ceramic-objects-asymmetric-layout",
+      "text": "ceramic objects organized through asymmetric layout",
+      "sentence": "Ceramic objects organized through asymmetric layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "ceramic objects organized through asymmetric layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing ceramic objects organized through asymmetric layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with ceramic objects organized through asymmetric layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-set-dressing-base-ceramic-objects",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "scene",
+        "set-dressing"
+      ],
+      "facets": {
+        "prop-family": "ceramic-objects",
+        "treatment": "asymmetric-layout"
+      },
+      "subcategory": "ceramic-objects",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-set-dressing-base-ceramic-objects-central-organization",
+      "semantic_key": "scene-set-dressing-base-ceramic-objects-central-organization",
+      "text": "ceramic objects organized through central organization",
+      "sentence": "Ceramic objects organized through central organization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "ceramic objects organized through central organization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing ceramic objects organized through central organization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with ceramic objects organized through central organization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-set-dressing-base-ceramic-objects",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "scene",
+        "set-dressing"
+      ],
+      "facets": {
+        "prop-family": "ceramic-objects",
+        "treatment": "central-organization"
+      },
+      "subcategory": "ceramic-objects",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-set-dressing-base-textile-layers-open-spatial-layout",
+      "semantic_key": "scene-set-dressing-base-textile-layers-open-spatial-layout",
+      "text": "textile layers organized through open spatial layout",
+      "sentence": "Textile layers organized through open spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "textile layers organized through open spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing textile layers organized through open spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with textile layers organized through open spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-set-dressing-base-textile-layers",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "set-dressing"
+      ],
+      "facets": {
+        "prop-family": "textile-layers",
+        "treatment": "open-spatial-layout"
+      },
+      "subcategory": "textile-layers",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-set-dressing-base-textile-layers-intimate-spatial-layout",
+      "semantic_key": "scene-set-dressing-base-textile-layers-intimate-spatial-layout",
+      "text": "textile layers organized through intimate spatial layout",
+      "sentence": "Textile layers organized through intimate spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "textile layers organized through intimate spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing textile layers organized through intimate spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with textile layers organized through intimate spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-set-dressing-base-textile-layers",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "set-dressing"
+      ],
+      "facets": {
+        "prop-family": "textile-layers",
+        "treatment": "intimate-spatial-layout"
+      },
+      "subcategory": "textile-layers",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-set-dressing-base-textile-layers-layered-depth",
+      "semantic_key": "scene-set-dressing-base-textile-layers-layered-depth",
+      "text": "textile layers organized through layered depth",
+      "sentence": "Textile layers organized through layered depth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "textile layers organized through layered depth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing textile layers organized through layered depth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with textile layers organized through layered depth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-set-dressing-base-textile-layers",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "set-dressing"
+      ],
+      "facets": {
+        "prop-family": "textile-layers",
+        "treatment": "layered-depth"
+      },
+      "subcategory": "textile-layers",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-set-dressing-base-textile-layers-clear-sightlines",
+      "semantic_key": "scene-set-dressing-base-textile-layers-clear-sightlines",
+      "text": "textile layers organized through clear sightlines",
+      "sentence": "Textile layers organized through clear sightlines.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "textile layers organized through clear sightlines",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing textile layers organized through clear sightlines",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with textile layers organized through clear sightlines",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-set-dressing-base-textile-layers",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "set-dressing"
+      ],
+      "facets": {
+        "prop-family": "textile-layers",
+        "treatment": "clear-sightlines"
+      },
+      "subcategory": "textile-layers",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-set-dressing-base-textile-layers-enclosed-geometry",
+      "semantic_key": "scene-set-dressing-base-textile-layers-enclosed-geometry",
+      "text": "textile layers organized through enclosed geometry",
+      "sentence": "Textile layers organized through enclosed geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "textile layers organized through enclosed geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing textile layers organized through enclosed geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with textile layers organized through enclosed geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-set-dressing-base-textile-layers",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "scene",
+        "set-dressing"
+      ],
+      "facets": {
+        "prop-family": "textile-layers",
+        "treatment": "enclosed-geometry"
+      },
+      "subcategory": "textile-layers",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-set-dressing-base-textile-layers-expansive-geometry",
+      "semantic_key": "scene-set-dressing-base-textile-layers-expansive-geometry",
+      "text": "textile layers organized through expansive geometry",
+      "sentence": "Textile layers organized through expansive geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "textile layers organized through expansive geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing textile layers organized through expansive geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with textile layers organized through expansive geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-set-dressing-base-textile-layers",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "scene",
+        "set-dressing"
+      ],
+      "facets": {
+        "prop-family": "textile-layers",
+        "treatment": "expansive-geometry"
+      },
+      "subcategory": "textile-layers",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-set-dressing-base-textile-layers-asymmetric-layout",
+      "semantic_key": "scene-set-dressing-base-textile-layers-asymmetric-layout",
+      "text": "textile layers organized through asymmetric layout",
+      "sentence": "Textile layers organized through asymmetric layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "textile layers organized through asymmetric layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing textile layers organized through asymmetric layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with textile layers organized through asymmetric layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-set-dressing-base-textile-layers",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "scene",
+        "set-dressing"
+      ],
+      "facets": {
+        "prop-family": "textile-layers",
+        "treatment": "asymmetric-layout"
+      },
+      "subcategory": "textile-layers",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-set-dressing-base-textile-layers-central-organization",
+      "semantic_key": "scene-set-dressing-base-textile-layers-central-organization",
+      "text": "textile layers organized through central organization",
+      "sentence": "Textile layers organized through central organization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "textile layers organized through central organization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing textile layers organized through central organization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with textile layers organized through central organization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-set-dressing-base-textile-layers",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "scene",
+        "set-dressing"
+      ],
+      "facets": {
+        "prop-family": "textile-layers",
+        "treatment": "central-organization"
+      },
+      "subcategory": "textile-layers",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-set-dressing-base-workshop-tools-open-spatial-layout",
+      "semantic_key": "scene-set-dressing-base-workshop-tools-open-spatial-layout",
+      "text": "workshop tools organized through open spatial layout",
+      "sentence": "Workshop tools organized through open spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "workshop tools organized through open spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing workshop tools organized through open spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with workshop tools organized through open spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-set-dressing-base-workshop-tools",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "set-dressing"
+      ],
+      "facets": {
+        "prop-family": "workshop-tools",
+        "treatment": "open-spatial-layout"
+      },
+      "subcategory": "workshop-tools",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-set-dressing-base-workshop-tools-intimate-spatial-layout",
+      "semantic_key": "scene-set-dressing-base-workshop-tools-intimate-spatial-layout",
+      "text": "workshop tools organized through intimate spatial layout",
+      "sentence": "Workshop tools organized through intimate spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "workshop tools organized through intimate spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing workshop tools organized through intimate spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with workshop tools organized through intimate spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-set-dressing-base-workshop-tools",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "set-dressing"
+      ],
+      "facets": {
+        "prop-family": "workshop-tools",
+        "treatment": "intimate-spatial-layout"
+      },
+      "subcategory": "workshop-tools",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-set-dressing-base-workshop-tools-layered-depth",
+      "semantic_key": "scene-set-dressing-base-workshop-tools-layered-depth",
+      "text": "workshop tools organized through layered depth",
+      "sentence": "Workshop tools organized through layered depth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "workshop tools organized through layered depth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing workshop tools organized through layered depth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with workshop tools organized through layered depth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-set-dressing-base-workshop-tools",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "set-dressing"
+      ],
+      "facets": {
+        "prop-family": "workshop-tools",
+        "treatment": "layered-depth"
+      },
+      "subcategory": "workshop-tools",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-set-dressing-base-workshop-tools-clear-sightlines",
+      "semantic_key": "scene-set-dressing-base-workshop-tools-clear-sightlines",
+      "text": "workshop tools organized through clear sightlines",
+      "sentence": "Workshop tools organized through clear sightlines.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "workshop tools organized through clear sightlines",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing workshop tools organized through clear sightlines",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with workshop tools organized through clear sightlines",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-set-dressing-base-workshop-tools",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "set-dressing"
+      ],
+      "facets": {
+        "prop-family": "workshop-tools",
+        "treatment": "clear-sightlines"
+      },
+      "subcategory": "workshop-tools",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-set-dressing-base-workshop-tools-enclosed-geometry",
+      "semantic_key": "scene-set-dressing-base-workshop-tools-enclosed-geometry",
+      "text": "workshop tools organized through enclosed geometry",
+      "sentence": "Workshop tools organized through enclosed geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "workshop tools organized through enclosed geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing workshop tools organized through enclosed geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with workshop tools organized through enclosed geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-set-dressing-base-workshop-tools",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "scene",
+        "set-dressing"
+      ],
+      "facets": {
+        "prop-family": "workshop-tools",
+        "treatment": "enclosed-geometry"
+      },
+      "subcategory": "workshop-tools",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-set-dressing-base-workshop-tools-expansive-geometry",
+      "semantic_key": "scene-set-dressing-base-workshop-tools-expansive-geometry",
+      "text": "workshop tools organized through expansive geometry",
+      "sentence": "Workshop tools organized through expansive geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "workshop tools organized through expansive geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing workshop tools organized through expansive geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with workshop tools organized through expansive geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-set-dressing-base-workshop-tools",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "scene",
+        "set-dressing"
+      ],
+      "facets": {
+        "prop-family": "workshop-tools",
+        "treatment": "expansive-geometry"
+      },
+      "subcategory": "workshop-tools",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-set-dressing-base-workshop-tools-asymmetric-layout",
+      "semantic_key": "scene-set-dressing-base-workshop-tools-asymmetric-layout",
+      "text": "workshop tools organized through asymmetric layout",
+      "sentence": "Workshop tools organized through asymmetric layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "workshop tools organized through asymmetric layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing workshop tools organized through asymmetric layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with workshop tools organized through asymmetric layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-set-dressing-base-workshop-tools",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "scene",
+        "set-dressing"
+      ],
+      "facets": {
+        "prop-family": "workshop-tools",
+        "treatment": "asymmetric-layout"
+      },
+      "subcategory": "workshop-tools",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-set-dressing-base-workshop-tools-central-organization",
+      "semantic_key": "scene-set-dressing-base-workshop-tools-central-organization",
+      "text": "workshop tools organized through central organization",
+      "sentence": "Workshop tools organized through central organization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "workshop tools organized through central organization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing workshop tools organized through central organization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with workshop tools organized through central organization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-set-dressing-base-workshop-tools",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "scene",
+        "set-dressing"
+      ],
+      "facets": {
+        "prop-family": "workshop-tools",
+        "treatment": "central-organization"
+      },
+      "subcategory": "workshop-tools",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-set-dressing-base-framed-artwork-open-spatial-layout",
+      "semantic_key": "scene-set-dressing-base-framed-artwork-open-spatial-layout",
+      "text": "framed artwork organized through open spatial layout",
+      "sentence": "Framed artwork organized through open spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "framed artwork organized through open spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing framed artwork organized through open spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with framed artwork organized through open spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-set-dressing-base-framed-artwork",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "set-dressing"
+      ],
+      "facets": {
+        "prop-family": "framed-artwork",
+        "treatment": "open-spatial-layout"
+      },
+      "subcategory": "framed-artwork",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-set-dressing-base-framed-artwork-intimate-spatial-layout",
+      "semantic_key": "scene-set-dressing-base-framed-artwork-intimate-spatial-layout",
+      "text": "framed artwork organized through intimate spatial layout",
+      "sentence": "Framed artwork organized through intimate spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "framed artwork organized through intimate spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing framed artwork organized through intimate spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with framed artwork organized through intimate spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-set-dressing-base-framed-artwork",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "set-dressing"
+      ],
+      "facets": {
+        "prop-family": "framed-artwork",
+        "treatment": "intimate-spatial-layout"
+      },
+      "subcategory": "framed-artwork",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-set-dressing-base-framed-artwork-layered-depth",
+      "semantic_key": "scene-set-dressing-base-framed-artwork-layered-depth",
+      "text": "framed artwork organized through layered depth",
+      "sentence": "Framed artwork organized through layered depth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "framed artwork organized through layered depth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing framed artwork organized through layered depth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with framed artwork organized through layered depth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-set-dressing-base-framed-artwork",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "set-dressing"
+      ],
+      "facets": {
+        "prop-family": "framed-artwork",
+        "treatment": "layered-depth"
+      },
+      "subcategory": "framed-artwork",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-set-dressing-base-framed-artwork-clear-sightlines",
+      "semantic_key": "scene-set-dressing-base-framed-artwork-clear-sightlines",
+      "text": "framed artwork organized through clear sightlines",
+      "sentence": "Framed artwork organized through clear sightlines.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "framed artwork organized through clear sightlines",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing framed artwork organized through clear sightlines",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with framed artwork organized through clear sightlines",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-set-dressing-base-framed-artwork",
+      "tags": [
+        "base",
+        "rarity-common",
+        "scene",
+        "set-dressing"
+      ],
+      "facets": {
+        "prop-family": "framed-artwork",
+        "treatment": "clear-sightlines"
+      },
+      "subcategory": "framed-artwork",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-set-dressing-base-framed-artwork-enclosed-geometry",
+      "semantic_key": "scene-set-dressing-base-framed-artwork-enclosed-geometry",
+      "text": "framed artwork organized through enclosed geometry",
+      "sentence": "Framed artwork organized through enclosed geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "framed artwork organized through enclosed geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing framed artwork organized through enclosed geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with framed artwork organized through enclosed geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-set-dressing-base-framed-artwork",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "scene",
+        "set-dressing"
+      ],
+      "facets": {
+        "prop-family": "framed-artwork",
+        "treatment": "enclosed-geometry"
+      },
+      "subcategory": "framed-artwork",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-set-dressing-base-framed-artwork-expansive-geometry",
+      "semantic_key": "scene-set-dressing-base-framed-artwork-expansive-geometry",
+      "text": "framed artwork organized through expansive geometry",
+      "sentence": "Framed artwork organized through expansive geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "framed artwork organized through expansive geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing framed artwork organized through expansive geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with framed artwork organized through expansive geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-set-dressing-base-framed-artwork",
+      "tags": [
+        "base",
+        "rarity-uncommon",
+        "scene",
+        "set-dressing"
+      ],
+      "facets": {
+        "prop-family": "framed-artwork",
+        "treatment": "expansive-geometry"
+      },
+      "subcategory": "framed-artwork",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-set-dressing-base-framed-artwork-asymmetric-layout",
+      "semantic_key": "scene-set-dressing-base-framed-artwork-asymmetric-layout",
+      "text": "framed artwork organized through asymmetric layout",
+      "sentence": "Framed artwork organized through asymmetric layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "framed artwork organized through asymmetric layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing framed artwork organized through asymmetric layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with framed artwork organized through asymmetric layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-set-dressing-base-framed-artwork",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "scene",
+        "set-dressing"
+      ],
+      "facets": {
+        "prop-family": "framed-artwork",
+        "treatment": "asymmetric-layout"
+      },
+      "subcategory": "framed-artwork",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-set-dressing-base-framed-artwork-central-organization",
+      "semantic_key": "scene-set-dressing-base-framed-artwork-central-organization",
+      "text": "framed artwork organized through central organization",
+      "sentence": "Framed artwork organized through central organization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "framed artwork organized through central organization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing framed artwork organized through central organization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with framed artwork organized through central organization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-set-dressing-base-framed-artwork",
+      "tags": [
+        "base",
+        "rarity-rare",
+        "scene",
+        "set-dressing"
+      ],
+      "facets": {
+        "prop-family": "framed-artwork",
+        "treatment": "central-organization"
+      },
+      "subcategory": "framed-artwork",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    }
+  ]
+}

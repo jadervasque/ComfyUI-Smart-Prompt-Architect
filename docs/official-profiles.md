@@ -1,24 +1,32 @@
-# Official profiles and content
+# Perfis oficiais do Catálogo V2
 
-The bundled `portrait`, `virtual-model`, and `dataset` profiles contain original Prompt Architect
-wording released under this repository's Apache-2.0 license. They avoid explicit sexual content,
-ambiguous age language, and third-party prompt lists. Human subjects are explicitly adults.
+Os 15 perfis usam schema `2.0`, catálogo `2.0.0` e conteúdo original do projeto. Todos os sujeitos
+humanos são adultos. Cada perfil declara packs habilitados, classes de segurança, grupos de seed,
+verbosidade, nível de negativo e modo recomendado.
 
-- `portrait` favors controlled photographic portraits, simple settings, natural light, and
-  low-complexity poses.
-- `virtual-model` exposes a lockable identity group while outfit, pose, location, lighting, camera,
-  and composition vary independently.
-- `dataset` keeps identity and quality fixed while an explicit seed/batch index varies framing,
-  expression, pose, outfit, and background without hidden state.
+| Perfil | Uso principal | Modo recomendado | Negativo |
+|---|---|---|---|
+| `portrait-core` | retrato geral equilibrado | `balanced` | `minimal` |
+| `professional-headshot` | headshot limpo e previsível | `strict` | `strict` |
+| `virtual-model` | identidade consistente com ampla variação | `balanced` | `standard` |
+| `dataset-balanced` | cobertura estratificada para datasets | `dataset` | `strict` |
+| `editorial-fashion` | moda editorial e campanha | `balanced` | `standard` |
+| `lifestyle` | ambientes cotidianos e naturais | `balanced` | `standard` |
+| `street-portrait` | retrato urbano contextual | `balanced` | `standard` |
+| `studio-beauty` | beleza de estúdio e close controlado | `balanced` | `standard` |
+| `cinematic-portrait` | linguagem cinematográfica | `balanced` | `standard` |
+| `fine-art-portrait` | retrato autoral sem nomes de artistas | `balanced` | `standard` |
+| `historical-portrait` | coerência visual histórica | `strict` | `strict` |
+| `fantasy-portrait` | fantasia original não licenciada | `creative` | `standard` |
+| `dark-fantasy-horror` | horror atmosférico não gráfico | `creative` | `strict` |
+| `conceptual-portrait` | combinações experimentais controladas | `creative` | `standard` |
+| `full-body-fashion` | look completo, pose e acessórios | `balanced` | `standard` |
 
-Twenty field libraries cover subjects, identity, face, eyes, mouth, skin, hair color/length/texture/
-style, body, outfit, expression, pose, location, lighting, camera, composition, quality, and
-negative terms. Every option declares ID, original text, finite weight, tags, and lifecycle status;
-every library and required section has an explicit fallback.
+`dataset-balanced` inclui todas as 69 dimensões para tornar todo item ativo alcançável. Os demais
+perfis usam subconjuntos adequados à tarefa, evitando prompts excessivamente densos. Packs
+`fashion-mature` só são habilitados nos perfis de moda correspondentes; `dark-atmospheric` só é
+habilitado no perfil sombrio.
 
-Hair styles can require a compatible prior hair length. A seated pose excludes the evening dress,
-an urban location prefers casual clothing, and overcast daylight requires the outdoor location.
-These rules demonstrate compatibility without arbitrary expressions or forward-order ambiguity.
-
-Run `python -m tests.property_profiles` for the dedicated 10,000-seed-per-profile determinism and
-non-empty prompt check.
+Execute `python -m tests.property_profiles` para a matriz oficial de 10.000 seeds por perfil. O
+runner mede unicidade, cobertura, fallbacks, rejeições, tentativas, entropia e itens nunca
+selecionados.

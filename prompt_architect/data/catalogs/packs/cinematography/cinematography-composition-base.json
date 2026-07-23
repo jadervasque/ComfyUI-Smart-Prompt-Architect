@@ -1,0 +1,2577 @@
+{
+  "schema_version": "2.0",
+  "id": "cinematography-composition-base",
+  "version": "2.0.0",
+  "library": "composition",
+  "domain": "cinematography",
+  "category": "composition",
+  "language": "en",
+  "status": "active",
+  "safety": "general",
+  "tags": [
+    "base"
+  ],
+  "fallback_option_id": "cinematography-composition-base-centered-composition-documentary-restraint",
+  "options": [
+    {
+      "id": "cinematography-composition-base-centered-composition-documentary-restraint",
+      "semantic_key": "cinematography-composition-base-centered-composition-documentary-restraint",
+      "text": "centered composition with documentary restraint",
+      "sentence": "Centered composition with documentary restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "centered composition with documentary restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing centered composition with documentary restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with centered composition with documentary restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-composition-base-centered-composition",
+      "tags": [
+        "base",
+        "cinematography",
+        "composition",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "centered-composition",
+        "treatment": "documentary-restraint"
+      },
+      "subcategory": "centered-composition",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-composition-base-centered-composition-formal-precision",
+      "semantic_key": "cinematography-composition-base-centered-composition-formal-precision",
+      "text": "centered composition with formal precision",
+      "sentence": "Centered composition with formal precision.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "centered composition with formal precision",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing centered composition with formal precision",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with centered composition with formal precision",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-composition-base-centered-composition",
+      "tags": [
+        "base",
+        "cinematography",
+        "composition",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "centered-composition",
+        "treatment": "formal-precision"
+      },
+      "subcategory": "centered-composition",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-composition-base-centered-composition-intimate-emphasis",
+      "semantic_key": "cinematography-composition-base-centered-composition-intimate-emphasis",
+      "text": "centered composition with intimate emphasis",
+      "sentence": "Centered composition with intimate emphasis.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "centered composition with intimate emphasis",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing centered composition with intimate emphasis",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with centered composition with intimate emphasis",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-composition-base-centered-composition",
+      "tags": [
+        "base",
+        "cinematography",
+        "composition",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "centered-composition",
+        "treatment": "intimate-emphasis"
+      },
+      "subcategory": "centered-composition",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-composition-base-centered-composition-spatial-context",
+      "semantic_key": "cinematography-composition-base-centered-composition-spatial-context",
+      "text": "centered composition with spatial context",
+      "sentence": "Centered composition with spatial context.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "centered composition with spatial context",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing centered composition with spatial context",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with centered composition with spatial context",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-composition-base-centered-composition",
+      "tags": [
+        "base",
+        "cinematography",
+        "composition",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "centered-composition",
+        "treatment": "spatial-context"
+      },
+      "subcategory": "centered-composition",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-composition-base-centered-composition-graphic-geometry",
+      "semantic_key": "cinematography-composition-base-centered-composition-graphic-geometry",
+      "text": "centered composition with graphic geometry",
+      "sentence": "Centered composition with graphic geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "centered composition with graphic geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing centered composition with graphic geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with centered composition with graphic geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-composition-base-centered-composition",
+      "tags": [
+        "base",
+        "cinematography",
+        "composition",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "structure": "centered-composition",
+        "treatment": "graphic-geometry"
+      },
+      "subcategory": "centered-composition",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-composition-base-centered-composition-dynamic-energy",
+      "semantic_key": "cinematography-composition-base-centered-composition-dynamic-energy",
+      "text": "centered composition with dynamic energy",
+      "sentence": "Centered composition with dynamic energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "centered composition with dynamic energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing centered composition with dynamic energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with centered composition with dynamic energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-composition-base-centered-composition",
+      "tags": [
+        "base",
+        "cinematography",
+        "composition",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "structure": "centered-composition",
+        "treatment": "dynamic-energy"
+      },
+      "subcategory": "centered-composition",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-composition-base-centered-composition-quiet-observation",
+      "semantic_key": "cinematography-composition-base-centered-composition-quiet-observation",
+      "text": "centered composition with quiet observation",
+      "sentence": "Centered composition with quiet observation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "centered composition with quiet observation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing centered composition with quiet observation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with centered composition with quiet observation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-composition-base-centered-composition",
+      "tags": [
+        "base",
+        "cinematography",
+        "composition",
+        "rarity-rare"
+      ],
+      "facets": {
+        "structure": "centered-composition",
+        "treatment": "quiet-observation"
+      },
+      "subcategory": "centered-composition",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-composition-base-centered-composition-editorial-polish",
+      "semantic_key": "cinematography-composition-base-centered-composition-editorial-polish",
+      "text": "centered composition with editorial polish",
+      "sentence": "Centered composition with editorial polish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "centered composition with editorial polish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing centered composition with editorial polish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with centered composition with editorial polish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-composition-base-centered-composition",
+      "tags": [
+        "base",
+        "cinematography",
+        "composition",
+        "rarity-rare"
+      ],
+      "facets": {
+        "structure": "centered-composition",
+        "treatment": "editorial-polish"
+      },
+      "subcategory": "centered-composition",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-composition-base-rule-of-thirds-composition-documentary-restraint",
+      "semantic_key": "cinematography-composition-base-rule-of-thirds-composition-documentary-restraint",
+      "text": "rule-of-thirds composition with documentary restraint",
+      "sentence": "Rule-of-thirds composition with documentary restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "rule-of-thirds composition with documentary restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing rule-of-thirds composition with documentary restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with rule-of-thirds composition with documentary restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-composition-base-rule-of-thirds-composition",
+      "tags": [
+        "base",
+        "cinematography",
+        "composition",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "rule-of-thirds-composition",
+        "treatment": "documentary-restraint"
+      },
+      "subcategory": "rule-of-thirds-composition",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-composition-base-rule-of-thirds-composition-formal-precision",
+      "semantic_key": "cinematography-composition-base-rule-of-thirds-composition-formal-precision",
+      "text": "rule-of-thirds composition with formal precision",
+      "sentence": "Rule-of-thirds composition with formal precision.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "rule-of-thirds composition with formal precision",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing rule-of-thirds composition with formal precision",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with rule-of-thirds composition with formal precision",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-composition-base-rule-of-thirds-composition",
+      "tags": [
+        "base",
+        "cinematography",
+        "composition",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "rule-of-thirds-composition",
+        "treatment": "formal-precision"
+      },
+      "subcategory": "rule-of-thirds-composition",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-composition-base-rule-of-thirds-composition-intimate-emphasis",
+      "semantic_key": "cinematography-composition-base-rule-of-thirds-composition-intimate-emphasis",
+      "text": "rule-of-thirds composition with intimate emphasis",
+      "sentence": "Rule-of-thirds composition with intimate emphasis.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "rule-of-thirds composition with intimate emphasis",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing rule-of-thirds composition with intimate emphasis",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with rule-of-thirds composition with intimate emphasis",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-composition-base-rule-of-thirds-composition",
+      "tags": [
+        "base",
+        "cinematography",
+        "composition",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "rule-of-thirds-composition",
+        "treatment": "intimate-emphasis"
+      },
+      "subcategory": "rule-of-thirds-composition",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-composition-base-rule-of-thirds-composition-spatial-context",
+      "semantic_key": "cinematography-composition-base-rule-of-thirds-composition-spatial-context",
+      "text": "rule-of-thirds composition with spatial context",
+      "sentence": "Rule-of-thirds composition with spatial context.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "rule-of-thirds composition with spatial context",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing rule-of-thirds composition with spatial context",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with rule-of-thirds composition with spatial context",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-composition-base-rule-of-thirds-composition",
+      "tags": [
+        "base",
+        "cinematography",
+        "composition",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "rule-of-thirds-composition",
+        "treatment": "spatial-context"
+      },
+      "subcategory": "rule-of-thirds-composition",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-composition-base-rule-of-thirds-composition-graphic-geometry",
+      "semantic_key": "cinematography-composition-base-rule-of-thirds-composition-graphic-geometry",
+      "text": "rule-of-thirds composition with graphic geometry",
+      "sentence": "Rule-of-thirds composition with graphic geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "rule-of-thirds composition with graphic geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing rule-of-thirds composition with graphic geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with rule-of-thirds composition with graphic geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-composition-base-rule-of-thirds-composition",
+      "tags": [
+        "base",
+        "cinematography",
+        "composition",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "structure": "rule-of-thirds-composition",
+        "treatment": "graphic-geometry"
+      },
+      "subcategory": "rule-of-thirds-composition",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-composition-base-rule-of-thirds-composition-dynamic-energy",
+      "semantic_key": "cinematography-composition-base-rule-of-thirds-composition-dynamic-energy",
+      "text": "rule-of-thirds composition with dynamic energy",
+      "sentence": "Rule-of-thirds composition with dynamic energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "rule-of-thirds composition with dynamic energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing rule-of-thirds composition with dynamic energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with rule-of-thirds composition with dynamic energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-composition-base-rule-of-thirds-composition",
+      "tags": [
+        "base",
+        "cinematography",
+        "composition",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "structure": "rule-of-thirds-composition",
+        "treatment": "dynamic-energy"
+      },
+      "subcategory": "rule-of-thirds-composition",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-composition-base-rule-of-thirds-composition-quiet-observation",
+      "semantic_key": "cinematography-composition-base-rule-of-thirds-composition-quiet-observation",
+      "text": "rule-of-thirds composition with quiet observation",
+      "sentence": "Rule-of-thirds composition with quiet observation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "rule-of-thirds composition with quiet observation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing rule-of-thirds composition with quiet observation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with rule-of-thirds composition with quiet observation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-composition-base-rule-of-thirds-composition",
+      "tags": [
+        "base",
+        "cinematography",
+        "composition",
+        "rarity-rare"
+      ],
+      "facets": {
+        "structure": "rule-of-thirds-composition",
+        "treatment": "quiet-observation"
+      },
+      "subcategory": "rule-of-thirds-composition",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-composition-base-rule-of-thirds-composition-editorial-polish",
+      "semantic_key": "cinematography-composition-base-rule-of-thirds-composition-editorial-polish",
+      "text": "rule-of-thirds composition with editorial polish",
+      "sentence": "Rule-of-thirds composition with editorial polish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "rule-of-thirds composition with editorial polish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing rule-of-thirds composition with editorial polish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with rule-of-thirds composition with editorial polish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-composition-base-rule-of-thirds-composition",
+      "tags": [
+        "base",
+        "cinematography",
+        "composition",
+        "rarity-rare"
+      ],
+      "facets": {
+        "structure": "rule-of-thirds-composition",
+        "treatment": "editorial-polish"
+      },
+      "subcategory": "rule-of-thirds-composition",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-composition-base-balanced-asymmetry-documentary-restraint",
+      "semantic_key": "cinematography-composition-base-balanced-asymmetry-documentary-restraint",
+      "text": "balanced asymmetry with documentary restraint",
+      "sentence": "Balanced asymmetry with documentary restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "balanced asymmetry with documentary restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing balanced asymmetry with documentary restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with balanced asymmetry with documentary restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-composition-base-balanced-asymmetry",
+      "tags": [
+        "base",
+        "cinematography",
+        "composition",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "balanced-asymmetry",
+        "treatment": "documentary-restraint"
+      },
+      "subcategory": "balanced-asymmetry",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-composition-base-balanced-asymmetry-formal-precision",
+      "semantic_key": "cinematography-composition-base-balanced-asymmetry-formal-precision",
+      "text": "balanced asymmetry with formal precision",
+      "sentence": "Balanced asymmetry with formal precision.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "balanced asymmetry with formal precision",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing balanced asymmetry with formal precision",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with balanced asymmetry with formal precision",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-composition-base-balanced-asymmetry",
+      "tags": [
+        "base",
+        "cinematography",
+        "composition",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "balanced-asymmetry",
+        "treatment": "formal-precision"
+      },
+      "subcategory": "balanced-asymmetry",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-composition-base-balanced-asymmetry-intimate-emphasis",
+      "semantic_key": "cinematography-composition-base-balanced-asymmetry-intimate-emphasis",
+      "text": "balanced asymmetry with intimate emphasis",
+      "sentence": "Balanced asymmetry with intimate emphasis.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "balanced asymmetry with intimate emphasis",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing balanced asymmetry with intimate emphasis",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with balanced asymmetry with intimate emphasis",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-composition-base-balanced-asymmetry",
+      "tags": [
+        "base",
+        "cinematography",
+        "composition",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "balanced-asymmetry",
+        "treatment": "intimate-emphasis"
+      },
+      "subcategory": "balanced-asymmetry",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-composition-base-balanced-asymmetry-spatial-context",
+      "semantic_key": "cinematography-composition-base-balanced-asymmetry-spatial-context",
+      "text": "balanced asymmetry with spatial context",
+      "sentence": "Balanced asymmetry with spatial context.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "balanced asymmetry with spatial context",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing balanced asymmetry with spatial context",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with balanced asymmetry with spatial context",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-composition-base-balanced-asymmetry",
+      "tags": [
+        "base",
+        "cinematography",
+        "composition",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "balanced-asymmetry",
+        "treatment": "spatial-context"
+      },
+      "subcategory": "balanced-asymmetry",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-composition-base-balanced-asymmetry-graphic-geometry",
+      "semantic_key": "cinematography-composition-base-balanced-asymmetry-graphic-geometry",
+      "text": "balanced asymmetry with graphic geometry",
+      "sentence": "Balanced asymmetry with graphic geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "balanced asymmetry with graphic geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing balanced asymmetry with graphic geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with balanced asymmetry with graphic geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-composition-base-balanced-asymmetry",
+      "tags": [
+        "base",
+        "cinematography",
+        "composition",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "structure": "balanced-asymmetry",
+        "treatment": "graphic-geometry"
+      },
+      "subcategory": "balanced-asymmetry",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-composition-base-balanced-asymmetry-dynamic-energy",
+      "semantic_key": "cinematography-composition-base-balanced-asymmetry-dynamic-energy",
+      "text": "balanced asymmetry with dynamic energy",
+      "sentence": "Balanced asymmetry with dynamic energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "balanced asymmetry with dynamic energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing balanced asymmetry with dynamic energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with balanced asymmetry with dynamic energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-composition-base-balanced-asymmetry",
+      "tags": [
+        "base",
+        "cinematography",
+        "composition",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "structure": "balanced-asymmetry",
+        "treatment": "dynamic-energy"
+      },
+      "subcategory": "balanced-asymmetry",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-composition-base-balanced-asymmetry-quiet-observation",
+      "semantic_key": "cinematography-composition-base-balanced-asymmetry-quiet-observation",
+      "text": "balanced asymmetry with quiet observation",
+      "sentence": "Balanced asymmetry with quiet observation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "balanced asymmetry with quiet observation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing balanced asymmetry with quiet observation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with balanced asymmetry with quiet observation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-composition-base-balanced-asymmetry",
+      "tags": [
+        "base",
+        "cinematography",
+        "composition",
+        "rarity-rare"
+      ],
+      "facets": {
+        "structure": "balanced-asymmetry",
+        "treatment": "quiet-observation"
+      },
+      "subcategory": "balanced-asymmetry",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-composition-base-balanced-asymmetry-editorial-polish",
+      "semantic_key": "cinematography-composition-base-balanced-asymmetry-editorial-polish",
+      "text": "balanced asymmetry with editorial polish",
+      "sentence": "Balanced asymmetry with editorial polish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "balanced asymmetry with editorial polish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing balanced asymmetry with editorial polish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with balanced asymmetry with editorial polish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-composition-base-balanced-asymmetry",
+      "tags": [
+        "base",
+        "cinematography",
+        "composition",
+        "rarity-rare"
+      ],
+      "facets": {
+        "structure": "balanced-asymmetry",
+        "treatment": "editorial-polish"
+      },
+      "subcategory": "balanced-asymmetry",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-composition-base-strong-negative-space-documentary-restraint",
+      "semantic_key": "cinematography-composition-base-strong-negative-space-documentary-restraint",
+      "text": "strong negative space with documentary restraint",
+      "sentence": "Strong negative space with documentary restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "strong negative space with documentary restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing strong negative space with documentary restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with strong negative space with documentary restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-composition-base-strong-negative-space",
+      "tags": [
+        "base",
+        "cinematography",
+        "composition",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "strong-negative-space",
+        "treatment": "documentary-restraint"
+      },
+      "subcategory": "strong-negative-space",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-composition-base-strong-negative-space-formal-precision",
+      "semantic_key": "cinematography-composition-base-strong-negative-space-formal-precision",
+      "text": "strong negative space with formal precision",
+      "sentence": "Strong negative space with formal precision.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "strong negative space with formal precision",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing strong negative space with formal precision",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with strong negative space with formal precision",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-composition-base-strong-negative-space",
+      "tags": [
+        "base",
+        "cinematography",
+        "composition",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "strong-negative-space",
+        "treatment": "formal-precision"
+      },
+      "subcategory": "strong-negative-space",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-composition-base-strong-negative-space-intimate-emphasis",
+      "semantic_key": "cinematography-composition-base-strong-negative-space-intimate-emphasis",
+      "text": "strong negative space with intimate emphasis",
+      "sentence": "Strong negative space with intimate emphasis.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "strong negative space with intimate emphasis",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing strong negative space with intimate emphasis",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with strong negative space with intimate emphasis",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-composition-base-strong-negative-space",
+      "tags": [
+        "base",
+        "cinematography",
+        "composition",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "strong-negative-space",
+        "treatment": "intimate-emphasis"
+      },
+      "subcategory": "strong-negative-space",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-composition-base-strong-negative-space-spatial-context",
+      "semantic_key": "cinematography-composition-base-strong-negative-space-spatial-context",
+      "text": "strong negative space with spatial context",
+      "sentence": "Strong negative space with spatial context.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "strong negative space with spatial context",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing strong negative space with spatial context",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with strong negative space with spatial context",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-composition-base-strong-negative-space",
+      "tags": [
+        "base",
+        "cinematography",
+        "composition",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "strong-negative-space",
+        "treatment": "spatial-context"
+      },
+      "subcategory": "strong-negative-space",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-composition-base-strong-negative-space-graphic-geometry",
+      "semantic_key": "cinematography-composition-base-strong-negative-space-graphic-geometry",
+      "text": "strong negative space with graphic geometry",
+      "sentence": "Strong negative space with graphic geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "strong negative space with graphic geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing strong negative space with graphic geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with strong negative space with graphic geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-composition-base-strong-negative-space",
+      "tags": [
+        "base",
+        "cinematography",
+        "composition",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "structure": "strong-negative-space",
+        "treatment": "graphic-geometry"
+      },
+      "subcategory": "strong-negative-space",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-composition-base-strong-negative-space-dynamic-energy",
+      "semantic_key": "cinematography-composition-base-strong-negative-space-dynamic-energy",
+      "text": "strong negative space with dynamic energy",
+      "sentence": "Strong negative space with dynamic energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "strong negative space with dynamic energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing strong negative space with dynamic energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with strong negative space with dynamic energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-composition-base-strong-negative-space",
+      "tags": [
+        "base",
+        "cinematography",
+        "composition",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "structure": "strong-negative-space",
+        "treatment": "dynamic-energy"
+      },
+      "subcategory": "strong-negative-space",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-composition-base-strong-negative-space-quiet-observation",
+      "semantic_key": "cinematography-composition-base-strong-negative-space-quiet-observation",
+      "text": "strong negative space with quiet observation",
+      "sentence": "Strong negative space with quiet observation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "strong negative space with quiet observation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing strong negative space with quiet observation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with strong negative space with quiet observation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-composition-base-strong-negative-space",
+      "tags": [
+        "base",
+        "cinematography",
+        "composition",
+        "rarity-rare"
+      ],
+      "facets": {
+        "structure": "strong-negative-space",
+        "treatment": "quiet-observation"
+      },
+      "subcategory": "strong-negative-space",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-composition-base-strong-negative-space-editorial-polish",
+      "semantic_key": "cinematography-composition-base-strong-negative-space-editorial-polish",
+      "text": "strong negative space with editorial polish",
+      "sentence": "Strong negative space with editorial polish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "strong negative space with editorial polish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing strong negative space with editorial polish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with strong negative space with editorial polish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-composition-base-strong-negative-space",
+      "tags": [
+        "base",
+        "cinematography",
+        "composition",
+        "rarity-rare"
+      ],
+      "facets": {
+        "structure": "strong-negative-space",
+        "treatment": "editorial-polish"
+      },
+      "subcategory": "strong-negative-space",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-composition-base-layered-foreground-composition-documentary-restraint",
+      "semantic_key": "cinematography-composition-base-layered-foreground-composition-documentary-restraint",
+      "text": "layered foreground composition with documentary restraint",
+      "sentence": "Layered foreground composition with documentary restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "layered foreground composition with documentary restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing layered foreground composition with documentary restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with layered foreground composition with documentary restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-composition-base-layered-foreground-composition",
+      "tags": [
+        "base",
+        "cinematography",
+        "composition",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "layered-foreground-composition",
+        "treatment": "documentary-restraint"
+      },
+      "subcategory": "layered-foreground-composition",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-composition-base-layered-foreground-composition-formal-precision",
+      "semantic_key": "cinematography-composition-base-layered-foreground-composition-formal-precision",
+      "text": "layered foreground composition with formal precision",
+      "sentence": "Layered foreground composition with formal precision.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "layered foreground composition with formal precision",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing layered foreground composition with formal precision",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with layered foreground composition with formal precision",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-composition-base-layered-foreground-composition",
+      "tags": [
+        "base",
+        "cinematography",
+        "composition",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "layered-foreground-composition",
+        "treatment": "formal-precision"
+      },
+      "subcategory": "layered-foreground-composition",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-composition-base-layered-foreground-composition-intimate-emphasis",
+      "semantic_key": "cinematography-composition-base-layered-foreground-composition-intimate-emphasis",
+      "text": "layered foreground composition with intimate emphasis",
+      "sentence": "Layered foreground composition with intimate emphasis.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "layered foreground composition with intimate emphasis",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing layered foreground composition with intimate emphasis",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with layered foreground composition with intimate emphasis",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-composition-base-layered-foreground-composition",
+      "tags": [
+        "base",
+        "cinematography",
+        "composition",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "layered-foreground-composition",
+        "treatment": "intimate-emphasis"
+      },
+      "subcategory": "layered-foreground-composition",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-composition-base-layered-foreground-composition-spatial-context",
+      "semantic_key": "cinematography-composition-base-layered-foreground-composition-spatial-context",
+      "text": "layered foreground composition with spatial context",
+      "sentence": "Layered foreground composition with spatial context.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "layered foreground composition with spatial context",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing layered foreground composition with spatial context",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with layered foreground composition with spatial context",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-composition-base-layered-foreground-composition",
+      "tags": [
+        "base",
+        "cinematography",
+        "composition",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "layered-foreground-composition",
+        "treatment": "spatial-context"
+      },
+      "subcategory": "layered-foreground-composition",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-composition-base-layered-foreground-composition-graphic-geometry",
+      "semantic_key": "cinematography-composition-base-layered-foreground-composition-graphic-geometry",
+      "text": "layered foreground composition with graphic geometry",
+      "sentence": "Layered foreground composition with graphic geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "layered foreground composition with graphic geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing layered foreground composition with graphic geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with layered foreground composition with graphic geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-composition-base-layered-foreground-composition",
+      "tags": [
+        "base",
+        "cinematography",
+        "composition",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "structure": "layered-foreground-composition",
+        "treatment": "graphic-geometry"
+      },
+      "subcategory": "layered-foreground-composition",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-composition-base-layered-foreground-composition-dynamic-energy",
+      "semantic_key": "cinematography-composition-base-layered-foreground-composition-dynamic-energy",
+      "text": "layered foreground composition with dynamic energy",
+      "sentence": "Layered foreground composition with dynamic energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "layered foreground composition with dynamic energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing layered foreground composition with dynamic energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with layered foreground composition with dynamic energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-composition-base-layered-foreground-composition",
+      "tags": [
+        "base",
+        "cinematography",
+        "composition",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "structure": "layered-foreground-composition",
+        "treatment": "dynamic-energy"
+      },
+      "subcategory": "layered-foreground-composition",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-composition-base-layered-foreground-composition-quiet-observation",
+      "semantic_key": "cinematography-composition-base-layered-foreground-composition-quiet-observation",
+      "text": "layered foreground composition with quiet observation",
+      "sentence": "Layered foreground composition with quiet observation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "layered foreground composition with quiet observation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing layered foreground composition with quiet observation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with layered foreground composition with quiet observation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-composition-base-layered-foreground-composition",
+      "tags": [
+        "base",
+        "cinematography",
+        "composition",
+        "rarity-rare"
+      ],
+      "facets": {
+        "structure": "layered-foreground-composition",
+        "treatment": "quiet-observation"
+      },
+      "subcategory": "layered-foreground-composition",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-composition-base-layered-foreground-composition-editorial-polish",
+      "semantic_key": "cinematography-composition-base-layered-foreground-composition-editorial-polish",
+      "text": "layered foreground composition with editorial polish",
+      "sentence": "Layered foreground composition with editorial polish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "layered foreground composition with editorial polish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing layered foreground composition with editorial polish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with layered foreground composition with editorial polish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-composition-base-layered-foreground-composition",
+      "tags": [
+        "base",
+        "cinematography",
+        "composition",
+        "rarity-rare"
+      ],
+      "facets": {
+        "structure": "layered-foreground-composition",
+        "treatment": "editorial-polish"
+      },
+      "subcategory": "layered-foreground-composition",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-composition-base-frame-within-frame-composition-documentary-restraint",
+      "semantic_key": "cinematography-composition-base-frame-within-frame-composition-documentary-restraint",
+      "text": "frame-within-frame composition with documentary restraint",
+      "sentence": "Frame-within-frame composition with documentary restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "frame-within-frame composition with documentary restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing frame-within-frame composition with documentary restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with frame-within-frame composition with documentary restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-composition-base-frame-within-frame-composition",
+      "tags": [
+        "base",
+        "cinematography",
+        "composition",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "frame-within-frame-composition",
+        "treatment": "documentary-restraint"
+      },
+      "subcategory": "frame-within-frame-composition",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-composition-base-frame-within-frame-composition-formal-precision",
+      "semantic_key": "cinematography-composition-base-frame-within-frame-composition-formal-precision",
+      "text": "frame-within-frame composition with formal precision",
+      "sentence": "Frame-within-frame composition with formal precision.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "frame-within-frame composition with formal precision",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing frame-within-frame composition with formal precision",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with frame-within-frame composition with formal precision",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-composition-base-frame-within-frame-composition",
+      "tags": [
+        "base",
+        "cinematography",
+        "composition",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "frame-within-frame-composition",
+        "treatment": "formal-precision"
+      },
+      "subcategory": "frame-within-frame-composition",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-composition-base-frame-within-frame-composition-intimate-emphasis",
+      "semantic_key": "cinematography-composition-base-frame-within-frame-composition-intimate-emphasis",
+      "text": "frame-within-frame composition with intimate emphasis",
+      "sentence": "Frame-within-frame composition with intimate emphasis.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "frame-within-frame composition with intimate emphasis",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing frame-within-frame composition with intimate emphasis",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with frame-within-frame composition with intimate emphasis",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-composition-base-frame-within-frame-composition",
+      "tags": [
+        "base",
+        "cinematography",
+        "composition",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "frame-within-frame-composition",
+        "treatment": "intimate-emphasis"
+      },
+      "subcategory": "frame-within-frame-composition",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-composition-base-frame-within-frame-composition-spatial-context",
+      "semantic_key": "cinematography-composition-base-frame-within-frame-composition-spatial-context",
+      "text": "frame-within-frame composition with spatial context",
+      "sentence": "Frame-within-frame composition with spatial context.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "frame-within-frame composition with spatial context",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing frame-within-frame composition with spatial context",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with frame-within-frame composition with spatial context",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-composition-base-frame-within-frame-composition",
+      "tags": [
+        "base",
+        "cinematography",
+        "composition",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "frame-within-frame-composition",
+        "treatment": "spatial-context"
+      },
+      "subcategory": "frame-within-frame-composition",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-composition-base-frame-within-frame-composition-graphic-geometry",
+      "semantic_key": "cinematography-composition-base-frame-within-frame-composition-graphic-geometry",
+      "text": "frame-within-frame composition with graphic geometry",
+      "sentence": "Frame-within-frame composition with graphic geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "frame-within-frame composition with graphic geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing frame-within-frame composition with graphic geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with frame-within-frame composition with graphic geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-composition-base-frame-within-frame-composition",
+      "tags": [
+        "base",
+        "cinematography",
+        "composition",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "structure": "frame-within-frame-composition",
+        "treatment": "graphic-geometry"
+      },
+      "subcategory": "frame-within-frame-composition",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-composition-base-frame-within-frame-composition-dynamic-energy",
+      "semantic_key": "cinematography-composition-base-frame-within-frame-composition-dynamic-energy",
+      "text": "frame-within-frame composition with dynamic energy",
+      "sentence": "Frame-within-frame composition with dynamic energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "frame-within-frame composition with dynamic energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing frame-within-frame composition with dynamic energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with frame-within-frame composition with dynamic energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-composition-base-frame-within-frame-composition",
+      "tags": [
+        "base",
+        "cinematography",
+        "composition",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "structure": "frame-within-frame-composition",
+        "treatment": "dynamic-energy"
+      },
+      "subcategory": "frame-within-frame-composition",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-composition-base-frame-within-frame-composition-quiet-observation",
+      "semantic_key": "cinematography-composition-base-frame-within-frame-composition-quiet-observation",
+      "text": "frame-within-frame composition with quiet observation",
+      "sentence": "Frame-within-frame composition with quiet observation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "frame-within-frame composition with quiet observation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing frame-within-frame composition with quiet observation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with frame-within-frame composition with quiet observation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-composition-base-frame-within-frame-composition",
+      "tags": [
+        "base",
+        "cinematography",
+        "composition",
+        "rarity-rare"
+      ],
+      "facets": {
+        "structure": "frame-within-frame-composition",
+        "treatment": "quiet-observation"
+      },
+      "subcategory": "frame-within-frame-composition",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-composition-base-frame-within-frame-composition-editorial-polish",
+      "semantic_key": "cinematography-composition-base-frame-within-frame-composition-editorial-polish",
+      "text": "frame-within-frame composition with editorial polish",
+      "sentence": "Frame-within-frame composition with editorial polish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "frame-within-frame composition with editorial polish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing frame-within-frame composition with editorial polish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with frame-within-frame composition with editorial polish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-composition-base-frame-within-frame-composition",
+      "tags": [
+        "base",
+        "cinematography",
+        "composition",
+        "rarity-rare"
+      ],
+      "facets": {
+        "structure": "frame-within-frame-composition",
+        "treatment": "editorial-polish"
+      },
+      "subcategory": "frame-within-frame-composition",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-composition-base-diagonal-composition-documentary-restraint",
+      "semantic_key": "cinematography-composition-base-diagonal-composition-documentary-restraint",
+      "text": "diagonal composition with documentary restraint",
+      "sentence": "Diagonal composition with documentary restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "diagonal composition with documentary restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing diagonal composition with documentary restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with diagonal composition with documentary restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-composition-base-diagonal-composition",
+      "tags": [
+        "base",
+        "cinematography",
+        "composition",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "diagonal-composition",
+        "treatment": "documentary-restraint"
+      },
+      "subcategory": "diagonal-composition",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-composition-base-diagonal-composition-formal-precision",
+      "semantic_key": "cinematography-composition-base-diagonal-composition-formal-precision",
+      "text": "diagonal composition with formal precision",
+      "sentence": "Diagonal composition with formal precision.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "diagonal composition with formal precision",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing diagonal composition with formal precision",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with diagonal composition with formal precision",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-composition-base-diagonal-composition",
+      "tags": [
+        "base",
+        "cinematography",
+        "composition",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "diagonal-composition",
+        "treatment": "formal-precision"
+      },
+      "subcategory": "diagonal-composition",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-composition-base-diagonal-composition-intimate-emphasis",
+      "semantic_key": "cinematography-composition-base-diagonal-composition-intimate-emphasis",
+      "text": "diagonal composition with intimate emphasis",
+      "sentence": "Diagonal composition with intimate emphasis.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "diagonal composition with intimate emphasis",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing diagonal composition with intimate emphasis",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with diagonal composition with intimate emphasis",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-composition-base-diagonal-composition",
+      "tags": [
+        "base",
+        "cinematography",
+        "composition",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "diagonal-composition",
+        "treatment": "intimate-emphasis"
+      },
+      "subcategory": "diagonal-composition",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-composition-base-diagonal-composition-spatial-context",
+      "semantic_key": "cinematography-composition-base-diagonal-composition-spatial-context",
+      "text": "diagonal composition with spatial context",
+      "sentence": "Diagonal composition with spatial context.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "diagonal composition with spatial context",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing diagonal composition with spatial context",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with diagonal composition with spatial context",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-composition-base-diagonal-composition",
+      "tags": [
+        "base",
+        "cinematography",
+        "composition",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "diagonal-composition",
+        "treatment": "spatial-context"
+      },
+      "subcategory": "diagonal-composition",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-composition-base-diagonal-composition-graphic-geometry",
+      "semantic_key": "cinematography-composition-base-diagonal-composition-graphic-geometry",
+      "text": "diagonal composition with graphic geometry",
+      "sentence": "Diagonal composition with graphic geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "diagonal composition with graphic geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing diagonal composition with graphic geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with diagonal composition with graphic geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-composition-base-diagonal-composition",
+      "tags": [
+        "base",
+        "cinematography",
+        "composition",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "structure": "diagonal-composition",
+        "treatment": "graphic-geometry"
+      },
+      "subcategory": "diagonal-composition",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-composition-base-diagonal-composition-dynamic-energy",
+      "semantic_key": "cinematography-composition-base-diagonal-composition-dynamic-energy",
+      "text": "diagonal composition with dynamic energy",
+      "sentence": "Diagonal composition with dynamic energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "diagonal composition with dynamic energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing diagonal composition with dynamic energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with diagonal composition with dynamic energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-composition-base-diagonal-composition",
+      "tags": [
+        "base",
+        "cinematography",
+        "composition",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "structure": "diagonal-composition",
+        "treatment": "dynamic-energy"
+      },
+      "subcategory": "diagonal-composition",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-composition-base-diagonal-composition-quiet-observation",
+      "semantic_key": "cinematography-composition-base-diagonal-composition-quiet-observation",
+      "text": "diagonal composition with quiet observation",
+      "sentence": "Diagonal composition with quiet observation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "diagonal composition with quiet observation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing diagonal composition with quiet observation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with diagonal composition with quiet observation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-composition-base-diagonal-composition",
+      "tags": [
+        "base",
+        "cinematography",
+        "composition",
+        "rarity-rare"
+      ],
+      "facets": {
+        "structure": "diagonal-composition",
+        "treatment": "quiet-observation"
+      },
+      "subcategory": "diagonal-composition",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-composition-base-diagonal-composition-editorial-polish",
+      "semantic_key": "cinematography-composition-base-diagonal-composition-editorial-polish",
+      "text": "diagonal composition with editorial polish",
+      "sentence": "Diagonal composition with editorial polish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "diagonal composition with editorial polish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing diagonal composition with editorial polish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with diagonal composition with editorial polish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-composition-base-diagonal-composition",
+      "tags": [
+        "base",
+        "cinematography",
+        "composition",
+        "rarity-rare"
+      ],
+      "facets": {
+        "structure": "diagonal-composition",
+        "treatment": "editorial-polish"
+      },
+      "subcategory": "diagonal-composition",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-composition-base-formal-symmetry-documentary-restraint",
+      "semantic_key": "cinematography-composition-base-formal-symmetry-documentary-restraint",
+      "text": "formal symmetry with documentary restraint",
+      "sentence": "Formal symmetry with documentary restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "formal symmetry with documentary restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing formal symmetry with documentary restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with formal symmetry with documentary restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-composition-base-formal-symmetry",
+      "tags": [
+        "base",
+        "cinematography",
+        "composition",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "formal-symmetry",
+        "treatment": "documentary-restraint"
+      },
+      "subcategory": "formal-symmetry",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-composition-base-formal-symmetry-formal-precision",
+      "semantic_key": "cinematography-composition-base-formal-symmetry-formal-precision",
+      "text": "formal symmetry with formal precision",
+      "sentence": "Formal symmetry with formal precision.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "formal symmetry with formal precision",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing formal symmetry with formal precision",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with formal symmetry with formal precision",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-composition-base-formal-symmetry",
+      "tags": [
+        "base",
+        "cinematography",
+        "composition",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "formal-symmetry",
+        "treatment": "formal-precision"
+      },
+      "subcategory": "formal-symmetry",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-composition-base-formal-symmetry-intimate-emphasis",
+      "semantic_key": "cinematography-composition-base-formal-symmetry-intimate-emphasis",
+      "text": "formal symmetry with intimate emphasis",
+      "sentence": "Formal symmetry with intimate emphasis.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "formal symmetry with intimate emphasis",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing formal symmetry with intimate emphasis",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with formal symmetry with intimate emphasis",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-composition-base-formal-symmetry",
+      "tags": [
+        "base",
+        "cinematography",
+        "composition",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "formal-symmetry",
+        "treatment": "intimate-emphasis"
+      },
+      "subcategory": "formal-symmetry",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-composition-base-formal-symmetry-spatial-context",
+      "semantic_key": "cinematography-composition-base-formal-symmetry-spatial-context",
+      "text": "formal symmetry with spatial context",
+      "sentence": "Formal symmetry with spatial context.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "formal symmetry with spatial context",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing formal symmetry with spatial context",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with formal symmetry with spatial context",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-composition-base-formal-symmetry",
+      "tags": [
+        "base",
+        "cinematography",
+        "composition",
+        "rarity-common"
+      ],
+      "facets": {
+        "structure": "formal-symmetry",
+        "treatment": "spatial-context"
+      },
+      "subcategory": "formal-symmetry",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-composition-base-formal-symmetry-graphic-geometry",
+      "semantic_key": "cinematography-composition-base-formal-symmetry-graphic-geometry",
+      "text": "formal symmetry with graphic geometry",
+      "sentence": "Formal symmetry with graphic geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "formal symmetry with graphic geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing formal symmetry with graphic geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with formal symmetry with graphic geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-composition-base-formal-symmetry",
+      "tags": [
+        "base",
+        "cinematography",
+        "composition",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "structure": "formal-symmetry",
+        "treatment": "graphic-geometry"
+      },
+      "subcategory": "formal-symmetry",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-composition-base-formal-symmetry-dynamic-energy",
+      "semantic_key": "cinematography-composition-base-formal-symmetry-dynamic-energy",
+      "text": "formal symmetry with dynamic energy",
+      "sentence": "Formal symmetry with dynamic energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "formal symmetry with dynamic energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing formal symmetry with dynamic energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with formal symmetry with dynamic energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-composition-base-formal-symmetry",
+      "tags": [
+        "base",
+        "cinematography",
+        "composition",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "structure": "formal-symmetry",
+        "treatment": "dynamic-energy"
+      },
+      "subcategory": "formal-symmetry",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-composition-base-formal-symmetry-quiet-observation",
+      "semantic_key": "cinematography-composition-base-formal-symmetry-quiet-observation",
+      "text": "formal symmetry with quiet observation",
+      "sentence": "Formal symmetry with quiet observation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "formal symmetry with quiet observation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing formal symmetry with quiet observation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with formal symmetry with quiet observation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-composition-base-formal-symmetry",
+      "tags": [
+        "base",
+        "cinematography",
+        "composition",
+        "rarity-rare"
+      ],
+      "facets": {
+        "structure": "formal-symmetry",
+        "treatment": "quiet-observation"
+      },
+      "subcategory": "formal-symmetry",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-composition-base-formal-symmetry-editorial-polish",
+      "semantic_key": "cinematography-composition-base-formal-symmetry-editorial-polish",
+      "text": "formal symmetry with editorial polish",
+      "sentence": "Formal symmetry with editorial polish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "formal symmetry with editorial polish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing formal symmetry with editorial polish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with formal symmetry with editorial polish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-composition-base-formal-symmetry",
+      "tags": [
+        "base",
+        "cinematography",
+        "composition",
+        "rarity-rare"
+      ],
+      "facets": {
+        "structure": "formal-symmetry",
+        "treatment": "editorial-polish"
+      },
+      "subcategory": "formal-symmetry",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    }
+  ]
+}

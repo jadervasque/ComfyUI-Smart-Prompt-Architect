@@ -29,8 +29,9 @@ from prompt_architect.domain.seeds import derive_section_seed, resolve_group_see
 from prompt_architect.domain.selector import (
     custom_option,
     effective_field_configuration,
+    eligible_by_mode,
     eligible_by_tags,
-    weighted_choice,
+    hierarchical_choice,
 )
 
 
@@ -204,12 +205,18 @@ def _select_random_section(
     if field.mode not in {FieldMode.RANDOM, FieldMode.INHERIT}:
         return context, 0, (), (), False
     library = libraries[section_id]
-    filtered = eligible_by_tags(library.options, field)
+    filtered = eligible_by_mode(
+        eligible_by_tags(library.options, field),
+        configuration.mode,
+    )
     candidates = compatible_options(filtered, context)
     candidates = tuple(option for option in candidates if option.weight > 0)
     relaxed = False
     if not candidates and configuration.mode in {GenerationMode.BALANCED, GenerationMode.CREATIVE}:
-        candidates = compatible_options(library.options, context)
+        candidates = compatible_options(
+            eligible_by_mode(library.options, configuration.mode),
+            context,
+        )
         candidates = tuple(option for option in candidates if option.weight > 0)
         relaxed = bool(field.include_tags or field.exclude_tags)
     if not candidates:
@@ -223,7 +230,12 @@ def _select_random_section(
     rejected: list[str] = []
     while remaining and attempts < profile.max_selection_attempts:
         attempts += 1
-        candidate = weighted_choice(remaining, rng)
+        candidate = hierarchical_choice(
+            remaining,
+            rng,
+            configuration.mode,
+            sequence_index=configuration.batch_index + attempts - 1,
+        )
         remaining = [option for option in remaining if option.id != candidate.id]
         tentative_selections = dict(context.selections)
         tentative_selections[section_id] = SelectedValue(
@@ -231,7 +243,11 @@ def _select_random_section(
         )
         tentative = _copy_context(context, tentative_selections)
         try:
-            implication = apply_implications(tentative, libraries)
+            implication = apply_implications(
+                tentative,
+                libraries,
+                initial_fields=(section_id,),
+            )
         except RuleConflictError as error:
             rejected.append(f"{section_id}:{candidate.id} rejected: {error}")
             continue
@@ -279,7 +295,11 @@ def _apply_fallback(
     selections[section_id] = SelectedValue(
         section_id, option, SelectionSource.FALLBACK, fallback_used=True
     )
-    implication = apply_implications(_copy_context(context, selections), libraries)
+    implication = apply_implications(
+        _copy_context(context, selections),
+        libraries,
+        initial_fields=(section_id,),
+    )
     return (
         implication.context,
         f"section {section_id} used fallback {fallback_id}",

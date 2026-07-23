@@ -1,0 +1,2577 @@
+{
+  "schema_version": "2.0",
+  "id": "style-photo-genre-art",
+  "version": "2.0.0",
+  "library": "photo-genre",
+  "domain": "style",
+  "category": "photo-genre",
+  "language": "en",
+  "status": "active",
+  "safety": "general",
+  "tags": [
+    "art-direction"
+  ],
+  "fallback_option_id": "style-photo-genre-art-fine-art-portrait-documentary-restraint",
+  "options": [
+    {
+      "id": "style-photo-genre-art-fine-art-portrait-documentary-restraint",
+      "semantic_key": "style-photo-genre-art-fine-art-portrait-documentary-restraint",
+      "text": "fine-art portrait direction with documentary restraint",
+      "sentence": "Fine-art portrait direction with documentary restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "fine-art portrait direction with documentary restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing fine-art portrait direction with documentary restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with fine-art portrait direction with documentary restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-photo-genre-art-fine-art-portrait",
+      "tags": [
+        "art-direction",
+        "photo-genre",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "genre": "fine-art-portrait",
+        "treatment": "documentary-restraint"
+      },
+      "subcategory": "fine-art-portrait",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-photo-genre-art-fine-art-portrait-formal-precision",
+      "semantic_key": "style-photo-genre-art-fine-art-portrait-formal-precision",
+      "text": "fine-art portrait direction with formal precision",
+      "sentence": "Fine-art portrait direction with formal precision.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "fine-art portrait direction with formal precision",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing fine-art portrait direction with formal precision",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with fine-art portrait direction with formal precision",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-photo-genre-art-fine-art-portrait",
+      "tags": [
+        "art-direction",
+        "photo-genre",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "genre": "fine-art-portrait",
+        "treatment": "formal-precision"
+      },
+      "subcategory": "fine-art-portrait",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-photo-genre-art-fine-art-portrait-intimate-emphasis",
+      "semantic_key": "style-photo-genre-art-fine-art-portrait-intimate-emphasis",
+      "text": "fine-art portrait direction with intimate emphasis",
+      "sentence": "Fine-art portrait direction with intimate emphasis.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "fine-art portrait direction with intimate emphasis",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing fine-art portrait direction with intimate emphasis",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with fine-art portrait direction with intimate emphasis",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-photo-genre-art-fine-art-portrait",
+      "tags": [
+        "art-direction",
+        "photo-genre",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "genre": "fine-art-portrait",
+        "treatment": "intimate-emphasis"
+      },
+      "subcategory": "fine-art-portrait",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-photo-genre-art-fine-art-portrait-spatial-context",
+      "semantic_key": "style-photo-genre-art-fine-art-portrait-spatial-context",
+      "text": "fine-art portrait direction with spatial context",
+      "sentence": "Fine-art portrait direction with spatial context.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "fine-art portrait direction with spatial context",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing fine-art portrait direction with spatial context",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with fine-art portrait direction with spatial context",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-photo-genre-art-fine-art-portrait",
+      "tags": [
+        "art-direction",
+        "photo-genre",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "genre": "fine-art-portrait",
+        "treatment": "spatial-context"
+      },
+      "subcategory": "fine-art-portrait",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-photo-genre-art-fine-art-portrait-graphic-geometry",
+      "semantic_key": "style-photo-genre-art-fine-art-portrait-graphic-geometry",
+      "text": "fine-art portrait direction with graphic geometry",
+      "sentence": "Fine-art portrait direction with graphic geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "fine-art portrait direction with graphic geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing fine-art portrait direction with graphic geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with fine-art portrait direction with graphic geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "style-photo-genre-art-fine-art-portrait",
+      "tags": [
+        "art-direction",
+        "photo-genre",
+        "rarity-uncommon",
+        "style"
+      ],
+      "facets": {
+        "genre": "fine-art-portrait",
+        "treatment": "graphic-geometry"
+      },
+      "subcategory": "fine-art-portrait",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-photo-genre-art-fine-art-portrait-dynamic-energy",
+      "semantic_key": "style-photo-genre-art-fine-art-portrait-dynamic-energy",
+      "text": "fine-art portrait direction with dynamic energy",
+      "sentence": "Fine-art portrait direction with dynamic energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "fine-art portrait direction with dynamic energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing fine-art portrait direction with dynamic energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with fine-art portrait direction with dynamic energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "style-photo-genre-art-fine-art-portrait",
+      "tags": [
+        "art-direction",
+        "photo-genre",
+        "rarity-uncommon",
+        "style"
+      ],
+      "facets": {
+        "genre": "fine-art-portrait",
+        "treatment": "dynamic-energy"
+      },
+      "subcategory": "fine-art-portrait",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-photo-genre-art-fine-art-portrait-quiet-observation",
+      "semantic_key": "style-photo-genre-art-fine-art-portrait-quiet-observation",
+      "text": "fine-art portrait direction with quiet observation",
+      "sentence": "Fine-art portrait direction with quiet observation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "fine-art portrait direction with quiet observation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing fine-art portrait direction with quiet observation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with fine-art portrait direction with quiet observation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "style-photo-genre-art-fine-art-portrait",
+      "tags": [
+        "art-direction",
+        "photo-genre",
+        "rarity-rare",
+        "style"
+      ],
+      "facets": {
+        "genre": "fine-art-portrait",
+        "treatment": "quiet-observation"
+      },
+      "subcategory": "fine-art-portrait",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-photo-genre-art-fine-art-portrait-editorial-polish",
+      "semantic_key": "style-photo-genre-art-fine-art-portrait-editorial-polish",
+      "text": "fine-art portrait direction with editorial polish",
+      "sentence": "Fine-art portrait direction with editorial polish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "fine-art portrait direction with editorial polish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing fine-art portrait direction with editorial polish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with fine-art portrait direction with editorial polish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "style-photo-genre-art-fine-art-portrait",
+      "tags": [
+        "art-direction",
+        "photo-genre",
+        "rarity-rare",
+        "style"
+      ],
+      "facets": {
+        "genre": "fine-art-portrait",
+        "treatment": "editorial-polish"
+      },
+      "subcategory": "fine-art-portrait",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-photo-genre-art-conceptual-portrait-documentary-restraint",
+      "semantic_key": "style-photo-genre-art-conceptual-portrait-documentary-restraint",
+      "text": "conceptual portrait direction with documentary restraint",
+      "sentence": "Conceptual portrait direction with documentary restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "conceptual portrait direction with documentary restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing conceptual portrait direction with documentary restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with conceptual portrait direction with documentary restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-photo-genre-art-conceptual-portrait",
+      "tags": [
+        "art-direction",
+        "photo-genre",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "genre": "conceptual-portrait",
+        "treatment": "documentary-restraint"
+      },
+      "subcategory": "conceptual-portrait",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-photo-genre-art-conceptual-portrait-formal-precision",
+      "semantic_key": "style-photo-genre-art-conceptual-portrait-formal-precision",
+      "text": "conceptual portrait direction with formal precision",
+      "sentence": "Conceptual portrait direction with formal precision.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "conceptual portrait direction with formal precision",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing conceptual portrait direction with formal precision",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with conceptual portrait direction with formal precision",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-photo-genre-art-conceptual-portrait",
+      "tags": [
+        "art-direction",
+        "photo-genre",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "genre": "conceptual-portrait",
+        "treatment": "formal-precision"
+      },
+      "subcategory": "conceptual-portrait",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-photo-genre-art-conceptual-portrait-intimate-emphasis",
+      "semantic_key": "style-photo-genre-art-conceptual-portrait-intimate-emphasis",
+      "text": "conceptual portrait direction with intimate emphasis",
+      "sentence": "Conceptual portrait direction with intimate emphasis.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "conceptual portrait direction with intimate emphasis",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing conceptual portrait direction with intimate emphasis",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with conceptual portrait direction with intimate emphasis",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-photo-genre-art-conceptual-portrait",
+      "tags": [
+        "art-direction",
+        "photo-genre",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "genre": "conceptual-portrait",
+        "treatment": "intimate-emphasis"
+      },
+      "subcategory": "conceptual-portrait",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-photo-genre-art-conceptual-portrait-spatial-context",
+      "semantic_key": "style-photo-genre-art-conceptual-portrait-spatial-context",
+      "text": "conceptual portrait direction with spatial context",
+      "sentence": "Conceptual portrait direction with spatial context.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "conceptual portrait direction with spatial context",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing conceptual portrait direction with spatial context",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with conceptual portrait direction with spatial context",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-photo-genre-art-conceptual-portrait",
+      "tags": [
+        "art-direction",
+        "photo-genre",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "genre": "conceptual-portrait",
+        "treatment": "spatial-context"
+      },
+      "subcategory": "conceptual-portrait",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-photo-genre-art-conceptual-portrait-graphic-geometry",
+      "semantic_key": "style-photo-genre-art-conceptual-portrait-graphic-geometry",
+      "text": "conceptual portrait direction with graphic geometry",
+      "sentence": "Conceptual portrait direction with graphic geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "conceptual portrait direction with graphic geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing conceptual portrait direction with graphic geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with conceptual portrait direction with graphic geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "style-photo-genre-art-conceptual-portrait",
+      "tags": [
+        "art-direction",
+        "photo-genre",
+        "rarity-uncommon",
+        "style"
+      ],
+      "facets": {
+        "genre": "conceptual-portrait",
+        "treatment": "graphic-geometry"
+      },
+      "subcategory": "conceptual-portrait",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-photo-genre-art-conceptual-portrait-dynamic-energy",
+      "semantic_key": "style-photo-genre-art-conceptual-portrait-dynamic-energy",
+      "text": "conceptual portrait direction with dynamic energy",
+      "sentence": "Conceptual portrait direction with dynamic energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "conceptual portrait direction with dynamic energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing conceptual portrait direction with dynamic energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with conceptual portrait direction with dynamic energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "style-photo-genre-art-conceptual-portrait",
+      "tags": [
+        "art-direction",
+        "photo-genre",
+        "rarity-uncommon",
+        "style"
+      ],
+      "facets": {
+        "genre": "conceptual-portrait",
+        "treatment": "dynamic-energy"
+      },
+      "subcategory": "conceptual-portrait",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-photo-genre-art-conceptual-portrait-quiet-observation",
+      "semantic_key": "style-photo-genre-art-conceptual-portrait-quiet-observation",
+      "text": "conceptual portrait direction with quiet observation",
+      "sentence": "Conceptual portrait direction with quiet observation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "conceptual portrait direction with quiet observation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing conceptual portrait direction with quiet observation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with conceptual portrait direction with quiet observation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "style-photo-genre-art-conceptual-portrait",
+      "tags": [
+        "art-direction",
+        "photo-genre",
+        "rarity-rare",
+        "style"
+      ],
+      "facets": {
+        "genre": "conceptual-portrait",
+        "treatment": "quiet-observation"
+      },
+      "subcategory": "conceptual-portrait",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-photo-genre-art-conceptual-portrait-editorial-polish",
+      "semantic_key": "style-photo-genre-art-conceptual-portrait-editorial-polish",
+      "text": "conceptual portrait direction with editorial polish",
+      "sentence": "Conceptual portrait direction with editorial polish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "conceptual portrait direction with editorial polish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing conceptual portrait direction with editorial polish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with conceptual portrait direction with editorial polish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "style-photo-genre-art-conceptual-portrait",
+      "tags": [
+        "art-direction",
+        "photo-genre",
+        "rarity-rare",
+        "style"
+      ],
+      "facets": {
+        "genre": "conceptual-portrait",
+        "treatment": "editorial-polish"
+      },
+      "subcategory": "conceptual-portrait",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-photo-genre-art-monochrome-portrait-documentary-restraint",
+      "semantic_key": "style-photo-genre-art-monochrome-portrait-documentary-restraint",
+      "text": "monochrome portrait direction with documentary restraint",
+      "sentence": "Monochrome portrait direction with documentary restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "monochrome portrait direction with documentary restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing monochrome portrait direction with documentary restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with monochrome portrait direction with documentary restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-photo-genre-art-monochrome-portrait",
+      "tags": [
+        "art-direction",
+        "photo-genre",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "genre": "monochrome-portrait",
+        "treatment": "documentary-restraint"
+      },
+      "subcategory": "monochrome-portrait",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-photo-genre-art-monochrome-portrait-formal-precision",
+      "semantic_key": "style-photo-genre-art-monochrome-portrait-formal-precision",
+      "text": "monochrome portrait direction with formal precision",
+      "sentence": "Monochrome portrait direction with formal precision.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "monochrome portrait direction with formal precision",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing monochrome portrait direction with formal precision",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with monochrome portrait direction with formal precision",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-photo-genre-art-monochrome-portrait",
+      "tags": [
+        "art-direction",
+        "photo-genre",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "genre": "monochrome-portrait",
+        "treatment": "formal-precision"
+      },
+      "subcategory": "monochrome-portrait",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-photo-genre-art-monochrome-portrait-intimate-emphasis",
+      "semantic_key": "style-photo-genre-art-monochrome-portrait-intimate-emphasis",
+      "text": "monochrome portrait direction with intimate emphasis",
+      "sentence": "Monochrome portrait direction with intimate emphasis.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "monochrome portrait direction with intimate emphasis",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing monochrome portrait direction with intimate emphasis",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with monochrome portrait direction with intimate emphasis",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-photo-genre-art-monochrome-portrait",
+      "tags": [
+        "art-direction",
+        "photo-genre",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "genre": "monochrome-portrait",
+        "treatment": "intimate-emphasis"
+      },
+      "subcategory": "monochrome-portrait",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-photo-genre-art-monochrome-portrait-spatial-context",
+      "semantic_key": "style-photo-genre-art-monochrome-portrait-spatial-context",
+      "text": "monochrome portrait direction with spatial context",
+      "sentence": "Monochrome portrait direction with spatial context.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "monochrome portrait direction with spatial context",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing monochrome portrait direction with spatial context",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with monochrome portrait direction with spatial context",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-photo-genre-art-monochrome-portrait",
+      "tags": [
+        "art-direction",
+        "photo-genre",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "genre": "monochrome-portrait",
+        "treatment": "spatial-context"
+      },
+      "subcategory": "monochrome-portrait",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-photo-genre-art-monochrome-portrait-graphic-geometry",
+      "semantic_key": "style-photo-genre-art-monochrome-portrait-graphic-geometry",
+      "text": "monochrome portrait direction with graphic geometry",
+      "sentence": "Monochrome portrait direction with graphic geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "monochrome portrait direction with graphic geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing monochrome portrait direction with graphic geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with monochrome portrait direction with graphic geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "style-photo-genre-art-monochrome-portrait",
+      "tags": [
+        "art-direction",
+        "photo-genre",
+        "rarity-uncommon",
+        "style"
+      ],
+      "facets": {
+        "genre": "monochrome-portrait",
+        "treatment": "graphic-geometry"
+      },
+      "subcategory": "monochrome-portrait",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-photo-genre-art-monochrome-portrait-dynamic-energy",
+      "semantic_key": "style-photo-genre-art-monochrome-portrait-dynamic-energy",
+      "text": "monochrome portrait direction with dynamic energy",
+      "sentence": "Monochrome portrait direction with dynamic energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "monochrome portrait direction with dynamic energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing monochrome portrait direction with dynamic energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with monochrome portrait direction with dynamic energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "style-photo-genre-art-monochrome-portrait",
+      "tags": [
+        "art-direction",
+        "photo-genre",
+        "rarity-uncommon",
+        "style"
+      ],
+      "facets": {
+        "genre": "monochrome-portrait",
+        "treatment": "dynamic-energy"
+      },
+      "subcategory": "monochrome-portrait",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-photo-genre-art-monochrome-portrait-quiet-observation",
+      "semantic_key": "style-photo-genre-art-monochrome-portrait-quiet-observation",
+      "text": "monochrome portrait direction with quiet observation",
+      "sentence": "Monochrome portrait direction with quiet observation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "monochrome portrait direction with quiet observation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing monochrome portrait direction with quiet observation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with monochrome portrait direction with quiet observation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "style-photo-genre-art-monochrome-portrait",
+      "tags": [
+        "art-direction",
+        "photo-genre",
+        "rarity-rare",
+        "style"
+      ],
+      "facets": {
+        "genre": "monochrome-portrait",
+        "treatment": "quiet-observation"
+      },
+      "subcategory": "monochrome-portrait",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-photo-genre-art-monochrome-portrait-editorial-polish",
+      "semantic_key": "style-photo-genre-art-monochrome-portrait-editorial-polish",
+      "text": "monochrome portrait direction with editorial polish",
+      "sentence": "Monochrome portrait direction with editorial polish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "monochrome portrait direction with editorial polish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing monochrome portrait direction with editorial polish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with monochrome portrait direction with editorial polish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "style-photo-genre-art-monochrome-portrait",
+      "tags": [
+        "art-direction",
+        "photo-genre",
+        "rarity-rare",
+        "style"
+      ],
+      "facets": {
+        "genre": "monochrome-portrait",
+        "treatment": "editorial-polish"
+      },
+      "subcategory": "monochrome-portrait",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-photo-genre-art-historical-portrait-documentary-restraint",
+      "semantic_key": "style-photo-genre-art-historical-portrait-documentary-restraint",
+      "text": "historical portrait direction with documentary restraint",
+      "sentence": "Historical portrait direction with documentary restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "historical portrait direction with documentary restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing historical portrait direction with documentary restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with historical portrait direction with documentary restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-photo-genre-art-historical-portrait",
+      "tags": [
+        "art-direction",
+        "photo-genre",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "genre": "historical-portrait",
+        "treatment": "documentary-restraint"
+      },
+      "subcategory": "historical-portrait",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-photo-genre-art-historical-portrait-formal-precision",
+      "semantic_key": "style-photo-genre-art-historical-portrait-formal-precision",
+      "text": "historical portrait direction with formal precision",
+      "sentence": "Historical portrait direction with formal precision.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "historical portrait direction with formal precision",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing historical portrait direction with formal precision",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with historical portrait direction with formal precision",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-photo-genre-art-historical-portrait",
+      "tags": [
+        "art-direction",
+        "photo-genre",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "genre": "historical-portrait",
+        "treatment": "formal-precision"
+      },
+      "subcategory": "historical-portrait",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-photo-genre-art-historical-portrait-intimate-emphasis",
+      "semantic_key": "style-photo-genre-art-historical-portrait-intimate-emphasis",
+      "text": "historical portrait direction with intimate emphasis",
+      "sentence": "Historical portrait direction with intimate emphasis.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "historical portrait direction with intimate emphasis",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing historical portrait direction with intimate emphasis",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with historical portrait direction with intimate emphasis",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-photo-genre-art-historical-portrait",
+      "tags": [
+        "art-direction",
+        "photo-genre",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "genre": "historical-portrait",
+        "treatment": "intimate-emphasis"
+      },
+      "subcategory": "historical-portrait",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-photo-genre-art-historical-portrait-spatial-context",
+      "semantic_key": "style-photo-genre-art-historical-portrait-spatial-context",
+      "text": "historical portrait direction with spatial context",
+      "sentence": "Historical portrait direction with spatial context.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "historical portrait direction with spatial context",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing historical portrait direction with spatial context",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with historical portrait direction with spatial context",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-photo-genre-art-historical-portrait",
+      "tags": [
+        "art-direction",
+        "photo-genre",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "genre": "historical-portrait",
+        "treatment": "spatial-context"
+      },
+      "subcategory": "historical-portrait",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-photo-genre-art-historical-portrait-graphic-geometry",
+      "semantic_key": "style-photo-genre-art-historical-portrait-graphic-geometry",
+      "text": "historical portrait direction with graphic geometry",
+      "sentence": "Historical portrait direction with graphic geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "historical portrait direction with graphic geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing historical portrait direction with graphic geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with historical portrait direction with graphic geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "style-photo-genre-art-historical-portrait",
+      "tags": [
+        "art-direction",
+        "photo-genre",
+        "rarity-uncommon",
+        "style"
+      ],
+      "facets": {
+        "genre": "historical-portrait",
+        "treatment": "graphic-geometry"
+      },
+      "subcategory": "historical-portrait",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-photo-genre-art-historical-portrait-dynamic-energy",
+      "semantic_key": "style-photo-genre-art-historical-portrait-dynamic-energy",
+      "text": "historical portrait direction with dynamic energy",
+      "sentence": "Historical portrait direction with dynamic energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "historical portrait direction with dynamic energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing historical portrait direction with dynamic energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with historical portrait direction with dynamic energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "style-photo-genre-art-historical-portrait",
+      "tags": [
+        "art-direction",
+        "photo-genre",
+        "rarity-uncommon",
+        "style"
+      ],
+      "facets": {
+        "genre": "historical-portrait",
+        "treatment": "dynamic-energy"
+      },
+      "subcategory": "historical-portrait",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-photo-genre-art-historical-portrait-quiet-observation",
+      "semantic_key": "style-photo-genre-art-historical-portrait-quiet-observation",
+      "text": "historical portrait direction with quiet observation",
+      "sentence": "Historical portrait direction with quiet observation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "historical portrait direction with quiet observation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing historical portrait direction with quiet observation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with historical portrait direction with quiet observation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "style-photo-genre-art-historical-portrait",
+      "tags": [
+        "art-direction",
+        "photo-genre",
+        "rarity-rare",
+        "style"
+      ],
+      "facets": {
+        "genre": "historical-portrait",
+        "treatment": "quiet-observation"
+      },
+      "subcategory": "historical-portrait",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-photo-genre-art-historical-portrait-editorial-polish",
+      "semantic_key": "style-photo-genre-art-historical-portrait-editorial-polish",
+      "text": "historical portrait direction with editorial polish",
+      "sentence": "Historical portrait direction with editorial polish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "historical portrait direction with editorial polish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing historical portrait direction with editorial polish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with historical portrait direction with editorial polish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "style-photo-genre-art-historical-portrait",
+      "tags": [
+        "art-direction",
+        "photo-genre",
+        "rarity-rare",
+        "style"
+      ],
+      "facets": {
+        "genre": "historical-portrait",
+        "treatment": "editorial-polish"
+      },
+      "subcategory": "historical-portrait",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-photo-genre-art-fantasy-portrait-documentary-restraint",
+      "semantic_key": "style-photo-genre-art-fantasy-portrait-documentary-restraint",
+      "text": "fantasy portrait direction with documentary restraint",
+      "sentence": "Fantasy portrait direction with documentary restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "fantasy portrait direction with documentary restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing fantasy portrait direction with documentary restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with fantasy portrait direction with documentary restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-photo-genre-art-fantasy-portrait",
+      "tags": [
+        "art-direction",
+        "photo-genre",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "genre": "fantasy-portrait",
+        "treatment": "documentary-restraint"
+      },
+      "subcategory": "fantasy-portrait",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-photo-genre-art-fantasy-portrait-formal-precision",
+      "semantic_key": "style-photo-genre-art-fantasy-portrait-formal-precision",
+      "text": "fantasy portrait direction with formal precision",
+      "sentence": "Fantasy portrait direction with formal precision.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "fantasy portrait direction with formal precision",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing fantasy portrait direction with formal precision",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with fantasy portrait direction with formal precision",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-photo-genre-art-fantasy-portrait",
+      "tags": [
+        "art-direction",
+        "photo-genre",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "genre": "fantasy-portrait",
+        "treatment": "formal-precision"
+      },
+      "subcategory": "fantasy-portrait",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-photo-genre-art-fantasy-portrait-intimate-emphasis",
+      "semantic_key": "style-photo-genre-art-fantasy-portrait-intimate-emphasis",
+      "text": "fantasy portrait direction with intimate emphasis",
+      "sentence": "Fantasy portrait direction with intimate emphasis.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "fantasy portrait direction with intimate emphasis",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing fantasy portrait direction with intimate emphasis",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with fantasy portrait direction with intimate emphasis",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-photo-genre-art-fantasy-portrait",
+      "tags": [
+        "art-direction",
+        "photo-genre",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "genre": "fantasy-portrait",
+        "treatment": "intimate-emphasis"
+      },
+      "subcategory": "fantasy-portrait",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-photo-genre-art-fantasy-portrait-spatial-context",
+      "semantic_key": "style-photo-genre-art-fantasy-portrait-spatial-context",
+      "text": "fantasy portrait direction with spatial context",
+      "sentence": "Fantasy portrait direction with spatial context.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "fantasy portrait direction with spatial context",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing fantasy portrait direction with spatial context",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with fantasy portrait direction with spatial context",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-photo-genre-art-fantasy-portrait",
+      "tags": [
+        "art-direction",
+        "photo-genre",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "genre": "fantasy-portrait",
+        "treatment": "spatial-context"
+      },
+      "subcategory": "fantasy-portrait",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-photo-genre-art-fantasy-portrait-graphic-geometry",
+      "semantic_key": "style-photo-genre-art-fantasy-portrait-graphic-geometry",
+      "text": "fantasy portrait direction with graphic geometry",
+      "sentence": "Fantasy portrait direction with graphic geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "fantasy portrait direction with graphic geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing fantasy portrait direction with graphic geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with fantasy portrait direction with graphic geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "style-photo-genre-art-fantasy-portrait",
+      "tags": [
+        "art-direction",
+        "photo-genre",
+        "rarity-uncommon",
+        "style"
+      ],
+      "facets": {
+        "genre": "fantasy-portrait",
+        "treatment": "graphic-geometry"
+      },
+      "subcategory": "fantasy-portrait",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-photo-genre-art-fantasy-portrait-dynamic-energy",
+      "semantic_key": "style-photo-genre-art-fantasy-portrait-dynamic-energy",
+      "text": "fantasy portrait direction with dynamic energy",
+      "sentence": "Fantasy portrait direction with dynamic energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "fantasy portrait direction with dynamic energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing fantasy portrait direction with dynamic energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with fantasy portrait direction with dynamic energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "style-photo-genre-art-fantasy-portrait",
+      "tags": [
+        "art-direction",
+        "photo-genre",
+        "rarity-uncommon",
+        "style"
+      ],
+      "facets": {
+        "genre": "fantasy-portrait",
+        "treatment": "dynamic-energy"
+      },
+      "subcategory": "fantasy-portrait",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-photo-genre-art-fantasy-portrait-quiet-observation",
+      "semantic_key": "style-photo-genre-art-fantasy-portrait-quiet-observation",
+      "text": "fantasy portrait direction with quiet observation",
+      "sentence": "Fantasy portrait direction with quiet observation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "fantasy portrait direction with quiet observation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing fantasy portrait direction with quiet observation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with fantasy portrait direction with quiet observation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "style-photo-genre-art-fantasy-portrait",
+      "tags": [
+        "art-direction",
+        "photo-genre",
+        "rarity-rare",
+        "style"
+      ],
+      "facets": {
+        "genre": "fantasy-portrait",
+        "treatment": "quiet-observation"
+      },
+      "subcategory": "fantasy-portrait",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-photo-genre-art-fantasy-portrait-editorial-polish",
+      "semantic_key": "style-photo-genre-art-fantasy-portrait-editorial-polish",
+      "text": "fantasy portrait direction with editorial polish",
+      "sentence": "Fantasy portrait direction with editorial polish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "fantasy portrait direction with editorial polish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing fantasy portrait direction with editorial polish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with fantasy portrait direction with editorial polish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "style-photo-genre-art-fantasy-portrait",
+      "tags": [
+        "art-direction",
+        "photo-genre",
+        "rarity-rare",
+        "style"
+      ],
+      "facets": {
+        "genre": "fantasy-portrait",
+        "treatment": "editorial-polish"
+      },
+      "subcategory": "fantasy-portrait",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-photo-genre-art-dark-atmospheric-portrait-documentary-restraint",
+      "semantic_key": "style-photo-genre-art-dark-atmospheric-portrait-documentary-restraint",
+      "text": "dark atmospheric portrait direction with documentary restraint",
+      "sentence": "Dark atmospheric portrait direction with documentary restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "dark atmospheric portrait direction with documentary restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing dark atmospheric portrait direction with documentary restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with dark atmospheric portrait direction with documentary restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-photo-genre-art-dark-atmospheric-portrait",
+      "tags": [
+        "art-direction",
+        "photo-genre",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "genre": "dark-atmospheric-portrait",
+        "treatment": "documentary-restraint"
+      },
+      "subcategory": "dark-atmospheric-portrait",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-photo-genre-art-dark-atmospheric-portrait-formal-precision",
+      "semantic_key": "style-photo-genre-art-dark-atmospheric-portrait-formal-precision",
+      "text": "dark atmospheric portrait direction with formal precision",
+      "sentence": "Dark atmospheric portrait direction with formal precision.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "dark atmospheric portrait direction with formal precision",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing dark atmospheric portrait direction with formal precision",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with dark atmospheric portrait direction with formal precision",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-photo-genre-art-dark-atmospheric-portrait",
+      "tags": [
+        "art-direction",
+        "photo-genre",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "genre": "dark-atmospheric-portrait",
+        "treatment": "formal-precision"
+      },
+      "subcategory": "dark-atmospheric-portrait",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-photo-genre-art-dark-atmospheric-portrait-intimate-emphasis",
+      "semantic_key": "style-photo-genre-art-dark-atmospheric-portrait-intimate-emphasis",
+      "text": "dark atmospheric portrait direction with intimate emphasis",
+      "sentence": "Dark atmospheric portrait direction with intimate emphasis.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "dark atmospheric portrait direction with intimate emphasis",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing dark atmospheric portrait direction with intimate emphasis",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with dark atmospheric portrait direction with intimate emphasis",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-photo-genre-art-dark-atmospheric-portrait",
+      "tags": [
+        "art-direction",
+        "photo-genre",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "genre": "dark-atmospheric-portrait",
+        "treatment": "intimate-emphasis"
+      },
+      "subcategory": "dark-atmospheric-portrait",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-photo-genre-art-dark-atmospheric-portrait-spatial-context",
+      "semantic_key": "style-photo-genre-art-dark-atmospheric-portrait-spatial-context",
+      "text": "dark atmospheric portrait direction with spatial context",
+      "sentence": "Dark atmospheric portrait direction with spatial context.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "dark atmospheric portrait direction with spatial context",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing dark atmospheric portrait direction with spatial context",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with dark atmospheric portrait direction with spatial context",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-photo-genre-art-dark-atmospheric-portrait",
+      "tags": [
+        "art-direction",
+        "photo-genre",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "genre": "dark-atmospheric-portrait",
+        "treatment": "spatial-context"
+      },
+      "subcategory": "dark-atmospheric-portrait",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-photo-genre-art-dark-atmospheric-portrait-graphic-geometry",
+      "semantic_key": "style-photo-genre-art-dark-atmospheric-portrait-graphic-geometry",
+      "text": "dark atmospheric portrait direction with graphic geometry",
+      "sentence": "Dark atmospheric portrait direction with graphic geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "dark atmospheric portrait direction with graphic geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing dark atmospheric portrait direction with graphic geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with dark atmospheric portrait direction with graphic geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "style-photo-genre-art-dark-atmospheric-portrait",
+      "tags": [
+        "art-direction",
+        "photo-genre",
+        "rarity-uncommon",
+        "style"
+      ],
+      "facets": {
+        "genre": "dark-atmospheric-portrait",
+        "treatment": "graphic-geometry"
+      },
+      "subcategory": "dark-atmospheric-portrait",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-photo-genre-art-dark-atmospheric-portrait-dynamic-energy",
+      "semantic_key": "style-photo-genre-art-dark-atmospheric-portrait-dynamic-energy",
+      "text": "dark atmospheric portrait direction with dynamic energy",
+      "sentence": "Dark atmospheric portrait direction with dynamic energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "dark atmospheric portrait direction with dynamic energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing dark atmospheric portrait direction with dynamic energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with dark atmospheric portrait direction with dynamic energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "style-photo-genre-art-dark-atmospheric-portrait",
+      "tags": [
+        "art-direction",
+        "photo-genre",
+        "rarity-uncommon",
+        "style"
+      ],
+      "facets": {
+        "genre": "dark-atmospheric-portrait",
+        "treatment": "dynamic-energy"
+      },
+      "subcategory": "dark-atmospheric-portrait",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-photo-genre-art-dark-atmospheric-portrait-quiet-observation",
+      "semantic_key": "style-photo-genre-art-dark-atmospheric-portrait-quiet-observation",
+      "text": "dark atmospheric portrait direction with quiet observation",
+      "sentence": "Dark atmospheric portrait direction with quiet observation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "dark atmospheric portrait direction with quiet observation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing dark atmospheric portrait direction with quiet observation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with dark atmospheric portrait direction with quiet observation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "style-photo-genre-art-dark-atmospheric-portrait",
+      "tags": [
+        "art-direction",
+        "photo-genre",
+        "rarity-rare",
+        "style"
+      ],
+      "facets": {
+        "genre": "dark-atmospheric-portrait",
+        "treatment": "quiet-observation"
+      },
+      "subcategory": "dark-atmospheric-portrait",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-photo-genre-art-dark-atmospheric-portrait-editorial-polish",
+      "semantic_key": "style-photo-genre-art-dark-atmospheric-portrait-editorial-polish",
+      "text": "dark atmospheric portrait direction with editorial polish",
+      "sentence": "Dark atmospheric portrait direction with editorial polish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "dark atmospheric portrait direction with editorial polish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing dark atmospheric portrait direction with editorial polish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with dark atmospheric portrait direction with editorial polish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "style-photo-genre-art-dark-atmospheric-portrait",
+      "tags": [
+        "art-direction",
+        "photo-genre",
+        "rarity-rare",
+        "style"
+      ],
+      "facets": {
+        "genre": "dark-atmospheric-portrait",
+        "treatment": "editorial-polish"
+      },
+      "subcategory": "dark-atmospheric-portrait",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-photo-genre-art-environmental-portrait-documentary-restraint",
+      "semantic_key": "style-photo-genre-art-environmental-portrait-documentary-restraint",
+      "text": "environmental portrait direction with documentary restraint",
+      "sentence": "Environmental portrait direction with documentary restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "environmental portrait direction with documentary restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing environmental portrait direction with documentary restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with environmental portrait direction with documentary restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-photo-genre-art-environmental-portrait",
+      "tags": [
+        "art-direction",
+        "photo-genre",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "genre": "environmental-portrait",
+        "treatment": "documentary-restraint"
+      },
+      "subcategory": "environmental-portrait",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-photo-genre-art-environmental-portrait-formal-precision",
+      "semantic_key": "style-photo-genre-art-environmental-portrait-formal-precision",
+      "text": "environmental portrait direction with formal precision",
+      "sentence": "Environmental portrait direction with formal precision.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "environmental portrait direction with formal precision",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing environmental portrait direction with formal precision",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with environmental portrait direction with formal precision",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-photo-genre-art-environmental-portrait",
+      "tags": [
+        "art-direction",
+        "photo-genre",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "genre": "environmental-portrait",
+        "treatment": "formal-precision"
+      },
+      "subcategory": "environmental-portrait",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-photo-genre-art-environmental-portrait-intimate-emphasis",
+      "semantic_key": "style-photo-genre-art-environmental-portrait-intimate-emphasis",
+      "text": "environmental portrait direction with intimate emphasis",
+      "sentence": "Environmental portrait direction with intimate emphasis.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "environmental portrait direction with intimate emphasis",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing environmental portrait direction with intimate emphasis",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with environmental portrait direction with intimate emphasis",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-photo-genre-art-environmental-portrait",
+      "tags": [
+        "art-direction",
+        "photo-genre",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "genre": "environmental-portrait",
+        "treatment": "intimate-emphasis"
+      },
+      "subcategory": "environmental-portrait",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-photo-genre-art-environmental-portrait-spatial-context",
+      "semantic_key": "style-photo-genre-art-environmental-portrait-spatial-context",
+      "text": "environmental portrait direction with spatial context",
+      "sentence": "Environmental portrait direction with spatial context.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "environmental portrait direction with spatial context",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing environmental portrait direction with spatial context",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with environmental portrait direction with spatial context",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-photo-genre-art-environmental-portrait",
+      "tags": [
+        "art-direction",
+        "photo-genre",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "genre": "environmental-portrait",
+        "treatment": "spatial-context"
+      },
+      "subcategory": "environmental-portrait",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-photo-genre-art-environmental-portrait-graphic-geometry",
+      "semantic_key": "style-photo-genre-art-environmental-portrait-graphic-geometry",
+      "text": "environmental portrait direction with graphic geometry",
+      "sentence": "Environmental portrait direction with graphic geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "environmental portrait direction with graphic geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing environmental portrait direction with graphic geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with environmental portrait direction with graphic geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "style-photo-genre-art-environmental-portrait",
+      "tags": [
+        "art-direction",
+        "photo-genre",
+        "rarity-uncommon",
+        "style"
+      ],
+      "facets": {
+        "genre": "environmental-portrait",
+        "treatment": "graphic-geometry"
+      },
+      "subcategory": "environmental-portrait",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-photo-genre-art-environmental-portrait-dynamic-energy",
+      "semantic_key": "style-photo-genre-art-environmental-portrait-dynamic-energy",
+      "text": "environmental portrait direction with dynamic energy",
+      "sentence": "Environmental portrait direction with dynamic energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "environmental portrait direction with dynamic energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing environmental portrait direction with dynamic energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with environmental portrait direction with dynamic energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "style-photo-genre-art-environmental-portrait",
+      "tags": [
+        "art-direction",
+        "photo-genre",
+        "rarity-uncommon",
+        "style"
+      ],
+      "facets": {
+        "genre": "environmental-portrait",
+        "treatment": "dynamic-energy"
+      },
+      "subcategory": "environmental-portrait",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-photo-genre-art-environmental-portrait-quiet-observation",
+      "semantic_key": "style-photo-genre-art-environmental-portrait-quiet-observation",
+      "text": "environmental portrait direction with quiet observation",
+      "sentence": "Environmental portrait direction with quiet observation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "environmental portrait direction with quiet observation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing environmental portrait direction with quiet observation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with environmental portrait direction with quiet observation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "style-photo-genre-art-environmental-portrait",
+      "tags": [
+        "art-direction",
+        "photo-genre",
+        "rarity-rare",
+        "style"
+      ],
+      "facets": {
+        "genre": "environmental-portrait",
+        "treatment": "quiet-observation"
+      },
+      "subcategory": "environmental-portrait",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-photo-genre-art-environmental-portrait-editorial-polish",
+      "semantic_key": "style-photo-genre-art-environmental-portrait-editorial-polish",
+      "text": "environmental portrait direction with editorial polish",
+      "sentence": "Environmental portrait direction with editorial polish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "environmental portrait direction with editorial polish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing environmental portrait direction with editorial polish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with environmental portrait direction with editorial polish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "style-photo-genre-art-environmental-portrait",
+      "tags": [
+        "art-direction",
+        "photo-genre",
+        "rarity-rare",
+        "style"
+      ],
+      "facets": {
+        "genre": "environmental-portrait",
+        "treatment": "editorial-polish"
+      },
+      "subcategory": "environmental-portrait",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-photo-genre-art-full-body-fashion-documentary-restraint",
+      "semantic_key": "style-photo-genre-art-full-body-fashion-documentary-restraint",
+      "text": "full-body fashion direction with documentary restraint",
+      "sentence": "Full-body fashion direction with documentary restraint.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "full-body fashion direction with documentary restraint",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing full-body fashion direction with documentary restraint",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with full-body fashion direction with documentary restraint",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-photo-genre-art-full-body-fashion",
+      "tags": [
+        "art-direction",
+        "photo-genre",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "genre": "full-body-fashion",
+        "treatment": "documentary-restraint"
+      },
+      "subcategory": "full-body-fashion",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-photo-genre-art-full-body-fashion-formal-precision",
+      "semantic_key": "style-photo-genre-art-full-body-fashion-formal-precision",
+      "text": "full-body fashion direction with formal precision",
+      "sentence": "Full-body fashion direction with formal precision.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "full-body fashion direction with formal precision",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing full-body fashion direction with formal precision",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with full-body fashion direction with formal precision",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-photo-genre-art-full-body-fashion",
+      "tags": [
+        "art-direction",
+        "photo-genre",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "genre": "full-body-fashion",
+        "treatment": "formal-precision"
+      },
+      "subcategory": "full-body-fashion",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-photo-genre-art-full-body-fashion-intimate-emphasis",
+      "semantic_key": "style-photo-genre-art-full-body-fashion-intimate-emphasis",
+      "text": "full-body fashion direction with intimate emphasis",
+      "sentence": "Full-body fashion direction with intimate emphasis.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "full-body fashion direction with intimate emphasis",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing full-body fashion direction with intimate emphasis",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with full-body fashion direction with intimate emphasis",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-photo-genre-art-full-body-fashion",
+      "tags": [
+        "art-direction",
+        "photo-genre",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "genre": "full-body-fashion",
+        "treatment": "intimate-emphasis"
+      },
+      "subcategory": "full-body-fashion",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-photo-genre-art-full-body-fashion-spatial-context",
+      "semantic_key": "style-photo-genre-art-full-body-fashion-spatial-context",
+      "text": "full-body fashion direction with spatial context",
+      "sentence": "Full-body fashion direction with spatial context.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "full-body fashion direction with spatial context",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing full-body fashion direction with spatial context",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with full-body fashion direction with spatial context",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "style-photo-genre-art-full-body-fashion",
+      "tags": [
+        "art-direction",
+        "photo-genre",
+        "rarity-common",
+        "style"
+      ],
+      "facets": {
+        "genre": "full-body-fashion",
+        "treatment": "spatial-context"
+      },
+      "subcategory": "full-body-fashion",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-photo-genre-art-full-body-fashion-graphic-geometry",
+      "semantic_key": "style-photo-genre-art-full-body-fashion-graphic-geometry",
+      "text": "full-body fashion direction with graphic geometry",
+      "sentence": "Full-body fashion direction with graphic geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "full-body fashion direction with graphic geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing full-body fashion direction with graphic geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with full-body fashion direction with graphic geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "style-photo-genre-art-full-body-fashion",
+      "tags": [
+        "art-direction",
+        "photo-genre",
+        "rarity-uncommon",
+        "style"
+      ],
+      "facets": {
+        "genre": "full-body-fashion",
+        "treatment": "graphic-geometry"
+      },
+      "subcategory": "full-body-fashion",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-photo-genre-art-full-body-fashion-dynamic-energy",
+      "semantic_key": "style-photo-genre-art-full-body-fashion-dynamic-energy",
+      "text": "full-body fashion direction with dynamic energy",
+      "sentence": "Full-body fashion direction with dynamic energy.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "full-body fashion direction with dynamic energy",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing full-body fashion direction with dynamic energy",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with full-body fashion direction with dynamic energy",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "style-photo-genre-art-full-body-fashion",
+      "tags": [
+        "art-direction",
+        "photo-genre",
+        "rarity-uncommon",
+        "style"
+      ],
+      "facets": {
+        "genre": "full-body-fashion",
+        "treatment": "dynamic-energy"
+      },
+      "subcategory": "full-body-fashion",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-photo-genre-art-full-body-fashion-quiet-observation",
+      "semantic_key": "style-photo-genre-art-full-body-fashion-quiet-observation",
+      "text": "full-body fashion direction with quiet observation",
+      "sentence": "Full-body fashion direction with quiet observation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "full-body fashion direction with quiet observation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing full-body fashion direction with quiet observation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with full-body fashion direction with quiet observation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "style-photo-genre-art-full-body-fashion",
+      "tags": [
+        "art-direction",
+        "photo-genre",
+        "rarity-rare",
+        "style"
+      ],
+      "facets": {
+        "genre": "full-body-fashion",
+        "treatment": "quiet-observation"
+      },
+      "subcategory": "full-body-fashion",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "style-photo-genre-art-full-body-fashion-editorial-polish",
+      "semantic_key": "style-photo-genre-art-full-body-fashion-editorial-polish",
+      "text": "full-body fashion direction with editorial polish",
+      "sentence": "Full-body fashion direction with editorial polish.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "full-body fashion direction with editorial polish",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing full-body fashion direction with editorial polish",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with full-body fashion direction with editorial polish",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "style-photo-genre-art-full-body-fashion",
+      "tags": [
+        "art-direction",
+        "photo-genre",
+        "rarity-rare",
+        "style"
+      ],
+      "facets": {
+        "genre": "full-body-fashion",
+        "treatment": "editorial-polish"
+      },
+      "subcategory": "full-body-fashion",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    }
+  ]
+}

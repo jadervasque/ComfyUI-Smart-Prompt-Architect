@@ -1,0 +1,2642 @@
+{
+  "schema_version": "2.0",
+  "id": "negative-anatomy",
+  "version": "2.0.0",
+  "library": "negative-anatomy",
+  "domain": "negative",
+  "category": "negative-anatomy",
+  "language": "en",
+  "status": "active",
+  "safety": "general",
+  "tags": [
+    "anatomy",
+    "level-standard"
+  ],
+  "fallback_option_id": "negative-anatomy-malformed-hands-minor-occurrence",
+  "options": [
+    {
+      "id": "negative-anatomy-malformed-hands-minor-occurrence",
+      "semantic_key": "negative-anatomy-malformed-hands-minor-occurrence",
+      "text": "malformed hands at minor occurrence",
+      "sentence": "Malformed hands at minor occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "malformed hands at minor occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid malformed hands at minor occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude malformed hands at minor occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-anatomy-malformed-hands",
+      "tags": [
+        "anatomy",
+        "level-standard",
+        "negative",
+        "negative-anatomy",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "malformed-hands",
+        "treatment": "minor-occurrence"
+      },
+      "subcategory": "malformed-hands",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-anatomy-malformed-hands-repeated-occurrence",
+      "semantic_key": "negative-anatomy-malformed-hands-repeated-occurrence",
+      "text": "malformed hands at repeated occurrence",
+      "sentence": "Malformed hands at repeated occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "malformed hands at repeated occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid malformed hands at repeated occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude malformed hands at repeated occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-anatomy-malformed-hands",
+      "tags": [
+        "anatomy",
+        "level-standard",
+        "negative",
+        "negative-anatomy",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "malformed-hands",
+        "treatment": "repeated-occurrence"
+      },
+      "subcategory": "malformed-hands",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-anatomy-malformed-hands-prominent-occurrence",
+      "semantic_key": "negative-anatomy-malformed-hands-prominent-occurrence",
+      "text": "malformed hands at prominent occurrence",
+      "sentence": "Malformed hands at prominent occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "malformed hands at prominent occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid malformed hands at prominent occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude malformed hands at prominent occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-anatomy-malformed-hands",
+      "tags": [
+        "anatomy",
+        "level-standard",
+        "negative",
+        "negative-anatomy",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "malformed-hands",
+        "treatment": "prominent-occurrence"
+      },
+      "subcategory": "malformed-hands",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-anatomy-malformed-hands-edge-occurrence",
+      "semantic_key": "negative-anatomy-malformed-hands-edge-occurrence",
+      "text": "malformed hands at edge occurrence",
+      "sentence": "Malformed hands at edge occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "malformed hands at edge occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid malformed hands at edge occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude malformed hands at edge occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-anatomy-malformed-hands",
+      "tags": [
+        "anatomy",
+        "level-standard",
+        "negative",
+        "negative-anatomy",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "malformed-hands",
+        "treatment": "edge-occurrence"
+      },
+      "subcategory": "malformed-hands",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-anatomy-malformed-hands-background-occurrence",
+      "semantic_key": "negative-anatomy-malformed-hands-background-occurrence",
+      "text": "malformed hands at background occurrence",
+      "sentence": "Malformed hands at background occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "malformed hands at background occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid malformed hands at background occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude malformed hands at background occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "negative-anatomy-malformed-hands",
+      "tags": [
+        "anatomy",
+        "level-standard",
+        "negative",
+        "negative-anatomy",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "artifact-family": "malformed-hands",
+        "treatment": "background-occurrence"
+      },
+      "subcategory": "malformed-hands",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-anatomy-malformed-hands-subject-occurrence",
+      "semantic_key": "negative-anatomy-malformed-hands-subject-occurrence",
+      "text": "malformed hands at subject occurrence",
+      "sentence": "Malformed hands at subject occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "malformed hands at subject occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid malformed hands at subject occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude malformed hands at subject occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "negative-anatomy-malformed-hands",
+      "tags": [
+        "anatomy",
+        "level-standard",
+        "negative",
+        "negative-anatomy",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "artifact-family": "malformed-hands",
+        "treatment": "subject-occurrence"
+      },
+      "subcategory": "malformed-hands",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-anatomy-malformed-hands-high-frequency-occurrence",
+      "semantic_key": "negative-anatomy-malformed-hands-high-frequency-occurrence",
+      "text": "malformed hands at high-frequency occurrence",
+      "sentence": "Malformed hands at high-frequency occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "malformed hands at high-frequency occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid malformed hands at high-frequency occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude malformed hands at high-frequency occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "negative-anatomy-malformed-hands",
+      "tags": [
+        "anatomy",
+        "level-standard",
+        "negative",
+        "negative-anatomy",
+        "rarity-rare"
+      ],
+      "facets": {
+        "artifact-family": "malformed-hands",
+        "treatment": "high-frequency-occurrence"
+      },
+      "subcategory": "malformed-hands",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-anatomy-malformed-hands-composition-wide-occurrence",
+      "semantic_key": "negative-anatomy-malformed-hands-composition-wide-occurrence",
+      "text": "malformed hands at composition-wide occurrence",
+      "sentence": "Malformed hands at composition-wide occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "malformed hands at composition-wide occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid malformed hands at composition-wide occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude malformed hands at composition-wide occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "negative-anatomy-malformed-hands",
+      "tags": [
+        "anatomy",
+        "level-standard",
+        "negative",
+        "negative-anatomy",
+        "rarity-rare"
+      ],
+      "facets": {
+        "artifact-family": "malformed-hands",
+        "treatment": "composition-wide-occurrence"
+      },
+      "subcategory": "malformed-hands",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-anatomy-extra-fingers-minor-occurrence",
+      "semantic_key": "negative-anatomy-extra-fingers-minor-occurrence",
+      "text": "extra fingers at minor occurrence",
+      "sentence": "Extra fingers at minor occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "extra fingers at minor occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid extra fingers at minor occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude extra fingers at minor occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-anatomy-extra-fingers",
+      "tags": [
+        "anatomy",
+        "level-standard",
+        "negative",
+        "negative-anatomy",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "extra-fingers",
+        "treatment": "minor-occurrence"
+      },
+      "subcategory": "extra-fingers",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-anatomy-extra-fingers-repeated-occurrence",
+      "semantic_key": "negative-anatomy-extra-fingers-repeated-occurrence",
+      "text": "extra fingers at repeated occurrence",
+      "sentence": "Extra fingers at repeated occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "extra fingers at repeated occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid extra fingers at repeated occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude extra fingers at repeated occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-anatomy-extra-fingers",
+      "tags": [
+        "anatomy",
+        "level-standard",
+        "negative",
+        "negative-anatomy",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "extra-fingers",
+        "treatment": "repeated-occurrence"
+      },
+      "subcategory": "extra-fingers",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-anatomy-extra-fingers-prominent-occurrence",
+      "semantic_key": "negative-anatomy-extra-fingers-prominent-occurrence",
+      "text": "extra fingers at prominent occurrence",
+      "sentence": "Extra fingers at prominent occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "extra fingers at prominent occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid extra fingers at prominent occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude extra fingers at prominent occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-anatomy-extra-fingers",
+      "tags": [
+        "anatomy",
+        "level-standard",
+        "negative",
+        "negative-anatomy",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "extra-fingers",
+        "treatment": "prominent-occurrence"
+      },
+      "subcategory": "extra-fingers",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-anatomy-extra-fingers-edge-occurrence",
+      "semantic_key": "negative-anatomy-extra-fingers-edge-occurrence",
+      "text": "extra fingers at edge occurrence",
+      "sentence": "Extra fingers at edge occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "extra fingers at edge occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid extra fingers at edge occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude extra fingers at edge occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-anatomy-extra-fingers",
+      "tags": [
+        "anatomy",
+        "level-standard",
+        "negative",
+        "negative-anatomy",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "extra-fingers",
+        "treatment": "edge-occurrence"
+      },
+      "subcategory": "extra-fingers",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-anatomy-extra-fingers-background-occurrence",
+      "semantic_key": "negative-anatomy-extra-fingers-background-occurrence",
+      "text": "extra fingers at background occurrence",
+      "sentence": "Extra fingers at background occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "extra fingers at background occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid extra fingers at background occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude extra fingers at background occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "negative-anatomy-extra-fingers",
+      "tags": [
+        "anatomy",
+        "level-standard",
+        "negative",
+        "negative-anatomy",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "artifact-family": "extra-fingers",
+        "treatment": "background-occurrence"
+      },
+      "subcategory": "extra-fingers",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-anatomy-extra-fingers-subject-occurrence",
+      "semantic_key": "negative-anatomy-extra-fingers-subject-occurrence",
+      "text": "extra fingers at subject occurrence",
+      "sentence": "Extra fingers at subject occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "extra fingers at subject occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid extra fingers at subject occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude extra fingers at subject occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "negative-anatomy-extra-fingers",
+      "tags": [
+        "anatomy",
+        "level-standard",
+        "negative",
+        "negative-anatomy",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "artifact-family": "extra-fingers",
+        "treatment": "subject-occurrence"
+      },
+      "subcategory": "extra-fingers",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-anatomy-extra-fingers-high-frequency-occurrence",
+      "semantic_key": "negative-anatomy-extra-fingers-high-frequency-occurrence",
+      "text": "extra fingers at high-frequency occurrence",
+      "sentence": "Extra fingers at high-frequency occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "extra fingers at high-frequency occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid extra fingers at high-frequency occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude extra fingers at high-frequency occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "negative-anatomy-extra-fingers",
+      "tags": [
+        "anatomy",
+        "level-standard",
+        "negative",
+        "negative-anatomy",
+        "rarity-rare"
+      ],
+      "facets": {
+        "artifact-family": "extra-fingers",
+        "treatment": "high-frequency-occurrence"
+      },
+      "subcategory": "extra-fingers",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-anatomy-extra-fingers-composition-wide-occurrence",
+      "semantic_key": "negative-anatomy-extra-fingers-composition-wide-occurrence",
+      "text": "extra fingers at composition-wide occurrence",
+      "sentence": "Extra fingers at composition-wide occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "extra fingers at composition-wide occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid extra fingers at composition-wide occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude extra fingers at composition-wide occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "negative-anatomy-extra-fingers",
+      "tags": [
+        "anatomy",
+        "level-standard",
+        "negative",
+        "negative-anatomy",
+        "rarity-rare"
+      ],
+      "facets": {
+        "artifact-family": "extra-fingers",
+        "treatment": "composition-wide-occurrence"
+      },
+      "subcategory": "extra-fingers",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-anatomy-missing-fingers-minor-occurrence",
+      "semantic_key": "negative-anatomy-missing-fingers-minor-occurrence",
+      "text": "missing fingers at minor occurrence",
+      "sentence": "Missing fingers at minor occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "missing fingers at minor occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid missing fingers at minor occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude missing fingers at minor occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-anatomy-missing-fingers",
+      "tags": [
+        "anatomy",
+        "level-standard",
+        "negative",
+        "negative-anatomy",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "missing-fingers",
+        "treatment": "minor-occurrence"
+      },
+      "subcategory": "missing-fingers",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-anatomy-missing-fingers-repeated-occurrence",
+      "semantic_key": "negative-anatomy-missing-fingers-repeated-occurrence",
+      "text": "missing fingers at repeated occurrence",
+      "sentence": "Missing fingers at repeated occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "missing fingers at repeated occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid missing fingers at repeated occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude missing fingers at repeated occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-anatomy-missing-fingers",
+      "tags": [
+        "anatomy",
+        "level-standard",
+        "negative",
+        "negative-anatomy",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "missing-fingers",
+        "treatment": "repeated-occurrence"
+      },
+      "subcategory": "missing-fingers",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-anatomy-missing-fingers-prominent-occurrence",
+      "semantic_key": "negative-anatomy-missing-fingers-prominent-occurrence",
+      "text": "missing fingers at prominent occurrence",
+      "sentence": "Missing fingers at prominent occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "missing fingers at prominent occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid missing fingers at prominent occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude missing fingers at prominent occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-anatomy-missing-fingers",
+      "tags": [
+        "anatomy",
+        "level-standard",
+        "negative",
+        "negative-anatomy",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "missing-fingers",
+        "treatment": "prominent-occurrence"
+      },
+      "subcategory": "missing-fingers",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-anatomy-missing-fingers-edge-occurrence",
+      "semantic_key": "negative-anatomy-missing-fingers-edge-occurrence",
+      "text": "missing fingers at edge occurrence",
+      "sentence": "Missing fingers at edge occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "missing fingers at edge occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid missing fingers at edge occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude missing fingers at edge occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-anatomy-missing-fingers",
+      "tags": [
+        "anatomy",
+        "level-standard",
+        "negative",
+        "negative-anatomy",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "missing-fingers",
+        "treatment": "edge-occurrence"
+      },
+      "subcategory": "missing-fingers",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-anatomy-missing-fingers-background-occurrence",
+      "semantic_key": "negative-anatomy-missing-fingers-background-occurrence",
+      "text": "missing fingers at background occurrence",
+      "sentence": "Missing fingers at background occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "missing fingers at background occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid missing fingers at background occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude missing fingers at background occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "negative-anatomy-missing-fingers",
+      "tags": [
+        "anatomy",
+        "level-standard",
+        "negative",
+        "negative-anatomy",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "artifact-family": "missing-fingers",
+        "treatment": "background-occurrence"
+      },
+      "subcategory": "missing-fingers",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-anatomy-missing-fingers-subject-occurrence",
+      "semantic_key": "negative-anatomy-missing-fingers-subject-occurrence",
+      "text": "missing fingers at subject occurrence",
+      "sentence": "Missing fingers at subject occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "missing fingers at subject occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid missing fingers at subject occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude missing fingers at subject occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "negative-anatomy-missing-fingers",
+      "tags": [
+        "anatomy",
+        "level-standard",
+        "negative",
+        "negative-anatomy",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "artifact-family": "missing-fingers",
+        "treatment": "subject-occurrence"
+      },
+      "subcategory": "missing-fingers",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-anatomy-missing-fingers-high-frequency-occurrence",
+      "semantic_key": "negative-anatomy-missing-fingers-high-frequency-occurrence",
+      "text": "missing fingers at high-frequency occurrence",
+      "sentence": "Missing fingers at high-frequency occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "missing fingers at high-frequency occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid missing fingers at high-frequency occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude missing fingers at high-frequency occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "negative-anatomy-missing-fingers",
+      "tags": [
+        "anatomy",
+        "level-standard",
+        "negative",
+        "negative-anatomy",
+        "rarity-rare"
+      ],
+      "facets": {
+        "artifact-family": "missing-fingers",
+        "treatment": "high-frequency-occurrence"
+      },
+      "subcategory": "missing-fingers",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-anatomy-missing-fingers-composition-wide-occurrence",
+      "semantic_key": "negative-anatomy-missing-fingers-composition-wide-occurrence",
+      "text": "missing fingers at composition-wide occurrence",
+      "sentence": "Missing fingers at composition-wide occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "missing fingers at composition-wide occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid missing fingers at composition-wide occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude missing fingers at composition-wide occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "negative-anatomy-missing-fingers",
+      "tags": [
+        "anatomy",
+        "level-standard",
+        "negative",
+        "negative-anatomy",
+        "rarity-rare"
+      ],
+      "facets": {
+        "artifact-family": "missing-fingers",
+        "treatment": "composition-wide-occurrence"
+      },
+      "subcategory": "missing-fingers",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-anatomy-fused-limbs-minor-occurrence",
+      "semantic_key": "negative-anatomy-fused-limbs-minor-occurrence",
+      "text": "fused limbs at minor occurrence",
+      "sentence": "Fused limbs at minor occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "fused limbs at minor occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid fused limbs at minor occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude fused limbs at minor occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-anatomy-fused-limbs",
+      "tags": [
+        "anatomy",
+        "level-standard",
+        "negative",
+        "negative-anatomy",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "fused-limbs",
+        "treatment": "minor-occurrence"
+      },
+      "subcategory": "fused-limbs",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-anatomy-fused-limbs-repeated-occurrence",
+      "semantic_key": "negative-anatomy-fused-limbs-repeated-occurrence",
+      "text": "fused limbs at repeated occurrence",
+      "sentence": "Fused limbs at repeated occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "fused limbs at repeated occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid fused limbs at repeated occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude fused limbs at repeated occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-anatomy-fused-limbs",
+      "tags": [
+        "anatomy",
+        "level-standard",
+        "negative",
+        "negative-anatomy",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "fused-limbs",
+        "treatment": "repeated-occurrence"
+      },
+      "subcategory": "fused-limbs",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-anatomy-fused-limbs-prominent-occurrence",
+      "semantic_key": "negative-anatomy-fused-limbs-prominent-occurrence",
+      "text": "fused limbs at prominent occurrence",
+      "sentence": "Fused limbs at prominent occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "fused limbs at prominent occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid fused limbs at prominent occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude fused limbs at prominent occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-anatomy-fused-limbs",
+      "tags": [
+        "anatomy",
+        "level-standard",
+        "negative",
+        "negative-anatomy",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "fused-limbs",
+        "treatment": "prominent-occurrence"
+      },
+      "subcategory": "fused-limbs",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-anatomy-fused-limbs-edge-occurrence",
+      "semantic_key": "negative-anatomy-fused-limbs-edge-occurrence",
+      "text": "fused limbs at edge occurrence",
+      "sentence": "Fused limbs at edge occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "fused limbs at edge occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid fused limbs at edge occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude fused limbs at edge occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-anatomy-fused-limbs",
+      "tags": [
+        "anatomy",
+        "level-standard",
+        "negative",
+        "negative-anatomy",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "fused-limbs",
+        "treatment": "edge-occurrence"
+      },
+      "subcategory": "fused-limbs",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-anatomy-fused-limbs-background-occurrence",
+      "semantic_key": "negative-anatomy-fused-limbs-background-occurrence",
+      "text": "fused limbs at background occurrence",
+      "sentence": "Fused limbs at background occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "fused limbs at background occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid fused limbs at background occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude fused limbs at background occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "negative-anatomy-fused-limbs",
+      "tags": [
+        "anatomy",
+        "level-standard",
+        "negative",
+        "negative-anatomy",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "artifact-family": "fused-limbs",
+        "treatment": "background-occurrence"
+      },
+      "subcategory": "fused-limbs",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-anatomy-fused-limbs-subject-occurrence",
+      "semantic_key": "negative-anatomy-fused-limbs-subject-occurrence",
+      "text": "fused limbs at subject occurrence",
+      "sentence": "Fused limbs at subject occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "fused limbs at subject occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid fused limbs at subject occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude fused limbs at subject occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "negative-anatomy-fused-limbs",
+      "tags": [
+        "anatomy",
+        "level-standard",
+        "negative",
+        "negative-anatomy",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "artifact-family": "fused-limbs",
+        "treatment": "subject-occurrence"
+      },
+      "subcategory": "fused-limbs",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-anatomy-fused-limbs-high-frequency-occurrence",
+      "semantic_key": "negative-anatomy-fused-limbs-high-frequency-occurrence",
+      "text": "fused limbs at high-frequency occurrence",
+      "sentence": "Fused limbs at high-frequency occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "fused limbs at high-frequency occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid fused limbs at high-frequency occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude fused limbs at high-frequency occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "negative-anatomy-fused-limbs",
+      "tags": [
+        "anatomy",
+        "level-standard",
+        "negative",
+        "negative-anatomy",
+        "rarity-rare"
+      ],
+      "facets": {
+        "artifact-family": "fused-limbs",
+        "treatment": "high-frequency-occurrence"
+      },
+      "subcategory": "fused-limbs",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-anatomy-fused-limbs-composition-wide-occurrence",
+      "semantic_key": "negative-anatomy-fused-limbs-composition-wide-occurrence",
+      "text": "fused limbs at composition-wide occurrence",
+      "sentence": "Fused limbs at composition-wide occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "fused limbs at composition-wide occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid fused limbs at composition-wide occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude fused limbs at composition-wide occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "negative-anatomy-fused-limbs",
+      "tags": [
+        "anatomy",
+        "level-standard",
+        "negative",
+        "negative-anatomy",
+        "rarity-rare"
+      ],
+      "facets": {
+        "artifact-family": "fused-limbs",
+        "treatment": "composition-wide-occurrence"
+      },
+      "subcategory": "fused-limbs",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-anatomy-duplicated-limbs-minor-occurrence",
+      "semantic_key": "negative-anatomy-duplicated-limbs-minor-occurrence",
+      "text": "duplicated limbs at minor occurrence",
+      "sentence": "Duplicated limbs at minor occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "duplicated limbs at minor occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid duplicated limbs at minor occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude duplicated limbs at minor occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-anatomy-duplicated-limbs",
+      "tags": [
+        "anatomy",
+        "level-standard",
+        "negative",
+        "negative-anatomy",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "duplicated-limbs",
+        "treatment": "minor-occurrence"
+      },
+      "subcategory": "duplicated-limbs",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-anatomy-duplicated-limbs-repeated-occurrence",
+      "semantic_key": "negative-anatomy-duplicated-limbs-repeated-occurrence",
+      "text": "duplicated limbs at repeated occurrence",
+      "sentence": "Duplicated limbs at repeated occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "duplicated limbs at repeated occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid duplicated limbs at repeated occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude duplicated limbs at repeated occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-anatomy-duplicated-limbs",
+      "tags": [
+        "anatomy",
+        "level-standard",
+        "negative",
+        "negative-anatomy",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "duplicated-limbs",
+        "treatment": "repeated-occurrence"
+      },
+      "subcategory": "duplicated-limbs",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-anatomy-duplicated-limbs-prominent-occurrence",
+      "semantic_key": "negative-anatomy-duplicated-limbs-prominent-occurrence",
+      "text": "duplicated limbs at prominent occurrence",
+      "sentence": "Duplicated limbs at prominent occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "duplicated limbs at prominent occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid duplicated limbs at prominent occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude duplicated limbs at prominent occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-anatomy-duplicated-limbs",
+      "tags": [
+        "anatomy",
+        "level-standard",
+        "negative",
+        "negative-anatomy",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "duplicated-limbs",
+        "treatment": "prominent-occurrence"
+      },
+      "subcategory": "duplicated-limbs",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-anatomy-duplicated-limbs-edge-occurrence",
+      "semantic_key": "negative-anatomy-duplicated-limbs-edge-occurrence",
+      "text": "duplicated limbs at edge occurrence",
+      "sentence": "Duplicated limbs at edge occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "duplicated limbs at edge occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid duplicated limbs at edge occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude duplicated limbs at edge occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-anatomy-duplicated-limbs",
+      "tags": [
+        "anatomy",
+        "level-standard",
+        "negative",
+        "negative-anatomy",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "duplicated-limbs",
+        "treatment": "edge-occurrence"
+      },
+      "subcategory": "duplicated-limbs",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-anatomy-duplicated-limbs-background-occurrence",
+      "semantic_key": "negative-anatomy-duplicated-limbs-background-occurrence",
+      "text": "duplicated limbs at background occurrence",
+      "sentence": "Duplicated limbs at background occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "duplicated limbs at background occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid duplicated limbs at background occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude duplicated limbs at background occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "negative-anatomy-duplicated-limbs",
+      "tags": [
+        "anatomy",
+        "level-standard",
+        "negative",
+        "negative-anatomy",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "artifact-family": "duplicated-limbs",
+        "treatment": "background-occurrence"
+      },
+      "subcategory": "duplicated-limbs",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-anatomy-duplicated-limbs-subject-occurrence",
+      "semantic_key": "negative-anatomy-duplicated-limbs-subject-occurrence",
+      "text": "duplicated limbs at subject occurrence",
+      "sentence": "Duplicated limbs at subject occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "duplicated limbs at subject occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid duplicated limbs at subject occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude duplicated limbs at subject occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "negative-anatomy-duplicated-limbs",
+      "tags": [
+        "anatomy",
+        "level-standard",
+        "negative",
+        "negative-anatomy",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "artifact-family": "duplicated-limbs",
+        "treatment": "subject-occurrence"
+      },
+      "subcategory": "duplicated-limbs",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-anatomy-duplicated-limbs-high-frequency-occurrence",
+      "semantic_key": "negative-anatomy-duplicated-limbs-high-frequency-occurrence",
+      "text": "duplicated limbs at high-frequency occurrence",
+      "sentence": "Duplicated limbs at high-frequency occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "duplicated limbs at high-frequency occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid duplicated limbs at high-frequency occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude duplicated limbs at high-frequency occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "negative-anatomy-duplicated-limbs",
+      "tags": [
+        "anatomy",
+        "level-standard",
+        "negative",
+        "negative-anatomy",
+        "rarity-rare"
+      ],
+      "facets": {
+        "artifact-family": "duplicated-limbs",
+        "treatment": "high-frequency-occurrence"
+      },
+      "subcategory": "duplicated-limbs",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-anatomy-duplicated-limbs-composition-wide-occurrence",
+      "semantic_key": "negative-anatomy-duplicated-limbs-composition-wide-occurrence",
+      "text": "duplicated limbs at composition-wide occurrence",
+      "sentence": "Duplicated limbs at composition-wide occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "duplicated limbs at composition-wide occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid duplicated limbs at composition-wide occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude duplicated limbs at composition-wide occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "negative-anatomy-duplicated-limbs",
+      "tags": [
+        "anatomy",
+        "level-standard",
+        "negative",
+        "negative-anatomy",
+        "rarity-rare"
+      ],
+      "facets": {
+        "artifact-family": "duplicated-limbs",
+        "treatment": "composition-wide-occurrence"
+      },
+      "subcategory": "duplicated-limbs",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-anatomy-misaligned-eyes-minor-occurrence",
+      "semantic_key": "negative-anatomy-misaligned-eyes-minor-occurrence",
+      "text": "misaligned eyes at minor occurrence",
+      "sentence": "Misaligned eyes at minor occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "misaligned eyes at minor occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid misaligned eyes at minor occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude misaligned eyes at minor occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-anatomy-misaligned-eyes",
+      "tags": [
+        "anatomy",
+        "level-standard",
+        "negative",
+        "negative-anatomy",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "misaligned-eyes",
+        "treatment": "minor-occurrence"
+      },
+      "subcategory": "misaligned-eyes",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-anatomy-misaligned-eyes-repeated-occurrence",
+      "semantic_key": "negative-anatomy-misaligned-eyes-repeated-occurrence",
+      "text": "misaligned eyes at repeated occurrence",
+      "sentence": "Misaligned eyes at repeated occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "misaligned eyes at repeated occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid misaligned eyes at repeated occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude misaligned eyes at repeated occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-anatomy-misaligned-eyes",
+      "tags": [
+        "anatomy",
+        "level-standard",
+        "negative",
+        "negative-anatomy",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "misaligned-eyes",
+        "treatment": "repeated-occurrence"
+      },
+      "subcategory": "misaligned-eyes",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-anatomy-misaligned-eyes-prominent-occurrence",
+      "semantic_key": "negative-anatomy-misaligned-eyes-prominent-occurrence",
+      "text": "misaligned eyes at prominent occurrence",
+      "sentence": "Misaligned eyes at prominent occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "misaligned eyes at prominent occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid misaligned eyes at prominent occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude misaligned eyes at prominent occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-anatomy-misaligned-eyes",
+      "tags": [
+        "anatomy",
+        "level-standard",
+        "negative",
+        "negative-anatomy",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "misaligned-eyes",
+        "treatment": "prominent-occurrence"
+      },
+      "subcategory": "misaligned-eyes",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-anatomy-misaligned-eyes-edge-occurrence",
+      "semantic_key": "negative-anatomy-misaligned-eyes-edge-occurrence",
+      "text": "misaligned eyes at edge occurrence",
+      "sentence": "Misaligned eyes at edge occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "misaligned eyes at edge occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid misaligned eyes at edge occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude misaligned eyes at edge occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-anatomy-misaligned-eyes",
+      "tags": [
+        "anatomy",
+        "level-standard",
+        "negative",
+        "negative-anatomy",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "misaligned-eyes",
+        "treatment": "edge-occurrence"
+      },
+      "subcategory": "misaligned-eyes",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-anatomy-misaligned-eyes-background-occurrence",
+      "semantic_key": "negative-anatomy-misaligned-eyes-background-occurrence",
+      "text": "misaligned eyes at background occurrence",
+      "sentence": "Misaligned eyes at background occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "misaligned eyes at background occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid misaligned eyes at background occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude misaligned eyes at background occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "negative-anatomy-misaligned-eyes",
+      "tags": [
+        "anatomy",
+        "level-standard",
+        "negative",
+        "negative-anatomy",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "artifact-family": "misaligned-eyes",
+        "treatment": "background-occurrence"
+      },
+      "subcategory": "misaligned-eyes",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-anatomy-misaligned-eyes-subject-occurrence",
+      "semantic_key": "negative-anatomy-misaligned-eyes-subject-occurrence",
+      "text": "misaligned eyes at subject occurrence",
+      "sentence": "Misaligned eyes at subject occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "misaligned eyes at subject occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid misaligned eyes at subject occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude misaligned eyes at subject occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "negative-anatomy-misaligned-eyes",
+      "tags": [
+        "anatomy",
+        "level-standard",
+        "negative",
+        "negative-anatomy",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "artifact-family": "misaligned-eyes",
+        "treatment": "subject-occurrence"
+      },
+      "subcategory": "misaligned-eyes",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-anatomy-misaligned-eyes-high-frequency-occurrence",
+      "semantic_key": "negative-anatomy-misaligned-eyes-high-frequency-occurrence",
+      "text": "misaligned eyes at high-frequency occurrence",
+      "sentence": "Misaligned eyes at high-frequency occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "misaligned eyes at high-frequency occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid misaligned eyes at high-frequency occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude misaligned eyes at high-frequency occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "negative-anatomy-misaligned-eyes",
+      "tags": [
+        "anatomy",
+        "level-standard",
+        "negative",
+        "negative-anatomy",
+        "rarity-rare"
+      ],
+      "facets": {
+        "artifact-family": "misaligned-eyes",
+        "treatment": "high-frequency-occurrence"
+      },
+      "subcategory": "misaligned-eyes",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-anatomy-misaligned-eyes-composition-wide-occurrence",
+      "semantic_key": "negative-anatomy-misaligned-eyes-composition-wide-occurrence",
+      "text": "misaligned eyes at composition-wide occurrence",
+      "sentence": "Misaligned eyes at composition-wide occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "misaligned eyes at composition-wide occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid misaligned eyes at composition-wide occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude misaligned eyes at composition-wide occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "negative-anatomy-misaligned-eyes",
+      "tags": [
+        "anatomy",
+        "level-standard",
+        "negative",
+        "negative-anatomy",
+        "rarity-rare"
+      ],
+      "facets": {
+        "artifact-family": "misaligned-eyes",
+        "treatment": "composition-wide-occurrence"
+      },
+      "subcategory": "misaligned-eyes",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-anatomy-distorted-facial-structure-minor-occurrence",
+      "semantic_key": "negative-anatomy-distorted-facial-structure-minor-occurrence",
+      "text": "distorted facial structure at minor occurrence",
+      "sentence": "Distorted facial structure at minor occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "distorted facial structure at minor occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid distorted facial structure at minor occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude distorted facial structure at minor occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-anatomy-distorted-facial-structure",
+      "tags": [
+        "anatomy",
+        "level-standard",
+        "negative",
+        "negative-anatomy",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "distorted-facial-structure",
+        "treatment": "minor-occurrence"
+      },
+      "subcategory": "distorted-facial-structure",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-anatomy-distorted-facial-structure-repeated-occurrence",
+      "semantic_key": "negative-anatomy-distorted-facial-structure-repeated-occurrence",
+      "text": "distorted facial structure at repeated occurrence",
+      "sentence": "Distorted facial structure at repeated occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "distorted facial structure at repeated occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid distorted facial structure at repeated occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude distorted facial structure at repeated occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-anatomy-distorted-facial-structure",
+      "tags": [
+        "anatomy",
+        "level-standard",
+        "negative",
+        "negative-anatomy",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "distorted-facial-structure",
+        "treatment": "repeated-occurrence"
+      },
+      "subcategory": "distorted-facial-structure",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-anatomy-distorted-facial-structure-prominent-occurrence",
+      "semantic_key": "negative-anatomy-distorted-facial-structure-prominent-occurrence",
+      "text": "distorted facial structure at prominent occurrence",
+      "sentence": "Distorted facial structure at prominent occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "distorted facial structure at prominent occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid distorted facial structure at prominent occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude distorted facial structure at prominent occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-anatomy-distorted-facial-structure",
+      "tags": [
+        "anatomy",
+        "level-standard",
+        "negative",
+        "negative-anatomy",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "distorted-facial-structure",
+        "treatment": "prominent-occurrence"
+      },
+      "subcategory": "distorted-facial-structure",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-anatomy-distorted-facial-structure-edge-occurrence",
+      "semantic_key": "negative-anatomy-distorted-facial-structure-edge-occurrence",
+      "text": "distorted facial structure at edge occurrence",
+      "sentence": "Distorted facial structure at edge occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "distorted facial structure at edge occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid distorted facial structure at edge occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude distorted facial structure at edge occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-anatomy-distorted-facial-structure",
+      "tags": [
+        "anatomy",
+        "level-standard",
+        "negative",
+        "negative-anatomy",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "distorted-facial-structure",
+        "treatment": "edge-occurrence"
+      },
+      "subcategory": "distorted-facial-structure",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-anatomy-distorted-facial-structure-background-occurrence",
+      "semantic_key": "negative-anatomy-distorted-facial-structure-background-occurrence",
+      "text": "distorted facial structure at background occurrence",
+      "sentence": "Distorted facial structure at background occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "distorted facial structure at background occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid distorted facial structure at background occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude distorted facial structure at background occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "negative-anatomy-distorted-facial-structure",
+      "tags": [
+        "anatomy",
+        "level-standard",
+        "negative",
+        "negative-anatomy",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "artifact-family": "distorted-facial-structure",
+        "treatment": "background-occurrence"
+      },
+      "subcategory": "distorted-facial-structure",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-anatomy-distorted-facial-structure-subject-occurrence",
+      "semantic_key": "negative-anatomy-distorted-facial-structure-subject-occurrence",
+      "text": "distorted facial structure at subject occurrence",
+      "sentence": "Distorted facial structure at subject occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "distorted facial structure at subject occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid distorted facial structure at subject occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude distorted facial structure at subject occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "negative-anatomy-distorted-facial-structure",
+      "tags": [
+        "anatomy",
+        "level-standard",
+        "negative",
+        "negative-anatomy",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "artifact-family": "distorted-facial-structure",
+        "treatment": "subject-occurrence"
+      },
+      "subcategory": "distorted-facial-structure",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-anatomy-distorted-facial-structure-high-frequency-occurrence",
+      "semantic_key": "negative-anatomy-distorted-facial-structure-high-frequency-occurrence",
+      "text": "distorted facial structure at high-frequency occurrence",
+      "sentence": "Distorted facial structure at high-frequency occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "distorted facial structure at high-frequency occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid distorted facial structure at high-frequency occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude distorted facial structure at high-frequency occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "negative-anatomy-distorted-facial-structure",
+      "tags": [
+        "anatomy",
+        "level-standard",
+        "negative",
+        "negative-anatomy",
+        "rarity-rare"
+      ],
+      "facets": {
+        "artifact-family": "distorted-facial-structure",
+        "treatment": "high-frequency-occurrence"
+      },
+      "subcategory": "distorted-facial-structure",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-anatomy-distorted-facial-structure-composition-wide-occurrence",
+      "semantic_key": "negative-anatomy-distorted-facial-structure-composition-wide-occurrence",
+      "text": "distorted facial structure at composition-wide occurrence",
+      "sentence": "Distorted facial structure at composition-wide occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "distorted facial structure at composition-wide occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid distorted facial structure at composition-wide occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude distorted facial structure at composition-wide occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "negative-anatomy-distorted-facial-structure",
+      "tags": [
+        "anatomy",
+        "level-standard",
+        "negative",
+        "negative-anatomy",
+        "rarity-rare"
+      ],
+      "facets": {
+        "artifact-family": "distorted-facial-structure",
+        "treatment": "composition-wide-occurrence"
+      },
+      "subcategory": "distorted-facial-structure",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-anatomy-impossible-joint-direction-minor-occurrence",
+      "semantic_key": "negative-anatomy-impossible-joint-direction-minor-occurrence",
+      "text": "impossible joint direction at minor occurrence",
+      "sentence": "Impossible joint direction at minor occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "impossible joint direction at minor occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid impossible joint direction at minor occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude impossible joint direction at minor occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-anatomy-impossible-joint-direction",
+      "tags": [
+        "anatomy",
+        "level-standard",
+        "negative",
+        "negative-anatomy",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "impossible-joint-direction",
+        "treatment": "minor-occurrence"
+      },
+      "subcategory": "impossible-joint-direction",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-anatomy-impossible-joint-direction-repeated-occurrence",
+      "semantic_key": "negative-anatomy-impossible-joint-direction-repeated-occurrence",
+      "text": "impossible joint direction at repeated occurrence",
+      "sentence": "Impossible joint direction at repeated occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "impossible joint direction at repeated occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid impossible joint direction at repeated occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude impossible joint direction at repeated occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-anatomy-impossible-joint-direction",
+      "tags": [
+        "anatomy",
+        "level-standard",
+        "negative",
+        "negative-anatomy",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "impossible-joint-direction",
+        "treatment": "repeated-occurrence"
+      },
+      "subcategory": "impossible-joint-direction",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-anatomy-impossible-joint-direction-prominent-occurrence",
+      "semantic_key": "negative-anatomy-impossible-joint-direction-prominent-occurrence",
+      "text": "impossible joint direction at prominent occurrence",
+      "sentence": "Impossible joint direction at prominent occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "impossible joint direction at prominent occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid impossible joint direction at prominent occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude impossible joint direction at prominent occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-anatomy-impossible-joint-direction",
+      "tags": [
+        "anatomy",
+        "level-standard",
+        "negative",
+        "negative-anatomy",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "impossible-joint-direction",
+        "treatment": "prominent-occurrence"
+      },
+      "subcategory": "impossible-joint-direction",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-anatomy-impossible-joint-direction-edge-occurrence",
+      "semantic_key": "negative-anatomy-impossible-joint-direction-edge-occurrence",
+      "text": "impossible joint direction at edge occurrence",
+      "sentence": "Impossible joint direction at edge occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "impossible joint direction at edge occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid impossible joint direction at edge occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude impossible joint direction at edge occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "negative-anatomy-impossible-joint-direction",
+      "tags": [
+        "anatomy",
+        "level-standard",
+        "negative",
+        "negative-anatomy",
+        "rarity-common"
+      ],
+      "facets": {
+        "artifact-family": "impossible-joint-direction",
+        "treatment": "edge-occurrence"
+      },
+      "subcategory": "impossible-joint-direction",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-anatomy-impossible-joint-direction-background-occurrence",
+      "semantic_key": "negative-anatomy-impossible-joint-direction-background-occurrence",
+      "text": "impossible joint direction at background occurrence",
+      "sentence": "Impossible joint direction at background occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "impossible joint direction at background occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid impossible joint direction at background occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude impossible joint direction at background occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "negative-anatomy-impossible-joint-direction",
+      "tags": [
+        "anatomy",
+        "level-standard",
+        "negative",
+        "negative-anatomy",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "artifact-family": "impossible-joint-direction",
+        "treatment": "background-occurrence"
+      },
+      "subcategory": "impossible-joint-direction",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-anatomy-impossible-joint-direction-subject-occurrence",
+      "semantic_key": "negative-anatomy-impossible-joint-direction-subject-occurrence",
+      "text": "impossible joint direction at subject occurrence",
+      "sentence": "Impossible joint direction at subject occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "impossible joint direction at subject occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid impossible joint direction at subject occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude impossible joint direction at subject occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "negative-anatomy-impossible-joint-direction",
+      "tags": [
+        "anatomy",
+        "level-standard",
+        "negative",
+        "negative-anatomy",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "artifact-family": "impossible-joint-direction",
+        "treatment": "subject-occurrence"
+      },
+      "subcategory": "impossible-joint-direction",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-anatomy-impossible-joint-direction-high-frequency-occurrence",
+      "semantic_key": "negative-anatomy-impossible-joint-direction-high-frequency-occurrence",
+      "text": "impossible joint direction at high-frequency occurrence",
+      "sentence": "Impossible joint direction at high-frequency occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "impossible joint direction at high-frequency occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid impossible joint direction at high-frequency occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude impossible joint direction at high-frequency occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "negative-anatomy-impossible-joint-direction",
+      "tags": [
+        "anatomy",
+        "level-standard",
+        "negative",
+        "negative-anatomy",
+        "rarity-rare"
+      ],
+      "facets": {
+        "artifact-family": "impossible-joint-direction",
+        "treatment": "high-frequency-occurrence"
+      },
+      "subcategory": "impossible-joint-direction",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "negative-anatomy-impossible-joint-direction-composition-wide-occurrence",
+      "semantic_key": "negative-anatomy-impossible-joint-direction-composition-wide-occurrence",
+      "text": "impossible joint direction at composition-wide occurrence",
+      "sentence": "Impossible joint direction at composition-wide occurrence.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "impossible joint direction at composition-wide occurrence",
+          "weight": 1.0
+        },
+        {
+          "id": "avoid",
+          "text": "avoid impossible joint direction at composition-wide occurrence",
+          "weight": 0.8
+        },
+        {
+          "id": "exclude",
+          "text": "exclude impossible joint direction at composition-wide occurrence",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "negative-anatomy-impossible-joint-direction",
+      "tags": [
+        "anatomy",
+        "level-standard",
+        "negative",
+        "negative-anatomy",
+        "rarity-rare"
+      ],
+      "facets": {
+        "artifact-family": "impossible-joint-direction",
+        "treatment": "composition-wide-occurrence"
+      },
+      "subcategory": "impossible-joint-direction",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    }
+  ]
+}

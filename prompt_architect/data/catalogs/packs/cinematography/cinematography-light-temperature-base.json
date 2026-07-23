@@ -1,0 +1,2577 @@
+{
+  "schema_version": "2.0",
+  "id": "cinematography-light-temperature-base",
+  "version": "2.0.0",
+  "library": "light-temperature",
+  "domain": "cinematography",
+  "category": "light-temperature",
+  "language": "en",
+  "status": "active",
+  "safety": "general",
+  "tags": [
+    "base"
+  ],
+  "fallback_option_id": "cinematography-light-temperature-base-cool-blue-light-muted-saturation",
+  "options": [
+    {
+      "id": "cinematography-light-temperature-base-cool-blue-light-muted-saturation",
+      "semantic_key": "cinematography-light-temperature-base-cool-blue-light-muted-saturation",
+      "text": "cool blue light with muted saturation",
+      "sentence": "Cool blue light with muted saturation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "cool blue light with muted saturation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing cool blue light with muted saturation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with cool blue light with muted saturation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-temperature-base-cool-blue-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-temperature",
+        "rarity-common"
+      ],
+      "facets": {
+        "temperature": "cool-blue-light",
+        "treatment": "muted-saturation"
+      },
+      "subcategory": "cool-blue-light",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-temperature-base-cool-blue-light-balanced-saturation",
+      "semantic_key": "cinematography-light-temperature-base-cool-blue-light-balanced-saturation",
+      "text": "cool blue light with balanced saturation",
+      "sentence": "Cool blue light with balanced saturation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "cool blue light with balanced saturation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing cool blue light with balanced saturation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with cool blue light with balanced saturation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-temperature-base-cool-blue-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-temperature",
+        "rarity-common"
+      ],
+      "facets": {
+        "temperature": "cool-blue-light",
+        "treatment": "balanced-saturation"
+      },
+      "subcategory": "cool-blue-light",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-temperature-base-cool-blue-light-rich-saturation",
+      "semantic_key": "cinematography-light-temperature-base-cool-blue-light-rich-saturation",
+      "text": "cool blue light with rich saturation",
+      "sentence": "Cool blue light with rich saturation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "cool blue light with rich saturation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing cool blue light with rich saturation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with cool blue light with rich saturation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-temperature-base-cool-blue-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-temperature",
+        "rarity-common"
+      ],
+      "facets": {
+        "temperature": "cool-blue-light",
+        "treatment": "rich-saturation"
+      },
+      "subcategory": "cool-blue-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-temperature-base-cool-blue-light-pale-value-range",
+      "semantic_key": "cinematography-light-temperature-base-cool-blue-light-pale-value-range",
+      "text": "cool blue light with pale value range",
+      "sentence": "Cool blue light with pale value range.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "cool blue light with pale value range",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing cool blue light with pale value range",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with cool blue light with pale value range",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-temperature-base-cool-blue-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-temperature",
+        "rarity-common"
+      ],
+      "facets": {
+        "temperature": "cool-blue-light",
+        "treatment": "pale-value-range"
+      },
+      "subcategory": "cool-blue-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-temperature-base-cool-blue-light-deep-value-range",
+      "semantic_key": "cinematography-light-temperature-base-cool-blue-light-deep-value-range",
+      "text": "cool blue light with deep value range",
+      "sentence": "Cool blue light with deep value range.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "cool blue light with deep value range",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing cool blue light with deep value range",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with cool blue light with deep value range",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-light-temperature-base-cool-blue-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-temperature",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "temperature": "cool-blue-light",
+        "treatment": "deep-value-range"
+      },
+      "subcategory": "cool-blue-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-temperature-base-cool-blue-light-warm-color-bias",
+      "semantic_key": "cinematography-light-temperature-base-cool-blue-light-warm-color-bias",
+      "text": "cool blue light with warm color bias",
+      "sentence": "Cool blue light with warm color bias.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "cool blue light with warm color bias",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing cool blue light with warm color bias",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with cool blue light with warm color bias",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-light-temperature-base-cool-blue-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-temperature",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "temperature": "cool-blue-light",
+        "treatment": "warm-color-bias"
+      },
+      "subcategory": "cool-blue-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-temperature-base-cool-blue-light-cool-color-bias",
+      "semantic_key": "cinematography-light-temperature-base-cool-blue-light-cool-color-bias",
+      "text": "cool blue light with cool color bias",
+      "sentence": "Cool blue light with cool color bias.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "cool blue light with cool color bias",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing cool blue light with cool color bias",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with cool blue light with cool color bias",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-light-temperature-base-cool-blue-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-temperature",
+        "rarity-rare"
+      ],
+      "facets": {
+        "temperature": "cool-blue-light",
+        "treatment": "cool-color-bias"
+      },
+      "subcategory": "cool-blue-light",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-temperature-base-cool-blue-light-neutral-color-balance",
+      "semantic_key": "cinematography-light-temperature-base-cool-blue-light-neutral-color-balance",
+      "text": "cool blue light with neutral color balance",
+      "sentence": "Cool blue light with neutral color balance.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "cool blue light with neutral color balance",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing cool blue light with neutral color balance",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with cool blue light with neutral color balance",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-light-temperature-base-cool-blue-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-temperature",
+        "rarity-rare"
+      ],
+      "facets": {
+        "temperature": "cool-blue-light",
+        "treatment": "neutral-color-balance"
+      },
+      "subcategory": "cool-blue-light",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-temperature-base-cool-neutral-light-muted-saturation",
+      "semantic_key": "cinematography-light-temperature-base-cool-neutral-light-muted-saturation",
+      "text": "cool-neutral light with muted saturation",
+      "sentence": "Cool-neutral light with muted saturation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "cool-neutral light with muted saturation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing cool-neutral light with muted saturation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with cool-neutral light with muted saturation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-temperature-base-cool-neutral-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-temperature",
+        "rarity-common"
+      ],
+      "facets": {
+        "temperature": "cool-neutral-light",
+        "treatment": "muted-saturation"
+      },
+      "subcategory": "cool-neutral-light",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-temperature-base-cool-neutral-light-balanced-saturation",
+      "semantic_key": "cinematography-light-temperature-base-cool-neutral-light-balanced-saturation",
+      "text": "cool-neutral light with balanced saturation",
+      "sentence": "Cool-neutral light with balanced saturation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "cool-neutral light with balanced saturation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing cool-neutral light with balanced saturation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with cool-neutral light with balanced saturation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-temperature-base-cool-neutral-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-temperature",
+        "rarity-common"
+      ],
+      "facets": {
+        "temperature": "cool-neutral-light",
+        "treatment": "balanced-saturation"
+      },
+      "subcategory": "cool-neutral-light",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-temperature-base-cool-neutral-light-rich-saturation",
+      "semantic_key": "cinematography-light-temperature-base-cool-neutral-light-rich-saturation",
+      "text": "cool-neutral light with rich saturation",
+      "sentence": "Cool-neutral light with rich saturation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "cool-neutral light with rich saturation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing cool-neutral light with rich saturation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with cool-neutral light with rich saturation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-temperature-base-cool-neutral-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-temperature",
+        "rarity-common"
+      ],
+      "facets": {
+        "temperature": "cool-neutral-light",
+        "treatment": "rich-saturation"
+      },
+      "subcategory": "cool-neutral-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-temperature-base-cool-neutral-light-pale-value-range",
+      "semantic_key": "cinematography-light-temperature-base-cool-neutral-light-pale-value-range",
+      "text": "cool-neutral light with pale value range",
+      "sentence": "Cool-neutral light with pale value range.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "cool-neutral light with pale value range",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing cool-neutral light with pale value range",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with cool-neutral light with pale value range",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-temperature-base-cool-neutral-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-temperature",
+        "rarity-common"
+      ],
+      "facets": {
+        "temperature": "cool-neutral-light",
+        "treatment": "pale-value-range"
+      },
+      "subcategory": "cool-neutral-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-temperature-base-cool-neutral-light-deep-value-range",
+      "semantic_key": "cinematography-light-temperature-base-cool-neutral-light-deep-value-range",
+      "text": "cool-neutral light with deep value range",
+      "sentence": "Cool-neutral light with deep value range.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "cool-neutral light with deep value range",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing cool-neutral light with deep value range",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with cool-neutral light with deep value range",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-light-temperature-base-cool-neutral-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-temperature",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "temperature": "cool-neutral-light",
+        "treatment": "deep-value-range"
+      },
+      "subcategory": "cool-neutral-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-temperature-base-cool-neutral-light-warm-color-bias",
+      "semantic_key": "cinematography-light-temperature-base-cool-neutral-light-warm-color-bias",
+      "text": "cool-neutral light with warm color bias",
+      "sentence": "Cool-neutral light with warm color bias.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "cool-neutral light with warm color bias",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing cool-neutral light with warm color bias",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with cool-neutral light with warm color bias",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-light-temperature-base-cool-neutral-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-temperature",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "temperature": "cool-neutral-light",
+        "treatment": "warm-color-bias"
+      },
+      "subcategory": "cool-neutral-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-temperature-base-cool-neutral-light-cool-color-bias",
+      "semantic_key": "cinematography-light-temperature-base-cool-neutral-light-cool-color-bias",
+      "text": "cool-neutral light with cool color bias",
+      "sentence": "Cool-neutral light with cool color bias.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "cool-neutral light with cool color bias",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing cool-neutral light with cool color bias",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with cool-neutral light with cool color bias",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-light-temperature-base-cool-neutral-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-temperature",
+        "rarity-rare"
+      ],
+      "facets": {
+        "temperature": "cool-neutral-light",
+        "treatment": "cool-color-bias"
+      },
+      "subcategory": "cool-neutral-light",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-temperature-base-cool-neutral-light-neutral-color-balance",
+      "semantic_key": "cinematography-light-temperature-base-cool-neutral-light-neutral-color-balance",
+      "text": "cool-neutral light with neutral color balance",
+      "sentence": "Cool-neutral light with neutral color balance.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "cool-neutral light with neutral color balance",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing cool-neutral light with neutral color balance",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with cool-neutral light with neutral color balance",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-light-temperature-base-cool-neutral-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-temperature",
+        "rarity-rare"
+      ],
+      "facets": {
+        "temperature": "cool-neutral-light",
+        "treatment": "neutral-color-balance"
+      },
+      "subcategory": "cool-neutral-light",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-temperature-base-neutral-white-light-muted-saturation",
+      "semantic_key": "cinematography-light-temperature-base-neutral-white-light-muted-saturation",
+      "text": "neutral white light with muted saturation",
+      "sentence": "Neutral white light with muted saturation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "neutral white light with muted saturation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing neutral white light with muted saturation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with neutral white light with muted saturation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-temperature-base-neutral-white-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-temperature",
+        "rarity-common"
+      ],
+      "facets": {
+        "temperature": "neutral-white-light",
+        "treatment": "muted-saturation"
+      },
+      "subcategory": "neutral-white-light",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-temperature-base-neutral-white-light-balanced-saturation",
+      "semantic_key": "cinematography-light-temperature-base-neutral-white-light-balanced-saturation",
+      "text": "neutral white light with balanced saturation",
+      "sentence": "Neutral white light with balanced saturation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "neutral white light with balanced saturation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing neutral white light with balanced saturation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with neutral white light with balanced saturation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-temperature-base-neutral-white-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-temperature",
+        "rarity-common"
+      ],
+      "facets": {
+        "temperature": "neutral-white-light",
+        "treatment": "balanced-saturation"
+      },
+      "subcategory": "neutral-white-light",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-temperature-base-neutral-white-light-rich-saturation",
+      "semantic_key": "cinematography-light-temperature-base-neutral-white-light-rich-saturation",
+      "text": "neutral white light with rich saturation",
+      "sentence": "Neutral white light with rich saturation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "neutral white light with rich saturation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing neutral white light with rich saturation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with neutral white light with rich saturation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-temperature-base-neutral-white-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-temperature",
+        "rarity-common"
+      ],
+      "facets": {
+        "temperature": "neutral-white-light",
+        "treatment": "rich-saturation"
+      },
+      "subcategory": "neutral-white-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-temperature-base-neutral-white-light-pale-value-range",
+      "semantic_key": "cinematography-light-temperature-base-neutral-white-light-pale-value-range",
+      "text": "neutral white light with pale value range",
+      "sentence": "Neutral white light with pale value range.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "neutral white light with pale value range",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing neutral white light with pale value range",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with neutral white light with pale value range",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-temperature-base-neutral-white-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-temperature",
+        "rarity-common"
+      ],
+      "facets": {
+        "temperature": "neutral-white-light",
+        "treatment": "pale-value-range"
+      },
+      "subcategory": "neutral-white-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-temperature-base-neutral-white-light-deep-value-range",
+      "semantic_key": "cinematography-light-temperature-base-neutral-white-light-deep-value-range",
+      "text": "neutral white light with deep value range",
+      "sentence": "Neutral white light with deep value range.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "neutral white light with deep value range",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing neutral white light with deep value range",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with neutral white light with deep value range",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-light-temperature-base-neutral-white-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-temperature",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "temperature": "neutral-white-light",
+        "treatment": "deep-value-range"
+      },
+      "subcategory": "neutral-white-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-temperature-base-neutral-white-light-warm-color-bias",
+      "semantic_key": "cinematography-light-temperature-base-neutral-white-light-warm-color-bias",
+      "text": "neutral white light with warm color bias",
+      "sentence": "Neutral white light with warm color bias.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "neutral white light with warm color bias",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing neutral white light with warm color bias",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with neutral white light with warm color bias",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-light-temperature-base-neutral-white-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-temperature",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "temperature": "neutral-white-light",
+        "treatment": "warm-color-bias"
+      },
+      "subcategory": "neutral-white-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-temperature-base-neutral-white-light-cool-color-bias",
+      "semantic_key": "cinematography-light-temperature-base-neutral-white-light-cool-color-bias",
+      "text": "neutral white light with cool color bias",
+      "sentence": "Neutral white light with cool color bias.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "neutral white light with cool color bias",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing neutral white light with cool color bias",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with neutral white light with cool color bias",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-light-temperature-base-neutral-white-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-temperature",
+        "rarity-rare"
+      ],
+      "facets": {
+        "temperature": "neutral-white-light",
+        "treatment": "cool-color-bias"
+      },
+      "subcategory": "neutral-white-light",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-temperature-base-neutral-white-light-neutral-color-balance",
+      "semantic_key": "cinematography-light-temperature-base-neutral-white-light-neutral-color-balance",
+      "text": "neutral white light with neutral color balance",
+      "sentence": "Neutral white light with neutral color balance.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "neutral white light with neutral color balance",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing neutral white light with neutral color balance",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with neutral white light with neutral color balance",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-light-temperature-base-neutral-white-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-temperature",
+        "rarity-rare"
+      ],
+      "facets": {
+        "temperature": "neutral-white-light",
+        "treatment": "neutral-color-balance"
+      },
+      "subcategory": "neutral-white-light",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-temperature-base-warm-neutral-light-muted-saturation",
+      "semantic_key": "cinematography-light-temperature-base-warm-neutral-light-muted-saturation",
+      "text": "warm-neutral light with muted saturation",
+      "sentence": "Warm-neutral light with muted saturation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "warm-neutral light with muted saturation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing warm-neutral light with muted saturation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with warm-neutral light with muted saturation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-temperature-base-warm-neutral-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-temperature",
+        "rarity-common"
+      ],
+      "facets": {
+        "temperature": "warm-neutral-light",
+        "treatment": "muted-saturation"
+      },
+      "subcategory": "warm-neutral-light",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-temperature-base-warm-neutral-light-balanced-saturation",
+      "semantic_key": "cinematography-light-temperature-base-warm-neutral-light-balanced-saturation",
+      "text": "warm-neutral light with balanced saturation",
+      "sentence": "Warm-neutral light with balanced saturation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "warm-neutral light with balanced saturation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing warm-neutral light with balanced saturation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with warm-neutral light with balanced saturation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-temperature-base-warm-neutral-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-temperature",
+        "rarity-common"
+      ],
+      "facets": {
+        "temperature": "warm-neutral-light",
+        "treatment": "balanced-saturation"
+      },
+      "subcategory": "warm-neutral-light",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-temperature-base-warm-neutral-light-rich-saturation",
+      "semantic_key": "cinematography-light-temperature-base-warm-neutral-light-rich-saturation",
+      "text": "warm-neutral light with rich saturation",
+      "sentence": "Warm-neutral light with rich saturation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "warm-neutral light with rich saturation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing warm-neutral light with rich saturation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with warm-neutral light with rich saturation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-temperature-base-warm-neutral-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-temperature",
+        "rarity-common"
+      ],
+      "facets": {
+        "temperature": "warm-neutral-light",
+        "treatment": "rich-saturation"
+      },
+      "subcategory": "warm-neutral-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-temperature-base-warm-neutral-light-pale-value-range",
+      "semantic_key": "cinematography-light-temperature-base-warm-neutral-light-pale-value-range",
+      "text": "warm-neutral light with pale value range",
+      "sentence": "Warm-neutral light with pale value range.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "warm-neutral light with pale value range",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing warm-neutral light with pale value range",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with warm-neutral light with pale value range",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-temperature-base-warm-neutral-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-temperature",
+        "rarity-common"
+      ],
+      "facets": {
+        "temperature": "warm-neutral-light",
+        "treatment": "pale-value-range"
+      },
+      "subcategory": "warm-neutral-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-temperature-base-warm-neutral-light-deep-value-range",
+      "semantic_key": "cinematography-light-temperature-base-warm-neutral-light-deep-value-range",
+      "text": "warm-neutral light with deep value range",
+      "sentence": "Warm-neutral light with deep value range.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "warm-neutral light with deep value range",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing warm-neutral light with deep value range",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with warm-neutral light with deep value range",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-light-temperature-base-warm-neutral-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-temperature",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "temperature": "warm-neutral-light",
+        "treatment": "deep-value-range"
+      },
+      "subcategory": "warm-neutral-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-temperature-base-warm-neutral-light-warm-color-bias",
+      "semantic_key": "cinematography-light-temperature-base-warm-neutral-light-warm-color-bias",
+      "text": "warm-neutral light with warm color bias",
+      "sentence": "Warm-neutral light with warm color bias.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "warm-neutral light with warm color bias",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing warm-neutral light with warm color bias",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with warm-neutral light with warm color bias",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-light-temperature-base-warm-neutral-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-temperature",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "temperature": "warm-neutral-light",
+        "treatment": "warm-color-bias"
+      },
+      "subcategory": "warm-neutral-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-temperature-base-warm-neutral-light-cool-color-bias",
+      "semantic_key": "cinematography-light-temperature-base-warm-neutral-light-cool-color-bias",
+      "text": "warm-neutral light with cool color bias",
+      "sentence": "Warm-neutral light with cool color bias.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "warm-neutral light with cool color bias",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing warm-neutral light with cool color bias",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with warm-neutral light with cool color bias",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-light-temperature-base-warm-neutral-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-temperature",
+        "rarity-rare"
+      ],
+      "facets": {
+        "temperature": "warm-neutral-light",
+        "treatment": "cool-color-bias"
+      },
+      "subcategory": "warm-neutral-light",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-temperature-base-warm-neutral-light-neutral-color-balance",
+      "semantic_key": "cinematography-light-temperature-base-warm-neutral-light-neutral-color-balance",
+      "text": "warm-neutral light with neutral color balance",
+      "sentence": "Warm-neutral light with neutral color balance.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "warm-neutral light with neutral color balance",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing warm-neutral light with neutral color balance",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with warm-neutral light with neutral color balance",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-light-temperature-base-warm-neutral-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-temperature",
+        "rarity-rare"
+      ],
+      "facets": {
+        "temperature": "warm-neutral-light",
+        "treatment": "neutral-color-balance"
+      },
+      "subcategory": "warm-neutral-light",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-temperature-base-warm-amber-light-muted-saturation",
+      "semantic_key": "cinematography-light-temperature-base-warm-amber-light-muted-saturation",
+      "text": "warm amber light with muted saturation",
+      "sentence": "Warm amber light with muted saturation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "warm amber light with muted saturation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing warm amber light with muted saturation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with warm amber light with muted saturation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-temperature-base-warm-amber-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-temperature",
+        "rarity-common"
+      ],
+      "facets": {
+        "temperature": "warm-amber-light",
+        "treatment": "muted-saturation"
+      },
+      "subcategory": "warm-amber-light",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-temperature-base-warm-amber-light-balanced-saturation",
+      "semantic_key": "cinematography-light-temperature-base-warm-amber-light-balanced-saturation",
+      "text": "warm amber light with balanced saturation",
+      "sentence": "Warm amber light with balanced saturation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "warm amber light with balanced saturation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing warm amber light with balanced saturation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with warm amber light with balanced saturation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-temperature-base-warm-amber-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-temperature",
+        "rarity-common"
+      ],
+      "facets": {
+        "temperature": "warm-amber-light",
+        "treatment": "balanced-saturation"
+      },
+      "subcategory": "warm-amber-light",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-temperature-base-warm-amber-light-rich-saturation",
+      "semantic_key": "cinematography-light-temperature-base-warm-amber-light-rich-saturation",
+      "text": "warm amber light with rich saturation",
+      "sentence": "Warm amber light with rich saturation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "warm amber light with rich saturation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing warm amber light with rich saturation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with warm amber light with rich saturation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-temperature-base-warm-amber-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-temperature",
+        "rarity-common"
+      ],
+      "facets": {
+        "temperature": "warm-amber-light",
+        "treatment": "rich-saturation"
+      },
+      "subcategory": "warm-amber-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-temperature-base-warm-amber-light-pale-value-range",
+      "semantic_key": "cinematography-light-temperature-base-warm-amber-light-pale-value-range",
+      "text": "warm amber light with pale value range",
+      "sentence": "Warm amber light with pale value range.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "warm amber light with pale value range",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing warm amber light with pale value range",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with warm amber light with pale value range",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-temperature-base-warm-amber-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-temperature",
+        "rarity-common"
+      ],
+      "facets": {
+        "temperature": "warm-amber-light",
+        "treatment": "pale-value-range"
+      },
+      "subcategory": "warm-amber-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-temperature-base-warm-amber-light-deep-value-range",
+      "semantic_key": "cinematography-light-temperature-base-warm-amber-light-deep-value-range",
+      "text": "warm amber light with deep value range",
+      "sentence": "Warm amber light with deep value range.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "warm amber light with deep value range",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing warm amber light with deep value range",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with warm amber light with deep value range",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-light-temperature-base-warm-amber-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-temperature",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "temperature": "warm-amber-light",
+        "treatment": "deep-value-range"
+      },
+      "subcategory": "warm-amber-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-temperature-base-warm-amber-light-warm-color-bias",
+      "semantic_key": "cinematography-light-temperature-base-warm-amber-light-warm-color-bias",
+      "text": "warm amber light with warm color bias",
+      "sentence": "Warm amber light with warm color bias.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "warm amber light with warm color bias",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing warm amber light with warm color bias",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with warm amber light with warm color bias",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-light-temperature-base-warm-amber-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-temperature",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "temperature": "warm-amber-light",
+        "treatment": "warm-color-bias"
+      },
+      "subcategory": "warm-amber-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-temperature-base-warm-amber-light-cool-color-bias",
+      "semantic_key": "cinematography-light-temperature-base-warm-amber-light-cool-color-bias",
+      "text": "warm amber light with cool color bias",
+      "sentence": "Warm amber light with cool color bias.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "warm amber light with cool color bias",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing warm amber light with cool color bias",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with warm amber light with cool color bias",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-light-temperature-base-warm-amber-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-temperature",
+        "rarity-rare"
+      ],
+      "facets": {
+        "temperature": "warm-amber-light",
+        "treatment": "cool-color-bias"
+      },
+      "subcategory": "warm-amber-light",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-temperature-base-warm-amber-light-neutral-color-balance",
+      "semantic_key": "cinematography-light-temperature-base-warm-amber-light-neutral-color-balance",
+      "text": "warm amber light with neutral color balance",
+      "sentence": "Warm amber light with neutral color balance.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "warm amber light with neutral color balance",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing warm amber light with neutral color balance",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with warm amber light with neutral color balance",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-light-temperature-base-warm-amber-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-temperature",
+        "rarity-rare"
+      ],
+      "facets": {
+        "temperature": "warm-amber-light",
+        "treatment": "neutral-color-balance"
+      },
+      "subcategory": "warm-amber-light",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-temperature-base-mixed-warm-cool-light-muted-saturation",
+      "semantic_key": "cinematography-light-temperature-base-mixed-warm-cool-light-muted-saturation",
+      "text": "mixed warm-cool light with muted saturation",
+      "sentence": "Mixed warm-cool light with muted saturation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "mixed warm-cool light with muted saturation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing mixed warm-cool light with muted saturation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with mixed warm-cool light with muted saturation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-temperature-base-mixed-warm-cool-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-temperature",
+        "rarity-common"
+      ],
+      "facets": {
+        "temperature": "mixed-warm-cool-light",
+        "treatment": "muted-saturation"
+      },
+      "subcategory": "mixed-warm-cool-light",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-temperature-base-mixed-warm-cool-light-balanced-saturation",
+      "semantic_key": "cinematography-light-temperature-base-mixed-warm-cool-light-balanced-saturation",
+      "text": "mixed warm-cool light with balanced saturation",
+      "sentence": "Mixed warm-cool light with balanced saturation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "mixed warm-cool light with balanced saturation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing mixed warm-cool light with balanced saturation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with mixed warm-cool light with balanced saturation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-temperature-base-mixed-warm-cool-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-temperature",
+        "rarity-common"
+      ],
+      "facets": {
+        "temperature": "mixed-warm-cool-light",
+        "treatment": "balanced-saturation"
+      },
+      "subcategory": "mixed-warm-cool-light",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-temperature-base-mixed-warm-cool-light-rich-saturation",
+      "semantic_key": "cinematography-light-temperature-base-mixed-warm-cool-light-rich-saturation",
+      "text": "mixed warm-cool light with rich saturation",
+      "sentence": "Mixed warm-cool light with rich saturation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "mixed warm-cool light with rich saturation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing mixed warm-cool light with rich saturation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with mixed warm-cool light with rich saturation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-temperature-base-mixed-warm-cool-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-temperature",
+        "rarity-common"
+      ],
+      "facets": {
+        "temperature": "mixed-warm-cool-light",
+        "treatment": "rich-saturation"
+      },
+      "subcategory": "mixed-warm-cool-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-temperature-base-mixed-warm-cool-light-pale-value-range",
+      "semantic_key": "cinematography-light-temperature-base-mixed-warm-cool-light-pale-value-range",
+      "text": "mixed warm-cool light with pale value range",
+      "sentence": "Mixed warm-cool light with pale value range.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "mixed warm-cool light with pale value range",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing mixed warm-cool light with pale value range",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with mixed warm-cool light with pale value range",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-temperature-base-mixed-warm-cool-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-temperature",
+        "rarity-common"
+      ],
+      "facets": {
+        "temperature": "mixed-warm-cool-light",
+        "treatment": "pale-value-range"
+      },
+      "subcategory": "mixed-warm-cool-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-temperature-base-mixed-warm-cool-light-deep-value-range",
+      "semantic_key": "cinematography-light-temperature-base-mixed-warm-cool-light-deep-value-range",
+      "text": "mixed warm-cool light with deep value range",
+      "sentence": "Mixed warm-cool light with deep value range.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "mixed warm-cool light with deep value range",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing mixed warm-cool light with deep value range",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with mixed warm-cool light with deep value range",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-light-temperature-base-mixed-warm-cool-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-temperature",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "temperature": "mixed-warm-cool-light",
+        "treatment": "deep-value-range"
+      },
+      "subcategory": "mixed-warm-cool-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-temperature-base-mixed-warm-cool-light-warm-color-bias",
+      "semantic_key": "cinematography-light-temperature-base-mixed-warm-cool-light-warm-color-bias",
+      "text": "mixed warm-cool light with warm color bias",
+      "sentence": "Mixed warm-cool light with warm color bias.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "mixed warm-cool light with warm color bias",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing mixed warm-cool light with warm color bias",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with mixed warm-cool light with warm color bias",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-light-temperature-base-mixed-warm-cool-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-temperature",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "temperature": "mixed-warm-cool-light",
+        "treatment": "warm-color-bias"
+      },
+      "subcategory": "mixed-warm-cool-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-temperature-base-mixed-warm-cool-light-cool-color-bias",
+      "semantic_key": "cinematography-light-temperature-base-mixed-warm-cool-light-cool-color-bias",
+      "text": "mixed warm-cool light with cool color bias",
+      "sentence": "Mixed warm-cool light with cool color bias.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "mixed warm-cool light with cool color bias",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing mixed warm-cool light with cool color bias",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with mixed warm-cool light with cool color bias",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-light-temperature-base-mixed-warm-cool-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-temperature",
+        "rarity-rare"
+      ],
+      "facets": {
+        "temperature": "mixed-warm-cool-light",
+        "treatment": "cool-color-bias"
+      },
+      "subcategory": "mixed-warm-cool-light",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-temperature-base-mixed-warm-cool-light-neutral-color-balance",
+      "semantic_key": "cinematography-light-temperature-base-mixed-warm-cool-light-neutral-color-balance",
+      "text": "mixed warm-cool light with neutral color balance",
+      "sentence": "Mixed warm-cool light with neutral color balance.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "mixed warm-cool light with neutral color balance",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing mixed warm-cool light with neutral color balance",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with mixed warm-cool light with neutral color balance",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-light-temperature-base-mixed-warm-cool-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-temperature",
+        "rarity-rare"
+      ],
+      "facets": {
+        "temperature": "mixed-warm-cool-light",
+        "treatment": "neutral-color-balance"
+      },
+      "subcategory": "mixed-warm-cool-light",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-temperature-base-daylight-balanced-light-muted-saturation",
+      "semantic_key": "cinematography-light-temperature-base-daylight-balanced-light-muted-saturation",
+      "text": "daylight-balanced light with muted saturation",
+      "sentence": "Daylight-balanced light with muted saturation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "daylight-balanced light with muted saturation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing daylight-balanced light with muted saturation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with daylight-balanced light with muted saturation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-temperature-base-daylight-balanced-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-temperature",
+        "rarity-common"
+      ],
+      "facets": {
+        "temperature": "daylight-balanced-light",
+        "treatment": "muted-saturation"
+      },
+      "subcategory": "daylight-balanced-light",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-temperature-base-daylight-balanced-light-balanced-saturation",
+      "semantic_key": "cinematography-light-temperature-base-daylight-balanced-light-balanced-saturation",
+      "text": "daylight-balanced light with balanced saturation",
+      "sentence": "Daylight-balanced light with balanced saturation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "daylight-balanced light with balanced saturation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing daylight-balanced light with balanced saturation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with daylight-balanced light with balanced saturation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-temperature-base-daylight-balanced-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-temperature",
+        "rarity-common"
+      ],
+      "facets": {
+        "temperature": "daylight-balanced-light",
+        "treatment": "balanced-saturation"
+      },
+      "subcategory": "daylight-balanced-light",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-temperature-base-daylight-balanced-light-rich-saturation",
+      "semantic_key": "cinematography-light-temperature-base-daylight-balanced-light-rich-saturation",
+      "text": "daylight-balanced light with rich saturation",
+      "sentence": "Daylight-balanced light with rich saturation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "daylight-balanced light with rich saturation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing daylight-balanced light with rich saturation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with daylight-balanced light with rich saturation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-temperature-base-daylight-balanced-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-temperature",
+        "rarity-common"
+      ],
+      "facets": {
+        "temperature": "daylight-balanced-light",
+        "treatment": "rich-saturation"
+      },
+      "subcategory": "daylight-balanced-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-temperature-base-daylight-balanced-light-pale-value-range",
+      "semantic_key": "cinematography-light-temperature-base-daylight-balanced-light-pale-value-range",
+      "text": "daylight-balanced light with pale value range",
+      "sentence": "Daylight-balanced light with pale value range.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "daylight-balanced light with pale value range",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing daylight-balanced light with pale value range",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with daylight-balanced light with pale value range",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-temperature-base-daylight-balanced-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-temperature",
+        "rarity-common"
+      ],
+      "facets": {
+        "temperature": "daylight-balanced-light",
+        "treatment": "pale-value-range"
+      },
+      "subcategory": "daylight-balanced-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-temperature-base-daylight-balanced-light-deep-value-range",
+      "semantic_key": "cinematography-light-temperature-base-daylight-balanced-light-deep-value-range",
+      "text": "daylight-balanced light with deep value range",
+      "sentence": "Daylight-balanced light with deep value range.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "daylight-balanced light with deep value range",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing daylight-balanced light with deep value range",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with daylight-balanced light with deep value range",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-light-temperature-base-daylight-balanced-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-temperature",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "temperature": "daylight-balanced-light",
+        "treatment": "deep-value-range"
+      },
+      "subcategory": "daylight-balanced-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-temperature-base-daylight-balanced-light-warm-color-bias",
+      "semantic_key": "cinematography-light-temperature-base-daylight-balanced-light-warm-color-bias",
+      "text": "daylight-balanced light with warm color bias",
+      "sentence": "Daylight-balanced light with warm color bias.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "daylight-balanced light with warm color bias",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing daylight-balanced light with warm color bias",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with daylight-balanced light with warm color bias",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-light-temperature-base-daylight-balanced-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-temperature",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "temperature": "daylight-balanced-light",
+        "treatment": "warm-color-bias"
+      },
+      "subcategory": "daylight-balanced-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-temperature-base-daylight-balanced-light-cool-color-bias",
+      "semantic_key": "cinematography-light-temperature-base-daylight-balanced-light-cool-color-bias",
+      "text": "daylight-balanced light with cool color bias",
+      "sentence": "Daylight-balanced light with cool color bias.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "daylight-balanced light with cool color bias",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing daylight-balanced light with cool color bias",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with daylight-balanced light with cool color bias",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-light-temperature-base-daylight-balanced-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-temperature",
+        "rarity-rare"
+      ],
+      "facets": {
+        "temperature": "daylight-balanced-light",
+        "treatment": "cool-color-bias"
+      },
+      "subcategory": "daylight-balanced-light",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-temperature-base-daylight-balanced-light-neutral-color-balance",
+      "semantic_key": "cinematography-light-temperature-base-daylight-balanced-light-neutral-color-balance",
+      "text": "daylight-balanced light with neutral color balance",
+      "sentence": "Daylight-balanced light with neutral color balance.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "daylight-balanced light with neutral color balance",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing daylight-balanced light with neutral color balance",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with daylight-balanced light with neutral color balance",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-light-temperature-base-daylight-balanced-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-temperature",
+        "rarity-rare"
+      ],
+      "facets": {
+        "temperature": "daylight-balanced-light",
+        "treatment": "neutral-color-balance"
+      },
+      "subcategory": "daylight-balanced-light",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-temperature-base-tungsten-balanced-light-muted-saturation",
+      "semantic_key": "cinematography-light-temperature-base-tungsten-balanced-light-muted-saturation",
+      "text": "tungsten-balanced light with muted saturation",
+      "sentence": "Tungsten-balanced light with muted saturation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "tungsten-balanced light with muted saturation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing tungsten-balanced light with muted saturation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with tungsten-balanced light with muted saturation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-temperature-base-tungsten-balanced-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-temperature",
+        "rarity-common"
+      ],
+      "facets": {
+        "temperature": "tungsten-balanced-light",
+        "treatment": "muted-saturation"
+      },
+      "subcategory": "tungsten-balanced-light",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-temperature-base-tungsten-balanced-light-balanced-saturation",
+      "semantic_key": "cinematography-light-temperature-base-tungsten-balanced-light-balanced-saturation",
+      "text": "tungsten-balanced light with balanced saturation",
+      "sentence": "Tungsten-balanced light with balanced saturation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "tungsten-balanced light with balanced saturation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing tungsten-balanced light with balanced saturation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with tungsten-balanced light with balanced saturation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-temperature-base-tungsten-balanced-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-temperature",
+        "rarity-common"
+      ],
+      "facets": {
+        "temperature": "tungsten-balanced-light",
+        "treatment": "balanced-saturation"
+      },
+      "subcategory": "tungsten-balanced-light",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-temperature-base-tungsten-balanced-light-rich-saturation",
+      "semantic_key": "cinematography-light-temperature-base-tungsten-balanced-light-rich-saturation",
+      "text": "tungsten-balanced light with rich saturation",
+      "sentence": "Tungsten-balanced light with rich saturation.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "tungsten-balanced light with rich saturation",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing tungsten-balanced light with rich saturation",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with tungsten-balanced light with rich saturation",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-temperature-base-tungsten-balanced-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-temperature",
+        "rarity-common"
+      ],
+      "facets": {
+        "temperature": "tungsten-balanced-light",
+        "treatment": "rich-saturation"
+      },
+      "subcategory": "tungsten-balanced-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-temperature-base-tungsten-balanced-light-pale-value-range",
+      "semantic_key": "cinematography-light-temperature-base-tungsten-balanced-light-pale-value-range",
+      "text": "tungsten-balanced light with pale value range",
+      "sentence": "Tungsten-balanced light with pale value range.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "tungsten-balanced light with pale value range",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing tungsten-balanced light with pale value range",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with tungsten-balanced light with pale value range",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "cinematography-light-temperature-base-tungsten-balanced-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-temperature",
+        "rarity-common"
+      ],
+      "facets": {
+        "temperature": "tungsten-balanced-light",
+        "treatment": "pale-value-range"
+      },
+      "subcategory": "tungsten-balanced-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-temperature-base-tungsten-balanced-light-deep-value-range",
+      "semantic_key": "cinematography-light-temperature-base-tungsten-balanced-light-deep-value-range",
+      "text": "tungsten-balanced light with deep value range",
+      "sentence": "Tungsten-balanced light with deep value range.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "tungsten-balanced light with deep value range",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing tungsten-balanced light with deep value range",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with tungsten-balanced light with deep value range",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-light-temperature-base-tungsten-balanced-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-temperature",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "temperature": "tungsten-balanced-light",
+        "treatment": "deep-value-range"
+      },
+      "subcategory": "tungsten-balanced-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-temperature-base-tungsten-balanced-light-warm-color-bias",
+      "semantic_key": "cinematography-light-temperature-base-tungsten-balanced-light-warm-color-bias",
+      "text": "tungsten-balanced light with warm color bias",
+      "sentence": "Tungsten-balanced light with warm color bias.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "tungsten-balanced light with warm color bias",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing tungsten-balanced light with warm color bias",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with tungsten-balanced light with warm color bias",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "cinematography-light-temperature-base-tungsten-balanced-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-temperature",
+        "rarity-uncommon"
+      ],
+      "facets": {
+        "temperature": "tungsten-balanced-light",
+        "treatment": "warm-color-bias"
+      },
+      "subcategory": "tungsten-balanced-light",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-temperature-base-tungsten-balanced-light-cool-color-bias",
+      "semantic_key": "cinematography-light-temperature-base-tungsten-balanced-light-cool-color-bias",
+      "text": "tungsten-balanced light with cool color bias",
+      "sentence": "Tungsten-balanced light with cool color bias.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "tungsten-balanced light with cool color bias",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing tungsten-balanced light with cool color bias",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with tungsten-balanced light with cool color bias",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-light-temperature-base-tungsten-balanced-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-temperature",
+        "rarity-rare"
+      ],
+      "facets": {
+        "temperature": "tungsten-balanced-light",
+        "treatment": "cool-color-bias"
+      },
+      "subcategory": "tungsten-balanced-light",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "cinematography-light-temperature-base-tungsten-balanced-light-neutral-color-balance",
+      "semantic_key": "cinematography-light-temperature-base-tungsten-balanced-light-neutral-color-balance",
+      "text": "tungsten-balanced light with neutral color balance",
+      "sentence": "Tungsten-balanced light with neutral color balance.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "tungsten-balanced light with neutral color balance",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing tungsten-balanced light with neutral color balance",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with tungsten-balanced light with neutral color balance",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "cinematography-light-temperature-base-tungsten-balanced-light",
+      "tags": [
+        "base",
+        "cinematography",
+        "light-temperature",
+        "rarity-rare"
+      ],
+      "facets": {
+        "temperature": "tungsten-balanced-light",
+        "treatment": "neutral-color-balance"
+      },
+      "subcategory": "tungsten-balanced-light",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    }
+  ]
+}

@@ -13,7 +13,7 @@ import {
 } from "../../prompt_architect/web/prompt_architect_state.js";
 
 test("configuration round-trips deterministically", () => {
-  const original = defaultConfiguration("portrait");
+  const original = defaultConfiguration("portrait-core");
   assert.deepEqual(parseConfiguration(serializeConfiguration(original)), original);
   assert.equal(serializeConfiguration(original), serializeConfiguration(original));
 });

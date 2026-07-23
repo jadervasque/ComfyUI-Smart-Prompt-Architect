@@ -1,0 +1,2642 @@
+{
+  "schema_version": "2.0",
+  "id": "scene-location-dark",
+  "version": "2.0.0",
+  "library": "location",
+  "domain": "scene",
+  "category": "location",
+  "language": "en",
+  "status": "active",
+  "safety": "dark-atmospheric",
+  "tags": [
+    "dark",
+    "gothic"
+  ],
+  "fallback_option_id": "scene-location-dark-abandoned-manor-corridor-clear-atmosphere",
+  "options": [
+    {
+      "id": "scene-location-dark-abandoned-manor-corridor-clear-atmosphere",
+      "semantic_key": "scene-location-dark-abandoned-manor-corridor-clear-atmosphere",
+      "text": "a non-graphic abandoned manor corridor with clear atmosphere",
+      "sentence": "A non-graphic abandoned manor corridor with clear atmosphere.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a non-graphic abandoned manor corridor with clear atmosphere",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a non-graphic abandoned manor corridor with clear atmosphere",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a non-graphic abandoned manor corridor with clear atmosphere",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-dark-abandoned-manor-corridor",
+      "tags": [
+        "dark",
+        "gothic",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "abandoned-manor-corridor",
+        "treatment": "clear-atmosphere"
+      },
+      "subcategory": "abandoned-manor-corridor",
+      "intensity": "subtle",
+      "safety": "dark-atmospheric",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-dark-abandoned-manor-corridor-light-haze",
+      "semantic_key": "scene-location-dark-abandoned-manor-corridor-light-haze",
+      "text": "a non-graphic abandoned manor corridor with light haze",
+      "sentence": "A non-graphic abandoned manor corridor with light haze.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a non-graphic abandoned manor corridor with light haze",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a non-graphic abandoned manor corridor with light haze",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a non-graphic abandoned manor corridor with light haze",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-dark-abandoned-manor-corridor",
+      "tags": [
+        "dark",
+        "gothic",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "abandoned-manor-corridor",
+        "treatment": "light-haze"
+      },
+      "subcategory": "abandoned-manor-corridor",
+      "intensity": "subtle",
+      "safety": "dark-atmospheric",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-dark-abandoned-manor-corridor-soft-mist",
+      "semantic_key": "scene-location-dark-abandoned-manor-corridor-soft-mist",
+      "text": "a non-graphic abandoned manor corridor with soft mist",
+      "sentence": "A non-graphic abandoned manor corridor with soft mist.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a non-graphic abandoned manor corridor with soft mist",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a non-graphic abandoned manor corridor with soft mist",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a non-graphic abandoned manor corridor with soft mist",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-dark-abandoned-manor-corridor",
+      "tags": [
+        "dark",
+        "gothic",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "abandoned-manor-corridor",
+        "treatment": "soft-mist"
+      },
+      "subcategory": "abandoned-manor-corridor",
+      "intensity": "moderate",
+      "safety": "dark-atmospheric",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-dark-abandoned-manor-corridor-humid-air",
+      "semantic_key": "scene-location-dark-abandoned-manor-corridor-humid-air",
+      "text": "a non-graphic abandoned manor corridor with humid air",
+      "sentence": "A non-graphic abandoned manor corridor with humid air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a non-graphic abandoned manor corridor with humid air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a non-graphic abandoned manor corridor with humid air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a non-graphic abandoned manor corridor with humid air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-dark-abandoned-manor-corridor",
+      "tags": [
+        "dark",
+        "gothic",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "abandoned-manor-corridor",
+        "treatment": "humid-air"
+      },
+      "subcategory": "abandoned-manor-corridor",
+      "intensity": "moderate",
+      "safety": "dark-atmospheric",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-dark-abandoned-manor-corridor-dry-air",
+      "semantic_key": "scene-location-dark-abandoned-manor-corridor-dry-air",
+      "text": "a non-graphic abandoned manor corridor with dry air",
+      "sentence": "A non-graphic abandoned manor corridor with dry air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a non-graphic abandoned manor corridor with dry air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a non-graphic abandoned manor corridor with dry air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a non-graphic abandoned manor corridor with dry air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-dark-abandoned-manor-corridor",
+      "tags": [
+        "dark",
+        "gothic",
+        "location",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "abandoned-manor-corridor",
+        "treatment": "dry-air"
+      },
+      "subcategory": "abandoned-manor-corridor",
+      "intensity": "moderate",
+      "safety": "dark-atmospheric",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-dark-abandoned-manor-corridor-wind-swept-air",
+      "semantic_key": "scene-location-dark-abandoned-manor-corridor-wind-swept-air",
+      "text": "a non-graphic abandoned manor corridor with wind-swept air",
+      "sentence": "A non-graphic abandoned manor corridor with wind-swept air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a non-graphic abandoned manor corridor with wind-swept air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a non-graphic abandoned manor corridor with wind-swept air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a non-graphic abandoned manor corridor with wind-swept air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-dark-abandoned-manor-corridor",
+      "tags": [
+        "dark",
+        "gothic",
+        "location",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "abandoned-manor-corridor",
+        "treatment": "wind-swept-air"
+      },
+      "subcategory": "abandoned-manor-corridor",
+      "intensity": "moderate",
+      "safety": "dark-atmospheric",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-dark-abandoned-manor-corridor-still-air",
+      "semantic_key": "scene-location-dark-abandoned-manor-corridor-still-air",
+      "text": "a non-graphic abandoned manor corridor with still air",
+      "sentence": "A non-graphic abandoned manor corridor with still air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a non-graphic abandoned manor corridor with still air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a non-graphic abandoned manor corridor with still air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a non-graphic abandoned manor corridor with still air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-dark-abandoned-manor-corridor",
+      "tags": [
+        "dark",
+        "gothic",
+        "location",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "abandoned-manor-corridor",
+        "treatment": "still-air"
+      },
+      "subcategory": "abandoned-manor-corridor",
+      "intensity": "strong",
+      "safety": "dark-atmospheric",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-dark-abandoned-manor-corridor-particulate-glow",
+      "semantic_key": "scene-location-dark-abandoned-manor-corridor-particulate-glow",
+      "text": "a non-graphic abandoned manor corridor with particulate glow",
+      "sentence": "A non-graphic abandoned manor corridor with particulate glow.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a non-graphic abandoned manor corridor with particulate glow",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a non-graphic abandoned manor corridor with particulate glow",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a non-graphic abandoned manor corridor with particulate glow",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-dark-abandoned-manor-corridor",
+      "tags": [
+        "dark",
+        "gothic",
+        "location",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "abandoned-manor-corridor",
+        "treatment": "particulate-glow"
+      },
+      "subcategory": "abandoned-manor-corridor",
+      "intensity": "strong",
+      "safety": "dark-atmospheric",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-dark-fog-covered-cemetery-path-clear-atmosphere",
+      "semantic_key": "scene-location-dark-fog-covered-cemetery-path-clear-atmosphere",
+      "text": "a non-graphic fog-covered cemetery path with clear atmosphere",
+      "sentence": "A non-graphic fog-covered cemetery path with clear atmosphere.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a non-graphic fog-covered cemetery path with clear atmosphere",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a non-graphic fog-covered cemetery path with clear atmosphere",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a non-graphic fog-covered cemetery path with clear atmosphere",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-dark-fog-covered-cemetery-path",
+      "tags": [
+        "dark",
+        "gothic",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "fog-covered-cemetery-path",
+        "treatment": "clear-atmosphere"
+      },
+      "subcategory": "fog-covered-cemetery-path",
+      "intensity": "subtle",
+      "safety": "dark-atmospheric",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-dark-fog-covered-cemetery-path-light-haze",
+      "semantic_key": "scene-location-dark-fog-covered-cemetery-path-light-haze",
+      "text": "a non-graphic fog-covered cemetery path with light haze",
+      "sentence": "A non-graphic fog-covered cemetery path with light haze.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a non-graphic fog-covered cemetery path with light haze",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a non-graphic fog-covered cemetery path with light haze",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a non-graphic fog-covered cemetery path with light haze",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-dark-fog-covered-cemetery-path",
+      "tags": [
+        "dark",
+        "gothic",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "fog-covered-cemetery-path",
+        "treatment": "light-haze"
+      },
+      "subcategory": "fog-covered-cemetery-path",
+      "intensity": "subtle",
+      "safety": "dark-atmospheric",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-dark-fog-covered-cemetery-path-soft-mist",
+      "semantic_key": "scene-location-dark-fog-covered-cemetery-path-soft-mist",
+      "text": "a non-graphic fog-covered cemetery path with soft mist",
+      "sentence": "A non-graphic fog-covered cemetery path with soft mist.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a non-graphic fog-covered cemetery path with soft mist",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a non-graphic fog-covered cemetery path with soft mist",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a non-graphic fog-covered cemetery path with soft mist",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-dark-fog-covered-cemetery-path",
+      "tags": [
+        "dark",
+        "gothic",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "fog-covered-cemetery-path",
+        "treatment": "soft-mist"
+      },
+      "subcategory": "fog-covered-cemetery-path",
+      "intensity": "moderate",
+      "safety": "dark-atmospheric",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-dark-fog-covered-cemetery-path-humid-air",
+      "semantic_key": "scene-location-dark-fog-covered-cemetery-path-humid-air",
+      "text": "a non-graphic fog-covered cemetery path with humid air",
+      "sentence": "A non-graphic fog-covered cemetery path with humid air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a non-graphic fog-covered cemetery path with humid air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a non-graphic fog-covered cemetery path with humid air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a non-graphic fog-covered cemetery path with humid air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-dark-fog-covered-cemetery-path",
+      "tags": [
+        "dark",
+        "gothic",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "fog-covered-cemetery-path",
+        "treatment": "humid-air"
+      },
+      "subcategory": "fog-covered-cemetery-path",
+      "intensity": "moderate",
+      "safety": "dark-atmospheric",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-dark-fog-covered-cemetery-path-dry-air",
+      "semantic_key": "scene-location-dark-fog-covered-cemetery-path-dry-air",
+      "text": "a non-graphic fog-covered cemetery path with dry air",
+      "sentence": "A non-graphic fog-covered cemetery path with dry air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a non-graphic fog-covered cemetery path with dry air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a non-graphic fog-covered cemetery path with dry air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a non-graphic fog-covered cemetery path with dry air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-dark-fog-covered-cemetery-path",
+      "tags": [
+        "dark",
+        "gothic",
+        "location",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "fog-covered-cemetery-path",
+        "treatment": "dry-air"
+      },
+      "subcategory": "fog-covered-cemetery-path",
+      "intensity": "moderate",
+      "safety": "dark-atmospheric",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-dark-fog-covered-cemetery-path-wind-swept-air",
+      "semantic_key": "scene-location-dark-fog-covered-cemetery-path-wind-swept-air",
+      "text": "a non-graphic fog-covered cemetery path with wind-swept air",
+      "sentence": "A non-graphic fog-covered cemetery path with wind-swept air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a non-graphic fog-covered cemetery path with wind-swept air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a non-graphic fog-covered cemetery path with wind-swept air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a non-graphic fog-covered cemetery path with wind-swept air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-dark-fog-covered-cemetery-path",
+      "tags": [
+        "dark",
+        "gothic",
+        "location",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "fog-covered-cemetery-path",
+        "treatment": "wind-swept-air"
+      },
+      "subcategory": "fog-covered-cemetery-path",
+      "intensity": "moderate",
+      "safety": "dark-atmospheric",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-dark-fog-covered-cemetery-path-still-air",
+      "semantic_key": "scene-location-dark-fog-covered-cemetery-path-still-air",
+      "text": "a non-graphic fog-covered cemetery path with still air",
+      "sentence": "A non-graphic fog-covered cemetery path with still air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a non-graphic fog-covered cemetery path with still air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a non-graphic fog-covered cemetery path with still air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a non-graphic fog-covered cemetery path with still air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-dark-fog-covered-cemetery-path",
+      "tags": [
+        "dark",
+        "gothic",
+        "location",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "fog-covered-cemetery-path",
+        "treatment": "still-air"
+      },
+      "subcategory": "fog-covered-cemetery-path",
+      "intensity": "strong",
+      "safety": "dark-atmospheric",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-dark-fog-covered-cemetery-path-particulate-glow",
+      "semantic_key": "scene-location-dark-fog-covered-cemetery-path-particulate-glow",
+      "text": "a non-graphic fog-covered cemetery path with particulate glow",
+      "sentence": "A non-graphic fog-covered cemetery path with particulate glow.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a non-graphic fog-covered cemetery path with particulate glow",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a non-graphic fog-covered cemetery path with particulate glow",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a non-graphic fog-covered cemetery path with particulate glow",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-dark-fog-covered-cemetery-path",
+      "tags": [
+        "dark",
+        "gothic",
+        "location",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "fog-covered-cemetery-path",
+        "treatment": "particulate-glow"
+      },
+      "subcategory": "fog-covered-cemetery-path",
+      "intensity": "strong",
+      "safety": "dark-atmospheric",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-dark-weathered-stone-chapel-clear-atmosphere",
+      "semantic_key": "scene-location-dark-weathered-stone-chapel-clear-atmosphere",
+      "text": "a non-graphic weathered stone chapel with clear atmosphere",
+      "sentence": "A non-graphic weathered stone chapel with clear atmosphere.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a non-graphic weathered stone chapel with clear atmosphere",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a non-graphic weathered stone chapel with clear atmosphere",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a non-graphic weathered stone chapel with clear atmosphere",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-dark-weathered-stone-chapel",
+      "tags": [
+        "dark",
+        "gothic",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "weathered-stone-chapel",
+        "treatment": "clear-atmosphere"
+      },
+      "subcategory": "weathered-stone-chapel",
+      "intensity": "subtle",
+      "safety": "dark-atmospheric",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-dark-weathered-stone-chapel-light-haze",
+      "semantic_key": "scene-location-dark-weathered-stone-chapel-light-haze",
+      "text": "a non-graphic weathered stone chapel with light haze",
+      "sentence": "A non-graphic weathered stone chapel with light haze.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a non-graphic weathered stone chapel with light haze",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a non-graphic weathered stone chapel with light haze",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a non-graphic weathered stone chapel with light haze",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-dark-weathered-stone-chapel",
+      "tags": [
+        "dark",
+        "gothic",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "weathered-stone-chapel",
+        "treatment": "light-haze"
+      },
+      "subcategory": "weathered-stone-chapel",
+      "intensity": "subtle",
+      "safety": "dark-atmospheric",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-dark-weathered-stone-chapel-soft-mist",
+      "semantic_key": "scene-location-dark-weathered-stone-chapel-soft-mist",
+      "text": "a non-graphic weathered stone chapel with soft mist",
+      "sentence": "A non-graphic weathered stone chapel with soft mist.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a non-graphic weathered stone chapel with soft mist",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a non-graphic weathered stone chapel with soft mist",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a non-graphic weathered stone chapel with soft mist",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-dark-weathered-stone-chapel",
+      "tags": [
+        "dark",
+        "gothic",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "weathered-stone-chapel",
+        "treatment": "soft-mist"
+      },
+      "subcategory": "weathered-stone-chapel",
+      "intensity": "moderate",
+      "safety": "dark-atmospheric",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-dark-weathered-stone-chapel-humid-air",
+      "semantic_key": "scene-location-dark-weathered-stone-chapel-humid-air",
+      "text": "a non-graphic weathered stone chapel with humid air",
+      "sentence": "A non-graphic weathered stone chapel with humid air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a non-graphic weathered stone chapel with humid air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a non-graphic weathered stone chapel with humid air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a non-graphic weathered stone chapel with humid air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-dark-weathered-stone-chapel",
+      "tags": [
+        "dark",
+        "gothic",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "weathered-stone-chapel",
+        "treatment": "humid-air"
+      },
+      "subcategory": "weathered-stone-chapel",
+      "intensity": "moderate",
+      "safety": "dark-atmospheric",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-dark-weathered-stone-chapel-dry-air",
+      "semantic_key": "scene-location-dark-weathered-stone-chapel-dry-air",
+      "text": "a non-graphic weathered stone chapel with dry air",
+      "sentence": "A non-graphic weathered stone chapel with dry air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a non-graphic weathered stone chapel with dry air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a non-graphic weathered stone chapel with dry air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a non-graphic weathered stone chapel with dry air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-dark-weathered-stone-chapel",
+      "tags": [
+        "dark",
+        "gothic",
+        "location",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "weathered-stone-chapel",
+        "treatment": "dry-air"
+      },
+      "subcategory": "weathered-stone-chapel",
+      "intensity": "moderate",
+      "safety": "dark-atmospheric",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-dark-weathered-stone-chapel-wind-swept-air",
+      "semantic_key": "scene-location-dark-weathered-stone-chapel-wind-swept-air",
+      "text": "a non-graphic weathered stone chapel with wind-swept air",
+      "sentence": "A non-graphic weathered stone chapel with wind-swept air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a non-graphic weathered stone chapel with wind-swept air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a non-graphic weathered stone chapel with wind-swept air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a non-graphic weathered stone chapel with wind-swept air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-dark-weathered-stone-chapel",
+      "tags": [
+        "dark",
+        "gothic",
+        "location",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "weathered-stone-chapel",
+        "treatment": "wind-swept-air"
+      },
+      "subcategory": "weathered-stone-chapel",
+      "intensity": "moderate",
+      "safety": "dark-atmospheric",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-dark-weathered-stone-chapel-still-air",
+      "semantic_key": "scene-location-dark-weathered-stone-chapel-still-air",
+      "text": "a non-graphic weathered stone chapel with still air",
+      "sentence": "A non-graphic weathered stone chapel with still air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a non-graphic weathered stone chapel with still air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a non-graphic weathered stone chapel with still air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a non-graphic weathered stone chapel with still air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-dark-weathered-stone-chapel",
+      "tags": [
+        "dark",
+        "gothic",
+        "location",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "weathered-stone-chapel",
+        "treatment": "still-air"
+      },
+      "subcategory": "weathered-stone-chapel",
+      "intensity": "strong",
+      "safety": "dark-atmospheric",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-dark-weathered-stone-chapel-particulate-glow",
+      "semantic_key": "scene-location-dark-weathered-stone-chapel-particulate-glow",
+      "text": "a non-graphic weathered stone chapel with particulate glow",
+      "sentence": "A non-graphic weathered stone chapel with particulate glow.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a non-graphic weathered stone chapel with particulate glow",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a non-graphic weathered stone chapel with particulate glow",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a non-graphic weathered stone chapel with particulate glow",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-dark-weathered-stone-chapel",
+      "tags": [
+        "dark",
+        "gothic",
+        "location",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "weathered-stone-chapel",
+        "treatment": "particulate-glow"
+      },
+      "subcategory": "weathered-stone-chapel",
+      "intensity": "strong",
+      "safety": "dark-atmospheric",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-dark-empty-midnight-theater-clear-atmosphere",
+      "semantic_key": "scene-location-dark-empty-midnight-theater-clear-atmosphere",
+      "text": "a non-graphic empty midnight theater with clear atmosphere",
+      "sentence": "A non-graphic empty midnight theater with clear atmosphere.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a non-graphic empty midnight theater with clear atmosphere",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a non-graphic empty midnight theater with clear atmosphere",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a non-graphic empty midnight theater with clear atmosphere",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-dark-empty-midnight-theater",
+      "tags": [
+        "dark",
+        "gothic",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "empty-midnight-theater",
+        "treatment": "clear-atmosphere"
+      },
+      "subcategory": "empty-midnight-theater",
+      "intensity": "subtle",
+      "safety": "dark-atmospheric",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-dark-empty-midnight-theater-light-haze",
+      "semantic_key": "scene-location-dark-empty-midnight-theater-light-haze",
+      "text": "a non-graphic empty midnight theater with light haze",
+      "sentence": "A non-graphic empty midnight theater with light haze.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a non-graphic empty midnight theater with light haze",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a non-graphic empty midnight theater with light haze",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a non-graphic empty midnight theater with light haze",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-dark-empty-midnight-theater",
+      "tags": [
+        "dark",
+        "gothic",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "empty-midnight-theater",
+        "treatment": "light-haze"
+      },
+      "subcategory": "empty-midnight-theater",
+      "intensity": "subtle",
+      "safety": "dark-atmospheric",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-dark-empty-midnight-theater-soft-mist",
+      "semantic_key": "scene-location-dark-empty-midnight-theater-soft-mist",
+      "text": "a non-graphic empty midnight theater with soft mist",
+      "sentence": "A non-graphic empty midnight theater with soft mist.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a non-graphic empty midnight theater with soft mist",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a non-graphic empty midnight theater with soft mist",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a non-graphic empty midnight theater with soft mist",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-dark-empty-midnight-theater",
+      "tags": [
+        "dark",
+        "gothic",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "empty-midnight-theater",
+        "treatment": "soft-mist"
+      },
+      "subcategory": "empty-midnight-theater",
+      "intensity": "moderate",
+      "safety": "dark-atmospheric",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-dark-empty-midnight-theater-humid-air",
+      "semantic_key": "scene-location-dark-empty-midnight-theater-humid-air",
+      "text": "a non-graphic empty midnight theater with humid air",
+      "sentence": "A non-graphic empty midnight theater with humid air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a non-graphic empty midnight theater with humid air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a non-graphic empty midnight theater with humid air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a non-graphic empty midnight theater with humid air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-dark-empty-midnight-theater",
+      "tags": [
+        "dark",
+        "gothic",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "empty-midnight-theater",
+        "treatment": "humid-air"
+      },
+      "subcategory": "empty-midnight-theater",
+      "intensity": "moderate",
+      "safety": "dark-atmospheric",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-dark-empty-midnight-theater-dry-air",
+      "semantic_key": "scene-location-dark-empty-midnight-theater-dry-air",
+      "text": "a non-graphic empty midnight theater with dry air",
+      "sentence": "A non-graphic empty midnight theater with dry air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a non-graphic empty midnight theater with dry air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a non-graphic empty midnight theater with dry air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a non-graphic empty midnight theater with dry air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-dark-empty-midnight-theater",
+      "tags": [
+        "dark",
+        "gothic",
+        "location",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "empty-midnight-theater",
+        "treatment": "dry-air"
+      },
+      "subcategory": "empty-midnight-theater",
+      "intensity": "moderate",
+      "safety": "dark-atmospheric",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-dark-empty-midnight-theater-wind-swept-air",
+      "semantic_key": "scene-location-dark-empty-midnight-theater-wind-swept-air",
+      "text": "a non-graphic empty midnight theater with wind-swept air",
+      "sentence": "A non-graphic empty midnight theater with wind-swept air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a non-graphic empty midnight theater with wind-swept air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a non-graphic empty midnight theater with wind-swept air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a non-graphic empty midnight theater with wind-swept air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-dark-empty-midnight-theater",
+      "tags": [
+        "dark",
+        "gothic",
+        "location",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "empty-midnight-theater",
+        "treatment": "wind-swept-air"
+      },
+      "subcategory": "empty-midnight-theater",
+      "intensity": "moderate",
+      "safety": "dark-atmospheric",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-dark-empty-midnight-theater-still-air",
+      "semantic_key": "scene-location-dark-empty-midnight-theater-still-air",
+      "text": "a non-graphic empty midnight theater with still air",
+      "sentence": "A non-graphic empty midnight theater with still air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a non-graphic empty midnight theater with still air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a non-graphic empty midnight theater with still air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a non-graphic empty midnight theater with still air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-dark-empty-midnight-theater",
+      "tags": [
+        "dark",
+        "gothic",
+        "location",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "empty-midnight-theater",
+        "treatment": "still-air"
+      },
+      "subcategory": "empty-midnight-theater",
+      "intensity": "strong",
+      "safety": "dark-atmospheric",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-dark-empty-midnight-theater-particulate-glow",
+      "semantic_key": "scene-location-dark-empty-midnight-theater-particulate-glow",
+      "text": "a non-graphic empty midnight theater with particulate glow",
+      "sentence": "A non-graphic empty midnight theater with particulate glow.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a non-graphic empty midnight theater with particulate glow",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a non-graphic empty midnight theater with particulate glow",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a non-graphic empty midnight theater with particulate glow",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-dark-empty-midnight-theater",
+      "tags": [
+        "dark",
+        "gothic",
+        "location",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "empty-midnight-theater",
+        "treatment": "particulate-glow"
+      },
+      "subcategory": "empty-midnight-theater",
+      "intensity": "strong",
+      "safety": "dark-atmospheric",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-dark-shadowed-forest-trail-clear-atmosphere",
+      "semantic_key": "scene-location-dark-shadowed-forest-trail-clear-atmosphere",
+      "text": "a non-graphic shadowed forest trail with clear atmosphere",
+      "sentence": "A non-graphic shadowed forest trail with clear atmosphere.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a non-graphic shadowed forest trail with clear atmosphere",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a non-graphic shadowed forest trail with clear atmosphere",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a non-graphic shadowed forest trail with clear atmosphere",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-dark-shadowed-forest-trail",
+      "tags": [
+        "dark",
+        "gothic",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "shadowed-forest-trail",
+        "treatment": "clear-atmosphere"
+      },
+      "subcategory": "shadowed-forest-trail",
+      "intensity": "subtle",
+      "safety": "dark-atmospheric",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-dark-shadowed-forest-trail-light-haze",
+      "semantic_key": "scene-location-dark-shadowed-forest-trail-light-haze",
+      "text": "a non-graphic shadowed forest trail with light haze",
+      "sentence": "A non-graphic shadowed forest trail with light haze.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a non-graphic shadowed forest trail with light haze",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a non-graphic shadowed forest trail with light haze",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a non-graphic shadowed forest trail with light haze",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-dark-shadowed-forest-trail",
+      "tags": [
+        "dark",
+        "gothic",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "shadowed-forest-trail",
+        "treatment": "light-haze"
+      },
+      "subcategory": "shadowed-forest-trail",
+      "intensity": "subtle",
+      "safety": "dark-atmospheric",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-dark-shadowed-forest-trail-soft-mist",
+      "semantic_key": "scene-location-dark-shadowed-forest-trail-soft-mist",
+      "text": "a non-graphic shadowed forest trail with soft mist",
+      "sentence": "A non-graphic shadowed forest trail with soft mist.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a non-graphic shadowed forest trail with soft mist",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a non-graphic shadowed forest trail with soft mist",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a non-graphic shadowed forest trail with soft mist",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-dark-shadowed-forest-trail",
+      "tags": [
+        "dark",
+        "gothic",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "shadowed-forest-trail",
+        "treatment": "soft-mist"
+      },
+      "subcategory": "shadowed-forest-trail",
+      "intensity": "moderate",
+      "safety": "dark-atmospheric",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-dark-shadowed-forest-trail-humid-air",
+      "semantic_key": "scene-location-dark-shadowed-forest-trail-humid-air",
+      "text": "a non-graphic shadowed forest trail with humid air",
+      "sentence": "A non-graphic shadowed forest trail with humid air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a non-graphic shadowed forest trail with humid air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a non-graphic shadowed forest trail with humid air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a non-graphic shadowed forest trail with humid air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-dark-shadowed-forest-trail",
+      "tags": [
+        "dark",
+        "gothic",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "shadowed-forest-trail",
+        "treatment": "humid-air"
+      },
+      "subcategory": "shadowed-forest-trail",
+      "intensity": "moderate",
+      "safety": "dark-atmospheric",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-dark-shadowed-forest-trail-dry-air",
+      "semantic_key": "scene-location-dark-shadowed-forest-trail-dry-air",
+      "text": "a non-graphic shadowed forest trail with dry air",
+      "sentence": "A non-graphic shadowed forest trail with dry air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a non-graphic shadowed forest trail with dry air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a non-graphic shadowed forest trail with dry air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a non-graphic shadowed forest trail with dry air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-dark-shadowed-forest-trail",
+      "tags": [
+        "dark",
+        "gothic",
+        "location",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "shadowed-forest-trail",
+        "treatment": "dry-air"
+      },
+      "subcategory": "shadowed-forest-trail",
+      "intensity": "moderate",
+      "safety": "dark-atmospheric",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-dark-shadowed-forest-trail-wind-swept-air",
+      "semantic_key": "scene-location-dark-shadowed-forest-trail-wind-swept-air",
+      "text": "a non-graphic shadowed forest trail with wind-swept air",
+      "sentence": "A non-graphic shadowed forest trail with wind-swept air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a non-graphic shadowed forest trail with wind-swept air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a non-graphic shadowed forest trail with wind-swept air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a non-graphic shadowed forest trail with wind-swept air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-dark-shadowed-forest-trail",
+      "tags": [
+        "dark",
+        "gothic",
+        "location",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "shadowed-forest-trail",
+        "treatment": "wind-swept-air"
+      },
+      "subcategory": "shadowed-forest-trail",
+      "intensity": "moderate",
+      "safety": "dark-atmospheric",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-dark-shadowed-forest-trail-still-air",
+      "semantic_key": "scene-location-dark-shadowed-forest-trail-still-air",
+      "text": "a non-graphic shadowed forest trail with still air",
+      "sentence": "A non-graphic shadowed forest trail with still air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a non-graphic shadowed forest trail with still air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a non-graphic shadowed forest trail with still air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a non-graphic shadowed forest trail with still air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-dark-shadowed-forest-trail",
+      "tags": [
+        "dark",
+        "gothic",
+        "location",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "shadowed-forest-trail",
+        "treatment": "still-air"
+      },
+      "subcategory": "shadowed-forest-trail",
+      "intensity": "strong",
+      "safety": "dark-atmospheric",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-dark-shadowed-forest-trail-particulate-glow",
+      "semantic_key": "scene-location-dark-shadowed-forest-trail-particulate-glow",
+      "text": "a non-graphic shadowed forest trail with particulate glow",
+      "sentence": "A non-graphic shadowed forest trail with particulate glow.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a non-graphic shadowed forest trail with particulate glow",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a non-graphic shadowed forest trail with particulate glow",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a non-graphic shadowed forest trail with particulate glow",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-dark-shadowed-forest-trail",
+      "tags": [
+        "dark",
+        "gothic",
+        "location",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "shadowed-forest-trail",
+        "treatment": "particulate-glow"
+      },
+      "subcategory": "shadowed-forest-trail",
+      "intensity": "strong",
+      "safety": "dark-atmospheric",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-dark-decaying-conservatory-clear-atmosphere",
+      "semantic_key": "scene-location-dark-decaying-conservatory-clear-atmosphere",
+      "text": "a non-graphic decaying conservatory with clear atmosphere",
+      "sentence": "A non-graphic decaying conservatory with clear atmosphere.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a non-graphic decaying conservatory with clear atmosphere",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a non-graphic decaying conservatory with clear atmosphere",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a non-graphic decaying conservatory with clear atmosphere",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-dark-decaying-conservatory",
+      "tags": [
+        "dark",
+        "gothic",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "decaying-conservatory",
+        "treatment": "clear-atmosphere"
+      },
+      "subcategory": "decaying-conservatory",
+      "intensity": "subtle",
+      "safety": "dark-atmospheric",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-dark-decaying-conservatory-light-haze",
+      "semantic_key": "scene-location-dark-decaying-conservatory-light-haze",
+      "text": "a non-graphic decaying conservatory with light haze",
+      "sentence": "A non-graphic decaying conservatory with light haze.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a non-graphic decaying conservatory with light haze",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a non-graphic decaying conservatory with light haze",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a non-graphic decaying conservatory with light haze",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-dark-decaying-conservatory",
+      "tags": [
+        "dark",
+        "gothic",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "decaying-conservatory",
+        "treatment": "light-haze"
+      },
+      "subcategory": "decaying-conservatory",
+      "intensity": "subtle",
+      "safety": "dark-atmospheric",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-dark-decaying-conservatory-soft-mist",
+      "semantic_key": "scene-location-dark-decaying-conservatory-soft-mist",
+      "text": "a non-graphic decaying conservatory with soft mist",
+      "sentence": "A non-graphic decaying conservatory with soft mist.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a non-graphic decaying conservatory with soft mist",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a non-graphic decaying conservatory with soft mist",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a non-graphic decaying conservatory with soft mist",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-dark-decaying-conservatory",
+      "tags": [
+        "dark",
+        "gothic",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "decaying-conservatory",
+        "treatment": "soft-mist"
+      },
+      "subcategory": "decaying-conservatory",
+      "intensity": "moderate",
+      "safety": "dark-atmospheric",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-dark-decaying-conservatory-humid-air",
+      "semantic_key": "scene-location-dark-decaying-conservatory-humid-air",
+      "text": "a non-graphic decaying conservatory with humid air",
+      "sentence": "A non-graphic decaying conservatory with humid air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a non-graphic decaying conservatory with humid air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a non-graphic decaying conservatory with humid air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a non-graphic decaying conservatory with humid air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-dark-decaying-conservatory",
+      "tags": [
+        "dark",
+        "gothic",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "decaying-conservatory",
+        "treatment": "humid-air"
+      },
+      "subcategory": "decaying-conservatory",
+      "intensity": "moderate",
+      "safety": "dark-atmospheric",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-dark-decaying-conservatory-dry-air",
+      "semantic_key": "scene-location-dark-decaying-conservatory-dry-air",
+      "text": "a non-graphic decaying conservatory with dry air",
+      "sentence": "A non-graphic decaying conservatory with dry air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a non-graphic decaying conservatory with dry air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a non-graphic decaying conservatory with dry air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a non-graphic decaying conservatory with dry air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-dark-decaying-conservatory",
+      "tags": [
+        "dark",
+        "gothic",
+        "location",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "decaying-conservatory",
+        "treatment": "dry-air"
+      },
+      "subcategory": "decaying-conservatory",
+      "intensity": "moderate",
+      "safety": "dark-atmospheric",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-dark-decaying-conservatory-wind-swept-air",
+      "semantic_key": "scene-location-dark-decaying-conservatory-wind-swept-air",
+      "text": "a non-graphic decaying conservatory with wind-swept air",
+      "sentence": "A non-graphic decaying conservatory with wind-swept air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a non-graphic decaying conservatory with wind-swept air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a non-graphic decaying conservatory with wind-swept air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a non-graphic decaying conservatory with wind-swept air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-dark-decaying-conservatory",
+      "tags": [
+        "dark",
+        "gothic",
+        "location",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "decaying-conservatory",
+        "treatment": "wind-swept-air"
+      },
+      "subcategory": "decaying-conservatory",
+      "intensity": "moderate",
+      "safety": "dark-atmospheric",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-dark-decaying-conservatory-still-air",
+      "semantic_key": "scene-location-dark-decaying-conservatory-still-air",
+      "text": "a non-graphic decaying conservatory with still air",
+      "sentence": "A non-graphic decaying conservatory with still air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a non-graphic decaying conservatory with still air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a non-graphic decaying conservatory with still air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a non-graphic decaying conservatory with still air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-dark-decaying-conservatory",
+      "tags": [
+        "dark",
+        "gothic",
+        "location",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "decaying-conservatory",
+        "treatment": "still-air"
+      },
+      "subcategory": "decaying-conservatory",
+      "intensity": "strong",
+      "safety": "dark-atmospheric",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-dark-decaying-conservatory-particulate-glow",
+      "semantic_key": "scene-location-dark-decaying-conservatory-particulate-glow",
+      "text": "a non-graphic decaying conservatory with particulate glow",
+      "sentence": "A non-graphic decaying conservatory with particulate glow.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a non-graphic decaying conservatory with particulate glow",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a non-graphic decaying conservatory with particulate glow",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a non-graphic decaying conservatory with particulate glow",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-dark-decaying-conservatory",
+      "tags": [
+        "dark",
+        "gothic",
+        "location",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "decaying-conservatory",
+        "treatment": "particulate-glow"
+      },
+      "subcategory": "decaying-conservatory",
+      "intensity": "strong",
+      "safety": "dark-atmospheric",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-dark-silent-underground-station-clear-atmosphere",
+      "semantic_key": "scene-location-dark-silent-underground-station-clear-atmosphere",
+      "text": "a non-graphic silent underground station with clear atmosphere",
+      "sentence": "A non-graphic silent underground station with clear atmosphere.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a non-graphic silent underground station with clear atmosphere",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a non-graphic silent underground station with clear atmosphere",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a non-graphic silent underground station with clear atmosphere",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-dark-silent-underground-station",
+      "tags": [
+        "dark",
+        "gothic",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "silent-underground-station",
+        "treatment": "clear-atmosphere"
+      },
+      "subcategory": "silent-underground-station",
+      "intensity": "subtle",
+      "safety": "dark-atmospheric",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-dark-silent-underground-station-light-haze",
+      "semantic_key": "scene-location-dark-silent-underground-station-light-haze",
+      "text": "a non-graphic silent underground station with light haze",
+      "sentence": "A non-graphic silent underground station with light haze.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a non-graphic silent underground station with light haze",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a non-graphic silent underground station with light haze",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a non-graphic silent underground station with light haze",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-dark-silent-underground-station",
+      "tags": [
+        "dark",
+        "gothic",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "silent-underground-station",
+        "treatment": "light-haze"
+      },
+      "subcategory": "silent-underground-station",
+      "intensity": "subtle",
+      "safety": "dark-atmospheric",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-dark-silent-underground-station-soft-mist",
+      "semantic_key": "scene-location-dark-silent-underground-station-soft-mist",
+      "text": "a non-graphic silent underground station with soft mist",
+      "sentence": "A non-graphic silent underground station with soft mist.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a non-graphic silent underground station with soft mist",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a non-graphic silent underground station with soft mist",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a non-graphic silent underground station with soft mist",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-dark-silent-underground-station",
+      "tags": [
+        "dark",
+        "gothic",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "silent-underground-station",
+        "treatment": "soft-mist"
+      },
+      "subcategory": "silent-underground-station",
+      "intensity": "moderate",
+      "safety": "dark-atmospheric",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-dark-silent-underground-station-humid-air",
+      "semantic_key": "scene-location-dark-silent-underground-station-humid-air",
+      "text": "a non-graphic silent underground station with humid air",
+      "sentence": "A non-graphic silent underground station with humid air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a non-graphic silent underground station with humid air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a non-graphic silent underground station with humid air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a non-graphic silent underground station with humid air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-dark-silent-underground-station",
+      "tags": [
+        "dark",
+        "gothic",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "silent-underground-station",
+        "treatment": "humid-air"
+      },
+      "subcategory": "silent-underground-station",
+      "intensity": "moderate",
+      "safety": "dark-atmospheric",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-dark-silent-underground-station-dry-air",
+      "semantic_key": "scene-location-dark-silent-underground-station-dry-air",
+      "text": "a non-graphic silent underground station with dry air",
+      "sentence": "A non-graphic silent underground station with dry air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a non-graphic silent underground station with dry air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a non-graphic silent underground station with dry air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a non-graphic silent underground station with dry air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-dark-silent-underground-station",
+      "tags": [
+        "dark",
+        "gothic",
+        "location",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "silent-underground-station",
+        "treatment": "dry-air"
+      },
+      "subcategory": "silent-underground-station",
+      "intensity": "moderate",
+      "safety": "dark-atmospheric",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-dark-silent-underground-station-wind-swept-air",
+      "semantic_key": "scene-location-dark-silent-underground-station-wind-swept-air",
+      "text": "a non-graphic silent underground station with wind-swept air",
+      "sentence": "A non-graphic silent underground station with wind-swept air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a non-graphic silent underground station with wind-swept air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a non-graphic silent underground station with wind-swept air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a non-graphic silent underground station with wind-swept air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-dark-silent-underground-station",
+      "tags": [
+        "dark",
+        "gothic",
+        "location",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "silent-underground-station",
+        "treatment": "wind-swept-air"
+      },
+      "subcategory": "silent-underground-station",
+      "intensity": "moderate",
+      "safety": "dark-atmospheric",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-dark-silent-underground-station-still-air",
+      "semantic_key": "scene-location-dark-silent-underground-station-still-air",
+      "text": "a non-graphic silent underground station with still air",
+      "sentence": "A non-graphic silent underground station with still air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a non-graphic silent underground station with still air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a non-graphic silent underground station with still air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a non-graphic silent underground station with still air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-dark-silent-underground-station",
+      "tags": [
+        "dark",
+        "gothic",
+        "location",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "silent-underground-station",
+        "treatment": "still-air"
+      },
+      "subcategory": "silent-underground-station",
+      "intensity": "strong",
+      "safety": "dark-atmospheric",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-dark-silent-underground-station-particulate-glow",
+      "semantic_key": "scene-location-dark-silent-underground-station-particulate-glow",
+      "text": "a non-graphic silent underground station with particulate glow",
+      "sentence": "A non-graphic silent underground station with particulate glow.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a non-graphic silent underground station with particulate glow",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a non-graphic silent underground station with particulate glow",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a non-graphic silent underground station with particulate glow",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-dark-silent-underground-station",
+      "tags": [
+        "dark",
+        "gothic",
+        "location",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "silent-underground-station",
+        "treatment": "particulate-glow"
+      },
+      "subcategory": "silent-underground-station",
+      "intensity": "strong",
+      "safety": "dark-atmospheric",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-dark-storm-darkened-coastal-house-clear-atmosphere",
+      "semantic_key": "scene-location-dark-storm-darkened-coastal-house-clear-atmosphere",
+      "text": "a non-graphic storm-darkened coastal house with clear atmosphere",
+      "sentence": "A non-graphic storm-darkened coastal house with clear atmosphere.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a non-graphic storm-darkened coastal house with clear atmosphere",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a non-graphic storm-darkened coastal house with clear atmosphere",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a non-graphic storm-darkened coastal house with clear atmosphere",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-dark-storm-darkened-coastal-house",
+      "tags": [
+        "dark",
+        "gothic",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "storm-darkened-coastal-house",
+        "treatment": "clear-atmosphere"
+      },
+      "subcategory": "storm-darkened-coastal-house",
+      "intensity": "subtle",
+      "safety": "dark-atmospheric",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-dark-storm-darkened-coastal-house-light-haze",
+      "semantic_key": "scene-location-dark-storm-darkened-coastal-house-light-haze",
+      "text": "a non-graphic storm-darkened coastal house with light haze",
+      "sentence": "A non-graphic storm-darkened coastal house with light haze.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a non-graphic storm-darkened coastal house with light haze",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a non-graphic storm-darkened coastal house with light haze",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a non-graphic storm-darkened coastal house with light haze",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-dark-storm-darkened-coastal-house",
+      "tags": [
+        "dark",
+        "gothic",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "storm-darkened-coastal-house",
+        "treatment": "light-haze"
+      },
+      "subcategory": "storm-darkened-coastal-house",
+      "intensity": "subtle",
+      "safety": "dark-atmospheric",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-dark-storm-darkened-coastal-house-soft-mist",
+      "semantic_key": "scene-location-dark-storm-darkened-coastal-house-soft-mist",
+      "text": "a non-graphic storm-darkened coastal house with soft mist",
+      "sentence": "A non-graphic storm-darkened coastal house with soft mist.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a non-graphic storm-darkened coastal house with soft mist",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a non-graphic storm-darkened coastal house with soft mist",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a non-graphic storm-darkened coastal house with soft mist",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-dark-storm-darkened-coastal-house",
+      "tags": [
+        "dark",
+        "gothic",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "storm-darkened-coastal-house",
+        "treatment": "soft-mist"
+      },
+      "subcategory": "storm-darkened-coastal-house",
+      "intensity": "moderate",
+      "safety": "dark-atmospheric",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-dark-storm-darkened-coastal-house-humid-air",
+      "semantic_key": "scene-location-dark-storm-darkened-coastal-house-humid-air",
+      "text": "a non-graphic storm-darkened coastal house with humid air",
+      "sentence": "A non-graphic storm-darkened coastal house with humid air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a non-graphic storm-darkened coastal house with humid air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a non-graphic storm-darkened coastal house with humid air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a non-graphic storm-darkened coastal house with humid air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-dark-storm-darkened-coastal-house",
+      "tags": [
+        "dark",
+        "gothic",
+        "location",
+        "rarity-common",
+        "scene"
+      ],
+      "facets": {
+        "setting": "storm-darkened-coastal-house",
+        "treatment": "humid-air"
+      },
+      "subcategory": "storm-darkened-coastal-house",
+      "intensity": "moderate",
+      "safety": "dark-atmospheric",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-dark-storm-darkened-coastal-house-dry-air",
+      "semantic_key": "scene-location-dark-storm-darkened-coastal-house-dry-air",
+      "text": "a non-graphic storm-darkened coastal house with dry air",
+      "sentence": "A non-graphic storm-darkened coastal house with dry air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a non-graphic storm-darkened coastal house with dry air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a non-graphic storm-darkened coastal house with dry air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a non-graphic storm-darkened coastal house with dry air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-dark-storm-darkened-coastal-house",
+      "tags": [
+        "dark",
+        "gothic",
+        "location",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "storm-darkened-coastal-house",
+        "treatment": "dry-air"
+      },
+      "subcategory": "storm-darkened-coastal-house",
+      "intensity": "moderate",
+      "safety": "dark-atmospheric",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-dark-storm-darkened-coastal-house-wind-swept-air",
+      "semantic_key": "scene-location-dark-storm-darkened-coastal-house-wind-swept-air",
+      "text": "a non-graphic storm-darkened coastal house with wind-swept air",
+      "sentence": "A non-graphic storm-darkened coastal house with wind-swept air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a non-graphic storm-darkened coastal house with wind-swept air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a non-graphic storm-darkened coastal house with wind-swept air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a non-graphic storm-darkened coastal house with wind-swept air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-dark-storm-darkened-coastal-house",
+      "tags": [
+        "dark",
+        "gothic",
+        "location",
+        "rarity-uncommon",
+        "scene"
+      ],
+      "facets": {
+        "setting": "storm-darkened-coastal-house",
+        "treatment": "wind-swept-air"
+      },
+      "subcategory": "storm-darkened-coastal-house",
+      "intensity": "moderate",
+      "safety": "dark-atmospheric",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-dark-storm-darkened-coastal-house-still-air",
+      "semantic_key": "scene-location-dark-storm-darkened-coastal-house-still-air",
+      "text": "a non-graphic storm-darkened coastal house with still air",
+      "sentence": "A non-graphic storm-darkened coastal house with still air.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a non-graphic storm-darkened coastal house with still air",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a non-graphic storm-darkened coastal house with still air",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a non-graphic storm-darkened coastal house with still air",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-dark-storm-darkened-coastal-house",
+      "tags": [
+        "dark",
+        "gothic",
+        "location",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "storm-darkened-coastal-house",
+        "treatment": "still-air"
+      },
+      "subcategory": "storm-darkened-coastal-house",
+      "intensity": "strong",
+      "safety": "dark-atmospheric",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-dark-storm-darkened-coastal-house-particulate-glow",
+      "semantic_key": "scene-location-dark-storm-darkened-coastal-house-particulate-glow",
+      "text": "a non-graphic storm-darkened coastal house with particulate glow",
+      "sentence": "A non-graphic storm-darkened coastal house with particulate glow.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a non-graphic storm-darkened coastal house with particulate glow",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a non-graphic storm-darkened coastal house with particulate glow",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a non-graphic storm-darkened coastal house with particulate glow",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-dark-storm-darkened-coastal-house",
+      "tags": [
+        "dark",
+        "gothic",
+        "location",
+        "rarity-rare",
+        "scene"
+      ],
+      "facets": {
+        "setting": "storm-darkened-coastal-house",
+        "treatment": "particulate-glow"
+      },
+      "subcategory": "storm-darkened-coastal-house",
+      "intensity": "strong",
+      "safety": "dark-atmospheric",
+      "join_hint": "sentence"
+    }
+  ]
+}

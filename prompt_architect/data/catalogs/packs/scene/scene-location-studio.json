@@ -1,0 +1,2707 @@
+{
+  "schema_version": "2.0",
+  "id": "scene-location-studio",
+  "version": "2.0.0",
+  "library": "location",
+  "domain": "scene",
+  "category": "location",
+  "language": "en",
+  "status": "active",
+  "safety": "general",
+  "tags": [
+    "base",
+    "indoor",
+    "studio"
+  ],
+  "fallback_option_id": "scene-location-studio-neutral-portrait-studio-open-spatial-layout",
+  "options": [
+    {
+      "id": "scene-location-studio-neutral-portrait-studio-open-spatial-layout",
+      "semantic_key": "scene-location-studio-neutral-portrait-studio-open-spatial-layout",
+      "text": "a neutral portrait studio with open spatial layout",
+      "sentence": "A neutral portrait studio with open spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a neutral portrait studio with open spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a neutral portrait studio with open spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a neutral portrait studio with open spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-studio-neutral-portrait-studio",
+      "tags": [
+        "base",
+        "indoor",
+        "location",
+        "rarity-common",
+        "scene",
+        "studio"
+      ],
+      "facets": {
+        "setting": "neutral-portrait-studio",
+        "treatment": "open-spatial-layout"
+      },
+      "subcategory": "neutral-portrait-studio",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-studio-neutral-portrait-studio-intimate-spatial-layout",
+      "semantic_key": "scene-location-studio-neutral-portrait-studio-intimate-spatial-layout",
+      "text": "a neutral portrait studio with intimate spatial layout",
+      "sentence": "A neutral portrait studio with intimate spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a neutral portrait studio with intimate spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a neutral portrait studio with intimate spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a neutral portrait studio with intimate spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-studio-neutral-portrait-studio",
+      "tags": [
+        "base",
+        "indoor",
+        "location",
+        "rarity-common",
+        "scene",
+        "studio"
+      ],
+      "facets": {
+        "setting": "neutral-portrait-studio",
+        "treatment": "intimate-spatial-layout"
+      },
+      "subcategory": "neutral-portrait-studio",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-studio-neutral-portrait-studio-layered-depth",
+      "semantic_key": "scene-location-studio-neutral-portrait-studio-layered-depth",
+      "text": "a neutral portrait studio with layered depth",
+      "sentence": "A neutral portrait studio with layered depth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a neutral portrait studio with layered depth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a neutral portrait studio with layered depth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a neutral portrait studio with layered depth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-studio-neutral-portrait-studio",
+      "tags": [
+        "base",
+        "indoor",
+        "location",
+        "rarity-common",
+        "scene",
+        "studio"
+      ],
+      "facets": {
+        "setting": "neutral-portrait-studio",
+        "treatment": "layered-depth"
+      },
+      "subcategory": "neutral-portrait-studio",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-studio-neutral-portrait-studio-clear-sightlines",
+      "semantic_key": "scene-location-studio-neutral-portrait-studio-clear-sightlines",
+      "text": "a neutral portrait studio with clear sightlines",
+      "sentence": "A neutral portrait studio with clear sightlines.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a neutral portrait studio with clear sightlines",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a neutral portrait studio with clear sightlines",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a neutral portrait studio with clear sightlines",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-studio-neutral-portrait-studio",
+      "tags": [
+        "base",
+        "indoor",
+        "location",
+        "rarity-common",
+        "scene",
+        "studio"
+      ],
+      "facets": {
+        "setting": "neutral-portrait-studio",
+        "treatment": "clear-sightlines"
+      },
+      "subcategory": "neutral-portrait-studio",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-studio-neutral-portrait-studio-enclosed-geometry",
+      "semantic_key": "scene-location-studio-neutral-portrait-studio-enclosed-geometry",
+      "text": "a neutral portrait studio with enclosed geometry",
+      "sentence": "A neutral portrait studio with enclosed geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a neutral portrait studio with enclosed geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a neutral portrait studio with enclosed geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a neutral portrait studio with enclosed geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-studio-neutral-portrait-studio",
+      "tags": [
+        "base",
+        "indoor",
+        "location",
+        "rarity-uncommon",
+        "scene",
+        "studio"
+      ],
+      "facets": {
+        "setting": "neutral-portrait-studio",
+        "treatment": "enclosed-geometry"
+      },
+      "subcategory": "neutral-portrait-studio",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-studio-neutral-portrait-studio-expansive-geometry",
+      "semantic_key": "scene-location-studio-neutral-portrait-studio-expansive-geometry",
+      "text": "a neutral portrait studio with expansive geometry",
+      "sentence": "A neutral portrait studio with expansive geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a neutral portrait studio with expansive geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a neutral portrait studio with expansive geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a neutral portrait studio with expansive geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-studio-neutral-portrait-studio",
+      "tags": [
+        "base",
+        "indoor",
+        "location",
+        "rarity-uncommon",
+        "scene",
+        "studio"
+      ],
+      "facets": {
+        "setting": "neutral-portrait-studio",
+        "treatment": "expansive-geometry"
+      },
+      "subcategory": "neutral-portrait-studio",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-studio-neutral-portrait-studio-asymmetric-layout",
+      "semantic_key": "scene-location-studio-neutral-portrait-studio-asymmetric-layout",
+      "text": "a neutral portrait studio with asymmetric layout",
+      "sentence": "A neutral portrait studio with asymmetric layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a neutral portrait studio with asymmetric layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a neutral portrait studio with asymmetric layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a neutral portrait studio with asymmetric layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-studio-neutral-portrait-studio",
+      "tags": [
+        "base",
+        "indoor",
+        "location",
+        "rarity-rare",
+        "scene",
+        "studio"
+      ],
+      "facets": {
+        "setting": "neutral-portrait-studio",
+        "treatment": "asymmetric-layout"
+      },
+      "subcategory": "neutral-portrait-studio",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-studio-neutral-portrait-studio-central-organization",
+      "semantic_key": "scene-location-studio-neutral-portrait-studio-central-organization",
+      "text": "a neutral portrait studio with central organization",
+      "sentence": "A neutral portrait studio with central organization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a neutral portrait studio with central organization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a neutral portrait studio with central organization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a neutral portrait studio with central organization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-studio-neutral-portrait-studio",
+      "tags": [
+        "base",
+        "indoor",
+        "location",
+        "rarity-rare",
+        "scene",
+        "studio"
+      ],
+      "facets": {
+        "setting": "neutral-portrait-studio",
+        "treatment": "central-organization"
+      },
+      "subcategory": "neutral-portrait-studio",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-studio-daylight-studio-open-spatial-layout",
+      "semantic_key": "scene-location-studio-daylight-studio-open-spatial-layout",
+      "text": "a daylight studio with open spatial layout",
+      "sentence": "A daylight studio with open spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a daylight studio with open spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a daylight studio with open spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a daylight studio with open spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-studio-daylight-studio",
+      "tags": [
+        "base",
+        "indoor",
+        "location",
+        "rarity-common",
+        "scene",
+        "studio"
+      ],
+      "facets": {
+        "setting": "daylight-studio",
+        "treatment": "open-spatial-layout"
+      },
+      "subcategory": "daylight-studio",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-studio-daylight-studio-intimate-spatial-layout",
+      "semantic_key": "scene-location-studio-daylight-studio-intimate-spatial-layout",
+      "text": "a daylight studio with intimate spatial layout",
+      "sentence": "A daylight studio with intimate spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a daylight studio with intimate spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a daylight studio with intimate spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a daylight studio with intimate spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-studio-daylight-studio",
+      "tags": [
+        "base",
+        "indoor",
+        "location",
+        "rarity-common",
+        "scene",
+        "studio"
+      ],
+      "facets": {
+        "setting": "daylight-studio",
+        "treatment": "intimate-spatial-layout"
+      },
+      "subcategory": "daylight-studio",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-studio-daylight-studio-layered-depth",
+      "semantic_key": "scene-location-studio-daylight-studio-layered-depth",
+      "text": "a daylight studio with layered depth",
+      "sentence": "A daylight studio with layered depth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a daylight studio with layered depth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a daylight studio with layered depth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a daylight studio with layered depth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-studio-daylight-studio",
+      "tags": [
+        "base",
+        "indoor",
+        "location",
+        "rarity-common",
+        "scene",
+        "studio"
+      ],
+      "facets": {
+        "setting": "daylight-studio",
+        "treatment": "layered-depth"
+      },
+      "subcategory": "daylight-studio",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-studio-daylight-studio-clear-sightlines",
+      "semantic_key": "scene-location-studio-daylight-studio-clear-sightlines",
+      "text": "a daylight studio with clear sightlines",
+      "sentence": "A daylight studio with clear sightlines.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a daylight studio with clear sightlines",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a daylight studio with clear sightlines",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a daylight studio with clear sightlines",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-studio-daylight-studio",
+      "tags": [
+        "base",
+        "indoor",
+        "location",
+        "rarity-common",
+        "scene",
+        "studio"
+      ],
+      "facets": {
+        "setting": "daylight-studio",
+        "treatment": "clear-sightlines"
+      },
+      "subcategory": "daylight-studio",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-studio-daylight-studio-enclosed-geometry",
+      "semantic_key": "scene-location-studio-daylight-studio-enclosed-geometry",
+      "text": "a daylight studio with enclosed geometry",
+      "sentence": "A daylight studio with enclosed geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a daylight studio with enclosed geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a daylight studio with enclosed geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a daylight studio with enclosed geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-studio-daylight-studio",
+      "tags": [
+        "base",
+        "indoor",
+        "location",
+        "rarity-uncommon",
+        "scene",
+        "studio"
+      ],
+      "facets": {
+        "setting": "daylight-studio",
+        "treatment": "enclosed-geometry"
+      },
+      "subcategory": "daylight-studio",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-studio-daylight-studio-expansive-geometry",
+      "semantic_key": "scene-location-studio-daylight-studio-expansive-geometry",
+      "text": "a daylight studio with expansive geometry",
+      "sentence": "A daylight studio with expansive geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a daylight studio with expansive geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a daylight studio with expansive geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a daylight studio with expansive geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-studio-daylight-studio",
+      "tags": [
+        "base",
+        "indoor",
+        "location",
+        "rarity-uncommon",
+        "scene",
+        "studio"
+      ],
+      "facets": {
+        "setting": "daylight-studio",
+        "treatment": "expansive-geometry"
+      },
+      "subcategory": "daylight-studio",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-studio-daylight-studio-asymmetric-layout",
+      "semantic_key": "scene-location-studio-daylight-studio-asymmetric-layout",
+      "text": "a daylight studio with asymmetric layout",
+      "sentence": "A daylight studio with asymmetric layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a daylight studio with asymmetric layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a daylight studio with asymmetric layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a daylight studio with asymmetric layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-studio-daylight-studio",
+      "tags": [
+        "base",
+        "indoor",
+        "location",
+        "rarity-rare",
+        "scene",
+        "studio"
+      ],
+      "facets": {
+        "setting": "daylight-studio",
+        "treatment": "asymmetric-layout"
+      },
+      "subcategory": "daylight-studio",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-studio-daylight-studio-central-organization",
+      "semantic_key": "scene-location-studio-daylight-studio-central-organization",
+      "text": "a daylight studio with central organization",
+      "sentence": "A daylight studio with central organization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a daylight studio with central organization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a daylight studio with central organization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a daylight studio with central organization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-studio-daylight-studio",
+      "tags": [
+        "base",
+        "indoor",
+        "location",
+        "rarity-rare",
+        "scene",
+        "studio"
+      ],
+      "facets": {
+        "setting": "daylight-studio",
+        "treatment": "central-organization"
+      },
+      "subcategory": "daylight-studio",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-studio-industrial-studio-open-spatial-layout",
+      "semantic_key": "scene-location-studio-industrial-studio-open-spatial-layout",
+      "text": "a industrial studio with open spatial layout",
+      "sentence": "A industrial studio with open spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a industrial studio with open spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a industrial studio with open spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a industrial studio with open spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-studio-industrial-studio",
+      "tags": [
+        "base",
+        "indoor",
+        "location",
+        "rarity-common",
+        "scene",
+        "studio"
+      ],
+      "facets": {
+        "setting": "industrial-studio",
+        "treatment": "open-spatial-layout"
+      },
+      "subcategory": "industrial-studio",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-studio-industrial-studio-intimate-spatial-layout",
+      "semantic_key": "scene-location-studio-industrial-studio-intimate-spatial-layout",
+      "text": "a industrial studio with intimate spatial layout",
+      "sentence": "A industrial studio with intimate spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a industrial studio with intimate spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a industrial studio with intimate spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a industrial studio with intimate spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-studio-industrial-studio",
+      "tags": [
+        "base",
+        "indoor",
+        "location",
+        "rarity-common",
+        "scene",
+        "studio"
+      ],
+      "facets": {
+        "setting": "industrial-studio",
+        "treatment": "intimate-spatial-layout"
+      },
+      "subcategory": "industrial-studio",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-studio-industrial-studio-layered-depth",
+      "semantic_key": "scene-location-studio-industrial-studio-layered-depth",
+      "text": "a industrial studio with layered depth",
+      "sentence": "A industrial studio with layered depth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a industrial studio with layered depth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a industrial studio with layered depth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a industrial studio with layered depth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-studio-industrial-studio",
+      "tags": [
+        "base",
+        "indoor",
+        "location",
+        "rarity-common",
+        "scene",
+        "studio"
+      ],
+      "facets": {
+        "setting": "industrial-studio",
+        "treatment": "layered-depth"
+      },
+      "subcategory": "industrial-studio",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-studio-industrial-studio-clear-sightlines",
+      "semantic_key": "scene-location-studio-industrial-studio-clear-sightlines",
+      "text": "a industrial studio with clear sightlines",
+      "sentence": "A industrial studio with clear sightlines.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a industrial studio with clear sightlines",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a industrial studio with clear sightlines",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a industrial studio with clear sightlines",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-studio-industrial-studio",
+      "tags": [
+        "base",
+        "indoor",
+        "location",
+        "rarity-common",
+        "scene",
+        "studio"
+      ],
+      "facets": {
+        "setting": "industrial-studio",
+        "treatment": "clear-sightlines"
+      },
+      "subcategory": "industrial-studio",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-studio-industrial-studio-enclosed-geometry",
+      "semantic_key": "scene-location-studio-industrial-studio-enclosed-geometry",
+      "text": "a industrial studio with enclosed geometry",
+      "sentence": "A industrial studio with enclosed geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a industrial studio with enclosed geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a industrial studio with enclosed geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a industrial studio with enclosed geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-studio-industrial-studio",
+      "tags": [
+        "base",
+        "indoor",
+        "location",
+        "rarity-uncommon",
+        "scene",
+        "studio"
+      ],
+      "facets": {
+        "setting": "industrial-studio",
+        "treatment": "enclosed-geometry"
+      },
+      "subcategory": "industrial-studio",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-studio-industrial-studio-expansive-geometry",
+      "semantic_key": "scene-location-studio-industrial-studio-expansive-geometry",
+      "text": "a industrial studio with expansive geometry",
+      "sentence": "A industrial studio with expansive geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a industrial studio with expansive geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a industrial studio with expansive geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a industrial studio with expansive geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-studio-industrial-studio",
+      "tags": [
+        "base",
+        "indoor",
+        "location",
+        "rarity-uncommon",
+        "scene",
+        "studio"
+      ],
+      "facets": {
+        "setting": "industrial-studio",
+        "treatment": "expansive-geometry"
+      },
+      "subcategory": "industrial-studio",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-studio-industrial-studio-asymmetric-layout",
+      "semantic_key": "scene-location-studio-industrial-studio-asymmetric-layout",
+      "text": "a industrial studio with asymmetric layout",
+      "sentence": "A industrial studio with asymmetric layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a industrial studio with asymmetric layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a industrial studio with asymmetric layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a industrial studio with asymmetric layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-studio-industrial-studio",
+      "tags": [
+        "base",
+        "indoor",
+        "location",
+        "rarity-rare",
+        "scene",
+        "studio"
+      ],
+      "facets": {
+        "setting": "industrial-studio",
+        "treatment": "asymmetric-layout"
+      },
+      "subcategory": "industrial-studio",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-studio-industrial-studio-central-organization",
+      "semantic_key": "scene-location-studio-industrial-studio-central-organization",
+      "text": "a industrial studio with central organization",
+      "sentence": "A industrial studio with central organization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a industrial studio with central organization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a industrial studio with central organization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a industrial studio with central organization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-studio-industrial-studio",
+      "tags": [
+        "base",
+        "indoor",
+        "location",
+        "rarity-rare",
+        "scene",
+        "studio"
+      ],
+      "facets": {
+        "setting": "industrial-studio",
+        "treatment": "central-organization"
+      },
+      "subcategory": "industrial-studio",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-studio-white-cyc-studio-open-spatial-layout",
+      "semantic_key": "scene-location-studio-white-cyc-studio-open-spatial-layout",
+      "text": "a white cyc studio with open spatial layout",
+      "sentence": "A white cyc studio with open spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a white cyc studio with open spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a white cyc studio with open spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a white cyc studio with open spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-studio-white-cyc-studio",
+      "tags": [
+        "base",
+        "indoor",
+        "location",
+        "rarity-common",
+        "scene",
+        "studio"
+      ],
+      "facets": {
+        "setting": "white-cyc-studio",
+        "treatment": "open-spatial-layout"
+      },
+      "subcategory": "white-cyc-studio",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-studio-white-cyc-studio-intimate-spatial-layout",
+      "semantic_key": "scene-location-studio-white-cyc-studio-intimate-spatial-layout",
+      "text": "a white cyc studio with intimate spatial layout",
+      "sentence": "A white cyc studio with intimate spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a white cyc studio with intimate spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a white cyc studio with intimate spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a white cyc studio with intimate spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-studio-white-cyc-studio",
+      "tags": [
+        "base",
+        "indoor",
+        "location",
+        "rarity-common",
+        "scene",
+        "studio"
+      ],
+      "facets": {
+        "setting": "white-cyc-studio",
+        "treatment": "intimate-spatial-layout"
+      },
+      "subcategory": "white-cyc-studio",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-studio-white-cyc-studio-layered-depth",
+      "semantic_key": "scene-location-studio-white-cyc-studio-layered-depth",
+      "text": "a white cyc studio with layered depth",
+      "sentence": "A white cyc studio with layered depth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a white cyc studio with layered depth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a white cyc studio with layered depth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a white cyc studio with layered depth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-studio-white-cyc-studio",
+      "tags": [
+        "base",
+        "indoor",
+        "location",
+        "rarity-common",
+        "scene",
+        "studio"
+      ],
+      "facets": {
+        "setting": "white-cyc-studio",
+        "treatment": "layered-depth"
+      },
+      "subcategory": "white-cyc-studio",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-studio-white-cyc-studio-clear-sightlines",
+      "semantic_key": "scene-location-studio-white-cyc-studio-clear-sightlines",
+      "text": "a white cyc studio with clear sightlines",
+      "sentence": "A white cyc studio with clear sightlines.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a white cyc studio with clear sightlines",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a white cyc studio with clear sightlines",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a white cyc studio with clear sightlines",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-studio-white-cyc-studio",
+      "tags": [
+        "base",
+        "indoor",
+        "location",
+        "rarity-common",
+        "scene",
+        "studio"
+      ],
+      "facets": {
+        "setting": "white-cyc-studio",
+        "treatment": "clear-sightlines"
+      },
+      "subcategory": "white-cyc-studio",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-studio-white-cyc-studio-enclosed-geometry",
+      "semantic_key": "scene-location-studio-white-cyc-studio-enclosed-geometry",
+      "text": "a white cyc studio with enclosed geometry",
+      "sentence": "A white cyc studio with enclosed geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a white cyc studio with enclosed geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a white cyc studio with enclosed geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a white cyc studio with enclosed geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-studio-white-cyc-studio",
+      "tags": [
+        "base",
+        "indoor",
+        "location",
+        "rarity-uncommon",
+        "scene",
+        "studio"
+      ],
+      "facets": {
+        "setting": "white-cyc-studio",
+        "treatment": "enclosed-geometry"
+      },
+      "subcategory": "white-cyc-studio",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-studio-white-cyc-studio-expansive-geometry",
+      "semantic_key": "scene-location-studio-white-cyc-studio-expansive-geometry",
+      "text": "a white cyc studio with expansive geometry",
+      "sentence": "A white cyc studio with expansive geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a white cyc studio with expansive geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a white cyc studio with expansive geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a white cyc studio with expansive geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-studio-white-cyc-studio",
+      "tags": [
+        "base",
+        "indoor",
+        "location",
+        "rarity-uncommon",
+        "scene",
+        "studio"
+      ],
+      "facets": {
+        "setting": "white-cyc-studio",
+        "treatment": "expansive-geometry"
+      },
+      "subcategory": "white-cyc-studio",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-studio-white-cyc-studio-asymmetric-layout",
+      "semantic_key": "scene-location-studio-white-cyc-studio-asymmetric-layout",
+      "text": "a white cyc studio with asymmetric layout",
+      "sentence": "A white cyc studio with asymmetric layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a white cyc studio with asymmetric layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a white cyc studio with asymmetric layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a white cyc studio with asymmetric layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-studio-white-cyc-studio",
+      "tags": [
+        "base",
+        "indoor",
+        "location",
+        "rarity-rare",
+        "scene",
+        "studio"
+      ],
+      "facets": {
+        "setting": "white-cyc-studio",
+        "treatment": "asymmetric-layout"
+      },
+      "subcategory": "white-cyc-studio",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-studio-white-cyc-studio-central-organization",
+      "semantic_key": "scene-location-studio-white-cyc-studio-central-organization",
+      "text": "a white cyc studio with central organization",
+      "sentence": "A white cyc studio with central organization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a white cyc studio with central organization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a white cyc studio with central organization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a white cyc studio with central organization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-studio-white-cyc-studio",
+      "tags": [
+        "base",
+        "indoor",
+        "location",
+        "rarity-rare",
+        "scene",
+        "studio"
+      ],
+      "facets": {
+        "setting": "white-cyc-studio",
+        "treatment": "central-organization"
+      },
+      "subcategory": "white-cyc-studio",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-studio-textured-backdrop-studio-open-spatial-layout",
+      "semantic_key": "scene-location-studio-textured-backdrop-studio-open-spatial-layout",
+      "text": "a textured backdrop studio with open spatial layout",
+      "sentence": "A textured backdrop studio with open spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a textured backdrop studio with open spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a textured backdrop studio with open spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a textured backdrop studio with open spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-studio-textured-backdrop-studio",
+      "tags": [
+        "base",
+        "indoor",
+        "location",
+        "rarity-common",
+        "scene",
+        "studio"
+      ],
+      "facets": {
+        "setting": "textured-backdrop-studio",
+        "treatment": "open-spatial-layout"
+      },
+      "subcategory": "textured-backdrop-studio",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-studio-textured-backdrop-studio-intimate-spatial-layout",
+      "semantic_key": "scene-location-studio-textured-backdrop-studio-intimate-spatial-layout",
+      "text": "a textured backdrop studio with intimate spatial layout",
+      "sentence": "A textured backdrop studio with intimate spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a textured backdrop studio with intimate spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a textured backdrop studio with intimate spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a textured backdrop studio with intimate spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-studio-textured-backdrop-studio",
+      "tags": [
+        "base",
+        "indoor",
+        "location",
+        "rarity-common",
+        "scene",
+        "studio"
+      ],
+      "facets": {
+        "setting": "textured-backdrop-studio",
+        "treatment": "intimate-spatial-layout"
+      },
+      "subcategory": "textured-backdrop-studio",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-studio-textured-backdrop-studio-layered-depth",
+      "semantic_key": "scene-location-studio-textured-backdrop-studio-layered-depth",
+      "text": "a textured backdrop studio with layered depth",
+      "sentence": "A textured backdrop studio with layered depth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a textured backdrop studio with layered depth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a textured backdrop studio with layered depth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a textured backdrop studio with layered depth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-studio-textured-backdrop-studio",
+      "tags": [
+        "base",
+        "indoor",
+        "location",
+        "rarity-common",
+        "scene",
+        "studio"
+      ],
+      "facets": {
+        "setting": "textured-backdrop-studio",
+        "treatment": "layered-depth"
+      },
+      "subcategory": "textured-backdrop-studio",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-studio-textured-backdrop-studio-clear-sightlines",
+      "semantic_key": "scene-location-studio-textured-backdrop-studio-clear-sightlines",
+      "text": "a textured backdrop studio with clear sightlines",
+      "sentence": "A textured backdrop studio with clear sightlines.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a textured backdrop studio with clear sightlines",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a textured backdrop studio with clear sightlines",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a textured backdrop studio with clear sightlines",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-studio-textured-backdrop-studio",
+      "tags": [
+        "base",
+        "indoor",
+        "location",
+        "rarity-common",
+        "scene",
+        "studio"
+      ],
+      "facets": {
+        "setting": "textured-backdrop-studio",
+        "treatment": "clear-sightlines"
+      },
+      "subcategory": "textured-backdrop-studio",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-studio-textured-backdrop-studio-enclosed-geometry",
+      "semantic_key": "scene-location-studio-textured-backdrop-studio-enclosed-geometry",
+      "text": "a textured backdrop studio with enclosed geometry",
+      "sentence": "A textured backdrop studio with enclosed geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a textured backdrop studio with enclosed geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a textured backdrop studio with enclosed geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a textured backdrop studio with enclosed geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-studio-textured-backdrop-studio",
+      "tags": [
+        "base",
+        "indoor",
+        "location",
+        "rarity-uncommon",
+        "scene",
+        "studio"
+      ],
+      "facets": {
+        "setting": "textured-backdrop-studio",
+        "treatment": "enclosed-geometry"
+      },
+      "subcategory": "textured-backdrop-studio",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-studio-textured-backdrop-studio-expansive-geometry",
+      "semantic_key": "scene-location-studio-textured-backdrop-studio-expansive-geometry",
+      "text": "a textured backdrop studio with expansive geometry",
+      "sentence": "A textured backdrop studio with expansive geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a textured backdrop studio with expansive geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a textured backdrop studio with expansive geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a textured backdrop studio with expansive geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-studio-textured-backdrop-studio",
+      "tags": [
+        "base",
+        "indoor",
+        "location",
+        "rarity-uncommon",
+        "scene",
+        "studio"
+      ],
+      "facets": {
+        "setting": "textured-backdrop-studio",
+        "treatment": "expansive-geometry"
+      },
+      "subcategory": "textured-backdrop-studio",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-studio-textured-backdrop-studio-asymmetric-layout",
+      "semantic_key": "scene-location-studio-textured-backdrop-studio-asymmetric-layout",
+      "text": "a textured backdrop studio with asymmetric layout",
+      "sentence": "A textured backdrop studio with asymmetric layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a textured backdrop studio with asymmetric layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a textured backdrop studio with asymmetric layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a textured backdrop studio with asymmetric layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-studio-textured-backdrop-studio",
+      "tags": [
+        "base",
+        "indoor",
+        "location",
+        "rarity-rare",
+        "scene",
+        "studio"
+      ],
+      "facets": {
+        "setting": "textured-backdrop-studio",
+        "treatment": "asymmetric-layout"
+      },
+      "subcategory": "textured-backdrop-studio",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-studio-textured-backdrop-studio-central-organization",
+      "semantic_key": "scene-location-studio-textured-backdrop-studio-central-organization",
+      "text": "a textured backdrop studio with central organization",
+      "sentence": "A textured backdrop studio with central organization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a textured backdrop studio with central organization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a textured backdrop studio with central organization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a textured backdrop studio with central organization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-studio-textured-backdrop-studio",
+      "tags": [
+        "base",
+        "indoor",
+        "location",
+        "rarity-rare",
+        "scene",
+        "studio"
+      ],
+      "facets": {
+        "setting": "textured-backdrop-studio",
+        "treatment": "central-organization"
+      },
+      "subcategory": "textured-backdrop-studio",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-studio-compact-home-studio-open-spatial-layout",
+      "semantic_key": "scene-location-studio-compact-home-studio-open-spatial-layout",
+      "text": "a compact home studio with open spatial layout",
+      "sentence": "A compact home studio with open spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a compact home studio with open spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a compact home studio with open spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a compact home studio with open spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-studio-compact-home-studio",
+      "tags": [
+        "base",
+        "indoor",
+        "location",
+        "rarity-common",
+        "scene",
+        "studio"
+      ],
+      "facets": {
+        "setting": "compact-home-studio",
+        "treatment": "open-spatial-layout"
+      },
+      "subcategory": "compact-home-studio",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-studio-compact-home-studio-intimate-spatial-layout",
+      "semantic_key": "scene-location-studio-compact-home-studio-intimate-spatial-layout",
+      "text": "a compact home studio with intimate spatial layout",
+      "sentence": "A compact home studio with intimate spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a compact home studio with intimate spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a compact home studio with intimate spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a compact home studio with intimate spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-studio-compact-home-studio",
+      "tags": [
+        "base",
+        "indoor",
+        "location",
+        "rarity-common",
+        "scene",
+        "studio"
+      ],
+      "facets": {
+        "setting": "compact-home-studio",
+        "treatment": "intimate-spatial-layout"
+      },
+      "subcategory": "compact-home-studio",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-studio-compact-home-studio-layered-depth",
+      "semantic_key": "scene-location-studio-compact-home-studio-layered-depth",
+      "text": "a compact home studio with layered depth",
+      "sentence": "A compact home studio with layered depth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a compact home studio with layered depth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a compact home studio with layered depth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a compact home studio with layered depth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-studio-compact-home-studio",
+      "tags": [
+        "base",
+        "indoor",
+        "location",
+        "rarity-common",
+        "scene",
+        "studio"
+      ],
+      "facets": {
+        "setting": "compact-home-studio",
+        "treatment": "layered-depth"
+      },
+      "subcategory": "compact-home-studio",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-studio-compact-home-studio-clear-sightlines",
+      "semantic_key": "scene-location-studio-compact-home-studio-clear-sightlines",
+      "text": "a compact home studio with clear sightlines",
+      "sentence": "A compact home studio with clear sightlines.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a compact home studio with clear sightlines",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a compact home studio with clear sightlines",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a compact home studio with clear sightlines",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-studio-compact-home-studio",
+      "tags": [
+        "base",
+        "indoor",
+        "location",
+        "rarity-common",
+        "scene",
+        "studio"
+      ],
+      "facets": {
+        "setting": "compact-home-studio",
+        "treatment": "clear-sightlines"
+      },
+      "subcategory": "compact-home-studio",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-studio-compact-home-studio-enclosed-geometry",
+      "semantic_key": "scene-location-studio-compact-home-studio-enclosed-geometry",
+      "text": "a compact home studio with enclosed geometry",
+      "sentence": "A compact home studio with enclosed geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a compact home studio with enclosed geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a compact home studio with enclosed geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a compact home studio with enclosed geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-studio-compact-home-studio",
+      "tags": [
+        "base",
+        "indoor",
+        "location",
+        "rarity-uncommon",
+        "scene",
+        "studio"
+      ],
+      "facets": {
+        "setting": "compact-home-studio",
+        "treatment": "enclosed-geometry"
+      },
+      "subcategory": "compact-home-studio",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-studio-compact-home-studio-expansive-geometry",
+      "semantic_key": "scene-location-studio-compact-home-studio-expansive-geometry",
+      "text": "a compact home studio with expansive geometry",
+      "sentence": "A compact home studio with expansive geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a compact home studio with expansive geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a compact home studio with expansive geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a compact home studio with expansive geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-studio-compact-home-studio",
+      "tags": [
+        "base",
+        "indoor",
+        "location",
+        "rarity-uncommon",
+        "scene",
+        "studio"
+      ],
+      "facets": {
+        "setting": "compact-home-studio",
+        "treatment": "expansive-geometry"
+      },
+      "subcategory": "compact-home-studio",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-studio-compact-home-studio-asymmetric-layout",
+      "semantic_key": "scene-location-studio-compact-home-studio-asymmetric-layout",
+      "text": "a compact home studio with asymmetric layout",
+      "sentence": "A compact home studio with asymmetric layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a compact home studio with asymmetric layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a compact home studio with asymmetric layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a compact home studio with asymmetric layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-studio-compact-home-studio",
+      "tags": [
+        "base",
+        "indoor",
+        "location",
+        "rarity-rare",
+        "scene",
+        "studio"
+      ],
+      "facets": {
+        "setting": "compact-home-studio",
+        "treatment": "asymmetric-layout"
+      },
+      "subcategory": "compact-home-studio",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-studio-compact-home-studio-central-organization",
+      "semantic_key": "scene-location-studio-compact-home-studio-central-organization",
+      "text": "a compact home studio with central organization",
+      "sentence": "A compact home studio with central organization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a compact home studio with central organization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a compact home studio with central organization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a compact home studio with central organization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-studio-compact-home-studio",
+      "tags": [
+        "base",
+        "indoor",
+        "location",
+        "rarity-rare",
+        "scene",
+        "studio"
+      ],
+      "facets": {
+        "setting": "compact-home-studio",
+        "treatment": "central-organization"
+      },
+      "subcategory": "compact-home-studio",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-studio-large-fashion-studio-open-spatial-layout",
+      "semantic_key": "scene-location-studio-large-fashion-studio-open-spatial-layout",
+      "text": "a large fashion studio with open spatial layout",
+      "sentence": "A large fashion studio with open spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a large fashion studio with open spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a large fashion studio with open spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a large fashion studio with open spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-studio-large-fashion-studio",
+      "tags": [
+        "base",
+        "indoor",
+        "location",
+        "rarity-common",
+        "scene",
+        "studio"
+      ],
+      "facets": {
+        "setting": "large-fashion-studio",
+        "treatment": "open-spatial-layout"
+      },
+      "subcategory": "large-fashion-studio",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-studio-large-fashion-studio-intimate-spatial-layout",
+      "semantic_key": "scene-location-studio-large-fashion-studio-intimate-spatial-layout",
+      "text": "a large fashion studio with intimate spatial layout",
+      "sentence": "A large fashion studio with intimate spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a large fashion studio with intimate spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a large fashion studio with intimate spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a large fashion studio with intimate spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-studio-large-fashion-studio",
+      "tags": [
+        "base",
+        "indoor",
+        "location",
+        "rarity-common",
+        "scene",
+        "studio"
+      ],
+      "facets": {
+        "setting": "large-fashion-studio",
+        "treatment": "intimate-spatial-layout"
+      },
+      "subcategory": "large-fashion-studio",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-studio-large-fashion-studio-layered-depth",
+      "semantic_key": "scene-location-studio-large-fashion-studio-layered-depth",
+      "text": "a large fashion studio with layered depth",
+      "sentence": "A large fashion studio with layered depth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a large fashion studio with layered depth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a large fashion studio with layered depth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a large fashion studio with layered depth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-studio-large-fashion-studio",
+      "tags": [
+        "base",
+        "indoor",
+        "location",
+        "rarity-common",
+        "scene",
+        "studio"
+      ],
+      "facets": {
+        "setting": "large-fashion-studio",
+        "treatment": "layered-depth"
+      },
+      "subcategory": "large-fashion-studio",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-studio-large-fashion-studio-clear-sightlines",
+      "semantic_key": "scene-location-studio-large-fashion-studio-clear-sightlines",
+      "text": "a large fashion studio with clear sightlines",
+      "sentence": "A large fashion studio with clear sightlines.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a large fashion studio with clear sightlines",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a large fashion studio with clear sightlines",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a large fashion studio with clear sightlines",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-studio-large-fashion-studio",
+      "tags": [
+        "base",
+        "indoor",
+        "location",
+        "rarity-common",
+        "scene",
+        "studio"
+      ],
+      "facets": {
+        "setting": "large-fashion-studio",
+        "treatment": "clear-sightlines"
+      },
+      "subcategory": "large-fashion-studio",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-studio-large-fashion-studio-enclosed-geometry",
+      "semantic_key": "scene-location-studio-large-fashion-studio-enclosed-geometry",
+      "text": "a large fashion studio with enclosed geometry",
+      "sentence": "A large fashion studio with enclosed geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a large fashion studio with enclosed geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a large fashion studio with enclosed geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a large fashion studio with enclosed geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-studio-large-fashion-studio",
+      "tags": [
+        "base",
+        "indoor",
+        "location",
+        "rarity-uncommon",
+        "scene",
+        "studio"
+      ],
+      "facets": {
+        "setting": "large-fashion-studio",
+        "treatment": "enclosed-geometry"
+      },
+      "subcategory": "large-fashion-studio",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-studio-large-fashion-studio-expansive-geometry",
+      "semantic_key": "scene-location-studio-large-fashion-studio-expansive-geometry",
+      "text": "a large fashion studio with expansive geometry",
+      "sentence": "A large fashion studio with expansive geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a large fashion studio with expansive geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a large fashion studio with expansive geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a large fashion studio with expansive geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-studio-large-fashion-studio",
+      "tags": [
+        "base",
+        "indoor",
+        "location",
+        "rarity-uncommon",
+        "scene",
+        "studio"
+      ],
+      "facets": {
+        "setting": "large-fashion-studio",
+        "treatment": "expansive-geometry"
+      },
+      "subcategory": "large-fashion-studio",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-studio-large-fashion-studio-asymmetric-layout",
+      "semantic_key": "scene-location-studio-large-fashion-studio-asymmetric-layout",
+      "text": "a large fashion studio with asymmetric layout",
+      "sentence": "A large fashion studio with asymmetric layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a large fashion studio with asymmetric layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a large fashion studio with asymmetric layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a large fashion studio with asymmetric layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-studio-large-fashion-studio",
+      "tags": [
+        "base",
+        "indoor",
+        "location",
+        "rarity-rare",
+        "scene",
+        "studio"
+      ],
+      "facets": {
+        "setting": "large-fashion-studio",
+        "treatment": "asymmetric-layout"
+      },
+      "subcategory": "large-fashion-studio",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-studio-large-fashion-studio-central-organization",
+      "semantic_key": "scene-location-studio-large-fashion-studio-central-organization",
+      "text": "a large fashion studio with central organization",
+      "sentence": "A large fashion studio with central organization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a large fashion studio with central organization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a large fashion studio with central organization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a large fashion studio with central organization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-studio-large-fashion-studio",
+      "tags": [
+        "base",
+        "indoor",
+        "location",
+        "rarity-rare",
+        "scene",
+        "studio"
+      ],
+      "facets": {
+        "setting": "large-fashion-studio",
+        "treatment": "central-organization"
+      },
+      "subcategory": "large-fashion-studio",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-studio-black-box-studio-open-spatial-layout",
+      "semantic_key": "scene-location-studio-black-box-studio-open-spatial-layout",
+      "text": "a black box studio with open spatial layout",
+      "sentence": "A black box studio with open spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a black box studio with open spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a black box studio with open spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a black box studio with open spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-studio-black-box-studio",
+      "tags": [
+        "base",
+        "indoor",
+        "location",
+        "rarity-common",
+        "scene",
+        "studio"
+      ],
+      "facets": {
+        "setting": "black-box-studio",
+        "treatment": "open-spatial-layout"
+      },
+      "subcategory": "black-box-studio",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-studio-black-box-studio-intimate-spatial-layout",
+      "semantic_key": "scene-location-studio-black-box-studio-intimate-spatial-layout",
+      "text": "a black box studio with intimate spatial layout",
+      "sentence": "A black box studio with intimate spatial layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a black box studio with intimate spatial layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a black box studio with intimate spatial layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a black box studio with intimate spatial layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-studio-black-box-studio",
+      "tags": [
+        "base",
+        "indoor",
+        "location",
+        "rarity-common",
+        "scene",
+        "studio"
+      ],
+      "facets": {
+        "setting": "black-box-studio",
+        "treatment": "intimate-spatial-layout"
+      },
+      "subcategory": "black-box-studio",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-studio-black-box-studio-layered-depth",
+      "semantic_key": "scene-location-studio-black-box-studio-layered-depth",
+      "text": "a black box studio with layered depth",
+      "sentence": "A black box studio with layered depth.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a black box studio with layered depth",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a black box studio with layered depth",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a black box studio with layered depth",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-studio-black-box-studio",
+      "tags": [
+        "base",
+        "indoor",
+        "location",
+        "rarity-common",
+        "scene",
+        "studio"
+      ],
+      "facets": {
+        "setting": "black-box-studio",
+        "treatment": "layered-depth"
+      },
+      "subcategory": "black-box-studio",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-studio-black-box-studio-clear-sightlines",
+      "semantic_key": "scene-location-studio-black-box-studio-clear-sightlines",
+      "text": "a black box studio with clear sightlines",
+      "sentence": "A black box studio with clear sightlines.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a black box studio with clear sightlines",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a black box studio with clear sightlines",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a black box studio with clear sightlines",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "scene-location-studio-black-box-studio",
+      "tags": [
+        "base",
+        "indoor",
+        "location",
+        "rarity-common",
+        "scene",
+        "studio"
+      ],
+      "facets": {
+        "setting": "black-box-studio",
+        "treatment": "clear-sightlines"
+      },
+      "subcategory": "black-box-studio",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-studio-black-box-studio-enclosed-geometry",
+      "semantic_key": "scene-location-studio-black-box-studio-enclosed-geometry",
+      "text": "a black box studio with enclosed geometry",
+      "sentence": "A black box studio with enclosed geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a black box studio with enclosed geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a black box studio with enclosed geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a black box studio with enclosed geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-studio-black-box-studio",
+      "tags": [
+        "base",
+        "indoor",
+        "location",
+        "rarity-uncommon",
+        "scene",
+        "studio"
+      ],
+      "facets": {
+        "setting": "black-box-studio",
+        "treatment": "enclosed-geometry"
+      },
+      "subcategory": "black-box-studio",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-studio-black-box-studio-expansive-geometry",
+      "semantic_key": "scene-location-studio-black-box-studio-expansive-geometry",
+      "text": "a black box studio with expansive geometry",
+      "sentence": "A black box studio with expansive geometry.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a black box studio with expansive geometry",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a black box studio with expansive geometry",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a black box studio with expansive geometry",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "scene-location-studio-black-box-studio",
+      "tags": [
+        "base",
+        "indoor",
+        "location",
+        "rarity-uncommon",
+        "scene",
+        "studio"
+      ],
+      "facets": {
+        "setting": "black-box-studio",
+        "treatment": "expansive-geometry"
+      },
+      "subcategory": "black-box-studio",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-studio-black-box-studio-asymmetric-layout",
+      "semantic_key": "scene-location-studio-black-box-studio-asymmetric-layout",
+      "text": "a black box studio with asymmetric layout",
+      "sentence": "A black box studio with asymmetric layout.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a black box studio with asymmetric layout",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a black box studio with asymmetric layout",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a black box studio with asymmetric layout",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-studio-black-box-studio",
+      "tags": [
+        "base",
+        "indoor",
+        "location",
+        "rarity-rare",
+        "scene",
+        "studio"
+      ],
+      "facets": {
+        "setting": "black-box-studio",
+        "treatment": "asymmetric-layout"
+      },
+      "subcategory": "black-box-studio",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "scene-location-studio-black-box-studio-central-organization",
+      "semantic_key": "scene-location-studio-black-box-studio-central-organization",
+      "text": "a black box studio with central organization",
+      "sentence": "A black box studio with central organization.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "a black box studio with central organization",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing a black box studio with central organization",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with a black box studio with central organization",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "scene-location-studio-black-box-studio",
+      "tags": [
+        "base",
+        "indoor",
+        "location",
+        "rarity-rare",
+        "scene",
+        "studio"
+      ],
+      "facets": {
+        "setting": "black-box-studio",
+        "treatment": "central-organization"
+      },
+      "subcategory": "black-box-studio",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    }
+  ]
+}

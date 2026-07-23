@@ -26,6 +26,7 @@ def parse_profile_override(value: str) -> ProfileDefinition | None:
 def build_node_configuration(
     *,
     profile: str,
+    profile_version: str = "1.0.0",
     seed: int,
     generation_mode: str,
     identity_lock: bool,
@@ -46,7 +47,7 @@ def build_node_configuration(
         {
             "schema_version": CURRENT_CONFIGURATION_SCHEMA_VERSION,
             "profile_id": profile,
-            "profile_version": "1.0.0",
+            "profile_version": profile_version,
             "mode": generation_mode,
             "master_seed": seed,
             "batch_index": batch_index,

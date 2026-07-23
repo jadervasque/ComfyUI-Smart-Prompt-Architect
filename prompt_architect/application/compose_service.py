@@ -57,7 +57,8 @@ class ComposeService:
         profile = self._repository.load_profile(configuration.profile_id)
         library_ids = sorted({section.library for section in profile.sections.values()})
         libraries = {
-            library_id: self._repository.load_library(library_id) for library_id in library_ids
+            library_id: self._repository.load_library_for_profile(profile, library_id)
+            for library_id in library_ids
         }
         return compose_prompt(profile, libraries, configuration)
 

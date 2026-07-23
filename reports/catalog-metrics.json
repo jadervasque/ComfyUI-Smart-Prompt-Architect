@@ -1,0 +1,1098 @@
+{
+  "determinism_samples_per_profile": 128,
+  "global": {
+    "coverage": 1.0,
+    "eligible_options": 5184,
+    "never_selected": [],
+    "selected_options": 5184
+  },
+  "profiles": {
+    "cinematic-portrait": {
+      "average_attempts": 53.0551,
+      "coverage": 0.990909090909091,
+      "elapsed_seconds": 124.97315919999892,
+      "eligible_options": 3520,
+      "fallback_rate": 0.0,
+      "family_entropy_bits": 8.734699348355248,
+      "mode": "balanced",
+      "never_selected": [
+        "style-visual-era-base-art-deco-visual-language-ceremonial-refinement",
+        "style-visual-era-base-art-deco-visual-language-everyday-authenticity",
+        "style-visual-era-base-art-deco-visual-language-faithful-period-detail",
+        "style-visual-era-base-art-deco-visual-language-functional-construction",
+        "style-visual-era-base-art-deco-visual-language-modern-reinterpretation",
+        "style-visual-era-base-art-deco-visual-language-museum-clean-finish",
+        "style-visual-era-base-art-deco-visual-language-restrained-ornament",
+        "style-visual-era-base-art-deco-visual-language-weathered-character",
+        "style-visual-era-base-mid-century-visual-language-ceremonial-refinement",
+        "style-visual-era-base-mid-century-visual-language-everyday-authenticity",
+        "style-visual-era-base-mid-century-visual-language-faithful-period-detail",
+        "style-visual-era-base-mid-century-visual-language-functional-construction",
+        "style-visual-era-base-mid-century-visual-language-modern-reinterpretation",
+        "style-visual-era-base-mid-century-visual-language-museum-clean-finish",
+        "style-visual-era-base-mid-century-visual-language-restrained-ornament",
+        "style-visual-era-base-mid-century-visual-language-weathered-character",
+        "style-visual-era-base-renaissance-inspired-visual-language-ceremonial-refinement",
+        "style-visual-era-base-renaissance-inspired-visual-language-everyday-authenticity",
+        "style-visual-era-base-renaissance-inspired-visual-language-faithful-period-detail",
+        "style-visual-era-base-renaissance-inspired-visual-language-functional-construction",
+        "style-visual-era-base-renaissance-inspired-visual-language-modern-reinterpretation",
+        "style-visual-era-base-renaissance-inspired-visual-language-museum-clean-finish",
+        "style-visual-era-base-renaissance-inspired-visual-language-restrained-ornament",
+        "style-visual-era-base-renaissance-inspired-visual-language-weathered-character",
+        "style-visual-era-base-victorian-visual-language-ceremonial-refinement",
+        "style-visual-era-base-victorian-visual-language-everyday-authenticity",
+        "style-visual-era-base-victorian-visual-language-faithful-period-detail",
+        "style-visual-era-base-victorian-visual-language-functional-construction",
+        "style-visual-era-base-victorian-visual-language-modern-reinterpretation",
+        "style-visual-era-base-victorian-visual-language-museum-clean-finish",
+        "style-visual-era-base-victorian-visual-language-restrained-ornament",
+        "style-visual-era-base-victorian-visual-language-weathered-character"
+      ],
+      "prompts_per_second": 80.01718180138705,
+      "rejections": 551,
+      "selected_options": 3488,
+      "top_options": [
+        [
+          "cinematography-camera-motion-base-locked-camera-measured-movement",
+          749
+        ],
+        [
+          "cinematography-camera-motion-base-locked-camera-resting-movement",
+          722
+        ],
+        [
+          "cinematography-camera-motion-base-locked-camera-decisive-movement",
+          721
+        ],
+        [
+          "cinematography-camera-motion-base-locked-camera-flowing-movement",
+          720
+        ],
+        [
+          "cinematography-camera-motion-base-locked-camera-rhythmic-movement",
+          546
+        ],
+        [
+          "cinematography-camera-motion-base-locked-camera-suspended-movement",
+          468
+        ],
+        [
+          "style-visual-era-base-near-future-visual-language-functional-construction",
+          443
+        ],
+        [
+          "style-visual-era-base-late-twentieth-century-visual-language-modern-reinterpretation",
+          433
+        ],
+        [
+          "style-visual-era-base-timeless-visual-language-functional-construction",
+          432
+        ],
+        [
+          "style-visual-era-base-timeless-visual-language-faithful-period-detail",
+          431
+        ]
+      ],
+      "unique_prompts": 10000,
+      "unique_ratio": 1.0
+    },
+    "conceptual-portrait": {
+      "average_attempts": 53.0444,
+      "coverage": 1.0,
+      "elapsed_seconds": 120.29323339999974,
+      "eligible_options": 3584,
+      "fallback_rate": 0.0,
+      "family_entropy_bits": 8.769219177648349,
+      "mode": "creative",
+      "never_selected": [],
+      "prompts_per_second": 83.13019541795792,
+      "rejections": 444,
+      "selected_options": 3584,
+      "top_options": [
+        [
+          "cinematography-camera-motion-base-locked-camera-measured-movement",
+          659
+        ],
+        [
+          "cinematography-camera-motion-base-locked-camera-decisive-movement",
+          655
+        ],
+        [
+          "cinematography-camera-motion-base-locked-camera-flowing-movement",
+          643
+        ],
+        [
+          "cinematography-camera-motion-base-locked-camera-resting-movement",
+          639
+        ],
+        [
+          "cinematography-camera-motion-base-locked-camera-rhythmic-movement",
+          584
+        ],
+        [
+          "cinematography-camera-motion-base-locked-camera-suspended-movement",
+          505
+        ],
+        [
+          "cinematography-camera-motion-base-locked-camera-asymmetric-movement",
+          420
+        ],
+        [
+          "cinematography-camera-motion-base-locked-camera-controlled-momentum",
+          410
+        ],
+        [
+          "style-visual-era-base-timeless-visual-language-faithful-period-detail",
+          296
+        ],
+        [
+          "style-visual-era-base-near-future-visual-language-modern-reinterpretation",
+          294
+        ]
+      ],
+      "unique_prompts": 10000,
+      "unique_ratio": 1.0
+    },
+    "dark-fantasy-horror": {
+      "average_attempts": 54.0444,
+      "coverage": 0.9907407407407407,
+      "elapsed_seconds": 119.51033639999878,
+      "eligible_options": 3456,
+      "fallback_rate": 0.0,
+      "family_entropy_bits": 8.724775998572467,
+      "mode": "creative",
+      "never_selected": [
+        "style-visual-era-base-art-deco-visual-language-ceremonial-refinement",
+        "style-visual-era-base-art-deco-visual-language-everyday-authenticity",
+        "style-visual-era-base-art-deco-visual-language-faithful-period-detail",
+        "style-visual-era-base-art-deco-visual-language-functional-construction",
+        "style-visual-era-base-art-deco-visual-language-modern-reinterpretation",
+        "style-visual-era-base-art-deco-visual-language-museum-clean-finish",
+        "style-visual-era-base-art-deco-visual-language-restrained-ornament",
+        "style-visual-era-base-art-deco-visual-language-weathered-character",
+        "style-visual-era-base-mid-century-visual-language-ceremonial-refinement",
+        "style-visual-era-base-mid-century-visual-language-everyday-authenticity",
+        "style-visual-era-base-mid-century-visual-language-faithful-period-detail",
+        "style-visual-era-base-mid-century-visual-language-functional-construction",
+        "style-visual-era-base-mid-century-visual-language-modern-reinterpretation",
+        "style-visual-era-base-mid-century-visual-language-museum-clean-finish",
+        "style-visual-era-base-mid-century-visual-language-restrained-ornament",
+        "style-visual-era-base-mid-century-visual-language-weathered-character",
+        "style-visual-era-base-renaissance-inspired-visual-language-ceremonial-refinement",
+        "style-visual-era-base-renaissance-inspired-visual-language-everyday-authenticity",
+        "style-visual-era-base-renaissance-inspired-visual-language-faithful-period-detail",
+        "style-visual-era-base-renaissance-inspired-visual-language-functional-construction",
+        "style-visual-era-base-renaissance-inspired-visual-language-modern-reinterpretation",
+        "style-visual-era-base-renaissance-inspired-visual-language-museum-clean-finish",
+        "style-visual-era-base-renaissance-inspired-visual-language-restrained-ornament",
+        "style-visual-era-base-renaissance-inspired-visual-language-weathered-character",
+        "style-visual-era-base-victorian-visual-language-ceremonial-refinement",
+        "style-visual-era-base-victorian-visual-language-everyday-authenticity",
+        "style-visual-era-base-victorian-visual-language-faithful-period-detail",
+        "style-visual-era-base-victorian-visual-language-functional-construction",
+        "style-visual-era-base-victorian-visual-language-modern-reinterpretation",
+        "style-visual-era-base-victorian-visual-language-museum-clean-finish",
+        "style-visual-era-base-victorian-visual-language-restrained-ornament",
+        "style-visual-era-base-victorian-visual-language-weathered-character"
+      ],
+      "prompts_per_second": 83.67477074560475,
+      "rejections": 444,
+      "selected_options": 3424,
+      "top_options": [
+        [
+          "cinematography-camera-motion-base-locked-camera-measured-movement",
+          659
+        ],
+        [
+          "cinematography-camera-motion-base-locked-camera-decisive-movement",
+          655
+        ],
+        [
+          "cinematography-camera-motion-base-locked-camera-flowing-movement",
+          643
+        ],
+        [
+          "cinematography-camera-motion-base-locked-camera-resting-movement",
+          639
+        ],
+        [
+          "cinematography-camera-motion-base-locked-camera-rhythmic-movement",
+          584
+        ],
+        [
+          "cinematography-camera-motion-base-locked-camera-suspended-movement",
+          505
+        ],
+        [
+          "cinematography-camera-motion-base-locked-camera-asymmetric-movement",
+          420
+        ],
+        [
+          "cinematography-camera-motion-base-locked-camera-controlled-momentum",
+          410
+        ],
+        [
+          "style-visual-era-base-timeless-visual-language-faithful-period-detail",
+          394
+        ],
+        [
+          "style-visual-era-base-late-twentieth-century-visual-language-modern-reinterpretation",
+          387
+        ]
+      ],
+      "unique_prompts": 10000,
+      "unique_ratio": 1.0
+    },
+    "dataset-balanced": {
+      "average_attempts": 68.0,
+      "coverage": 0.9926470588235294,
+      "elapsed_seconds": 112.74946349999846,
+      "eligible_options": 4352,
+      "fallback_rate": 0.0,
+      "family_entropy_bits": 9.063099704487465,
+      "mode": "dataset",
+      "never_selected": [
+        "style-visual-era-base-art-deco-visual-language-ceremonial-refinement",
+        "style-visual-era-base-art-deco-visual-language-everyday-authenticity",
+        "style-visual-era-base-art-deco-visual-language-faithful-period-detail",
+        "style-visual-era-base-art-deco-visual-language-functional-construction",
+        "style-visual-era-base-art-deco-visual-language-modern-reinterpretation",
+        "style-visual-era-base-art-deco-visual-language-museum-clean-finish",
+        "style-visual-era-base-art-deco-visual-language-restrained-ornament",
+        "style-visual-era-base-art-deco-visual-language-weathered-character",
+        "style-visual-era-base-mid-century-visual-language-ceremonial-refinement",
+        "style-visual-era-base-mid-century-visual-language-everyday-authenticity",
+        "style-visual-era-base-mid-century-visual-language-faithful-period-detail",
+        "style-visual-era-base-mid-century-visual-language-functional-construction",
+        "style-visual-era-base-mid-century-visual-language-modern-reinterpretation",
+        "style-visual-era-base-mid-century-visual-language-museum-clean-finish",
+        "style-visual-era-base-mid-century-visual-language-restrained-ornament",
+        "style-visual-era-base-mid-century-visual-language-weathered-character",
+        "style-visual-era-base-renaissance-inspired-visual-language-ceremonial-refinement",
+        "style-visual-era-base-renaissance-inspired-visual-language-everyday-authenticity",
+        "style-visual-era-base-renaissance-inspired-visual-language-faithful-period-detail",
+        "style-visual-era-base-renaissance-inspired-visual-language-functional-construction",
+        "style-visual-era-base-renaissance-inspired-visual-language-modern-reinterpretation",
+        "style-visual-era-base-renaissance-inspired-visual-language-museum-clean-finish",
+        "style-visual-era-base-renaissance-inspired-visual-language-restrained-ornament",
+        "style-visual-era-base-renaissance-inspired-visual-language-weathered-character",
+        "style-visual-era-base-victorian-visual-language-ceremonial-refinement",
+        "style-visual-era-base-victorian-visual-language-everyday-authenticity",
+        "style-visual-era-base-victorian-visual-language-faithful-period-detail",
+        "style-visual-era-base-victorian-visual-language-functional-construction",
+        "style-visual-era-base-victorian-visual-language-modern-reinterpretation",
+        "style-visual-era-base-victorian-visual-language-museum-clean-finish",
+        "style-visual-era-base-victorian-visual-language-restrained-ornament",
+        "style-visual-era-base-victorian-visual-language-weathered-character"
+      ],
+      "prompts_per_second": 88.69221803436906,
+      "rejections": 0,
+      "selected_options": 4320,
+      "top_options": [
+        [
+          "cinematography-camera-motion-base-locked-camera-flowing-movement",
+          598
+        ],
+        [
+          "cinematography-camera-motion-base-locked-camera-controlled-momentum",
+          582
+        ],
+        [
+          "cinematography-camera-motion-base-locked-camera-measured-movement",
+          582
+        ],
+        [
+          "cinematography-camera-motion-base-locked-camera-asymmetric-movement",
+          571
+        ],
+        [
+          "cinematography-camera-motion-base-locked-camera-rhythmic-movement",
+          568
+        ],
+        [
+          "cinematography-camera-motion-base-locked-camera-resting-movement",
+          560
+        ],
+        [
+          "cinematography-camera-motion-base-locked-camera-suspended-movement",
+          557
+        ],
+        [
+          "cinematography-camera-motion-base-locked-camera-decisive-movement",
+          551
+        ],
+        [
+          "style-visual-era-base-timeless-visual-language-faithful-period-detail",
+          363
+        ],
+        [
+          "style-visual-era-base-timeless-visual-language-weathered-character",
+          362
+        ]
+      ],
+      "unique_prompts": 10000,
+      "unique_ratio": 1.0
+    },
+    "editorial-fashion": {
+      "average_attempts": 67.0551,
+      "coverage": 0.9925373134328358,
+      "elapsed_seconds": 152.84886709999955,
+      "eligible_options": 4288,
+      "fallback_rate": 0.0,
+      "family_entropy_bits": 9.041521743555048,
+      "mode": "balanced",
+      "never_selected": [
+        "style-visual-era-base-art-deco-visual-language-ceremonial-refinement",
+        "style-visual-era-base-art-deco-visual-language-everyday-authenticity",
+        "style-visual-era-base-art-deco-visual-language-faithful-period-detail",
+        "style-visual-era-base-art-deco-visual-language-functional-construction",
+        "style-visual-era-base-art-deco-visual-language-modern-reinterpretation",
+        "style-visual-era-base-art-deco-visual-language-museum-clean-finish",
+        "style-visual-era-base-art-deco-visual-language-restrained-ornament",
+        "style-visual-era-base-art-deco-visual-language-weathered-character",
+        "style-visual-era-base-mid-century-visual-language-ceremonial-refinement",
+        "style-visual-era-base-mid-century-visual-language-everyday-authenticity",
+        "style-visual-era-base-mid-century-visual-language-faithful-period-detail",
+        "style-visual-era-base-mid-century-visual-language-functional-construction",
+        "style-visual-era-base-mid-century-visual-language-modern-reinterpretation",
+        "style-visual-era-base-mid-century-visual-language-museum-clean-finish",
+        "style-visual-era-base-mid-century-visual-language-restrained-ornament",
+        "style-visual-era-base-mid-century-visual-language-weathered-character",
+        "style-visual-era-base-renaissance-inspired-visual-language-ceremonial-refinement",
+        "style-visual-era-base-renaissance-inspired-visual-language-everyday-authenticity",
+        "style-visual-era-base-renaissance-inspired-visual-language-faithful-period-detail",
+        "style-visual-era-base-renaissance-inspired-visual-language-functional-construction",
+        "style-visual-era-base-renaissance-inspired-visual-language-modern-reinterpretation",
+        "style-visual-era-base-renaissance-inspired-visual-language-museum-clean-finish",
+        "style-visual-era-base-renaissance-inspired-visual-language-restrained-ornament",
+        "style-visual-era-base-renaissance-inspired-visual-language-weathered-character",
+        "style-visual-era-base-victorian-visual-language-ceremonial-refinement",
+        "style-visual-era-base-victorian-visual-language-everyday-authenticity",
+        "style-visual-era-base-victorian-visual-language-faithful-period-detail",
+        "style-visual-era-base-victorian-visual-language-functional-construction",
+        "style-visual-era-base-victorian-visual-language-modern-reinterpretation",
+        "style-visual-era-base-victorian-visual-language-museum-clean-finish",
+        "style-visual-era-base-victorian-visual-language-restrained-ornament",
+        "style-visual-era-base-victorian-visual-language-weathered-character"
+      ],
+      "prompts_per_second": 65.42410283916347,
+      "rejections": 551,
+      "selected_options": 4256,
+      "top_options": [
+        [
+          "cinematography-camera-motion-base-locked-camera-measured-movement",
+          749
+        ],
+        [
+          "cinematography-camera-motion-base-locked-camera-resting-movement",
+          722
+        ],
+        [
+          "cinematography-camera-motion-base-locked-camera-decisive-movement",
+          721
+        ],
+        [
+          "cinematography-camera-motion-base-locked-camera-flowing-movement",
+          720
+        ],
+        [
+          "cinematography-camera-motion-base-locked-camera-rhythmic-movement",
+          546
+        ],
+        [
+          "cinematography-camera-motion-base-locked-camera-suspended-movement",
+          468
+        ],
+        [
+          "style-visual-era-base-near-future-visual-language-functional-construction",
+          443
+        ],
+        [
+          "style-visual-era-base-late-twentieth-century-visual-language-modern-reinterpretation",
+          433
+        ],
+        [
+          "style-visual-era-base-timeless-visual-language-functional-construction",
+          432
+        ],
+        [
+          "style-visual-era-base-timeless-visual-language-faithful-period-detail",
+          431
+        ]
+      ],
+      "unique_prompts": 10000,
+      "unique_ratio": 1.0
+    },
+    "fantasy-portrait": {
+      "average_attempts": 53.0444,
+      "coverage": 1.0,
+      "elapsed_seconds": 176.99344670000028,
+      "eligible_options": 3392,
+      "fallback_rate": 0.0,
+      "family_entropy_bits": 8.71611830080407,
+      "mode": "creative",
+      "never_selected": [],
+      "prompts_per_second": 56.49926698670242,
+      "rejections": 444,
+      "selected_options": 3392,
+      "top_options": [
+        [
+          "cinematography-camera-motion-base-locked-camera-measured-movement",
+          659
+        ],
+        [
+          "cinematography-camera-motion-base-locked-camera-decisive-movement",
+          655
+        ],
+        [
+          "cinematography-camera-motion-base-locked-camera-flowing-movement",
+          643
+        ],
+        [
+          "cinematography-camera-motion-base-locked-camera-resting-movement",
+          639
+        ],
+        [
+          "cinematography-camera-motion-base-locked-camera-rhythmic-movement",
+          584
+        ],
+        [
+          "cinematography-camera-motion-base-locked-camera-suspended-movement",
+          505
+        ],
+        [
+          "cinematography-camera-motion-base-locked-camera-asymmetric-movement",
+          420
+        ],
+        [
+          "cinematography-camera-motion-base-locked-camera-controlled-momentum",
+          410
+        ],
+        [
+          "hair-style-base-center-parted-style-relaxed-drape",
+          268
+        ],
+        [
+          "hair-style-base-side-parted-style-layered-construction",
+          267
+        ]
+      ],
+      "unique_prompts": 10000,
+      "unique_ratio": 1.0
+    },
+    "fine-art-portrait": {
+      "average_attempts": 53.0551,
+      "coverage": 0.990909090909091,
+      "elapsed_seconds": 164.96178789999976,
+      "eligible_options": 3520,
+      "fallback_rate": 0.0,
+      "family_entropy_bits": 8.734699348355248,
+      "mode": "balanced",
+      "never_selected": [
+        "style-visual-era-base-art-deco-visual-language-ceremonial-refinement",
+        "style-visual-era-base-art-deco-visual-language-everyday-authenticity",
+        "style-visual-era-base-art-deco-visual-language-faithful-period-detail",
+        "style-visual-era-base-art-deco-visual-language-functional-construction",
+        "style-visual-era-base-art-deco-visual-language-modern-reinterpretation",
+        "style-visual-era-base-art-deco-visual-language-museum-clean-finish",
+        "style-visual-era-base-art-deco-visual-language-restrained-ornament",
+        "style-visual-era-base-art-deco-visual-language-weathered-character",
+        "style-visual-era-base-mid-century-visual-language-ceremonial-refinement",
+        "style-visual-era-base-mid-century-visual-language-everyday-authenticity",
+        "style-visual-era-base-mid-century-visual-language-faithful-period-detail",
+        "style-visual-era-base-mid-century-visual-language-functional-construction",
+        "style-visual-era-base-mid-century-visual-language-modern-reinterpretation",
+        "style-visual-era-base-mid-century-visual-language-museum-clean-finish",
+        "style-visual-era-base-mid-century-visual-language-restrained-ornament",
+        "style-visual-era-base-mid-century-visual-language-weathered-character",
+        "style-visual-era-base-renaissance-inspired-visual-language-ceremonial-refinement",
+        "style-visual-era-base-renaissance-inspired-visual-language-everyday-authenticity",
+        "style-visual-era-base-renaissance-inspired-visual-language-faithful-period-detail",
+        "style-visual-era-base-renaissance-inspired-visual-language-functional-construction",
+        "style-visual-era-base-renaissance-inspired-visual-language-modern-reinterpretation",
+        "style-visual-era-base-renaissance-inspired-visual-language-museum-clean-finish",
+        "style-visual-era-base-renaissance-inspired-visual-language-restrained-ornament",
+        "style-visual-era-base-renaissance-inspired-visual-language-weathered-character",
+        "style-visual-era-base-victorian-visual-language-ceremonial-refinement",
+        "style-visual-era-base-victorian-visual-language-everyday-authenticity",
+        "style-visual-era-base-victorian-visual-language-faithful-period-detail",
+        "style-visual-era-base-victorian-visual-language-functional-construction",
+        "style-visual-era-base-victorian-visual-language-modern-reinterpretation",
+        "style-visual-era-base-victorian-visual-language-museum-clean-finish",
+        "style-visual-era-base-victorian-visual-language-restrained-ornament",
+        "style-visual-era-base-victorian-visual-language-weathered-character"
+      ],
+      "prompts_per_second": 60.6200995230606,
+      "rejections": 551,
+      "selected_options": 3488,
+      "top_options": [
+        [
+          "cinematography-camera-motion-base-locked-camera-measured-movement",
+          749
+        ],
+        [
+          "cinematography-camera-motion-base-locked-camera-resting-movement",
+          722
+        ],
+        [
+          "cinematography-camera-motion-base-locked-camera-decisive-movement",
+          721
+        ],
+        [
+          "cinematography-camera-motion-base-locked-camera-flowing-movement",
+          720
+        ],
+        [
+          "cinematography-camera-motion-base-locked-camera-rhythmic-movement",
+          546
+        ],
+        [
+          "cinematography-camera-motion-base-locked-camera-suspended-movement",
+          468
+        ],
+        [
+          "style-visual-era-base-near-future-visual-language-functional-construction",
+          443
+        ],
+        [
+          "style-visual-era-base-late-twentieth-century-visual-language-modern-reinterpretation",
+          433
+        ],
+        [
+          "style-visual-era-base-timeless-visual-language-functional-construction",
+          432
+        ],
+        [
+          "style-visual-era-base-timeless-visual-language-faithful-period-detail",
+          431
+        ]
+      ],
+      "unique_prompts": 10000,
+      "unique_ratio": 1.0
+    },
+    "full-body-fashion": {
+      "average_attempts": 66.0551,
+      "coverage": 0.9925373134328358,
+      "elapsed_seconds": 197.8292032999998,
+      "eligible_options": 4288,
+      "fallback_rate": 0.0,
+      "family_entropy_bits": 9.034608213567205,
+      "mode": "balanced",
+      "never_selected": [
+        "style-visual-era-base-art-deco-visual-language-ceremonial-refinement",
+        "style-visual-era-base-art-deco-visual-language-everyday-authenticity",
+        "style-visual-era-base-art-deco-visual-language-faithful-period-detail",
+        "style-visual-era-base-art-deco-visual-language-functional-construction",
+        "style-visual-era-base-art-deco-visual-language-modern-reinterpretation",
+        "style-visual-era-base-art-deco-visual-language-museum-clean-finish",
+        "style-visual-era-base-art-deco-visual-language-restrained-ornament",
+        "style-visual-era-base-art-deco-visual-language-weathered-character",
+        "style-visual-era-base-mid-century-visual-language-ceremonial-refinement",
+        "style-visual-era-base-mid-century-visual-language-everyday-authenticity",
+        "style-visual-era-base-mid-century-visual-language-faithful-period-detail",
+        "style-visual-era-base-mid-century-visual-language-functional-construction",
+        "style-visual-era-base-mid-century-visual-language-modern-reinterpretation",
+        "style-visual-era-base-mid-century-visual-language-museum-clean-finish",
+        "style-visual-era-base-mid-century-visual-language-restrained-ornament",
+        "style-visual-era-base-mid-century-visual-language-weathered-character",
+        "style-visual-era-base-renaissance-inspired-visual-language-ceremonial-refinement",
+        "style-visual-era-base-renaissance-inspired-visual-language-everyday-authenticity",
+        "style-visual-era-base-renaissance-inspired-visual-language-faithful-period-detail",
+        "style-visual-era-base-renaissance-inspired-visual-language-functional-construction",
+        "style-visual-era-base-renaissance-inspired-visual-language-modern-reinterpretation",
+        "style-visual-era-base-renaissance-inspired-visual-language-museum-clean-finish",
+        "style-visual-era-base-renaissance-inspired-visual-language-restrained-ornament",
+        "style-visual-era-base-renaissance-inspired-visual-language-weathered-character",
+        "style-visual-era-base-victorian-visual-language-ceremonial-refinement",
+        "style-visual-era-base-victorian-visual-language-everyday-authenticity",
+        "style-visual-era-base-victorian-visual-language-faithful-period-detail",
+        "style-visual-era-base-victorian-visual-language-functional-construction",
+        "style-visual-era-base-victorian-visual-language-modern-reinterpretation",
+        "style-visual-era-base-victorian-visual-language-museum-clean-finish",
+        "style-visual-era-base-victorian-visual-language-restrained-ornament",
+        "style-visual-era-base-victorian-visual-language-weathered-character"
+      ],
+      "prompts_per_second": 50.548654259277455,
+      "rejections": 551,
+      "selected_options": 4256,
+      "top_options": [
+        [
+          "cinematography-camera-motion-base-locked-camera-measured-movement",
+          749
+        ],
+        [
+          "cinematography-camera-motion-base-locked-camera-resting-movement",
+          722
+        ],
+        [
+          "cinematography-camera-motion-base-locked-camera-decisive-movement",
+          721
+        ],
+        [
+          "cinematography-camera-motion-base-locked-camera-flowing-movement",
+          720
+        ],
+        [
+          "cinematography-camera-motion-base-locked-camera-rhythmic-movement",
+          546
+        ],
+        [
+          "cinematography-camera-motion-base-locked-camera-suspended-movement",
+          468
+        ],
+        [
+          "style-visual-era-base-near-future-visual-language-functional-construction",
+          443
+        ],
+        [
+          "style-visual-era-base-late-twentieth-century-visual-language-modern-reinterpretation",
+          433
+        ],
+        [
+          "style-visual-era-base-timeless-visual-language-functional-construction",
+          432
+        ],
+        [
+          "style-visual-era-base-timeless-visual-language-faithful-period-detail",
+          431
+        ]
+      ],
+      "unique_prompts": 10000,
+      "unique_ratio": 1.0
+    },
+    "historical-portrait": {
+      "average_attempts": 54.0654,
+      "coverage": 1.0,
+      "elapsed_seconds": 240.5854975000002,
+      "eligible_options": 3456,
+      "fallback_rate": 0.0,
+      "family_entropy_bits": 8.739923274485237,
+      "mode": "strict",
+      "never_selected": [],
+      "prompts_per_second": 41.56526517148022,
+      "rejections": 654,
+      "selected_options": 3456,
+      "top_options": [
+        [
+          "cinematography-camera-motion-base-locked-camera-measured-movement",
+          789
+        ],
+        [
+          "cinematography-camera-motion-base-locked-camera-resting-movement",
+          755
+        ],
+        [
+          "cinematography-camera-motion-base-locked-camera-flowing-movement",
+          755
+        ],
+        [
+          "cinematography-camera-motion-base-locked-camera-decisive-movement",
+          753
+        ],
+        [
+          "cinematography-camera-motion-base-locked-camera-rhythmic-movement",
+          531
+        ],
+        [
+          "cinematography-camera-motion-base-locked-camera-suspended-movement",
+          443
+        ],
+        [
+          "scene-weather-base-light-snowfall-humid-air",
+          342
+        ],
+        [
+          "scene-weather-base-light-snowfall-clear-atmosphere",
+          341
+        ],
+        [
+          "style-visual-era-base-renaissance-inspired-visual-language-functional-construction",
+          335
+        ],
+        [
+          "style-visual-era-base-mid-century-visual-language-modern-reinterpretation",
+          331
+        ]
+      ],
+      "unique_prompts": 10000,
+      "unique_ratio": 1.0
+    },
+    "lifestyle": {
+      "average_attempts": 45.0,
+      "coverage": 1.0,
+      "elapsed_seconds": 191.51492379999945,
+      "eligible_options": 2944,
+      "fallback_rate": 0.0,
+      "family_entropy_bits": 8.500067643944757,
+      "mode": "balanced",
+      "never_selected": [],
+      "prompts_per_second": 52.21525195834388,
+      "rejections": 0,
+      "selected_options": 2944,
+      "top_options": [
+        [
+          "cinematography-camera-motion-base-locked-camera-measured-movement",
+          749
+        ],
+        [
+          "cinematography-camera-motion-base-locked-camera-resting-movement",
+          722
+        ],
+        [
+          "cinematography-camera-motion-base-locked-camera-decisive-movement",
+          721
+        ],
+        [
+          "cinematography-camera-motion-base-locked-camera-flowing-movement",
+          720
+        ],
+        [
+          "cinematography-camera-motion-base-locked-camera-rhythmic-movement",
+          546
+        ],
+        [
+          "cinematography-camera-motion-base-locked-camera-suspended-movement",
+          468
+        ],
+        [
+          "hair-style-base-side-parted-style-layered-construction",
+          307
+        ],
+        [
+          "hair-style-base-side-parted-style-relaxed-drape",
+          301
+        ],
+        [
+          "hair-style-base-center-parted-style-relaxed-drape",
+          300
+        ],
+        [
+          "cinematography-camera-motion-base-locked-camera-asymmetric-movement",
+          296
+        ]
+      ],
+      "unique_prompts": 10000,
+      "unique_ratio": 1.0
+    },
+    "portrait-core": {
+      "average_attempts": 35.0,
+      "coverage": 1.0,
+      "elapsed_seconds": 150.47357269999884,
+      "eligible_options": 2240,
+      "fallback_rate": 0.0,
+      "family_entropy_bits": 8.124760852500717,
+      "mode": "balanced",
+      "never_selected": [],
+      "prompts_per_second": 66.45685232673469,
+      "rejections": 0,
+      "selected_options": 2240,
+      "top_options": [
+        [
+          "hair-style-base-side-parted-style-layered-construction",
+          307
+        ],
+        [
+          "hair-style-base-side-parted-style-relaxed-drape",
+          301
+        ],
+        [
+          "hair-style-base-center-parted-style-relaxed-drape",
+          300
+        ],
+        [
+          "hair-style-base-layered-crop-clean-seaming",
+          295
+        ],
+        [
+          "hair-style-base-layered-crop-layered-construction",
+          294
+        ],
+        [
+          "hair-style-base-loose-natural-style-layered-construction",
+          290
+        ],
+        [
+          "scene-weather-base-light-snowfall-clear-atmosphere",
+          281
+        ],
+        [
+          "scene-weather-base-light-snowfall-humid-air",
+          280
+        ],
+        [
+          "scene-weather-base-light-snowfall-soft-mist",
+          280
+        ],
+        [
+          "hair-style-base-center-parted-style-precise-tailoring",
+          277
+        ]
+      ],
+      "unique_prompts": 10000,
+      "unique_ratio": 1.0
+    },
+    "professional-headshot": {
+      "average_attempts": 41.0,
+      "coverage": 1.0,
+      "elapsed_seconds": 122.89146840000103,
+      "eligible_options": 2624,
+      "fallback_rate": 0.0,
+      "family_entropy_bits": 8.354546964462408,
+      "mode": "strict",
+      "never_selected": [],
+      "prompts_per_second": 81.37261382092751,
+      "rejections": 0,
+      "selected_options": 2624,
+      "top_options": [
+        [
+          "hair-style-base-side-parted-style-layered-construction",
+          321
+        ],
+        [
+          "hair-style-base-side-parted-style-relaxed-drape",
+          316
+        ],
+        [
+          "hair-style-base-center-parted-style-relaxed-drape",
+          314
+        ],
+        [
+          "hair-style-base-layered-crop-clean-seaming",
+          304
+        ],
+        [
+          "hair-style-base-loose-natural-style-layered-construction",
+          301
+        ],
+        [
+          "hair-style-base-layered-crop-layered-construction",
+          299
+        ],
+        [
+          "hair-style-base-loose-natural-style-precise-tailoring",
+          294
+        ],
+        [
+          "hair-style-base-loose-natural-style-clean-seaming",
+          289
+        ],
+        [
+          "hair-style-base-center-parted-style-precise-tailoring",
+          289
+        ],
+        [
+          "hair-style-base-center-parted-style-layered-construction",
+          286
+        ]
+      ],
+      "unique_prompts": 10000,
+      "unique_ratio": 1.0
+    },
+    "street-portrait": {
+      "average_attempts": 45.0,
+      "coverage": 1.0,
+      "elapsed_seconds": 199.65343509999911,
+      "eligible_options": 2880,
+      "fallback_rate": 0.0,
+      "family_entropy_bits": 8.477861165757293,
+      "mode": "balanced",
+      "never_selected": [],
+      "prompts_per_second": 50.08679161964514,
+      "rejections": 0,
+      "selected_options": 2880,
+      "top_options": [
+        [
+          "cinematography-camera-motion-base-locked-camera-measured-movement",
+          749
+        ],
+        [
+          "cinematography-camera-motion-base-locked-camera-resting-movement",
+          722
+        ],
+        [
+          "cinematography-camera-motion-base-locked-camera-decisive-movement",
+          721
+        ],
+        [
+          "cinematography-camera-motion-base-locked-camera-flowing-movement",
+          720
+        ],
+        [
+          "cinematography-camera-motion-base-locked-camera-rhythmic-movement",
+          546
+        ],
+        [
+          "cinematography-camera-motion-base-locked-camera-suspended-movement",
+          468
+        ],
+        [
+          "hair-style-base-side-parted-style-layered-construction",
+          307
+        ],
+        [
+          "hair-style-base-side-parted-style-relaxed-drape",
+          301
+        ],
+        [
+          "hair-style-base-center-parted-style-relaxed-drape",
+          300
+        ],
+        [
+          "cinematography-camera-motion-base-locked-camera-asymmetric-movement",
+          296
+        ]
+      ],
+      "unique_prompts": 10000,
+      "unique_ratio": 1.0
+    },
+    "studio-beauty": {
+      "average_attempts": 50.0,
+      "coverage": 1.0,
+      "elapsed_seconds": 197.19731989999855,
+      "eligible_options": 3200,
+      "fallback_rate": 0.0,
+      "family_entropy_bits": 8.631979021992658,
+      "mode": "balanced",
+      "never_selected": [],
+      "prompts_per_second": 50.7106283445999,
+      "rejections": 0,
+      "selected_options": 3200,
+      "top_options": [
+        [
+          "cinematography-camera-motion-base-locked-camera-measured-movement",
+          749
+        ],
+        [
+          "cinematography-camera-motion-base-locked-camera-resting-movement",
+          722
+        ],
+        [
+          "cinematography-camera-motion-base-locked-camera-decisive-movement",
+          721
+        ],
+        [
+          "cinematography-camera-motion-base-locked-camera-flowing-movement",
+          720
+        ],
+        [
+          "cinematography-camera-motion-base-locked-camera-rhythmic-movement",
+          546
+        ],
+        [
+          "cinematography-camera-motion-base-locked-camera-suspended-movement",
+          468
+        ],
+        [
+          "hair-style-base-side-parted-style-layered-construction",
+          307
+        ],
+        [
+          "hair-style-base-side-parted-style-relaxed-drape",
+          301
+        ],
+        [
+          "hair-style-base-center-parted-style-relaxed-drape",
+          300
+        ],
+        [
+          "cinematography-camera-motion-base-locked-camera-asymmetric-movement",
+          296
+        ]
+      ],
+      "unique_prompts": 10000,
+      "unique_ratio": 1.0
+    },
+    "virtual-model": {
+      "average_attempts": 66.0551,
+      "coverage": 0.9924242424242424,
+      "elapsed_seconds": 296.0507340000004,
+      "eligible_options": 4224,
+      "fallback_rate": 0.0,
+      "family_entropy_bits": 9.01946393012702,
+      "mode": "balanced",
+      "never_selected": [
+        "style-visual-era-base-art-deco-visual-language-ceremonial-refinement",
+        "style-visual-era-base-art-deco-visual-language-everyday-authenticity",
+        "style-visual-era-base-art-deco-visual-language-faithful-period-detail",
+        "style-visual-era-base-art-deco-visual-language-functional-construction",
+        "style-visual-era-base-art-deco-visual-language-modern-reinterpretation",
+        "style-visual-era-base-art-deco-visual-language-museum-clean-finish",
+        "style-visual-era-base-art-deco-visual-language-restrained-ornament",
+        "style-visual-era-base-art-deco-visual-language-weathered-character",
+        "style-visual-era-base-mid-century-visual-language-ceremonial-refinement",
+        "style-visual-era-base-mid-century-visual-language-everyday-authenticity",
+        "style-visual-era-base-mid-century-visual-language-faithful-period-detail",
+        "style-visual-era-base-mid-century-visual-language-functional-construction",
+        "style-visual-era-base-mid-century-visual-language-modern-reinterpretation",
+        "style-visual-era-base-mid-century-visual-language-museum-clean-finish",
+        "style-visual-era-base-mid-century-visual-language-restrained-ornament",
+        "style-visual-era-base-mid-century-visual-language-weathered-character",
+        "style-visual-era-base-renaissance-inspired-visual-language-ceremonial-refinement",
+        "style-visual-era-base-renaissance-inspired-visual-language-everyday-authenticity",
+        "style-visual-era-base-renaissance-inspired-visual-language-faithful-period-detail",
+        "style-visual-era-base-renaissance-inspired-visual-language-functional-construction",
+        "style-visual-era-base-renaissance-inspired-visual-language-modern-reinterpretation",
+        "style-visual-era-base-renaissance-inspired-visual-language-museum-clean-finish",
+        "style-visual-era-base-renaissance-inspired-visual-language-restrained-ornament",
+        "style-visual-era-base-renaissance-inspired-visual-language-weathered-character",
+        "style-visual-era-base-victorian-visual-language-ceremonial-refinement",
+        "style-visual-era-base-victorian-visual-language-everyday-authenticity",
+        "style-visual-era-base-victorian-visual-language-faithful-period-detail",
+        "style-visual-era-base-victorian-visual-language-functional-construction",
+        "style-visual-era-base-victorian-visual-language-modern-reinterpretation",
+        "style-visual-era-base-victorian-visual-language-museum-clean-finish",
+        "style-visual-era-base-victorian-visual-language-restrained-ornament",
+        "style-visual-era-base-victorian-visual-language-weathered-character"
+      ],
+      "prompts_per_second": 33.77799428120988,
+      "rejections": 551,
+      "selected_options": 4192,
+      "top_options": [
+        [
+          "cinematography-camera-motion-base-locked-camera-measured-movement",
+          749
+        ],
+        [
+          "cinematography-camera-motion-base-locked-camera-resting-movement",
+          722
+        ],
+        [
+          "cinematography-camera-motion-base-locked-camera-decisive-movement",
+          721
+        ],
+        [
+          "cinematography-camera-motion-base-locked-camera-flowing-movement",
+          720
+        ],
+        [
+          "cinematography-camera-motion-base-locked-camera-rhythmic-movement",
+          546
+        ],
+        [
+          "cinematography-camera-motion-base-locked-camera-suspended-movement",
+          468
+        ],
+        [
+          "style-visual-era-base-near-future-visual-language-functional-construction",
+          443
+        ],
+        [
+          "style-visual-era-base-late-twentieth-century-visual-language-modern-reinterpretation",
+          433
+        ],
+        [
+          "style-visual-era-base-timeless-visual-language-functional-construction",
+          432
+        ],
+        [
+          "style-visual-era-base-timeless-visual-language-faithful-period-detail",
+          431
+        ]
+      ],
+      "unique_prompts": 10000,
+      "unique_ratio": 1.0
+    }
+  },
+  "seeds_per_profile": 10000
+}

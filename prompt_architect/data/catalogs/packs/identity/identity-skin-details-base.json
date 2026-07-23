@@ -1,0 +1,2577 @@
+{
+  "schema_version": "2.0",
+  "id": "identity-skin-details-base",
+  "version": "2.0.0",
+  "library": "skin-details",
+  "domain": "identity",
+  "category": "skin-details",
+  "language": "en",
+  "status": "active",
+  "safety": "general",
+  "tags": [
+    "base"
+  ],
+  "fallback_option_id": "identity-skin-details-base-light-freckles-delicate-scale",
+  "options": [
+    {
+      "id": "identity-skin-details-base-light-freckles-delicate-scale",
+      "semantic_key": "identity-skin-details-base-light-freckles-delicate-scale",
+      "text": "light freckles appearing at a delicate scale",
+      "sentence": "Light freckles appearing at a delicate scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "light freckles appearing at a delicate scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing light freckles appearing at a delicate scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with light freckles appearing at a delicate scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-details-base-light-freckles",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-details"
+      ],
+      "facets": {
+        "detail": "light-freckles",
+        "treatment": "delicate-scale"
+      },
+      "subcategory": "light-freckles",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-details-base-light-freckles-compact-scale",
+      "semantic_key": "identity-skin-details-base-light-freckles-compact-scale",
+      "text": "light freckles appearing at a compact scale",
+      "sentence": "Light freckles appearing at a compact scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "light freckles appearing at a compact scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing light freckles appearing at a compact scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with light freckles appearing at a compact scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-details-base-light-freckles",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-details"
+      ],
+      "facets": {
+        "detail": "light-freckles",
+        "treatment": "compact-scale"
+      },
+      "subcategory": "light-freckles",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-details-base-light-freckles-balanced-scale",
+      "semantic_key": "identity-skin-details-base-light-freckles-balanced-scale",
+      "text": "light freckles appearing at a balanced scale",
+      "sentence": "Light freckles appearing at a balanced scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "light freckles appearing at a balanced scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing light freckles appearing at a balanced scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with light freckles appearing at a balanced scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-details-base-light-freckles",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-details"
+      ],
+      "facets": {
+        "detail": "light-freckles",
+        "treatment": "balanced-scale"
+      },
+      "subcategory": "light-freckles",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-details-base-light-freckles-elongated-scale",
+      "semantic_key": "identity-skin-details-base-light-freckles-elongated-scale",
+      "text": "light freckles appearing at a elongated scale",
+      "sentence": "Light freckles appearing at a elongated scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "light freckles appearing at a elongated scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing light freckles appearing at a elongated scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with light freckles appearing at a elongated scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-details-base-light-freckles",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-details"
+      ],
+      "facets": {
+        "detail": "light-freckles",
+        "treatment": "elongated-scale"
+      },
+      "subcategory": "light-freckles",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-details-base-light-freckles-broad-scale",
+      "semantic_key": "identity-skin-details-base-light-freckles-broad-scale",
+      "text": "light freckles appearing at a broad scale",
+      "sentence": "Light freckles appearing at a broad scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "light freckles appearing at a broad scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing light freckles appearing at a broad scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with light freckles appearing at a broad scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-skin-details-base-light-freckles",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-uncommon",
+        "skin-details"
+      ],
+      "facets": {
+        "detail": "light-freckles",
+        "treatment": "broad-scale"
+      },
+      "subcategory": "light-freckles",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-details-base-light-freckles-generous-scale",
+      "semantic_key": "identity-skin-details-base-light-freckles-generous-scale",
+      "text": "light freckles appearing at a generous scale",
+      "sentence": "Light freckles appearing at a generous scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "light freckles appearing at a generous scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing light freckles appearing at a generous scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with light freckles appearing at a generous scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-skin-details-base-light-freckles",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-uncommon",
+        "skin-details"
+      ],
+      "facets": {
+        "detail": "light-freckles",
+        "treatment": "generous-scale"
+      },
+      "subcategory": "light-freckles",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-details-base-light-freckles-graduated-scale",
+      "semantic_key": "identity-skin-details-base-light-freckles-graduated-scale",
+      "text": "light freckles appearing at a graduated scale",
+      "sentence": "Light freckles appearing at a graduated scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "light freckles appearing at a graduated scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing light freckles appearing at a graduated scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with light freckles appearing at a graduated scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-skin-details-base-light-freckles",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-rare",
+        "skin-details"
+      ],
+      "facets": {
+        "detail": "light-freckles",
+        "treatment": "graduated-scale"
+      },
+      "subcategory": "light-freckles",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-details-base-light-freckles-irregular-scale",
+      "semantic_key": "identity-skin-details-base-light-freckles-irregular-scale",
+      "text": "light freckles appearing at a irregular scale",
+      "sentence": "Light freckles appearing at a irregular scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "light freckles appearing at a irregular scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing light freckles appearing at a irregular scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with light freckles appearing at a irregular scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-skin-details-base-light-freckles",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-rare",
+        "skin-details"
+      ],
+      "facets": {
+        "detail": "light-freckles",
+        "treatment": "irregular-scale"
+      },
+      "subcategory": "light-freckles",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-details-base-dense-freckles-delicate-scale",
+      "semantic_key": "identity-skin-details-base-dense-freckles-delicate-scale",
+      "text": "dense freckles appearing at a delicate scale",
+      "sentence": "Dense freckles appearing at a delicate scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "dense freckles appearing at a delicate scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing dense freckles appearing at a delicate scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with dense freckles appearing at a delicate scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-details-base-dense-freckles",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-details"
+      ],
+      "facets": {
+        "detail": "dense-freckles",
+        "treatment": "delicate-scale"
+      },
+      "subcategory": "dense-freckles",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-details-base-dense-freckles-compact-scale",
+      "semantic_key": "identity-skin-details-base-dense-freckles-compact-scale",
+      "text": "dense freckles appearing at a compact scale",
+      "sentence": "Dense freckles appearing at a compact scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "dense freckles appearing at a compact scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing dense freckles appearing at a compact scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with dense freckles appearing at a compact scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-details-base-dense-freckles",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-details"
+      ],
+      "facets": {
+        "detail": "dense-freckles",
+        "treatment": "compact-scale"
+      },
+      "subcategory": "dense-freckles",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-details-base-dense-freckles-balanced-scale",
+      "semantic_key": "identity-skin-details-base-dense-freckles-balanced-scale",
+      "text": "dense freckles appearing at a balanced scale",
+      "sentence": "Dense freckles appearing at a balanced scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "dense freckles appearing at a balanced scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing dense freckles appearing at a balanced scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with dense freckles appearing at a balanced scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-details-base-dense-freckles",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-details"
+      ],
+      "facets": {
+        "detail": "dense-freckles",
+        "treatment": "balanced-scale"
+      },
+      "subcategory": "dense-freckles",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-details-base-dense-freckles-elongated-scale",
+      "semantic_key": "identity-skin-details-base-dense-freckles-elongated-scale",
+      "text": "dense freckles appearing at a elongated scale",
+      "sentence": "Dense freckles appearing at a elongated scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "dense freckles appearing at a elongated scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing dense freckles appearing at a elongated scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with dense freckles appearing at a elongated scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-details-base-dense-freckles",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-details"
+      ],
+      "facets": {
+        "detail": "dense-freckles",
+        "treatment": "elongated-scale"
+      },
+      "subcategory": "dense-freckles",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-details-base-dense-freckles-broad-scale",
+      "semantic_key": "identity-skin-details-base-dense-freckles-broad-scale",
+      "text": "dense freckles appearing at a broad scale",
+      "sentence": "Dense freckles appearing at a broad scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "dense freckles appearing at a broad scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing dense freckles appearing at a broad scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with dense freckles appearing at a broad scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-skin-details-base-dense-freckles",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-uncommon",
+        "skin-details"
+      ],
+      "facets": {
+        "detail": "dense-freckles",
+        "treatment": "broad-scale"
+      },
+      "subcategory": "dense-freckles",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-details-base-dense-freckles-generous-scale",
+      "semantic_key": "identity-skin-details-base-dense-freckles-generous-scale",
+      "text": "dense freckles appearing at a generous scale",
+      "sentence": "Dense freckles appearing at a generous scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "dense freckles appearing at a generous scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing dense freckles appearing at a generous scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with dense freckles appearing at a generous scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-skin-details-base-dense-freckles",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-uncommon",
+        "skin-details"
+      ],
+      "facets": {
+        "detail": "dense-freckles",
+        "treatment": "generous-scale"
+      },
+      "subcategory": "dense-freckles",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-details-base-dense-freckles-graduated-scale",
+      "semantic_key": "identity-skin-details-base-dense-freckles-graduated-scale",
+      "text": "dense freckles appearing at a graduated scale",
+      "sentence": "Dense freckles appearing at a graduated scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "dense freckles appearing at a graduated scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing dense freckles appearing at a graduated scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with dense freckles appearing at a graduated scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-skin-details-base-dense-freckles",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-rare",
+        "skin-details"
+      ],
+      "facets": {
+        "detail": "dense-freckles",
+        "treatment": "graduated-scale"
+      },
+      "subcategory": "dense-freckles",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-details-base-dense-freckles-irregular-scale",
+      "semantic_key": "identity-skin-details-base-dense-freckles-irregular-scale",
+      "text": "dense freckles appearing at a irregular scale",
+      "sentence": "Dense freckles appearing at a irregular scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "dense freckles appearing at a irregular scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing dense freckles appearing at a irregular scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with dense freckles appearing at a irregular scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-skin-details-base-dense-freckles",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-rare",
+        "skin-details"
+      ],
+      "facets": {
+        "detail": "dense-freckles",
+        "treatment": "irregular-scale"
+      },
+      "subcategory": "dense-freckles",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-details-base-beauty-marks-delicate-scale",
+      "semantic_key": "identity-skin-details-base-beauty-marks-delicate-scale",
+      "text": "beauty marks appearing at a delicate scale",
+      "sentence": "Beauty marks appearing at a delicate scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "beauty marks appearing at a delicate scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing beauty marks appearing at a delicate scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with beauty marks appearing at a delicate scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-details-base-beauty-marks",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-details"
+      ],
+      "facets": {
+        "detail": "beauty-marks",
+        "treatment": "delicate-scale"
+      },
+      "subcategory": "beauty-marks",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-details-base-beauty-marks-compact-scale",
+      "semantic_key": "identity-skin-details-base-beauty-marks-compact-scale",
+      "text": "beauty marks appearing at a compact scale",
+      "sentence": "Beauty marks appearing at a compact scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "beauty marks appearing at a compact scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing beauty marks appearing at a compact scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with beauty marks appearing at a compact scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-details-base-beauty-marks",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-details"
+      ],
+      "facets": {
+        "detail": "beauty-marks",
+        "treatment": "compact-scale"
+      },
+      "subcategory": "beauty-marks",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-details-base-beauty-marks-balanced-scale",
+      "semantic_key": "identity-skin-details-base-beauty-marks-balanced-scale",
+      "text": "beauty marks appearing at a balanced scale",
+      "sentence": "Beauty marks appearing at a balanced scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "beauty marks appearing at a balanced scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing beauty marks appearing at a balanced scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with beauty marks appearing at a balanced scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-details-base-beauty-marks",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-details"
+      ],
+      "facets": {
+        "detail": "beauty-marks",
+        "treatment": "balanced-scale"
+      },
+      "subcategory": "beauty-marks",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-details-base-beauty-marks-elongated-scale",
+      "semantic_key": "identity-skin-details-base-beauty-marks-elongated-scale",
+      "text": "beauty marks appearing at a elongated scale",
+      "sentence": "Beauty marks appearing at a elongated scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "beauty marks appearing at a elongated scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing beauty marks appearing at a elongated scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with beauty marks appearing at a elongated scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-details-base-beauty-marks",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-details"
+      ],
+      "facets": {
+        "detail": "beauty-marks",
+        "treatment": "elongated-scale"
+      },
+      "subcategory": "beauty-marks",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-details-base-beauty-marks-broad-scale",
+      "semantic_key": "identity-skin-details-base-beauty-marks-broad-scale",
+      "text": "beauty marks appearing at a broad scale",
+      "sentence": "Beauty marks appearing at a broad scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "beauty marks appearing at a broad scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing beauty marks appearing at a broad scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with beauty marks appearing at a broad scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-skin-details-base-beauty-marks",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-uncommon",
+        "skin-details"
+      ],
+      "facets": {
+        "detail": "beauty-marks",
+        "treatment": "broad-scale"
+      },
+      "subcategory": "beauty-marks",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-details-base-beauty-marks-generous-scale",
+      "semantic_key": "identity-skin-details-base-beauty-marks-generous-scale",
+      "text": "beauty marks appearing at a generous scale",
+      "sentence": "Beauty marks appearing at a generous scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "beauty marks appearing at a generous scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing beauty marks appearing at a generous scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with beauty marks appearing at a generous scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-skin-details-base-beauty-marks",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-uncommon",
+        "skin-details"
+      ],
+      "facets": {
+        "detail": "beauty-marks",
+        "treatment": "generous-scale"
+      },
+      "subcategory": "beauty-marks",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-details-base-beauty-marks-graduated-scale",
+      "semantic_key": "identity-skin-details-base-beauty-marks-graduated-scale",
+      "text": "beauty marks appearing at a graduated scale",
+      "sentence": "Beauty marks appearing at a graduated scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "beauty marks appearing at a graduated scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing beauty marks appearing at a graduated scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with beauty marks appearing at a graduated scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-skin-details-base-beauty-marks",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-rare",
+        "skin-details"
+      ],
+      "facets": {
+        "detail": "beauty-marks",
+        "treatment": "graduated-scale"
+      },
+      "subcategory": "beauty-marks",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-details-base-beauty-marks-irregular-scale",
+      "semantic_key": "identity-skin-details-base-beauty-marks-irregular-scale",
+      "text": "beauty marks appearing at a irregular scale",
+      "sentence": "Beauty marks appearing at a irregular scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "beauty marks appearing at a irregular scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing beauty marks appearing at a irregular scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with beauty marks appearing at a irregular scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-skin-details-base-beauty-marks",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-rare",
+        "skin-details"
+      ],
+      "facets": {
+        "detail": "beauty-marks",
+        "treatment": "irregular-scale"
+      },
+      "subcategory": "beauty-marks",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-details-base-fine-smile-lines-delicate-scale",
+      "semantic_key": "identity-skin-details-base-fine-smile-lines-delicate-scale",
+      "text": "fine smile lines appearing at a delicate scale",
+      "sentence": "Fine smile lines appearing at a delicate scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "fine smile lines appearing at a delicate scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing fine smile lines appearing at a delicate scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with fine smile lines appearing at a delicate scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-details-base-fine-smile-lines",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-details"
+      ],
+      "facets": {
+        "detail": "fine-smile-lines",
+        "treatment": "delicate-scale"
+      },
+      "subcategory": "fine-smile-lines",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-details-base-fine-smile-lines-compact-scale",
+      "semantic_key": "identity-skin-details-base-fine-smile-lines-compact-scale",
+      "text": "fine smile lines appearing at a compact scale",
+      "sentence": "Fine smile lines appearing at a compact scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "fine smile lines appearing at a compact scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing fine smile lines appearing at a compact scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with fine smile lines appearing at a compact scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-details-base-fine-smile-lines",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-details"
+      ],
+      "facets": {
+        "detail": "fine-smile-lines",
+        "treatment": "compact-scale"
+      },
+      "subcategory": "fine-smile-lines",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-details-base-fine-smile-lines-balanced-scale",
+      "semantic_key": "identity-skin-details-base-fine-smile-lines-balanced-scale",
+      "text": "fine smile lines appearing at a balanced scale",
+      "sentence": "Fine smile lines appearing at a balanced scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "fine smile lines appearing at a balanced scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing fine smile lines appearing at a balanced scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with fine smile lines appearing at a balanced scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-details-base-fine-smile-lines",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-details"
+      ],
+      "facets": {
+        "detail": "fine-smile-lines",
+        "treatment": "balanced-scale"
+      },
+      "subcategory": "fine-smile-lines",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-details-base-fine-smile-lines-elongated-scale",
+      "semantic_key": "identity-skin-details-base-fine-smile-lines-elongated-scale",
+      "text": "fine smile lines appearing at a elongated scale",
+      "sentence": "Fine smile lines appearing at a elongated scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "fine smile lines appearing at a elongated scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing fine smile lines appearing at a elongated scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with fine smile lines appearing at a elongated scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-details-base-fine-smile-lines",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-details"
+      ],
+      "facets": {
+        "detail": "fine-smile-lines",
+        "treatment": "elongated-scale"
+      },
+      "subcategory": "fine-smile-lines",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-details-base-fine-smile-lines-broad-scale",
+      "semantic_key": "identity-skin-details-base-fine-smile-lines-broad-scale",
+      "text": "fine smile lines appearing at a broad scale",
+      "sentence": "Fine smile lines appearing at a broad scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "fine smile lines appearing at a broad scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing fine smile lines appearing at a broad scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with fine smile lines appearing at a broad scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-skin-details-base-fine-smile-lines",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-uncommon",
+        "skin-details"
+      ],
+      "facets": {
+        "detail": "fine-smile-lines",
+        "treatment": "broad-scale"
+      },
+      "subcategory": "fine-smile-lines",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-details-base-fine-smile-lines-generous-scale",
+      "semantic_key": "identity-skin-details-base-fine-smile-lines-generous-scale",
+      "text": "fine smile lines appearing at a generous scale",
+      "sentence": "Fine smile lines appearing at a generous scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "fine smile lines appearing at a generous scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing fine smile lines appearing at a generous scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with fine smile lines appearing at a generous scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-skin-details-base-fine-smile-lines",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-uncommon",
+        "skin-details"
+      ],
+      "facets": {
+        "detail": "fine-smile-lines",
+        "treatment": "generous-scale"
+      },
+      "subcategory": "fine-smile-lines",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-details-base-fine-smile-lines-graduated-scale",
+      "semantic_key": "identity-skin-details-base-fine-smile-lines-graduated-scale",
+      "text": "fine smile lines appearing at a graduated scale",
+      "sentence": "Fine smile lines appearing at a graduated scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "fine smile lines appearing at a graduated scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing fine smile lines appearing at a graduated scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with fine smile lines appearing at a graduated scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-skin-details-base-fine-smile-lines",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-rare",
+        "skin-details"
+      ],
+      "facets": {
+        "detail": "fine-smile-lines",
+        "treatment": "graduated-scale"
+      },
+      "subcategory": "fine-smile-lines",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-details-base-fine-smile-lines-irregular-scale",
+      "semantic_key": "identity-skin-details-base-fine-smile-lines-irregular-scale",
+      "text": "fine smile lines appearing at a irregular scale",
+      "sentence": "Fine smile lines appearing at a irregular scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "fine smile lines appearing at a irregular scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing fine smile lines appearing at a irregular scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with fine smile lines appearing at a irregular scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-skin-details-base-fine-smile-lines",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-rare",
+        "skin-details"
+      ],
+      "facets": {
+        "detail": "fine-smile-lines",
+        "treatment": "irregular-scale"
+      },
+      "subcategory": "fine-smile-lines",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-details-base-fine-forehead-lines-delicate-scale",
+      "semantic_key": "identity-skin-details-base-fine-forehead-lines-delicate-scale",
+      "text": "fine forehead lines appearing at a delicate scale",
+      "sentence": "Fine forehead lines appearing at a delicate scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "fine forehead lines appearing at a delicate scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing fine forehead lines appearing at a delicate scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with fine forehead lines appearing at a delicate scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-details-base-fine-forehead-lines",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-details"
+      ],
+      "facets": {
+        "detail": "fine-forehead-lines",
+        "treatment": "delicate-scale"
+      },
+      "subcategory": "fine-forehead-lines",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-details-base-fine-forehead-lines-compact-scale",
+      "semantic_key": "identity-skin-details-base-fine-forehead-lines-compact-scale",
+      "text": "fine forehead lines appearing at a compact scale",
+      "sentence": "Fine forehead lines appearing at a compact scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "fine forehead lines appearing at a compact scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing fine forehead lines appearing at a compact scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with fine forehead lines appearing at a compact scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-details-base-fine-forehead-lines",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-details"
+      ],
+      "facets": {
+        "detail": "fine-forehead-lines",
+        "treatment": "compact-scale"
+      },
+      "subcategory": "fine-forehead-lines",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-details-base-fine-forehead-lines-balanced-scale",
+      "semantic_key": "identity-skin-details-base-fine-forehead-lines-balanced-scale",
+      "text": "fine forehead lines appearing at a balanced scale",
+      "sentence": "Fine forehead lines appearing at a balanced scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "fine forehead lines appearing at a balanced scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing fine forehead lines appearing at a balanced scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with fine forehead lines appearing at a balanced scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-details-base-fine-forehead-lines",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-details"
+      ],
+      "facets": {
+        "detail": "fine-forehead-lines",
+        "treatment": "balanced-scale"
+      },
+      "subcategory": "fine-forehead-lines",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-details-base-fine-forehead-lines-elongated-scale",
+      "semantic_key": "identity-skin-details-base-fine-forehead-lines-elongated-scale",
+      "text": "fine forehead lines appearing at a elongated scale",
+      "sentence": "Fine forehead lines appearing at a elongated scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "fine forehead lines appearing at a elongated scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing fine forehead lines appearing at a elongated scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with fine forehead lines appearing at a elongated scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-details-base-fine-forehead-lines",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-details"
+      ],
+      "facets": {
+        "detail": "fine-forehead-lines",
+        "treatment": "elongated-scale"
+      },
+      "subcategory": "fine-forehead-lines",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-details-base-fine-forehead-lines-broad-scale",
+      "semantic_key": "identity-skin-details-base-fine-forehead-lines-broad-scale",
+      "text": "fine forehead lines appearing at a broad scale",
+      "sentence": "Fine forehead lines appearing at a broad scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "fine forehead lines appearing at a broad scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing fine forehead lines appearing at a broad scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with fine forehead lines appearing at a broad scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-skin-details-base-fine-forehead-lines",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-uncommon",
+        "skin-details"
+      ],
+      "facets": {
+        "detail": "fine-forehead-lines",
+        "treatment": "broad-scale"
+      },
+      "subcategory": "fine-forehead-lines",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-details-base-fine-forehead-lines-generous-scale",
+      "semantic_key": "identity-skin-details-base-fine-forehead-lines-generous-scale",
+      "text": "fine forehead lines appearing at a generous scale",
+      "sentence": "Fine forehead lines appearing at a generous scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "fine forehead lines appearing at a generous scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing fine forehead lines appearing at a generous scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with fine forehead lines appearing at a generous scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-skin-details-base-fine-forehead-lines",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-uncommon",
+        "skin-details"
+      ],
+      "facets": {
+        "detail": "fine-forehead-lines",
+        "treatment": "generous-scale"
+      },
+      "subcategory": "fine-forehead-lines",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-details-base-fine-forehead-lines-graduated-scale",
+      "semantic_key": "identity-skin-details-base-fine-forehead-lines-graduated-scale",
+      "text": "fine forehead lines appearing at a graduated scale",
+      "sentence": "Fine forehead lines appearing at a graduated scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "fine forehead lines appearing at a graduated scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing fine forehead lines appearing at a graduated scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with fine forehead lines appearing at a graduated scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-skin-details-base-fine-forehead-lines",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-rare",
+        "skin-details"
+      ],
+      "facets": {
+        "detail": "fine-forehead-lines",
+        "treatment": "graduated-scale"
+      },
+      "subcategory": "fine-forehead-lines",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-details-base-fine-forehead-lines-irregular-scale",
+      "semantic_key": "identity-skin-details-base-fine-forehead-lines-irregular-scale",
+      "text": "fine forehead lines appearing at a irregular scale",
+      "sentence": "Fine forehead lines appearing at a irregular scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "fine forehead lines appearing at a irregular scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing fine forehead lines appearing at a irregular scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with fine forehead lines appearing at a irregular scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-skin-details-base-fine-forehead-lines",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-rare",
+        "skin-details"
+      ],
+      "facets": {
+        "detail": "fine-forehead-lines",
+        "treatment": "irregular-scale"
+      },
+      "subcategory": "fine-forehead-lines",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-details-base-subtle-under-eye-texture-delicate-scale",
+      "semantic_key": "identity-skin-details-base-subtle-under-eye-texture-delicate-scale",
+      "text": "subtle under-eye texture appearing at a delicate scale",
+      "sentence": "Subtle under-eye texture appearing at a delicate scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "subtle under-eye texture appearing at a delicate scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing subtle under-eye texture appearing at a delicate scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with subtle under-eye texture appearing at a delicate scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-details-base-subtle-under-eye-texture",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-details"
+      ],
+      "facets": {
+        "detail": "subtle-under-eye-texture",
+        "treatment": "delicate-scale"
+      },
+      "subcategory": "subtle-under-eye-texture",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-details-base-subtle-under-eye-texture-compact-scale",
+      "semantic_key": "identity-skin-details-base-subtle-under-eye-texture-compact-scale",
+      "text": "subtle under-eye texture appearing at a compact scale",
+      "sentence": "Subtle under-eye texture appearing at a compact scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "subtle under-eye texture appearing at a compact scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing subtle under-eye texture appearing at a compact scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with subtle under-eye texture appearing at a compact scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-details-base-subtle-under-eye-texture",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-details"
+      ],
+      "facets": {
+        "detail": "subtle-under-eye-texture",
+        "treatment": "compact-scale"
+      },
+      "subcategory": "subtle-under-eye-texture",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-details-base-subtle-under-eye-texture-balanced-scale",
+      "semantic_key": "identity-skin-details-base-subtle-under-eye-texture-balanced-scale",
+      "text": "subtle under-eye texture appearing at a balanced scale",
+      "sentence": "Subtle under-eye texture appearing at a balanced scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "subtle under-eye texture appearing at a balanced scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing subtle under-eye texture appearing at a balanced scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with subtle under-eye texture appearing at a balanced scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-details-base-subtle-under-eye-texture",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-details"
+      ],
+      "facets": {
+        "detail": "subtle-under-eye-texture",
+        "treatment": "balanced-scale"
+      },
+      "subcategory": "subtle-under-eye-texture",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-details-base-subtle-under-eye-texture-elongated-scale",
+      "semantic_key": "identity-skin-details-base-subtle-under-eye-texture-elongated-scale",
+      "text": "subtle under-eye texture appearing at a elongated scale",
+      "sentence": "Subtle under-eye texture appearing at a elongated scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "subtle under-eye texture appearing at a elongated scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing subtle under-eye texture appearing at a elongated scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with subtle under-eye texture appearing at a elongated scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-details-base-subtle-under-eye-texture",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-details"
+      ],
+      "facets": {
+        "detail": "subtle-under-eye-texture",
+        "treatment": "elongated-scale"
+      },
+      "subcategory": "subtle-under-eye-texture",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-details-base-subtle-under-eye-texture-broad-scale",
+      "semantic_key": "identity-skin-details-base-subtle-under-eye-texture-broad-scale",
+      "text": "subtle under-eye texture appearing at a broad scale",
+      "sentence": "Subtle under-eye texture appearing at a broad scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "subtle under-eye texture appearing at a broad scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing subtle under-eye texture appearing at a broad scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with subtle under-eye texture appearing at a broad scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-skin-details-base-subtle-under-eye-texture",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-uncommon",
+        "skin-details"
+      ],
+      "facets": {
+        "detail": "subtle-under-eye-texture",
+        "treatment": "broad-scale"
+      },
+      "subcategory": "subtle-under-eye-texture",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-details-base-subtle-under-eye-texture-generous-scale",
+      "semantic_key": "identity-skin-details-base-subtle-under-eye-texture-generous-scale",
+      "text": "subtle under-eye texture appearing at a generous scale",
+      "sentence": "Subtle under-eye texture appearing at a generous scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "subtle under-eye texture appearing at a generous scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing subtle under-eye texture appearing at a generous scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with subtle under-eye texture appearing at a generous scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-skin-details-base-subtle-under-eye-texture",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-uncommon",
+        "skin-details"
+      ],
+      "facets": {
+        "detail": "subtle-under-eye-texture",
+        "treatment": "generous-scale"
+      },
+      "subcategory": "subtle-under-eye-texture",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-details-base-subtle-under-eye-texture-graduated-scale",
+      "semantic_key": "identity-skin-details-base-subtle-under-eye-texture-graduated-scale",
+      "text": "subtle under-eye texture appearing at a graduated scale",
+      "sentence": "Subtle under-eye texture appearing at a graduated scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "subtle under-eye texture appearing at a graduated scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing subtle under-eye texture appearing at a graduated scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with subtle under-eye texture appearing at a graduated scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-skin-details-base-subtle-under-eye-texture",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-rare",
+        "skin-details"
+      ],
+      "facets": {
+        "detail": "subtle-under-eye-texture",
+        "treatment": "graduated-scale"
+      },
+      "subcategory": "subtle-under-eye-texture",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-details-base-subtle-under-eye-texture-irregular-scale",
+      "semantic_key": "identity-skin-details-base-subtle-under-eye-texture-irregular-scale",
+      "text": "subtle under-eye texture appearing at a irregular scale",
+      "sentence": "Subtle under-eye texture appearing at a irregular scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "subtle under-eye texture appearing at a irregular scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing subtle under-eye texture appearing at a irregular scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with subtle under-eye texture appearing at a irregular scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-skin-details-base-subtle-under-eye-texture",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-rare",
+        "skin-details"
+      ],
+      "facets": {
+        "detail": "subtle-under-eye-texture",
+        "treatment": "irregular-scale"
+      },
+      "subcategory": "subtle-under-eye-texture",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-details-base-sun-kissed-variation-delicate-scale",
+      "semantic_key": "identity-skin-details-base-sun-kissed-variation-delicate-scale",
+      "text": "sun-kissed variation appearing at a delicate scale",
+      "sentence": "Sun-kissed variation appearing at a delicate scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "sun-kissed variation appearing at a delicate scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing sun-kissed variation appearing at a delicate scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with sun-kissed variation appearing at a delicate scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-details-base-sun-kissed-variation",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-details"
+      ],
+      "facets": {
+        "detail": "sun-kissed-variation",
+        "treatment": "delicate-scale"
+      },
+      "subcategory": "sun-kissed-variation",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-details-base-sun-kissed-variation-compact-scale",
+      "semantic_key": "identity-skin-details-base-sun-kissed-variation-compact-scale",
+      "text": "sun-kissed variation appearing at a compact scale",
+      "sentence": "Sun-kissed variation appearing at a compact scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "sun-kissed variation appearing at a compact scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing sun-kissed variation appearing at a compact scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with sun-kissed variation appearing at a compact scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-details-base-sun-kissed-variation",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-details"
+      ],
+      "facets": {
+        "detail": "sun-kissed-variation",
+        "treatment": "compact-scale"
+      },
+      "subcategory": "sun-kissed-variation",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-details-base-sun-kissed-variation-balanced-scale",
+      "semantic_key": "identity-skin-details-base-sun-kissed-variation-balanced-scale",
+      "text": "sun-kissed variation appearing at a balanced scale",
+      "sentence": "Sun-kissed variation appearing at a balanced scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "sun-kissed variation appearing at a balanced scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing sun-kissed variation appearing at a balanced scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with sun-kissed variation appearing at a balanced scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-details-base-sun-kissed-variation",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-details"
+      ],
+      "facets": {
+        "detail": "sun-kissed-variation",
+        "treatment": "balanced-scale"
+      },
+      "subcategory": "sun-kissed-variation",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-details-base-sun-kissed-variation-elongated-scale",
+      "semantic_key": "identity-skin-details-base-sun-kissed-variation-elongated-scale",
+      "text": "sun-kissed variation appearing at a elongated scale",
+      "sentence": "Sun-kissed variation appearing at a elongated scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "sun-kissed variation appearing at a elongated scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing sun-kissed variation appearing at a elongated scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with sun-kissed variation appearing at a elongated scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-details-base-sun-kissed-variation",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-details"
+      ],
+      "facets": {
+        "detail": "sun-kissed-variation",
+        "treatment": "elongated-scale"
+      },
+      "subcategory": "sun-kissed-variation",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-details-base-sun-kissed-variation-broad-scale",
+      "semantic_key": "identity-skin-details-base-sun-kissed-variation-broad-scale",
+      "text": "sun-kissed variation appearing at a broad scale",
+      "sentence": "Sun-kissed variation appearing at a broad scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "sun-kissed variation appearing at a broad scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing sun-kissed variation appearing at a broad scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with sun-kissed variation appearing at a broad scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-skin-details-base-sun-kissed-variation",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-uncommon",
+        "skin-details"
+      ],
+      "facets": {
+        "detail": "sun-kissed-variation",
+        "treatment": "broad-scale"
+      },
+      "subcategory": "sun-kissed-variation",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-details-base-sun-kissed-variation-generous-scale",
+      "semantic_key": "identity-skin-details-base-sun-kissed-variation-generous-scale",
+      "text": "sun-kissed variation appearing at a generous scale",
+      "sentence": "Sun-kissed variation appearing at a generous scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "sun-kissed variation appearing at a generous scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing sun-kissed variation appearing at a generous scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with sun-kissed variation appearing at a generous scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-skin-details-base-sun-kissed-variation",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-uncommon",
+        "skin-details"
+      ],
+      "facets": {
+        "detail": "sun-kissed-variation",
+        "treatment": "generous-scale"
+      },
+      "subcategory": "sun-kissed-variation",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-details-base-sun-kissed-variation-graduated-scale",
+      "semantic_key": "identity-skin-details-base-sun-kissed-variation-graduated-scale",
+      "text": "sun-kissed variation appearing at a graduated scale",
+      "sentence": "Sun-kissed variation appearing at a graduated scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "sun-kissed variation appearing at a graduated scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing sun-kissed variation appearing at a graduated scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with sun-kissed variation appearing at a graduated scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-skin-details-base-sun-kissed-variation",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-rare",
+        "skin-details"
+      ],
+      "facets": {
+        "detail": "sun-kissed-variation",
+        "treatment": "graduated-scale"
+      },
+      "subcategory": "sun-kissed-variation",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-details-base-sun-kissed-variation-irregular-scale",
+      "semantic_key": "identity-skin-details-base-sun-kissed-variation-irregular-scale",
+      "text": "sun-kissed variation appearing at a irregular scale",
+      "sentence": "Sun-kissed variation appearing at a irregular scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "sun-kissed variation appearing at a irregular scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing sun-kissed variation appearing at a irregular scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with sun-kissed variation appearing at a irregular scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-skin-details-base-sun-kissed-variation",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-rare",
+        "skin-details"
+      ],
+      "facets": {
+        "detail": "sun-kissed-variation",
+        "treatment": "irregular-scale"
+      },
+      "subcategory": "sun-kissed-variation",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-details-base-natural-tonal-variation-delicate-scale",
+      "semantic_key": "identity-skin-details-base-natural-tonal-variation-delicate-scale",
+      "text": "natural tonal variation appearing at a delicate scale",
+      "sentence": "Natural tonal variation appearing at a delicate scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "natural tonal variation appearing at a delicate scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing natural tonal variation appearing at a delicate scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with natural tonal variation appearing at a delicate scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-details-base-natural-tonal-variation",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-details"
+      ],
+      "facets": {
+        "detail": "natural-tonal-variation",
+        "treatment": "delicate-scale"
+      },
+      "subcategory": "natural-tonal-variation",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-details-base-natural-tonal-variation-compact-scale",
+      "semantic_key": "identity-skin-details-base-natural-tonal-variation-compact-scale",
+      "text": "natural tonal variation appearing at a compact scale",
+      "sentence": "Natural tonal variation appearing at a compact scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "natural tonal variation appearing at a compact scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing natural tonal variation appearing at a compact scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with natural tonal variation appearing at a compact scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-details-base-natural-tonal-variation",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-details"
+      ],
+      "facets": {
+        "detail": "natural-tonal-variation",
+        "treatment": "compact-scale"
+      },
+      "subcategory": "natural-tonal-variation",
+      "intensity": "subtle",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-details-base-natural-tonal-variation-balanced-scale",
+      "semantic_key": "identity-skin-details-base-natural-tonal-variation-balanced-scale",
+      "text": "natural tonal variation appearing at a balanced scale",
+      "sentence": "Natural tonal variation appearing at a balanced scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "natural tonal variation appearing at a balanced scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing natural tonal variation appearing at a balanced scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with natural tonal variation appearing at a balanced scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-details-base-natural-tonal-variation",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-details"
+      ],
+      "facets": {
+        "detail": "natural-tonal-variation",
+        "treatment": "balanced-scale"
+      },
+      "subcategory": "natural-tonal-variation",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-details-base-natural-tonal-variation-elongated-scale",
+      "semantic_key": "identity-skin-details-base-natural-tonal-variation-elongated-scale",
+      "text": "natural tonal variation appearing at a elongated scale",
+      "sentence": "Natural tonal variation appearing at a elongated scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "natural tonal variation appearing at a elongated scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing natural tonal variation appearing at a elongated scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with natural tonal variation appearing at a elongated scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 1.0,
+      "status": "active",
+      "family": "identity-skin-details-base-natural-tonal-variation",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-common",
+        "skin-details"
+      ],
+      "facets": {
+        "detail": "natural-tonal-variation",
+        "treatment": "elongated-scale"
+      },
+      "subcategory": "natural-tonal-variation",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-details-base-natural-tonal-variation-broad-scale",
+      "semantic_key": "identity-skin-details-base-natural-tonal-variation-broad-scale",
+      "text": "natural tonal variation appearing at a broad scale",
+      "sentence": "Natural tonal variation appearing at a broad scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "natural tonal variation appearing at a broad scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing natural tonal variation appearing at a broad scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with natural tonal variation appearing at a broad scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-skin-details-base-natural-tonal-variation",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-uncommon",
+        "skin-details"
+      ],
+      "facets": {
+        "detail": "natural-tonal-variation",
+        "treatment": "broad-scale"
+      },
+      "subcategory": "natural-tonal-variation",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-details-base-natural-tonal-variation-generous-scale",
+      "semantic_key": "identity-skin-details-base-natural-tonal-variation-generous-scale",
+      "text": "natural tonal variation appearing at a generous scale",
+      "sentence": "Natural tonal variation appearing at a generous scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "natural tonal variation appearing at a generous scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing natural tonal variation appearing at a generous scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with natural tonal variation appearing at a generous scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.7,
+      "status": "active",
+      "family": "identity-skin-details-base-natural-tonal-variation",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-uncommon",
+        "skin-details"
+      ],
+      "facets": {
+        "detail": "natural-tonal-variation",
+        "treatment": "generous-scale"
+      },
+      "subcategory": "natural-tonal-variation",
+      "intensity": "moderate",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-details-base-natural-tonal-variation-graduated-scale",
+      "semantic_key": "identity-skin-details-base-natural-tonal-variation-graduated-scale",
+      "text": "natural tonal variation appearing at a graduated scale",
+      "sentence": "Natural tonal variation appearing at a graduated scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "natural tonal variation appearing at a graduated scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing natural tonal variation appearing at a graduated scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with natural tonal variation appearing at a graduated scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-skin-details-base-natural-tonal-variation",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-rare",
+        "skin-details"
+      ],
+      "facets": {
+        "detail": "natural-tonal-variation",
+        "treatment": "graduated-scale"
+      },
+      "subcategory": "natural-tonal-variation",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    },
+    {
+      "id": "identity-skin-details-base-natural-tonal-variation-irregular-scale",
+      "semantic_key": "identity-skin-details-base-natural-tonal-variation-irregular-scale",
+      "text": "natural tonal variation appearing at a irregular scale",
+      "sentence": "Natural tonal variation appearing at a irregular scale.",
+      "variants": [
+        {
+          "id": "plain",
+          "text": "natural tonal variation appearing at a irregular scale",
+          "weight": 1.0
+        },
+        {
+          "id": "observed",
+          "text": "showing natural tonal variation appearing at a irregular scale",
+          "weight": 0.8
+        },
+        {
+          "id": "rendered",
+          "text": "rendered with natural tonal variation appearing at a irregular scale",
+          "weight": 0.6
+        }
+      ],
+      "weight": 0.4,
+      "status": "active",
+      "family": "identity-skin-details-base-natural-tonal-variation",
+      "tags": [
+        "base",
+        "identity",
+        "rarity-rare",
+        "skin-details"
+      ],
+      "facets": {
+        "detail": "natural-tonal-variation",
+        "treatment": "irregular-scale"
+      },
+      "subcategory": "natural-tonal-variation",
+      "intensity": "strong",
+      "safety": "general",
+      "join_hint": "sentence"
+    }
+  ]
+}
